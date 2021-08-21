@@ -1,0 +1,56 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Sat Aug 21 12:25:06 CEST 2021
+# Last Modified: Sat Aug 21 12:25:09 CEST 2021
+# Filename:      humdrum-polish-scores/bin/countNotes
+# Syntax:        perl 5
+#
+# Description:   Count the number of printed notes in each
+#                libraries' folder.
+#
+
+use strict;
+
+my $notecount = `which notecount`;
+chomp $notecount;
+die "Cannot find notecount tool, Install Humdrum Extras\n" if $notecount =~ /^\s*$/;
+
+my @directories = getDataDirectories(".");
+
+my $sum = 0;
+foreach my $dir (@directories) {
+	my $command = "$notecount $dir/kern/*.krn | grep written-notes | sed 's/.*:[ 	]*//'";
+	my $count = `$command`;
+	$sum += $count;
+	chomp $count;
+	print "$count\t$dir\n";
+}
+print "$sum\tSUM\n";
+
+exit(0);
+
+###########################################################################
+
+
+##############################
+##
+## getDataDirectories --
+##
+
+sub getDataDirectories {
+	my ($dir) = @_;
+	my @output;
+	opendir(DIR, $dir) or die "Cannot open $dir\n";
+	while (my $file = readdir(DIR)) {
+		next if $file =~ /^\./;
+		next if !-d "$dir/$file";
+		next if $file !~ /^pl-[a-z]+$/;
+		$output[@output] = $file;
+	}
+	closedir(DIR);
+	return sort @output;
+}
+
+
+

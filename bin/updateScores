@@ -1,0 +1,212 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Sat Aug 21 08:59:28 CEST 2021
+# Last Modified: Sat Aug 21 09:15:53 CEST 2021
+# Filename:      humdrum-polish-scores/bin/updateScores
+# Syntax:        perl 5
+#
+# Description:   Copy files from production repository to this one.
+#                This repository is read-only, and updates are made
+#                by copying from the production repository after 
+#                checking the condition of newer scores.
+# Options:
+#    -l  :: Show list of libraries based on source directory filenames.
+#    -t  :: Set the file count threshold for validating source directory.
+#
+
+use strict;
+use Getopt::Long;
+use File::Copy;
+
+my $libraryQ;
+my $threshold;
+
+Getopt::Long::Configure("bundling");
+GetOptions (
+   'l|libraries' => \$libraryQ,
+   't|threshold' => \$threshold
+);
+
+my $srcdir = $ARGV[0];
+my $targdir = $ARGV[1];
+
+$threshold = 100 if !$threshold;
+
+die "Usage: $0 source-dir target-dir\n" if $srcdir =~ /^\s*$/;
+die "Usage: $0 source-dir target-dir\n" if $targdir =~ /^\s*$/;
+
+die "Source directory $srcdir not found\n" if !-d $srcdir;
+die "Target directory $targdir not found\n" if !-d $targdir;
+
+my @SourceFiles = glob("$srcdir/*.krn");
+if (@SourceFiles < $threshold) {
+	@SourceFiles = glob("$srcdir/kern/*.krn");
+}
+
+die "Fewer than expected files in $srcdir\n" if @SourceFiles < $threshold;
+
+validateFilenames(@SourceFiles);
+
+my %libraries = getLibraryInfo(@SourceFiles);
+
+if ($libraryQ) {
+	my $sum = 0;
+	foreach my $library (sort keys %libraries) {
+		my $count = $libraries{$library};
+		print "$count\t$library\n";
+		$sum += $count;
+	}
+	print "$sum\tTOTAL\n";
+	exit(0);
+}
+
+my %ExistingFiles = getExistingFiles($targdir);
+
+prepareDirectories(%libraries);
+copyFiles();
+removeOrphanedFiles();
+
+exit(0);
+
+###########################################################################
+
+
+##############################
+##
+## removeOrphanedFiles -- Delete files that are no longer present in the
+##     source repository (or maybe they have been renamed).
+##
+
+sub removeOrphanedFiles {
+	my @oldfiles = sort keys %ExistingFiles;
+	foreach my $file (@oldfiles) {
+		next if $ExistingFiles{$file};
+		next if $file !~ /^(pl-[a-z]+)-/;
+		my $siglum = $1;
+		print STDERR "Deleting file: $targdir/$siglum/kern/$file\n";
+		unlink("$targdir/$siglum/kern/$file");
+	}
+}
+
+
+
+##############################
+##
+## copyFiles -- copy files from source directory to individual library
+##     directories.
+##
+
+sub copyFiles {
+	foreach my $file (@SourceFiles) {
+		my $base = $file;
+		$base =~ s/.*\///;
+		next if $base !~ /^(pl-[a-z]+)-/;
+		my $siglum = $1;
+		die "Strange problem" if !-d "$targdir/$siglum/kern";
+		if (!-r "$targdir/$siglum/kern/$base") {
+			print "Creating $targdir/$siglum/kern/$base\n";
+			copy($file, "$targdir/$siglum/kern/$base") or die "Problem here";
+		} else {
+			copy($file, "$targdir/$siglum/kern/$base") or die "Problem 2 here";
+			$ExistingFiles{$base}++;
+		}
+	}
+}
+
+
+
+##############################
+##
+## getExistingFiles -- Get a list of all of the files that are already
+##     present in the repository.
+##
+
+sub getExistingFiles {
+	my ($targdir) = @_;
+	my @files = glob("$targdir/pl-*/kern/*.krn");
+	my %output;
+	foreach my $file (@files) {
+		my $base = $file;
+		$base =~ s/.*\///;
+		$output{$base} = 0;
+	}
+	return %output;
+}
+
+
+
+##############################
+##
+## prepareDirectories -- Create library directories if they do not exist.
+##
+
+sub prepareDirectories {
+	my %libraries = @_;
+	foreach my $library (sort keys %libraries) {
+		if ($library !~ /^pl-/) {
+			print STDERR "WARNING: Poorly formatted siglum being ignored: $library\n";
+			next;
+		}
+		if (!-d "$targdir/$library") {
+			print STDERR "Creating directory $targdir/$library\n";
+			mkdir("$targdir/$library") or die "Cannot create directory $targdir/$library";
+		}
+		if (!-d "$targdir/$library/kern") {
+			mkdir("$targdir/$library/kern") or die "Cannot create directory $targdir/$library/kern";
+		}
+	}
+}
+
+
+
+##############################
+##
+## validateFilenames --
+##
+
+sub validateFilenames {
+	my @files = @_;
+	my $error = 0;
+	foreach my $file (@files) {
+		if ($file =~ /([^a-z0-9._\/-])/) {
+			print STDERR "ERROR: Invalid character $1 in file $file\n";
+			$error++;
+		}
+		my $base = $file;
+		$base =~ s/.*\///;
+		if ($base !~ /^pl-/) {
+			print STDERR "ERROR: Filename must start with 'pl-'\n";
+			$error++;
+		}
+	}
+	die "Cannot process until errors are fixed.\n" if $error > 0;
+}
+
+
+
+##############################
+##
+## getLibraryInfo --
+##
+
+sub getLibraryInfo {
+	my @files = @_;
+	my %output;
+	foreach my $file (@files) {
+		my $base = $file;
+		$base =~ s/.*\///;
+		if ($base =~ /^(pl-[a-z]+)-/) {
+			my $siglum = $1;
+			$output{$siglum}++;
+		} else {
+			print STDERR "WARNING: Invalid filename for library info: $file\n";
+		}
+	}
+	return %output;
+}
+
+
+
+
+
