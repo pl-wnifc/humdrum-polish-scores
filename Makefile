@@ -59,4 +59,15 @@ count-notes:
 	@bin/countNotes
 
 
+##############################
+##
+## composers -- List the composers represented in the
+##     repository along with a count of the number of
+##     digital scores for each composer.
+##
+
+composers:
+	@grep -h COM pl-*/kern/*.krn | sed 's/^\!\!\!COM: //' | sort | uniq -c
+
+
 
