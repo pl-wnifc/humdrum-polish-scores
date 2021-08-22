@@ -1,3 +1,14 @@
+##
+## Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
+## Creation Date: Sat Aug 21 14:20:30 CEST 2021
+## Last Modified: Sat Aug 21 14:20:32 CEST 2021
+## Syntax:        GNU Makefile
+## Filename:      humdrum-polish-scores/Makefile
+## vim:           ts=3
+##
+## Description:   Makefile for various actions in the
+##                humdrum-polish-scores repository.
+##
 
 
 ##############################
