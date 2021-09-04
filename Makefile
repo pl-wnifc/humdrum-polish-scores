@@ -1,7 +1,7 @@
 ##
 ## Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
 ## Creation Date: Sat Aug 21 14:20:30 CEST 2021
-## Last Modified: Sat Aug 21 14:20:32 CEST 2021
+## Last Modified: Sat Sep  4 05:18:45 CEST 2021
 ## Syntax:        GNU Makefile
 ## Filename:      humdrum-polish-scores/Makefile
 ## vim:           ts=3
@@ -10,6 +10,18 @@
 ##                humdrum-polish-scores repository.
 ##
 
+
+all:
+	@echo
+	@echo "make note-count      -- Count the number of notes by library."
+	@echo "make composers       -- List composers and counts of files for each."
+	@echo "make files           -- Count files by library."
+	@echo "make file-composers  -- List composer components of filenames."
+	@echo
+	@echo "Maintenance targets:"
+	@echo "   make update       -- Copy scores from production repository."
+	@echo "   make source-files -- Count files by library in prod. repo."
+	@echo
 
 ##############################
 ##
@@ -42,32 +54,32 @@ libraries:
 
 ##############################
 ##
-## count-files -- List the library sigla and file counts for
+## source-files -- List the library sigla and file counts for
 ##     incoming files from the production repository.  This
 ##     can be used to check for errors in sigla or data files
 ##     that are not prefixed with a siglum.
 ##
 
-count-files: libraries
-cf: libraries
-f: libraries
-files: libraries
+sf: source-files
+source-files: libraries
 
 
 
 ##############################
 ##
-## count-files -- List the library sigla and file counts for
-##     incoming files from the production repository.  This
-##     can be used to check for errors in sigla or data files
-##     that are not prefixed with a siglum.
+## note-count -- Count the number of notes by library.
 ##
 
-notes: count-notes
-cn: count-notes
-n: count-notes
-count-notes:
+n: note-count
+nc: note-count
+notes: note-count
+cn: note-count
+count-notes: note-count
+count-note: note-count
+note-counts: note-count
+note-count:
 	@bin/countNotes
+
 
 
 ##############################
@@ -77,8 +89,27 @@ count-notes:
 ##     digital scores for each composer.
 ##
 
+c: composers
+composer: composers
 composers:
 	@grep -h COM pl-*/kern/*.krn | sed 's/^\!\!\!COM: //' | sort | uniq -c
+
+
+
+##############################
+##
+## file-composers -- List the composers names found in files.
+##     Filenames should be structured:
+##        id_composer--title.krn
+##     So this command removes everything before the (last) underscore, and
+##     then removes everything after the first -- that is left.  This should
+##     result in the composer.
+##
+
+fc: file-composers
+file-composer: file-composers
+file-composers:
+	@ls pl-*/kern/* | sed 's/.*_//; s/--.*//' | sort | uniq -c
 
 
 
