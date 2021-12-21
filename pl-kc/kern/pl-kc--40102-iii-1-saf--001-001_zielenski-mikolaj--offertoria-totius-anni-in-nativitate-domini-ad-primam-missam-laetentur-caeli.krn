@@ -16,19 +16,22 @@
 !!!NIFC-rismid: 990069886
 !!!URL-scan: https://cyfrowe.mnk.pl/dlibra/publication/24235/edition/23926/content?ref=desc
 !!!ONB-nifc: UWAGA: str. 5-6. Uwaga: W xml metrum 2/1 do źródłowego C| i odpowiednio 3/1 do 3/2
+!!!key: F
 **kern	**kern	**kern	**kern
 *part4	*part3	*part2	*part1
 *staff4	*staff3	*staff2	*staff1
 *group1	*group1	*group1	*group1
 *I""Organo	*I""Organo	*I""Organo	*I""Organo
 *I''org	*I''org	*I''org	*I''org
+*Iorg	*Iorg	*Iorg	*Iorg
+*ICklav	*ICklav	*ICklav	*ICklav
 *clefF4	*clefC1	*clefF4	*clefC1
 *k[b-]	*k[b-]	*k[b-]	*k[b-]
 *F:	*F:	*F:	*F:
 *M2/1	*M2/1	*M2/1	*M2/1
 *met(C|)	*met(C|)	*met(C|)	*met(C|)
 =1	=1	=1	=1
-!	!LO:TX:a:t=Secundus Chorus.	!LO:TX:a:t=Laetentur caeli.	!
+!	!LO:TX:a:t=Secundus Chorus.	!LO:TX:a:t=Laetentur caeli.	!LO:TX:a:t=In Natiuitate Domini ad Primam Miſsam. A S.
 1r	1r	1F	2r
 .	.	.	2cc\
 1FF	2r	4.F\	4.a\
@@ -92,8 +95,8 @@
 .	.	2G\	2bn\
 .	.	4E\	4cc\
 .	.	2F\	2a\
-!LO:SIC:v:t=custos C	!LO:SIC:v:t=custos g	!LO:SIC:v:t=custos E	!LO:SIC:v:t=custos g
 .	.	4D/	4b\
+*custos:C	*custos:g	*custos:E	*custos:g
 !!LO:LB:g=original
 =9	=9	=9	=9
 0r	0r	2E\	2g/
@@ -172,8 +175,8 @@
 !	!	!	!LO:N:acc=#
 .	.	.	8bn\
 .	.	.	8a\
-!LO:SIC:v:t=custos C	!LO:SIC:v:t=custos cc	!LO:SIC:v:t=custos C	!LO:SIC:v:t=custos cc
 .	.	.	2b\
+*custos:C	*custos:cc	*custos:C	*custos:cc
 !!LO:LB:g=original
 2r	2r	2C/	2cc\
 [<2C/	[<2cc\	4C/	[<2ee\
@@ -258,8 +261,9 @@
 !	!	!	!LO:N:acc=#
 .	.	.	8bn\
 .	.	.	8a\
-!LO:SIC:v:t=custos CC	!LO:SIC:v:t=custos g	!LO:SIC:v:t=custos C	!LO:SIC:v:t=custos a, błędna wysokość
+!	!	!	!LO:SIC:v:t=błędna wysokość custos
 .	.	.	2b\
+*custos:CC	*custos:g	*custos:C	*custos:a
 !!LO:LB:g=original
 =31	=31	=31	=31
 1CC	1g	1C	1cc
@@ -279,7 +283,7 @@
 .	.	.	8dd\
 .	.	.	2ee\
 1FF	1cc	1C	1ff
-=34||	=34||	=34||	=34||
+=34-	=34-	=34-	=34-
 *M3/2	*M3/2	*M3/2	*M3/2
 00.r	00.r	1F	1cc
 .	.	1F	1a
@@ -342,8 +346,8 @@
 =51-	=51-	=51-	=51-
 .	.	1.G	1.b-
 .	.	2F\	2a\
-!LO:SIC:v:t=custos C	!LO:SIC:v:t=custos cc	!LO:SIC:v:t=custos C	!LO:SIC:v:t=custos cc
 .	.	1E-X	1g
+*custos:C	*custos:cc	*custos:C	*custos:cc
 !!LO:PB:g=original
 =52	=52	=52	=52
 00.r	00.r	1C	0cc
@@ -378,7 +382,7 @@
 .	.	0D	0ff
 =61-	=61-	=61-	=61-
 .	.	0.C	0.ee
-=62||	=62||	=62||	=62||
+=62-	=62-	=62-	=62-
 *M2/1	*M2/1	*M2/1	*M2/1
 *met(C|)	*met(C|)	*met(C|)	*met(C|)
 2r	2r	2r	2r
