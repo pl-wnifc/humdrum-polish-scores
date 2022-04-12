@@ -29,7 +29,7 @@
 *M3/4	*M3/4	*M3/4	*
 =1	=1	=1	=1
 *2\right	*2\right	*2\right	*
-!LO:TX:t=P:problem:all\right:global	!LO:TX:t=P:problem:all\right:global	!LO:TX:t=P:problem:all\right:global	!
+!LO:TX:t=P:problem=all\right&colon; global	!LO:TX:t=P:problem=all\right&colon; global	!LO:TX:t=P:problem=all\right&colon; global	!
 8EE-</L	2.ryy	2.r	.
 8GG</	.	.	.
 8C</	.	.	.
@@ -38,20 +38,20 @@
 8c</J	.	.	.
 =2	=2	=2	=2
 !!mixed beam:problem
-!LO:TX:t=P:problem:mixed beam	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!
 8GG/L	2.ryy	2.r	.
 8C/	.	.	.
 8E-/	.	.	.
 8G/	.	.	.
 8c>\	.	.	.
-!LO:TX:t=P:problem:all\right:global	!	!	!
+!LO:TX:t=P:problem=all\right&colon; global	!	!	!
 8e->\J	.	.	.
 =3	=3	=3	=3
 *^	*	*	*
 !	!	!LO:N:vis=2.	!	!
 !!mixed beam:problem
 *	*2\right	*	*	*
-!LO:N:vis=2.	!	!LO:TX:t=P:problem:mixed beam	!	!
+!LO:N:vis=2.	!	!LO:TX:t=P:problem=mixed beam	!	!
 8C/L	2.C\	2.ryy	4g/	Do-
 8E-/	.	.	.	.
 8G/	.	.	8a-/L	-mi-
@@ -60,7 +60,7 @@
 [>8g>\J	.	.	8g/J	.
 =4	=4	=4	=4	=4
 !!mixed beam:problem
-!LO:TX:t=P:problem:mixed beam	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!
 !LO:N:vis=2.	!	!	!	!
 8BBnX/L	2.BBnX\	2.g/_>	4.g/	Do-
 8C/	.	.	.	.
@@ -71,8 +71,8 @@
 !!LO:LB:g=original
 =5	=5	=5	=5	=5
 !!mixed beam:problem
-!LO:TX:t=P:problem:mixed beam	!	!	!	!
-!LO:N:vis=2.	!	!LO:TX:t=P:problem:ligatura kończy się od dołu, zaczyna od góry	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!
+!LO:N:vis=2.	!	!LO:TX:t=P:problem=ligatura kończy się od dołu, zaczyna od góry	!	!
 8BB-X/L	2.BB-X\	2.g/]	4g/	ne
 8C/	.	.	.	.
 8E-/	.	.	8f#X/	in
@@ -82,7 +82,7 @@
 =6	=6	=6	=6	=6
 *	*	*	*2\right	*
 !!mixed beam:problem
-!LO:TX:t=P:problem:mixed beam	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!
 !LO:N:vis=2.	!	!	!	!
 8AAn/L	2.AAn\	2.f#X/	2cc\	tu-
 8C/	.	.	.	.
@@ -101,7 +101,7 @@
 8c>\J	.	.	8ee-\	-re
 =8	=8	=8	=8	=8
 !!mixed beam:problem
-!LO:TX:t=P:problem:mixed beam	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!
 8e->\L	2EE-\ 2E-	2g/	2ee-\	tu-
 8B-/	.	.	.	.
 8G/	.	.	.	.
@@ -110,7 +110,7 @@
 8d>\J	.	.	.	.
 =9	=9	=9	=9	=9
 !!mixed beam:problem
-!LO:TX:t=P:problem:mixed beam	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!
 8c>\L	2.GG\	2e-/	4.cc\	ar-
 8G/	.	.	.	.
 8A-/	.	.	.	.
@@ -120,7 +120,7 @@
 !!LO:LB:g=original
 =10	=10	=10	=10	=10
 !!mixed beam:problem
-!LO:TX:t=P:problem:mixed beam	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!
 8E-/L	2.C\	2.c/	4cc\	me.
 8G/	.	.	.	.
 8c>\	.	.	4r	.
@@ -131,7 +131,7 @@
 =11	=11	=11	=11
 *	*^	*	*
 !!mixed beam:problem
-!	!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!
 2.G\	2.b-/	8e-\L	4ee-\	Ne-
 .	.	8B-</	.	.
 .	.	8f\	8dd\	-que
@@ -159,7 +159,7 @@
 .	.	4e-\	.	.
 .	4g/	.	.	.
 .	.	4Bn</)	4r	.
-!	!LO:TX:t=P:problem:brak początku ligatury	!	!	!
+!	!LO:TX:t=P:problem=brak początku ligatury	!	!	!
 .	[>8g/	.	.	.
 *	*v	*v	*	*
 !!LO:LB:g=original
@@ -170,7 +170,7 @@
 .	4D\	4f#X/	8an/	-que
 8G/	.	.	8b-\	in
 !!mixed beam:problem
-!LO:TX:t=P:problem:mixed beam	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!
 8d>\L	4GG\)	4fn/	8cc\	i-
 8G/J	.	.	8dd\	-ra
 =16	=16	=16	=16	=16
@@ -193,7 +193,7 @@
 =18	=18	=18	=18
 2.F#X\) 2.d>	8an/	4an/	me
 !!mixed beam:problem
-!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!LO:TX:t=P:problem=mixed beam	!	!
 .	(>8An</L	.	.
 .	8c</	4r	.
 .	8a\	.	.
@@ -204,7 +204,7 @@
 *	*^	*	*
 2.F\	8r	2.d\	4g/	Do-
 !!mixed beam:problem
-!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!	!LO:TX:t=P:problem=mixed beam	!	!	!
 .	8G</L	.	.	.
 .	8Bn</	.	8a-X/L	-mi-
 .	8g\	.	8g/J	.
@@ -215,7 +215,7 @@
 *^	*	*	*
 2.c#X/	2.En\	8r	4.g/	do-
 !!mixed beam:problem
-!	!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!
 .	.	8G</L	.	.
 .	.	8B-X</	.	.
 .	.	8g\	8g/	-mi-
@@ -231,7 +231,7 @@
 =22	=22	=22	=22	=22
 2.c/	2.D\ 2.F#X	8r	2cc\	tu-
 !!mixed beam:problem
-!	!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!
 .	.	8An</L	.	.
 .	.	8c</	.	.
 .	.	8an\	.	.
@@ -276,7 +276,7 @@
 8BBn/L	4BBn\	(>4d/ 4f	2g/	me,
 8G/J	.	.	.	.
 !!mixed beam:problem
-!LO:TX:t=P:problem:mixed beam	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!
 8GG/L	4GG\	8c/L 8e-	.	.
 8G\	.	8d/ 8f	.	.
 8GG/	4GG\	8e-/ 8g	4r	.
@@ -326,7 +326,7 @@
 .	.	8e-\ 8g	.	.
 4D\	4b-/	8r	.	.
 .	.	8e-\ 8g	.	.
-!LO:TX:t=P:problem:łuk frazowy rozpoczyna się od góry, a kończy od dołu	!	!	!	!
+!LO:TX:t=P:problem=łuk frazowy rozpoczyna się od góry, a kończy od dołu	!	!	!	!
 4C\)	4ee-/	8r	.	.
 *ped	*	*	*	*
 .	.	8e-\ 8g	.	.

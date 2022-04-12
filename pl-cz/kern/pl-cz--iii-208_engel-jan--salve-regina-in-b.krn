@@ -37,21 +37,21 @@
 8r	.	.	8r	.	8B-T/L	.	8dd\L	.	.	.	.	.	.	.	.	.	.
 16F\LL	.	.	16F\LL	.	8A/J	.	8cc\J	.	.	.	.	.	.	.	.	.	.
 16E-\JJ	.	.	16E-\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:mixedbeam:problem	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\L	.	.	8F\L	.	8r	.	8r	.	.	.	.	.	.	.	.	.	.
 8FF/J	.	.	8FF/J	.	8a/	.	8cc\	.	.	.	.	.	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
 *	*	*	*	*	*	*	*	*below	*	*	*	*	*	*	*	*	*
-!LO:TX:b:t=P:problem:p=p: :global	!	!	!LO:TX:a:t=P:problem:p=p: :global	!	!	!LO:DY:a	!LO:TX:a:t=P:problem:p=p: :global	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=P:p=p: :global:problem	!	!	!LO:TX:a:t=P:p=p: :global:problem	!	!	!LO:DY:a	!LO:TX:a:t=P:p=p: :global:problem	!	!	!	!	!	!	!	!	!	!
 4F\	.	p	4F\	p	8.a\L	p	8.cc\L	p	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	16cc\Jk	.	16ee-\Jk	.	.	.	.	.	.	.	.	.	.
 4F\	.	.	4F\	.	8.b-\L	.	8.dd\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	16a\Jk	.	16cc\Jk	.	.	.	.	.	.	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!LO:TX:a:t=P:problem:f=f: :global	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!LO:TX:a:t=P:f=f: :global:problem	!	!	!	!	!	!	!	!	!	!
 8BB-/L	.	.	8BB-/L	.	(8b-\L	f	8dd\L	f	.	.	.	.	.	.	.	.	.
-!LO:TX:b:t=P:problem:f=f: :global	!	!	!LO:TX:a:t=P:problem:f=f: :global	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=P:f=f: :global:problem	!	!	!LO:TX:a:t=P:f=f: :global:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 (>8B-\	.	f	(>8B-\	f	8dd\	.	24bb-\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	.	.	.
@@ -60,16 +60,16 @@
 8B-\J)	.	.	8B-\J)	.	8dd\J)	.	16ff\|	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16ff\JJ|	.	.	.	.	.	.	.	.	.	.
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
-!	!	!	!	!	!LO:TX:a:t=P:problem:p=p: :global	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:TX:a:t=P:p=p: :global:problem	!	!	!	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!	!LO:N:vis=00	!	!LO:N:vis=00	!	!LO:N:vis=00	!	!LO:N:vis=00	!	!
 4F\	.	p	4F\	p	8.a/L	p	8.cc\L	.	0r	.	0r	.	0r	.	0r	.	.
 .	.	.	.	.	16cc/Jk	.	16ee-\Jk	p	.	.	.	.	.	.	.	.	.
 4F\	.	.	4F\	.	8.b-/L	.	8.dd\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	16a/Jk	.	16cc\Jk	.	.	.	.	.	.	.	.	.	.
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
-!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!LO:TX:a:t=P:problem:f=f: :global	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!LO:TX:a:t=P:f=f: :global:problem	!	!	!	!	!	!	!	!	!	!	!	!
 8BB-/L	.	.	8BB-/L	f	(8b-\L	f	8dd\L	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 (>8B-\	.	f	(>8B-\	.	8dd\	.	24bb-\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	.	.	.
@@ -84,7 +84,7 @@
 .	.	.	.	.	16a/Jk	.	16cc\Jk	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
 =8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
-!LO:TX:a:t=P:problem:f=f.	!	!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:f=f.:problem	!	!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!	!
 8r	.	f	8r	f	8b-\L	.	24dd\LL	f	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24cc\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24b-\JJ	.	.	.	.	.	.	.	.	.	.
@@ -96,13 +96,13 @@
 8r	.	.	8r	.	8.dd\L	.	8.ff\L	.	0r	.	0r	.	0r	.	0r	.	.
 (8BBn/L	.	.	(8BBn/L	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	16ff\Jk	.	16aa-X\Jk	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!
 8C/	.	.	8C/	.	8ee-\L	.	8.gg\L	.	.	.	.	.	.	.	.	.	.
 8D/J)	.	.	8D/J)	.	8G/J	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16Bn/Jk	.	.	.	.	.	.	.	.	.	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 =10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
-!	!	!	!	!	!LO:TX:a:t=P:problem: ten takt niepotrzebnie powtarza się po sobie w źródle ale jest wykreślony	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:TX:a:t=P:problem= ten takt niepotrzebnie powtarza się po sobie w źródle ale jest wykreślony	!	!	!	!	!	!	!	!	!	!	!	!
 (8E-\L	.	.	(8E-\L	.	4.G/	f	(8c/L	.	.	.	.	.	.	.	.	.	.
 8F\	.	.	8F\	f	.	.	8d/	.	.	.	.	.	.	.	.	.	.
 8G\J)	.	.	8G\J)	.	.	.	8e-/J)	.	.	.	.	.	.	.	.	.	.
@@ -110,10 +110,10 @@
 !LO:LB:g=original	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!
 =11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11
 8r	.	.	8r	p	8.cc\L	p	8.ee-\L	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem:p=p.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:p=p.:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 (8AA/L	.	p	(8AA/L	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	16ee-\Jk	.	16gg\Jk	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!
 8BB-/	.	.	8BB-/	.	8dd\L	f	8.ff\L	.	.	.	.	.	.	.	.	.	.
 8C/J)	.	.	8C/J)	.	8f/J	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16A/Jk	f	.	.	.	.	.	.	.	.	.
@@ -132,37 +132,37 @@
 8r	.	.	8r	f	8b-\L	.	8dd\L	.	.	.	.	.	.	.	.	.	.
 16F\LL	.	f	16F\LL	.	8a\J	.	8cc\J	.	.	.	.	.	.	.	.	.	.
 16E-\JJ	.	.	16E-\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\L	.	.	8F\L	.	8r	.	8r	.	.	.	.	.	.	.	.	.	.
 8FF/J	.	.	8FF/J	.	8a/	.	8cc\	f	.	.	.	.	.	.	.	.	.
 =15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15
 8BB-/L	.	.	8BB-/L	.	8b-\	f	8dd\L	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8E-/	.	.	8E-/	.	4b-\	.	24bb-\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	.	.	.
 8D/	.	.	8D/	.	.	.	8ff\L	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8C/J	.	.	8C/J	.	[8b-\	.	24gg\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24ff\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24ee-\JJ	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
 =16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
 8BB-/L	.	.	8BB-/L	.	8b-\]	.	8dd\L	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8E-/	.	.	8E-/	.	4b-\	.	24bb-\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	.	.	.
 8D/	.	.	8D/	.	.	.	8ff\L	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8C/J	.	.	8C/J	.	8b-\	.	24gg\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24ff\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24ee-\JJ	.	.	.	.	.	.	.	.	.	.
 =17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!	!LO:N:vis=00	!	!LO:N:vis=00	!	!LO:N:vis=0	!	!LO:N:vis=0	!	!
 8BB-\L	.	.	8BB-\L	.	8b-/L	.	8dd\L	.	0r	.	0r	.	1r	.	1r	.	.
-!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8E-\	.	.	8E-\	.	24g/L	.	24ee-\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	24f/	.	24dd\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	24e-/JJ	.	24cc\JJ	.	.	.	.	.	.	.	.	.	.
@@ -174,7 +174,7 @@
 4r	.	.	4r	.	8B-/J	.	8B-/J	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	8r	.	8r	.	.	.	.	.	.	.	.	.	.
 =19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19
-!LO:TX:a:t=P:problem:p=p.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:p=p.:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4BB-/	.	p	4BB-/	p	4.d/	p	8.ff\L	p	.	.	.	.	4r	.	4ff\	Sal-	.
 .	.	.	.	.	.	.	16bb-\Jk	.	.	.	.	.	.	.	.	.	.
 4BB-/	.	.	4BB-/	.	.	.	8.b-\L	.	.	.	.	.	8r	.	8b-\	-ve	.
@@ -185,14 +185,14 @@
 8r	.	.	8r	f	8B-/L	.	8dd\L	.	.	.	.	.	8b-\	-gi-	8dd\	-gi-	.
 16F\LL	.	f	16F\LL	.	8A/J	.	8cc\J	.	.	.	.	.	8a\	-na	8cc\	-na	.
 16E-\JJ	.	.	16E-\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\L	.	.	8F\L	.	16.f/LL	.	16.f/LL	f	.	.	.	.	4r	.	4r	.	.
 .	.	.	.	.	32en/K	.	32g/K	.	.	.	.	.	.	.	.	.	.
 8FF/J	.	.	8FF/J	.	16.f/	.	16.a/	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	32f/JJk	.	32b-/JJk	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!
 =21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21
-!LO:TX:a:t=P:problem:p=p.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:p=p.:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4F\	.	p	4F\	p	8.a/L	.	8.cc\L	p	2r	.	2r	.	8.a\L	Sal-	8.cc\L	Sal-	.
 .	.	.	.	.	16cc/K	.	16ee-\K	.	.	.	.	.	16cc\K	.	16ee-\K	.	.
 4F\	.	.	4F\	.	8.b-/	.	8.dd\	.	.	.	.	.	8.b-\	.	8.dd\	.	.
@@ -215,9 +215,9 @@
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
 =24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24
 4BB-/	.	.	4BB-/	.	4b-/	.	8dd\L	.	8r	.	8r	.	8b-\	-ve	8dd\	-ve	.
-!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:f=f	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TX:a:t=P:f=f:problem	!	!	!	!	!	!	!	!	!	!
 *	*	*	*	*	*	*	*	*	*	*ij	*	*ij	*	*	*	*	*
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 .	.	.	.	.	.	.	24bb-\L	f	8B-\	Re-	8d\	Re-	8r	.	8r	.	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	.	.	.
@@ -231,13 +231,13 @@
 !	!	!	!	!	!	!	!	!	!LO:TX:a:t=2	!	!LO:TX:a:t=2	!	!LO:TX:a:t=6	!	!	!	!
 !	!	!	!	!	!	!	!	!	!LO:N:vis=0	!	!LO:N:vis=0	!	!LO:N:vis=00	!	!	!	!
 4F\	.	.	4F\	.	8.a/L	.	(8.cc\L	.	1r	.	1r	.	0r	.	8.cc\L	Sal-	.
-!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:p=p.	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TX:a:t=P:p=p.:problem	!	!	!	!	!	!	!	!	!	!
 .	.	.	.	.	32b-/LL	.	32dd\LL	p	.	.	.	.	.	.	(32dd\LL	.	.
 .	.	.	.	.	32cc/JJJ	.	32ee-\JJJ)	.	.	.	.	.	.	.	32ee-\JJJ)	.	.
 4F\	.	.	4F\	.	8b-/L	.	8dd\L	.	.	.	.	.	.	.	8dd\	-ve	.
 .	.	.	.	.	8a/J	.	8cc\J	.	.	.	.	.	.	.	8cc\	Re-	.
 =26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26
-!	!	!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!
 4BB-/	.	f	4BB-/	f	8b-\L	.	16.dd\LL	.	.	.	.	.	.	.	(16dd\LL	gi-	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16cc\JJ)	.	.
 .	.	.	.	.	.	.	32cc\JK	.	.	.	.	.	.	.	.	.	.
@@ -247,7 +247,7 @@
 16.D\	.	.	16.D\	.	16.b-/	.	16.dd\	.	.	.	.	.	.	.	.	.	.
 32C\JJk	.	.	32C\JJk	.	32cc/JJk	.	32ee-\JJk	.	.	.	.	.	.	.	.	.	.
 =27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27
-!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:p=p	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TX:a:t=P:p=p:problem	!	!	!	!	!	!	!	!	!	!
 4BB-/	.	.	4BB-/	.	4.dd\	.	8.ff\L	p	4r	.	4r	.	.	.	4ff\	Ma-	.
 .	.	.	.	.	.	.	16bb-\Jk	.	.	.	.	.	.	.	.	.	.
 4r	.	.	4r	.	.	.	8.b-\L	.	8r	.	8r	.	.	.	4b-\	-ter	.
@@ -361,7 +361,7 @@
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
 =42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42
 8r	.	.	8r	.	4b-\	f	4dd\	f	4r	.	4r	.	4b-\	-men-	4dd\	-men-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\L	#	.	8B-\L	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8d\	.	.	8d\	.	8.A/L	.	8.f#X/L	.	4F#X\	ge-	4A\	ge-	4a\	-tes	4dd\	-tes	.
 8D/J	.	.	8D/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -377,7 +377,7 @@
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!
 =44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44
 8r	.	.	8r	.	4cc\	f	4ee-\	.	4r	.	4r	.	4cc\	-men-	4een\	-men-	.
-!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8C/L	.	.	8C\L	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*ij	*	*ij	*	*	*	*	*
 8En/	.	.	8En\	.	8.Bn/L	.	8.g#X/L	f	4G\	ge-	4Bn\	et	4bn\	-tes	4ee\	-tes	.
@@ -392,7 +392,7 @@
 *	*	*	*	*	*	*	*	*	*	*Xij	*	*	*	*	*	*	*
 =46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46
 8r	.	.	8r	.	4dd\	f	4ff\	.	4r	.	4r	.	4dd\	-men-	4ff\	-men-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8D\L	.	.	8D\L	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8F\	.	.	8F\	.	8.c/L	.	8.a/L	f	4A\	et	4c\	et	4cc\	-tes	4ff\	-tes	.
 8FF/J	.	.	8FF/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -407,7 +407,7 @@
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
 =48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48
 8r	.	.	8r	.	4een\	.	4gg\	.	4r	.	4r	.	4een\	flen-	4gg\	-men-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8En\L	.	.	8En\L	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*ij	*	*	*	*	*	*	*
 8G\	n	.	8G\	.	8.d/L	.	8.bn\L	.	4Bn\	et	4d\	et	4dd\	-tes	4gg\	-tes	.
@@ -437,14 +437,14 @@
 8C/	.	.	8C/	.	8f/	.	8a\	.	.	.	.	.	.	.	(8a\L	-rum	.
 8C/J	.	.	8C/J	.	8en/J)	.	8g\J)	.	.	.	.	.	.	.	8g\J)	.	.
 =52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52
-!	!	!	!LO:TX:b:i:t=P:problem:f=for	!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:b:i:t=P:f=for:problem	!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!
 8F\L	.	f	8F\L	f	8f/L	f	8a/L	f	4F\	Val-	4c\	Val-	4f\	val-	4a\	val-	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 16F\L	.	.	16F\L	.	16a/L	.	24ff\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24een\	.	.	.	.	.	.	.	.	.	.
 16E-\JJ	.	.	16E-\JJ	.	16g/JJ	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24dd\JJ	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\L	.	.	8F\L	.	8a/L	.	16cc~\LL	.	4F\	-le	4c\	-le	4a\	-le	4ff\	-le	.
 .	.	.	.	.	.	.	16cc~\	.	.	.	.	.	.	.	.	.	.
 8FF/J	.	.	8FF/J	.	8a/J	.	16cc~\	.	.	.	.	.	.	.	.	.	.
@@ -466,12 +466,12 @@
 =55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55
 *	*	*	*	*	*	*	*	*	*	*ij	*	*ij	*	*ij	*	*	*
 8F\L	.	f	8F\L	f	8f/L	f	8a\L	.	4F\	Val-	4c\	Val-	4f\	val-	4a\	val-	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 16F\L	.	.	16F\L	.	16a/L	.	24ff\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24een\	.	.	.	.	.	.	.	.	.	.
 16E-\JJ	.	.	16E-\JJ	.	16g/JJ	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24dd\JJ	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\L	.	.	8F\L	.	8a/L	.	16cc~\LL	.	4F\	-le	4c\	-le	4a\	-le	4ff\	-le	.
 .	.	.	.	.	.	.	16cc~\	.	.	.	.	.	.	.	.	.	.
 8FF/J	.	.	8FF/J	.	8a/J	.	16cc~\	.	.	.	.	.	.	.	.	.	.
@@ -480,32 +480,32 @@
 =56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56
 8F\L	.	.	8F\L	.	8f/	p	8cc\L	.	2F\	in	2F/	in	8r	.	8r	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8B-\	.	.	8B-\	.	4f/	.	24ff\L	.	.	.	.	.	8b-\L	Val-	24ff\LL	Sal-	.
 .	.	.	.	.	.	.	24een\	.	.	.	.	.	.	.	24een\	.	.
 .	.	.	.	.	.	.	24dd\JJ	.	.	.	.	.	.	.	24dd\JJ	.	.
 8A\	.	.	8A\	.	.	.	8cc\L	.	.	.	.	.	8a\	.	8cc\L	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8G\J	.	.	8G\J	.	8f/	.	24dd\L	.	.	.	.	.	8g\J	.	24dd\L	.	.
 .	.	.	.	.	.	.	24cc\	.	.	.	.	.	.	.	24cc\	.	.
 .	.	.	.	.	.	.	24b-\JJ	.	.	.	.	.	.	.	24b-\JJ	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!
 =57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57
 8F\L	.	.	8F\L	.	8f/	.	8a\L	.	2F\	hac	2F/	hac	8f\L	.	8a\L	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8B-\	.	.	8B-\	.	4f/	.	24ff\L	.	.	.	.	.	8b-\	.	24ff\L	.	.
 .	.	.	.	.	.	.	24een\	.	.	.	.	.	.	.	24een\	.	.
 .	.	.	.	.	.	.	24dd\JJ	.	.	.	.	.	.	.	24dd\JJ	.	.
 8A\	.	.	8A\	.	.	.	8cc\L	.	.	.	.	.	8a\	.	8cc\L	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8G\J	.	.	8G\J	.	8f/	.	24dd\L	.	.	.	.	.	8g\J	.	24dd\L	.	.
 .	.	.	.	.	.	.	24cc\	.	.	.	.	.	.	.	24cc\	.	.
 .	.	.	.	.	.	.	24b-\JJ	.	.	.	.	.	.	.	24b-\JJ	.	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 =58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!
 8F\L	.	.	8F\L	.	8f/	.	8a/L	f	4F\	la-	4F/	la-	8f\L	.	8a\L	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8B-\	.	.	8B-\	.	4f/	.	24bb-\L	.	.	.	.	.	8g\	.	24b-\L	.	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	24a\	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	24g\JJ	.	.
@@ -514,45 +514,45 @@
 =59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59
 8F\L	.	.	8F\L	.	8f/	.	8ff\	.	2F\	-ma-	2F/	-ma-	8f\	-le	8a\	-ve	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:o:s=:v:=val-	!	!	!	!
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8B-\	.	p	8B-\	.	4f/	.	24ff\LL	p	.	.	.	.	8b-\L	va-	24ff\LL	val-	.
 .	.	.	.	.	.	.	24een\	.	.	.	.	.	.	.	24een\	.	.
 .	.	.	.	.	.	.	24dd\JJ	.	.	.	.	.	.	.	24dd\JJ	.	.
 8A\	.	.	8A\	p	.	.	8cc\	.	.	.	.	.	8a\	.	8cc\L	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8G\J	.	.	8G\J	.	8f/	.	24dd\LL	.	.	.	.	.	8g\J	.	24dd\L	.	.
 .	.	.	.	.	.	.	24cc\	.	.	.	.	.	.	.	24cc\	.	.
 .	.	.	.	.	.	.	24b-\JJ	.	.	.	.	.	.	.	24b-\JJ	.	.
 =60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60
-!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!
 8F\L	.	.	8F\L	.	8f/	.	8a/L	.	2F\	-rum	2F/	-rum	8f\L	.	8a\L	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8B-\	.	.	8B-\	.	4f/	.	24ff\L	.	.	.	.	.	8b-\	.	24ff\L	.	.
 .	.	.	.	.	.	.	24een\	.	.	.	.	.	.	.	24een\	.	.
 .	.	.	.	.	.	.	24dd\JJ	.	.	.	.	.	.	.	24dd\JJ	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!
 8A\	.	.	8A\	.	.	.	8cc\L	.	.	.	.	.	8a\	.	8cc\L	.	.
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8G\J	.	.	8G\J	.	8f/	.	24dd\L	.	.	.	.	.	8g\J	.	24dd\L	.	.
 .	.	.	.	.	.	.	24cc\	.	.	.	.	.	.	.	24cc\	.	.
 .	.	.	.	.	.	.	24b-\JJ	.	.	.	.	.	.	.	24b-\JJ	.	.
 !	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!
 =61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!
 8F\L	.	.	8F\L	.	8f/	.	8a/L	.	8F\L	val-	(4F/	val-	8f\L	.	8a\L	.	.
-!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:f=f	!	!	!	!	!	!	!	!	!	!
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TX:a:t=P:f=f:problem	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8B-\	.	.	8B-\	.	4f/	.	24bb-\L	f	8BB-/J	.	.	.	8g\	.	24b-\L	.	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	24a\	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	24g\JJ	.	.
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!
 8c\	.	.	8c\	.	.	.	8ff\L	.	4C/	.	4c\)	.	8f\	.	8f/L	.	.
 8C/J	.	.	8C/J	.	8c/	.	8gg\J	.	.	.	.	.	8en\J	.	8een\J	.	.
 =62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62
 4F\	.	f	4F\	.	4.A/	.	8.ff\L	.	4F\	-le	4c\	-le	4a\	-le	4ff\	-le	.
 .	.	.	.	.	.	.	16ff\Jk	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!
 4F\	.	.	4F\	.	.	.	8.f/L	.	4r	.	4r	.	4r	.	4r	.	.
 .	.	.	.	.	8ff\	f	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16aa\Jk	.	.	.	.	.	.	.	.	.	.
@@ -562,19 +562,19 @@
 8r	.	.	8r	.	8ff\L	.	8aa\L	.	0r	.	0r	.	0r	.	0r	.	.
 16c\LL	.	.	16c\LL	.	8een\J	.	8gg\J	.	.	.	.	.	.	.	.	.	.
 16Bn\JJ	.	.	16Bn\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8c\L	.	.	8c\L	.	8r	.	8r	.	.	.	.	.	.	.	.	.	.
 8C/J	.	.	8C/J	.	8ee\	.	8gg\	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!
 =64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64
-!	!	!	!	!	!LO:TX:a:t=P:problem:p=p	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:TX:a:t=P:p=p:problem	!	!	!	!	!	!	!	!	!	!	!	!
 4C/	n	p	4C/	p	8.een\L	p	8.gg\L	p	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	16gg\K	.	16bb-\K	.	.	.	.	.	.	.	.	.	.
 4C/	.	.	4C/	.	8.ff\	.	8.aa\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	16ee\Jk	.	16gg\Jk	.	.	.	.	.	.	.	.	.	.
 =65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!
 8FF/L	.	.	8FF/L	.	8ff\L	.	8aa\L	f	.	.	.	.	.	.	.	.	.
 (>8F\	.	f	(8F\	f	8a/	f	16aa\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16bb-\JJ	.	.	.	.	.	.	.	.	.	.
@@ -583,14 +583,14 @@
 8F\J)	.	.	8F\J)	.	8a/J	.	16ccc\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16ccc\JJ	.	.	.	.	.	.	.	.	.	.
 =66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66	=66
-!LO:TX:a:t=P:problem:p=p.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:p=p.:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4C/	.	p	4C/	p	8.en/L	.	8.gg\L	p	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	16g/K	.	16bb-\K	.	.	.	.	.	.	.	.	.	.
 4C/	.	.	4C/	.	8.f/	.	8.aa\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	16e/Jk	.	16gg\Jk	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
 =67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67
-!	!	!	!LO:TX:a:t=P:problem:f=f.	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:a:t=P:f=f.:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!	!LO:N:vis=00	!	!LO:N:vis=00	!	!LO:N:vis=00	!	!LO:N:vis=0	!	!
 8F\L	.	.	8F\L	f	8ff\L	.	8aa\L	f	0r	.	0r	.	0r	.	1r	.	.
 8G\	.	.	8G\	.	16.een\L	.	16.gg\L	.	.	.	.	.	.	.	.	.	.
@@ -615,7 +615,7 @@
 4r	.	.	4r	.	8f/J	.	8f/J	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	8r	.	8r	.	.	.	.	.	.	.	.	.	.
 =70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70
-!	!	!	!LO:TX:a:t=P:problem:p=p.	!	!	!LO:DY:a	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:a:t=P:p=p.:problem	!	!	!LO:DY:a	!	!	!	!	!	!	!	!	!	!	!
 4F\	.	p	4F\	p	4.A/	p	8.cc\L	p	.	.	.	.	.	.	4cc\	E-	.
 .	.	.	.	.	.	.	16ff\Jk	.	.	.	.	.	.	.	.	.	.
 4F\	.	.	4F\	.	.	.	8.f/L	.	.	.	.	.	.	.	8.ff\L	-ja	.
@@ -639,10 +639,10 @@
 .	.	.	.	.	16e/Jk	.	16g/Jk	.	.	.	.	.	.	.	16g\	-ta	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!
 =73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8FF/L	.	.	8FF/L	.	8f/L	.	8a\L	f	.	.	.	.	2r	.	(16a\LL	no-	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16b-\JJ)	.	.
-!LO:TX:b:t=P:problem:f=f.	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=P:f=f.:problem	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 (>8F\	.	f	(8F\	f	8a/	f	24ff\L	.	.	.	.	.	.	.	8cc\	-stra	.
 .	.	.	.	.	.	.	24een\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24dd\JJ	.	.	.	.	.	.	.	.	.	.
@@ -652,7 +652,7 @@
 .	.	.	.	.	.	.	16cc\JJ	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!LO:LB:g=original	!	!
 =74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74
-!LO:TX:a:t=P:problem:p=p.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:p=p.:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*ij	*
 4F\	.	p	4F\	p	8.a/L	p	8.cc\L	p	.	.	.	.	8.a\	ad-	8.cc\	ad	.
 .	.	.	.	.	16cc/Jk	.	16ee-\Jk	.	.	.	.	.	16cc\	-vo-	16ee-\	vo-	.
@@ -661,7 +661,7 @@
 .	.	.	.	.	16a/Jk	.	16cc\Jk	.	.	.	.	.	16a\	-ta	16cc\	-ta	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 =75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75
-!	!	!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:N:vis=0	!	!LO:N:vis=0	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:N:vis=0	!	!LO:N:vis=0	!	!	!	!	!	!	!
 4BB-/	.	f	4BB-/	f	8b-\L	.	16dd\LL	.	1r	.	1r	.	8b-\	no-	(16dd\LL	no-	.
 .	.	.	.	.	.	.	16cc\J	.	.	.	.	.	.	.	16cc\JJ)	.	.
 .	.	.	.	.	8d/J	.	8b-\J	.	.	.	.	.	8f\	-stra	8b-\	-stra	.
@@ -701,7 +701,7 @@
 .	.	.	.	.	.	.	.	.	8A\	-ri-	8c\	-ri-	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*Xij	*
 =80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!LO:N:vis=0	!	!LO:TX:a:t=1	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!LO:N:vis=0	!	!LO:TX:a:t=1	!	!
 8BB-/L	.	f	8BB-/L	.	8r	.	8r	.	8B-\	-cor-	8d\	-cor-	1r	.	2r	.	.
 16.B-\L	.	.	16.B-\L	f	16d/LL	.	16.b-/LL	.	8B-\	-des	8d\	-des	.	.	.	.	.
 .	.	.	.	.	16c/JJ	.	.	.	.	.	.	.	.	.	.	.	.
@@ -712,7 +712,7 @@
 32C\JJk	.	.	32C\JJk	.	.	.	32ee-\JJk	.	.	.	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*Xij	*	*Xij	*	*	*	*	*
 =81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81
-!	!	!	!	!	!	!	!	!	!LO:TX:a:t=2	!	!LO:TX:a:t=2	!	!	!	!LO:TX:a:t=P:problem:p=p.	!	!
+!	!	!	!	!	!	!	!	!	!LO:TX:a:t=2	!	!LO:TX:a:t=2	!	!	!	!LO:TX:a:t=P:p=p.:problem	!	!
 !	!	!	!	!	!	!	!	!	!LO:N:vis=0	!	!LO:N:vis=0	!	!	!	!	!	!
 8r	.	.	8r	.	8.dd\L	.	8.ff\L	.	1r	.	1r	.	.	.	8.bn\	o-	p
 8BBn/L	.	p	8BBn/L	p	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -730,20 +730,20 @@
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*Xij	*
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!LO:LB:g=original	!	!	!	!	!	!
 =83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83
-!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8C\L	.	.	8C\L	.	8c/	.	8ee-\L	f	4F\	ad	4c\	ad	8r	.	8r	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8F\	.	f	8F\	f	4c/	.	24aa-X\L	.	.	.	.	.	8f\	ad	8aa-X\	ad	.
 .	.	.	.	.	.	.	24gg\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24ff\JJ	.	.	.	.	.	.	.	.	.	.
 8G\	.	.	8G\	.	.	.	8ee-\L	.	8G\	nos	8c\	nos	8e-\	nos	8gg\	nos	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8GG\J	.	.	8GG/J	.	8c/	.	24ff\L	.	8GG/	con-	8c\	con-	8f\	con-	8ff\	con-	.
 .	.	.	.	.	.	.	24ee-\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24dd\JJ	.	.	.	.	.	.	.	.	.	.
 =84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84
 8C/L	.	.	8C/L	.	8r	.	8cc\L	.	4C/	-ver-	4c\	-ver-	(8g\L	-ver-	(8ee-X\L	-ver-	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8GG/J	.	.	8GG/J	.	8G/	.	24dd\L	.	.	.	.	.	8f\J)	.	8dd\J)	.	.
 .	.	.	.	.	.	.	24cc\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24bn\JJ	.	.	.	.	.	.	.	.	.	.
@@ -754,7 +754,7 @@
 !	!	!	!	!	!	!	!	!	!LO:TX:a:t=2	!	!LO:N:vis=0	!	!LO:TX:a:t=1	!	!	!	!
 !	!	!	!	!	!	!	!	!	!LO:N:vis=0	!	!	!	!	!	!	!	!
 8r	.	.	8r	.	8.cc\L	.	8.ee-\L	p	1r	.	1r	.	2r	.	8.a\	o-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8AA/L	.	.	8AA/L	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	16ee-\Jk	p	16gg\Jk	.	.	.	.	.	.	.	16cc\	-cu-	.
 8BB-/	.	p	8BB-/	p	4dd\	.	4ff\	.	.	.	.	.	.	.	4b-\	-los	.
@@ -766,116 +766,116 @@
 8A\L	.	.	8A\L	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16ee-\Jk	.	.	.	.	.	16cc\	-cu-	16ee-\	-cu-	.
 8B-\	.	.	8B-\	.	4B-/	.	4dd\	.	.	.	.	.	4b-\	-los	4dd\	-los	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8BB-/J	.	.	8BB-/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*Xij	*
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!
 =87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87
 *	*	*	*	*	*	*	*	*	*	*	*	*ij	*	*	*	*	*
 8r	.	.	8r	.	8B-/	f	8dd\L	.	4E-\	ad	4B-\	ad	8r	.	8r	.	.
-!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:f=f.	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TX:a:t=P:f=f.:problem	!	!	!	!	!	!	!	!	!	!
 8E-\L	.	.	8E-\L	.	4B-/	.	24gg\L	f	.	.	.	.	8e-\	ad	8gg\	ad	.
 .	.	.	.	.	.	.	24ff\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24ee-\JJ	.	.	.	.	.	.	.	.	.	.
 8F\	.	.	8F\	.	.	.	8dd\L	.	8F\	nos	8B-\	nos	8d\	nos	8ff\	nos	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!	!
 8FF/J	.	.	8FF/J	.	8B-/	.	24ee-\L	.	8FF/	con-	8B-\	con-	8e-\	con-	8ee-\	con-	.
 .	.	.	.	.	.	.	24dd\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24cc\JJ	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
 =88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88
 8BB-/L	.	.	8BB-/L	.	8r	.	8b-\L	.	4BB-/	-ver-	4B-\	-ver-	(8f\L	-ver-	(8dd\L	-ver-	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8FF/	.	.	8FF/	.	4f/	.	24cc\L	.	.	.	.	.	8e-\J)	.	8cc\J)	.	.
 .	.	.	.	.	.	.	24b-\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24a\JJ	.	.	.	.	.	.	.	.	.	.
 8BB-/	.	.	8BB-/	.	.	.	4b-\	.	4BB-/	-te	4B-\	-te	4d\	-te	4b-\	-te	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\J	.	.	8B-\J	.	8f/	.	.	.	.	.	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*Xij	*	*	*	*	*
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!
 =89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89
 8BB-/L	.	.	8BB-\L	.	4dd\	.	4ff\	.	2BB-/	et	2BB-/	et	4dd\	Et	4ff\	et	.
-!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\	.	.	8B-\	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8BB-/	.	.	8BB-\	.	8b-\L	.	(8dd\L	.	.	.	.	.	8b-\	Je-	8dd\	je-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\J	.	.	8B-\J	.	8cc\J	.	8ee-\J)	.	.	.	.	.	8cc\	-sum	8ee-\	-sum	.
 =90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90
 8BB-/L	.	.	8BB-\L	.	8dd\L	.	8ff\L	.	2BB-/	Je-	2BB-/	je-	4dd\	be-	(8ff\L	be-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\	.	.	8B-\	.	(8gg\	.	(8bb-\	.	.	.	.	.	.	.	8bb-\J)	.	.
 8BB-/	.	.	8BB-\	.	8ff\	.	8aa\	.	.	.	.	.	4ee-\	-ne	(8aa\L	-ne	.
-!	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\J	.	.	8B-\J	.	8ee-\J)	.	8gg\J)	.	.	.	.	.	.	.	8gg\J)	.	.
 =91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91
 8BB-/L	.	.	8BB-\L	.	4ee-\	.	4gg\	.	2BB-/	-sum	2BB-/	-sum	4ee-\	di-	4gg\	di-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\	.	.	8B-\	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8BB-/	.	.	8BB-\	.	4dd\	.	4ff\	.	.	.	.	.	4dd\	-ctum	4ff\	-ctum	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\J	.	.	8B-\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
 =92	=92	=92	=92	=92	=92	=92	=92	=92	=92	=92	=92	=92	=92	=92	=92	=92	=92
 8BB-/L	.	.	8BB-\L	.	4dd\	.	4ff\	.	4BB-/	be-	4BB-/	be-	4dd\	fru-	4ff\	fru-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\	.	.	8B-\	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8BB-/	.	.	8BB-\	.	8b-\L	.	(8dd\L	.	4BB-/	-ne-	4BB-/	-ne-	(8b-\L	-ctum	(8dd\L	-ctus	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\J	.	.	8B-\J	.	8cc\J	.	8ee-\J)	.	.	.	.	.	8cc\J)	.	8ee-\J)	.	.
 !	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!
 =93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93
 8BB-/L	.	.	8BB-\L	.	8dd\L	.	8ff\L	.	2BB-/	-di-	2BB-/	-di-	4dd\	ven-	(8ff\L	ven-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\	.	.	8B-\	.	(8gg\	.	(8bb-\	.	.	.	.	.	.	.	8bb-\J)	.	.
 8BB-/	.	.	8BB-\	.	8ff\	.	8aa\	.	.	.	.	.	4ee-\	-tris	(8aa\L	-tris	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\J	.	.	8B-\J	.	8ee-\J)	.	8gg\J)	.	.	.	.	.	.	.	8gg\J)	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!
 =94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94
 8BB-/L	.	.	8BB-\L	.	4ee-\	.	4gg\	.	2BB-/	-ctum	2BB-/	-ctum	4ee-\	tu-	4gg\	tu-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\	.	.	8B-\	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8BB-/	.	.	8BB-\	.	4dd\	.	4ff\	.	.	.	.	.	4dd\	-i	4ff\	-i	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-\J	.	.	8B-\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95
 8FF/L	.	.	8FF/L	.	4cc\	.	4ee-\	.	2F\	no-	2F/	no-	4cc\	no-	4ee-\	no-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\	.	.	8F/	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8FF/	.	.	8FF/	.	(8a\L	.	8cc\L	.	.	.	.	.	8a\	-bis	8cc\	-bis	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\J	.	.	8F/J	.	8b-\J)	.	8dd\J	.	.	.	.	.	8b-\	post	8dd\	post	.
 =96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96
 8FF/L	.	.	8FF/L	.	4cc\	.	4ee-\	.	2F\	-bis	2F/	-bis	4cc\	hoc	4ee-\	hoc	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\	.	.	8F/	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8FF/	.	.	8FF/	.	(8a\L	.	8cc\L	.	.	.	.	.	(8a\L	ex-	(8cc\L	Ex-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\J	.	.	8F/J	.	8b-\J)	.	8dd\J	.	.	.	.	.	8b-\J)	.	8dd\J)	.	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!
 =97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97
 8FF/L	.	.	8FF/L	.	4cc\	.	4ee-\	.	2F\	o-	2F/	o-	4cc\	-i-	4ee-\	-i-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\	.	.	8F/	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8FF/	.	.	8FF/	.	(8a\L	.	8cc\L	.	.	.	.	.	(8a\L	-li-	(8cc\L	-li-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\J	.	.	8F/J	.	8b-\J)	.	8dd\J	.	.	.	.	.	8b-\J)	.	8dd\J)	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 =98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98
 8FF/L	.	.	8FF/L	.	4cc\	.	4ee-\	.	2F\	-sten-	2F/	-sten-	4cc\	-um	4ee-\	-um	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\	.	.	8F/	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8FF/	.	.	8FF/	.	4a\	.	4cc\	.	.	.	.	.	4a\	o-	4cc\	o-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\J	.	.	8F/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99
 8FF/L	.	.	8FF/L	.	8b-\L	.	8dd\L	.	2F\	-de	2F/	-de	8b-\	-sten-	8dd\	-sten-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\	.	.	8F/	.	8a\J	.	8cc\J	.	.	.	.	.	8a\	-de	8cc\	-de	.
 8FF/	.	.	8FF/	.	4r	.	16.cc\LL	.	.	.	.	.	4r	.	4r	.	.
 .	.	.	.	.	.	.	32b-\K	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\J	.	.	8F/J	.	.	.	16.a\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	32g\JJk	.	.	.	.	.	.	.	.	.	.
 =100	=100	=100	=100	=100	=100	=100	=100	=100	=100	=100	=100	=100	=100	=100	=100	=100	=100
@@ -933,7 +933,7 @@
 .	.	.	.	.	16ff\Jk	.	16aa-X\Jk	.	.	.	.	.	.	.	.	.	.
 =109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109
 8r	.	.	8r	.	4ee-\	f	4gg\	.	4r	.	4r	.	4g\	Cle-	4ee-\	cle-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8E-\L	.	.	8E-\L	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8G\	n	.	8G\	.	8.d/L	.	8.bn\L	f	4Bn\	o	4G/	O	4g\	-mens	4dd\	-mens	.
 8GG\J	.	.	8GG/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -948,7 +948,7 @@
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!
 =111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111
 8r	.	.	8r	.	4ff\	.	4aa\	.	4r	.	4r	.	4an\	pi-	4ff\	pi-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\L	.	.	8F\L	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8A\	#	.	8A\	.	8.en/L	f	8.cc#X\L	f	4c\	o	4A/	o	4a\	-a	4een\	-a	.
 8AA/J	.	.	8AA/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -962,7 +962,7 @@
 !	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
 =113	=113	=113	=113	=113	=113	=113	=113	=113	=113	=113	=113	=113	=113	=113	=113	=113	=113
 8r	.	.	8r	.	4gg\	f	4bb-\	f	4r	.	4r	.	4b-\	dul-	4gg\	dul-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8G\L	.	.	8G\L	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8B-\	.	.	8B-\	.	8.f/L	.	8.dd\L	.	4d\	o	4B-\	o	4b-\	-cis	4ffn\	-cis	.
 8BB-/J	.	.	8BB-/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1028,78 +1028,78 @@
 !	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
 =122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122
 8BB-/L	.	.	8BB-/L	.	8b-/	.	8r	.	4B-\	-a	4d\	-a	2B-/	o	8r	.	.
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 *	*	*	*	*	*	*	*Xtuplet	*	*	*	*	*	*	*	*	*	*
 8E-/	.	.	8E-/	.	4b-/	.	24bb-\LL	.	.	.	.	.	.	.	24bb-\LL	Ma-	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	24aa\	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	24gg\JJ	.	.
 8D/	.	.	8D/	.	.	.	8ff\L	.	4r	.	4r	.	.	.	8ff\L	.	.
 *	*	*	*	*	*	*	*tuplet	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8C/J	.	.	8C/J	.	8b-/	.	24gg\L	.	.	.	.	.	.	.	24gg\L	.	.
 .	.	.	.	.	.	.	24ff\	.	.	.	.	.	.	.	24ff\	.	.
 .	.	.	.	.	.	.	24ee-\JJ	.	.	.	.	.	.	.	24ee-\JJ	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*Xij	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!
 =123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123
-!LO:TX:a:t=P:problem:mixedbeam t. 123-124	!	!	!LO:TX:a:t=P:problem:mixedbeam t. 123-124	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam t. 123-124	!	!	!LO:TX:a:t=P:problem=mixedbeam t. 123-124	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8BB-/L	.	.	8BB-/L	.	8b-\	.	8dd\L	.	2BB-/	dul-	8B-\	Ma-	2B-/	dul-	8dd\L	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8e-\	.	.	8e-\	.	4b-\	.	24bb-\L	.	.	.	8e-\	-ri-	.	.	24bb-\L	.	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	24aa\	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	24gg\JJ	.	.
 8d\	.	.	8d\	.	.	.	8ff\L	.	.	.	(8d\L	.	.	.	8ff\L	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8c\J	.	.	8c\J	.	8b-\	.	24gg\L	.	.	.	8c\J)	.	.	.	24gg\L	.	.
 .	.	.	.	.	.	.	24ff\	.	.	.	.	.	.	.	24ff\	.	.
 .	.	.	.	.	.	.	24ee-\JJ	.	.	.	.	.	.	.	24ee-\JJ	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!
 =124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124	=124
 8B-\L	.	.	8B-\L	.	8b-\	.	8dd\L	.	2BB-/	-cis	8B-\	-a	2B-/	-cis	8dd\L	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8E-\	.	.	8E-\	.	4b-\	.	24ee-\L	.	.	.	8c\	Ma-	.	.	24ee-\L	.	.
 .	.	.	.	.	.	.	24dd\	.	.	.	.	.	.	.	24dd\	.	.
 .	.	.	.	.	.	.	24cc\JJ	.	.	.	.	.	.	.	24cc\JJ	.	.
 8F\	.	.	8F\	.	.	.	8b-\L	.	.	.	(8B-\L	-ri-	.	.	8b-\L	-ri-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8FF/J	.	.	8FF/J	.	8b-\	.	8cc\J	.	.	.	8A\J)	.	.	.	8cc\J	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=Volti cito	!	!
 !	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!LO:PB:g=original	!	!
 =125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125
 8BB-/L	.	.	8BB-/L	.	8b-\	.	8dd\L	.	2BB-/	Vir-	4B-\	-a	2B-/	Vir-	8b-\L	-a	.
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*Xtuplet	*	*
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8E-/	.	.	8E-/	.	4B-/	.	24bb-\L	.	.	.	.	.	.	.	24bb-\L	Ma-	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	24aa\	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	24gg\JJ	.	.
 8D/	.	.	8D/	.	.	.	8ff\L	.	.	.	4r	.	.	.	8ff\L	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*tuplet	*	*
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8C/J	.	.	8C/J	.	8B-/	.	24gg\L	.	.	.	.	.	.	.	24gg\L	.	.
 .	.	.	.	.	.	.	24ff\	.	.	.	.	.	.	.	24ff\	.	.
 .	.	.	.	.	.	.	24ee-\JJ	.	.	.	.	.	.	.	24ee-\JJ	.	.
 !	!	!	!	!	!	!	!LO:TX:b:t=Volti.	!	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!LO:PB:g=original	!	!	!	!	!	!	!	!	!	!
 =126	=126	=126	=126	=126	=126	=126	=126	=126	=126	=126	=126	=126	=126	=126	=126	=126	=126
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam t. 126-127	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam t. 126-127	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8BB-/L	.	.	8BB-/L	.	8B-/	.	8dd\L	.	4BB-/	-go	8r	.	4B-/	-go	8dd\L	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8e-\	.	.	8e-\	.	4B-/	.	24bb-\L	.	.	.	8e-\	Ma-	.	.	24bb-\L	.	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	24aa\	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	24gg\JJ	.	.
 8d\	.	.	8d\	.	.	.	8ff\L	.	4BB-/	Ma-	(8d\L	-ri-	4B-/	Ma-	8ff\L	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8c\J	.	.	8c\J	.	8B-/	.	24gg\L	.	.	.	8c\J)	.	.	.	24gg\L	.	.
 .	.	.	.	.	.	.	24ff\	.	.	.	.	.	.	.	24ff\	.	.
 .	.	.	.	.	.	.	24ee-\JJ	.	.	.	.	.	.	.	24ee-\JJ	.	.
 =127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127
 8B-\L	.	.	8B-\L	.	8B-/	.	8dd\L	.	2BB-/	-ri-	8B-\	-a	2B-/	-ri-	8dd\L	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8E-\	.	.	8E-\	.	4B-/	.	24ee-\L	.	.	.	8c\	Ma-	.	.	24ee-\L	.	.
 .	.	.	.	.	.	.	24dd\	.	.	.	.	.	.	.	24dd\	.	.
 .	.	.	.	.	.	.	24cc\JJ	.	.	.	.	.	.	.	24cc\JJ	.	.
 8F\	.	.	8F\	.	.	.	8b-\L	.	.	.	(8B-\L	-ri-	.	.	8b-\L	-ri-	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8FF/J	.	.	8FF/J	.	8A/	.	8cc\J	.	.	.	8A\J)	.	.	.	8cc\J	.	.
 =128	=128	=128	=128	=128	=128	=128	=128	=128	=128	=128	=128	=128	=128	=128	=128	=128	=128
 4BB-/	.	.	4BB-/	.	4.d/	.	8.ff\L	.	4BB-/	-a	4B-\	-a	4B-/	-a	4b-\	-a	.
@@ -1113,7 +1113,7 @@
 8r	.	.	8r	.	4A/	.	8dd\L	.	0r	.	0r	.	0r	.	0r	.	.
 16F\LL	.	.	16F\LL	.	.	.	8cc\J	.	.	.	.	.	.	.	.	.	.
 16E-\JJ	.	.	16E-\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\L	.	.	8F/L	.	8r	.	8r	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!LO:DY:a	!	!	!	!	!	!	!	!	!	!	!
 8FF/J	.	.	8FF/J	.	8a\	p	8cc\	p	.	.	.	.	.	.	.	.	.
@@ -1124,9 +1124,9 @@
 4F\	.	.	4F\	.	8.b-\	.	8.dd\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	16a\Jk	.	16cc\Jk	.	.	.	.	.	.	.	.	.	.
 =131	=131	=131	=131	=131	=131	=131	=131	=131	=131	=131	=131	=131	=131	=131	=131	=131	=131
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8BB-/L	.	.	8BB-/L	.	8b-\L	f	8dd\L	f	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem:f=f.	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:f=f.:problem	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8B-\	.	f	(>8B-\	f	(8dd\	.	24bb-\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	.	.	.
@@ -1144,19 +1144,19 @@
 =133	=133	=133	=133	=133	=133	=133	=133	=133	=133	=133	=133	=133	=133	=133	=133	=133	=133
 !	!	!	!	!	!	!	!	!	!LO:N:vis=00	!	!LO:N:vis=00	!	!LO:N:vis=00	!	!LO:N:vis=00	!	!
 8B-\L	.	.	8B-\L	f	8b-/	f	8dd\L	.	0r	.	0r	.	0r	.	0r	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8e-\	.	f	8e-\	.	4b-/	.	24bb-\L	f	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24aa\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	.	.	.
 8d\	.	.	8d\	.	.	.	8ff\L	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8c\J	.	.	8c\J	.	8b-/	.	24gg\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24ff\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24ee-\JJ	.	.	.	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!
 =134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134
 8B-\L	.	.	8B-\L	.	8b-/	p	8dd\L	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8e-\	.	.	8e-\	.	4b-/	.	24bb-\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24aa\	p	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.	.	.	.
@@ -1165,9 +1165,9 @@
 .	.	.	.	.	.	.	24ff\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24ee-\JJ	.	.	.	.	.	.	.	.	.	.
 =135	=135	=135	=135	=135	=135	=135	=135	=135	=135	=135	=135	=135	=135	=135	=135	=135	=135
-!LO:TX:a:t=P:problem:mixedbeam	!	!	!LO:TX:a:t=P:problem:mixedbeam	!	!	!	!LO:TX:a:t=P:problem:f=for	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixedbeam	!	!	!LO:TX:a:t=P:problem=mixedbeam	!	!	!	!LO:TX:a:t=P:f=for:problem	!	!	!	!	!	!	!	!	!	!
 8B-\L	.	.	8B-\L	.	8b-/	f	8dd\L	f	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!
 8E-\	.	.	8E-\	.	4b-/	.	24ee-\L	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24dd\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	24cc\JJ	.	.	.	.	.	.	.	.	.	.

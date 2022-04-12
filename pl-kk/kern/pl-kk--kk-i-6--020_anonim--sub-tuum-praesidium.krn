@@ -28,7 +28,7 @@
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(c|)	*	*met(c|)	*	*met(c|)	*
 =1-	=1-	=1-	=1-	=1-	=1-
-!LO:TX:a:t=P:problem:inicjał "S" na pięciolinii przed kluczem	!	!LO:TX:a:t=P:problem:inicjał "S" na pięciolinii przed kluczem	!	!LO:TX:a:t=P:problem:inicjał "S" na pięciolinii przed kluczem	!
+!LO:TX:a:t=P:problem=inicjał "S" na pięciolinii przed kluczem	!	!LO:TX:a:t=P:problem=inicjał "S" na pięciolinii przed kluczem	!	!LO:TX:a:t=P:problem=inicjał "S" na pięciolinii przed kluczem	!
 00r	.	1r	.	1G	Sub
 .	.	2G/	Sub	1G	tu-
 .	.	2.G/	tu-	.	.
@@ -41,10 +41,10 @@
 =3-	=3-	=3-	=3-	=3-	=3-
 1r	.	2D/	-um	1d	-si-
 *	*	*2\right	*	*	*
-!	!	!LO:TX:t=P:problem:2\middle or right:global	!	!	!
+!	!	!LO:TX:t=P:problem=2\middle or right&colon; global	!	!	!
 .	.	2d\	Con-	.	.
 *2\right	*	*	*	*	*
-!LO:TX:t=P:problem:2\middle or right:global	!	!	!	!	!
+!LO:TX:t=P:problem=2\middle or right&colon; global	!	!	!	!	!
 2G\	Sub	2B\	-fu-	1d	-di-
 2.G\	tu-	2G/	-gi-	.	.
 =4-	=4-	=4-	=4-	=4-	=4-
@@ -71,17 +71,17 @@
 2C/	prae-	2G/	Con-	.	.
 !	!	!	!	!LO:SIC:v:t=custos d	!
 2BB/	-si-	2G/	-fu-	1d	-gi-
-!	!	!LO:TX:t=P:problem:♯ below	!	!	!
+!	!	!LO:TX:t=P:problem=♯ below	!	!	!
 2D/	-di-	2F#X/	-gi-	.	.
 !	!	!	!	!LO:LB:g=original	!
 =7-	=7-	=7-	=7-	=7-	=7-
-!	!	!LO:TX:t=P:problem:rozdzielacz słów:global	!	!LO:TX:t=P:problem:rozdzielacz słów:global	!
+!	!	!LO:TX:t=P:global:problem=rozdzielacz słów	!	!LO:TX:t=P:global:problem=rozdzielacz słów	!
 1GG	-um	2G,/	-mus	1d,	-mus
 *	*Xij	*	*Xij	*	*
 .	.	2.G/	Con-	.	.
 2G\	Sub	.	.	1d	San-
 .	.	4A/	.	.	.
-!	!	!LO:TX:t=P:problem:4\left or middle:global	!	!	!
+!	!	!LO:TX:t=P:problem=4\left or middle&colon; global	!	!	!
 2.G\	tu-	4B\	-fu-	.	.
 .	.	4c\	-gi-	.	.
 =8-	=8-	=8-	=8-	=8-	=8-
@@ -93,7 +93,7 @@
 2C/	-di-	2.G/	tu-	.	.
 *	*	*	*	*Xlig	*
 =9-	=9-	=9-	=9-	=9-	=9-
-!LO:TX:t=P:problem:rozdzielacz słów:global	!	!	!	!	!
+!LO:TX:t=P:global:problem=rozdzielacz słów	!	!	!	!	!
 *	*	*	*	*lig	*
 2GG,/	-um	.	.	1B	.
 .	.	4G/	-um	.	.
@@ -101,7 +101,7 @@
 2G\	Con-	2G/	prae-	.	.
 !	!	!LO:LB:g=original	!	!	!
 2G\	-fu-	2E/	-ſi-	1A,	.
-!LO:TX:t=P:problem:♯ below	!	!	!	!	!
+!LO:TX:t=P:problem=♯ below	!	!	!	!	!
 !LO:SIC:v:t=custos G	!	!	!	!	!
 2F#X\	-gi-	2A/	-di-	.	.
 *	*	*	*	*Xlig	*
@@ -110,7 +110,7 @@
 1G	-mus	2G/	-um	1B	De-
 .	.	2G/	Con-	.	.
 1D	Con-	2G/	-fu-	1A,	-i
-!	!	!LO:TX:t=P:problem:♯ below	!	!	!
+!	!	!LO:TX:t=P:problem=♯ below	!	!	!
 .	.	2F#X/	-gi-	.	.
 =11-	=11-	=11-	=11-	=11-	=11-
 2.BB/	-fu-	2G/	-mus	1G	ge-
@@ -156,7 +156,7 @@
 2C/	prae-	2G/	Con-	.	.
 !LO:LB:g=original	!	!	!	!	!
 2BB/	-si-	2G/	-fu-	1d	-o-
-!	!	!LO:TX:t=P:problem:♯ below	!	!	!
+!	!	!LO:TX:t=P:problem=♯ below	!	!	!
 2D/	-di-	2F#X/	-gi-	.	.
 =17-	=17-	=17-	=17-	=17-	=17-
 1GG	-um	1G	-mus	1d,	-nes
@@ -221,7 +221,7 @@
 .	.	4c\	.	.	.
 .	.	1d	.	.	.
 2r	.	.	.	1A	Sed
-!	!	!LO:TX:t=P:problem:♯ below	!	!	!
+!	!	!LO:TX:t=P:problem=♯ below	!	!	!
 !	!	!LO:SIC:v:t=custos d	!	!	!
 1A\	No-	2c#X\	.	.	.
 !	!	!LO:LB:g=original	!	!	!
@@ -315,7 +315,7 @@
 2.G\	Sem-	2B\	.	.	.
 =37-	=37-	=37-	=37-	=37-	=37-
 .	.	2A/	-ctis	1A	Vir-
-!LO:TX:t=P:problem:♯ below	!	!	!	!	!
+!LO:TX:t=P:problem=♯ below	!	!	!	!	!
 4F#X\	-per	.	.	.	.
 2F#\	Vir-	2.d\	li-	.	.
 1G	-go	.	.	1B	-go
@@ -326,7 +326,7 @@
 2E\	-ri-	2.G/	Sem-	.	.
 !	!	!	!	!LO:SIC:v:t=custos B-	!
 1D	-o-	.	.	1A	-ri-
-!	!	!LO:TX:t=P:problem:♯ below	!	!	!
+!	!	!LO:TX:t=P:problem=♯ below	!	!	!
 .	.	4F#X/	-per	.	.
 .	.	2F#/	Vir-	.	.
 !	!	!	!	!LO:LB:g=original	!
@@ -347,14 +347,14 @@
 =41-	=41-	=41-	=41-	=41-	=41-
 !	!	!LO:SIC:v:t=custos G	!	!	!
 .	.	1r	.	1A	-ne-
-!LO:TX:t=P:problem:♯ below	!	!	!	!	!
+!LO:TX:t=P:problem=♯ below	!	!	!	!	!
 4F#X\	-per	.	.	.	.
 2F#\	Vir-	.	.	.	.
 !	!	!LO:LB:g=original	!	!	!
 2G\	-go	2r	.	1G	-di-
 2.E\	glo-	2.G/	glo-	.	.
 =42-	=42-	=42-	=42-	=42-	=42-
-!	!	!	!	!LO:TX:t=P:problem:fermaty bez kropek above/below	!
+!	!	!	!	!LO:TX:t=P:problem=fermaty bez kropek above/below	!
 .	.	.	.	[0Gl;;	-cta.
 4D/	-ri-	4Fny/	-ri-	.	.
 2C/	-o-	2E/	-o-	.	.
@@ -366,11 +366,11 @@
 1C	-di-	.	.	.	.
 .	.	1c\	-di-	.	.
 =44-	=44-	=44-	=44-	=44-	=44-
-!LO:TX:t=P:problem:fermaty bez kropek above/below	!	!	!	!	!
+!LO:TX:t=P:problem=fermaty bez kropek above/below	!	!	!	!	!
 0GGl;;	-cta.	.	.	0G]	.
 .	.	4B\	.	.	.
 .	.	4A/	.	.	.
-!	!	!LO:TX:t=P:problem:fermaty bez kropek above/below	!	!	!
+!	!	!LO:TX:t=P:problem=fermaty bez kropek above/below	!	!	!
 .	.	1Bl;;	-cta.	.	.
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-

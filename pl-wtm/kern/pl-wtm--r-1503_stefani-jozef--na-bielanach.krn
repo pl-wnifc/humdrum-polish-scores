@@ -28,8 +28,8 @@
 *M3/4	*M3/4	*	*M3/4	*	*	*
 =1	=1	=1	=1	=1	=1	=1
 *2\right	*2\right	*	*2\right	*	*	*
-!	!	!	!LO:TX:t=P:problem:all\middle or right:global	!	!	!
-!	!LO:TUP:a:problem:klamra łukowa	!	!LO:TX:a:t=Allegro moderato.	!	!	!
+!	!	!	!LO:TX:t=P:problem=all\middle or right&colon; global	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!LO:TX:a:t=Allegro moderato.	!	!	!
 4FF/ 4F	12f/L	f	2.r	.	.	.
 .	12e/	.	.	.	.	.
 .	12f/J	.	.	.	.	.
@@ -39,10 +39,10 @@
 !	!	!	!LO:TX:t=Na Bielanach (&colon; pod Krakowem &colon;)\nPoezya Wincentego Pola,\nułożona do śpiewu z towarzyszeniem\nFortepianu\nprzez\nJózefa Stefaniego.\n	!	!	!
 8.G\L 8.g	8.gg\L	.	2.r	.	.	.
 16F\Jk 16f	16ff\Jk	.	.	.	.	.
-!LO:TX:t=P:problem:2\right:global	!LO:TX:t=P:problem:2\right:global	!	!	!	!	!
+!LO:TX:t=P:problem=2\right&colon; global	!LO:TX:t=P:problem=2\right&colon; global	!	!	!	!	!
 2D\ 2d	2dd\	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3
-!	!LO:TUP:a:problem:klamra łukowa:global	!	!	!	!	!
+!	!LO:TUP:a:global:problem=klamra łukowa	!	!	!	!	!
 !	!LO:TUP:b	!	!	!	!	!
 4GG\ 4G	12g/L	.	2.r	.	.	.
 .	12f#X/	.	.	.	.	.
@@ -86,11 +86,11 @@
 =10	=10	=10	=10	=10	=10	=10	=10
 4r	2.FF\	8.a/L 8.cc	.	8.cc\	wid-	mi-	.
 .	.	16f/Jk 16a	.	16a/	-ne	-ło	.
-!	!	!	!	!LO:TX:t=P:problem:2\right:global	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=2\right&colon; global	!	!	!
 4F/	.	2f\ 2a 2ff	.	2ff\	tam	tu	.
 4F/	.	.	.	.	.	.	.
 =11	=11	=11	=11	=11	=11	=11	=11
-!	!	!LO:TX:t=P:problem:usunięte d	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=usunięte d	!	!	!	!	!
 4r	2.DD\	8.f/L	.	8.f/	Bli-	Chwy-	.
 .	.	16e/Jk 16g	.	16g/	-żej	-cić	.
 4D/	.	4f/ 4a	.	4a/	sta-	pier-	.
@@ -103,15 +103,15 @@
 *v	*v	*	*	*	*	*	*
 !!LO:LB:g=original
 =13	=13	=13	=13	=13	=13	=13
-!LO:TX:t=P:problem:rytm:4 poprawione na 2	!	!	!	!	!	!
+!LO:TX:t=P:rytm:problem=4 poprawione na 2	!	!	!	!	!	!
 4AAA/ 4AA	4r	.	8.ee\	A	I	.
 .	.	.	16dd\	w do-	po	.
-!	!LO:TX:t=P:problem:usunięte A	!	!	!	!	!
+!	!LO:TX:t=P:problem=usunięte A	!	!	!	!	!
 4r	4G/ 4c#X 4g	.	4cc#X\	-li-	świe-	.
-!	!LO:TX:t=P:problem:usunięte A	!	!	!	!	!
+!	!LO:TX:t=P:problem=usunięte A	!	!	!	!	!
 4r	4G/ 4c# 4g	.	4b-\	-nie	-cie	.
 =14	=14	=14	=14	=14	=14	=14
-!LO:TX:t=P:problem:rytm:4 poprawione na 2	!	!	!	!	!	!
+!LO:TX:t=P:rytm:problem=4 poprawione na 2	!	!	!	!	!	!
 4DD/ 4D	4r	.	8.a/	Wi-	pu-	.
 .	.	.	16g/	-sły	-ścić	.
 4r	4A/ 4d 4f	.	2f/	prąd;	wzrok	.
@@ -172,7 +172,7 @@
 !!LO:LB:g=original
 =21	=21	=21	=21	=21	=21	=21
 (<8qF#X/	.	.	.	.	.	.
-!	!	!	!LO:TUP:problem:brak klamry, numer	!	!	!LO:DY:a
+!	!	!	!LO:TUP:problem=brak klamry, numer	!	!	!LO:DY:a
 4C\) 4G	4c^/ 4e	f	12e/L	Tam	A	f
 .	.	.	12f#X/J	.	.	.
 .	.	.	12g/	na	kto	.
@@ -186,7 +186,7 @@
 4C\ 4G	4c/ 4e	.	.	.	.	.
 =23	=23	=23	=23	=23	=23	=23
 (<8qF#X/	.	.	.	.	.	.
-!	!	!	!LO:TUP:problem:brak klamry, numer	!	!	!
+!	!	!	!LO:TUP:problem=brak klamry, numer	!	!	!
 4C\) 4G	4c/ 4e	f	12e/L	Tam	Ten	.
 .	.	.	12f#X/J	.	.	.
 .	.	.	12g/	za	sta-	.
@@ -233,7 +233,7 @@
 !	!LO:TX:b:t=rall&colon;	!	!LO:TX:a:t=rall&colon;	!	!	!
 4CC/ 4C	8.g/L 8.b-	p	8.b-/	A	Poj-	.
 .	16f/Jk 16a	.	16a/	tu	-dzie	.
-!	!	!	!LO:TX:t=P:problem:tekst: dalej poprawione na może	!	!	!
+!	!	!	!LO:TX:t=P:tekst:problem= dalej poprawione na może	!	!	!
 4CC/ 4C	4e/ 4g	.	4g/	ci-	mo-	.
 4CC#X/ 4C#X	4e/ 4a	.	4a/	-chy	-że	.
 =30	=30	=30	=30	=30	=30	=30
@@ -241,7 +241,7 @@
 16BBB-/Jk 16BB-	16d/Jk 16g	.	16g/	-ży	-lej	.
 2AAA/ 2AA	2c#X/ 2a	.	2a/	kąt	krok	.
 =31	=31	=31	=31	=31	=31	=31
-!	!LO:TX:t=P:problem:usunięty znak d-	!	!	!	!	!
+!	!LO:TX:t=P:problem=usunięty znak d-	!	!	!	!	!
 4BBB-/ 4BB-	8.B-/L 8.d 8.g	.	8.g/	A	Poj-	.
 .	16B-/Jk 16d-X	.	16d-X/	tu	-dzie	.
 4CC/ 4C	4A/ 4c	.	4c/	ci-	mo-	.
@@ -287,7 +287,7 @@
 16E\JJ	.	.	.	.	.	.
 *Xrep	*	*	*	*	*	*
 =35	=35	=35	=35	=35	=35	=35
-!	!LO:TX:t=P:problem:usunięte d	!	!	!	!	!
+!	!LO:TX:t=P:problem=usunięte d	!	!	!	!	!
 )(>16D/LL	8.f/L	.	2.r	.	.	.
 16C#X/	.	.	.	.	.	.
 16D/	.	.	.	.	.	.
@@ -322,7 +322,7 @@
 *^	*	*	*	*	*	*
 4r	4BB-\	(8ee\L	p	2.r	.	.	.
 .	.	8dd\J)	.	.	.	.	.
-!LO:TX:t=P:problem:usunięty znak An	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=usunięty znak An	!	!	!	!	!	!	!
 4D\ 4A 4c	2ryy	4f#X^/	.	.	.	.	.
 4G\ 4B-	.	4g/	.	.	.	.	.
 *v	*v	*	*	*	*	*	*
@@ -352,7 +352,7 @@
 !!LO:PB:g=original
 =41	=41	=41	=41	=41	=41	=41	=41
 *	*	*tuplet	*	*	*	*	*
-!	!	!LO:TUP:a:problem:klamra łukowa	!	!LO:TUP:problem:brak klamry, numer	!	!	!
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!LO:TUP:problem=brak klamry, numer	!	!	!
 4r	2.BBB-\	12d/L 12f	p	12f/L	Pię-	Bo	.
 .	.	12c#X/ 12en	.	12en/J	.	.	.
 .	.	12d/J 12f	.	12f/	-kne	ta-	.
@@ -367,7 +367,7 @@
 *Xrep	*Xrep	*	*	*	*	*	*
 =43	=43	=43	=43	=43	=43	=43	=43
 *rep	*rep	*	*	*	*	*	*
-!	!	!LO:TUP:a:problem:klamra łukowa	!	!LO:TUP:problem:brak klamry, numer	!	!	!
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!LO:TUP:problem=brak klamry, numer	!	!	!
 4r	2.BBB-\	12d/L 12f	.	12f/L	Ży-	Tchnie	.
 .	.	12c#X/ 12en	.	12en/J	.	.	.
 .	.	12d/J 12f	.	12f/	-wy	w pu-	.
@@ -420,7 +420,7 @@
 .	.	.	16g/	swych	-nie	.
 2FF/ 2F	2A/ 2c 2f	.	2a/	ścian	tam	.
 =51	=51	=51	=51	=51	=51	=51
-!	!	!	!LO:TX:t=P:problem:t. 51-52 wykreślony tekst Dla sług twoich dla swych ścian	!	!	!
+!	!	!	!LO:TX:t=P:problem=t. 51-52 wykreślony tekst Dla sług twoich dla swych ścian	!	!	!
 4BBB-/ 4BB-	4B-/ 4d 4g	.	8.g/	By	Spraw	.
 .	.	.	16b-/	go	świa-	.
 4CC/ 4C	4A/ 4c 4f	.	4a/	wszel-	-to-	.
@@ -463,7 +463,7 @@
 2C\ 2G	2e/ 2g 2cc	.	.	.	.	.
 !!LO:LB:g=original
 =57	=57	=57	=57	=57	=57	=57
-!	!	!	!LO:TX:t=P:problem:t. 57-58 wykreślony tekst: By go wszelki człowiek znał	!	!	!
+!	!	!	!LO:TX:t=P::problem=t. 57-58 wykreślony tekst&colon; By go wszelki człowiek znał	!	!	!
 !	!	!	!LO:TX:a:t=rall&colon;	!	!	!
 4CC/ 4C	8.g/L 8.b-	p	8.b-/	Dla	Już	.
 .	16f/Jk 16a	.	16a/	sług	dla	.
@@ -474,10 +474,10 @@
 16BBB-/Jk 16BB-	16d/Jk 16g	.	16g/	swych	-nie	.
 2AAA/ 2AA	2c#X/ 2a	.	2a/	scian	tam	.
 =59	=59	=59	=59	=59	=59	=59
-!	!LO:TX:t=P:problem:usunięty znak d-	!	!	!	!	!
+!	!LO:TX:t=P:problem=usunięty znak d-	!	!	!	!	!
 4BBB-/ 4BB-	8.B-/L 8.d 8.g	.	8.g/	By	Spraw	.
 .	16B-/Jk 16d-X	.	16d-X/	go	swia-	.
-!	!	!	!LO:TX:t=P:problem:tekst: wszelki poprawione na wszelki wszelki	!	!	!
+!	!	!	!LO:TX:t=P:tekst:problem= wszelki poprawione na wszelki wszelki	!	!	!
 4CC/ 4C	4A/ 4c	.	(>16c/LL	wszel-	-to-	.
 .	.	.	16f/JJ)	.	.	.
 .	.	.	(>16a/LL	-ki	-wych	.
@@ -531,7 +531,7 @@
 16E\JJ	.	.	.	.	.	.
 *Xrep	*	*	*	*	*	*
 =63	=63	=63	=63	=63	=63	=63
-!	!LO:TX:t=P:problem:usunięte d	!	!	!	!	!
+!	!LO:TX:t=P:problem=usunięte d	!	!	!	!	!
 )(16D/LL	8.f/L	.	2.r	.	.	.
 16C#X/	.	.	.	.	.	.
 16D/	.	.	.	.	.	.
@@ -563,7 +563,7 @@
 16Cn/JJ)	.	.	.	.	.	.
 !!LO:LB:g=original
 =65	=65	=65	=65	=65	=65	=65
-!LO:TX:t=P:problem:4r poprawiona na 4BB-	!	!	!	!	!	!
+!LO:TX:t=P:problem=4r poprawiona na 4BB-	!	!	!	!	!	!
 4BB-/	(8ee\L	p	2.r	.	.	.
 .	8dd\J)	.	.	.	.	.
 4D\ 4A 4c	4f#X^/	.	.	.	.	.
@@ -583,7 +583,7 @@
 4G/ 4B-	.	8dd\	.	.	.	.	.
 .	.	8ee\J	.	.	.	.	.
 =68	=68	=68	=68	=68	=68	=68	=68
-!	!	!LO:TX:t=P:problem:usunięty znak segno na kresce taktowej	!	!LO:TX:t=P:problem:usunięty znak segno na kresce taktowej	!	!	!
+!	!	!LO:TX:t=P:problem=usunięty znak segno na kresce taktowej	!	!LO:TX:t=P:problem=usunięty znak segno na kresce taktowej	!	!	!
 8A/	8F\	8ff\	.	2.r	.	.	.
 8r	8ryy	8r	.	.	.	.	.
 2F\ 2A	2ryy	2f/	.	.	.	.	.
@@ -832,13 +832,13 @@
 16Cn/JJ)	.	.	.	.	.	.
 !!LO:LB:g=original
 =97	=97	=97	=97	=97	=97	=97
-!LO:TX:t=P:problem:4r poprawiona na 4BB-	!	!	!	!	!	!
+!LO:TX:t=P:problem=4r poprawiona na 4BB-	!	!	!	!	!	!
 4BB-/	(8ee\L	p	2.r	.	.	.
 .	8dd\J)	.	.	.	.	.
 4D\ 4A 4c	4f#X/	.	.	.	.	.
 4G\ 4B-	4g/	.	.	.	.	.
 =98	=98	=98	=98	=98	=98	=98
-!LO:TX:t=P:problem:4r wpisana ołówkiem	!	!	!	!	!	!
+!LO:TX:t=P:problem=4r wpisana ołówkiem	!	!	!	!	!	!
 4r	(8dd\L	.	2.r	.	.	.
 .	8cc\J)	.	.	.	.	.
 4C\ 4G 4B-	4e/	.	.	.	.	.
@@ -862,9 +862,9 @@
 *v	*v	*	*	*	*	*	*
 =101	=101	=101	=101	=101	=101	=101
 *	*tuplet	*	*tuplet	*	*	*
-!	!LO:TUP:a:problem:klamra łukowa	!	!LO:TUP:a:problem:klamra łukowa	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!LO:TUP:a:problem=klamra łukowa	!	!	!
 (8qBBB-/	.	.	.	.	.	.
-!	!LO:TUP:b	!	!LO:TUP:problem:klamra łukowa, numer	!	!	!
+!	!LO:TUP:b	!	!LO:TUP:problem=klamra łukowa, numer	!	!	!
 (16BB-/LL)	12d/L 12f	p	12f/L	Bo	.	.
 16AA/	.	.	.	.	.	.
 .	12c#X/ 12en	.	12en/J	.	.	.
@@ -902,7 +902,7 @@
 *Xrep	*	*	*	*	*	*
 !!LO:LB:g=original
 =103	=103	=103	=103	=103	=103	=103
-!	!LO:TUP:a:problem:klamra łukowa	!	!LO:TUP:a:problem:klamra łukowa	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!LO:TUP:a:problem=klamra łukowa	!	!	!
 )(16BB-/LL	12d/L 12f	.	12f/L	Tchnie	.	.
 16AA/	.	.	.	.	.	.
 .	12c#X/ 12en	.	12en/J	.	.	.
@@ -938,22 +938,22 @@
 (2D\	4r	.	8.f#X/	Jak-	.	.
 .	.	.	16a/	-by	.	.
 .	4A/ 4c 4d 4f#X	.	4dd\	mo-	.	.
-!	!LO:TX:t=P:problem:usunięte f	!	!	!	!	!
+!	!LO:TX:t=P:problem=usunięte f	!	!	!	!	!
 8En\L	4A/ 4c 4d	.	4cc\	-dłów	.	.
 8F#X\J)	.	.	.	.	.	.
 =106	=106	=106	=106	=106	=106	=106
-!LO:TX:t=P:problem:4GG poprawione na 4G	!	!	!	!	!	!
+!LO:TX:t=P:problem=4GG poprawione na 4G	!	!	!	!	!	!
 4G\	4r	.	8.b-\	Ci-	.	.
-!	!	!	!LO:TX:t=P:problem:16a poprawione na 16d	!	!	!
+!	!	!	!LO:TX:t=P:problem=16a poprawione na 16d	!	!	!
 .	.	.	16d/	-chy	.	.
-!LO:TX:t=P:problem:4r poprawione na 4GG	!LO:TX:t=P:problem:usunięte g	!	!LO:SIC:v:l:s=szmer:	!	!	!
+!LO:TX:t=P:problem=4r poprawione na 4GG	!LO:TX:t=P:problem=usunięte g	!	!LO:SIC:v:l:s=szmer:	!	!	!
 4GG/	4B-/ 4d	.	2g/	smer;	.	.
-!LO:TX:t=P:problem:4r poprawione na 4BB-	!LO:TX:t=P:problem:usunięte B-	!	!	!	!	!
+!LO:TX:t=P:problem=4r poprawione na 4BB-	!LO:TX:t=P:problem=usunięte B-	!	!	!	!	!
 4BB-/	4d/ 4g	.	.	.	.	.
 =107	=107	=107	=107	=107	=107	=107
 4CC/ 4C	8.c/L 8.e-X 8.a	.	8.a/	Jak-	.	.
 .	16c/Jk 16e-	.	16e-X/	-by	.	.
-!	!LO:TX:t=P:problem:usunięte g	!	!	!	!	!
+!	!LO:TX:t=P:problem=usunięte g	!	!	!	!	!
 4DD/ 4D	4B-/ 4d	.	4d/	mo-	.	.
 4DD/ 4D	4B-/ 4d 4g	.	4g/	-dłów	.	.
 =108	=108	=108	=108	=108	=108	=108
@@ -963,7 +963,7 @@
 2GG\ 2G	2B-/ 2d 2g	.	2g/	smer:	.	.
 !!LO:LB:g=original
 =109	=109	=109	=109	=109	=109	=109
-!	!LO:TX:t=P:problem:łuki	!	!	!	!	!
+!	!LO:TX:t=P:łuki:problem	!	!	!	!	!
 (16E\LL	(2.G/ 2.c#X 2.g	.	8.g/	Bo	.	.
 16D\	.	.	.	.	.	.
 16E\	.	.	.	.	.	.
@@ -972,7 +972,7 @@
 16D\	.	.	.	.	.	.
 16E\	.	.	.	.	.	.
 16D\JJ	.	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!
 16E\LL	.	.	4g/	-szedł	.	.
 16D\	.	.	.	.	.	.
 16E\)	.	.	.	.	.	.
@@ -986,7 +986,7 @@
 16C#/	.	.	.	.	.	.
 16D/	.	.	.	.	.	.
 16C#/JJ	.	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!
 16D/LL	.	.	.	.	.	.
 16C#/	.	.	.	.	.	.
 16D/)	.	.	.	.	.	.
@@ -1000,7 +1000,7 @@
 16D\	.	.	.	.	.	.
 16E\	.	.	.	.	.	.
 16D\JJ	.	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!
 16E\LL	.	.	4g/	-go	.	.
 16D\	.	.	.	.	.	.
 16E\)	.	.	.	.	.	.
@@ -1014,22 +1014,22 @@
 16C#/	.	.	.	.	.	.
 16D/	.	.	.	.	.	.
 16C#/JJ	.	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!
 16D/LL	.	.	.	.	.	.
 16C#/	.	.	.	.	.	.
 16D/)	.	.	.	.	.	.
-!LO:TX:t=P:problem:16DD poprawione na 16Cn	!	!	!	!	!	!
+!LO:TX:t=P:problem=16DD poprawione na 16Cn	!	!	!	!	!	!
 16Cn/JJ	.	.	.	.	.	.
 =113	=113	=113	=113	=113	=113	=113
-!LO:TX:t=P:problem:4BB- poprawione na 4B-	!	!	!	!	!	!
+!LO:TX:t=P:problem=4BB- poprawione na 4B-	!	!	!	!	!	!
 4BB-/	4B-/ 4d 4g	f	8.g/	Spraw	.	.
 .	.	.	16b-/	świa-	.	.
-!LO:TX:t=P:problem:4CC poprawione na 4C	!	!	!	!	!	!
+!LO:TX:t=P:problem=4CC poprawione na 4C	!	!	!	!	!	!
 4C/	4A/ 4c 4f	.	4a/	-to-	.	.
-!LO:TX:t=P:problem:4CC poprawione na 4C	!	!	!	!	!	!
+!LO:TX:t=P:problem=4CC poprawione na 4C	!	!	!	!	!	!
 4C/	4A/ 4c 4f	.	4ff\	-wych	.	.
 =114	=114	=114	=114	=114	=114	=114
-!LO:TX:t=P:problem:3 takty zapisane na doklejonej kartce	!	!	!	!	!	!
+!LO:TX:t=P:problem=3 takty zapisane na doklejonej kartce	!	!	!	!	!	!
 8CC/ 8C	8G/ 8B- 8e	.	8.g/	nę-	.	.
 8r	8r	.	.	.	.	.
 .	.	.	16cc\	-tny	.	.
@@ -1073,7 +1073,7 @@
 4C\ 4G	4g/ 4cc 4ee	.	.	.	.	.
 *Xrep	*	*	*	*	*	*
 =120	=120	=120	=120	=120	=120	=120
-!	!LO:TX:t=P:problem:usunięte b-	!	!	!	!	!
+!	!LO:TX:t=P:problem=usunięte b-	!	!	!	!	!
 (<8qF#X/	.	.	.	.	.	.
 4C\) 4G	8.f/L 8.g 8.dd	.	2.r	.	.	.
 .	16f/Jk 16g 16bn	.	.	.	.	.
@@ -1090,7 +1090,7 @@
 !!LO:LB:g=original
 =123	=123	=123	=123	=123	=123	=123
 4BBB-/ 4BB-	8.B-/L 8.d 8.g	.	8.g/	Spraw	.	.
-!	!	!	!LO:TX:t=P:problem:tekst: światowych poprawione na światowych nętny	!	!	!
+!	!	!	!LO:TX:t=P:tekst:problem= światowych poprawione na światowych nętny	!	!	!
 .	16B-/Jk 16d-X	.	16d-X/	świa-	.	.
 4CC/ 4C	4A/ 4c	.	16c/LL	-to-	.	.
 .	.	.	16f/JJ	.	.	.
@@ -1128,7 +1128,7 @@
 16E\JJ	.	.	.	.	.	.
 *Xrep	*	*	*	*	*	*
 =126	=126	=126	=126	=126	=126	=126
-!	!LO:TX:t=P:problem:usunięte f	!	!	!	!	!
+!	!LO:TX:t=P:problem=usunięte f	!	!	!	!	!
 )(16F\LL	8.a/L 8.cc	.	2.r	.	.	.
 16E\	.	.	.	.	.	.
 16F\	.	.	.	.	.	.

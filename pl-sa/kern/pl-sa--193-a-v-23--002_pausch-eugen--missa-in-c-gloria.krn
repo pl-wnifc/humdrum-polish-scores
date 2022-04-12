@@ -31,8 +31,8 @@
 *M3/4	*	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*M3/4	*M3/4	*M3/4
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *	*	*	*	*	*	*below	*	*	*	*	*	*	*	*
-!LO:TX:a:i:t=Allo&colon;	!	!	!LO:TX:a:i:t=Allo	!	!LO:TX:a:i:t=Allo&colon;	!LO:DY:rj	!LO:TX:b:t=P:problem:"G" przed kluczem	!	!LO:TX:b:t=P:problem:"G" przed kluczem	!	!LO:TX:a:t=P:problem:brak partii w źródle	!LO:TX:a:i:t=Allo&colon;	!LO:TX:a:i:t=Allo.	!LO:TX:a:i:t=Allo&colon;
-!LO:TX:a:t=P:problem:b.c. jest tak pomazane, że nie daję głowy za jego poprawność	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:i:t=Allo&colon;	!	!	!LO:TX:a:i:t=Allo	!	!LO:TX:a:i:t=Allo&colon;	!LO:DY:rj	!LO:TX:b:t=P:problem="G" przed kluczem	!	!LO:TX:b:t=P:problem="G" przed kluczem	!	!LO:TX:a:t=P:problem=brak partii w źródle	!LO:TX:a:i:t=Allo&colon;	!LO:TX:a:i:t=Allo.	!LO:TX:a:i:t=Allo&colon;
+!LO:TX:a:t=P:problem=b.c. jest tak pomazane, że nie daję głowy za jego poprawność	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4C/	.	f	4cc 4e 4G/	.	4cc 4e 4G/	f	8.c\	[G]lo-	8.cc\	[G]lo-	2.ryy	4cc\	4e/	4ee\
 .	.	.	.	.	.	.	16c\	-ri-	16cc\	-ri-	.	.	.	.
 4r	.	.	4r	.	4r	.	4c\	-a	4cc\	-a	.	4r	4r	4r
@@ -80,7 +80,7 @@
 *Xtremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\L	6	.	8f/L	.	8a/L	.	4F\	ho-	8ff\L	ho-	2.ryy	8aa\L	8ff\L	8aa\L
 8F\	.	.	16e/L	.	16g/L	.	.	.	16ee\L	.	.	16gg\L	16ee\L	16gg\L
 .	.	.	16d/JJ	.	16f/JJ	.	.	.	16dd\JJ	.	.	16ff\JJ	16dd\JJ	16ff\JJ
@@ -136,7 +136,7 @@
 8C/J	.	.	8e/	.	8g/	.	.	.	.	.	.	.	.	.
 *Xtremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 =12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\L	6	.	8f/L	.	8a/L	.	8F\	vo-	8ff\	vo-	2.ryy	8aa\L	4dd\	4ff\
 8F\	.	.	16e/L	.	16g/L	.	8F\	-lun-	16ee\LL	-lun-	.	16gg\L	.	.
 .	.	.	16d/JJ	.	16f/JJ	.	.	.	16dd\JJ	.	.	16ff\JJ	.	.
@@ -171,7 +171,7 @@
 8C/	5	.	8ee\	.	8gg'\	.	4C/	-ne-	4ee\	-ne-	.	4cc\	.	.
 8C/J	.	.	8ee\J	.	8gg'\J	.	.	.	.	.	.	.	.	.
 =16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
-!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8C/L	5_	.	8ee\L	.	8ccc\	.	4.C/	-di-	4.ee\	-di-	2.ryy	4ee\	2ee\	2ccc\
 8C/	.	.	8e/	.	4gg\	.	.	.	.	.	.	.	.	.
 8C/	.	.	8e/	.	.	.	.	.	.	.	.	4ee\	.	.
@@ -259,7 +259,7 @@
 4GG/	.	.	8gg\	.	8b\	.	4G\	-bi	4gg\	-bi	2.ryy	4cc\	4g/	4a\
 .	.	.	8r	.	4dd\	.	.	.	.	.	.	.	.	.
 8r	.	.	8r	.	.	.	8r	.	4dd\	pro-	.	4r	8rg	4dd\
-!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:u góry dopisana linia melodyczna	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=u góry dopisana linia melodyczna	!
 8G\L	3	.	8b\L	.	4dd\	.	8G\L	pro-	.	.	.	.	8b\L	.
 8F#X\	6 3	.	8a\	.	.	.	8F#X\	.	4dd\	-pter	.	4r	8a\	4dd\
 8G\J	3	.	8b\J	.	8dd\	.	8G\J	-pter	.	.	.	.	8b\J	.
@@ -296,7 +296,7 @@
 8F#\J	X	.	8a\J	.	8dd\	.	8F\J	.	.	.	.	.	.	8aa\J
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
-!LO:TX:a:t=P:problem:takty 29-30 zapisane repetycją	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=takty 29-30 zapisane repetycją	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4G\yy	.	.	4b\	.	8gg\	.	4G\	-am	4dd\	-am	2.ryy	4dd\	4dd\	4bb\
 .	.	.	.	.	4dd\	.	.	.	.	.	.	.	.	.
 8ryy	.	.	8r	.	.	.	8r	.	4dd\	Do-	.	4r	8r	4dd\
@@ -370,7 +370,7 @@
 8BB/	.	.	8b\	.	8b'\	.	4r	.	4r	.	.	4r	.	.
 8GG/J	.	.	8g\J	.	8g'\J	.	.	.	.	.	.	.	.	.
 =36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36
-!	!	!	!	!	!LO:TX:t=P:problem:mixed beam	!	!LO:N:vis=0	!	!LO:N:vis=0	!	!	!	!	!LO:SIC:s=4ff#:v
+!	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!	!LO:N:vis=0	!	!LO:N:vis=0	!	!	!	!	!LO:SIC:s=4ff#:v
 8D/L	.	.	8d/L	.	8d'/L	.	1.r	.	1.r	.	2.ryy	4dd\	4a/	4ff\
 8D/	.	.	8d/	.	8dd'\	.	.	.	.	.	.	.	.	.
 8BB/	.	.	8B/	.	8b'\	.	.	.	.	.	.	4r	2b/	2gg\
@@ -379,7 +379,7 @@
 8GG/J	.	.	8G/J	.	8g'\J	.	.	.	.	.	.	.	.	.
 =37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37
 *	*	*	*	*	*	*	*	*	*	*	*	*tremolo	*	*
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!LO:SIC:s=4ff#:v
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!LO:SIC:s=4ff#:v
 8D\L	.	.	8d/L	.	8dd\L	.	.	.	.	.	2.ryy	8dd\L	4a/	4ff\
 8DD/J	.	.	8d/	.	8d/J	.	.	.	.	.	.	8dd\	.	.
 *tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -527,7 +527,7 @@
 4r	.	.	4bb\	.	4ddd\	.	8B\	-ci-	8dd\	-ci-	.	.	4r	4r
 .	.	.	.	.	.	.	8B\	-pe	8dd\	-pe	.	.	.	.
 =56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:takty 56-57 dopisane na górze
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=takty 56-57 dopisane na górze
 4r	.	.	2bb\	.	2ddd\	.	2B\	de-	2dd\	de-	2.ryy	.	4r	2ee\
 4r	.	.	.	.	.	.	.	.	.	.	.	.	4b\	.
 4E\	#	.	4gg\	.	4bb\	.	4G\	-pre-	4b\	-pre-	.	.	4g\	4b\
@@ -587,7 +587,7 @@
 8GG/J	.	.	.	.	.	.	.	.	.	.	.	8g\J	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
 =64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64
-!	!	!	!LO:TX:a:t=P:problem:takty 64-67 zapisane repetycją, łuk na górze	!LO:DY:t=f	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:a:t=P:problem=takty 64-67 zapisane repetycją, łuk na górze	!LO:DY:t=f	!	!	!	!	!	!	!	!	!	!
 8GG/L	7n 5	.	16dd\LLyy	f	16ffn\LL	f	2G\	mi-	2ffn\	mi-	2.ryy	2.g/	4dd\	4ffn\
 .	.	.	16ee\Jyy	.	16gg\J	.	.	.	.	.	.	.	.	.
 8GG/	.	.	8dd\Jyy	.	8ff\J	.	.	.	.	.	.	.	.	.
@@ -632,7 +632,7 @@
 8GG/J	.	.	8dd\J	.	8ff\J	.	.	.	.	.	.	.	.	8ff\J
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original
 =69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:brak taktu
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=brak taktu
 8GG/L	6 4	.	4cc\	.	4ee\	.	.	.	.	.	2.ryy	2.g/	4cc\	2.ryy
 8GG/	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8GG/	5 3	.	4b\	.	4dd\	.	.	.	.	.	.	.	4b\	.
@@ -705,7 +705,7 @@
 *Xtremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!LO:LB:g=original	!
 =77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	.	.	8qqb/	.	.	.	.	.	.	.	.	.
 8F\L	.	.	8f/L	.	8a/L	.	4F\	San-	8ff\L	Do-	2.ryy	8aa\L	4dd\	2.gg\
 8F\	.	.	16e/L	.	16g/L	.	.	.	16ee\L	.	.	16gg\L	.	.
@@ -715,7 +715,7 @@
 8GG/	.	.	4B/	.	4dT/	.	4GG/	.	4b\	-mi-	.	4dd\	4b\	.
 8GG/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78
-!LO:TX:a:t=P:problem:takty 78-83 zapisane repetycją, łuk na górze	!	!	!	!	!LO:TX:a:t=P:problem:takty 78-83 zapisane repetycją	!LO:DY:rj	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=takty 78-83 zapisane repetycją, łuk na górze	!	!	!	!	!LO:TX:a:t=P:problem=takty 78-83 zapisane repetycją	!LO:DY:rj	!	!	!	!	!	!	!	!
 4C/	.	.	4c/	.	4ccyy 4eyy 4G/yy	f	4C/	-ctus	4cc\	-nus	2.ryy	4cc\	4cc\	4ff\
 4r	.	.	4r	.	4ryy	.	4r	.	4r	.	.	4r	4r	4ee\
 8C/L	-	.	8.g/L	.	8.b-XT\Lyy	p	4G\	Tu	4b-X\	tu	.	4r	4r	4dd\
@@ -724,7 +724,7 @@
 .	.	.	32g/JJJ	.	32b-\JJJyy	.	.	.	.	.	.	.	.	.
 =79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79
 *tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=1	!LO:TX:a:t=2	!LO:TX:a:t=P:problem:takty 79-84 zapisane repetycją, linia przerywana na górze
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=1	!LO:TX:a:t=2	!LO:TX:a:t=P:problem=takty 79-84 zapisane repetycją, linia przerywana na górze
 !	!	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=0	!
 8C/L	6 4	p	8f/	.	8a/yy	.	4F\	So-	4a\	So-	2.ryy	2.r	1.r	4cc\yy
 8C/	.	.	8r	.	8ryy	.	.	.	.	.	.	.	.	.
@@ -762,7 +762,7 @@
 8C/J	.	.	8e/	.	8g/yy	.	8c\	-su	8gg\	-su	.	.	.	.
 *Xtremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 =83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	.	.	8qqb/yy	.	.	.	.	.	.	.	.	.
 8F\L	.	.	8f/L	.	8a/Lyy	.	4F\	Chri-	8ff\L	Chri-	2.ryy	8aa\L	4dd\	2.gg\yy
 8F\	.	.	16e/L	.	16g/Lyy	.	.	.	16ee\L	.	.	16gg\L	.	.
@@ -781,7 +781,7 @@
 8C/	.	.	8e/	.	8cc\	.	4r	.	4r	.	.	4r	.	4dd\yy
 8C/J	.	.	8e/J	.	8cc\J	.	.	.	.	.	.	.	.	.
 =85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85
-!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8C/L	.	.	(8g/L	.	(8ee\L	.	2.c\	Cum	2.ee\	Cum	2.ryy	4cc\	2.cc\	2.cc\
 8C/	.	.	8e/)	.	8cc\	.	.	.	.	.	.	.	.	.
 8C/	.	.	8e'/	.	8cc')\	.	.	.	.	.	.	4r	.	.
@@ -798,7 +798,7 @@
 8C/J	.	.	8ee'\J	.	8gg'\J	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
 =87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87
-!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8C/L	.	.	8ee\L	.	8ccc\	.	2c\	Spi-	2ee\	Spi-	2.ryy	4cc\	2.ee\	2.gg\
 8C/	.	.	8e/J	.	4gg\	.	.	.	.	.	.	.	.	.
 *	*	*	*tremolo	*	*	*	*	*	*	*	*	*	*	*
@@ -845,7 +845,7 @@
 8E\	.	.	.	.	8gg\	.	4r	.	4r	.	.	8cc\	4ee\	.
 8E\J	.	.	8cc\	.	8gg\J	.	.	.	.	.	.	8cc\J	.	.
 =93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93	=93
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:takt wzięty ołówkiem w repetycję
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=takt wzięty ołówkiem w repetycję
 8C\L	.	.	8cc\	.	8gg\	.	2.E\	a-	2.gg\	a-	2.ryy	2cc\	2.gg\	2ee\
 8E\J	6	.	4cc\	.	(4ee\	.	.	.	.	.	.	.	.	.
 8E\L	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -876,7 +876,7 @@
 .	.	.	16b/JJ	.	.	.	.	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
 =96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96
-!	!	!	!LO:TX:b:t=P:problem:nuta e bez caudy	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:b:t=P:problem=nuta e bez caudy	!	!	!	!	!	!	!	!	!	!	!
 4C/	.	.	4cc 4e/	.	4cc\	.	4C/	-men	4ee\	-men	2.ryy	4cc\	4cc\	4cc\
 4r	.	.	4r	.	8r	.	4r	.	4r	.	.	4r	4r	4r
 .	.	.	.	.	8g/L	.	.	.	.	.	.	.	.	.
@@ -916,7 +916,7 @@
 4r	.	.	4r	.	8g/	.	.	.	.	.	.	4r	.	.
 .	.	.	.	.	8g/J	.	.	.	.	.	.	.	.	.
 =101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101
-!	!	!	!	!	!LO:TX:t=P:problem:mixed beam	!LO:DY:t=f	!	!	!	!	!	!LO:TX:a:t=2.	!	!
+!	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!LO:DY:t=f	!	!	!	!	!	!LO:TX:a:t=2.	!	!
 !	!	!	!	!	!	!	!LO:N:vis=00	!	!LO:N:vis=00	!	!	!LO:N:vis=0	!LO:N:vis=00	!LO:N:vis=00
 4BB/	.	.	4d 4G/	.	8dd\L	f	0.r	.	0.r	.	2.ryy	1.r	0.r	0.r
 .	.	.	.	.	8g/J	.	.	.	.	.	.	.	.	.
@@ -927,7 +927,7 @@
 .	.	.	.	.	8g/J	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102
-!	!	!	!	!	!LO:TX:t=P:problem:mixed beam	!LO:DY:t=f.	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!LO:DY:t=f.	!	!	!	!	!	!	!	!
 4BB/	6	.	4d 4G/	.	8dd\L	f	.	.	.	.	2.ryy	.	.	.
 .	.	.	.	.	8g/J	.	.	.	.	.	.	.	.	.
 4r	.	.	4r	.	8g/L	p	.	.	.	.	.	.	.	.
@@ -987,7 +987,7 @@
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!
 =109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109
 .	.	.	8qqgg/	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\L	6 5	.	8ff\L	.	8aa\L	.	4F\	A-	8ff\L	a-	2.ryy	8aa\L	4dd\	4ff\
 8F\	.	.	16ee\L	.	16gg\L	.	.	.	16ee\L	.	.	16gg\L	.	.
 .	.	.	16dd\JJ	.	16ff\JJ	.	.	.	16dd\JJ	.	.	16ff\JJ	.	.
@@ -997,7 +997,7 @@
 8GG/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!
 =110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110
-!LO:TX:a:t=P:problem:takty 110-123 zapisane repetycją, łuk na górze	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=takty 110-123 zapisane repetycją, łuk na górze	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4C/yy	.	.	4cc\	.	4cc\	.	4C/	-men	4cc\	-men	2.ryy	4cc\	4cc\	4cc\
 4ryy	.	.	4r	.	8r	p	4r	.	4r	.	.	4r	4r	4r
 .	.	.	.	.	8G/L	.	.	.	.	.	.	.	.	.
@@ -1092,7 +1092,7 @@
 .	.	.	.	.	8gg\J	.	.	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
 =121	=121	=121	=121	=121	=121	=121	=121	=121	=121	=121	=121	=121	=121	=121
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:takty 121-122 zapisane repetycją, łuk i adnotacja "bis" na górze
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=takty 121-122 zapisane repetycją, łuk i adnotacja "bis" na górze
 4F\yy	4 2	.	4gg\ 4b\ 4d\	.	8bb\L	.	4F\	A-	4dd\	a-	2.ryy	4g/	2.dd\	2gg\yy
 .	.	.	.	.	8gg\J	.	.	.	.	.	.	.	.	.
 *	*	*	*	*	*tremolo	*	*	*	*	*	*	*	*	*
@@ -1112,7 +1112,7 @@
 4C/yy	.	.	8ee\L	.	8ccc\	.	4r	.	4r	.	.	4cc\	4ee\	4gg\yy
 .	.	.	8ee\J	.	8gg\J	.	.	.	.	.	.	.	.	.
 =123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	8qqgg/	.	.	.	.	.	.	.	.	.	.	.
 8F\Lyy	6 5	.	8ff\L	.	8aa\L	.	4F\	a-	8ff\L	a-	2.ryy	4cc\	4dd\	4ff\
 8F\yy	.	.	16ee\L	.	16gg\L	.	.	.	16ee\L	.	.	.	.	.
@@ -1131,7 +1131,7 @@
 4GG/	.	.	8b\	.	4bb\	4dd\	4g\	.	4r	.	4r	.	.	4dd\	4f/	4dd\
 .	.	.	8g\J	.	.	.	.	.	.	.	.	.	.	.	.	.
 =125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125
-!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:partia krótsza o 3 takty	!	!LO:TX:a:t=P:problem:partia krótsza o 3 takty	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=partia krótsza o 3 takty	!	!LO:TX:a:t=P:problem=partia krótsza o 3 takty	!	!	!	!	!
 4C/	.	.	8cc\L	.	4ccc\	4ee\	4g\	.	2.ryy	.	2.ryy	.	2.ryy	4ee\	4e/	4cc\
 .	.	.	8g\	.	.	.	.	.	.	.	.	.	.	.	.	.
 4r	.	.	8cc\	.	4r	4rcyy	4ryy	.	.	.	.	.	.	4r	4cc\	4ee\
@@ -1146,7 +1146,7 @@
 =127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127	=127
 4C/	.	.	2cc/	2e 2G/	.	4ccc\	4ee\	4g\	.	2.ryy	.	2.ryy	.	2.ryy	4ee\	2cc\	2ee\
 4r	.	.	.	.	.	4r	4rcyy	4ryy	.	.	.	.	.	.	4r	.	.
-!	!	!	!	!	!	!LO:TX:a:t=128.:problem:po kresce taktowej	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!LO:TX:a:t=128.:problem=po kresce taktowej	!	!	!	!	!	!	!	!	!	!	!
 4r	.	.	4r	4rcyy	.	4r	4rcyy	4ryy	.	.	.	.	.	.	4r	4r	4r
 *	*	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*
 *	*	*	*	*	*v	*v	*v	*	*	*	*	*	*	*	*	*

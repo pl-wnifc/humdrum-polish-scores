@@ -28,10 +28,10 @@
 *B-:	*	*B-:	*	*B-:	*	*	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 *met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*
-!LO:TX:i:a:t=Pater noster	!	!LO:TX:i:a:t=Pater noster	!	!	!	!LO:TX:a:t=P:problem:napis "Pater noster" na pięciolinii przed kluczem	!
-!LO:TX:t=P:problem:all\right:global	!	!LO:TX:i:a:t=Grave	!	!	!	!LO:TX:t=P:problem:all\right:global	!
-!LO:TX:t=P:problem:all/left:global	!	!LO:TX:t=P:problem:all/left:global	!	!LO:TX:t=P:problem:all\right:global	!	!LO:TX:i:a:t=Grave	!
-!LO:TX:a:i:t=Grave	!	!LO:TX:t=P:problem:all\right:global	!	!LO:TX:a:i:t=Grave	!	!LO:TX:a:i:t=Pater noster	!
+!LO:TX:i:a:t=Pater noster	!	!LO:TX:i:a:t=Pater noster	!	!	!	!LO:TX:a:t=P:problem=napis "Pater noster" na pięciolinii przed kluczem	!
+!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:i:a:t=Grave	!	!	!	!LO:TX:t=P:problem=all\right&colon; global	!
+!LO:TX:t=P:problem=all/left&colon; global	!	!LO:TX:t=P:problem=all/left&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:i:a:t=Grave	!
+!LO:TX:a:i:t=Grave	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:a:i:t=Grave	!	!LO:TX:a:i:t=Pater noster	!
 8BB-/	Pa-	8b-\	Pa-	8F\	Pa-	8dd\	Pa-
 8BB-/	-ter	8b-\	-ter	8F\	-ter	8dd\	-ter
 =1	=1	=1	=1	=1	=1	=1	=1
@@ -42,7 +42,7 @@
 8BB-/	in	8f/	in	8D\	in	8b-/	in
 =2	=2	=2	=2	=2	=2	=2	=2
 *	*	*2\right	*	*2\right	*	*2\right	*
-!LO:TX:t=P:problem:2/left:global	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=2/left&colon; global	!	!	!	!	!	!	!
 2BB-/	coe-	2b-\	coe-	2G\	coe-	2ee-\	coe-
 4BB-/	-lis,	4b-\	-lis,	4F\	-lis	4dd\	-lis.
 4r	.	4r	.	4r	.	4r	.
@@ -56,7 +56,7 @@
 4FF/	no-	4a/	no-	4F\	no-	4dd\	no-
 4AA/	-men	4f/	-men	4E-\	-men	4cc\	-men
 =4	=4	=4	=4	=4	=4	=4	=4
-!	!	!LO:TX:t=P:problem:2/left:global	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=2/left&colon; global	!	!	!	!	!
 2BB-/	tu-	2f/	tu-	2D\	tu-	2b-\	tu-
 4BB-/	-um:	4f/	-um:	4D\	-um	4f/	-um:
 4r	.	4r	.	4r	.	4r	.
@@ -119,7 +119,7 @@
 2BB-/	ho-	2f/	ho-	2D\	ho-	2b-\	ho-
 8BB-/	-di-	8f/	-di-	8D\	-di-	8f/	-di-
 8BB-/	-e;	8f/	-e;	8D\	-e	8f/	-e;
-!LO:TX:a:t=P:problem:znak "+" nad kreską taktową	!	!LO:TX:a:t=P:problem:znak "+" nad kreską taktową	!	!LO:TX:a:t=P:problem:znak "+" nad kreską taktową	!	!LO:TX:a:t=P:problem:znak "+" nad kreską taktową	!
+!LO:TX:a:t=P:problem=znak "+" nad kreską taktową	!	!LO:TX:a:t=P:problem=znak "+" nad kreską taktową	!	!LO:TX:a:t=P:problem=znak "+" nad kreską taktową	!	!LO:TX:a:t=P:problem=znak "+" nad kreską taktową	!
 4r	.	4r	.	4r	.	4r	.
 !	!	!LO:LB:g=original	!	!	!	!LO:LB:g=original	!
 =14	=14	=14	=14	=14	=14	=14	=14
@@ -128,7 +128,7 @@
 4BB-/	no-	4a/	no-	4E-\	no-	4cc\	no-
 4BB-/	-strum	4a-X/	-strum	4F\	-strum	4dd\	-strum
 =15	=15	=15	=15	=15	=15	=15	=15
-!	!	!LO:TX:a:t=P:problem:w źródle bemol dopisany ołówkiem	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=w źródle bemol dopisany ołówkiem	!	!	!	!	!
 !	!	!LO:SIC:v:s=8a-	!	!	!	!	!
 4BBn/	quo-	4a/	quo-	4D\	quo-	4ff\	quo-
 !	!	!LO:SIC:v:s=8a-	!	!	!	!	!
@@ -180,7 +180,7 @@
 4D\	-cut	4a/	-cut	4F\	-cut	4ff\	-cut
 4C/	et	4a/	et	4F\	et	4ee-\	et
 !	!	!LO:TX:b:i:t=V. S.	!	!	!	!	!
-!	!	!LO:TX:a:t=P:problem:napis na pięciolinii za kreską	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=napis na pięciolinii za kreską	!	!	!	!	!
 4C/	nos	4a/	nos	4F\	nos	4a/	nos
 !	!	!LO:PB:g=original	!	!	!	!LO:LB:g=original	!
 =23	=23	=23	=23	=23	=23	=23	=23
@@ -218,15 +218,15 @@
 4D-X\	in	4dd-X\	in	4A-X\	in	4ff\	in
 4D-\	ten-	4dd-\	ten-	4A-\	ten-	4ff\	ten-
 4D-\	-ta-	4dd-\	-ta-	4A-\	-ta-	4ff\	-ta-
-!LO:TX:a:t=P:problem:znak "+" nad kreską taktową	!	!	!	!LO:TX:a:t=P:problem:znak "+" nad kreską taktową	!	!	!
+!LO:TX:a:t=P:problem=znak "+" nad kreską taktową	!	!	!	!LO:TX:a:t=P:problem=znak "+" nad kreską taktową	!	!	!
 4D-\	-ti-	4dd-\	-ti-	4A-\	-ti-	4ff\	-ti-
 =29	=29	=29	=29	=29	=29	=29	=29
 2F\	-o-	2cc\	-o-	2A\	-o-	2ff\	-o-
-!	!	!LO:TX:a:t=P:problem:znak "+" nad kreską taktową	!	!	!	!LO:TX:a:t=P:problem:znak "+" nad kreską taktową	!
+!	!	!LO:TX:a:t=P:problem=znak "+" nad kreską taktową	!	!	!	!LO:TX:a:t=P:problem=znak "+" nad kreską taktową	!
 2F\	-nem	2cc\	-nem	2A\	-nem	2ee-\	-nem
 !	!	!LO:LB:g=original	!	!	!	!	!
 =30	=30	=30	=30	=30	=30	=30	=30
-!	!	!	!	!	!	!LO:TX:a:t=P:problem:w źródle kasownik dopisany ołówkiem	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle kasownik dopisany ołówkiem	!
 4BB-/	sed	4b-\	sed	4F\	sed	4dd\	sed
 4BB-/	li-	4b-\	li-	4F\	li-	4dd\	li-
 4BB-/	-be-	4b-\	-be-	4F\	-be-	4dd\	-be-
@@ -252,9 +252,9 @@
 2FF/	A-	2f/	A-	2E-\	A-	2a/	A-
 =34	=34	=34	=34	=34	=34	=34	=34
 2BB-/	-men	2f/	-men.	2D\	-men	2b-/	-men
-!	!	!	!	!	!	!LO:TX:a:t=P:problem:napis "Kraków 14.VII.1885" na pięciolinii za kreską.	!
-!	!	!	!	!	!	!LO:TX:a:t=P:problem:podwójna kreska (druga kreska nie jest pogrubiona)	!
-!	!	!LO:TX:a:t=P:problem:napis na pięciolinii za kreską	!	!	!	!LO:TX:b:i:t=Kasper Molęcki	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=napis "Kraków 14.VII.1885" na pięciolinii za kreską.	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=podwójna kreska (druga kreska nie jest pogrubiona)	!
+!	!	!LO:TX:a:t=P:problem=napis na pięciolinii za kreską	!	!	!	!LO:TX:b:i:t=Kasper Molęcki	!
 !LO:TX:b:i:t=Kraków 14.VII.1885. Molęcki	!	!LO:TX:b:i:t=Kraków 14 VII 1885	!	!LO:TX:b:i:t=Kraków 14.VII.1885. Molęcki	!	!LO:TX:b:i:t=Kraków 14.VII.1885	!
 2r	.	2r	.	2r	.	2r	.
 ==	==	==	==	==	==	==	==

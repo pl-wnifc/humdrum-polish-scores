@@ -30,8 +30,8 @@
 *M2/1	*	*M2/1	*	*M2/1
 *met(C|)	*	*met(C|)	*	*
 =1-	=1-	=1-	=1-	=1-
-!LO:TX:t=P:problem:przed kluczem inicjał P	!	!LO:TX:t=P:problem:przed kluczem inicjał P	!	!
-!	!	!	!	!LO:TX:t=P:problem:brak partii
+!LO:TX:t=P:problem=przed kluczem inicjał P	!	!LO:TX:t=P:problem=przed kluczem inicjał P	!	!
+!	!	!	!	!LO:TX:t=P:problem=brak partii
 00r	.	1A	Pa-	0ryy
 .	.	2.E/	-trem	.
 .	.	4F#X/	o-	.
@@ -44,10 +44,10 @@
 *	*	*col	*	*
 1r	.	2.E/	.	0ryy
 *	*	*Xlig	*	*
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 .	.	4F#X/	.	.
 *	*	*Xcol	*	*
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 1E	Pa-	4G#X/	.	.
 .	.	2A/	.	.
 .	.	4G#/	.	.
@@ -86,20 +86,20 @@
 !	!	!LO:SIC:v:t=custos B	!	!
 4A\	Cae-	1A	&	0ryy
 4G\	.	.	.	.
-!LO:TX:t=P:problem:♯above	!	!	!	!
+!LO:TX:t=P:problem=♯above	!	!	!	!
 4F#X\	.	.	.	.
 4E\	.	.	.	.
 !	!	!LO:LB:g=original	!	!
-!LO:TX:t=P:problem:♯above	!	!	!	!
+!LO:TX:t=P:problem=♯above	!	!	!	!
 4D#X\	-li	1B	ter-	.
 4BB/	et	.	.	.
 (<1E\	ter-	.	.	.
 =10-	=10-	=10-	=10-	=10-
 .	.	2B\	-ra	0ryy
-!LO:TX:t=P:problem:♯below	!	!	!	!
+!LO:TX:t=P:♯below:problem	!	!	!	!
 2D#X/)	.	1B	vi-	.
 !LO:LB:g=original	!	!	!	!
-!LO:TX:t=P:problem:oddech jako rozdzielacz słów:global	!	!	!	!
+!LO:TX:t=P:global:problem=oddech jako rozdzielacz słów	!	!	!	!
 2E,\	-ra	.	.	.
 1E\	Vi-	2G/	-si-	.
 =11-	=11-	=11-	=11-	=11-
@@ -127,7 +127,7 @@
 =15-	=15-	=15-	=15-	=15-
 2AA/	-um	2A/	&	0ryy
 1A	Et	1c	in	.
-!LO:TX:t=P:problem:♯above	!	!	!	!
+!LO:TX:t=P:problem=♯above	!	!	!	!
 2G#X\	in	2B\	u-	.
 =16-	=16-	=16-	=16-	=16-
 2A\	V-	2c\	-num	0ryy
@@ -172,7 +172,7 @@
 4A\	-ni-	.	.	.
 =22-	=22-	=22-	=22-	=22-
 2.A\	-ge-	.	.	0ryy
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 .	.	2c#X\	.	.
 4A\	-ni-	.	.	.
 2D/	-t(um)	2.d\	.	.
@@ -191,7 +191,7 @@
 =25-	=25-	=25-	=25-	=25-
 1E	an-	1.G	.	0ryy
 2D/	-te	.	.	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 1D/	an-	4F#X/	.	.
 !	!	!LO:SIC:v:t=custos F#	!	!
 .	.	4E/	.	.
@@ -238,7 +238,7 @@
 2GG/	de	2G/	de	.
 =32-	=32-	=32-	=32-	=32-
 2.D/	Lu-	4G/	lu-	0ryy
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 .	.	8F#X/L	.	.
 .	.	8E/J	.	.
 .	.	4.F#/	.	.
@@ -259,7 +259,7 @@
 2.G\	DE-	4G/	DE-	0ryy
 .	.	4A/	.	.
 .	.	4B/	.	.
-!LO:TX:t=P:problem:♯above	!	!	!	!
+!LO:TX:t=P:problem=♯above	!	!	!	!
 4F#X\	.	4A/	.	.
 2E\	-o	2G/	.	.
 2D/	.	2F#X/	.	.
@@ -269,7 +269,7 @@
 .	.	1e	Ve-	.
 1BB	.	.	.	.
 .	.	2d#X\	.	.
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 *Xlig	*	*	*	*
 =37-	=37-	=37-	=37-	=37-
 2E\	-ro	2e\	-ro	0ryy
@@ -277,7 +277,7 @@
 2E\	-ni-	2B\	-ni-	.
 =38-	=38-	=38-	=38-	=38-
 2A\	-t(um)	2c\	-tum	0ryy
-!LO:TX:t=P:problem:♯above	!	!	!	!
+!LO:TX:t=P:problem=♯above	!	!	!	!
 2G#X\	n(on)	2B\	n(on)	.
 1A	fa-	1A	fa-	.
 =39-	=39-	=39-	=39-	=39-
@@ -359,7 +359,7 @@
 4G\	.	.	.	.
 =51-	=51-	=51-	=51-	=51-
 1A	-lu-	.	.	0ryy
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 .	.	2c#X\	.	.
 2D/	-tem	2d\	-tem	.
 2D/	de-	2d\	de-	.
@@ -372,9 +372,9 @@
 .	.	4F#X/	.	.
 .	.	4.G/	.	.
 4BB/	.	.	.	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 .	.	16F#X/LL	.	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 .	.	16G#X/JJ	.	.
 =53-	=53-	=53-	=53-	=53-
 2AA/	-dit	2A/	.	0ryy
@@ -385,12 +385,12 @@
 4D/	.	.	.	.
 =54-	=54-	=54-	=54-	=54-
 4E\	.	4G#X/	C(ae)-	0ryy
-!LO:TX:t=P:problem:♯above	!	!	!	!
+!LO:TX:t=P:problem=♯above	!	!	!	!
 4F#X\	.	4A/	.	.
 !LO:SIC:v:s=4G#	!	!	!	!
 4G\	.	4B/	.	.
 4E\	.	4G#/	.	.
-!LO:TX:t=P:problem:♯above	!	!	!	!
+!LO:TX:t=P:problem=♯above	!	!	!	!
 4F#X\	.	1.A	.	.
 !LO:SIC:v:s=4G#	!	!	!	!
 4G\	.	.	.	.
@@ -403,7 +403,7 @@
 =56||-	=56||-	=56||-	=56||-	=56||-
 *M2/1	*	*M2/1	*	*M2/1
 *met(C|)	*	*met(C|)	*	*
-!LO:TX:t=P:problem:przed kluczem inicjał E	!	!LO:TX:t=P:problem:przed kluczem inicjał E	!	!
+!LO:TX:t=P:problem=przed kluczem inicjał E	!	!LO:TX:t=P:problem=przed kluczem inicjał E	!	!
 1A	Et	1.c	ET	0ryy
 2D/	In-	.	.	.
 2G\	-car-	2.B/	In-	.
@@ -415,9 +415,9 @@
 8BB/L	.	.	.	.
 8AA/J	.	.	.	.
 2.BB/	.	.	.	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 .	.	8G#X/L	.	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 .	.	8F#X/J	.	.
 .	.	4.G#/	-na-	.
 4BB/	-tus	.	.	.
@@ -443,7 +443,7 @@
 *Xlig	*	*	*	*
 1D	-cto	1F#X	-cto	.
 =62-	=62-	=62-	=62-	=62-
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 2.D/	Ex	2.F#X/	Ex	0ryy
 4D/	Ma-	4F#/	Ma-	.
 2.E\	-ri-	2.G/	-ri-	.
@@ -474,9 +474,9 @@
 =66-	=66-	=66-	=66-	=66-
 2GG#X/	Ho-	2.E/	fa-	0ryy
 2AA/	-mi	.	.	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 .	.	4F#X/	.	.
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 2.E\	fa-	4G#X/	.	.
 .	.	4c\	.	.
 .	.	4.B\	.	.
@@ -489,7 +489,7 @@
 =68||-	=68||-	=68||-	=68||-	=68||-
 *M2/1	*	*M2/1	*	*M2/1
 *met(C|)	*	*met(C|)	*	*
-!LO:TX:t=P:problem:przed kluczem inicjał C	!	!LO:TX:t=P:problem:przed kluczem inicjał C	!	!
+!LO:TX:t=P:problem=przed kluczem inicjał C	!	!LO:TX:t=P:problem=przed kluczem inicjał C	!	!
 0r	.	00r	.	0ryy
 =69-	=69-	=69-	=69-	=69-
 1r	.	.	.	0ryy
@@ -522,7 +522,7 @@
 =74-	=74-	=74-	=74-	=74-
 1BB	.	.	.	0ryy
 !	!	!LO:SIC:v:t=custos E	!	!
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 .	.	2D#X/	.	.
 !	!	!LO:LB:g=original	!	!
 *Xlig	*	*	*	*
@@ -559,7 +559,7 @@
 .	.	1F	paſ-	0ryy
 1BB	-sus	.	.	.
 .	.	2E/	-s(us)	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 1AA/	et	4F#X/	et	.
 .	.	4E/	se-	.
 =78-	=78-	=78-	=78-	=78-
@@ -594,7 +594,7 @@
 =84-	=84-	=84-	=84-	=84-
 1.AA	-cun-	1.A	-cun-	1%3ryy
 2AA/	-d(um)	2A/	-dum	.
-!LO:TX:t=P:problem:♯above	!	!LO:TX:t=P:problem:♯above	!	!
+!LO:TX:t=P:problem=♯above	!	!LO:TX:t=P:problem=♯above	!	!
 1E	ſcri-	1G#X	ſcri-	.
 =85-	=85-	=85-	=85-	=85-
 !LO:SIC:v:t=custos E	!	!	!	!
@@ -603,15 +603,15 @@
 =86-	=86-	=86-	=86-	=86-
 *M2/1	*	*M2/1	*	*M2/1
 *met(C|)	*	*met(C|)	*	*
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 2E\	-ras	2G#X/	-ras	0ryy
 4r	.	4r	.	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 8.E\	e(t)	8.G#/	Et	.
 16E\	a-	16G#/	a-	.
 4A\	-ſcen-	4c\	-scen-	.
 8F#X\	-dit	8A/	-dit	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 8D/	in	8F#X/	in	.
 4.G\	C(ae)-	4.B/	C(ae)-	.
 !	!	!LO:SIC:v:t=custos G	!	!
@@ -619,10 +619,10 @@
 !	!	!LO:LB:g=original	!	!
 =87-	=87-	=87-	=87-	=87-
 8E\	.	8G/L	.	0ryy
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 8D\J	.	8F#/J	.	.
 4E\	.	4G/	.	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 4D/	-l(um)	2F#/	-lum	.
 4D/	ſe-	.	.	.
 4BB/	-det	4r	.	.
@@ -636,7 +636,7 @@
 .	.	8F/J	.	.
 4BB/	.	4G/	-te-	.
 4C/	Pa-	4G/	-r(am)	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 4D/	.	4F#X/	P(a-	.
 2GG/	-tris	2G/	-t)ris	.
 2G\	Et	2B\	Et	.
@@ -653,7 +653,7 @@
 4D/	cum	4d\	cum	.
 =90-	=90-	=90-	=90-	=90-
 4.A\	glo-	4.d\	glo-	0ryy
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 8AA/	-ri-	8c#X\	-ri-	.
 4D\	-a	4d\	-a	.
 8.D\	iu-	4.d\	iu-	.
@@ -672,7 +672,7 @@
 4D/	-uos	4F#X/	-uos	.
 4E-X\	e(t)	4G/	&	.
 2C/	mor-	4G/	mor-	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 .	.	8F#X/L	.	.
 .	.	8E/J	.	.
 4.D/	.	4.F#/	.	.
@@ -696,22 +696,22 @@
 8F/	.	8A/	.	.
 !LO:SIC:v:t=custos A	!	!	!	!
 8G/J	.	8B/J	.	.
-!LO:LB:g=original	!	!LO:TX:t=P:problem:♯above	!	!
+!LO:LB:g=original	!	!LO:TX:t=P:problem=♯above	!	!
 4.A\	.	4c#X\	.	.
 .	.	8A\	-gni	.
 8A\	-rit	8B\	n(on)	.
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 2A\	fi-	8c#\	e-	.
 .	.	8A\	-rit	.
 .	.	4d\	fi-	.
 =94-	=94-	=94-	=94-	=94-
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 2A\	-nis	2c#X\	-nis	1ryy
 2r	.	2r	.	.
 =95-	=95-	=95-	=95-	=95-
 *M3/1	*	*M3/1	*	*M3/1
 1r	.	1r	.	1%3ryy
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 1A	Et	1c#X	Et	.
 !	!	!LO:SIC:v:t=custos B	!	!
 1F	in	1d	in	.
@@ -743,7 +743,7 @@
 1BB	-fi-	1G	-fi-	1%3ryy
 *lig	*	*lig	*	*
 1C	-can-	1G	-can-	.
-!LO:SIC:v:t=custos GG	!	!LO:TX:t=P:problem:♯above	!	!
+!LO:SIC:v:t=custos GG	!	!LO:TX:t=P:problem=♯above	!	!
 1D	.	1F#X	.	.
 *Xlig	*	*Xlig	*	*
 !LO:LB:g=original	!	!	!	!
@@ -755,10 +755,10 @@
 0BB	P(a-	0D	qui	1%3ryy
 1C	-t)re	1E	ex	.
 =104-	=104-	=104-	=104-	=104-
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 1.D	Fi-	0F#X	P(a-	1%3ryy
 2D/	-li-	.	.	.
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 1BB	-o-	1G#X	-t)re	.
 =105-	=105-	=105-	=105-	=105-
 2AA/	-q(ue)	1A	Fi-	1%3ryy
@@ -771,12 +771,12 @@
 =106-	=106-	=106-	=106-	=106-
 1GG	pro-	1G	pro-	1%3ryy
 *lig	*	*	*	*
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 1AA	-ce-	0F#X	-ce-	.
 1BB	.	.	.	.
 *Xlig	*	*	*	*
 =107-	=107-	=107-	=107-	=107-
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 1E	-dit	1G#X	-dit	1%3ryy
 1C	qui	1c	qui	.
 1BB	cum	1d	cum	.
@@ -796,7 +796,7 @@
 =111-	=111-	=111-	=111-	=111-
 1.G	a-	1.B	a-	1%3ryy
 2D/	-do-	2d\	-do-	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 1A	-ra-	1c#X	-ra-	.
 =112-	=112-	=112-	=112-	=112-
 0D	-tur	1d	-tur	1%3ryy
@@ -856,7 +856,7 @@
 4F\	Ca-	8G/	-ctam]	.
 .	.	8F/	Ca-	.
 4.C/	-tho-	8G/L	-tho-	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 .	.	8F#X/	.	.
 .	.	8G/	.	.
 8C/	-li-	8A/J	.	.
@@ -873,7 +873,7 @@
 .	.	4d\	&	.
 8F\	.	.	.	.
 4.E\	.	4d\	A-	.
-!	!	!LO:TX:t=P:problem:♯above	!	!
+!	!	!LO:TX:t=P:problem=♯above	!	!
 .	.	4c#X\	-po-	.
 8E\	-li-	.	.	.
 2D\	-cam	4.d\	-sto-	.
@@ -892,7 +892,7 @@
 .	.	8E/J	.	.
 4AA/	Ec-	2A/	.	.
 4.E\	-cle-	.	.	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 .	.	4G#X/	-ſi-	.
 8E\	-ſi-	.	.	.
 =121-	=121-	=121-	=121-	=121-
@@ -922,7 +922,7 @@
 8D/	-si-	.	.	.
 !	!	!LO:LB:g=original	!	!
 2E\	-o-	8G/L]	.	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 .	.	8F#X/	.	.
 .	.	8G/	.	.
 .	.	8A/J	.	.
@@ -963,11 +963,11 @@
 8E\	-nem	.	.	.
 4D/	mor-	.	.	.
 4C/	.	4E/	.	.
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 4BB/	-tu-	4F#X/	-nem	.
 4AA/	.	4A/	mor-	.
 =128-	=128-	=128-	=128-	=128-
-!	!	!LO:TX:t=P:problem:♯below	!	!
+!	!	!LO:TX:t=P:♯below:problem	!	!
 1E	-o-	4G#X/	-tu-	0ryy
 .	.	2A/	-o-	.
 .	.	4G#/	.	.
@@ -993,7 +993,7 @@
 .	.	16A/LL	.	.
 .	.	16G/JJ	.	.
 .	.	4.A/	.	.
-!LO:TX:t=P:problem:♯above	!	!	!	!
+!LO:TX:t=P:problem=♯above	!	!	!	!
 4F#X\	-cu-	.	.	.
 .	.	8B\	.	.
 =130-	=130-	=130-	=130-	=130-

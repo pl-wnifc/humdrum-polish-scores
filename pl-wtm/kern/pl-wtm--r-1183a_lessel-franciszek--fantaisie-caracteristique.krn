@@ -30,7 +30,7 @@
 *	*	*below	*	*	*
 =1	=1	=1	=1	=1	=1
 !	!LO:TX:a:i:t=Adagio sostenuto.	!	!	!	!
-!	!LO:TX:t=P:problem:f=fo.:global	!	!LO:TX:t=P:problem:brak partii Violoncello, źródło niekompletne	!LO:TX:t=P:problem:brak partii Viola, źródło niekompletne	!LO:TX:t=P:problem:brak partii Violino, źródło niekompletne
+!	!LO:TX:t=P:f=fo.:global:problem	!	!LO:TX:t=P:problem=brak partii Violoncello, źródło niekompletne	!LO:TX:t=P:problem=brak partii Viola, źródło niekompletne	!LO:TX:t=P:problem=brak partii Violino, źródło niekompletne
 4AA/ 4AAA/	4A/	f	1ryy	1ryy	1ryy
 8.r	8.r	.	.	.	.
 !	!LO:N:vis=16	!	!	!	!
@@ -104,7 +104,7 @@
 !	!	!	!LO:DY:b=2:t=po	!	!	!
 2c/]	2A-X\	4r	p	1ryy	1ryy	1ryy
 .	.	8r	.	.	.	.
-!	!	!LO:TX:t=P:problem:p=po:global	!LO:DY:t=po	!	!	!
+!	!	!LO:TX:t=P:p=po:global:problem	!LO:DY:t=po	!	!	!
 .	.	(8e/	p	.	.	.
 4r	2r	[2f/)	>	.	.	.
 8r	.	.	.	.	.	.
@@ -207,7 +207,7 @@
 .	8en/ 8c/ 8G/J	.	.	.	.
 .	8e/L 8c/ 8G/	.	.	.	.
 .	8e/ 8c/ 8G/	.	.	.	.
-!	!LO:TX:t=P:problem:najniższa nuta w partii lewej ręki	!	!	!	!
+!	!LO:TX:t=P:problem=najniższa nuta w partii lewej ręki	!	!	!	!
 4AA-X/ 4AAA-X/	8f/ 8c/ 8F</	.	.	.	.
 .	8f/J 8c/ 8F</	.	.	.	.
 =24	=24	=24	=24	=24	=24
@@ -608,7 +608,7 @@
 4r	12ff\	.	.	.	.
 .	12bb-^\	.	.	.	.
 .	12aa\J	.	.	.	.
-!LO:TX:t=P:problem:wiem że rytmicznie nie jest to idealne rozwiązanie, \nale moim zdaniem jest najbliższe oryginałowi i temu, \nna co pozwala zapis w musescore	!	!	!	!	!
+!LO:TX:t=P:problem=wiem że rytmicznie nie jest to idealne rozwiązanie, \nale moim zdaniem jest najbliższe oryginałowi i temu, \nna co pozwala zapis w musescore	!	!	!	!	!
 6r	12gg\L	.	.	.	.
 .	12ee\	.	.	.	.
 12ryy	12dd\	.	.	.	.
@@ -640,7 +640,7 @@
 !	!LO:TX:a:t=Adagio	!	!	!	!
 2F#\ 2FF#\	(2cc#\ 2a#\ 2f#\	pp	1ryy	1ryy	1ryy
 *	*ped	*	*	*	*
-!	!LO:TX:b:t=P:problem:Pedale	!	!	!	!
+!	!LO:TX:b:t=P:Pedale:problem	!	!	!	!
 (2D#\ 2DD#\	2dd#\ 2a#\ 2f##X\	.	.	.	.
 =64	=64	=64	=64	=64	=64
 *	*^	*	*	*	*
@@ -1175,7 +1175,7 @@
 16GG/	.	.	.	.	.
 16BB-X/	.	.	.	.	.
 16E-X/JJ	.	.	.	.	.
-!	!LO:TX:t=P:problem:mixed beam	!	!	!	!
+!	!LO:TX:t=P:problem=mixed beam	!	!	!	!
 8G\L	(16B-/LL	.	.	.	.
 .	16b-\	.	.	.	.
 16F#\L	16a\	.	.	.	.
@@ -1325,7 +1325,7 @@
 1r;	16b\LL	.	1ryy	1ryy	1ryy
 .	16dd\JJ	.	.	.	.
 *	*tuplet	*	*	*	*
-!	!LO:TX:t=P:problem:klamra łukowa i cyfra	!	!	!	!
+!	!LO:TX:t=P:problem=klamra łukowa i cyfra	!	!	!	!
 .	24b\LL	.	.	.	.
 .	24a\	.	.	.	.
 .	24g\JJ	.	.	.	.
@@ -1394,7 +1394,7 @@
 .	24cc/JJ	.	.	.	.
 !!LO:LB:g=original
 =117	=117	=117	=117	=117	=117
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 8GG/L	24d/LL	.	1ryy	1ryy	1ryy
 .	24gn/	.	.	.	.
 .	24b/	.	.	.	.
@@ -1799,9 +1799,9 @@
 .	24g/JJ)	.	.	.	.
 4r	4r;	.	.	.	.
 *clefF4	*	*	*	*	*
-!LO:TX:t=P:problem:wracam do klucza basowego,gdyż to wydaje mi się najbardziej sensowne	!	!	!	!	!
+!LO:TX:t=P:problem=wracam do klucza basowego,gdyż to wydaje mi się najbardziej sensowne	!	!	!	!	!
 8.r	8.r	.	.	.	.
-!	!LO:TX:t=P:problem:ff=ffo.:global	!	!	!	!
+!	!LO:TX:t=P:ff=ffo.:global:problem	!	!	!	!
 16A-X\ 16AA-X\	16aa-X\ 16a-X\	ff	.	.	.
 !!LO:LB:g=original
 =133	=133	=133	=133	=133	=133
@@ -2004,7 +2004,7 @@
 .	16f#X/JJ	.	.	.	.	.
 4r	16d/LL	4d\	.	.	.	.
 .	16f#^</	.	.	.	.	.
-!	!	!	!LO:TX:t=cres_:problem:dynamics with extention lines	!	!	!
+!	!	!	!LO:TX:t=cres_:problem=dynamics with extention lines	!	!	!
 .	16a/	.	<	.	.	.
 .	16dd/JJ	.	.	.	.	.
 =147	=147	=147	=147	=147	=147	=147
@@ -2183,7 +2183,7 @@
 .	16cc-/LL	.	.	.	.	.
 .	16a-/	.	.	.	.	.
 .	16en/JJ	.	.	.	.	.
-!	!	!	!LO:TX:t=cres_:problem:dynamics with extention lines	!	!	!
+!	!	!	!LO:TX:t=cres_:problem=dynamics with extention lines	!	!	!
 4r	16c/LL	4c\	<	.	.	.
 .	16e/	.	.	.	.	.
 .	16a-/	.	.	.	.	.
@@ -2220,7 +2220,7 @@
 .	16ddn\LL	.	.	.	.	.
 8r	16bn\	.	.	.	.	.
 .	16g\JJ	.	.	.	.	.
-!	!	!	!LO:TX:t=cres_:problem:dynamics with extention lines	!	!	!
+!	!	!	!LO:TX:t=cres_:problem=dynamics with extention lines	!	!	!
 4r	16f^</LL	4f\	<	.	.	.
 .	16g/	.	.	.	.	.
 .	16b/	.	.	.	.	.
@@ -2540,7 +2540,7 @@
 4r	12ff\	.	.	.	.
 .	12bb-^<\	.	.	.	.
 .	12aa\J	.	.	.	.
-!LO:TX:t=P:problem:wiem że rytmicznie nie jest to idealne rozwiązanie, \nale moim zdaniem jest najbliższe oryginałowi i temu, \nna co pozwala zapis w musescore	!	!	!	!	!
+!LO:TX:t=P:problem=wiem że rytmicznie nie jest to idealne rozwiązanie, \nale moim zdaniem jest najbliższe oryginałowi i temu, \nna co pozwala zapis w musescore	!	!	!	!	!
 6r	12gg\L	.	.	.	.
 .	12ee\	f	.	.	.
 12ryy	12dd\	.	.	.	.
@@ -2555,7 +2555,7 @@
 (12C#X\L	12c#X^/	.	.	.	.
 12BB-X\J)	12B-X/J	.	.	.	.
 *2\right	*	*	*	*	*
-!	!LO:TX:t=P:problem:przeniesione do lewej ręki	!	!	!	!
+!	!LO:TX:t=P:problem=przeniesione do lewej ręki	!	!	!	!
 [<2AA\	12A</L	.	.	.	.
 .	12G</	.	.	.	.
 .	12F</	.	.	.	.
@@ -3554,7 +3554,7 @@
 [4A\ 4AA-^\	8ddn\ 8b-\ 8f^\	.	.	.	.
 .	8ddn\ 8b-\ 8f^\J	.	.	.	.
 =323	=323	=323	=323	=323	=323
-!LO:SIC:v:s=4A-	!	!LO:TX:t=cres_:problem:dynamics with extention lines	!	!	!
+!LO:SIC:v:s=4A-	!	!LO:TX:t=cres_:problem=dynamics with extention lines	!	!	!
 4A\] 4AA\	8ee-X\ 8b-\ 8g^\L	<	2.ryy	2.ryy	2.ryy
 .	8ee-X\ 8b-\ 8g^\	.	.	.	.
 4GG/ 4GGG/	8ee-X\ 8b-\ 8g^\	.	.	.	.
@@ -3577,7 +3577,7 @@
 8F\ 8FF\J	8ff\ 8dd-X\ 8b-^\J	.	.	.	.
 *	*Xtremolo	*	*	*	*
 =326	=326	=326	=326	=326	=326
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 *tremolo	*	*	*	*	*
 16EE-/LL	8gg\L 8dd-X\ 8b-\	.	2.ryy	2.ryy	2.ryy
 16E-\	.	.	.	.	.
@@ -3717,7 +3717,7 @@
 *	*^	*	*	*	*
 8E-/L	4cc\ 4b-\ 4g-X^\	4ryy	.	1ryy	1ryy	1ryy
 8C/J	.	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!
 8F\L	4cc/ 4an/	8f\L	.	.	.	.
 8FF/J	.	8e-\J	.	.	.	.
 2F\ 2BB-;\	2b-/ 2f/ 2d-X;/	2ryy	.	.	.	.
@@ -3746,7 +3746,7 @@
 .	8A-\J	.	.	.	.	.	.
 *v	*v	*	*	*	*	*	*
 =348	=348	=348	=348	=348	=348	=348
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!
 8F\L	4ddn/	4a-\	.	1ryy	1ryy	1ryy
 8Dn\	.	.	.	.	.	.
 8G\	4dd/	8g\L	.	.	.	.

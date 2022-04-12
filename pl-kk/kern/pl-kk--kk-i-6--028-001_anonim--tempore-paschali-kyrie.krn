@@ -31,9 +31,9 @@
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 =1-	=1-	=1-	=1-	=1-	=1-
 !LO:TX:t:a=Tempore Paschali.	!	!LO:TX:t:a=Tempore Paschali.	!	!	!
-!LO:TX:t=P:problem:brak kresek taktowych:global	!	!LO:TX:t=P:problem:brak kresek taktowych:global	!	!	!
-!LO:TX:t=P:problem:4/middle or right:global	!	!LO:TX:t=P:problem:2\, 4\, 8\middle:global	!	!LO:TX:t=P:problem:brak kresek taktowych:global	!
-!LO:TX:t=P:problem:2\, 4\middle:global	!	!LO:TX:t=P:problem:4/middle or right:global	!	!LO:TX:t:a=Tempore Paschali.	!
+!LO:TX:t=P:global:problem=brak kresek taktowych	!	!LO:TX:t=P:global:problem=brak kresek taktowych	!	!	!
+!LO:TX:t=P:problem=4/middle or right&colon; global	!	!LO:TX:t=P:problem=2\, 4\, 8\middle&colon; global	!	!LO:TX:t=P:global:problem=brak kresek taktowych	!
+!LO:TX:t=P:problem=2\, 4\middle&colon; global	!	!LO:TX:t=P:problem=4/middle or right&colon; global	!	!LO:TX:t:a=Tempore Paschali.	!
 *	*	*	*	*lig	*
 0r	.	00r	.	1G/	Ky-
 .	.	.	.	1A\	.
@@ -60,7 +60,7 @@
 .	.	1d\	e-	.	.
 4F\	.	.	.	.	.
 1E\	-ley-	.	.	1G/	e-
-!	!	!LO:TX:t=P:problem:# below	!	!	!
+!	!	!LO:TX:t=P:problem=# below	!	!	!
 .	.	2c#X\	-ley-	.	.
 =6-	=6-	=6-	=6-	=6-	=6-
 !LO:SIC:v:custos:GG	!	!	!	!	!
@@ -86,7 +86,7 @@
 .	.	.	.	1G/	-ley-
 .	.	2d\	-ley-	.	.
 =9-	=9-	=9-	=9-	=9-	=9-
-!LO:TX:t=P:problem:fermata również u dołu:global	!	!LO:TX:t=P:problem:fermata również u dołu:global	!	!LO:TX:t=P:problem:fermata również u dołu:global	!
+!LO:TX:t=P:global:problem=fermata również u dołu	!	!LO:TX:t=P:global:problem=fermata również u dołu	!	!LO:TX:t=P:global:problem=fermata również u dołu	!
 0C/;	-Son	0c\;	-ſon	0E/;	-Son.
 *	*Xij	*	*Xij	*	*
 !LO:LB:g=original	!	!LO:LB:g=original	!	!LO:LB:g=original	!
@@ -202,7 +202,7 @@
 .	.	2A/	.	.	.
 *	*	*	*	*Xlig	*
 =24-	=24-	=24-	=24-	=24-	=24-
-!LO:TX:t=P:problem:cezura pod 1. linią	!	!	!	!	!
+!LO:TX:t=P:problem=cezura pod 1. linią	!	!	!	!	!
 *	*	*	*	*lig	*
 2GG,/	-Son	2B\	.	1B\	.
 *	*ij	*	*	*	*
@@ -225,7 +225,7 @@
 =26-	=26-	=26-	=26-	=26-	=26-
 *	*	*	*	*lig	*
 2E\	.	.	.	1B\	.
-!	!	!LO:TX:t=P:problem:# below	!	!	!
+!	!	!LO:TX:t=P:problem=# below	!	!	!
 2E\	-ley-	2G#X/	.	.	.
 !	!	!	!	!LO:SIC:v:custos:G	!
 1AA/	-Son	1A\	-ſon	1A\	.
@@ -237,7 +237,7 @@
 *	*	*	*	*lig	*
 2G\	.	2.B\	-ri-	1G/	.
 2E\	.	.	.	.	.
-!	!	!LO:TX:t=P:problem:# above	!	!	!
+!	!	!LO:TX:t=P:problem=# above	!	!	!
 .	.	4c#X\	.	.	.
 =28-	=28-	=28-	=28-	=28-	=28-
 2D/	-e	1.d\	-e	1A\	.
@@ -255,16 +255,16 @@
 .	.	2A/	.	1A\	ley-
 .	.	2d\	-ley-	.	.
 =30-	=30-	=30-	=30-	=30-	=30-
-!LO:TX:t=P:problem:fermata również u dołu:global	!	!LO:TX:t=P:problem:fermata również u dołu:global	!	!LO:TX:t=P:problem:fermata również u dołu:global	!
+!LO:TX:t=P:global:problem=fermata również u dołu	!	!LO:TX:t=P:global:problem=fermata również u dołu	!	!LO:TX:t=P:global:problem=fermata również u dołu	!
 0GG/;	-Son	0B\;	-ſon	0G/;	-Son.
 *	*Xij	*	*Xij	*	*
 !LO:PB:g=original	!	!LO:PB:g=original	!	!LO:LB:g=original	!
 =31||-	=31||-	=31||-	=31||-	=31||-	=31||-
 *M3/1	*	*M3/1	*	*M3/1	*
-!LO:TX:t=P:problem:Kyrie z innego cyklu?	!	!	!	!	!
+!LO:TX:t=P:problem=Kyrie z innego cyklu?	!	!	!	!	!
 *	*	*	*	*lig	*
 !	!	!	!	!LO:N:vis=1	!
-!	!	!	!	!LO:TX:t=P:problem:cała nuta w rpsie=brevis z kropką w edycji; brevis w rpsie=longa z kropką	!
+!	!	!	!	!LO:TX:t=P:problem=cała nuta w rpsie=brevis z kropką w edycji; brevis w rpsie=longa z kropką	!
 0G\	Ky-	0d\	Ky-	0.B\	Ky-
 1G\	-ri-	1d\	-ri-	.	.
 =32-	=32-	=32-	=32-	=32-	=32-
@@ -299,7 +299,7 @@
 .	.	1B\	-ley-	.	.
 *Xcol	*	*	*	*	*
 =38-	=38-	=38-	=38-	=38-	=38-
-!LO:TX:t=P:problem:nuta wpisana jako longa	!	!	!	!	!
+!LO:TX:t=P:problem=nuta wpisana jako longa	!	!	!	!	!
 !LO:SIC:v:custos:G	!	!LO:SIC:v:custos:c	!	!LO:N:vis=0	!
 00.C/	ſon	0.c\	-Son	00.G/	-e
 *	*Xij	*	*	*	*
@@ -345,7 +345,7 @@
 .	.	2c\	.	.	.
 .	.	2d\	.	.	.
 !	!	!LO:SIC:v:custos:e	!	!	!
-!	!	!LO:TX:t=P:problem:dwie nuty skreślone	!	!	!
+!	!	!LO:TX:t=P:problem=dwie nuty skreślone	!	!	!
 .	.	2B\	.	.	.
 !	!	!LO:SIC:o:t:v=wymazane dwa dźwięki	!	!	!
 !	!	!LO:LB:g=original	!	!	!
@@ -440,7 +440,7 @@
 0D\	.	0.d\	-ley-	0.A\	-ley-
 1D\	-ley-	.	.	.	.
 =58-	=58-	=58-	=58-	=58-	=58-
-!LO:TX:t=P:problem:nuta wpisana jako longa	!	!LO:SIC:v:custos:d	!	!	!
+!LO:TX:t=P:problem=nuta wpisana jako longa	!	!LO:SIC:v:custos:d	!	!	!
 00.GG/	-son	0.B\	-Son	[y00.G/;	-son.
 !	!	!LO:LB:g=original	!	!	!
 =59-	=59-	=59-	=59-	=59-	=59-
@@ -467,7 +467,7 @@
 0C/	e-	0.c\	-son	00.G/_yy	.
 1C/	-ley-	.	.	.	.
 =63-	=63-	=63-	=63-	=63-	=63-
-!LO:TX:t=P:problem:cezura pod 1. linią	!	!	!	!	!
+!LO:TX:t=P:problem=cezura pod 1. linią	!	!	!	!	!
 *	*	*	*ij	*	*
 0GG/,	-son	1d\	ky-	.	.
 .	.	1B\	-ri-	.	.

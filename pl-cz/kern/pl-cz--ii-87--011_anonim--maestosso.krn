@@ -30,9 +30,9 @@
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 *met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*
 =1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!LO:TX:t=P:problem:4,8,16 left, middle or right:global	!	!	!
-!LO:TX:t=P:problem:4,8,16 left or right:global	!	!	!	!LO:TX:b:t=Solo	!	!LO:TX:a:B:t=Maestosso	!
-!LO:TX:t=P:problem:brak oznaczenia metrycznego	!LO:DY:a	!LO:TX:t=P:problem:brak oznaczenia metrycznego	!	!LO:TX:t=P:problem:brak oznaczenia metrycznego	!	!LO:TX:t=P:problem:brak oznaczenia metrycznego	!
+!	!	!	!	!LO:TX:t=P:problem=4,8,16 left, middle or right&colon; global	!	!	!
+!LO:TX:t=P:problem=4,8,16 left or right&colon; global	!	!	!	!LO:TX:b:t=Solo	!	!LO:TX:a:B:t=Maestosso	!
+!LO:TX:t=P:problem=brak oznaczenia metrycznego	!LO:DY:a	!LO:TX:t=P:problem=brak oznaczenia metrycznego	!	!LO:TX:t=P:problem=brak oznaczenia metrycznego	!	!LO:TX:t=P:problem=brak oznaczenia metrycznego	!
 4A\	p	8r	.	4A\	p	1ryy	.
 .	.	16c/LL	p	.	.	.	.
 .	.	16e/JJ	.	.	.	.	.
@@ -46,11 +46,11 @@
 .	.	8a/J	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2
 *	*	*	*	*^	*	*^	*
-!	!	!	!	!	!	!	!LO:TX:t=P:problem:4,8,16 left, middle or right:global	!	!
+!	!	!	!	!	!	!	!LO:TX:t=P:problem=4,8,16 left, middle or right&colon; global	!	!
 4G#X\	.	8r	.	4e/	4G#X\	.	4ee/	4g#X\	.
 .	.	16d/LL	.	.	.	.	.	.	.
 .	.	16e/JJ	.	.	.	.	.	.	.
-!	!	!LO:TX:t=P:problem:4,8,16 left or right:global	!	!	!	!	!	!LO:N:vis=8	!
+!	!	!LO:TX:t=P:problem=4,8,16 left or right&colon; global	!	!	!	!	!	!LO:N:vis=8	!
 4E\	.	8b\L	.	8.c/ 8.e	4E\	.	8.ee/	8.g#\	.
 .	.	8b\J	.	.	.	.	.	.	.
 .	.	.	.	16e/	.	.	16ee/	16g#\	.
@@ -258,7 +258,7 @@
 =18	=18	=18	=18	=18	=18	=18	=18	=18	=18
 2D\	.	8r	.	2d/	2D\	.	2ff/	2.a\	.
 *	*	*tremolo	*	*	*	*	*	*	*
-!	!	!LO:TX:t=P:problem:kreski nad tremolo	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=kreski nad tremolo	!	!	!	!	!	!	!
 .	.	8a\LL| 8dd 8ff	.	.	.	.	.	.	.
 .	.	8a\JJ| 8dd 8ff	.	.	.	.	.	.	.
 *	*	*Xtremolo	*	*	*	*	*	*	*
@@ -343,7 +343,7 @@
 *^	*	*^	*	*	*	*	*	*	*
 !	!	!LO:DY:rj	!	!	!LO:DY:rj	!	!	!LO:DY:rj	!	!	!LO:DY:rj
 2f/	2G\	f	2b/	2g\	f	2f/	2G\	f	2b/	2g\	f
-!	!	!	!	!	!	!LO:TX:t=P:problem:!LO:N:vis=4 [druga warstwa]	!	!	!LO:TX:t=P:problem:!LO:N:vis=4 [druga warstwa]	!	!
+!	!	!	!	!	!	!LO:TX:t=P:!LO:N:vis=4 [druga warstwa]:problem	!	!	!LO:TX:t=P:!LO:N:vis=4 [druga warstwa]:problem	!	!
 !LO:N:vis=4	!LO:N:vis=4	!	!LO:N:vis=4	!	!	!LO:N:vis=4	!	!	!LO:N:vis=4	!	!
 4.d/	4.G\	.	4.gg/	2b\	.	4.d/	4.G\	.	4.gg/	4.b\	.
 8B/	8G\	.	8dd/	.	.	8B/	8G\	.	8g/	8dd\	.

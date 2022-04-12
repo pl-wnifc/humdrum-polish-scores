@@ -28,12 +28,12 @@
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 =1-	=1-	=1-	=1-	=1-	=1-
-!LO:TX:t=P:problem:all/middle or right:global	!	!	!	!	!
-!LO:TX:t=P:problem:w źródle przed kluczem inicjał A	!	!	!	!	!
+!LO:TX:t=P:problem=all/middle or right&colon; global	!	!	!	!	!
+!LO:TX:t=P:problem=w źródle przed kluczem inicjał A	!	!	!	!	!
 *	*	*lig	*	*	*
-!	!	!LO:TX:t=P:problem:w źródle przed kluczem inicjał A	!	!LO:TX:t=P:problem:met(c|)	!
+!	!	!LO:TX:t=P:problem=w źródle przed kluczem inicjał A	!	!LO:TX:t=P:met(c|):problem	!
 *	*	*	*	*lig	*
-!	!	!	!	!LO:TX:t=P:problem:w źródle przed kluczem inicjał A	!
+!	!	!	!	!LO:TX:t=P:problem=w źródle przed kluczem inicjał A	!
 2.C/	A-	1c	A-	1c	A-
 4BB-/	.	.	.	.	.
 4GG/	.	1B-	.	1d	.
@@ -41,10 +41,10 @@
 2BB-/	.	.	.	.	.
 *	*	*Xlig	*	*Xlig	*
 =2-	=2-	=2-	=2-	=2-	=2-
-!	!	!LO:TX:t=P:problem:all/middle or right:global	!	!	!
+!	!	!LO:TX:t=P:problem=all/middle or right&colon; global	!	!	!
 *	*	*	*	*lig	*
 2.FF/	.	2.A/	.	1c	.
-!	!	!LO:TX:t=P:problem:all\middle:global	!	!	!
+!	!	!LO:TX:t=P:problem=all\middle&colon; global	!	!	!
 4GG/	.	4B-\	.	.	.
 4AA/	.	4c\	.	1A	.
 4BB-/	.	4d\	.	.	.
@@ -66,7 +66,7 @@
 *	*	*	*	*Xlig	*
 *	*	*	*	*lig	*
 .	.	.	.	1G	-gnus
-!LO:TX:t=P:problem:all\middle:global	!	!	!	!	!
+!LO:TX:t=P:problem=all\middle&colon; global	!	!	!	!	!
 2E\	.	2c\	A-	.	.
 =5-	=5-	=5-	=5-	=5-	=5-
 4F\	.	1A	-gnus	1F,<	.
@@ -223,7 +223,7 @@
 =25-	=25-	=25-	=25-	=25-	=25-
 *	*	*	*	*M2/1	*
 *	*	*	*	*met(C|)	*
-!LO:TX:t=P:problem:inicjał A	!	!LO:TX:t=P:problem:w źródle przed kluczem inicjał A	!	!LO:TX:t=P:problem:w źródle przed kluczem inicjał A	!
+!LO:TX:t=P:problem=inicjał A	!	!LO:TX:t=P:problem=w źródle przed kluczem inicjał A	!	!LO:TX:t=P:problem=w źródle przed kluczem inicjał A	!
 2.F\	A-	2.c\	A-	1f	A-
 4G\	.	4B-\	.	.	.
 *	*	*	*	*lig	*

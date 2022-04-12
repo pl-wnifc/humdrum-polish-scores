@@ -31,7 +31,7 @@
 *met(c)	*met(c)
 =1	=1
 *	*ped
-!	!LO:TUP:a:problem:klamra łukowa
+!	!LO:TUP:a:problem=klamra łukowa
 4A- 4AA-\	12ee-L 12e-\
 .	12aa- 12a-\
 .	12cccJ 12cc\
@@ -55,7 +55,7 @@
 *	*ped
 4E- 4EE-/	2ggg 2gg\
 4d- 4B- 4G\	.
-!	!LO:TUP:a:problem:klamra łukowa
+!	!LO:TUP:a:problem=klamra łukowa
 4d- 4B- 4G\	12r
 .	12fffL 12ff\
 .	12eee-J 12ee-\
@@ -70,7 +70,7 @@
 4c 4A- 4E-\	4r
 =5	=5
 *	*ped
-!	!LO:TUP:a:problem:klamra łukowa
+!	!LO:TUP:a:problem=klamra łukowa
 4c 4A- 4F\	12ffL 12f\
 .	12aa- 12a-\
 .	12cccJ 12cc\
@@ -96,7 +96,7 @@
 4e- 4c 4A 4F#\	4eee- 4ee-\)
 !!LO:LB:g=original
 =7	=7
-!	!LO:TX:t=P:problem:arpeggio między systemami:global
+!	!LO:TX:t=P:global:problem=arpeggio między systemami
 2G: 2BB-:\	2b-: 2e-: 2B-:/
 2E-: 2EE-:/	4.cc: 4.e-: 4.d-: 4.B-:/
 .	8b-/
@@ -105,8 +105,8 @@
 *	*Xped
 =9|!	=9|!
 *	*ped
-!	!LO:TX:a:t=[segno]:problem:znak segno nad kreską taktową
-!LO:TX:b:t=[segno]:problem:znak segno pod kreską taktową	!LO:TX:b:B:t=espressione.
+!	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową
+!LO:TX:b:t=[segno]:problem=znak segno pod kreską taktową	!LO:TX:b:B:t=espressione.
 8A- 8AA-\	4ee-\
 *clefG2	*
 8e-/L	.
@@ -258,7 +258,7 @@
 !!!OMD: Andante.
 *>B	*>B
 *M3/4	*M3/4
-!LO:TX:b:t=[segno]:problem:znak segno pod kreską taktową	!LO:TX:a:t=[segno]:problem:znak segno nad kreską taktową
+!LO:TX:b:t=[segno]:problem=znak segno pod kreską taktową	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową
 4r	8cccL 8cc\
 .	8ddd-J 8dd-\
 =20	=20
@@ -387,8 +387,8 @@
 *M4/4	*M4/4
 *met(c)	*met(c)
 *	*ped
-!	!LO:TUP:a:problem:klamra łukowa
-!LO:TX:b:t=[segno]:problem:znak segno pod kreską taktową	!LO:TX:a:t=[segno]:problem:znak segno nad kreską taktową
+!	!LO:TUP:a:problem=klamra łukowa
+!LO:TX:b:t=[segno]:problem=znak segno pod kreską taktową	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową
 4A- 4AA-\	12r
 .	12cccL 12cc\
 .	12ddd-J 12dd-\
@@ -428,7 +428,7 @@
 *	*ped
 *	*tuplet
 *	*brackettup
-!	!LO:TUP:a:problem:klamra łukowa
+!	!LO:TUP:a:problem=klamra łukowa
 4E- 4EE-/	12r
 .	12bb-L 12b-\
 .	12cccJ 12cc\
@@ -521,7 +521,7 @@
 12C\J	.
 4AA-/	4r
 4r	8.ggL 8.g\
-!	!LO:TX:a:t=[segno]:problem:znak segno nad kreską taktową
+!	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową
 .	16ffJk 16f\
 *	*Xped
 !!LO:PB:g=original
@@ -643,13 +643,13 @@
 =51:|!	=51:|!
 !LO:TX:t=II.	!
 *>D2	*>D2
-!LO:TX:b:t=[segno]:problem:znak segno pod kreską taktową	!LO:TX:a:t=[segno]:problem:znak segno nad kreską taktową
+!LO:TX:b:t=[segno]:problem=znak segno pod kreską taktową	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową
 4A- 4AA-\	4aa- 4cc 4a-\
 4..AA- 4..AAA-/	4..ccc 4..ee- 4..cc\
 16A- 16E- 16AA-\	16a- 16e- 16c/
 !LO:TX:b:B:t=Fine.	!
 4A- 4E- 4AA-\	4a- 4e- 4c/
-!LO:TX:t=P:problem:zbędna pauza 4r	!LO:TX:t=P:problem:zbędna pauza 4r
+!LO:TX:t=P:problem=zbędna pauza 4r	!LO:TX:t=P:problem=zbędna pauza 4r
 4r	4r
 ==	==
 *-	*-

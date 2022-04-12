@@ -33,9 +33,9 @@
 *M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*	*M3/4	*	*M3/4	*
 *2\right	*2\right	*2\right	*2\right	*2\right	*	*2\right	*	*2\right	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:t=P:problem:mixed beam	!	!LO:TX:b:i:t=Tacet\nwyznawamy	!LO:TX:b:i:t=Tacet\nwyznawamy	!	!	!LO:TX:t=P:problem:błędnie klucz g2	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!LO:TX:b:i:t=Tacet\nwyznawamy	!LO:TX:b:i:t=Tacet\nwyznawamy	!	!	!LO:TX:t=P:problem=błędnie klucz g2	!	!	!
 !	!LO:TX:a:i:t=Adagio	!	!	!LO:TX:a:i:t=Adagio	!	!LO:TX:a:i:t=Adagio	!	!LO:TX:a:i:t=adagio	!
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:znaki:B-b-	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:znaki:B-b-:problem	!
 !	!	!	!LO:TX:a:i:t=Adagio	!	!	!	!	!	!
 !	!	!LO:TX:a:i:t=Adagio	!	!	!	!	!	!	!
 8D/L	4.dd\	2.ryy	2.ryy	2.r	.	2.r	.	4.dd\	Wy-
@@ -45,12 +45,12 @@
 8d\	8ee\	.	.	.	.	.	.	8ee\	-wa-
 8d\J	8dd\J	.	.	.	.	.	.	8dd\	-my
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 !	!	!	!	!LO:TX:i:t=Alto Solo	!	!	!	!	!
 8C#X/L	2aa 2ff\	2.ryy	2.ryy	2ff\	Spła-	2.r	.	2aa\	spła-
 8c#y/	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
 8c#/	.	.	.	.	.	.	.	.	.
 8c#/	.	.	.	.	.	.	.	.	.
 8c#/	4gg 4ee\	.	.	4ee\	-czem	.	.	4gg\	-czem
@@ -69,7 +69,7 @@
 4AA/	4ee 4cc#X\	.	.	4cc#X\	-li	.	.	4ee\	-li
 4r	4r	.	.	4r	.	.	.	4r	.
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 !LO:SIC:v:s=8C#/L	!	!	!	!	!	!	!	!	!
 8C/L	4.gg 4.ee\	2.ryy	2.ryy	4.ee\	wy-	2.r	.	4.gg\	wy-
 8c#X\	.	.	.	.	.	.	.	.	.
@@ -78,7 +78,7 @@
 8c#\	8ggL 8ee\	.	.	8ee\	-wa-	.	.	8gg\	-wa-
 8c#\J	8ggJ 8ee\	.	.	8ee\	-my	.	.	8gg\	-my
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6
-!LLO:SIC:v:s=4c#\	!	!	!	!LO:TX:t=P:problem:pominięty takt	!	!	!	!	!
+!LLO:SIC:v:s=4c#\	!	!	!	!LO:TX:t=P:problem=pominięty takt	!	!	!	!	!
 4c\	4gg 4ee\	2.ryy	2.ryy	2.ryy	.	2.r	.	4gg\	spła-
 4d\	4ff 4dd\	.	.	.	.	.	.	4ff\	-czem
 4r	4r	.	.	.	.	.	.	4r	.
@@ -103,7 +103,7 @@
 4AA/	4ee 4cc#X\	.	.	4cc#X\	-li	.	.	4ee\	-li
 4r	4r	.	.	4r	.	.	.	4r	.
 =10	=10	=10	=10	=10	=10	=10	=10	=10	=10
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8FF/L	4.cc 4.a\	2.ryy	2.ryy	4.a\	a	2.r	.	4.dd\	a
 8F\	.	.	.	.	.	.	.	.	.
 8F\	.	.	.	.	.	.	.	.	.
@@ -111,7 +111,7 @@
 8F\	8ddL 8a\	.	.	8a\	na-	.	.	8dd\	na-
 8F\J	8ddJ 8a\	.	.	8a\	-wi-	.	.	8dd\	-wi-
 =11	=11	=11	=11	=11	=11	=11	=11	=11	=11
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8GG/L	8ffL 8b-\	2.ryy	2.ryy	4b-\	-dze-	2.r	.	8ff\L	-dze-
 8G\	8eeJ 8b-\	.	.	.	.	.	.	8ee\J	.
 8G\	4ee 4b-\	.	.	4b-\	-niu	.	.	4ee\	-niu
@@ -120,7 +120,7 @@
 8G\J	.	.	.	.	.	.	.	.	.
 =12	=12	=12	=12	=12	=12	=12	=12	=12	=12
 *	*	*	*	*	*	*	*	*	*ij
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!
 8AA/L	4.ee 4.cc#X\	2.ryy	2.ryy	4.cc#X\	a	2.r	.	4.ee\	a
 8A\	.	.	.	.	.	.	.	.	.
@@ -158,11 +158,11 @@
 4AA/	4ee 4cc#X\	.	.	4cc#X\	-li	.	.	4ee\	-li
 4r	4r	.	.	4r	.	.	.	4r	.
 =17	=17	=17	=17	=17	=17	=17	=17	=17	=17
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8FF/L	4.dd\	2.ryy	2.ryy	2.r	.	2.r	.	4.dd\	wy-
 8F\	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
 8F\	.	.	.	.	.	.	.	.	.
 8F\	8aa\L	.	.	.	.	.	.	8aa\	-zna-
 8F\	8ff\	.	.	.	.	.	.	8ff\	-wa-
@@ -170,11 +170,11 @@
 *Xtremolo	*	*	*	*	*	*	*	*	*
 =18	=18	=18	=18	=18	=18	=18	=18	=18	=18
 *	*	*	*	*clefF4	*	*	*	*	*
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8GG/L	8ccn\L	2.ryy	2.ryy	8A\	Cze-	2.r	.	8cc\	spła-
 8G\	8b-X\J	.	.	8G\	-gos-	.	.	8b-X\	-czem
 *tremolo	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
 8G\	4r	.	.	8G\	-my	.	.	4r	.
 8G\	.	.	.	8B-\	sie	.	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!
@@ -183,23 +183,23 @@
 *Xtremolo	*	*	*	*	*	*	*	*	*
 =19	=19	=19	=19	=19	=19	=19	=19	=19	=19
 *	*	*	*	*	*	*	*	*	*ij
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!
 8EE/L	4.cc\	2.ryy	2.ryy	8F\	-sci-	2.r	.	4.cc\	wy-
 8E\	.	.	.	8En\	-li	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
 8E\	.	.	.	4r	.	.	.	.	.
 8E\	8gg\L	.	.	.	.	.	.	8gg\	-zna-
 8E\	8ee\	.	.	4r	.	.	.	8ee\	-wa-
 8E\J	8cc\J	.	.	.	.	.	.	8cc\	-my
 *Xtremolo	*	*	*	*	*	*	*	*	*
 =20	=20	=20	=20	=20	=20	=20	=20	=20	=20
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8FF/L	8b-X\L	2.ryy	2.ryy	8G\	cze-	2.r	.	8b-X\	spła-
 8F\	8a\J	.	.	8F\	-gos-	.	.	8a\	-czem
 *tremolo	*	*	*	*	*	*	*	*	*Xij
-!LO:TX:t=P:problem:tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
 8F\	4r	.	.	8F\	-my	.	.	4r	.
 8F\	.	.	.	8A\	sie	.	.	.	.
 8F\	4r	.	.	8F\	do-	.	.	4r	.
@@ -240,34 +240,34 @@
 4C/	4ee 4g\	.	.	4G\	-li	.	.	4ee\	-li
 4r	4r	.	.	4r	.	.	.	4r	.
 =26	=26	=26	=26	=26	=26	=26	=26	=26	=26
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8FF/L	4a 4f\	2.ryy	2.ryy	4F\	Gdy	4F/	Gdy	4a\	Gdy
 8F\	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
 8F\	4b- 4g\	.	.	4F\	miecz	4G/	miecz	4b-\	miecz
 8F\	.	.	.	.	.	.	.	.	.
 8F\	4cc 4a\	.	.	4F\	twoy	4A/	twoy	4cc\	twoy
 8F\J	.	.	.	.	.	.	.	.	.
 *Xtremolo	*	*	*	*	*	*	*	*	*
 =27	=27	=27	=27	=27	=27	=27	=27	=27	=27
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!
 8FF/L	2dd 2b-\	2.ryy	2.ryy	2F\	na	2B-/	na	2dd\	na
 8F\	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
 8F\	.	.	.	.	.	.	.	.	.
 8F\	.	.	.	.	.	.	.	.	.
 8F\	4ee 4g\	.	.	4F\	nas	4G/	nas	4ee\	nas
 8F\J	.	.	.	.	.	.	.	.	.
 *Xtremolo	*	*	*	*	*	*	*	*	*
 =28	=28	=28	=28	=28	=28	=28	=28	=28	=28
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8FF/L	4.ff 4.a\	2.ryy	2.ryy	4.F\	trzy-	4.A/	pod-	4.ff\	pod-
 8F\	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
 8F\	.	.	.	.	.	.	.	.	.
 8F\	8ffL 8a\	.	.	8F\	-marz	8A/	-nie-	8ff\	-nie-
 *	*	*	*	*	*ij	*	*	*	*
@@ -275,11 +275,11 @@
 8F\J	8ddJ 8b-\	.	.	8F\	nas	8B-\	-ny	8dd\	-ny
 *Xtremolo	*	*	*	*	*	*	*	*	*
 =29	=29	=29	=29	=29	=29	=29	=29	=29	=29
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8FF/L	4dd 4b-\	2.ryy	2.ryy	4F\	trzy-	4B-\	trzy-	4dd\	trzy-
 8F\	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
 8F\	4cc 4a\	.	.	4F\	-marz	4A\	-masz	4cc\	-masz
 *	*	*	*	*	*Xij	*	*	*	*
 8F\	.	.	.	.	.	.	.	.	.
@@ -287,22 +287,22 @@
 8F\J	.	.	.	.	.	.	.	.	.
 *Xtremolo	*	*	*	*	*	*	*	*	*
 =30	=30	=30	=30	=30	=30	=30	=30	=30	=30
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8FF/L	4dd 4b-\	2.ryy	2.ryy	4F\	si-	4B-\	Si-	4dd\	si-
 8F\	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
 8F\	8ddL 8b-\	.	.	8F\	-łac	8B-\	-łac	8dd\	-łac
 8F\	8dd 8b-\	.	.	8F\	o-	8B-\	o-	8dd\	o-
 8F\	8cc 8a\	.	.	8F\	-bie-	8A\	-bie-	8cc\	-bie-
 8F\J	8b-J 8g\	.	.	8F\	-cu-	8G\	-cu-	8b-\	-cu-
 *Xtremolo	*	*	*	*	*	*	*	*	*
 =31	=31	=31	=31	=31	=31	=31	=31	=31	=31
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8FF/L	4b- 4g/	2.ryy	2.ryy	4F\	-ie-	4G\	-ie-	4b-\	-ie-
 8F\	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
 8F\	4a 4f/	.	.	4F\	-my	4F\	-my	4a\	-my
 8F\	.	.	.	.	.	.	.	.	.
 8F\	4r	.	.	4r	.	4r	.	4r	.
@@ -310,13 +310,13 @@
 *Xtremolo	*	*	*	*	*	*	*	*	*
 =32	=32	=32	=32	=32	=32	=32	=32	=32	=32
 *	*	*	*	*	*	*	*	*	*ij
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!
 8FF/L	4b- 4d/	2.ryy	2.ryy	4d\	si-	2.r	.	4b-\	si-
 8F\	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tremolo pod jedną belką z nutami poprzednimi	!	!	!	!	!	!	!	!	!
 8F\	8b-L 8d/	.	.	8d\	-łac	.	.	8b-\	-łac
 8F\	8b- 8d/	.	.	8d\	o-	.	.	8b-\	o-
 8F\	8a 8c/	.	.	8c\	-bie-	.	.	8a\	-bie-
@@ -380,7 +380,7 @@
 4r	8r	.	.	8r	.	4r	.	8r	.
 .	8cc 8a\	.	.	8A\	Nie	.	.	8cc\	nie
 =42	=42	=42	=42	=42	=42	=42	=42	=42	=42
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!
 !	!	!	!	!	!	!LO:TX:a:t=3	!	!	!
 8FF/L	8.ccL 8.a\	2.ryy	2.ryy	8.A\	chce-	2.r	.	(8.cc\	chce-
@@ -394,7 +394,7 @@
 8F\J	8a 8c/	.	.	8c\	Nie	.	.	8a\	nie
 *Xtremolo	*	*	*	*	*	*	*	*	*
 =43	=43	=43	=43	=43	=43	=43	=43	=43	=43
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!
 8FF/L	8.aL 8.c/	2.ryy	2.ryy	8.c\	chce-	2.r	.	8.a\	chce-
 8F\J	.	.	.	.	.	.	.	.	.
@@ -456,12 +456,12 @@
 .	8bb- 8dd\	.	.	8B-\	-ko-	8d\	-ko-	8bb-\	-ko-
 4c\	8aa 8cc\	.	.	8A\	-nac	8c\	-nac	8aa\	-nac
 .	8ggJ 8b-\	.	.	8B-\	nie	8B-\	niech	8gg\	nie
-!	!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!
 4C/	8ffL 8a\	.	.	8c\L	chce-	8A\L	ce-	(8ff\	chce-
 .	8eeJ 8g\	.	.	8C/J	.	8G\J	.	8ee\)	.
 =51	=51	=51	=51	=51	=51	=51	=51	=51	=51
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8FF/L	4ff 4a\	2.ryy	2.ryy	4F\	-my	4A\	-my	4ff\	-my
 8F\J	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*
@@ -472,7 +472,7 @@
 .	16b-Jk 16g\	.	.	.	.	16G\Jk	.	16b-\)	.
 *Xtremolo	*	*	*	*	*	*	*	*	*
 =52	=52	=52	=52	=52	=52	=52	=52	=52	=52
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!
 8FF/L	4a 4f/	2.ryy	2.ryy	4r	.	4F/	-my	4a\	-my
 8F\J	.	.	.	.	.	.	.	.	.

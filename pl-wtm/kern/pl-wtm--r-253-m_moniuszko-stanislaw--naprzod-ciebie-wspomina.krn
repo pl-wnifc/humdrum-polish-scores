@@ -26,9 +26,9 @@
 *G:	*	*G:	*	*	*G:	*	*	*G:	*	*
 *M6/8	*	*M6/8	*	*	*M6/8	*	*	*M6/8	*	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:skan 0032	!	!
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:all\left,middle,right:global	!	!
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:znaki:f# zamiast ff#:global	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=skan 0032	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=all\left,middle,right&colon; global	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:znaki:global:problem=f# zamiast ff#	!	!
 8GG\L	.	2.g/ 2.B/	.	.	2.ryy	.	.	2.ryy	.	.
 8D\	.	.	.	.	.	.	.	.	.	.
 8G\J	.	.	.	.	.	.	.	.	.	.
@@ -55,7 +55,7 @@
 .	.	16g/	.	.	.	.	.	.	.	.	.
 8G\J	.	16e/	.	.	.	.	.	.	.	.	.
 .	.	16f#/JJ	.	.	.	.	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8GG\L	.	[>4.d/	8B</L	.	.	.	.	.	.	.	.
 8D\	.	.	16c</L	.	.	.	.	.	.	.	.
 .	.	.	16B</	.	.	.	.	.	.	.	.
@@ -67,7 +67,7 @@
 .	.	16g/	.	.	.	.	.	.	.	.	.
 8G\J	.	16e/	.	.	.	.	.	.	.	.	.
 .	.	16f#/JJ	.	.	.	.	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8GG\L	.	[>4.d/	8B</L]	.	.	.	.	.	.	.	.
 8D\	.	.	16A</L	.	.	.	.	.	.	.	.
 .	.	.	16B</	.	.	.	.	.	.	.	.
@@ -76,7 +76,7 @@
 *	*	*v	*v	*	*	*	*	*	*	*	*
 !!LO:LB:g=original
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
-!	!	!LO:TX:t=P:problem:brak zakończenia łuku (na początku pięciolinii)	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=brak zakończenia łuku (na początku pięciolinii)	!	!	!	!	!	!	!	!
 8GG\L	.	8d/] 8B</	.	.	8r	.	.	8r	.	.
 8D\	.	(8dd/L 8b/	.	.	(>8b/	Na-	.	(8dd\	Na-	.
 8G\J	.	8g/J 8e/	.	.	8e/	-przód	.	8g/	-przód	.
@@ -88,10 +88,10 @@
 8GG\L	.	4g/ 4B/	.	.	[4.B/)	-mi-	.	4g/	-mi-	.
 8D\	.	.	.	.	.	.	.	.	.	.
 8G\J	.	8b/ 8d/	.	.	.	.	.	8g/)	-na	.
-!	!	!	!	!	!LO:TX:t=P:problem:chorągiewka poprawiona na belkę	!	!	!	!	!
+!	!	!	!	!	!LO:TX:t=P:problem=chorągiewka poprawiona na belkę	!	!	!	!	!
 8GG\L	.	4g/ 4B/)	.	.	8B/L]	.	.	[4.gg\	Co	.
 8D\	.	.	.	.	8d/J	-na	.	.	.	.
-!	!	!	!	!	!LO:TX:t=P:problem:chorągiewka poprawiona na belkę	!	!	!	!	!
+!	!	!	!	!	!LO:TX:t=P:problem=chorągiewka poprawiona na belkę	!	!	!	!	!
 8G\J	.	(8d/ 8B/	.	.	8g/	co	.	.	.	.
 =7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7
 8GG\L	.	8g/ 8B/)	.	.	4b/	chwi-	.	8gg\]	.	.
@@ -152,7 +152,7 @@
 !	!	!	!	!	!	!	!	!	!	!LO:DY:a
 8D\	.	.	.	.	8f#X/	przy-	.	8a/	-na,	f
 8G\J	.	.	.	.	8g/	-po-	.	8g/	ach	.
-!	!	!	!	!LO:DY:b	!	!	!	!LO:TX:t=P:problem:brak początku łuku (koniec pięciolinii)	!	!
+!	!	!	!	!LO:DY:b	!	!	!	!LO:TX:t=P:problem=brak początku łuku (koniec pięciolinii)	!	!
 8GG\L	.	8.g/L 8.e-X/ 8.B-X/	.	[ sf	4.b-X^/	mi-	.	[4.gg^\	ja-	.
 !	!	!	!	!LO:HP:b	!	!	!	!	!	!
 8E-X\	.	.	.	>	.	.	.	.	.	.
@@ -166,13 +166,13 @@
 .	.	.	.	.	16dd\JJ)	.	.	.	.	.
 8G\J	.	8g/J 8B/	.	.	(16g^/LL	-każ	.	8dd\	-każ	.
 .	.	.	.	.	16b/JJ)	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
 (8DD/L	.	8f#/L 8A/	.	.	4d^/	to	.	4dd\	to	.
 8F#\)	.	8a/ 8c/	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!LO:DY:a	!	!	!
 8D\J	.	8d/J 8c/	.	.	8d/	dziew-	p	24cc\LL	dziew-	.
 .	.	.	.	.	.	.	.	24b\	.	.
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:chorągiewka poprawiona na belkę	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=chorągiewka poprawiona na belkę	!	!
 .	.	.	.	.	.	.	.	24a\JJ	.	]]
 =14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14
 !	!	!	!	!	!	!	!	!	!	!LO:DY:a
@@ -209,7 +209,7 @@
 =17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
 !	!	!	!	!	!	!	!	!	!	!LO:DY:a
 4GG/	.	8e/ 8d/ 8B/L	.	.	2.r	.	.	8g/L	po-	p
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:błędnie wpisany fragment #	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=błędnie wpisany fragment #	!	!
 .	.	8e/ 8d/ 8B/	.	.	.	.	.	8a/J	.	.
 8FF#/	.	8e/ 8d/ 8B/J	.	.	.	.	.	8a#X/	-tem	.
 4EE/	.	8g/ 8d/ 8B/L	.	.	.	.	.	4b\	co	.
@@ -237,11 +237,11 @@
 16E\JJ	.	.	.	.	16e/JJ	.	.	.	.	.
 [4D^\	.	8dd/ 8f#/)	.	.	4d^/	ty-	.	.	.	.
 .	.	8a/J 8f#'/	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:4dd poprawione na 4a	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=4dd poprawione na 4a	!	!
 4.D\]	.	(8cc/L 8e/	.	.	16e/LL	-dzień	.	4a\]	.	.
 .	.	.	.	.	16f#/JJ	.	.	.	.	.
 .	.	8a/ 8g/)	.	.	4g^/	wspo-	.	.	.	.
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:8dd poprawione na 8a	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=8dd poprawione na 8a	!	!
 .	.	8ee/J 8cc/ 8a/ 8g'/	.	.	.	.	.	8a\	-na	.
 !!LO:LB:g=original
 =21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21
@@ -263,19 +263,19 @@
 .	.	8g/ 8f/ 8d/)	.	.	4fn/	wspo-	.	8dd\)	-na	.
 .	.	8dd/J 8g/ 8f'/	.	.	.	.	.	8r	.	.
 =23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23
-!LO:TX:t=P:problem:przed 8CC usunięta 8r	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=przed 8CC usunięta 8r	!	!	!	!	!	!	!	!	!	!
 8CC/	.	8cc/L 8g/ 8e/	.	.	8e/	-mi-	.	8g'/	co	.
-!LO:TX:t=P:problem:8C poprawione na 8G	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=8C poprawione na 8G	!	!	!	!	!	!	!	!	!	!
 8G'\L	.	8e/ 8c'/	.	.	8c/	-na	.	8cc'\	ty-	.
-!LO:TX:t=P:problem:8E poprawione na 8C	!	!LO:TX:t=P:problem:wykreślone 8c	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=8E poprawione na 8C	!	!LO:TX:t=P:problem=wykreślone 8c	!	!	!	!	!	!	!	!
 8C'\J	.	8g/J 8e'/	.	.	8r	.	.	8g'/	-dzień	.
-!LO:TX:t=P:problem:8D poprawione na 8G	!	!LO:TX:t=P:problem:wykreślone 8G	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=8D poprawione na 8G	!	!LO:TX:t=P:problem=wykreślone 8G	!	!	!	!	!	!	!	!
 8G\L	.	8fn/L 8d/	.	.	4r	.	.	8b'\	cie-	.
-!LO:TX:t=P:problem:8G poprawione na 8C	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=8G poprawione na 8C	!	!	!	!	!	!	!	!	!	!
 8C'\	.	8d/ 8B/	.	.	.	.	.	8g'/	-bie	.
 8Fn'\J	.	8g/J 8d/ 8B/	.	.	8r	.	.	8dd'\	wspo-	.
 =24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:przed 4.g wykreślone 1g	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=przed 4.g wykreślone 1g	!	!
 16E\LL	.	(8g/L 8c/	.	.	16e/LL	jak-	.	[4.g/	mi-	.
 16D\JJ	.	.	.	.	16d/JJ	.	.	.	.	.
 [4C^\	.	8cc/ 8e/)	.	.	4c/	-że	.	.	.	.
@@ -296,17 +296,17 @@
 8BB'\J	.	8f/J 8d/ 8G'/	.	.	8fn/	.	.	8dd\	wspo-	.
 =26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26
 *^	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!LO:HP:b	!LO:TX:t=P:problem:16f poprawione na 16e	!	!	!LO:TX:t=P:problem:przed 4.g wykreślone 1g	!	!
+!	!	!	!	!	!LO:HP:b	!LO:TX:t=P:problem=16f poprawione na 16e	!	!	!LO:TX:t=P:problem=przed 4.g wykreślone 1g	!	!
 8C/L	4.C\	.	(8e/L 8c/ 8G/	.	>	16e/LL)	.	.	4.g/	-mi-	.
-!	!	!	!	!	!	!LO:TX:t=P:problem:16e poprawione na 16d	!	!	!	!	!
+!	!	!	!	!	!	!LO:TX:t=P:problem=16e poprawione na 16d	!	!	!	!	!
 .	.	.	.	.	.	16d/JJ	.	.	.	.	.
 8G/	.	.	8g/ 8e/ 8c/)	.	.	8c/	-na!	.	.	.	.
 [8C/J	.	.	8e/J 8c/ 8G'/	.	.	8r	.	.	.	.	.
 8G/L	4.C\]	.	(8g/L 8e-X/ 8c/ 8G/	.	.	16c/LL	po-	.	8cc\	-na	.
 .	.	.	.	.	.	16d/JJ	.	.	.	.	.
-!	!	!	!LO:TX:t=P:problem:wykreślone 8g	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:t=P:problem=wykreślone 8g	!	!	!	!	!	!	!	!
 8C/	.	.	8e-/ 8c/)	.	.	4e-X/	-tém...	.	8r	.	.
-!	!	!	!LO:TX:t=P:problem:wykreślone 8G, 8c	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:t=P:problem=wykreślone 8G, 8c	!	!	!	!	!	!	!	!
 8G/J	.	.	8g/J 8e-'/	.	]]	.	.	.	8r	.	.
 *v	*v	*	*	*	*	*	*	*	*	*	*
 =27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27
@@ -327,9 +327,9 @@
 .	.	8f#/ 8d/ 8A/ 8F#X</J	.	.	.	.	.	8dd'\	-tém	]
 16BB-X\LL	.	(8d/L 8G/	.	.	8dd\]	.	.	(8dd\L	co	.
 16AA\JJ	.	.	.	.	.	.	.	.	.	.
-!	!	!LO:TX:t=P:problem:wykreślone 8g	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=wykreślone 8g	!	!	!	!	!	!	!	!
 4GG^\)	.	8d/ 8B-X/)	.	.	8b-X\	-ca	.	8b-X\J)	.	.
-!	!	!LO:TX:t=P:problem:wykreślone 8G	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=wykreślone 8G	!	!	!	!	!	!	!	!
 .	.	8g/J 8d/ 8B-'/	.	.	8g/	spo-	.	8dd\	mie-	.
 =29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
 2.C\ 2.CC\	.	8f#X/ 8d/ 8A/L	.	.	8d/L	-czą-	.	[4.dd\	-sią-	.
@@ -339,7 +339,7 @@
 .	.	8g/ 8e-X/ 8c/	.	.	8a\J	.	.	.	.	.
 .	.	8g/ 8e-X/ 8c/J	.	.	8ee-X\	-bo	.	8g/	-ca,	.
 =30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30
-!	!	!	!	!	!LO:TX:t=P:problem:4dd poprawione na 2.dd	!	!	!LO:TX:t=P:problem:8cc poprawione na 8dd	!	!
+!	!	!	!	!	!LO:TX:t=P:problem=4dd poprawione na 2.dd	!	!	!LO:TX:t=P:problem=8cc poprawione na 8dd	!	!
 4.C/	.	8f#X/ 8d/ 8A/L	.	.	2.dd\	skoń-	.	(8dd\L	po-	.
 .	.	8f#X/ 8d/ 8A/	.	.	.	.	.	8a\J)	.	.
 .	.	8f#X/ 8d/ 8A/J	.	.	.	.	.	8dd\	-tém	.
@@ -359,7 +359,7 @@
 [8CC/J	.	8f#/ 8d/ 8A/J	.	.	8r	.	.	.	.	.
 !!LO:LB:g=original
 =32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32
-!	!	!LO:TX:t=P:problem:wykreślony akord 2G#-d-fn	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=wykreślony akord 2G#-d-fn	!	!	!	!	!	!	!	!
 4.C/_ 4.CC/_	.	[4.fn/ [4.d/ [4.G#X</	.	.	2.r	.	.	8dd\]	.	.
 .	.	.	.	.	.	.	.	8qee/	.	.
 .	.	.	.	.	.	.	.	8dd\	-bra	.
@@ -380,28 +380,28 @@
 *	*	*	*^	*	*	*	*	*	*	*	*
 4.G/]	4.AA\	.	4.e/]	4.c#X\	.	.	8r	.	.	8ee\	-czy-	.
 .	.	.	.	.	.	.	8r	.	.	8a/	-na	.
-!	!	!	!	!	!	!	!LO:TX:t=P:problem:8d poprawione na 8e	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TX:t=P:problem=8d poprawione na 8e	!	!	!	!	!
 .	.	.	.	.	.	.	8e/	co	.	8b/	co	.
 8F#/L	4.D\	.	8d/L	4.cn\	.	.	8e/	mie-	.	8cc/	mie-	.
 8G/	.	.	8e/	.	.	.	8c/	-siąc	.	8e/	-siąc	.
 8A/J	.	.	8f#/J	.	.	.	8d/	wspo-	.	8f#/	wspo-	.
 *	*	*	*v	*v	*	*	*	*	*	*	*	*
 =35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35
-!	!	!	!	!	!	!LO:TX:t=P:problem:t. 35 wykreślony - poprawny wpisany nad systemem	!	!	!	!	!
+!	!	!	!	!	!	!LO:TX:t=P:problem=t. 35 wykreślony - poprawny wpisany nad systemem	!	!	!	!	!
 8G/L	4.GG\)	.	4g/ 4B/	.	.	[4.B/	-mi-	.	4.g/	-mi-	.
 8D/	.	.	.	.	.	.	.	.	.	.	.
 8G/J	.	.	8b/ 8d/	.	.	.	.	.	.	.	.
 (<8GG/L	4.GG\	.	4g/ 4B/	.	.	8B/]	.	.	[4.gg\	-na	.
 8D/	.	.	.	.	.	8d/	-na	.	.	.	.
-!	!	!	!	!	!	!LO:TX:t=P:problem:brak początku łuku (koniec pięciolinii)	!	!	!	!	!
+!	!	!	!	!	!	!LO:TX:t=P:problem=brak początku łuku (koniec pięciolinii)	!	!	!	!	!
 8G/J)	.	.	8d/ 8B/)	.	.	(8g/	co	.	.	.	.
 *v	*v	*	*	*	*	*	*	*	*	*	*
 !!LO:PB:g=original
 =36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36
-!	!	!	!	!	!LO:TX:t=P:problem:t. 36-37 wykreślony - poprawne wpisane pod systemem	!	!	!	!	!
+!	!	!	!	!	!LO:TX:t=P:problem=t. 36-37 wykreślony - poprawne wpisane pod systemem	!	!	!	!	!
 2.ryy	.	2.ryy	.	.	16b/)	.	.	16gg\]	.	.
 .	.	.	.	.	16r	.	.	16r	.	.
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:poprawiony tekst w górnym głosie	!	!LO:DY:a
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=poprawiony tekst w górnym głosie	!	!LO:DY:a
 .	.	.	.	.	8b/	bie-	.	8dd\	[[co	pp
 .	.	.	.	.	8cc/	-gą	.	8ee\	chwi-	.
 .	.	.	.	.	8b/	wo-	.	8dd\	-la	.
@@ -436,7 +436,7 @@
 .	.	.	.	.	.	.	.	16ee\JJ	.	.	.
 .	.	.	.	.	8r	.	.	16b\LL	8ryy	nie	.
 .	.	.	.	.	.	.	.	16cc\JJ	.	.	.
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:wykreślony 2. głos: 8dd 8d	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P::problem=wykreślony 2. głos&colon; 8dd 8d	!	!	!
 .	.	.	.	.	8r	.	.	4dd/	4ryy	w na-	.
 .	.	.	.	.	16a/LL	pa-	.	.	.	.	.
 .	.	.	.	.	16b/JJ	.	.	.	.	.	.
@@ -447,9 +447,9 @@
 .	.	.	.	.	.	.	.	8qcc/	.	.
 2.ryy	.	2.ryy	.	.	8g/	nie	.	8b\	mo-	.
 .	.	.	.	.	8f#X/	w na-	.	8a\	-cy,	.
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:tekst:ach poprawione na nie	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:tekst:problem=ach poprawione na nie	!	!
 .	.	.	.	.	8g/	-szej	.	8g/	nie	.
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:tekst:pa- poprawione na w na-	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:tekst:problem=pa- poprawione na w na-	!	!
 .	.	.	.	.	4.b-X\	mo-	.	[4.gg^\	w na-	.
 =42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42
 2.ryy	.	2.ryy	.	.	8bn\	-cy	.	8gg\]	.	.
@@ -457,9 +457,9 @@
 .	.	.	.	.	16dd\JJ	.	.	.	.	.
 .	.	.	.	.	16g/LL	-mięć	.	4dd\	o-	.
 .	.	.	.	.	16b/JJ	.	.	.	.	.
-!	!	!	!	!	!LO:TX:t=P:problem:8.d poprawione na 8d	!	!	!	!	!
+!	!	!	!	!	!LO:TX:t=P:problem=8.d poprawione na 8d	!	!	!	!	!
 .	.	.	.	.	8d/	nie	.	.	.	.
-!	!	!	!	!	!LO:TX:t=P:problem:16d poprawione na 8.d	!	!	!LO:N:vis=24	!	!
+!	!	!	!	!	!LO:TX:t=P:problem=16d poprawione na 8.d	!	!	!LO:N:vis=24	!	!
 .	.	.	.	.	8.d/	w na-	.	12cc\L	-na	.
 !	!	!	!	!	!	!	!	!LO:N:vis=24	!	!
 .	.	.	.	.	.	.	.	12b\	.	.
@@ -506,12 +506,12 @@
 8G>\	.	8gg/ 8b/ 8g/	.	.	.	.	.	8r	.	.
 8B>\J	.	8ffn/J 8dd/ 8g/	.	.	.	.	.	8g/	.	.
 =48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48
-!LO:TX:t=P:problem:wykreślone 8c	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=wykreślone 8c	!	!	!	!	!	!	!	!	!	!
 8c>\L	.	(<8ee-X/L (<8cc/ 8g/	.	.	2.r	.	.	8g\L	.	.
-!LO:TX:t=P:problem:wykreślone 8G	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=wykreślone 8G	!	!	!	!	!	!	!	!	!	!
 8G>\	.	8gg/ 8ee-/) 8g/)	.	.	.	.	.	8ee-X\J	.	.
 8e-X>\J	.	8cc/J 8g'/	.	.	.	.	.	8cc\	.	.
-!	!	!LO:TX:t=P:problem:łuki	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:łuki:problem	!	!	!	!	!	!	!	!
 8d>\L	.	(>(>8b/L 8g/	.	.	.	.	.	8b/	.	.
 8g>\	.	8dd/ 8b/))	.	.	.	.	.	8g/	.	.
 8fn>\J	.	8dd/J 8b'/	.	.	.	.	.	8dd\	.	.
@@ -528,12 +528,12 @@
 *	*	*v	*v	*	*	*	*	*	*	*	*
 !!LO:LB:g=original
 =50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50
-!LO:TX:t=P:problem:mixed beam	!	!LO:TX:t=P:problem:łuki	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:łuki:problem	!	!	!	!	!	!	!	!
 8c>\L	.	8ee-X/L 8cc/ 8g/	.	.	16e-X/LL	.	.	8g\L	.	.
 .	.	.	.	.	16f#/JJ	.	.	.	.	.
 8G/	.	8gg/ 8ee-/ 8g/	.	.	[4g/	.	.	8ee-X\J	.	.
 8e-X>\J	.	8cc/J 8g/	.	.	.	.	.	8cc\	.	.
-!	!	!LO:TX:t=P:problem:łuki	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:łuki:problem	!	!	!	!	!	!	!	!
 8c>\L	.	8b/L 8g/	.	.	4g/]	.	.	8b\L	.	.
 8g>\	.	8dd/ 8b/	.	.	.	.	.	8cc\J	.	.
 8g>\J 8fn>\	.	8dd/J 8b/	.	.	8r	.	.	8dd\	.	.
@@ -542,18 +542,18 @@
 .	.	.	.	.	16d/JJ	.	.	.	.	.
 8c>\	.	8ee-X/ 8cc/ 8g/	.	.	4c^/	.	.	.	.	.
 8B-X>\J	.	[8ee-/J [8cc/ 8g-X/	.	.	.	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
 8A/L	.	8ee-/]L 8cc/] 8f#/	.	.	16c/LL	.	.	8fn/	.	.
 .	.	.	.	.	16d/JJ	.	.	.	.	.
 8c/	.	8cc/ 8a/	.	.	4e-/	.	.	8r	.	.
 8fn>\J	.	8cc/J 8a/	.	.	.	.	.	8f/	co	.
 =52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!LO:TX:t=P:problem:mixed beam	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8B-X/L	.	8dd/L 8b-X/ 8fn/	.	.	16d/LL	.	.	8fn/L	ro-	.
 .	.	.	.	.	16e-X/JJ	.	.	.	.	.
 8Fn/	.	8ffn/ 8dd/ 8f/	.	.	[4fn/	.	.	8dd\J	.	.
 8d>\J	.	8b-/J 8f/	.	.	.	.	.	8b-X\	-ku	.
-!	!	!LO:TX:t=P:problem:łuki	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:łuki:problem	!	!	!	!	!	!	!	!
 8c>\L	.	8a/L 8f/	.	.	4f/]	.	.	8a/	cie-	.
 8fn>\	.	8cc/ 8a/	.	.	.	.	.	8fn/	-bie	.
 8e-X>\J	.	8cc/J 8a/	.	.	8r	.	.	8cc\	wspo-	.
@@ -570,20 +570,20 @@
 *	*	*v	*v	*	*	*	*	*	*	*	*
 !!LO:LB:g=original
 =54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
 8B-X/L	.	8dd/L 8b-X/ 8fn/	.	.	16d/LL	.	.	8fn/L	ro-	.
 .	.	.	.	.	16e-X/JJ	.	.	.	.	.
 8Fn/	.	8ffn/ 8dd/ 8f/	.	.	[4fn^/	.	.	8dd/J	.	.
 8d>\J	.	8b-/J 8f/	.	.	.	.	.	8b-X/	-ku	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!LO:TX:t=P:problem:wykreślona belka między 8a i 8cc	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!LO:TX:t=P:problem=wykreślona belka między 8a i 8cc	!	!
 8e-X>\L	.	8a/L 8f/	.	.	4f/]	.	.	8a\	cie-	.
 8c>\	.	8cc/ 8a/	.	.	.	.	.	8cc\	-bie	.
-!	!	!LO:TX:t=P:problem:wykreślone 8a	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=wykreślone 8a	!	!	!	!	!	!	!	!
 8A/J	.	8ee-X/J 8cc/ 8f/	.	.	8r	.	.	8ee-X\	wspo-	.
 =55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55
 *	*	*tremolo	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:2\right:global	!	!
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:4d poprawione na 2.d	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=2\right&colon; global	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=4d poprawione na 2.d	!	!
 (4.B-X\	.	8dd/ 8fn/L	.	.	16d/LL	co	.	[2.dd\	-mi-	.
 .	.	.	.	.	16c#X/JJ	.	.	.	.	.
 .	.	8dd/ 8fn/	.	.	[4d/	rok	.	.	.	.
@@ -678,10 +678,10 @@
 .	.	.	16a/)	.	.	.	.	.	.	.	.
 8A'/L	.	.	16gg/ 16ee/	.	.	8a/)	-ku	.	8a/	.	.
 .	.	.	16a/	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:8ee poprawione na 8gg	!	!
+!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=8ee poprawione na 8gg	!	!
 8A'/J	.	.	16gg/ 16ee/	.	.	8r	.	.	8gg\	co	.
 .	.	.	16a/JJ	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:4gg poprawione na 8gg	!	!LO:HP:b
+!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=4gg poprawione na 8gg	!	!LO:HP:b
 8r	4.D#X\	.	(16gg^/LL	.	.	4r	.	.	(8gg\	ro-	>
 .	.	.	16a/)	.	.	.	.	.	.	.	.
 8B/L	.	.	(16ff#/	.	.	.	.	.	8ff#\)	-ku	]
@@ -691,12 +691,12 @@
 =63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63
 8B/]	4.E\	.	(16a^/LL	.	.	(8a/	-mi-	.	8r	.	.
 .	.	.	16g/)	.	.	.	.	.	.	.	.
-!	!	!	!LO:TX:t=P:problem:16ee poprawione na 16ff#	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:t=P:problem=16ee poprawione na 16ff#	!	!	!	!	!	!	!	!
 8e/L 8B'/	.	.	(16ff#/	.	.	8g/)	-na	.	8r	.	.
 .	.	.	16g/	.	.	.	.	.	.	.	.
 8e/J 8B'/	.	.	16ff#/	.	.	8r	.	.	8ff#\	wspo-	.
 .	.	.	16g/JJ)	.	.	.	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!LO:HP:b
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!LO:HP:b
 8AA/L	4.ryy	.	(16ff#^/LL	.	.	4r	.	.	(8ff#\	-mi-	>
 .	.	.	16g/)	.	.	.	.	.	.	.	.
 8c\ 8A'\	.	.	(16ee/	.	.	.	.	.	8ee\)	-na	]
@@ -744,13 +744,13 @@
 8r	4.Fn\	.	8bb/	8ryy	.	.	4r	.	.	8ee\	tyl-	.
 (<8c#/L 8A#/	.	.	(<16cc#/LL	8a#\	.	.	.	.	.	8cc#\	-ko	.
 .	.	.	16ee/	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!LO:TX:t=P:problem:t.66-69 wykreślone - poprawne wpisane nad systemem	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TX:t=P:problem=t.66-69 wykreślone - poprawne wpisane nad systemem	!	!	!	!	!
 8d/J 8B/)	.	.	16dd/	8ryy	.	.	8dd\	co	.	8dd\	co	.
 .	.	.	16b/JJ)	.	.	.	.	.	.	.	.	.
 *	*	*	*v	*v	*	*	*	*	*	*	*	*
 =67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67
 *	*	*	*	*	*	*2\right	*	*	*	*	*
-!	!	!	!LO:TX:t=P:problem:t. 67-69 wykreślone - poprawne wpisane nad 2. systemem	!	!	!LO:TX:t=P:problem:2\right:global	!	!	!	!	!
+!	!	!	!LO:TX:t=P:problem=t. 67-69 wykreślone - poprawne wpisane nad 2. systemem	!	!	!LO:TX:t=P:problem=2\right&colon; global	!	!	!	!	!
 8r	4.E\	.	8ee/	.	.	(2.dd\	ro-	.	[2.ee\	ro-	.
 (<8B/L 8G#X/	.	.	16e/LL	.	.	.	.	.	.	.	.
 .	.	.	16b/	.	.	.	.	.	.	.	.
@@ -772,7 +772,7 @@
 8r	4.G\	.	8aa\	8ryy	.	.	4r	.	.	8dd\	tyl-	.
 (<8f/L 8d/	.	.	16b/LL	8g#\	.	.	.	.	.	8b\	-ko	.
 .	.	.	16dd/	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:t.68-69 - poprawiony tekst	!	!
+!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=t.68-69 - poprawiony tekst	!	!
 8e-X/J 8c/)	.	.	16cc/	8ryy	.	.	8cc\	co	.	8cc\	co	.
 .	.	.	16a/JJ	.	.	.	.	.	.	.	.	.
 *	*	*	*v	*v	*	*	*	*	*	*	*	*
@@ -792,7 +792,7 @@
 !!LO:PB:g=origina
 =70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70
 *	*	*^	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!LO:TX:t=P:problem:brak zakończenia łuku (początek pięciolinii)	!	!	!	!	!
+!	!	!	!	!	!	!LO:TX:t=P:problem=brak zakończenia łuku (początek pięciolinii)	!	!	!	!	!
 [4.G\	.	8bb\ 8gg\	8ryy	.	.	8b\)	-ku	.	8dd\]	-ku	.
 .	.	(16cc#X/LL	8a^\	.	.	8a#X\	ja-	.	8cc#X\	ja-	.
 .	.	16ee/	.	.	.	.	.	.	.	.	.
@@ -841,7 +841,7 @@
 .	.	.	16g/	.	.	.	.	.	.	.	.
 8e/J 8B/	.	.	16ff#/	.	.	8r	.	.	8ff#\	wspo-	.
 .	.	.	16g/JJ)	.	.	.	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!LO:DY:a
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!LO:DY:a
 8AA/L	4.ryy	.	(16ff#^/LL	.	.	4r	.	.	(8ff#\	-mi-	>
 .	.	.	16g/)	.	.	.	.	.	.	.	.
 8c\ 8A\	.	.	(16ee/	.	.	.	.	.	8ee\)	-na	]
@@ -858,7 +858,7 @@
 .	.	.	16cc#X/	.	.	.	.	.	.	.	.
 8r	.	.	16dd/	.	.	8d/	ach	.	8dd\	to	.
 .	.	.	16ee/JJ)	.	.	.	.	.	.	.	.
-!LO:TX:t=P:problem:łuki	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:łuki:problem	!	!	!	!	!	!	!	!	!	!	!
 !LO:N:vis=4	!	!	!	!	!	!	!	!	!	!	!LO:DY:a
 4.fn/ 4.d/	(<(>4.B\ 4.G#X\	.	(16ffn/LL	.	[	[4.dd^\	grzecz-	.	[4.ffn\	grzecz-	>]
 .	.	.	16dd/	5	.	.	.	.	.	.	.
@@ -868,7 +868,7 @@
 .	.	.	16d/JJ)	2	.	.	.	.	.	.	.
 *v	*v	*	*	*	*	*	*	*	*	*	*
 =75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75
-!	!	!	!	!	!LO:TX:t=P:problem:8cc poprawione na 8dd	!	!	!	!	!
+!	!	!	!	!	!LO:TX:t=P:problem=8cc poprawione na 8dd	!	!	!	!	!
 4A\)	.	(16c/LL	1	.	(8dd\L]	.	.	(8ff\L]	.	.
 .	.	16e/	3	.	.	.	.	.	.	.
 .	.	16a/	1	.	8cc\J)	.	.	8ee\J)	.	.
@@ -886,25 +886,25 @@
 *	*	*^	*	*	*	*	*	*	*	*
 16G\LL))	.	16B/LL	4.ryy	2	.	8g/	-czy-	.	8g/	-czy-	.
 16D\	.	16d/	.	1	.	.	.	.	.	.	.
-!	!	!	!	!	!LO:TX:t=cres_:problem:dynamics with extention lines	!	!	!	!	!	!
+!	!	!	!	!	!LO:TX:t=cres_:problem=dynamics with extention lines	!	!	!	!	!	!
 !	!	!	!	!	!LO:HP:b:t=crescendo	!	!	!	!	!	!
 16E\	.	16e/	.	.	<	8d/	-na	.	8d/	-na,	.
 16F#\	.	16f#/	.	.	.	.	.	.	.	.	.
 16G\	.	16g/	.	.	.	8g/	co	.	8g/	co	.
 16A\JJ	.	16a/	.	.	.	.	.	.	.	.	.
-!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!
 16B\LL	.	16b/JJ	16b\LL	.	.	8.g/	ro-	.	8.g/	ro-	.
 16D\	.	4ryy	16d/	.	.	.	.	.	.	.	.
 16E\	.	.	16e/	.	.	.	.	.	.	.	.
 16F#\	.	.	16f#/	.	.	16f#X/	-ku	.	16f#X/	-ku	.
-!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:t.76-77 - poprawiony tekst	!	!
+!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=t.76-77 - poprawiony tekst	!	!
 16G\	.	.	16g/	.	.	8g/	co	.	8g/	co	.
 16A\JJ	.	16ryy	16a/JJ	.	.	.	.	.	.	.	.
 *	*	*v	*v	*	*	*	*	*	*	*	*
 !!LO:LB:g=original
 =77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77
-!	!	!	!	!	!LO:TX:t=P:problem:przed 8.b usunięty ♭	!	!	!	!	!
-!	!	!	!	!	!LO:TX:t=P:problem:t. 77 - poprawiony tekst	!	!	!LO:TX:t=P:problem:przed 8.b usunięty ♭	!	!
+!	!	!	!	!	!LO:TX:t=P:problem=przed 8.b usunięty ♭	!	!	!	!	!
+!	!	!	!	!	!LO:TX:t=P:problem=t. 77 - poprawiony tekst	!	!	!LO:TX:t=P:problem=przed 8.b usunięty ♭	!	!
 16B\LL	.	16b/LL	.	.	8.b/	ro-	.	8.b/	ro-	.
 16F#\	.	16f#/	.	.	.	.	.	.	.	.
 16G\	.	16g/	1	.	.	.	.	.	.	.
@@ -919,7 +919,7 @@
 16r	.	16ff#/JJ	.	.	.	.	.	.	.	.
 =78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78
 *	*	*2\right	*	*	*	*	*	*	*	*
-!	!	!	!	!LO:DY:b	!LO:TX:t=P:problem:przed 2.ee wykreślony ♭	!	!LO:DY:rj:a	!	!	!LO:DY:rj:a
+!	!	!	!	!LO:DY:b	!LO:TX:t=P:problem=przed 2.ee wykreślony ♭	!	!LO:DY:rj:a	!	!	!LO:DY:rj:a
 ([<4.C#X/ 4.CC/	.	16gg\ 16een\ 16b-X\LL	.	ff	[2.ee\	ja-	ff	[2.gg\	ja-	ff
 .	.	16gg\ 16een\ 16b-X\	.	.	.	.	.	.	.	.
 .	.	16gg\ 16een\ 16b-X\	.	.	.	.	.	.	.	.
@@ -940,13 +940,13 @@
 (4GG/ 4GGG/	.	(4g/	.	.	.	.	.	.	.	.
 8AA/ 8AAA/	.	8a/	.	.	.	.	.	.	.	.
 =80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80
-!	!	!LO:TX:t=P:problem:wykreślony # przed 4bn	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=wykreślony # przed 4bn	!	!	!	!	!	!	!	!
 4BB/ 4BBB/)	.	4bn/)	.	.	4dd\	-ka	.	4dd\	-ka	.
 8r	.	8r	.	.	8r	.	.	8r	.	.
 *tremolo	*	*	*	*	*	*	*	*	*	*
 !	!	!	!	!LO:DY:b	!	!	!	!	!	!
 8B\ 8G#X\ 8E\ 8D\L	.	16e/LL	.	ff	[4.dd^\	grzecz-	.	[4.ee^\	grzecz-	.
-!	!	!LO:TX:t=P:problem:podkreslony napis Presto.	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=podkreslony napis Presto.	!	!	!	!	!	!	!	!
 !	!	!LO:TX:b:t=Presto.	!	!	!	!	!	!	!	!
 .	.	16f#X/	.	.	.	.	.	.	.	.
 8B\ 8G#X\ 8E\ 8D\	.	16g#X/	.	.	.	.	.	.	.	.
@@ -962,12 +962,12 @@
 8B\ 8G#X\ 8E\ 8D\J	.	16aa\	.	.	.	.	.	.	.	.
 .	.	16bb\JJ	.	.	.	.	.	.	.	.
 *Xtremolo	*	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:wylreślony akord D-G-A-c	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=wylreślony akord D-G-A-c	!	!	!	!	!	!	!	!	!	!
 8A\L 8E\ 8C\	.	16ccc\LL	.	.	4cc\	-na	.	8a/	-na	.
 .	.	16bb\	.	.	.	.	.	.	.	.
 8A\ 8E\ 8AA\	.	16ccc\	.	.	.	.	.	8r	.	.
 .	.	16ddd\	.	.	.	.	.	.	.	.
-!	!	!	!	!	!LO:TX:t=P:problem:8a poprawione na 8f	!	!	!	!	!
+!	!	!	!	!	!LO:TX:t=P:problem=8a poprawione na 8f	!	!	!	!	!
 8A\J 8D\	.	16eee\	.	.	8f#/	dziew-	.	8dd\	dziew-	.
 .	.	16fff#\JJ	.	.	.	.	.	.	.	.
 =82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82

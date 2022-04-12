@@ -32,7 +32,7 @@
 *M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*M3/8	*M3/8	*M3/8
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 !LO:TX:a:i:t=Allo	!	!LO:TX:a:i:t=Allo	!	!LO:TX:a:i:t=Allegro	!	!LO:TX:a:i:t=Allegro	!	!LO:TX:a:i:t=Allo	!LO:TX:a:i:t=Allo	!LO:TX:a:i:t=Allo	!LO:TX:a:i:t=Allo
-!LO:TX:a:t=P:problem:krzyżyki jeden nad drugim	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:brak znaków przykluczowych w źródle
+!LO:TX:a:t=P:problem=krzyżyki jeden nad drugim	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=brak znaków przykluczowych w źródle
 8D\L	.	8f#\L	.	4.dd 4.d/	.	4.dd 4.d/	.	4.D/	4.d\	4.dd\	4.dd\
 8E\	.	8g\	.	.	.	.	.	.	.	.	.
 8F#\J	.	8a\J	.	.	.	.	.	.	.	.	.
@@ -56,7 +56,7 @@
 8r	.	8r	.	8dd\	.	8dd\	.	8r	8r	8dd\	8dd\
 8r	.	8r	.	8ff#\J	.	8aa\J	.	8r	8r	8ff#\J	8aa\J
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
-!LO:TX:t=P:problem:mixed beam	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8G\L	.	8g\L	.	8ee\L	.	8gg\L	.	8e\L	8g\L	8ee\L	8gg\L
 !	!	!	!	!	!	!	!	!	!	!	!LO:SIC:s=8ff#:v
 8A\	.	8a\	.	8dd\	.	8ff#\	.	8d\	8f#\	8dd\	8ff\
@@ -182,7 +182,7 @@
 *Xtremolo	*	*	*	*	*	*	*	*	*	*	*	*	*
 *	*	*	*	*	*	*	*v	*v	*	*	*	*	*
 =29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!
 8A\L	.	8a\L	.	8ee/	8cc#\	.	8aa 8a/	.	8A/L	8e\L	8cc#\L	8aa\L
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:s=8cc#:v
 8C#/	.	8c#\	.	8cc#\L	4ryy	.	8cc#\L	.	8A/	8e\	8cc#\	8cc\
@@ -208,7 +208,7 @@
 8A\J	.	8a\J	.	8ee/J	8cc#\J	.	.	8ccc#/J	.	.	8r	8ee\J	8ccc\J)
 *	*	*Xtremolo	*	*	*	*	*	*	*	*	*	*	*
 =33	=33	=33	=33	=33	=33	=33	=33	=33	=33	=33	=33	=33	=33
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!
 8A\L	.	8a\L	.	8ee/	8cc#\	.	8a\	8aa/	.	8A/L	8e\L	8cc#\L	8aa\L
 !	!	!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:s=8cc#:v
 8C#/	.	8c#\	.	8cc#\L	4ryy	.	8cc#\L	8ryy	.	8A/	8e\	8cc#\	8cc\
@@ -223,7 +223,7 @@
 !	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!
 =35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35
 *	*	*	*	*^	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:mixed beam
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=mixed beam
 8AA/L	.	8A/L	.	8a/	8ryy	.	8a/	.	8A/L	8e\L	8a\L	8a/L
 8AA/	.	8A/	.	8ee/L	8cc#\L	.	8aaL 8a/	.	8A/	8e\	8cc#\	8aa\
 8AA/J	.	8A/J	.	8ee/J	8cc#\J	.	8aaJ 8a/	.	8A/J	8e\J	8cc#\J	8aa\J
@@ -240,8 +240,8 @@
 =38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38
 *	*	*k[]	*	*k[]	*	*k[]	*	*	*	*	*
 *	*	*	*	*^	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:nie wpisana zmiana tonacji	!LO:TX:a:t=30	!LO:TX:t=P:problem:nie wpisana zmiana tonacji	!
-!LO:TX:a:t=2	!	!	!LO:DY:t=pn	!	!	!	!	!	!LO:TX:a:t=30	!LO:TX:t=P:problem:nie wpisana zmiana tonacji	!LO:TX:a:t=30	!LO:TX:a:t=30
+!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=nie wpisana zmiana tonacji	!LO:TX:a:t=30	!LO:TX:t=P:problem=nie wpisana zmiana tonacji	!
+!LO:TX:a:t=2	!	!	!LO:DY:t=pn	!	!	!	!	!	!LO:TX:a:t=30	!LO:TX:t=P:problem=nie wpisana zmiana tonacji	!LO:TX:a:t=30	!LO:TX:a:t=30
 !LO:N:vis=0	!	!	!	!	!	!	!	!	!LO:N:vis=00	!LO:N:vis=00	!LO:N:vis=00	!LO:N:vis=00
 2.r	.	8d\L	p	8d/L	4.ryy	p	8aa\L	p	1.r	1.r	1.r	1.r
 .	.	8f\	.	8f/	.	.	8ff\	.	.	.	.	.
@@ -347,12 +347,12 @@
 =58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58
 !LO:N:vis=00	!	!	!LO:DY:t=pn	!	!	!	!	!LO:N:vis=00	!LO:N:vis=00	!LO:N:vis=00	!LO:N:vis=00
 1.r	.	8A/L	p	8A/L	.	8ee\L	p	1.r	1.r	1.r	1.r
-!	!	!	!	!LO:TX:b:t=P:problem:# below	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:b:t=P:problem=# below	!	!	!	!	!	!	!
 .	.	8c#X/	.	8c#X/	.	8cc#X\	.	.	.	.	.
 .	.	8e/J	.	8e/J	.	8a\J	.	.	.	.	.
 =59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59
 .	.	8A/L	.	8A/L	.	8ee\L	.	.	.	.	.
-!	!	!LO:SIC:s=c#:v	!	!LO:TX:b:t=P:problem:# below	!	!LO:SIC:s=8cc#:v	!	!	!	!	!
+!	!	!LO:SIC:s=c#:v	!	!LO:TX:b:t=P:problem=# below	!	!LO:SIC:s=8cc#:v	!	!	!	!	!
 .	.	8c/	.	8c#X/	.	8cc\	.	.	.	.	.
 .	.	8e/J	.	8e/J	.	8a\J	.	.	.	.	.
 =60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60
@@ -394,7 +394,7 @@
 !	!	!LO:LB:g=original	!	!	!	!	!	!	!	!LO:LB:g=original	!LO:LB:g=original
 =68	=68	=68	=68	=68	=68	=68	=68	=68	=68	=68	=68
 *	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*k[f#c#]	*	*
-!	!	!	!	!	!	!LO:TX:a:t=P:problem:krzyżyki jeden nad drugim	!	!	!	!	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=krzyżyki jeden nad drugim	!	!	!	!	!
 8D\L	.	8f#X\L	.	4.dd 4.d/	.	4.dd 4.d/	.	4.D/	4.d\	4.dd\	4.dd\
 8E\	.	8g\	.	.	.	.	.	.	.	.	.
 8F#\J	.	8a\J	.	.	.	.	.	.	.	.	.
@@ -419,7 +419,7 @@
 8r	.	8r	.	8dd\	.	8dd\	.	8r	8r	8dd\	8dd\
 8r	.	8r	.	8ff#\J	.	8aa\J	.	8r	8r	8ff#\J	8aa\J
 =73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73
-!LO:TX:t=P:problem:mixed beam	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!
 8G\L	.	8g\L	.	8ee\L	.	8gg\L	.	8e\L	8g\L	8ee\L	8gg\L
 !	!	!	!	!	!	!	!	!	!	!	!LO:SIC:s=8ff#:v
 8A\	.	8a\	.	8dd\	.	8ff#\	.	8d\	8f#\	8dd\	8ff\
@@ -495,7 +495,7 @@
 8G\	.	8g\	.	8bb\	.	8bb\	.	.	.	.	.
 8E\J	.	8e\J	.	8gg\J	.	8gg\J	.	.	.	.	.
 =89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89
-!LO:TX:t=P:problem:mixed beam	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!
 8D\L	.	8d\L	.	8ff#\L	.	8ff#\L	.	8d\L	8f#\L	.	.
 8A\	.	8a\	.	8ee\	.	8gg\	.	8e\	8g\	.	.
 8AA/J	.	8A/J	.	8cc#\J	.	8ee\J	.	8A/J	8e\J	.	.
@@ -532,7 +532,7 @@
 8G\J	.	8g\J	.	8ee\J	.	8ee\J	.	8r	8r	8ee\J	8ee\J
 !	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!LO:LB:g=original
 =97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97
-!	!	!	!	!LO:TX:t=P:problem:kasownik nad nutą	!	!LO:TX:t=P:problem:kasownik na wysokości gg	!	!	!	!	!LO:SIC:s=8cc#:v
+!	!	!	!	!LO:TX:t=P:problem=kasownik nad nutą	!	!LO:TX:t=P:problem=kasownik na wysokości gg	!	!	!	!	!LO:SIC:s=8cc#:v
 8A\L	.	4e\	.	4ccn\	.	4ccn\	.	8A/L	8e\L	4cc#t\	4ccT\
 8A\	.	.	.	.	.	.	.	8A/	8e\	.	.
 8A\J	.	16d\LL	.	16b\LL	.	16b\LL	.	8A/J	8e\J	16b\LL	16b\LL
@@ -571,7 +571,7 @@
 8G\	.	8g\	.	8gg\	.	8gg\|	.	8r	8r	8gg\	8gg\
 8G\J	.	8g\J	.	8ee\J	.	8ee\J|	.	8r	8r	8ee\J	8ee\J
 =105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105
-!	!	!	!	!LO:TX:t=P:problem:kasownik nad nutą	!	!LO:TX:t=P:problem:kasownik nad nutą	!	!	!	!	!LO:SIC:s=8ff#:v
+!	!	!	!	!LO:TX:t=P:problem=kasownik nad nutą	!	!LO:TX:t=P:problem=kasownik nad nutą	!	!	!	!	!LO:SIC:s=8ff#:v
 8A\L	.	4eT\	.	4ccn\	.	4ccn\	.	8A/L	8e\L	4cc#t\	4ccT\
 8A\	.	.	.	.	.	.	.	8A/	8e\	.	.
 8A\J	.	16d\LL	.	16b\LL	.	16b\LL	.	8A/J	8e\J	16b\LL	16b\LL

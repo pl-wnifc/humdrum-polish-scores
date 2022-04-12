@@ -31,10 +31,10 @@
 =1	=1	=1	=1	=1	=1	=1	=1	=1
 *2\right	*	*	*2\right	*	*2\right	*	*2\right	*
 *	*	*	*rscale:1/2	*	*	*	*rscale:1/2	*
-!LO:TX:t=P:problem:all\right:global	!	!	!LO:TX:t=P:problem:all\right:global	!	!LO:TX:t=P:problem:all\right:global	!	!LO:TX:t=P:problem:all\right:global	!
-!	!	!	!	!	!LO:TX:t=P:problem:niejednoznaczny zapis metrum: 3/2 lub 3/4	!	!	!
-!LO:TX:t=P:problem:napis "Graduale." przed kluczem	!	!	!LO:TX:t=P:problem:napis "Graduale" przed kluczem	!	!LO:TX:t=P:problem:napis "Graduale" przed kluczem	!	!LO:TX:t=P:problem:fragment trójdzielny zapisany w metrum 3/4 i o połowę krótszymi wartościami	!
-!	!	!	!LO:TX:t=P:problem:fragment trójdzielny zapisany w metrum 3/4 i o połowę krótszymi wartościami	!	!	!	!LO:TX:t=P:problem:napis "Graduale." na pięciolinii przed kluczem	!
+!LO:TX:t=P:problem=all\right&colon; global	!	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!
+!	!	!	!	!	!LO:TX:t=P::problem=niejednoznaczny zapis metrum&colon; 3/2 lub 3/4	!	!	!
+!LO:TX:t=P:problem=napis "Graduale." przed kluczem	!	!	!LO:TX:t=P:problem=napis "Graduale" przed kluczem	!	!LO:TX:t=P:problem=napis "Graduale" przed kluczem	!	!LO:TX:t=P:problem=fragment trójdzielny zapisany w metrum 3/4 i o połowę krótszymi wartościami	!
+!	!	!	!LO:TX:t=P:problem=fragment trójdzielny zapisany w metrum 3/4 i o połowę krótszymi wartościami	!	!	!	!LO:TX:t=P:problem=napis "Graduale." na pięciolinii przed kluczem	!
 !LO:TX:a:t=Graduale.	!	!	!LO:TX:a:t=Graduale	!	!LO:TX:a:t=Graduale	!	!LO:TX:a:t=Graduale.	!
 2F\	Al-	.	2c\	Al-	2f\	Al-	2a\	Al-
 2F\	-le-	.	2c\	-le-	2f\	-le-	2a\	-le-
@@ -99,7 +99,7 @@
 2C/	-lu-	.	2c\	-lu-	2e\)	.	.	.
 =14	=14	=14	=14	=14	=14	=14	=14	=14
 !	!	!	!LO:TX:b:i:t=Seque Ave. V&colon;S&colon;	!	!	!	!	!
-!	!	!	!LO:TX:a:t=P:problem:napis na pięciolinii za kreską	!	!	!	!	!
+!	!	!	!LO:TX:a:t=P:problem=napis na pięciolinii za kreską	!	!	!	!	!
 1.F	-ia.	.	1.c	-ia.	1.f	-ia.	1.a	-ja.
 !	!	!	!LO:PB:g=original	!	!	!	!	!
 ==15	==15	==15	==15	==15	==15	==15	==15	==15
@@ -122,7 +122,7 @@
 .	.	.	.	.	16f\JJ)	.	.	.
 8G\	-ti-	.	8c\	-ve	(>8e\L	-a	8g\	-ve
 8G\	-a,	.	8c\	ma-	8c\J)	.	8g\	ma-
-!LO:TX:a:t=P:problem:oznaczenie dynamiczne na pięciolinii przed nutą	!	!LO:DY:b:t=f.:rj	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=oznaczenie dynamiczne na pięciolinii przed nutą	!	!LO:DY:b:t=f.:rj	!	!	!	!	!	!
 4F\	A-	f	8A\L	-ri-	4c\	a-	4a\	-ri-
 .	.	.	16c\L	.	.	.	.	.
 .	.	.	16B-\JJ	.	.	.	.	.
@@ -156,7 +156,7 @@
 !LO:LB:g=original	!	!	!	!	!	!	!	!
 (>8F\L	-nus	.	4A/	te-	(>4f\	te-	(>4cc\	te-
 8D\J)	.	.	.	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!
 (>8G\L	te-	.	4G/	.	4d\)	.	4bn\)	.
 8GG/J)	.	.	.	.	.	.	.	.
 =20	=20	=20	=20	=20	=20	=20	=20	=20
@@ -228,7 +228,7 @@
 8F\	-ne-	.	8c\	-ne-	.	.	8cc\	-ne-
 8G\L	-dic-	.	8G/	-dic-	.	.	8bn\	-dic-
 8Bn\J	.	.	8G/	-tus	.	.	8g\	-tus
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!
 8c\L	-tus	.	4c\	fru-	4e\	-ne-	8gg\	fruc-
 8C/J	.	.	.	.	.	.	8gg\	-tus
 !	!	!	!LO:LB:g=original	!	!	!	!LO:LB:g=original	!
@@ -242,7 +242,7 @@
 8A\L	-tris	.	(>4c\	tu-	.	.	.	.
 8E\J	.	.	.	.	8c\	-tus	.	.
 =29	=29	=29	=29	=29	=29	=29	=29	=29
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!
 8F\L	tu-	.	4c\	.	4f\	ven-	2dd\	tu-
 8D\	.	.	.	.	.	.	.	.
 8G\	.	.	4Bn\)	.	4g\	-tris	.	.
@@ -260,7 +260,7 @@
 !LO:LB:g=original	!	!	!	!	!	!	!	!
 8F\	ven-	.	8c\	ven-	4f\	-tus	8cc\	ven-
 !	!	!	!	!	!	!	!LO:TX:b:i:t=V&colon;S&colon;	!
-!	!	!	!	!	!	!	!LO:TX:b:t=P:problem:napis na pięciolinii na kreską taktową	!
+!	!	!	!	!	!	!	!LO:TX:b:t=P:problem=napis na pięciolinii na kreską taktową	!
 8E\	-tris	.	8c\	-tris	.	.	8cc\	-tris
 !	!	!	!	!	!LO:LB:g=original	!	!LO:PB:g=original	!
 =31	=31	=31	=31	=31	=31	=31	=31	=31
@@ -276,11 +276,11 @@
 4GG/	.	.	.	.	.	.	4bn\)	.
 2C/	-i.	.	2G/	-i.	2e\	-i.	2cc\	-i.
 !LO:TX:b:i:t=Alleluia Da Capo.	!	!	!	!	!LO:TX:b:i:t=Alleluia Da Capo.	!	!LO:TX:b:i:t=Alleluia Da Capo.	!
-!LO:TX:b:t=P:problem:Napis na pięciolinii za kreską	!	!	!	!	!LO:TX:b:t=P:problem:Napis na pięciolinii za kreską	!	!LO:TX:b:t=P:problem:Napis na pięciolinii za kreską	!
+!LO:TX:b:t=P:problem=Napis na pięciolinii za kreską	!	!	!	!	!LO:TX:b:t=P:problem=Napis na pięciolinii za kreską	!	!LO:TX:b:t=P:problem=Napis na pięciolinii za kreską	!
 ==33	==33	==33	==33	==33	==33	==33	==33	==33
 *M3/2	*	*	*M3/2	*	*M3/2	*	*M3/2	*
 *	*	*	*rscale:1/2	*	*	*	*rscale:1/2	*
-!	!	!	!LO:TX:t=P:problem:fragment trójdzielny zapisany w metrum 3/4 i o połowę krótszymi wartościami	!	!	!	!LO:TX:t=P:problem:fragment trójdzielny zapisany w metrum 3/4 i o połowę krótszymi wartościami	!
+!	!	!	!LO:TX:t=P:problem=fragment trójdzielny zapisany w metrum 3/4 i o połowę krótszymi wartościami	!	!	!	!LO:TX:t=P:problem=fragment trójdzielny zapisany w metrum 3/4 i o połowę krótszymi wartościami	!
 2F\yy	Al-	.	2c\	Al-	2f\yy	Al-	2a\yy	Al-
 2F\yy	-le-	.	2c\	-le-	2f\yy	-le-	2a\yy	-le-
 2C/yy	-lu-	.	2c\	-lu-	2e\yy	-lu-	2g\yy	-lu-

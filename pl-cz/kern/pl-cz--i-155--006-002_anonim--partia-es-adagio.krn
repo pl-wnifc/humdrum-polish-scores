@@ -33,14 +33,14 @@
 =1	=1	=1	=1	=1	=1	=1
 *>A	*>A	*	*>A	*>A	*>A	*
 *all\right	*all\right	*	*all\right	*all\right	*all\right	*
-!LO:N:vis=0	!	!	!LO:TX:t=P:problem:kolejność znaków BB- E- A-	!	!	!
+!LO:N:vis=0	!	!	!LO:TX:t=P:problem=kolejność znaków BB- E- A-	!	!	!
 !LO:TX:a:i:B:t=Adagio	!LO:TX:a:i:B:t=Adagio	!LO:DY:rj	!LO:TX:a:i:B:t=Adagio	!LO:TX:a:i:B:t=Adagio	!LO:TX:a:i:B:t=Adagio	!
 2.r	8e-\L	p	4.r	4.r	4.r	.
 .	8e-\	.	.	.	.	.
 .	8e-\J	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2
 *	*tremolo	*	*	*tremolo	*	*
-!	!	!	!	!	!LO:TX:t=P:problem:all\right:global	!LO:DY:rj
+!	!	!	!	!	!LO:TX:t=P:problem=all\right&colon; global	!LO:DY:rj
 .	8e-\L	.	4.r	8c/L	8a-\L	p
 .	8e-\	.	.	8c/	8a-\	.
 .	8e-\J	.	.	8c/J	8a-\J	.
@@ -59,11 +59,11 @@
 .	.	.	.	16g/	16b-\	.
 .	.	.	8E-\	16g/	16b-\	.
 .	.	.	.	16b-/JJ	16ee-\JJ	.
-!	!	!	!	!	!LO:TX:a:t=P:problem:klamra łukowa, łuczek zamiast numeru	!
+!	!	!	!	!	!LO:TX:a:t=P:problem=klamra łukowa, łuczek zamiast numeru	!
 8r	8r	.	8E-\J	8g/	48ee-\LLL	.
 .	.	.	.	.	48gg\	.
 .	.	.	.	.	48ff\JJJ	.
-!	!	!	!	!	!LO:TX:a:t=P:problem:klamra łukowa, łuczek zamiast numeru	!
+!	!	!	!	!	!LO:TX:a:t=P:problem=klamra łukowa, łuczek zamiast numeru	!
 .	.	.	.	.	48ee-\LLL	.
 .	.	.	.	.	48dd\	.
 .	.	.	.	.	48cc\JJJ	.
@@ -86,7 +86,7 @@
 .	.	.	.	16ee-\JJ	16gg\JJ	.
 *	*	*	*Xtremolo	*	*	*
 =7	=7	=7	=7	=7	=7	=7
-!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!
 4.BB-/	4.b-\	.	8B-\L	16ff\LL	(16aa-\LL	.
 .	.	.	.	(16dd\	16ff\	.
 .	.	.	8BB-/	16dd\	16ff\	.
@@ -164,12 +164,12 @@
 .	.	.	.	32e-/JJJ	32g\JJJ	.
 !	!	!	!	!LO:LB:g=original	!	!
 =15	=15	=15	=15	=15	=15	=15
-!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!
 4.B-/	4.b-\	.	8B-\L	8d/L	8f/L	.
 .	.	.	8BB-/	8d/	8f/	.
 .	.	.	8E-/J	8e-/J	8g/J	.
 =16	=16	=16	=16	=16	=16	=16
-!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!
 4BB-/	4b-\	.	8B-\L	8e-/L	8g/L	.
 .	.	.	8BB-/J	8d/J	8f/J	.
 8r	8r	.	8r	8r	8r	.
@@ -214,7 +214,7 @@
 .	.	.	24BB-/JJ	.	.	.
 !	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!
 =21	=21	=21	=21	=21	=21	=21
-!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!
 *	*	*	*	*tremolo	*	*
 4.E-/	4.b-\	.	8E-\L	8ee-\L	8gg\	.
 !	!	!	!	!	!LO:N:vis=16	!
@@ -236,7 +236,7 @@
 .	.	.	24F\	.	.	.
 .	.	.	24D\JJ	.	.	.
 =23	=23	=23	=23	=23	=23	=23
-!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!
 8B-/	8b-\	.	8BB-/L	32dd\LLL	32ff\LLL	.
 .	.	.	.	32b-\	32dd\	.
 .	.	.	.	32dd\	32bb-\	.
@@ -335,7 +335,7 @@
 .	.	.	16E-\JJ	32f/L	32a-\	.
 .	.	.	.	32e-/JJJ	32g\JJJ)	.
 =32	=32	=32	=32	=32	=32	=32
-!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!
 4BB-/	4b-\	.	8B-\L	8e-/L	8g/L	.
 .	.	.	8BB-/J	8d/J	8f/J	.
 8r	8r	.	8r	8r	8r	.
@@ -434,7 +434,7 @@
 .	.	.	16G\JJ	32e-/	32a-\	.
 .	.	.	.	32d/JJJ)	32g\JJJ)	.
 =42	=42	=42	=42	=42	=42	=42
-!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!
 4BB-/	4b-\	.	8B-\L	8e-/L	8g/L	.
 .	.	.	8BB-/J	8d/J	8f/J	.
 8r	8r	.	8r	8r	8r	.
@@ -469,7 +469,7 @@
 *	*	*	*Xtremolo	*	*	*
 !	!	!	!	!	!LO:LB:g=original	!
 =47	=47	=47	=47	=47	=47	=47
-!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!
 4.BB-/	4b-\	.	8B-\L	16ff\LL	16aa-\LL	.
 .	.	.	.	(16dd\	16ff\	.
 .	.	.	8BB-/	16dd\	16ff\	.

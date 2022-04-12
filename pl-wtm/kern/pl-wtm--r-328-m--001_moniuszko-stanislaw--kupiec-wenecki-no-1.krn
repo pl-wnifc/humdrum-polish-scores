@@ -33,10 +33,10 @@
 *met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *all\right	*	*all\right	*	*all\right	*	*all\right	*	*all\right	*	*all\right	*	*all\right	*	*all\right	*
-!LO:TX:t=P:problem:all\right:global	!	!LO:TX:t=P:problem:all\right:global	!	!LO:TX:t=P:problem:all\right:global	!	!LO:TX:t=P:problem:all\right:global	!	!LO:TX:t=P:problem:all\right:global	!	!LO:TX:t=P:problem:all\right:global	!	!LO:TX:t=P:problem:all\right:global	!	!LO:TX:t=P:problem:all\right:global	!
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:oznaczenie tempa początkowego na niebiesko	!
+!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=oznaczenie tempa początkowego na niebiesko	!
 !	!	!	!	!	!	!	!	!LO:TX:b:t=e marcato	!	!	!	!	!	!LO:TX:a:t=Nº1.	!
-!	!	!	!	!	!	!LO:TX:b:t=e marcato	!	!LO:TX:t=P:problem:pp(ianissimo)=pp.	!	!LO:TX:t=P:problem:brak znaku przykluczowego	!	!	!	!	!
+!	!	!	!	!	!	!LO:TX:b:t=e marcato	!	!LO:TX:t=P:pp(ianissimo)=pp.:problem	!	!LO:TX:t=P:problem=brak znaku przykluczowego	!	!	!	!	!
 1r	.	4A\	pp	4A/	.	4a/	pp	4a/	pp	1r	.	1r	.	1r	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=a&colon;):color=blue	!
 .	.	8.d\L	.	8.d\L	.	8.d/L	.	8.dd\L	.	.	.	.	.	.	.
@@ -106,7 +106,7 @@
 !	!	!LO:TX:b:t=arco	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	.	.	.	.	.	.	.	.	.	16f/Jk	.	.	16ff/Jk	.	.
 4ryy	.	4r	.	4r	.	4r	.	4r	.	.	.	2f^</	.	.	2ff^</	.	.
-!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!
 8.BB-X^</Lyy	.	8.BB-X^</L	.	12B-X^>/L	.	8.fn/L^<	.	12dd^>\L	.	.	.	.	.	.	.	.	.
 .	.	.	.	12A/	.	.	.	12cc\	.	.	.	.	.	.	.	.	.
 .	.	.	.	12G/J	.	.	.	12b-X\J	.	.	.	.	.	.	.	.	.
@@ -119,7 +119,7 @@
 .	.	.	.	.	.	.	.	.	.	.	.	16f/Jk	.	.	16ff/Jk	.	.
 4ryy	.	4r	.	4r	.	4ryy	.	4r	.	.	.	[>2f^</	.	.	[>2ff^</	.	.
 *	*	*	*	*Xtuplet	*	*	*	*Xtuplet	*	*	*	*	*	*	*	*	*
-!	!	!	!	!LO:TUP:problem:klamra łukowa	!	!LO:SIC:v:s:t=8.fn	!	!LO:TUP:problem:klamra łukowa	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TUP:problem=klamra łukowa	!	!LO:SIC:v:s:t=8.fn	!	!LO:TUP:problem=klamra łukowa	!	!	!	!	!	!	!	!	!
 8.BB-X^/Lyy	.	8.BB-X^</L	.	12B-X^>/L	.	8.f#/L	.	12dd^>\L	.	.	.	.	.	.	.	.	.
 .	.	.	.	12A/	.	.	.	12cc\	.	.	.	.	.	.	.	.	.
 .	.	.	.	12G/J	.	.	.	12b-X\J	.	.	.	.	.	.	.	.	.
@@ -135,7 +135,7 @@
 .	.	.	.	.	.	16f#/Jk	.	16ff#\Jk	.	.	.	.	.	.	.	.
 *	*	*Xtuplet	*	*	*	*rep	*	*	*	*	*	*Xtuplet	*	*Xtuplet	*	*
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=col Cb.	!	!	!	!
-!LO:TUP:a:problem:klamra łukowa	!	!LO:TUP:problem:klamra łukowa	!	!LO:TUP:problem:klamra łukowa	!	!LO:SIC:v:s:t=8.fn	!	!	!	!	!	!LO:TUP:problem:klamra łukowa	!	!LO:TUP:problem:klamra łukowa	!	!
+!LO:TUP:a:problem=klamra łukowa	!	!LO:TUP:problem=klamra łukowa	!	!LO:TUP:problem=klamra łukowa	!	!LO:SIC:v:s:t=8.fn	!	!	!	!	!	!LO:TUP:problem=klamra łukowa	!	!LO:TUP:problem=klamra łukowa	!	!
 12B-X\L	.	12d^>\L	.	12B-X^>/L	.	8.f#/L	.	8.dd^>\L	.	.	.	12b-X\Lyy	.	12dd^>/L	.	.
 12A\	.	12c\	.	12A/	.	.	.	.	.	.	.	12a\yy	.	12cc/	.	.
 12G\J	.	12B-X\J	.	12G/J	.	.	.	.	.	.	.	12g\Jyy	.	12b-X/J	.	.
@@ -150,7 +150,7 @@
 .	.	.	.	.	.	16f#/Jk	.	16ff#\Jk	.	.	.	.	.	.	.	.
 *	*	*	*	*	*	*Xrep	*	*	*	*	*	*Xtuplet	*	*	*	*
 *Xtuplet	*	*	*	*	*	*rep	*	*	*	*	*	*	*	*	*	*
-!LO:TUP:problem:klamra łukowa	!	!LO:TUP:problem:klamra łukowa	!	!LO:TUP:problem:klamra łukowa	!	!LO:SIC:v:s:t=8.fn	!	!	!	!	!	!LO:TUP:a:problem:klamra łukową	!	!	!	!
+!LO:TUP:problem=klamra łukowa	!	!LO:TUP:problem=klamra łukowa	!	!LO:TUP:problem=klamra łukowa	!	!LO:SIC:v:s:t=8.fn	!	!	!	!	!	!LO:TUP:a:problem=klamra łukową	!	!	!	!
 12B-\L	.	12d\L	.	12B-^>/L	.	8.f#/L	.	8.dd^>\L	.	.	.	12b-\Lyy	.	12dd/L	.	.
 12A\	.	12c\	.	12A/	.	.	.	.	.	.	.	12a\yy	.	12cc/	.	.
 12G\J	.	12B-\J	.	12G/J	.	.	.	.	.	.	.	12g\Jyy	.	12b-/J	.	.
@@ -231,8 +231,8 @@
 =14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:CL:ed	!
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*clefF4	*
-!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:w taktach 14-18 fag zapisany na partii cl	!	!LO:TX:a:t=Fagotto:note=podkreślone na czerwono	!
-!	!	!	!	!	!	!	!	!LO:TX:a:t=(x)	!	!	!	!LO:TX:b:t=Clar:note=podkreślone na czerwono	!	!LO:TX:t=P:problem:w taktach 14-18 cl zapisany na partii fag	!
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=w taktach 14-18 fag zapisany na partii cl	!	!LO:TX:a:t=Fagotto:note=podkreślone na czerwono	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=(x)	!	!	!	!LO:TX:b:t=Clar:note=podkreślone na czerwono	!	!LO:TX:t=P:problem=w taktach 14-18 cl zapisany na partii fag	!
 4..C/	.	4..C/	.	4..E/	.	[<2G/	.	8.A/L	.	1ryy	.	1r	.	4..E\	.
 .	.	.	.	.	.	.	.	16B/K	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	8.c/	.	.	.	.	.	.	.
@@ -254,7 +254,7 @@
 8ryy	.	4r	.	4r	.	4r	.	4ryy	.	.	.	[>2g/	.	[>2G\	.
 8ryy	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *	*	*	*	*	*	*Xtuplet	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!LO:TUP:problem:klamra łukowa	!LO:DY:rj	!LO:TUP:problem:klamra łukowa	!LO:DY:rj	!	!	!	!	!	!
+!	!	!	!	!	!	!LO:TUP:problem=klamra łukowa	!LO:DY:rj	!LO:TUP:problem=klamra łukowa	!LO:DY:rj	!	!	!	!	!	!
 8.C\L	.	8.C/L	.	8.G/L	.	12c/L	pp	12e/L	pp	.	.	.	.	.	.
 .	.	.	.	.	.	12B/	.	12d/	.	.	.	.	.	.	.
 .	.	.	.	.	.	12A/J	.	12c/J	.	.	.	.	.	.	.
@@ -265,7 +265,7 @@
 4r	.	4r	.	4r	.	4r	.	4r	.	.	.	8.B/L	.	8.BB/L	.
 .	.	.	.	.	.	.	.	.	.	.	.	16B/Jk	.	16BB/Jk	.
 4r	.	4r	.	4r	.	2r	.	4ryy	.	.	.	[<2d/	.	[>2D/	.
-!	!	!	!	!	!	!	!	!LO:TUP:problem:klamra łukowa	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TUP:problem=klamra łukowa	!	!	!	!	!	!	!
 (>4D\	.	8.AA/L	.	(<4F#/	.	.	.	12c/L	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	12B/	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	12A/J	.	.	.	.	.	.	.
@@ -286,8 +286,8 @@
 *k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 *met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*
-!	!	!LO:TX:t=P:problem:klucze i znaki przykluczowe w wiolonczeli i altówce dopisane są na niebiesko	!	!	!	!	!	!LO:TX:t=P:problem:partie skrzypiec 1,2 oraz altówki i wiolonczeli połączone są klamrą	!	!	!	!	!	!	!
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:pp(ianissimo)=pp.	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=klucze i znaki przykluczowe w wiolonczeli i altówce dopisane są na niebiesko	!	!	!	!	!	!LO:TX:t=P:problem=partie skrzypiec 1,2 oraz altówki i wiolonczeli połączone są klamrą	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:pp(ianissimo)=pp.:problem	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!LO:TX:a:t=Lento:color=blue	!	!	!	!	!	!	!
 !	!	!	!	!	!LO:DY:rj:color=blue	!	!LO:DY:rj:color=blue	!LO:TX:a:t=Nº1.b&colon;)	!LO:DY:rj	!	!	!	!	!	!
 1ryy	.	(>4B\	pp	(>4f#\	pp	(<4d/	pp	(>4b\	pp	1ryy	.	1ryy	.	1ryy	.

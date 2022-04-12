@@ -33,8 +33,8 @@
 *all\right	*all\right	*	*all\right	*	*	*all\right	*	*	*all\right	*	*	*all\right	*	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 !LO:TX:a:t=33:color=red	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:b:t=42:rj	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:nazwy partii kolorem niebieskim	!	!
-!LO:TX:b:t=37:color=dodgerblue:rj	!LO:TX:t=P:problem:przy kluczu f# cc# g#	!	!	!	!	!LO:TX:t=P:problem:przy kluczu f# cc# g#	!	!	!LO:TX:t=P:problem:przy kluczu f# cc# g#	!	!	!LO:TX:t=P:problem:przy kluczu f# cc# g#	!	!
+!LO:TX:b:t=42:rj	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=nazwy partii kolorem niebieskim	!	!
+!LO:TX:b:t=37:color=dodgerblue:rj	!LO:TX:t=P:problem=przy kluczu f# cc# g#	!	!	!	!	!LO:TX:t=P:problem=przy kluczu f# cc# g#	!	!	!LO:TX:t=P:problem=przy kluczu f# cc# g#	!	!	!LO:TX:t=P:problem=przy kluczu f# cc# g#	!	!
 4AA/	4ee 4a\	.	1r	.	.	1r	.	.	1r	.	.	1r	.	.
 4c# 4E\	8eeL 8a\	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	8eeJ 8a\	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -67,13 +67,13 @@
 *	*	*	*	*	*	*	*^	*	*	*	*	*	*^	*	*
 *rep	*	*	*	*	*	*	*2\right	*	*	*	*	*	*	*2\right	*	*	*
 !LO:TX:b:t=60:rj	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[segno]:problem:znak segno na kresce taktowej	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[segno]:problem=znak segno na kresce taktowej	!	!	!
 4AA/	8ee/L	4a\	.	1ryy	.	.	2.e\	2.ryy	.	.	1ryy	.	.	2.ee\	2.ryy	nie-	.
 .	8dd/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 4c# 4E\	8cc#/	8a\L	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	8dd/J	8a\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 4AA/	(<4.ee/	2a\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:triola przy powtórce (na marginesie "za powtorzeniem")	!	!	!	!	!	!	!LO:TX:t=P:problem:triola przy powtórce (na marginesie "za powtorzeniem")	!	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=triola przy powtórce (na marginesie "za powtorzeniem")	!	!	!	!	!	!	!LO:TX:t=P:problem=triola przy powtórce (na marginesie "za powtorzeniem")	!	!
 !	!	!	!	!	!	!	!	!LO:TX:t=X:color=dodgerblue	!	!	!	!	!	!LO:TX:t=X:color=dodgerblue	!	!	!
 4c# 4E\	.	.	.	.	.	.	4c#\	12d\L@	.	.	.	.	.	4cc#\	12dd\L@	.	.
 .	.	.	.	.	.	.	.	12c#\	.	.	.	.	.	.	12cc#\	.	.
@@ -100,7 +100,7 @@
 4c# 4E\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 4AA/	8ccc#/)	8ee\)	.	4r	.	.	4A/	.	.	4r	.	.	4a/	-mi	.
 .	8r	8ryy	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!LO:DY:a	!LO:TX:t=P:problem:brak pauzy 4r	!	!	!	!	!LO:DY:a:rj	!	!	!
+!	!	!	!	!	!	!LO:DY:a	!LO:TX:t=P:problem=brak pauzy 4r	!	!	!	!	!LO:DY:a:rj	!	!	!
 4c# 4E\	8ee/L	4r	.	4E\	.	p	4ryy	.	.	4e/	ot-	p	4r	.	.
 .	8ff#/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7
@@ -368,7 +368,7 @@
 4e 4c# 4A\	.	4ryy	.	8AA/	.	.	4A\	.	.	4A/	.	.	4a/	-je.	.
 .	.	.	.	8r	.	.	.	.	.	.	.	.	.	.	.
 *Xhead	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!LO:TX:t=P:problem:brak pauzy 4r	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TX:t=P:problem=brak pauzy 4r	!	!	!	!	!	!	!	!
 4A 4AA/	8.ff#/L	4dd#X 4b#X\	.	4A\	Od	.	4ryy	.	.	4r	.	.	4r	.	.
 .	16aa/Jk	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31
@@ -490,7 +490,7 @@
 *Xhead	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 =42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42
 !LO:TX:b:t=41:color=dodgerblue:rj	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:b:t=58:color=red:rj	!	!LO:S:s=1:note:problem:note-level slur	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=58:color=red:rj	!	!LO:S:s=1:note:problem=note-level slur	!	!	!	!	!	!	!	!	!	!	!	!	!
 4A 4AA/	2.cccn/	(>4ffn\	.	2A\	.	.	2cn\	cno-	.	2a/	cno-	.	2ccn\	cno-	.
 8cnL 8A\	.	8ee\L	.	.	.	.	.	.	.	.	.	.	.	.	.
 8cJ 8A\	.	8dd#X\J	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -659,7 +659,7 @@
 8EL 8C# 8AA 8EE/	(8cc#L 8a\	.	.	.	.	.	.	.	.	.	.	.	.	.
 *head:invis	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 8EJ 8C# 8AA 8EE/	8ee\J	.	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:t=P:problem:brak caudy	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=brak caudy	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4E 4C# 4AA 4EE/	4aa 4cc#\)	.	4A\	.	.	4A/	.	.	4a/	.	.	4a/	niech	.
 8EL 8C# 8AA 8EE/	(8eeL 8cc#\	.	4A\	.	.	4A/	.	.	4a/	.	.	4a/	pro-	.
 !	!LO:TX:b:t=90:color=red	!	!	!	!	!	!	!	!	!	!	!	!	!
@@ -690,10 +690,10 @@
 4c# 4A 4F# 4E\	4ff#] 4ee 4cc# 4e/	.	4c#\]	2ryy	.	.	4f#/]	4e\]	.	.	4a/]	.	.	4ff#\]	.	.
 !	!	!	!LO:TX:a:t=X:color=dodgerblue	!	!	!	!	!	!	!	!LO:TX:a:t=X:color=dodgerblue	!	!	!	!	!
 4c# 4A#X 4F##X 4E\	4ee 4cc# 4e/	.	4E\@	.	.	.	4e/	4e\	.	.	4g#/@	.	.	4ee\)	-ni	.
-!	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!	!	!	!	!	!	!	!	!	!
 4B 4G# 4E\	4.dd 4.b 4.d/	.	4.E/	4.E\	.	.	4.B/	4.B\	.	.	4.g#/	.	.	4.dd\	łask	.
 4d 4G# 4E\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!	!	!	!	!	!	!	!	!	!
 .	8b 8e/	.	8E/	8E\	.	.	8B/	8B\	.	.	8g#/	.	.	8b\	swych	.
 !LO:TX:b:t=fine	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=Fine.:color=grey	!	!
 *	*	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*
@@ -703,13 +703,13 @@
 !LO:TX:b:t=43:rj:color=dodgerblue	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4c# 4A\	4a 4e/	.	[1A	.	.	[1c#	.	.	[1a	.	.	[1ee	zdro-	.
 *	*tuplet	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!	!	!	!
 4c# 4A 4E\	12cc#\L	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	12a\	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	12cc#\J	.	.	.	.	.	.	.	.	.	.	.	.	.
 4A 4AA\	4ee\	.	.	.	.	.	.	.	.	.	.	.	.	.
 *	*Xtuplet	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!	!	!	!
 4c# 4A 4E\	12cc#\L	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	12ee\	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	12aa\J	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -739,7 +739,7 @@
 !!LO:LB:g=original
 =66||	=66||	=66||	=66||	=66||	=66||	=66||	=66||	=66||	=66||	=66||	=66||	=66||	=66||	=66||
 *k[f#c#]	*k[f#c#]	*	*k[f#c#]	*	*	*k[f#c#]	*	*	*k[f#c#]	*	*	*k[f#c#]	*	*
-!	!LO:TX:t=P:problem:przy kluczu gn f# cc#	!	!	!	!	!LO:TX:t=P:problem:przy kluczu gn f# cc#	!	!	!LO:TX:t=P:problem:przy kluczu gn f# cc#	!	!	!LO:TX:t=P:problem:przy kluczu gn f# cc#	!	!
+!	!LO:TX:t=P:problem=przy kluczu gn f# cc#	!	!	!	!	!LO:TX:t=P:problem=przy kluczu gn f# cc#	!	!	!LO:TX:t=P:problem=przy kluczu gn f# cc#	!	!	!LO:TX:t=P:problem=przy kluczu gn f# cc#	!	!
 4.F#\	4.f#/	.	4.F#\	-pa-	.	1r	.	.	1r	.	.	1r	.	.
 8F#\	8f#/	.	8F#\	-lam	.	.	.	.	.	.	.	.	.	.
 4.A\	4.a/	.	4.A\	z_won-	.	.	.	.	.	.	.	.	.	.
@@ -777,9 +777,9 @@
 *	*	*	*	*	*	*^	*	*	*	*	*	*	*	*
 !LO:TX:b:t=44:color=dodgerblue:rj	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4A 4E\	4ccc# 4aaT\	.	4c#\	.	.	4e\	4ryy	go-	.	1r	.	.	1r	.	.
-!LO:TX:t=P:problem:dot.color=dodgerblue	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=X:color=dodgerblue	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!	!	!	!	!	!
+!LO:TX:t=P:dot.color=dodgerblue:problem	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=X:color=dodgerblue	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!	!	!	!	!	!
 8.eL 8.E\	8.bbL 8.gg#X\	.	8.B\L	.	.	4e/	8.d\L	-dło	.	.	.	.	.	.	.
-!LO:TX:t=P:problem:stem.color=dodgerblue	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!	!	!	!	!	!
+!LO:TX:t=P:stem.color=dodgerblue:problem	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!	!	!	!	!	!
 16eJ 16E\	16ccc#J 16aa\	.	16A\Jk	.	.	.	16c#\Jk	.	.	.	.	.	.	.	.
 4e 4E\	4ddd 4bb\	.	4G#X\	.	.	4e/	4B\	ich	.	.	.	.	.	.	.
 4E 4EE/	4gg# 4ee 4b\	.	4E\	.	.	4e\	4ryy	og-	.	.	.	.	.	.	.
@@ -792,7 +792,7 @@
 .	16cc#\	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	16ee\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 4A 4AA/	4a/	.	4A\	.	.	4A/	4A\	-ska,	.	.	.	.	4r	.	.
-!	!	!	!LO:TX:t=P:problem:brak pauzy 4r	!	!	!LO:TX:a:t=dolce	!	!	!	!	!	!	!LO:TX:a:t=dolce	!	!
+!	!	!	!LO:TX:t=P:problem=brak pauzy 4r	!	!	!LO:TX:a:t=dolce	!	!	!	!	!	!	!LO:TX:a:t=dolce	!	!
 4r	8a/L	p	4ryy	.	.	8A/	4ryy	Nie-	.	.	.	.	8a/	Nie-	.
 .	8b/J	.	.	.	.	8B/	.	-chaj	.	.	.	.	8b/	-chaj	.
 *	*	*	*	*	*	*v	*v	*	*	*	*	*	*	*	*
@@ -878,7 +878,7 @@
 .	.	16dd/Jk	.	.	.	.	.	.	.	.	.	.	.	.	.
 4F# 4FF#/	2ryy	4a/	.	4A\	.	.	8A/	.	.	8a/	.	.	8a/	-nie	.
 .	.	.	.	.	.	.	8r	.	.	8r	.	.	8r	.	.
-!	!	!	!	!LO:TX:t=P:problem:brak pauzy 4r	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=brak pauzy 4r	!	!	!	!	!	!	!	!	!	!	!
 4d 4A 4F#\	.	8.a/L	.	4ryy	.	.	8A/	.	.	4r	.	.	8a/	Nie-	.
 .	.	.	.	.	.	.	8B/	.	.	.	.	.	8b/	-chaj	.
 .	.	16b/Jk	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -886,9 +886,9 @@
 =82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82
 *	*^	*	*	*	*	*	*	*	*	*	*	*	*	*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*ij	*
-!	!LO:TX:t=P:problem:tt. nr 82-85 zapisane odnośnikiem "T = U" (tt. nr 74-77)	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:TX:t=P:problem=tt. nr 82-85 zapisane odnośnikiem "T = U" (tt. nr 74-77)	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 !	!LO:TX:b:t=T=:color=red	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:a:t=T=:color=red	!LO:TX:a:t=A=:color=red:rj	!	!	!LO:TX:t=P:problem:tt. nr 82-85 zapisane odnośnikiem "come sopra T=U" (tt. nr 74-77)	!	!	!LO:TX:t=P:problem:tt. nr 82-85 zapisane odnośnikiem "come sopra T=U" (tt. nr 74-77)	!	!	!LO:TX:t=P:problem:tt. nr 82-85 zapisane odnośnikiem "come sopra T=U" (tt. nr 74-77)	!	!	!	!	!
+!LO:TX:a:t=T=:color=red	!LO:TX:a:t=A=:color=red:rj	!	!	!LO:TX:t=P:problem=tt. nr 82-85 zapisane odnośnikiem "come sopra T=U" (tt. nr 74-77)	!	!	!LO:TX:t=P:problem=tt. nr 82-85 zapisane odnośnikiem "come sopra T=U" (tt. nr 74-77)	!	!	!LO:TX:t=P:problem=tt. nr 82-85 zapisane odnośnikiem "come sopra T=U" (tt. nr 74-77)	!	!	!	!	!
 4Gyy 4GG'/yy	2cc#/	4ryy	.	4ryy	.	.	2c#\yy	w_sło-	.	4ryy	.	.	2cc#\	w_sło-	.
 4Ayy 4AA'/yy	.	8aLyy 8e\yy	.	8A\yy	.	.	.	.	.	8e/yy	Nie-	.	.	.	.
 .	.	8aJyy 8e\yy	.	8A\yy	.	.	.	.	.	8e/yy	-chaj	.	.	.	.
@@ -929,7 +929,7 @@
 8BJyy 8E\yy	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!LO:TX:b:t==U:color=red	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4eyy 4Byy 4E\yy	4gg/	4byy 4g\)yy	.	8E\	.	.	8g/	8B\	.	.	8e/	.	.	8b\	-nią	.
-!	!	!	!	!LO:TX:t=P:problem:brak pauzy 8r	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=brak pauzy 8r	!	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	.	8ryy	.	.	8r	8ryy	.	.	8r	.	.	8r	.	f
 *	*8va	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 !	!	!	!	!	!	!	!	!	!	!LO:DY:a:rj	!	!	!LO:DY:a	!	!	!
@@ -1051,7 +1051,7 @@
 .	.	16cc#\LL	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	16b\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.
 8f#/	8A\)	8a/)	.	4r	.	.	8A/	.	.	4r	.	.	8a/	-ła	.
-!	!	!LO:TX:t=P:problem:brak pauzy 8r	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=brak pauzy 8r	!	!	!	!	!	!	!	!	!	!	!	!	!
 8r	8ryy	8ryy	.	.	.	.	8r	.	.	.	.	.	8r	.	.
 4c#@ 4F#\	4ryy	4ff# 4a/	.	4F#\	.	.	4c#\@	.	.	4a/	.	.	4ff#\	roz-	.
 *v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -1102,20 +1102,20 @@
 .	8r	.	8.r	.	.	8.r	.	.	8.r	.	.	8.r	.	.
 !	!	!LO:DY:rj	!	!	!	!	!	!	!	!	!	!	!	!
 8D 8AA 8DD/	8aa 8ff# 8dd 8a\	ff	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:początek repetycji kolorem niebieskim we wszystkich partiach	!	!
-!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!
-!	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!LO:DY:a:rj	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!LO:DY:a:rj	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!LO:DY:a:rj	!LO:TX:a:B:t=G:color=red:note=obwiedziona kolorem niebieskim	!	!LO:DY:a:rj
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=początek repetycji kolorem niebieskim we wszystkich partiach	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!
+!	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!LO:DY:a:rj	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!LO:DY:a:rj	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!LO:DY:a:rj	!LO:TX:a:B:t=G:color=red:note=obwiedziona kolorem niebieskim	!	!LO:DY:a:rj
 .	.	.	16d\	.	ff	16f#\	.	ff	16a/	.	ff	16ff#\	Niech	ff
 =106!|:	=106!|:	=106!|:	=106!|:	=106!|:	=106!|:	=106!|:	=106!|:	=106!|:	=106!|:	=106!|:	=106!|:	=106!|:	=106!|:	=106!|:
 *>D	*>D	*	*>D	*	*	*>D	*	*	*>D	*	*	*>D	*	*
-!LO:N:vis=4.	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!
+!LO:N:vis=4.	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!
 4..D 4..AA 4..DD/	4..aa 4..ff# 4..dd 4..a\	.	4..d\	.	.	4..f#\	.	.	4..a/	.	.	4..ff#\	złe-	.
 *head:invis	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:stem.color=dodgerblue	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!
+!LO:TX:t=P:stem.color=dodgerblue:problem	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!
 16D 16AA 16DD/	16ff# 16dd 16a 16f#\	.	16d\	.	.	16f#\	.	.	16a/	.	.	16ff#\	-go	.
-!LO:N:vis=4.	!LO:N:vis=4.	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!
+!LO:N:vis=4.	!LO:N:vis=4.	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!
 4..D 4..AA 4..DD/	4..ff# 4..dd 4..a 4..f#\	.	4..d\	.	.	4..f#\	.	.	4..a/	.	.	4..ff#\	moc	.
-!LO:N:vis=8	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!
+!LO:N:vis=8	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!
 16D 16AA 16DD/	16dd 16a 16f# 16d/	.	16d\	.	.	16f#\	.	.	16a/	.	.	16dd\	prze-	.
 *Xhead	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 =107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107
@@ -1144,16 +1144,16 @@
 4G 4E\	4bb 4gg\	.	4E\	.	.	4e\	.	.	4b/	.	.	4gg\	w_dym,	.
 8r	8r	.	8.r	.	.	8.r	.	.	8.r	.	.	8.r	.	.
 8d 8B 8G 8E\	8ddd 8bb 8gg 8ee 8ddny\	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!
+!	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!
 .	.	.	16d\	.	.	16e\	.	.	16b\	.	.	16ee\	niech	.
 =110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110
-!LO:TX:t=P:problem:dot.color=dodgerblue	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!
+!LO:TX:t=P:dot.color=dodgerblue:problem	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!
 4..d 4..B 4..G 4..E\	4..ddd 4..bb 4..gg 4..ee 4..dd\	.	4..d^\	.	.	4..e^\	.	.	4..b^\	.	.	4..gg^\	wa-	.
-!LO:TX:t=P:problem:stem.color=dodgerblue	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!
+!LO:TX:t=P:stem.color=dodgerblue:problem	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!
 16d 16B 16G 16E\	16bb 16gg 16ee 16dd\	.	16d\	.	.	16e\	.	.	16g/	.	.	16ee\	-sze	.
-!LO:TX:t=P:problem:dot.color=dodgerblue	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!	!LO:TX:t=P:problem:dot.color=dodgerblue	!	!
+!LO:TX:t=P:dot.color=dodgerblue:problem	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!	!LO:TX:t=P:dot.color=dodgerblue:problem	!	!
 4..d 4..B 4..G 4..E\	4..bb 4..gg 4..ee 4..dd\	.	4..d^\	.	.	4..e^\	.	.	4..g^/	.	.	4..ee^\	ja-	.
-!LO:N:vis=8	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!	!LO:TX:t=P:problem:stem.color=dodgerblue	!	!
+!LO:N:vis=8	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!	!LO:TX:t=P:stem.color=dodgerblue:problem	!	!
 16d 16B 16G 16E\	16gg 16ee 16cc# 16b\	.	16d\	.	.	16e\	.	.	16g/	.	.	16ee\	-sne	.
 !!LO:PB:g=original
 =111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111	=111
@@ -1268,7 +1268,7 @@
 .	.	16b/JJ	.	.	.	.	.	.	.	.	.	.	.	.	.
 4F#yy 4FF#/yy	2ryyyy	4a/	.	4A\yy	.	.	8A/yy	.	.	8a/yy	.	.	8a/yy	-nie	.
 .	.	.	.	.	.	.	8ryy	.	.	8ryy	.	.	8ryy	.	.
-!	!	!	!	!LO:TX:t=P:problem:brak pauzy 4r	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=brak pauzy 4r	!	!	!	!	!	!	!	!	!	!	!
 4dyy 4Ayy 4F#\yy	.	8.a/L	.	4ryyyy	.	.	8A/yy	.	.	4ryy	.	.	8a/yy	Nie-	.
 .	.	.	.	.	.	.	8B/yy	.	.	.	.	.	8b/yy	-chaj	.
 .	.	16b/Jk	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1276,9 +1276,9 @@
 =122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122	=122
 *	*^	*	*	*	*	*	*	*	*	*	*	*	*	*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*ij	*
-!	!LO:TX:t=P:problem:tt. nr 122-125 zapisane odnośnikiem "come sopra T=U" (tt. nr 114-117)	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:TX:t=P:problem=tt. nr 122-125 zapisane odnośnikiem "come sopra T=U" (tt. nr 114-117)	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 !	!LO:TX:b:t=T=:color=red	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:a:t=T=:color=red	!LO:TX:a:t=A=:color=red:rj	!	!	!LO:TX:t=P:problem:tt. nr 122-125 zapisane odnośnikiem "come sopra T=U" (tt. nr 114-117)	!	!	!LO:TX:t=P:problem:tt. nr 122-125 zapisane odnośnikiem "come sopra T=U" (tt. nr 114-117)	!	!	!LO:TX:t=P:problem:tt. nr 122-125 zapisane odnośnikiem "come sopra T=U" (tt. nr 114-117)	!	!	!	!	!
+!LO:TX:a:t=T=:color=red	!LO:TX:a:t=A=:color=red:rj	!	!	!LO:TX:t=P:problem=tt. nr 122-125 zapisane odnośnikiem "come sopra T=U" (tt. nr 114-117)	!	!	!LO:TX:t=P:problem=tt. nr 122-125 zapisane odnośnikiem "come sopra T=U" (tt. nr 114-117)	!	!	!LO:TX:t=P:problem=tt. nr 122-125 zapisane odnośnikiem "come sopra T=U" (tt. nr 114-117)	!	!	!	!	!
 4Gyy 4GG'/yyyy	2cc#/	4ryyyy	.	4ryyyy	.	.	2c#\yyyy	w_sło-	.	4ryyyy	.	.	2cc#\yy	w_sło-	.
 4Ayy 4AA'/yyyy	.	8aLyy 8e\yyyy	.	8A\yyyy	.	.	.	.	.	8e/yyyy	Nie-	.	.	.	.
 .	.	8aJyy 8e\yyyy	.	8A\yyyy	.	.	.	.	.	8e/yyyy	-chaj	.	.	.	.
@@ -1319,7 +1319,7 @@
 8BJyy 8E\yyyy	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!LO:TX:b:t==U:color=red	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4eyy 4Byy 4E\yyyy	4gg/	4byy 4g\)yyyy	.	8E\yy	.	.	8g/yy	8B\yy	.	.	8e/yy	.	.	8b\yy	-nią	.
-!	!	!	!	!LO:TX:t=P:problem:brak pauzy 8r	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=brak pauzy 8r	!	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	.	8ryyyy	.	.	8ryy	8ryyyy	.	.	8ryy	.	.	8ryy	.	f
 *	*8va	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 !	!	!	!	!	!	!	!	!	!	!LO:DY:a:rj	!	!	!LO:DY:a	!	!	!
@@ -1460,7 +1460,7 @@
 4D\	2aa 2ff# 2dd\	.	2B\	.	.	2r	.	.	2b\	zie-	.	2r	.	.
 8f#L 8d\	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8f#J 8d\	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!LO:TX:b:i:t=180:color=red:rj	!	!	!	!	!LO:TX:t=P:problem:brak pauzy 4r	!	!	!	!	!	!	!	!
+!	!LO:TX:b:i:t=180:color=red:rj	!	!	!	!	!LO:TX:t=P:problem=brak pauzy 4r	!	!	!	!	!	!	!	!
 4D\	4fff# 4ff#\)	.	4BB/	.	.	4ryy	.	.	4B/	-mi	.	4r	.	.
 *	*	*	*	*	*	*	*ij	*	*	*ij	*	*	*	*
 4f# 4B 4A\	4r	.	4B\	.	.	4B\	o-	.	4B/	o-	.	4b/	o-	.
@@ -1551,19 +1551,19 @@
 =147	=147	=147	=147	=147	=147	=147	=147	=147	=147	=147	=147	=147	=147	=147
 *k[f#c#g#]	*k[f#c#g#]	*	*k[f#c#g#]	*	*	*k[f#c#g#]	*	*	*k[f#c#g#]	*	*	*k[f#c#]	*	*
 *	*^	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!LO:TX:t=P:problem:przy kluczu f# cc# g#	!	!	!	!	!	!LO:TX:t=P:problem:przy kluczu F# c# G#	!	!	!LO:TX:t=P:problem:przy kluczu f# cc# g#	!	!	!LO:TX:t=P:problem:przy kluczu błędnie f# cc#	!	!
+!	!LO:TX:t=P:problem=przy kluczu f# cc# g#	!	!	!	!	!	!LO:TX:t=P:problem=przy kluczu F# c# G#	!	!	!LO:TX:t=P:problem=przy kluczu f# cc# g#	!	!	!LO:TX:t=P:problem=przy kluczu błędnie f# cc#	!	!
 4AA'/	4ee 4a\	2ryy	fp	1ryy	.	.	2A/	świat-	.	1r	.	.	2a/	świat-	.
 4c# 4E'\	8eeL 8a\	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	8eeJ 8a\	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 4AA'/	4.ee/	2a\	.	.	.	.	4c#\	-łość	.	.	.	.	4cc#\	-łość	.
 4c# 4E'\	.	.	.	.	.	.	4c#\	na	.	.	.	.	4cc#\	na	.
 .	8ff#/	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=pag. 1=5 bis Fine\nnach<...>&colon; Coda.:color=dodgerblue	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[segno]:problem:znak segno na kresce taktowej	!	!
+!LO:TX:a:t=pag. 1=5 bis Fine\nnach<...>&colon; Coda.:color=dodgerblue	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=[segno]:problem=znak segno na kresce taktowej	!	!
 !LO:TX:b:t=DS. al fine.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 *	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*
 !!LO:PB:g=original
 =148||	=148||	=148||	=148||	=148||	=148||	=148||	=148||	=148||	=148||	=148||	=148||	=148||	=148||	=148||
-!	!LO:TX:a:t=P:problem:skan 0033-0034 dopisany fragment vide w tt. 148-159	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:TX:a:t=P:problem=skan 0033-0034 dopisany fragment vide w tt. 148-159	!	!	!	!	!	!	!	!	!	!	!	!	!
 4B 4E 4D\	8.ee\L	.	1ryy	.	.	1ryy	.	.	1ryy	.	.	1ryy	.	.
 .	16ff#\Jk	.	.	.	.	.	.	.	.	.	.	.	.	.
 *	*rep	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -1679,7 +1679,7 @@
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=Coda.:rj	!	!
 4AA/	4ryy	.	4A\	.	.	4A/	.	.	4a/	.	.	4a/	zdroj.	.
 *	*tuplet	*	*	*	*	*	*	*	*	*	*	*	*	*
-!LO:TX:b:t=O=:color=red	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=O=:color=red	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!	!	!	!
 4f# 4A 4F#\	12aa\L	.	4r	.	.	4r	.	.	4r	.	.	4r	.	.
 .	12bb\	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	12aa\J	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1700,8 +1700,8 @@
 =162	=162	=162	=162	=162	=162	=162	=162	=162	=162	=162	=162	=162	=162	=162
 4A 4E 4C# 4AA\	8eee 8ccc#'\)	.	4E\	.	.	4e\	.	.	4e/	.	.	4ee\	bo-	.
 .	8r	.	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:t=P:problem:tt. nr 162-163 zapisane odnośnikiem "O= =P" (tt. nr 160-161)	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=tt. nr 162-163 zapisane odnośnikiem "O= =P" (tt. nr 160-161)	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!	!	!	!
 4f#yy 4Ayy 4F#\yy	12aa\L	.	4A\	.	.	4A/	.	.	4a/	.	.	4a/	-gów	.
 .	12bb\	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	12aa\J	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1729,7 +1729,7 @@
 2G#X 2GG#X^^\	2ffn 2ddn 2bTT\	.	2d^^\	.	.	2f#^^\	.	.	2dd^^\	.	.	2ff#^^\	-bra-	.
 =165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165	=165
 4A 4AA|	4ee 4cc#\	.	8A\	.	.	8e\	.	.	8cc#\	.	.	8ee\	-ny,	.
-!	!	!	!LO:TX:t=P:problem:rytm	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:t=P:rytm:problem	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	8r	.	.	8r	.	.	8r	.	.	8r	.	.
 4E 4AA|>	8.ddL 8.b\	.	4A\	.	.	4A\	.	.	4a\	.	.	4a\	sła-	.
 !	!LO:SIC:v:n=2:s=16ccn\	!	!	!	!	!	!	!	!	!	!	!	!	!
@@ -1752,7 +1752,7 @@
 !	!	!	!	!LO:SIC:v:s=4cn\	!	!	!	!	!	!LO:SIC:v:s=4ccn\	!	!	!	!	!
 4cn 4C\	8.ff#XL 8.ee\	.	.	4c#\	.	.	4e\	.	.	4cc#\	.	.	4ee\	wdzię-	.
 .	16ggnJk 16ee\	.	.	.	.	.	.	.	.	.	.	.	.	.	.
-!	!	!LO:S:s=1:note:problem:note-level slur	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!LO:S:s=1:note:problem=note-level slur	!	!	!	!	!	!	!	!	!	!	!	!	!
 4B 4BB^^/	2aaTT/	(>4ee\	.	2B^^\	.	.	2B^^\	.	.	2b^^\	.	.	2b^^\	-ka-	.
 4B 4F# 4BB/	.	12dd#X\L)	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	12cc#X\	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1780,7 +1780,7 @@
 4B] 4G# 4E\	8bb 8gg#\)	2ryy	.	4B\	.	.	4B\	.	.	4b\	.	.	4b\	-mi	.
 .	8r	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *	*Xtuplet	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4B 4F# 4BB\	12ddd#XL 12ff#\	.	.	4B\	.	.	4B\	.	.	4b\	.	.	4b\	i	.
 .	12ccc\	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	12bb\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1802,7 +1802,7 @@
 16B\Jk	16b/Jk	.	.	.	.	.	.	.	.	.	.	.	.	.
 !!LO:PB:g=original
 =172	=172	=172	=172	=172	=172	=172	=172	=172	=172	=172	=172	=172	=172	=172
-!	!	!	!	!	!	!LO:TX:a:t=P:problem:brak zakończenia ligatury	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=brak zakończenia ligatury	!	!	!	!	!	!	!	!
 4cn\	4ccn\	.	1r	.	.	4e\]	-[ty]	.	1r	.	.	4ee\	-[ty]	.
 8.B\L	8.b\L	.	.	.	.	4r	.	.	.	.	.	4r	.	.
 16c\Jk	16cc\Jk	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1891,7 +1891,7 @@
 .	16ff#/Jk	.	16F#\	.	.	16F#/yy	-chaj	.	16f#/yy	-chaj	.	16f#/	-chaj	.
 =182	=182	=182	=182	=182	=182	=182	=182	=182	=182	=182	=182	=182	=182	=182
 *	*^	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!LO:TX:t=P:problem:tt. nr 182-184 zapisane odnośnikiem "R=" (tt. nr 174-176)	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:TX:t=P:problem=tt. nr 182-184 zapisane odnośnikiem "R=" (tt. nr 174-176)	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 !	!LO:TX:b:t=dolc.	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 !	!LO:TX:b:t=R=:color=red	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4Dyy 4DD/yy	2gg#/	4ryy	.	2G#\	.	.	2G#/yy	w_sło-	.	2g#/yy	w_sło-	.	2g#/	w_sło-	.
@@ -1983,7 +1983,7 @@
 2e 2c#\	2gg# 2cc#tt\	.	4.c#^\	.	.	4.e^\	.	.	4.cc#^\	-wa-	.	4.ee^\	-wa-	.
 .	.	.	8A\@	.	.	8c#\@	.	.	8a\@	-my	.	8cc#\	-my	.
 8e 8c#\	8aa 8ee 8cc#\	.	8A\	.	.	8c#\	.	.	8a\	was	.	8cc#\	was	.
-!LO:TX:t=P:problem:brak pauzy 8r	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=brak pauzy 8r	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8ryy	8r	.	8r	.	.	8r	.	.	8r	.	.	8r	.	.
 *	*tuplet	*	*	*	*	*	*	*	*	*	*	*	*	*
 !	!LO:TUP:a	!	!LO:ART:color=dodgerblue	!	!	!LO:ART:color=dodgerblue	!	!	!LO:ART:color=dodgerblue	!	!	!LO:ART:color=dodgerblue	!	!

@@ -92,7 +92,7 @@
 *	*	*	*	*	*	*	*	*Xij	*	*Xij	*	*Xij	*	*
 =10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 8A\L	.	.	.	.	8A\	par-	8c#\	par-	8e\	par-	8aa\	par-	2.ryy	2.ryy
 8C#\	.	.	.	.	8c#\	-ce	8c#\	-ce	8e\	-ce	8ee\	-ce	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!	!
@@ -114,7 +114,7 @@
 .	.	.	.	16ccc#\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	16ddd\JJ	.	.	.	.	.	.	.	.	.	.
 =12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!LO:TX:a:t=4	!	!LO:TX:a:t=13	!	!LO:TX:a:t=14	!	!LO:TX:a:t=9	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!LO:TX:a:t=4	!	!LO:TX:a:t=13	!	!LO:TX:a:t=14	!	!LO:TX:a:t=9	!	!	!
 8AA/L	.	.	8r	4.eee\	0.r	.	0.r	.	0.r	.	0.r	.	2.ryy	2.ryy
 8A\	.	.	8e/L 8cc#	.	.	.	.	.	.	.	.	.	.	.
 8A\	.	.	8e/ 8cc#	.	.	.	.	.	.	.	.	.	.	.
@@ -123,7 +123,7 @@
 8E\J	.	.	8e/J 8dd	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	16ddd\Jk	.	.	.	.	.	.	.	.	.	.
 =13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13
-!	!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
 4A\	.	.	4e/ 4cc#	16ccc#\LL	.	.	.	.	.	.	.	.	2.ryy	2.ryy
 .	.	.	.	16a/	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	16b/	.	.	.	.	.	.	.	.	.	.
@@ -137,7 +137,7 @@
 .	.	.	.	16ccc#\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	16ddd\JJ	.	.	.	.	.	.	.	.	.	.
 =14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14
-!LO:TX:t=P:problem:mixed beam	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
 8AA/L	.	.	8r	4.eee\	.	.	.	.	.	.	.	.	2.ryy	2.ryy
 8A\	.	.	8e/L 8cc#	.	.	.	.	.	.	.	.	.	.	.
 8A\	.	.	8e/ 8cc#	.	.	.	.	.	.	.	.	.	.	.
@@ -285,7 +285,7 @@
 .	.	.	.	.	4A\	-ne	4e\	-ne	4a\	-ne	4gg\	-ne	.	.
 =27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27
 *	*	*	*	*	*	*	*	*	*	*ij	*	*	*	*
-!LO:TX:t=P:problem:mixed beam	!	!LO:DY:t=for	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!LO:DY:t=for	!	!	!	!	!	!	!	!	!	!	!	!
 8AA/L	.	f	16cc#\LL	16ee\LL	16F#\LL	Do-	16c#\LL	Do-	8a\	Do-	16ee\LL	Do-	2.ryy	2.ryy
 .	.	.	16b\	16dd\	16E\	.	16B\	.	.	.	16dd\JJ	.	.	.
 8A\J	.	.	16cc#\	16ee\	16F#\	-mi-	16c#\	-mi-	8a\	-mi-	16ee\LL	-mi-	.	.
@@ -351,7 +351,7 @@
 2B\	6\ 3	.	2.r	2.r	2B\	mi-	2d\	-re-	2e\	-re-	2gg#X\	Mi-	2.ryy	2.ryy
 4E\	.	.	.	.	4B\	-se-	4d\	-re	4e\	-re	4gg#\	-se-	.	.
 =37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!
 8AA/L	.	.	2a/	2cc#\	2AA/	-re-	2e\	Mi-	2a\	Mi-	2aa\	-re-	2.ryy	2.ryy
 8A\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -361,7 +361,7 @@
 8A\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *Xtremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 =38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8AA/L	.	.	2fn/	2dd\	2AA/	no-	2d\	-re-	2a\	-re-	2ffn\	Mi-	2.ryy	2.ryy
 8A\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -371,7 +371,7 @@
 8A\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *Xtremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 =39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
 8AA/L	.	.	2d/	2fn/	2.AA/	-bis	2a\	Mi-	2fn\	Mi-	2dd\	-re-	2.ryy	2.ryy
 8A\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -385,7 +385,7 @@
 2A\	.	.	2d/	2f#/	2A\	mi-	2fn\	-re-	2a\	-re-	2dd\	Mi-	2.ryy	2.ryy
 4G\	.	.	4c#/	4e/	4G\	-se-	4c#\	-re	4a\	-re	4cc#\	-se-	.	.
 =41	=41	=41	=41	=41	=41	=41	=41:|!	=41	=41	=41	=41	=41	=41	=41
-!	!	!	!	!	!	!	!LO:TX:t=P:problem:takt zapisany repetycją	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TX:t=P:problem=takt zapisany repetycją	!	!	!	!	!	!	!
 !	!	!	!	!LO:SIC:v:s=2fn/	!LO:SIC:v:s=2Fn\	!	!LO:SIC:v:l:s=Mi-	!	!	!	!	!	!	!
 2Fn\	.	.	2d/	2f#/	2F#\	-re-	2fn\yy	re-	2a\	Mi-	2dd\	-re-	2.ryy	2.ryy
 !	!	!	!	!	!	!	!LO:SIC:v:l:s=-se-	!	!	!	!	!	!	!

@@ -31,10 +31,10 @@
 *met(c|)	*	*met(c|)	*	*met(c|)	*	*met(c|)	*
 =1	=1	=1	=1	=1	=1	=1	=1
 *2\right	*	*	*	*	*	*	*
-!LO:TX:a:t=P:problem:strony 8 i 9 zamienione miejscami	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=strony 8 i 9 zamienione miejscami	!	!	!	!	!	!	!
 !LO:TX:b:t=O amor.	!	!	!	!	!	!	!
-!LO:TX:a:t=P:problem: znaki przy kluczu f- f-	!	!LO:TX:b:t=O amor.	!	!LO:TX:b:t=O amor.	!	!LO:TX:a:t=P:problem: znaki przy kluczu f- f-	!
-!LO:TX:a:t=P:problem: metrum C z kropką w środku	!	!LO:TX:a:t=P:problem: znaki przy kluczu f- f-	!	!LO:TX:a:t=P:problem: znaki przy kluczu f- f-	!	!LO:TX:a:t=P:problem: metrum C z kropką w środku	!
+!LO:TX:a:t=P:problem= znaki przy kluczu f- f-	!	!LO:TX:b:t=O amor.	!	!LO:TX:b:t=O amor.	!	!LO:TX:a:t=P:problem= znaki przy kluczu f- f-	!
+!LO:TX:a:t=P:problem= metrum C z kropką w środku	!	!LO:TX:a:t=P:problem= znaki przy kluczu f- f-	!	!LO:TX:a:t=P:problem= znaki przy kluczu f- f-	!	!LO:TX:a:t=P:problem= metrum C z kropką w środku	!
 2E\	.	1r	.	8r	.	00r	.
 .	.	.	.	8bb\L	.	.	.
 .	.	.	.	8gg\	.	.	.
@@ -70,10 +70,10 @@
 .	.	8d/J	.	8b\J	.	.	.
 8r	.	4.g/	.	16r	.	.	.
 .	.	.	.	16ee\LL	.	.	.
-!LO:TX:t=P:problem:8\ chorągiewka w lewo przy pojednyczych nutach:global	!	!	!	!	!	!	!
+!LO:TX:t=P:global:problem=8\ chorągiewka w lewo przy pojednyczych nutach	!	!	!	!	!	!	!
 8c\	.	.	.	16dd\	.	.	.
 .	.	.	.	16cc\JJ	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8B\L	.	.	.	16dd\LL	.	.	.
 .	.	.	.	16cc\	.	.	.
 8c\	.	16g/LL	.	16b\	.	.	.
@@ -88,7 +88,7 @@
 4G\	6	4g/	.	8ee\L	.	.	.
 .	.	.	.	8ccc\J	.	.	.
 8r	.	8r	.	8bb\L	.	.	.
-!LO:TX:a:t=P:problem: zamazana nuta	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem= zamazana nuta	!	!	!	!	!	!	!
 8A\	4# 2	8f#/	.	8dd#X\J	.	.	.
 !LO:LB:g=original	!	!	!	!LO:LB:g=original	!	!	!
 =6	=6	=6	=6	=6	=6	=6	=6
@@ -103,7 +103,7 @@
 .	.	8b\	.	.	.	.	.
 .	.	.	.	16gg#\Jk	.	.	.
 =7	=7	=7	=7	=7	=7	=7	=7
-!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 8C/L	6	8cc\L	.	4aa\	.	.	.
 8D/	n	8ffn\	.	.	.	.	.
 8C/	6	8ee\	.	8aa\L	.	.	.
@@ -121,7 +121,7 @@
 .	.	.	.	16b\LL	.	.	.
 8E\	#	8g#X/	.	16b\	.	.	.
 .	.	.	.	16b\JJ	.	.	.
-!	!	!LO:LB:g=original	!	!LO:TX:a:t=P:problem: zbędna kreska taktowa	!	!	!
+!	!	!LO:LB:g=original	!	!LO:TX:a:t=P:problem= zbędna kreska taktowa	!	!	!
 4A\	n	16a/LL	.	16cc\LL	.	.	.
 .	.	16g#X/	.	16b\	.	.	.
 .	.	16a/	.	16cc\	.	.	.
@@ -142,7 +142,7 @@
 4E\	n	16g/LL	.	16ee\LL	.	.	.
 .	.	16f#X/	.	16dd#X\	.	.	.
 .	.	16g/	.	16ee\	.	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:custos ee	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=custos ee	!	!	!
 .	.	16f#/JJ	.	16dd#X\JJ	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!
 4r	.	8g/L	.	16ee\LL	.	.	.
@@ -159,7 +159,7 @@
 .	.	16a/	.	.	.	.	.
 .	.	16g/	.	.	.	.	.
 .	.	16f#/JJ	.	.	.	.	.
-!	!	!LO:TX:a:t=P:problem: łuk do pauzy	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem= łuk do pauzy	!	!	!	!	!
 4D#\	6	(<2b\	.	8.aa\L]	.	.	.
 .	5	.	.	16ff#\Jk	.	.	.
 4r	.	.	.	16dd#X\LL	.	.	.
@@ -172,11 +172,11 @@
 8D#X/L	5	8ff#\L	.	.	.	.	.
 8C/	.	8ee\	.	.	.	.	.
 *	*	*	*	*Xtuplet	*	*	*
-!	!	!	!	!LO:TX:a:t=P:problem:brak oznaczenia trioli	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=brak oznaczenia trioli	!	!	!
 8BB/J	.	8dd#X\J	.	24b\LL	.	.	.
 .	.	.	.	24ee\	.	.	.
 .	.	.	.	24ff#\JJ	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8E\L	.	8ee\L	.	16gg\LL	.	.	.
 .	.	.	.	16ff#\	.	.	.
 8A\	.	16cc\L	.	16ee\	.	.	.
@@ -186,7 +186,7 @@
 .	.	16e/Jk	.	16ee\Jk	.	.	.
 =12	=12	=12	=12	=12	=12	=12	=12
 2E\	.	4e/	.	4ee\	.	8r	.
-!	!	!	!	!	!	!LO:TX:a:t=P:problem:8\ pojedyncze chorągiewki w lewo na tej stronie:global	!
+!	!	!	!	!	!	!LO:TX:a:t=P:global:problem=8\ pojedyncze chorągiewki w lewo na tej stronie	!
 .	.	.	.	.	.	8B\	O
 .	.	4r	.	4r	.	8G\	A-
 .	.	.	.	.	.	8E\	-mor
@@ -194,7 +194,7 @@
 8A\L	.	.	.	.	.	8c\	O
 8c\	.	.	.	.	.	8.c\	dul-
 8A\J	.	.	.	.	.	.	.
-!	!	!	!	!	!	!LO:TX:a:t=P:problem:16\ pojedyncze chorągiewki w lewo na tej stronie:global	!
+!	!	!	!	!	!	!LO:TX:a:t=P:global:problem=16\ pojedyncze chorągiewki w lewo na tej stronie	!
 .	.	.	.	.	.	16B\	-cor
 =13	=13	=13	=13	=13	=13	=13	=13
 !	!	!	!	!	!LO:DY:b:t=piano	!	!
@@ -218,7 +218,7 @@
 4A\	n	16a/LL	.	16cc\LL	.	2r	.
 .	.	16g#X/	.	16b\	.	.	.
 .	.	16a/	.	16cc\	.	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:custos cc	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=custos cc	!	!	!
 .	.	16g#X/JJ	.	16b\JJ	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!
 8r	.	8a/L	.	16cc\LL	.	.	.
@@ -231,10 +231,10 @@
 .	.	16e/	.	16cc#X\	.	.	.
 .	.	16f#/	.	16dd\	.	.	.
 .	.	16e/JJ	.	16cc#X\JJ	.	.	.
-!LO:TX:a:t=P:problem: zamazana nuta	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem= zamazana nuta	!	!	!	!	!	!	!
 8F#\L	.	8f#/L	.	16dd\LL	.	.	.
 .	.	.	.	16dd#X\	.	.	.
-!LO:TX:a:t=P:problem: nieczytelna nuta	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem= nieczytelna nuta	!	!	!	!	!	!	!
 8A\Jyy	#	8f#/J	.	16dd#\	.	.	.
 .	.	.	.	16dd#\JJ	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!
@@ -255,7 +255,7 @@
 .	.	16a/	.	.	.	.	.
 .	.	16g/	.	.	.	.	.
 .	.	16f#/JJ	.	.	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8D#\L	.	16b/LL	.	16aa\LL]	.	.	.
 .	.	16a/	.	16ff#\	.	.	.
 8E\	.	16g/	.	16gg\	.	.	.
@@ -303,7 +303,7 @@
 8G\L	.	4d/	.	4gg\	.	4B\	-o
 8G\	.	.	.	.	.	.	.
 8B\	.	8r	.	4r	.	8r	.
-!LO:TX:a:t=P:problem: zamazana nuta	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem= zamazana nuta	!	!	!	!	!	!	!
 8G\J	.	8dd\	.	.	.	8B\	a-
 !LO:LB:g=original	!	!	!	!	!	!	!
 4C/	6 5	16cc\LL	.	2r	.	8A\	-mo-
@@ -316,7 +316,7 @@
 4GG/	.	4b/	.	4r	.	4G\	-o
 4r	.	8r	.	8r	.	8r	.
 .	.	8ee\	.	8g#X/	.	8B\	O
-!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 2r	.	8a/L	.	16a/LL	.	16c\LL	a-
 .	.	.	.	16g#X/	.	16B\JJ	.
 .	.	8ee\	.	16a/	.	16c\LL	-mor-
@@ -330,7 +330,7 @@
 .	.	8r	.	8r	.	8A\	mi
 !	!	!	!	!	!	!LO:LB:g=original	!
 .	.	8dd\	.	8f#/	.	8A\	O
-!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 .	.	8g/L	.	16gn/LL	.	16B\LL	a-
 .	.	.	.	16f#X/	.	16A\JJ	.
 .	.	8dd\	.	16g/	.	16B\LL	-mor
@@ -372,11 +372,11 @@
 .	.	.	.	.	.	16A\JJ	.
 !	!	!	!	!LO:LB:g=original	!	!	!
 =26	=26	=26	=26	=26	=26	=26	=26
-!	!	!	!	!LO:TX:a:t=P:problem: ligatura nie powtórzona w drugim systemie	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem= ligatura nie powtórzona w drugim systemie	!	!	!
 8G\L	9	2b/	.	4aa\]	.	4.B\	.
 8F#\	.	.	.	.	.	.	.
 8G\	.	.	.	2gg\	.	.	.
-!LO:TX:a:t=P:problem: zamazana nuta	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem= zamazana nuta	!	!	!	!	!	!	!
 8C\J	.	.	.	.	.	16A\LL	.
 .	.	.	.	.	.	16G\JJ	.
 !LO:LB:g=original	!	!	!	!	!	!	!
@@ -390,7 +390,7 @@
 .	.	.	.	.	.	4E\	-ni
 8r	.	.	.	2ee\	.	.	.
 8c\	6	.	.	.	.	8A\	Mun-
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8B\L	4	2f#/	.	.	.	4E\	-eve
 8A\	.	.	.	.	.	.	.
 8B\	3	.	.	4dd#X\	.	8.BB/	cre-
@@ -401,7 +401,7 @@
 4E\	.	4e/	.	4ee\	.	4E\	me
 4r	.	8r	.	8r	.	8r	.
 .	.	8ee\	.	8g#X/	.	8B\	O
-!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 2r	.	8a/L	.	16a/LL	.	16c\LL	a-
 .	.	.	.	16g#X/	.	16B\JJ	.
 !	!	!	!	!	!	!LO:LB:g=original	!
@@ -414,7 +414,7 @@
 .	.	.	.	.	.	16B\	-cor
 .	.	8r	.	8r	.	8A\	mi
 .	.	8dd\	.	8f#X/	.	8A\	O
-!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 .	.	8g/L	.	16gn/LL	.	16B\L	a-
 .	.	.	.	16f#X/	.	16A\J	.
 .	.	8dd\	.	16g/	.	16B\L	-mor
@@ -437,10 +437,10 @@
 .	.	.	.	.	.	16B\LL	-gue-
 .	.	.	.	.	.	16c\JJ	.
 !	!	!	!	!	!	!LO:PB:g=original	!
-!	!	!	!	!	!	!LO:TX:a:t=P:problem:8\ pojedyncze chorągiewki w prawo na tej stronie:global	!
+!	!	!	!	!	!	!LO:TX:a:t=P:global:problem=8\ pojedyncze chorągiewki w prawo na tej stronie	!
 8r	.	4r	.	8r	.	8B\	-o
 8G\	.	.	.	8gg\	.	8B\	A-
-!LO:TX:a:t=P:problem: zamazana nuta	!	!	!	!LO:LB:g=original	!	!	!
+!LO:TX:a:t=P:problem= zamazana nuta	!	!	!	!LO:LB:g=original	!	!	!
 2A\	.	4r	.	8ccc\L	.	8A\L	-mo-
 .	.	.	.	8bb\	.	8G\J	.
 .	.	4cc\	.	8aa\	.	8F#\L	-re
@@ -468,7 +468,7 @@
 8F#\L	.	2a/	.	.	.	4.A\	.
 8E\	.	.	.	.	.	.	.
 8F#\	.	.	.	[4f#/	.	.	.
-!	!	!	!	!	!	!LO:TX:a:t=P:problem:16\ pojedyncze chorągiewki w prawo na tej stronie:global	!
+!	!	!	!	!	!	!LO:TX:a:t=P:global:problem=16\ pojedyncze chorągiewki w prawo na tej stronie	!
 8BB\J	.	.	.	.	.	16G\	-ni
 .	.	.	.	.	.	16F#\	ach
 =34	=34	=34	=34	=34	=34	=34	=34
@@ -476,7 +476,7 @@
 .	.	.	.	8b/J	.	4E\	-ni
 8r	.	.	.	2ee\	.	.	.
 8c\	6	.	.	.	.	8A\	nunc
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8B\L	4	2f#/	.	.	.	4E\	re-
 8A\	.	.	.	.	.	.	.
 8B\	3	.	.	8.dd#X\L	.	8.BB/	-cre-
@@ -561,7 +561,7 @@
 .	.	8b\	.	.	.	.	.
 .	.	.	.	16gg#\Jk	.	.	.
 =42	=42	=42	=42	=42	=42	=42	=42
-!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 8C/L	.	8cc\L	.	4aa\	.	.	.
 8D/	.	8ffn\	.	.	.	.	.
 8C/	.	8ee\	.	8aa\L	.	.	.
@@ -626,22 +626,22 @@
 8r	.	8b\L]	.	4.B/	.	.	.
 8D#X/L	5	8ff#\	.	.	.	.	.
 8C#X/	.	8ee\	.	.	.	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:brak oznaczenia trioli	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=brak oznaczenia trioli	!	!	!
 8BB/J	.	8dd#X\J	.	24b\LL	.	.	.
 .	.	.	.	24ee\	.	.	.
 .	.	.	.	24ff#\JJ	.	.	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8E\L	.	8ee\L	.	16gg\LL	.	.	.
 .	.	.	.	16ff#\	.	.	.
 8A\	.	16cc\L	.	16ee\	.	.	.
-!	!	!LO:TX:a:t=P:problem:custos f	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=custos f	!	!	!	!	!
 .	.	16a\JJ	.	16ff#\JJ	.	.	.
 !	!	!LO:PB:g=original	!	!	!	!	!
 8B\	.	8.f#/L	.	8.dd#X\L	.	.	.
 8BB/J	.	.	.	.	.	.	.
 .	.	16e/Jk	.	16ee\Jk	.	.	.
 =47	=47	=47	=47	=47	=47	=47	=47
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8E\L	.	16e/LL	.	16ee\LL	.	2r	.
 .	.	16g/	.	16b\	.	.	.
 8A\	.	16f#/	.	16a\	.	.	.
@@ -654,16 +654,16 @@
 8D\J	.	.	.	.	.	.	.
 8C/L	6	4r	.	4r	.	8r	.
 8BB/J	6|	.	.	.	.	8B\	hic
-!	!	!LO:TX:a:t=P:problem: podwójna kreska taktowa	!	!LO:TX:a:t=P:problem: podwójna kreska taktowa	!	!	!
+!	!	!LO:TX:a:t=P:problem= podwójna kreska taktowa	!	!LO:TX:a:t=P:problem= podwójna kreska taktowa	!	!	!
 =48	=48	=48	=48	=48	=48	=48	=48
 4AA/	n	2r	.	2r	.	8c\	So-
 .	.	.	.	.	.	16B\LL	-la
 .	.	.	.	.	.	16A\JJ	.
-!LO:TX:a:t=P:problem: D/E?	!	!	!	!	!	!	!
+!LO:TX:a:t=P: D/E?:problem	!	!	!	!	!	!	!
 8D\L	#	.	.	.	.	8.G#X\	me-
 8E\J	6	.	.	.	.	.	.
 .	.	.	.	.	.	16A\	-a
-!LO:TX:a:t=P:problem: D/E?	!	!	!	!	!	!	!
+!LO:TX:a:t=P: D/E?:problem	!	!	!	!	!	!	!
 4D\	.	8r	.	8r	.	4B\	spes
 .	.	16ee\LL	.	16gg#X\LL	.	.	.
 .	.	16ff#\JJ	.	16aa\JJ	.	.	.
@@ -709,7 +709,7 @@
 .	.	.	.	16gg\JJ	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!
 =52	=52	=52	=52	=52	=52	=52	=52
-!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 8GG/L	.	8f#X/L	.	8aa\L	.	2D/]	.
 8C/	.	8dd\J	.	8bb-X\	.	.	.
 8D/	.	16cc/LL	.	8aa\	.	.	.
@@ -769,13 +769,13 @@
 8C#X\J	6|	8bn\J	.	16dd\	.	.	.
 .	.	.	.	16b\JJ	.	.	.
 =57	=57	=57	=57	=57	=57	=57	=57
-!LO:TX:a:t=P:problem: ostatnie 5 taktów partii org. (str. 10 skanu) to takty 57-61 lub 58-62	!	!	!	!	!	!	!
-!LO:TX:a:t=P:problem: brakujący takt	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
+!LO:TX:a:t=P:problem= ostatnie 5 taktów partii org. (str. 10 skanu) to takty 57-61 lub 58-62	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem= brakujący takt	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 1ryy	.	8a#X/L	.	8cc#X\L	.	2F#\]	.
 .	.	8ff#\J	.	8dd\	.	.	.
 .	.	16ee\LL	.	8cc#\	.	.	.
 .	.	16cc#X\	.	.	.	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:custos a	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=custos a	!	!	!
 .	.	16dd\	.	8b\J	.	.	.
 .	.	16b\JJ	.	.	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!
@@ -784,9 +784,9 @@
 !	!	!	!LO:DY:b:t=piano.	!	!	!	!
 .	.	8f#/L	p	4r	.	8B\	te
 .	.	8e/J	.	.	.	8c#X\	ſu-
-!	!	!	!	!	!	!LO:TX:a:t=P:problem: brak kreski taktowej	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem= brak kreski taktowej	!
 =58	=58	=58	=58	=58	=58	=58-zz	=58
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8BB\L	.	16d/LL	.	1r	.	16d\LL	-ſpi-
 .	.	16f#/	.	.	.	16c#X\JJ	.
 8E\	6 5	16e/	.	.	.	16B\	-rat
@@ -806,7 +806,7 @@
 8r	.	8r	.	8dd\	.	8B\	ſu-
 8E#\	7-	8g#/	.	8dd\J	.	16A#X\LL	-ſpi-
 .	.	.	.	.	.	16F#\JJ	.
-!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!LO:LB:g=original	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!LO:LB:g=original	!
 8F#\L	.	8f#/L	.	8cc#X\L	.	8B\	-rat
 8E#\	.	8gn/J	.	16dd\L	.	8c#X\	Af-
 .	4	.	.	16ee\JJ	.	.	.

@@ -29,9 +29,9 @@
 *M3/2	*	*M3/2	*	*M3/2	*	*	*M3/2	*	*M3/2	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *2\right	*	*2\right	*	*2\right	*	*	*2\right	*	*2\right	*
-!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:f=Forte	!
-!LO:TX:t=P:problem:znaki[BB- E- B-]	!	!LO:TX:a:i:t=Tractus.	!	!LO:TX:a:i:t=Tract(us).	!	!	!LO:TX:a:i:t=Tractus.	!	!LO:TX:a:i:t=Tractus.	!
-!LO:TX:a:i:t=Tractus	!	!LO:TX:t=P:problem:znaki[BB- E- A- B-]	!	!LO:TX:t=P:problem:znaki[A- B- e-]	!	!	!LO:TX:t=P:problem:znaki[B- e- a-]	!	!LO:TX:t=P:problem:znaki[e- a- b- ee-]	!
+!	!	!	!	!	!	!	!	!	!LO:TX:t=P:f=Forte:problem	!
+!LO:TX:t=P:problem=znaki[BB- E- B-]	!	!LO:TX:a:i:t=Tractus.	!	!LO:TX:a:i:t=Tract(us).	!	!	!LO:TX:a:i:t=Tractus.	!	!LO:TX:a:i:t=Tractus.	!
+!LO:TX:a:i:t=Tractus	!	!LO:TX:t=P:problem=znaki[BB- E- A- B-]	!	!LO:TX:t=P:problem=znaki[A- B- e-]	!	!	!LO:TX:t=P:problem=znaki[B- e- a-]	!	!LO:TX:t=P:problem=znaki[e- a- b- ee-]	!
 2E-\	Gau-	2E-\	Gau-	2B-\	Gau-	.	2g\	Gau-	2ee-\	Gau-
 2G\	-de	2G\	-de	2B-\	-de	.	2g\	-de	2ee-\	-de
 2B-\	Ma-	2B-\	Ma-	2B-\	Ma-	.	2f\	Ma-	2dd\	Ma-
@@ -40,7 +40,7 @@
 2A-X\	-a	2A-\	-a	2c\	-a	.	2f\	-a	2ee-\	-a
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
 1B-	Vir-	1B-	Vir-	1B-	Vir-	.	1f	Vir-	1ee-	Vir-
-!LO:TX:t=P:problem:oddech jako rozdzielacz słów:global	!	!LO:TX:t=P:problem:oddech jako rozdzielacz słów:global	!	!	!	!	!LO:TX:t=P:problem:oddech jako rozdzielacz słów:global	!	!LO:TX:t=P:problem:oddech jako rozdzielacz słów:global	!
+!LO:TX:t=P:global:problem=oddech jako rozdzielacz słów	!	!LO:TX:t=P:global:problem=oddech jako rozdzielacz słów	!	!	!	!	!LO:TX:t=P:global:problem=oddech jako rozdzielacz słów	!	!LO:TX:t=P:global:problem=oddech jako rozdzielacz słów	!
 2BB-,/	-go	2BB-,/	-go	2B-\	-go	.	2f,\	-go	2dd,\	-go
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
 *	*ij	*	*ij	*	*ij	*	*	*ij	*	*ij
@@ -68,7 +68,7 @@
 .	.	.	.	2An/	-la	.	2f\	-la	2cc\	-la
 =10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
 .	.	.	.	2B-\	in-	.	2b-X\	in-	2dd\	in-
-!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:♭above	!
+!	!	!	!	!	!	!	!	!	!LO:TX:t=P:♭above:problem	!
 .	.	.	.	2c\	-te-	.	2an\	-te-	2ee-X\	-te-
 !	!	!	!	!LO:SIC:v:custos e-	!	!	!	!	!	!
 .	.	.	.	2d\	-re-	.	2b-\	-re-	2ff\	-re-
@@ -81,7 +81,7 @@
 .	.	.	.	2F/	.	.	2an\	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!LO:LB:g=original	!	!	!
 =12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
-!	!	!	!	!LO:TX:t=P:problem:oddech jako rozdzielacz słów:global	!	!	!	!	!LO:SIC:v:custos b	!
+!	!	!	!	!LO:TX:t=P:global:problem=oddech jako rozdzielacz słów	!	!	!	!	!LO:SIC:v:custos b	!
 2r	.	2r	.	2B-,\	-sti.	.	2b-,\	-sti.	2dd,\	-sti
 !	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
 2E-\	Cun-	2E-\	Cun-	2e-\	Cun-	.	2g\	Cun-	2b-\	cun-
@@ -305,7 +305,7 @@
 2E-\	pro	2E-\	pro	2B-\	pro	.	2g\	-no-	4ee-\	no-
 .	.	.	.	.	.	.	.	.	4dd\	.
 2F\	no-	2F\	no-	(2B-\	no-	.	1f	.	1cc	.
-!	!	!LO:TX:a:t=P:problem:przekreślona nuta i korekta na FF	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=przekreślona nuta i korekta na FF	!	!	!	!	!	!	!	!
 2FF/	.	2FF/	.	2An\)	.	.	.	.	.	.
 =61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61
 2BB-,/	-bis	2BB-,/	-bis	2B-\	-bis	.	2f,\	-bis	2dd,\	-bis

@@ -29,9 +29,9 @@
 =1	=1
 *>A	*>A
 *	*tremolo
-!	!LO:TX:a:t=P:wszystkie nuty mają caudy z prawej strony:problem
-!	!LO:TX:a:t=P:caudy nut zapisanych dodaną linią z lewej strony:problem
-!	!LO:TX:a:t=P:trzy kropki nad tremolo:problem
+!	!LO:TX:a:t=P:problem=wszystkie nuty mają caudy z prawej strony
+!	!LO:TX:a:t=P:problem=caudy nut zapisanych dodaną linią z lewej strony
+!	!LO:TX:a:t=P:problem=trzy kropki nad tremolo
 !	!LO:TX:a:Bi:t=Mazur
 8GL 8GG\	8dd\L
 8B 8G 8D\	8dd\
@@ -47,7 +47,7 @@
 =3	=3
 *	*tremolo
 *rep	*
-!	!LO:TX:a:t=P:trzy kropki nad tremolo:problem
+!	!LO:TX:a:t=P:problem=trzy kropki nad tremolo
 8GL 8GG\	8dd\L
 8B 8G 8D\	8dd\
 8BJ 8G 8D\	8dd\J
@@ -89,7 +89,7 @@
 8DL 8DD/	8dd\L
 8c 8F# 8D/	16.ff#\L
 .	32aa\K
-!	!LO:TX:a:t=P:W źródle nuta 16.cccn nie posiada caudy:problem
+!	!LO:TX:a:t=P:problem=W źródle nuta 16.cccn nie posiada caudy
 8cJ 8F# 8D/	16.cccn\
 .	32aa\JJk
 *Xrep	*
@@ -108,10 +108,10 @@
 =12	=12
 8B 8G\	8g/
 4G 4GG\	4gg\
-!LO:TX:a:t=P:niejednoznaczny zapis kreski taktowej [przyjęto repetycję]:problem	!LO:TX:a:t=P:niejednoznaczny zapis kreski taktowej [przyjęto repetycję]:problem
+!LO:TX:a:t=P:problem=niejednoznaczny zapis kreski taktowej [przyjęto repetycję]	!LO:TX:a:t=P:problem=niejednoznaczny zapis kreski taktowej [przyjęto repetycję]
 =13:|!|:	=13:|!|:
 *>C	*>C
-!LO:TX:a:t=P:mixed beam:problem	!
+!LO:TX:a:t=P:problem=mixed beam	!
 8AAL 8AAA/	16.aa\LL
 .	32bb\JJk
 !LO:SIC:n=2:s=8c#:v	!
@@ -172,7 +172,7 @@
 .	8r
 =21:|!|:	=21:|!|:
 *>D	*>D
-!LO:TX:a:t=P:w źródle brak przedtaktu:problem	!
+!LO:TX:a:t=P:problem=w źródle brak przedtaktu	!
 8ryy	16gg\LL
 .	16bb\JJ
 =22	=22
@@ -184,7 +184,7 @@
 !!LO:LB:g=original
 =23	=23
 *rep	*
-!	!LO:TUP:a:problem:klamra łukowa
+!	!LO:TUP:a:problem=klamra łukowa
 8GL 8GG\	24ddd\LL
 .	24eee\
 .	24fff#\JJ
@@ -201,7 +201,7 @@
 *Xrep	*
 =25	=25
 *rep	*
-!	!LO:TUP:a:problem:klamra łukowa
+!	!LO:TUP:a:problem=klamra łukowa
 8GL 8GG\	24bb\LL
 .	24aa#X\
 .	24bb\JJ
@@ -235,7 +235,7 @@
 !!LO:PB:g=original
 =30:|!|:	=30:|!|:
 *>E	*>E
-!LO:TX:a:t=P:w źródle przed i za grupą ósemkową trzy pionowe kropki:problem	!
+!LO:TX:a:t=P:problem=w źródle przed i za grupą ósemkową trzy pionowe kropki	!
 8DL 8DD/	16dd\LL
 .	(>32ff#\L
 .	32aa\JJJ)

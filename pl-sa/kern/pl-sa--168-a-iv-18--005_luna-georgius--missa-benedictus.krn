@@ -31,7 +31,7 @@
 *M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 !LO:TX:a:t=Solo	!	!	!	!LO:TX:b:t=Benedictus	!	!	!	!	!	!	!
-!LO:TX:a:B:t=Adagio	!	!LO:TX:a:B:t=adagio	!	!LO:TX:a:B:t=adagio	!	!LO:TX:a:B:t=Tacet	!	!LO:TX:a:B:t=adagio	!	!LO:TX:a:t=P:problem:partia nie zawiera informacji o Benedictus	!
+!LO:TX:a:B:t=Adagio	!	!LO:TX:a:B:t=adagio	!	!LO:TX:a:B:t=adagio	!	!LO:TX:a:B:t=Tacet	!	!LO:TX:a:B:t=adagio	!	!LO:TX:a:t=P:problem=partia nie zawiera informacji o Benedictus	!
 !LO:TX:b:t=Benedictus	!	!LO:TX:b:t=Benedictus	!	!	!	!	!	!LO:N:vis=00	!	!	!
 4E\	.	8r	.	8r	.	2.ryy	.	0.r	.	2.ryy	.
 .	.	8g/L	.	8b\L	.	.	.	.	.	.	.
@@ -44,15 +44,15 @@
 8B\	.	8dd#X\J	.	8ff#\J	.	.	.	.	.	.	.
 (8A#X\	.	4dd#\	.	4ff#\	.	.	.	.	.	.	.
 8B\)	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem:niejednoznaczny zapis artykulacji [przyjęto staccatissimo]:global	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:global:problem=niejednoznaczny zapis artykulacji [przyjęto staccatissimo]	!	!	!	!	!	!	!	!	!	!	!
 8F#`\	.	4r	.	4r	.	.	.	.	.	.	.
 8D#X`\J	.	.	.	.	.	.	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
 4BB/	.	8r	.	8r	.	2.ryy	.	.	.	2.ryy	.
-!	!	!	!	!LO:TX:a:t=P:problem:belka ósemek pogrubiona	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=belka ósemek pogrubiona	!	!	!	!	!	!	!
 .	.	8dd#X\L	.	8ff#\L	.	.	.	.	.	.	.
 4BB/	.	8ee\	.	8gg\	.	.	.	.	.	.	.
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 .	.	[8dd#\	.	8ff#\	.	.	.	.	.	.	.
 4BB/	.	8dd#\]	.	8ff#\	.	.	.	.	.	.	.
 .	.	8ff#\J	.	8aa\J	.	.	.	.	.	.	.
@@ -66,7 +66,7 @@
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
 !	!	!	!	!	!	!	!	!LO:N:vis=00	!	!	!
 4B\	.	4g/	.	4ee\	.	2.ryy	.	0.r	.	2.ryy	.
-!	!	!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 4BB/	.	8f#/L	.	8dd#X\L	.	.	.	.	.	.	.
 .	.	8dd#X\	.	8ff#\	.	.	.	.	.	.	.
 4r	.	8ee\	.	8gg\	.	.	.	.	.	.	.
@@ -75,7 +75,7 @@
 8r	.	8ee\L	.	8gg\L	.	2.ryy	.	.	.	2.ryy	.
 8B\	.	8dd#X\J	.	8ff#\J	.	.	.	.	.	.	.
 4BB/	.	8r	.	8r	.	.	.	.	.	.	.
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!
 .	.	(8dd#\L	.	(8ff#\L	.	.	.	.	.	.	.
 4r	.	8ee\	.	8gg\	.	.	.	.	.	.	.
 .	.	8ff#\J)	.	8aa\J)	.	.	.	.	.	.	.
@@ -83,17 +83,17 @@
 8r	.	8ee\L	.	8gg\L	.	2.ryy	.	.	.	2.ryy	.
 8B\	.	8dd#X\J	.	8ff#\J	.	.	.	.	.	.	.
 4BB/	.	8r	.	8r	.	.	.	.	.	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!
 .	.	8dd#\L	.	(8ff#\L	.	.	.	.	.	.	.
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 8r	.	(8ee\	.	8gg\	.	.	.	.	.	.	.
 8B\	.	8ff#\J)	.	8aa\J)	.	.	.	.	.	.	.
 =8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
-!	!	!	!	!LO:TX:a:t=P:problem:klamra łukowa z numerem:global	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:global:problem=klamra łukowa z numerem	!	!	!	!	!	!	!
 8E\L	.	8ee\L	.	24gg\LL	.	2.ryy	.	.	.	2.ryy	.
 .	.	.	.	24ff#\	.	.	.	.	.	.	.
 .	.	.	.	24ee\JJ	.	.	.	.	.	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:klamra łukowa z numerem	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=klamra łukowa z numerem	!	!	!	!	!	!	!
 8A\J	.	8ff#\J	.	24ccc\LL	.	.	.	.	.	.	.
 .	.	.	.	24bb\	.	.	.	.	.	.	.
 .	.	.	.	24aa\JJ	.	.	.	.	.	.	.
@@ -101,25 +101,25 @@
 4BB/	.	4dd#X\	.	4ff#\	.	.	.	.	.	.	.
 !	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =9	=9	=91	=9	=9	=9	=9	=9	=9	=9	=9	=9
-!	!	!LO:SIC:s=8qdd#	!	!LO:TX:a:t=P:problem:p = pia:global	!LO:DY:a	!	!	!LO:N:vis=00	!	!	!
+!	!	!LO:SIC:s=8qdd#	!	!LO:TX:a:t=P:p = pia:global:problem	!LO:DY:a	!	!	!LO:N:vis=00	!	!	!
 .	.	8qqdd/	.	8qqff#/	p	.	.	.	.	.	.
 8E\L	.	4ee\	.	4ee\	.	2.ryy	.	0.r	.	2.ryy	.
 8BB\J	.	.	.	.	.	.	.	.	.	.	.
 4EE/	.	8r	.	8r	.	.	.	.	.	.	.
 .	.	8dd#X\L	.	8ff#\L	.	.	.	.	.	.	.
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 4r	.	(8ee\	.	8gg\	.	.	.	.	.	.	.
 .	.	8ff#\J)	.	8aa\J	.	.	.	.	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
 =10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
-!LO:TX:a:t=P:problem:p = pia:global	!LO:DY:a	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:p = pia:global:problem	!LO:DY:a	!	!	!	!	!	!	!	!	!	!
 8r	p	8ee\L	.	8gg\L	.	2.ryy	.	.	.	2.ryy	.
 8B\	.	8dd#X\J	.	8ff#\J	.	.	.	.	.	.	.
 4BB/	.	8r	.	8r	.	.	.	.	.	.	.
 !	!	!LO:SIC:s=8dd#	!	!	!	!	!	!	!	!	!
 .	.	8cc#X\L	.	8ff#\L	.	.	.	.	.	.	.
 !	!	!LO:SIC:s=8ee	!	!	!	!	!	!	!	!	!
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 4r	.	(8dd#\	.	8gg\	.	.	.	.	.	.	.
 !	!	!LO:SIC:s=8ff#	!	!	!	!	!	!	!	!	!
 .	.	8ee\J)	.	8aa\J	.	.	.	.	.	.	.
@@ -130,15 +130,15 @@
 8B\	.	8dd#X\J	.	8ff#\J	.	.	.	.	.	.	.
 4BB/	.	8r	.	8r	.	.	.	.	.	.	.
 .	.	8dd#\L	.	8ff#\L	.	.	.	.	.	.	.
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!
 8r	.	(8ee\	.	(8gg\	.	.	.	.	.	.	.
 8B\	.	8ff#\J)	.	8aa\J)	.	.	.	.	.	.	.
 =12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
-!	!	!	!	!LO:TX:a:t=P:problem:klamra łukowa z numerem	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=klamra łukowa z numerem	!	!	!	!	!	!	!
 8E\L	.	8ee\L	.	24gg\LL	.	2.ryy	.	.	.	2.ryy	.
 .	.	.	.	24ff#\	.	.	.	.	.	.	.
 .	.	.	.	24ee\JJ	.	.	.	.	.	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:klamra łukowa z numerem	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=klamra łukowa z numerem	!	!	!	!	!	!	!
 8A\J	.	8ff#\J	.	24ccc\LL	.	.	.	.	.	.	.
 .	.	.	.	24bb\	.	.	.	.	.	.	.
 .	.	.	.	24aa\JJ	.	.	.	.	.	.	.
@@ -167,7 +167,7 @@
 =16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
 4BB/	.	8r	.	8r	.	2.ryy	.	4f#\	qui	2.ryy	.
 .	.	8dd#X\L	.	8ff#\L	.	.	.	.	.	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!
 4BB/	.	8ee\	.	(8gg\	.	.	.	(8g\L	ve-	.	.
 .	.	8dd#\	.	8ff#\	.	.	.	8f#\J)	.	.	.
 !	!	!	!	!LO:SIC:s=8ff#	!	!	!	!	!	!	!
@@ -178,7 +178,7 @@
 .	.	8ee\	.	8gg\J	.	.	.	8g\	-mi-	.	.
 4E\	.	8ee\	.	8gg\L	.	.	.	8g\	-ne	.	.
 .	.	8b\	.	8gg\	.	.	.	(8g\L	do-	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!
 8A\L	.	8a\	.	(8ff#\	.	.	.	8f#\	.	.	.
 8A#X\J	.	8g\J	.	8ee\J)	.	.	.	8e\J)	.	.	.
 !	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
@@ -255,7 +255,7 @@
 4GG/	.	8g/L	.	8b\L	.	2.ryy	.	8B\	-nit	2.ryy	.
 .	.	8b/	.	8dd\	.	.	.	8d\	qui	.	.
 !	!	!	!	!	!	!	!	!LO:SIC:s=8ee	!	!	!
-!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!
 4r	.	8cc/	.	8ee\	.	.	.	(8f#\L	ve-	.	.
 .	.	8a/	.	8ff#\	.	.	.	8f#\J	.	.	.
 4r	.	8b/	.	8gg\	.	.	.	8g\)	-nit	.	.
@@ -273,18 +273,18 @@
 8G\L	.	4g/	.	4g/	.	2.ryy	.	4G/	-ni	2.ryy	.
 8D\J	.	.	.	.	.	.	.	.	.	.	.
 4GG/	.	8r	.	8r	.	.	.	4r	.	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!
-!	!	!LO:TX:a:t=P:problem:f = for:global	!LO:DY:a	!LO:TX:a:t=P:problem:f = for:global	!LO:DY:a	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:f = for:global:problem	!LO:DY:a	!LO:TX:a:t=P:f = for:global:problem	!LO:DY:a	!	!	!	!	!	!
 .	.	8f#/L	f	(8a/L	f	.	.	.	.	.	.
 4r	.	8g/	.	8b/	.	.	.	4r	.	.	.
 .	.	8a/J	.	8cc/J)	.	.	.	.	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
 =29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
-!LO:TX:a:t=P:problem:f = for:global	!LO:DY:a	!	!	!	!	!	!	!LO:N:vis=00	!	!	!
+!LO:TX:a:t=P:f = for:global:problem	!LO:DY:a	!	!	!	!	!	!	!LO:N:vis=00	!	!	!
 8r	f	8g/L	.	8b/L	.	2.ryy	.	0.r	.	2.ryy	.
 8d\	.	8f#/J	.	8a/J	.	.	.	.	.	.	.
 4D\	.	8r	.	8r	.	.	.	.	.	.	.
-!	!	!LO:TX:a:t=P:problem:p = pia:global	!LO:DY:a	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!LO:DY:a	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:p = pia:global:problem	!LO:DY:a	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!LO:DY:a	!	!	!	!	!	!
 .	.	8f#/L	p	(8a/L	p	.	.	.	.	.	.
 4r	.	8g/	.	8b/	.	.	.	.	.	.	.
 .	.	8a/J	.	8cc/J)	.	.	.	.	.	.	.
@@ -294,18 +294,18 @@
 8r	.	8g/L	.	8b/L	f	2.ryy	.	.	.	2.ryy	.
 8d\	.	8f#/J	.	8a/J	.	.	.	.	.	.	.
 4D\	.	8r	.	8r	.	.	.	.	.	.	.
-!	!	!	!LO:DY:a	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!
+!	!	!	!LO:DY:a	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!
 .	.	8f#/L	f	8a/L	.	.	.	.	.	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!
 8r	.	8g/	.	(8b/	.	.	.	.	.	.	.
 8D\	.	8a/J	.	8cc/J)	.	.	.	.	.	.	.
 =31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31
-!	!	!	!	!LO:TX:a:t=P:problem:fermata nad i pod nutą	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=fermata nad i pod nutą	!	!	!	!	!	!	!
 !	!	!	!	!LO:TUP:b	!	!	!	!	!	!	!
 8G\L	.	8g/L	.	24b/LL	.	2.ryy	.	.	.	2.ryy	.
 .	.	.	.	24a/	.	.	.	.	.	.	.
 .	.	.	.	24g/JJ	.	.	.	.	.	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:fermata nad i pod nutą	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=fermata nad i pod nutą	!	!	!	!	!	!	!
 8C\J	.	8a/J	.	24ee\LL	.	.	.	.	.	.	.
 .	.	.	.	24dd\	.	.	.	.	.	.	.
 .	.	.	.	24cc\JJ	.	.	.	.	.	.	.
@@ -331,7 +331,7 @@
 4GG/	.	4r	.	4dd\	.	.	.	(8g\L	qui	.	.
 .	.	.	.	.	.	.	.	8d\J)	.	.	.
 =35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35
-!	!	!LO:TX:a:t=P:problem:repetycja t. 34	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=repetycja t. 34	!	!	!	!	!	!	!	!	!
 .	.	8qqb/yy	.	8qqdd/	.	.	.	8qqd/	.	.	.
 4D\	.	4a/yy	.	4cc\	.	2.ryy	.	4c\	ve-	2.ryy	.
 4G\	.	4g/yy	.	4b\	.	.	.	4B\	-nit	.	.
@@ -366,7 +366,7 @@
 4A#X\	.	(8a/L	.	8ff#\L	.	.	.	8f#\	-mi-	.	.
 .	.	8g/J)	.	8ee\J	.	.	.	8e\	-ne	.	.
 =40	=40	=40	=40	=40	=40	=40	=40	=40	=40	=40	=40
-!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8B\L	.	4g/	.	4ee\	.	2.ryy	.	8e\	Do-	2.ryy	.
 8BB/	.	.	.	.	.	.	.	8e\	-mi-	.	.
 8B\	.	4f#/	.	4dd#X\	.	.	.	4d#X\	-ni	.	.
@@ -401,17 +401,17 @@
 !	!	!	!	!	!	!	!	!LO:N:vis=4.	!	!	!
 .	.	8ee\	.	8gg\J	.	.	.	8g\	-mi-	.	.
 4E\	.	8ee\	.	8gg\L	.	.	.	8g\	-ne	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!
 .	.	8b\	.	(8gg\	.	.	.	(8g\L	Do-	.	.
 8A\L	.	8a\	.	8ff#\	.	.	.	8f#\	.	.	.
 8A#X\J	.	8g\J	.	8ee\J)	.	.	.	8e\J)	.	.	.
 =45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45
 4B\	.	4g/	.	4ee\	.	2.ryy	.	(8.e\	.	2.ryy	.
 .	.	.	.	.	.	.	.	16e\)	-mi-	.	.
-!	!	!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 .	.	.	.	.	.	.	.	8qqe/	.	.	.
 4BB/	.	8f#X/L	.	8dd#X\L	.	.	.	4d#X\	-ni	.	.
-!	!	!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!
 .	.	8dd#X\	.	(8ff#\	.	.	.	.	.	.	.
 4r	.	8ee\	.	8gg\)	.	.	.	8r	.	.	.
 .	.	8ff#\J	.	8aa\J	.	.	.	8f#\	qui	.	.
@@ -420,7 +420,7 @@
 8r	.	8ee\L	.	8gg\L	.	2.ryy	.	8g\	ve-	2.ryy	.
 8B\	.	8dd#X\J	.	8ff#\J	.	.	.	8f#\	-nit	.	.
 4BB/	.	8r	.	8r	.	.	.	4r	.	.	.
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 .	.	(8dd#\L	.	8ff#\L	.	.	.	.	.	.	.
 4r	.	8ee\	.	8gg\	.	.	.	8r	.	.	.
 .	.	8ff#\J)	.	8aa\J	.	.	.	8f#\	qui	.	.
@@ -446,7 +446,7 @@
 8E\L	.	4e/	.	4e/	.	2.ryy	.	4E/	-ni	2.ryy	.
 8BB\J	.	.	.	.	.	.	.	.	.	.	.
 4E\	.	8r	.	8r	.	.	.	4r	.	.	.
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 .	.	(8dd#X\L	.	(8ff#\L	.	.	.	.	.	.	.
 4r	.	8ee\	.	8gg\	.	.	.	8r	.	.	.
 .	.	8ff#\J)	.	8aa\J)	.	.	.	8f#\	qui	.	.
@@ -456,7 +456,7 @@
 8r	.	8ee\L	.	8gg\L	.	2.ryy	.	8g\	ve-	2.ryy	.
 8B\	.	8dd#X\J	.	8ff#\J	.	.	.	8f#\	-nit	.	.
 4BB/	.	8r	.	8r	.	.	.	4r	.	.	.
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 .	.	(8dd#X\L	.	(8ff#\L	.	.	.	.	.	.	.
 4r	.	8ee\	.	8gg\	.	.	.	8r	.	.	.
 .	.	8ff#\J)	.	8aa\J)	.	.	.	8f#\	qui	.	.
@@ -466,7 +466,7 @@
 8r	.	8ee\L	.	8gg\L	.	2.ryy	.	8g\	ve-	2.ryy	.
 8B\	.	8dd#X\J	.	8ff#\J	.	.	.	8f#\	-nit	.	.
 4BB/	.	8r	.	8r	.	.	.	4r	.	.	.
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 .	.	(8dd#\L	.	(8ff#\L	.	.	.	.	.	.	.
 8r	.	8ee\	.	8gg\	.	.	.	8r	.	.	.
 8B\	.	8ff#\J)	.	8aa\J)	.	.	.	8f#\	in	.	.
@@ -488,10 +488,10 @@
 8G\	.	8g/	.	8g/	.	.	.	4r	.	.	.
 8A#X\J	.	8a#X/J	.	8a#X/J	.	.	.	.	.	.	.
 =54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54
-!	!	!	!	!LO:TX:a:t=P:problem:kreska taktowa podwójna	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=kreska taktowa podwójna	!	!	!	!	!	!	!
 2B\	.	2b;/	.	2.b;\	.	2.ryy	.	4e;\	Do-	2.ryy	.
 .	.	.	.	.	.	.	.	4e\	.	.	.
-!LO:TX:a:t=P:problem:kreska taktowa pojedyncza	!	!LO:TX:a:t=P:problem:kreska taktowa pojedyncza	!	!	!	!	!	!LO:N:vis=8	!	!	!
+!LO:TX:a:t=P:problem=kreska taktowa pojedyncza	!	!LO:TX:a:t=P:problem=kreska taktowa pojedyncza	!	!	!	!	!	!LO:N:vis=8	!	!	!
 4BB/	.	4B/	.	.	.	.	.	4e\	-mi-	.	.
 =55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55
 !LO:TX:a:t=Da capo	!	!LO:TX:a:t=Dacapo	!	!LO:TX:a:t=Da capo	!	!	!	!	!	!	!
@@ -530,8 +530,8 @@
 =68||	=68||	=68||	=68||	=68||	=68||	=68||	=68||	=68||	=68||	=68||	=68||
 *k[f#]	*	*k[f#]	*	*k[f#]	*	*k[f#]	*	*k[f#]	*	*k[f#]	*
 *M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*	*M3/8	*
-!LO:TX:a:t=P:problem:Osanna zgodnie z Pleni [zawartość ukryta zgodnie z zaleceniem J.I.]	!	!LO:TX:a:t=P:problem:Osanna zgodnie z Pleni [zawartość ukryta zgodnie z zaleceniem J.I.]	!	!LO:TX:a:t=P:problem:Osanna zgodnie z Pleni [zawartość ukryta zgodnie z zaleceniem J.I.]	!	!	!	!	!	!	!
-!LO:TX:a:t=P:problem:partia nie zawiera informacji o Osanna	!	!LO:TX:a:t=P:problem:partia nie zawiera informacji o Osanna	!	!LO:TX:a:t=P:problem:partia nie zawiera informacji o Osanna	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=Osanna zgodnie z Pleni [zawartość ukryta zgodnie z zaleceniem J.I.]	!	!LO:TX:a:t=P:problem=Osanna zgodnie z Pleni [zawartość ukryta zgodnie z zaleceniem J.I.]	!	!LO:TX:a:t=P:problem=Osanna zgodnie z Pleni [zawartość ukryta zgodnie z zaleceniem J.I.]	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=partia nie zawiera informacji o Osanna	!	!LO:TX:a:t=P:problem=partia nie zawiera informacji o Osanna	!	!LO:TX:a:t=P:problem=partia nie zawiera informacji o Osanna	!	!	!	!	!	!	!
 !LO:TX:a:B:t=Allo	!	!LO:TX:a:B:t=Allo	!	!LO:TX:a:B:t=allo	!	!LO:TX:a:B:t=allo	!	!LO:TX:a:B:t=allo	!	!	!
 4.GG/yy	.	8B/Lyy	.	8g/Lyy	.	8G\	O-	8B\	O-	8g\	O-
 .	.	8d/yy	.	8b/yy	.	8G\	-ſan-	8d\	-ſan-	8b\	-ſan-
@@ -544,12 +544,12 @@
 .	.	8qqb/yy	.	8qqdd/yy	.	.	.	.	.	8qqdd/	.
 4.D\yy	.	8a/Lyy	.	8cc\Lyy	.	4.D\	-cel-	(8A\L	-cel-	8cc\L	-cel-
 .	.	16g/Lyy	.	(16b\Lyy	.	.	.	16G\L	.	(16b\L	.
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 .	.	(16c/yy	.	16a\)yy	.	.	.	16c\	.	16a\)	.
 .	.	16B/)yy	.	(16g\yy	.	.	.	16B\	.	(16g\	.
 .	.	16A/JJyy	.	16f#\JJ)yy	.	.	.	16A\JJ)	.	16f#\JJ)	.
 =71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71
-!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 .	.	8qqA/yy	.	8qqf#/yy	.	.	.	.	.	8qqf#/	.
 8G\Lyy	.	4.B/yy	.	4.g/yy	.	4.G\	-siſ	4.B\	-sis	4.g\	-sis
 8D\yy	.	.	.	.	.	.	.	.	.	.	.
@@ -564,16 +564,16 @@
 .	.	8b/Jyy	.	8dd/Jyy	.	8G\	ex-	8A\	ex-	8dd\	ex-
 =74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74
 .	.	8qqb/yy	.	8qqdd/yy	.	.	.	.	.	8qqdd/	.
-!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:pofalowany łuk	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=pofalowany łuk	!	!	!
 4.D\yy	.	8a/Lyy	.	8cc\Lyy	.	4.D\	-cel-	(8A\L	-cel-	8cc\L	-cel-
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 .	.	(16g/Lyy	.	(16b\Lyy	.	.	.	16G\L	.	(16b\L	.
 .	.	16c/)yy	.	16a\)yy	.	.	.	16c\	.	16a\)	.
 .	.	16B/yy	.	(16g\yy	.	.	.	16B\	.	(16g\	.
-!	!	!	!	!LO:TX:a:t=P:problem:brak kreski taktowej	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=brak kreski taktowej	!	!	!	!	!	!	!
 .	.	16A/JJyy	.	16f#\JJ)yy	.	.	.	16A\JJ)	.	16f#\JJ)	.
 =75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75
-!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	.	.	.	.	.	.	.	8qqf#/	.
 8G\Lyy	.	4B/yy	.	4g/yy	.	4G\	-siſ	4B\	-siſ	4g\	-sis
 8D\yy	.	.	.	.	.	.	.	.	.	.	.
@@ -587,11 +587,11 @@
 .	.	.	.	16dd\JJ)yy	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!
 =77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77
-!LO:TX:a:t=P:problem:mixed beam	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 .	.	8qqb/yy	.	8qqdd/yy	.	.	.	.	.	8qqdd/	.
 8D\Lyy	.	(8a/Lyy	.	8cc\Lyy	.	8D\	-ſan-	8A\	-ſan-	8cc\	-ſan-
 8G\yy	.	8g/)yy	.	8b\Jyy	.	8G\	-na	8G\	-na	8b\	-na
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis artykulacji [przyjęto staccatissimo]:global	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:global:problem=niejednoznaczny zapis artykulacji [przyjęto staccatissimo]	!	!	!	!	!	!	!	!	!
 8GG/Jyy	.	8cc`/Jyy	.	8ee\yy	.	8G\	in	8c\	in	8ee\	in
 !	!	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!	!
 =78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78
@@ -607,7 +607,7 @@
 8A\Jyy	.	8cc#X\yy	.	8ee\Jyy	.	8A\	o-	8c#X\	o-	8dd\	o-
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!
 =80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80
-!LO:TX:a:t=P:problem:powrót po vide, wcześniej skreślone takty	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuków w tt. 80-82	!	!LO:TX:a:t=P:problem: plama tuszu pod belką	!
+!LO:TX:a:t=P:problem=powrót po vide, wcześniej skreślone takty	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuków w tt. 80-82	!	!LO:TX:a:t=P:problem= plama tuszu pod belką	!
 4D\yy	.	8dd\Lyy	.	8ff#\Lyy	.	4d\	-ſan-	(8d\L	-ſan-	(8ff#\L	-ſan-
 .	.	8ee\yy	.	8gg\yy	.	.	.	8e\J)	.	8gg\J)	.
 8A\yy	.	8cc#X\Jyy	.	8ee\Jyy	.	8A\	-na	8c#X\	-na	8ee\	-na
@@ -617,9 +617,9 @@
 .	.	8ee\yy	.	8gg\yy	.	8G\J	.	8e\J)	.	8gg\J)	.
 8A\yy	.	8cc#X\Jyy	.	8ee\Jyy	.	8A\	ex-	8c#X\	ex-	8ee\	ex-
 =82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82
-!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!
 8D\Lyy	.	8dd\Lyy	.	8ff#\Lyy	.	8D\L	-cel-	8d\L	-cel-	8ff#\L	-cel-
-!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:podwójne łuki	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=podwójne łuki	!	!	!
 8A\yy	.	(16b\Lyy	.	16gg\Lyy	.	8A\	.	(16B\L	.	(16gg\L	.
 .	.	16g\JJ)yy	.	16ee\yy	.	.	.	16G\)	.	16ee\)	.
 8AA/Jyy	.	(16f#/LLyy	.	16dd\yy	.	8AA/J	.	(16F#\	.	(16dd\	.
@@ -631,18 +631,18 @@
 8F#\yy	.	.	.	.	.	.	.	.	.	.	.
 8A\Jyy	.	8cc#X\yy	.	8ee\yy	.	8A\	o-	8c#X\	o-	8ee\	o-
 =84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84
-!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:pofalowany łuk	!	!LO:TX:a:t=P:problem:pofalowany łuk	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=pofalowany łuk	!	!LO:TX:a:t=P:problem=pofalowany łuk	!
 4D\yy	.	8dd\Lyy	.	8ff#\Lyy	.	4d\	-ſan-	(8d\L	-ſan-	(8ff#\L	-ſan-
 .	.	8ee\yy	.	8gg\yy	.	.	.	8e\J)	.	8gg\J)	.
 8A\yy	.	8cc#X\Jyy	.	8ee\Jyy	.	8A\	-na	8c#X\	-na	8ee\	-na
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!
 =85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85
-!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!
 4d\yy	.	8dd\Lyy	.	8ff#\Lyy	.	4D\	in	(8d\L	in	(8ff#\L	in
 .	.	8ee\yy	.	8gg\yy	.	.	.	8e\J)	.	8gg\J)	.
 8A\yy	.	8cc#X\Jyy	.	8ee\Jyy	.	8A\	ex-	8c#X\	ex-	8ee\	ex-
 =86	=86	=86	=86	=86	=86	=86	=86	=86	=86	=86	=86
-!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!LO:TX:a:t=P:problem:mixed beam	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!LO:TX:a:t=P:problem=mixed beam	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!
 8D\Lyy	.	8dd\Lyy	.	8ff#\Lyy	.	8D\L	-cel-	(8d\L	-cel-	8ff#\L	-cel-
 8A\yy	.	(16b\Lyy	.	16gg\Lyy	.	8A\	.	16B\L	.	(16gg\L	.
 .	.	16g\JJ)yy	.	16ee\yy	.	.	.	16G\	.	16ee\)	.
@@ -659,7 +659,7 @@
 !	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
 =89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89
 4.D\_yy	.	4f#/yy	.	4dd\yy	.	4.D\	ex-	4F#/	ex-	4dd\	ex-
-!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:podwójne łuki	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=podwójne łuki	!	!	!
 .	.	(16cc#X\LLyy	.	(16ee\LLyy	.	.	.	(16G/LL	.	16ee\LL	.
 .	.	16dd\JJ)yy	.	16ff#\JJ)yy	.	.	.	16A/JJ)	.	16ff#\JJ	.
 =90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90
@@ -668,7 +668,7 @@
 .	.	16dd\LLyy	.	(16ff#\LLyy	.	.	.	.	.	.	.
 .	.	16ff#\JJyy	.	16aa\JJ)yy	.	.	.	.	.	.	.
 =91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91
-!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8D/Lyy	.	4f#/yy	.	4dd\yy	.	4D\	-siſ	4F#/	-siſ	4dd\	-ſis
 16d\Lyy	.	.	.	.	.	.	.	.	.	.	.
 16cn\yy	.	.	.	.	.	.	.	.	.	.	.
@@ -684,17 +684,17 @@
 .	.	8g/yy	.	8b/yy	.	.	.	8G\J)	.	8b\J)	.
 .	.	8b/Jyy	.	8dd/Jyy	.	8G\	ex-	8B\	ex-	8dd\	ex-
 =94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94
-!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:podwójne łuki	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=podwójne łuki	!	!	!
 .	.	8qqb/yy	.	8qqdd/yy	.	.	.	.	.	8qqdd/	.
 4.D\yy	.	8a/Lyy	.	8cc\Lyy	.	4.D\	-cel-	(8A\L	-cel-	8cc\L	-cel-
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 .	.	(16g/Lyy	.	(16b\Lyy	.	.	.	16G\L	.	(16b\L	.
 .	.	16cn/)yy	.	16a\)yy	.	.	.	16c\	.	16a\)	.
 .	.	16B/yy	.	(16g\yy	.	.	.	16B\	.	(16g\	.
 .	.	16A/JJyy	.	16f#\JJ)yy	.	.	.	16A\JJ)	.	16f#\JJ)	.
 !	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95
-!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 .	.	8qqA/yy	.	8qqf#/yy	.	.	.	8qqA/	.	8qqf#/	.
 8G\Lyy	.	4.B/yy	.	4.g/yy	.	4.G\	-siſ	4.B\	-siſ	4.g\	-ſis
 8D\yy	.	.	.	.	.	.	.	.	.	.	.
@@ -713,14 +713,14 @@
 .	.	8qqb/yy	.	8qqdd/yy	.	.	.	.	.	8qqdd/	.
 4.D\yy	.	8a/Lyy	.	16cc\LLyy	.	4.D\	-cel-	(8A\L	-cel-	8cc\L	-cel-
 .	.	.	.	16cc\yy	.	.	.	.	.	.	.
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 .	.	(16g/Lyy	.	(16b\yy	.	.	.	16G\L	.	(16b\L	.
 .	.	16c/)yy	.	16a\)yy	.	.	.	16c\	.	16a\	.
 .	.	16B/yy	.	(16g\yy	.	.	.	16B\	.	16g\	.
 !	!	!LO:SIC:s=16A	!	!	!	!	!	!	!	!	!
 .	.	16F#/JJyy	.	16f#\JJ)yy	.	.	.	16A\JJ)	.	16f#\JJ)	.
 =99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99
-!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 .	.	8qqA/yy	.	8qqf#/yy	.	.	.	.	.	8qqf#/	.
 8G\Lyy	.	4B/yy	.	4g/yy	.	4G\	-siſ	4B\	-siſ	4g\	-ſis
 8GG/yy	.	.	.	.	.	.	.	.	.	.	.
@@ -732,10 +732,10 @@
 .	.	.	.	16dd\JJyy	.	.	.	.	.	.	.
 !	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
 =101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101
-!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 .	.	8qqb/yy	.	8qqdd/yy	.	.	.	8qqB/	.	8qqdd/	.
 8D\Lyy	.	8a/Lyy	.	8cc/Lyy	.	8D\	-ſan-	8A\	-ſan-	8cc\	-ſan-
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 8G\yy	.	(8g/yy	.	8b/yy	.	8G\	-na	8G/	-na	8b\	-na
 8GG/Jyy	.	8a/J)yy	.	8ee/Jyy	.	8G\	in	8c\	in	8ee\	in
 !	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
@@ -750,19 +750,19 @@
 8G\yy	.	8g/)yy	.	8b\yy	.	8G\	-siſ	8G\	-siſ	8b\	-siſ
 8D\Jyy	.	8f#`/Jyy	.	8a\Jyy	.	8D\	o-	8F#/	o-	8a\	o-
 =104	=104	=104	=104	=104	=104	=104	=104	=104	=104	=104	=104
-!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:łuki pod tekstem w tt. 104-105	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=łuki pod tekstem w tt. 104-105	!	!	!
 4GG/yy	.	8g/Lyy	.	8b\Lyy	.	4G\	-ſan-	(<8G/L	-ſan-	(8b\L	-ſan-
 .	.	8a/yy	.	8cc\yy	.	.	.	8A/J)	.	8cc\J)	.
 8D\yy	.	8f#/Jyy	.	8a\Jyy	.	8D\	-na	8F#/	-na	8a\	-na
 =105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 4G\yy	.	(8g/Lyy	.	8b\Lyy	.	4G\	in	(<8G/L	in	(8b\L	in
 .	.	8a/)yy	.	8cc\yy	.	.	.	8A/J)	.	8cc\J)	.
 8D\yy	.	8f#`/Jyy	.	8a\Jyy	.	8D\	ex-	8F#/	ex-	8a\	ex-
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!
 =106	=106	=106	=106	=106	=106	=106	=106	=106	=106	=106	=106
 8GG/Lyy	.	8g/Lyy	.	8b\Lyy	.	8G\L	-cel-	(8G\L	-cel-	8b\L	-cel-
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!	!	!	!
 8C/yy	.	(16e/Lyy	.	16cc\Lyy	.	8C\	.	16A\L	.	(16cc\L	.
 .	.	16c/)yy	.	16a\yy	.	.	.	16c\	.	16a\	.
 8D/Jyy	.	16B/yy	.	16g\yy	.	8D\J	.	16B\	.	16g\	.
@@ -774,7 +774,7 @@
 8BB/yy	.	.	.	.	.	.	.	.	.	.	.
 8D/Jyy	.	8f#/yy	.	8a/yy	.	8D\	o-	8F#/	o-	8a\	o-
 =108	=108	=108	=108	=108	=108	=108	=108	=108	=108	=108	=108
-!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:łuki pod tekstem w tt. 108-109	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=łuki pod tekstem w tt. 108-109	!	!	!
 4GG/yy	.	8g/Lyy	.	8b\Lyy	.	4G\	-ſan-	(8G/L	-ſan-	(8b\L	-ſan-
 .	.	8a/yy	.	8cc\yy	.	.	.	8A/J)	.	8cc\J)	.
 !	!	!	!	!LO:SIC:s=8a	!	!	!	!	!	!	!
@@ -786,8 +786,8 @@
 8D\yy	.	8f#/Jyy	.	8a\Jyy	.	8D\	ex-	8F#/	ex-	8a\	ex-
 =110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110
 8GG/Lyy	.	8g/Lyy	.	8b\Lyy	.	8G\L	-cel-	8G\L	-cel-	8b\L	-cel-
-!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:podwójne łuki	!	!	!
-!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!	!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis łuku	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=podwójne łuki	!	!	!
+!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!	!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis łuku	!	!	!
 8C/yy	.	(16e/Lyy	.	(16cc\Lyy	.	8C\	.	(16A\L	.	(16cc\L	.
 .	.	16c/)yy	.	16a\)yy	.	.	.	16c\	.	16a\	.
 8D/Jyy	.	16B/yy	.	(16g\yy	.	8D\J	.	16B\	.	16g\	.
@@ -811,11 +811,11 @@
 .	.	16g/LLyy	.	(16b/LLyy	.	.	.	.	.	(16b\LL	.
 .	.	16b/JJyy	.	16dd/JJ)yy	.	.	.	.	.	16dd\JJ)	.
 =115	=115	=115	=115	=115	=115	=115	=115	=115	=115	=115	=115
-!LO:TX:a:t=P:problem:łuk nad i pod kreską taktową [przyjęto fermatę]	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:a:t=P:problem:kreska taktowa początek/koniec repetycji	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=łuk nad i pod kreską taktową [przyjęto fermatę]	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=kreska taktowa początek/koniec repetycji	!	!	!	!	!	!	!	!	!	!	!
 4.GG/yy	.	4B/yy	.	4g/yy	.	4G\	-siſ	4D/	-siſ	4g\	-ſis
-!	!	!LO:TX:a:t=P:problem:łuk nad i pod kreską taktową [przyjęto fermatę]	!	!LO:TX:a:t=P:problem:łuk nad kreską taktową [przyjęto fermatę]	!	!LO:TX:a:t=P:problem:fermata nad kreską taktową	!	!LO:TX:a:t=P:problem:łuk nad kreską taktową [przyjęto fermatę]	!	!	!
-!	!	!LO:TX:a:t=P:problem:kreska taktowa początek/koniec repetycji	!	!LO:TX:a:t=P:problem:kreska taktowa początek/koniec repetycji	!	!LO:TX:a:t=P:problem:kreska taktowa podwójna	!	!LO:TX:a:t=P:problem:kreska taktowa początek/koniec repetycji	!	!	!
+!	!	!LO:TX:a:t=P:problem=łuk nad i pod kreską taktową [przyjęto fermatę]	!	!LO:TX:a:t=P:problem=łuk nad kreską taktową [przyjęto fermatę]	!	!LO:TX:a:t=P:problem=fermata nad kreską taktową	!	!LO:TX:a:t=P:problem=łuk nad kreską taktową [przyjęto fermatę]	!	!	!
+!	!	!LO:TX:a:t=P:problem=kreska taktowa początek/koniec repetycji	!	!LO:TX:a:t=P:problem=kreska taktowa początek/koniec repetycji	!	!LO:TX:a:t=P:problem=kreska taktowa podwójna	!	!LO:TX:a:t=P:problem=kreska taktowa początek/koniec repetycji	!	!	!
 .	.	8ryy	.	8ryy	.	8r	.	8r	.	8r	.
 ==;;	==	==;;	==	==;	==	==;	==	==;	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-

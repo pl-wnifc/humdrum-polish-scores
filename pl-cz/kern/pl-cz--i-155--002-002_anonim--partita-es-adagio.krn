@@ -35,9 +35,9 @@
 =1	=1	=1	=1	=1
 *2\right	*2\right	*2\right	*2\right	*2\right
 *clefF4	*	*	*	*
-!LO:TX:t=P:problem:w źródle brak przenośnika 8va	!	!	!	!
-!	!	!LO:TX:t=P:problem:znaki przykluczowe: BB-, E-, A-	!	!LO:TX:t=P:problem:all\right:global
-!LO:TX:t=P:problem:w źródle klucz barytonowy	!	!LO:TX:t=P:problem:w źródle klucz barytonowy	!LO:N:vis=00	!LO:N:vis=00
+!LO:TX:t=P:problem=w źródle brak przenośnika 8va	!	!	!	!
+!	!	!LO:TX:t=P:problem=znaki przykluczowe&colon; BB-, E-, A-	!	!LO:TX:t=P:problem=all\right&colon; global
+!LO:TX:t=P:problem=w źródle klucz barytonowy	!	!LO:TX:t=P:problem=w źródle klucz barytonowy	!LO:N:vis=00	!LO:N:vis=00
 16EE-/LL	2b-\	2g\	0.r	0.r
 16E-/	.	.	.	.
 16D/	.	.	.	.
@@ -63,14 +63,14 @@
 8AA-/J	16a-\	16f\L	.	.
 .	16g\JJ	16e-\JJ	.	.
 =4	=4	=4	=4	=4
-!LO:TX:t=P:problem:mixed beam	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!
 8.BB-/L	4g\	4e-\	.	.
 16B-\Jk	.	.	.	.
 4BB-/	4f\	4d\	.	.
 4r	4r	4r	.	.
 !	!LO:LB:g=original	!	!	!
 =5	=5	=5	=5	=5
-!LO:TX:t=P:problem:mixed beam	!	!	!LO:N:vis=0	!LO:N:vis=0
+!LO:TX:t=P:problem=mixed beam	!	!	!LO:N:vis=0	!LO:N:vis=0
 8BB-/L	4.f\	16BB-\LL	1.r	1.r
 .	.	16D\	.	.
 8B-\	.	16F\	.	.
@@ -122,7 +122,7 @@
 4r	4r	4r	4r	4r
 !	!LO:LB:g=original	!	!	!
 =10	=10	=10	=10	=10
-!	!LO:TX:a:t=I	!LO:TX:t=P:problem:mixed beam	!	!
+!	!LO:TX:a:t=I	!LO:TX:t=P:problem=mixed beam	!	!
 !LO:N:vis=1	!LO:N:vis=1	!	!	!
 2.r	2.r	8AA-/L	2cc\	4ee-\
 .	.	8A-\J	.	.
@@ -135,7 +135,7 @@
 .	.	.	16ee-\JJ	16gg\JJ
 !	!	!	!	!LO:LB:g=original
 =11	=11	=11	=11	=11
-!	!	!	!	!LO:TX:a:t=P:problem:niejednoznaczny zapis wysokości nut w tym takcie
+!	!	!	!	!LO:TX:a:t=P:problem=niejednoznaczny zapis wysokości nut w tym takcie
 .	.	.	.	8qqaa-/
 4e-\	4g\	4B-\	4ee-\	4gg\
 4B-/	4f\	4BB-/	4dd\	4ff\
@@ -194,10 +194,10 @@
 .	.	8d\J	8f/J	16ff\
 .	.	.	.	16dd\JJ
 =16	=16	=16	=16	=16
-!	!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!
 4e-\	4f\	8e-\L	(<16e-/LL	8gg\L
 .	.	.	16g/	.
-!	!	!	!	!LO:TUP:a:problem:klamra łukowa
+!	!	!	!	!LO:TUP:a:problem=klamra łukowa
 .	.	8E-\	16f/	24ee-\L
 .	.	.	.	24dd\
 .	.	.	16e-/JJ)	.
@@ -252,12 +252,12 @@
 .	.	.	.	16gg\
 .	.	.	.	16ff\JJ
 =21	=21	=21	=21	=21
-!	!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!
 2.g\	2.b-\	16C/LL	8g/L	4eeX\
 .	.	16c\	.	.
 .	.	16Bn\	8g/	.
 .	.	16c\JJ	.	.
-!	!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!
 .	.	8C/L	8g/	4.ee\
 .	.	8c\	8g/	.
 .	.	8BB-X/	8g/	.
@@ -274,12 +274,12 @@
 .	.	.	.	16ff\
 .	.	.	.	16ee-X\JJ
 =23	=23	=23	=23	=23
-!	!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!
 2.B-/	2.f\	16BB-/LL	8f/L	4dd\
 .	.	16B-\	.	.
 .	.	16An\	8f/	.
 .	.	16B-\JJ	.	.
-!	!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!
 .	.	8BB-/L	8f/	4.dd\
 .	.	8B-\	8f/	.
 .	.	8AA-X/	8f/	.
@@ -362,15 +362,15 @@
 8E-/J	8e-\J	8E-\J	8e-/J	8ee-\J
 =29	=29	=29	=29	=29
 4BB-/	4B-;>/	4BB-;>/	4B-/	4b-\
-!	!	!	!	!LO:TX:a:t=P:problem:fermata obejmuje dwie pauzy
+!	!	!	!	!LO:TX:a:t=P:problem=fermata obejmuje dwie pauzy
 4r	4r	4r	4r	4r;>
 4r;>	4r	4r	4r;>	4r
 !LO:LB:g=original	!	!LO:LB:g=original	!	!
 =30	=30	=30	=30	=30
 *clefF4	*	*	*	*
 *8va	*	*	*	*
-!LO:TX:t=P:problem:w źródle brak przenośnika 8va	!	!	!LO:N:vis=00	!LO:N:vis=00
-!LO:TX:t=P:problem:w źródle klucz barytonowy	!	!	!	!
+!LO:TX:t=P:problem=w źródle brak przenośnika 8va	!	!	!LO:N:vis=00	!LO:N:vis=00
+!LO:TX:t=P:problem=w źródle klucz barytonowy	!	!	!	!
 16EE-/LL	2b-\	2g\	0.r	0.r
 16E-/	.	.	.	.
 16D/	.	.	.	.
@@ -395,14 +395,14 @@
 8AA-/J	16a-\	16f\L	.	.
 .	16g\JJ	16e-\JJ	.	.
 =33	=33	=33	=33	=33
-!LO:TX:t=P:problem:mixed beam	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!
 8.BB-/L	4g\	4e-\	.	.
 16B-\Jk	.	.	.	.
 4BB-/	4f\	4d\	.	.
 4r	4r	4r	.	.
 !	!LO:LB:g=original	!	!	!
 =34	=34	=34	=34	=34
-!LO:TX:t=P:problem:mixed beam	!	!	!LO:N:vis=0	!LO:N:vis=0
+!LO:TX:t=P:problem=mixed beam	!	!	!LO:N:vis=0	!LO:N:vis=0
 8BB-/L	4.f\	16BB-\LL	1.r	1.r
 .	.	16D\	.	.
 8B-\	.	16F\	.	.
@@ -455,7 +455,7 @@
 4r	4r	4r	4r	4r
 !	!LO:LB:g=original	!	!LO:LB:g=original	!LO:LB:g=original
 =39	=39	=39	=39	=39
-!LO:N:vis=1	!LO:TX:a:t=I	!LO:TX:t=P:problem:mixed beam	!	!
+!LO:N:vis=1	!LO:TX:a:t=I	!LO:TX:t=P:problem=mixed beam	!	!
 !	!LO:N:vis=1	!	!	!
 2.r	2.r	8AA-/L	2cc\	4ee-\
 .	.	8A-\J	.	.
@@ -521,7 +521,7 @@
 .	.	8A-\J	8cc\J	16gg\
 .	.	.	.	16ff\JJ
 =45	=45	=45	=45	=45
-!	!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!
 4r	4r	8G\L	8b-\L	8gg\L
 .	.	.	16qqdd-X/	8qqbb-/
 !	!	!	!	!LO:N:vis=32

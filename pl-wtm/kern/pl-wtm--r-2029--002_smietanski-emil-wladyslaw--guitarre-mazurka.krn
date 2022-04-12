@@ -28,8 +28,8 @@
 *M3/4	*M3/4	*
 =1	=1	=1
 *>A	*>A	*
-!	!LO:TX:t=P:problem:all\left or middle:global	!
-!	!LO:TX:t=P:problem:arpeggio z prawej strony akordu:global	!
+!	!LO:TX:t=P:problem=all\left or middle&colon; global	!
+!	!LO:TX:t=P:global:problem=arpeggio z prawej strony akordu	!
 !	!LO:TX:a:i:t=Arpeggiando.	!
 4B\: 4D\: 4GG:\	4bb\: 4gg\: 4dd\: 4g:\	f
 4g\ 4B\	4bb\: 4gg\: 4dd\: 4g:\	.
@@ -154,8 +154,8 @@
 4b-X\ 4g\ 4e-X\	4B-\	.
 4b-\ 4g\ 4e-\	4G\	.
 =19	=19	=19
-!	!LO:TX:t=P:problem:klucz wiolinowy poprawiony na basowy	!
-!	!LO:TX:t=P:problem:klamra łukowa	!
+!	!LO:TX:t=P:problem=klucz wiolinowy poprawiony na basowy	!
+!	!LO:TX:t=P:problem=klamra łukowa	!
 !	!LO:TX:b:i:t=espress.	!
 4FFn/	12Fn/L	.
 .	12G/	.
@@ -163,7 +163,7 @@
 4a\ 4e-X\ 4A\	4E-X/	.
 4a\ 4e-\ 4A\	4E-/	.
 =20	=20	=20
-!LO:TX:t=P:problem:4BB- poprawione na 4BBB-	!LO:N:vis=8	!
+!LO:TX:t=P:problem=4BB- poprawione na 4BBB-	!LO:N:vis=8	!
 4BBB-X/	8.D/L	.
 .	16E-X/Jk	.
 4b-X\ 4d\ 4B-X\	4En/	.
@@ -180,7 +180,7 @@
 4b-X\ 4g\ 4e-X\	4B-\	.
 4b-\ 4g\ 4e-\	4G\	.
 =23	=23	=23
-!	!LO:TX:t=P:problem:klamra łukowa	!
+!	!LO:TX:t=P:problem=klamra łukowa	!
 4FFn/	12Fn\L	.
 .	12G\	.
 .	12F\J	.
@@ -193,7 +193,7 @@
 =24	=24	=24
 4BB-X\	4B-X\	.
 4b-X\ 4fn\ 4d\	4B-\	.
-!	!LO:TX:t=P:problem:brak klucza na końcu systemu	!
+!	!LO:TX:t=P:problem=brak klucza na końcu systemu	!
 4r	4r	.
 !!LO:LB:g=original
 =25	=25	=25
@@ -214,7 +214,7 @@
 4dd/ 4b/ 4g/	4B/	.
 *clefF4	*	*
 =27	=27	=27
-!	!LO:TX:t=P:problem:klamra łukowa	!
+!	!LO:TX:t=P:problem=klamra łukowa	!
 4AA/	12A/L	.
 .	12B/	.
 .	12A/J	.
@@ -288,7 +288,7 @@
 .	24a/LL	.
 .	24dd/	.
 .	24a/JJ	.
-!	!LO:TX:t=P:problem:klamra łukowa	!
+!	!LO:TX:t=P:problem=klamra łukowa	!
 *	*tuplet	*
 !	!LO:TUP:b	!
 4r	24dd/LL	.
@@ -338,7 +338,7 @@
 !	!LO:N:vis=8	!
 4BB/ 4BBB/	8.bb\L 8.ff#\ 8.dd\ 8.f#\	.
 .	16cc#X\Jk 16e#X\	.
-!	!LO:TX:t=P:problem:2\right	!
+!	!LO:TX:t=P:2\right:problem	!
 4d\ 4B\ 4F#\	2bb\ 2ff#\ 2dd\ 2f#\	.
 4d\ 4B\	.	.
 =42	=42	=42
@@ -445,24 +445,24 @@
 .	16dd\	.
 .	16a\JJ	.
 =54	=54	=54
-!	!LO:TX:b:t=cresc.:ext=ut:problem:dynamics with extention lines	!LO:HP:t=cresc.
+!	!LO:TX:b:t=cresc.:ext=ut:problem=dynamics with extention lines	!LO:HP:t=cresc.
 8.G\L 8.D\ 8.EE-X\	16dd\LL	<
 .	16gg\	.
 .	16dd\	.
 16F#\Jk	16g\JJ	.
-!	!LO:TX:t=P:problem:mixed beam	!
+!	!LO:TX:t=P:problem=mixed beam	!
 8.G\L	16d\LL	.
 .	16g\	.
 .	16d\	.
 16A\Jk	16A</JJ	[
-!	!LO:TX:t=P:problem:mixed beam	!
+!	!LO:TX:t=P:problem=mixed beam	!
 8B-X\L	16B-X</LL	.
 .	16g\	.
 8c#X\J	16c#X</	.
 .	16G\JJ	.
 =55	=55	=55
 *	*^	*
-!LO:N:vis=8	!LO:TX:t=P:problem:mixed beam	!	!
+!LO:N:vis=8	!LO:TX:t=P:problem=mixed beam	!	!
 8.d\L 8.F#\ 8.AA\ 8.DD\	16d</LL	4ryy	.
 .	16f#\	.	.
 .	16d\	.	.
@@ -510,19 +510,19 @@
 .	16gg\	.
 .	16dd\	.
 16F#\Jk	16g\JJ	.
-!	!LO:TX:t=P:problem:mixed beam	!
+!	!LO:TX:t=P:problem=mixed beam	!
 8.G\L	16d\LL	.
 .	16g\	[
 .	16d\	.
 16A\Jk	16A</JJ	.
-!	!LO:TX:t=P:problem:mixed beam	!
+!	!LO:TX:t=P:problem=mixed beam	!
 8B-X\L	16B-X</LL	.
 .	16g\	.
 8c#X\J	16c#X</	.
 .	16G\JJ	.
 =59	=59	=59
 *	*^	*
-!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!LO:TX:t=P:problem=mixed beam	!	!
 4F#\: 4AA\: 4DD:\	16d</LL	8.d<\L	.
 .	16f#\	.	.
 .	16d\	.	.
@@ -571,23 +571,23 @@
 .	16cc\JJ	.
 =62	=62	=62
 8.B-X\L 8.E\ 8.GG-X\	16ee\LL	.
-!	!LO:TX:b:t=cresc.:ext=ut:problem:dynamics with extention lines	!LO:HP:t=cresc.
+!	!LO:TX:b:t=cresc.:ext=ut:problem=dynamics with extention lines	!LO:HP:t=cresc.
 .	16bb-X\	<
 .	16ee\	.
 16A\Jk	16b-X\JJ	.
-!	!LO:TX:t=P:problem:mixed beam	!
+!	!LO:TX:t=P:problem=mixed beam	!
 8.B-\L	16e\LL	.
 .	16b-\	.
 .	16e\	[
 16c\Jk	16c</JJ	.
-!	!LO:TX:t=P:problem:mixed beam	!
+!	!LO:TX:t=P:problem=mixed beam	!
 8d-X\L	16d-X</LL	.
 .	16b-\	.
 8e\J	16e</	.
 .	16B-X\JJ	.
 =63	=63	=63
 *	*^	*
-!	!LO:TX:t=P:problem:mixed beam	!	!LO:DY:a
+!	!LO:TX:t=P:problem=mixed beam	!	!LO:DY:a
 4A\: 4C\: 4FFn:\	16fn</LL	8.f<\L	f
 .	16a\	.	.
 .	16fn\	.	.
@@ -647,19 +647,19 @@
 .	16bb-X\	.	.
 .	16dd\	.	.
 16A\Jk	16b-X\JJ	.	.
-!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!LO:TX:t=P:problem=mixed beam	!	!
 8.B-\L	16d\LL	.	.
 .	16b-X\	.	.
 .	16d\	.	.
 16c\Jk	16c</JJ	.	.
-!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!LO:TX:t=P:problem=mixed beam	!	!
 4G\ 4E-X\ 4AA\	16c#X</LL	8.c#<\L	.
 .	16a\	.	.
 .	16c#X\	.	.
 .	16A</JJ	16A<\Jk	.
 =67	=67	=67	=67
 !	!	!LO:N:vis=8	!
-!	!LO:TX:t=P:problem:mixed beam	!	!
+!	!LO:TX:t=P:problem=mixed beam	!	!
 8.F#\L 8.DD\	16d/LL	8.d\L	.
 .	16a/	.	.
 .	16A/	.	.
@@ -829,18 +829,18 @@
 .	16gg\	.
 .	16dd\	.
 16F#\Jk	16g\JJ	.
-!LO:N:vi=8	!LO:TX:t=P:problem:mixed beam	!
+!LO:N:vi=8	!LO:TX:t=P:problem=mixed beam	!
 8.G\L	16d\LL	.
 .	16g\	.
 .	16d\	.
 16A\Jk	16A</JJ	.
-!	!LO:TX:t=P:problem:mixed beam	!
+!	!LO:TX:t=P:problem=mixed beam	!
 8B-X\L	16B-X</LL	.
 .	16g\	.
 8c#X\J	16c#<X/	.
 .	16G\JJ	.
 =80	=80	=80
-!LO:N:vis=8	!LO:TX:t=P:problem:mixed beam	!
+!LO:N:vis=8	!LO:TX:t=P:problem=mixed beam	!
 8.d\L 8.F#\ 8.AA\ 8.DD\	16d</LL	.
 .	16f#\	.
 .	16d\	.
@@ -888,12 +888,12 @@
 .	16gg\	.
 .	16dd\	.
 16F#\Jk	16g\JJ	.
-!LO:N:vis=8	!LO:TX:t=P:problem:mixed beam	!
+!LO:N:vis=8	!LO:TX:t=P:problem=mixed beam	!
 8.G\L	16d\LL	.
 .	16g\	.
 .	16d\	.
 16A\Jk	16A</JJ	.
-!	!LO:TX:t=P:problem:mixed beam	!
+!	!LO:TX:t=P:problem=mixed beam	!
 8B-X\L	16B-X</LL	.
 .	16g\	.
 8c#X\J	16c#<X/	.
@@ -902,7 +902,7 @@
 *	*^	*
 !LO:N:n=2:vis=8	!	!	!
 !LO:N:n=3:vis=8	!	!	!
-!LO:N:n=4:vis=8	!LO:TX:t=P:problem:mixed beam	!	!
+!LO:N:n=4:vis=8	!LO:TX:t=P:problem=mixed beam	!	!
 8.d\L 8.F#\ 8.AA\ 8.DD\	16d</LL	4ryy	.
 .	16f#\	.	.
 .	16d\	.	.
@@ -955,19 +955,19 @@
 .	16ee\	.
 !	!	!LO:HP:a
 16A\Jk	16b-X\JJ	<
-!LO:N:vis=8	!LO:TX:t=P:problem:mixed beam	!
+!LO:N:vis=8	!LO:TX:t=P:problem=mixed beam	!
 8.B-\L	16e\LL	.
 .	16b-\	.
 .	16e\	.
 16c\Jk	16c</JJ	.
-!	!LO:TX:t=P:problem:mixed beam	!
+!	!LO:TX:t=P:problem=mixed beam	!
 8d-X\L	16d-X</LL	.
 .	16b-\	.
 8e\J	16e</	.
 .	16B-X\JJ	[[
 =88	=88	=88
 *	*^	*
-!LO:N:vis=8	!LO:TX:t=P:problem:mixed beam	!	!LO:HP:a
+!LO:N:vis=8	!LO:TX:t=P:problem=mixed beam	!	!LO:HP:a
 8.fn\L 8.A\ 8.C\ 8.FFn\	16fn</LL	4ryy	>
 .	16a\	.	.
 .	16f\	.	.
@@ -1022,12 +1022,12 @@
 .	16bb-X\	.
 .	16dd\	.
 16A\Jk	16b-X\JJ	.
-!LO:N:vis=8	!LO:TX:t=P:problem:mixed beam	!
+!LO:N:vis=8	!LO:TX:t=P:problem=mixed beam	!
 8.B-\L	16d\LL	.
 .	16b-\	.
 .	16d\	.
 16c#X\Jk	16c#X</JJ	.
-!LO:N:vis=8	!LO:TX:t=P:problem:mixed beam	!
+!LO:N:vis=8	!LO:TX:t=P:problem=mixed beam	!
 8.d\L 8.F#\ 8.DD\	16d</LL	.
 .	16a\	.
 .	16d\	.
@@ -1115,7 +1115,7 @@
 .	16d\JJ	.	.
 16d\LL	4r	.	.
 16g\	.	.	.
-!	!LO:TX:b:t=cresc.:ext=ut:problem:dynamics with extention lines	!	!LO:DY:t=cresc.
+!	!LO:TX:b:t=cresc.:ext=ut:problem=dynamics with extention lines	!	!LO:DY:t=cresc.
 16G\	.	.	<
 16d\JJ	.	.	.
 =98	=98	=98	=98
@@ -1167,7 +1167,7 @@
 !	!LO:N:n=2:vis=8	!
 4D\ 4GG\	8.gg\L 8.b\ 8.g\	.
 .	16f#\Jk	.
-!	!LO:TX:t=P:problem:wykreślone f#	!
+!	!LO:TX:t=P:problem=wykreślone f#	!
 (4B\ 4D\	(4gg\ 4b\ 4g\	.
 8g\ 8B\)	8ggg\ 8bb\ 8gg\)	.
 8r	8r	.
@@ -1233,7 +1233,7 @@
 8r	8r	.
 =111	=111	=111
 4d\ 4Fn\ 4BB-X\	4ddd\ 4bb-X\ 4ffn\ 4b-X\	.
-!LO:TX:t=P:problem:znak f- poprawiony na fn	!	!
+!LO:TX:t=P:problem=znak f- poprawiony na fn	!	!
 4fn\ 4B-X\	4ddd\ 4bb-\ 4ff\ 4b-\	.
 4d\ 4Fn\	4ddd\ 4bb-\ 4ff\ 4b-\	.
 =112	=112	=112
@@ -1264,7 +1264,7 @@
 4Fn\ 4BB-X\	(4bb-X\ 4dd\ 4b-X\	.
 8b-X\ 8d\	8bbb-X\ 8ddd\ 8bb-\)	.
 4r	4r	.
-!	!LO:TX:t=P:problem:klucz po podwójnej kresce taktowej	!
+!	!LO:TX:t=P:problem=klucz po podwójnej kresce taktowej	!
 8r	8r	.
 *	*clefF4	*
 !!LO:LB:g=original
@@ -1284,7 +1284,7 @@
 4b-/ 4g/ 4e-/	4G\	.
 *clefF4	*	*
 =117	=117	=117
-!	!LO:TX:t=P:problem:klamra łukowa	!
+!	!LO:TX:t=P:problem=klamra łukowa	!
 !	!LO:TUP:a	!
 4FFn\	12Fn\L	.
 .	12G\	.
@@ -1316,7 +1316,7 @@
 4b-/ 4g/ 4e-/	4G\	.
 *clefF4	*	*
 =121	=121	=121
-!	!LO:TX:t=P:problem:klamra łukowa	!
+!	!LO:TX:t=P:problem=klamra łukowa	!
 !	!LO:TUP:a	!
 4FFn\	12Fn\L	.
 .	12G\	.
@@ -1326,13 +1326,13 @@
 4a\ 4fn\ 4e-X\	8E\L	.
 .	8Fn\	.
 .	32qqF/	.
-!LO:TX:t=P:problem:brak klucza basowego	!	!
+!LO:TX:t=P:problem=brak klucza basowego	!	!
 4a\ 4f#X\ 4e-\	8d\	.
 .	8c\J	.
 *clefF4	*	*
 !!LO:PB:g=original
 =122	=122	=122
-!	!LO:TX:t=P:problem:klucz wiolinowy poprawiony na basowy	!
+!	!LO:TX:t=P:problem=klucz wiolinowy poprawiony na basowy	!
 4BB-X\	4B-X\	.
 *clefG2	*	*
 4b-X/ 4fn/ 4d/	4B-\	.
@@ -1354,7 +1354,7 @@
 4dd/ 4b/ 4g/	4B\	.
 *clefF4	*	*
 =125	=125	=125
-!	!LO:TX:t=P:problem:klamra łukowa	!
+!	!LO:TX:t=P:problem=klamra łukowa	!
 !	!LO:TUP:a	!
 4AA\	12A\L	.
 .	12B\	.
@@ -1374,7 +1374,7 @@
 4D\	8.d\L	.
 .	16c#X\Jk	.
 *clefG2	*	*
-!	!LO:TX:b:t=dim.:ext=ut:problem:dynamics with extention lines	!LO:DY:t=dim.
+!	!LO:TX:b:t=dim.:ext=ut:problem=dynamics with extention lines	!LO:DY:t=dim.
 4dd/ 4a/ 4f#/	4d\	>
 4dd/ 4a/ 4f#/	4A\	]]
 *clefF4	*	*
@@ -1384,14 +1384,14 @@
 .	16c#X\Jk	.
 *clefG2	*	*
 4dd/ 4g#X/ 4e/	4d\	.
-!LO:TX:t=P:problem:brak klucza na końcu systemu	!	!
+!LO:TX:t=P:problem=brak klucza na końcu systemu	!	!
 4dd/ 4g#/ 4e/	4B\	.
 *clefF4	*	*
 !!LO:LB:g=original
 =129	=129	=129
 *	*clefF4	*
 4AA/	8A\L	.
-!	!LO:TX:t=P:problem:klamra łukowa	!
+!	!LO:TX:t=P:problem=klamra łukowa	!
 !	!LO:TUP:a	!
 .	24A\L	.
 .	24B\	.
@@ -1433,7 +1433,7 @@
 !	!	!LO:DY:t=ppp.
 .	24dd/	ppp
 .	24a/JJ	.
-!	!LO:TX:t=P:problem:klamra łukowa	!
+!	!LO:TX:t=P:problem=klamra łukowa	!
 4r	24dd/LL	.
 .	24a/	.
 .	24dd/	.
@@ -1489,7 +1489,7 @@
 !	!LO:N:n=2:vis=8	!
 4BB/ 4BBB/	8.bb\L 8.ff#\ 8.dd\ 8.f#\	.
 .	16cc#X\Jk 16e#X\	.
-!LO:TX:t=P:problem:usunięte B	!	!
+!LO:TX:t=P:problem=usunięte B	!	!
 4d\ 4F#\	2bb\ 2ff#\ 2dd\ 2f#\	.
 4d\ 4B\	.	.
 =140	=140	=140
@@ -1501,7 +1501,7 @@
 !	!LO:N:n=2:vis=8	!
 4AA/ 4AAA/	8.aa\L 8.ee\ 8.cc#X\ 8.e\	.
 .	16b#X\Jk 16d#X\	.
-!LO:TX:t=P:problem:usunięte A	!	!
+!LO:TX:t=P:problem=usunięte A	!	!
 4c#X\ 4E\	2aa\ 2ee\ 2cc#\ 2e\	.
 4c#\ 4A\	.	.
 !!LO:LB:g=original
@@ -1572,7 +1572,7 @@
 *	*	*^
 4D\ 4DD\	8.dd\L 8.a\ 8.d\	.	.
 .	16cc#X\Jk 16a\ 16c#X\	.	.
-!	!LO:TX:b:t=cresc.:ext=ut:problem:dynamics with extention lines	!LO:DY:t=cresc.	!
+!	!LO:TX:b:t=cresc.:ext=ut:problem=dynamics with extention lines	!LO:DY:t=cresc.	!
 4c\ 4F#\ 4D\	4dd\ 4a\ 4d\	<	.
 *clefG2	*	*	*
 8cc\ 8f#\ 8d\	8ddd\ 8aa\ 8dd\	.	sf
@@ -1588,7 +1588,7 @@
 *	*8va	*
 8ccc\ 8ff#\ 8dd\	8dddd\ 8aaa\ 8ddd\	sf
 *	*X8va	*
-!LO:TX:t=P:problem:brak klucza na końcu systemu	!	!
+!LO:TX:t=P:problem=brak klucza na końcu systemu	!	!
 8r	8r	.
 *clefF4	*	*
 !!LO:LB:g=original
@@ -1652,7 +1652,7 @@
 4r	4r	.
 *clefF4	*	*
 =162	=162	=162
-!LO:TX:t=P:problem:brak klucza basowego	!LO:TX:b:i:t=Fin.	!
+!LO:TX:t=P:problem=brak klucza basowego	!LO:TX:b:i:t=Fin.	!
 16qqG/ 16qqD/ 16qqGG/	16qqg/ 16qqd/ 16qqB/	.
 2.G/ 2.D/ 2.GG/	2.g/ 2.d/ 2.B/	.
 ==	==	==

@@ -33,11 +33,11 @@
 =1	=1	=1	=1	=1	=1	=1	=1
 *2\right	*	*	*	*2\right	*	*	*
 *^	*	*	*	*	*	*	*
-!LO:TX:t=P:problem:w taktach 1-9 głosy wspomagające powinny brzmieć w kluczach odpowiednio altowym, tenorowym i sopranowym	!	!	!	!	!	!	!	!
-!LO:TX:t=P:problem:all\right:global	!	!	!	!	!	!	!	!
-!LO:TX:t=P:problem:w taktach 1-9 pierwszy głos mniejszą czcionką	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=w taktach 1-9 głosy wspomagające powinny brzmieć w kluczach odpowiednio altowym, tenorowym i sopranowym	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=all\right&colon; global	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=w taktach 1-9 pierwszy głos mniejszą czcionką	!	!	!	!	!	!	!	!
 !LO:TX:a:t=Alto	!	!	!	!	!	!	!	!
-!LO:TX:b:t=1	!	!	!LO:TX:a:t=4.	!	!LO:TX:t=P:problem:all\right:global	!	!LO:TX:a:t=6.	!
+!LO:TX:b:t=1	!	!	!LO:TX:a:t=4.	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:a:t=6.	!
 2.E/	1r	Ky-	00r	.	2.d\	Ky-	00r	.
 4E/	.	-ri-	.	.	4d\	-ri-	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2
@@ -55,7 +55,7 @@
 2E/	.	.	.	.	2d\	e-	.	.
 =5	=5	=5	=5	=5	=5	=5	=5	=5
 *	*	*	*2\right	*	*	*	*	*
-!LO:TX:b:t=5	!	!	!LO:TX:t=P:problem:all\right:global	!	!	!	!	!
+!LO:TX:b:t=5	!	!	!LO:TX:t=P:problem=all\right&colon; global	!	!	!	!	!
 2.D/	1r	.	2.A\	Ky-	2e\	-le-	0r	.
 .	.	.	.	.	2a\	-i-	.	.
 4D/	.	.	4A\	-ri-	.	.	.	.
@@ -68,8 +68,8 @@
 *	*	*	*	*	*	*	*2\right	*
 *	*^	*	*	*	*	*	*	*
 !LO:TX:a:t=Sopr	!	!	!	!	!	!	!	!	!
-!LO:TX:t=P:problem:w takcie 7 trzeci głos mniejszą czcionką	!	!	!	!	!	!	!	!	!
-!LO:TX:b:t=7	!	!	!	!	!	!	!	!LO:TX:t=P:problem:all\right:global	!
+!LO:TX:t=P:problem=w takcie 7 trzeci głos mniejszą czcionką	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=7	!	!	!	!	!	!	!	!LO:TX:t=P:problem=all\right&colon; global	!
 2G/	1r	2.F-X\	.	2d\	-le-	2a\]	.	2.b-X\	Ky-
 2A/	.	.	.	2e\	-i-	2g#X\	-i-	.	.
 .	.	4F-\	.	.	.	.	.	4b-\	-ri-
@@ -228,13 +228,13 @@
 .	.	4c#\	e-	.	.	.	.
 .	.	[2d\	-le-	2f\	e-	.	.
 =44	=44	=44	=44	=44	=44	=44	=44
-!	!	!	!	!	!	!LO:TX:t=P:problem:jest to kontynuacja nuty z poprzedniego taktu	!
+!	!	!	!	!	!	!LO:TX:t=P:problem=jest to kontynuacja nuty z poprzedniego taktu	!
 !LO:N:xstem:cue	!	!	!	!	!	!	!
 2A\]	.	2d\]	.	1e	-lei-	2a\	.
 2AA/	-i-	2c#X\	-i-	.	.	2a\	-i-
 =45	=45	=45	=45	=45	=45	=45	=45
-!LO:TX:a:t=2	!	!	!	!LO:TX:t=P:problem:cała nuta w podwójnym prostym nawiasie	!	!	!
-!LO:TX:t=P:problem:inny zapis, cała nuta w podwójnym prostym nawiasie	!	!LO:TX:t=P:problem:cała nuta w podwójnym prostym nawiasie	!	!LO:TX:a:t=2	!	!LO:TX:t=P:problem:cała nuta w podwójnym prostym nawiasie	!
+!LO:TX:a:t=2	!	!	!	!LO:TX:t=P:problem=cała nuta w podwójnym prostym nawiasie	!	!	!
+!LO:TX:t=P:problem=inny zapis, cała nuta w podwójnym prostym nawiasie	!	!LO:TX:t=P:problem=cała nuta w podwójnym prostym nawiasie	!	!LO:TX:a:t=2	!	!LO:TX:t=P:problem=cała nuta w podwójnym prostym nawiasie	!
 0D	-son.	0d	-son.	0f#X	-son.	0a	-son.
 =46	=46	=46	=46	=46	=46	=46	=46
 !LO:TX:a:t=Kyrie Da Capo.	!	!	!	!	!	!	!
@@ -246,8 +246,8 @@
 *met(c|)	*	*met(c|)	*	*met(c|)	*	*met(c|)	*
 *^	*	*	*	*	*	*	*
 !LO:TX:b:t=1	!	!	!	!	!	!	!	!
-!LO:TX:t=P:problem:w taktach 47-53 głosy wspomagające powinny brzmieć w kluczach odpowiednio altowym i sopranowym	!	!	!	!	!	!	!	!
-!LO:TX:t=P:problem:w taktach 47-53 pierwszy głos mniejszą czcionką	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=w taktach 47-53 głosy wspomagające powinny brzmieć w kluczach odpowiednio altowym i sopranowym	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=w taktach 47-53 pierwszy głos mniejszą czcionką	!	!	!	!	!	!	!	!
 !LO:TX:a:t=Alto	!	!	!LO:TX:a:t=10.	!	!	!	!LO:TX:b:t=3.	!
 1B-	1r	Chri-	00r	.	1a	Chri-	0r	.
 =48	=48	=48	=48	=48	=48	=48	=48	=48
@@ -261,7 +261,7 @@
 =50	=50	=50	=50	=50	=50	=50	=50	=50
 *	*^	*	*	*	*	*	*	*
 !LO:TX:a:t=Sop	!	!	!	!	!	!	!	!	!
-!LO:TX:t=P:problem:w takcie 50 trzeci głos mniejszą czcionką	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=w takcie 50 trzeci głos mniejszą czcionką	!	!	!	!	!	!	!	!	!
 !LO:TX:b:t=4	!	!	!	!	!	!	!	!	!
 2G/	1r	1A	.	.	.	2f\	-son	1dd	Chri-
 2E/	.	.	.	.	.	2d\	Chri-	.	.
@@ -393,11 +393,11 @@
 2A\	-le-	2c#X\	.	2e\	.	1a	e-
 2D\	.	2d\	.	2f\	.	.	.
 =80	=80	=80	=80	=80	=80	=80	=80
-!	!	!	!	!	!	!LO:TX:t=P:problem:jest to kontynuacja nuty z poprzedniego taktu	!
+!	!	!	!	!	!	!LO:TX:t=P:problem=jest to kontynuacja nuty z poprzedniego taktu	!
 1BB-X	-i-	1d	-i-	1d	-i-	2a\	.
 .	.	.	.	.	.	2g\	-lei-
 =81	=81	=81	=81	=81	=81	=81	=81
-!LO:TX:t=P:problem:cała nuta w podwójnym prostym nawiasie	!	!LO:TX:t=P:problem:cała nuta w podwójnym prostym nawiasie	!	!LO:TX:t=P:problem:cała nuta w podwójnym prostym nawiasie	!	!LO:TX:t=P:problem:cała nuta w podwójnym prostym nawiasie	!
+!LO:TX:t=P:problem=cała nuta w podwójnym prostym nawiasie	!	!LO:TX:t=P:problem=cała nuta w podwójnym prostym nawiasie	!	!LO:TX:t=P:problem=cała nuta w podwójnym prostym nawiasie	!	!LO:TX:t=P:problem=cała nuta w podwójnym prostym nawiasie	!
 !LO:TX:a:t=2	!	!LO:TX:a:t=2	!	!LO:TX:a:t=2	!	!LO:TX:a:t=2	!
 0AA	-son.	0c#X	-son.	0e	-son.	0a	-son.
 =82	=82	=82	=82	=82	=82	=82	=82

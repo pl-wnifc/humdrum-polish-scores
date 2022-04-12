@@ -42,8 +42,8 @@
 !	!	!LO:SIC:o=ſimphonia:v:t=w źródle napis ten znajduje się przed kluczem i oznaczeniem metrum	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 !LO:SIC:o=ſimphonia:v:t=w źródle napis ten znajduje się przed kluczem i oznaczeniem metrum	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 !	!	!LO:TX:a:i:t=Allo	!	!LO:TX:a:i:t=Allo	!	!LO:TX:a:i:t=Allo	!	!LO:TX:a:i:t=Allo	!LO:TX:a:i:t=Allo	!LO:TX:a:i:t=Allo	!	!LO:TX:a:i:t=Allo	!	!LO:TX:a:i:t=Allo	!	!LO:TX:a:i:t=Allo	!
-!LO:TX:a:t=P:w źródle brak znaków przykluczowych:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!	!	!	!	!LO:TX:a:t=P:znak początku repetycji:problem	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=w źródle brak znaków przykluczowych	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=znak początku repetycji	!	!	!	!	!	!	!	!	!	!	!	!	!
 4D\	.	4d\	.	4d/	.	4d/	.	4d/	4d/	4D/	.	4d\	.	4d/	.	4d/	.
 4F#\	.	4f#\	.	4f#/	.	4f#/	.	4f#/	4f#/	4F#/	.	4f#\	.	4f#/	.	4f#/	.
 4A\	.	4a\	.	4a/	.	4a/	.	4a/	4a/	4A/	.	4a\	.	4a/	.	4a/	.
@@ -120,11 +120,11 @@
 4AA/	.	4A/	.	.	4cc# 4e 4A/	.	8ee\L	.	4a/	4ee\	4A/	.	4e\	.	4ee\	.	4cc#\	.
 .	.	.	.	.	.	.	16dd\L	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16cc#\JJ	.	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!LO:TX:a:t=P:znak końca repetycji:problem	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:TX:a:t=P:problem=znak końca repetycji	!	!	!	!	!	!	!	!	!	!	!	!	!
 *	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 =7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7
 *	*	*	*	*rep	*	*	*	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!LO:TX:a:t=P:powtórzenie taktów oznaczone znakami repetycji:problem	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=powtórzenie taktów oznaczone znakami repetycji	!	!	!	!	!	!	!	!	!	!	!	!	!
 4D\	.	4d\	.	4d/	.	4dd`>\	.	4d/	4dd\	4D/	.	4d\	.	4d/	.	4d/	.
 4F#\	.	4f#\	.	4f#/	.	4f#`</	.	4f#/	4f#/	4F#/	.	4f#\	.	4f#/	.	4f#/	.
 4A\	.	4a\	.	4a/	.	4a`</	.	4a/	4a/	4A/	.	4a\	.	4a/	.	4a/	.
@@ -483,7 +483,7 @@
 .	.	8A/J	.	8g#/J	.	8dd`>\J	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!
 =34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34
-!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:pominięty fragment	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=pominięty fragment	!	!	!	!	!	!	!	!
 .	.	8A/L	.	8cc#\L	.	(>8ee\L	.	.	1ryy	1A_>	.	1A_>	.	8cc#\L	.	(>8ee\L	.
 .	.	8A/	.	8a\J	.	8cc#\J)	.	.	.	.	.	.	.	8a\J	.	8cc#\J)	.
 .	.	8A/	.	8r	.	8r	.	.	.	.	.	.	.	4r	.	4r	.
@@ -685,7 +685,7 @@
 8E/J	.	8e/J	.	16ee\LL	.	16ccc#\LL	.	.	.	.	.	.	.	16cc#\LL	.	16ee\LL	.
 .	.	.	.	16dd\JJ	.	16bb\JJ	.	.	.	.	.	.	.	16b\JJ	.	16dd\JJ	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:a:t=P:mixed beam:problem	!	!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8A\L	.	8a\L	.	8cc#\	.	4aa\	.	4a/	4ee\	4A/	.	4e\	.	4a/	.	4cc#\	.
 8AA/	.	8A/	.	4ee\	.	.	.	.	.	.	.	.	.	.	.	.	.
 8C#/	.	8c#/	.	.	.	8r	.	4r	4r	4r	.	4r	.	8r	.	8r	.
@@ -789,7 +789,7 @@
 8D\J	.	8d\J	.	8d/J	.	8d/J	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
 =53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53
-!	!	!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!LO:TX:a:t=3	!LO:TX:a:t=3	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!LO:TX:a:t=3	!LO:TX:a:t=3	!	!	!	!	!	!	!	!
 4AA/	.	16A/LL	.	4A/	.	4A/	.	0r	0r	1r	.	1r	.	1a	p	[<1aa	.
 .	.	16a\	p	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	16a\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1098,10 +1098,10 @@
 4G#X\	.	4g\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	8d/	.	8dd\	.	.	.	.	.	.	.	8d/	.	8dd\	.
 =76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76
-!LO:TX:a:t=P:problem:pominięty fragment	!	!LO:TX:a:t=P:problem:pominięty fragment	!	!LO:TX:a:t=P:problem:pominięty fragment	!	!LO:TX:a:t=P:problem:pominięty fragment	!	!LO:TX:a:t=P:problem:pominięty fragment	!LO:TX:a:t=P:problem:pominięty fragment	!LO:TX:a:t=P:problem:pominięty fragment	!	!LO:TX:a:t=P:problem:pominięty fragment	!	!LO:TX:a:t=P:problem:pominięty fragment	!	!LO:TX:a:t=P:problem:pominięty fragment	!
+!LO:TX:a:t=P:problem=pominięty fragment	!	!LO:TX:a:t=P:problem=pominięty fragment	!	!LO:TX:a:t=P:problem=pominięty fragment	!	!LO:TX:a:t=P:problem=pominięty fragment	!	!LO:TX:a:t=P:problem=pominięty fragment	!LO:TX:a:t=P:problem=pominięty fragment	!LO:TX:a:t=P:problem=pominięty fragment	!	!LO:TX:a:t=P:problem=pominięty fragment	!	!LO:TX:a:t=P:problem=pominięty fragment	!	!LO:TX:a:t=P:problem=pominięty fragment	!
 1ryy	.	1ryy	.	1ryy	.	1ryy	.	1ryy	1r	1ryy	.	1ryy	.	1ryy	.	1ryy	.
 =77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77
-!LO:TX:a:t=P:mixed beam:problem	!	!	!	!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!
 8A\L	.	8e\L	.	8c#/L	.	4cc#\	.	4r	4r	4A/	.	4e\	.	4c#/	.	4cc#\	.
 8A\	.	8a\	.	16ee\L	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	16ff#\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1110,7 +1110,7 @@
 8A\J	.	8a\J	.	16ff#\L	.	.	.	.	.	8A/	.	8e\	.	.	.	.	.
 .	.	.	.	16ee\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.
 *	*	*tremolo	*	*	*	*	*	*	*	*	*	*tremolo	*	*	*	*	*
-!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8A\L	.	8a\L	.	4ff#\	.	8dddL 8ff# 8a/	.	4dd\	4ff#\	8A/L	.	8e\L	.	4ff#\	.	4ddd\	.
 8AA/	.	8a\	.	.	.	16dd/L	.	.	.	8A/	.	8e\	.	.	.	.	.
 .	.	.	.	.	.	16ee/JJ	.	.	.	.	.	.	.	.	.	.	.
@@ -1123,7 +1123,7 @@
 !	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 =78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78	=78
-!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8A\L	.	8a\L	.	8ccc# 8ee 8a/	.	4aa\	.	4a/	4ee\	4A/	.	4e\	.	4cc#\	.	4ee\	.
 8AA/	.	8a\	.	16ee\LL	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	16ff#\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1133,7 +1133,7 @@
 .	.	.	.	16ee\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!
 *	*	*	*	*	*	*	*	*	*	*	*	*tremolo	*	*	*	*	*
-!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8A\L	.	8a\L	.	4ff#\	.	8ddd\L	.	4dd\	4ff#\	8A/L	.	8e\L	.	4ff#\	.	4ddd\	.
 8AA/	.	8a\	.	.	.	16dd\L	.	.	.	8A/	.	8e\	.	.	.	.	.
 .	.	.	.	.	.	16ee\JJ	.	.	.	.	.	.	.	.	.	.	.
@@ -1143,7 +1143,7 @@
 .	.	.	.	.	.	16dd\JJ	.	.	.	.	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*Xtremolo	*	*	*	*	*
 =79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79
-!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8A\L	.	8a\L	.	4ccc# 4ee 4a/	.	4aa 4a/	.	4a/	4ee\	4A/	.	4e\	.	4cc#\	.	4ee\	.
 8AA/	.	8a\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8AA/	.	8a\	.	4aa 4a/	.	4ccc# 4a/	.	4a/	4ee\	4A/	.	4e\	.	4cc#\	.	4aa\	.
@@ -1361,7 +1361,7 @@
 *	*	*	*	*Xtremolo	*	*	*	*	*	*	*	*	*	*	*	*	*
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
 =94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94	=94
-!	!	!	!	!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!LO:DY:b:rj	!	!	!	!	!	!	!	!	!	!	!	!
 4D\	.	4d\	.	8dd\L	p	4dd\	.	4dd\	4dd\	4F#/	.	4d\	.	4dd\	.	4dd\	.
 .	.	.	.	16d/L	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1381,7 +1381,7 @@
 .	.	.	.	16dd\	.	.	.	.	.	.	.	.	.	.	.	.	.
 8D\J	.	8d\J	.	16dd\	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	16dd\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:mixed beam:problem	!	!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8G\L	.	8g\L	.	16b\LL	.	4gg 4b/	.	4ee\	4gg\	4e\	.	4g\	.	4ee\	.	4gg\	.
 .	.	.	.	16b\	.	.	.	.	.	.	.	.	.	.	.	.	.
 8E\	.	8e\	.	16b\	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1394,7 +1394,7 @@
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 =96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96
-!	!	!	!	!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!
 4D\	.	4d\	.	8dd\L	.	4ff# 4a 4d/	.	4dd\	4ff#\	4d\	.	4f#\	.	4dd\	.	4ff#\	.
 .	.	.	.	16d/L	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	16e/JJ	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1415,7 +1415,7 @@
 .	.	.	.	16dd\	.	.	.	.	.	.	.	.	.	.	.	.	.
 8D\J	.	8d\J	.	16dd\	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	16dd\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:mixed beam:problem	!	!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8G\L	.	8g\L	.	16b\LL	.	4gg 4b/	.	4ee\	4gg\	4e\	.	4g\	.	4ee\	.	4gg\	.
 .	.	.	.	16b\	.	.	.	.	.	.	.	.	.	.	.	.	.
 8E\	.	8e\	.	16b\	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1431,7 +1431,7 @@
 16r	.	16r	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 16D\	.	16d\	.	16d/	.	16d/	.	.	.	16D/	.	16d\	.	16d/	.	16d/	.
 !	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem:pominięty fragment	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=pominięty fragment	!	!	!	!	!	!	!	!
 4D\	.	4d\	.	4d/	.	4d/	.	4d/	2ryy	4D/	.	4d\	.	4d/	.	4f#/	.
 4F#\	.	4f#\	.	4f#/	.	4f#/	.	4f#/	.	4F#/	.	4f#\	.	4f#/	.	4a/	.
 !	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
@@ -1439,7 +1439,7 @@
 =99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99
 4A\	.	4a\	.	4a/	.	4a/	.	4a/	4d/	4A/	.	4a\	.	4a/	.	4a/	.
 8r	.	8r	.	8r	.	8r	.	4r	4f#/	4r	.	4r	.	8r	.	8r	.
-!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:w źródle niepotrzebna kreska taktowa; ma to związek ze wcześniej pominiętą pauzą:problem	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle niepotrzebna kreska taktowa; ma to związek ze wcześniej pominiętą pauzą	!	!	!	!	!	!	!	!
 8F#\	.	8f#\	.	8f#/	.	8f#/	.	.	.	.	.	.	.	8f#/	.	8f#/	.
 8G\L	.	8g\L	.	8g/L	.	8g/L	.	2r	4a/	2r	.	2r	.	8g/L	.	8g/L	.
 8A\	.	8a\	.	8a/	.	8a/	.	.	.	.	.	.	.	8a/	.	8a/	.
@@ -1459,12 +1459,12 @@
 4D/	.	4d\	.	4ff# 4a 4d/	.	4ff# 4a 4d/	.	4f#/	4f#/	4d\	.	4f#\	.	4dd\	.	4ff#\	.
 4D/	.	4d\	.	4aa 4a 4d/	.	4aa 4a 4d/	.	4a/	4a/	4d\	.	4f#\	.	4ff#\	.	4aa\	.
 =102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102
-!LO:TX:a:t=P:mixed beam:problem	!	!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8D\L	.	8d\L	.	4ff# 4a 4d/	.	4ddd 4a 4d/	.	4f#/	4dd\	4d\	.	4f#\	.	4dd\	.	4ff#\	.
 8F#\	.	8f#\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8A\	.	8a\	.	8r	.	8r	.	8r	8r	8r	.	8r	.	8r	.	8r	.
 8AA/J	.	8A/J	.	8gg\	.	8ccc# 8a/	.	8a/	8ee\	8A/	.	8e\	.	8cc#\	.	8ee\	.
-!LO:TX:a:t=P:mixed beam:problem	!	!LO:TX:a:t=P:mixed beam:problem	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8D\L	.	8d\L	.	4ff# 4a 4d/	.	4ddd 4a 4d/	.	4dd\	4ff#\	4F#/	.	4d\	.	4dd\	.	4ff#\	.
 8F#\	.	8f#\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8A\	.	8a\	.	8r	.	8r	.	8r	8r	8r	.	8r	.	8r	.	8r	.

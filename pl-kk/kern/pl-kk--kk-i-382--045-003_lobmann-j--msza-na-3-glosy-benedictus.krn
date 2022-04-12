@@ -30,9 +30,9 @@
 *M3/2	*	*M3/2	*	*M3/2	*
 =1	=1	=1	=1	=1	=1
 !LO:TX:Bi:a:t=Benedictus.	!	!LO:TX:Bi:a:t=Benedictus.	!	!LO:TX:Bi:a:t=Benedictus.	!
-!LO:TX:t=P:problem:napis "Benedictus." na pięciolinii przed kluczem	!	!LO:TX:t=P:problem:napis "Benedictus." na pięciolinii przed kluczem	!	!LO:TX:t=P:problem:napis "Benedictus." na pięciolinii przed kluczem	!
-!LO:TX:t=P:problem:all\right:global	!	!LO:TX:t=P:problem:all\right:global	!	!LO:TX:i:a:t=Moderato.	!
-!LO:TX:i:a:t=Moderato.	!	!LO:TX:i:a:t=Moderato	!	!LO:TX:t=P:problem:all\right:global	!
+!LO:TX:t=P:problem=napis "Benedictus." na pięciolinii przed kluczem	!	!LO:TX:t=P:problem=napis "Benedictus." na pięciolinii przed kluczem	!	!LO:TX:t=P:problem=napis "Benedictus." na pięciolinii przed kluczem	!
+!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:i:a:t=Moderato.	!
+!LO:TX:i:a:t=Moderato.	!	!LO:TX:i:a:t=Moderato	!	!LO:TX:t=P:problem=all\right&colon; global	!
 1G	Be-	1b	Be-	1dd	Be-
 *2\right	*	*2\right	*	*2\right	*
 2G\	-ne-	2g/	-ne-	2b\	-ne-
@@ -63,7 +63,7 @@
 2r	.	2r	.	2r	.
 =8	=8	=8	=8	=8	=8
 !LO:TX:a:t=1	!	!LO:TX:a:t=1	!	!LO:TX:a:t=1	!
-!LO:TX:a:t=P:problem:belka jako pauza	!	!LO:TX:a:t=P:problem:belka jako pauza	!	!LO:TX:a:t=P:problem:belka jako pauza	!
+!LO:TX:a:t=P:problem=belka jako pauza	!	!LO:TX:a:t=P:problem=belka jako pauza	!	!LO:TX:a:t=P:problem=belka jako pauza	!
 1.r	.	1.r	.	1.r	.
 !	!	!	!	!LO:LB:g=original	!
 =9	=9	=9	=9	=9	=9
@@ -78,7 +78,7 @@
 =11	=11	=11	=11	=11	=11
 2B\	ve-	2dd\	ve-	2dd\	ve-
 2A\	.	1cc	.	2ee\	.
-!	!	!	!	!LO:TX:t=P:problem:skreślone trzy takty	!
+!	!	!	!	!LO:TX:t=P:problem=skreślone trzy takty	!
 2D\	.	.	.	2ff#\	.
 !	!	!	!	!LO:PB:g=original	!
 =12	=12	=12	=12	=12	=12
@@ -102,8 +102,8 @@
 2r	.	2a/	-ne-	2r	.
 =16	=16	=16	=16	=16	=16
 !LO:TX:a:t=3	!	!LO:TX:a:i:t=Solo	!	!LO:TX:a:t=1	!
-!LO:TX:a:t=P:problem:belka jako pauza wielotaktowa	!	!	!	!LO:TX:a:t=P:problem:belka jako pauza	!
-!	!	!LO:TX:a:t=P:problem:napis "Solo" dopisany ołówkiem	!	!	!
+!LO:TX:a:t=P:problem=belka jako pauza wielotaktowa	!	!	!	!LO:TX:a:t=P:problem=belka jako pauza	!
+!	!	!LO:TX:a:t=P:problem=napis "Solo" dopisany ołówkiem	!	!	!
 1.r	.	2b/	-dic-	1.r	.
 .	.	2a/	-tus	.	.
 .	.	2g/	qui	.	.
@@ -136,7 +136,7 @@
 2E\	-ne	2g/	.	2r	.
 =23	=23	=23	=23	=23	=23
 !	!	!	!	!LO:TX:a:t=1	!
-!	!	!	!	!LO:TX:a:t=P:problem:belka jako pauza	!
+!	!	!	!	!LO:TX:a:t=P:problem=belka jako pauza	!
 2F#\	Do-	2a/	.	1.r	.
 2G\	.	2b\	.	.	.
 2A\	-mi-	2ccn\	-mi-	.	.
@@ -187,7 +187,7 @@
 2r	.	2g/	Ho-	2r	.
 =34	=34	=34	=34	=34	=34
 !LO:TX:a:t=1	!	!	!	!	!
-!LO:TX:a:t=P:problem:belka jako pauza	!	!	!	!	!
+!LO:TX:a:t=P:problem=belka jako pauza	!	!	!	!	!
 1.r	.	(>2b\	-san-	1r	.
 .	.	2a\)	.	.	.
 .	.	2g/	-na	2b\	Ho-

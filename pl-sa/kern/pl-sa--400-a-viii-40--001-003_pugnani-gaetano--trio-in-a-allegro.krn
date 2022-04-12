@@ -31,10 +31,10 @@
 *>[A,A,B,B]	*>[A,A,B,B]	*	*>[A,A,B,B]	*
 =1	=1	=1	=1	=1
 *>A	*>A	*	*>A	*
-!LO:TX:t=P:problem:zgodnie z RISM "b part missing."	!LO:TX:a:B:t=Allo	!	!LO:TX:a:B:t=Allo	!
+!LO:TX:t=P:problem=zgodnie z RISM "b part missing."	!LO:TX:a:B:t=Allo	!	!LO:TX:a:B:t=Allo	!
 2.ryy	2A/	.	4ee\	.
 *	*	*	*Xtuplet	*
-!	!	!	!LO:TUP:a:problem:klamra łukowa	!
+!	!	!	!LO:TUP:a:problem=klamra łukowa	!
 .	.	.	12aa\L	.
 .	.	.	12gg#\	.
 .	.	.	12ff#\J	.
@@ -60,7 +60,7 @@
 =5	=5	=5	=5	=5
 2.ryy	4ee\	.	2A/	.
 *	*Xtuplet	*	*	*
-!	!LO:TUP:a:problem:klamra łukowa	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!
 .	12aa\L	.	.	.
 .	12gg#\	.	.	.
 .	12ff#\J	.	.	.
@@ -72,15 +72,15 @@
 !	!	!	!LO:N:vis=2.	!
 .	4cc#\	.	4a/	.
 =7	=7	=7	=7	=7
-!	!LO:TUP:a:problem:klamra łukowa	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!
 2.ryy	12b\L	.	2d/	.
 .	12cc#\	.	.	.
 .	12b\J	.	.	.
-!	!LO:TUP:a:problem:klamra łukowa	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!
 .	12ff#\L	.	.	.
 .	12ee\	.	.	.
 .	12dd\J	.	.	.
-!	!LO:TUP:a:problem:klamra łukowa	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!
 .	12cc#\L	.	4d#X/	.
 .	12b\	.	.	.
 .	12a\J	.	.	.
@@ -109,21 +109,21 @@
 2.ryy	2.gg#\	.	2.bb\	.
 =13	=13	=13	=13	=13
 2.ryy	4gg#\	.	4bb\	.
-!	!LO:TUP:a:problem:klamra łukowa	!	!LO:TUP:a:problem:klamra łukowa	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!LO:TUP:a:problem=klamra łukowa	!
 .	12gg#\L	.	12bb\L	.
 .	12ee\	.	12gg#\	.
 .	12ff#\J	.	12aa\J	.
-!	!LO:TUP:a:problem:klamra łukowa	!LO:TUP:a:problem:klamra łukowa	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa	!	!
 .	12gg#\L	.	12bb\L	.
 .	12ee\	.	12gg#\	.
 .	12gg#\J	.	12bb\J	.
 =14	=14	=14	=14	=14
 2.ryy	4ff#\	.	4aa\	.
-!	!	!	!LO:TUP:a:problem:klamra łukowa	!
+!	!	!	!LO:TUP:a:problem=klamra łukowa	!
 .	12ff#|>\L	.	12aa\L	.
 .	(12dd#X\	.	12ff#\	.
 .	12ee\J)	.	12gg#\J	.
-!	!	!	!LO:TUP:a:problem:klamra łukowa	!
+!	!	!	!LO:TUP:a:problem=klamra łukowa	!
 .	12ff#|>\L	.	12aa\L	.
 .	(12dd#\	.	12ff#\	.
 .	12ff#\J)	.	12aa\J	.
@@ -163,7 +163,7 @@
 .	.	.	12gg#\	.
 .	.	.	12aa\J	.
 .	4b\	.	4ee\	.
-!	!	!	!LO:TX:t=P:problem:niejednoznaczny zapis ozdobnika [przyjęto mordent górny]:global	!
+!	!	!	!LO:TX:t=P:global:problem=niejednoznaczny zapis ozdobnika [przyjęto mordent górny]	!
 .	4B/	.	4dd#Xm\	.
 =20	=20	=20	=20	=20
 !	!	!	!LO:SIC:v:s=8qdd#	!
@@ -198,11 +198,11 @@
 .	4r	.	8g#/	.
 .	.	.	8e/J	.
 =23	=23	=23	=23	=23
-!	!LO:TUP:a:problem:klamra łukowa	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!
 2.ryy	12cc#\L	.	4a\	.
 .	12b\	.	.	.
 .	12a\J	.	.	.
-!	!LO:TX:t=P:problem:niejednoznaczny zapis ozdobnika [przyjęto mordent górny]:global	!	!	!
+!	!LO:TX:t=P:global:problem=niejednoznaczny zapis ozdobnika [przyjęto mordent górny]	!	!	!
 .	4g#m/	.	4b\	.
 .	4g#m/	.	4B/	.
 =24	=24	=24	=24	=24
@@ -406,15 +406,15 @@
 .	8cc#/	.	.	.	.
 .	8cc#/J	.	.	.	.
 =49	=49	=49	=49	=49	=49
-!	!	!	!	!LO:TX:t=P:problem:mixed beam	!
+!	!	!	!	!LO:TX:t=P:problem=mixed beam	!
 2.ryy	2e/ 2b	2ryy	.	8.gg#\L	.
 .	.	.	.	16e/Jk	.
-!	!	!	!	!LO:TX:t=P:problem:mixed beam	!
+!	!	!	!	!LO:TX:t=P:problem=mixed beam	!
 .	.	.	.	8.e/L	.
 .	.	.	.	16aa\Jk	.
 .	4cc#/	4f#\	.	4aaM\	.
 =50	=50	=50	=50	=50	=50
-!	!	!	!	!LO:TX:t=P:problem:mixed beam	!
+!	!	!	!	!LO:TX:t=P:problem=mixed beam	!
 2.ryy	2dd/	2e\	.	8.bb\L	.
 .	.	.	.	16e/Jk	.
 .	.	.	.	4e/	.
@@ -428,7 +428,7 @@
 *	*v	*v	*	*	*
 !	!	!	!LO:LB:g=original	!
 =52	=52	=52	=52	=52
-!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!	!LO:TX:t=P:problem=mixed beam	!	!	!
 .	.	.	8qgg#/	.
 2.ryy	8dd\L	.	(32ff#\LLL	.
 .	.	.	32ee\JJ	.
@@ -450,7 +450,7 @@
 .	8A/J	.	.	.
 !	!LO:PB:g=original	!	!	!
 =54	=54	=54	=54	=54
-!	!	!	!LO:TUP:a:problem:klamra łukowa	!
+!	!	!	!LO:TUP:a:problem=klamra łukowa	!
 .	.	.	8qgg#/	.
 2.ryy	4d/	.	12ff#\L	.
 .	.	.	12ee\	.
@@ -485,7 +485,7 @@
 .	4r	.	8c#/	.
 .	.	.	8A/J	.
 =58	=58	=58	=58	=58
-!	!LO:TUP:a:problem:klamra łukowa	!	!	!
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!
 2.ryy	12ff#\L	.	4d/	.
 .	12ee\	.	.	.
 .	12dd\J	.	.	.

@@ -34,16 +34,16 @@
 *2\right	*2\right	*2\right	*2\right	*	*	*2\right	*	*2\right	*	*2\right	*	*2\right	*2\right
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!	!	!	!	!	!	!LO:TX:b:t=adagio	!	!	!
-!	!LO:TX:a:t=adagio	!LO:TX:a:t=adagio	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:skreślony takt	!
+!	!LO:TX:a:t=adagio	!LO:TX:a:t=adagio	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=skreślony takt	!
 4E-\	8r	8r	8r	.	.	8r	.	8r	.	2.ee-\	San-	4e-\	4g\
 .	8e-/L	8g/L	8E-\	San-	.	8G/	Sa-	8e-\	San-	.	.	.	.
-!	!	!	!LO:TX:t=P:problem:p=pi	!	!LO:DY:a:Bi:t=pi	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:t=P:p=pi:problem	!	!LO:DY:a:Bi:t=pi	!	!	!	!	!	!	!	!
 4r	8f/	8a-/	8F\L	.	p	8A-/L	.	8f\L	.	.	.	4r	4r
 .	8e-/	8g/	8E-\	.	.	8G/	.	8e-\	.	.	.	.	.
 4r	8f/	8a-/	8F\	.	.	8A-/	.	8f\	.	.	.	4r	4r
 .	8g/J	8b-/J	8G\J	.	.	8B-/J	.	8g\J	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-!	!	!	!LO:TX:t=P:problem:ff=ffor	!	!LO:DY:a:Bi:t=ffor	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:t=P:ff=ffor:problem	!	!LO:DY:a:Bi:t=ffor	!	!	!	!	!	!	!	!
 4A-\	4a-/	4cc\	4A-\	.	ff	4c\	.	4a-\	.	4ee-\	-ctus	4a-\	4cc\
 4E-\	4g/	4b-\	4E-\	-ctus	.	4B-\	-nctus	4g\	-ctus	4ee-\	.	4g\	4b-\
 4r	4r	4r	4r	.	.	4r	.	4r	.	4r	.	4r	4r
@@ -193,7 +193,7 @@
 4F\	4a-X/	4dd\	4F\	tu-	.	2d\	tu-	(4a-\	tu-	(4dd\	tu-	.	.
 4G\	4g/	4bn\	4G\	.	.	.	.	4g\)	.	4bn\)	.	.	.
 =22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22
-!LO:TX:t=P:problem:mixed beam	!LO:TX:t=P:problem:mixed beam	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!LO:TX:t=P:problem=mixed beam	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!
 8C|>/L	8c/L	8cc/L	4C/	-a	.	4c\	-a	4g\	-a	4cc\	-a	2.r	2.r
 8c|\	8cc\	8cc/	.	.	.	.	.	.	.	.	.	.	.
 8B-|\	8b-\	8b-X/	4r	.	.	4r	.	4r	.	4r	.	.	.
@@ -203,7 +203,7 @@
 =23	=23	=23	=23||	=23||	=23||	=23||	=23||	=23||	=23||	=23||;	=23||	=23||	=23||
 *	*	*	*	*	*	*k[a-b-e-]	*	*k[a-b-e-]	*	*	*	*M3/4	*M3/4
 *	*	*	*	*	*	*M3/4	*	*M3/4	*	*	*	*	*
-!LO:LB:g=original	!	!	!LO:TX:t=P:problem:wrong time signature (erased)	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!LO:TX:t=osanna:b:rj	!LO:TX:t=Osanna:b:rj
+!LO:LB:g=original	!	!	!LO:TX:t=P:problem=wrong time signature (erased)	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!LO:TX:t=osanna:b:rj	!LO:TX:t=Osanna:b:rj
 4E-\	8e-/L	8e-/L	8r	.	.	8r	.	8r	.	2.ee-\	O-	8B-\L	8e-\L
 .	8e-/	8g/	8E-\	O-	.	8G/	O-	8e-\	O-	.	.	8e-\	8g\
 4r	8f/	8a-/	8F\	-san-	.	8A-/	-san-	8f\	-san-	.	.	8f\	8a-\
@@ -276,7 +276,7 @@
 .	8a-/	8cc/	.	.	.	.	.	.	.	.	.	.	.
 .	8f/J	8dd/J	.	.	.	.	.	.	.	.	.	.	.
 =32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32
-!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original
+!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original
 8r	8g/L	8ee-\L	8r	.	.	8r	.	8r	.	8r	.	8r	8r
 8A-\	8f/J	8g/J	16A-\	in	.	16c\	in	16f\	in	8a-\	o-	8f\	8a-\
 .	.	.	16A-\	ex-	.	16c\	ex-	16f\	ex-	.	.	.	.
@@ -291,7 +291,7 @@
 4r	8a-/	8cc/	4r	.	.	4r	.	4r	.	4r	.	4r	4r
 .	8f/J	8dd/J	.	.	.	.	.	.	.	.	.	.	.
 =34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34
-!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8r	8g/L	8ee-\L	8r	.	.	8r	.	8r	.	8r	.	8r	8r
 8A-\	8f/J	8g/J	16A-\	in	.	16c\	in	16f\	in	8a-\	o-	8f\	8a-\
 .	.	.	16A-\	ex-	.	16c\	ex-	16f\	ex-	.	.	.	.
