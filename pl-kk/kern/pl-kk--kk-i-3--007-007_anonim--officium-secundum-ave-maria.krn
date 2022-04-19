@@ -63,11 +63,11 @@
 *	*	*lig	*	*	*	*
 1F	.	1D	bistropha	.	0d	.
 =7	=7	=7	=7	=7	=7	=7
-!LO:SIC:v:t=custos D	!	!	!	!	!	!
+*custos:D	*	*	*	*	*	*
 1F	.	1D	.	.	.	.
 *	*	*Xlig	*	*	*	*
+*	*	*	*	*	*custos:d	*
 !LO:LB:g=original	!	!	!	!	!	!
-!	!	!	!	!	!LO:SIC:v:t=custos d	!
 0D	.	1F	virga	.	0d	.
 !	!	!	!	!	!LO:LB:g=original	!
 =8	=8	=8	=8	=8	=8	=8
@@ -101,16 +101,16 @@
 2GG/	-ve,	1G	punctum	-ve	2g\	-ve,
 1G	Ma-	.	.	.	1d	Ma-
 .	.	1G	punctum	Ma-	.	.
-!LO:SIC:v:t=custos D	!	!	!	!	!	!
+*custos:D	*	*	*	*	*	*
 2E\	.	.	.	.	2c\	.
 !LO:LB:g=original	!	!	!	!	!	!
 =14	=14	=14	=14	=14	=14	=14
-!	!	!LO:SIC:v:t=custos c	!	!	!	!
+*	*	*custos:c	*	*	*	*
 1D	.	1A	virga	.	1d	.
 !	!	!LO:LB:g=original	!	!	!	!
 *	*	*lig	*	*	*	*
 1A	.	1c	clivis	-ri-	2e\	.
-!	!	!	!	!	!LO:SIC:v:t=custos g	!
+*	*	*	*	*	*custos:g	*
 .	.	.	.	.	2f\	.
 !	!	!	!	!	!LO:LB:g=original	!
 =15	=15	=15	=15	=15	=15	=15
@@ -140,7 +140,7 @@
 =20	=20	=20	=20	=20	=20	=20
 1GG	-a,	1G	virga	-a,	.	.
 2GG/	.	1G	punctum	gra-	2d\	.
-!LO:SIC:v:t=custos BB	!	!	!	!	!	!
+*custos:BB	*	*	*	*	*	*
 2C/	gra-	.	.	.	2c\	gra-
 !LO:LB:g=original	!	!	!	!	!	!
 =21	=21	=21	=21	=21	=21	=21
@@ -152,7 +152,7 @@
 =22	=22	=22	=22	=22	=22	=22
 *	*	*lig	*	*	*	*
 2AA/	.	1F	clivis	.	2c\	.
-!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*custos:e	*
 1D	.	.	.	.	2d\	.
 !	!	!	!	!	!LO:LB:g=original	!
 .	.	1E	.	.	1e	.
@@ -180,20 +180,20 @@
 2E\	.	.	.	.	1g	ple-
 =28	=28	=28	=28	=28	=28	=28
 *	*	*lig	*	*	*	*
-!LO:SIC:v:t=custos GG	!	!	!	!	!	!
+*custos:GG	*	*	*	*	*	*
 1D	-na,	1A	clivis	.	.	.
 .	.	.	.	.	2f\	.
 !LO:LB:g=original	!	!	!	!	!	!
 1GG	.	1G	.	.	1g	-na,
 *	*	*Xlig	*	*	*	*
 =29	=29	=29	=29	=29	=29	=29
-!	!	!LO:SIC:v:t=custos A	!	!	!	!
+*	*	*custos:A	*	*	*	*
 2C/	do-	1G	punctum	-na,	1g	do-
 2E\	.	.	.	.	.	.
 !	!	!LO:LB:g=original	!	!	!	!
 1D	.	1A	punctum	do-	1f	.
 =30	=30	=30	=30	=30	=30	=30
-!	!	!	!	!	!LO:SIC:v:t=custos d	!
+*	*	*	*	*	*custos:d	*
 2AA/	.	1c	virga	.	1e	.
 1A	.	.	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!
@@ -220,7 +220,7 @@
 =35	=35	=35	=35	=35	=35	=35
 1E	.	1c	virga	.	.	.
 *	*	*	*	*	*lig	*
-!LO:SIC:v:t=custos F	!	!	!	!	!	!
+*custos:F	*	*	*	*	*	*
 1D	.	1B	punctum	.	1d	.
 !LO:LB:g=original	!	!	!	!	!	!
 =36	=36	=36	=36	=36	=36	=36
@@ -234,7 +234,7 @@
 =38	=38	=38	=38	=38	=38	=38
 1F	.	1A	punctum	.	1c	.
 *	*	*lig	*	*	*	*
-!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*custos:e	*
 1C	.	1c	clivis	.	0g	.
 !	!	!	!	!	!LO:LB:g=original	!
 =39	=39	=39	=39	=39	=39	=39
@@ -255,7 +255,7 @@
 =42	=42	=42	=42	=42	=42	=42
 1GG	-mi-	1G	virga	-nus	1d	te-
 2GG/	-nus	1G	punctum	.	2d\	.
-!LO:SIC:v:t=custos BB	!	!	!	!	!	!
+*custos:BB	*	*	*	*	*	*
 1C	te-	.	.	.	1e	.
 !LO:LB:g=original	!	!	!	!	!	!
 =43	=43	=43	=43	=43	=43	=43
@@ -268,7 +268,7 @@
 =44	=44	=44	=44	=44	=44	=44
 .	.	1E	punctum	.	.	.
 1G	.	.	.	.	2c\	.
-!	!	!LO:SIC:v:t=custos E	!	!	!	!
+*	*	*custos:E	*	*	*	*
 .	.	1D	punctum	.	1d	.
 2F\	.	.	.	.	.	.
 !	!	!LO:LB:g=original	!	!	!	!
@@ -280,7 +280,7 @@
 2BB/	.	.	.	.	2d\	.
 =46	=46	=46	=46	=46	=46	=46
 2C/	.	1G	punctum	.	2c\	.
-!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*custos:e	*
 2BB/	.	.	.	.	2d\	.
 !	!	!	!	!	!LO:LB:g=original	!
 2AA/	.	1A	virga	.	2e\	.
@@ -298,7 +298,7 @@
 1D	.	1A	virga	.	.	.
 .	.	.	.	.	2f\	.
 =49	=49	=49	=49	=49	=49	=49
-!LO:SIC:v:t=custos G	!	!	!	!	!	!
+*custos:G	*	*	*	*	*	*
 1GG	-cu(m)	1G	punctum	-cu(m)	1g	-cu(m)
 !LO:LB:g=original	!	!	!	!	!	!
 1G	be-	1G	punctum	be-	1g	be-
@@ -318,7 +318,7 @@
 1E	.	1c	punctum	-cta	1c	.
 =53	=53	=53	=53	=53	=53	=53
 *	*	*lig	*	*	*	*
-!	!	!	!	!	!LO:SIC:v:t=custos A	!
+*	*	*	*	*	*custos:A	*
 2D\	-cta	1d	clivis	.	1B	.
 2BB/	.	.	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!
@@ -334,7 +334,7 @@
 *	*	*Xlig	*	*	*	*
 =55	=55	=55	=55	=55	=55	=55
 2F\	.	1c	punctum	.	2A/	.
-!LO:SIC:v:t=custos D	!	!	!	!	!	!
+*custos:D	*	*	*	*	*	*
 2E\	.	.	.	.	2G/	.
 *	*	*lig	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!	!
@@ -353,7 +353,7 @@
 1G	-ri-	1B	punctum	.	1G	.
 =59	=59	=59	=59	=59	=59	=59
 *lig	*	*	*	*	*	*
-!	!	!LO:SIC:v:t=custos d	!	!	!	!
+*	*	*custos:d	*	*	*	*
 1F	.	1A	punctum	.	1A	-e-
 !	!	!LO:LB:g=original	!	!	!	!
 1D	.	1d	punctum	-li-	2A/	.
@@ -363,7 +363,7 @@
 *	*	*lig	*	*	*	*
 1A	.	1c	climacus	-e-	2c\	.
 .	.	.	.	.	2A/	.
-!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*custos:e	*
 1G	.	1B	.	.	2B/	.
 !	!	!	!	!	!LO:LB:g=original	!
 .	.	.	.	.	1e	.
@@ -381,7 +381,7 @@
 =63	=63	=63	=63	=63	=63	=63
 1C	.	1c	virga	-bus	1e	.
 *Xlig	*	*	*	*	*Xlig	*
-!LO:SIC:v:t=custos C	!	!	!	!	!	!
+*custos:C	*	*	*	*	*	*
 1C	-bus	1c,	punctum	.	1e	-bus
 !LO:LB:g=original	!	!	!	!	!	!
 =64	=64	=64	=64	=64	=64	=64
@@ -409,14 +409,14 @@
 .	.	1G	punctum	-ctus	1d	.
 2B\	.	.	.	.	.	.
 =69	=69	=69	=69	=69	=69	=69
-!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*custos:e	*
 2c\	.	1A	punctum	.	2c\	.
 !	!	!	!	!	!LO:LB:g=original	!
 2C/	.	.	.	.	2e\	.
 1G	.	1B	punctum	.	1d	.
 *clefF4	*	*lig	*	*	*	*
 =70	=70	=70	=70	=70	=70	=70
-!LO:SIC:v:t=custos D	!	!	!	!	!	!
+*custos:D	*	*	*	*	*	*
 1C	.	1c	clivis	.	2c\	.
 .	.	.	.	.	1g	-ctus
 !LO:LB:g=original	!	!	!	!	!	!
@@ -432,7 +432,7 @@
 *	*	*Xlig	*	*	*	*
 =72	=72	=72	=72	=72	=72	=72
 1C	.	1G	punctum	.	1e	.
-!	!	!LO:SIC:v:t=custos F	!	!	!	!
+*	*	*custos:F	*	*	*	*
 1F	.	1A	virga	.	1c	.
 !	!	!LO:LB:g=original	!	!	!	!
 =73	=73	=73	=73	=73	=73	=73
@@ -450,7 +450,7 @@
 1G	.	1E	punctum	.	1e	ven-
 =76	=76	=76	=76	=76	=76	=76
 2F\	.	1F	punctum	.	2d\	.
-!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*custos:e	*
 2A\	.	.	.	.	1f	.
 1G	.	1G	punctum	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!
@@ -459,7 +459,7 @@
 2D\	.	1A	virga	.	2f\	.
 2C/	.	.	.	.	1e	.
 *	*	*lig	*	*	*	*
-!LO:SIC:v:t=custos AA	!	!	!	!	!	!
+*custos:AA	*	*	*	*	*	*
 1D	.	1F	clivis	.	.	.
 .	.	.	.	.	1d	.
 !LO:LB:g=original	!	!	!	!	!	!
@@ -493,7 +493,7 @@
 *	*	*lig	*	*	*	*
 1D	tu-	1A	clivis	.	1f	tu-
 =84	=84	=84	=84	=84	=84	=84
-!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*custos:e	*
 2GG/	.	1G	.	.	1g	.
 1C	.	.	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!

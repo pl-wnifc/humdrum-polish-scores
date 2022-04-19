@@ -107,8 +107,8 @@
 .	.	.	.	.	24aa\	.	.	.	.	.	.	.
 .	.	.	.	.	24gg\JJ	.	.	.	.	.	.	.
 8G\	.	.	16dd\L	.	(16ff#\LL	.	.	.	.	.	.	.
+*	*	*	*	*	*custos:dd	*	*	*	*	*	*	*
 !	!	!	!	!	!LO:TX:t=P:problem=wszystkie custos użyte jako łamanie pięciolinii	!	!	!	!	!	!	!
-!	!	!	!	!	!LO:SIC:v:t=custos dd	!	!	!	!	!	!	!
 .	.	.	16b\JJ	.	16gg\JJ)	.	.	.	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
 8G\	.	.	16dd\LL	.	(16.ff#\LL	.	.	.	.	.	4r	4r
@@ -134,8 +134,8 @@
 4BB/	.	.	16g/LL	.	16bb\LL	.	.	.	.	.	4r	4r
 .	.	.	16bb\	.	16gg\	.	.	.	.	.	.	.
 .	.	.	16aa\	.	16ff#\	.	.	.	.	.	.	.
+*	*	*	*custos:cc	*	*	*	*	*	*	*	*	*
 !	!	!	!LO:TX:t=P:problem=wszystkie custos użyte jako łamanie pięciolinii	!	!	!	!	!	!	!	!	!
-!	!	!	!LO:SIC:v:t=custos cc	!	!	!	!	!	!	!	!	!
 .	.	.	16gg\JJ	.	16ee\JJ	.	.	.	.	.	.	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 8r	.	.	16ff#\LL	.	16dd\LL	.	.	.	.	.	8r	8r
@@ -200,7 +200,7 @@
 16G\LL	.	.	16gg\LL	.	16bb\LL	.	4B\	-o	4gg\	-o	8dd\	8dd\
 16G\	.	.	16gg\	.	16bb\	.	.	.	.	.	.	.
 16G\	.	.	16gg\	.	16bb\	.	.	.	.	.	8dd\J	8dd\J
-!	!	!	!	!	!LO:SIC:v:t=custos cc	!	!	!	!	!	!	!
+*	*	*	*	*	*custos:cc	*	*	*	*	*	*	*
 16G\JJ	.	.	16gg\JJ	.	16bb\JJ	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	8qqgg/	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!LO:LB:g=original	!
@@ -234,7 +234,7 @@
 8F#\L	.	.	16dd\LL	.	8aa\	.	4.F#\	De-	8dd\	in	4ff#\	4aa\
 .	.	.	16a\	.	.	.	.	.	.	.	.	.
 8F#\	.	.	16dd\	.	4f#/	.	.	.	8a\	ex-	.	.
-!	!	!	!LO:SIC:v:t=custos b	!	!	!	!	!	!	!	!	!
+*	*	*	*custos:b	*	*	*	*	*	*	*	*	*
 .	.	.	16a\JJ	.	.	.	.	.	.	.	.	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 8F#\	.	.	16dd\LL	.	.	.	.	.	8a\	-cel-	4r	4r
@@ -355,14 +355,14 @@
 16A\	.	.	16cc\	.	16ee\	.	.	.	.	.	.	.
 !	!	!	!LO:SIC:v:s=16cc#\	!	!	!	!	!	!	!	!	!
 16A\	.	.	16cc\	.	16ee\	.	.	.	.	.	16a/L	16a/L
+*	*	*	*custos:a	*	*	*	*	*	*	*	*	*
 !	!	!	!LO:SIC:v:s=16cc#\JJ	!	!	!	!	!	!	!	!	!
-!	!	!	!LO:SIC:v:t=custos a	!	!	!	!	!	!	!	!	!
 16A\JJ	.	.	16cc\JJ	.	16ee\JJ	.	.	.	.	.	16a/JJ	16a/JJ
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 16A\LL	.	.	16ee\LL	.	16gg\LL	.	.	.	.	.	8a/L	8a/L
 16A\	.	.	16ee\	.	16gg\	.	.	.	.	.	.	.
+*	*	*	*	*	*	*	*	*	*	*	*	*custos:b
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=wszystkie custos użyte jako łamanie pięciolinii
-!	!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:t=custos b
 16A\	.	.	16ee\	.	16gg\	.	.	.	.	.	8ee/J	8gg\J
 16A\JJ	.	.	16ee\JJ	.	16gg\JJ	.	.	.	.	.	.	.
 !	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!LO:LB:g=original
@@ -492,11 +492,12 @@
 .	.	.	.	.	16ee\	.	.	.	.	.	.	.
 .	.	.	.	.	16ff#\	.	.	.	.	.	.	.
 .	.	.	.	.	16gg\JJ	.	.	.	.	.	.	.
+*	*	*	*	*	*	*	*custos:E	*	*	*	*	*
 !	!	!	!	!	!	!	!LO:TX:t=P:problem=wszystkie custos użyte jako łamanie pięciolinii	!	!	!	!	!
-!	!	!	!	!	!	!	!LO:SIC:v:t=custos E	!	!	!	!	!
 8d\L	.	.	8r	.	16aa\LL	.	8d\	gra-	8ff#\	gra-	8r	8r
 .	.	.	.	.	16bb\	.	.	.	.	.	.	.
-!	!	!	!LO:SIC:v:t=custos b	!	!LO:SIC:v:s=8ccc#\	!	!LO:LB:g=original	!	!	!	!	!
+*	*	*	*custos:b	*	*	*	*	*	*	*	*	*
+!	!	!	!	!	!LO:SIC:v:s=8ccc#\	!	!LO:LB:g=original	!	!	!	!	!
 8d\J	.	.	8a/	.	16ccc\	.	16d\	-ti-	16ff#\	-ti-	8dd\	8ff#\
 .	.	.	.	.	16ddd\JJ	.	16d\	-as	16ff#\	-as	.	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
@@ -624,8 +625,8 @@
 !	!	!	!	!	!	!LO:DY:a:t=pia	!	!	!	!	!	!
 8E\	.	.	8g/	.	4ee\	p	.	.	.	.	.	.
 8E\	.	.	8g/	.	.	.	8B\	-mi-	.	.	.	.
+*custos:C	*	*	*	*	*	*	*	*	*	*	*	*
 !LO:TX:t=P:problem=wszystkie custos użyte jako łamanie pięciolinii	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:SIC:v:t=custos C	!	!	!	!	!	!	!	!	!	!	!	!
 8E\J	.	.	8g/J	.	16b/LL	.	8B\	-ne	.	.	.	.
 .	.	.	.	.	16g/JJ	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!
@@ -690,7 +691,7 @@
 8D#/J	.	.	8d#/J	.	8f#/J	.	8B\	Pa-	.	.	.	.
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!
 8E\L	.	.	8e/L	.	8g/L	.	8e\	-ter	.	.	.	.
-!	!	!	!	!	!	!	!LO:SIC:v:t=custos F#	!	!	!	!	!
+*	*	*	*	*	*	*	*custos:F#	*	*	*	*	*
 8A\	.	.	8a/	.	8a/	.	8A\	o-	.	.	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
 8B\|	.	.	8b/	.	8b/	.	8.B\	-mni-	.	.	.	.
@@ -723,7 +724,7 @@
 8r	.	.	8r	.	8r	.	8c\	Chri-	.	.	.	.
 8D/L	.	.	8a/L	.	8cc\L	.	8A\	.	.	.	.	.
 8AA/	.	.	8a/	.	8cc\	.	8c\	-ste	.	.	.	.
-!	!	!	!	!	!LO:SIC:v:t=custos a	!	!	!	!	!	!	!
+*	*	*	*	*	*custos:a	*	*	*	*	*	*	*
 8DD/J	.	.	8a/J	.	8cc\J	.	8c\	.	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
 4DD/	.	.	16a/LL	.	16cc\LL	.	16c\LL	Je-	.	.	.	.
@@ -731,7 +732,7 @@
 .	.	.	16f#/	.	16a\	.	16A\	.	.	.	.	.
 !	!	!	!	!	!LO:TX:a:t=b	!	!	!	!	!	!	!
 .	.	.	16g/	.	16b\	.	16B\	-su	.	.	.	.
-!	!	!	!LO:SIC:v:t=custos b	!	!	!	!	!	!	!	!	!
+*	*	*	*custos:b	*	*	*	*	*	*	*	*	*
 .	.	.	16a/JJ	.	16cc\JJ	.	16c\JJ	.	.	.	.	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 4r	.	.	8g/L	.	8b\L	.	8B\L	Je-	.	.	.	.
@@ -850,7 +851,7 @@
 *	*	*	*	*	*	*	*	*Xij	*	*	*	*
 16d\	.	.	16aa\	.	16ccc\	.	.	.	.	.	.	.
 16d\	.	.	16aa\	.	16ccc\	.	.	.	.	.	.	.
-!	!	!	!LO:SIC:v:t=custos cc	!	!	!	!	!	!	!	!	!
+*	*	*	*custos:cc	*	*	*	*	*	*	*	*	*
 16d\JJ	.	.	16aa\JJ	.	16ccc\JJ	.	.	.	.	.	.	.
 !	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
@@ -1031,7 +1032,7 @@
 .	.	.	16dd\JJ	.	16dd\JJ)	.	.	.	.	.	.	.
 =61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61
 .	.	.	16qqcc/LL	.	16qqcc/LL	.	.	.	.	.	.	.
-!	!	!	!	!	!LO:SIC:v:t=custos a	!	!	!	!	!	!	!
+*	*	*	*	*	*custos:a	*	*	*	*	*	*	*
 .	.	.	16qqdd/JJ	.	16qqdd/JJ	.	.	.	.	.	.	.
 4F#X\	x 6	.	4ee-\	.	4ee-\	.	2.ryy	.	.	.	2.ryy	2.ryy
 .	x 2	.	.	.	.	.	.	.	.	.	.	.
@@ -1066,8 +1067,8 @@
 2D/	.	.	16d/LL	.	(16f#X/LL	.	2.ryy	.	.	.	2.ryy	2.ryy
 .	.	.	16en/	.	16g/	.	.	.	.	.	.	.
 .	.	.	16e/	.	16g/	.	.	.	.	.	.	.
+*	*	*	*custos:b	*	*	*	*	*	*	*	*	*
 !	!	!	!LO:SIC:v:s=16f#/JJ	!	!	!	!	!	!	!	!	!
-!	!	!	!LO:SIC:v:t=custos b	!	!	!	!	!	!	!	!	!
 .	.	.	16f/JJ	.	16a/JJ)	.	.	.	.	.	.	.
 !	!	!	!LO:SIC:v:s=16f#/LL	!	!	!	!	!	!	!	!	!
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
@@ -1101,8 +1102,9 @@
 =67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8GG/L	.	.	8g/L	.	8g/L	.	2.ryy	.	.	.	2.ryy	2.ryy
+*custos:D	*	*	*	*	*	*	*	*	*	*	*	*
 !LO:TX:b:t=[ſeqt] ultra.	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:SIC:v:t=custos D	!	!	!	!	!	!LO:DY:b:t=pia	!	!	!	!	!	!
+!	!	!	!	!	!	!LO:DY:b:t=pia	!	!	!	!	!	!
 8c\J	.	.	8cc/J	.	8ee-\J	p	.	.	.	.	.	.
 !LO:PB:g=original	!	!	!	!	!	!	!	!	!	!	!	!
 4A\	.	.	8r	.	8r	.	.	.	.	.	.	.
@@ -1431,7 +1433,8 @@
 =102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102	=102
 8r	.	.	16d/LL	.	16f#X/LL	.	2.ryy	.	4r	.	2.ryy	2.ryy
 .	.	.	16en/J	.	16g/J	.	.	.	.	.	.	.
-!	!	!	!LO:SIC:v:s=8f#/J	!	!LO:SIC:v:t=custos b	!	!	!	!	!	!	!
+*	*	*	*	*	*custos:b	*	*	*	*	*	*	*
+!	!	!	!LO:SIC:v:s=8f#/J	!	!	!	!	!	!	!	!	!
 8D/	.	.	8f/J	.	8a/J	.	.	.	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
 4DD/	.	.	8r	.	8r	.	.	.	4dd\	Mi-	.	.
@@ -1901,7 +1904,7 @@
 8GG/Lyy	.	.	16g/LL	.	16b\LLyy	.	4r	.	2b\	a-	2.r	2.r
 .	.	.	16g/	.	16b\yy	.	.	.	.	.	.	.
 8GG/yy	.	.	16g/	.	16b\yy	.	.	.	.	.	.	.
-!	!	!	!LO:SIC:v:t=custos a	!	!	!	!	!	!	!	!	!
+*	*	*	*custos:a	*	*	*	*	*	*	*	*	*
 .	.	.	16g/JJ	.	16b\JJyy	.	.	.	.	.	.	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 8GG/yy	.	.	16dd\LL	.	16b\LLyy	.	4d\	a-	.	.	.	.

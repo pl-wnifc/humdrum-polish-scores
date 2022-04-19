@@ -52,8 +52,9 @@
 =4-	=4-	=4-	=4-	=4-	=4-	=4-	=4-
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 1C	.	1r	.	1c	-RI-	.	.
+*custos:D	*	*	*	*	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:SIC:v:t=custos D	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 1GG	-a	1G	A-	0d	-A	1.B-	-ve
 =5-	=5-	=5-	=5-	=5-	=5-	=5-	=5-
 *	*ij	*	*	*	*	*	*
@@ -76,7 +77,7 @@
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 *	*	*lig	*	*	*	*	*
 1E-X	-si-	1G	-RI-	.	.	2B-/	-RI-
-!	!	!	!	!LO:SIC:v:t=custos G	!	!	!
+*	*	*	*	*custos:G	*	*	*
 .	.	.	.	4A\	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!
 .	.	.	.	1G	.	2c/	.
@@ -99,7 +100,7 @@
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 2G\	-ter	1G	Ma-	.	.	.	.
 *lig	*	*	*	*col	*	*	*
-!	!	!	!	!	!	!LO:SIC:v:t=custos d	!
+*	*	*	*	*	*	*custos:d	*
 1C	DE-	.	.	2.c\	.	1f	.
 .	.	2G/	-ter	.	.	.	.
 *	*	*	*	*Xlig	*	*Xlig	*
@@ -107,7 +108,8 @@
 .	.	.	.	4B-\	.	.	.
 *	*	*	*	*Xcol	*	*	*
 =10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-
-!	!	!LO:SIC:v:t=custos G	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
+*	*	*custos:G	*	*	*	*	*
+!	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 !	!	!	!	!	!	!LO:LB:g=original	!
 1D	.	1F#X	De-	4A\	.	0d	-i
 .	.	.	.	4G\	.	.	.
@@ -122,8 +124,8 @@
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 2G\	-gi-	1D	-i	1A	-i	2r	.
 *	*	*	*	*	*	*	*ij
+*custos:B	*	*	*	*	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:SIC:v:t=custos B	!	!	!	!	!	!	!
 2F\	-na	.	.	.	.	1d	Ma-
 *lig	*	*	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!	!	!
@@ -157,7 +159,8 @@
 *	*	*Xlig	*	*	*	*	*
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 1Eny	.	1G	-li	2G/	-gi-	2d\	-gi-
-!	!	!	!	!LO:SIC:v:t=custos A	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
+*	*	*	*	*custos:A	*	*	*
+!	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	.	.	2G/	-na	2c/	-na
 *Xlig	*	*	*	*	*	*	*
 =15-	=15-	=15-	=15-	=15-	=15-	=15-	=15-
@@ -188,11 +191,13 @@
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 .	.	4A\	.	.	.	.	.
 1E	-dy-	2G/	.	.	.	2r	.
-!	!	!LO:SIC:v:t=custos A	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
+*	*	*custos:A	*	*	*	*	*
+!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 .	.	2G/	-ta	2c\	-ra-	1g	Por-
 =18-	=18-	=18-	=18-	=18-	=18-	=18-	=18-
+*custos:AA	*	*	*	*	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:SIC:v:t=custos AA	!	!LO:LB:g=original	!	!	!	!	!
+!	!	!LO:LB:g=original	!	!	!	!	!
 1Dny	-si	2A/	Pa-	1d	-dy-	.	.
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	2A/	-ra-	.	.	2f\	-ta
@@ -205,8 +210,8 @@
 1AA	Do-	.	.	1A	Do-	1e	-dy-
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 .	.	2c\	.	.	.	.	.
+*	*	*	*	*	*	*custos:f	*
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
-!	!	!	!	!	!	!LO:SIC:v:t=custos f	!
 2D/	-mi-	2d,<\	-si	1.d	.	1d	-si
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 2D/	-na	1B-\	Do-	.	.	.	.
@@ -235,11 +240,12 @@
 .	.	2F/	.	.	.	.	.
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 1GG	-di	1G	-di	2.B-\	.	1d	-di
-!	!	!	!	!LO:SIC:v:t=custos d	!	!	!
+*	*	*	*	*custos:d	*	*	*
 .	.	.	.	4c\	.	.	.
 =23-	=23-	=23-	=23-	=23-	=23-	=23-	=23-
 *lig	*	*	*	*	*	*	*
-!	!	!LO:SIC:v:t=custos d	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
+*	*	*custos:d	*	*	*	*	*
+!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 !	!	!	!	!LO:LB:g=original	!	!	!
 1G	Pu-	1r	.	1d	-di	2r	.
 *	*	*	*	*	*	*lig	*
@@ -262,8 +268,9 @@
 .	.	.	.	.	.	8B-/J	.
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	.	.	.	.	2c#X/	-ris
+*custos:G	*	*	*	*	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:SIC:v:t=custos G	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
+!	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 1D	-ris	2A,</	-ris	2r	.	1d	.
 *	*	*	*ij	*	*	*	*
 .	.	1B-\	Pu-	1d\	Pu-	.	.
@@ -278,7 +285,8 @@
 2r	.	1E-X	-la-	2B-\	-la-	1G	Tu
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 1G	Tu	.	.	2c\	-ris	.	.
-!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:SIC:v:t=custos B	!
+*	*	*	*	*	*	*custos:B	*
+!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 .	.	1D	-ris	1d	.	1A	es
 *	*	*	*Xij	*	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
@@ -305,8 +313,9 @@
 *	*	*	*	*Xlig	*	*	*
 =30-	=30-	=30-	=30-	=30-	=30-	=30-	=30-
 1GG	es	.	.	2G/	.	1g	Vir-
+*	*	*custos:B	*	*	*	*	*
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
-!	!	!LO:SIC:v:t=custos B	!	!LO:TX:t=P::problem=kreska pseudotaktowa&colon;między nutą a kropką	!	!	!
+!	!	!	!	!LO:TX:t=P::problem=kreska pseudotaktowa&colon;między nutą a kropką	!	!	!
 .	.	2d\	es	2.B-\	.	.	.
 *	*	*lig	*	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
@@ -331,13 +340,14 @@
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 2G\	Tu	2d\	-ce-	.	.	.	.
 2G\	Con-	2B-\	-pis-	2rc	.	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:SIC:v:t=custos d	!	!	!
+*	*	*	*	*custos:d	*	*	*
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 2G\	-ce-	2G/	-ti	2d\	Tu	.	.
 =33-	=33-	=33-	=33-	=33-	=33-	=33-	=33-
 !	!	!	!	!LO:LB:g=original	!	!	!
 2F\	-pis-	1A	Je-	2d\	con-	.	.
+*custos:E	*	*	*	*	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:SIC:v:t=custos E	!	!	!	!	!	!	!
 2D/	-ti	.	.	2d\	-ce-	.	.
 !LO:PB:g=original	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 1E-X	JE-	1G	-sum	2B-\	-pi-	.	.
@@ -369,9 +379,10 @@
 .	.	4A\	.	.	.	.	.
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	4B-\	.	2G/	-sti	2g\	ſi-
-!	!	!LO:SIC:v:t=custos d	!	!	!	!	!
+*	*	*custos:d	*	*	*	*	*
 .	.	4c\	.	.	.	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:LB:g=original	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:SIC:v:t=custos f	!
+*	*	*	*	*	*	*custos:f	*
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:LB:g=original	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 1D,<	-SUM	1d	.	1A	JE-	2g\	-ne
 *	*Xij	*	*	*	*	*	*
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
@@ -398,15 +409,16 @@
 .	.	.	.	2F/	.	.	.
 *Xlig	*	*Xlig	*	*	*	*	*
 =39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-
-!	!	!	!	!LO:SIC:v:t=custos d	!	!	!
+*	*	*	*	*custos:d	*	*	*
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 2GG,</	-to	1B-	-to	1G	.	.	.
 2G\	Tu	.	.	.	.	.	.
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=urwana kartka	!	!	!
 !	!	!	!	!LO:PB:g=original	!	!	!
 2F\	pe-	1A	.	2r	.	1r	.
+*custos:F	*	*	*	*	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:SIC:v:t=custos F	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 2D/	-pe-	.	.	2d\	Tu	.	.
 =40-	=40-	=40-	=40-	=40-	=40-	=40-	=40-
 !LO:LB:g=original	!	!	!	!LO:TX:a:t=P:problem=To nuta wydumana z kontekstu, dlatego ukryta(J.I.)	!	!	!
@@ -434,8 +446,9 @@
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 1D	-ris-	1A	-ti	2rF	.	1f	.
 .	.	.	.	1d	Cre-	.	.
+*	*	*	*	*	*	*custos:f	*
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:a:t=P:problem=ziterpretowałnym to jednak jako kropkę, choć graficznie na dwoje babka...(J.I.)	!	!	!	!LO:SIC:v:t=custos f	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:a:t=P:problem=ziterpretowałnym to jednak jako kropkę, choć graficznie na dwoje babka...(J.I.)	!	!	!	!	!
 1AA	-ti	1.A	Cre-	.	.	1e	.
 *	*Xij	*	*	*	*	*	*
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
@@ -449,7 +462,7 @@
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 2D/	-a-	.	.	.	.	2f\	-a-
 =44-	=44-	=44-	=44-	=44-	=44-	=44-	=44-
-!	!	!LO:SIC:v:t=custos G	!	!	!	!	!
+*	*	*custos:G	*	*	*	*	*
 1BB-	-to-	1B-	-rem	.	.	1f	-to-
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 .	.	.	.	2d\	et	.	.
@@ -473,13 +486,14 @@
 .	.	2G/	-rem	.	.	.	.
 *	*	*	*	*Xlig	*	*	*
 .	.	.	.	8A/L	.	.	.
-!	!	!	!	!LO:SIC:v:t=custos A	!	!	!
+*	*	*	*	*custos:A	*	*	*
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 .	.	.	.	8G/J	.	.	.
 *	*	*	*	*Xcol	*	*	*
 =47-	=47-	=47-	=47-	=47-	=47-	=47-	=47-
+*custos:GG	*	*	*	*	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:SIC:v:t=custos GG	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:LB:g=original	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
+!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:LB:g=original	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 1D	Mun-	1F	Mun-	1A	.	0d	-di
 !LO:LB:g=original	!	!	!	!	!	!	!
 2GG,</	-di	2G/	-di	2G,</	-di	.	.
@@ -518,7 +532,7 @@
 .	.	.	.	4B-\	du-	.	.
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 1F)	.	.	.	2c\	-bi-	0f	-m(us)
-!	!	!LO:SIC:v:t=custos B	!	!	!	!	!
+*	*	*custos:B	*	*	*	*	*
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 .	.	2A/	-bi-	2c\	-ta-	.	.
 =51-	=51-	=51-	=51-	=51-	=51-	=51-	=51-
@@ -533,13 +547,13 @@
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 2A\	-ra	.	.	2c\	-ra	2.f\	Li-
 =52-	=52-	=52-	=52-	=52-	=52-	=52-	=52-
-!	!	!	!	!LO:SIC:v:t=custos B	!	!	!
+*	*	*	*	*custos:B	*	*	*
 2B-\	Nos	2r	.	2d\	Nos	.	.
 .	.	.	.	.	.	4f\	-be-
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:LB:g=original	!	!	!
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 2G\	ab	2.B-\	Li-	2B-\	ab	2e\	-ra
-!LO:SIC:v:t=custos F	!	!	!	!	!	!	!
+*custos:F	*	*	*	*	*	*	*
 2F\	o-	.	.	2.c\	om-	2f\	Nos
 .	.	4B-\	-be-	.	.	.	.
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
@@ -569,8 +583,8 @@
 2r	.	1rA	.	2B-\	nos	.	.
 .	.	.	.	.	.	4f\	-be-
 *	*ij	*	*	*	*	*	*
+*	*	*	*	*	*	*custos:f	*
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
-!	!	!	!	!	!	!LO:SIC:v:t=custos f	!
 2.B-\	Li-	.	.	2G/	ab	2e\	-ra
 !	!	!	!	!	!	!LO:LB:g=original	!
 .	.	1D	ab	2F/	om-	2.f\	Nos
@@ -584,7 +598,7 @@
 2B-\	Nos	1G	om-	2G/	-ni	2d\	.
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 2G\	ab	.	.	2E-X/	ma-	2c/	ab
-!	!	!LO:SIC:v:t=custos B	!	!	!	!	!
+*	*	*custos:B	*	*	*	*	*
 2F\	om-	2A/	-ni	2D,/	-lo	2d\	om-
 *	*	*	*	*	*Xij	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:PB:g=original	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
@@ -593,7 +607,8 @@
 *lig	*	*	*	*	*	*	*
 1Eny	Ma-	.	.	2G/	om-	2B-/	Ma-
 .	.	4A/	.	.	.	.	.
-!	!	!	!	!LO:SIC:v:t=custos A	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
+*	*	*	*	*custos:A	*	*	*
+!	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	1G	.	2G/	-ni	2c/	.
 !	!	!	!	!LO:LB:g=original	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 1D	.	.	.	1A	Ma-	1d,	-lo
@@ -613,8 +628,9 @@
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 1.C	-ra	0.G	-ra	0c	-ra	1.e	-ra
 *	*	*	*	*	*	*	*ij
+*custos:GG	*	*	*	*	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:SIC:v:t=custos GG	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
+!	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 2C/	et	.	.	.	.	2c/	et
 =61-	=61-	=61-	=61-	=61-	=61-	=61-	=61-
 !LO:LB:g=original	!	!	!	!	!	!	!
@@ -640,11 +656,13 @@
 1C	-ca-	.	.	.	.	.	.
 .	.	4F/	.	.	.	.	.
 .	.	2Eny/	-tris	.	.	2r	.
+*	*	*	*	*	*	*custos:e	*
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:SIC:v:t=custos e	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 2BB-/	-tis	2D/	.	.	.	2d\	pro
 =64-	=64-	=64-	=64-	=64-	=64-	=64-	=64-
-!	!	!LO:SIC:v:t=custos G	!	!	!	!LO:LB:g=original	!
+*	*	*custos:G	*	*	*	*	*
+!	!	!	!	!	!	!LO:LB:g=original	!
 1C	nos-	2r	.	1rA	.	2e-X\	pec-
 *	*	*	*ij	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!	!	!
@@ -658,7 +676,7 @@
 .	.	2E/	-ra	1c	-ca-	.	.
 2C/	O-	1G	.	.	.	2G/	-tris
 *	*	*	*	*	*	*	*ij
-!	!	!	!	!LO:SIC:v:t=custos c	!	!	!
+*	*	*	*	*custos:c	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 2GG/	-ra	.	.	2B-\	-ta	2d\	Li-
 =66-	=66-	=66-	=66-	=66-	=66-	=66-	=66-
@@ -669,7 +687,7 @@
 4D/	.	.	.	.	.	.	.
 4Eny\	.	1r	.	1G	.	.	.
 4F\	.	.	.	.	.	.	.
-!LO:SIC:v:t=custos F	!	!	!	!	!	!	!
+*custos:F	*	*	*	*	*	*	*
 1G\	.	.	.	.	.	2B-/	-ra
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 *	*	*	*	*Xlig	*	*	*
@@ -700,8 +718,9 @@
 .	.	.	.	4F/	om-	.	.
 =70-	=70-	=70-	=70-	=70-	=70-	=70-	=70-
 .	.	.	.	2Eny/	-ni	2r	.
+*	*	*	*	*	*	*custos:e	*
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:SIC:v:t=custos e	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 2BB-/	.	2d\	-ra	2D/	ma-	2d\	et
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:LB:g=original	!
 (1C	-ra	1c	pro	1G	-lo	2e-X\	.

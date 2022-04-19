@@ -49,9 +49,10 @@
 2A\)	.	.	.	.	.
 1B	-bus	1F	-bus	1d	-bus
 =6	=6	=6	=6	=6	=6
-!	!	!LO:SIC:v:t=custos G	!	!	!
+*	*	*custos:G	*	*	*
 (1F#X	in-	1A	in-	(1d	in-
-!LO:SIC:v:t=custos A	!	!LO:LB:g=original	!	!	!
+*custos:A	*	*	*	*	*
+!	!	!LO:LB:g=original	!	!	!
 1G)	.	2G/	.	1B)	.
 .	.	2F/	.	.	.
 !LO:LB:g=original	!	!	!	!	!
@@ -80,12 +81,13 @@
 =12	=12	=12	=12	=12	=12
 1D	-fer-	0A	-fer-	0d	-fer-
 1BB	-nus	.	.	.	.
-!	!	!LO:SIC:v:t=custos A	!	!	!
+*	*	*custos:A	*	*	*
 (>1GG	v-	1B	-nus	1d	-nus
 !	!	!LO:LB:g=original	!	!	!
 =13	=13	=13	=13	=13	=13
 1.AA)	.	1.A	vl-	1.d	vl-
-!LO:SIC:v:t=custos D	!	!	!	!LO:TX:b:t=P:problem=# below	!
+*custos:D	*	*	*	*	*
+!	!	!	!	!LO:TX:b:t=P:problem=# below	!
 2AA/	-lu-	2A/	-lu-	2c#X/	-lu-
 !LO:LB:g=original	!	!	!	!	!
 1D	-lat	1A	-lat	1d	-lat
@@ -114,13 +116,13 @@
 =19	=19	=19	=19	=19	=19
 0AA	-le	0c	-le	1e	il-
 .	.	.	.	1e	-le
-!	!	!LO:SIC:v:t=custos A	!	!	!
+*	*	*custos:A	*	*	*
 1GG#X	for-	1B	for-	1e	for-
 !	!	!LO:PB:g=original	!	!	!
 =20	=20	=20	=20	=20	=20
 1.AA	-tiſ-	1.A	-tiſ-	1.e	-tiſ-
 2AA/	-si-	2A/	-si-	2e\	-si-
-!LO:SIC:v:t=custos E	!	!	!	!	!
+*custos:E	*	*	*	*	*
 1E	-mus	1G#X	-mus	1e	-mus
 !LO:LB:g=original	!	!	!	!	!
 =21	=21	=21	=21	=21	=21
@@ -151,7 +153,7 @@
 =27	=27	=27	=27	=27	=27
 1.D	tar-	1.F#X	tar-	1.d	tar-
 2D/	-ta-	2F#/	-ta-	2d\	-ta-
-!LO:SIC:v:t=custos D	!	!	!	!	!
+*custos:D	*	*	*	*	*
 1D	-ra	1F#	-ra	1d	-ra
 !LO:LB:g=original	!	!LO:LB:g=original	!	!	!
 =28	=28	=28	=28	=28	=28
@@ -190,7 +192,7 @@
 =35	=35	=35	=35	=35	=35
 1E	Il-	1G	Il-	1e	Il-
 1E	-le	1G	-le	1g	-le
-!	!	!LO:SIC:v:t=custos B	!	!	!
+*	*	*custos:B	*	*	*
 1D#X	qui	1B	qui	1f#X	qui
 !	!	!LO:LB:g=original	!	!	!
 =36	=36	=36	=36	=36	=36
@@ -210,7 +212,7 @@
 1D	.	.	.	1f#X)	.
 1E)	.	1B	Sub	1g	ſub
 =40	=40	=40	=40	=40	=40
-!	!	!	!	!LO:SIC:v:t=custos d	!
+*	*	*	*	*custos:d	*
 1C	Sub	1c	.	1e	mi-
 !	!	!	!	!LO:LB:g=original	!
 1.D	mi-	1.A	mi-	1.d	.
@@ -218,7 +220,7 @@
 =41	=41	=41	=41	=41	=41
 0.GG	-te	0.B	-te	0.d	-te
 =42	=42	=42	=42	=42	=42
-!LO:SIC:v:t=custos e	!	!	!	!	!
+*custos:e	*	*	*	*	*
 1G	tri-	1B	tri-	1d	tri-
 !LO:LB:g=original	!	!	!	!	!
 1E	-um-	1B	-um-	1e	-um-
@@ -226,7 +228,7 @@
 =43	=43	=43	=43	=43	=43
 (1G	pom-	0d	pom-	0g	pom-
 1E)	.	.	.	.	.
-!	!	!LO:SIC:v:t=custos A	!	!	!
+*	*	*custos:A	*	*	*
 1A	-pa	1B	-pa	1e	-pa
 !	!	!LO:LB:g=original	!	!	!
 =44	=44	=44	=44	=44	=44
@@ -280,8 +282,8 @@
 =56	=56	=56	=56	=56	=56
 0.ryy	.	0.ryy	.	1d	tri-
 .	.	.	.	1e	-um-
+*	*	*	*	*custos:g	*
 !	!	!	!	!LO:TX:a:t=P:problem=# above	!
-!	!	!	!	!LO:SIC:v:t=custos g	!
 .	.	.	.	1f#X	-phans
 !	!	!	!	!LO:LB:g=original	!
 =57	=57	=57	=57	=57	=57
@@ -328,7 +330,7 @@
 1D)	.	.	.	1f#X)	.
 1E	do-	1B	do-	1g	.
 =68	=68	=68	=68	=68	=68
-!	!	!	!	!LO:SIC:v:t=custos d	!
+*	*	*	*	*custos:d	*
 1C	-le-	1c	.	1e	do-
 !	!	!	!	!LO:LB:g=original	!
 1.D	.	1.A	-lo-	1.d	-lo-
@@ -355,7 +357,7 @@
 1GG	-dens	1d	-dens	1g	-dens
 =74	=74	=74	=74	=74	=74
 (1C	cla-	0.c	cla-	(1e	cla-
-!	!	!	!	!LO:SIC:v:t=custos g	!
+*	*	*	*	*custos:g	*
 1D)	.	.	.	1f#X)	.
 !	!	!	!	!LO:LB:g=original	!
 1E	-mat	.	.	1g	-mat
@@ -377,7 +379,7 @@
 1GG#X	-mus	1B	-mus	1e	-mus
 =78	=78	=78	=78	=78	=78
 0AA	au-	0c	au-	0e	au-
-!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*custos:e	*
 1E	-ctor	1B	-ctor	1e	-ctor
 !	!	!	!	!LO:LB:g=original	!
 =79	=79	=79	=79	=79	=79
@@ -402,7 +404,7 @@
 !	!	!	!	!LO:N:acc=-	!
 (1D	om-	1c	om-	1fn	om-
 2.E\	.	1B	-ni	1e	-ni
-!LO:SIC:v:t=custos F	!	!	!	!	!
+*custos:F	*	*	*	*	*
 4E\)	-ni	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!
 =84	=84	=84	=84	=84	=84
@@ -412,7 +414,7 @@
 =85	=85	=85	=85	=85	=85
 1.E	im-	1.B	im-	1.e	im-
 2E\	-pe-	2B\	-pe-	2e\	-pe-
-!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*custos:e	*
 1E	-tu	1B	-tu	1e	-tu
 !	!	!	!	!LO:LB:g=original	!
 =86	=86	=86	=86	=86	=86
@@ -469,7 +471,7 @@
 2.A\)	.	2.E/	.	2.e\	.
 4A\	-di-	4E/	-di-	4e\	-di-
 =98	=98	=98	=98	=98	=98
-!LO:SIC:v:t=custos D	!	!LO:SIC:v:t=custos A	!	!	!
+*custos:D	*	*custos:A	*	*	*
 0.D	-um	0.F#X	-um	0.d	-um
 !LO:PB:g=original	!	!LO:LB:g=original	!	!	!
 =99-	=99	=99	=99	=99	=99
@@ -483,7 +485,7 @@
 =101	=101	=101	=101	=101	=101
 1.D	cri-	1.F#X	cri-	1.d	cri-
 2D/	-mi-	2F#/	-mi-	2d\	-mi-
-!	!	!	!	!LO:SIC:v:t=custos d	!
+*	*	*	*	*custos:d	*
 1D	-num	1F#	-num	1d	-num
 !	!	!	!	!LO:LB:g=original	!
 =102	=102	=102	=102	=102	=102
@@ -502,9 +504,9 @@
 =105	=105	=105	=105	=105	=105
 1E	Vi-	1G	Vi-	1g	Vi-
 1.D#X	-tae	1B	-tae	1.f#X	-tae
-!	!	!LO:SIC:v:t=custos B	!	!	!
+*	*	*custos:B	*	*	*
 .	.	1B	re-	.	.
-!LO:SIC:v:t=custos E	!	!	!	!	!
+*custos:E	*	*	*	*	*
 2D#/	re-	.	.	2f#\	re-
 !LO:LB:g=original	!	!LO:LB:g=original	!	!	!
 =106	=106	=106-	=106	=106	=106
@@ -526,7 +528,7 @@
 1D#X	-a	1B	-a	1f#X	-a
 =110	=110	=110	=110	=110	=110
 0E	Ti-	0B	Fi-	0e	Fi-
-!	!	!	!	!LO:SIC:v:t=custos f	!
+*	*	*	*	*custos:f	*
 1G	-bi	1B	-li	1e	-li
 !	!	!	!	!LO:LB:g=original	!
 =111	=111	=111	=111	=111	=111
@@ -541,7 +543,7 @@
 =113	=113	=113	=113	=113	=113
 1C	-xi-	0c	-xi-	1e	-xi-
 1D	-sti	.	.	1f#X	-ſti
-!LO:SIC:v:t=custos C	!	!LO:SIC:v:t=custos c	!	!	!
+*custos:C	*	*custos:c	*	*	*
 1E	à	1B	-ſti	1g	à
 !LO:LB:g=original	!	!LO:LB:g=original	!	!	!
 =114	=114	=114-	=114	=114	=114
@@ -559,7 +561,7 @@
 =117	=117	=117	=117	=117	=117
 1G	et	0d	S(an)-	0g	San-
 1E	San-	.	.	.	.
-!	!	!	!	!LO:SIC:v:t=custos f	!
+*	*	*	*	*custos:f	*
 1A	-cto	1A	-cto	1e	-[cto]
 !	!	!	!	!LO:PB:g=original	!
 =118	=118	=118	=118	=118	=118
@@ -576,7 +578,7 @@
 =120	=120	=120	=120	=120	=120
 (1C	-ter-	0c	-ter-	(1e	-ter-
 1D)	.	.	.	1f#X)	.
-!	!	!LO:SIC:v:t=custos A	!	!	!
+*	*	*custos:A	*	*	*
 1E	-na	1B	-na	1g	-na
 !LO:LB:g=original	!	!LO:LB:g=original	!	!	!
 =121-	=121	=121	=121	=121	=121

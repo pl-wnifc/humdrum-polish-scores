@@ -57,7 +57,7 @@
 1D	-bus	0r	.	.	.	1f	-lun-
 .	.	.	.	4e\	.	.	.
 .	.	.	.	1d	.	.	.
-!	!	!	!	!	!	!LO:SIC:v:t=custos d	!
+*	*	*	*	*	*	*custos:d	*
 2r	.	.	.	.	.	1e	-ta-
 2C/	bo-	.	.	4c/	.	.	.
 .	.	.	.	4B/	.	.	.
@@ -66,7 +66,7 @@
 2D/	-n(ae)	0r	.	2A/	-bus	2d\	-tis
 *	*	*	*	*	*Xij	*	*
 2E\	vol:	.	.	2G/	bo-	2B/	lau-
-!	!	!	!	!LO:SIC:v:t=custos B	!	!	!
+*	*	*	*	*custos:B	*	*	*
 1F	.	.	.	1A	-n(ae)	2d\	-da-
 .	.	.	.	.	.	2d\	-mus
 !	!	!	!	!LO:LB:g=original	!	!	!
@@ -83,7 +83,7 @@
 .	.	.	.	.	.	4f\	-mus
 *	*	*Xlig	*	*	*	*	*
 2r	.	2A/	-gu-	1r	.	1e	te
-!LO:SIC:v:t=custos D	!	!	!	!	!	!	!
+*custos:D	*	*	*	*	*	*	*
 2AA/	lau-	2A/	-los	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!
 =9	=9	=9	=9	=9	=9	=9	=9
@@ -110,17 +110,17 @@
 *	*	*Xlig	*	*	*	*	*
 =12	=12	=12	=12	=12	=12	=12	=12
 2F\	-n(e)-	1A	-di-	1d	te	2f\	-do-
-!	!	!	!	!	!	!LO:SIC:v:t=custos g	!
+*	*	*	*	*	*	*custos:g	*
 2D/	-di-	.	.	.	.	2f\	-ra-
 !	!	!	!	!	!	!LO:LB:g=original	!
 2G\	-ci-	1B	-ci-	1d	A-	1g	-mus
 2G\	-(mus)	.	.	.	.	.	.
 =13	=13	=13	=13	=13	=13	=13	=13
-!	!	!LO:SIC:v:t=custos A	!	!	!	!	!
+*	*	*custos:A	*	*	*	*	*
 2C/	te	0G	-mus.	2c/	-do-	2e\	te
 *	*Xij	*	*	*	*	*	*ij
 1E	a-	.	.	2B/	-ra-	1g	a-
-!	!	!	!	!LO:SIC:v:t=custos c	!	!	!
+*	*	*	*	*custos:c	*	*	*
 .	.	.	.	1e	-mus	.	.
 2E\	-do-	.	.	.	.	2g\	-do-
 !	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!
@@ -138,13 +138,13 @@
 2AA/	glo-	2A/	glo-	2c/	-fi-	2e\	-ri-
 =16	=16	=16	=16	=16	=16	=16	=16
 2D/	-ri-	2A/	-ri-	2f\	-ca-	2d\	-fi-
-!LO:SIC:v:t=custos D	!	!	!	!	!	!	!
+*custos:D	*	*	*	*	*	*	*
 2C/	-fi-	2A/	-fi-	2e\	.	2e\	-ca-
 !LO:LB:g=original	!	!	!	!	!	!	!
 2D/	-ca-	2A/	-ca-	1.d	-mus	1f	-mus
 2D/	-mus	2A/	-mus	.	.	.	.
 =17	=17	=17	=17	=17	=17	=17	=17
-!	!	!LO:SIC:v:t=custos A	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*custos:A	*	*	*	*custos:e	*
 0AA;	te	0A;<	te.	.	.	0e;<	te
 .	.	.	.	4c/	.	.	.
 .	.	.	.	4B/	te	.	.
@@ -159,7 +159,7 @@
 =19	=19	=19	=19	=19	=19	=19	=19
 2D/	-gi-	2F/	-gi-	2d\	-gi-	2f\	-gi-
 2E\	-mus-	2G/	-mus	2B/	-m(us)	2e\	-mus
-!	!	!	!	!LO:SIC:v:t=custos B	!	!	!
+*	*	*	*	*custos:B	*	*	*
 2AA/	.	1A	ti-	1c	ti	0e	ti-
 2.A\	-ti-	.	.	.	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!
@@ -174,7 +174,7 @@
 =21	=21	=21	=21	=21	=21	=21	=21
 .	.	2A/	-t(er)	2c/	ma-	2r	.
 2AA/	-(ter)	2c\	ma-	1A	.	2e\	prop-
-!LO:SIC:v:t=custos F	!	!	!	!	!	!	!
+*custos:F	*	*	*	*	*	*	*
 1E	ma-	1B	-gna(m)	.	.	2e\	-t(er)
 .	.	.	.	2G/	-gnam	2g\	ma-
 !LO:LB:g=original	!	!	!	!	!	!	!
@@ -186,7 +186,7 @@
 .	.	.	.	.	.	4e\	-ri)-
 2C/	-am	2G/	-am	.	.	1e	-am
 =23	=23	=23	=23	=23	=23	=23	=23
-!	!	!LO:SIC:v:t=custos E	!	!	!	!	!
+*	*	*custos:E	*	*	*	*	*
 1D	tu-	1F	tu-	2.A/	-ri-	.	.
 .	.	.	.	.	.	2d\	tu-
 .	.	.	.	4B/	-a(m)	.	.
@@ -197,7 +197,7 @@
 2.E\	Do-	.	.	2.B/	D(o-	.	.
 .	.	2r	.	.	.	2r	.
 4E\	-mi-	.	.	4B/	-mi)-	.	.
-!	!	!	!	!	!	!LO:SIC:v:t=custos f	!
+*	*	*	*	*	*	*custos:f	*
 2E\	-ne	2G/	Do-	2B/	-ne	2e\	Do-
 !	!	!	!	!	!	!LO:LB:g=original	!
 =25	=25	=25	=25	=25	=25	=25	=25
@@ -213,7 +213,7 @@
 =27	=27	=27	=27	=27	=27	=27	=27
 2C/	-tis	2E/	-tis	4c\	.	2e\	-tis
 .	.	.	.	4d\	.	.	.
-!	!	!	!	!LO:SIC:v:t=custos d	!	!	!
+*	*	*	*	*custos:d	*	*	*
 2C/	De-	2E/	De-	2e\	-lee-	2c/	De-
 !	!	!	!	!LO:LB:g=original	!	!	!
 2D/	-us	2F/	-us	2d\	-ſtis	2.A/	-us
@@ -221,7 +221,7 @@
 .	.	.	.	.	.	4B/	.
 =28	=28	=28	=28	=28	=28	=28	=28
 2AA/	-te)r	2E/	-te)r	2e\	-us	1c	pa-
-!LO:SIC:v:t=custos E	!	!	!	!	!	!	!
+*custos:E	*	*	*	*	*	*	*
 2AA/	o-	2A/	Om-	2e\	p(a-	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!
 2.E\	-mni-	2G/	-ni-	1e	-te)r	2.B/	-ter
@@ -229,7 +229,7 @@
 4E\	-po-	.	.	.	.	4c/	.
 =29	=29	=29	=29	=29	=29	=29	=29
 2D/	-te(n)s	2F/	-tens	2A/	om-	2d\	Om-
-!	!	!LO:SIC:v:t=custos F	!	!	!	!	!
+*	*	*custos:F	*	*	*	*	*
 *	*ij	*	*ij	*	*	*	*
 2C/	o-	2E/	om-	1c	-ni-	1e	-ni-
 !	!	!LO:LB:g=original	!	!	!	!	!
@@ -239,7 +239,7 @@
 =30	=30	=30	=30	=30	=30	=30	=30
 .	.	.	.	1A	-te(n)s	1d	.
 2D/	-po-	2F/	-po-	.	.	.	.
-!	!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*	*custos:e	*
 1AA	-te(n)s	2E/	-tens	2.c/	Do-	1e	-tens
 *	*Xij	*	*Xij	*	*	*	*
 .	.	2.c\	Do -	.	.	.	.
@@ -268,9 +268,10 @@
 .	.	.	.	1A	Je-	2e\	.
 .	.	.	.	.	.	2f\	-ſu
 =35	=35	=35	=35	=35	=35	=35	=35
-!	!	!	!	!LO:SIC:v:t=custos c	!	!	!
+*	*	*	*	*custos:c	*	*	*
 1GG	-ſu	1B	-ſu	1d	-ſu	1.g	Chr(i-
-!LO:SIC:v:t=custos E	!	!	!	!LO:LB:g=original	!	!	!
+*custos:E	*	*	*	*	*	*	*
+!	!	!	!	!LO:LB:g=original	!	!	!
 0AA	Chri-	0A	Chr(i-	0c	Chr(i-	.	.
 .	.	.	.	.	.	2f\	-st)e
 !LO:LB:g=original	!	!	!	!	!	!	!
@@ -281,9 +282,9 @@
 =37	=37	=37	=37	=37	=37	=37	=37
 1r	.	1G	e(t)	1B	ſan-	2d\	e(t)
 .	.	.	.	.	.	1e	ſ(an)-
-!	!	!LO:SIC:v:t=custos A	!	!	!	!	!
+*	*	*custos:A	*	*	*	*	*
 2r	.	1A	ſan-	2c/	.	.	.
-!	!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*	*custos:e	*
 2F\	e(t)	.	.	2A/	-cte	2c/	-cte
 !	!	!LO:LB:g=original	!	!	!	!LO:LB:g=original	!
 =38	=38	=38	=38	=38	=38	=38	=38
@@ -305,14 +306,14 @@
 2D/	-mi-	2A/	-mi-	2d\	-mi-	2f\	mi-
 =41	=41	=41	=41	=41	=41	=41	=41
 2E\	-ne	2G/	-ne	2B/	-ne	2e\	-ne
-!	!	!	!	!LO:SIC:v:t=custos c	!	!	!
+*	*	*	*	*custos:c	*	*	*
 2E\	De-	2G/	De-	2B/	De-	2e\	De-
 !	!	!	!	!LO:LB:g=original	!	!	!
 2AA/	-us	2A/	-us	2c/	-us	2e\	-us
 1E	a-	1G	a-	1B	a-	1e	a-
 =42	=42	=42	=42	=42	=42	=42	=42
 .	.	.	.	.	.	.	.
-!LO:SIC:v:t=custos C	!	!	!	!	!	!	!
+*custos:C	*	*	*	*	*	*	*
 2E\	-gnus.	2B\	-gnus	2e\	-gnus	2g\	-gnus
 *lig	*	*	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!	!	!
@@ -320,7 +321,7 @@
 =43	=43	=43	=43	=43	=43	=43	=43
 1D	.	1A	-i	2d\	-i	2f\	-i
 .	.	.	.	2d\	fi-	2f\	fi-
-!	!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*	*custos:e	*
 *Xlig	*	*lig	*	*	*	*	*
 4AA/	.	1A	fi-	2c/	-li-	2e\	-li-
 4BB/	.	.	.	.	.	.	.
@@ -328,7 +329,7 @@
 4C/	.	.	.	2c/	-us	2e\	-us
 4D/	.	.	.	.	.	.	.
 =44	=44	=44	=44	=44	=44	=44	=44
-!	!	!LO:SIC:v:t=custos A	!	!	!	!	!
+*	*	*custos:A	*	*	*	*	*
 !	!	!LO:TX:t=P:problem=# above	!	!	!	!	!
 1E	-i	1G#X	.	1B	p(at)-	2.e\	pa-
 .	.	.	.	.	.	4d\	.
@@ -365,13 +366,13 @@
 .	.	2G/	tol-	.	.	.	.
 =49	=49	=49	=49	=49	=49	=49	=49
 1AA	-lis	1A	-lis	2r	.	2c/	-lis
-!	!	!	!	!LO:SIC:v:t=custos B	!	!	!
+*	*	*	*	*custos:B	*	*	*
 .	.	.	.	2A/	pec-	2c/	pec-
 !	!	!	!	!LO:LB:g=original	!	!	!
 1r	.	1r	.	2B,/	-ca-	2d\	-ca-
 .	.	.	.	2c/	-ta	2e\	-ta
 =50	=50	=50	=50	=50	=50	=50	=50
-!	!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*	*custos:e	*
 1r	.	1r	.	1d	m(un)-	1f	mun-
 !	!	!	!	!	!	!LO:LB:g=original	!
 2r	.	2r	.	2c/	-di	2e\	-di
@@ -383,7 +384,7 @@
 .	.	4B\	.	.	.	.	.
 =52	=52	=52	=52	=52	=52	=52	=52
 2D/	-re	2A/	.	2d\	-re	2f\	-re
-!LO:SIC:v:t=custos D	!	!LO:SIC:v:t=custos A	!	!	!	!	!
+*custos:D	*	*custos:A	*	*	*	*	*
 2E\	.	2G/	-re	4B/	.	1g	no-
 .	.	.	.	4c/	no-	.	.
 !LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!	!
@@ -409,7 +410,7 @@
 =56	=56	=56	=56	=56	=56	=56	=56
 1.C	ſu-	1.G	Su-	1.c	ſu-	1e	-di
 .	.	.	.	.	.	1.e	Su-
-!	!	!	!	!LO:SIC:v:t=custos c	!	!	!
+*	*	*	*	*custos:c	*	*	*
 2C/	-ſci-	2A/	-ſci-	2c/	-ſci-	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!
 =57	=57	=57	=57	=57	=57	=57	=57
@@ -419,7 +420,7 @@
 .	.	2G/	-p(re)-	.	.	.	.
 =58	=58	=58	=58	=58	=58	=58	=58
 2r	.	2A/	-ca-	1d	-ca-	2f\	de-
-!	!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*	*custos:e	*
 2GG/	de-	2B\	-ti-	.	.	2d\	-pre-
 !	!	!	!	!	!	!LO:LB:g=original	!
 2C/	-pre-	0c	-o-	2G/	-ti-	2.e\	-ca-
@@ -433,10 +434,11 @@
 2GG/	-(ne)m	.	.	4B/	.	2d\	n(os-
 .	.	.	.	4c/	.	.	.
 =60	=60	=60	=60	=60	=60	=60	=60
-!	!	!LO:SIC:v:t=custos G	!	!	!	!	!
+*	*	*custos:G	*	*	*	*	*
 1D	n(ost)-	1A	no-	2d\	noſ-	1d	-t)ram
 .	.	.	.	2A/	.	.	.
-!LO:SIC:v:t=custos D	!	!LO:LB:g=original	!	!	!	!	!
+*custos:D	*	*	*	*	*	*	*
+!	!	!LO:LB:g=original	!	!	!	!	!
 0.GG	-ram	0.G	-ſtra(m)	1B	-tra(m)	2r	.
 .	.	.	.	.	.	2d\	Qui
 !LO:LB:g=original	!	!	!	!	!	!	!
@@ -458,7 +460,7 @@
 2C/	-des	.	.	4c/	.	2e\	.
 .	.	.	.	4B/	.	.	.
 1D	ad	2A/	-te-	4A/	pa-	2f\	-tris
-!	!	!	!	!LO:SIC:v:t=custos F	!	!	!
+*	*	*	*	*custos:F	*	*	*
 .	.	.	.	4G/	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!
 =64	=64	=64	=64	=64	=64	=64	=64
@@ -466,7 +468,7 @@
 *	*	*	*	*	*ij	*	*
 2D/	dex-	.	.	2f\	ad	.	.
 2.E\	-te-	1G	De-	2e\	dex-	2r	.
-!	!	!	!	!	!	!LO:SIC:v:t=custos g	!
+*	*	*	*	*	*	*custos:g	*
 *	*	*	*	*	*	*	*ij
 .	.	.	.	2e\	-te-	2g\	Qui
 4F\	-ra(m)	.	.	.	.	.	.
@@ -505,7 +507,7 @@
 4E\	.	.	.	1d	no-	2g\	-re
 4D/	.	.	.	.	.	.	.
 =70	=70	=70	=70	=70	=70	=70	=70
-!LO:SIC:v:t=custos D	!	!	!	!	!	!	!
+*custos:D	*	*	*	*	*	*	*
 1E	.	.	.	.	.	1g	no-
 .	.	.	.	2c/	-bis	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!
@@ -513,15 +515,16 @@
 1C	Q(uo-	1c	Quo-	1G	Quo-	1e	Q(uo
 =71	=71	=71	=71	=71	=71	=71	=71
 .	.	.	.	.	.	.	.
-!	!	!LO:SIC:v:t=custos c	!	!	!	!	!
+*	*	*custos:c	*	*	*	*	*
 2C/	-ni-	2c\	-ni-	2G/	-ni-	2e\	ni-
-!	!	!LO:LB:g=original	!	!LO:SIC:v:t=custos B	!	!	!
+*	*	*	*	*custos:B	*	*	*
+!	!	!LO:LB:g=original	!	!	!	!	!
 2AA/	-a)m	2c\	-am	1A	-am	2e\	-a)m
 2AA/	tu	2c\	tu	.	.	2a\	tu
 !	!	!	!	!LO:LB:g=original	!	!	!
 =72	=72	=72	=72	=72	=72	=72	=72
 2E\	ſo-	2B\	ſo-	2B/	tu	2g\	ſo-
-!	!	!	!	!	!	!LO:SIC:v:t=custos e	!
+*	*	*	*	*	*	*custos:e	*
 2AA/	-lus	2A/	-lus	4c\	ſo-	2e\	-lus
 .	.	.	.	4d\	-lus	.	.
 !	!	!	!	!	!	!LO:LB:g=original	!
@@ -547,9 +550,10 @@
 1E	-tiſ-	2.B\	-tiſ-	2e\	-tiſ-	2e\	-tiſ-
 .	.	.	.	2B/	-si-	2e\	-si-
 .	.	4B\	-si-	.	.	.	.
-!	!	!LO:SIC:v:t=custos A	!	!LO:TX:t=P:problem=# above	!	!	!
+*	*	*custos:A	*	*	*	*	*
+!	!	!	!	!LO:TX:t=P:problem=# above	!	!	!
 2AA/	-si-	1A	-mus	1c#X	-m(us)	1e	-(mus)
-!LO:SIC:v:t=custos D	!	!	!	!	!	!	!
+*custos:D	*	*	*	*	*	*	*
 2AA/	-mus	.	.	.	.	.	.
 !LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!	!
 =77	=77	=77	=77	=77	=77	=77	=77
@@ -560,7 +564,7 @@
 =78	=78	=78	=78	=78	=78	=78	=78
 *	*	*lig	*	*	*	*lig	*
 1F	Chr(i-	1A	glo-	.	.	1f	Chr(i-
-!	!	!	!	!LO:SIC:v:t=custos e	!	!	!
+*	*	*	*	*custos:e	*	*	*
 .	.	.	.	2d\	(Ch)ri-	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!
 1E	-st)e	1G	.	1e	-ſte	1g	.
@@ -569,7 +573,7 @@
 2r	.	1A	-ri-	2r	.	1e	-st)e
 2A\	Ie-	.	.	1e	Je-	.	.
 2E\	-ſu	1B	-(ae)	.	.	2r	.
-!	!	!	!	!	!	!LO:SIC:v:t=custos g	!
+*	*	*	*	*	*	*custos:g	*
 *	*	*	*	*	*	*	*ij
 2.G\	Chr(i-	.	.	4d/	-ſu	2g\	Ie-
 .	.	.	.	4c/	.	.	.
@@ -604,17 +608,17 @@
 .	.	.	.	.	.	1d	-ri-
 1C	-ri-	1E	-ri-	1c	-ri-	1e,	-t)u
 =85	=85	=85	=85	=85	=85	=85	=85
-!	!	!LO:SIC:v:t=custos E	!	!	!	!	!
+*	*	*custos:E	*	*	*	*	*
 0GG	-tu	0D	-t)u	0B	-t)u	1r	.
 .	.	.	.	.	.	1g	in
-!LO:SIC:v:t=custos C	!	!	!	!	!	!	!
+*custos:C	*	*	*	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!	!	!
 1D	in	1r	.	1d	in	1f,	glo-
 !LO:LB:g=original	!	!	!	!	!	!	!
 =86	=86	=86	=86	=86	=86	=86	=86
 1C	glo-	1E	in	1e	glo-	1e	-ri-
 1D	-ri-	1F	glo-	1d	-ri-	1a	-a
-!	!	!	!	!LO:SIC:v:t=custos c	!	!LO:SIC:v:t=custos g	!
+*	*	*	*	*custos:c	*	*custos:g	*
 1GG	-a	1G	-ri-	1d	-a	1g,	De-
 !	!	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!
 =87	=87	=87	=87	=87	=87	=87	=87
