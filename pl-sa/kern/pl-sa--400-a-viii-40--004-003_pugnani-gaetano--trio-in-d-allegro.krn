@@ -18,21 +18,25 @@
 !!!URL-scan: http://bc.bdsandomierz.pl/dlibra/publication/1703/edition/1671/content
 !!!ONB-nifc: UWAGA: No 4to. Części: 1. bez podanego tempa, 2. Andante, 3. Allegro
 !!!OMD: Allegro
-!!!AIN: 1 empty 2 violn
-!!!key:
+!!!AIN: 2 violn
+!!!key: D
 **kern	**kern	**kern
 *part3	*part2	*part1
 *staff3	*staff2	*staff1
-*Iempty	*Ivioln	*Ivioln
-*I"Baſso	*I"Violino 2do	*I"Violino 1mo
+*I"Baſso.	*I"Violino 2do	*I"Violino 1mo
 *I'b	*I'vl 2	*I'vl 1
+*I	*Ivioln	*Ivioln
+*ICstr	*ICstr	*ICstr
+*IGcont	*	*
 *clefF4	*clefG2	*clefG2
 *k[f#c#]	*k[f#c#]	*k[f#c#]
 *D:	*D:	*D:
 *M3/4	*M3/4	*M3/4
+*>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]
 =1	=1	=1
+*>A	*>A	*>A
 *	*2\right	*2\right
-!LO:TX:t=P:problem=zgodnie z RISM "b part missing."	!	!
+!LO:TX:t=P:problem:zgodnie z RISM "b part missing."	!	!
 2.ryy	4d/	4.dd\
 .	4r	.
 .	.	8a/L
@@ -137,7 +141,7 @@
 =17	=17	=17	=17
 2.ryy	4cc#/	4a\	4aa\
 *	*	*	*Xtuplet
-!	!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!	!LO:TUP:a:problem:klamra łukowa
 .	4cc#/	4a\	12ee\L
 .	.	.	12ff#\
 .	.	.	12gg\J
@@ -150,12 +154,12 @@
 .	4dd/	4a\	.
 =19	=19	=19	=19
 2.ryy	4dd/	4a\	4ff#\
-!	!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!	!LO:TUP:a:problem:klamra łukowa
 .	4dd/	4a\	12dd\L
 .	.	.	12ee\
 .	.	.	12ff#\J
 .	.	.	8qqgg/
-!	!	!	!LO:TX:t=P:problem=8ee 8dd poprawione na 8ff# 8ee
+!	!	!	!LO:TX:t=P:problem:8ee 8dd poprawione na 8ff# 8ee
 .	4dd/	4a\	8ff#\L
 .	.	.	8ee\J
 =20	=20	=20	=20
@@ -168,7 +172,7 @@
 =21	=21	=21	=21
 2.ryy	4aa\	4dd/	4a\
 *	*Xtuplet	*	*
-!	!LO:TUP:a:problem=klamra łukowa	!	!
+!	!LO:TUP:a:problem:klamra łukowa	!	!
 .	12ee\L	4dd/	4a\
 .	12ff#\	.	.
 .	12gg\J	.	.
@@ -176,13 +180,13 @@
 .	8.ff#\L	4dd/	4a\
 .	16ee\Jk	.	.
 =22	=22	=22	=22
-!	!	!LO:TX:t=P:problem=brak taktu	!
+!	!	!LO:TX:t=P:problem:brak taktu	!
 2.ryy	4ff#\	2.ryy	2.ryy
 .	2ff#\	.	.
 .	.	.	.
 =23	=23	=23	=23
 2.ryy	4ff#\	4dd/	4a\
-!	!LO:TUP:a:problem=klamra łukowa	!	!
+!	!LO:TUP:a:problem:klamra łukowa	!	!
 .	12dd\L	4dd/	4a\
 .	12ee\	.	.
 .	12ff#\J	.	.
@@ -193,7 +197,7 @@
 =24	=24	=24
 *	*	*^
 2.ryy	4ee 4cc# 4a/	4cc#/	4a\
-!	!	!LO:TUP:a:problem=klamra łukowa	!
+!	!	!LO:TUP:a:problem:klamra łukowa	!
 .	4r	12cc#\L	12ryy
 .	.	12dd\	12ryy
 .	.	12ee\J	12ryy
@@ -205,18 +209,18 @@
 =25	=25	=25
 *	*^	*
 2.ryy	4a/	4f#\	4dd\
-!	!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!	!LO:TUP:a:problem:klamra łukowa
 .	4r	4ryy	12dd\L
 .	.	.	12ee\
 .	.	.	12ff#\J
 .	.	.	8qqff#/
 .	4r	4ryy	8.ee\L
-!	!	!	!LO:N:vis=16
+!	!	!	!LO:N:vis=8
 .	.	.	16dd\Jk
 *	*v	*v	*
 =26	=26	=26
 2.ryy	4c#/	4ee\
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	12cc#\L	12ee\L
 .	12dd\	12ff#\
 .	12ee\J	12gg\J
@@ -232,7 +236,7 @@
 .	8.e/L	.
 .	16d/Jk	.
 =28	=28	=28
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 2.ryy	8c#/L	2.aa\
 .	8cc#|\	.
 .	(8ee\	.
@@ -262,7 +266,7 @@
 .	8a\J)	8cc#\J)
 !	!	!LO:LB:g=original
 =32	=32	=32
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 2.ryy	4d/	12b\L
 .	.	12cc#\
 .	.	12dd\J
@@ -272,7 +276,7 @@
 .	8e/	.
 .	8d/J	.
 =33	=33	=33
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 2.ryy	8c#/L	2.aa\
 .	8cc#|\	.
 .	(8ee\	.
@@ -295,18 +299,19 @@
 .	.	8ee#X\J)
 =36	=36	=36
 2.ryy	8dd\L	(8ff#\L
-.	[8cc#\	8een\)
-.	8cc#\]	(8ee\
-.	[8b\	8dd\)
-.	8b\]	(8dd\
+.	(8cc#\	8een\)
+.	8cc#\)	(8ee\
+.	(8b\	8dd\)
+.	8b\)	(8dd\
 .	8a\J	8cc#\J)
 =37	=37	=37
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 2.ryy	4d/	12b\L
 .	.	12cc#\
 .	.	12dd\J
 .	4e/	4cc#\
-.	4e/	4bT\
+!	!	!LO:TX:t=P:problem:niejednoznaczny zapis ozdobnika [przyjęto mordent górny]:global
+.	4e/	4bM\
 =38	=38	=38
 2.ryy	4a\	8cc#\L
 .	.	8a\
@@ -342,8 +347,8 @@
 2.ryy	2a 2e 2A/	2aa/	2a\
 .	4r	4r	4ryy
 *	*	*v	*v
-!!LO:TX:t=P:problem:fermata na kresce taktowej
-=43:|!|:	=43:|!|:	=43:|!|:
+=43:|!|:	=43:|!|:;	=43:|!|:;
+*>B	*>B	*>B
 *	*^	*
 *	*tremolo	*tremolo	*
 2.ryy	8cc#/L	8a\L	4.ee\
@@ -409,7 +414,7 @@
 .	8d#X/	4ff#\)
 .	8B/J	.
 =51	=51	=51
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 2.ryy	4e/	12gg\L
 .	.	12ff#\
 .	.	12ee\J
@@ -443,7 +448,7 @@
 .	8A/J	.
 =55	=55	=55
 *	*tremolo	*
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 2.ryy	8d/L	12ff#\L
 .	.	12ee\
 .	8d/	.
@@ -453,7 +458,7 @@
 .	8d/	4r
 .	8d/J	.
 =56	=56	=56
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 2.ryy	8A/L	12ee\L
 .	.	12dd\
 .	8A/	.
@@ -464,7 +469,7 @@
 .	8A/J	.
 *	*Xtremolo	*
 =57	=57	=57
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 2.ryy	8B/L	12dd\L
 .	.	12cc#\
 .	8B/	.
@@ -503,14 +508,14 @@
 =61	=61	=61
 2.ryy	8b\L	(4dd\
 .	8dd\	.
-.	8qee/	.
+.	8qdd/	.
 .	8cc#\	4ff#\)
 .	8b\	.
 .	8a#X\	4r
 .	8b\J	.
 !	!	!LO:LB:g=original
 =62	=62	=62
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 2.ryy	8B/L	4dd#X\
 .	8b\	.
 .	8dd#X\	4ff#\
@@ -528,7 +533,7 @@
 .	8ee\J	.
 !	!LO:LB:g=original	!
 =64	=64	=64
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 2.ryy	8B/L	4dd#X\
 .	8b\	.
 .	8dd#X\	4ff#\
@@ -569,7 +574,7 @@
 .	8cc#/J	16r
 .	.	16gg\
 =69	=69	=69
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 2.ryy	8dd\L	2.ff#t\
 .	8d/	.
 .	8d/	.
@@ -608,6 +613,7 @@
 =74	=74	=74
 2.ryy	4c#/	4A/
 .	(16ee\KL	(8.gg\L
+!	!LO:SIC:v:s=8.cc\J)	!
 .	8.dd\J)	.
 .	.	16ee\Jk)
 .	(16ee\KL	(8.gg\L
@@ -616,7 +622,7 @@
 !	!LO:LB:g=original	!
 =75	=75	=75
 2.ryy	4dd\	4ff#\
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	4r	12ff#\L
 .	.	12gg\
 .	.	12aa\J
@@ -625,7 +631,7 @@
 .	.	16ff#\Jk
 =76	=76	=76
 2.ryy	4b\	4gg\
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	4r	12gg\L
 .	.	12aa\
 .	.	12bb\J
@@ -634,7 +640,7 @@
 .	.	16gg\Jk
 =77	=77	=77
 2.ryy	4f#/	4aa\
-!	!LO:TUP:a:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa
+!	!LO:TUP:a:problem:klamra łukowa	!LO:TUP:a:problem:klamra łukowa
 .	12ff#\L	12aa\L
 .	12gg\	12bb\
 .	12aa\J	12cccn\J
@@ -650,7 +656,7 @@
 .	8.a/L	.
 .	16g/Jk	.
 =79	=79	=79
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 2.ryy	8f#/L	2.ddd\
 .	8ff#\	.
 .	8aa\	.
@@ -712,13 +718,13 @@
 =87	=87	=87
 !	!LO:SIC:v:s=(8gg\L	!
 2.ryy	(8ff#\L	(8bb\L
-!	!LO:SIC:v:s=8ff#\	!
+!	!LO:SIC:v:s=8ff#\)	!
 .	8ee\)	8aan\)
-!	!LO:SIC:v:s=8ff#\	!
+!	!LO:SIC:v:s=(8ff#\	!
 .	(8ee\	(8aa\
-!	!LO:SIC:v:s=8ee\	!
+!	!LO:SIC:v:s=8ee\)	!
 .	8dd\)	8gg\)
-!	!LO:SIC:v:s=8ee\	!
+!	!LO:SIC:v:s=(8ee\	!
 .	(8dd\	(8gg\
 !	!LO:SIC:v:s=8dd\J)	!
 .	8cc#\J)	8ff#\J)
@@ -760,8 +766,7 @@
 2.ryy	4ff# 4a 4d/	4ddd 4ff# 4d/
 .	4r	4r
 .	4r	4r
-!!LO:TX:t=P:problem:fermata na kresce taktowej:global
-==	==	==
+=:|!	=:|!;	=:|!;
 *-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
 !!!RDF**kern: > = above

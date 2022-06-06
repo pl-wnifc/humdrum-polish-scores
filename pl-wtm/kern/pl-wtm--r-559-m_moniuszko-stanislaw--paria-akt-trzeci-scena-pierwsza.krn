@@ -16,26 +16,27 @@
 !!!NIFC-rismid: 1001091081
 !!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r552-553-554-555-557-559m
 !!!ONB-nifc: UWAGA: skan 0018-0019
-!!!AIN: 4 empty 2 forte
-!!!key:
+!!!AIN: 1 alto 1 bass 2 piano 1 soprn 1 tenor
+!!!key: A
 **kern	**kern	**kern	**text	**kern	**text	**kern	**kern	**dynam
 *part6	*part5	*part4	*part4	*part3	*part3	*part2	*part1	*part1
 *staff6	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff1	*
-*Iempty	*Iempty	*Iempty	*	*Iempty	*	*Iforte	*Iforte	*
 *I"Wojownicy i Bramini.	*I"Wojownicy i Bramini.	*I"Bramini i Kobiety z ludu.	*	*I"Bramini i Kobiety z ludu.	*	*I"[Fortepian]	*I"[Fortepian]	*
 *I'	*I'	*I'	*	*I'	*	*I'	*I'	*
+*Ibass	*Itenor	*Ialto	*	*Isoprn	*	*Ipiano	*Ipiano	*
+*ICvox	*ICvox	*ICvox	*	*ICvox	*	*ICklav	*ICklav	*
 *clefF4	*clefG2	*clefG2	*	*clefG2	*	*clefF4	*clefG2	*
 *k[]	*k[]	*k[]	*	*k[]	*	*k[]	*k[]	*
-*a:	*a:	*a:	*	*a:	*	*a:	*a:	*
+*A:	*A:	*A:	*	*A:	*	*A:	*A:	*
 *	*ITrd8c12	*	*	*	*	*	*	*
 *M4/4	*M4/4	*M4/4	*	*M4/4	*	*M4/4	*M4/4	*
 *met(c)	*met(c)	*met(c)	*	*met(c)	*	*met(c)	*met(c)	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1
 *	*	*	*	*	*	*tremolo	*	*
-!!LO:TX:t=P:problem:większość caud z prawej strony	!
+!!LO:TX:t=P:problem:all\middle or right:global	!
 !	!	!	!	!	!	!	!LO:TX:b:i:t=impetuoso.:color=dodgerblue	!
 !	!	!	!	!	!	!	!LO:TX:t=52 b):color=dodgerblue	!
-!	!	!	!	!	!	!	!LO:TX:t=Akt trzeci. Scena pierwſza.:note=podkreślone	!
+!	!	!	!	!	!	!	!LO:TX:t=Akt trzeci. Scena pierwſza.:note=podkreślone	!LO:DY:rj
 1ryy	1ryy	1ryy	.	1ryy	.	32AALLL 32AAA/	4.eee 4.ccc 4.aa 4.ee\	ff
 .	.	.	.	.	.	32AA 32AAA/	.	.
 .	.	.	.	.	.	32AA 32AAA/	.	.
@@ -77,11 +78,11 @@
 =3	=3	=3	=3	=3	=3	=3	=3	=3
 1ryy	1ryy	1ryy	.	1ryy	.	8A/	8a/	.
 *	*	*	*	*	*	*clefF4	*	*
-*	*	*	*	*	*	*head:invis	*	*
 .	.	.	.	.	.	4A 4E 4AA\	4b 4a 4e^/	.
+*	*	*	*	*	*	*head:invis	*	*
 .	.	.	.	.	.	4A 4E 4AA\	4cc 4a 4e^/	.
 .	.	.	.	.	.	4A 4E 4AA\	4dd 4a 4e^/	.
-!	!	!	!	!	!	!	!LO:TX:t=P:problem=brak początków łuków (koniec pięciolinii)	!
+!	!	!	!	!	!	!	!LO:TX:t=P:problem:brak początków łuków	!
 .	.	.	.	.	.	8A 8E 8AA\	(8dd#X [8cc [8a^/	.
 !!linebreak:original
 *	*	*	*	*	*	*Xhead	*	*
@@ -142,11 +143,14 @@
 1ryy	1ryy	1ryy	.	1ryy	.	8E\	8e/	.
 .	.	.	.	.	.	4E 4EE/	4f 4c 4A^/	.
 .	.	.	.	.	.	8E 8EE/	8f#X 8e-X 8c/	.
+*	*	*	*	*	*	*tremolo	*	*
 .	.	.	.	.	.	8EL 8EE/	8gL 8d 8B^/	.
 .	.	.	.	.	.	8E 8EE/	8g#X 8fn 8d^/	.
+!	!	!	!	!	!	!	!LO:SIC:v:n=2:s=8en	!
 .	.	.	.	.	.	8E 8EE/	8a 8e- 8c^/	.
-!	!	!	!	!	!	!	!LO:SIC:v:n=3:s=8en/	!
+!	!	!	!	!	!	!	!LO:SIC:v:n=3:s=8en^/	!
 .	.	.	.	.	.	8EJ 8EE/	8bJ 8g# 8e-^/	.
+*	*	*	*	*	*	*Xtremolo	*	*
 =9	=9	=9	=9	=9	=9	=9	=9	=9
 1ryy	1ryy	1ryy	.	1ryy	.	8AA 8AAA/	8cc 8a 8e/	.
 .	.	.	.	.	.	8r	8r	.
@@ -155,16 +159,15 @@
 .	.	.	.	.	.	8F 8FF/	8dd 8b 8a 8d/	.
 .	.	.	.	.	.	8r	8r	.
 .	.	.	.	.	.	8E 8EE/	8ee 8b 8g#X 8e/	.
-!	!	!	!	!	!	!LO:TX:t=P:fermata.color=dodgerblue:problem	!	!
+!	!	!	!	!	!	!LO:TX:t=P:problem:fermata:color=dodgerblue	!	!
 .	.	.	.	.	.	8r;	8r;	.
 !!linebreak:original
 =10||	=10||	=10||	=10||	=10||	=10||	=10||	=10||	=10||
 *k[f#c#g#]	*k[f#c#g#]	*k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*k[f#c#g#]	*
 *M2/2	*M2/2	*M2/2	*	*M2/2	*	*M2/2	*M2/2	*
 *met(c|)	*met(c|)	*met(c|)	*	*met(c|)	*	*met(c|)	*met(c|)	*
-!	!	!	!	!	!	!	!LO:TX:t=P:znaki:problem= f# zamiast ff#	!
-!	!	!	!	!	!	!	!LO:TX:b:i:t=molto giojoso.	!
-!	!	!	!	!	!	!	!LO:TX:a:t=doppio movimento.	!LO:DY:t=pp.
+!	!	!	!	!	!	!	!LO:TX:t=P:problem:znaki: f# zamiast ff#, g# zamiast gg#	!
+!	!	!	!	!	!	!	!LO:TX:a:t=doppio movimento.	!LO:DY:t=pp. molto giojoso.
 1ryy	1ryy	1ryy	.	1ryy	.	1r	4ee 4a\	pp
 *	*	*	*	*	*	*	*head:invis	*
 .	.	.	.	.	.	.	8eeL 8a\	.
@@ -203,11 +206,11 @@
 .	.	.	.	.	.	.	.	8eeL 8a\	.
 .	.	.	.	.	.	.	.	8eeJ 8a\	.
 *	*	*	*	*	*	*	*	*Xhead	*
-!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=brak poczatków łuków (koniec pięciolinii)	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:brak początków łuków	!
 .	.	.	.	.	.	.	.	[2ee [2a\	.
 !!linebreak:original
 =15	=15	=15	=15	=15	=15	=15	=15	=15	=15
-!	!	!	!	!	!	!	!LO:TX:t=P:problem=brak zakończenia łuku (początek pięciolinii)	!	!
+!	!	!	!	!	!	!	!LO:TX:t=P:problem:brak zakończenia łuku	!	!
 1ryy	1ryy	1ryy	.	1ryy	.	4e 4c# 4A\	2.ff#/]	1ee] 1a]	.
 *	*	*	*	*	*	*head:invis	*	*	*
 .	.	.	.	.	.	8eL 8c# 8A\	.	.	.
@@ -257,12 +260,14 @@
 *	*	*	*	*	*	*	*	*Xhead	*
 .	.	.	.	.	.	.	.	[2ee [2cc# [2a\	.
 .	.	.	.	.	.	8eL 8A\	.	.	.
+*	*	*	*	*	*	*head:invis	*	*	*
 .	.	.	.	.	.	8eJ 8A\	.	.	.
+*	*	*	*	*	*	*Xhead	*	*	*
 =21	=21	=21	=21	=21	=21	=21	=21	=21	=21
 1ryy	1ryy	1ryy	.	1ryy	.	2e 2A\	4ggn/]	4ee] 4cc#] 4a\]	.
 .	.	.	.	.	.	.	(<8ee/L	2cc# 2a^\	.
 .	.	.	.	.	.	.	8ff#/J	.	.
-!	!	!	!	!	!	!	!LO:SIC:v:s=4ggn/	!	!
+!	!	!	!	!	!	!	!LO:SIC:v:s=4ggn/)	!	!
 .	.	.	.	.	.	2e 2A\	4gg#y/)	.	.
 .	.	.	.	.	.	.	(<8ee/L	[4cc# [4a^\	.
 .	.	.	.	.	.	.	8ff#/J	.	.
@@ -323,9 +328,9 @@
 *	*	*	*	*	*	*Xrep	*	*
 =27	=27	=27	=27	=27	=27	=27	=27	=27
 *	*	*	*	*	*	*rep	*	*
-1ryy	1ryy	1ryy	.	1ryy	.	4AA/	(8dd\L	.
-.	.	.	.	.	.	.	8cc#\	.
-.	.	.	.	.	.	8eL 8c# 8A\	8b\)	.
+1ryy	1ryy	1ryy	.	1ryy	.	4AA/	(8ee\L	.
+.	.	.	.	.	.	.	8dd\	.
+.	.	.	.	.	.	8eL 8c# 8A\	8cc#\)	.
 *	*	*	*	*	*	*head:invis	*	*
 .	.	.	.	.	.	8eJ 8c# 8A\	8aa\J	.
 .	.	.	.	.	.	4e 4c# 4A\	4ee\	.
@@ -346,17 +351,17 @@
 *	*	*	*	*	*	*Xrep	*	*
 =29	=29	=29	=29	=29	=29	=29	=29	=29
 *	*	*	*	*	*	*	*^	*
-1ryy	1ryy	1ryy	.	1ryy	.	4AA/	(8dd\L	2.ryy	.
-.	.	.	.	.	.	.	8cc#\	.	.
-.	.	.	.	.	.	8eL 8c# 8A\	8b\)	.	.
+1ryy	1ryy	1ryy	.	1ryy	.	4AA/	(8ee\L	2.ryy	.
+.	.	.	.	.	.	.	8dd\	.	.
+.	.	.	.	.	.	8eL 8c# 8A\	8cc#\)	.	.
 *	*	*	*	*	*	*head:invis	*	*	*
 .	.	.	.	.	.	8eJ 8c# 8A\	8aa\J	.	.
 *	*	*	*	*	*	*Xhead	*	*	*
 .	.	.	.	.	.	4e 4c# 4A\	4ee\	.	.
 !	!	!	!	!	!	!	!	!	!LO:DY:t=pp.
 .	.	.	.	.	.	4d 4D\	8ee/L	4ccn\	pp
-!	!	!	!	!	!	!	!LO:TX:t=175:color=dodgerblue	!	!
 .	.	.	.	.	.	.	8ff#/J	.	.
+!	!	!	!	!	!	!	!LO:TX:a:rj:t=175:color=dodgerblue	!	!
 !!pagebreak:original
 =30	=30	=30	=30	=30	=30	=30	=30	=30	=30
 1ryy	1ryy	1ryy	.	1ryy	.	4Gn 4GGn/	(2ggn/	2b\	.
@@ -518,11 +523,12 @@
 =45	=45	=45	=45	=45	=45	=45	=45	=45
 *	*	*	*	*	*	*	*^	*
 1ryy	1ryy	1ryy	.	1ryy	.	4AA/	4a/	2.ryy	.
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:extended text	!LO:HP:t=cres-cen-do
 .	.	.	.	.	.	4c# 4A 4E\	8eeL 8a/	.	<
 *	*	*	*	*	*	*	*head:invis	*	*
-.	.	.	.	.	.	.	8eeJ 8a/	.	[
+.	.	.	.	.	.	.	8eeJ 8a/	.	.
 *	*	*	*	*	*	*	*Xhead	*	*
-.	.	.	.	.	.	4AA/	[2ee [2a/	.	.
+.	.	.	.	.	.	4AA/	[2ee [>2a/	.	.
 .	.	.	.	.	.	4c# 4A 4E\	.	8e\L	.
 .	.	.	.	.	.	.	.	8e\J	.
 =46	=46	=46	=46	=46	=46	=46	=46	=46	=46
@@ -530,7 +536,7 @@
 1ryy	1ryy	1ryy	.	1ryy	.	4AA/	4ee] 4a/]	2.e\	.
 .	.	.	.	.	.	4c# 4A 4E\	8eeL 8a/	.	.
 .	.	.	.	.	.	.	8eeJ 8a/	.	.
-!	!	!	!	!	!	!	!LO:TX:t=P:problem=błędnie wpisane łuki	!	!
+!	!	!	!	!	!	!	!LO:TX:t=P:problem:błędnie wpisane łuki	!	!
 .	.	.	.	.	.	4AA/	2ee 2a/	.	.
 .	.	.	.	.	.	4c# 4A 4E\	.	8e\L	.
 .	.	.	.	.	.	.	.	8e\J	.
@@ -550,8 +556,8 @@
 .	.	.	.	.	.	4c# 4A 4E\	2ee 2a 2e^/	.
 .	.	.	.	.	.	4AA/	.	.
 !	!	!	!	!	!	!	!LO:TX:b:i:rj:t=re =:color=red	!
-!	!	!	!	!	!	!	!LO:TX:b:i:t= w książce str. 37ma:color=dodgerblue	!
 .	.	.	.	.	.	4c# 4A 4E\	4ee 4a 4e^/	f
+!	!	!	!	!	!	!	!LO:TX:b:i:rj:t= w książce str. 37ma:color=dodgerblue	!
 !!linebreak:original
 *	*	*	*	*	*	*Xrep	*	*
 =49	=49	=49	=49	=49	=49	=49	=49	=49
@@ -570,17 +576,17 @@
 .	4.A/	.	.	4.a/	gwia-	.	.	.
 .	8B/	.	.	8b/	-zdę	.	.	.
 =52	=52	=52	=52	=52	=52	=52	=52	=52
-2r	2c#\	2r	.	2cc#\	świa-	1ryy	1ryy	.
+2r	2c#\	2r	.	2cc#\	swia-	1ryy	1ryy	.
 4r	4A/	4r	.	4a\	-ta	.	.	.
 4E\	4r	4e/	o-	4r	.	.	.	.
 =53	=53	=53	=53	=53	=53	=53	=53	=53
 *2\right	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!LO:TX:t=P:problem=brak źródła	!
+!	!	!	!	!	!	!	!LO:TX:t=P:problem:brak źródła	!
 2.Gn\	1r	2.gn/	-cho-	1r	.	1ryy	1ryy	.
 4E\	.	4e/	-czo	.	.	.	.	.
 =	=	=	=	=	=	=	=	=
 *-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2)][(s3)],[(s4)],[(s5)],[(s6)]
+!!!system-decoration: {(s1,s2)}[(s3)],[(s4)],[(s5)],[(s6)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: @ = marked note, color=dodgerblue

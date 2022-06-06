@@ -17,19 +17,23 @@
 !!!NIFC-rismid: 1001104668
 !!!URL-scan: http://bc.bdsandomierz.pl/dlibra/publication/1703/edition/1671/content
 !!!ONB-nifc: UWAGA: No 5to, pierwsza część (bez podanego tempa)
-!!!AIN: 1 empty 2 violn
-!!!key:
+!!!AIN: 2 violn
+!!!key: A
 **kern	**kern	**kern
 *part3	*part2	*part1
 *staff3	*staff2	*staff1
-*Iempty	*Ivioln	*Ivioln
-*I"Baſso	*I"Violino 2do	*I"Violino 1mo
+*I"Baſso.	*I"Violino 2do	*I"Violino 1mo
 *I'b	*I'vl 2	*I'vl 1
+*I	*Ivioln	*Ivioln
+*ICstr	*ICstr	*ICstr
+*IGcont	*	*
 *clefF4	*clefG2	*clefG2
 *k[f#c#g#]	*k[f#c#g#]	*k[f#c#g#]
 *A:	*A:	*A:
 *M2/4	*M2/4	*M2/4
-!LO:TX:t=P:problem=zgodnie z RISM "b part missing."	!	!
+*>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]
+*>A	*>A	*>A
+!LO:TX:t=P:problem:zgodnie z RISM "b part missing."	!	!
 8ryy	8r	8a/
 =1	=1	=1
 *2\right	*2\right	*2\right
@@ -52,11 +56,12 @@
 =3	=3	=3
 2ryy	8d/L	16.f#/LL
 .	.	32a/JJk
-!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!LO:TX:t=P:problem:mixed beam
 .	8c#/	16.e/LL
 .	.	32ee\JJk
 .	.	8qqff#/
-.	8B/	4ddT\
+!	!	!LO:TX:t=P:problem:niejednoznaczny zapis ozdobnika [przyjęto mordent górny]:global
+.	8B/	4ddM\
 .	8e/J	.
 =4	=4	=4
 2ryy	4A/	16.cc#\LL
@@ -92,11 +97,12 @@
 =7	=7	=7
 2ryy	16f#/LL	8d/L
 .	16a/JJ	.
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 .	16e/LL	8c#/
 .	16ee\JJ	.
 .	8qqff#/	.
-.	4ddT\	8B/
+!	!LO:TX:t=P:problem:niejednoznaczny zapis ozdobnika [przyjęto mordent górny]:global	!
+.	4ddM\	8B/
 .	.	8e/J
 =8	=8	=8
 2ryy	8cc#\L	4A/
@@ -105,7 +111,7 @@
 .	8cc#\L	8r
 .	8a\J	8ee\
 =9	=9	=9
-!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!LO:TX:t=P:problem:mixed beam
 2ryy	8d/L	8ff#\L
 .	8d/	8d/J
 .	8d/	32ff#\LLL
@@ -118,16 +124,17 @@
 =10	=10	=10
 2ryy	8c#/L	8ee\L
 .	8c#/	8a\J
-*	*	*Xbrackettup
+*	*	*Xtuplet
 !	!	!LO:TUP:a
 .	8c#/	24r
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	.	24a\LL
 .	.	24b\
 .	8a/J	24cc#\
 .	.	24dd\
 .	.	24ee\JJ
 =11	=11	=11
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 2ryy	8b\L	(8.dd\L
 .	8b\	.
 .	.	32cc#\LL
@@ -135,7 +142,7 @@
 .	8g#/	(8ee\L
 .	8e/J	8dd\J)
 =12	=12	=12
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 2ryy	8A/L	16.cc#\LL
 .	.	32ee\K
 .	8B/	16.g#\
@@ -144,11 +151,11 @@
 .	8ee\J	8r
 !	!LO:LB:g=original	!
 =13	=13	=13
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 2ryy	8ff#\L	8d/L
-.	8f#/J	8d/
+.	8d/J	8d/
 *	*Xtuplet	*
-!	!LO:TUP:a:problem=klamra łukowa	!
+!	!LO:TUP:a:problem:klamra łukowa	!
 .	24ff#\LL	8d/
 .	24gg#\	.
 .	24aa\JJ	.
@@ -159,7 +166,7 @@
 .	16cc#\J)	.
 .	8a\J	8c#/
 .	24r	8c#/
-!	!LO:TUP:a:problem=klamra łukowa	!
+!	!LO:TUP:a:problem:klamra łukowa	!
 .	24a\LL	.
 .	24b\	.
 .	24cc#\	8a/J
@@ -177,7 +184,7 @@
 .	.	8A/
 .	(32dd\LL	.
 .	32ee\JJJ)	.
-!	!LO:TUP:a:problem=klamra łukowa	!
+!	!LO:TUP:a:problem:klamra łukowa	!
 .	28ff#\LL	8d/
 .	28ee\	.
 .	28dd\	.
@@ -187,7 +194,7 @@
 .	28a\	.
 .	28g#\JJ	.
 =17	=17	=17
-!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!LO:TX:t=P:problem:mixed beam
 .	8qqa/	.
 2ryy	4g#/	8e/L
 .	.	8ee\
@@ -198,7 +205,7 @@
 2ryy	4B/	8ee\L
 .	.	8dd#X\J
 *	*	*Xtuplet
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	4r	24dd#\LL
 .	.	24ee\
 .	.	24ff#\JJ
@@ -207,7 +214,7 @@
 .	.	24ff#'\JJ
 !	!	!LO:LB:g=original
 =19	=19	=19
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 2ryy	8e/L	8ee\L
 .	8ee\	8gg#\
 .	8ee\	8gg#\
@@ -216,7 +223,7 @@
 .	8qqff#/	8qqaa/
 2ryy	8ee\L	8gg#\L
 .	8dd#X\J	8ff#\J
-!	!LO:TUP:a:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa
+!	!LO:TUP:a:problem:klamra łukowa	!LO:TUP:a:problem:klamra łukowa
 .	24dd#\LL	24ff#\LL
 .	24ee\	24gg#\
 .	24ff#\JJ	24aa\JJ
@@ -238,34 +245,34 @@
 .	24aa\JJ	24ccc#\JJ
 =23	=23	=23
 2ryy	4gg#\	4bb\
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	24gg#\LL	24bb\LL
 .	24ee\	24gg#\
 .	24ff#\JJ	24aa\JJ
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	24gg#\LL	24bb\LL
 .	24ee\	24gg#\
 .	24gg#\JJ	24bb\JJ
 !	!LO:LB:g=original	!
 =24	=24	=24
 2ryy	4ff#\	4aa\
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	24ff#\LL	24aa\LL
 .	24dd#X\	24ff#\
 .	24ee\JJ	24gg#\JJ
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	24ff#\LL	24aa\LL
 .	24dd#\	24ff#\
 .	24ff#\JJ	24aa\JJ
 =25	=25	=25
-!	!LO:TUP:a:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa
+!	!LO:TUP:a:problem:klamra łukowa	!LO:TUP:a:problem:klamra łukowa
 2ryy	24ee\LL	24gg#\LL
 .	24ff#\	24aa\
 .	24gg#\JJ	24bb\JJ
 .	24gg#'\LL	24bb'\LL
 .	24gg#'\	24bb'\
 .	24gg#'\JJ	24bb'\JJ
-!	!LO:TUP:a:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa
+!	!LO:TUP:a:problem:klamra łukowa	!LO:TUP:a:problem:klamra łukowa
 .	24dd#X\LL	24ff#\LL
 .	24ee\	24gg#\
 .	24ff#\JJ	24aa\JJ
@@ -273,14 +280,13 @@
 .	24ff#'\	24aa'\
 .	24ff#'\JJ	24aa'\JJ
 =26	=26	=26
-!	!LO:TUP:a:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa
+!	!LO:TUP:a:problem:klamra łukowa	!LO:TUP:a:problem:klamra łukowa
 2ryy	24ee\LL	24gg#\LL
 .	24ff#\	24aa\
 .	24gg#\JJ	24bb\JJ
 .	24gg#'\LL	24bb'\LL
 .	24gg#'\	24bb'\
 .	24gg#'\JJ	24bb'\JJ
-!	!LO:TUP:a:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa
 .	24dd#X\LL	24ff#\LL
 .	24ee\	24gg#\
 .	24ff#\JJ	24aa\JJ
@@ -289,7 +295,7 @@
 .	24ff#'\JJ	24aa'\JJ
 !	!	!LO:PB:g=original
 =27	=27	=27
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 .	.	8qqaa/
 2ryy	8ee\L	2gg#\
 .	16.e/L	.
@@ -369,7 +375,7 @@
 .	16.e/	8B/J
 .	32d#X/JJk	.
 =34	=34	=34
-!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!LO:TX:t=P:problem:mixed beam
 2ryy	8e/L	16e/LL
 .	.	16ee\JJ
 .	8G#X/	16r
@@ -379,7 +385,7 @@
 .	8B/J	16g#/
 .	.	16f#/JJ
 =35	=35	=35
-!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!LO:TX:t=P:problem:mixed beam
 2ryy	8c#/L	16e/LL
 .	.	16ee\JJ
 .	8G#/	16r
@@ -389,13 +395,14 @@
 .	8B/J	16g#/
 .	.	16f#/JJ
 =36	=36	=36
-2ryy	4e/	4e/ 4b 4ee
+2ryy	4e/	4ee 4b 4e/
 !	!LO:N:vis=8	!LO:N:vis=8
-!	!LO:TX:t=P:problem=fermata na znaku repetycji	!LO:TX:t=P:problem=fermata na znaku repetycji
 .	4r	4r
 !	!	!LO:LB:g=original
-=37:|!|:	=37:|!|:	=37:|!|:
+=37:|!|:	=37:|!|:;	=37:|!|:;
+*>B	*>B	*>B
 *	*	*^
+!	!	!LO:TX:t=P:problem:półnuta na środku taktu	!
 2ryy	8.g#/L	8.b/L	2e\
 .	16a/Jk	16cc#/Jk	.
 .	24g#/LL	24b/LL	.
@@ -413,7 +420,7 @@
 .	.	48ee\
 .	.	96ff#\L
 .	.	96gg#\JJJJ
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	4r	24aa\LL
 .	.	24gg#\
 .	.	24ff#\
@@ -422,13 +429,15 @@
 .	.	24cc#\JJ
 =39	=39	=39
 *	*	*^
+!	!	!LO:TX:t=P:problem:półnuta na środku taktu	!
 2ryy	8.g#/L	8.b/L	2e\
-.	16a/Jk	16cc#/Jk	.
-!	!LO:TUP:b:problem=klamra łukowa	!	!
+!	!LO:SIC:v:s=16a/Jk	!	!
+.	16b/Jk	16cc#/Jk	.
+!	!LO:TUP:b:problem:klamra łukowa	!	!
 .	24g#/LL	24b/LL	.
 .	24a/	24cc#/	.
 .	24b/JJ	24ddn/JJ	.
-!	!LO:TUP:b:problem=klamra łukowa	!	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!
 .	24g#/LL	24b/LL	.
 .	24a/	24cc#/	.
 .	24b/JJ	24dd/JJ	.
@@ -441,7 +450,7 @@
 .	.	48ee\
 .	.	96ff#\L
 .	.	96gg#\JJJJ
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	8r	24aa\LL
 .	.	24gg#\
 .	.	24ff#\
@@ -461,7 +470,7 @@
 .	.	32cc#\K
 .	.	16.a#X\
 .	.	32cc#\JJk
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	8r	24f#/LL
 .	.	24a#X/
 .	.	24b/
@@ -469,7 +478,7 @@
 .	.	24dd/
 .	.	24ee/JJ
 =43	=43	=43
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 2ryy	8b\L	24dd\LL
 .	.	24ee\
 .	.	24ff#\JJ
@@ -493,11 +502,12 @@
 =45	=45	=45
 !	!LO:N:vis=16	!
 .	.	8qqa/
+!	!LO:N:vis=16	!
 2ryy	16.dd\LL	4g#/
 .	32b\K	.
 .	16.g#\	.
 .	32b\JJk	.
-!	!LO:TUP:b:problem=klamra łukowa	!
+!	!LO:TUP:b:problem:klamra łukowa	!
 .	24e/LL	8r
 .	24g#/	.
 .	24a/	.
@@ -505,14 +515,14 @@
 .	24cc#/	.
 .	24dd/JJ	.
 =46	=46	=46
-!	!LO:TUP:a:problem=klamra łukowa	!
+!	!LO:TUP:a:problem:klamra łukowa	!
 2ryy	24cc#\LL	8a\L
 .	24dd\	.
 .	24ee\JJ	.
-.	24dd'\LL 24ff#	8cc#\J
-.	24dd'\ 24ff#	.
-.	24dd'\JJ 24ff#	.
-!	!LO:TUP:a:problem=klamra łukowa	!
+.	24ff#LL 24dd'\	8cc#\J
+.	24ff# 24dd'\	.
+.	24ff#JJ 24dd'\	.
+!	!LO:TUP:a:problem:klamra łukowa	!
 .	24b\LL	8g#/L
 .	24cc#\	.
 .	24dd\JJ	.
@@ -529,7 +539,7 @@
 .	16.b\	8f#/J
 .	32a#X\JJk	.
 =48	=48	=48
-!	!LO:SIC:v:s=8qa#	!
+!	!LO:SIC:v:s=8qqa#/	!
 .	8qqa/	.
 2ryy	8.b\L	8g#/L
 .	.	8g#/
@@ -549,18 +559,18 @@
 .	24b\JJ	.
 .	24a/LL	8B#/J
 .	24g#/	.
-!	!LO:TX:t=P:problem=16g# poprawione na 16f#	!
+!	!LO:TX:t=P:problem:24g# poprawione na 24f#	!
 .	24f#/JJ	.
 =50	=50	=50
-!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!LO:TX:t=P:problem:mixed beam
 2ryy	16.e#X\LL	8c#/L
 .	32cc#\K	.
 !	!	!LO:N:vis=8
 .	16.ee#X\	16r
 .	.	16gg#\Jk
 .	32cc#\JJk	.
-!	!LO:PB:g=original	!
-.	16.ee#\LL	4gg#t\
+!	!LO:PB:g=original	!LO:MOR:acc=none
+.	16.ee#\LL	4gg#M\
 .	32cc#\K	.
 .	16.ee#\	.
 .	32cc#\JJk	.
@@ -575,12 +585,13 @@
 .	16.a\	8ff#\
 .	32g#\JJk	.
 =52	=52	=52
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 2ryy	16.c#/LL	8ee#X\L
 .	32cc#\K	.
 .	16.ee#X\	16.cc#\L
 .	32cc#\JJk	32gg#\JJk
-.	16.ee#X\LL	4gg#t\
+!	!	!LO:MOR:acc=none
+.	16.ee#X\LL	4gg#M\
 .	32cc#\K	.
 .	16.ee#\	.
 .	32cc#\JJk	.
@@ -600,7 +611,8 @@
 .	(16.dd#\	.
 .	.	16aan\Jk
 .	32b\JJk)	.
-.	(16.dd#\LL	4aaT\
+!	!	!LO:MOR:acc=none
+.	(16.dd#\LL	4aaM\
 .	32b\K)	.
 .	(16.dd#\	.
 .	32b\JJk)	.
@@ -614,12 +626,12 @@
 .	(16.g#/	8ee\
 .	32e/JJk)	.
 =56	=56	=56
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 2ryy	16.B/LL	8dd#X\L
 .	32b\K	.
 .	16.dd#X\	16.b\L
 .	32b\JJk	32ff#\JJk
-.	(16.dd#\LL	4ff#T\
+.	(16.dd#\LL	4ff#M\
 .	32b\K)	.
 .	(16.dd#\	.
 .	32b\JJk)	.
@@ -638,30 +650,31 @@
 .	16.cc#\	.
 .	.	16ggn\Jk
 .	32a\JJk	.
-.	16.cc#\LL	4ggT\
+.	16.cc#\LL	4ggM\
 .	32a\K	.
 .	16.cc#\	.
 .	32a\JJk	.
 =59	=59	=59
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 2ryy	24dd\LL	24ff#\LL
 .	24b\	24dd\
 .	24dd\JJ	24ff#\JJ
 .	8cc#\	8ee\
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	24b\LL	24dd\LL
 .	24g#\	24b\
 .	24b\JJ	24dd\JJ
 .	8a\	8cc#\
 =60	=60	=60
 *	*	*^
+!	!	!LO:TX:t=P:problem:półnuta na środku taktu	!
 2ryy	8.g#/L	8.b/L	2e\
 .	16a/Jk	16cc#/Jk	.
-!	!LO:TUP:b:problem=klamra łukowa	!	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!
 .	24g#/LL	24b/LL	.
 .	24a/	24cc#/	.
 .	24b/JJ	24dd/JJ	.
-!	!LO:TUP:b:problem=klamra łukowa	!	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!
 .	24g#/LL	24b/LL	.
 .	24a/	24cc#/	.
 .	24b/JJ	24dd/JJ	.
@@ -669,54 +682,68 @@
 =61	=61	=61
 2ryy	4a/	8cc#\
 .	.	24r
-!	!	!LO:TX:t=P:problem=uwaga na rytm
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 .	.	48cc#\LLL
 .	.	48dd\
 .	.	48ee\
+!	!	!LO:N:vis=48
 .	.	96ff#\L
+!	!	!LO:N:vis=48
 .	.	96gg#\JJJJ
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
+!	!	!LO:N:vis=48
 .	4r	24aa\LL
+!	!	!LO:N:vis=48
 .	.	24gg#\
+!	!	!LO:N:vis=48
 .	.	24ff#\
+!	!	!LO:N:vis=48
 .	.	24ee\
+!	!	!LO:N:vis=48
 .	.	24dd\
+!	!	!LO:N:vis=48
 .	.	24cc#\JJ
 !	!LO:LB:g=original	!
 =62	=62	=62
 *	*	*^
-!	!	!LO:TX:t=P:problem=t. 62-63 zapisane repetycją	!
-2ryy	8.g#/L	8.b/L	2e\
-.	16a/Jk	16cc#/Jk	.
-!	!LO:TUP:b:problem=klamra łukowa	!	!
-.	24g#/LL	24b/LL	.
-.	24a/	24cc#/	.
-.	24b/JJ	24dd/JJ	.
-!	!LO:TUP:b:problem=klamra łukowa	!	!
-.	24g#/LL	24b/LL	.
-.	24a/	24cc#/	.
-.	24b/JJ	24dd/JJ	.
+!	!	!LO:TX:t=P:problem:t. 62-63 zapisane repetycją	!
+2ryy	8.g#/L	8.b/Lyy	2e\yy
+.	16a/Jk	16cc#/Jkyy	.
+!	!LO:TUP:b:problem:klamra łukowa	!	!
+.	24g#/LL	24b/LLyy	.
+.	24a/	24cc#/yy	.
+.	24b/JJ	24dd/JJyy	.
+!	!LO:TUP:b:problem:klamra łukowa	!	!
+.	24g#/LL	24b/LLyy	.
+.	24a/	24cc#/yy	.
+.	24b/JJ	24dd/JJyy	.
 *	*	*v	*v
 =63	=63	=63
-2ryy	4a/	8cc#\
-.	.	24r
-!	!	!LO:TX:t=P:problem=uwaga na rytm
-!	!	!LO:TUP:a:problem=klamra łukowa
-.	.	48cc#\LLL
-.	.	48dd\
-.	.	48ee\
-.	.	96ff#\L
-.	.	96gg#\JJJJ
-!	!	!LO:TUP:a:problem=klamra łukowa
-.	16r	24aa\LL
-.	.	24gg#\
+2ryy	4a/	8cc#\yy
+.	.	24ryy
+!	!	!LO:TUP:a:problem:klamra łukowa
+.	.	48cc#\LLLyy
+.	.	48dd\yy
+.	.	48ee\yy
+!	!	!LO:N:vis=48
+.	.	96ff#\Lyy
+!	!	!LO:N:vis=48
+.	.	96gg#\JJJJyy
+!	!	!LO:TUP:a:problem:klamra łukowa
+!	!	!LO:N:vis=48
+.	16r	24aa\LLyy
+!	!	!LO:N:vis=48
+.	.	24gg#\yy
 .	(16cc#\LL	.
-.	.	24ff#\
-.	16b\	24ee\
-.	.	24dd\
+!	!	!LO:N:vis=48
+.	.	24ff#\yy
+!	!	!LO:N:vis=48
+.	16b\	24ee\yy
+!	!	!LO:N:vis=48
+.	.	24dd\yy
 .	16a\JJ)	.
-.	.	24cc#\JJ
+!	!	!LO:N:vis=48
+.	.	24cc#\JJyy
 =64	=64	=64
 *	*	*^
 2ryy	8aT/L	8cc#/L	4e\
@@ -752,7 +779,7 @@
 .	(16.g#\	8B/
 .	32b\JJk)	.
 =68	=68	=68
-!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!LO:TX:t=P:problem:mixed beam
 2ryy	16A/LL	8c#/L
 .	16a/	.
 !	!	!LO:N:vis=8
@@ -768,21 +795,22 @@
 .	16ff#\	.
 !	!	!LO:N:vis=8
 .	16dd#X\	16r
+!	!	!LO:N:vis=16.
 .	16ff#\JJ	16aa\Jk
 .	(16ff#\LL	(16aa\LL
-.	16ee\)	16gg#\)
-.	16ee\	(16gg#\
+.	16ee\	16gg#\)
+.	16ee\)	(16gg#\
 .	16dd#\JJ	16ff#\JJ)
 =70	=70	=70
 *	*	*^
 2ryy	8ee\	8gg#\L	2e\
 .	16r	16r	.
 .	16g#/	16b\Jk	.
-!	!LO:TUP:b:problem=klamra łukowa	!	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!
 .	24g#/LL	24b/LL	.
 .	24a/	24cc#/	.
 .	24b/JJ	24dd/JJ	.
-!	!LO:TUP:b:problem=klamra łukowa	!	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!
 .	24g#/LL	24b/LL	.
 .	24a/	24cc#/	.
 .	24b/JJ	24dd/JJ	.
@@ -797,11 +825,11 @@
 2ryy	8g#/L	8b/L	8e\
 .	16r	16r	8ryy
 .	16g#/Jk	16b/Jk	.
-!	!LO:TUP:b:problem=klamra łukowa	!LO:TUP:b:problem=klamra łukowa	!
+!	!LO:TUP:b:problem:klamra łukowa	!LO:TUP:b:problem:klamra łukowa	!
 .	24g#/LL	24b/LL	8e\L
 .	24a/	24cc#/	.
 .	24b/JJ	24dd/JJ	.
-!	!LO:TUP:b:problem=klamra łukowa	!LO:TUP:b:problem=klamra łukowa	!
+!	!LO:TUP:b:problem:klamra łukowa	!LO:TUP:b:problem:klamra łukowa	!
 .	24g#/LL	24b/LL	8e\J
 .	24a/	24cc#/	.
 .	24b/JJ	24dd/JJ	.
@@ -832,7 +860,7 @@
 .	.	8qqdd/
 2ryy	8a/L	8cc#\L
 .	8g#/J	8b\J
-!	!LO:TUP:b:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa
+!	!LO:TUP:b:problem:klamra łukowa	!LO:TUP:a:problem:klamra łukowa
 .	24g#/LL	24b\LL
 .	24a/	24cc#\
 .	24b/JJ	24dd\JJ
@@ -922,11 +950,10 @@
 .	8e/J	16cc#\
 .	.	16b\JJ
 =85	=85	=85
-2ryy	4A/	4A/ 4e 4a
-!	!LO:TX:t=P:problem=fermata na znaku repetycji	!LO:TX:t=P:problem=fermata na znaku repetycji
+2ryy	4A/	4a 4e 4A/
 !	!LO:N:vis=8	!LO:N:vis=8
 .	4r	4r
-=:|!	=:|!	=:|!
+=:|!	=:|!;	=:|!;
 *-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
 !!!RDF**kern: > = above

@@ -1,5 +1,4 @@
 !!!!SEGMENT: pl-wnifc--13846--147_anonim--piesni-polskie-i-ruskie-ludu-galicyjskiego-147-na-szczoz-mene-zaczypajesz.krn
-!!!kernsource:
 !!!cenid: 18xx:3369
 !!!COM: Anonim
 !!!COM-rismid: pe30004985
@@ -12,16 +11,19 @@
 !!!SMS-siglum: PL-Wnifc
 !!!SMS-shelfmark: 13846
 !!!SMS-shelfwork: 147 G
+!!!SMS-variant:
+!!!SMS-altvar:
 !!!NIFC-rismid: 1001039680
 !!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wnifc-nut--13846
 !!!ONB-nifc:
+!!!OMD: Allegretto
 !!!AIN: 1 piano 1 vox
-!!!key:
+!!!key: a
 **kern	**kern	**kern	**text
 *part2	*part2	*part1	*part1
 *group2	*group2	*group1	*group1
 *staff3	*staff2	*staff1	*staff1
-*I"[Fortepian.]	*I"[Fortepian.]	*I"[Głos.]	*
+*I"[FORTEPIAN.]	*I"[FORTEPIAN.]	*I"[GŁOS.]	*
 *I'	*I'	*I'	*
 *Ipiano	*Ipiano	*Ivox	*
 *ICklav	*ICklav	*ICvox	*
@@ -30,15 +32,17 @@
 *k[]	*k[]	*k[]	*
 *a:	*a:	*a:	*
 *M2/4	*M2/4	*M2/4	*
+*>[A,B,B]	*>[A,B,B]	*>[A,B,B]	*>[A,B,B]
 =1-	=1-	=1-	=1-
-!	!	!LO:TX:a:B:t=E.286.	!
-!	!	!LO:TX:a:B:t=Allegretto	!
+*>A	*>A	*>A	*>A
 *^	*	*	*
 *clefG2	*	*	*	*
-8c/L 8A/	4A\	8ee\L 8cc\|	8ee\	Na
+!!LO:TX:t=P:problem:tekst: Pieśni polskie i ruskie ludu galicyjskiego, s. 417.
+!	!	!	!LO:TX:a:B:t=E.286.	!
+8c/L 8A/	4A\	8ee\L 8cc`\	8ee\	Na
 8e/J	.	(16ee\L 16cc\	(16ee\LL	szczoż
 .	.	16dd\JJ 16b\)	16dd\JJ)	.
-8d/L 8B/ 8G#X/	4G#\	8ff\L 8dd\|	8ff\	me-
+8d/L 8B/ 8G#X/	4G#\	8ff\L 8dd`\	8ff\	me-
 8f/J	.	(16ff\L 16dd\	(16ff\LL	-ne
 .	.	16ee\JJ 16cc\)	16ee\JJ)	.
 =2	=2	=2	=2	=2
@@ -59,9 +63,10 @@
 .	.	16dd\Jk	16dd\	-łu
 8c/ 8A/	4A\	(16cc\LL	(16cc\LL	ma-
 .	.	16b\J)	16b\JJ)	.
-8e/J	.	8a/|J	8a/	-jesz,
+8e/J	.	8a`/J	8a/	-jesz,
 *v	*v	*	*	*
 =5!|:	=5!|:	=5!|:	=5!|:
+*>B	*>B	*>B	*>B
 *clefF4	*	*	*
 *tremolo	*	*	*
 8d\ 8B\L	8g#X/L	8g#X/	ja
@@ -85,7 +90,7 @@
 .	16ddd\Jk 16dd\	16dd\	-zom
 *Xtremolo	*	*	*
 =8	=8	=8	=8
-!LO:TX:t=P:problem=mixed beam	!	!	!
+!LO:TX:t=P:problem:mixed beam	!	!	!
 8c\L 8A\	8.eee\L 8.ee\	8.ee\	lu-
 8E\	.	.	.
 .	(32ccc\LL	32cc\LLL	-by-
@@ -94,7 +99,7 @@
 8AA/J	.	.	.
 =:|!	=:|!	=:|!	=:|!
 *-	*-	*-	*-
-!!!system-decoration: g1{g2}
+!!!system-decoration: g1{(g2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: | = vertical stroke

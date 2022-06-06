@@ -15,40 +15,49 @@
 !!!NIFC-rismid: 1001082119
 !!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r2519
 !!!ONB-nifc: UWAGA: 9 Kanonów num. 001-009. Skan 0004
-!!!AIN: 2 forte
-!!!key:
+!!!AIN: 2 piano
+!!!key: C
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
-*Iforte	*Iforte
 *I"[Fortepian]	*I"[Fortepian]
-*	*I'
+*I'	*I'
+*Ipiano	*Ipiano
+*ICklav	*ICklav
 *clefF4	*clefG2
 *k[]	*k[]
 *C:	*C:
 *M2/4	*M2/4
-*[>A,A,B]	*[>A,A,B]
+*>[A,B,B1,B,B2,C]	*>[A,B,B1,B,B2,C]
 =1	=1
-!!LO:TX:t=P:problem:all\left, middle, right:global
-!LO:TX:t=P:problem=t. 1-3 – dopiski ołówkiem	!
-8r	2ryy
-8C\	.
-4G\	.
 *>A	*>A
-=2!|:	=2!|:
-16G\LL	8r
-16F\	.
-16E\	8c/
-16D\JJ	.
-8C\L	[4g/
-8BBt\J	.
-=3	=3
-8r	16g/LL]
-.	16f/
-8AA/	16e/
-.	16d/JJ
-[4E\	8c/L
-.	8Bt</J
+*2\right	*2\right
+*^	*
+!!LO:TX:t=P:problem:all\left, middle, right:global
+!LO:TX:t=P:problem:t.1-3 po poprawkach ołówkowych	!	!
+4c/	8r	2ryy
+.	8C\	.
+8B/L	4G\	.
+8A/J	.	.
+=2!|:	=2!|:	=2!|:
+*>B	*>B	*>B
+[4G/	16G\LL	8r
+.	16F\	.
+.	16E\	8c/
+.	16D\JJ	.
+16G/L]	8C\L	[4g/
+16A/	.	.
+!	!LO:TX:t=P:problem:trill placement inside of the staff	!
+16B/	8BBt>\J	.
+16c/J	.	.
+=3	=3	=3
+8.c/L	8r	16g/LL]
+.	.	16f/
+.	8AA/	16e/
+16B/JJ	.	16d/JJ
+8A/L	[>4E\	8c/L
+8G/J	.	8Bt</J
+*v	*v	*
 =4	=4
 16E\LL]	8r
 16D\	.
@@ -80,28 +89,39 @@
 .	8A/L
 [8E\	8G/J
 =8	=8
-!LO:TX:t=P:problem=dopiski ołówkiem	!
-4E\]	8F#X/
-.	4f#yX/
+!LO:TX:t=P:problem:takt po poprawkach ołówkowych	!
+8.E\L]	8F#X/
+!	!LO:SIC:v:s=4f#/
+.	4f/
+!LO:SIC:v:s=32F#\	!
+32F\	.
+32E\J	.
 8D\L	.
 8G\J	[>8e/
-!!linebreak:original
+!!LO:LB:g=original
 =9	=9
-!	!LO:TX:t=P:problem=dopiski ołówkiem
-8r	4e/]
-8C\	.
-!	!LO:TX:a:t=I
+!!LO:TX:a:B:t=I
+*>B1	*>B1
+!!LO:TX:t=P:problem:oznaczenie wolty (I) na środku taktu
+!	!LO:TX:t=P:problem:koniec łuku na dole
+!	!LO:TX:t=P:problem:takt po poprawkach ołówkowych
+8r	8e/L]
+8C\	16fn/
+.	16e/J
 4G\	8d/L
 .	8g/J
-*>B	*>B
 =10:|!	=10:|!
-!	!LO:TX:t=P:łuk:problem
-8r	4e/
+!!LO:TX:a:B:t=II
+*>B2	*>B2
+!!LO:TX:t=P:problem:oznaczenie wolty (II) na środku taktu
+!	!LO:TX:t=P:problem:zakończenie łuku
+8r	4e/)
 8G\L	.
-!LO:TX:t=P:problem=kasownik dopisany ołówkiem	!LO:TX:a:t=II
-8F\	8d/L
+!LO:TX:t=P:problem:takt po poprawkach ołówkowych	!
+8Fn\	8d/L
 8E\J	8g/J
 =11	=11
+*>C	*>C
 16E\LL	8r
 16D\	.
 16C\	8g/L
@@ -154,7 +174,7 @@
 16D\JJ	.
 8C\L	.
 8D\J	8a/
-!!linebreak:original
+!!LO:LB:g=original
 =18||	=18||
 8E\	16g/LL
 .	16f/
@@ -223,12 +243,11 @@
 .	16A/J
 .	8B/J
 =27	=27
-*2\right	*
 !LO:N:vis=2.	!
 2C\	2c/
 ==	==
 *-	*-
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: i = editorial accidental

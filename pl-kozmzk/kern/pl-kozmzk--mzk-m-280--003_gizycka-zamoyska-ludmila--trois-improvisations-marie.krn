@@ -17,13 +17,15 @@
 !!!URL-scan: https://repozytorium.nifc.pl/islandora/object/pl-kozmzk%3A5612/datastream/PDF/view
 !!!ONB-nifc:
 !!!OMD: Andante.
-!!!AIN: 1 empty 2 piano
-!!!key:
+!!!AIN: 2 piano 1 vox
+!!!key: C
 **kern	**kern	**dynam	**kern	**text	**dynam
 *part3	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1	*
-*Ipiano	*Ipiano	*	*Iempty	*	*
 *I"Piano.	*I"Piano.	*	*I"Chant.	*	*
+*Ipiano	*Ipiano	*	*Ivox	*	*
+*ICklav	*ICklav	*	*ICvox	*	*
+*IGacmp	*IGacmp	*	*IGsolo	*	*
 *clefF4	*clefG2	*	*clefG2	*	*
 *k[]	*k[]	*	*k[]	*	*
 *C:	*C:	*	*C:	*	*
@@ -35,7 +37,7 @@
 .	8gJ 8e 8c 8G/	.	.	.	.
 8GG]L 8GGG/]	8gL 8e 8c 8G/	.	.	.	.
 8FF#X 8FFF#X/	8g 8e 8c 8G/	.	.	.	.
-8GGJ 8GGG/	8gJ 8e 8c 8G/	[[	.	.	.
+8GGJ 8GGG/	8gJ 8e 8c 8G/	[	.	.	.
 =2	=2	=2	=2	=2	=2
 4.AA-X 4.AAA-X/	8r	.	2.r	.	.
 !	!	!LO:HP:a	!	!	!
@@ -139,7 +141,7 @@
 8AAn 8AAAn/	8a- 8d 8B- 8A-/	.	.	.	.
 8BB-J 8BBB-/	8a-J 8d 8B- 8A-/	.	8f#X/	-les,	[
 =15	=15	=15	=15	=15	=15
-4.E-X 4.EE-X/	8r	.	[4.g/	l’or,	.
+4.E-X 4.EE-X/	8r	.	[4.g/	l’or,_	.
 .	8gL 8e-X 8B-X 8G/	.	.	.	.
 .	8gJ 8e- 8B- 8G/	.	.	.	.
 !	!	!	!	!	!LO:HP:a
@@ -159,7 +161,7 @@
 4.EE/	8EE\L	8r	.	4.dd\	-bli-	.
 .	8E\	8gL 8e 8c 8G/	.	.	.	.
 .	8E\J	8gJ 8e 8c 8G/	.	.	.	.
-4F#X [4FF#X/	4ryy	8aL 8d#X 8c 8A/	.	4cc\	-me,	.
+4F#X [>4FF#X/	4ryy	8aL 8d#X 8c 8A/	.	4cc\	-me,	.
 .	.	8aJ 8d# 8c 8A/	.	.	.	.
 8FF#] 8FFF#X/	8ryy	8r	.	8a/	tu	.
 *v	*v	*	*	*	*	*
@@ -203,7 +205,7 @@
 8C/J	8ccJ 8a 8e 8c/	[	8cc\	bon-	[
 =23	=23	=23	=23	=23	=23
 !	!	!	!	!	!LO:HP:a
-[4.D [4.DD/	8r	>	[4.b\	-heur,	>
+[4.D [4.DD/	8r	>	[4.b\	-heur,_	>
 .	8bL 8f 8d 8B/	.	.	.	.
 .	8bJ 8f 8d 8B/	]	.	.	.
 8D]L 8DD/]	8bL 8f 8d 8B/	.	4b\]	.	]
@@ -268,7 +270,7 @@
 .	8F\J	8aJ 8f 8d 8A/	.	8cc\	voy-	[
 =31	=31	=31	=31	=31	=31	=31
 !	!LO:N:vis=2	!	!	!	!	!
-2.FF/	8FF\L	8r	.	[4.b\	-ant,	.
+2.FF/	8FF\L	8r	.	[4.b\	-ant,_	.
 .	8F\	8gL 8f 8B 8G/	.	.	.	.
 .	8F\J	8gJ 8f 8B 8G/	.	.	.	.
 .	8F\L	8gL 8f 8B 8G/	.	4b\]	.	.
@@ -294,8 +296,8 @@
 8DD/J	8a-J 8f 8d 8A-/	<	8d/	et	<
 =34	=34	=34	=34	=34	=34
 *^	*	*	*	*	*
-4.GG/	8GGL 8GGG\	8r	[	4c/	t’ai-	.
-.	8E\	8gL 8e 8c 8G/	.	.	.	[
+4.GG/	8GGL 8GGG\	8r	[	4c/	t’ai-	[
+.	8E\	8gL 8e 8c 8G/	.	.	.	.
 .	8E\J	8gJ 8e 8c 8G/	.	8e/	-me,	.
 !	!	!	!	!	!	!LO:DY:a
 4.GG/	8GGL 8GGG\	8r	<	4b/	t’ai-	<
@@ -310,7 +312,7 @@
 !	!	!	!	!	!	!LO:DY:a
 .	8D\L	8g:L 8f: 8B: 8G:/	>	4g/]	.	>
 .	8E\	8g: 8e: 8c: 8G:/	.	.	.	.
-.	8F\J	8g:J 8d: 8B: 8G:/	]]	8B/	-dre-	]]
+.	8F\J	8g:J 8d: 8B: 8G:/	]]	8B/	-dre-	]
 =36	=36	=36	=36	=36	=36	=36
 4.CC/	8CC\L	8r	.	4.c/	-ment!	.
 .	8E 8GG\	8ccL 8g 8e 8c/	.	.	.	.
@@ -331,7 +333,7 @@
 2.E: 2.GG: 2.CC;:/	2.eee: 2.ccc: 2.gg: 2.ee;:\	.	2.r;	.	.
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
-!!!system-decoration: s1[(s2,s3)]
+!!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Katarzyna Serwa

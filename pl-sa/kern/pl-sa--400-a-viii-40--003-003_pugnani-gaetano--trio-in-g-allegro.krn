@@ -17,21 +17,25 @@
 !!!NIFC-rismid: 1001104661
 !!!URL-scan: http://bc.bdsandomierz.pl/dlibra/publication/1703/edition/1671/content
 !!!ONB-nifc: UWAGA: No 3tio. Części: 1. Allegro, 2. Adagio, 3. Allegro
-!!!AIN: 1 empty 2 violn
-!!!key:
+!!!AIN: 2 violn
+!!!key: G
 **kern	**kern	**kern
 *part3	*part2	*part1
 *staff3	*staff2	*staff1
-*Iempty	*Ivioln	*Ivioln
-*I"Baſso	*I"Violino 2do	*I"Violino 1mo
+*I"Baſso.	*I"Violino 2do	*I"Violino 1mo
 *I'b	*I'vl 2	*I'vl 1
+*I	*Ivioln	*Ivioln
+*ICstr	*ICstr	*ICstr
+*IGcont	*	*
 *clefF4	*clefG2	*clefG2
 *k[f#]	*k[f#]	*k[f#]
 *G:	*G:	*G:
 *M3/8	*M3/8	*M3/8
+*>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]
 =1	=1	=1
-!	!LO:TX:t=P:znaki:problem= jeszcze f#	!
-!	!LO:TX:B:a:t=Allo	!LO:TX:B:a:t=Allegro
+*>A	*>A	*>A
+!	!LO:TX:t=P:problem:znaki: jeszcze f#	!
+!LO:TX:t=P:problem:zgodnie z RISM "b part missing."	!LO:TX:B:a:t=Allo	!LO:TX:B:a:t=Allegro
 4.ryy	8r	4g/
 .	8b\L	.
 .	8g\J	16.b/LL
@@ -42,7 +46,7 @@
 .	8d/J	16.ff#\LL
 .	.	32dd\JJk
 =3	=3	=3
-!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!LO:TX:t=P:problem:mixed beam
 4.ryy	8r	8gg\L
 .	8b\L	8g/
 .	8g\J	8g/J
@@ -69,7 +73,7 @@
 .	16g'/	16r
 .	16b'/JJ	16dd\
 =7	=7	=7
-!	!LO:TX:t=P:problem=brak taktu	!
+!	!LO:TX:t=P:problem:brak taktu	!
 4.ryy	4.ryy	16f#/LL
 .	.	16a/J
 .	.	8g/J
@@ -79,7 +83,7 @@
 .	.	16r
 =8	=8	=8
 *	*	*Xtuplet
-!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:a:problem:klamra łukowa
 4.ryy	8c/L	24ee\LL
 .	.	24ff#\
 .	.	24ee\JJ
@@ -108,7 +112,7 @@
 .	.	32A/JJk
 !	!	!LO:LB:g=original
 =12	=12	=12
-!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!LO:TX:t=P:problem:mixed beam
 4.ryy	4g/	8G/L
 .	.	8b\
 .	16.b/LL	8g\J
@@ -120,7 +124,7 @@
 .	32dd\JJk)	.
 !	!LO:LB:g=original	!
 =14	=14	=14
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 4.ryy	8gg\L	8r
 .	8g/	8b\L
 .	8g/J	8g\J
@@ -175,7 +179,7 @@
 .	16g\JJ	.
 =22	=22	=22
 .	8qqg/	.
-!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!LO:TX:t=P:problem:mixed beam
 4.ryy	4f#/	8d/L
 .	.	8dd\
 .	8d/	8dd\J
@@ -186,7 +190,7 @@
 .	.	8ee\L
 .	8g/	8ee\J
 =24	=24	=24
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 4.ryy	8f#/L	8dd\L
 .	8dd\	8ff#\
 .	8dd\J	8ff#\J
@@ -207,7 +211,7 @@
 .	16f#'/	16aa\LL
 .	16d'/JJ	16ddd\JJ
 =27	=27	=27
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 4.ryy	16g/LL	8bb\L
 .	(16gg\	.
 .	16ff#\)	8aa\
@@ -223,7 +227,7 @@
 .	16f#/)	16aa\LL
 .	16d'/JJ	16ddd\JJ
 =29	=29	=29
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 4.ryy	16g/LL	8bb\L
 .	(16gg\	.
 .	16ff#\)	8aa\
@@ -251,7 +255,7 @@
 .	16f#'/	16aa\LL
 .	16d'/JJ	16ddd\JJ
 =33	=33	=33
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 4.ryy	16g/LL	8bb\L
 .	(16gg\	.
 .	16ff#\)	8aa\
@@ -266,7 +270,7 @@
 .	16f#'/	16aa\LL
 .	16d/JJ	16ddd\JJ
 =35	=35	=35
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 4.ryy	(16g/LL	8bb\L
 .	16gg\	.
 .	16ff#\)	8aa\
@@ -291,9 +295,9 @@
 .	.	8qqee/
 4.ryy	4d/	4dd\
 .	8r	8r
-!!LO:TX:t=P:problem:fermata na kresce taktowej:global
-=39:|!|:	=39:|!|:	=39:|!|:
-!	!LO:TX:t=P:problem=mixed beam	!
+=39:|!|:	=39:|!|:;	=39:|!|:;
+*>B	*>B	*>B
+!	!LO:TX:t=P:problem:mixed beam	!
 4.ryy	(16d/LL	4.aa\
 .	16dd\	.
 .	16ff#\)	.
@@ -302,7 +306,7 @@
 .	16dd'\JJ	.
 !	!	!LO:LB:g=original
 =40	=40	=40
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 4.ryy	(16d/LL	4.bb\
 .	16dd\	.
 .	16gg\)	.
@@ -310,28 +314,28 @@
 .	16gg'\	.
 .	16dd'\JJ	.
 =41	=41	=41
-!	!LO:TX:a:t=P:problem=mixed beam	!
+!	!LO:TX:a:t=P:problem:mixed beam	!
 4.ryy	8d|/L	8aa\L
 .	(8bb\	8ddd\
 .	8aa\J)	8ccc#X\J
 =42	=42	=42
-!	!LO:TX:a:t=P:problem=mixed beam	!
+!	!LO:TX:a:t=P:problem:mixed beam	!
 4.ryy	8d|/L	8r
 .	(8aa\	8cccn\L
 .	8gg\J)	8bb\J
 =43	=43	=43
-!	!LO:TX:a:t=P:problem=mixed beam	!
+!	!LO:TX:a:t=P:problem:mixed beam	!
 4.ryy	8d|/L	8aa\L
 .	(8bb\	16ccc\L
 .	.	16ddd\JJ
 .	8aa\J)	8cccn\
 =44	=44	=44
-!	!LO:TX:a:t=P:problem=mixed beam	!
+!	!LO:TX:a:t=P:problem:mixed beam	!
 4.ryy	8d|/L	8r
 .	(8aa\	8ccc\L
 .	8gg\J)	8bb\J
 =45	=45	=45
-!	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!
 .	.	8qqbb/
 *	*	*^
 4.ryy	8ff#\L	4.aa/	4.dd\
@@ -345,7 +349,7 @@
 .	.	8ee\
 .	8r	8ffn\J
 =47	=47	=47
-.	.	8qqgg/
+.	.	8qgg/
 !	!	!LO:SIC:v:s=8ffn\L
 4.ryy	4.r	8ff#\L
 .	.	8ee\
@@ -387,7 +391,7 @@
 .	8ee\J	8gg\J	.
 =54	=54	=54	=54
 !	!LO:SIC:v:s=8ffn\L	!	!
-!	!LO:TX:t=P:problem=mixed beam	!	!
+!	!LO:TX:t=P:problem:mixed beam	!	!
 4.ryy	8ff#\L	4.aa/	4.ffn\
 !	!LO:SIC:v:s=16fn/L	!	!
 .	16f#/L	.	.
@@ -395,7 +399,7 @@
 .	16a/	.	.
 .	16b/JJ	.	.
 =55	=55	=55	=55
-!	!LO:TX:t=P:problem=mixed beam	!	!
+!	!LO:TX:t=P:problem:mixed beam	!	!
 4.ryy	8cc\L	4.gg/	4.ee\
 .	16c/L	.	.
 .	16d/	.	.
@@ -406,7 +410,7 @@
 4.ryy	8d/L	4.ffn/	4.dd\
 .	16d/L	.	.
 .	16e/	.	.
-!	!LO:SIC:v:s=16fn	!	!
+!	!LO:SIC:v:s=16fn/	!	!
 .	16f#/	.	.
 .	16g/JJ	.	.
 =57	=57	=57	=57
@@ -418,6 +422,8 @@
 *	*	*v	*v
 =58	=58	=58
 .	.	8qqgg/
+!	!	!LO:TX:t=P:problem:niejednoznaczny zapis ozdobnika [przyjęto mordent górny]:global
+!	!	!LO:MOR:acc=none
 !	!	!LO:SIC:v:s=4.ffnM\
 4.ryy	(16dd/LL	4.ff#M\
 .	16cc#X/	.
@@ -427,7 +433,7 @@
 .	16d'/JJ	.
 =59	=59	=59
 4.ryy	8a\L	8ee\L
-!	!LO:SIC:v:s=16fn/L	!
+!	!LO:SIC:v:s=(16fn\L	!
 .	(16ff#\L	8aa\
 .	16a\)	.
 .	(16ee\	8gg\J
@@ -449,8 +455,8 @@
 .	(16dd\	8ffn\J
 .	16g\JJ)	.
 =62	=62	=62
+!	!	!LO:SIC:v:s=8qqffn/
 .	.	8qqff#/
-!	!	!LO:SIC:v:s=8qffnM\
 4.ryy	(16cc/LL	4.eeM\
 .	16b/	.
 .	16cc/	.
@@ -489,8 +495,7 @@
 4.ryy	8r	4gg\
 .	8b\L	.
 .	8g\J	(16bb\LL
-!	!	!LO:SIC:v:s=16gg\JJ
-.	.	16aa\JJ)
+.	.	16gg\JJ)
 =68	=68	=68
 4.ryy	8a/L	8ccc\L
 .	8f#X/	8ccc\
@@ -538,7 +543,7 @@
 .	.	8qqa/
 .	.	16g'/L
 .	(16a\L	16f#X'/J
-.	16b\	8g/J
+.	16b\	8g'/J
 .	16g\JJ)	.
 !	!LO:LB:g=original	!
 =77	=77	=77
@@ -555,11 +560,12 @@
 .	16B/	16dd\LL
 .	16G/JJ	16gg\JJ
 =79	=79	=79
-4.ryy	(16c/LL	8ee\L
+4.ryy	16c/LL	8ee\L
 .	16cc/	.
-.	16b/)	8dd\
-.	(16d/	.
-.	16a/	8cc\J
+.	(16b/	8dd\
+.	16d/)	.
+!	!	!LO:TX:t=P:problem:8dd poprawione na 8cc
+.	(16a/	8cc\J
 .	16d/JJ)	.
 =80	=80	=80
 .	.	8qqcc/
@@ -604,6 +610,7 @@
 .	16d/JJ	.
 .	16a/LL	8cc\J
 .	16d/JJ	.
+!	!	!LO:LB:g=original
 =86	=86	=86
 .	.	8qcc/
 4.ryy	16g/LL	4b\
@@ -625,9 +632,10 @@
 .	.	16g\)
 .	8A/	(16cc\
 .	.	16a\)
-.	8B/J	(16dd\
-.	.	16b\JJ)
+.	8B/J	16dd\
+.	.	16b\JJ
 =89	=89	=89
+!	!	!LO:TUP:a:problem:klamra łukowa
 4.ryy	8c/L	24ee\LL
 .	.	24dd\
 .	.	24cc\JJ
@@ -638,8 +646,7 @@
 4.ryy	4G/	8g/L
 .	.	8G/J
 .	8r	8r
-!!LO:TX:t=P:problem:fermata na kresce taktowej
-=:|!	=:|!	=:|!
+=:|!	=:|!;	=:|!;
 *-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
 !!!RDF**kern: | = vertical stroke

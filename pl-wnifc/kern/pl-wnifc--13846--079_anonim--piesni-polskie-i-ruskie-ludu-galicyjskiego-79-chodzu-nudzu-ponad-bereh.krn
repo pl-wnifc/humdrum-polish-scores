@@ -16,13 +16,14 @@
 !!!NIFC-rismid: 1001037256
 !!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wnifc-nut--13846
 !!!ONB-nifc:
+!!!OMD: Andante
 !!!AIN: 2 piano 1 vox
 !!!key: c
 **kern	**kern	**kern	**text
 *part3	*part2	*part1	*part1
 *group2	*group2	*group1	*group1
 *staff3	*staff2	*staff1	*staff1
-*I"[Fortepian.]	*I"[Fortepian.]	*I"[Głos.]	*
+*I"[FORTEPIAN.]	*I"[FORTEPIAN.]	*I"[GŁOS.]	*
 *I'	*I'	*I'	*
 *I'	*I'	*I'	*
 *Ipiano	*Ipiano	*Ivox	*
@@ -32,17 +33,19 @@
 *k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]	*
 *c:	*c:	*c:	*
 *M2/4	*M2/4	*M2/4	*
+*>[A,B,B]	*>[A,B,B]	*>[A,B,B]	*>[A,B,B]
 =1	=1	=1	=1
+*>A	*>A	*>A	*>A
 *^	*	*	*
+!!LO:TX:t=P:problem:tekst: Pieśni polskie i ruskie ludu galicyjskiego, s. 238.
 !	!	!	!LO:TX:a:B:t=E.42.	!
-!	!	!	!LO:TX:a:B:t=Andante	!
-4E-/	16E-\LL	8.ee-L 8.b- 8.g\	8.ee-\	Chod-
+4E-/	16E-\LL	8.ee-L 8.b- 8.g\	8.ee-\	Cho-
 .	16G\	.	.	.
 .	16B-\	.	.	.
 .	16G\JJ	16b-Jk 16g\	16b-\	-dżu
-4E-/	16E-\LL	8ee-L 8b- 8g\	8ee-\	nud-
+4E-/	16E-\LL	8ee-L 8b- 8g\	8ee-\	nu-
 .	16G\	.	.	.
-.	16B-\	8ggJ 8ee- 8b-\	8gg\	-żu
+.	16B-\	8ggJ 8ee- 8b-\	8gg\	-dżu
 .	16G\JJ	.	.	.
 *v	*v	*	*	*
 =2	=2	=2	=2
@@ -55,29 +58,31 @@
 16B- 16A- 16F\	8b-\J	8b-\	-reh,
 16d\JJ	.	.	.
 =3	=3	=3	=3
-16e-LL 16E-\	(8ee-L 8b- 8g|\	8ee-\	tia-
+16e-LL 16E-\	(8ee-L 8b- 8g`\	8ee-\	tia-
 16G\	.	.	.
-16B-\	8ee- 8b- 8g|\	8ee-\	-żeń-
+16B-\	8ee- 8b- 8g`\	8ee-\	-żeń-
 16G\JJ	.	.	.
-16E-/LL	8ee- 8b- 8g|\	8ee-\	-ko
+16E-/LL	8ee- 8b- 8g`\	8ee-\	-ko
 16BB-/	.	.	.
-16GG/	8ee-J 8b- 8g|\)	8ee-\	wzdy-
+16GG/	8ee-J 8b- 8g`\)	8ee-\	wzdy-
 16EE-/JJ	.	.	.
 !!linebreak:original
 =4	=4	=4	=4
-8GG 8DD 8BBBn 8GGG^/	4dd 4bn 4g 4d^/	4dd\	-cha-
-!LO:TX:t=P:problem=mixed beam	!	!	!
+!	!LO:SIC:v:n=2:s=4bn	!	!
+8GG 8DD 8BBBn 8GGG^/	4dd 4b- 4gn 4d^/	4dd\	-cha-
+!LO:TX:t=P:problem:mixed beam	!	!	!
 (8G\L	.	.	.
 8GG/J)	(16ee-LL 16g 16e-/	(16ee-\LL	.
 .	16dd 16f 16d/	16dd\	.
 8G\	16cc 16e- 16c/)	16cc\JJ)	.
-.	16bJJ 16Bn/|	16bn\	-ju
+.	16bJJ 16Bn`/	16bn\	-ju
 =5!|:	=5!|:	=5!|:	=5!|:
+*>B	*>B	*>B	*>B
 16CC/LL	16ccKL 16g 16e- 16c/	16cc\	bid-
 16C/	8.ccJ 8.g 8.e- 8.c/	8.cc\	-naż
 16E-/	.	.	.
 16C/JJ	.	.	.
-!LO:TX:t=P:problem=mixed beam	!	!	!
+!LO:TX:t=P:problem:mixed beam	!	!	!
 16DD/LL	16bnKL 16g 16f/	16bn\	mo-
 16D\	8.bJ 8.g 8.f/	8.b\	-ja
 16F\	.	.	.
@@ -110,7 +115,7 @@
 8r	8r	8r	.
 ==	==	==	==
 *-	*-	*-	*-
-!!!system-decoration: g1{g2}
+!!!system-decoration: g1{(g2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: | = vertical stroke

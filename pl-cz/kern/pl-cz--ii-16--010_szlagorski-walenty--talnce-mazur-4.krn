@@ -16,15 +16,17 @@
 !!!NIFC-rismid: 300001303
 !!!URL-scan: http://repozytorium.nifc.pl/skany/pl-cz-nut--ii-16
 !!!ONB-nifc: UWAGA: zbiór zawiera Walce nr 1-5, Galop, Mazury nr 1-4
-!!!AIN: 2 clars 2 cor 2 empty 1 flt 2 violn
-!!!key:
+!!!AIN: 2 clars 1 clrno 2 cor 1 flt 2 violn
+!!!key: D
 **kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern
 *part9	*part8	*part7	*part6	*part5	*part4	*part3	*part2	*part1
 *group3	*group3	*group3	*group2	*group2	*group2	*group1	*group1	*group1
 *staff9	*staff8	*staff7	*staff6	*staff5	*staff4	*staff3	*staff2	*staff1
-*Iempty	*Ivioln	*Ivioln	*Iempty	*Icor	*Icor	*Iclars	*Iclars	*Iflt
-*I"Baſso	*I"Violino 2.do	*I"Violino 1mo	*I"Clarino. in D.	*I"Corno 2do in D.	*I"Corno 1mo in D.	*I"Clarinetto 2do in A.	*I"Clarinetto 1mo in A.	*I"Flauto
-*I'b	*I'vl 2	*I'vl 1	*I'clno in D	*I'cor 2 in D	*I'cor 1 in D	*I'cl 2 in A	*I'cl 1 in A	*I'fl
+*I"Baſso	*I"Violino 2.do	*I"Violino 1mo	*I"Clarino. in D.	*I"Corno 2do in D.	*I"Corno 1mo in D.	*I"Clarnetto 2do in A.	*I"Clarnetto 1mo in A.	*I"Flauto
+*I'b	*I'vl 2	*I'vl 1	*I'clno in D	*I'cor 2 in D	*I'cor 1 in D	*I'cl 2 in C	*I'cl 1 in C	*I'fl
+*	*Ivioln	*Ivioln	*Iclrno	*Icor	*Icor	*Iclars	*Iclars	*Iflt
+*ICstr	*ICstr	*ICstr	*ICbras	*ICbras	*ICbras	*ICww	*ICww	*ICww
+*IGcont	*	*	*	*	*	*	*	*
 *clefF4	*clefG2	*clefG2	*clefG2	*clefG2	*clefG2	*clefG2	*clefG2	*clefG2
 *	*	*	*ITrd-1c-2	*ITrd6c10	*ITrd6c10	*	*	*
 *	*kcancel	*kcancel	*	*	*	*kcancel	*kcancel	*kcancel
@@ -135,8 +137,8 @@
 =14	=14	=14	=14	=14	=14	=14	=14	=14
 8D\L	8f#L 8A/	8dd\L	4.ryy	8d\L	8f#\L	8a/	4dd\	4dd\
 8d\J	8f#J 8A/	8dddJ 8dd\	.	8d\J	8f#\J	8r	.	.
-!	!LO:TX:a:t=Fine	!LO:TX:a:t=Fine	!	!LO:TX:a:t=Fine	!LO:TX:a:t=Fine	!LO:TX:a:t=Fine	!LO:TX:a:t=Fine	!LO:TX:a:t=Fine
 8r	8r	8r	.	8r	8r	8r	8ryy	8r
+!	!LO:TX:a:rj:t=Fine	!LO:TX:a:rj:t=Fine	!	!LO:TX:a:rj:t=Fine	!LO:TX:a:rj:t=Fine	!LO:TX:a:rj:t=Fine	!LO:TX:a:rj:t=Fine	!LO:TX:a:rj:t=Fine
 =15:|!|:	=15:|!|:;	=15:|!|:;	=15:|!|:	=15:|!|:;	=15:|!|:	=15:|!|:;	=15:|!|:;	=15:|!|:;
 *>B	*>B	*>B	*>B	*>B	*>B	*>B	*>B	*>B
 *	*tremolo	*	*	*	*	*	*	*
@@ -161,9 +163,9 @@
 .	16e/JJ	.	.	.	.	.	.	.
 !	!LO:LB:g=original	!	!	!	!	!	!	!
 =17	=17	=17	=17	=17	=17	=17	=17	=17
-!	!	!	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!
+!	!	!	!	!	!	!	!LO:TX:t=P:problem:mixed beam	!
 4E\	16d/LL	16ff#\LL	4.ryy	.	.	.	8dd\L	16ff#\LL
-.	16e/	32ggn\L	.	.	.	.	.	32gg#X\L
+.	16e/	32gg#\L	.	.	.	.	.	32gg#X\L
 .	.	32ff#\JJJ	.	.	.	.	.	32ff#\JJJ
 .	16d/	8b\L	.	.	.	.	8g#X/	8b\L
 .	16e/	.	.	.	.	.	.	.
@@ -175,7 +177,7 @@
 .	16e/	.	.	.	.	.	.	.
 .	16c#/	.	.	.	.	.	.	.
 .	16e/	.	.	.	.	.	.	.
-!	!	!LO:TUP:b:problem=klamra łukowa	!	!	!	!	!	!LO:TUP:a:problem=klamra łukowa
+!	!	!LO:TUP:b:problem:klamra łukowa	!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa
 8r	16c#/	24a/LL	.	.	.	.	.	24a\LL
 .	.	24cc#/	.	.	.	.	.	24cc#\
 .	16e/JJ	.	.	.	.	.	.	.
@@ -200,7 +202,7 @@
 .	16e/JJ	16ee\JJ)	.	.	.	.	.	16ee\JJ)
 !LO:LB:g=original	!	!	!	!	!	!	!	!
 =21	=21	=21	=21	=21	=21	=21	=21	=21
-!	!	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
+!	!	!	!	!	!	!LO:TX:t=P:problem:mixed beam	!	!
 4E\	16d/LL	16ee\LL	4.ryy	.	.	(<8dd\L	.	16ee\LL
 .	16e/	16dd\	.	.	.	.	.	16dd\
 .	16d/	16b\	.	.	.	8g#X/)	.	16b\
@@ -211,7 +213,7 @@
 .	.	32b\JJJ	.	.	.	.	.	32b\JJJ
 =22	=22	=22	=22	=22	=22	=22	=22	=22
 *>B1	*>B1	*>B1	*>B1	*>B1	*>B1	*>B1	*>B1	*>B1
-!LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=1mo	!	!	!	!LO:TX:t=1mo	!	!LO:TX:t=1mo
+!LO:TX:t=P:problem:mixed beam	!	!LO:TX:t=1mo	!	!	!	!LO:TX:t=1mo	!	!LO:TX:t=1mo
 8AA/L	16c#/LL	4a/	4.ryy	.	.	8a/L	.	4a/
 !	!LO:TX:t=1mo	!	!	!	!	!	!	!
 .	16e/JJ	.	.	.	.	.	.	.
@@ -221,7 +223,7 @@
 =23:|!	=23:|!	=23:|!	=23:|!	=23:|!	=23:|!	=23:|!	=23:|!	=23:|!
 *>B2	*>B2	*>B2	*>B2	*>B2	*>B2	*>B2	*>B2	*>B2
 *	*tremolo	*	*	*	*	*	*	*
-!LO:TX:t=2da	!LO:TX:t=2do	!	!	!LO:TX:a:t=D.C.	!	!	!LO:TX:a:t=D.C.	!
+!LO:TX:t=2da	!LO:TX:t=2do	!	!	!	!	!	!	!
 4AA/	16c#/LL	8a\L	4.ryy	4.ryy	4.ryy	8a/L	4.ryy	(8a\L
 .	16e/	.	.	.	.	.	.	.
 !	!	!LO:TX:t=2do	!	!	!	!LO:TX:t=2do	!	!
@@ -229,17 +231,16 @@
 .	16e/	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:TX:t=2do
 8r	16c#/	16bb-X\LL	.	.	.	16b-X/LL	.	16bb-X\LL
-!	!	!	!	!	!	!LO:TX:a:t=Mazur D Capo	!	!
 .	16e/JJ	16aa\JJ	.	.	.	16a/JJ	.	16aa\JJ
 *	*Xtremolo	*	*	*	*	*	*	*
+!	!	!	!	!LO:TX:a:rj:t=D.C.	!	!LO:TX:a:rj:t=Mazur D Capo	!LO:TX:a:rj:t=D.C.	!
 !	!LO:LB:g=original	!LO:LB:g=original	!	!LO:LB:g=original	!LO:LB:g=original	!LO:LB:g=original	!LO:LB:g=original	!LO:LB:g=original
 =24!|:	=24||	=24||	=24||	=24||	=24||	=24||	=24||	=24||
-*	*k[f#]	*k[f#]	*k[f#c#]	*k[f#c#]	*k[f#c#]	*k[f#]	*k[f#]	*k[f#]
+*>C	*>C	*>C	*>C	*>C	*>C	*>C	*>C	*>C
+*	*k[f#cn]	*k[f#cn]	*k[f#c#]	*k[f#c#]	*k[f#c#]	*k[f#cn]	*k[f#cn]	*k[f#cn]
 *	*	*M3/8	*M3/8	*M3/8	*M3/8	*M3/8	*M3/8	*M3/8
 *	*	*	*	*tremolo	*tremolo	*tremolo	*	*
-*>C	*>C	*>C	*>C	*>C	*>C	*>C	*>C	*>C
-!	!LO:TX:t=P:problem=kolejność znaków&colon; ff# ccn	!LO:TX:t=P:problem=kolejność znaków&colon; ff# ccn	!	!	!	!LO:TX:t=P:problem=kolejność znaków&colon; ff# ccn	!LO:TX:t=P:problem=kolejność znaków&colon; ff# ccn	!LO:TX:t=P:problem=kolejność znaków&colon; ff# ccn
-!LO:TX:t=	!LO:TX:a:t=Trio	!LO:TX:a:t=Trio	!	!LO:TX:a:t=Trio	!LO:TX:a:t=Trio	!LO:TX:a:t=Trio	!LO:TX:a:t=Trio	!LO:TX:a:t=Trio
+!	!LO:TX:a:t=Trio	!LO:TX:a:t=Trio	!	!LO:TX:a:t=Trio	!LO:TX:a:t=Trio	!LO:TX:a:t=Trio	!LO:TX:a:t=Trio	!LO:TX:a:t=Trio
 16G\LL	16bLL 16d/	16dddLL 16dd\	4.ryy	16d\LL	16d\LL	16g/LL	16b\LL	16ddd\LL
 16G\	16b 16d/	16ddd 16dd\	.	16d\	16d\	16g/	16b\	16ddd\
 16G\	16cc 16d/	16eee 16ee\	.	16d\	16d\	16g/	16ccn\	16eee\
@@ -268,11 +269,11 @@
 8D\L	16ccLL 16d/	16eeeLL 16ee\	4.ryy	16d\LL	16d\LL	(16an/LL	(16an\LL	16eee\LL
 .	16ccJJ 16d/	16ddJ 16d\	.	16d\JJ	16d\JJ	16ccn/JJ)	16ccn\JJ)	16dd\JJ
 8D\	8ccL 8d/	8ff# 8f#\	.	8d\L	8d\L	8a/L	8a/L	8ff#\L
-!LO:TX:a:t=Mazur\nDa Capo	!LO:TX:a:t=Mazur\nDa Capo	!LO:TX:b:t=Mazur Da Capo	!	!LO:TX:a:t=Mazur Da Capo	!LO:TX:a:t=Mazur Da Capo	!LO:TX:a:t=Mazur D&colon; Capo	!LO:TX:a:t=Da\nCapo	!LO:TX:a:t=Mazur\nDa Capo
 8G\J	8bJ 8d/	8ggJ 8g\	.	8d\J	8d\J	8b/J	8b/J	8gg\J
+!LO:TX:a:t=Mazur\nDa Capo	!LO:TX:a:t=Mazur\nDa Capo	!LO:TX:b:t=Mazur Da Capo	!	!LO:TX:a:t=Mazur Da Capo	!LO:TX:a:t=Mazur Da Capo	!LO:TX:a:t=Mazur D&colon; Capo	!LO:TX:a:t=Da\nCapo	!LO:TX:a:t=Mazur\nDa Capo
 =:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!
 *-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [g1][g2][g3]
+!!!system-decoration: [(g1)][(g2)][(g3)]
 !!!RDF**kern: | = vertical stroke
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-11-02

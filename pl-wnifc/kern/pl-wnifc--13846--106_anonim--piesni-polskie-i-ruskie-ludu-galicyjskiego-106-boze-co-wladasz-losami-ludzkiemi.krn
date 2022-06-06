@@ -1,5 +1,4 @@
 !!!!SEGMENT: pl-wnifc--13846--106_anonim--piesni-polskie-i-ruskie-ludu-galicyjskiego-106-boze-co-wladasz-losami-ludzkiemi.krn
-!!!kernsource:
 !!!cenid: 18xx:3328
 !!!COM: Anonim
 !!!COM-rismid: pe30004985
@@ -12,16 +11,19 @@
 !!!SMS-siglum: PL-Wnifc
 !!!SMS-shelfmark: 13846
 !!!SMS-shelfwork: 106 G
+!!!SMS-variant:
+!!!SMS-altvar:
 !!!NIFC-rismid: 1001039224
 !!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wnifc-nut--13846
 !!!ONB-nifc:
+!!!OMD: Andante
 !!!AIN: 1 piano 1 vox
 !!!key: d
 **kern	**kern	**kern	**text
 *part2	*part2	*part1	*part1
 *group2	*group2	*group1	*group1
 *staff3	*staff2	*staff1	*staff1
-*I"[Fortepian.]	*I"[Fortepian.]	*I"[Głos.]	*
+*I"[FORTEPIAN.]	*I"[FORTEPIAN.]	*I"[GŁOS.]	*
 *Ipiano	*Ipiano	*Ivox	*
 *ICklav	*ICklav	*ICvox	*
 *IGacmp	*IGacmp	*IGsolo	*
@@ -31,10 +33,9 @@
 *M3/8	*M3/8	*M3/8	*
 =1-	=1-	=1-	=1-
 *^	*	*	*
-!	!	!	!LO:TX:a:B:t=E.126.	!
-!	!	!	!LO:TX:a:B:t=Andante	!
-8AA/L	4.AA\	16ee\|LL	(16ee\LL	Bo-
-.	.	16cc#X\|JJ	16cc#X\JJ)	.
+!	!LO:TX:t=P:problem:all\(druga warstwa) right	!	!LO:TX:a:B:t=E.126.	!
+8AA/L	4.AA\	16ee`\LL	(16ee\LL	Bo-
+.	.	16cc#X`\JJ	16cc#X\JJ)	.
 8A/ 8G/ 8E/	.	8.a/L	8.a/	-że,
 8A/J 8G/ 8E/	.	.	.	.
 .	.	16cc#\Jk	16cc#\	co
@@ -60,6 +61,7 @@
 =5	=5	=5	=5	=5
 8AA/L	4.AA\	16ee\LL	(16ee\LL	chciéj
 .	.	16cc#X\JJ	16cc#X\JJ)	.
+!	!	!	!LO:N:vis=8	!
 8A/ 8G/ 8E/	.	8.a/	8.a/	się
 8A/J 8G/ 8E/	.	.	.	.
 .	.	16cc#\	16cc#\	to
@@ -86,7 +88,7 @@
 8A/J 8G/ 8E/	.	.	.	.
 .	.	16a/Jk	16a/	w_twéj
 =10	=10	=10	=10	=10
-!LO:TX:t=P:problem=mixed beam	!	!	!	!
+!LO:TX:t=P:problem:mixed beam	!	!	!	!
 8DD/L	4.DD\	(16a/LL	(16a/LL	mo-
 .	.	16dd\JJ)	16dd\JJ)	.
 8A\ 8F\ 8D\	.	8.dd\^L	(8.dd/	.
@@ -108,7 +110,7 @@
 !!linebreak:original
 =13	=13	=13	=13
 *tremolo	*	*	*
-!	!LO:TX:t=P:problem=mixed beam	!LO:TX:t=P:problem=mixed beam	!
+!	!LO:TX:t=P:problem:mixed beam	!LO:TX:t=P:problem:mixed beam	!
 (16G\ 16C#\ 16AA\LL	(16a/LL	(16a/LL	cze-
 16A	16aa\JJ)	16aa\JJ)	.
 16G\ 16C#\ 16AA\	8.aa\L 8.a\^<	8.aa\	-muż
@@ -141,7 +143,7 @@
 8F\ 8D\	8dd\	8dd\	-że.
 ==	==	==	==
 *-	*-	*-	*-
-!!!system-decoration: g1{g2}
+!!!system-decoration: g1{(g2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: | = vertical stroke

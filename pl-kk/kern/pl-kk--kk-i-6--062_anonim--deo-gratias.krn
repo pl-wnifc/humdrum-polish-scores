@@ -15,20 +15,24 @@
 !!!NIFC-rismid: 1001136580
 !!!URL-scan: http://repozytorium.nifc.pl/skany/pl-kk-nut--i-6
 !!!ONB-nifc: UWAGA: C (skan 0088, s. 172), T (skan 0199, s. 203), B (skan 0312, s. 207) Sabbatho | de B.V. | Maria
-!!!AIN: 1 empty 1 tenor 1 vox
-!!!key:
+!!!AIN: 1 bass 2 tenor
+!!!key: d:dor
 **kern	**text	**kern	**text	**kern	**text
 *part3	*part3	*part2	*part2	*part1	*part1
 *staff3	*staff3	*staff2	*staff2	*staff1	*staff1
-*Iempty	*	*Itenor	*	*Ivox	*
-*I"Baſsus.	*	*I"Tenor.	*	*I"Cantus.	*
-*I'B	*	*I'T	*	*I'S	*
+*I"Baſsus.	*	*I"Tenor.	*	*I"Canto.	*
+*I'B	*	*I'T	*	*I'T	*
+*Ibass	*	*Itenor	*	*Itenor	*
+*ICvox	*	*ICvox	*	*ICvox	*
 *clefF4	*	*clefC4	*	*clefC4	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*
-*g:	*	*g:	*	*g:	*
+*d:dor	*	*d:dor	*	*d:dor	*
 *M2/2	*	*M2/2	*	*M2/2	*
-*met(C|)	*	*met(C|)	*	*met(C|)	*
+*met(C|) 	*	*met(C|) 	*	*met(C|) 	*
 =1-	=1-	=1-	=1-	=1-	=1-
+!!LO:TX:t=P:problem:pełne nazwy głosów zaczerpięte z okładki
+!!LO:TX:t=P:problem:2\middle:global
+!LO:TX:t=Sabbatho\nde B. V.\nMaria.	!	!LO:TX:t=Sabbatho\nde B. V.\nMaria.	!	!LO:TX:t=Sabbatho\nde B. V.\nMaria.	!
 1D	De-	1A	De-	1D	De-
 =2-	=2-	=2-	=2-	=2-	=2-
 1BB-	-o	1B-	-o	0F	.
@@ -41,16 +45,15 @@
 2BB-/	.	2G/	.	.	.
 =5-	=5-	=5-	=5-	=5-	=5-
 2AA/	.	2c\	.	1A	.
-*	*	*custos:B-	*	*	*
 2FF/	.	2A/	.	.	.
-*	*	*	*	*Xlig	*
+*	*	*custos:B	*	*Xlig	*
 =6-	=6-	=6-	=6-	=6-	=6-
 *	*	*	*ij	*lig	*
-*custos:C	*	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!
 1GG	.	2B-\	De-	1G	.
 .	.	1G/	-o	.	.
 !LO:LB:g=original	!	!	!	!	!
+*custos:C	*	*	*	*	*
 =7-	=7-	=7-	=7-	=7-	=7-
 1C	.	.	.	1E	.
 .	.	2G/	gra-	.	.
@@ -63,9 +66,9 @@
 1G	.	1G	-as	1E	.
 *	*	*	*	*Xlig	*
 =10-	=10-	=10-	=10-	=10-	=10-
-*	*	*	*	*custos:F	*
 1F	.	2B-\	.	1D	-o
 .	.	1A\	.	.	.
+*	*	*	*	*custos:F	*
 =11-	=11-	=11-	=11-	=11-	=11-
 *	*	*	*	*lig	*
 !	!	!	!	!LO:LB:g=original	!
@@ -85,18 +88,17 @@
 2AA/	.	2F/	.	.	.
 *	*	*	*	*Xlig	*
 =16-	=16-	=16-	=16-	=16-	=16-
-*	*	*custos:C	*	*	*
 1GG	.	1G	.	1D	.
+*	*	*custos:C	*	*	*
 =17-	=17-	=17-	=17-	=17-	=17-
 *	*	*	*	*lig	*
 !	!	!LO:LB:g=original	!	!	!
 1FF	.	2C/	.	1F	.
 .	.	1c\	De-	.	.
 =18-	=18-	=18-	=18-	=18-	=18-
-*custos:D	*	*	*	*	*
 1C	.	.	.	1E	.
 .	.	2c\	-o	.	.
-*	*	*	*	*Xlig	*
+*custos:D	*	*	*	*Xlig	*
 =19-	=19-	=19-	=19-	=19-	=19-
 *lig	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!
@@ -120,20 +122,20 @@
 0D	.	0A	-ti-	1D	.
 *	*	*	*	*Xlig	*
 =25-	=25-	=25-	=25-	=25-	=25-
-!	!	!	!	!LO:N:vis=0	!
-.	.	.	.	00D;;	-as.
+.	.	.	.	[1Dl;;	-as.
 =26-	=26-	=26-	=26-	=26-	=26-
-0GG	.	0B-X	.	.	.
+0GG	.	0B-X	.	1D_	.
 =27-	=27-	=27-	=27-	=27-	=27-
-.	.	.	.	.	.
+.	.	.	.	1D_	.
 =28-	=28-	=28-	=28-	=28-	=28-
 !LO:N:vis=0	!	!LO:N:vis=0	!	!	!
-1D;;	.	1A;;	-as	.	.
+1D;;	.	1A;;	-as	1D]	.
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!RDF**kern: l = terminal long
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-10-28
 !!!ENC: Andrzej Gręziak

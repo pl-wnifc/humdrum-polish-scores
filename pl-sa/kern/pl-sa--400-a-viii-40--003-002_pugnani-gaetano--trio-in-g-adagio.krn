@@ -17,14 +17,17 @@
 !!!NIFC-rismid: 1001104661
 !!!URL-scan: http://bc.bdsandomierz.pl/dlibra/publication/1703/edition/1671/content
 !!!ONB-nifc: UWAGA: No 3tio. Części: 1. Allegro, 2. Adagio, 3. Allegro; vl 1 skany 6-7; vl 2 skan 16
-!!!AIN: 1 empty 2 violn
-!!!key:
+!!!OMD: Adagio
+!!!AIN: 2 violn
+!!!key: B-
 **kern	**kern	**dynam	**kern
 *part3	*part2	*part2	*part1
 *staff3	*staff2	*	*staff1
-*Iempty	*Ivioln	*	*Ivioln
 *I"Baſso.	*I"Violino 2do	*	*I"Violino 1mo
 *I'b	*I'vl 2	*	*I'vl 1
+*I	*Ivioln	*	*Ivioln
+*ICstr	*ICstr	*	*ICstr
+*IGcont	*	*	*
 *clefF4	*clefG2	*	*clefG2
 *k[b-e-]	*k[e-b-]	*	*k[e-b-]
 *B-:	*B-:	*	*B-:
@@ -32,8 +35,7 @@
 *met(c|)	*met(c|)	*	*met(c|)
 =1	=1	=1	=1
 *2\right	*2\right	*2\right	*2\right
-!!LO:TX:B:t=Adagio
-!LO:TX:t=P:problem=zgodnie z RISM "b part missing."	!	!	!
+!LO:TX:t=P:problem:zgodnie z RISM "b part missing."	!	!	!
 1ryy	4r	.	4b-\
 .	4B-/	.	4B-/
 .	4d/	.	8B-/L
@@ -95,11 +97,11 @@
 .	16e-/JJ)	.	.
 =7	=7	=7	=7
 *	*Xtuplet	*	*
-!	!LO:TUP:b:problem=klamra łukowa	!	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!
 1ryy	24d/LL	.	4B-/
 .	24e-/	.	.
 .	24d/JJ	.	.
-!	!LO:TUP:b:problem=klamra łukowa	!	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!
 .	24f/LL	.	.
 .	24g/	.	.
 .	24f/JJ	.	.
@@ -107,14 +109,14 @@
 .	24b-\LL	.	4B-/
 .	24cc\	.	.
 .	24b-\JJ	.	.
-!	!LO:TUP:a:problem=klamra łukowa	!	!
+!	!LO:TUP:a:problem:klamra łukowa	!	!
 .	24dd\LL	.	.
 .	24ee-\	.	.
 .	24dd\JJ	.	.
 .	8.ff\L	.	4d/
 .	32ee-\LL	.	.
 .	32ff\JJJ	.	.
-!	!LO:TUP:a:problem=klamra łukowa	!	!
+!	!LO:TUP:a:problem:klamra łukowa	!	!
 .	24gg\LL	.	4e-/
 .	24ff\	.	.
 .	24ee-\	.	.
@@ -123,7 +125,7 @@
 .	24b-\JJ	.	.
 !	!	!	!LO:LB:g=original
 =8	=8	=8	=8
-!	!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!	!LO:TX:t=P:problem:mixed beam
 1ryy	4a/	.	8f/L
 .	.	.	8ff\
 .	4f/	.	8ff\
@@ -138,6 +140,7 @@
 .	.	.	32ff\JJJ
 .	.	.	16.ee\LL
 .	.	.	32gg\JJk
+!	!	!	!LO:TX:t=P:problem:niejednoznaczny zapis ozdobnika [przyjęto mordent górny]:global
 .	4r	.	4ggM\
 =9	=9	=9	=9
 1ryy	8r	.	8ff\L
@@ -154,11 +157,13 @@
 .	32ff\JJJ)	.	32aa\JJJ)
 .	16.ee\LL	.	16.gg\LL
 .	32gg\JJk	.	32bb-\JJk
+!	!LO:TX:t=P:problem:niejednoznaczny zapis ozdobnika [przyjęto mordent górny]:global	!	!
 .	4ggM\	.	4bb-\
 =10	=10	=10	=10
 1ryy	8ff\L	.	8aa\L
 .	8bb-\J	.	8ddd\J
 .	4bb-\	.	4ddd\
+!	!	!	!LO:SIC:v:s=8ddd\L
 .	8bb-\L	.	8eee-\L
 .	16aa\L	.	(16ccc\L
 .	16gg\JJ	.	16bb-\JJ)
@@ -188,12 +193,12 @@
 .	.	.	(16ee\
 .	.	.	16gg\
 .	.	.	16ee\JJ)
-!	!LO:TX:t=P:problem=mixed beam	!	!
+!	!LO:TX:t=P:problem:mixed beam	!	!
 .	16f/LL	.	4ff\
 .	(16ff\	.	.
 .	16aa\	.	.
 .	16ff\JJ)	.	.
-.	16een\LL	.	4cc\
+.	16een|\LL	.	4cc\
 .	(16ee\	.	.
 .	16gg\	.	.
 .	16ee\JJ)	.	.
@@ -229,11 +234,13 @@
 =16	=16	=16	=16	=16
 1ryy	4b-/	4f\	.	2dd\
 .	4b-/	4f\	.	.
-.	4b-/	4f\	.	(16dd\LL
+!	!	!LO:SIC:v:s=4f\	!	!
+.	4b-/	4g\	.	(16dd\LL
 .	.	.	.	16ff\
 .	.	.	.	16ff\
 .	.	.	.	16bb-\JJ)
-.	4b-/	4f\	.	8bb-\L
+!	!	!LO:SIC:v:s=4f\	!	!
+.	4b-/	4g\	.	8bb-\L
 .	.	.	.	8dd\J
 =17	=17	=17	=17	=17
 1ryy	4a/	4f\	.	8cc\L
@@ -257,7 +264,7 @@
 .	16.ff#X\L	.	.
 .	32gg\JJk	.	.
 .	4aa\	.	4f#/
-!	!LO:TX:t=P:problem=mixed beam	!	!
+!	!LO:TX:t=P:problem:mixed beam	!	!
 .	16aa\LL	.	4d/
 .	16a/	.	.
 .	16b-/	.	.
@@ -279,7 +286,7 @@
 .	.	.	(16.een\L
 .	.	.	32ff\JJk
 .	4e/	.	4gg\)
-!	!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!	!LO:TX:t=P:problem:mixed beam
 .	4c/	.	16gg\LL
 .	.	.	(16g/
 .	.	.	16a/
@@ -287,12 +294,12 @@
 !	!	!	!LO:LB:g=original
 .	4c/	.	16b-/LL
 .	.	.	(16a/
-.	.	.	16a/)
-.	.	.	16g/JJ
+.	.	.	16a/
+.	.	.	16g/JJ)
 =22	=22	=22	=22
 1ryy	4f/	.	16a|\LL
-.	.	.	16a\
-.	.	.	(16b-\
+.	.	.	(16a\
+.	.	.	16b-\
 .	.	.	16cc\JJ)
 .	4e-X/	.	(16cc\LL
 .	.	.	16b-\)
@@ -351,8 +358,8 @@
 .	.	.	16ee-\JJ)
 !	!LO:LB:g=original	!	!
 .	8ee-\L	.	4ff\
-.	16dd\L	.	.
-.	(16cc\JJ	.	.
+.	(16dd\L	.	.
+.	16cc\JJ	.	.
 .	4dd\)	.	8ff\L
 .	.	.	(16ee-\L
 .	.	.	16dd\JJ)
@@ -374,7 +381,7 @@
 .	4a/	4f\	.	.
 .	.	.	.	8ccc\
 *	*	*	*	*Xtuplet
-!	!	!	!	!LO:TUP:problem=klamra łukowa
+!	!	!	!	!LO:TUP:problem:klamra łukowa
 .	4a/	4f\	.	24ccc\LL
 .	.	.	.	24bb-\
 .	.	.	.	24aa\
@@ -387,9 +394,12 @@
 .	4b-/	4f\	.	.
 .	.	.	.	4bb-\
 .	4b-/	4f\	.	.
-!	!	!	!	!LO:TX:t=P:problem=nadliczbowa 4ddd
-.	.	.	.	8ddd\
-!	!	!	!	!LO:TUP:problem=klamra łukowa
+!	!	!	!	!LO:N:vis=8
+.	.	.	.	16ddd\
+!	!	!	!	!LO:TX:t=P:problem:nadliczbowa 4ddd
+!	!	!	!	!LO:N:vis=4
+.	.	.	.	16ddd\
+!	!	!	!	!LO:TUP:problem:klamra łukowa
 .	4b-/	4f\	.	24ddd\LL
 .	.	.	.	24ccc\
 .	.	.	.	24bb-\
@@ -419,8 +429,8 @@
 .	.	.	8b-\J
 !	!	!	!LO:N:vis=16
 .	4a/	.	32a\LLL
-.	.	.	32b-\
 !	!	!	!LO:N:vis=16
+.	.	.	32b-\
 !	!	!	!LO:N:vis=16
 .	.	.	32cc\
 !	!	!	!LO:N:vis=16
@@ -472,7 +482,7 @@
 .	16B-/	.	(16d/
 .	16A/JJ	.	16c/JJ)
 =36	=36	=36	=36
-!	!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!	!LO:TX:t=P:problem:mixed beam
 1ryy	4B-/	.	16d|/LL
 .	.	.	(16b-\
 .	.	.	16dd\
@@ -490,7 +500,7 @@
 .	16cc\	.	.
 .	16a\JJ)	.	.
 =37	=37	=37	=37
-!	!	!	!LO:TX:t=P:problem=mixed beam
+!	!	!	!LO:TX:t=P:problem:mixed beam
 1ryy	8b-/L	.	8d'/L
 .	(8g/	.	8b-'\
 .	(8f/)	.	8b-'\

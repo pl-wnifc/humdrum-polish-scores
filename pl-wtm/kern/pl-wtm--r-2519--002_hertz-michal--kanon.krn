@@ -15,27 +15,29 @@
 !!!NIFC-rismid: 1001082119
 !!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r2519
 !!!ONB-nifc: UWAGA: 9 Kanonów num. 001-009. Skan 0006-0007 (Canon in d 2e, bez szkiców ołówkiem na 0007)
-!!!AIN: 2 forte
-!!!key:
+!!!AIN: 2 piano
+!!!key: C
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
-*Iforte	*Iforte
 *I"[Fortepian]	*I"[Fortepian]
-*	*I'
+*I'	*I'
+*Ipiano	*Ipiano
+*ICklav	*ICklav
 *clefF4	*clefG2
 *k[]	*k[]
 *C:	*C:
 *M2/4	*M2/4
+*>[A,B,B1,B,B2,C,D,E,E1,E,E2,F]	*>[A,B,B1,B,B2,C,D,E,E1,E,E2,F]
 =1	=1
-8r	2r
-8r	.
-[4c\	.
-*>[A,A1,A,A2,B,C,C1,C,C2,D]	*>[A,A1,A,A2,B,C,C1,C,C2,D]
 *>A	*>A
+8r	2r
+8C\	.
+[4c\	.
 =2!|:	=2!|:
+*>B	*>B
 !!LO:TX:t=P:problem:all\left, middle, right:global
-!	!LO:TX:t=P:problem="lekcja po korekcie"
+!!LO:TX:t=P:problem:t. 2-5, 7-8, 13-14, 20-23, 28-32 po poprawkach ołówkowych
 16c\LL]	8r
 16B\	.
 16G\	8d/
@@ -70,24 +72,25 @@
 8A\J	8cc\J
 16G\LL	16b\LL
 16E\	16cc\
-16F#X\	16dd\
+16F#\	16dd\
 16E\JJ	16cc\JJ
 =7	=7
-8F#X'\L	8a/L
-8D'\J	8b/J
+8F#|\L	8a/L
+8D|\J	8b/J
 4d\	16a/LL
 .	16f#X/
 .	16g/
 .	16f#/JJ
-*>A1	*>A1
 =8	=8
+!!LO:TX:a:B:t=I
+*>B1	*>B1
 16G\LL	8g/L
 16A\	.
 16G\	8e/J
-16F#X\JJ	.
-!	!LO:TX:a:t=I
+16F#Xi\JJ	.
 8G\L	4ee\
 8G\J	.
+!!LO:TX:t=P:problem:oznaczenie wolty (I) nad kreską taktową
 =9	=9
 8r	16a/LL
 .	16b/
@@ -96,15 +99,16 @@
 4c\	8a/L
 .	8a/J
 !!linebreak:original
-*>A2	*>A2
 =10:|!	=10:|!
+!!LO:TX:a:B:t=II
+*>B2	*>B2
 16c\LL	8r
 16d\	.
-16c\	8e/
+16e\	8e/
 16B\JJ	.
-!	!LO:TX:a:t=II
 8c\L	4ee\
 8c\J	.
+!!LO:TX:t=P:problem:oznaczenie wolty (II) nad kreską taktową
 =11	=11
 8r	16dd\LL
 .	16ee\
@@ -112,8 +116,8 @@
 .	16cc\JJ
 4BB/	8dd\L
 .	8dd\J
-*>B	*>B
 =12	=12
+*>C	*>C
 16AA/LL	8r
 16BB/	.
 16AA/	8cc\
@@ -121,13 +125,14 @@
 8AA/L	4c/
 [>8A/J	.
 =13	=13
-8A\]L	16B-i'/LL
-.	16c'/
-8G'\J	16B-/
+8A\L]	16B-i|/LL
+.	16c|/
+8G|\J	16B-/
 .	16A/JJ
 4GG/	8B-/L
 .	8b-i/J
 =14	=14
+!	!LO:SIC:v:s=8b-/L
 16FF/LL	8b/L
 16GG/	.
 16FF/	8a/J
@@ -242,20 +247,20 @@
 16B\	.
 16G\	8d/
 16A\JJ	.
-8B-X\L	[4dd\
+8B-\L	[4dd\
 8B-\J	.
 =29	=29
-8ryy	16dd\LL]
+8A\L	16dd\LL]
 .	16cc\
-8F\	16a\
-.	16b-Xi\JJ
+8F\J	16a\
+.	16b-i\JJ
 [4AA/	8cc\L
 .	(8cc\J
 =30	=30
-16AA/LL]	8b\L)
-16GG/	.
-16AA/	8g\J
-16BB/JJ	.
+16AA\LL]	8b\L)
+16GG\	.
+16AA\	8g\J
+16BB\JJ	.
 16C\LL	[4B/
 16D\	.
 16E\	.
@@ -271,14 +276,16 @@
 .	16g/JJ
 =32	=32
 *2\right	*2\right
+!	!LO:TX:t=P:problem: pod nutą ołówkiem t (?)
 2C;<\	2ee;\
 =33||	=33||
+*>D	*>D
 *M4/4	*M4/4
 *met(c)	*met(c)
 2C\	1r
 2F\	.
-*>C	*>C
 =34!|:	=34!|:
+*>E	*>E
 4G\	2d/
 4F\	.
 4E\	2g/
@@ -327,8 +334,9 @@
 8E\L	.
 !	!LO:SIC:v:s=8f#/
 8D\J	8f/
-*>C1	*>C1
 =40	=40
+!!LO:TX:a:B:t=I
+*>E1	*>E1
 2B\	8d/L
 .	8e/
 .	8f#X/
@@ -336,22 +344,23 @@
 2BB/	4g/
 .	8f#/L
 .	8e/J
+!!LO:TX:t=P:problem:oznaczenie wolty (I) nad kreską taktową
 =41	=41
-!	!LO:TX:a:t=I
 2C/	2cc\
 2F\	2c/
-*>C2	*>C2
 =42:|!	=42:|!
+!!LO:TX:a:B:t=II
+*>E2	*>E2
+!!LO:TX:t=P:problem:oznaczenie wolty (II) na środku taktu
 8F#X\L	8d/L
 8E\	8e/
 8D\	8f#X/
 8C\J	8g/J
-!	!LO:TX:a:t=II
 4BB\	4g/
 8C\L	8f#/L
 8D\J	8e/J
-*>D	*>D
 =43	=43
+*>F	*>F
 2E\	8g/L
 !	!LO:SIC:v:s=8f#/
 .	8f/
@@ -452,9 +461,9 @@
 4F\	8d/
 .	8e/J
 =56	=56
-8r	4f/
-8D\L	.
-8A\J	4b/
+8E\	4f/
+4A\L	.
+.	4b/
 4G\	.
 .	4a/
 4F\	.
@@ -488,10 +497,11 @@
 1C;<	1c;
 ==	==
 *-	*-
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: i = editorial accidental
+!!!RDF**kern: | = vertical stroke
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-10-23
 !!!ENC: Filip Voros
