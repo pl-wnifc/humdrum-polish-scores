@@ -19,12 +19,15 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/7521 @EN{Scan on Polish Music Herritage in Open Access Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
 !!!OMD: Andante.
+!!!OMD-mod: Andante
 !!!AIN: 2 piano 1 vox
 !!!key: C
 **kern	**kern	**dynam	**kern	**text	**dynam
 *part3	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1	*
 *I"Piano.	*I"Piano.	*	*I"Chant.	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*	*
+*I'pf	*I'pf	*	*I'V	*	*
 *Ipiano	*Ipiano	*	*Ivox	*	*
 *ICklav	*ICklav	*	*ICvox	*	*
 *IGacmp	*IGacmp	*	*IGsolo	*	*
@@ -34,6 +37,7 @@
 *M6/8	*M6/8	*	*M6/8	*	*
 =1	=1	=1	=1	=1	=1
 [4.GG [4.GGG/	8r	p	2.r	.	.
+!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!LO:HP:a	!	!	!
 .	8gL 8e 8c 8G/	<	.	.	.
 .	8gJ 8e 8c 8G/	.	.	.	.
@@ -42,6 +46,7 @@
 8GGJ 8GGG/	8gJ 8e 8c 8G/	[	.	.	.
 =2	=2	=2	=2	=2	=2
 4.AA-X 4.AAA-X/	8r	.	2.r	.	.
+!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!LO:HP:a	!	!	!
 .	8a-XL 8d 8c 8A-X/	>	.	.	.
 .	8a-J 8d 8c 8A-/	.	.	.	.
@@ -56,7 +61,7 @@
 8FF#X\	8g 8e 8c 8G</	.	8r	.	.
 !	!	!	!	!	!LO:DY:a
 8GG\J	8gJ 8e 8c 8G</	.	8e/	Tu	p
-!!linebreak:original
+!!LO:LB:g=original
 =4	=4	=4	=4	=4	=4
 [<4.C [4.CC\	8r	.	4g/	es	.
 .	8gL 8d 8B< 8G< 8F</	.	.	.	.
@@ -85,7 +90,7 @@
 8F]L 8FF\]	8gL 8f 8B< 8G</	.	8r	.	.
 8E\	8g 8f 8B< 8G</	.	8r	.	.
 8F\J	8gJ 8f 8B< 8G</	.	8a/	re-	.
-!!linebreak:original
+!!LO:LB:g=original
 =8	=8	=8	=8	=8	=8
 [<4.E [4.EE\	8r	.	4g#X/	-flé-	.
 .	8g#XL 8e 8d 8G#X</	.	.	.	.
@@ -111,6 +116,7 @@
 8D/J	8aJ 8f# 8c 8A/	.	8a/	et	]
 =11	=11	=11	=11	=11	=11
 *^	*	*	*	*	*
+!	!LO:MO:mod=!null:null	!	!	!	!	!
 !	!LO:N:vis=2	!	!	!	!	!
 2.GG/	8GG\L	8r	.	4.g/	pur;	.
 .	8Fn\	8g:L 8d: 8B: 8G:/	>	.	.	.
@@ -119,7 +125,7 @@
 .	8E\	8g 8e 8c 8G/	.	.	.	.
 .	8F\J	8gJ 8d 8B 8G/	.	8e/	la	.
 *v	*v	*	*	*	*	*
-!!linebreak:original
+!!LO:LB:g=original
 =12	=12	=12	=12	=12	=12
 [<4.GG [4.GGG\	8r	.	4g/	mer	.
 .	8gL 8d 8B< 8G< 8F</	.	.	.	.
@@ -143,6 +149,7 @@
 8AAn 8AAAn/	8a- 8d 8B- 8A-/	.	.	.	.
 8BB-J 8BBB-/	8a-J 8d 8B- 8A-/	.	8f#X/	-les,	[
 =15	=15	=15	=15	=15	=15
+!	!	!	!	!LO:MO:mod=l'or,	!
 4.E-X 4.EE-X/	8r	.	[4.g/	l’or,_	.
 .	8gL 8e-X 8B-X 8G/	.	.	.	.
 .	8gJ 8e- 8B- 8G/	.	.	.	.
@@ -150,7 +157,7 @@
 4D 4DD/	8r	.	4g/]	.	>
 .	8gL 8f 8Bn 8G/	.	.	.	.
 8D\	8gJ 8f 8B 8G/	.	8g/	mais	]
-!!pagebreak:original
+!!LO:LB:g=original
 =16	=16	=16	=16	=16	=16
 *^	*	*	*	*	*
 4.CC/	8CC\L	8r	.	4a/	hum-	.
@@ -163,9 +170,9 @@
 4.EE/	8EE\L	8r	.	4.dd\	-bli-	.
 .	8E\	8gL 8e 8c 8G/	.	.	.	.
 .	8E\J	8gJ 8e 8c 8G/	.	.	.	.
-4F#X [>4FF#X/	4ryy	8aL 8d#X 8c 8A/	.	4cc\	-me,	.
+4F#X [>4FF#X/	4ryyyy	8aL 8d#X 8c 8A/	.	4cc\	-me,	.
 .	.	8aJ 8d# 8c 8A/	.	.	.	.
-8FF#] 8FFF#X/	8ryy	8r	.	8a/	tu	.
+8FF#] 8FFF#X/	8ryyyy	8r	.	8a/	tu	.
 *v	*v	*	*	*	*	*
 =18	=18	=18	=18	=18	=18
 [4.EE [4.EEE/	8r	.	4g#X/	ca-	.
@@ -182,7 +189,7 @@
 8DD#X/	8e 8B 8G#/	p	8r	.	.
 !	!	!	!	!	!LO:DY:a
 8EE/J	8eJ 8B 8G#/	.	8e/	ton	p
-!!linebreak:original
+!!LO:LB:g=original
 =20	=20	=20	=20	=20	=20
 [<4.AA [4.AAA\	8r	.	4e/	coeur	.
 .	8eL 8c 8A< 8E</	.	.	.	.
@@ -206,14 +213,14 @@
 8BB/	8cc 8a 8e 8c/	.	.	.	.
 8C/J	8ccJ 8a 8e 8c/	[	8cc\	bon-	[
 =23	=23	=23	=23	=23	=23
-!	!	!	!	!	!LO:HP:a
+!	!	!	!	!LO:MO:mod=-heur,	!LO:HP:a
 [4.D [4.DD/	8r	>	[4.b\	-heur,_	>
 .	8bL 8f 8d 8B/	.	.	.	.
 .	8bJ 8f 8d 8B/	]	.	.	.
 8D]L 8DD/]	8bL 8f 8d 8B/	.	4b\]	.	]
 8C#X/	8b 8f 8d 8B/	.	.	.	.
 8D/J	8bJ 8f 8d 8B/	.	8a/	tu	.
-!!linebreak:original
+!!LO:LB:g=original
 =24	=24	=24	=24	=24	=24
 !	!	!	!	!	!LO:DY:a
 [4.E [4.EE/	8r	.	4g#X/	les	p
@@ -245,9 +252,10 @@
 8DD#X/	8e 8B 8G#/	] pp	.	.	.
 !	!	!	!	!	!LO:DY:a
 8EE/J	8eJ 8B 8G#/	.	8e/	Voi-	pp
-!!linebreak:original
+!!LO:LB:g=original
 =28	=28	=28	=28	=28	=28
 *^	*	*	*	*	*
+!	!LO:MO:mod=!null:null	!	!	!	!	!
 !	!LO:N:vis=2	!	!	!	!	!
 2.GG/	8GG\L	8r	.	4g/	-là,	.
 .	8F\	8gnL 8d 8B 8Gn/	.	.	.	.
@@ -271,7 +279,8 @@
 .	8F\	8a 8f 8d 8A/	.	.	.	.
 .	8F\J	8aJ 8f 8d 8A/	.	8cc\	voy-	[
 =31	=31	=31	=31	=31	=31	=31
-!	!LO:N:vis=2	!	!	!	!	!
+!	!LO:MO:mod=!null:null	!	!	!	!	!
+!	!LO:N:vis=2	!	!	!	!LO:MO:mod=-ant,	!
 2.FF/	8FF\L	8r	.	[4.b\	-ant,_	.
 .	8F\	8gL 8f 8B 8G/	.	.	.	.
 .	8F\J	8gJ 8f 8B 8G/	.	.	.	.
@@ -279,7 +288,7 @@
 .	8F\	8g 8f 8B 8G/	.	.	.	.
 .	8F\J	8gJ 8f 8B 8G/	.	8a/	on	.
 *v	*v	*	*	*	*	*
-!!pagebreak:original
+!!LO:PB:g=original
 =32	=32	=32	=32	=32	=32
 !	!	!	!	!	!LO:HP:a
 [4.E [4.EE/	8r	.	4g/	pense	<
@@ -305,7 +314,7 @@
 4.GG/	8GGL 8GGG\	8r	<	4b/	t’ai-	<
 .	8F#X\	8aL 8e-X 8c 8A/	.	.	.	.
 .	8F#\J	8aJ 8e- 8c 8A/	[	8a/	-me	[
-!!linebreak:original
+!!LO:LB:g=original
 =35	=35	=35	=35	=35	=35	=35
 !	!LO:N:n=1:vis=2	!	!	!	!	!
 2.GG/	8GGL 8GGG\	8r	<	[4.g/	ten-	.
@@ -319,10 +328,11 @@
 4.CC/	8CC\L	8r	.	4.c/	-ment!	.
 .	8E 8GG\	8ccL 8g 8e 8c/	.	.	.	.
 .	8EJ 8GG\	8ccJ 8g 8e 8c/	.	.	.	.
-4ryy	8EL 8GG\	8ccL 8g 8e 8c/	.	4r	.	.
+4ryyyy	8EL 8GG\	8ccL 8g 8e 8c/	.	4r	.	.
 .	8E 8GG\	8cc 8g 8e 8c/	.	.	.	.
-8ryy	8EJ 8GG\	8ccJ 8g 8e 8c/	.	8r	.	.
+8ryyyy	8EJ 8GG\	8ccJ 8g 8e 8c/	.	8r	.	.
 =37	=37	=37	=37	=37	=37	=37
+!	!LO:MO:mod=!null:null	!	!	!	!	!
 !	!LO:N:vis=2	!	!	!	!	!
 2.CC/	8CC\L	8r	.	2.r	.	.
 .	8F 8AA-X\	8ccc:L 8aa-X: 8ff: 8cc:\	>	.	.	.
@@ -338,7 +348,10 @@
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!ENC: Katarzyna Serwa
-!!!END: 2021-10-24
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D" | rid -lid
 !!!ENC: Marcin Jachim
 !!!END: 2021-09-09
+!!!ENC: Katarzyna Serwa
+!!!END: 2021-10-24
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-08-12
