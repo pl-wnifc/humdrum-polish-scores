@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wn--mus-iii-109-578_badarzewska-tekla--wspomnienie-rodzinnej-chatki.krn
 !!!cenid: 18xx:3538
 !!!COM: Bądarzewska, Tekla
-!!!COM-rismid: pe30005936
+!!!COM-rismID:
 !!!CDT: ~1830-1861/09/29
 !!!CNT: Polish
 !!!OTL: Wspomnienie Rodzinnej Chatki
@@ -12,17 +12,24 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid:
-!!!URL-scan: https://polona.pl/item/wspomnienie-rodzinnej-chatki-souvenir-a-ma-chaumiere,MTk4NjcwNQ/2/#info:metadata
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://polona.pl/item/wspomnienie-rodzinnej-chatki-souvenir-a-ma-chaumiere,MTk4NjcwNQ/2/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc:
 !!!AIN: 1 piano
 !!!key: A-
 **kern	**kern
 *part1	*part1
 *staff2	*staff1
+!!LO:MO:ori
 *>[A,B,B,C,D,D1,D,D2,A]	*[A,B,B,C,D,D1,D,D2,A]
+!!LO:MO:mod
+!! *>[A,B,B,C,D,D1,D,D2]	*[A,B,B,C,D,D1,D,D2]
+!!LO:MO:end
 *>A	*>A
 *I"PIANO.	*I"PIANO.
+*mI"Pianoforte	*mI"Pianoforte
 *Ipiano	*Ipiano
 *ICklav	*ICklav
 *clefF4	*clefG2
@@ -30,8 +37,10 @@
 *A-:	*A-:
 *M4/4	*M4/4
 *met(c)	*met(c)
+*mmet(c)	*mmet(c)
 =1	=1
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 !	!LO:TUP:a:problem=klamra łukowa
 4A- 4AA-\	12ee-L 12e-\
 .	12aa- 12a-\
@@ -40,9 +49,11 @@
 4c 4A- 4E-\	.
 .	8r
 4c 4A- 4E-\	4r
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =2	=2
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4A- 4AA-\	16ee-LL 16e-\
 .	16aa- 16a-\
 .	16ccc 16cc\
@@ -51,9 +62,11 @@
 4c 4A- 4E-\	.
 .	8r
 4c 4A- 4E-\	4r
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =3	=3
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4E- 4EE-/	2ggg 2gg\
 4d- 4B- 4G\	.
 !	!LO:TUP:a:problem=klamra łukowa
@@ -63,6 +76,8 @@
 4d- 4B- 4G\	8bb-L 8b-\
 .	16ddd-L 16dd-\
 .	16cccJJ 16cc\
+!LO:MO:mod=*Xped	!
+*null	*
 !!LO:LB:g=original
 =4	=4
 4A- 4AA-\	2.aa- 2.cc 2.a-\
@@ -70,7 +85,8 @@
 4c 4A- 4E-\	.
 4c 4A- 4E-\	4r
 =5	=5
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 !	!LO:TUP:a:problem=klamra łukowa
 4c 4A- 4F\	12ffL 12f\
 .	12aa- 12a-\
@@ -79,9 +95,12 @@
 4c 4A- 4F\	.
 .	8r
 4c 4A- 4F\	4r
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =6	=6
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
+!	!LO:MO:mod=!null:null
 !	!LO:N:vis=4
 4An 4F#X\	4.cc 4.c/
 4A 4F#\	.
@@ -97,17 +116,19 @@
 4e- 4c 4A 4F#\	4eee- 4ee-\)
 !!LO:LB:g=original
 =7	=7
-!	!LO:TX:t=P:global:problem=arpeggio między systemami
-2G: 2BB-:\	2b-: 2e-: 2B-:/
-2E-: 2EE-:/	4.cc: 4.e-: 4.d-: 4.B-:/
+2G:: 2BB-::\	2b-:: 2e-:: 2B-::/
+2E-:: 2EE-::/	4.cc:: 4.e-L: 4.d-:: 4.B-::/
 .	8b-/
 =8	=8
 1d- 1E-;	1ee- 1g;
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =9|!	=9|!
-*	*ped
-!	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową
-!LO:TX:b:t=[segno]:problem=znak segno pod kreską taktową	!LO:TX:b:B:t=espressione.
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
+!	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową:mod=
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=espressione
+!LO:TX:b:t=[segno]:problem=znak segno pod kreską taktową:mod=	!LO:TX:b:B:t=espressione.
 8A- 8AA-\	4ee-\
 *clefG2	*
 8e-/L	.
@@ -123,9 +144,12 @@
 .	16bb-\
 8e-\J	16ccc\
 .	16ddd-X\JJ
-*clefF4	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
+*clefF4	*
 =10	=10
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 8E-\L	4.fff\
 8B-\	.
 8g 8e-\	.
@@ -133,11 +157,13 @@
 8E-\L	4bb-\
 8B-\	.
 8g 8e-\	4r
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 8B-\J	.
 !!LO:PB:g=original
 =11	=11
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 .	8qbb-/
 8E-\L	4bb-\
 8B-\	.
@@ -150,11 +176,13 @@
 8g 8e-\	16eee-\LL
 .	16fff\
 8B-\J	16eee-\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 .	16ddd\JJ
 *clefG2	*
 =12	=12
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 .	8qdddn/
 8A-/L	4.fff\
 8e-/	.
@@ -163,10 +191,12 @@
 8A-/L	4aa- 4cc\
 8e-/	.
 8cc 8a-/	4r
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 8e-/J	.
 =13	=13
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 8A-/L	4aa-\
 8e-/	.
 8cc 8a-/	4r
@@ -179,10 +209,13 @@
 .	16ee-\
 8e-/J	16dd-\
 .	16cc\JJ
-*clefF4	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
+*clefF4	*
 !!LO:LB:g=original
 =14	=14
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 8BB-\L	4.b-\
 8B-\	.
 8f 8d-\	.
@@ -191,9 +224,11 @@
 8B-\	.
 8f 8d-\	.
 8B-\J	.
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =15	=15
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 8E-\L	4cc 4a-\
 8e-\	.
 8c\	4ee- 4a-\
@@ -202,7 +237,8 @@
 8B-\	.
 8e-\	4bb- 4gg 4dd-\
 8g\J	.
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =16	=16
 8EE-\L	2bb- 2dd- 2b-\
 8B-\	.
@@ -214,6 +250,7 @@
 *	*clefF4
 !!LO:LB:g=original
 =17	=17
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=trem.
 !	!LO:TX:b:B:t=trem
 32EE-/LLL	32B-LLL 32G\
 32BB-/	32E-\
@@ -233,7 +270,8 @@
 32BB-/JJJ	32E-\JJJ
 2BB- 2EE-/	2e- 2B- 2G 2E-\
 =18	=18
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 32EE-/LLL	32e-LLL 32B- 32G\
 32BB-/	32D-\
 32EE-/	32e- 32B- 32G\
@@ -251,19 +289,23 @@
 32EE-/	32e- 32B- 32G\
 32BB-/JJJ	32D-\JJJ
 2E- 2BB- 2EE-;/	2g 2e- 2d- 2B-;\
-*	*Xped
-.	.
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 *	*clefG2
+!!LO:TX:t=P:problem=w źródle kreska taktowa podwójna
 !!LO:LB:g=original
-=19||	=19||
+=||	=||
+=19!|:	=19!|:
 !!!OMD: Andante.
+!!!OMD-mod: Andante
 *>B	*>B
 *M3/4	*M3/4
-!LO:TX:b:t=[segno]:problem=znak segno pod kreską taktową	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową
+!LO:TX:b:t=[segno]:problem=znak segno pod kreską taktową:mod=	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową:mod=
 4r	8cccL 8cc\
 .	8ddd-J 8dd-\
 =20	=20
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4E- 4EE-/	8cccL 8cc\
 .	8bb-J 8b-\
 4g 4e- 4d- 4B-\	4.fff 4.ff^\
@@ -275,33 +317,43 @@
 4a- 4e- 4c\	4.ccc 4.cc\
 4a- 4e- 4c\	.
 .	8ccc 8cc\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =22	=22
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4E- 4EE-/	8cccL 8cc\
 .	8bb-J 8b-\
 4g 4e- 4d- 4B-\	4aaa- 4aa-^\
 4g 4e- 4d- 4B-\	8.gggL 8.gg\
+!	!LO:MO:mod=*null:null
 *	*Xped
 .	16fffJk 16ff\
+!LO:MO:mod=*Xped	!
+*null	*
 !!LO:PB:g=original
 =23	=23
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4A- 4AA-\	8fffL 8ff\
 .	8eee-J 8ee-\
 4a- 4e- 4c\	4ccc 4cc\
 4a- 4e- 4c\	4r
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =24	=24
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4A- 4AA-\	8ccccL 8ccc^\
 .	8bbb-J 8bb-\
 4a- 4e- 4c\	4.aaa- 4.aa-\
 4a- 4e- 4c\	.
 .	8ggg 8gg\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =25	=25
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4D- 4DD-/	8aaa-L 8aa-^\
 .	8aaa-J 8aa-\
 *clefG2	*
@@ -316,14 +368,16 @@
 4g 4e- 4d- 4B-\	4.eee- 4.ee-\
 4g 4e- 4d- 4B-\	.
 .	8gg 8g\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =27	=27
 4e- 4c 4A-\	4aa- 4a-\
 4AA- 4AAA-/	4aaa- 4eee- 4ccc 4aa-\
 4r	4r
 =28:|!	=28:|!
 *>C	*>C
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4E- 4EE-/	16eeee-LL 16eee-\
 .	16dddd- 16ddd-\
 .	16bbb- 16bb-\
@@ -342,35 +396,48 @@
 4g 4e- 4d- 4B-\	4r
 4g 4e- 4d- 4B-\	8r
 .	8eee- 8ee-\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =30	=30
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4A- 4AA-\	8cccL 8cc\
 .	8ddd-J 8dd-\
 4a- 4e- 4c\	4.eee- 4.ee-\
 4a- 4e- 4c\	.
 .	8eee- 8ee-\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =31	=31
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4A- 4AA-\	8eee-L 8ee-\
+!	!LO:SIC:s=8ccc 8ccJ
 .	8ccc 8cc\
+!	!LO:SIC:s=8aaa- 8aa-L
 4a- 4e- 4c\	8aaa- 8aa-\
+!	!LO:SIC:s=8ggg 8ggJ
 .	8ggg 8gg\
+!	!LO:SIC:s=8.fff 8.ffL
+!	!LO:MO:mod=!null:null
 !	!LO:N:vis=8
 4a- 4e- 4c\	8.fff 8.ff\
 .	16eee-Jk 16ee-\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 !!LO:LB:g=original
 =32	=32
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4E- 4EE-/	8gggL 8gg\
 .	8fffJ 8ff\
 4g 4e- 4d- 4B-\	4bb- 4b-\
 4g 4e- 4d- 4B-\	4r
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =33	=33
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4E- 4EE-/	8bb-L 8b-\
 .	8cccJ 8cc\
 4g 4e- 4d- 4B-\	4.ddd- 4.dd-\
@@ -379,17 +446,21 @@
 =34	=34
 4e- 4c 4A-\	4aa- 4a-\
 4AA-/	4r
-*	*Xped
-.	.
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 4r	4r
 !!LO:PB:g=original
+!LO:MO:mod==35||	!LO:MO:mod==35||
 =35|!	=35|!
-!!!OMD: Brillante.
 *M4/4	*M4/4
 *met(c)	*met(c)
-*	*ped
+*mmet(c)	*mmet(c)
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=brillante
+!	!LO:TX:a:B:t=Brillante.
 !	!LO:TUP:a:problem=klamra łukowa
-!LO:TX:b:t=[segno]:problem=znak segno pod kreską taktową	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową
+!LO:TX:b:t=[segno]:problem=znak segno pod kreską taktową:mod=	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową:mod=
 4A- 4AA-\	12r
 .	12cccL 12cc\
 .	12ddd-J 12dd-\
@@ -398,6 +469,7 @@
 .	12.eee- 12.ee-\
 .	24eee-Jk 24ee-\
 4a- 4e- 4c\	4eee- 4ee-\
+!	!
 4a- 4e- 4c\	20r
 .	(40bbb-\LLL
 .	40aaa-\
@@ -408,10 +480,13 @@
 .	40ddd\
 .	40ccc\
 .	40bb-\JJJ)
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =36	=36
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 *	*tuplet
+!	!LO:MO:mod=*null:null
 *	*Xbrackettup
 !	!LO:TUP:a
 4E- 4EE-/	12bb-\
@@ -423,11 +498,14 @@
 .	24eee-Jk 24ee-\
 4g 4e- 4d- 4B-\	4eee- 4ee-\
 4g 4e- 4d- 4B-\	4r
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 !!LO:LB:g=original
 =37	=37
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 *	*tuplet
+!	!LO:MO:mod=*null:null
 *	*brackettup
 !	!LO:TUP:a:problem=klamra łukowa
 4E- 4EE-/	12r
@@ -446,10 +524,12 @@
 .	40eee-\
 .	40ddd-\
 .	40ccc\
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 .	40bb-\JJJ)
-*	*Xped
 =38	=38
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4A- 4AA-\	12r
 .	12cccL 12cc\
 .	12ddd-J 12dd-\
@@ -458,10 +538,12 @@
 .	24eee-Jk 24ee-\
 4a- 4e- 4c\	4eee- 4ee-\
 4a- 4e- 4c\	4r
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 !!LO:LB:g=original
 =39	=39
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4A- 4AA-\	12r
 .	12cccL 12cc\
 .	12ddd-J 12dd-\
@@ -479,10 +561,12 @@
 .	40ccc\
 .	40bb-\
 .	40aa-\
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 .	40gg\JJJ)
-*	*Xped
 =40	=40
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4d- 4D-\	12fffL 12ff\
 .	12fff 12ff\
 .	12fffJ 12ff\
@@ -495,10 +579,12 @@
 4a- 4f 4d-\	12aaa-L 12aa-\
 .	12ggg 12gg\
 .	12fffJ 12ff\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 !!LO:LB:g=original
 =41	=41
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4e- 4E-\	12r
 .	12fffL 12ff\
 .	12fffJ 12ff\
@@ -511,9 +597,12 @@
 4g 4d- 4B-\	12eee-L 12ee-\
 .	12ddd- 12dd-\
 .	12bb-J 12b-\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =42	=42
-*Xtuplet	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
+*Xtuplet	*
 12cL 12A-\	4aa- 4a-\
 12e-\	.
 12c\J	.
@@ -522,13 +611,15 @@
 12C\J	.
 4AA-/	4r
 4r	8.ggL 8.g\
-!	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową
+!	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową:mod=
 .	16ffJk 16f\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 !!LO:PB:g=original
 =43!|:	=43!|:
 *>D	*>D
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4E- 4EE-/	12ee-L 12e-\
 .	12gg 12g\
 .	12bb-J 12b-\
@@ -541,9 +632,11 @@
 4d- 4B- 4G 4E-\	12aaa-L 12aa-\
 .	12ggg 12gg\
 .	12fffJ 12ff\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =44	=44
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4A- 4AA-\	12fffL 12ff\
 .	12eee- 12ee-\
 .	12dddnJ 12ddn\
@@ -552,10 +645,12 @@
 .	24aaa-Jk 24aa-\
 4a- 4e- 4c\	4eee- 4ee-\
 4a- 4e- 4c\	4r
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 !!LO:LB:g=original
 =45	=45
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4E- 4EE-/	12ee-L 12e-\
 .	12gg 12g\
 .	12bb-J 12b-\
@@ -568,9 +663,11 @@
 4d- 4B- 4G 4E-\	12aaa-L 12aa-\
 .	12ggg 12gg\
 .	12fffJ 12ff\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =46	=46
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4A- 4AA-\	12fffL 12ff\
 .	12eee- 12ee-\
 .	12dddnJ 12ddn\
@@ -579,10 +676,12 @@
 .	24aaa-Jk 24aa-\
 4a- 4e- 4c\	4eee- 4ee-\
 4a- 4e- 4c\	4r
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 !!LO:LB:g=original
 =47	=47
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4A- 4AA-\	12cccL 12cc\
 .	12ddd- 12dd-\
 .	12dddnJ 12ddn\
@@ -595,8 +694,11 @@
 4a- 4e- 4c\	12eee-L 12ee-\
 .	12fff 12ff\
 .	12gggJ 12gg\
+!LO:MO:mod=*Xped	!
+*null	*
 =48	=48
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4d- 4D-\	12aaa-L 12aa-\
 .	12aaa- 12aa-\
 .	12aaa-J 12aa-\
@@ -609,10 +711,12 @@
 4b- 4f 4d-\	12aaa-L 12aa-\
 .	12ggg 12gg\
 .	12fffJ 12ff\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 !!LO:LB:g=original
 =49	=49
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 4e- 4E-\	12fffL 12ff\
 .	12fff 12ff\
 .	12fffJ 12ff\
@@ -625,39 +729,49 @@
 4g 4e- 4d- 4B-\	12eee-L 12ee-\
 .	12ddd- 12dd-\
 .	12bb-J 12b-\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =50	=50
+!LO:MO:mod=!null:null	!
 !LO:TX:t=I.	!
 *>D1	*>D1
-*	*ped
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null
+*null	*ped
 12e-L 12c 12A-\	2.aa- 2.cc 2.a-\
 12e-\	.
 12c\J	.
 12A-\L	.
-!LO:TX:a:B:t=D.C. al Segno.	!
+!LO:TX:a:B:t=D.C. al Segno.:mod=	!
 12E-\	.
 12C\J	.
 4AA-/	.
 4r	8.ggL 8.g\
 .	16ffJk 16f\
-*	*Xped
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null
+*null	*Xped
 =51:|!	=51:|!
+!LO:MO:mod=!null:null	!
 !LO:TX:t=II.	!
 *>D2	*>D2
-!LO:TX:b:t=[segno]:problem=znak segno pod kreską taktową	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową
+!LO:TX:b:t=[segno]:problem=znak segno pod kreską taktową:mod=	!LO:TX:a:t=[segno]:problem=znak segno nad kreską taktową:mod=
 4A- 4AA-\	4aa- 4cc 4a-\
 4..AA- 4..AAA-/	4..ccc 4..ee- 4..cc\
 16A- 16E- 16AA-\	16a- 16e- 16c/
-!LO:TX:b:B:t=Fine.	!
+!LO:TX:b:B:t=Fine.:mod=	!
 4A- 4E- 4AA-\	4a- 4e- 4c/
+!!LO:MO:ori
 !LO:TX:t=P:problem=zbędna pauza 4r	!LO:TX:t=P:problem=zbędna pauza 4r
 4r	4r
+!!LO:MO:end
 ==	==
 *-	*-
 !!!system-decoration: {(*)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/^(X?)tuplet$/$1TUPLET/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-02-07
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-02-11
+!!!ENC-modern: Andrzej Kubiczek
+!!!END-modern: 2022-07-27

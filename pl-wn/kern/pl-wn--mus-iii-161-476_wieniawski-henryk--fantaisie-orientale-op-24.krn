@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wn--mus-iii-161-476_wieniawski-henryk--fantaisie-orientale-op-24.krn
 !!!cenid: 18xx:3800
 !!!COM: Wieniawski, Henryk
-!!!COM-rismid: pe137176
+!!!COM-rismID:
 !!!CDT:
 !!!CNT:
 !!!OTL: Fantaisie orientale op. 24
@@ -12,17 +12,23 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant: Violon.: PL-Wn Mus.III.161.476:4-9
 !!!SMS-altvar: Violon.: PL-Wn Mus.III.161.476:12-13
-!!!NIFC-rismid:
-!!!URL-scan: https://polona.pl/item/fantaisie-orientale-pour-violon-avec-accompagnement-de-piano-op-24-posth,MTA4MDQwOTM1/0/#info:metadata
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://polona.pl/item/fantaisie-orientale-pour-violon-avec-accompagnement-de-piano-op-24-posth,MTA4MDQwOTM1/0/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc: UWAGA: na podstawie partytury (SMS:variant), partia skrzypiec do SMS:altvar
 !!!AIN: 2 piano 1 violn
 !!!key: a
 !!!OMD: A MONSIEUR JENÖ HUBAY.\nFANTAISIE ORIENTALE.
 **kern	**kern	**dynam	**kern	**dynam
+!	!	!	!LO:MO:mod=*	!
 *	*	*	*scale:70%	*
 *part3	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
 *I"PIANO.	*I"PIANO.	*	*I"Violon.	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*
+*I'	*I'	*	*I'	*
+*mI'pf	*mI'pf	*	*mI'vn	*
 *Ipiano	*Ipiano	*	*Ivioln	*
 *ICklav	*ICklav	*	*ICstr	*
 *IGacmp	*IGacmp	*	*IGsolo	*
@@ -31,6 +37,7 @@
 *a:	*a:	*	*a:	*
 *M4/4	*M4/4	*	*M4/4	*
 *met(c)	*met(c)	*	*met(c)	*
+*mmet(c)	*mmet(c)	*	*mmet(c)	*
 =1	=1	=1	=1	=1
 !	!LO:TX:a:B:t=Moderato.	!	!LO:TX:a:B:t=Moderato.	!
 [4e\	[4ee\	p	1r	.
@@ -74,6 +81,7 @@
 =7	=7	=7	=7	=7
 *ped	*	*	*	*
 4E 4BB 4EE;/	4g#X 4B 4G#X/	.	4r;	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;t=poco piu animato	!
 !	!	!	!LO:TX:b:i:t=poco più animato	!
 4r;	4r;	.	[4bbb;\	.
 2r	2r	.	8bbb\L]	.
@@ -205,8 +213,10 @@
 =19	=19	=19	=19	=19
 4A-X\	8f/L	.	(16dd\LL	.
 .	.	.	16cc\	.
+!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;b&colon;t=rit.	!	!	!
 !	!LO:TX:b:Bi:t=rit.	!	!	!
 .	8ddJ 8d/	.	16dd\)	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;b&colon;t=rit.	!
 !	!	!	!LO:TX:b:i:t=rit.	!
 .	.	.	16ff'\JJ	.
 8BL 8G#X\	8eeL 8e\	.	16ee'\LL	.
@@ -214,12 +224,13 @@
 8dJ 8B 8E\	8gg#XJ 8g#X\	.	16cc^\	.
 .	.	.	16b^\JJ)	.
 =20	=20	=20	=20	=20
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;t=a tempo	!
 !	!	!	!LO:TX:a:i:t=a tempo	!
 16c: 16E: 16AAn:\	16aa: 16a:\	.	8a/	.
 16r	(16c/LL	.	.	.
 8r	16d/	.	8r	.
 .	16f/JJ	.	.	.
-!	!	!	!LO:TX:b:t=cre_scen_do:problem:dynamics with extention lines	!LO:HP:t=cre_scen_do
+!	!	!	!LO:TX:b:t=cre_scen_do:problem:dynamics with extention lines:mod=	!LO:HP:t=cre_scen_do
 4r	16e/LL	.	(16ee^^\LL	<
 .	16d/	.	16ff\	.
 .	16c/	.	16ee\	.
@@ -275,7 +286,8 @@
 .	(16f/	.	16gg#\	.
 .	16e/JJ)	.	16aa\JJ)	.
 =25	=25	=25	=25	=25
-!	!	!	!LO:TX:b:i:t=appassionato	!
+!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;b&colon;t=appasionato	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;b&colon;t=appasionato	!
+!	!null	!	!LO:TX:b:i:t=appassionato	!
 4BB] 4EE/]	(16e/LL	.	8.bb\L	.
 .	16f/	.	.	.
 .	16g#X/	.	.	.
@@ -310,9 +322,11 @@
 =28	=28	=28	=28	=28
 *ped	*	*	*	*
 (16CC/LL	4r	ff	4r	.
+!LO:MO:mod=!LO&colon;TX&colon;B&colon;t=vigoroso	!	!	!	!
 !LO:TX:a:i:t=vigoroso	!	!	!	!
 16GG/J)	.	.	.	.
 [8CC/J	.	.	.	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;b&colon;t=vigoroso	!
 !	!	!	!LO:TX:b:i:t=vigoroso	!LO:DY:rj
 4CC/]	4g 4e 4G/	.	(8.eeL 8.cc^^\	f
 .	.	f	16ggJk 16ee\)	.
@@ -379,6 +393,7 @@
 .	.	.	.	16cc 16e/)	.
 .	.	8ddJ 8f/	.	(16cc 16d/	.
 .	.	.	.	16bJJ 16d/)	.
+!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;b&colon;t=ritenuto	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;b&colon;t=ritenuto	!
 !	!	!LO:TX:b:i:t=riten.	!	!LO:TX:b:i:t=riten.	!
 .	.	8ccL 8e/	.	(16bLL 16c/	.
 .	.	.	.	16a 16c/)	.
@@ -387,9 +402,11 @@
 *v	*v	*	*	*	*
 =36	=36	=36	=36	=36
 *ped	*	*	*	*
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;b&colon;a&colon;t=a tempo	!
 !	!	!	!LO:TX:a:i:t=a tempo	!
 (16AA/LL	8a 8c/	.	8a 8c/	.
 16E/J	.	.	.	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;b&colon;t=sentimentale	!
 !	!	!	!LO:TX:b:i:t=sentimentale	!
 [8AA/J	8r	.	8r	.
 8AA/])	4r	.	(8g#X^^/L	.
@@ -406,8 +423,10 @@
 .	.	.	16ee\L	.
 .	.	.	16dd\JJ)	.
 =38	=38	=38	=38	=38
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;a&colon;t=rit.	!
 !	!	!	!LO:TX:b:i:t=rit.	!
 2F 2AA/	[4a 4d [4A/	.	(16dd^\LL	.
+!LO:MO:mod=!LO&colon;TX&colon;B&colon;a&colon;t=rit.	!	!	!	!
 !LO:TX:a:i:t=rit.	!	!	!	!
 .	.	.	16cc\)	.
 .	.	.	(16cc^\	.
@@ -432,6 +451,7 @@
 .	48e/	.	.	.
 .	48f/JJJ)	.	.	.
 =40	=40	=40	=40	=40
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;t=Sul G	!
 !	!	!	!LO:TX:a:t=sul sol.	!
 4E\	4e/	.	(8.e/L	.
 .	.	.	16f/Jk)	.
@@ -619,6 +639,7 @@
 32AA/	.	.	.	.
 32AAA/	.	.	16ee\JJ	.
 32AA/	.	.	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;b&colon;t=ritardando	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;b&colon;t=ritardando	!
 !	!LO:TX:b:i:t=ritard.	!	!LO:TX:b:i:t=ritard.	!
 32AAA/	16r	.	16ffn\LL	.
 32AA/	.	.	.	.
@@ -647,6 +668,7 @@
 2E) 2AA^>/	2e) 2A/	.	2r	.
 !!LO:PB:g=original
 =56	=56	=56	=56	=56
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;t=Sul G	!
 !	!	!	!LO:TX:a:t=sul sol.	!
 2r	2aa 2ff 2dd#X 2cc\	p	(16f/LL	.
 .	.	.	32e/K)	.
@@ -825,9 +847,11 @@
 *clefF4	*	*	*	*
 !!LO:PB:g=original
 =72	=72	=72	=72	=72
+!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;t=vigoroso	!	!	!
 !	!LO:TX:b:i:t=vigoroso	!LO:DY:rj	!	!
 8CL 8GG 8CC/	8gL 8e 8c 8G/	f	8cc 8e 8G/	.
 8CJ 8GG 8CC/	8gJ 8e 8c 8G/	.	8r	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;t=vigoroso	!
 !	!	!	!LO:TX:b:i:t=vigoroso	!LO:DY:rj
 8r	8r	.	(8.eeL 8.cc\	f
 8C 8GG 8CC/	8g 8e 8c 8G/	.	.	.
@@ -896,6 +920,7 @@
 .	.	.	24eeJJ 24a\)	.
 =79	=79	=79	=79	=79
 *tremolo	*	*	*tremolo	*
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;t=tremolo	!
 !	!	!	!LO:TX:a:i:t=tremolo	!
 32EEE/LLL	8gg#X 8ee 8b 8g#X\	ff	32ee\LLL 32ee	ff
 32EE/	.	.	32ee\ 32ee	.
@@ -905,7 +930,7 @@
 32EE/	.	.	32ee\ 32ee	.
 32EEE/	.	.	32ee\ 32ee	.
 32EE/	.	.	32ee\ 32ee	.
-!	!LO:TX:b:t=cre_scen_do:problem:dynamics with extention lines	!LO:HP:t=cre_scen_do	!LO:TX:b:t=cre_scen_do:problem:dynamics with extention lines	!LO:HP:t=cre_scen_do
+!	!LO:TX:b:t=cre_scen_do:problem:dynamics with extention lines:mod=	!LO:HP:t=cre_scen_do	!LO:TX:b:t=cre_scen_do:problem:dynamics with extention lines:mod=	!LO:HP:t=cre_scen_do
 32EEE/	8f 8c 8A/	<	32ff 32ee\	<
 32EE/	.	.	32ff 32ee\	.
 32EEE/	.	.	32ff 32ee\	.
@@ -1305,7 +1330,10 @@
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: autostem -r | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m |
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-11
 !!!ENC: Marta Lawrence
 !!!END: 2022-05-22
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-20

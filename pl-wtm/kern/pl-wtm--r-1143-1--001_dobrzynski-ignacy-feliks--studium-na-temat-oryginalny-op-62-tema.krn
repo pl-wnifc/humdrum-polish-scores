@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wtm--r-1143-1--001_dobrzynski-ignacy-feliks--studium-na-temat-oryginalny-op-62-tema.krn
 !!!cenid: 18xx:1748
 !!!COM: Dobrzyński, Ignacy Feliks
-!!!COM-rismid: pe30020642
+!!!COM-rismID:
 !!!CDT: 1807/02/15-1867/10/09
 !!!CNT: Polish
 !!!OPR: Studium na temat oryginalny op. 62
@@ -14,25 +14,32 @@
 !!!SMS-shelfwork: 001-001 M
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001057385
-!!!system-decoration: [(s1,s2,s3,s4)]
+!!!NIFC-rismSourceID: 1001057385
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan:
+!!!ONB-nifc: UWAGA: cz. 001 zawiera „Tema” i „No.1”. Na podstawie partytury (folder r1143-1)
 !!!AIN: 1 cello 1 viola 2 violn
-!!!key:
+!!!OMD: Tempo moderato
+!!!OMD-mod: Moderato
+!!!key: A
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
-*Icello	*	*Iviola	*	*Ivioln	*	*Ivioln	*
 *I"Violoncello	*	*I"Viola.	*	*I"Violino 2do	*	*I"Violino 1o.	*
-*I'vc	*	*I'va	*	*I'vn 2	*	*I'vn 1	*
+*	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*
+*I'vlc	*	*I'vla	*	*I'vl 2	*	*I'vl 1	*
+*Icello	*	*Iviola	*	*Ivioln	*	*Ivioln	*
+*ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*
 *A:	*	*A:	*	*A:	*	*A:	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 *met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*
+*mmet(c)	*	*mmet(c)	*	*mmet(c)	*	*mmet(c)	*
 =1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!LO:TX:a:Bi:t=Tema.	!
-!	!	!	!	!	!	!LO:TX:a:Bi:t=Tempo moderato:problem=dotyczy wszystkich głosów	!
-!	!	!	!	!	!	!	!LO:DY:b:rj
+!	!	!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=Theme	!
+!	!	!	!	!	!	!LO:TX:a:Bi:t=Tema.	!LO:DY:rj
 1ryy	.	1ryy	.	1ryy	.	(>2e/	p
 .	.	.	.	.	.	4f#/	.
 .	.	.	.	.	.	4g#/)	.
@@ -66,8 +73,7 @@
 4A\)	.	.	.	.	.	.	.
 4r	.	.	.	.	.	.	.
 =9	=9	=9	=9	=9	=9	=9	=9
-!	!	!	!	!	!	!LO:TX:b:Bi:t=espreſsivo	!
-!	!	!	!	!	!	!	!LO:DY:b:rj
+!	!	!	!	!	!	!LO:TX:b:Bi:t=espreſsivo:mod=	!LO:DY:rj:mod=%s espressivo
 1r	.	1ryy	.	1ryy	.	(>2a/	p
 .	.	.	.	.	.	4g#/	.
 .	.	.	.	.	.	4f#/)	.
@@ -78,6 +84,7 @@
 =11	=11	=11	=11	=11	=11	=11	=11
 1r	.	1ryy	.	1ryy	.	(>4a\	<
 .	.	.	.	.	.	4cc#\)	.
+!	!	!	!	!	!	!	!LO:MO:mod=[[
 .	.	.	.	.	.	2dd#Xtt>\	[
 .	.	.	.	.	.	16qqcc#/LL	.
 .	.	.	.	.	.	16qqdd#/JJ	.
@@ -103,16 +110,22 @@
 4r	.	.	.	.	.	.	.
 !!LO:LB:g=original
 =17||	=17||	=17||	=17||	=17||	=17||	=17||	=17||
-!	!	!LO:TX:a:Bi:t=c. p.	!	!LO:TX:a:Bi:t=c(antus). firmus	!	!LO:TX:a:Bi:t=No 1o. Un poco più animato	!
+!!!OMD:
+!!!OMD-mod: Un poco più animato
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=c. f.	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=No. 1	!
+!	!	!LO:TX:a:Bi:t=c. p.:mod=	!	!LO:TX:a:Bi:t=c(antus). firmus	!	!LO:TX:a:Bi:t=No 1o. Un poco più animato	!
 1ryy	.	4r	.	(<2e/	p	1ryy	.
+!	!	!LO:TX:a:i:t= :mod=c. p.	!	!	!	!	!
 .	.	(>4c#\	p	.	.	.	.
 .	.	4d\	.	4f#/	.	.	.
 .	.	4B\)	.	4g#/)	.	.	.
 =18	=18	=18	=18	=18	=18	=18	=18
-1ryy	.	(<4c#/	.	(>4a\	.	1ryy	.
-.	.	4G#/	.	4b\	.	.	.
-.	.	(<16qqA/LL)	.	.	.	.	.
+1ryy	.	(<<4c#/	.	(>4a\	.	1ryy	.
+.	.	4G#/)	.	4b\	.	.	.
+.	.	(<16qqA/LL	.	.	.	.	.
+!	!	!LO:SIC:s=16qqBJJ)	!	!	!	!	!
 .	.	16qqB/JJ	.	.	.	.	.
+!	!	!LO:SIC:s=(8A'L	!	!	!	!	!
 .	.	(<8A'</L)	.	2cc#\)	.	.	.
 .	.	8G#'</J	.	.	.	.	.
 .	.	4A'</)	.	.	.	.	.
@@ -130,8 +143,10 @@
 .	.	4c#\)	.	4a\)	.	.	.
 .	.	4r	.	4r	.	.	.
 =21	=21	=21	=21	=21	=21	=21	=21
-!LO:TX:a:Bi:t=c(antus). firmus	!	!	!	!	!	!LO:TX:a:Bi:t=c. p.	!
+!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=c. f.	!	!	!	!	!	!	!
+!LO:TX:a:Bi:t=c(antus). firmus	!	!	!	!	!	!LO:TX:a:Bi:t=c. p.:mod=	!
 (>2E\	p	1r	.	1r	.	4r	.
+!	!	!	!	!	!	!LO:TX:a:i:t= :mod=c. p.	!
 .	.	.	.	.	.	(>4cc#\	p
 4F#\	.	.	.	.	.	4dd\	.
 4G#\)	.	.	.	.	.	4b\)	.
@@ -139,14 +154,18 @@
 (>4A'>\	.	1r	.	1r	.	(>4cc#\	.
 4B'>\	.	.	.	.	.	4g#\)	.
 .	.	.	.	.	.	(<16qqa/LL	.
+!	!	!	!	!	!	!LO:SIC:s=16qqbJJ)	!
 .	.	.	.	.	.	16qqb/JJ	.
+!	!	!	!	!	!	!LO:SIC:s=(8a'L	!
 2c#^<\)	.	.	.	.	.	(>8a'>\L)	.
 .	.	.	.	.	.	8g#'>\J	.
 .	.	.	.	.	.	4a'>\)	.
 =23	=23	=23	=23	=23	=23	=23	=23
 (>2d^<\	.	1r	.	1r	.	(>8b'>\L	.
 .	.	.	.	.	.	8a'>\J	.
+!	!	!	!	!	!	!LO:SIC:s=4g#^)	!
 .	.	.	.	.	.	4g#^>\	.
+!	!	!	!	!	!	!LO:SIC:s=(8a'L	!
 4c#\	.	.	.	.	.	(>8a'>\L)	.
 .	.	.	.	.	.	8b'>\J	.
 4A\)	.	.	.	.	.	4cc#^>\)	.
@@ -158,8 +177,10 @@
 4r	.	.	.	.	.	4r	.
 !!LO:PB:g=original
 =25	=25	=25	=25	=25	=25	=25	=25
-!	!	!LO:TX:b:Bi:t=espressivo	!	!LO:TX:b:Bi:t=espressivo	!	!	!
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=espressivo	!	!	!
+!	!	!LO:TX:b:Bi:t=espressivo:mod=	!	!LO:TX:b:Bi:t=espressivo	!	!	!
 1ryy	.	4r	.	(<2a/	.	1ryy	.
+!	!	!LO:TX:b:i:t= :mod=espressivo	!	!	!	!	!
 .	.	(>4F#/	.	.	.	.	.
 .	.	4B/	.	4g#/	.	.	.
 .	.	4B#X/)	.	4f#/)	.	.	.
@@ -172,9 +193,12 @@
 =27	=27	=27	=27	=27	=27	=27	=27
 !	!	!	!	!LO:TX:a:t=P:problem=w źródle crescendo zaczyna się przed nutą	!	!	!
 1ryy	.	4f#''>\)	<	(>4a\	<	1ryy	.
+!	!	!	!	!	!LO:MO:mod=.	!	!
 .	.	(<2A/	.	4cc#\)	[	.	.
+!	!	!	!LO:MO:mod=.	!	!LO:MO:mod=[ f	!	!
 .	.	.	[	2dd#Xtt>\	f	.	.
-!	!	!	!LO:DY:b:rj	!	!	!	!
+!	!	!	!LO:DY:rj	!	!	!	!
+!	!	!	!LO:MO:mod=[ f	!	!	!	!
 .	.	8B/L	f	.	.	.	.
 .	.	8A/J)	.	.	.	.	.
 .	.	.	.	(<16qqcc#/LL	.	.	.
@@ -183,8 +207,10 @@
 1ryy	.	(4>G#/	>	(>2ee\	>	1ryy	.
 .	.	8B'>\L	.	.	.	.	.
 .	.	8c#'>\J	.	.	.	.	.
+!	!	!	!LO:MO:mod=.	!	!	!	!
 .	.	4d^>\	]	4e/)	]	.	.
 .	.	8c#'>\L	.	4r	.	.	.
+!	!	!	!LO:MO:null:mod=]]	!	!	!	!
 .	.	8B'>\J)	.	.	.	.	.
 =29	=29	=29	=29	=29	=29	=29	=29
 1ryy	.	4c#'>\	p	(<2e/	p	1ryy	.
@@ -192,7 +218,7 @@
 .	.	4d\	.	4f#/	.	.	.
 .	.	4B\)	.	4g#/)	.	.	.
 =30	=30	=30	=30	=30	=30	=30	=30
-1ryy	.	(<4c#/	.	(>4a'>\	.	1ryy	.
+1ryy	.	(<<4c#/	.	(>4a'>\	.	1ryy	.
 .	.	4G#/)	.	4b'>\	.	.	.
 .	.	(<16qqA/LL	.	.	.	.	.
 .	.	16qqB/JJ)	.	.	.	.	.
@@ -215,8 +241,10 @@
 .	.	4r	.	4r)	.	.	.
 !!LO:LB:g=original
 =33	=33	=33	=33	=33	=33	=33	=33
-!LO:TX:b:Bi:t=espres&colon;	!	!	!	!	!	!LO:TX:b:Bi:t=espres&colon;	!
+!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=espressivo	!	!	!	!	!	!	!
+!LO:TX:b:Bi:t=espres&colon;	!	!	!	!	!	!LO:TX:b:Bi:t=espres&colon;:mod=	!
 (>2A\	.	1ryy	.	1ryy	.	4r	.
+!	!	!	!	!	!	!LO:TX:b:i:t= :mod=espressivo	!
 .	.	.	.	.	.	(>4f#/	.
 4G#\	.	.	.	.	.	4b\	.
 4F#\)	.	.	.	.	.	4b#X\)	.
@@ -239,7 +267,9 @@
 .	.	.	.	.	.	8b'>\L	.
 .	.	.	.	.	.	8cc#'>\J	.
 4E\)	]	.	.	.	.	4dd'>\	.
+!	!	!	!	!	!	!	!LO:MO:mod=.
 4r	.	.	.	.	.	8cc#'^>\L	]
+!	!	!	!	!	!	!	!LO:MO:null:mod=]]
 .	.	.	.	.	.	8b'>\J)	.
 =37	=37	=37	=37	=37	=37	=37	=37
 (>2E\	p	1ryy	.	1ryy	.	4cc#''>\	p
@@ -249,8 +279,8 @@
 4G#\)	.	.	.	.	.	4b\)	.
 =38	=38	=38	=38	=38	=38	=38	=38
 (>4A'>\	.	1ryy	.	1ryy	.	(>4cc#\	.
-4B'>\	.	.	.	.	.	4g#/	.
-.	.	.	.	.	.	(<16qqa/LL)	.
+4B'>\	.	.	.	.	.	4g#/)	.
+.	.	.	.	.	.	(<16qqa/LL	.
 .	.	.	.	.	.	16qqb/JJ)	.
 2c#^>\)	.	.	.	.	.	(<4a/	.
 .	.	.	.	.	.	8g#'</L	.
@@ -263,28 +293,27 @@
 .	.	.	.	.	.	8b'>\J	.
 4A\)	.	.	.	.	.	4cc#^>\)	.
 =40	=40	=40	=40	=40	=40	=40	=40
-!	!	!LO:TX:a:t=P:problem=W źródle kreska końcowa przypomina podwójną kreskę taktową	!	!	!	!	!
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=W źródle kreska końcowa przypomina podwójną kreskę taktową	!
 (>2B^<\	.	1ryy	.	1ryy	.	4dd''>\	.
 .	.	.	.	.	.	(<4g#tt>/	.
 .	.	.	.	.	.	&(<16qqf#/LL	.
 .	.	.	.	.	.	16qqg#/JJ&)	.
+!LO:SIC:s=4A)	!	!	!	!	!	!	!
 4A\	.	.	.	.	.	4a/)	.
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=W źródle kreska końcowa przypomina podwójną kreskę taktową	!
-!LO:TX:a:t=P:problem=W źródle kreska końcowa przypomina podwójną kreskę taktową	!	!	!	!	!	!	!
+!LO:SIC:s=4r	!	!	!	!	!	!	!
 4r)	.	.	.	.	.	4r	.
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
-!!title: @{OTL};
+!!!system-decoration: [(*)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!LO:MO:ori
 !!!RDF**dynam: < = "cres", fontstyle= "bold-italic"
 !!!RDF**dynam: > = "dim", fontstyle= "bold-italic"
-!!!RDF**kern: N = linked
-!!!RDF**kern: i = editorial accidental
-!!!EED: Wojciech Jakubiak-Danek
-!!!EEV: 2021-04-12
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r1143
-!!!ONB-nifc: UWAGA: cz. 001 zawiera „Tema” i „No.1”. Na podstawie partytury (folder r1143-1)
+!!LO:MO:end
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | shed -e "s/yy//"
 !!!ENC: Kamil Watkowski
 !!!END: 2021-04-06
+!!!ENC: Wojciech Jakubiak-Danek
+!!!END: 2021-04-12
+!!!ENC-modern: Andrzej Kubiczek
+!!!END-modern: 2022-07-28

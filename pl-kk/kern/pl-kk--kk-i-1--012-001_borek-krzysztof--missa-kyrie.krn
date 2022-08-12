@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-kk--kk-i-1--012-001_borek-krzysztof--missa-kyrie.krn
 !!!cenid: 15xx:692
 !!!COM: Borek, Krzysztof
-!!!COM-rismid: pe30020454
+!!!COM-rismID:
 !!!CDT: 1520-1573
 !!!CNT: Polish
 !!!OPR: [Missa]
@@ -14,10 +14,12 @@
 !!!SMS-shelfwork: 012-001 M
 !!!SMS-variant: Cantus 0071-0077
 !!!SMS-altvar: Cantus 0067-0071
-!!!NIFC-rismid: 300257966
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-kk-nut--i-1
+!!!NIFC-rismSourceID: 300257966
+!!!NIFC-islandoraID: pl-kk:1
+!!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1/datastream/PDF/view
+!!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/5736 @EN{Scan on Polish Music Herritage in Open Access Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: Cantus (s. 65r-68v oraz 69r-75r, skan 0067-0071 oraz 0071-0077, Altus (s. 66r-72v, skan 0258-0265), Tenor (s. 64r-70v, skan 0453-0460), Bassus (s. 64r-70r, skan 0625-0631). Części Mszy: 1. Kyrie, 2. Et in terra, 3. Patrem, 4. Sanctus
-!!!AIN: 1 alto 1 bass 1 soprn 1 tenor 1 vox
+!!!AIN: 1 alto 1 bass 2 tenor 1 vox
 !!!key: d:dor
 **kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern
 *part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1
@@ -25,43 +27,61 @@
 *I"BASSVS	*	*I"TENOR	*	*I"ALTVS	*	*I"CANTVS	*	*I"[QVINTVS]
 *I'B	*	*I'T	*	*I'A	*	*I'S	*	*I'[5]
 *ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*	*ICvox
-*Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*	*Ivox
+*Ibass	*	*Itenor	*	*Itenor	*	*Ialto	*	*Ivox
+*mI"Basso	*	*mI"Tenore II	*	*mI"Tenore I	*	*mI"Alto	*	*
+*mI'B	*	*mI'T 2	*	*mI'T 1	*	*mI'A	*	*
 *clefF4	*	*clefC4	*	*clefC4	*	*clefC3	*	*clefC3
+*	*	*mclefGv2	*	*mclefGv2	*	*mclefG2	*	*
 *d:dor	*	*d:dor	*	*d:dor	*	*d:dor	*	*d:dor
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]
 *M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*	*M2/1
 *met(c|)	*	*met(c|)	*	*met(c|)	*	*met(c|)	*	*met(c|)
+*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*tacet
 =1	=1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:a:t=5 Vocum. (Borek.)	!	!LO:TX:a:t=5 Vocum.*\npod spodem&colon;\nx Borek.	!	!LO:TX:a:t=5 Vocum.	!	!	!	!LO:TX:t=P:problem=w A,T i B jest adnotacja "5 vocum". Głosu piątego nie ma w rękopisie, nikt go też nie znalazł gdzie indziej. Jedni mówią, że był, inni, że nie, inni, że w jednej mszy Borka raczej mógł być, a w drugiej raczej nie. Może w to nie będę wnikał - utworzona pusta pięciolinia zgodnie z inskrypcją na karcie z nutami, jak prosiła Emilka. 
-!	!	!	!	!	!	!LO:TX:a:t=P:problem= klucz altowy dla głosu S	!	!
+!LO:TX:a:t=5 Vocum. (Borek.):mod=	!	!LO:TX:a:t=5 Vocum.*\npod spodem&colon;\nx Borek.:mod=	!	!LO:TX:a:t=5 Vocum.:mod=	!	!	!	!LO:TX:t=P:problem=w A,T i B jest adnotacja "5 vocum". Głosu piątego nie ma w rękopisie, nikt go też nie znalazł gdzie indziej. Jedni mówią, że był, inni, że nie, inni, że w jednej mszy Borka raczej mógł być, a w drugiej raczej nie. Może w to nie będę wnikał - utworzona pusta pięciolinia zgodnie z inskrypcją na karcie z nutami, jak prosiła Emilka. 
+!	!	!	!LO:MO:mod=Ky-	!	!	!LO:TX:a:t=P:problem= klucz altowy dla głosu S	!	!
 0r	.	1D	KŸ-	1r	.	0r	.	0ryy
+!	!	!	!LO:MO:null:mod=-ri-	!	!LO:MO:mod=Ky-	!	!	!
 .	.	2A/	.	1A	Ÿ-	.	.	.
+!	!	!	!LO:MO:mod=-e	!	!	!	!	!
 .	.	1A	-ri-	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
 1r	.	.	.	2d\	-ri-	0r	.	0ryy
+!	!	!	!LO:MO:null:mod=.	!	!LO:MO:mod=-e	!	!	!
 .	.	2G/	-(ae)	1d	-(ae)	.	.	.
+!	!LO:MO:mod=Ky-	!	!	!	!	!	!	!
 1AA	Kÿ-	1A	.	.	.	.	.	.
 .	.	.	.	2c\	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3
 2D/	-ri-	2D/	e-	1d	.	1r	.	0ryy
 1D	-e	2.A\	-le-	.	.	.	.	.
+!	!	!	!	!	!LO:MO:null:mod=[e-	!	!LO:MO:mod=Ky-	!
 .	.	.	.	2A/	.	1A	KŸ-	.
+!	!	!	!LO:MO:null:mod=.	!	!	!	!	!
 .	.	4B\	-ÿ-	.	.	.	.	.
+!	!	!	!LO:MO:mod=-i-	!	!	!	!	!
 2C/	.	2c\	-son	2e\	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4
+!	!	!	!LO:MO:null:mod=-son	!	!LO:MO:null:mod=-le-	!	!LO:MO:null:mod=-ri-	!
 1D	.	1A	.	1f	.	2d\	.	0ryy
+!	!	!	!	!	!	!	!LO:MO:mod=-e	!
 .	.	.	.	.	.	1d	-ri-	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!LO:MO:null:mod=e-	!	!	!	!	!	!	!
 1AA	.	2r	.	1e	.	.	.	.
-*	*	*	*ij	*	*	*	*ij	*
+*	*	*	*	*	*	*	*	*
+!	!	!	!LO:MO:mod=[Ky-	!	!	!	!LO:MO:null:mod=.	!
 .	.	2A/	KŸ-	.	.	2c\	-e	.
 =5	=5	=5	=5	=5	=5	=5	=5	=5
+!	!LO:MO:null:mod=-le-	!	!	!	!	!	!	!
 2.D\	.	2.A/	-ri-	2d\	.	1d	.	0ryy
 .	.	.	.	1f	.	.	.	.
+!	!	!	!LO:MO:null:mod=.	!	!	!	!	!
 4E\	.	4G/	-e	.	.	.	.	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=[e-	!
 4F\	.	4A/	.	.	.	2A/	.	.
 4G\	.	4B/	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=-e	!	!	!	!	!
 1A	.	2.c\	KŸ-	4e\	.	1e	.	.
 .	.	.	.	4d\	.	.	.	.
 =6	=6	=6	=6	=6	=6	=6	=6	=6
@@ -71,51 +91,69 @@
 *	*	*custos:G	*	*	*	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
 2D/	.	2A/	.	2d\	.	2f\	.	.
-!LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!	!	!
+!LO:LB:g=original	!LO:MO:null:mod=.	!LO:LB:g=original	!LO:MO:null:mod=e-	!	!	!	!LO:MO:null:mod=-le-	!
 2E\	e-	1G	.	2B\	.	1e	.	.
 *	*	*	*	*custos:A	*	*	*	*
+!	!LO:MO:null:mod=.	!	!	!	!	!	!	!
 2C/	-le-	.	.	2c\	.	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!	!
 =7	=7	=7	=7	=7	=7	=7	=7	=7
+!	!	!	!LO:MO:null:mod=.	!	!	!	!	!
 1D	-ÿ-	2F/	-ri-	2A\	.	2d\	.	0ryy
 .	.	2D/	.	1d	.	1f	.	.
+!	!	!	!LO:MO:null:mod=.	!	!	!	!	!
 0AA	-son	2A/	-e	.	.	.	.	.
+!	!	!	!LO:MO:null:mod=-le-	!	!LO:MO:null:mod=-i-	!	!	!
 .	.	2.A/	e-	4c\	.	4e\	.	.
 .	.	.	.	4B\	.	4d\	.	.
 =8	=8	=8	=8	=8	=8	=8	=8	=8
 *	*	*	*	*	*	*custos:d	*	*
+!	!	!	!	!	!LO:MO:null:mod=-son]	!	!	!
 .	.	.	.	1A	.	1c	.	0ryy
 !	!	!	!	!	!	!LO:LB:g=original	!	!
 .	.	4G/	.	.	.	.	.	.
 .	.	4F/	.	.	.	.	.	.
 .	.	4E/	.	.	.	.	.	.
 2r	.	2D/	.	2r	.	2d\	.	.
-*	*ij	*	*	*	*	*	*ij	*
+*	*ij	*	*	*	*	*	*	*
+!	!	!	!LO:MO:mod=-i-	!	!LO:MO:null:mod=e-	!	!	!
 2D\	e-	2d\	-le-	1A	.	2f\	.	.
 =9	=9	=9	=9	=9	=9	=9	=9	=9
+!	!	!	!LO:MO:null:mod=-son	!	!	!	!	!
 2AA/	-le-	2c\	.	.	.	2e\	.	0ryy
+!	!LO:MO:mod=-i-	!	!LO:MO:null:mod=e-	!	!	!	!	!
 2D\	-ÿ-	2A\	.	2F/	.	2f\	.	.
 2GG/	-son	2B\	.	1G	.	2d\	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!LO:MO:null:mod=-i-	!
 2C/	e-	2c\	.	.	.	2e\	.	.
 =10	=10	=10	=10	=10	=10	=10	=10	=10
+!	!LO:MO:null:mod=.	!	!LO:MO:null:mod=-le-	!	!	!	!LO:MO:null:mod=-son]	!
 1D	-leÿ-	2A/	.	2F/	.	2f\	.	0ryy
 .	.	2F/	.	2A\	.	2.d\	e-	.
+!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!	!	!
 2GG/	-son	2G/	.	2B\	e-	.	.	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=.	!
 .	.	.	.	.	.	4e\	-le-	.
+!	!LO:MO:null:mod=-le-	!	!	!	!	!	!LO:MO:mod=-le-	!
 1D	e-	2A/	.	2.d\	-le-	2.f\	-ÿ-	.
 =11	=11	=11	=11	=11	=11	=11	=11	=11
 .	.	2F/	.	.	.	.	.	0ryy
+!	!	!	!	!	!LO:MO:null:mod=.	!	!LO:MO:null:mod=.	!
 .	.	.	.	4c\	-ÿ-	4e\	-son.	.
+!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!	!	!
 2GG/	-le-	2G/	.	2B\	-son	1d	.	.
+!	!LO:MO:mod=-i-	!	!LO:MO:mod=-i-	!	!LO:MO:null:mod=-i-	!	!	!
 1AA	-ÿ-	1E	-ÿ-	1A	.	.	.	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=-i-	!
 .	.	.	.	.	.	2c/	.	.
 =12	=12	=12	=12	=12	=12	=12	=12	=12
 *	*	*custos:A	*	*custos:A	*	*	*	*
+!	!	!	!LO:MO:mod=-son]	!	!LO:MO:null:mod=-son	!	!LO:MO:null:mod=-son	!
 0Dl	-son	0Dl	-son	0Al	.	0dl	.	0ryy
 !LO:LB:g=original	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!
-*	*Xij	*	*Xij	*	*	*	*ij	*
+*	*Xij	*	*	*	*	*	*	*
 =13||	=13||	=13||	=13||	=13||	=13||	=13||	=13||	=13||
+!LO:MO:mod=*null:null	!	!	!	!	!	!	!	!
 *M2/1	*	*	*	*	*	*	*	*
 *met(c|)	*	*	*	*	*	*	*	*
 0r	.	1.A	Chri-	0r	.	1r	.	0ryy
@@ -123,40 +161,55 @@
 .	.	2F/	.	.	.	1d	Chri-	.
 =14	=14	=14	=14	=14	=14	=14	=14	=14
 0r	.	1G	-ſte	0r	.	.	.	0ryy
+!	!	!	!	!	!	!	!LO:MO:null:mod=.	!
 .	.	.	.	.	.	2B/	-ſte	.
 *	*	*	*	*	*	*custos:d	*	*
+!	!	!	!	!	!	!	!LO:MO:null:mod=-ste	!
 .	.	1A	.	.	.	1c	e-	.
 !	!	!	!	!	!	!LO:LB:g=original	!	!
 =15	=15	=15	=15	=15	=15	=15	=15	=15
 2r	.	2.D/	e-	0r	.	1d	.	0ryy
 1D	Chri-	.	.	.	.	.	.	.
+!	!	!	!LO:MO:null:mod=.	!	!	!	!	!
 .	.	4E/	-le-	.	.	.	.	.
+!	!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=[e-	!
 .	.	2F/	-ÿ-	.	.	2A/	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!LO:MO:null:mod=.	!	!	!	!	!
 2BB/	.	2G/	-son	.	.	2d\	.	.
 =16	=16	=16	=16	=16	=16	=16	=16	=16
+!	!	!	!LO:MO:null:mod=-lei-	!	!	!	!	!
 1C	-ſte	1E	.	2r	.	2c\	.	0ryy
+!	!	!	!	!	!LO:MO:mod=Chri-	!	!LO:MO:null:mod=-le-	!
 .	.	.	.	1A	hri-	2.e\	.	.
+!	!	!	!LO:MO:null:mod=-son	!	!	!	!	!
 1D	e-	1F	.	.	.	.	.	.
 .	.	.	.	.	.	4d\	.	.
+!	!	!	!	!	!LO:MO:null:mod=.	!	!	!
 .	.	.	.	2F/	-ſte	1d	.	.
 =17	=17	=17	=17	=17	=17	=17	=17	=17
+!	!LO:MO:mod=-lei-	!	!	!	!LO:MO:mod=-ste	!	!	!
 1BB	-leÿ-	2r	.	1G	e-	.	.	0ryy
+!	!	!	!LO:MO:null:mod=[Chri-	!	!	!	!	!
 .	.	2D/	.	.	.	4c/	.	.
 .	.	.	.	.	.	4B/	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!LO:MO:null:mod=.	!	!LO:MO:null:mod=-i-	!
 1AA	-son	1E	.	1A	-le-	1c	.	.
 =18	=18	=18	=18	=18	=18	=18	=18	=18
+!	!	!	!LO:MO:null:mod=-ste	!	!LO:MO:mod=e-	!	!LO:MO:null:mod=-son	!
 2r	.	2.F/	.	2D/	-i-	2d\	.	0ryy
+!	!LO:MO:null:mod=[Chri-	!	!	!	!LO:MO:mod=-le-	!	!LO:MO:null:mod=e]-	!
 2D\	.	.	.	2d\	-son.	2f\	.	.
 .	.	4G/	.	.	.	.	.	.
 2AA/	.	2A/	.	2c\	.	2e\	.	.
+!	!LO:MO:null:mod=-ste	!	!LO:MO:null:mod=e-	!	!	!	!	!
 1D	.	1F	.	2A/	.	2d\	.	.
 =19	=19	=19	=19	=19	=19	=19	=19	=19
 .	.	.	.	1B	.	2f\	le-	0ryy
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!LO:MO:mod=-i-	!
 2E\	.	2G/	.	.	.	4e\	-ÿ-	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=.	!
 .	.	.	.	.	.	4d\	-son.	.
+!	!LO:MO:null:mod=e-	!	!	!	!	!	!LO:MO:null:mod=-son	!
 2.F\	.	2.A/	.	2A/	.	1c	.	.
 .	.	.	.	2c\	.	.	.	.
 *	*	*custos:F	*	*	*	*	*	*
@@ -166,39 +219,50 @@
 2D/	.	2F/	.	2B\	.	2r	.	0ryy
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
 *	*	*	*	*	*	*	*ij	*
+!	!	!	!LO:MO:null:mod=-le-	!	!	!	!	!
 2C/	.	1E	.	1A	.	2c/	Chri-	.
+!	!LO:MO:null:mod=-lei-	!	!	!	!	!	!	!
 1BB	.	.	.	.	.	2d/	-ſte	.
 *	*	*	*	*	*	*custos:c	*	*
+!	!	!	!LO:MO:null:mod=-i-	!	!LO:MO:null:mod=-i-	!	!	!
 .	.	2D/	.	2G/	.	2B/	e-	.
 !	!	!	!	!	!	!LO:LB:g=original	!	!
 =21	=21	=21	=21	=21	=21	=21	=21	=21
 *custos:E	*	*	*	*	*	*	*	*
 *	*	*	*	*custos:G	*	*	*	*
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!LO:MO:null:mod=-son	!	!LO:MO:null:mod=-son	!	!LO:MO:null:mod=-son	!	!	!
 1AA	.	0E	.	1A	.	2.c/	-le-	0ryy
 !LO:LB:g=original	!	!	!	!LO:LB:g=original	!	!	!	!
 .	.	.	.	.	.	4d\	.	.
 2r	.	.	.	1.G	e-	2.e\	.	.
+!	!LO:MO:null:mod=Chri-	!	!	!	!	!	!	!
 1E	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	8d/	.	.
 .	.	.	.	.	.	8c/	.	.
 =22	=22	=22	=22	=22	=22	=22	=22	=22
 .	.	2r	.	.	.	2B/	.	0ryy
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!LO:MO:null:mod=Chri-	!	!LO:MO:mod=-lei-	!	!LO:MO:mod=-i-	!
 2C/	.	1A	.	2E/	-le-	2c/	-ÿ-	.
+!	!LO:MO:null:mod=-ste	!	!	!	!LO:MO:null:mod=.	!	!	!
 1D	.	.	.	4F/	-i-	1A	-son	.
+!	!	!	!	!	!LO:MO:null:mod=.	!	!	!
 .	.	.	.	4G/	-son	.	.	.
 .	.	2F/	.	4A/	.	.	.	.
 .	.	.	.	4B/	.	.	.	.
 =23	=23	=23	=23	=23	=23	=23	=23	=23
+!	!	!	!LO:MO:null:mod=-ste	!	!	!	!	!
 1E	.	1G	.	2c\	.	2r	.	0ryy
+!	!	!	!	!	!LO:MO:null:mod=-son	!	!	!
 .	.	.	.	2B\	.	1e	Chri-	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!LO:MO:null:mod=e-	!	!	!	!	!	!	!
 1AA	.	1A	.	2r	.	.	.	.
+!	!	!	!	!	!LO:MO:mod=Chri-	!	!	!
 .	.	.	.	1A	Chr(i-	2c/	-ſte	.
 =24	=24	=24	=24	=24	=24	=24	=24	=24
 1D	.	2D/	.	.	.	1d	e-	0ryy
+!	!	!	!LO:MO:null:mod=e-	!	!LO:MO:null:mod=-ste	!	!	!
 .	.	2A\	.	2F/	-ſt)e	.	.	.
+!	!	!	!	!	!LO:MO:mod=e-	!	!LO:MO:mod=-lei-	!
 2C/	.	2c\	.	1G	e-	1e	-leÿ-	.
 2E\	.	2B\	.	.	.	.	.	.
 =25	=25	=25	=25	=25	=25	=25	=25	=25
@@ -208,103 +272,144 @@
 4D/	.	1A	.	1D	-son	2r	.	.
 4E/	.	.	.	.	.	.	.	.
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
-2F\	.	.	.	.	.	2d\	Chri-	.
+2F\	.	.	.	.	.	2d\	Chris-	.
 =26	=26	=26	=26	=26	=26	=26	=26	=26
 2E\	.	2G/	.	2r	.	2e\	.	0ryy
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
 *	*	*	*	*	*ij	*	*	*
-2D/	.	2.A/	.	2A\	Chr(i-	2f\	-ſ	.
+!	!	!	!	!	!LO:MO:null:mod=Chri-	!	!	!
+2D/	.	2.A/	.	2A\	Chr(i-	2f\	.	.
+!	!	!	!	!	!LO:MO:null:mod=.	!	!	!
 2C/	.	.	.	2c\	-ſt)e	2e\	te	.
 .	.	4G/	.	.	.	.	.	.
+!	!	!	!	!	!LO:MO:mod=-ste	!	!	!
 2.D/	.	4F/	.	2A/	Chr(i-	2.f\	e-	.
 .	.	4E/	.	.	.	.	.	.
 =27	=27	=27	=27	=27	=27	=27	=27	=27
+!	!	!	!LO:MO:null:mod=-lei-	!	!LO:MO:mod=e-	!	!	!
 .	.	0D	.	2B/	-ſt)e	.	.	0ryy
 4C/	.	.	.	.	.	4e\	.	.
+!	!	!	!	!	!LO:MO:mod=-le-	!	!	!
 4BB/	.	.	.	1A	e-	4d\	.	.
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!
 4AA/	.	.	.	.	.	4c\	.	.
+!	!LO:MO:null:mod=-lei-	!	!	!	!	!	!LO:MO:mod=-lei-	!
 1BB	.	.	.	.	.	1d	leÿ	.
+!	!	!	!	!	!LO:MO:mod=-i-	!	!	!
 .	.	.	.	2G/	-lei-	.	.	.
 =28	=28	=28	=28	=28	=28	=28	=28	=28
 *custos:AA	*	*	*	*	*	*	*	*
+!	!LO:MO:null:mod=-son]	!	!LO:MO:null:mod=-son]	!	!	!	!	!
 0AAl	.	0El	.	0Al/	-son	0cl	son	0ryy
 *	*	*	*	*	*Xij	*	*Xij	*
 !LO:LB:g=original	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!
 =29||	=29||	=29||	=29||	=29||	=29||	=29||	=29||	=29||
+!	!LO:MO:mod=Ky-	!	!LO:MO:mod=Ky-	!	!LO:MO:mod=Ky-	!	!LO:MO:mod=Ky-	!
 1.AA	ÿ-	1.E	Kÿ-	1.A	Ki-	1.c	Kÿ-	0ryy
+!	!LO:MO:mod=-ri-	!	!	!	!	!	!	!
 2C/	-rie	2E/	-ri-	4G/	-ri-	2c/	-ri-	.
 .	.	.	.	4F/	.	.	.	.
 =30	=30	=30	=30	=30	=30	=30	=30	=30
+!	!LO:MO:mod=-e	!	!LO:MO:mod=-e	!	!LO:MO:mod=-e	!	!	!
 2BB/	e-	2D/	-(ae)	2G/	-(ae).	2d\	-e	0ryy
+!	!LO:MO:mod=e-	!	!	!	!LO:MO:null:mod=[e-	!	!	!
 2AA/	-leÿ-	2.E/	.	1A	.	2c/	.	.
+!	!LO:MO:mod=-lei-	!	!	!	!	!	!	!
 1E	-son.	.	.	.	.	1B	.	.
 .	.	4F/	.	.	.	.	.	.
+!	!	!	!LO:MO:null:mod=.	!	!	!	!	!
 .	.	2G/	e-	2G/	.	.	.	.
 =31	=31	=31	=31	=31	=31	=31	=31	=31
+!	!LO:MO:null:mod=-son	!	!LO:MO:mod=e-	!	!	!	!	!
 1AA	.	2E/	-leÿ	1c	.	2A/	.	0ryy
 .	.	1A	.	.	.	2e\	.	.
 2r	.	.	.	1B	.	2f\	.	.
 *	*ij	*	*	*	*	*	*	*
+!	!LO:MO:mod=Ky-	!	!	!	!	!	!	!
 2E\	ÿ-	2G/	.	.	.	1e	.	.
 =32	=32	=32	=32	=32	=32	=32	=32	=32
 2C/	-ri-	1A	.	2A\	.	.	.	0ryy
 1D	-e	.	.	2.d\	.	2.f\	e-	.
 .	.	2F/	.	.	.	.	.	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=.	!
 .	.	.	.	4c\	.	4e\	-le-	.
-2GG/	e	2G/	.	1B	.	1d	-ÿ-	.
+!	!	!	!	!	!	!	!LO:MO:mod=-le-	!
+2GG/	e-	2G/	.	1B	.	1d	-ÿ-	.
 =33	=33	=33	=33	=33	=33	=33	=33	=33
-1AA	le	1E	.	.	.	.	.	0ryy
+!	!	!	!LO:MO:null:mod=-[lei-	!	!	!	!	!
+1AA	-le-	1E	.	.	.	.	.	0ryy
+!	!	!	!	!	!LO:MO:null:mod=-le-	!	!LO:MO:mod=-i-	!
 .	.	.	.	1A	.	2c\	-son.	.
+!	!LO:MO:mod=-i-	!	!LO:MO:null:mod=-son	!	!	!	!LO:MO:null:mod=-son	!
 1BB-X	ÿ-	2D/	.	.	.	1d	.	.
+!	!	!	!LO:MO:null:mod=e-	!	!LO:MO:null:mod=-i-	!	!	!
 .	.	1d	.	2G/	.	.	.	.
 =34	=34	=34	=34	=34	=34	=34	=34	=34
+!	!	!	!	!	!LO:MO:null:mod=-son]	!	!	!
 1AA	-son	.	.	1A	.	2r	.	0ryy
 *	*	*custos:d	*	*	*	*	*	*
 *	*	*	*	*	*	*	*ij	*
+!	!	!	!	!	!	!	!LO:MO:mod=Ky-	!
 .	.	2c\	.	.	.	2e\	Kÿ	.
-!	!	!LO:LB:g=original	!	!	!	!	!	!
+!	!	!LO:LB:g=original	!LO:MO:null:mod=-lei-	!	!	!	!	!
 2r	.	1d	.	2D/	e-	1.f	ri-	.
 1D	Ky-	.	.	1A	-le-	.	.	.
 =35	=35	=35	=35	=35	=35	=35	=35	=35
+!	!	!	!LO:MO:null:mod=son	!	!	!	!	!
 .	.	1A	.	.	.	.	.	0ryy
 *custos:F	*	*	*	*	*	*	*	*
 2D\	-ri-	.	.	2A/	-i-	4e\	.	.
 *	*	*	*	*	*	*custos:c	*	*
 !LO:LB:g=original	!	!	!	!	!	!	!	!
 .	.	.	.	.	.	4d\	.	.
-!	!	!	!	!	!	!LO:LB:g=original	!	!
+!	!	!	!	!	!LO:MO:mod=-son	!LO:LB:g=original	!	!
 1F	-e	2r	.	1A	-son.	2c\	-e	.
+!	!	!	!LO:MO:null:mod=Ky-	!	!	!	!	!
 .	.	2F/	.	.	.	2d\	e-	.
 =36	=36	=36	=36	=36	=36	=36	=36	=36
+!	!	!	!LO:MO:null:mod=-ri-	!	!	!	!	!
 2E\	e-	2G/	.	2r	.	2e\	.	0ryy
+!	!	!	!LO:MO:null:mod=-e	!	!LO:MO:null:mod=[Ky-	!	!	!
 2D\	.	2A/	.	1d	.	2f\	.	.
+!	!	!	!LO:MO:null:mod=-e-	!	!	!	!LO:MO:mod=-lei-	!
 1.E	-le-	2.G/	.	.	.	1g	-leÿ	.
 *	*	*	*	*custos:d	*	*	*	*
+!	!	!	!	!	!LO:MO:null:mod=-ri-	!	!	!
 .	.	.	.	2c\	.	.	.	.
 .	.	4A/	.	.	.	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!	!
 =37	=37	=37	=37	=37	=37	=37	=37	=37
-.	.	2B\	.	2d\	.	1f	son	0ryy
+!	!	!	!LO:MO:null:mod=-le-	!	!LO:MO:null:mod=-e	!	!	!
+.	.	2B\	.	2d\	.	1f	-son	0ryy
 *	*	*	*	*	*	*	*Xij	*
+!	!	!	!LO:MO:null:mod=-i-	!	!LO:MO:null:mod=e-	!	!	!
 2D/	.	2A/	.	2A/	.	.	.	.
+!	!	!	!LO:MO:null:mod=-son	!	!	!	!	!
 2C/	.	1A	.	2e\	.	2r	.	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=[Ky-	!
 2D/	.	.	.	2f\	.	2d\	.	.
 =38	=38	=38	=38	=38	=38	=38	=38	=38
+!	!LO:MO:mod=-i-	!	!	!	!LO:MO:null:mod=-le-	!	!LO:MO:null:mod=-ri-	!
 2AA/	-ÿ-	2r	.	2e\	.	2c\	.	0ryy
+!	!	!	!LO:MO:null:mod=Ky-	!	!	!	!	!
 2D/	-son	2d\	.	2f\	.	2d\	.	.
 2r	.	2c\	.	2e\	.	2A/	.	.
+!	!LO:MO:mod=Ky-	!	!LO:MO:null:mod=-ri-	!	!LO:MO:null:mod=-i-	!	!	!
 2D/	ÿ-	2.d\	.	2f\	.	2d\	.	.
 =39	=39	=39	=39	=39	=39	=39	=39	=39
+!	!	!	!	!	!LO:MO:null:mod=-son	!	!LO:MO:null:mod=-e	!
 2AA/	-ri-	.	.	2e\	.	2c\	.	0ryy
 .	.	4c\	.	.	.	.	.	.
+!	!	!	!	!	!LO:MO:null:mod=e-	!	!LO:MO:null:mod=e-	!
 2D/	.	4A\	.	2d\	.	2f\	.	.
 .	.	4B\	.	.	.	.	.	.
 2C/	-e	2c\	.	1G	.	2e\	.	.
 2E\	e-	2B\	.	.	.	2g\	.	.
 =40	=40	=40	=40	=40	=40	=40	=40	=40
+!	!	!	!LO:MO:null:mod=-e	!	!	!	!	!
 2F\	.	2A/	.	1c	.	2f\	.	0ryy
 *	*	*custos:F	*	*	*	*custos:d	*	*
+!	!LO:MO:null:mod=.	!	!LO:MO:null:mod=e-	!	!	!	!	!
 2C/	-le-	2G/	.	.	.	2e\	.	.
 !	!	!LO:LB:g=original	!	!	!	!LO:LB:g=original	!	!
 2D/	.	2F/	.	2A/	.	2d\	.	.
@@ -312,20 +417,29 @@
 =41	=41	=41	=41	=41	=41	=41	=41	=41
 .	.	.	.	.	.	.	.	0ryy
 .	.	4F/	.	4B/	.	4d\	.	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=-le-	!
 2D/	.	4E/	.	4A/	.	1d	.	.
 .	.	4D/	.	4G/	.	.	.	.
+!	!LO:MO:mod=-lei-	!	!LO:MO:null:mod=-lei-	!	!LO:MO:null:mod=-lei-	!	!	!
 1AA	-ÿ-	1E	.	1A	.	.	.	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=-i-	!
 .	.	.	.	.	.	2c/	.	.
 =42	=42	=42	=42	=42	=42	=42	=42	=42
+!	!	!	!LO:MO:null:mod=-son]	!	!LO:MO:null:mod=-son]	!	!LO:MO:null:mod=-son]	!
 0Dl	-son	0Dl	.	0Al	.	0dl	.	0ryy
 *	*Xij	*	*	*	*	*	*	*
 ==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: s1[(s2,s3,s4,s5)]
+!!!system-decoration: s1[(*)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!LO:MO:ori
 !!!RDF**kern: l = terminal long
+!!LO:MO:end
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r | tie -s  | humtr -p | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-02-14
 !!!ENC: Natalia Wrzos
 !!!END: 2022-02-23
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-07-15

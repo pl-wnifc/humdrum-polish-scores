@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wn--mus-iii-63-545--001_wieniawski-henryk--gigue.krn
 !!!cenid: 18xx:3810
 !!!COM: Wieniawski, Henryk
-!!!COM-rismid: pe137176
+!!!COM-rismID:
 !!!CDT:
 !!!CNT:
 !!!OTL: Gigue
@@ -12,13 +12,16 @@
 !!!SMS-shelfwork: 001 W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid:
-!!!URL-scan: https://polona.pl/item/gigue-op-23-et-fantaisie-orientale,NjkyOTMwMjM/0/#info:metadata
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://polona.pl/item/gigue-op-23-et-fantaisie-orientale,NjkyOTMwMjM/0/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc:
 !!!AIN: 1 violn
 !!!key: e
 **kern	**fing	**dynam
 *I"Violon.	*	*
+*mI"Violino	*	*
 *Ivioln	*	*
 *ICstr	*	*
 *IGsolo	*	*
@@ -27,8 +30,9 @@
 *e:	*	*
 *M4/4	*	*
 *met(c)	*	*
-!LO:TX:a:B:t=Allegro giusto ma moderato.	!	!
+*mmet(c)	*	*
 !LO:TX:i:t=risoluto	!	!
+!LO:TX:a:B:t=Allegro giusto ma moderato.	!	!
 4bv\	.	f <
 =1	=1	=1
 4ee/ 4b/ 4e/ 4G/	0	.
@@ -63,7 +67,8 @@
 8ff#/J	.	.
 4gg\	.	.
 =6	=6	=6
-!LO:TX:a:t=Henri Wieniawski, Op.23.	!	!
+!LO:TX:a:t=Henri Wieniawski, Op.23.:mod=	!	!
+!LO:MO:mod=!LO&colon;TX&colon;t=sul G	!	!
 !LO:TX:b:t=4a	!	!
 8f#/L	2	.
 8g/J	.	.
@@ -74,6 +79,7 @@
 !!LO:LB:g=original
 =7	=7	=7
 (4A/	.	.
+!	!	!LO:MO:null:mod=[
 4ccc\ 4a\ 4e\)	1 0 4	.
 (8bb\L (8cc\	.	.
 8aa\)	.	.
@@ -122,6 +128,7 @@
 =14	=14	=14
 8dn/L	2	.
 8e/J	.	.
+!	!	!LO:MO:null:mod=[
 4f#/	.	.
 8gg\L 8b\ 8d\ 8G\	2	ff
 8aa\J	1	.
@@ -157,6 +164,7 @@
 (8dd#X'/	((8r	1	.
 8r	8cc\L)	.	.
 8ff#'/)	(8b\	.	.
+!	!	!	!LO:MO:null:mod=[
 8r	8a\J))	0	.
 *v	*v	*	*
 =18	=18	=18
@@ -273,7 +281,7 @@
 8e/J)	.	.
 8g#/	.	]
 8r	.	.
-!LO:TX:a:B:t=A	!	!
+!!LO:TX:a:B:t=A
 8ee'u\L	2	pp
 8ff#'\J	.	.
 =31	=31	=31
@@ -359,6 +367,7 @@
 16g#/JJ	.	.
 8a^/L)	.	.
 8f#'/J)	.	.
+!	!	!LO:MO:null:mod=[
 8b'/L	.	.
 8g#'/	.	.
 8cc#'/	.	.
@@ -391,7 +400,7 @@
 8b'\J	.	.
 8dd#'\	.	f
 8r	.	.
-!LO:TX:a:B:t=B	!	!
+!!LO:TX:a:B:t=B
 8e'u/L	.	p
 8f#'/J	.	.
 =43	=43	=43
@@ -493,6 +502,7 @@
 8ee#X'\	1	.
 !LO:TX:t=P:problem:brak kasownika nad mordentem	!	!
 8ddn'^M\	.	.
+!	!	!LO:MO:null:mod=[
 8cc#'\J	.	.
 =53	=53	=53
 8gg#~\L	.	f
@@ -515,10 +525,11 @@
 (16cc#\L	.	.
 16dd#X\JJ	.	.
 8ee^\L)	.	.
+!	!	!LO:MO:null:mod=[
 8a#X'\J	.	.
 !!LO:LB:g=original
 =55	=55	=55
-!LO:TX:a:B:t=C	!	!
+!!LO:TX:a:B:t=C
 8b~\L	.	ff
 (16cc#\L	.	.
 16dd#\JJ	.	.
@@ -616,6 +627,7 @@
 4gg\	.	.
 !!LO:LB:g=original
 =66	=66	=66
+!LO:MO:mod=!LO&colon;TX&colon;t=sul G	!	!
 !LO:TX:b:t=4a	!	!
 8f#/L	2	.
 8g/J	.	.
@@ -628,6 +640,7 @@
 4ccc\ 4a\ 4e\)	1 0 4	.
 (8bb\L (8cc\	.	.
 8aa\)	.	.
+!	!	!LO:MO:null:mod=[
 (8gg\ 8a\	.	.
 8ff#\J))	.	.
 =68	=68	=68
@@ -665,8 +678,9 @@
 4c^>/	.	]]
 !!LO:LB:g=original
 =73	=73	=73
-!LO:TX:a:B:t=D	!	!
+!!LO:TX:a:B:t=D
 (4c'/	1	p
+!LO:MO:mod=!LO&colon;TX&colon;t=sul G	!	!
 !LO:TX:b:t=4a	!	!
 4e'/)	1	.
 8fn/L	.	.
@@ -676,6 +690,7 @@
 8B/L	2	.
 8c#X/J	1	.
 4d#X/	.	.
+!LO:MO:mod=!LO&colon;TX&colon;t=sul G	!	!
 !LO:TX:b:t=4a	!	!
 (4e'/	2	.
 4g'/)	.	.
@@ -696,6 +711,7 @@
 4ccc\	.	.
 8B/L	2	.
 8c#X/J	.	.
+!	!	!LO:MO:null:mod=[
 4d#X/	.	.
 =78	=78	=78
 4ee/ 4g/ 4e/	.	mf
@@ -807,7 +823,7 @@
 8e/J)	.	.
 8g#/	.	]
 8r	.	.
-!LO:TX:a:B:t=E	!	!
+!!LO:TX:a:B:t=E
 8e'u/L	.	p
 8f#'/J	.	.
 !!LO:LB:g=original
@@ -817,6 +833,7 @@
 16g#/JJ	.	.
 8a^>/L)	.	.
 8f#'/J)	.	.
+!	!	!LO:MO:null:mod=[
 8b'/L	.	.
 8g#'/	.	.
 8cc#'/	.	.
@@ -856,6 +873,7 @@
 16g#/JJ	.	.
 8a^>/L)	.	.
 8f#'/J)	.	.
+!	!	!LO:MO:null:mod=[
 8b'/L	.	.
 8g#'/	.	.
 8cc#'/	.	.
@@ -888,7 +906,7 @@
 8b'\J	.	.
 8dd#'\	.	f
 8r	.	.
-!LO:TX:a:B:t=F	!	!
+!!LO:TX:a:B:t=F
 8ee'u\L	2	p
 8ff#'\J	.	.
 =99	=99	=99
@@ -976,5 +994,8 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**dynam: < = cresc.
+!!!filter-modern: autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m |
 !!!EED: Andrzej Borzym
 !!!EEV: 2022-05-22
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-20

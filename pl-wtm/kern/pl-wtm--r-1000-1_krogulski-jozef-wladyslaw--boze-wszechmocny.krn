@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wtm--r-1000-1_krogulski-jozef-wladyslaw--boze-wszechmocny.krn
 !!!cenid: 18xx:2104
 !!!COM: Krogulski, Józef Władysław
-!!!COM-rismid: pe30001797
+!!!COM-rismID:
 !!!CDT: 1815/10/04-1842/01/09
 !!!CNT: Polish
 !!!OTL: Boże Wszechmocny
@@ -12,27 +12,34 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001083798
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r1000
+!!!NIFC-rismSourceID: 1001083798
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan:
 !!!ONB-nifc: UWAGA: folder pl-wtm-r1000-1
-!!!AIN: 2 empty 1 organ 1 soprn 1 tenor
-!!!key:
+!!!AIN: 1 alto 1 bass 1 organ 1 soprn 1 tenor
+!!!key: c
 **kern	**kern	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam
 *group2	*group2	*group1	*	*	*group1	*	*	*group1	*	*	*group1	*	*
 *part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
 *staff6	*staff5	*staff4	*staff4	*	*staff3	*staff3	*	*staff2	*staff2	*	*staff1	*staff1	*
-*	*	*I""	*	*	*	*	*	*	*	*	*	*	*
-*Iorgan	*Iempty	*Iempty	*	*	*Itenor	*	*	*Iempty	*	*	*Isoprn	*	*
-*I"Organ	*	*I"Bas.	*	*	*I"Tenor.	*	*	*I"Kontr-Alt.	*	*	*I"Sopran	*	*
+*Iorgan	*Iorgan	*Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Isoprn	*	*
+*I"Organ	*I"Organ	*I"Bas.	*	*	*I"Tenor.	*	*	*I"Kontr-Alt.	*	*	*I"Sopran	*	*
+*I'	*I'	*I'	*	*	*I'	*	*	*I'	*	*	*I'	*	*
+*ICklav	*ICklav	*ICvox	*	*	*ICvox	*	*	*ICvox	*	*	*ICvox	*	*
+*mI"Organo	*mI"Organo	*mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*
+*mI'org	*mI'org	*mI'B	*	*	*mI'T	*	*	*mI'A	*	*	*mI'S	*	*
 *clefF4	*clefG2	*clefF4	*	*	*clefG2	*	*	*clefG2	*	*	*clefG2	*	*
+*	*	*	*	*	*mclefGv2	*	*	*	*	*	*	*	*
 *k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]	*	*	*k[b-e-a-]	*	*	*k[b-e-a-]	*	*	*k[b-e-a-]	*	*
 *c:	*c:	*c:	*	*	*c:	*	*	*c:	*	*	*c:	*	*
-*	*	*	*	*	*ITrd7c12	*	*	*	*	*	*	*	*
+!	!	!	!	!	!LO:MO:mod=*null:null	!	!	!	!	!	!	!	!
+*	*	*	*	*	*ITrd8c12	*	*	*	*	*	*	*	*
 *M4/4	*M4/4	*M4/4	*	*	*M4/4	*	*	*M4/4	*	*	*M4/4	*	*
 *met(c)	*met(c)	*met(c)	*	*	*met(c)	*	*	*met(c)	*	*	*met(c)	*	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 !	!	!LO:TX:t=P:problem=partia zazwyczaj ukryta, gdy ma tacet	!	!	!LO:TX:t=P:problem=partia zazwyczaj ukryta, gdy ma tacet	!	!	!LO:TX:t=P:problem=partia zazwyczaj ukryta, gdy ma tacet	!	!	!LO:TX:t=P:problem=partia zazwyczaj ukryta, gdy ma tacet	!	!
-!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=Allo moderato.	!	!
+!	!	!	!	!	!	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;t=Solo	!	!	!LO:TX:t=Allo moderato.:mod=	!	!
 !	!	!	!	!	!	!	!	!	!	!LO:DY:b	!	!	!
 2C\	8r<	1r	.	.	1r	.	.	2c/	Bo-	p	1r	.	.
 .	(8E-</L	.	.	.	.	.	.	.	.	.	.	.	.
@@ -80,7 +87,7 @@
 .	8E-</J)	.	.	.	.	.	.	.	.	.	.	.	.
 !!LO:LB:g=original
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
-!	!	!	!	!	!	!	!	!LO:TX:a:t=Kontr. Alt Solo.	!	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=Kontr. Alt Solo.:mod=	!	!	!	!	!
 1BB-	8r<	1ryy	.	.	1ryy	.	.	2.e-/	-tu-	.	1ryy	.	.
 .	(8E-</L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8G</	.	.	.	.	.	.	.	.	.	.	.	.
@@ -93,6 +100,7 @@
 1AA-	8r<	1ryy	.	.	1ryy	.	.	4.c/	rzą-	.	1ryy	.	.
 .	(8E-</L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8F#<X/	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=-dzisz	!	!	!	!
 .	8c</J	.	.	.	.	.	.	8d/	-disz	.	.	.	.
 .	8e-</L	.	.	.	.	.	.	8f/L	przy-	.	.	.	.
 .	8c</	.	.	.	.	.	.	8e-/J	.	.	.	.	.
@@ -109,6 +117,7 @@
 8EE-\	4r<	.	.	.	.	.	.	4G/	do	p	.	.	.
 8DD\J	.	.	.	.	.	.	.	.	.	.	.	.	.
 =9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=Cie-	!	!	!	!
 2CC\	8r<	1ryy	.	.	1ryy	.	.	(2c/	cie-	.	1ryy	.	.
 .	(8E-</L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8G</	.	.	.	.	.	.	.	.	.	.	.	.
@@ -128,7 +137,7 @@
 .	8E-</J)	.	.	.	.	.	.	.	.	.	.	.	.
 !!LO:LB:g=original
 =11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11
-!	!	!	!	!	!	!	!	!LO:TX:a:t=Kontr- Alt solo	!	!LO:DY:a	!	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=Kontr- Alt solo:mod=	!	!LO:DY:a	!	!	!
 1C	8r<	1ryy	.	.	1ryy	.	.	4.a-/	Kor-	<	1ryy	.	.
 .	(8F</L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8A-</	.	.	.	.	.	.	.	.	.	.	.	.
@@ -172,14 +181,14 @@
 .	8e-/	.	.	.	.	.	.	.	.	.	.	.	.
 .	8g/J)	.	.	.	.	.	.	16c/LL	.	.	.	.	.
 .	.	.	.	.	.	.	.	16B-/JJ)	.	.	.	.	.
-!LO:TX:b:t=VS.	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=VS.:mod=	!	!	!	!	!	!	!	!	!	!	!	!	!
 2BB-/	8r	.	.	.	.	.	.	8An/L	-je	.	.	.	.
 .	(8A-/L	.	.	.	.	.	.	8B-/J	.	.	.	.	.
 .	8d/	.	.	.	.	.	.	8g/L	stwo-	.	.	.	.
 .	8f/J)	.	.	.	.	.	.	8f/J	.	.	.	.	.
 !!LO:PB:g=original
 =16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
-!	!	!	!	!	!	!	!	!LO:TX:a:t=Kontr. Alto Solo	!	!	!LO:TX:a:t=Soprano Solo.	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=Kontr. Alto Solo:mod=	!	!	!LO:TX:a:t=Soprano Solo.:mod=	!	!
 1E-	8r	1ryy	.	.	1ryy	.	.	4f/	-rze-	.	1ryy	.	.
 .	(8G/L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8B-/	.	.	.	.	.	.	4e-/	-nia	.	.	.	.
@@ -192,6 +201,8 @@
 !	!	!	!	!	!	!	!	!	!	!LO:DY:a	!	!	!
 1EE- 1E-	8r	1ryy	.	.	1ryy	.	.	2a-/	wszak-	>	4r	.	p
 .	(8B-/L	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;t=Solo	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=dolce	!	!LO:DY:a
 .	8f/	.	.	.	.	.	.	.	.	.	4b-\	wszak-	<
 .	8a-/J	.	.	.	.	.	.	.	.	.	.	.	.
@@ -240,7 +251,7 @@
 .	8f/J)	.	.	.	.	.	.	.	.	.	.	.	.
 !!LO:LB:g=original
 =22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22
-!	!	!	!	!	!	!	!	!LO:TX:a:t=Kontr - Alt Solo	!	!	!LO:TX:a:t=Sopran Solo	!	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=Kontr - Alt Solo:mod=	!	!	!LO:TX:a:t=Sopran Solo:mod=	!	!
 1EE- 1E-	8r	1ryy	.	.	1ryy	.	.	2e-/	-to-	.	(4ee-\	-to-	f
 .	(8B-/L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8e-/	.	.	.	.	.	.	.	.	.	8gg\L	.	.
@@ -297,7 +308,7 @@
 .	8bn/J)	.	.	.	.	.	.	8d/J	.	.	8bn\J	.	.
 !!LO:LB:g=original
 =28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28
-!	!	!	!	!	!LO:TX:a:t=Tenor.	!	!	!LO:TX:t=Kontr. Alt solo	!	!	!LO:TX:a:t=Sopran Solo	!	!
+!	!	!	!	!	!LO:TX:a:t=Tenor.:mod=	!	!	!LO:TX:t=Kontr. Alt solo:mod=	!	!	!LO:TX:a:t=Sopran Solo:mod=	!	!
 1C	8r	1ryy	.	.	1r	.	.	2e-/	-cze-	.	2cc\	-cze-	.
 .	(8c/L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8e-/	.	.	.	.	.	.	.	.	.	.	.	.
@@ -334,9 +345,11 @@
 .	8ccn\J	.	.	.	.	.	.	.	.	.	.	.	.
 .	8d\L	.	.	.	.	.	.	4d/	-je	.	4bn\	-je	.
 .	8bn\	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=wes-	!	!	!	!
 .	8e-\	.	.	.	.	.	.	4e-/	west-	.	4cc\	wes-	.
 .	8cc\J)	.	.	.	.	.	.	.	.	.	.	.	.
 =32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=-tchnie-	!	!	!	!
 2G\	8r	1ryy	.	.	1r	.	.	2g/	-chnie-	.	2ee-\	-tchnie-	.
 .	(8e-\L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8g\	.	.	.	.	.	.	.	.	.	.	.	.
@@ -360,10 +373,12 @@
 .	8f/J)	.	.	.	.	.	.	.	.	.	.	.	.
 !!LO:PB:g=original
 =35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35
-!	!	!	!	!	!LO:TX:a:t=Tenor Solo	!	!	!LO:TX:a:t=Kontr-Alt solo	!	!	!LO:TX:a:t=Sopran Solo.	!	!
+!	!	!	!	!	!LO:TX:a:t=Tenor Solo:mod=	!	!	!LO:TX:a:t=Kontr-Alt solo:mod=	!	!	!LO:TX:a:t=Sopran Solo.:mod=	!	!
 !	!	!	!	!	!	!	!	!	!	!LO:DY:b	!	!	!
+!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=.	!	!	!
 1E-	8r	1ryy	.	.	(4.E-/	słoń-	.	4r	.	p	(4.g/	słoń-	.
 .	(8G/L	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=p	!	!	!
 .	8B-/	.	.	.	.	.	.	4B-/	Jak	.	.	.	.
 .	8e-/J	.	.	.	8F/)	.	.	.	.	.	8a-/)	.	.
 .	8g/L	.	.	.	8G/	-ce	.	4e-/	tyl-	.	8b-/	-ce	.
@@ -381,6 +396,7 @@
 .	8e-/	.	.	.	4An\	na	.	8f/	-nie	.	4cc\	na	.
 .	8cc/J)	.	.	.	.	.	.	8f#X/	na	.	.	.	.
 =37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=nie-	!
 1EE-] 1E-]	(8g\L	1ryy	.	.	(4.B-/	nie-	.	2g/	nie-	.	(8b-\L	Nie-	.
 .	8b-\	.	.	.	.	.	.	.	.	.	8ee-\	.	.
 .	8ee-\	.	.	.	.	.	.	.	.	.	8gg\	.	.
@@ -403,6 +419,9 @@
 =39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39
 2.D\	8r	1ryy	.	.	2G/	-kor-	.	4r	.	.	2b-/	-kor-	.
 .	(8B-/L	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=f	!	!	!
 .	8g/	.	.	.	.	.	.	4B-/	proś-	.	.	.	.
 .	8B-/J	.	.	.	.	.	.	.	.	.	.	.	.
 .	8b-/L	.	.	.	4G/	-ne	.	4c/	-by	.	4b-/	-ne	.
@@ -420,7 +439,7 @@
 .	8B-/J)	.	.	.	8E-/J	.	.	.	.	.	8g/J	.	.
 !!LO:LB:g=original
 =41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41
-!	!	!	!	!	!LO:TX:a:t=Tenor solo	!	!	!LO:TX:a:t=Kontr.Alt solo	!	!	!LO:TX:a:t=Sopran solo	!	!
+!	!	!	!	!	!LO:TX:a:t=Tenor solo:mod=	!	!	!LO:TX:a:t=Kontr.Alt solo:mod=	!	!	!LO:TX:a:t=Sopran solo:mod=	!	!
 1BB-	8r	1ryy	.	.	2B-\	Cie-	.	(4.d/	Cie-	.	(4.f/	Cie-	.
 .	(8B-/L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8d/	.	.	.	.	.	.	.	.	.	.	.	.
@@ -475,7 +494,7 @@
 .	(8d/L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8f/	.	.	.	8c\L	.	.	8e-/L	.	.	.	.	.
 .	8b-/J)	.	.	.	8d\J)	.	.	8f/J)	.	.	.	.	.
-!LO:TX:b:t=VS.	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=VS.:mod=	!	!	!	!	!	!	!	!	!	!	!	!	!
 2E-\	8r	.	.	.	2e-\	-bra	.	2g/	-bra	.	.	.	.
 .	(8e-/L	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:a
@@ -483,7 +502,7 @@
 .	8b-/J)	.	.	.	.	.	.	.	.	.	8cc\J	.	]]
 !!LO:PB:g=original
 =47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47
-!	!	!LO:TX:a:t=Bas solo	!	!	!	!	!	!LO:TX:a:t=Kontr-Alt solo	!	!	!LO:TX:a:t=Sopran solo.	!	!LO:DY:a
+!	!	!LO:TX:a:t=Bas solo:mod=	!	!	!	!	!	!LO:TX:a:t=Kontr-Alt solo:mod=	!	!	!LO:TX:a:t=Sopran solo.:mod=	!	!LO:DY:a
 2BB-/	8r	1r	.	.	(4d\	bli-	.	(4f/	bli-	.	2.b-\	bli-	<
 .	(8d/L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8f/	.	.	.	8c\L	.	.	8e-/L	.	.	.	.	.
@@ -508,8 +527,10 @@
 .	8f/	.	.	.	.	.	.	.	.	.	.	.	.
 .	8a-/J	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!LO:DY:b	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!
 .	8g/L	4r	.	f	4G/	-ły	.	4e-/	-ły	.	4g/	-ły	.
 .	8e-/	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!LO:MO:null:mod=f	!	!	!	!	!	!	!	!	!
 4AA-/	8c/	8AA-/	i	.	4r	.	.	4r	.	.	4r	.	.
 .	8e-/J)	8AA-/	dla	.	.	.	.	.	.	.	.	.	.
 =50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50	=50
@@ -542,7 +563,7 @@
 .	8e-\J)	8E-/	dla	.	.	.	.	.	.	.	.	.	.
 !!LO:LB:g=original
 =53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53	=53
-!	!	!LO:TX:a:t=Bas solo	!	!	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=Bas solo:mod=	!	!	!	!	!	!	!	!	!	!	!
 2GG/	8r	2GG/	Two-	.	1ryy	.	.	1ryy	.	.	1ryy	.	.
 .	(8E-\L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8B-\	.	.	.	.	.	.	.	.	.	.	.	.
@@ -591,7 +612,7 @@
 .	8E-\J)	.	.	.	.	.	.	.	.	.	.	.	.
 !!LO:LB:g=original
 =58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58
-!	!	!LO:TX:a:t=Bas solo	!	!	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=Bas solo:mod=	!	!LO:MO:mod=!null:null	!	!	!	!	!	!	!	!	!
 !	!	!	!	!LO:HP:b	!	!	!	!	!	!	!	!	!
 1CC	8r	(2A-\	-da-	>	1ryy	.	.	1ryy	.	.	1ryy	.	.
 .	(8A-\L	.	.	.	.	.	.	.	.	.	.	.	.
@@ -644,7 +665,7 @@
 .	8E-\J)	8C/J	.	.	.	.	.	.	.	.	.	.	.
 !!LO:PB:g=original
 =63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63
-!	!	!LO:TX:t=Bas solo	!	!	!LO:TX:a:t=Tenor solo	!	!	!LO:TX:a:t=Kontr-Alt solo.	!	!	!LO:TX:a:t=Sopran solo.	!	!
+!	!	!LO:TX:t=Bas solo:mod=	!	!	!LO:TX:a:t=Tenor solo:mod=	!	!	!LO:TX:a:t=Kontr-Alt solo.:mod=	!	!	!LO:TX:a:t=Sopran solo.:mod=	!	!
 1GG	8r	2G\	-mnie-	.	1r	.	.	1r	.	.	1r	.	.
 .	(8E-\L	.	.	.	.	.	.	.	.	.	.	.	.
 .	8G\	.	.	.	.	.	.	.	.	.	.	.	.
@@ -654,9 +675,11 @@
 .	8F#X\	4r	.	.	.	.	.	.	.	.	.	.	.
 .	8Fn\J)	.	.	.	.	.	.	.	.	.	.	.	.
 =64||	=64||	=64||	=64||	=64||	=64||	=64||	=64||	=64||	=64||	=64||	=64||	=64||	=64||
+!LO:MO:mod=*null:null	!	!	!	!	!	!	!	!	!	!	!	!	!
 *clefF4	*	*	*	*	*	*	*	*	*	*	*	*	*
 *kcancel	*	*	*	*	*	*	*	*	*	*	*	*	*
 *k[]	*k[]	*k[]	*	*	*k[]	*	*	*k[]	*	*	*k[]	*	*
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;t=dolce	!	!	!	!	!	!	!	!	!	!	!
 !	!	!	!	!LO:DY:b	!	!	!	!LO:TX:a:t=dolce	!	!LO:DY:b	!LO:TX:a:t=dolce	!	!LO:DY:b
 !LO:TX:t=P:problem=powtórzenie kluczy zapisane przed znakami	!LO:TX:t=P:problem=powtórzenie kluczy zapisane przed znakami	!LO:TX:t=P:problem=powtórzenie kluczy zapisane przed znakami	!	!	!	!	!	!LO:TX:t=P:problem=powtórzenie kluczy zapisane przed znakami	!	!	!LO:TX:t=P:problem=powtórzenie kluczy zapisane przed znakami	!	!
 2C/	(8E\L	2C/	i	p	1r	.	.	2e/	I	p	2cc\	I	p
@@ -669,8 +692,11 @@
 .	8d\J)	.	.	.	.	.	.	.	.	.	.	.	.
 =65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65
 !	!	!	!	!	!	!	!LO:DY:b	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:MO:null:mod=.	!	!	!	!	!	!
 1C	(8E\L	2C/	-byś-	.	4r	.	p	(4.e/	-by-	.	(4.cc\	-by-	.
 .	8G\	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;t=dolce	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:MO:null:mod=p	!	!	!	!	!	!
 .	8c\	.	.	.	4G\	i	.	.	.	.	.	.	.
 .	8G\J	.	.	.	.	.	.	8f/)	.	.	8dd\)	.	.
 .	8e\L	8C/	-my	.	4c\	daj	.	8g/	-śmy	.	8ee\	-śmy	.
@@ -710,18 +736,20 @@
 .	8c/	4AA/	a-	.	.	.	.	4a/	a-	.	4cc\	a-	.
 .	8A/J)	.	.	.	.	.	.	.	.	.	.	.	.
 =69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69	=69
-!	!	!	!	!	!	!	!	!	!	!LO:DY:a	!	!	!LO:DY:a
+!	!	!	!	!LO:MO:null:mod=>	!	!	!	!	!	!LO:DY:a	!	!	!LO:DY:a
 2BB/	8r	2BB/	-by-	.	4r	.	.	2.g/	-by-	>	2.ee\	-by-	>
 .	(8G/L	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=>	!	!	!	!	!	!
 .	8e/	.	.	.	4G/	i	.	.	.	.	.	.	.
 .	8g/J	.	.	.	.	.	.	.	.	.	.	.	.
 2GG/	8e/L	2GG/	-śmy	.	4A/	daj	.	.	.	.	.	.	.
 .	8g/	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!LO:MO:null:mod=]]	!	!	!LO:MO:null:mod=]]	!	!	!	!	!	!
 .	8d/	.	.	.	4B/	a-	.	4f/	-śmy	]]	4dd\	-śmy	]]
 .	8f/J)	.	.	.	.	.	.	.	.	.	.	.	.
 !!LO:LB:g=original
 =70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70	=70
-!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=Sopran solo	!	!
+!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=Sopran solo:mod=	!	!
 [2C\	(8c/L	4C/	po	.	2c\	-by-	.	4.e/	po	.	4.cc\	po	.
 .	8e/	.	.	.	.	.	.	.	.	.	.	.	.
 .	8g/	4C/	szczę-	.	.	.	.	.	.	.	.	.	.
@@ -739,13 +767,15 @@
 2GG/	8d/L	4GG/	-nie	.	4B\	-nie	.	4d/	-nie	.	8g/	-nie	.
 .	8g/	.	.	.	.	.	.	.	.	.	8r	.	.
 !	!	!LO:TX:t=P:problem=niepewna interpretacja łuku	!	!LO:DY:a	!	!	!	!	!	!	!	!	!LO:DY:a
+!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=p
 .	8B/	(4GG/	Dzie-	p	4r	.	.	4r	.	.	4g/	i	f
 .	8d/J)	.	.	.	.	.	.	.	.	.	.	.	.
 =72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72
 !	!	!	!	!	!	!	!	!	!	!LO:DY:b	!	!	!
-!	!	!	!	!	!	!	!LO:DY:b	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:DY:b	!	!	!LO:MO:null:mod=.	!	!	!
 2CC/ 2C	8r	2E\)	.	.	2c\	i	p	4r	.	p	[1gg	daj	.
 .	(8G/L	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=p	!	!	!
 .	8c/	.	.	.	.	.	.	8c/L	dzie-	.	.	.	.
 .	8e/J)	.	.	.	.	.	.	8e/J	.	.	.	.	.
 2GG/	8r	4F\	-ci	.	4d\	daj	.	4g/	-ci	.	.	.	.
@@ -789,12 +819,12 @@
 .	8e/J	8B-X\	przy	.	.	.	.	.	.	.	.	.	.
 .	8d/L	4A\	Oj-	.	4f\)	.	.	4f/	-ci	.	4dd\	-ci	.
 .	8f/	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:b:t=VS.	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=VS.:mod=	!	!	!	!	!	!	!	!	!	!	!	!	!
 4GG/	8e/	4G\	-ca	.	4e\	przy	.	4g/	przy	.	4ee\	przy	.
 .	8g/J)	.	.	.	.	.	.	.	.	.	.	.	.
 !!LO:PB:g=original
 =77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77	=77
-!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=Sopran solo	!	!
+!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=Sopran solo:mod=	!	!
 1FF 1F	(8f/L	2.F\	po-	.	(8c#X\L	Oj-	.	(8b-X\L	Oj-	.	(8gg\L	Oj-	.
 .	8a/	.	.	.	8d\	.	.	8a\	.	.	8ff\	.	.
 .	8g/	.	.	.	8g\	.	.	8b-\	.	.	8ee\	.	.
@@ -857,7 +887,7 @@
 .	8g\J)	.	.	.	.	.	.	8g/J	.	.	8ee\J	.	.
 !!LO:LB:g=original
 =84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84
-!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=Sopran solo.	!	!
+!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=Sopran solo.:mod=	!	!
 4r	1e	4r	.	.	4r	.	.	1cc	.	.	1gg	.	.
 (8CC/L	.	8E\L	A-	.	8C/L	A-	.	.	.	.	.	.	.
 8EE/J	.	8C\J	.	.	8E/J	.	.	.	.	.	.	.	.
@@ -877,22 +907,26 @@
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:b
 !	!	!	!	!	!	!	!	!	!	!	!LO:DY:b	!	!	!
 !	!	!	!	!	!	!	!	!LO:DY:b	!	!	!	!	!	!
-!	!	!	!	!	!LO:DY:b	!	!	!	!	!	!	!	!	!
+!	!	!LO:SIC:s=(4e	!	!	!LO:DY:b	!	!	!	!	!	!	!	!	!
 (4C\ 4G	[1cc	4e\	(4C\	A-	p	(4G/	A-	p	(4e/	A-	p	1cc	A-	p
 4F\ 4A	.	4f\	4F\	.	.	4A/	.	.	4f/	.	.	.	.	.
 4C\ 4G	.	4e\	4C\	.	.	4G/	.	.	4e/	.	.	.	.	.
+!	!	!LO:SIC:s=4f)	!	!	!	!	!	!	!	!	!	!	!	!
 4F\) 4A	.	4f\	4F\)	.	.	4A/)	.	.	4f/)	.	.	.	.	.
 *	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*
 =88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88
 2C\ 2G	2e\ 2cc]	2C/	-men	.	2G/	-men	.	2e/	-men	.	2cc\	-men	.
 2r	2r	2r	.	.	2r	.	.	2r	.	.	2r	.	.
-!!LO:TX:b:t=Fine
+!!LO:TX:b:t=Fine:mod=
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: ((g1),<g2>)
-!!!ENC: Kamil Watkowski
-!!!END: 2021-06-14
+!!!system-decoration: [(g1)]{(g2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/r[a-gA-G]+/r/D"| shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | | shed -e "s/^(X?)rep$/$1REP/I" | | shed -e "s/yy//" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | modori -m | humtr -p
+!!!ENC: Kamil Watkowski
+!!!END: 2021-06-14
 !!!ENC: Marcin Jachim
 !!!END: 2021-06-10
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-07-08

@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wtm--r-1140-1--003_dobrzynski-ignacy-feliks--quartetto-op-7-adagio.krn
 !!!cenid: 18xx:1810
 !!!COM: Dobrzyński, Ignacy Feliks
-!!!COM-rismid: pe30020642
+!!!COM-rismID:
 !!!CDT: 1807/02/15-1867/10/09
 !!!CNT: Polish
 !!!OPR: Quartetto op. 7
@@ -14,8 +14,11 @@
 !!!SMS-shelfwork: 001-003 M
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001056519
-!!!system-decoration: [(s1,s2,s3,s4)]
+!!!NIFC-rismSourceID: 1001056519
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan:
+!!!ONB-nifc: UWAGA: części Kwartetu: 1. Allegro espressivo, 2. Scherzo, 3. Adagio, 4. Finale
 !!!AIN: 1 cello 1 viola 2 violn
 !!!key:
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
@@ -29,7 +32,9 @@
 *C:	*	*C:	*	*C:	*	*C:	*
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!	!LO:TX:a:Bi:t=Adagio.\nmolt’ espreſsivo.:rj:problem=dotyczy wszystkich głosów	!
+!!!OMD:
+!!!OMD-mod: Adagio molto espessivo
+!	!	!	!	!	!	!LO:TX:a:Bi:t=Adagio.\nmolt’ espreſsivo.:rj:problem=dotyczy wszystkich głosów:mod=	!
 (>4G\	p	2r	.	2r	.	2r	.
 8E\L	.	.	.	.	.	.	.
 8C\J)	.	.	.	.	.	.	.
@@ -42,33 +47,36 @@
 32EE/JJk	]]	.	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3
 *	*	*tremolo	*	*tremolo	*	*	*
-!	!	!LO:TX:t=P:problem=4 kropki i łuk nad tremolo	!	!LO:TX:t=P:problem=4 kropki i łuk nad tremolo	!	!	!
+!	!	!LO:TX:t=P:problem=4 kropki i łuk nad tremolo:mod=	!	!LO:TX:t=P:problem=4 kropki i łuk nad tremolo:mod=	!	!	!
 16CC/LL)	.	16E/LL	p	16c/LL	.	(<4g/	p
 16C/	.	16E/	.	16c/	.	.	.
 16C/	.	16E/	.	16c/	.	.	.
 16C/JJ	.	16E/JJ	.	16c/JJ	.	.	.
 *tremolo	*	*	*	*	*	*	*
-!	!	!LO:TX:t=P:problem=4 kropki i łuk nad tremolo	!	!LO:TX:t=P:problem=4 kropki i łuk nad tremolo	!	!	!
+!	!	!LO:TX:t=P:problem=4 kropki i łuk nad tremolo:mod=	!	!LO:TX:t=P:problem=4 kropki i łuk nad tremolo:mod=	!	!	!
 16C/LL	.	16E/LL	.	16G/LL	.	8e/L	.
 16C/	.	16E/	.	16G/	.	.	.
 16C/	.	16E/	.	16G/	.	8c/J)	.
 16C/JJ	.	16E/JJ	.	16G/JJ	.	.	.
 *	*	*	*	*Xtremolo	*	*	*
 =4	=4	=4	=4	=4	=4	=4	=4
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 16C/LL	.	16E/LL	<	16G/LL	<	(>8.ee\L	<
 16C/	.	16E/	.	16G/	.	.	.
 16C/	.	16E/	.	16G#X/	.	.	.
 16C/JJ	.	16E/	.	16G#/JJ	.	16b\Jk	.
 *Xtremolo	*	*	*	*	*	*	*
 *	*	*	*	*tremolo	*	*	*
+!	!LO:MO:null:mod= [ >	!	!	!	!	!	!
 16C/LL	.	16E/	[ >	16A/LL	[ >	16dd\LL	[
 16C/	.	16E/	.	16A/	.	16cc\	>
 16C#X/	.	16E/	.	16A/	.	16e\	.
+!	!LO:MO:null:mod=]]	!	!	!	!	!	!
 16C#/JJ	.	16E/JJ	]]	16A/JJ	]]	16a\JJ)	]]
 *	*	*	*	*Xtremolo	*	*	*
 =5	=5	=5	=5	=5	=5	=5	=5
 *	*	*	*	*tremolo	*	*	*
-!	!	!	!	!LO:TX:t=P:problem=8 kropek i łuk nad tremolo	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=8 kropek i łuk nad tremolo:mod=	!	!	!
 4D/	.	16D/LL	.	16A/LL	.	(<4g/	.
 .	.	16D/	.	16A/	.	.	.
 .	.	16D/	.	16A/	.	.	.
@@ -78,6 +86,7 @@
 8FF/J	.	16D/	.	16A/	.	8r	.
 .	.	16D/JJ	.	16A/JJ	.	.	.
 =6	=6	=6	=6	=6	=6	=6	=6
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 16DD/LL	.	16F/LL	<	16d/LL	<	4f/	<
 16D/	.	16F/	.	16d/	.	.	.
 16D/	.	16F/	.	16d/	.	.	.
@@ -86,19 +95,27 @@
 16C/LL	.	16F/	.	16d/	.	4A-X/	[[
 16C/	.	16F/	.	16d/	.	.	.
 16C/	.	16F/	.	16d/	.	.	.
+!	!LO:MO:null:mod=[[	!	!	!	!	!	!
 16C/JJ	.	16F/JJ	[[	16d/JJ	[[	.	.
 =7	=7	=7	=7	=7	=7	=7	=7
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=f >	!	!	!	!	!	!
 16BB/LL	.	16F/LL	f	16d/LL	f >	4G/	f
 16BB/	.	16F/	.	16d/	.	.	.
 16BB/	.	16F/	.	16d/	.	.	.
 16BB/	.	16F/JJ	>	16d/	.	.	.
-16BB/	.	16G/LL	.	16d/	.	[>4ff\	>]
+16BB/	.	16G/LL	.	16d/	.	[>4ff\	> ]
 16BB/	.	16G/	.	16d/	.	.	.
 16BB/	.	16G/	.	16d/	.	.	.
+!	!LO:MO:null:mod=]]	!	!	!	!	!	!
 16BB/JJ	.	16G/JJ	]]	16d/JJ	]]	.	.
 *Xtremolo	*	*Xtremolo	*	*Xtremolo	*	*	*
 =8	=8	=8	=8	=8	=8	=8	=8
 !	!	!	!	!	!	!LO:TUP:a	!
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=p	!	!	!	!	!	!
 (<2BB/	.	[>2G/	p	(>2d/	p	(>24ff\LL]	p
 .	.	.	.	.	.	24cc#X\	.
 .	.	.	.	.	.	24dd\JJ	.
@@ -125,7 +142,7 @@
 16A\JJ	.	16c/JJ	.	16e/JJ	.	.	.
 =10	=10	=10	=10	=10	=10	=10	=10
 *tremolo	*	*tremolo	*	*tremolo	*	*	*
-!LO:TX:t=P:problem=8 kropek i łuk nad tremolo	!	!LO:TX:t=P:problem=8 kropek i łuk nad tremolo	!	!LO:TX:t=P:problem=8 kropek i łuk nad tremolo	!	!	!
+!LO:TX:t=P:problem=8 kropek i łuk nad tremolo:mod=	!	!LO:TX:t=P:problem=8 kropek i łuk nad tremolo:mod=	!	!LO:TX:t=P:problem=8 kropek i łuk nad tremolo:mod=	!	!	!
 16G#X\LL	.	16B/LL	.	16e/LL	.	(>4ee\	.
 16G#\	.	16B/	.	16e/	.	.	.
 16G#\	.	16B/	.	16e/	.	.	.
@@ -153,17 +170,17 @@
 .	.	.	.	.	.	(<8qqaa/)	.
 16G\LL	.	16c\LL)	.	16e/LL	.	(>4.cc\)	.
 16G\	.	16e\	.	16g/	.	.	.
-!LO:TX:a:t=P:problem=diminuendolike accent	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent	!	!	!
+!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!	!	!
 16A-X^>\	.	16e-X^>\	.	16f#X^>/	.	.	.
 16A-\JJ	.	16e-\JJ	.	16f#/JJ	.	.	.
-!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam:mod=	!	!	!	!	!	!	!
 16G\LL	.	16en\LL	.	16g/LL	.	.	.
 16G\	.	16e\	.	16g/	.	.	.
 16GG/	.	16B\	.	16fn/	.	16.ee\LL	.
 16GG/JJ	.	16B\JJ	.	16f/JJ	.	.	.
 .	.	.	.	.	.	32dd\JJk)	.
 =13	=13	=13	=13	=13	=13	=13	=13
-!LO:TX:a:t=P:problem=W źródle łuk kończy się za nutą	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=W źródle łuk kończy się za nutą:mod=	!	!	!	!	!	!	!
 (>4C\	.	(<32c/LLL	.	(<32e/LLL	.	4cc\	p
 .	.	32G/)	.	32G/)	.	.	.
 .	.	32c'</	p	32e/	p	.	.
@@ -244,7 +261,7 @@
 .	.	32B'</JJJ	.	32f'</JJJ	.	.	.
 *	*	*Xrep	*	*Xrep	*	*	*
 *	*	*rep	*	*rep	*	*	*
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!
 !	!	!	!	!	!	!LO:TUP:a	!
 4r	.	(<32B/LLL	.	(<32f/LLL	.	(>&(>24aa^<\LL	.
 .	.	32G/)	.	32G/)	.	.	.
@@ -254,7 +271,7 @@
 .	.	32B'</JJJ	.	32f'</JJJ	.	.	.
 *	*	*Xrep	*	*Xrep	*	*	*
 *	*	*rep	*	*rep	*	*	*
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!
 !	!	!	!	!	!	!LO:TUP:a	!
 .	.	(<32B/LLL	.	(<32f/LLL	.	&(>24ff^<\LL	.
 .	.	32G/)	.	32G/)	.	.	.
@@ -316,35 +333,40 @@
 .	.	.	.	.	.	16dd#X^<\JJ	.
 16r	.	16r	.	(>16r	.	16ee\LL	>
 !	!LO:HP:a	!	!	!	!	!	!
+!	!	!	!LO:MO:null:mod=>	!	!	!	!
 (<16GG#X/LL	>	(>16d\KL	.	16f/KL	>	16b\	.
 16AA/	.	8c\J)	.	8e/J)	]]	16cc\	.
+!	!	!	!LO:MO:null:mod=]]	!	!	!	!
 16C/JJ)	]]	.	.	.	.	16a\JJ)	]
 =20	=20	=20	=20	=20	=20	=20	=20
 2D\	.	16B/LL	.	(>16d/LL	.	(>[<4g/	.
 .	.	16A#X/	.	16c#X/	.	.	.
 .	.	16c/	.	16e/	.	.	.
 .	.	16B/JJ	.	16d/JJ	.	.	.
-!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej:mod=	!	!	!
 .	.	8An/L	.	4cn/)	.	16g/LL]	.
 .	.	.	.	.	.	16f#X/	.
 .	.	8G#X/J	.	.	.	16b^</	.
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej:mod=	!
 .	.	.	.	.	.	16a/JJ)	.
 !!LO:LB:g=original
 =21	=21	=21	=21	=21	=21	=21	=21
 (<4GG/	.	16G/KL	.	16B/KL	.	4g/	.
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 .	.	8B/	<	8g/	<	.	.
 .	.	8B/	.	8g/	.	.	.
 8BB/L	.	.	.	.	.	4r	.
 .	.	8B/	.	8g/	.	.	.
 16.D/L	.	.	.	.	.	.	.
+!	!LO:MO:null:mod=[[	!	!	!	!	!	!
 .	.	(<16B/Jk	[[	(<16g/Jk	[[	.	.
 32G/JJk)	.	.	.	.	.	.	.
 =22	=22	=22	=22	=22	=22	=22	=22
-!	!	!	!	!	!	!LO:TX:b:Bi:t=dol&colon;	!
+!	!LO:MO:null:mod=>	!	!	!	!	!LO:TX:b:Bi:t=dol&colon;:mod=dolce	!
 (>8G#X\L	.	16c\KL)	>	16f#X/KL)	>	(>4dd^<\	.
 .	.	8c\	.	8f#/	.	.	.
 8A\J	.	.	.	.	.	.	.
+!	!LO:MO:null:mod=]	!	!	!	!	!	!
 .	.	8c\	]	8f#/	]	.	.
 4D\)	.	.	.	.	.	8cc\L	.
 .	.	8c\	.	8f#/	.	.	.
@@ -353,17 +375,21 @@
 =23	=23	=23	=23	=23	=23	=23	=23
 (<4GG/	.	16B\KL)	.	16g/KL)	.	4g/)	.
 .	.	8B\	.	8g/	.	.	.
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 .	.	8B\	<	8g/	<	.	.
 8BB/L	.	.	.	.	.	4r	.
 .	.	8B\	.	8g/	.	.	.
 16.D/L	.	.	.	.	.	.	.
+!	!LO:MO:null:mod=[[	!	!	!	!	!	!
 .	.	(>16B\Jk	[[	(<16g/Jk	[[	.	.
-!LO:TX:t=P:problem=w źródle kółko na kresce taktowej	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=w źródle kółko na kresce taktowej:mod=	!	!	!	!	!	!	!
 32G/JJk)	.	.	.	.	.	.	.
 =24	=24	=24	=24	=24	=24	=24	=24
+!	!LO:MO:null:mod=>	!	!	!	!	!	!
 (>8G#X\L	.	16c\KL)	>	16f#X/KL)	>	(>8dd\L	.
 .	.	8c\	.	8f#/	.	.	.
 8A\J	.	.	.	.	.	16.ff#X^<\L	.
+!	!LO:MO:null:mod=]	!	!	!	!	!	!
 .	.	8c\	]	8f#/	]	.	.
 .	.	.	.	.	.	32ee\JJk)	.
 !	!	!	!	!	!	!LO:TUP:a	!
@@ -378,15 +404,20 @@
 .	.	.	.	.	.	24a\JJ&))	.
 =25	=25	=25	=25	=25	=25	=25	=25
 (<4GG/	.	16B\KL)	.	16g/KL)	.	4g/	.
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 .	.	8B\	<	8g/	<	.	.
 .	.	8B\	.	8g/	.	.	.
 8BB/L	.	.	.	.	.	4r	.
 .	.	8B\	.	8g/	.	.	.
 8D/J)	.	.	.	.	.	.	.
+!	!LO:MO:null:mod=[[	!	!	!	!	!	!
 .	.	[>16B\Jk	[[	(<16g/Jk	[[	.	.
 =26	=26	=26	=26	=26	=26	=26	=26
 *	*	*rep	*	*	*	*	*
-!	!	!LO:TX:a:t=P:problem=łuki nie wyświetlają się	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=łuki nie wyświetlają się:mod=	!	!	!	!	!
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=f	!	!	!	!	!	!
 4G\	.	16B\KL]	f	16fn/KL)	f	(>4ggg\	f
 .	.	8B\	.	8f/	.	.	.
 .	.	8B\	.	8f/	.	.	.
@@ -402,7 +433,7 @@
 .	.	.	.	.	.	32ddd\	.
 .	.	.	.	.	.	32ccc\	.
 .	.	.	.	.	.	32bb\JJJ	.
-!	!	!	!	!	!	!LO:TX:b:Bi:t=decres_:problem=dynamics with extention lines	!
+!	!	!	!	!	!	!LO:TX:b:Bi:t=decres_:problem=dynamics with extention lines:mod=:mod=	!
 !	!	!	!	!	!	!	!LO:HP:b:Bi:t=decres:ext=ud
 8r	.	8r	.	8r	.	32ccc\LLL	>
 .	.	.	.	.	.	32ddd\	.
@@ -412,6 +443,9 @@
 .	.	.	.	.	.	&(>32gg#X^<\	.
 .	.	.	.	.	.	32aa\&)	.
 .	.	.	.	.	.	&(>32dd#X^<\JJJ	.
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=p	!	!	!	!	!	!
 8C/	.	8c\	p	8e/	p	32ee\LLL&)	.
 .	.	.	.	.	.	&(>32b\	.
 .	.	.	.	.	.	32cc\	.
@@ -421,7 +455,7 @@
 .	.	16A#X/	.	16c#X/	.	.	.
 .	.	16An/	.	16cn/	.	.	.
 .	.	16G/JJ	.	16B/JJ	.	.	.
-!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej	!	!	!
+!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej:mod=	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej:mod=	!	!	!
 .	.	4A/)	.	4c/)	.	32g/LLL]	.
 .	.	.	.	.	.	(<32f#X/	.
 .	.	.	.	.	.	32ee/	.
@@ -432,6 +466,7 @@
 .	.	.	.	.	.	32f#/JJJ)	.
 =29	=29	=29	=29	=29	=29	=29	=29
 (<4GG/	.	16G/LL	.	16B/LL	.	4g/	.
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 .	.	16B/	<	16g/	<	.	.
 .	.	16B/	.	16g/	.	.	.
 .	.	16B/JJ	.	16g/JJ	.	.	.
@@ -439,13 +474,16 @@
 8BB/L	.	16B/LL	.	16g/LL	.	4r	.
 .	.	16B/	.	16g/	.	.	.
 16.D/L	.	16B/	.	16g/	.	.	.
+!	!LO:MO:null:mod=[[	!	!	!	!	!	!
 .	.	16B/JJ	[[	16g/JJ	[[	.	.
 32G/JJk)	.	.	.	.	.	.	.
 =30	=30	=30	=30	=30	=30	=30	=30
+!	!LO:MO:null:mod=>	!	!	!	!	!	!
 (>8G#X\L	.	16c\LL	>	16f#X/LL	>	[>4ddd\	>
 .	.	16c\	.	16f#/	.	.	.
 8A\J	.	16c\	.	16f#/	.	.	.
 .	.	16c\	.	16f#/	.	.	.
+!	!LO:MO:null:mod=]	!	!	!	!	!	!
 4D\)	.	16c\	]	16f#/	.	32ddd\LLL]	]
 .	.	.	.	.	.	(>32ccc\	.
 .	.	16c\	.	16f#/	.	32aa\	.
@@ -457,6 +495,7 @@
 *	*	*	*	*Xtremolo	*	*	*
 !!LO:PB:g=original
 =31	=31	=31	=31	=31	=31	=31	=31
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 (<4GG/	.	16B/LL	<	16g/LL	<	4b\	.
 .	.	16B/	.	16g/	.	.	.
 .	.	16B/	.	16g/	.	.	.
@@ -465,28 +504,34 @@
 8BB/L	.	16B/	.	16g/LL	.	4r	.
 .	.	16B/	.	16g/	.	.	.
 16.D/L	.	16B/	.	16g/	.	.	.
+!	!LO:MO:null:mod=[[	!	!	!	!	!	!
 .	.	16B/JJ	[[	16g/JJ	[[	.	.
 32G/JJk)	.	.	.	.	.	.	.
 =32	=32	=32	=32	=32	=32	=32	=32
-!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent	!	!LO:TX:a:t=P:problem=diminuendolike accent	!
-!	!	!LO:TX:a:t=P:problem=diminuendolike accent	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!
+!	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!	!	!	!	!
 (>8G#X\L	.	16c^<\LL	.	16f#X^</LL	.	(>[>8ddd^<\L	.
 .	.	16c\	.	16f#/	.	.	.
 8A\J	.	16c\	.	16f#/	.	32ddd\LL]	.
 .	.	.	.	.	.	32ccc#X\	.
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 .	.	16c\	<	16f#/	<	32cccn\	<
 .	.	.	.	.	.	32bb\JJJ)	.
 4D\)	.	16c\	.	16f#/	.	(>32aa\LLL	.
 .	.	.	.	.	.	32gg\	.
 .	.	16c\	.	16f#/	.	32ff#X\	.
 .	.	.	.	.	.	32ee\JJJ	.
+!	!LO:MO:null:mod=[	!	!	!	!	!	!
 .	.	16c\	[	16f#/	[	32dd\LLL	[
 .	.	.	.	.	.	32cc\	.
 .	.	16c\JJ	.	16f#/JJ	.	32b\	.
 .	.	.	.	.	.	32a\JJJ)	.
 *	*	*Xtremolo	*	*Xtremolo	*	*	*
 =33	=33	=33	=33	=33	=33	=33	=33
-!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam:mod=	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=f	!	!	!	!	!	!
 16GG/LL	.	16B\LL	f	16g/LL	f	4g\	f
 16G\	.	16d\	.	16g 16B/	.	.	.
 16G\	.	16d\	.	16g 16B/	.	.	.
@@ -512,12 +557,12 @@
 16BB/JJ	.	16f#\JJ	.	16aJJ 16B/	.	.	.
 *	*	*	*	*Xtremolo	*	*	*
 =35	=35	=35	=35	=35	=35	=35	=35
-!	!	!	!	!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines	!
+!	!	!	!	!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines:mod=	!
 !	!	!	!	!	!	!	!LO:HP:b:Bi:t=cres:ext=ud
-!	!	!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines	!	!	!
+!	!	!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines:mod=	!	!	!
 !	!	!	!	!	!LO:HP:b:Bi:t=cres:ext=ud	!	!
-!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines	!	!	!	!	!
-!	!	!	!LO:HP:b:Bi:t=cres:ext=ud	!	!	!	!
+!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines:mod=	!	!	!	!	!
+!	!LO:MO:null:mod=<	!	!LO:HP:b:Bi:t=cres:ext=ud	!	!	!	!
 16C/LL	.	16e\LL	<	16gLL 16B/	<	8eee\)	<
 16C/	.	16e\	.	16g/	.	.	.
 16C/	.	16c\	.	16e/	.	4ggg\	.
@@ -527,6 +572,7 @@
 16C/LL	.	16c\LL	.	16e/LL	.	.	.
 16C/	.	16c\	.	16e/	.	.	.
 16C#X/	.	16B-X\	.	16e/	.	(>[>8gg\	.
+!	!LO:MO:null:mod=[	!	!	!	!	!	!
 16C#/JJ	.	16B-\JJ	[	16e/JJ	[	.	[
 *	*	*	*	*Xtremolo	*	*	*
 =36	=36	=36	=36	=36	=36	=36	=36
@@ -536,6 +582,7 @@
 16E-X\	.	16B-/	.	16c#X/	.	.	.
 16E-\JJ	.	16B-/	.	16c#/JJ	.	.	.
 *	*	*	*	*tremolo	*	*	*
+!	!LO:MO:null:mod=>	!	!	!	!	!	!
 16En\LL	.	16B-/	>	16d-X/LL	>	.	.
 16E\	.	16B-/	.	16d-/	.	.	.
 16Fn\	.	16B-/	.	16d-/	.	8ffn\)	>
@@ -543,31 +590,42 @@
 *	*	*	*	*Xtremolo	*	*	*
 =37	=37	=37	=37	=37	=37	=37	=37
 *tremolo	*	*	*	*tremolo	*	*	*
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=p	!	!	!	!	!	!
 16G-X\LL	.	16B-X/LL	p	16d-X/LL	p	(>4ee\	p
 16G-\	.	16B-/	.	16d-/	.	.	.
 16G-\	.	16B-/	.	16d-/	.	.	.
 16G-\JJ	.	16B-/JJ	.	16d-/JJ	.	.	.
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=pp	!	!	!	!	!	!
 16F#X\LL	.	16A/LL	pp	16c/LL	pp	8ee-X'>\L	pp
 16F#\	.	16A/	.	16c/	.	.	.
 16F#\	.	16A/	.	16c/	.	[>8dd'>\J	.
 16F#\JJ	.	16A/JJ	.	16c/JJ	.	.	.
 *Xtremolo	*	*Xtremolo	*	*Xtremolo	*	*	*
 =38	=38	=38	=38	=38	=38	=38	=38
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 (>4G\	.	(>4Bn/	<	(>16B/KL	.	8dd\L]	<
 .	.	.	.	8g/	>	.	.
 .	.	.	.	.	.	8dd#X\J	[ >
 .	.	.	.	16fn/Jk	]	.	.
+!	!LO:MO:null:mod=[ >	!	!	!	!	!	!
 4C\)	.	16c/LL	[ >	4e/)	.	16ee\LL	.
 .	.	16G#X/	.	.	.	16b\	.
 .	.	16A/	.	.	.	16cc\	]
+!	!LO:MO:null:mod=]]	!	!	!	!	!	!
 .	.	16c/JJ)	]]	.	.	16a\JJ)	.
 =39	=39	=39	=39	=39	=39	=39	=39
+!	!LO:MO:null:mod=<	!	!	!	!LO:MO:null:mod=<	!	!
 [>4D\	.	(>16B/LL	<	(>16d/LL	.	(<4g/	<
 .	.	16A#X/	.	16c#X/	.	.	.
 .	.	16c/	.	16e/	.	.	.
 .	.	16B/JJ	.	16d/JJ	.	.	.
-!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
-16D\LL]	.	4An/)	[ >]]	4cn/)	.	4f#Xt>/)	[ >
+!LO:TX:t=P:problem=mixed beam:mod=	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=[ > ]]	!	!	!	!LO:MO:null:mod=[ > ]]	!	!
+16D\LL]	.	4An/)	[ > ]]	4cn/)	.	4f#Xt>/)	[ >
 (>16E-X\	.	.	.	.	.	.	.
 16D\	.	.	.	.	.	.	.
 16DD/JJ)	.	.	.	.	.	.	]
@@ -599,8 +657,8 @@
 4r	.	16f#X\LL	.	16a/LL	.	16dd#X\LL	.
 .	.	16g\	.	16b/	.	16ee\	.
 .	.	16d#X\	.	16f#X/	.	16cc\	.
-!	!	!	!	!LO:TX:t=P:problem=kółko nad kreską taktową	!	!	!
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej	!
+!	!	!	!	!LO:TX:t=P:problem=kółko nad kreską taktową:mod=	!	!	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej:mod=	!
 .	.	16e\JJ	.	[<16g/JJ	.	16b\JJ	.
 =43	=43	=43	=43	=43	=43	=43	=43
 4r	.	16c/LL	<	4g/_<	<	16a#X\LL)	<
@@ -608,7 +666,7 @@
 .	.	16A#X/	.	.	.	16cc#X\	.
 .	.	16B/JJ	.	.	.	16dd\JJ	[
 16r	.	16c/LL	[ >	16g/LL]	[ >	16ee\LL	>
-!LO:TX:a:t=P:problem=W źródle łuk kończy się na kresce taktowej	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=W źródle łuk kończy się na kresce taktowej:mod=	!	!	!	!	!	!	!
 (>16BB\LL	.	16G#X/J	.	16fn/	.	16dd\	.
 16C\	.	8A#/J	]]	16e/	.	16ccn\	.
 !	!	!	!	!LO:SIC:v:s=16d/JJ	!	!	!
@@ -627,15 +685,15 @@
 4r	.	4r	.	4r	.	4r	.
 =46	=46	=46	=46	=46	=46	=46	=46
 2r	.	(>8.dd\L	p	2r	.	2r	.
-!	!	!LO:TX:b:Bi:t=ma espres&colon;	!	!	!	!	!
+!	!	!LO:TX:b:Bi:t=ma espres&colon;:mod=espressivo	!	!	!	!	!
 .	.	16cc#X\Jk	.	.	.	.	.
 .	.	16ee\LL	.	.	.	.	.
 .	.	16dd\	.	.	.	.	.
 .	.	16b\	.	.	.	.	.
-!	!	!LO:TX:t=P:problem=w źródle kwadrat na kresce taktowej	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=w źródle kwadrat na kresce taktowej:mod=	!	!	!	!	!
 .	.	16g\JJ)	.	.	.	.	.
 =47	=47	=47	=47	=47	=47	=47	=47
-!LO:TX:a:t=P:problem=diminuendolike accent	!	!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent	!
+!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!	!	!	!LO:SIC:s=4.d^/	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!
 4.B^<\	.	(>4a-X\	>	4.d/	.	4.fn^</	.
 .	.	16qqg^>/LL	]	.	.	.	.
 .	.	16qqb-X/	.	.	.	.	.
@@ -644,7 +702,7 @@
 .	.	8g\	.	.	.	.	.
 8r	.	8r)	.	8r	.	8r	.
 =48	=48	=48	=48	=48	=48	=48	=48
-!	!	!	!	!LO:TX:b:Bi:t=espres	!	!	!
+!	!	!	!	!LO:TX:b:Bi:t=espres:mod=espressivo	!	!	!
 2r	.	2r	.	(>8.ff\L	.	2r	.
 .	.	.	.	16ee\Jk	.	.	.
 .	.	.	.	16gg\LL	.	.	.
@@ -660,7 +718,7 @@
 .	.	.	.	8b\)	.	.	.
 8r	.	8r	.	8r	.	8r	.
 =50	=50	=50	=50	=50	=50	=50	=50
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!
 2r	.	2r	.	2r	.	(>8.ddd^<\L	.
 .	.	.	.	.	.	16ccc#X\Jk	.
 .	.	.	.	.	.	16eee\LL	.
@@ -668,7 +726,7 @@
 .	.	.	.	.	.	16bb\	.
 .	.	.	.	.	.	16gg\JJ	.
 =51	=51	=51	=51	=51	=51	=51	=51
-!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!	!	!
 2r	.	2r	.	(>8.dd^<\L	.	4ff\)	.
 .	.	.	.	16cc#X\Jk	.	.	.
 .	.	.	.	16ee\LL	.	4r	.
@@ -676,7 +734,7 @@
 .	.	.	.	16b\	.	.	.
 .	.	.	.	16g\JJ	.	.	.
 =52	=52	=52	=52	=52	=52	=52	=52
-!LO:TX:a:t=P:problem=w źródle notatki zapisane ołówkiem	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=w źródle notatki zapisane ołówkiem:mod=	!	!	!	!	!	!	!
 (>8.d^<\L	.	2r	.	4f/)	.	2r	.
 16c#X\Jk	<	.	.	.	.	.	.
 16e\LL	.	.	.	4r	.	.	.
@@ -695,20 +753,23 @@
 !!LO:LB:g=original
 =54	=54	=54	=54	=54	=54	=54	=54
 *	*	*tremolo	*	*tremolo	*	*	*
-!	!	!LO:TX:t=P:problem=8 kropek i łuk nad dwoma tremolo	!	!LO:TX:t=P:problem=8 kropek i łuk nad dwoma tremolo	!	!	!
+!	!	!LO:TX:t=P:problem=8 kropek i łuk nad dwoma :mod=	!	!LO:TX:t=P:problem=8 kropek i łuk nad dwoma tremolo:mod=	!	!	!
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=p	!	!	!	!	!	!
 16CC'>/LL	.	16E/LL	p	16G/LL	p	(<4g/	p
 16C'>/	.	16E/	.	16G/	.	.	.
 16C'>/	.	16E/	.	16G/	.	.	.
 16C'>/JJ	.	16E/JJ	.	16G/JJ	.	.	.
 *tremolo	*	*	*	*	*	*	*
-!LO:TX:t=P:problem=4 kropki i łuk nad grupą szesnastek oraz nad tremolo	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=4 kropki i łuk nad grupą szesnastek oraz nad tremolo:mod=	!	!	!	!	!	!	!
 16C/LL	.	16E/LL	.	16G/LL	.	8e/L	.
 16C/	.	16E/	.	16G/	.	.	.
 16C/	.	16E/	.	16G/	.	8c/J)	.
 16C/JJ	.	16E/JJ	.	16G/JJ	.	.	.
 *	*	*	*	*Xtremolo	*	*	*
 =55	=55	=55	=55	=55	=55	=55	=55
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle crescendo skreślone ołówkiem	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle crescendo skreślone ołówkiem:mod=	!
 16C/LL	.	16E/LL	<	16G/LL	<	(>8.ee\L	<
 16C/	.	16E/	.	16G/	.	.	.
 16C/	.	16E/	.	16G#X/	.	.	.
@@ -742,25 +803,25 @@
 .	.	.	.	.	.	(<16qqG/LL	.
 .	.	.	.	.	.	16qqA-/JJ)	.
 =58	=58	=58	=58	=58	=58	=58	=58
-!	!	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!
+!	!	!	!	!	!	!LO:TX:t=P:problem=mixed beam:mod=	!
 16BB/LL	.	16F/LL	f	16d/LL	f	8G/L	f
 16BB/	.	16F/	.	16d/	.	.	.
 16BB/	.	16G/	.	16d/	.	(>[>8fff\J	.
 16BB/	.	16G/JJ	.	16d/JJ	.	.	.
 *	*	*tremolo	*	*	*	*	*
-!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines	!	!	!	!	!
+!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines:mod=	!	!	!	!	!
 !	!	!	!LO:HP:b:Bi:t=dim:ext=ud	!	!	!	!
-!	!	!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines	!	!	!
+!	!	!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines:mod=	!	!	!
 !	!	!	!	!	!LO:HP:b:Bi:t=dim:ext=ud	!	!
 16BB/	.	16G/LL	>	16d/LL	>	16fff\LL]	.
 16BB/	.	16G/	.	16d/	.	32eee\L	.
-!	!	!	!	!	!	!LO:TX:b:Bi:t=dimin_:problem=dynamics with extention lines	!
+!	!	!	!	!	!	!LO:TX:b:Bi:t=dimin_:problem=dynamics with extention lines:mod=	!
 !	!	!	!	!	!	!	!LO:HP:b:Bi:t=dimin:ext=ud
 .	.	.	.	.	.	32ddd\JJJ	>
 16BB/	.	16G/	.	16d/	.	32ccc#X\LLL	.
 .	.	.	.	.	.	32ddd\	.
 16BB/JJ	.	16G/JJ	]]	16d/JJ	]	32eee\	.
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej:mod=	!
 .	.	.	.	.	.	32ddd\JJJ)	.
 *Xtremolo	*	*Xtremolo	*	*Xtremolo	*	*	*
 =59	=59	=59	=59	=59	=59	=59	=59
@@ -779,6 +840,7 @@
 .	.	.	.	.	.	32cc#X\LLL	.
 .	.	.	.	.	.	32dd\	.
 .	.	.	.	.	.	32aao\	.
+!	!	!	!	!	!	!LO:MO:mod=!LO&colon;N&colon;vis=64	!
 !	!	!	!	!	!	!LO:N:vis=32	!
 .	.	.	.	.	.	64r	.
 .	.	.	.	.	.	64gg\JJJk	.
@@ -833,14 +895,18 @@
 .	.	16c/	.	16e-/	.	.	.
 .	.	16c/	.	16e-/	.	.	.
 .	.	16c/	.	16e-/	.	.	.
-!	!	!	!	!	!	!LO:TX:t=P:problem=w źródle brak początku ligatury	!
-8AA/L	.	16c/	>	16e-/	>	[<4f#X/	>]
+!	!LO:MO:null:mod=>	!	!	!	!	!LO:TX:t=P:problem=w źródle brak początku ligatury:mod=	!
+8AA/L	.	16c/	>	16e-/	>	[<4f#X/	> ]
 .	.	16c/	.	16e-/	.	.	.
 8AA-X/J)	.	16c/	.	16e-/	.	.	.
+!	!LO:MO:null:mod=]]	!	!	!	!	!	!
 .	.	16c/JJ	]]	16e-/JJ	]]	.	.
 *	*	*Xtremolo	*	*Xtremolo	*	*	*
 !!LO:LB:g:original
 =66	=66	=66	=66	=66	=66	=66	=66
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=p	!	!	!	!	!	!
 [<2GG/	.	(>4c\	p	(>4e/	p	16f#X/LL]	p
 .	.	.	.	.	.	(>16g/	.
 .	.	.	.	.	.	16ee/	.
@@ -850,7 +916,7 @@
 .	.	.	.	.	.	16b/	.
 .	.	.	.	.	.	16a/JJ)	.
 =67	=67	=67	=67	=67	=67	=67	=67
-!	!	!LO:TX:a:t=P:problem=W źródle zakończenie łuku za nutą	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=W źródle zakończenie łuku za nutą:mod=	!	!	!	!	!
 2GG/]	.	2F/)	.	2B/)	.	(>16g/LL	.
 .	.	.	.	.	.	16g#X/	.
 .	.	.	.	.	.	16b/	.
@@ -865,8 +931,8 @@
 .	.	.	.	.	.	24d/JJ)	.
 =68	=68	=68	=68	=68	=68	=68	=68
 *	*	*tremolo	*	*tremolo	*	*	*
-!	!	!LO:TX:t=P:problem=4 kropki nad każdym z tremolo i łuk nad dwoma tremolo	!	!LO:TX:t=P:problem=4 kropki nad każdym z tremolo i łuk nad dwoma tremolo	!	!	!
-!	!	!LO:TX:a:t=P:problem=w źródle crescendo skreślone ołówkiem	!	!	!	!	!
+!	!	!LO:TX:t=P:problem=4 kropki nad każdym z tremolo i łuk nad dwoma tremolo:mod=	!	!LO:TX:t=P:problem=4 kropki nad każdym z tremolo i łuk nad dwoma tremolo:mod=	!	!	!
+!	!LO:MO:null:mod=<	!LO:TX:a:t=P:problem=w źródle crescendo skreślone ołówkiem:mod=	!	!	!	!	!
 (>4CC/	.	16E/LL	<	16c/LL	<	4c/	.
 .	.	16E/	.	16c/	.	.	.
 .	.	16E/	.	16c/	.	.	.
@@ -875,11 +941,12 @@
 8EE/L	.	16E/LL	.	16c/LL	.	4r	.
 .	.	16E/	.	16c/	.	.	.
 16.GG/L	.	16E/	.	16c/	.	.	.
+!	!LO:MO:null:mod=[[	!	!	!	!	!	!
 .	.	16E/JJ	[[	16c/JJ	[[	.	.
 32C/JJk)	.	.	.	.	.	.	.
 *	*	*Xrep	*	*Xrep	*	*	*
 =69	=69	=69	=69	=69	=69	=69	=69
-!	!	!	!	!	!	!LO:TX:b:Bi:t=dol&colon;	!
+!	!	!	!	!	!	!LO:TX:b:Bi:t=dol&colon;:mod=dolce	!
 (>8C#X\L	.	16F^/LL	.	16B^</LL	.	(>4gg^<\	.
 .	.	16F/	.	16B/	.	.	.
 8D\J	.	16F/	.	16B/	.	.	.
@@ -904,7 +971,7 @@
 8D/J	.	16F/	.	16B/	.	16.bb^<\L	.
 .	.	16F/	.	16B/	.	.	.
 .	.	.	.	.	.	32aa\JJk)	.
-!LO:TX:a:t=P:problem=w źródle łuk kończy się za nutą	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=w źródle łuk kończy się za nutą:mod=	!	!	!	!	!	!	!
 !	!	!	!	!	!	!LO:TUP:a	!
 4GG/)	.	16F/	.	16B/	.	(>&(>24aa^<\LL	.
 .	.	.	.	.	.	24gg\	.
@@ -914,10 +981,11 @@
 .	.	16F/	.	16B/	.	&(>24ff^<\LL	.
 .	.	.	.	.	.	24ee\	.
 .	.	16F/JJ	.	16B/JJ	.	.	.
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy sie na kresce taktowej	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy sie na kresce taktowej:mod=	!
 .	.	.	.	.	.	24dd\JJ&))	.
 *	*	*	*	*	*	*tuplet	*
 =72	=72	=72	=72	=72	=72	=72	=72
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 (<4CC/	.	16E/LL	<	16c/LL	<	4cc\)	.
 .	.	16E/	.	16c/	.	.	.
 .	.	16E/	.	16c/	.	.	.
@@ -925,9 +993,13 @@
 8EE/L	.	16E/	.	16c/	.	4r	.
 .	.	16E/	.	16c/	.	.	.
 8GG/J)	.	16E/	.	16c/	.	.	.
+!	!LO:MO:null:mod=[[	!	!	!	!	!	!
 .	.	16E/JJ	[[	16c/JJ	[[	.	.
 =73	=73	=73	=73	=73	=73	=73	=73
 *tremolo	*	*	*	*	*	*	*
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=f	!	!	!	!	!	!
 16C\LL	.	16E/LL	f	16B-X/LL	f	(>4ccc\	f
 16C\	.	16E/	.	16B-/	.	.	.
 16C\	.	16E/	.	16B-/	.	.	.
@@ -941,7 +1013,7 @@
 8F\	.	8F/	.	8A/	.	(>16ff\LL	.
 .	.	.	.	.	.	16gg#X^<\	.
 8r	.	8r	.	8r	.	16aa\	.
-!	!	!	!	!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines	!
+!	!	!	!	!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines:mod=	!
 !	!	!	!	!	!	!	!LO:HP:b:Bi:t=dim:ext=ud
 .	.	.	.	.	.	16ee\JJ	>
 8r	.	8r	.	8r	.	16ff\LL	.
@@ -949,7 +1021,7 @@
 8FF/	p	8f\	p	8a/	p	16ee\	.
 .	.	.	.	.	.	16dd\JJ)	]]
 =75	=75	=75	=75	=75	=75	=75	=75
-!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się za nutą	!	!	!	!	!
+!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się za nutą:mod=	!	!	!	!	!
 2GG/	.	(>16e\LL	.	(>16g/LL	.	[>4cc\	p
 .	.	16f\	.	16a/	.	.	.
 .	.	16e\	.	16g/	.	.	.
@@ -964,6 +1036,7 @@
 .	.	.	.	.	.	32b\JJJ	.
 =76	=76	=76	=76	=76	=76	=76	=76
 *	*	*tremolo	*	*tremolo	*	*	*
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 (>4CC/	.	16c\LL	<	16e/LL	<	4cc\)	.
 .	.	16c\	.	16e/	.	.	.
 .	.	16c\	.	16e/	.	.	.
@@ -971,13 +1044,14 @@
 8EE/L	.	16c\	.	16e/LL	.	4r	.
 .	.	16c\	.	16e/	.	.	.
 16.GG/L	.	16c\	.	16e/	.	.	.
+!	!LO:MO:null:mod=[[	!	!	!	!	!	!
 .	.	16c\JJ	[[	16e/JJ	[[	.	.
-!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej:mod=	!	!	!	!	!	!	!
 32C/JJk)	.	.	.	.	.	.	.
 !!LO:PB:g=original
 =77	=77	=77	=77	=77	=77	=77	=77
-!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent	!	!LO:TX:a:t=P:problem=diminuendolike accent	!
-!	!	!LO:TX:a:t=P:problem=diminuendolike accent	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!
+!	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!	!	!	!	!
 (<8C#X/L	.	16B^</LL	.	16f^</LL	.	(>[>4gg^<\	.
 .	.	16B/	.	16f/	.	.	.
 8D/J	.	16B/	.	16f/	.	.	.
@@ -991,6 +1065,7 @@
 .	.	16B/JJ	.	16f/JJ	.	32d/	.
 .	.	.	.	.	.	32g/JJJ	.
 =78	=78	=78	=78	=78	=78	=78	=78
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 (>4CC/	.	16c/LL	<	16e/LL	<	4e/)	.
 .	.	16c/	.	16e/	.	.	.
 .	.	16c/	.	16e/	.	.	.
@@ -998,26 +1073,32 @@
 8EE/L	.	16c/	.	16e/	.	4r	.
 .	.	16c/	.	16e/	.	.	.
 16.GG/L	.	16c/	.	16e/	.	.	.
+!	!LO:MO:null:mod=[[	!	!	!	!	!	!
 .	.	16c/JJ	[[	16e/JJ	[[	.	.
 32C/JJk	.	.	.	.	.	.	.
 =79	=79	=79	=79	=79	=79	=79	=79
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 (>8C#X/L)	.	16B^</LL	<	16f^</LL	<	(>[>8ggg^<\L	.
 .	.	16B/	.	16f/	.	.	.
 8D/J	.	16B/	.	16f/	.	32ggg\LL]	.
 .	.	.	.	.	.	32fff#X\	.
 .	.	16B/	.	16f/	.	32fffn\	<
 .	.	.	.	.	.	32eee\JJJ)	.
-!LO:TX:a:t=P:problem=W źródle łuk kończy się za nuta	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=W źródle łuk kończy się za nuta:mod=	!	!	!	!	!	!	!
 4GG/)	.	16B/	.	16f/	.	(>32ddd\LLL	.
 .	.	.	.	.	.	32ccc\	.
 .	.	16B/	.	16f/	.	32bb\	.
 .	.	.	.	.	.	32aa\JJJ	.
 .	.	16B/	.	16f/	.	32gg\LLL	.
 .	.	.	.	.	.	32ff#X\	[
+!	!LO:MO:null:mod=[	!	!	!	!	!	!
 .	.	16B/JJ	[	16f/JJ	[	32ffn\	.
 .	.	.	.	.	.	32dd\JJJ)	.
 *	*	*Xtremolo	*	*	*	*	*
 =80	=80	=80	=80	=80	=80	=80	=80
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=f	!	!	!	!	!	!
 16CC/LL	.	16c/LL	f	16e/LL	f	4cc\	f
 16C/	.	16G/	.	16e/	.	.	.
 16C/	.	16G/	.	16e/	.	.	.
@@ -1042,13 +1123,14 @@
 16EE/JJ	.	16B/JJ	.	16d/JJ	.	.	.
 *Xtremolo	*	*	*	*Xtremolo	*	*	*
 =82	=82	=82	=82	=82	=82	=82	=82
-!	!	!	!	!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines	!
+!	!	!	!	!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines:mod=	!
 !	!	!	!	!	!	!	!LO:HP:b:Bi:t=cres:ext=ud
-!	!	!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines	!	!	!
+!	!	!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines:mod=	!	!	!
 !	!	!	!	!	!LO:HP:b:Bi:t=cres:ext=ud	!	!
-!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines	!	!	!	!	!
+!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines:mod=	!	!	!	!	!
 !	!	!	!LO:HP:b:Bi:t=cres:ext=ud	!	!	!	!
-!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam:mod=	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 16FF/LL	.	16A\LL	<	16c/LL	<	8aa\)	<
 16F\	.	16f\	.	16a/	.	.	.
 16F\	.	16f\	.	16a/	.	(>[>4.ccc\	.
@@ -1057,11 +1139,12 @@
 16F\LL	.	16f\LL	.	16a/LL	.	.	.
 16F\	.	16f\	.	16a/	.	.	.
 16F#X\	.	16e-X\	.	16a/	.	.	.
+!	!LO:MO:null:mod=[	!	!	!	!	!	!
 16F#\JJ	.	16e-\JJ	[	16a/JJ	[	.	[
 *	*	*	*	*Xtremolo	*	*	*
 =83	=83	=83	=83	=83	=83	=83	=83
 *	*	*tremolo	*	*	*	*	*
-!	!	!	!	!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines	!
+!	!	!	!	!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines:mod=	!
 !	!	!	!	!	!	!	!LO:HP:b:Bi:t=dim:ext=ud
 16G\LL	.	16e-X\LL	f	16g/LL	f	4.ccc\]	f >
 16G\	.	16e-\	.	16g/	.	.	.
@@ -1069,21 +1152,28 @@
 16A-\JJ	.	16e-\JJ	.	16f#/JJ	.	.	.
 *	*	*	*	*tremolo	*	*	*
 *	*	*rep	*	*	*	*	*
-!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines	!	!	!	!	!
+!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines:mod=	!	!	!	!	!
 !	!	!	!LO:HP:b:Bi:t=dim:ext=ud	!	!	!	!
-!	!	!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines	!	!	!
-!	!	!	!	!	!LO:HP:b:Bi:t=dim:ext=ud	!	!
+!	!	!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines:mod=	!	!	!
+!	!LO:MO:null:mod=>	!	!	!	!LO:HP:b:Bi:t=dim:ext=ud	!	!
 16An\LL	.	16e-\LL	>	16g-X/LL	>	.	.
 16A\	.	16e-\	.	16g-/	.	.	.
 16B-X\	.	16e-\	.	16g-/	.	8bb-X\)	.
+!	!LO:MO:null:mod=]	!	!	!	!	!	!
 16B-\JJ	.	16e-\JJ	]	16g-/JJ	]	.	]
 *	*	*Xrep	*	*	*	*	*
 =84	=84	=84	=84	=84	=84	=84	=84
 *tremolo	*	*	*	*	*	*	*
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=p	!	!	!	!	!	!
 16c-X\LL	.	16e-X\LL	p	16g-X/LL	p	(>4aa\	p
 16c-\	.	16e-\	.	16g-/	.	.	.
 16c-\	.	16e-\	.	16g-/	.	.	.
 16c-\JJ	.	16e-\JJ	.	16g-/JJ	.	.	.
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=pp	!	!	!	!	!	!
 16Bn\LL	.	16d\LL	pp	16f/LL	pp	8aa-X\L	pp
 16B\	.	16d\	.	16f/	.	.	.
 16B\	.	16d\	.	16f/	.	[>8gg\J	.
@@ -1099,20 +1189,25 @@
 .	.	.	.	.	.	16ff\	.
 .	.	.	.	.	.	16dd\JJ)	.
 =86	=86	=86	=86	=86	=86	=86	=86
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 [>4G\	.	(>16e\LL	<	(>16g/LL	<	(>4cc\	<
 .	.	16d#X\	.	16f#X/	.	.	.
 .	.	16f\	.	16a/	.	.	.
+!	!LO:MO:null:mod=[[	!	!	!	!	!	!
 .	.	16e\JJ	[[	16g/JJ	[[	.	[
-!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
-(>16G\LL]	.	4dn\)	>]]	4fn/)	>]]	4bt>\)	[ >
+!LO:TX:t=P:problem=mixed beam:mod=	!LO:MO:null:mod=> ]]	!	!	!	!	!	!
+(>16G\LL]	.	4dn\)	> ]]	4fn/)	> ]]	4bt>\)	[ >
 16A-X\	.	.	.	.	.	.	.
 16G\	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej:mod=	!	!	!	!	!	!	!
 16GG/JJ)	.	.	.	.	.	.	.
 .	.	.	.	.	.	16qqaLL/	.
 .	.	.	.	.	.	16qqbJJ/	]
 !!LO:LB:g=original
 =87	=87	=87	=87	=87	=87	=87	=87
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=p	!	!	!	!	!	!
 8C/	.	(>8c\L	p	(>8e/L	p	(>4.cc\	p
 8r	.	16.d\L	.	16.f/L	.	.	.
 .	.	32e\JJk	.	32g/JJk	.	.	.
@@ -1120,10 +1215,11 @@
 .	.	.	.	.	.	16.dd\LL	.
 .	.	.	.	.	.	32dd#X\JJk)	.
 =88	=88	=88	=88	=88	=88	=88	=88
-!	!	!	!	!	!	!LO:TX:b:Bi:t=poco cres_:problem=dynamics with extention lines	!
+!	!	!	!	!	!	!LO:TX:b:Bi:t=poco cres_:problem=dynamics with extention lines:mod=	!
 !	!	!	!	!	!	!	!LO:HP:b:Bi:t=poco cres:ext=ud
-!	!	!LO:TX:b:Bi:t=poco cres_:problem=dynamics with extention lines	!	!	!	!	!
+!	!	!LO:TX:b:Bi:t=poco cres_:problem=dynamics with extention lines:mod=	!	!	!	!	!
 !	!	!	!LO:HP:b:Bi:t=poco cres:ext=ud	!	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=<	!	!
 2r	.	(>8e\L	<	(>8g#X\L	.	(>4.ee\	<
 .	.	16.f#X\L	.	16.a\L	.	.	.
 .	.	32g#X\JJk	.	32b\JJk	.	.	.
@@ -1136,14 +1232,19 @@
 .	.	32b\JJk	.	32dd\JJk	.	.	.
 .	.	4cc\)	.	4ee\)	.	.	.
 .	.	.	.	.	.	16.aa\LL)	.
+!	!	!	!	!	!LO:MO:null:mod=[	!	!
 .	.	.	[	.	.	(>32aa#X\JJk	[
 =90	=90	=90	=90	=90	=90	=90	=90
 8r	.	8b\L	f	8dd#X\L	.	8bb\L)	f
-!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines	!	!	!	!	!
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines:mod=	!	!	!	!	!
 !	!	!	!LO:HP:b:Bi:t=dim:ext=ud	!	!	!	!
+!	!LO:MO:null:mod=> f	!	!	!	!LO:MO:null:mod=>	!	!
 (>8B^<\L	.	(>8d#X\J	>	(>8a\J	.	(>16.ff#X^<\L	>
 .	.	.	.	.	.	32gg\JJk	.
 8E\)	.	8e\L)	]	8g/L)	.	8ee\L)	.
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=] p	!	!	!	!LO:MO:null:mod=] p	!	!LO:MO:null:mod=]
 (>&(>8G^<\J	.	(>8B\J	p	(<8f/J	.	(>16.dd^<\L	p
 .	.	.	.	.	.	32ee\JJk	.
 =91	=91	=91	=91	=91	=91	=91	=91
@@ -1155,34 +1256,46 @@
 .	.	.	.	32d#X/JJk)	.	.	.
 =92	=92	=92	=92	=92	=92	=92	=92
 (>8E\L	.	(>8G#X/L	.	(>4.e/	<	4r	<
+!	!LO:MO:null:mod=<	!	!	!	!	!	!
 16.F#X\L	.	16.A/L	<	.	.	.	.
 32G#X\JJk	.	32B/JJk	.	.	.	.	.
 8.A\L)	.	8.c\L	.	.	.	8.r	.
 .	.	.	.	16.f/LL	[[	.	.
+!	!LO:MO:null:mod=[	!	!	!	!	!	!
 16A-X\Jk	.	16e-X\Jk)	[	.	.	16c/	[[
 .	.	.	.	32f#X/JJk)	.	.	.
 =93	=93	=93	=93	=93	=93	=93	=93
-!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines	!	!	!	!	!
+!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines:mod=	!	!	!	!	!
 !	!	!	!LO:HP:b:Bi:t=cres:ext=ud	!	!	!	!
 [>4G\	.	[>4en\	f <	[>4g/	.	(<16.c/LL	f
-!LO:TX:b:Bi:t=riten	!	!	!	!	!	!LO:TX:b:Bi:t=riten&colon;	!
+!LO:TX:b:Bi:t=riten:mod=rit.	!	!	!	!	!	!LO:TX:b:Bi:t=riten&colon;:mod=rit.	!
 .	.	.	.	.	.	32e/K)	.
-!	!	!	!	!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines	!
+!	!	!	!	!	!	!LO:TX:b:Bi:t=cres_:problem=dynamics with extention lines:mod=	!
 !	!	!	!	!	!	!	!LO:HP:b:Bi:t=cres:ext=ud
 .	.	.	.	.	.	(<16.g/	<
 .	.	.	.	.	.	32cc/JJk)	.
-!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam:mod=	!	!	!	!	!	!	!
 (<16.G\LL]	.	(>16.e\LL]	[	(<16.g/LL]	.	(>16.ee\LL	.
 32GG/K)	.	32gK 32G\)	.	32eK 32c/)	.	32gg\K)	.
 (<16.GG/	.	(>16.g 16.G\	.	(<16.e 16.c/	.	(>16.ccc\	.
 32GG/JJk)	.	32gJJk 32G\)	.	32eJJk 32c/)	.	32eee\JJk)	[
 =94	=94	=94	=94	=94	=94	=94	=94
-!LO:TX:b:Bi:t=a tempo	!	!	!	!	!	!LO:TX:b:Bi:t=a tempo	!
+!!LO:TX:B:i:t=:mod=a tempo
+!LO:TX:b:Bi:t=a tempo:mod=	!	!	!	!	!	!LO:TX:b:Bi:t=a tempo:mod=	!
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=ff	!	!	!	!LO:MO:null:mod=ff	!	!
 8GG/	.	8g 8G\	ff	8e 8c/	.	8ggg\	ff
 8r	.	8r	.	8r	.	8r	.
 !	!	!	!LO:DY:b:rj	!	!	!	!LO:DY:b:rj
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=p	!	!	!	!	!	!
 4GG/	.	4F/	p	4r	.	(<4B/	p
 =95	=95	=95	=95	=95	=95	=95	=95
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!
+!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=p	!	!
 [<2CC/	.	(>4E/	.	(>4c/	.	8c/)	.
 .	.	.	.	.	.	8r	.
 .	.	8F/L	.	8d/L	.	4r	.
@@ -1193,26 +1306,26 @@
 .	.	4B/)	.	.	.	8dd\L	.
 .	.	.	[[	.	.	8dd#X\J	.
 =97	=97	=97	=97	=97	=97	=97	=97
-[>2C/	.	(>2c\	>]	(>8e/L	[	4ee\	[ >
+[>2C/	.	(>2c\	> ]	(>8e/L	[	4ee\	[ >
 .	.	.	.	8b-X/	>	.	.
 .	.	.	.	8a/	.	8ff\L	.
 .	.	.	.	8g/J	]]	[>8ee\J	]]
 !!LO:LB:g=original
 =98	=98	=98	=98	=98	=98	=98	=98
-!	!	!	!	!	!	!LO:TX:t=P:problem:problem=w źródle zakończenie ligatury i zakończenie łuku jako jeden pogrubiony łuk	!
+!	!	!	!	!	!	!LO:TX:t=P:problem:problem=w źródle zakończenie ligatury i zakończenie łuku jako jeden pogrubiony łuk:mod=	!
 2C/_>	.	4A/	p	4f#X/	p	8ee\])	p
 .	.	.	.	.	.	(>4dd\	.
-!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej:mod=	!	!	!
 .	.	8B/L	.	4fn/)	.	.	.
 .	.	16c/L	.	.	.	16cc\LL	.
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle łuk kończy się na kresce taktowej:mod=	!
 .	.	16d/JJ)	.	.	.	16b\JJ)	.
 =99	=99	=99	=99	=99	=99	=99	=99
-!	!	!	!	!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines	!
+!	!	!	!	!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines:mod=	!
 !	!	!	!	!	!	!	!LO:HP:b:Bi:t=dim:ext=ud
-!	!	!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines	!	!	!
+!	!	!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines:mod=	!	!	!
 !	!	!	!	!	!LO:HP:b:Bi:t=dim:ext=ud	!	!
-!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines	!	!	!	!	!
+!	!	!LO:TX:b:Bi:t=dim_:problem=dynamics with extention lines:mod=	!	!	!	!	!
 !	!	!	!LO:HP:b:Bi:t=dim:ext=ud	!	!	!	!
 2C/_>	.	(>4c\	>	(>4e/	>	(>[>2cc\	>
 .	.	8B\L	.	8f/L	.	.	.
@@ -1225,6 +1338,9 @@
 .	.	16G/L	.	16c/L	.	16e/L	.
 .	.	16F/JJ)	.	16B/JJ)	.	16d/JJ)	.
 =101	=101	=101	=101	=101	=101	=101	=101
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=p	!	!	!	!	!	!
 (<4C/	.	[>2G [<2E/	p	[<2c/	p	[<2c/	p
 8BB/L	.	.	.	.	.	.	.
 8AA/J)	.	.	.	.	.	.	.
@@ -1236,25 +1352,28 @@
 16.DD/	.	.	.	.	.	.	.
 32EE/JJk	.	.	.	.	.	.	.
 =103	=103	=103	=103	=103	=103	=103	=103
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!
+!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=p	!	!
 [<2CC/)	.	8G] 8E/]	p	8c/]	.	8c/]	p
 .	.	8r	.	8r	.	8r	.
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent	!
-!	!	!	!	!	!	!LO:TX:b:Bi:t=poco rallen_ e dimino_:dur=5q:ext=ud:problem=text with extention lines [+ dynamics with extention lines]	!
-!	!	!	!	!	!	!LO:TX:b:Bi:t=poco rallen_ e dimino_:problem=dynamics with extention lines	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!
+!	!	!	!	!	!	!LO:TX:b:Bi:t=poco rallen_ e dimino_:dur=5q:ext=ud:problem=text with extention lines[+ dynamics with extention lines]:mod=	!
+!	!	!	!	!	!	!LO:TX:b:Bi:t=poco rallen_ e dimino_:problem=dynamics with extention lines:mod=	!
 !	!	!	!	!	!	!	!LO:HP:b:Bi:t=poco rallen_ e dimino_:ext=ud
-!	!	!	!	!LO:TX:b:Bi:t=poco rallen_ e dimino_:dur=5q:ext=ud:problem=text with extention lines [+ dynamics with extention lines]	!	!	!
-!	!	!	!	!LO:TX:b:Bi:t=poco rallen_ e dimino_:problem=dynamics with extention lines	!	!	!
+!	!	!	!	!LO:TX:b:Bi:t=poco rallen_ e dimino_:dur=5q:ext=ud:problem=text with extention lines [+ dynamics with extention lines]:mod=	!	!	!
+!	!	!	!	!LO:TX:b:Bi:t=poco rallen_ e dimino_:problem=dynamics with extention lines:mod=	!	!	!
 !	!	!	!	!	!LO:HP:b:Bi:t=poco rallen_ e dimino_:ext=ud	!	!
-!	!	!LO:TX:b:Bi:t=poco rallen_ e dimino_:dur=5q:ext=ud:problem=text with extention lines [+ dynamics with extention lines]	!	!	!	!	!
-!	!	!LO:TX:b:Bi:t=poco rallen_ e dimino_:problem=dynamics with extention lines	!	!	!	!	!
-!	!	!	!LO:HP:b:Bi:t=poco rallen_ e dimino_:ext=ud	!	!	!	!
+!	!	!LO:TX:b:Bi:t=poco rallen_ e dimino_:dur=5q:ext=ud:problem=text with extention lines[+ dynamics with extention lines]:mod=	!	!	!	!	!
+!	!	!LO:TX:b:Bi:t=poco rallen_ e dimino_:problem=dynamics with extention lines:mod=	!	!	!	!	!
+!	!LO:MO:null:mod=>	!	!LO:HP:b:Bi:t=poco rallen_ e dimino_:ext=ud	!	!	!	!
 .	.	(>4F^>/	>	(<4A-X/	>	(>8d-X^</L	>
 .	.	.	.	.	.	16.c/L	.
 .	.	.	.	.	.	32B/JJk	.
 =104	=104	=104	=104	=104	=104	=104	=104
 2CC/_<	.	8E/)	.	8G/)	.	8c/)	.
 .	.	8r	.	8r	.	8r	.
-!	!	!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent	!
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=diminuendolike accent:mod=	!
 .	.	(>4F/	.	(>4A-X/	.	(>8d-X^</L	.
 .	.	.	.	.	.	16.c/L	.
 .	.	.	.	.	.	32B/JJk	.
@@ -1262,22 +1381,29 @@
 2CC/_<	.	8E/)	.	8G/)	.	8c/)	.
 .	.	8r	.	8r	.	8r	.
 .	.	8E/	.	8G/	.	8c/	.
+!	!LO:MO:null:mod=]]	!	!	!	!	!	!
 .	.	8r	]]	8r	]]	8r	]]
 =106	=106	=106	=106	=106	=106	=106	=106
 !	!	!	!LO:DY:b:rj	!	!	!	!
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=pp	!	!	!	!LO:MO:null:mod=pp	!	!
 2CC;>/]	.	2E;>/	pp	2G;>/	.	2c;>/	pp
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
-!!title: @{OTL};
+!!!system-decoration: [(s1,s2,s3,s4)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!RDF**dynam: < = "cres", fontstyle= "bold-italic"
-!!!RDF**dynam: > = "dim", fontstyle= "bold-italic"
 !!!RDF**kern: N = linked
 !!!RDF**kern: i = editorial accidental
+!!LO:MO:ori
+!!!RDF**dynam: < = "cres", fontstyle= "bold-italic"
+!!!RDF**dynam: > = "dim", fontstyle= "bold-italic"
+!!LO:MO:end
+!!!filter-modern: sic -sq  | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e "s/yy//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/LO:HP:(a|b|rj)/LO:dy:$1/L" | autostem -r | modori -m|
 !!!EED: Wojciech Jakubiak-Danek
 !!!EEV: 2021-04-10
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r1140-1
-!!!ONB-nifc: UWAGA: części Kwartetu: 1. Allegro espressivo, 2. Scherzo, 3. Adagio, 4. Finale
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-04-09
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-05

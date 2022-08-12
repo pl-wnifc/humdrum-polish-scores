@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wn--mus-iii-80-558--001-002_wieniawski-henryk--concerto-i-op-14-preghiera-larghetto.krn
 !!!cenid: 18xx:3830
 !!!COM: Wieniawski, Henryk
-!!!COM-rismid: pe137176
+!!!COM-rismID:
 !!!CDT:
 !!!CNT:
 !!!OPR: Concerto I op. 14
@@ -14,23 +14,31 @@
 !!!SMS-shelfwork: 001-002 M
 !!!SMS-variant: Partytura: PL-Wn Mus.III.80.558:20-21
 !!!SMS-altvar: VIOLON.: PL-Wn Mus.III.80.558:44
-!!!NIFC-rismid:
-!!!URL-scan: https://polona.pl/item/concerto-i-op-14,NzIyMDM2MDU/3/#info:metadata
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://polona.pl/item/concerto-i-op-14,NzIyMDM2MDU/3/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc: UWAGA: części Koncertu: 1. Allegro moderato, 2. Preghiera. Larghetto (od skanu 19), 3. Rondo (od skanu 21)
 !!!OMD: Larghetto.
+!!!OMD-mod: Larghetto
 !!!AIN: 1 piano 1 violn
 !!!key: A
 **kern	**kern	**dynam	**kern	**dynam
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
 *I"[Piano]	*I"[Piano]	*	*I"[Violon]	*
+*I'	*I'	*	*I'	*
 *Ipiano	*Ipiano	*	*Ivioln	*
 *ICklav	*ICklav	*	*ICstr	*
+*IGacmp	*IGacmp	*	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*
+*mI'pf	*mI'pf	*	*mI'vl	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[f#c#g#]	*k[f#c#g#]	*	*k[f#c#g#]	*
 *A:	*A:	*	*A:	*
 *M4/4	*M4/4	*	*M4/4	*
 *met(c)	*met(c)	*	*met(c)	*
+*mmet(c)	*mmet(c)	*	*mmet(c)	*
 *	*	*	*scale:75%	*
 =1	=1	=1	=1	=1
 *	*clefF4	*	*	*
@@ -138,12 +146,12 @@
 *	*v	*v	*	*	*
 !!LO:LB:g=original
 =15	=15	=15	=15	=15
-4f#> 4F#\	4.aa/	>	1r	.
+4f#> 4F#\	4.aa//	>	1r	.
 4e#X>: 4B: 4C#:\	.	.	.	.
-.	8gg#/	.	.	.
-4f#> 4A 4D\	4.ff#/	.	.	.
+.	8gg#//	.	.	.
+4f#> 4A 4D\	4.ff#//	.	.	.
 4c#>: 4Gn: 4AA#X:\	.	.	.	.
-.	8ee/	.	.	.
+.	8ee//	.	.	.
 =16	=16	=16	=16	=16
 *^	*^	*	*	*
 2F#/	4BB\	(4dd/)	2d\	]	1r	.
@@ -161,10 +169,13 @@
 2E/	.	2g# 2e 2d 2B/	.	.	.
 =19	=19	=19	=19	=19	=19
 *	*	*^	*	*	*
+!!LO:TX:a:B:t=M
+!	!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=grave	!
 !	!	!	!	!	!LO:TX:b:i:t=grave	!
-!	!	!	!	!	!LO:TX:a:B:t=M:rj	!
+!	!	!	!LO:MO:mod=(1c# 1A	!	!LO:TX:a:B:t=M:rj:mod=	!
 2E/	1AA	4a 4e/)	1c# 1A	]	2.a/	p <
 .	.	4rb	.	.	.	.
+!	!	!LO:MO:mod=2rb	!	!	!	!
 2E#X/	.	(2rb	.	.	.	.
 .	.	.	.	.	4c#/	[[
 *v	*v	*	*	*	*	*
@@ -259,7 +270,9 @@
 !!LO:PB:g=original
 =32	=32	=32	=32	=32
 4Cn] 4FFn/]	4cn/	.	4a/	.
+!LO:SIC:s=4rC	!	!	!	!
 4r	4fn/	.	4fn/	.
+!LO:SIC:s=4rC	!	!	!	!
 4r	4a/	.	4cn/	.
 *clefG2	*	*	*	*
 4a 4fn/	4ccn\	.	4d#X/	[[
@@ -270,7 +283,8 @@
 4a/	2e\	(2ee 2dd 2b\	>	.	.
 4g#/	.	.	.	.	.
 =34	=34	=34	=34	=34	=34
-!	!	!	!	!LO:TX:a:B:t=N:rj	!
+!!LO:TX:a:B:t=N
+!	!	!	!	!LO:TX:a:B:t=N:rj:mod=	!
 4a 4e/	1A	(32ccc#LLL 32ee 32cc#\)	p	(2.a/	p <
 .	.	32ee\	.	.	.
 .	.	32ccc# 32aa\	.	.	.
@@ -490,21 +504,29 @@
 32b\	32fff#\	.	.	.
 32dd\JJJ	32ddd\JJJ	.	.	.
 32a\LLL	32fff#\LLL	.	.	.
+!	!LO:SIC:v:s=32ddd#	!	!	!
 32dd#X\	32ddd\	.	.	.
 32a\	32fff#\	.	.	.
+!	!LO:SIC:v:s=32ddd#	!	!	!
 32dd#\	32ddd\	.	.	.
 32a\	32fff#\	.	.	.
+!	!LO:SIC:v:s=32ddd#	!	!	!
 32dd#\	32ddd\	.	.	.
 32a\	32fff#\	.	.	.
+!	!LO:SIC:v:s=32ddd#	!	!	!
 32dd#\	32ddd\	.	.	.
 32a\	32fff#\	.	4B/)	[[
+!	!LO:SIC:v:s=32ddd#	!	!	!
 32dd#\	32ddd\	.	.	.
 32a\	32fff#\	.	.	.
+!	!LO:SIC:v:s=32ddd#	!	!	!
 32dd#\	32ddd\	.	.	.
 32a\	32fff#\	.	.	.
+!	!LO:SIC:v:s=32ddd#	!	!	!
 32dd#\	32ddd\	.	.	.
 32a\	32fff#\	.	.	.
-32dd#\JJJ	32ddd\JJJ	.	.	.
+!	!LO:SIC:v:s=32ddd#XJJJ	!	!	!
+32dd#X\JJJ	32ddd\JJJ	.	.	.
 =41	=41	=41	=41	=41
 32g#\LLL	32eee\LLL	>	[2.e/	>
 32ee\	32bb\	.	.	.
@@ -779,12 +801,14 @@
 .	.	.	8G#/	.
 .	.	.	8A/	.
 .	.	.	8c#/J)	.
+!LO:SIC:s=2rE	!	!	!	!
 2r	(2cc# 2a\	p	(8f#/L	.
 .	.	.	8e#X/	.
 .	.	.	8f#/	.
 .	.	.	8c#/J)	[[
 =50	=50	=50	=50	=50
 *	*^	*	*	*
+!LO:SIC:s=1rF	!	!	!	!	!
 1r	4dd/	2a\	>	(8B/L	>
 .	.	.	.	8c#/	.
 .	8.cc#/L	.	.	8d/	.
@@ -795,6 +819,7 @@
 .	.	.	.	8e/	]
 .	.	.	.	8d/J)	<
 =51	=51	=51	=51	=51	=51
+!LO:SIC:s=1rF	!	!	!	!	!
 1r	(2cc#/	8e#X\L	<	(8c#/L	.
 .	.	8f#\	.	8d#X/	.
 .	.	8g#\	.	8e#X/	.
@@ -805,6 +830,7 @@
 .	.	.	[[	8d#/J)	[[
 !!LO:LB:g=original
 =52	=52	=52	=52	=52	=52
+!LO:SIC:s=1rF	!	!	!	!	!
 1r	4ee 4cc# 4g#\	4ryy	>	(8g#/L	>
 .	.	.	.	8G#/	.
 .	8.dd#X/L	4g# 4f#\	.	8A#X/	.
@@ -816,6 +842,7 @@
 .	.	.	.	8c#/J)	]]
 *	*v	*v	*	*	*
 =53	=53	=53	=53	=53
+!LO:SIC:s=1rF	!	!	!	!
 1r	(2cc# 2a\	<	(8A/L	<
 .	.	.	8G#/	.
 .	.	.	8A/	.
@@ -826,6 +853,7 @@
 .	.	.	8c#/J)	.
 =54	=54	=54	=54	=54
 *	*^	*	*	*
+!LO:SIC:s=1rF	!	!	!	!	!
 1r	2dd#X 2b\	2ryy	.	(8B/L	.
 .	.	.	.	8f#/	.
 .	.	.	.	8b/)	.
@@ -855,7 +883,7 @@
 8dL 8E\	8a#XL 8e/	] p	(4.G#/	] p <
 8d 8E\	8b 8e/	<	.	.
 8d 8E\	8ee 8e/	.	.	.
-!LO:TX:b:i:t=attaca subito il Rondo	!	!	!	!
+!LO:TX:b:i:t=attaca subito il Rondo:mod=	!	!	!	!
 8BJ 8E\	8g#J 8e/	[[	8dn/)	[[
 =57	=57	=57	=57	=57
 4A 4E 4AA\	4an 4e/)	>	4c#/	>
@@ -867,12 +895,16 @@
 2.AA 2.AAA/	2.c# 2.A 2.E 2.C#\	ppp	2.A/	ppp
 4r	4r	.	4r	.
 *	*clefG2	*	*	*
+!!LO:TX:a:rj:i:t=attaca subito il Rondo
 ==	==	==	==	==
 *-	*-	*-	*-	*-
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L"  | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s  | modori -m
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-05-14
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-05-14
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-07-20

@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-kozmzk--mzk-m-73_chodkiewicz-zofia--le-vieux-gondolier.krn
 !!!cenid: 18xx:2956
 !!!COM: Chodkiewicz, Zofia
-!!!COM-rismid: pe30113022
+!!!COM-rismID:
 !!!CDT: 1803-1871
 !!!CNT:
 !!!OTL: Le Vieux gondolier
@@ -12,8 +12,10 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001033730
-!!!URL-scan: https://repozytorium.nifc.pl/islandora/object/pl-kozmzk%3A12072/datastream/PDF/view
+!!!NIFC-rismSourceID: 1001033730
+!!!NIFC-islandoraID: pl-kozmzk:12072
+!!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-kozmzk%3A12072/datastream/PDF/view
+!!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/472 @EN{Scan on Polish Music Herritage in Open Access Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
 !!!OMD: Allegretto.
 !!!AIN: 1 piano 1 vox
@@ -22,6 +24,9 @@
 *part2	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1	*
 *Ipiano	*Ipiano	*	*Ivox	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Canto	*	*
+*	*I'	*	*I'	*I'	*
+*	*mI'pf	*	*mI'C	*	*
 *I"PIANO	*I"PIANO	*	*I"CHANT	*	*
 *clefF4	*clefG2	*	*clefG2	*	*
 *k[b-e-a-d-]	*k[b-e-a-d-]	*	*k[b-e-a-d-]	*	*
@@ -219,7 +224,7 @@
 .	16f/J 16a	.	.	.	.
 .	8f/J 8a	.	8ff\	se	[[
 =33	=33	=33	=33	=33	=33
-!	!	!	!LO:TX:t=P:problem=diminuendolikeaccent	!	!LO:DY:a
+!	!	!	!LO:TX:t=P:problem=diminuendolikeaccent:mod=	!	!LO:DY:a
 4.Dn\ 4.dn	8r	.	(4.ff^\	fi-	sf
 .	16f/LL 16b-	.	.	.	.
 .	16f/J 16b-	.	.	.	.
@@ -250,7 +255,7 @@
 4.D-\ 4.d-	8r	.	(8ff\]	.	.
 !	!	!LO:HP:t=dim	!	!	!
 .	16f/LL 16a- 16bn	>	8bn\)	à	.
-!LO:TX:b=2:t=Da capo la Ritournelle	!	!	!	!	!
+!LO:TX:b=2:t=Da capo la Ritournelle:mod=	!	!	!	!	!
 .	16f/J 16a- 16b	.	.	.	.
 .	8f/J 8a- 8b	.	8b\	la	.
 =39	=39	=39	=39	=39	=39
@@ -260,7 +265,7 @@
 .	8f/J 8a- 8cc	.	.	.	.
 =40	=40	=40	=40	=40	=40
 4.CC/ 4.C	8r	.	8g/)	.	.
-!	!LO:TX:b:t=ralentando	!	!LO:TX:t=P:problem=diminuendolikeaccent	!	!
+!	!LO:TX:b:t=ralentando	!	!LO:TX:t=P:problem=diminuendolikeaccent:mod=	!	!
 .	16A-/LL 16B- 16c 16en	.	8b-^/	à	.
 .	16A-/J 16B- 16c 16e	.	.	.	.
 .	8A-/J 8B- 8c 8e	.	8a-/	l'A-	.
@@ -274,9 +279,12 @@
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: s1{(s2,s3)}
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!filter-modern: | autostem -r | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | modori -m |
 !!!ENC: Marcin Jachim
 !!!END: 2021-08-13
 !!!ENC: Kamil Watkowski
 !!!END: 2021-09-09
-!!!RDF**kern: > = above
-!!!RDF**kern: < = below
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-26

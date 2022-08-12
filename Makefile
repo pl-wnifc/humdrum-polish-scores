@@ -1,7 +1,7 @@
 ##
 ## Programmer:    Craig Stuart Sapp <craig@ccrma.stanford.edu>
 ## Creation Date: Sat Aug 21 14:20:30 CEST 2021
-## Last Modified: Sat Sep  4 05:18:45 CEST 2021
+## Last Modified: Fri Aug 12 11:14:28 CEST 2022
 ## Syntax:        GNU Makefile
 ## Filename:      humdrum-polish-scores/Makefile
 ## vim:           ts=3
@@ -9,6 +9,9 @@
 ## Description:   Makefile for various actions in the
 ##                humdrum-polish-scores repository.
 ##
+
+DIR1 = ../production-polish-scores/krn-diplomatic/out
+DIR2 = ../production-polish-scores/krn-final/out
 
 
 all:
@@ -23,6 +26,8 @@ all:
 	@echo "   make source-files -- Count files by library in prod. repo."
 	@echo
 
+
+
 ##############################
 ##
 ## update -- List the library sigla and file counts for
@@ -32,8 +37,20 @@ all:
 ##
 
 u: update
-update:
-	bin/updateScores ../production-polish-scores/krn-diplomatic/out ./
+update: clear
+	bin/updateScores $(DIR1) ./
+	bin/updateScores $(DIR2) ./
+
+
+
+##############################
+##
+## clear -- Remove old kern files in preparation for copying
+##     updated files from production repository.
+##
+
+clear:
+	bin/clearScores
 
 
 
@@ -48,7 +65,8 @@ update:
 l: libraries
 library: libraries
 libraries:
-	bin/updateScores -l ../production-polish-scores/krn-diplomatic/out ./
+	bin/updateScores -l $(DIR1) ./
+	bin/updateScores -l $(DIR2) ./
 
 
 

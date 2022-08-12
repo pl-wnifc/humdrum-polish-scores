@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wtm--r-992-1_krogulski-jozef-wladyslaw--fantaisie-et-variations.krn
 !!!cenid: 18xx:2080
 !!!COM: Krogulski, Józef Władysław
-!!!COM-rismid: pe30001797
+!!!COM-rismID:
 !!!CDT: 1815/10/04-1842/01/09
 !!!CNT: Polish
 !!!OTL: Fantaisie et variations
@@ -12,28 +12,36 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001083924
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r992
+!!!NIFC-rismSourceID: 1001083924
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan:
 !!!ONB-nifc: UWAGA: w zbiorze 1. Fantaisie et vatiations (do skanu 0032) i 2. Ziemi wszechtworów (skan 0033)
 !!!OMD: Allegro.
-!!!AIN: 2 empty
-!!!key:
+!!!OMD-mod: Allegro
+!!!AIN: 2 piano
+!!!key: E-
 **kern	**kern	**dynam	**kern	**kern	**dynam
 *part2	*part2	*part2	*part1	*part1	*part1
-*staff2	*staff2	*	*staff1	*staff1	*
-*Iempty	*Iforte	*	*Iempty	*Iforte	*
+*staff4	*staff3	*	*staff2	*staff1	*
+*Ipiano	*Ipiano	*	*Ipiano	*Ipiano	*
 *I"No 2.	*I"Fortepian	*	*I"No I	*I"Fortepian	*
 *I'2	*I'pf	*	*I'1	*I'pf	*
+*ICklav	*ICklav	*	*ICklav	*ICklav	*
+*mI"Pianoforte II	*mI"Pianoforte II	*	*mI"Pianoforte I	*mI"Pianoforte I	*
+*mI'pf	*mI'pf	*	*mI'pf	*mI'pf	*
 *clefF4	*clefG2	*	*clefF4	*clefG2	*
 *k[b-e-a-]	*k[b-e-a-]	*	*k[b-e-a-]	*k[b-e-a-]	*
 *E-:	*E-:	*	*E-:	*E-:	*
 *M4/4	*M4/4	*	*M4/4	*M4/4	*
 *met(c)	*met(c)	*	*met(c)	*met(c)	*
+*mmet(c)	*mmet(c)	*	*mmet(c)	*mmet(c)	*
 *>[A,B,B1,B,B2,C,C1,C,C2,D,D1,D,D2,E,E1,E,E2,F,G,G1,G,G2,H,H1,H,H2,I,J,J1,J,J2,K,L,L1,L,L2,M,N,N1,N,N2,O]	*	*	*	*	*
 =1	=1	=1	=1	=1	=1
 *>A	*	*	*	*	*
 *	*	*^	*	*	*^
 !	!	!LO:DY:rj:b=2	!LO:DY:rj	!	!	!LO:DY:b=2	!LO:DY:b
+!	!	!LO:MO:null:mod=.	!	!	!LO:SIC:v:s=4ggg 4gg	!LO:MO:null:mod=.	!
 4GG 4GGG/	4gg 4g\	fz	fz	4g 4G\	4eee- 4gg\	fz	fz
 *	*	*v	*v	*	*	*v	*v
 4r	4r	.	4r	4r	.
@@ -52,8 +60,10 @@
 =3	=3	=3	=3	=3	=3
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 16GGG/LL	16G/LL	.	2f 2d\	2fff 2ddd 2ff\	p	p
 *	*	*	*	*	*v	*v
+!	!	!LO:SIC:v:s=4ggg 4gg	!	!	!
 16GG/	16g/	p	.	.	.
 16GGG/	16G/	.	.	.	.
 16GG/	16g/	.	.	.	.
@@ -84,6 +94,7 @@
 =5	=5	=5	=5	=5	=5
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 4AA- 4AAA-/	4aa- 4a-\	fz	4a- 4A-\	4aaa- 4aa-\	fz	fz
 *	*	*	*	*	*v	*v
 4r	4r	.	4r	4r	.
@@ -104,6 +115,7 @@
 *	*	*	*	*8va	*
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 16AAA-/LL	16A-/LL	.	2a- 2f-X/	2aaa- 2fff-X 2aa-\	p	p
 *	*	*	*	*	*v	*v
 16AA-/	16a-/	.	.	.	.
@@ -134,11 +146,12 @@
 4r;	4r;	.	4r;	4r;	.
 =9	=9	=9	=9	=9	=9
 *	*	*	*	*	*^
+!!LO:TX:t=accelerando
 !	!	!	!	!	!LO:DY:b=2	!
 4AAn 4AAAn/	4aan 4an\	fz	4an 4An/	4aaan 4aan\	fz	fz
 *	*	*	*	*	*v	*v
 4r	4r	.	4r	4r	.
-!	!LO:TX:b:t=ac-cel-le-ran-do:dur=4qe:ext=ut:ext2=u:problem=text with extention line	!	!	!LO:TX:b:t=ac-cel-le-ran-do:dur=4qe:ext=ut:ext2=u:problem=text with extention line	!
+!	!LO:TX:b:t=ac-cel-le-ran-do:dur=4qe:ext=ut:ext2=u:problem=text with extention line:mod=	!	!	!LO:TX:b:t=ac-cel-le-ran-do:dur=4qe:ext=ut:ext2=u:problem=text with extention line:mod=	!
 16AAAn/LL	16An/LL	.	8.aL 8.f/	8.aaaL 8.fff 8.aa\	.
 16AAn/	16an/	.	.	.	.
 16AAA/	16A/	.	.	.	.
@@ -161,6 +174,7 @@
 =11	=11	=11	=11	=11	=11
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:b=2	!
+!	!LO:SIC:s=4bb- 4b-	!	!	!	!LO:MO:null:mod=.	!
 4BB-X 4BBB-X/	4bb- 4b-X\	fz	4b-X 4B-X/	4bbb-X 4bb-X\	fz	fz
 *	*	*	*	*	*v	*v
 4r	4r	.	4r	4r	.
@@ -217,6 +231,7 @@
 8r	8r	.	8r	8r	.
 16CC-X/LL	16aa-LL 16ff 16ee-\	ff	16CC-X/LL	16ffLL 16ee- 16a-\	ff
 16C-X/JJ	16a-\JJ	.	16C-X/JJ	16aa-\JJ	.
+!LO:MO:null:mod=*Xtremolo	!LO:MO:null:mod=*Xtremolo	!	!LO:MO:mod=*null:null	!LO:MO:mod=*null:null	!
 *	*	*	*tremolo	*tremolo	*
 16CC-X/LL	16aa-LL 16ff 16ee-\	.	16CC-/LL	16ffLL 16ee- 16a-\	.
 16C-/	16a-\	.	16C-/	16aa-\	.
@@ -251,18 +266,22 @@
 *	*	*	*	*8va	*
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 4B- 4BB-\	4bb- 4b-\	fz	4b- 4B-\	4bbb- 4bb-\	fz	fz
 *	*	*	*	*	*v	*v
 *	*	*	*	*X8va	*
 4r	4r	.	4r	4r	.
 2r;	2r;	.	2r;	2r;	.
 =17	=17	=17	=17	=17	=17
+!!!OMD:
+!!!OMD-mod: Andante
+*ped	*	*	*	*	*
 *tremolo	*tremolo	*	*	*	*
 *	*	*^	*	*	*^
-!	!	!LO:DY:b=2	!	!	!LO:TX:a:B:t=Andante.	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!LO:DY:b=2	!	!	!LO:TX:a:B:t=Andante.:mod=	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!
 16EE-/LL	16e-/LL	pp	pp	2e- 2B- 2G 2E-\	2ee- 2b- 2g\	pp	pp
 *	*	*v	*v	*	*	*v	*v
-*	*ped	*	*	*	*
 16E-/	16ee-/	.	.	.	.
 16EE-/	16e-/	.	.	.	.
 16E-/	16ee-/	.	.	.	.
@@ -304,6 +323,7 @@
 16E-/	16ee-/	.	.	.	.	.	.
 16EE-/	16e-/	.	.	.	.	.	.
 16E-/	16ee-/	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=*null:null	!	!LO:MO:mod=*null:null	!	!
 *	*	*	*Xtuplet	*	*Xtuplet	*	*
 16EE-/	16e-/	.	12f/L	4c- 4A-\	12ff/L	4cc-\	.
 16E-/	16ee-/	.	.	.	.	.	.
@@ -370,6 +390,7 @@
 16EE-/	16e-/	.	8.b-L 8.fn 8.d/	8.bb-L 8.ffn 8.dd\	.
 16E-/	16ee-/	.	.	.	.
 16EE-/	16e-/	.	.	.	.
+!	!	!	!LO:SIC:v:s=16a-Jk 16f	!	!
 16E-/	16ee-/	.	16aJk 16f#X/	16aa-XJk 16ff\	.
 16EE-/	16e-/	.	4g 4e-/	4gg 4ee-\	.
 16E-/	16ee-/	.	.	.	.
@@ -383,6 +404,7 @@
 =23	=23	=23	=23	=23	=23
 *	*	*^	*	*	*^
 !	!	!LO:DY:rj:b=2	!LO:DY:rj	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!
 16GGG/LL	16G/LL	f	f	2G 2GG\	2gg 2bn 2g\	f	f
 *	*	*v	*v	*	*	*v	*v
 16GG/	16g/	.	.	.	.
@@ -392,9 +414,13 @@
 16GG/	16g/	.	.	.	.
 16GGG/	16G/	.	.	.	.
 16GG/JJ	16g/	.	.	.	.
+!LO:MO:null:mod=*Xtremolo	!	!	!	!	!
+*	*	*	*	*	*
 16AAAn/LL	16G/	.	4An 4AAn\	4ff#X 4cc 4g\	.
+!LO:SIC:s=16AA	!	!	!	!	!
 16AAn/JJ	16g/	.	.	.	.
 *rep	*	*	*	*	*
+!LO:SIC:s=16AAA	!	!	!	!	!
 16AAAn/LL	16G/	.	.	.	.
 16AAn/JJ	16g/	.	.	.	.
 *Xrep	*	*	*	*	*
@@ -449,6 +475,7 @@
 =26	=26	=26	=26	=26	=26
 *	*	*^	*	*	*^
 !	!	!LO:DY:rj:b=2	!LO:DY:rj	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!
 16CC/LL	2g 2e- 2c/	ff	ff	2c 2G 2E- 2C\	2ee-X 2cc 2g\	ff	ff
 *	*	*v	*v	*	*	*v	*v
 16C/	.	.	.	.	.
@@ -482,6 +509,7 @@
 16DD/	.	.	.	.	.
 16D/JJ	.	.	.	.	.
 *rep	*	*	*	*	*
+!	!	!	!LO:SIC:v:s=4d 4A 4F# 4D	!	!
 16DD/LL	4a 4f#X 4c/	.	4d 4A- 4F#X 4D\	4ddd: 4ff#X: 4cc:\	.
 16D/	.	.	.	.	.
 16DD/	.	.	.	.	.
@@ -510,6 +538,7 @@
 *	*	*	*	*	*^
 *tremolo	*tremolo	*	*	*	*	*
 !	!	!	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!	!	!	!LO:MO:null:mod=.	!
 16EE-/LL	16e-/LL	pp	2e- 2B- 2G 2E-\	2ee- 2b- 2g\	pp	pp
 *	*	*	*	*	*v	*v
 16E-/	16ee-/	.	.	.	.
@@ -553,10 +582,12 @@
 16E-/	16ee-/	.	.	.	.	.	.
 16EE-/	16e-/	.	.	.	.	.	.
 16E-/	16ee-/	.	.	.	.	.	.
+!	!	!	!	!	!LO:SIC:s=12ffL	!	!
 16EE-/	16e-/	.	12f/L	4c- 4A-\	(12ff/L	4cc-\	.
 16E-/	16ee-/	.	.	.	.	.	.
 .	.	.	12e-/	.	12ee-/	.	.
 16EE-/	16e-/	.	.	.	.	.	.
+!	!	!	!	!	!LO:SIC:s=12ffJ	!	!
 .	.	.	12f/J	.	12ff/J)	.	.
 16E-/	16ee-/	.	.	.	.	.	.
 16EE-/	16e-/	.	4g 4e- 4B- 4G/	2rcyy	4gg 4ee- 4b-\	2rcyy	.
@@ -571,6 +602,7 @@
 *	*	*	*v	*v	*	*	*
 *	*	*	*	*v	*v	*
 !!LO:LB:g=original
+!!ignore
 =32	=32	=32	=32	=32	=32
 *rep	*rep	*	*	*	*
 16EE-/LL	16e-/LL	.	2g 2e-/	2gg 2ee-\	.
@@ -618,6 +650,7 @@
 16EE-/	16e-/	.	8.b-L 8.fn 8.d/	8.bb-L 8.ffn 8.dd\	.
 16E-/	16ee-/	.	.	.	.
 16EE-/	16e-/	.	.	.	.
+!	!	!	!LO:SIC:v:s=16a-Jk 16f	!LO:SIC:v:s=16aa-Jk 16ff	!
 16E-/	16ee-/	.	16aJk 16f/	16aaJk 16ff\	.
 16EE-/	16e-/	.	4g 4e-/	4gg 4ee-\	.
 16E-/	16ee-/	.	.	.	.
@@ -629,12 +662,14 @@
 16E-/JJ	16ee-/JJ	.	.	.	.
 *	*	*^	*	*	*
 !	!	!LO:DY:b=2	!	!	!	!
+!	!	!LO:MO:null:mod=.	!LO:MO:null:mod=.	!	!	!
 .	.	f	f	.	.	.
 *	*	*v	*v	*	*	*
 *Xrep	*Xrep	*	*clefF4	*	*
 =35	=35	=35	=35	=35	=35
 *	*	*	*	*	*^
-!	!	!	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!LO:MO:null:mod=f	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!	!	!	!LO:MO:null:mod=.	!
 16GGG/LL	16G/LL	.	2G 2GG\	2gg 2bn 2g\	f	f
 *	*	*	*	*	*v	*v
 16GG/	16g/	.	.	.	.
@@ -699,6 +734,7 @@
 =38	=38	=38	=38	=38	=38
 *	*	*^	*	*	*^
 !	!	!LO:DY:rj:b=2	!LO:DY:rj	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!
 16CC/LL	2g 2e- 2c/	ff	ff	2c 2G 2E- 2C\	2ee-X 2cc 2g\	ff	ff
 *	*	*v	*v	*	*	*v	*v
 16C/	.	.	.	.	.
@@ -760,9 +796,12 @@
 *Xtremolo	*	*	*	*	*	*
 *	*	*	*	*v	*v	*
 =41||	=41||	=41||	=41||	=41||	=41||
-!	!	!	!	!LO:TX:a:B:t=Allegro.	!
+!!!OMD:
+!!!OMD-mod: Allegro
+!	!	!	!	!LO:TX:a:B:t=Allegro.:mod=	!
 *	*	*^	*	*	*^
 !	!	!LO:DY:rj:b=2	!LO:DY:rj	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!
 8E-L 8EE-/	8gL 8e- 8B-/	f	f	8e-L 8E-\	8ee-L 8b- 8g\	f	f
 *	*	*v	*v	*	*	*v	*v
 16E-/L	16e-/L	.	16e-\L	16ee-\L	.
@@ -929,6 +968,7 @@
 16BBB-/	16cc\LL	.	16AA- 16FF 16DD\	16eee-\LL	.
 16BB-/	16b-\	.	16BB-\	16ddd\	.
 16BBB-/	16a-\	.	16AA- 16FF 16DD\	16ccc\	.
+!	!	!	!	!	!
 *	*	*	*X8ba	*X8va	*
 16BB-/	16g\JJ	.	16B-\	16b-\JJ	.
 !	!LO:TX:a:t=loco	!	!	!LO:TX:a:t=loco	!
@@ -1141,40 +1181,44 @@
 16D/JJ	16a-Jk 16f 16B- 16A-/	.	16d\JJ	16aaa-Jk 16fff 16bb- 16aa-\	.
 =59	=59	=59	=59	=59	=59
 2BB- 2BBB-;/	2a- 2f 2d 2A-;/	.	2B- 2BB-;\	2aaa- 2fff 2ddd 2aa-;\	.
-4r;	4r;	.	4r;	100ggg\LL	.
-.	.	.	.	100fff\	.
-.	.	.	.	100eee-\	.
-.	.	.	.	100ddd\	.
-.	.	.	.	100eee-\	.
-.	.	.	.	100fff\	.
-.	.	.	.	100eee-\	.
-.	.	.	.	100ddd\	.
-.	.	.	.	100ccc\	.
-.	.	.	.	100bb-\	.
+4r;	4r;	.	4r;	16ggg\LL	.
+.	.	.	.	16fff\	.
+.	.	.	.	16eee-\	.
+.	.	.	.	16ddd\	.
+1ryyyy	1ryyyy	.	1ryyyy	16eee-\	.
+.	.	.	.	16fff\	.
+.	.	.	.	16eee-\	.
+.	.	.	.	16ddd\	.
+.	.	.	.	16ccc\	.
+.	.	.	.	16bb-\	.
+.	.	.	.	16aan\	.
 *	*	*	*	*X8va	*
-.	.	.	.	100an\	.
 !	!	!	!	!LO:TX:a:t=loco	!
-.	.	.	.	100B-X\	.
-.	.	.	.	100ff\	.
-.	.	.	.	100dd\	.
-.	.	.	.	100b-\	.
-.	.	.	.	100a\	.
-.	.	.	.	100f\	.
-.	.	.	.	100d\	.
-.	.	.	.	100B-\	.
-.	.	.	.	100d\	.
-.	.	.	.	100f\	.
-.	.	.	.	100a\	.
-.	.	.	.	100b-\	.
-.	.	.	.	100dd\	.
-.	.	.	.	100ff\JJ	.
+.	.	.	.	16B-X\	.
+.	.	.	.	16ff\	.
+.	.	.	.	16dd\	.
+.	.	.	.	16b-\	.
+.	.	.	.	16a\	.
+.	.	.	.	16f\	.
+.	.	.	.	16d\	.
+.	.	.	.	16B-\	.
+.	.	.	.	16d\	.
+4ryyyy	4ryyyy	.	4ryyyy	16f\	.
+.	.	.	.	16a\	.
+.	.	.	.	16b-\	.
+.	.	.	.	16dd\	.
+16ryyyy	16ryyyy	.	16ryyyy	16ff\JJ	.
+!	!	!	!	!LO:SIC:v:s=2aa- 2ff 2dd 2a-	!
 2A- 2BB-;\	2f 2d;/	.	2B- 2BB-;\	2aa- 2ff 2dd 2a;\	.
 !!LO:LB:g=original
 =60	=60	=60	=60	=60	=60
+!!!OMD:
+!!!OMD-mod: Marche
 *tremolo	*tremolo	*	*	*	*
-!	!	!	!	!LO:TX:a:B:t=Marche	!
+!	!	!	!	!LO:TX:a:B:t=Marche:mod=	!
 *	*	*^	*	*	*
 !	!	!LO:DY:rj:b=2	!LO:DY:rj	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!	!
 16BBB-/LL	16B-/LL	p	p	2r	2r	.
 *	*	*v	*v	*	*	*
 16BB-/	16b-/	.	.	.	.
@@ -1243,6 +1287,7 @@
 *>B	*	*	*	*	*
 *	*	*^	*	*	*^
 !	!	!LO:DY:rj:b=2	!LO:DY:rj	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!LO:MO:null:mod=.	!	!	!	!	!
 4E- 4EE-/	4ee- 4e-\	f	f	4e- 4B- 4G 4E-\	4eee- 4bb- 4gg 4ee-\	f	f
 *	*	*v	*v	*	*	*v	*v
 8.BB-L 8.BBB-/	8.b-L 8.B-/	.	8.e-L 8.B- 8.G 8.E-\	8.eee-L 8.bb- 8.gg 8.ee-\	.
@@ -1302,7 +1347,7 @@
 4G 4GG\	4gg 4g\	.	4g 4e- 4B- 4G	4eee- 4bb- 4gg 4ee-\	.
 4E- 4EE-/	4ee- 4e-\	.	4e- 4B- 4G 4E-\	4ggg 4eee- 4bb- 4gg\	.
 =71	=71	=71	=71	=71	=71
-!LO:TX:a:t=V1	!	!	!	!	!
+!LO:TX:a:t=V1:mod=1.	!	!	!	!	!
 *>B1	*	*	*	*	*
 4BB- 4BBB-/	4b- 4B-/	.	4B- 4F 4D 4BB-\	4bbb- 4fff 4ddd 4bb-\	.
 *	*	*	*	*X8va	*
@@ -1311,7 +1356,7 @@
 4BB- 4BBB-/	4b- 4B-/	.	4BB- 4BBB-/	4bb- 4b-\	.
 4r	4r	.	4r	4r	.
 =72:|!	=72:|!	=72:|!	=72:|!	=72:|!	=72:|!
-!LO:TX:a:t=V2	!	!	!	!	!
+!LO:TX:a:t=V2:mod=2.	!	!	!	!	!
 *>B2	*	*	*	*	*
 *	*	*	*	*8va	*
 4BB- 4BBB-/	4b- 4B-/	.	4B- 4F 4D 4BB-\	4bbb- 4fff 4ddd 4bb-\	.
@@ -1323,7 +1368,7 @@
 *	*	*	*clefG2	*	*
 4r	4r	.	8.fL 8.B-/	8.ffL 8.dd\	.
 .	.	.	16gJk 16e-/	16ggJk 16ee-\	.
-=73:|!|:	=73:|!|:	=73:|!|:	=73:|!|:	=73:|!|:	=73:|!|:
+=73!|:	=73!|:	=73!|:	=73!|:	=73!|:	=73!|:
 *>C	*	*	*	*	*
 *	*	*	*	*^	*
 1r	1r	.	4a- 4f/	4aa- 4ff 4dd\	2.rcyy	.
@@ -1391,6 +1436,7 @@
 16C/	8ccJ 8c/	.	.	.	.
 16BB/JJ	.	.	16gJk 16e- 16c\	16eee-Jk 16ccc 16gg 16ee-\	.
 4C 4CC/	4cc 4c/	.	4g 4e- 4c\	4eee- 4ccc 4gg 4ee-\	.
+!LO:SIC:v:s=4BB- 4BBB-	!	!	!	!	!
 4BB 4BBB-/	4een 4dd-X 4g 4en/	.	4g 4en 4d-X 4B-\	4ggg 4eeen 4ddd-X 4gg\	.
 =79	=79	=79	=79	=79	=79
 *8ba	*	*	*	*	*
@@ -1403,7 +1449,7 @@
 *	*	*	*	*v	*v	*
 *	*	*	*	*X8va	*
 =80	=80	=80	=80	=80	=80
-!LO:TX:a:t=V1	!	!	!	!	!
+!LO:TX:a:t=V1:mod=1.	!	!	!	!	!
 *>C1	*	*	*	*	*
 4EE-/	4ee- 4b- 4g 4e-/	.	4e- 4E-\	4eee- 4gg\	.
 !	!	!	!	!LO:TX:a:t=loco	!
@@ -1415,7 +1461,7 @@
 4r	4r	.	8.fL 8.B-/	8.ffL 8.dd\	.
 .	.	.	16gJk 16e-/	16ggJk 16ee-\	.
 =81:|!	=81:|!	=81:|!	=81:|!	=81:|!	=81:|!
-!LO:TX:a:t=V2	!	!	!	!	!
+!LO:TX:a:t=V2:mod=2.	!	!	!	!	!
 *>C2	*	*	*	*	*
 *	*	*	*clefF4	*	*
 4E- 4EE-/	4ee- 4b- 4g 4e-/	.	4e- 4E-\	4eee- 4gg\	.
@@ -1495,6 +1541,7 @@
 *8ba	*	*	*clefG2	*8va	*
 *	*	*^	*	*	*
 !	!	!LO:DY:rj:b=2	!LO:DY:rj	!	!	!
+!	!	!LO:MO:null:mod=.	!LO:MO:null:mod=.	!	!	!
 4EE-/	4ee- 4b- 4g 4e-\	f	f	8ee-L 8e-/	8eeee-L 8eee-\	.
 *	*	*v	*v	*	*	*
 .	.	.	16ddL 16d/	16ddddL 16ddd\	.
@@ -1538,6 +1585,7 @@
 .	.	.	16fJJ 16d/	16ffJJ 16dd\	.
 =89	=89	=89	=89	=89	=89
 *8ba	*	*	*	*8va	*
+!	!	!LO:MO:null:mod=.	!	!	!
 4CC/	4cc 4g 4e- 4c/	f	8ccL 8c/	8ccccL 8ccc\	.
 *	*	*	*8ba	*	*
 .	.	.	16B-/L	16bbb-L 16bb-\	.
@@ -1648,7 +1696,7 @@
 .	.	.	16GG\JJ	16eee-JJ 16ee-\	.
 *	*	*	*X8ba	*X8va	*
 =94	=94	=94	=94	=94	=94
-!LO:TX:a:t=V1	!	!	!	!	!
+!LO:TX:a:t=V1:mod=1.	!	!	!	!	!
 *>D1	*	*	*	*	*
 8F 8FF/	8ff 8dd 8b- 8f\	.	16B-\	16ffn 16dd 16b- 16fn\	.
 !	!	!	!	!LO:TX:a:t=loco	!
@@ -1661,6 +1709,7 @@
 8F 8FF/	8ff 8cc 8an 8f\	.	16g 16e-/	16gg 16ee-\	.
 .	.	.	16anJJ 16c/	16aanJJ 16cc\	.
 *tremolo	*	*	*	*	*
+!	!	!LO:MO:null:mod=<	!	!	!
 (16BBB-/LL	16ddLL 16b- 16f\	.	16b-LL 16d/	16bb-LL 16dd\	<
 *	*	*	*	*8va	*
 16BB-/	32bb-L 32b-\	.	16b- 16B-/	16bbb- 16bb-\	.
@@ -1670,10 +1719,11 @@
 16BBB-/	16bb-LL 16b-\	.	16bnLL 16Bn/	16bbbnLL 16bbn\	.
 16BB-/	16aan 16an\	.	16cc 16c/	16cccc 16ccc\	.
 16BBB-/	16aa-X 16a\	.	16cc#X 16c#X/	16cccc#X 16ccc#X\	.
+!	!	!LO:MO:null:mod=[[	!	!	!
 16BB-/JJ)	16ffJJ 16f\	.	16ddJJ 16d/	16ddddJJ 16ddd\	[[
 *Xtremolo	*	*	*	*X8va	*
 =95:|!	=95:|!	=95:|!	=95:|!	=95:|!	=95:|!
-!LO:TX:a:t=V2	!	!	!	!	!
+!LO:TX:a:t=V2:mod=2.	!	!	!	!	!
 *>D2	*	*	*	*	*
 *	*	*	*clefF4	*	*
 8F 8FF/	8ff 8dd 8b- 8f\	.	16B- 16BB-\	16ffn 16dd 16b- 16fn\	.
@@ -1824,8 +1874,12 @@
 .	.	.	16e-LL 16E-\	16eee-LL 16ee-\	.
 8r	8r	.	16d 16D\	16ddd 16dd\	.
 .	.	.	16e-JJ 16E-\	16eee-JJ 16ee-\	.
+!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!
+!	!	!	!	!	!
+!	!	!LO:MO:null:mod=fz	!	!	!
 4G 4GG\	4dd-X 4b-X 4en\	.	16enLL 16En\	16eeenLL 16een\	.
 .	.	.	16d-X 16D-X\	16ddd-X 16dd-X\	.
+!	!	!	!LO:SIC:v:s=16B- 16BB-	!LO:SIC:v:s=16bb- 16b-	!
 .	.	.	16B 16BB-\	16bb- 16b\	.
 .	.	.	16GJJ 16GG\	16ggJJ 16g\	.
 =102	=102	=102	=102	=102	=102
@@ -1842,6 +1896,7 @@
 (16BBB-/LL	16ee- 16b- 16g\	.	16b- 16g/	16bb- 16gg\	.
 *	*	*	*	*8va	*
 16BB-/	16r	.	16b-LL 16B-/	16bbb-LL 16bb-\	.
+!	!LO:MO:mod=*null:null	!	!	!	!
 *	*Xtuplet	*	*	*	*
 16BBB-/	24bb-LL 24b-\	.	16an 16An/	16aaan 16aan\	.
 .	24bb- 24b-\	.	.	.	.
@@ -1853,7 +1908,7 @@
 16BB-/JJ)	16ffJJ 16f\	.	16ddJJ 16d/	16ddddJJ 16ddd\	.
 !!LO:LB:g=original
 =103	=103	=103	=103	=103	=103
-!LO:TX:a:t=V1	!	!	!	!	!
+!LO:TX:a:t=V1:mod=1.	!	!	!	!	!
 *>E1	*	*	*	*	*
 8E- 8EE-/	8ee- 8e-\	.	16ee- 16e-/	16eeee- 16eee-\	.
 *	*	*	*	*X8va	*
@@ -1877,7 +1932,7 @@
 .	8b-\J	.	.	16fff 16ff\	.
 .	.	.	.	16dddJJ 16dd\	.
 =104:|!	=104:|!	=104:|!	=104:|!	=104:|!	=104:|!
-!LO:TX:a:t=V2	!	!	!	!	!
+!LO:TX:a:t=V2:mod=2.	!	!	!	!	!
 *>E2	*	*	*	*	*
 *	*	*	*	*8va	*
 8E- 8EE-/	8ee- 8e-\	.	16ee- 16e-/	16eeee- 16eee-\	.
@@ -1957,6 +2012,7 @@
 16EE-/	8.g 8.e- 8.B-/	.	4e- 4E-\	8.gg 8.ee- 8.b-\	.
 16E-/	.	.	.	.	.
 16EE-/	.	.	.	.	.
+!	!LO:SIC:v:s=16fJk 16d 16A-	!	!	!LO:SIC:v:s=16ffJk 16dd 16a-	!
 16E-/JJ	16fJk 16d- 16A-/	.	.	16ffJk 16dd- 16a-\	.
 *Xtremolo	*	*	*Xrep	*	*
 =110	=110	=110	=110	=110	=110
@@ -1976,6 +2032,7 @@
 16EE-/	8.g 8.e- 8.B-/	.	4e- 4E-\	8.gg 8.ee- 8.b-\	.
 16E-/	.	.	.	.	.
 16EE-/	.	.	.	.	.
+!	!LO:SIC:v:s=16fJk 16d 16A-	!	!	!LO:SIC:v:s=16ffJk 16dd 16a-	!
 16E-/JJ	16fJk 16d- 16A-/	.	.	16ffJk 16dd- 16a-\	.
 *Xrep	*Xrep	*	*Xrep	*Xrep	*
 =111	=111	=111	=111	=111	=111
@@ -1989,11 +2046,15 @@
 4r	4r	.	4r	4r	.
 2r	2r	.	2r	2r	.
 !!LO:LB:g=original
+!LO:MO:mod==113||	!LO:MO:mod==113||	!LO:MO:mod==113||	!LO:MO:mod==113||	!LO:MO:mod==113||	!LO:MO:mod==113||
 =113	=113	=113	=113	=113	=113
+!!!OMD:
+!!!OMD-mod: Alla polacca
 *M3/4	*M3/4	*	*M3/4	*M3/4	*
 *8ba	*	*	*	*	*
-!	!	!	!	!LO:TX:a:B:t=Var&colon; 3.	!
-!LO:TX:t=P:problem=mixed beam	!	!	!	!LO:TX:a:B:t=Alla Polacca.	!
+!!LO:TX:B:t=Var. 3.
+!	!	!	!	!LO:TX:a:B:t=Var&colon; 3.:mod=	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!LO:TX:a:B:t=Alla Polacca.:mod=	!
 8BBB-/L	8ddL 8b- 8f\	p	2.r	2.r	.
 16BB-\L	16ddL 16b- 16f\	.	.	.	.
 16BB-\JJ	16ddJJ 16b- 16f\	.	.	.	.
@@ -2046,13 +2107,18 @@
 *>G	*	*	*	*	*
 *Xtremolo	*	*	*	*	*
 *8ba	*	*	*	*	*
-!	!	!LO:DY:rj	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!
+!	!	!LO:DY:rj	!	!	!LO:MO:null:mod=f
 16EE-/LL	16ee-LL 16e-/	f	8.e-L 8.G\	8.ee-L 8.g\	.
 16BBB-/	16b- 16B-/	.	.	.	.
 16EE-/	16ee- 16e-/	.	.	.	.
 16BBB-/JJ	16b-JJ 16B-/	.	16B-Jk 16G\	16b-Jk 16g\	.
 *X8ba	*	*	*	*	*
 8E- 8EE-/	8ee-L 8e-/	.	8e-L 8G\	8ee-L 8g\	.
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=p
 8B-\L	8b-/	p	8B- 8G\	8b- 8g\	.
 8G\	8g/	.	8e- 8G\	8ee- 8g\	.
 8E-\J	8e-/J	.	8gJ 8e-\	8ggJ 8ee-\	.
@@ -2072,7 +2138,9 @@
 *	*	*	*clefF4	*	*
 =119	=119	=119	=119	=119	=119
 *8ba	*	*	*	*	*
-!	!	!LO:DY:rj	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!
+!	!	!LO:DY:rj	!	!	!LO:MO:null:mod=f
 16CC/LL	16ccLL 16c/	f	8.cL 8.E-\	8.ccL 8.e-\	.
 16GGG/	16g 16G/	.	.	.	.
 16CC/	16cc 16c/	.	.	.	.
@@ -2080,7 +2148,11 @@
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 8CC/L	8ccL 8c/	.	8cL 8E-\	8ccL 8e-\	.
 *X8ba	*	*	*	*	*
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!
+!	!	!LO:MO:null:mod=p	!	!	!LO:MO:null:mod=p
 8G\	8g/	.	8G 8E-\	8g 8e-\	.
+!	!	!LO:MO:null:mod=.	!	!	!
 8E-\	8e-/	p	8c 8E-\	8cc 8e-\	.
 8C\J	8c/J	.	8e-J 8c\	8ee-J 8cc\	.
 *	*	*	*clefG2	*	*
@@ -2098,6 +2170,7 @@
 16C\JJ	16c/JJ	.	.	.	.
 =121	=121	=121	=121	=121	=121
 *8ba	*	*	*	*	*
+!	!	!LO:MO:null:mod=.	!	!	!
 8FF\L	8a-L 8f 8c/	p	16a-/LL	16aa-\LL	.
 .	.	.	16en/	16een\	.
 16FF\L	16a-L 16f 16c/	.	16f/	16ff\	.
@@ -2137,7 +2210,7 @@
 8EE-\J	8ee-J 8b- 8g\	.	16ff\	16fff\	.
 .	.	.	16ee-\JJ	16eee-\JJ	.
 =124	=124	=124	=124	=124	=124
-!LO:TX:a:t=V1	!	!	!	!	!
+!LO:TX:a:t=V1:mod=1.	!	!	!	!	!
 *>G1	*	*	*	*	*
 8FF\L	8ddL 8b- 8f\	.	16dd\LL	16ddd\LL	.
 .	.	.	16bb-\	16bbb-\	.
@@ -2161,6 +2234,7 @@
 32BBB-/	16b-JJ 16B-/	.	16B-\JJ	16b-\JJ	.
 32BB-/JJJ	.	.	.	.	.
 =125:|!	=125:|!	=125:|!	=125:|!	=125:|!	=125:|!
+!LO:TX:a:t=2:mod=2.	!	!	!	!	!
 *>G2	*	*	*	*	*
 *8ba	*	*	*clefG2	*8va	*
 8FF\L	8ddL 8b- 8f\	.	16dd\LL	16ddd\LL	.
@@ -2242,6 +2316,7 @@
 *8ba	*	*	*	*	*
 *	*	*^	*	*	*
 !	!	!LO:DY:b=2	!	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!	!
 8EE-/L	8ggL 8ee- 8b- 8g\	f	f	16e-/LL	16ee-\LL	f
 *	*	*v	*v	*	*	*
 .	.	.	16g/	16gg\	.
@@ -2282,7 +2357,7 @@
 8AAA/J	8ccJ 8f# 8e-\	.	16dd\	16ddd\	.
 .	.	.	16cc\JJ	16ccc\JJ	.
 =133	=133	=133	=133	=133	=133
-!LO:TX:a:t=V1	!	!	!	!	!
+!LO:TX:a:t=V1:mod=1.	!	!	!	!	!
 *>H1	*	*	*	*	*
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 16BBB-/LL	8b-L 8g 8e-\	.	16b-\LL	16bb-\LL	.
@@ -2302,16 +2377,19 @@
 16r	16r	.	16r	16r	.
 *	*	*	*	*	*^
 !	!LO:TUP:a	!	!	!	!LO:DY:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 8r	24b-\LL	p	16fLL 16d/	16ffLL 16dd\	p	p
 *	*	*	*	*	*v	*v
 .	24b-\	.	.	.	.
 .	.	.	16gJJ 16e-/	16ggJJ 16ee-\	.
 .	24b-\JJ	.	.	.	.
 =134:|!	=134:|!	=134:|!	=134:|!	=134:|!	=134:|!
+!LO:TX:a:t=2:mod=2.	!	!	!	!	!
 *>H2	*	*	*	*	*
 *8ba	*	*	*	*8va	*
 *	*	*	*	*	*^
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!LO:DY:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 16BBB-/LL	8b-L 8g 8e-\	f	16b-\LL	16bb-\LL	f	f
 *	*	*	*	*	*v	*v
 16BB-\	.	.	16ee-\	16eee-\	.
@@ -2365,13 +2443,13 @@
 16r	16r	.	16r	16r	.
 *8ba	*	*	*	*	*
 16EE-/	16ee- 16e-/	.	16E- 16EE-/	16ee- 16e-\	.
-!	!	!	!	!LO:TX:a:t=b	!
+!	!	!	!	!LO:TX:a:t=b:mod=	!
 8.EE-/L	8.ee-L 8.e-/	.	8.GL 8.GG/	8.bb-L 8.b-\	.
-!	!	!	!	!LO:TX:a:t=g	!
+!	!	!	!	!LO:TX:a:t=g:mod=	!
 16BBB-/K	16b-K 16B-/	.	16E-K 16EE-/	16ggK 16g\	.
-!	!	!	!	!LO:TX:a:t=es	!
+!	!	!	!	!LO:TX:a:t=es:mod=	!
 8.GG/	8.gg 8.g/	.	8.B- 8.BB-/	8.eee- 8.ee-\	.
-!	!	!	!	!LO:TX:a:t=b	!
+!	!	!	!	!LO:TX:a:t=b:mod=	!
 16EE-/Jk	16ee-Jk 16e-/	.	16GJk 16GG/	16aa-Jk 16a-\	.
 *X8ba	*	*	*	*	*
 =138	=138	=138	=138	=138	=138
@@ -2402,6 +2480,7 @@
 16EE-/	8.g 8.e- 8.B-/	.	4e- 4E-\	8.gg 8.ee- 8.b-\	.
 16E-/	.	.	.	.	.
 16EE-/	.	.	.	.	.
+!	!LO:SIC:v:s=16fJk 16d 16A-	!	!	!LO:SIC:v:s=16ffJk 16dd 16a-	!
 16E-/JJ)	16fJk 16d- 16A-/	.	.	16ffJk 16dd- 16a-\	.
 =140	=140	=140	=140	=140	=140
 *rep	*	*	*rep	*	*
@@ -2416,6 +2495,7 @@
 16EE-/	8.g 8.e- 8.B-/	.	4e- 4E-\	8.gg 8.ee- 8.b-\	.
 16E-/	.	.	.	.	.
 16EE-/	.	.	.	.	.
+!	!LO:SIC:v:s=16fJk 16d 16A-	!	!	!LO:SIC:v:s=16ffJk 16dd 16a-	!
 16E-/JJ)	16fJk 16d- 16A-/	.	.	16ffJk 16dd- 16a-\	.
 *Xrep	*	*	*Xrep	*	*
 !!LO:LB:g=original
@@ -2494,83 +2574,92 @@
 4D 4DD/	4ff 4b- 4a- 4d\	.	4b- 4a- 4f 4d/	4fff 4bb- 4aa- 4ff\	.
 =150	=150	=150	=150	=150	=150
 2BB- 2BBB-;/	2aa- 2ff 2dd 2a-;\	.	2b- 2f 2d 2B-;/	2aaa- 2fff 2ddd 2aa-;\	.
-1r;	1r;	.	128b->\LL	64ryy	.
-.	.	.	128dd>\JJ	.	.
-.	.	.	64ryy	128aaa-/LL	.
-.	.	.	.	128fff/JJ	.
-.	.	.	128cc-X>\LL	64ryy	.
-.	.	.	128dd>\JJ	.	.
-.	.	.	64ryy	128aaa-/LL	.
-.	.	.	.	128fff/JJ	.
-.	.	.	128b->\LL	64ryy	.
-.	.	.	128dd>\JJ	.	.
-.	.	.	64ryy	128aaa-/LL	.
-.	.	.	.	128fff/JJ	.
-.	.	.	128cc-X>\LL	64ryy	.
-.	.	.	128dd>\JJ	.	.
-.	.	.	64ryy	128aaa-/LL	.
-.	.	.	.	128fff/JJ	.
-.	.	.	128b->\LL	64ryy	.
-.	.	.	128dd>\JJ	.	.
-.	.	.	64ryy	128aaa-/LL	.
-.	.	.	.	128fff/JJ	.
-.	.	.	128a->\LL	64ryy	.
-.	.	.	128b->\JJ	.	.
-.	.	.	64ryy	128fff/LL	.
-.	.	.	.	128ddd/JJ	.
-.	.	.	128f>\LL	64ryy	.
-.	.	.	128a->\JJ	.	.
-.	.	.	64ryy	128ddd/LL	.
-.	.	.	.	128bb-/JJ	.
-.	.	.	128d>\LL	64ryy	.
-.	.	.	128f>\JJ	.	.
-.	.	.	64ryy	128bb-/LL	.
-.	.	.	.	128aa-/JJ	.
-.	.	.	128b->\LL	64ryy	.
-.	.	.	128dd>\JJ	.	.
-.	.	.	64ryy	128aaa-/LL	.
+1r;	1r;	.	16bb->\LL	8ryy	.
+.	.	.	16ddd>\JJ	.	.
+.	.	.	8ryy	16aaa-/LL	.
+.	.	.	.	16fff/JJ	.
+.	.	.	16ccc-X>\LL	8ryy	.
+.	.	.	16eee->\JJ	.	.
+.	.	.	8ryy	16aaa-/LL	.
+.	.	.	.	16fff/JJ	.
+.	.	.	16bb->\LL	8ryy	.
+.	.	.	16ddd>\JJ	.	.
+.	.	.	8ryy	16aaa-/LL	.
+.	.	.	.	16fff/JJ	.
+.	.	.	16ccc-X>\LL	8ryy	.
+.	.	.	16eee->\JJ	.	.
+.	.	.	8ryy	16aaa-/LL	.
+.	.	.	.	16fff/JJ	.
+1ryyyy	1ryyyy	.	16bb->\LL	8ryy	.
+.	.	.	16ddd>\JJ	.	.
+.	.	.	8ryy	16aaa-/LL	.
+.	.	.	.	16fff/JJ	.
+.	.	.	16aa->\LL	8ryy	.
+.	.	.	16bb->\JJ	.	.
+.	.	.	8ryy	16fff/LL	.
+.	.	.	.	16ddd/JJ	.
+.	.	.	16ff>\LL	8ryy	.
+.	.	.	16aa->\JJ	.	.
+.	.	.	8ryy	16ddd/LL	.
+.	.	.	.	16bb-/JJ	.
+.	.	.	16d>\LL	8ryy	.
+.	.	.	16f>\JJ	.	.
+.	.	.	8ryy	16bb-/LL	.
+.	.	.	.	16aa-/JJ	.
 *	*	*	*	*X8va	*
-.	.	.	.	128ff/JJ	.
 !	!	!	!	!LO:TX:a:t=loco	!
-.	.	.	128a->\LL	64ryy	.
-.	.	.	128b->\JJ	.	.
-.	.	.	64ryy	128ff/LL	.
-.	.	.	.	128dd/JJ	.
-.	.	.	128f>\LL	64ryy	.
-.	.	.	128a->\JJ	.	.
-.	.	.	64ryy	128dd/LL	.
-.	.	.	.	128b-/JJ	.
-.	.	.	128c>\LL	64ryy	.
-.	.	.	128f>\JJ	.	.
-.	.	.	64ryy	128b-/LL	.
-.	.	.	.	128a-/JJ	.
-.	.	.	128B-\LL	64ryy	.
-.	.	.	128d\JJ	.	.
-.	.	.	64ryy	128a-/LL	.
-.	.	.	.	128f/JJ	.
-.	.	.	128c-X\LL	64ryy	.
-.	.	.	128e-\JJ	.	.
-.	.	.	64ryy	128a-/LL	.
-.	.	.	.	128f/JJ	.
-.	.	.	128B-\LL	64ryy	.
-.	.	.	128d\JJ	.	.
-.	.	.	64ryy	128a-/LL	.
-.	.	.	.	128f/JJ	.
-.	.	.	128c-X\LL	64ryy	.
-.	.	.	128e-\JJ	.	.
-.	.	.	64ryy	128a-/LL	.
-.	.	.	.	128f/JJ	.
-.	.	.	2bb- 2gg;\	2a- 2f;/	.
+1ryyyy	1ryyyy	.	16b->\LL	8ryy	.
+.	.	.	16dd>\JJ	.	.
+.	.	.	8ryy	16aa-/LL	.
+.	.	.	.	16ff/JJ	.
+!	!	!	!	!	!
+.	.	.	16a->\LL	8ryy	.
+.	.	.	16b->\JJ	.	.
+.	.	.	8ryy	16ff/LL	.
+.	.	.	.	16dd/JJ	.
+.	.	.	16f>\LL	8ryy	.
+.	.	.	16a->\JJ	.	.
+.	.	.	8ryy	16dd/LL	.
+.	.	.	.	16b-/JJ	.
+.	.	.	16c>\LL	8ryy	.
+.	.	.	16f>\JJ	.	.
+.	.	.	8ryy	16b-/LL	.
+.	.	.	.	16a-/JJ	.
+!	!	!	!LO:MO:null:mod=*clefF4	!	!
+*	*	*	*	*	*
+1ryyyy	1ryyyy	.	16B-\LL	8ryy	.
+.	.	.	16d\JJ	.	.
+.	.	.	8ryy	16a-/LL	.
+.	.	.	.	16f/JJ	.
+.	.	.	16c-X\LL	8ryy	.
+.	.	.	16e-\JJ	.	.
+.	.	.	8ryy	16a-/LL	.
+.	.	.	.	16f/JJ	.
+.	.	.	16B-\LL	8ryy	.
+.	.	.	16d\JJ	.	.
+.	.	.	8ryy	16a-/LL	.
+.	.	.	.	16f/JJ	.
+.	.	.	16c-X\LL	8ryy	.
+.	.	.	16e-\JJ	.	.
+.	.	.	8ryy	16a-/LL	.
+.	.	.	.	16f/JJ	.
+!	!	!	!LO:SIC:v:s=2d 2B-;\\	!	!
+2ryy	2ryy	.	2bb- 2gg;\	2a- 2f;/	.
 =151!|:	=151!|:	=151!|:	=151!|:	=151!|:	=151!|:
 *k[b-e-a-d-g-c-]	*k[b-e-a-d-g-c-]	*	*k[b-e-a-d-g-c-]	*k[b-e-a-d-g-c-]	*
 *G-:	*G-:	*	*G-:	*G-:	*
 *M4/4	*M4/4	*	*M4/4	*M4/4	*
 *met(c)	*met(c)	*	*met(c)	*met(c)	*
+*mmet(c)	*mmet(c)	*	*mmet(c)	*mmet(c)	*
 *>J	*	*	*	*	*
-!	!	!	!	!LO:TX:a:B:t=Adagio	!
-!	!	!	!	!LO:TX:a:B:t=Var&colon; 4.	!
+!!!OMD:
+!!!OMD-mod: Adagio
+!!LO:TX:B:t=Var. 4.
+!	!	!	!	!LO:TX:a:B:t=Adagio:mod=	!
+!	!	!	!	!LO:TX:a:B:t=Var&colon; 4.:mod=	!
 *	*	*^	*	*	*
 !	!	!LO:DY:rj:b=2	!LO:DY:rj	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!	!
 4E- 4BB- 4GG- 4EE-/	4g- 4e- 4B- 4G-/	f	f	2r	2r	.
 *	*	*v	*v	*	*	*
 8.E-L 8.BB- 8.GG- 8.EE-/	8.g-L 8.e- 8.B- 8.G-/	.	.	.	.
@@ -2617,6 +2706,7 @@
 .	.	.	16a-\LL	16aaa-LL 16aa-\)	.
 .	.	.	16g-\	16ggg- 16gg-\	.
 .	.	.	16f\	16fff 16ff\	.
+!	!	!LO:MO:null:mod=.	!	!	!
 .	.	f	16e-\JJ	16eee-JJ 16ee-\	.
 =153	=153	=153	=153	=153	=153
 .	.	.	(16qqdd-/	(<8qqdddd- 8qqddd-/	.
@@ -2625,6 +2715,7 @@
 16C-Jk 16GG- 16EE- 16CC-/	16g-Jk 16e- 16c- 16G-/	.	.	.	.
 4C- 4GG- 4EE- 4CC-/	4g- 4e- 4c- 4G-/	.	4r	4r	.
 4C- 4GG- 4EE- 4CC-/	4g- 4e- 4c- 4G-/	.	8.r	8.r	.
+!	!	!	!	!	!LO:MO:null:mod=.
 .	.	.	16cc-\	16cccc- 16ccc-\	f
 =154	=154	=154	=154	=154	=154
 32FF#XLLL 32DD#X 32BBBn/	32d#XLLL 32Bn 32F#X/	.	8bn\L	8bbbnL 8bbn\	.
@@ -2667,13 +2758,18 @@
 .	.	.	16an/JJ	16aaanJJ 16aan\	.
 *	*	*	*	*X8va	*
 =155	=155	=155	=155	=155	=155
+!	!	!	!	!LO:SIC:s=(16qqaan 16qqan	!
 .	.	.	(16qqan/	16qqaan 16qqan/	.
 *	*	*	*^	*^	*
+!	!	!	!	!	!LO:SIC:s=4gg# 4g#)	!	!
 4En 4BBn 4GG#X 4EEn\	4g#X 4en 4Bn 4G#X/	.	4g#X/)	2.rcyy	4gg#X 4g#X/	2.ryy	.
-!	!	!	!	!	!LO:TX:a:t=loco	!	!
+!	!	!	!LO:SIC:v:s=8.bL 8.e	!	!LO:TX:a:t=loco	!	!
 8.EL 8.EE/	8.g#L 8.e 8.B 8.G#/	.	8.bnL 8.e-\	.	8.gg#XL 8.een\	.	.
+!	!	!	!LO:SIC:v:s=16bJk 16e	!	!	!	!
 16EJk 16EE/	16g#Jk 16e 16B 16G#/	.	16bJk 16e-\	.	16gg#Jk 16ee\	.	.
+!	!	!	!LO:SIC:v:s=4b 4e	!	!	!	!
 4E 4EE/	4g# 4e 4B 4G#/	.	4b 4e-/	.	4gg# 4ee\	.	.
+!	!	!	!LO:MO:mod=*null:null	!	!LO:MO:mod=*null:null	!	!
 *	*	*	*Xtuplet	*	*Xtuplet	*	*
 4BB#X 4BBB#X/	4f#X 4d#X 4G#/	.	12f#X/L	4d#X\	12ff#X/L	4dd#X\	.
 .	.	.	12g#/	.	12gg#/	.	.
@@ -2700,22 +2796,24 @@
 *	*	*	*v	*v	*	*
 =157	=157	=157	=157	=157	=157
 !	!	!	!LO:TX:t=P:problem=mixed beam	!	!
-8.GG#XL 8.GGG#X\	8.BnL 8.G#X< 8.D#X</	.	8.BnL 8.G#X/	8.bnL 8.g#X\	.
+8.GG#XL 8.GGG#X\\	8.BnL 8.G#X< 8.D#X</	.	8.BnL 8.G#X/	8.bnL 8.g#X\	.
 *	*	*	*	*8va	*
-16GG#K 16GGG#\	16b-K 16d#X/	.	16dd#X\K 16bn\	16ddd#XK 16bbn\	.
-8.AA#X 8.AAA#X\	8.a#X 8.c#X/	.	8.cc#X\ 8.a#X\	8.ccc#X 8.aa#X\	.
-16BBnJk 16BBBn\	16g#XJk 16B/	.	16b\Jk 16g#X\	16bbJk 16gg#X\	.
+16GG#K 16GGG#\\	16b-K 16d#X/	.	16dd#X\K 16bn\	16ddd#XK 16bbn\	.
+8.AA#X 8.AAA#X\\	8.a#X 8.c#X/	.	8.cc#X\ 8.a#X\	8.ccc#X 8.aa#X\	.
+16BBnJk 16BBBn\\	16g#XJk 16B/	.	16b\Jk 16g#X\	16bbJk 16gg#X\	.
 4C#X 4CC#X/	4f#X 4A#X/	.	4a#X 4f#X\	4aa#X 4ff#X\	.
 4C# 4CC#/	4e#X 4B 4G#/	.	4g#X 4e#X\	4gg#X 4ee#X\	.
 *	*	*	*	*X8va	*
 =158	=158	=158	=158	=158	=158
-!LO:TX:a:t=V1	!	!	!	!	!
+!LO:TX:a:t=V1:mod=1.	!	!	!	!	!
 *>J1	*	*	*	*	*
-!LO:TX:b:t=8	!	!	!LO:TX:a:t=loco	!LO:TX:a:t=loco	!
+!LO:TX:b:t=8:mod=	!	!	!LO:TX:a:t=loco	!LO:TX:a:t=loco	!
+!LO:SIC:s=4FF# 4FFF#	!	!	!	!	!
 4FF#X/	4f#X 4A#X< 4F#X</	.	4f#X/	4ff#X\	.
 4F#X 4FF#\	8.ff#XL 8.cc#X 8.a#X 8.f#\	.	8.cc#XL 8.a#X 8.f#\	8.fff#XL 8.ccc#X 8.aa#X 8.ff#\	.
 .	16ff#Jk 16cc# 16a# 16f#\	.	16cc#Jk 16a# 16f#\	16fff#Jk 16ccc# 16aa# 16ff#\	.
-!LO:TX:b:t=8	!	!	!	!	!
+!LO:TX:b:t=8:mod=	!	!	!	!	!
+!LO:SIC:s=16FF# 16FFF#	!	!	!	!	!
 16FF#/	16ff# 16cc# 16a# 16f#\	.	16cc# 16a# 16f#\	16fff# 16ccc# 16aa# 16ff#\	.
 16r	16r	.	16r	16r	.
 8r	8r	.	16r	16r	.
@@ -2724,13 +2822,16 @@
 .	.	.	16B-/Jk	16dd-Jk 16fn\	.
 *X8ba	*	*	*	*	*
 =159:|!	=159:|!	=159:|!	=159:|!	=159:|!	=159:|!
+!LO:TX:a:t=2:mod=2.	!	!	!	!	!
 *>J2	*	*	*	*	*
-!LO:TX:b:t=8	!	!	!LO:TX:a:t=loco	!LO:TX:a:t=loco	!
+!LO:TX:b:t=8:mod=	!	!	!LO:TX:a:t=loco	!LO:TX:a:t=loco	!
+!LO:SIC:s=4FF# 4FFF#	!	!	!	!	!
 4FF#X/	4f#X 4A#X< 4F#X</	.	4f#X/	4ff#X\	.
 *X	*	*	*	*	*
 4F 4FF#X\	8.ff#XL 8.cc#X 8.a#X 8.f#\	.	8.cc#XL 8.a#X 8.f#\	8.fff#XL 8.ccc#X 8.aa#X 8.ff#\	.
 .	16ff#Jk 16cc# 16a# 16f#\	.	16cc#Jk 16a# 16f#\	16fff#Jk 16ccc# 16aa# 16ff#\	.
-!LO:TX:b:t=8	!	!	!	!	!
+!LO:TX:b:t=8:mod=	!	!	!	!	!
+!LO:SIC:s=16FF# 16FFF#	!	!	!	!	!
 16FF#/	16ff# 16cc# 16a# 16f#\	.	16cc# 16a# 16f#\	16fff# 16ccc# 16aa# 16ff#\	.
 16r	16r	.	16r	16r	.
 8r	16r	.	16r	16r	.
@@ -2783,12 +2884,15 @@
 *>L	*	*	*	*	*
 4B- 4BB-\	4b- 4f 4dn 4B-/	.	4f 4dn/	4ff 4ddn\	.
 *	*	*	*	*8va	*
+!	!	!	!LO:SIC:s=(36bb-LLL	!LO:SIC:s=(36bbb-LLL	!
 32BBB-/LLL	8.b-L 8.f 8.d 8.B-/	.	36bb-\LLL	36bbb-\LLL	.
+!	!	!	!LO:SIC:s=36ff	!	!
 .	.	.	(36ff\	36fff\	.
 32BB-/	.	.	.	.	.
 .	.	.	36dd\	36dddn\	.
 32BBB-/	.	.	.	.	.
 *	*	*	*	*X8va	*
+!	!	!	!	!LO:SIC:s=36bb-	!
 .	.	.	36b-/	(36bb-\	.
 32BB-/	.	.	.	.	.
 .	.	.	36f\	36ff\	.
@@ -2796,10 +2900,12 @@
 .	.	.	36dn\	36dd/	.
 32BB-/	.	.	.	.	.
 *	*	*	*clefF4	*	*
+!	!	!	!LO:SIC:s=36B-	!	!
 .	.	.	36B-\)	36b-\	.
 32BBB-/	16b-Jk 16f 16d 16B-/	.	.	.	.
 .	.	.	36F\	36f\	.
 32BB-/JJJ	.	.	.	.	.
+!	!	!	!LO:SIC:s=36DnJJJ)	!	!
 .	.	.	36Dn\JJJ	36dn\JJJ)	.
 !	!	!	!	!LO:TX:t=	!
 8.BB-L 8.BBB-/	8.b-L 8.f 8.d 8.B-/	.	8.BB-/L	8.B-/L	.
@@ -2835,15 +2941,18 @@
 32BBn/	.	.	.	.	.
 32BBBn/	.	.	.	.	.
 32BBn/	.	.	.	.	.
+!	!LO:SIC:v:s=8.dd#L 8.b 8.f# 8.d#	!	!	!	!
 32BBBn/	8.dd#L 8.b 8.f# 8.d-\	.	8.BL 8.BB\	8.ddd#L 8.bb 8.ff# 8.dd#X\	.
 32BBn/	.	.	.	.	.
 32BBBn/	.	.	.	.	.
 32BBn/	.	.	.	.	.
 32BBBn/	.	.	.	.	.
 32BBn/	.	.	.	.	.
+!	!LO:SIC:v:s=16dd# 16b 16f# 16d#Jk	!	!	!	!
 32BBBn/	16dd#Jk 16b 16f# 16d-\	.	16BJk 16BB\	16ddd#Jk 16bb 16ff# 16dd#\	.
 32BBn/JJJ)	.	.	.	.	.
 *Xtremolo	*	*	*	*	*
+!	!LO:SIC:v:s=4dd# 4b 4f# 4d#	!	!	!	!
 4BB 4BBB/	4dd# 4b 4f# 4d-\	.	4B 4BB\	4ddd# 4bb 4ff# 4dd#\	.
 4AAn 4AAAn/	4gg- 4ee-X 4ccn 4g-X\	.	4An 4AAn\	4ggg-X 4eee-X 4cccn 4gg-X\	.
 =166	=166	=166	=166	=166	=166
@@ -2871,7 +2980,7 @@
 32BB-/JJJ)	.	.	.	.	.
 *Xtremolo	*	*	*	*	*
 =167	=167	=167	=167	=167	=167
-!LO:TX:a:t=VI	!	!	!	!	!
+!LO:TX:a:t=VI:mod=1.	!	!	!	!	!
 *>L1	*	*	*	*	*
 4E- 4EE-/	4ee- 4g- 4e-\	.	4e- 4E-\	4eee- 4gg- 4ee-\	.
 *	*	*	*	*X8va	*
@@ -2887,7 +2996,7 @@
 .	16c-X/Jk	.	16cc-\Jk	16ccc-\Jk	.
 *	*	*	*clefF4	*	*
 =168:|!	=168:|!	=168:|!	=168:|!	=168:|!	=168:|!
-!LO:TX:a:t=VII	!	!	!	!	!
+!LO:TX:a:t=VII:mod=2.	!	!	!	!	!
 *>L2	*	*	*	*	*
 *k[]	*k[]	*	*k[]	*k[]	*
 *C:	*C:	*	*C:	*C:	*
@@ -2896,6 +3005,9 @@
 4B 4BB\	4b 4f# 4d#/	.	4r	4r	.
 4B 4BB\	4b 4f# 4d#/	.	8.r	8.r	.
 *	*	*	*clefG2	*	*
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=p
 .	.	.	16B/KL	16bbKL 16b\	.
 4B 4BB\	4b 4f# 4d#/	.	8.d#X/	8.ddd# 8.dd#\	.
 .	.	.	16B/Jk	16bbJk 16b\	.
@@ -3013,6 +3125,7 @@
 *rep	*tremolo	*	*rep	*tremolo	*
 *	*	*^	*	*	*
 !	!	!	!LO:DY:b=2	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!	!
 16GGG/LL	16ee-XLL 16cc 16a-X\	ff	ff	16GG/LL	16eee-XLL 16ccc 16aa-X\	ff
 *	*	*v	*v	*	*	*
 16GG/	16aa-X\	.	16G\	16aaa-X\	.
@@ -3026,7 +3139,9 @@
 !!LO:PB:g=original
 =181	=181	=181	=181	=181	=181
 *rep	*	*	*rep	*	*
-!LO:TX:t=P:problem=mixed beam	!	!	!LO:TX:t=P:problem=grupa skreślona	!	!
+!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!LO:MO:null:mod=p	!LO:TX:t=P:problem=grupa skreślona	!	!LO:MO:null:mod=p
 16GG/LL	4gg 4dd 4b\	.	16GGG/LL	4ggg 4ddd 4bb\	.
 !LO:TX:t=P:problem=grupa skreślona	!	!	!	!	!
 16G/	.	.	16GG/	.	.
@@ -3039,6 +3154,7 @@
 16G/JJ	.	.	16GG/JJ	.	.
 *	*	*^	*	*	*
 !	!	!LO:DY:b=2	!	!	!LO:TX:a:t=loco	!LO:DY:rj
+!	!	!LO:MO:null:mod=.	!	!	!	!
 16GG/LL	16eee-XLL 16ccc 16aa-X\	ff	ff	16GGG/LL	16ee-XLL 16cc 16a-X\	ff
 *	*	*v	*v	*	*	*
 16G/	16aaa-X\	.	16GG/	16aa-X\	.
@@ -3095,7 +3211,7 @@
 =185	=185	=185	=185	=185	=185
 *tremolo	*tremolo	*	*	*	*
 *	*	*^	*	*	*
-!	!	!LO:DY:b=2	!	!	!	!
+!	!	!LO:DY:b=2	!LO:MO:null:mod=.	!	!	!
 16Bn\LL	16a-X/LL	ppp	ppp	1r	1r	.
 *	*	*v	*v	*	*	*
 16d\	16f/	.	.	.	.
@@ -3128,6 +3244,7 @@
 *tremolo	*tremolo	*	*	*	*
 *	*	*^	*	*	*
 !	!	!LO:DY:b=2	!	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!	!
 16BLL 16G\	16g/LL	ppp	ppp	1r	1r	.
 *	*	*v	*v	*	*	*
 16d\	16f/	.	.	.	.
@@ -3185,11 +3302,13 @@
 *Xrep	*Xrep	*	*	*	*
 =190	=190	=190	=190	=190	=190
 *	*	*	*	*8va	*
+!LO:MO:null:mod=*Xped	!	!	!	!	!
 *	*	*	*tremolo	*	*
 8GGG\	8GG</	.	16G\LL	16gggLL 16bb\	ppp
 .	.	.	16g\	16fff 16ddd\	.
 8r	8r<	.	16G\	16aaa-X 16ccc\	.
 .	.	.	16g\	16fffJJ 16ddd\	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *Xped	*	*	*	*rep	*
 4r	4r<	.	16G\	16gggLL 16bb\	.
 .	.	.	16g\	16fff 16ddd\	.
@@ -3209,35 +3328,47 @@
 *	*	*	*Xtremolo	*	*
 =191	=191	=191	=191	=191	=191
 *ped	*	*	*	*	*
+!LO:MO:mod=*null:null	!	!	!	!	!
 *Xtuplet	*	*	*	*	*
+!	!LO:SIC:s=(20GG<LL	!	!	!	!
 20GGG\LL	20GG</LL	.	8g 8G\	8ggg 8eee-X 8ccc\	.
+!	!LO:SIC:s=20AA<	!	!	!	!
 20AAA\	(20AA</	.	.	.	.
 20BBB\	20BB</	.	.	.	.
 *	*	*	*	*X8va	*
 .	.	.	8r	8r	.
 20CC\	20C</	.	.	.	.
 20DD\JJ	20D</JJ)	.	.	.	.
+!	!LO:MO:mod=*null:null	!	!	!	!
 *	*Xtuplet	*	*	*	*
 20EE-X\LL	(20E-X</LL	.	4r	4r	.
 20DD\	20D</	.	.	.	.
 20CC\	20C</	.	.	.	.
+!	!LO:SIC:s=20BB<	!	!	!	!
 20BBB\	20BB</)	.	.	.	.
+!	!LO:SIC:s=20AA<JJ)	!	!	!	!
 20AAA\JJ	20AA</JJ	.	.	.	.
 *rep	*rep	*	*	*	*
+!	!LO:SIC:s=(20GG<LL	!	!	!	!
 20GGG\LL	20GG</LL	.	2r	2r	.
+!	!LO:SIC:s=20AA<	!	!	!	!
 20AAA\	(20AA</	.	.	.	.
 20BBB\	20BB</	.	.	.	.
 20CC\	20C</	.	.	.	.
 20DD\JJ	20D</JJ)	.	.	.	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *Xped	*	*	*	*	*
 20EE-\LL	(20E-</LL	.	.	.	.
 20DD\	20D</	.	.	.	.
 20CC\	20C</	.	.	.	.
+!	!LO:SIC:s=20BB<	!	!	!	!
 20BBB\	20BB</)	.	.	.	.
+!	!LO:SIC:s=20AA<JJ)	!	!	!	!
 20AAA\JJ	20AA</JJ	.	.	.	.
 *Xrep	*Xrep	*	*	*	*
 =192	=192	=192	=192	=192	=192
 *	*	*	*	*8va	*
+!LO:MO:null:mod=*Xped	!	!	!	!	!
 *	*	*	*tremolo	*	*
 8GGG\	8GG</	.	16G\LL	16aaaLL 16ccc\	.
 .	.	.	16g\	16fff#X 16eee-X\	.
@@ -3284,6 +3415,7 @@
 *Xrep	*Xrep	*	*	*	*
 =194	=194	=194	=194	=194	=194
 *	*	*	*	*8va	*
+!	!	!	!	!	!LO:MO:null:mod=.
 8GGG\	8GG</	.	16G\LL	16gggLL 16bb\	ppp
 .	.	.	16g\	16fff 16ddd\	.
 8r	8r<	.	16G\	16aaa-X 16ccc\	.
@@ -3306,21 +3438,28 @@
 .	.	.	16g\JJ	16fffJJ 16ddd\	.
 =195	=195	=195	=195	=195	=195
 *	*tuplet	*	*	*	*
+!	!LO:SIC:s=(20GG<LL	!	!	!	!
 20GGG\LL	20GG</LL	.	8g 8G\	8ggg 8eee-X 8ccc\	.
+!	!LO:SIC:s=20AA<	!	!	!	!
 20AAA\	(20AA</	.	.	.	.
 20BBB\	20BB</	.	.	.	.
 *	*	*	*	*X8va	*
 .	.	.	8r	8r	.
 20CC\	20C</	.	.	.	.
 20DD\JJ	20D</JJ)	.	.	.	.
+!	!LO:MO:mod=*null:null	!	!	!	!
 *	*Xtuplet	*	*	*	*
 20EE-X\LL	(20E-X</LL	.	4r	4r	.
 20DD\	20D</	.	.	.	.
 20CC\	20C</	.	.	.	.
+!	!LO:SIC:s=20BB<	!	!	!	!
 20BBB\	20BB</)	.	.	.	.
+!	!LO:SIC:s=20AA<JJ)	!	!	!	!
 20AAA\JJ	20AA</JJ	.	.	.	.
 *rep	*rep	*	*	*	*
+!	!LO:SIC:s=(20GG<LL	!	!	!	!
 20GGG\LL	20GG</LL	.	2r	2r	.
+!	!LO:SIC:s=20AA<	!	!	!	!
 20AAA\	(20AA</	.	.	.	.
 20BBB\	20BB</	.	.	.	.
 20CC\	20C</	.	.	.	.
@@ -3328,7 +3467,9 @@
 20EE-\LL	(20E-</LL	.	.	.	.
 20DD\	20D</	.	.	.	.
 20CC\	20C</	.	.	.	.
+!	!LO:SIC:s=20BB<	!	!	!	!
 20BBB\	20BB</)	.	.	.	.
+!	!LO:SIC:s=20AA<JJ)	!	!	!	!
 20AAA\JJ	20AA</JJ	.	.	.	.
 *Xrep	*Xrep	*	*	*	*
 =196	=196	=196	=196	=196	=196
@@ -3356,6 +3497,7 @@
 .	.	.	16g\JJ	16eee-JJ 16ccc\	.
 *	*	*	*	*Xrep	*
 =197	=197	=197	=197	=197	=197
+!	!	!LO:MO:null:mod=pp	!	!	!
 16GGG\LL	2r<	.	8g 8G\	8ggg 8ddd 8bb\	.
 16AAA\	.	.	.	.	.
 *	*	*	*	*X8va	*
@@ -3366,6 +3508,7 @@
 16BBB\	.	.	.	.	.
 16AAA\JJ	.	.	.	.	.
 *rep	*	*	*	*	*
+!	!	!LO:MO:null:mod=.	!	!	!
 16GGG\LL	16G</LL	pp	2r	2r	.
 16AAA\	16A</	.	.	.	.
 16BBB\	16B</	.	.	.	.
@@ -3377,22 +3520,27 @@
 *Xrep	*	*	*	*	*
 =198	=198	=198	=198	=198	=198
 *rep	*	*	*	*	*
-!	!	!	!	!	!LO:DY:b=2
+!	!	!	!LO:SIC:s=(16GGLL	!	!LO:DY:b=2
 16GGG\LL	16G</LL	.	16GG\LL	2r	pp
+!	!	!	!LO:SIC:s=16AA	!	!
 16AAA\	(16A</	.	(16AA\	.	.
 16BBB\	16B</	.	16BB\	.	.
 16CC\JJ	16c</JJ	.	16C\JJ	.	.
 16DD\LL	16d</LL	.	16D\LL	.	.
 16CC\	16c</	.	16C\	.	.
+!	!	!	!LO:SIC:s=16BB	!	!
 16BBB\	16B</)	.	16BB\)	.	.
+!	!	!	!LO:SIC:s=16AAJJ)	!	!
 16AAA\JJ	16A</JJ	.	16AA\JJ	.	.
 *Xrep	*	*	*	*	*
 *rep	*rep	*	*	*	*
+!	!	!	!LO:SIC:s=(16GGLL	!LO:SIC:s=(16gLL	!LO:MO:null:mod=.
 16GGG\LL	16G</LL	.	16GG\LL	16g/LL	pp
+!	!	!	!LO:SIC:s=16AA	!LO:SIC:s=16a	!
 16AAA\	(16A</	.	(16AA\	(16a/	.
 16BBB\	16B</	.	16BB\	16b/	.
 16CC\JJ	16c</JJ	.	16C\JJ	16cc/JJ	.
-!	!	!	!	!LO:TX:b:t=cres-cen-do:ext2=cd:problem=dynamics with extention lines	!
+!	!	!	!	!LO:TX:b:t=cres-cen-do:ext2=cd:problem=dynamics with extention lines:mod=	!
 16DD\LL	16d</LL	.	16D\LL	16dd/LL	<
 16CC\	16c</	.	16C\	16cc/	.
 16BBB\	16B</)	.	16BB\	16b/	.
@@ -3402,7 +3550,7 @@
 8GGG\L	8G</	.	8GG\L	8g\L	.
 !	!LO:TX:t=P:problem=mixed beam	!	!	!	!
 16GGG\L	16d/LL	.	16BB\L	16g\L	.
-!	!LO:TX:b:t=cres-cen-do:ext2=cd:problem=dynamics with extention lines	!	!	!	!
+!	!LO:TX:b:t=cres-cen-do:ext2=cd:problem=dynamics with extention lines:mod=	!	!	!	!
 16GG\JJ	16dd\JJ	<	16B\JJ	16gg\JJ	.
 *tremolo	*	*	*	*	*
 (16GGG/LL	16e-X/LL	.	16C\LL	16a-X\LL	.
@@ -3466,7 +3614,7 @@
 16GGLL 16EE- 16CC/	16ggLL 16ee- 16cc\	.	16DD\	16D</	.
 16C/JJ	16ccc\JJ	.	16EE-\JJ	16E-</JJ	.
 *	*tremolo	*	*	*	*
-(16GGLL 16EE- 16CC/	(16ggLL 16ee- 16cc\	.	16FF<\LL	16F</LL	.
+(16GGLL 16EE- 16CC/	(16ggLL 16ee- 16cc\	.	16FF\LL	16F</LL	.
 16C/	16ccc\	.	16GG\	16G</	.
 16GG 16EE- 16CC/	16gg 16ee- 16cc\	.	16AAn\	16An</	.
 16C/	16ccc\	.	16BBn\JJ	16Bn</JJ	.
@@ -3550,6 +3698,7 @@
 16BBn/JJ	16dd\JJ	.	16B\JJ	16bb\JJ	.
 =205	=205	=205	=205	=205	=205
 16C 16CC/	16cc 16c/	.	16c 16C\	16ccc 16cc\	.
+!	!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*	*clefF4	*
 16r	16r	.	16CC\LL	16C</LL	.
 16GGLL 16EE- 16CC/	16ggLL 16ee- 16cc\	.	16DD\	16D</	.
@@ -3594,6 +3743,7 @@
 16A-LL 16F 16C\	16aa- 16ff 16dd\	.	8r	8r	.
 16Bn\JJ	16bb\JJ	.	.	.	.
 *	*	*	*tuplet	*tuplet	*
+!	!	!	!	!LO:SIC:s=(20ffffLL	!
 16A-LL 16F 16C\	8aa- 8ff 8dd\	.	(20ff\LL	20ffff\LL	.
 .	.	.	20een\	20eeeen\	.
 16B\	.	.	.	.	.
@@ -3601,6 +3751,7 @@
 16A- 16F 16C\	8r	.	.	.	.
 .	.	.	20dd\	20dddd\	.
 16B\JJ	.	.	.	.	.
+!	!	!	!	!LO:SIC:s=20ccccJJ)	!
 .	.	.	20cc\JJ)	20cccc\JJ	.
 !!LO:LB:g=original
 *tremolo	*	*	*	*	*
@@ -3608,6 +3759,7 @@
 16B\	16bb\	.	.	.	.
 16A- 16F 16C\	16aa- 16ff 16dd\	.	8r	8r	.
 16B\	16bb\JJ	.	.	.	.
+!	!	!	!	!LO:SIC:s=(20ffffLL	!
 16A- 16F 16C\	8aa- 8ff 8dd\	.	(20ff\LL	20ffff\LL	.
 .	.	.	20een\	20eeeen\	.
 16B\	.	.	.	.	.
@@ -3615,6 +3767,7 @@
 16A- 16F 16C\	8r	.	.	.	.
 .	.	.	20dd\	20dddd\	.
 16B\JJ	.	.	.	.	.
+!	!	!	!	!LO:SIC:s=20ccccJJ)	!
 .	.	.	20cc\JJ)	20cccc\JJ	.
 =208	=208	=208	=208	=208	=208
 *rep	*	*	*	*	*
@@ -3655,6 +3808,7 @@
 .	.	.	16c\	16ccc\	.
 *	*	*^	*	*	*
 !	!	!LO:DY:b=2	!	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!	!
 8C 8GG 8EE- 8CC/	8ccc 8gg 8ee- 8cc\	fz	fz	16G 16E- 16C\	16gg 16ee- 16cc\	.
 *	*	*v	*v	*	*	*
 .	.	.	16c\	16ccc\	.
@@ -3711,6 +3865,7 @@
 *	*clefG2	*	*	*	*
 *	*	*^	*	*	*
 !	!	!LO:DY:b=2	!	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!	!
 8A- 8F 8D 8AA-\	8ccc 8aa- 8ff 8cc\	fz	fz	16F 16C 16AA-\	16ff 16cc\	.
 *	*	*v	*v	*	*	*
 .	.	.	16A-\	16ccc\	.
@@ -3718,11 +3873,13 @@
 .	.	.	16A-\JJ	16ccc\JJ	.
 =212	=212	=212	=212	=212	=212
 *clefG2	*	*	*	*	*
+!LO:SIC:v:s=16ddLL	!LO:SIC:v:s=16dddLL	!	!	!	!
 16dd-\LL	16ddd-\LL	.	16AA-\LL	16ff#XLL 16dd 16cc\	.
 16cc\	16ccc\	.	16A-\	16ccc\	.
 16a-\	16aa-\	.	16AA-\	16ff# 16dd 16cc\	.
 16f#X\JJ	16ff#X\JJ	.	16A-\	16ccc\	.
 *clefF4	*	*	*	*	*
+!LO:SIC:v:s=16dLL	!LO:SIC:v:s=16ddLL	!	!	!	!
 16d-\LL	16dd-\LL	.	16AA-\	16ff# 16dd 16cc\	.
 16c\	16cc\	.	16A-\	16ccc\	.
 16A-\	16a-\	.	16AA-\	16ff# 16dd 16cc\	.
@@ -3783,15 +3940,19 @@
 !!LO:PB:g=original
 =215	=215	=215	=215	=215	=215
 *	*tremolo	*	*	*	*
+!	!	!LO:MO:null:mod=>	!	!	!LO:MO:null:mod=>
 16GGG/LL	16G/LL	.	8GL 8D 8BBn 8GG\	8bbnL 8gg 8dd 8bn\	.
 16GG/	16g/	.	.	.	.
 !	!	!LO:HP:t=diminuendo	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!
 16GGG/	16G/	>	16GG\L	16g\L	.
 16GG/	16g/	.	16G\JJ	16gg\JJ	.
 16GGG/	16G/	.	16GG\LL	16g\LL	.
 16GG/	16g/	.	16G\	16gg\	.
 16GGG/	16G/	.	16GG\	16g\	.
+!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!	!LO:HP:t=diminuendo
+!	!	!	!	!	!LO:MO:null:mod=.
 16GG/	16g/	.	16G\JJ	16gg\JJ	>
 *	*	*	*tremolo	*	*
 16GGG/	16G/	.	16GG\LL	2r	.
@@ -3801,9 +3962,12 @@
 16GGG/	16G/	.	16GG\	.	.
 16GG/	16g/	.	16G\	.	.
 16GGG/	16G/	.	16GG\	.	.
+!	!	!	!	!	!LO:MO:null:mod=]
 16GG/JJ	16g/JJ	]]	16G\JJ	.	.
 =216	=216	=216	=216	=216	=216
-!	!	!LO:DY:b=2	!LO:TX:t=P:problem=mixed beam	!	!
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!
+!	!	!LO:DY:b=2	!LO:TX:t=P:problem=mixed beam	!	!LO:MO:null:mod=ppp
 16GGG/LL	1r	ppp	16GG/LL	1r	.
 16GG/	.	.	16G\	.	.
 16GGG/	.	.	16GG/	.	.
@@ -3823,13 +3987,19 @@
 16GG/JJ	.	.	.	.	.
 =217!|:	=217!|:	=217!|:	=217!|:	=217!|:	=217!|:
 *>N	*	*	*	*	*
+!!!OMD:
+!!!OMD-mod: Andante
 *k[]	*k[]	*	*k[]	*k[]	*
 *C:	*C:	*	*C:	*C:	*
-!	!	!	!	!LO:TX:rj:a:B:t=Andante.	!
+!LO:MO:null:mod=*ped	!	!	!	!	!
+*	*	*	*	*	*
+!	!	!	!	!LO:TX:rj:a:B:t=Andante.:mod=	!
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!	!	!	!LO:MO:null:mod=.	!
 32CC/LLL	32c/LLL	pp	2c 2G 2E 2C\	2cc 2g 2e\	pp	pp
 *	*	*	*	*	*v	*v
+!	!LO:MO:mod=*null:null	!	!	!	!
 *	*ped	*	*	*	*
 32C/	32cc/	.	.	.	.
 32CC/	32c/	.	.	.	.
@@ -3908,6 +4078,7 @@
 32C/	32cc/	.	.	.	.	.	.
 32CC/	32c/	.	.	.	.	.	.
 32C/	32cc/	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=*null:null	!	!LO:MO:mod=*null:null	!	!
 *	*	*	*Xtuplet	*	*Xtuplet	*	*
 32CC/	32c/	.	12d/L	4A- 4F\	12dd/L	4a-\	.
 32C/	32cc/	.	.	.	.	.	.
@@ -4048,6 +4219,7 @@
 !LO:TX:rj:b:i:t=e	!	!	!	!	!
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!	!	!	!LO:MO:null:mod=.	!
 32EEE\LLL	32E</LLL	.	2E 2EE/	2ee 2g#X 2e\	f	f
 *	*	*	*	*	*v	*v
 32EE\	32e/	.	.	.	.
@@ -4169,6 +4341,7 @@
 *	*clefF4	*	*	*	*
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!	!	!	!LO:MO:null:mod=.	!
 32AAA/LLL	2c 2A 2E\	ff	2A 2E 2C 2AA\	2cc 2a 2e\	ff	ff
 *	*	*	*	*	*v	*v
 32AA/	.	.	.	.	.
@@ -4234,6 +4407,7 @@
 32GG/	.	.	.	.	.
 32GGG/	.	.	.	.	.
 32GG/	.	.	.	.	.
+!	!LO:SIC:v:s=4f# 4d# 4A	!	!	!	!
 32GGG/	4f# 4c#X 4A/	.	4B 4BB\	4bb: 4dd#X: 4a:\	.
 32GG/	.	.	.	.	.
 32GGG/	.	.	.	.	.
@@ -4243,7 +4417,7 @@
 32GGG/	.	.	.	.	.
 32GG/JJJ	.	.	.	.	.
 =228	=228	=228	=228	=228	=228
-!LO:TX:a:t=No1	!	!	!	!	!
+!LO:TX:a:t=No1:mod=1.	!	!	!	!	!
 *>N1	*	*	*	*	*
 *	*tremolo	*	*	*	*
 32EEE/LLL	32BLLL 32G#X/	.	2E 2EE;/	2ee 2b 2g#X;\	.
@@ -4282,7 +4456,7 @@
 32GG/JJJ	32g/JJJ	.	.	.	.
 *Xrep	*Xrep	*	*	*	*
 =229:|!	=229:|!	=229:|!	=229:|!	=229:|!	=229:|!
-!LO:TX:a:t=No2	!	!	!	!	!
+!LO:TX:a:t=No2:mod=2.	!	!	!	!	!
 *>N2	*	*	*	*	*
 *	*^	*	*	*^	*
 *tremolo	*	*	*	*	*	*	*
@@ -4355,11 +4529,13 @@
 *	*	*	*	*v	*v	*
 =231||	=231||	=231||	=231||	=231||	=231||
 *>O	*	*	*	*	*
+!!!OMD:
+!!!OMD-mod: Presto
 *k[b-e-a-]	*k[b-e-a-]	*	*k[b-e-a-]	*k[b-e-a-]	*
 *E-:	*E-:	*	*E-:	*E-:	*
 *M4/4	*M4/4	*	*M4/4	*M4/4	*
 *met(c)	*met(c)	*	*met(c)	*met(c)	*
-!	!	!	!	!LO:TX:a:B:t=Presto.	!
+!	!	!	!	!LO:TX:a:B:t=Presto.:mod=	!
 16C 16CC/	16e-X 16c 16G/	ff	16C 16CC/	16cc 16g 16e-X\	ff
 16r	16r	.	16CC\LL	16C</LL	.
 16GGLL 16EE- 16CC/	16ggLL 16ee- 16cc\	.	16DD\	16D</	.
@@ -4383,6 +4559,7 @@
 *	*	*	*clefG2	*	*
 *	*	*^	*	*	*^
 !	!	!LO:DY:rj:b=2	!	!	!	!LO:DY:b=2	!
+!	!	!LO:MO:null:mod=.	!LO:MO:null:mod=.	!	!	!LO:MO:null:mod=.	!LO:MO:null:mod=.
 16GGLL 16EE- 16CC/	16ggLL 16ee- 16cc\	ff	ff	8c/L	8cc\L	ff	ff
 *	*	*v	*v	*	*	*v	*v
 16C/	16ccc\	.	.	.	.
@@ -4420,6 +4597,7 @@
 16B\	16bb\	.	.	.	.
 16A- 16F 16C\	16aa- 16ff 16dd\	.	8r	8r	.
 16B\	16bb\JJ	.	.	.	.
+!	!	!	!LO:MO:mod=*null:null	!	!
 *	*	*	*Xtuplet	*	*
 16A- 16F 16C\	8aa- 8ff 8dd\	.	(20ff\LL	(20ffff\LL	.
 .	.	.	20een\	20eeeen\	.
@@ -4610,7 +4788,8 @@
 16A-\	16ccc\	.	.	.	.
 *	*	*	*	*clefG2	*
 *	*	*	*	*	*^
-!	!	!	!	!	!LO:DY:rj:b=2	!
+!	!	!	!LO:SIC:v:s=8A- 8F 8C 8AA-	!	!LO:DY:rj:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 16F 16C 16AA-\	16ff 16cc\	.	8A- 8F 8D 8AA-\	8ccc 8aa- 8ff 8cc\	fz	fz
 *	*	*	*	*	*v	*v
 16A-\	16ccc\	.	.	.	.
@@ -4698,6 +4877,7 @@
 16GGG/LL	16gg\LL	.	16G\	16gg\	.
 *	*	*^	*	*	*
 !	!	!LO:HP:b=2	!	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!	!
 16AAA-/	16aa-\	<	<	16D 16BB 16GG\	16dd 16b 16g\	.
 16AAAn/JJ	16aan\JJ	.	.	16G\	16gg\	.
 16BBB-/LL	16bb\LL	.	.	16D 16BB 16GG\	16dd 16b 16g\	.
@@ -4707,10 +4887,12 @@
 16DD/LL	16ddd\LL	.	.	16D 16BB 16GG\	16dd 16b 16g\	.
 16EE-/	16eee-\	.	.	16G\	16gg\	.
 16EEn/	16eeen\	.	.	16D 16BB 16GG\	16dd 16b 16g\	.
+!	!	!LO:MO:null:mod=.	!	!	!	!
 16FF/JJ	16fff\JJ	[	[	16G\JJ)	16gg\JJ)	.
 =246	=246	=246	=246	=246	=246	=246
 16FF#X/LL	16fff#X\LL	.	.	(16DLL 16BBn 16GG\	(16ddLL 16bn 16g\	.
 !	!	!LO:HP:b=2	!	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!	!
 16GG/	16ggg\	>	>	16G\	16gg\	.
 16AA-X/	16aaa-X\	.	.	16D 16BB 16GG\	16dd 16b 16g\	.
 16GG/JJ	16ggg\JJ	.	.	16G\	16gg\	.
@@ -4723,6 +4905,7 @@
 16CCn/	16cccn\	.	.	16D 16BB 16GG\	16dd 16b 16g\	.
 16BBBn/JJ	16bbn\JJ	.	.	16G\	16gg\	.
 16BBB-X/LL	16bb-X\LL	.	.	16D 16BB 16GG\	16dd 16b 16g\	.
+!	!	!LO:MO:null:mod=.	!	!	!	!
 16AAAn/	16aan\	]	]	16G\	16gg\	.
 *	*	*v	*v	*	*	*
 16AAA-X/	16aa-X\	.	16D 16BB 16GG\	16dd 16b 16g\	.
@@ -4779,6 +4962,7 @@
 (16GLL 16E 16C\	(16ggLL 16ee 16cc\	.	16r	16r	.
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:HP:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 16c\	16ccc\	.	16CC/LL	16ccc\LL	<	<
 16G 16E 16C\	16gg 16ee 16cc\	.	16DD-X/	16ddd-X\	.	.
 16c\	16ccc\	.	16DDn/JJ	16dddn\JJ	.	.
@@ -4789,13 +4973,16 @@
 16G 16E 16C\	16gg 16ee 16cc\	.	16GG/LL	16ggg\LL	.	.
 16c\	16ccc\	.	16AA-/	16aaa-\	.	.
 16G 16E 16C\	16gg 16ee 16cc\	.	16AAn/	16aaan\	.	.
+!	!	!	!	!	!LO:MO:null:mod=.	!
 16c\JJ)	16ccc\JJ)	.	16BB-/JJ	16bbb-\JJ	[	[
 =250	=250	=250	=250	=250	=250	=250
 !	!	!	!	!	!LO:HP:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 (16GLL 16En 16C\	(16ggLL 16een 16cc\	.	16BBn/LL	16cccc-X\LL	>	>
 16c\	16ccc\	.	16C/	16ccccn\	.	.
 16G 16E 16C\	16gg 16ee 16cc\	.	16D-X/	16dddd-X\	.	.
 16c\	16ccc\	.	16C/JJ	16cccc\JJ	.	.
+!	!	!	!LO:SIC:v:s=16C-LL	!LO:SIC:v:s=16cccc-LL	!	!
 16G 16E 16C\	16gg 16ee 16cc\	.	16BB/LL	16bbb-\LL	.	.
 16c\	16ccc\	.	16BB-X/	16bbb-X\	.	.
 16G 16E 16C\	16gg 16ee 16cc\	.	16AAn/	16aaan\	.	.
@@ -4807,6 +4994,7 @@
 16G 16E 16C\	16gg 16ee 16cc\	.	16EE-X/LL	16eee-X\LL	.	.
 16c\	16ccc\	.	16DDn/	16ddd\	.	.
 16G 16E 16C\	16gg 16ee 16cc\	.	16DD-X/	16ddd-X\	.	.
+!	!	!	!	!	!LO:MO:null:mod=.	!
 16c\JJ)	16ccc\JJ)	.	16CC/JJ	16ccc\JJ	]	]
 *	*Xtremolo	*	*	*	*	*
 *	*	*	*	*	*v	*v
@@ -4981,6 +5169,7 @@
 *	*	*	*tremolo	*tremolo	*
 *	*	*^	*	*	*^
 !	!	!LO:DY:b=2	!	!	!	!LO:DY:b=2:	!
+!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!
 16GGG/LL	16dLL 16Bn/	p	p	16G\LL	16gg\LL	p	p
 *	*	*v	*v	*	*	*v	*v
 !	!	!LO:HP:b=2	!	!	!
@@ -5024,6 +5213,7 @@
 *	*	*^	*	*	*^
 *	*	*^	*	*	*	*	*
 !	!	!LO:HP:b=2	!LO:DY:rj:b=2	!LO:DY:rj	!	!	!LO:DY:b=2	!
+!	!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!
 (>20GGG/LL	16e-LL 16c 16G/	<	p	p	16G/LL	16gg\LL	p	p
 *	*	*v	*v	*	*	*	*	*
 *	*	*v	*v	*	*	*v	*v
@@ -5157,6 +5347,7 @@
 *8ba	*	*	*	*8va	*
 *	*	*^	*	*	*^
 !	!	!LO:DY:b=2	!	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!
 4GGG/	4gg 4g\	ff	ff	4G 4GG\	4ggg 4gg\	ff	ff
 *	*	*v	*v	*	*	*v	*v
 8.GGG/L	8.ggL 8.g\	.	8.GL 8.GG\	8.gggL 8.gg\	.
@@ -5226,11 +5417,17 @@
 .	4b-;\	.	.	.	.
 !!LO:PB:g=original
 =272||	=272||	=272||	=272||	=272||	=272||
+!!!OMD:
+!!!OMD-mod: Tempo di Marcia
+!LO:MO:null:mod=*clefF4	!	!	!	!	!
+*	*	*	*	*	*
 *8ba	*	*	*	*8va	*
-!	!	!	!	!LO:TX:a:B:t=Tempo di Marcia.	!
-!	!LO:TX:b:i:t=Finale.	!	!	!LO:TX:a:B:t=Var&colon; 5.	!
+!	!	!	!	!LO:TX:a:B:t=Tempo di Marcia.:mod=	!
+!	!LO:TX:b:i:t=Finale.:mod=	!	!	!LO:TX:a:B:t=Var&colon; 5.:mod=	!
 *	*	*^	*	*	*^
+!!LO:TX:B:t=Var. 5.
 !	!	!LO:DY:b=2	!	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!
 4EE-/	4ee- 4e-\	f	f	4e- 4B- 4G 4E-\	4eee- 4bb- 4gg 4ee-\	f	f
 *	*	*v	*v	*	*	*v	*v
 8.BBB-/L	8.b-L 8.B-/	.	8.e-L 8.B- 8.G 8.E-\	8.eee-L 8.bb- 8.gg 8.ee-\	.
@@ -5290,6 +5487,7 @@
 16AA-/JJ	16fJk 16c 16A-/	.	16fJk 16c 16A-/	16fffJk 16ccc 16aa-\	.	.
 *Xtremolo	*	*	*	*	*	*
 4AA- 4AAA-/	4f 4c 4A-/	.	4f 4c 4A-/	4fff 4ccc 4aa-\	.	.
+!	!	!	!	!LO:MO:mod=*null:null	!	!
 *	*	*	*	*Xtuplet	*	*
 4AAn 4AAAn/	4e- 4c 4F/	.	4f 4c 4An/	12eee-/L	4ccc 4ff\	.
 .	.	.	.	12fff/	.	.
@@ -5327,6 +5525,7 @@
 !!LO:LB:g=original
 =280	=280	=280	=280	=280	=280
 *	*	*	*	*^	*
+!	!	!	!	!	!	!LO:MO:null:mod=.
 1r	1r	.	4a- 4f/	4aa- 4ff 4dd\	2.rcyy	p
 .	.	.	8.fL 8.B-/	8.aa-L 8.ff 8.dd\	.	.
 .	.	.	16fJk 16B-/	16aa-Jk 16ff 16dd\	.	.
@@ -5392,6 +5591,7 @@
 16C/	8ccJ 8c/	.	.	.	.
 16BB/JJ	.	.	16gJk 16e- 16c\	16eee-Jk 16ccc 16gg 16ee-\	.
 4C/	4cc 4c/	.	4g 4e- 4c\	4eee- 4ccc 4gg 4ee-\	.
+!LO:SIC:v:s=4BB- 4BBB-	!	!	!	!	!
 4BB 4BBB-/	4een 4dd-X 4g 4en\	.	4g 4en 4d-X 4B-\	4ggg 4eeen 4ddd-X 4gg\	.
 =286	=286	=286	=286	=286	=286
 *8ba	*	*	*	*	*
@@ -5419,15 +5619,17 @@
 4E- 4EE-/	4ee- 4b- 4g 4e-\	.	4E- 4EE-/	4eee- 4bb- 4gg 4ee-\	.
 4r	4r	.	4r	4r	.
 *Xtremolo	*	*	*	*	*
+!!LO:PB:g=original
 =288||	=288||	=288||	=288||	=288||	=288||
 *clefF4	*clefG2	*	*clefF4	*clefG2	*
 *k[b-e-a-d-]	*k[b-e-a-d-]	*	*k[b-e-a-d-]	*k[b-e-a-d-]	*
 *M4/4	*M4/4	*	*M4/4	*M4/4	*
 *met(c)	*met(c)	*	*met(c)	*met(c)	*
 *A-:	*A-:	*	*A-:	*A-:	*
-!!LO:PB:g=original
-!	!	!	!	!LO:TX:a:B:t=Trio.	!
+!!LO:TX:B:t=Trio
+!	!	!LO:MO:null:mod=p	!	!LO:TX:a:B:t=Trio.:mod=	!
 16AAA-/LL	16A-/LL	.	1r	1r	.
+!	!	!LO:MO:null:mod=.	!	!	!
 16AA-/	16a-/	p	.	.	.
 16AAA-/	16A-/	.	.	.	.
 16AA-/JJ	16a-/JJ	.	.	.	.
@@ -5452,6 +5654,7 @@
 16AAA-/	16A-/	.	.	.	.
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 16AA-/JJ	16a-/JJ	.	16cKL 16A-\	16ccKL 16a-\	p	p
 *	*	*	*	*	*v	*v
 8AAA-/	8A-/	.	8.d- 8.B-\	8.dd- 8.b-\	.
@@ -5585,13 +5788,15 @@
 8r	8r	.	.	.	.	.	.
 .	.	.	16an/Jk	.	16aan/Jk	.	.
 *rep	*rep	*	*	*	*	*	*
-!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!
+!	!LO:TX:t=P:problem=mixed beam	!	!	!LO:SIC:v:s=4f 4d 4B-	!	!LO:SIC:v:s=4ff 4dd	!
 16BBB-/LL	16B-/LL	.	8.b-/L	4f 4d- 4B-\	8.bb-/L	4ff 4dd-\	.
 16BB-/	16b-\	.	.	.	.	.	.
 16BBB-/	16B-/	.	.	.	.	.	.
 16BB-/JJ	16b-\JJ	.	16a-X/K	.	16aa-X/K	.	.
+!	!	!	!	!LO:SIC:v:s=8.dL 8.B-	!	!LO:SIC:v:s=8.ddL 8.b-	!
 8BBB-/	8B-/	.	8.g/	8.d-L 8.B-\	8.gg/	8.dd-L 8.b-\	.
 8r	8r	.	.	.	.	.	.
+!	!	!	!	!LO:SIC:v:s=16dJk 16A-	!	!LO:SIC:v:s=16ddJk 16a-	!
 .	.	.	16f/Jk	16d-Jk 16A-\	16ff/Jk	16dd-Jk 16a-\	.
 *	*	*	*v	*v	*	*	*
 *	*	*	*	*v	*v	*
@@ -5622,6 +5827,7 @@
 !LO:TX:t=P:problem=mixed beam	!LO:TX:t=P:problem=mixed beam	!	!	!	!
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 16EE-/LL	16e-/LL	f	4e- 4B- 4E-\	4ddd-X 4ee- 4dd-X\	f	f
 *	*	*	*	*	*v	*v
 16E-\	16ee-\	.	.	.	.
@@ -5772,6 +5978,9 @@
 *	*	*	*clefG2	*	*
 =306	=306	=306	=306	=306	=306
 *	*	*	*^	*	*
+!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!
+!	!	!	!	!	!	!
+!	!	!LO:MO:null:mod=p	!	!	!	!
 16AAA-/LL	16A-/LL	.	4e- 4c 4A-/	2rcyy	4ee- 4cc\	.
 16AA-/	16a-/	.	.	.	.	.
 16AAA-/	16A-/	.	.	.	.	.
@@ -5917,12 +6126,15 @@
 4AA- 4AAA-/	4a- 4A-/	.	4e- 4c 4A-\	4aa- 4ee- 4cc 4a-\	.
 4r	4r	.	4r	4r	.
 =314||	=314||	=314||	=314||	=314||	=314||
+!!!OMD:
+!!!OMD-mod: Marche
 *k[b-e-a-]	*k[b-e-a-]	*	*k[b-e-a-]	*k[b-e-a-]	*
 *E-:	*E-:	*	*E-:	*E-:	*
 *8ba	*	*	*	*8va	*
-!	!	!	!	!LO:TX:a:B:t=Marche.	!
+!	!	!	!	!LO:TX:a:B:t=Marche.:mod=	!
 *	*	*^	*	*	*^
 !	!	!LO:DY:rj:b=2	!LO:DY:rj	!	!	!LO:DY:b=2	!
+!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!
 4EE-/	4ee- 4e-\	f	f	4e- 4B- 4G 4E-\	4eee- 4bb- 4gg 4ee-\	f	f
 *	*	*v	*v	*	*	*v	*v
 8.BBB-/L	8.b-L 8.B-/	.	8.e-L 8.B- 8.G 8.E-\	8.eee-L 8.bb- 8.gg 8.ee-\	.
@@ -5966,10 +6178,13 @@
 16FFF/	.	.	.	.	.	.
 16FF/JJ	16a-Jk 16f 16c/	.	16cJk 16A- 16F\	16aaa-Jk 16ccc 16aa-\	.	.
 *Xtremolo	*	*	*	*	*	*
-!LO:TX:b:t=8	!	!	!	!	!	!
+!LO:TX:b:t=8:mod=	!	!	!	!	!	!
+!LO:SIC:s=4FF 4FFF	!	!	!	!	!	!
 4FF/	4a- 4f 4c/	.	4c 4A- 4F\	4aaa- 4ccc 4aa-\	.	.
+!	!	!	!	!LO:MO:mod=*null:null	!	!
 *	*	*	*	*Xtuplet	*	*
-!LO:TX:b:t=8	!	!	!	!	!	!
+!LO:TX:b:t=8:mod=	!	!	!	!	!	!
+!LO:SIC:s=4GG 4GGG	!	!	!	!	!	!
 4GG/	4g 4en 4B-/	.	4c 4B- 4G\	12ggg/L	4eeen 4bb-\	.
 .	.	.	.	12aaa-/	.	.
 .	.	.	.	12ggg/J	.	.
@@ -5985,9 +6200,11 @@
 16AAA-/	.	.	.	.	.	.
 16AA-/JJ	16fJk 16c 16A-/	.	16fJk 16c 16A-/	16fffJk 16ccc 16aa-\	.	.
 *Xtremolo	*	*	*	*	*	*
-!LO:TX:b:t=8	!	!	!	!	!	!
+!LO:TX:b:t=8:mod=	!	!	!	!	!	!
+!LO:SIC:s=4AA- 4AAA-	!	!	!	!	!	!
 4AA-/	4f 4c 4A-/	.	4f 4c 4A-/	4fff 4ccc 4aa-\	.	.
-!LO:TX:b:t=8	!	!	!	!	!	!
+!LO:TX:b:t=8:mod=	!	!	!	!	!	!
+!LO:SIC:s=4AA 4AAA	!	!	!	!	!	!
 4AAn/	4e- 4c 4F/	.	4f 4c 4An/	12eee-/L	4ccc 4ff\	.
 .	.	.	.	12fff/	.	.
 .	.	.	.	12eee-/J	.	.
@@ -6023,6 +6240,7 @@
 *	*	*	*clefG2	*	*
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 4r	4r	.	8.fL 8.B-/	8.ffL 8.dd\	p	p
 *	*	*	*	*	*v	*v
 .	.	.	16gJk 16e-/	16ggJk 16ee-\	.
@@ -6030,6 +6248,7 @@
 =322	=322	=322	=322	=322	=322
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!LO:MO:null:mod=.
 1r	1r	.	4a- 4f/	4aa- 4ff 4dd\	p	p
 *	*	*	*	*	*v	*v
 .	.	.	8.fL 8.B-/	8.aa-L 8.ff 8.dd\	.
@@ -6043,6 +6262,7 @@
 =323	=323	=323	=323	=323	=323
 4r	4r	.	4f 4B-/	4ff 4dd 4b-\	.
 *clefG2	*8va	*	*	*	*
+!	!LO:MO:mod=*null:null	!	!	!	!
 *	*Xtuplet	*	*	*	*
 !LO:TUP:b	!	!	!	!	!
 12b-L 12B-/	12bbb-L 12bb-\	f	4r	4r	.
@@ -6081,6 +6301,7 @@
 =326	=326	=326	=326	=326	=326
 *	*	*	*	*	*^
 !	!	!LO:DY:rj	!	!	!LO:DY:rj:b=2	!LO:DY:rj
+!	!	!	!	!	!LO:MO:null:mod=.	!
 8E-L 8EE-/	8ee-L 8e-\	ff	4B- 4G 4E-\	4eee- 4bb- 4gg 4ee-\	ff	ff
 *	*	*	*	*	*v	*v
 16E-/L	16ee-L 16e-\	.	.	.	.
@@ -6100,6 +6321,7 @@
 16C/	8ccJ 8c/	.	.	.	.
 16BB/JJ	.	.	16gJk 16e- 16c\	16eee-Jk 16ccc 16gg 16ee-\	.
 4C/	4cc 4c/	.	4g 4e- 4c\	4eee- 4ccc 4gg 4ee-\	.
+!LO:SIC:v:s=4BB- 4BBB-	!	!	!	!	!
 4BB 4BBB-/	4een 4dd-X 4g 4en\	.	4g 4en 4d-X 4B-\	4ggg 4eeen 4ddd-X 4gg\	.
 =328	=328	=328	=328	=328	=328
 *8ba	*	*	*	*	*
@@ -6418,6 +6640,9 @@
 *Xrep	*	*	*Xrep	*	*
 *	*	*	*Xtremolo	*	*
 =345	=345	=345	=345	=345	=345
+!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!
+!	!	!	!	!	!
+!	!	!LO:MO:null:mod=f	!	!	!
 8E- 8EE-/	16e- 16G/	.	8B-L 8G 8E-\	8ee-L 8g\	f
 .	16r	.	.	.	.
 8r	16ggg\LL	.	8B- 8G 8E-\	16g\L	.
@@ -6718,6 +6943,7 @@
 !	!	!	!	!LO:TX:a:t=loco	!
 *	*	*^	*	*	*^
 !	!	!LO:DY:b=2	!	!	!	!LO:DY:b=2	!
+!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!
 4BB- 4BBB-/	4dd 4a- 4f 4d\	fz	fz	4B- 4BB-\	4ddd 4aa- 4ff 4dd\	fz	fz
 *	*	*v	*v	*	*	*v	*v
 4r	4r	.	4r	4r	.
@@ -6728,10 +6954,14 @@
 4r	.	.	.	.	.
 2r	.	.	.	.	.
 =364||	=364||	=364||	=364||	=364||	=364||
+!!!OMD:
+!!!OMD-mod: Andante
 *tremolo	*tremolo	*	*	*	*
-!	!	!	!	!LO:TX:a:B:t=Andante.	!
+!LO:MO:null:mod=*ped	!	!	!	!LO:TX:a:B:t=Andante.:mod=	!
+*	*	*	*	*	*
 *	*	*^	*	*	*^
 !	!	!LO:DY:b=2	!	!	!	!LO:DY:b=2	!
+!	!	!LO:MO:null:mod=.	!	!	!	!LO:MO:null:mod=.	!
 16EE-/LL	16e-/LL	pp	pp	2e- 2B- 2G 2E-\	2ee- 2b- 2g\	pp	pp
 *	*	*v	*v	*	*	*v	*v
 16E-/	16ee-/	.	.	.	.
@@ -6741,6 +6971,7 @@
 16E-/	16ee-/	.	.	.	.
 16EE-/	16e-/	.	.	.	.
 16E-/	16ee-/	.	.	.	.
+!	!LO:MO:mod=*null:null	!	!	!	!
 *	*ped	*	*	*	*
 16EE-/	16e-/	.	4d 4c-X 4A- 4E-\	4ff 4cc-X 4a-\	.
 16E-/	16ee-/	.	.	.	.
@@ -6776,6 +7007,7 @@
 16E-/	16ee-/	.	.	.	.	.	.
 16EE-/	16e-/	.	.	.	.	.	.
 16E-/	16ee-/	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=*null:null	!	!	!	!
 *	*	*	*Xtuplet	*	*	*	*
 16EE-/	16e-/	.	12f/L	4c- 4A-\	12ff/L	4cc-\	.
 16E-/	16ee-/	.	.	.	.	.	.
@@ -6842,6 +7074,7 @@
 16EE-/	16e-/	.	8.b-L 8.fn 8.d/	8.bb-L 8.ffn 8.dd\	.
 16E-/	16ee-/	.	.	.	.
 16EE-/	16e-/	.	.	.	.
+!	!	!	!LO:SIC:v:s=16a-Jk 16f	!LO:SIC:v:s=16aa-Jk 16ff	!
 16E-/	16ee-/	.	16aJk 16f#X/	16aaJk 16ff\	.
 16EE-/	16e-/	.	4g 4e-/	4gg 4ee-\	.
 16E-/	16ee-/	.	.	.	.
@@ -6862,6 +7095,7 @@
 16EE-/	16e-/	.	8.b-/	8.fnL 8.d\	8.bb-/	8.ffnL 8.dd\	.
 16E-/	16ee-/	.	.	.	.	.	.
 16EE-/	16e-/	.	.	.	.	.	.
+!	!	!	!LO:SIC:v:s=16a-Jk	!	!LO:SIC:v:s=16aa-Jk	!	!
 16E-/	16ee-/	.	16a/Jk	16f\Jk	16aa/Jk	16ff\Jk	.
 16EE-/	16e-/	.	2raayy	4g 4e-\	2raayy	4gg 4ee-\	.
 16E-/	16ee-/	.	.	.	.	.	.
@@ -6885,6 +7119,7 @@
 16EE-/	16e-/	.	8.bb-/	8.ffnL 8.dd\	8.bbb-/	8.fffnL 8.ddd\	.
 16E-/	16ee-/	.	.	.	.	.	.
 16EE-/	16e-/	.	.	.	.	.	.
+!	!	!	!LO:SIC:v:s=16aa-Jk	!	!LO:SIC:v:s=16aaa-Jk	!	!
 16E-/	16ee-/	.	16aa/Jk	16ff\Jk	16aaa/Jk	16fff\Jk	.
 16EE-/	16e-/	.	2raayy	4gg 4ee-\	2raayy	4ggg 4eee-\	.
 16E-/	16ee-/	.	.	.	.	.	.
@@ -6898,9 +7133,12 @@
 *	*	*	*v	*v	*	*	*
 *	*	*	*	*v	*v	*
 =372||	=372||	=372||	=372||	=372||	=372||
-!	!	!	!	!LO:TX:a:B:t=Allegro.	!
+!!!OMD:
+!!!OMD-mod: Allegro
+!	!	!	!	!LO:TX:a:B:t=Allegro.:mod=	!
 *	*	*	*	*	*^
 !	!	!	!	!	!LO:DY:b=2	!
+!	!	!	!	!	!LO:MO:null:mod=.	!
 16AAA-/LL	16A-/LL	ff	4cc 4a-\	4cccc 4aaa- 4ccc\	ff	ff
 *	*	*	*	*	*v	*v
 16AA-/	16a-/	.	.	.	.
@@ -7290,8 +7528,10 @@
 16E-\	16cc-X\	.	16e-\	16ccc-X\	.
 16EE-/	16a- 16e-\	.	16E-\	16aa- 16ee-\	.
 16E-\	16cc-\JJ	.	16e-\	16ccc-\JJ	.
+!	!LO:SIC:v:s=16a-LL 16f 16d	!	!	!	!
 16EE-/	16a-LL 16f 16d-X\	.	16E-\	16aa-LL 16ff 16ddn\	.
 16E-\	16cc-\	.	16e-\	16ccc-\	.
+!	!LO:SIC:v:s=16a- 16f 16d	!	!	!	!
 16EE-/	16a- 16f 16d-\	.	16E-\	16aa- 16ff 16dd\	.
 16E-\JJ	16cc-\JJ	.	16e-\JJ	16ccc-\JJ	.
 *	*	*	*Xrep	*	*
@@ -7473,16 +7713,19 @@
 *X8ba	*	*	*	*	*
 =403	=403	=403	=403	=403	=403
 2E- 2EE-;/	2ee- 2e-;/	.	2e- 2B- 2G 2E-;\	2eeee- 2bbb- 2ggg 2eee-;\	.
-!LO:TX:b:i:t=Fine.	!	!	!	!	!
+!LO:TX:b:i:t=Fine.:mod=	!	!	!	!	!
 2r;	2r;	.	2r;	2r;	.
 *	*	*	*	*X8va	*
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2,s3,s4)]
+!!!system-decoration: {(s1,s2)}{(s3,s4)}
 !!!RDF**dynam: pp = pp.
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/([^a-gA-Gn#rX-])[<>]/$1/g" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D" | autostem -r | tie -s  | modori -m
 !!!EED: Leszek Kubiak
 !!!EEV: 2021-06-16
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-17
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-07-12

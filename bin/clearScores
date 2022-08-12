@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Fri Aug 12 11:40:15 CEST 2022
+# Last Modified: Fri Aug 12 11:40:20 CEST 2022
+# Filename:      humdrum-polish-scores/bin/clearScores
+# Syntax:        perl 5
+#
+# Description:   Delete all scores in preparation for copying
+#                updated scores from production repository.
+#
+#
+
+use strict;
+
+my @dirs = glob("*/kern");
+foreach my $dir (@dirs) {
+	print STDERR "rm -f $dir/*.krn\n";
+	`rm -f $dir/*.krn`;
+}
+

@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-cz--iii-979--004_kasprzykowski-ignacy--missa-es-et-incarnatus.krn
 !!!cenid: 18xx:859
 !!!COM: Kasprzykowski, Ignacy
-!!!COM-rismid: pe30098316
+!!!COM-rismID:
 !!!CDT: -1752/02/17
 !!!CNT:
 !!!OPR: Missa Es
@@ -14,26 +14,34 @@
 !!!SMS-shelfwork: 001-004 M
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 300000565
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-cz-nut--iii-979
+!!!NIFC-rismSourceID: 300000565
+!!!NIFC-islandoraID: pl-cz:41795
+!!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-cz%3A41795/datastream/PDF/view
+!!!URL-scan:
 !!!ONB-nifc: UWAGA: części Mszy: Kyrie, Gloria, Credo, Et incarnatus, Et resurrexit, Sanctus, Pleni, Benedictus, Agnus
-!!!AIN: 1 clars 1 empty 1 violn 1 vox
+!!!AIN: 1 bass 1 clars 1 soprn 1 violn
 !!!key:
 **kern	**kern	**text	**kern	**text	**kern
-*part4	*part3	*part3	*part2	*part2	*part1
 *staff4	*staff3	*staff3	*staff2	*staff2	*staff1
-*Ivioln	*Iempty	*	*Ivox	*	*Iclars
 *I"Violino Primo in Dis	*I"Baſso in Dis	*	*I"Canto in. Dis	*	*I"Clarinetto Primo in B
-*I'vl 1	*I'B	*	*I'S	*	*I'cl 1
-*clefG2	*clefF4	*	*clefC1	*	*
+*I'vl 1	*I'B	*	*I'S	*	*I'cl 1 in B
+*Ivioln	*Ibass	*	*Isoprn	*	*Iclars
+*ICstr	*ICvox	*	*ICvox	*	*ICww
+*	*IGsolo	*	*IGsolo	*	*
+*mI"Violino I	*mI"Basso	*	*mI"Soprano	*	*mI"Clarinetto I in Bb
+*clefG2	*clefF4	*	*clefC1	*	*clefG2
+*	*	*	*mclefG2	*	*
 *	*	*	*	*	*ITrd1c2
 *k[b-e-a-]	*k[a-e-b-]	*	*k[b-e-a-]	*	*
 *f:	*f:	*	*f:	*	*
 *M4/4	*M4/4	*	*M4/4	*	*
 *met(c)	*met(c)	*	*met(c)	*	*
+*	*	*	*	*	*tacet
 =1	=1	=1	=1	=1	=1
-!LO:TX:a:Bi:t=Adagio	!LO:TX:a:B:t=Solo:color=red	!	!	!	!
-!LO:TX:b:t=7.	!LO:TX:a:B:t=Adagio:color=red	!	!LO:TX:a:B:t=Adagio:color=red	!	!LO:TX:a:i:t=Et incarnatus Tacet.
+!!!OMD:
+!!!OMD-mod: Adagio
+!LO:TX:a:Bi:t=Adagio:mod=	!LO:TX:a:B:t=Solo:color=red:mod=	!	!	!	!
+!LO:TX:b:t=7.:mod=	!LO:TX:a:B:t=Adagio:color=red:mod=	!	!LO:TX:a:B:t=Adagio:color=red:mod=	!	!LO:TX:a:i:mod=:t=Et incarnatus Tacet.
 00r	4AA-/	Et	4cc\	Et	1ryy
 .	8AA-/	in-	8cc\	in-	.
 .	8AA-/	-Car-	8cc\	-Car-	.
@@ -89,6 +97,7 @@
 .	8BB-/	-pul-	8g\	-pul-	.
 .	8BB-/	-tus	8g\	-tus	.
 4r	4AA-/	est	4a-\	est	.
+!LO:MO:mod=!LO&colon;TX&colon;i&colon;t=Solo	!	!	!	!	!
 !LO:TX:a:i:t=Solo.	!	!	!	!	!
 32r	4r	.	4r	.	.
 32ee-\LLL	.	.	.	.	.
@@ -99,7 +108,7 @@
 32aa-\	.	.	.	.	.
 32bb-\JJJ	.	.	.	.	.
 =9	=9	=9	=9	=9	=9
-!	!LO:TX:a:t=6	!	!LO:TX:a:t=6	!	!
+!	!LO:TX:a:t=6:mod=	!	!LO:TX:a:t=6:mod=	!	!
 4ccc\	1r	.	1r	.	1ryy
 8cccS\L	.	.	.	.	.
 8ccc\J	.	.	.	.	.
@@ -118,6 +127,7 @@
 32gg\JJJ	.	.	.	.	.
 32gg\LLL	.	.	.	.	.
 32ff\	.	.	.	.	.
+!LO:SIC:v:s=32ddd-	!	!	!	!	!
 32ddd\	.	.	.	.	.
 32ccc\JJJ	.	.	.	.	.
 32aa-\LLL	.	.	.	.	.
@@ -145,9 +155,11 @@
 32aa\)	.	.	.	.	.
 (32ccc\	.	.	.	.	.
 32bb-\JJJ)	.	.	.	.	.
+!LO:SIC:v:s=(32ddd-LLL	!	!	!	!	!
 (32ddd\LLL	.	.	.	.	.
 32ccc\)	.	.	.	.	.
 (32eee-\	.	.	.	.	.
+!LO:SIC:v:s=32ddd-JJJ)	!	!	!	!	!
 32ddd\JJJ)	.	.	.	.	.
 4fff\	.	.	.	.	.
 =12	=12	=12	=12	=12	=12
@@ -182,7 +194,10 @@
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: <s1>[(s2,s3)]<s4>
+!!!filter-modern: sic -sq | shed -e "s/:TX:t=P:/:tx:t=p:/L" | shed -e "s/:rj/:RJ/L" | modori -m | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | humtr -p
 !!!ENC: Anastazja Marusiak
 !!!END: 2020-08-10
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-11-19
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-06-17

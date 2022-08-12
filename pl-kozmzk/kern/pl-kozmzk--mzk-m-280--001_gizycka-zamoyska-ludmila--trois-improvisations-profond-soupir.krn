@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-kozmzk--mzk-m-280--001_gizycka-zamoyska-ludmila--trois-improvisations-profond-soupir.krn
 !!!cenid: 18xx:3048
 !!!COM: Giżycka-Zamoyska, Ludmiła
-!!!COM-rismid: pe30110123
+!!!COM-rismID:
 !!!CDT: 1829-1889/09/15
 !!!CNT:
 !!!GTL: Trois Improvisations
@@ -13,35 +13,52 @@
 !!!SMS-shelfwork: 001 G
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001099002
-!!!URL-scan: https://repozytorium.nifc.pl/islandora/object/pl-kozmzk%3A5612/datastream/PDF/view
+!!!NIFC-rismSourceID: 1001099002
+!!!NIFC-islandoraID: pl-kozmzk:5612
+!!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-kozmzk%3A5612/datastream/PDF/view
+!!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/7521 @EN{Scan on Polish Music Herritage in Open Access Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
-!!!OMD: Moderato.
 !!!AIN: 1 empty 1 piano
 !!!key:
+!!!OMD: Moderato.
+!!!OMD-mod: Moderato
 **kern	**kern	**dynam	**kern	**text	**dynam
 *part2	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1	*
 *Ipiano	*Ipiano	*	*Iempty	*	*
 *I"Piano.	*I"Piano.	*	*I"Chant.	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*	*
+*I'pf	*I'pf	*	*I'V	*	*
 *clefF4	*clefG2	*	*clefG2	*	*
 *k[f#c#]	*k[f#c#]	*	*k[f#c#]	*	*
 *D:	*D:	*	*D:	*	*
 *M6/8	*M6/8	*	*M6/8	*	*
 =1	=1	=1	=1	=1	=1
 *^	*	*	*	*	*
+!	!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:DY:rj	!LO:TX:a:B:t=Profond soupir.	!	!
 4Fn 4AA\	2.DD\	4a 4d 4A</	ff	2.r	.	.
 8F\	.	8a 8d 8A</	.	.	.	.
 4F\	.	4a 4d 4A</	.	.	.	.
 8F\	.	8a 8d 8A</	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2
+!!LO:MO:ori
 4Fn\	2.DD\	4a 4d 4A</	.	4r	.	.
 8F\	.	8a 8d 8A</	.	8r	.	.
 4F\	.	4a 4d 4A</	.	8r	.	.
 .	.	.	.	8r	.	.
 8F\	.	8a 8d 8A</	.	8d/	Ah!	f
 =3	=3	=3	=3	=3	=3	=3
+!!LO:MO:end
+!!LO:MO:mod
+!! 4Fn\	2.DD\	4a 4d 4A</	.	4r	.	.
+!! 8F\	.	8a 8d 8A</	.	8r	.	.
+!! 4F\	.	4a 4d 4A</	.	4r	.	.
+!! .	.	.	.	.	.	.
+!! 8F\	.	8a 8d 8A</	.	8d/	Ah!	f
+!! =3	=3	=3	=3	=3	=3	=3
+!!LO:MO:end
+!	!	!	!	!	!LO:MO:mod=Pau-	!
 4Fn\	4.DD\	4a 4d 4A</	.	8.a/	pau-	.
 .	.	.	.	16b/	-vre	.
 8F\	.	8a 8d 8A</	.	8a/	Her-	.
@@ -67,6 +84,7 @@
 4AA\	2.AAA\	4c# 4An< 4E</	.	4e/	coup!	.
 8AA\	.	8c# 8A< 8E</	.	8r	.	.
 4AA\	.	4e 4c# 4G</	p	4r	.	.
+!	!	!	!	!	!LO:MO:mod=Car	!
 8AA\	.	8e 8c# 8G</	.	8e/	car	p
 =7	=7	=7	=7	=7	=7	=7
 4BB\	2.BBB\	4f# 4d#X 4A</	.	8.f#/	la	.
@@ -113,6 +131,7 @@
 *v	*v	*	*	*	*	*
 !!LO:LB:g=original
 =14	=14	=14	=14	=14	=14
+!	!	!	!	!	!LO:MO:mod=!null:null
 4.BBB-X\	4e-X 4A< 4Fn</	p	8e-X/	vous	f
 .	.	.	8fn/	ter-	.
 .	8e- 8A< 8F</	.	8g/	-ras-	.
@@ -137,12 +156,14 @@
 .	8c# 8A< 8E</	.	.	.	.
 4.AA\	4e 4c# 4G</	.	4e/	-mes',	.
 !	!	!	!LO:TX:a:i:t=dolce	!	!
+!	!LO:SIC:s=8e# 8c# 8G</:v	!	!	!	!
 .	8e 8c# 8G</	.	8e#X/	la	.
 !!LO:PB:g=original
 =18	=18	=18	=18	=18	=18
 4.BBn 4.BBBn\	4f# 4d#X 4A</	.	8f#X/	fée,	.
 .	.	.	8e#X/	au	.
 .	8f# 8d# 8A</	.	8f#/	con-	.
+!LO:SIC:s=4.BB\:v	!	!	!	!	!
 4.BBn\	4f# 4d# 4A</	.	8.ccn\	-trai-	.
 .	.	.	16b\	-re,	.
 .	8f# 8d# 8A</	.	8f#/	in-	.
@@ -200,13 +221,16 @@
 8G/	.	8g 8c# 8A/	.	8a/	lim-	.
 4G/	4.GG\	4g 4c# 4A/	.	8cc#\	-pi-	.
 .	.	.	.	8.b\	-de	.
+!	!	!	!LO:MO:null:mod=.	!	!	!
 8G/	.	8g 8c# 8A/	[	.	.	.
+!	!	!	!LO:MO:null:mod=[[	!	!	!
 .	.	.	.	16a/	re-	[[
 *v	*v	*	*	*	*	*
 =27	=27	=27	=27	=27	=27
 4F# 4FF#/	4a 4d 4A/	.	[4.dd;\	-gard,	.
 8F# 8FF#/	8a 8d 8A/	.	.	.	.
 4G: 4D: 4GG:/	4b-X 4e 4d 4B-X/	.	4dd\]	.	.
+!	!	!	!	!LO:MO:mod=et	!
 8GGG/	8b- 8e 8d 8B-/	p	8b-X\	et,	p
 =28	=28	=28	=28	=28	=28
 *^	*	*	*	*	*
@@ -225,11 +249,13 @@
 8BB\	.	8d 8B< 8F#</	.	8r	.	.
 *v	*v	*	*	*	*	*
 =30	=30	=30	=30	=30	=30
+!	!	!	!	!LO:MO:mod=Tout	!
 4.GG 4.GGG/	8.b-XL 8.e 8.d 8.B-X/	.	4.b-X/	tout	f
 .	16cc#K 16c#/	.	.	.	.
 .	8b-J 8B-/	.	.	.	.
 4G 4AA\	8.aL 8.e 8.c#/	<	4a/	est	<
 .	16bnK 16Bn/	.	.	.	.
+!	!	!LO:MO:null:mod=[[	!	!	!
 8AA 8AAA/	8cc#J 8c#/	[	8a/	fi-	[[
 =31	=31	=31	=31	=31	=31
 4DD 4DDD/	4dd 4f# 4d/	.	4dd\	-ni!	.
@@ -237,6 +263,8 @@
 4r	4r	.	4r	.	.
 8r	8r	.	8r	.	.
 =32	=32	=32	=32	=32	=32
+!	!LO:MO:mod=*clefF4:null	!	!	!	!
+*	*null	*	*	*	*
 *ped	*	*	*	*	*
 !	!LO:TX:t=P:problem=mixed beam	!LO:HP:b=2	!	!	!
 .	(>8qqDD</L	<	.	.	.
@@ -244,12 +272,16 @@
 .	8qqD</	.	.	.	.
 .	8qqG</	.	.	.	.
 .	8qqB-X</	.	.	.	.
+!	!LO:MO:mod=*clefG2:null	!	!	!	!
+*	*null	*	*	*	*
 .	8qqd\	.	.	.	.
 .	8qqg\	.	.	.	.
 .	8qqb-X\J	.	.	.	.
 *Xped	*	*	*	*	*
 2.ryy	2.ddd: 2.bb-X: 2.gg: 2.dd:\)	[[	2.r	.	.
 =33	=33	=33	=33	=33	=33
+!	!LO:MO:mod=*clefF4:null	!	!	!	!
+*	*null	*	*	*	*
 *ped	*	*	*	*	*
 !	!LO:TX:t=P:problem=mixed beam	!LO:HP:b=2	!	!	!
 .	(>8qqDD</L	>	.	.	.
@@ -257,6 +289,8 @@
 .	8qqD</	.	.	.	.
 .	8qqF#</	.	.	.	.
 .	8qqA</	.	.	.	.
+!	!LO:MO:mod=*clefG2:null	!	!	!	!
+*	*null	*	*	*	*
 .	8qqd\	.	.	.	.
 .	8qqf#\	.	.	.	.
 .	8qqa\	.	.	.	.
@@ -271,7 +305,10 @@
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D" | rid -lid
 !!!ENC: Marcin Jachim
 !!!END: 2021-09-09
 !!!ENC: Marta Lawrence
 !!!END: 2021-10-24
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-08-12

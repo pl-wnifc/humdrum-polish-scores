@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-kk--kk-i-346--001_gorczycki-grzegorz-gerwazy--rorate-caeli.krn
 !!!cenid: 17xx:2159
 !!!COM: Gorczycki, Grzegorz Gerwazy
-!!!COM-rismid: pe30009207
+!!!COM-rismID:
 !!!CDT: ~1666-1734/04/30
 !!!CNT: Polish
 !!!OTL: Rorate caeli
@@ -12,8 +12,10 @@
 !!!SMS-shelfwork: 001 W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001145573
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-kk-nut--i-346
+!!!NIFC-rismSourceID: 1001145573
+!!!NIFC-islandoraID: pl-kk:5762
+!!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A5762/datastream/PDF/view
+!!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/5963 @EN{Scan on Polish Music Herritage in Open Access Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: utwory w zbiorze: 1. Rorate caeli, 2. Tollite portas, 3. Alleluja, 4. Ave Maria
 !!!AIN: 1 alto 1 empty 2 tenor
 !!!key:
@@ -22,8 +24,10 @@
 *staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
 *Iempty	*	*	*Itenor	*	*	*Itenor	*	*	*Ialto	*	*
 *I"Baſsus.	*	*	*I"Tenor 2 d(us)	*	*	*I"Tenor Primus	*	*	*I"Altus	*	*
+*mI" Basso	*	*	*mI"Tenor II	*	*	*mI"Tenot I	*	*	*mI"Alto	*	*
 *I'B	*	*	*I'T2	*	*	*I'T 1	*	*	*I'A	*	*
 *clefF4	*	*	*clefC4	*	*	*clefC4	*	*	*clefC3	*	*
+*	*	*	*mclefGv2	*	*	*mclefGv2	*	*	*mclefG2	*	*
 *k[]	*	*	*k[]	*	*	*k[]	*	*	*k[]	*	*
 *d:	*	*	*d:	*	*	*d:	*	*	*d:	*	*
 *M3/2	*	*	*M3/2	*	*	*M3/2	*	*	*M3/2	*	*
@@ -202,11 +206,13 @@
 .	.	.	4B-\	.	.	.	.	.	.	.	.
 .	.	.	4c\	.	.	.	.	.	.	.	.
 =29-	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29-	=29
+!	!	!	!	!LO:MO:mod=-rem.	!	!LO:MO:mod=1.A;	!	!	!	!	!
 1.D\;	-rem.	-ja.	1.d\;	-rem,	-ja.	1.A\	-rem.	-ja.	1.f#X\;<	-rem.	-ja.
 !	!	!	!	!	!	!LO:LB:g=original	!	!	!LO:LB:g=original	!	!
 =30||-	=30||-	=30||-	=30||-	=30||-	=30||-	=30||-	=30||-	=30||-	=30||-	=30||-	=30||-
 *M2/1	*	*	*M2/1	*	*	*M2/1	*	*	*M2/1	*	*
-*met(c|)	*	*	*met(c|)	*	*	*met(c|)	*	*	*met(c|)	*	*
+*met(C|)	*	*	*met(C|)	*	*	*met(C|)	*	*	*met(C|)	*	*
+*met(C|)	*	*	*mmet(C|)	*	*	*mmet(C|)	*	*	*mmet(C|)	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
 1D\	Be-	.	1F/	Be-	.	1A\	Be-	.	2r	.	.
 !	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!
@@ -301,6 +307,7 @@
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 4G\	.	.	.	.	.	4B\	.	.	.	.	.
 =39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!LO:N:xstem:cue	!	!
 4F\	.	.	1A\,	-sti	.	2A\	-pti-	.	4f\]	.	.
 4E\	.	.	.	.	.	.	.	.	4g\	.	.
@@ -392,8 +399,10 @@
 .	.	.	4.B-X\	-ri-	.	4.d\	-ri-	.	4.f\	-ri-	.
 .	.	.	8B-\	-tu-	.	8e\	-tu-	.	8g\	-tu-	.
 !	!	!	!LO:TX:t=P:problem=brak kreski taktowej	!	!	!LO:TX:t=P:problem=brak kreski taktowej	!	!	!LO:TX:t=P:problem=brak kreski taktowej	!	!
+!	!	!	!	!	!	!LO:MO:null:mod=[4f	!	!	!LO:MO:mod=[4a	!	!
 .	.	.	4F/	-i	.	2f\	-i	.	2a\	-i	.
 =50	=50	=50	=50	=50	=50	=50-	=50	=50	=50-	=50	=50
+!	!	!	!	!	!	!LO:MO:null:mod=4f]	!	!	!LO:MO:null:mod=4a]	!	!
 2.r	.	.	2.c\	ſan-	.	.	.	.	.	.	.
 .	.	.	.	.	.	(4f\	ſan-	.	2g\	ſan-	.
 .	.	.	.	.	.	4e\)	.	.	.	.	.
@@ -427,25 +436,28 @@
 4.F\	sem-	.	4A/	et	.	4c\	et	.	4.f\	-ci-	.
 .	.	.	4A/	nunc	.	4c\	nunc	.	.	.	.
 (8E\	.	.	.	.	.	.	.	.	8f\	-pi-	.
+!	!	!	!LO:MO:mod=[4A	!	!	!	!	!	!	!	!
 4D/)	.	.	2A/	et	.	4d\	.	.	8f\	-o	.
 .	.	.	.	.	.	.	.	.	8f\	et	.
 =56	=56	=56	=56-	=56	=56	=56	=56	=56	=56	=56	=56
 !LO:TX:t=P:problem=brak kreski taktowej	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:MO:null:mod=4A]	!	!	!	!	!	!	!	!
 2.E\	.	.	.	.	.	4c\	et	.	4e\	nunc	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
 .	.	.	(4A/	sem-	.	2Bn\	ſem-	.	4e\	et	.
 .	.	.	4G#X/)	.	.	.	.	.	4e\	ſem-	.
 =57-	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57
+!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=-per,	!
 4AA/	-per	.	4A,/	-per,	.	4c#X\	-per	.	4e,\	-p(er),	.
 4A\	et	.	4A/	et	.	4c#\	et	.	4a\	et	.
 4B-X\	in	.	4d\	in	.	4d\	in	.	4g\	in	.
 =58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58
-!LO:SIC:v:l:s=sae	!	!	!LO:SIC:v:l:s=sae	!	!	!LO:SIC:v:l:s=sae	!	!	!LO:SIC:v:l:s=sae	!	!
+!	!LO:SIC:v:l:s=sae	!	!	!LO:SIC:v:l:s=sae	!	!	!LO:SIC:v:l:s=sae	!	!	!LO:SIC:v:l:s=sae	!
 4.A\	se-	.	4.e\	se-	.	4.c#X\	se-	.	4.a\	se-	.
 8G\	-cu-	.	8e\	-cu-	.	8c#\	-cu-	.	8a\	-cu-	.
 4F\	-la	.	4f\	-la	.	4d\	-la	.	4a\	-la	.
 =59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59
-!LO:SIC:v:l:s=sae	!	!	!LO:SIC:v:l:s=sae	!	!	!	!	!	!LO:SIC:v:l:s=sae	!	!
+!	!LO:SIC:v:l:s=sae	!	!	!LO:SIC:v:l:s=sae	!	!	!	!	!	!LO:SIC:v:l:s=sae	!
 4.G\	se-	.	4.d\	se-	.	4.B\	se-	.	4.g\	se-	.
 8F\	-cu-	.	8d\	-cu-	.	8B\	-cu-	.	8g\	-cu-	.
 4E\	-lo-	.	4e\	-lo-	.	4c#X\)	-lo-	.	4g\	-lo-	.
@@ -456,14 +468,18 @@
 (<4A\	a-	.	2A/	am-	.	(4d\	a-	.	2e\	am-	.
 4AA/)	.	.	.	.	.	4c#X\)	.	.	.	.	.
 =61	=61	=61	=61-	=61	=61	=61	=61	=61	=61	=61	=61
+!LO:MO:mod=1.D;	!	!	!LO:MO:mod=1.A;	!	!	!	!	!	!	!	!
 1.D\;;	-men.	.	1.A\;;	-men.	.	1.d\;<	-men.	.	1.f#X\;<	-men.	.
-!	!	!	!LO:TX:t=Rorate ut Supra.	!	!	!LO:TX:t=Rorate ut \nSupra.	!	!	!LO:TX:t=Rorate ut Supra.	!	!
+!	!	!	!LO:TX:t=Rorate ut Supra.:mod=	!	!	!LO:TX:t=Rorate ut \nSupra.:mod=	!	!	!LO:TX:t=Rorate ut Supra.:mod=	!	!
 ==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | autostem -r | humtr -p | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/[<>]//g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | modori -m
 !!!EED: Leszek Kubiak
 !!!EEV: 2021-03-25
 !!!ENC: Kamil Watkowski
 !!!END: 2021-03-22
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-09

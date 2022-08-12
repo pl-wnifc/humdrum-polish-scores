@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wn--mus-iii-102-583_wieniawski-henryk--chanson-polonais-op-12-no-2.krn
 !!!cenid: 18xx:3797
 !!!COM: Wieniawski, Henryk
-!!!COM-rismid: pe137176
+!!!COM-rismID:
 !!!CDT:
 !!!CNT:
 !!!OTL: Chanson polonais op. 12 no. 2
@@ -12,8 +12,10 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid:
-!!!URL-scan: https://polona.pl/item/chanson-polonais-op-12-no-2,NjgxNzcxMzA/1/#info:metadata
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://polona.pl/item/chanson-polonais-op-12-no-2,NjgxNzcxMzA/1/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc:
 !!!AIN: 1 piano 1 violn
 !!!key: G
@@ -29,7 +31,9 @@
 *G:	*G:	*	*G:	*
 *M3/4	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1
-!	!LO:TX:B:t=Andantino.	!	!LO:TX:a:t=Andantino.	!
+!!!OMD:
+!!!OMD-mod: Andantino
+!	!LO:TX:B:t=Andantino.:mod=	!	!LO:TX:a:t=Andantino.:mod=	!
 2.r	4r	.	2.r	.
 .	4r	.	.	.
 .	4dd\	p	.	.
@@ -296,7 +300,7 @@
 .	.	.	8ee-\J	.
 .	.	.	8gg\L	.
 .	.	.	8ff#X\J	.
-!	!	!	!LO:TX:i:t=pressez un peu:dur=10q:ext=ud:problem:text with extension lines	!
+!	!	!	!LO:TX:i:t=pressez un peu:dur=10q:ext=ud:problem:text with extension lines:mod=	!
 .	.	.	8ee-\L	.
 .	.	.	8dd\J	.
 =42	=42	=42	=42	=42
@@ -364,10 +368,10 @@
 .	.	.	8g`\J	.
 =51	=51	=51	=51	=51
 *	*^	*	*	*
-!	!LO:TX:b:i:t=rall.	!	!	!	!
+!	!LO:TX:b:i:t=rall.:mod=rallentando	!	!	!	!
 2.D\]	4g/]	2.d\ 2.c\	.	(8d/L	.
 .	.	.	.	8b-/J)	.
-!	!	!	!	!LO:TX:b:i:t=rall.	!
+!	!	!	!	!LO:TX:b:i:t=rall.:mod=rallentando	!
 .	2f#X/	.	.	(<4.b-\	.
 .	.	.	.	8a/)	.
 *	*v	*v	*	*	*
@@ -376,8 +380,10 @@
 !!LO:LB:g=original
 =53||	=53||	=53||	=53||	=53||
 *k[f#]	*k[f#]	*	*k[f#]	*
-!	!	!	!LO:TX:B:t=MAGGIORE.	!
-!	!LO:TX:B:t=Viguroso.	!	!LO:TX:a:t=Viguroso.	!
+!!LO:TX:B:=:mod=Maggiore
+!!LO:TX:B:t=:mod=Viguroso
+!	!	!	!LO:TX:B:t=MAGGIORE.:mod=	!
+!	!LO:TX:B:t=Viguroso.:mod=	!	!LO:TX:a:t=Viguroso.:mod=	!
 4GG/ 4GGG/	4r	f	(8.b/L 8.d/ 8.G/	ff
 .	.	.	16cc/Jk 16d/ 16G'/)	.
 4r	4g/ 4d/ 4B/	.	2b/ 2d/ 2G/	.
@@ -520,7 +526,8 @@
 4r	4g/ 4c/ 4G/	]	4ee\	]
 !!LO:LB:g=original
 =77	=77	=77	=77	=77
-!	!	!	!LO:TX:b:i:t=cantabile	!
+!LO:MO:mod=!LO&colon;TX&colon;i&colon;t=cantabile	!	!	!LO:TX:b:i:t=cantabile	!
+!null	!	!	!	!
 4C/ 4CC/	4r	p	(8.c/L	p
 .	.	.	16ee'/Jk)	.
 4r	4g/ 4e/ 4c/ 4G/	.	4.aa\	.
@@ -567,13 +574,15 @@
 =83	=83	=83	=83	=83
 4G/ 4GG/	4r	.	8.ccT\L	.
 .	.	.	16b\Jk	.
-!	!LO:TX:i:t=rall.	!	!	!
+!	!LO:TX:i:t=rall.:mod=rallentando	!	!	!
 4r	4g/ 4fn/ 4B/ 4G/	.	(4.aa;\	.
 4r	4g/ 4f/ 4B/ 4G/	.	.	.
 .	.	.	8b\)	.
 =84	=84	=84	=84	=84
+!	!	!LO:MO:null:mod=<	!	!
 4C/ 4CC/	4cc/: 4g/: 4e/: 4c:/	.	2.cc\	<[
 4C/ 4CC/	4ccc\: 4gg\: 4ee\: 4cc:\	.	.	.
+!	!	!LO:MO:null:mod=[	!	!
 4r	4r	.	.	.
 !!LO:LB:g=original
 =85	=85	=85	=85	=85
@@ -617,18 +626,21 @@
 .	.	.	8aa\J 8cc\ 8d\	.
 =92	=92	=92	=92	=92
 4GG/ 4GGG/	4r	.	8aa/L 8b/ 8d/ 8G/	.
+!	!	!	!	!LO:MO:mod=<
 .	.	.	8gg/J 8b/	.
 .	.	.	(>8qaa/ 8qb/	.
 4r	4g/ 4d/ 4B/	>	8gg/L 8b\)	.
 .	.	.	8ff#/J 8b\	.
+!	!	!	!	!LO:MO:mod=!null:null
 4r	4g/ 4d/ 4B;/	.	8gg/L 8b/	>
 .	.	]	8G;/J	]
 !!LO:LB:g=original
 =93||	=93||	=93||	=93||	=93||
 *k[b-e-]	*k[b-e-]	*	*k[b-e-]	*
 .	.	.	(16qqc/LL	mf
-!	!	!	!LO:TX:B:t=MINORE.	!
-!	!LO:TX:B:t=Tempo I.	!	!LO:TX:a:t=Tempo I	!
+!	!	!	!LO:TX:B:t=MINORE.:mod=	!
+!	!LO:TX:B:t=Tempo I.:mod=	!	!LO:TX:a:t=Tempo I:mod=	!
+!!LO:TX:B:t=:mod=Tempo I \nMinore
 .	.	.	16qqg/JJ	.
 4C/ 4CC/	4r	mf	(8.ee-\L)	.
 .	.	.	16ff\Jk)	.
@@ -800,7 +812,7 @@
 .	.	.	8ee-\J	.
 .	.	.	8gg\L	.
 .	.	.	8ff#X\J	.
-!	!	!	!LO:TX:i:t=pressez un peu:dur=10q:ext=ud:problem:text with extension lines	!
+!	!	!	!LO:TX:i:t=pressez un peu:dur=10q:ext=ud:problem:text with extension lines:mod=	!
 .	.	.	8ee-\L	.
 .	.	.	8dd\J	.
 =119	=119	=119	=119	=119
@@ -826,7 +838,8 @@
 .	.	.	16dd\Jk	]
 !!LO:LB:g=original
 =122	=122	=122	=122	=122
-!	!LO:TX:i:t=a tempo	!	!LO:TX:i:t=a tempo	!
+!	!LO:TX:i:t=a tempo:mod=	!	!LO:TX:i:t=a :mod=	!
+!!LO:TX:B:t=:mod=a tempo
 4C/	4r	p	8.ee-\L	p
 .	.	.	16ffn\Jk	.
 4r	4g/ 4e-/ 4G/	.	4.gg\	.
@@ -860,11 +873,13 @@
 .	.	.	8ee-\	.
 =127	=127	=127	=127	=127
 *	*^	*	*	*
+!	!	!	!LO:MO:null:mod=<	!	!
 [2.D\	[2.g/	2.d\ 2.B-\	.	(8dd\L	<
 .	.	.	.	8bb-\)	.
 .	.	.	.	8gg`\	.
 .	.	.	.	8dd`\	.
 .	.	.	.	8b-`\	.
+!	!	!	!LO:MO:null:mod=[	!	!
 .	.	.	.	8g`\J	[
 !!LO:LB:g=original
 =128	=128	=128	=128	=128	=128
@@ -874,7 +889,8 @@
 .	.	.	]]	8a/)	.
 =129	=129	=129	=129	=129	=129
 2.D\] [2.GG\	4g/ [4B-/	4ryy	p	4g/	]
-!	!	!	!	!LO:TX:a:t=morendo	!
+!	!	!	!	!LO:TX:a:t=morendo:mod=	!
+!!LO:TX:B:t=:mod=morendo
 .	2d/	8B-</L]	.	(8d/L 8G/	p
 .	.	8F#X</	.	8d/ 8A/	.
 .	.	.	.	(8qc/	.
@@ -909,17 +925,24 @@
 .	.	8c</J)	.	8d/J 8A/)	.
 *	*v	*v	*	*	*
 =133	=133	=133	=133	=133
+!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!
+!	!	!	!	!
+!	!	!LO:MO:null:mod=pp	!	!
 2D\ 2GG;<\	2d/ 2Bn<;/	.	(4G/	pp
-!	!	!	!LO:TX:t=P:problem:nie wyświetla się fermata	!
+!	!	!	!LO:TX:t=P:problem:nie wyświetla się fermata:mod=	!
+!	!	!	!LO:MO:mod=!null:null	!
 !	!	!	!LO:N:n=2:vis=2	!
 .	.	.	4ggoy/; 4rGyy/ 4rc/)	.
 4r	4r	.	4r	.
 ==	==	==	==	==
 *-	*-	*-	*-	*-
 !!!system-decoration: (s1){(s2,s3)}
-!!!ENC: Berenika Jozajtis
-!!!END: 2022-05-05
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: autostem -r | shed -k -e “s/([()[]_])[><]/$1/g” | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m|
+!!!ENC: Berenika Jozajtis
+!!!END: 2022-05-05
 !!!EED: Andrzej Borzym
 !!!EEV: 2022-05-22
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-19

@@ -2,7 +2,7 @@
 #
 # Programmer:    Craig Stuart Sapp <craig.stanford.edu>
 # Creation Date: Sat Aug 21 08:59:28 CEST 2021
-# Last Modified: Sat Aug 21 09:15:53 CEST 2021
+# Last Modified: Fri Aug 12 11:40:35 CEST 2022
 # Filename:      humdrum-polish-scores/bin/updateScores
 # Syntax:        perl 5
 #
@@ -65,7 +65,7 @@ my %ExistingFiles = getExistingFiles($targdir);
 
 prepareDirectories(%libraries);
 copyFiles();
-removeOrphanedFiles();
+# removeOrphanedFiles();
 
 exit(0);
 
@@ -78,16 +78,16 @@ exit(0);
 ##     source repository (or maybe they have been renamed).
 ##
 
-sub removeOrphanedFiles {
-	my @oldfiles = sort keys %ExistingFiles;
-	foreach my $file (@oldfiles) {
-		next if $ExistingFiles{$file};
-		next if $file !~ /^((?:pl|s)-[a-z]+)-/;
-		my $siglum = $1;
-		print STDERR "Deleting file: $targdir/$siglum/kern/$file\n";
-		unlink("$targdir/$siglum/kern/$file");
-	}
-}
+#sub removeOrphanedFiles {
+#	my @oldfiles = sort keys %ExistingFiles;
+#	foreach my $file (@oldfiles) {
+#		next if $ExistingFiles{$file};
+#		next if $file !~ /^((?:pl|s)-[a-z]+)-/;
+#		my $siglum = $1;
+#		print STDERR "Deleting file: $targdir/$siglum/kern/$file\n";
+#		unlink("$targdir/$siglum/kern/$file");
+#	}
+#}
 
 
 

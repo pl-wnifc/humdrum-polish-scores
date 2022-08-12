@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-kj--bj-muz-15425-iii--002_wieniawski-henryk--deux-mazurkas-de-salon-op-12-chanson-polonaise.krn
 !!!cenid: 18xx:3828
 !!!COM: Wieniawski, Henryk
-!!!COM-rismid: pe137176
+!!!COM-rismID:
 !!!CDT:
 !!!CNT:
 !!!GTL: Deux Mazurkas de Salon op. 12
@@ -13,19 +13,26 @@
 !!!SMS-shelfwork: 002 G
 !!!SMS-variant: VIOLINO.: PL-Kj BJ Muz. 15425 III:10-14
 !!!SMS-altvar: VIOLINO.: PL-Kj BJ Muz. 15425 III:19-21
-!!!NIFC-rismid:
-!!!URL-scan: https://polona.pl/item/deux-mazurkas-de-salon-pour-violon-avec-accompagnement-de-piano-op-12,ODM5NDU5NjA/2/#info:metadata
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://polona.pl/item/deux-mazurkas-de-salon-pour-violon-avec-accompagnement-de-piano-op-12,ODM5NDU5NjA/2/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc: UWAGA: 1. Sielauka, 2. Chanson polonaise. Na podstawie partytury (SMS:variant), partia skrzypiec do SMS:altvar
-!!!AIN: 2 piano
+!!!AIN: 2 piano 1 violn
 !!!key: g
 !!!OMD: Andantino.
+!!!OMD-mod: Andantino
 **kern	**kern	**dynam	**kern	**dynam
 *	*	*	*scale:70%	*
-*part2	*part2	*part2	*part1	*part1
+*part3	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
-*Ipiano	*Iempty	*	*Ipiano	*
-*I"PIANO.	*	*	*I"VIOLINO.	*
-*I'pf	*	*	*I'vl	*
+*I"PIANO.	*I"PIANO.	*	*I"VIOLINO.	*
+*I'	*I'	*	*I'	*
+*Ipiano	*Ipiano	*	*Ivioln	*
+*ICklav	*ICklav	*	*ICstr	*
+*IGacmp	*IGacmp	*	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino 	*
+*mI'pf	*mI'pf	*	*mI'vl	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[b-e-]	*k[b-e-]	*	*k[b-e-]	*
 *g:	*g:	*	*g:	*
@@ -56,8 +63,10 @@
 .	2dd;/	.	.	.	.
 *	*v	*v	*	*	*
 =5	=5	=5	=5	=5
+!	!	!LO:MO:null:mod=p	!	!
 4GG/	4r	.	2.r	.
 !	!	!LO:DY:rj	!	!
+!	!	!LO:MO:null:mod=.	!	!
 4r	4g 4d 4B-/	p	.	.
 4r	4g 4d 4B-/	.	.	.
 =6	=6	=6	=6	=6
@@ -113,6 +122,7 @@
 4r	4g 4c#X 4A/	.	4een\)	[
 =14	=14	=14	=14	=14
 *	*^	*	*	*
+!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:HP:a	!	!
 2.D\	4f 4A/	2d\	<	2.dd\	.
 .	2f#X/	.	[	.	.
@@ -169,7 +179,8 @@
 2.D\	2.f 2.d 2.A/	.	2.dd\	.
 !!LO:PB:g=original
 =23	=23	=23	=23	=23
-!	!	!	!LO:TX:a:B:rj:t=A	!
+!!LO:TX:B:t=:mod=A
+!	!	!	!LO:TX:a:B:rj:t=A:mod=	!
 2.AA 2.DD^>/	4r	.	(8.dd#X'\L	.
 .	.	.	16een'\Jk)	.
 .	.	.	8qee/	.
@@ -179,6 +190,7 @@
 =24	=24	=24	=24	=24
 .	.	.	(16qqff/LL	.
 .	.	.	16qqgg/JJ)	.
+!LO:SIC:s=2.AA 2.DD^	!	!	!	!
 2.AA 2.DD/	4r	.	8.ff\L	.
 .	.	.	16een\Jk	.
 .	4f 4d 4A/	.	4ff\	.
@@ -186,16 +198,19 @@
 =25	=25	=25	=25	=25
 .	.	.	(16qqcc#X/LL	.
 .	.	.	16qqdd/JJ)	.
+!LO:SIC:s=2.AA 2.DD^	!	!	!	!
 2.AA 2.DD/	4r	.	8.cc#\L	.
 .	.	.	16bn\Jk	.
 .	4g 4en 4c#X 4A/	.	4cc#\	.
 .	4g 4e 4c# 4A/	.	4a/	.
 =26	=26	=26	=26	=26
+!LO:SIC:s=2.AA 2.DD^	!	!	!	!
 2.AA 2.DD/	4r	.	8.dd\L	.
 .	.	.	16ff\Jk	.
 .	4f 4d 4A/	.	4bb-\	.
 .	4f 4d 4A/	.	4aa\	.
 =27	=27	=27	=27	=27
+!LO:SIC:s=2.AA 2.DD^	!	!	!	!
 2.AA 2.DD/	4r	.	8.dd#X\L	.
 .	.	.	16een\Jk	.
 .	.	.	(>8qee/	.
@@ -205,8 +220,10 @@
 =28	=28	=28	=28	=28
 *	*^	*	*	*
 .	.	.	.	(16qqff/LL	.
+!	!	!	!	!LO:SIC:v:s=16qqggJJ)	!
 .	.	.	.	16qqff/JJ)	.
-!	!	!	!LO:HP:a	!	!
+!	!	!	!LO:MO:mod=!null:null	!	!
+!LO:SIC:s=2.AA 2.DD^	!	!	!LO:HP:a	!	!
 2.AA 2.DD/	8.f^/L	4r	<	8.ff\L	.
 .	16g/Jk	.	.	16een\Jk	.
 .	4.a/	4f 4d 4A\	.	4.ff\	.
@@ -215,6 +232,7 @@
 =29	=29	=29	=29	=29	=29
 .	.	.	.	(16qqcc#X/LL	.
 .	.	.	.	16qqdd/JJ)	.
+!LO:SIC:s=2.AA 2.DD^	!	!	!	!	!
 2.AA 2.DD/	8.en/L	4r	.	8.cc#\L	.
 .	16d/Jk	.	.	16bn\Jk	.
 .	4e 4A 4G/	2ryy	.	4cc#\	.
@@ -278,8 +296,9 @@
 .	.	4g 4en 4c#X 4A\	.	4cc#\	.
 .	.	4g 4e 4c# 4A\	.	4a/	.
 *	*v	*v	*	*	*
-!	!	!	!LO:TX:a:B:t=B	!
+!	!	!	!LO:TX:a:B:t=B:mod=	!
 =38	=38	=38	=38	=38
+!!LO:TX:B:t=:mod=B
 4D\	4a 4f#X 4d 4A/	.	8.dd\L	.
 .	.	.	16ee-X\Jk	.
 4r	4r	.	4gg\	.
@@ -296,7 +315,8 @@
 .	.	.	8ee-\J	.
 .	.	.	8gg\L	.
 .	.	.	8ff#X\J	.
-!	!	!	!LO:TX:b:i:t=poco accelerando	!
+!!LO:TX:i:t=:mod=poco accelerando
+!	!	!	!LO:TX:b:i:t=poco accelerando:mod=	!
 .	.	.	8ee-\L	.
 .	.	.	8dd\J	.
 =41	=41	=41	=41	=41
@@ -322,7 +342,8 @@
 .	.	.	16dd\Jk	.
 !!LO:LB:g=original
 =44	=44	=44	=44	=44
-!	!LO:TX:b:t=a tempo	!	!LO:TX:a:t=a tempo	!
+!!LO:TX:t=:mod=a tempo
+!	!LO:TX:b:t=a tempo:mod=	!	!LO:TX:a:t=a tempo:mod=	!
 4C/	4r	p	8.ee-\L	p
 .	.	.	16ffn\Jk	.
 4r	4g 4e- 4G/	.	4.gg\	.
@@ -377,8 +398,10 @@
 !!LO:PB:g=original
 =52||	=52||	=52||	=52||	=52||
 *k[f#]	*k[f#]	*	*k[f#]	*
-!	!	!	!LO:TX:a:i:t=Vigoroso.	!
-!LO:TX:a:i:t=Vigoroso.	!LO:TX:a:i:t=Maggiore.	!	!LO:TX:a:i:t=Maggiore.	!LO:DY:rj
+!!!OMD:
+!!!OMD-mod: Maggiore\nVigoroso
+!	!	!	!LO:TX:a:i:t=Vigoroso.:mod=	!
+!LO:TX:a:i:t=Vigoroso.:mod=	!LO:TX:a:i:t=Maggiore.:mod=	!	!LO:TX:a:i:t=Maggiore.:mod=	!LO:DY:rj
 4GG 4GGG/	4r	f	8.bL 8.d 8.G'/	ff
 .	.	.	16ccJk 16d 16G'/	.
 4r	4g 4d 4B/	.	2b 2d 2G/	.
@@ -472,8 +495,9 @@
 4r	4g 4d 4B 4G/	.	8ggL 8b\)	.
 .	.	.	8ff#J 8a\	.
 4r	4g 4d 4B 4G/	.	4gg 4b\	.
-!	!	!	!LO:TX:a:B:t=C	!
+!	!	!	!LO:TX:a:B:t=C:mod=	!
 =68	=68	=68	=68	=68
+!!LO:TX:B:t=:mod=C
 !	!	!	!	!LO:DY:rj
 4C 4CC/	4r	p	(8.c'/L	mf
 .	.	.	16ee'/Jk)	.
@@ -523,6 +547,7 @@
 4r	4g 4c 4G/	.	.	.
 4r	4g 4c 4G/	.	4ee\	.
 =76	=76	=76	=76	=76
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=cantabile	!
 !	!	!	!LO:TX:b:i:t=cantabile	!
 4C 4CC/	4r	p	(8.c'/L	.
 .	.	.	16ee'/Jk)	.
@@ -579,9 +604,11 @@
 4C 4CC/	4cc: 4g: 4e: 4c:/	.	2.cc\	.
 4C 4CC/	4ccc: 4gg: 4ee: 4cc:\	p	.	.
 4r	4r	.	.	.
-!	!	!	!LO:TX:a:B:t=D	!
+!	!	!	!LO:TX:a:B:t=D:mod=	!
 =84	=84	=84	=84	=84
-!LO:TX:a:i:t=a tempo	!	!	!LO:TX:a:i:t=a tempo	!LO:DY:rj
+!!LO:TX:t=:mod=a tempo
+!!LO:TX:B:t=:mod=D
+!LO:TX:a:i:t=a tempo:mod=	!	!	!LO:TX:a:i:t=a tempo:mod=	!LO:DY:rj
 4GG 4GGG/	4r	f	8.b'L 8.d 8.G/	ff
 .	.	.	16cc'Jk 16d 16G/	.
 4r	4g 4d 4B/	.	2b 2d 2G/	.
@@ -631,10 +658,12 @@
 .	.	.	8G;/J	.
 =92||	=92||	=92||	=92||	=92||
 *k[b-e-]	*k[b-e-]	*	*k[b-e-]	*
-!LO:TX:a:i:t=Minore.	!LO:TX:a:i:t=Tempo I.	!	!	!LO:DY:rj
+!!!OMD:
+!!!OMD-mod: Minore\nTempo I
+!LO:TX:a:i:t=Minore.:mod=	!LO:TX:a:i:t=Tempo I.:mod=	!	!	!LO:DY:rj
 .	.	.	(16qqc/LL	p
-!	!	!	!LO:TX:b:i:t=Minore.	!
-!	!	!	!LO:TX:a:i:t=Tempo I.	!
+!	!	!	!LO:TX:b:i:t=Minore.:mod=	!
+!	!	!	!LO:TX:a:i:t=Tempo I.:mod=	!
 .	.	.	16qqg/JJ)	.
 !	!	!LO:DY:rj	!	!
 4C 4CC/	4r	p	(8.ee-\L	.
@@ -682,9 +711,10 @@
 4r	4g 4c#X 4A/	.	4een\)	.
 =99	=99	=99	=99	=99
 2.D\	2.f 2.d 2.A/	.	2.dd\	.
-!	!	!	!LO:TX:a:B:t=E	!
+!	!	!	!LO:TX:a:B:t=E:mod=	!
 =100	=100	=100	=100	=100
 *ped	*	*	*	*
+!!LO:TX:B:t=:mod=E
 2.AA 2.DD/	4r	.	(8.dd#X\L	pp
 .	.	.	16een\Jk)	.
 .	4g 4c#X 4A/	.	4.aa\	.
@@ -740,6 +770,7 @@
 4r	8en/	.	.	.
 .	8f/	.	.	.
 4r	8g/	.	.	.
+!	!	!LO:MO:mod=[[	!	!
 .	8g#X/J	[	.	.
 !!LO:PB:g=original
 =108	=108	=108	=108	=108
@@ -792,8 +823,9 @@
 .	.	4g 4en 4c#X 4A\	.	4cc#\	.
 .	.	4g 4e 4c# 4A\	.	4a/	.
 *	*v	*v	*	*	*
-!	!	!	!LO:TX:a:B:t=F	!
+!	!	!	!LO:TX:a:B:t=F:mod=	!
 =115	=115	=115	=115	=115
+!!LO:TX:B:t=:mod=F
 4D\	4a 4f#X 4d 4A/	.	8.dd\L	.
 .	.	.	16ee-X\Jk	.
 4r	4r	.	4gg\	.
@@ -809,7 +841,8 @@
 2.r	2.r	.	8dd\L	.
 .	.	.	8ee-\J	.
 .	.	.	8gg\L	.
-!	!	!	!LO:TX:b:i:t=poco accelerando	!
+!!LO:TX:i:t=:mod=poco accelerando
+!	!	!	!LO:TX:b:i:t=poco accelerando:mod=	!
 .	.	.	8ff#X\J	.
 .	.	.	8ee-\L	.
 .	.	.	8dd\J	.
@@ -836,7 +869,8 @@
 .	.	.	16dd\Jk	.
 !!LO:LB:g=original
 =121	=121	=121	=121	=121
-!LO:TX:a:i:t=a tempo	!	!	!LO:TX:a:i:t=a tempo	!
+!!LO:TX:t=:mod=a tempo
+!LO:TX:a:i:t=a tempo:mod=	!	!	!LO:TX:a:i:t=a tempo:mod=	!
 4C/	4r	.	8.ee-\L	.
 .	.	.	16ffn\Jk	.
 4r	4g 4e- 4G/	.	4.gg\	.
@@ -929,7 +963,10 @@
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-02
 !!!ENC: Marta Lawrence
 !!!END: 2022-05-14
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-07-15

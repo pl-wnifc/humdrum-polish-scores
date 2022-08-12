@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wn--mus-iii-161-460_wieniawski-henryk--polonaise-de-concert-op-4.krn
 !!!cenid: 18xx:3825
 !!!COM: Wieniawski, Henryk
-!!!COM-rismid: pe137176
+!!!COM-rismID:
 !!!CDT:
 !!!CNT:
 !!!OTL: Polonaise de concert op. 4
@@ -12,20 +12,25 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant: Partytura: PL-Wn Mus.III.161.460:2-9
 !!!SMS-altvar: Violon.: PL-Wn Mus.III.161.460:10-13
-!!!NIFC-rismid:
-!!!URL-scan: https://polona.pl/item/polonaise-de-concert-op-4,MTA4MDQwOTc5/1/#info:metadata
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://polona.pl/item/polonaise-de-concert-op-4,MTA4MDQwOTc5/1/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc: UWAGA: na podstawie partytury (SMS:variant), partia skrzypiec do SMS:altvar
 !!!OMD: Allegro maestoso.
 !!!AIN: 1 piano 1 violn
 !!!key: D
 **kern	**kern	**dynam	**kern	**dynam
+*	*	*	*scale:70%	*
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
 *>[A,A,B]	*>[A,A,B]	*	*>[A,A,B]	*
 *>A	*>A	*	*>A	*
 *I"Piano	*I"Piano	*	*I"Violon	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*
 *Ipiano	*Ipiano	*	*Ivioln	*
 *ICklav	*ICklav	*	*ICstr	*
+*IGacmp	*IGacmp	*	*IGsolo	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[f#c#]	*k[f#c#]	*	*k[f#c#]	*
 *D:	*D:	*	*D:	*
@@ -93,8 +98,11 @@
 .	.	.	16aa\	.
 8A'\	16r	.	16dd\	.
 .	16gJk 16c#'/	.	16ee\JJ)	.
+!	!	!	!	!LO:MO:null:mod=]
 8D'\	4f# 4d/)	.	(4.ff#\	.
+!	!	!	!	!LO:MO:mod=<
 8AA'\J	.	.	.	]
+!	!	!	!	!LO:MO:mod=.
 4DD/	8r	.	.	<
 !	!LO:TX:a:i:t=a tempo	!	!LO:TX:a:i:t=a tempo	!
 .	8g#X 8fn 8d/	] < [[	24b\LL	.
@@ -161,6 +169,7 @@
 4BB 4BBB/	8f#L 8d 8B 8F#'\	mf	8ff#L 8dd\	ff
 .	16f#L 16d 16B 16F#'\	.	8B\J	.
 .	16f#JJ 16d 16B 16F#'\	.	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=allargando	!	!	!
 !	!LO:TX:B:b:t=allargando:color=deeppink	!	!	!
 4r	8f#L 8d 8B 8F#'\	.	8.dddL 8.dd 8.f# 8.B^\	.
 .	8f#J 8d 8B 8F#'\	.	.	.
@@ -170,12 +179,14 @@
 .	8f# 8d 8B 8F#\	.	16ccc# 16dd 16f#^\	.
 .	.	.	16bbJJ 16dd 16f#^\	.
 =14	=14	=14	=14	=14
+!	!	!LO:MO:mod=!null:null	!	!LO:MO:mod=!null:null
 !	!	!LO:HP:t=dim.	!	!LO:HP:t=dim.
 4EE 4EEE/	8r	>	(16ccc#LL 16ee 16g 16B\	>
 .	.	.	16bb\)	.
 .	8g 8e 8B 8G\	.	(16aa 16b 16e\	.
 .	.	.	16gg\JJ)	.
 4BB 4BBB/	8r	.	8ff#L 8dd 8f# 8B\	.
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=a tempo	!	!	!
 !	!LO:TX:B:b:t=a tempo:color=deeppink	!	!	!
 .	16f#LL 16d 16B 16F#'\	.	16ddL 16b\	.
 .	16f#JJ 16d 16B 16F#'\	.	16eeJJ 16cc#\	.
@@ -204,6 +215,7 @@
 .	.	.	24dd 24f#\	.
 .	.	.	24cc#JJ 24f#\)	[
 8BB\J	8bJ 8d 8B'^/	[	8bL 8d'^/	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=pizz.	!
 !	!	!	!LO:TX:a:t=pizz.	!
 8f#\L	8ff#'\L	<	8f#/J	<
 8B\	8b'\	.	8b\L	.
@@ -212,9 +224,11 @@
 !	!	!	!LO:TX:t=P:problem:diminuendolike accent	!
 4BB 4BBB/	8bb 8ff# 8dd 8b'^<\	.	8bbL 8dd 8f# 8B^<\	.
 *	*clefF4	*	*	*
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=arco	!
 !	!	!	!LO:TX:a:t=arco	!
 .	16f#LL 16d 16B 16F#'\	mf	8B\J	ff
 .	16f#JJ 16d 16B 16F#'\	.	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=allargando	!	!	!
 !	!LO:TX:b:B:t=allargando:color=deeppink	!	!	!
 4r	8f#L 8d 8B 8F#'\	.	8.dddL 8.dd 8.f# 8.B^\	.
 .	8f#J 8d 8B 8F#'\	.	.	.
@@ -230,6 +244,7 @@
 .	8g 8e 8B 8G\	.	(16aa 16b 16e/	.
 .	.	.	16gg/JJ)	.
 4BB 4BBB/	8r	.	8ff#L 8dd 8f# 8B'\	.
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=a tempo	!	!	!
 !	!LO:TX:B:b:t=a tempo:color=deeppink	!	!	!
 .	16f#LL 16d 16B 16F#'\	.	16ddL 16b'\	.
 .	16f#JJ 16d 16B 16F#'\	.	16eeJJ 16cc#'\	.
@@ -294,8 +309,9 @@
 .	16f#JJ 16d 16A'/	.	.	.
 4r	8f#L 8d 8A'/	.	4.aa\	>
 .	8f#J 8d 8A'/	]	.	.
-!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!	!LO:TX:t=P:problem:mixed beam	!	!	!LO:MO:mod=.
 4ryy	8FF#<L 8FFF#</	mp	.	]
+!	!	!	!	!LO:MO:mod=] mf
 .	8f#J 8d 8A#X\	.	(8aa#X'\	mf
 =25	=25	=25	=25	=25
 .	.	.	(16qqaa#X/LL	.
@@ -324,9 +340,11 @@
 .	16gJk 16c#'/	.	16ee\JJ)	.
 8D'\	4f# 4d/)	.	(4.ff#\	]
 8AA'\J	.	.	.	<
+!	!LO:MO:mod=!null:null	!	!	!
 !	!LO:TX:a:i:t=a tempo	!	!	!
 4DD/	8r	.	.	.
-!	!	!	!LO:TX:a:i:t=a tempo	!
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=a tempo	!	!	!
+!	!null	!	!LO:TX:a:i:t=a tempo	!
 .	8g#X 8fn 8d/	] < [[	24b\LL	.
 .	.	.	24cc#\	.
 .	.	.	24b\JJ	[[
@@ -694,8 +712,11 @@
 4BBB/	8f#]L 8d 8B/	>	4B/	>
 .	16f#L 16d 16B'>/	.	.	.
 .	16f#JJ 16d 16B'>/	.	.	.
+!	!	!	!LO:MO:mod=!null:null	!
 !	!	!	!LO:TX:a:i:t=dolce	!
 4r	4f# 4d 4B/	.	8r	]
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=dolce	!
+!	!	!	!null	!
 .	.	]	((8f#\L	p <
 4r	4r	.	8ff#\)	.
 .	.	.	8ff#'\J)	[
@@ -855,17 +876,26 @@
 .	.	.	24f#/	.
 .	.	.	24g/JJ	.
 =71	=71	=71	=71	=71
+!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*Xtuplet	*
+!	!	!	!LO:MO:mod=!LO&colon;TUP&colon;b&colon;r=8	!
+!	!	!	!null	!
 4.F#\	8r	.	24f#/LL	.
 .	.	.	24e/	.
 .	.	.	24d/J	.
+!	!	!	!LO:MO:mod=!LO&colon;TUP&colon;b&colon;r=8	!
+!	!	!	!null	!
 .	16bLL 16f# 16d'>/	.	24c#/L	.
 .	.	.	24d/	.
 .	16bJJ 16f# 16d'>/	.	.	.
 .	.	.	24e/JJ	.
+!	!	!	!LO:MO:mod=!LO&colon;TUP&colon;b&colon;r=8	!
+!	!	!	!null	!
 .	8bL 8f# 8d'>/	.	24d/LL	.
 .	.	.	24c#/	.
 .	.	.	24B/J	.
+!	!	!	!LO:MO:mod=!LO&colon;TUP&colon;b&colon;r=8	!
+!	!	!	!null	!
 8G#X 8FF#/	8e#XJ 8d 8B/	.	24A#X/L	.
 .	.	.	24B/	.
 .	.	.	24d/JJ	.
@@ -1044,17 +1074,23 @@
 .	.	.	16ee\	<
 8e 8c#\	8ee 8b 8g'\	<	16cc#\	.
 .	.	.	16dd\JJ	.
+!	!	!	!LO:MO:mod=!LO&colon;TUP&colon;b&colon;r=8	!
+!	!	!	!null	!
 8e 8c#\	8ee 8b 8g'\	.	24ff#\LL	.
 .	.	.	24ee\	.
 .	.	.	24eee\J	.
+!	!	!	!LO:MO:mod=!LO&colon;TUP&colon;b&colon;r=8	!
+!	!	!	!null	!
 8eJ 8c#\	8eeJ 8b 8g'\	[[	24ccc#\L	.
 .	.	.	24bb\	.
 .	.	.	24ccc#\JJ)	[[
 =84	=84	=84	=84	=84
 !	!LO:TX:b:i:t=poco rall.	!	!LO:TX:b:i:t=poco rall.	!
 4e#X 4d 4B\	(4ee#X 4b 4g#X\	>	(4bb\	>
+!	!	!	!	!LO:MO:null:mod=]
 8c# 8F#\	8ff# 8a#X 8f#\)	]	4aa#X\)	.
 *	*clefF4	*	*	*
+!	!	!	!	!LO:MO:mod=.
 16FF#LL 16FFF#/	16F#'\LL	mf <	.	]
 16FF#JJ 16FFF#/	16F#'\JJ	.	.	.
 8FF#L 8FFF#/	8F#'\L	.	16r	.
@@ -1103,8 +1139,9 @@
 .	16f#JJ 16d 16A'/	.	.	.
 4r	8f#L 8d 8A'/	.	4.aa\	>
 .	8f#J 8d 8A'/	]	.	.
-!	!LO:TX:t=P:problem:mixed beam	!	!	!
+!	!LO:TX:t=P:problem:mixed beam	!LO:MO:null:mod=mp	!	!
 4ryy	8FF#<L 8FFF#</	.	.	.
+!	!	!LO:MO:mod=.	!	!
 .	8f#J 8d 8A#X\	mp	(8aa#X'\	] mf
 !!LO:LB:g=original
 =89	=89	=89	=89	=89
@@ -1214,6 +1251,7 @@
 !	!LO:TX:t=P:problem:diminuendolike accent	!	!LO:TX:t=P:problem:diminuendolike accent	!
 4D 4DD/	4f# 4d 4A^/	.	8aa^<\L	.
 .	.	.	(8qdd/	<
+!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*Xtuplet	*
 .	.	.	(24ddd\L)	.
 .	.	.	24aa\	.
@@ -1332,6 +1370,7 @@
 .	.	.	(16ff#LL 16dd'\	<
 .	.	.	16gg 16ee'\	.
 .	.	.	16aaJJ 16ff#'\	.
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=accel.	!	!	!
 !	!LO:TX:a:Bi:t=accel.:color=deeppink	!	!	!
 4D 4DD/	4f# 4d 4A^/	.	16bbLL 16gg'\	.
 .	.	.	16ccc# 16aa'\	.
@@ -1352,7 +1391,8 @@
 .	.	.	16ff#JJ 16dd#X'\	[[
 !!LO:LB:g=original
 =107	=107	=107	=107	=107
-!	!LO:TX:a:Bi:t=a tempo:color=deeppink	!	!	!
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=a tempo	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=[a tempo]	!
+!	!LO:TX:a:Bi:t=a tempo:color=deeppink	!	!null	!
 4E 4EE/	8ee 8b 8g^<\	.	8ggL 8ee'\)	>
 .	4g 4e 4B/	.	8.eJ 8.G\	.
 4E 4EE/	.	.	.	]
@@ -1468,9 +1508,13 @@
 .	.	.	16bb-\	.
 .	8F/	.	16dd\	.
 .	.	.	16ee-X\JJ	.
+!	!	!	!LO:MO:mod=!LO&colon;TUP&colon;b&colon;r=8	!
+!	!	!	!null	!
 .	8f 8d 8B-/	.	24een\LL	.
 .	.	.	24gg\	.
 .	.	.	24ffn\J	.
+!	!	!	!LO:MO:mod=!LO&colon;TUP&colon;b&colon;r=8	!
+!	!	!	!null	!
 .	8F/J	.	24dd\L	.
 .	.	.	24b-X\	.
 .	.	.	24g\JJ)	.
@@ -1484,9 +1528,13 @@
 .	.	.	16d/	.
 .	8F/	.	16A/	.
 .	.	.	16B-X/JJ	.
+!	!	!	!LO:MO:mod=!LO&colon;TUP&colon;b&colon;r=8	!
+!	!	!	!null	!
 .	8f 8d 8B-/	.	24d\LL	.
 .	.	.	24f\	.
 .	.	.	24a\J	.
+!	!	!	!LO:MO:mod=!LO&colon;TUP&colon;b&colon;r=8	!
+!	!	!	!null	!
 .	8eJ 8d-X 8F/	.	24b-X\L	.
 .	.	.	24aa\	.
 .	.	.	24gg\JJ)	[[
@@ -1679,14 +1727,19 @@
 .	.	.	16aa\	.
 8A'\	16r	.	16dd\	.
 .	16gJk 16c#'/	.	16ee\JJ)	.
+!	!	!	!	!LO:MO:null:mod=]
 8D'\	4f# 4d/)	.	(4.ff#\	.
+!	!	!	!	!LO:MO:mod=<
 8AA'\J	.	.	.	]
+!	!	!	!	!LO:MO:mod=.
 8DD'>/	8r	]	.	<
 !	!LO:TX:a:i:t=a tempo	!	!LO:TX:a:i:t=a tempo	!
 8Cn 8CCn/	8a#X 8g 8e/	< [[	24ccn\LL	.
 .	.	.	24dd\	.
+!	!	!	!	!LO:MO:null:mod=[[
 .	.	.	24cc\JJ	.
 =130	=130	=130	=130	=130
+!	!	!	!	!LO:MO:mod=f
 8BBL 8BBB\	4b 4f# 4d#X/	f	8b\L)	[ f
 8BJ 8BB\	.	.	16B'\L	ff
 .	.	.	16bb'\JJ	.
@@ -1965,7 +2018,10 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: N = linked
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | modori -m
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-05-13
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-05-14
+!!!ENC-modern: Marta Lawrence
+!!!END-modern: 2022-07-19

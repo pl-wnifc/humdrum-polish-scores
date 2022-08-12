@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wtm--r-1184--002_lessel-franciszek--adagio-et-fugue-fuga.krn
 !!!cenid: 18xx:1633
 !!!COM: Lessel, Franciszek
-!!!COM-rismid: pe30004332
+!!!COM-rismID:
 !!!CDT: 1780-1838/12/26
 !!!CNT: Polish
 !!!OPR: Adagio et Fugue
@@ -14,8 +14,11 @@
 !!!SMS-shelfwork: 001-002 M
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001087661
-!!!system-decoration: {(s1,s2)}{(s3,s4)}
+!!!NIFC-rismSourceID: 1001087661
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan:
+!!!ONB-nifc: UWAGA: części: 1. Adagio, 2. Fuga
 !!!AIN: 4 empty
 !!!key:
 **kern	**kern	**kern	**dynam	**kern	**dynam
@@ -23,18 +26,21 @@
 *staff4	*staff3	*staff2	*	*staff1	*
 *Iempty	*Iempty	*Iempty	*	*Iempty	*
 *	*I"Secondo.	*	*	*I"Primo.	*
-*	*I'P-no II	*	*	*I'P-no I	*
+*	*mI"Pianoforte II	*	*	*mI"Pianoforte I	*
+*	*I'pf 2	*	*	*I'pf 1	*
 *clefF4	*clefF4	*clefG2	*	*clefG2	*
 *k[b-]	*k[b-]	*k[b-]	*	*k[b-]	*
 *d:	*d:	*d:	*	*d:	*
 *M2/2	*M2/2	*M2/2	*	*M2/2	*
 *met(c|)	*met(c|)	*met(c|)	*	*met(c|)	*
 =1	=1	=1	=1	=1	=1
+!!!OMD:
+!!!OMD-mod: Allegro
 *	*2\right	*	*	*	*
 !	!	!	!	!LO:TX:a:t=P:problem=W źródle brak klucza na początku tej części utworu [przyjęty zgodnie z poprzednią częścią]	!
 !	!	!LO:TX:a:t=P:problem=W źródle brak klucza na początku tej części utworu [przyjęty zgodnie z poprzednią częścią]	!	!	!
 !LO:TX:a:t=P:problem=W źródle brak klucza na początku tej części utworu [przyjęty zgodnie z poprzednią częścią]	!LO:TX:a:t=P:problem=W źródle brak klucza na początku tej części utworu [przyjęty zgodnie z poprzednią częścią]	!	!	!	!
-!	!LO:TX:b:Bi:t=Fuga All(egr)o.	!	!	!LO:TX:a:Bi:t=Fuga All(egr)o.	!
+!	!LO:TX:b:Bi:t=Fuga All(egr)o.:mod=	!	!	!LO:TX:a:Bi:t=Fuga All(egr)o.:mod=	!
 1r	4AA/	1r	.	1r	.
 .	2A^<\	.	.	.	.
 .	4G\	.	.	.	.
@@ -223,8 +229,10 @@
 .	8Bn\J	8g#X/J	.	.	.
 4AA/	4c\	8a/L	.	.	.
 .	.	8cc/	.	.	.
+!	!LO:MO:mod=!null:null	!	!	!	!
 !	!LO:TX:b:Bi:t=V.S:problem=wspólne dla Secondo	!	!	!	!
 4F\	[>4d\	8bn/	.	.	.
+!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!LO:TX:a:Bi:t=V.S:problem=wspólne dla Primo	!	!	!
 .	.	8a/J	.	.	.
 !!LO:PB:g=original
@@ -624,6 +632,7 @@
 .	8A\	8cc\J	.	8gg\J	.
 .	4G\	4bn\	.	8aa\L	.
 .	.	.	.	8bbn\J	.
+!	!LO:MO:mod=!null:null	!	!	!LO:MO:mod=!null:null	!
 !	!LO:TX:b:Bi:t=V.S:problem=wspólne dla Secondo	!	!	!LO:TX:b:Bi:t=V.S:problem=wspólne dla Primo	!
 .	4F#X\	4a\	.	[>4ccc\	.
 !!LO:LB:g=original
@@ -905,6 +914,7 @@
 .	.	8dd\J	.	.	.
 =99	=99	=99	=99	=99	=99
 8r	4E\	4ee\	.	4gg\	.
+!LO:SIC:s=8GG/L:v	!	!	!	!	!
 8FF/L	.	.	.	.	.
 8AA/	2e^<\	4r	.	4ff\	.
 8BB-/J	.	.	.	.	.
@@ -973,6 +983,7 @@
 2r	4D\	4d/	.	4aa\]	.
 .	4r	2dd^<\	.	4gg\	.
 4AAA/	2r	.	.	4ff\	.
+!LO:MO:mod=!null:null	!	!	!	!LO:MO:mod=!null:null	!
 !LO:TX:a:Bi:t=V.S:problem=wspólne dla Secondo	!	!	!	!LO:TX:b:Bi:t=V.S:problem=wspólne dla Primo	!
 [<4AA^</	.	[>4cc\	.	4ee\	.
 !!LO:PB:g=original
@@ -1117,18 +1128,21 @@
 =123	=123	=123	=123	=123	=123
 !	!	!LO:TX:a:t=P:problem=w źródle ozdobna kreska końcowa	!	!LO:TX:a:t=P:problem=w źródle ozdobna kreska końcowa	!
 !LO:TX:a:t=P:problem=w źródle ozdobna kreska końcowa	!LO:TX:a:t=P:problem=w źródle ozdobna kreska końcowa	!	!	!	!
+!	!LO:MO:mod=!null:null	!	!	!LO:MO:mod=!null:null	!
 !	!LO:TX:b:Bi:t=Fine:problem=wspólne dla Secondo	!	!	!LO:TX:b:Bi:t=Fine:problem=wspólne dla Primo	!
 1AA 1DD;>	1d 1A 1F#X 1D;>	1dd 1a;>	.	1ff#X;>	.
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
-!!title: @{OTL};
+!!!system-decoration: {(s1,s2)}{(s3,s4)}
+!!!tempo-scaling: 70%
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: N = linked
 !!!RDF**kern: i = editorial accidental
-!!!EED: Wojciech Jakubiak-Danek
-!!!EEV: 2021-04-14
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r1184
-!!!ONB-nifc: UWAGA: części: 1. Adagio, 2. Fuga
+!!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D" | rid -lid
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-03-27
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2021-04-14
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-07-30

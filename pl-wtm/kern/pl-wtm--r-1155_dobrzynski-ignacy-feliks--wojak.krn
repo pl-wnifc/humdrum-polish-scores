@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wtm--r-1155_dobrzynski-ignacy-feliks--wojak.krn
 !!!cenid: 18xx:1760
 !!!COM: Dobrzyński, Ignacy Feliks
-!!!COM-rismid: pe30020642
+!!!COM-rismID:
 !!!CDT: 1807/02/15-1867/10/09
 !!!CNT: Polish
 !!!OTL: Wojak
@@ -12,40 +12,61 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001056452
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r1155
+!!!NIFC-rismSourceID: 1001056452
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan:
 !!!ONB-nifc:
-!!!AIN: 1 empty 1 forte
-!!!key:
+!!!AIN: 1 piano 1 vox
+!!!OMD:
+!!!OMD-mod: Allegro
+!!!key: E
 **kern	**kern	**dynam	**kern	**text	**text	**text	**dynam
 *part2	*part2	*part2	*part1	*part1	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1	*staff1	*staff1	*
-*Iforte	*Iempty	*	*Iempty	*	*	*	*
-*I"Fortepian	*	*	*I"Śpiew	*	*	*	*
-*I'P-no	*	*	*I'Ś.	*	*	*	*
+*>[A,B,C,B,C,B,C,B]	*>[A,B,C,B,C,B,C,B]	*	*>[A,B,C,B,C,B,C,B]	*	*	*	*
+*>A	*>A	*	*>A	*	*	*	*
+*I"Fortepian	*I"Fortepian	*	*I"Śpiew	*	*	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*	*	*	*
+*I'pf	*pf	*	*I'V	*	*	*	*
+*Ipiano	*Ipiano	*	*Ivox	*	*	*	*
+*ICklav	*ICklav	*	*ICvox	*	*	*	*
 *clefF4	*clefG2	*	*clefG2	*	*	*	*
 *k[f#c#g#d#]	*k[f#c#g#d#]	*	*k[f#c#g#d#]	*	*	*	*
 *E:	*E:	*	*E:	*	*	*	*
 *M2/4	*M2/4	*	*M2/4	*	*	*	*
 =1	=1	=1	=1	=1	=1	=1	=1
-!	!LO:TX:a:i:t=Trąbka	!	!LO:TX:a:i:t=Allegro	!	!	!	!
+!	!LO:TX:a:i:t=Trąbka:mod=	!	!LO:TX:a:i:t=Allegro:mod=	!	!	!	!
 8GG#/L 8EE/	8e/L 8G#'/	f	2r	.	.	.	.
 8BB/	16B'/L	.	.	.	.	.	.
 .	16B'/JJ	.	.	.	.	.	.
 8E/	8B'/L	.	.	.	.	.	.
 8BB/J	8B'/J	.	.	.	.	.	.
+!LO:MO:mod==2!|:	!LO:MO:mod==2!|:LO:MO:mod==2!|:	!LO:MO:mod==2!|:	!LO:MO:mod==2!|:	!LO:MO:mod==2!|:LO:MO:mod==2!|:	!LO:MO:mod==2!|:	!LO:MO:mod==2!|:	!LO:MO:mod==2!|:
 =2||	=2||	=2||	=2||	=2||	=2||	=2||	=2||
-!LO:TX:i:b:t=[segno]	!LO:TX:a:t=[segno]	!	!LO:TX:a:t=[segno]	!	!	!	!
+*>B	*>B	*	*>B	*	*	*	*
+!!LO:TX:a:t= :mod=[segno|larger]
+!LO:TX:i:b:t=[segno]:mod=	!LO:TX:a:t=[segno]:mod=	!	!LO:TX:a:t=[segno]:mod=	!	!	!	!
+!	!LO:SIC:s=8f#'L	!	!	!	!	!	!
 8AA/L 8EE/	8f#/L	.	2r	.	.	.	.
+!	!LO:SIC:s=16B'L	!	!	!	!	!	!
 8BB/	16B/L	.	.	.	.	.	.
+!	!LO:SIC:s=16B'JJ	!	!	!	!	!	!
 .	16B/JJ	.	.	.	.	.	.
+!	!LO:SIC:s=8B'L	!	!	!	!	!	!
 8D#/	8B/L	.	.	.	.	.	.
+!	!LO:SIC:s=8B'J	!	!	!	!	!	!
 8BB/J	8B/J	.	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3
+!	!LO:SIC:s=8g#'L	!	!	!	!	!	!
 8GG#/L 8EE/	8g#/L	.	2r	.	.	.	.
+!	!LO:SIC:s=16B'L	!	!	!	!	!	!
 8BB/	16B/L	.	.	.	.	.	.
+!	!LO:SIC:s=16B'JJ	!	!	!	!	!	!
 .	16B/JJ	.	.	.	.	.	.
+!	!LO:SIC:s=8B'L	!	!	!	!	!	!
 8E/	8B/L	.	.	.	.	.	.
+!	!LO:SIC:s=8B'J	!	!	!	!	!	!
 8BB/J	8B/J	.	.	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4
 8AA/L 8EE/	[>4b/	.	2r	.	.	.	.
@@ -56,22 +77,37 @@
 .	16f#/JJ	.	.	.	.	.	.
 !!LO:LB:g=original
 =5	=5	=5	=5	=5	=5	=5	=5
+!	!LO:SIC:s=8e'L	!	!	!	!	!	!
 8GG#/L 8EE/	8e/L	.	2r	.	.	.	.
+!	!LO:SIC:s=16B'L	!	!	!	!	!	!
 8BB/	16B/L	.	.	.	.	.	.
+!	!LO:SIC:s=16B'JJ	!	!	!	!	!	!
 .	16B/JJ	.	.	.	.	.	.
+!	!LO:SIC:s=8B'L	!	!	!	!	!	!
 8E/	8B/L	.	.	.	.	.	.
+!	!LO:SIC:s=8B'J	!	!	!	!	!	!
 8BB/J	8B/J	.	.	.	.	.	.
 =6	=6	=6	=6	=6	=6	=6	=6
+!	!LO:SIC:s=8f#'L	!	!	!	!	!	!
 8AA/L 8EE/	8f#/L	.	2r	.	.	.	.
+!	!LO:SIC:s=16B'L	!	!	!	!	!	!
 8BB/	16B/L	.	.	.	.	.	.
+!	!LO:SIC:s=16B'JJ	!	!	!	!	!	!
 .	16B/JJ	.	.	.	.	.	.
+!	!LO:SIC:s=8B'L	!	!	!	!	!	!
 8D#/	8B/L	.	.	.	.	.	.
+!	!LO:SIC:s=8B'J	!	!	!	!	!	!
 8BB/J	8B/J	.	.	.	.	.	.
 =7	=7	=7	=7	=7	=7	=7	=7
+!	!LO:SIC:s=8g#'L	!	!	!	!	!	!
 8GG#/L 8EE/	8g#/L	.	2r	.	.	.	.
+!	!LO:SIC:s=16B'	!	!	!	!	!	!
 8BB/	16B/L	.	.	.	.	.	.
+!	!LO:SIC:s=16B'JJ	!	!	!	!	!	!
 .	16B/JJ	.	.	.	.	.	.
+!	!LO:SIC:s=8B'L	!	!	!	!	!	!
 8E/	8B/L	.	.	.	.	.	.
+!	!LO:SIC:s=8B'J	!	!	!	!	!	!
 8BB/J	8B/J	.	.	.	.	.	.
 =8	=8	=8	=8	=8	=8	=8	=8
 8AA/L 8EE/	[>4b/	.	2r	.	.	.	.
@@ -82,20 +118,25 @@
 .	16f#/JJ	.	.	.	.	.	.
 =9	=9	=9	=9	=9	=9	=9	=9
 4E/ 4BB/ 4GG#/ 4EE/	4e/	.	2r	.	.	.	.
-!	!LO:TX:i:b:t=Fine	!	!	!	!	!	!
+!!LO:TX:a:i:t= :mod=Fine
+!	!LO:TX:i:b:t=Fine:mod=	!	!	!	!	!	!
 4r	4r	.	.	.	.	.	.
 !!LO:LB:g=original
 =10||	=10||	=10||	=10||	=10||	=10||	=10||	=10||
+*>C	*>C	*	*>C	*	*	*	*
 *M4/4	*M4/4	*	*M4/4	*	*	*	*
 *met(c)	*met(c)	*	*met(c)	*	*	*	*
+*mmet(c)	*mmet(c)	*	*mmet(c)	*	*	*	*
 4E/ 4EE/	8r	.	4.g#^>/	Rży	Tak,	Sły-	.
 .	16e/LL 16B/ 16G#/	.	.	.	.	.	.
 .	16e/JJ 16B/ 16G#/	.	.	.	.	.	.
 4r	8e/L 8B/ 8G#/	.	.	.	.	.	.
+!	!	!	!	!	!	!LO:MO:mod=-szę	!
 .	8e/J 8B/ 8G#/	.	8e/	mój	tak	-szą	.
 4E/ 4EE/	8r	.	4c#/	gnia-	do-	je-	.
 .	16e/LL 16B/ 16G#/	.	.	.	.	.	.
 .	16e/JJ 16B/ 16G#/	.	.	.	.	.	.
+!	!	!	!	!LO:MO:mod=-dy	!LO:MO:mod=-brze	!	!
 4r	8e/L 8B/ 8G#/	.	4B/	-dy,	-brze!	-szcze	.
 .	8e/J 8B/ 8G#/	.	.	.	.	.	.
 =11	=11	=11	=11	=11	=11	=11	=11
@@ -107,10 +148,12 @@
 4E/ 4EE/	8r	.	4f#/	grze-	-wo-	-ła-	.
 .	16e/LL 16B/ 16G#/	.	.	.	.	.	.
 .	16e/JJ 16B/ 16G#/	.	.	.	.	.	.
+!	!	!	!	!LO:MO:mod=-bie	!LO:MO:mod=-dy	!	!
 4r	8e/L 8B/ 8G#/	.	4e/	-bie,	-dy!	-nie	.
 .	8e/J 8B/ 8G#/	.	.	.	.	.	.
 !!LO:LB:g=original
 =12	=12	=12	=12	=12	=12	=12	=12
+!	!	!	!	!LO:MO:mod=puść-	!LO:MO:mod=je-	!LO:MO:mod=zwróć	!
 4E/ 4EE/	8r	.	4.ee^\	Puść-	Je-	Zwróć	.
 .	16e/LL 16B/ 16G#/	.	.	.	.	.	.
 .	16e/JJ 16B/ 16G#/	.	.	.	.	.	.
@@ -122,7 +165,9 @@
 4r	8e/L 8c#/ 8F#/	.	.	.	.	.	.
 .	8e/J 8c#/ 8F#/	.	8a#X\	już	-lec	-niu	.
 =13	=13	=13	=13	=13	=13	=13	=13
+!	!	!	!LO:MO:mod=*null:null	!	!	!	!
 *	*	*	*2\right	*	*	*	*
+!	!	!	!	!	!LO:MO:mod=mam!	!	!
 4E/ 4EE/	8r	.	2b\	czas!	mam;	stój!	.
 .	16e/LL 16B/ 16G#/	.	.	.	.	.	.
 .	16e/JJ 16B/ 16G#/	.	.	.	.	.	.
@@ -144,6 +189,7 @@
 4BB/ 4BBB/	8r	.	4f#/	-cze	-niu	-że	.
 .	8d#/ 8B/ 8A/	.	.	.	.	.	.
 =15	=15	=15	=15	=15	=15	=15	=15
+!	!	!	!	!LO:MO:mod=mat-	!	!LO:MO:mod=niech	!
 4E/ 4EE/	8r	.	4.e/	Mat-	do	Niech	.
 .	16e/LL 16B/ 16G#/	.	.	.	.	.	.
 .	16e/JJ 16B/ 16G#/	.	.	.	.	.	.
@@ -155,6 +201,7 @@
 .	8e/ 8B/ 8G#/	.	.	.	.	.	.
 !!LO:LB:g=original
 =16	=16	=16	=16	=16	=16	=16	=16
+!	!	!	!	!LO:MO:mod=sio-	!LO:MO:mod=wol-	!LO:MO:mod=leć	!
 4BB/ 4BBB/	8r	.	4.f#/	Sio-	Wol-	Leć	.
 .	16d#/LL 16B/ 16A/	.	.	.	.	.	.
 .	16d#/JJ 16B/ 16A/	.	.	.	.	.	.
@@ -165,6 +212,7 @@
 4BB/ 4BBB/	8r	.	4a/	-gnam	tu	-wy	.
 .	8d#/ 8B/ 8A/	.	.	.	.	.	.
 =17	=17	=17	=17	=17	=17	=17	=17
+!	!	!	!	!LO:MO:mod=was,	!	!LO:MO:mod=bój,	!
 4BB#X/ 4BBB#X/	8r	.	2g#/	was!	sam,	bój!	.
 .	16f#/LL 16d#/ 16G#/	.	.	.	.	.	.
 .	16f#/JJ 16d#/ 16G#/	.	.	.	.	.	.
@@ -176,23 +224,32 @@
 .	8e#X/ 8dn/ 8G#/	.	.	.	.	.	.
 !!LO:LB:g=original
 =18	=18	=18	=18	=18	=18	=18	=18
-!	!	!LO:DY:rj:t=p.	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!	!	!null
+!	!	!LO:DY:rj:t=p.:mod=%s	!	!LO:MO:mod=cie-	!LO:MO:mod=sam	!LO:MO:mod=nie	!LO:MO:null:mod=p
 2AA/ 2AAA/	8r	p	4.f#/	Cie-	Sam	Nie	.
 .	16f#/LL 16c#/ 16F#/	.	.	.	.	.	.
 .	16f#/JJ 16c#/ 16F#/	.	.	.	.	.	.
 .	8f#/L 8c#/ 8F#/	.	.	.	.	.	.
+!	!	!LO:MO:mod=.	!	!	!	!	!
 .	.	<	.	.	.	.	.
+!	!	!	!	!	!	!	!LO:MO:mod=!LO&colon;HP&colon;ed=brack
+!	!	!	!	!	!	!	!null
+!	!	!LO:MO:null:mod=<	!	!	!	!	!LO:MO:null:mod=<
 .	8f#/J 8c#/ 8F#/	.	8f#/	-bie	tu	chcesz?	.
+!	!	!	!	!LO:MO:mod=oj-	!	!	!
 2GG#/ 2GGG#/	8r	.	4.g#/	Oj-	ko-	Leć-	.
 .	16g#/LL 16e#X/ 16c#/	.	.	.	.	.	.
 .	16g#/JJ 16e#/ 16c#/	.	.	.	.	.	.
 .	8g#/L 8e#/ 8c#/	.	.	.	.	.	.
 .	8g#/J 8e#/ 8c#/	.	8g#/	-cze	-niu	-że	.
 =19	=19	=19	=19	=19	=19	=19	=19
+!	!	!	!	!LO:MO:mod=ma-	!	!LO:MO:mod=niech	!
 4FF#/ 4FFF#/	8r	.	4.a/	Ma-	do	Niech	.
 .	8a/ 8f#/ 8c#/	.	.	.	.	.	.
 4EE/ 4EEE/	8r	.	.	.	.	.	.
-!	!LO:TX:i:b:t=poco rit(enuto).	!	!	!	!	!	!
+!!LO:TX:i:a:t= :mod=poco rit.
+!	!LO:TX:i:b:t=poco rit.:mod=	!	!	!	!	!	!
 .	8a#X/ 8gn/ 8c#/	.	8a#X/	-tko	za-	się	.
 4DD#/ 4DDD#/	8r	.	4b^>/	cie-	-gro-	sta-	.
 .	8b/ 8f#/ 8B/	.	.	.	.	.	.
@@ -200,7 +257,9 @@
 .	8an/ 8f#/ 8B/	.	.	.	.	.	.
 !!LO:LB:g=original
 =20	=20	=20	=20	=20	=20	=20	=20
-!	!LO:TX:i:b:t=in tempo	!LO:DY:rj	!	!	!	!	!LO:DY:rj:b
+!!LO:TX:a:i:t= :mod=a tempo
+!	!	!	!	!	!	!	!LO:MO:mod=!null:null
+!	!LO:TX:i:b:t=in tempo:mod=	!LO:DY:rj	!	!LO:MO:mod=sio-	!	!LO:MO:mod=leć	!LO:DY:rj:b
 4EE/ 4EEE/	8r	f	4.g#/	Sios-	wol-	Leć	f
 .	8g#/ 8e/ 8B/	.	.	.	.	.	.
 4GG#/ 4GGG#/	8r	.	.	.	.	.	.
@@ -210,21 +269,28 @@
 .	16g#/JJ 16d#/ 16A/	.	.	.	.	.	.
 .	8g#/L 8d#/ 8A/	.	.	.	.	.	.
 .	8f#/J 8d#/ 8A/	.	8f#/	-gnam	tu	-wy	.
+!LO:MO:mod==21||	!LO:MO:mod==21||	!LO:MO:mod==21||	!LO:MO:mod==21||	!LO:MO:mod==21||	!LO:MO:mod==21||	!LO:MO:mod==21||	!LO:MO:mod==21||
 =21	=21	=21	=21	=21	=21	=21	=21
 *M2/4	*M2/4	*	*M2/4	*	*	*	*
+!	!	!	!	!	!LO:MO:mod=sam!	!	!
 8GG#/L 8EE/	8e/L 8G#'/	.	4e/	was!	sam,	bój!	.
 8BB/	16B'/L	.	.	.	.	.	.
 .	16B'/JJ	.	.	.	.	.	.
 8E/	8B'/L	.	4r	.	.	.	.
 8BB/J	8B'/J	.	.	.	.	.	.
-!LO:TX:b:t=[segno]	!LO:TX:a:t=[segno]	!	!LO:TX:a:t=[segno]	!	!	!	!
-!	!LO:TX:b:i:t=Da Capo \nal Fine	!	!	!	!	!	!
+!!LO:TX:a:i:t= :mod=D.S. al Fine
+!LO:TX:b:t=[segno]:mod=	!LO:TX:a:t=[segno]:mod=	!	!LO:TX:a:t=[segno]:mod=	!	!	!	!
+!	!LO:TX:b:i:t=Da Capo \nal Fine:mod=	!	!	!	!	!	!
+!LO:MO:mod==:|!	!LO:MO:mod==:|!	!LO:MO:mod==:|!	!LO:MO:mod==:|!	!LO:MO:mod==:|!	!LO:MO:mod==:|!	!LO:MO:mod==:|!	!LO:MO:mod==:|!
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: s1{(s2,s3)}
+!!!system-decoration: <s1>{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!EED: Leszek Kubiak
-!!!EEV: 2021-04-13
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | humtr -p
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-04-06
+!!!ENC: Leszek Kubiak
+!!!END: 2021-04-13
+!!!ENC-modern: Andrzej Kubiczek
+!!!END-modern: 2022-07-30

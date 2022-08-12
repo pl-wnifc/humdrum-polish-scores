@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wn--mus-iii-63-545--002_wieniawski-henryk--fantaisie-orientale.krn
 !!!cenid: 18xx:3811
 !!!COM: Wieniawski, Henryk
-!!!COM-rismid: pe137176
+!!!COM-rismID:
 !!!CDT:
 !!!CNT:
 !!!OTL: Fantaisie orientale
@@ -12,13 +12,16 @@
 !!!SMS-shelfwork: 002 W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid:
-!!!URL-scan: https://polona.pl/item/gigue-op-23-et-fantaisie-orientale,NjkyOTMwMjM/0/#info:metadata
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://polona.pl/item/gigue-op-23-et-fantaisie-orientale,NjkyOTMwMjM/0/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc:
 !!!AIN: 1 violn
 !!!key: a
 **kern	**fing	**dynam
 *I"Violon.	*	*
+*mI"Violino	*	*
 *Ivioln	*	*
 *ICstr	*	*
 *IGsolo	*	*
@@ -27,16 +30,21 @@
 *a:	*	*
 *M4/4	*	*
 *met(c)	*	*
+*mmet(c)	*	*
 =1	=1	=1
-!LO:TX:a:t=6	!	!
+!LO:TX:a:t=6:mod=	!	!
 !LO:TX:a:B:t=Moderato.	!	!
 00r	.	.
 =2	=2	=2
+.	.	.
 =3	=3	=3
+.	.	.
 =4	=4	=4
+.	.	.
 =5	=5	=5
 0r	.	.
 =6	=6	=6
+.	.	.
 =7	=7	=7
 *^	*	*
 *	*cue	*	*
@@ -78,7 +86,7 @@
 16dd\	.	.
 16b\	.	.
 16a\JJ)	0	[
-!LO:TX:a:t=Henri Wieniawski.	!	!
+!LO:TX:a:t=Henri Wieniawski.:mod=	!	!
 (16a/LL	2	>
 16g#/	.	]
 16b/	.	<
@@ -309,19 +317,20 @@
 !LO:TX:a:i:t=a tempo	!	!
 8a/ 8c/	.	.
 8r	.	.
+!LO:MO:mod=!LO&colon;TX&colon;i&colon;b&colon;t=sentimentale	!	!
 !LO:TX:b:i:t=senti-	!	!
 (8g#Xv/L	1	p <
 8a/J)	.	[[
 !!LO:LB:g=original
 =37	=37	=37
-!LO:TX:b:i:t=-mentale	!	!
+!LO:TX:b:i:t=-mentale:mod=	!	!
 (8b\L	1	>
 32dd\LL	.	.
 32cc\	.	.
 32b\	.	.
 32cc\JJJ	.	.
 8a\L)	2	]
-!LO:TX:b:t=3a	!	!
+!LO:TX:b:t=3a:mod=	!	!
 (16ee\L	4	<
 16dd\JJ)	.	.
 =38	=38	=38
@@ -345,7 +354,7 @@
 8e/	.	]
 8r	.	.
 =40	=40	=40
-!LO:TX:b:t=4a:dur=6q:ext=cd:problem:text with extension lines	!	!LO:HP:t=poco cresc.
+!LO:TX:b:t=4a:dur=6q:ext=cd:problem:text with extension lines:mod=	!	!LO:HP:t=poco cresc.
 (8.e/L	1	<
 16f/Jk)	.	.
 (8g#X/L	.	.
@@ -448,13 +457,13 @@
 4aaayy\ 4rayy\ 4rdd\o	o 1	.
 4r	.	.
 =53	=53	=53
-!LO:TX:a:t=3	!	!
+!LO:TX:a:t=3:mod=	!	!
 1r	.	.
 =54	=54	=54
 =55	=55	=55
 2r	.	.
 =56	=56	=56
-!LO:TX:b:t=4a:dur=16q:ext=cd:problem:text with extension lines	!	!
+!LO:TX:b:t=4a:dur=16q:ext=cd:problem:text with extension lines:mod=	!	!
 (16fu/LL	2	p <
 32e/K)	.	.
 32r	.	.
@@ -542,7 +551,7 @@
 8e/	.	]
 8r	.	.
 =64	=64	=64
-!LO:TX:b:t=1a	!	!
+!LO:TX:b:t=1a:mod=	!	!
 (16ffu\LL	1	<
 16ee\)	.	.
 (16ff\	.	.
@@ -584,7 +593,7 @@
 8b\	.	]
 8r	.	.
 =68	=68	=68
-!LO:TX:b:t=1a	!	!
+!LO:TX:b:t=1a:mod=	!	!
 (16ffu\LL	1	<
 16ee\)	.	.
 (16ff\	.	.
@@ -996,9 +1005,12 @@
 4r	.	.
 ==	==	==
 *-	*-	*-
-!!!ENC: Solarz Mateusz
-!!!END: 2022-05-12
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: autostem -r | tie -s | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | modori -m |
+!!!ENC: Solarz Mateusz
+!!!END: 2022-05-12
 !!!EED: Andrzej Borzym
-!!!EEV: 2022-05-22
+!!!EEV: 2022-05-23
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-20

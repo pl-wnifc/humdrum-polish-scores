@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wtm--r-996-2--001-003_krogulski-jozef-wladyslaw--nieszpory-salve-regina.krn
 !!!cenid: 18xx:2101
 !!!COM: Krogulski, Józef Władysław
-!!!COM-rismid: pe30001797
+!!!COM-rismID:
 !!!CDT: 1815/10/04-1842/01/09
 !!!CNT: Polish
 !!!OPR: Nieszpory
@@ -14,32 +14,39 @@
 !!!SMS-shelfwork: 001-003 M
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001086267
+!!!NIFC-rismSourceID: 1001086267
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan:
+!!!ONB-nifc: UWAGA: folder pl-wtm-r996-2
 !!!OMD: Allo moderato.
-!!!system-decoration: [(s1)]
-!!!AIN: 1 empty
-!!!key:
+!!!OMD-mod: Allegro moderato
+!!!AIN: 1 clrno
+!!!key: D
 **kern	**dynam
 *part1	*part1
 *staff1	*
-*Iempty	*
+*>[A,B,B,C]	*
+*>A	*
 *I"Clarino in D.	*
+*mI"Clarino in D	*
 *I'clno in D	*
+*Iclrno	*
+*ICbras	*
 *clefG2	*
 *ITrd-1c-2	*
 *k[f#c#]	*
-*a:	*
+*D:	*
 *M4/4	*
 *met(c)	*
-*>[A,B,B,C]	*
+*mmet(c)	*
 =1	=1
-*>A	*
 !	!LO:DY:b:rj
 2a/	f
 4a/	.
 4r	.
 =2	=2
-!LO:TX:a:Bi:t=1.	!
+!LO:TX:a:Bi:t=1.:mod=	!
 1r	.
 =3	=3
 2a/	.
@@ -53,7 +60,7 @@
 4a/	.
 4r	.
 =6	=6
-!LO:TX:a:Bi:t=1.	!
+!LO:TX:a:Bi:t=1.:mod=	!
 1r	.
 =7	=7
 2a\	.
@@ -62,7 +69,7 @@
 2ee\	.
 2a/	.
 =9	=9
-!LO:TX:a:Bi:t=16.	!
+!LO:TX:a:Bi:t=16.:mod=	!
 1r	.
 =10	=10
 1r	.
@@ -99,7 +106,7 @@
 4a/	.
 4r	.
 =26	=26
-!LO:TX:a:Bi:t=1.	!
+!LO:TX:a:Bi:t=1.:mod=	!
 1r	.
 =27	=27
 2a/	.
@@ -114,7 +121,7 @@
 4a/	.
 4r	.
 =30	=30
-!LO:TX:a:Bi:t=1.	!
+!LO:TX:a:Bi:t=1.:mod=	!
 1r	.
 =31	=31
 2a/	.
@@ -124,7 +131,7 @@
 4a/	.
 4r	.
 =33	=33
-!LO:TX:a:Bi:t=8.	!
+!LO:TX:a:Bi:t=8.:mod=	!
 00r	.
 =34	=34
 .	.
@@ -149,7 +156,7 @@
 2a/	.
 2r	.
 =43	=43
-!LO:TX:a:Bi:t=8.	!
+!LO:TX:a:Bi:t=8.:mod=	!
 1r	.
 =44	=44
 1r	.
@@ -177,7 +184,7 @@
 4r	.
 !!LO:LB:g=original
 =54	=54
-!LO:TX:a:Bi:t=1.	!
+!LO:TX:a:Bi:t=1.:mod=	!
 1r	.
 =55	=55
 2a/	.
@@ -191,7 +198,7 @@
 4a/	.
 4r	.
 =58	=58
-!LO:TX:a:Bi:t=1.	!
+!LO:TX:a:Bi:t=1.:mod=	!
 1r	.
 =59	=59
 2a/	.
@@ -203,6 +210,7 @@
 =61!|:	=61!|:
 *>B	*
 !!!OMD: Allo vivace.
+!!!OMD-mod: Allegro vivace
 !	!LO:DY:b:rj
 2a/	ff
 4a/	.
@@ -257,15 +265,13 @@
 2r	.
 ==	==
 *-	*-
-!!title: @{OTL};
+!!!system-decoration: [(s1)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!RDF**kern: | = vertical stroke
-!!!RDF**kern: N = linked
-!!!RDF**kern: i = editorial accidental
-!!!EED: Wojciech Jakubiak-Danek
-!!!EEV: 2021-06-09
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r996
-!!!ONB-nifc: UWAGA: folder pl-wtm-r996-2
+!!!filter-modern: shed -X dynam -e "s/:b/:B/LX" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | tie -s | shed -e "s/yy//" | shed -k -e "s/[<>]//g"
 !!!ENC: Krzysztof Stępień
 !!!END: 2021-05-27
+!!!ENC: Wojciech Jakubiak-Danek
+!!!END: 2021-06-09
+!!!ENC-modern: Andrzej Kubiczek
+!!!END-modern: 2022-07-10

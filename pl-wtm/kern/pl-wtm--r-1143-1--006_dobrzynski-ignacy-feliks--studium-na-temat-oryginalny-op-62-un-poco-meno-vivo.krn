@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wtm--r-1143-1--006_dobrzynski-ignacy-feliks--studium-na-temat-oryginalny-op-62-un-poco-meno-vivo.krn
 !!!cenid: 18xx:1753
 !!!COM: Dobrzyński, Ignacy Feliks
-!!!COM-rismid: pe30020642
+!!!COM-rismID:
 !!!CDT: 1807/02/15-1867/10/09
 !!!CNT: Polish
 !!!OPR: Studium na temat oryginalny op. 62
@@ -14,8 +14,10 @@
 !!!SMS-shelfwork: 001-006 M
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001057385
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r1143
+!!!NIFC-rismSourceID: 1001057385
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan:
 !!!ONB-nifc: UWAGA: numeracja części zgodna z numerami w źródle. Na podstawie partytury (folder r1143-1)
 !!!AIN: 1 cello 1 viola 2 violn
 !!!key:
@@ -24,7 +26,9 @@
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Icello	*	*Iviola	*	*Ivioln	*	*Ivioln	*
 *I"Violoncello.	*	*I"Viola.	*	*I"Violino 2do	*	*I"Violino 1o	*
+*mI"Violoncello	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*
 *I'vlc	*	*I'vla	*	*I'vl 2	*	*I'vl 1	*
+*	*	*	*	*mI'vl II	*	*mI'vl I	*
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*	*k[f#c#g#]	*
 *A:	*	*A:	*	*A:	*	*A:	*
@@ -106,7 +110,9 @@
 .	.	4r	.	.	.	4a\)	.
 =9!|:	=9!|:	=9!|:	=9!|:	=9!|:	=9!|:	=9!|:	=9!|:
 *>B	*	*>B	*	*>B	*	*>B	*
+!	!	!	!LO:MO:null:mod=p	!	!	!	!
 1r	.	(8c#/L	.	(>2a/	p	1r	.
+!	!	!	!LO:MO:mod=.	!	!	!	!
 .	.	8C#/	p	.	.	.	.
 .	.	8c#/	.	.	.	.	.
 .	.	8C#/J	.	.	.	.	.
@@ -146,7 +152,11 @@
 .	.	8c#/	.	4r	]	.	.
 .	.	8d/J	.	.	.	.	.
 =13	=13	=13	=13	=13	=13	=13	=13
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=p	!	!	!	!	!	!
 (8c#\L	.	4c#\)	.	(>2e/	p	1r	.
+!	!	!	!LO:MO:mod=.	!	!	!	!
 8A\	.	.	p	.	.	.	.
 8c#\	.	4r	.	.	.	.	.
 8A\J	.	.	.	.	.	.	.
@@ -264,6 +274,9 @@
 !!!system-decoration: {(s1,s2,s3,s4)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | autostem -r | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"  | modori -m |
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-29
 !!!ENC: Marta Lawrence
 !!!END: 2021-04-12
 !!!ENC: Berenika Jozajtis

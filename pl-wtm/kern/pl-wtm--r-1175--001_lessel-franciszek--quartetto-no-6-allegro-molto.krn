@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wtm--r-1175--001_lessel-franciszek--quartetto-no-6-allegro-molto.krn
 !!!cenid: 18xx:1625
 !!!COM: Lessel, Franciszek
-!!!COM-rismid: pe30004332
+!!!COM-rismID:
 !!!CDT: 1780-1838/12/26
 !!!CNT: Polish
 !!!OPR: Quartetto No 6
@@ -14,22 +14,26 @@
 !!!SMS-shelfwork: 001-001 M
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001085812
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r1175
+!!!NIFC-rismSourceID: 1001085812
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan:
 !!!ONB-nifc: UWAGA: części Kwartetu: 1. Allegro di molto (łącznie z początkowym Adagio), 2. Andante, 3. Menuetto, 4. Fuga
 !!!AIN: 1 viola
 !!!key:
 **kern	**dynam
 *Iviola	*
 *I"Viola.	*
-*I'Va	*
+*mI"Viola	*
+*I'vla	*
 *clefC3	*
 *k[f#c#]	*
 *D:	*
 *M3/4	*
 =1	=1
+!!!OMD: Adagio
+!!!OMD-mod: Adagio
 *2\right	*
-!LO:TX:a:t=Adagio	!
 2d\ 2A\ 2D;\	fz
 4r	.
 =2	=2
@@ -45,6 +49,7 @@
 8r	.
 4r	.
 =5	=5
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=po.
 (2g\	p
 4f#\)	.
@@ -61,18 +66,20 @@
 8r	.
 8G/	.
 8r	.
+!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=attacca	!
 !LO:TX:a:t=attaca	!
 8G/	.
 !!LO:LB:g=original
 =9||	=9||
-*k[f#c#]	*
-*M3/4	*
+!!!OMD: All:di \nmolto
+!!!OMD-mod: Allegro di molto
+!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=m.v.	!
 !LO:TX:b:t=m.v.	!
-!LO:TX:a:t=All&colon;di \nmolto	!
 4F#/	.
 4r	.
 4r	.
 =10	=10
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=3	!
 2.r	.
 =11	=11
@@ -106,6 +113,7 @@
 4r	.
 =17	=17
 4r	.
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=po
 4cc#\	p
 4cc#\	.
@@ -158,6 +166,7 @@
 4r	.
 !!LO:LB:g=original
 =29	=29
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=ff.
 2B/	ff
 4B/	.
@@ -198,6 +207,7 @@
 4r	.
 =37	=37
 4r	.
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=po.
 4g\	p
 4g\	.
@@ -283,12 +293,14 @@
 4r	.
 4r	.
 =55	=55
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=2	!
 2.r	.
 =56	=56
 2.r	.
 =57	=57
 4r	.
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=po
 4ee\	p
 4ee\	.
@@ -354,6 +366,7 @@
 4r	.
 =71	=71
 4r	.
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=po.
 (8d#X\L	p
 8e\	.
@@ -413,6 +426,7 @@
 (4e\	.
 4d\)	.
 =83	=83
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=po
 4c#\	p
 (8d#X\L	.
@@ -432,6 +446,7 @@
 4r	.
 4r	.
 =88	=88
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=1	!
 2.r	.
 =89	=89
@@ -473,6 +488,7 @@
 4r	.
 4r	.
 =98	=98
+!LO:MO:mod=!null:null	!
 *Xtuplet	*
 !	!LO:DY:rj:t=fo
 12E/L	f
@@ -495,12 +511,14 @@
 4r	.
 4r	.
 =101:|!|:	=101:|!|:
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=2	!
 2.r	.
 =102	=102
 2.r	.
 =103	=103
 4r	.
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=po.
 (4G#X/	p
 4A/)	.
@@ -545,11 +563,14 @@
 !	!LO:DY:rj
 [2.B-X/ [>2.Cn/	fz
 =114	=114
+!	!LO:MO:mod=!null:null
 !	!LO:HP:a
 2.B-X/] 2.CnX/]	>
 =115	=115
+!LO:SIC:s=[2.G/ [2.Cn/:v	!
 2.G/ [2.Cn/	]
 =116	=116
+!LO:SIC:s=2.G/] 2.CnX/]:v	!
 2.G/ 2.CnX/]	.
 =117	=117
 4Fn/	.
@@ -558,6 +579,7 @@
 !!LO:LB:g=original
 =118	=118
 4r	.
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=po
 4a\	p
 4a\	.
@@ -576,6 +598,7 @@
 4r	.
 4r	.
 =122	=122
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=1.	!
 2.r	.
 =123	=123
@@ -605,9 +628,11 @@
 [2f\ 2G\	fz
 =130	=130
 4fnX\]	.
+!LO:SIC:s=[2f\ [2G\:v	!
 [2f\ 2G\	fz
 !!LO:LB:g=original
 =131	=131
+!LO:SIC:s=4fn\] 4G\]:v	!
 4fn\] 4G\	.
 4f\ 4G\	.
 4r	.
@@ -617,9 +642,13 @@
 =133	=133
 4G/]	.
 4Cn/	.
+!	!LO:MO:mod=!null:null
 4r	f
 =134	=134
-4D/	.
+!	!LO:DY:t= :mod=%s
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!null
+4D/	f
 (8c#X\L	.
 8d\)	.
 (8A\	.
@@ -665,6 +694,7 @@
 =142	=142
 4e\	.
 4r	.
+!	!LO:MO:mod=!null:null
 !	!LO:HP:t=crese
 4e\	<
 =143	=143
@@ -692,6 +722,7 @@
 =149	=149
 4a\]	.
 4r	.
+!LO:MO:mod=!null:null	!
 !LO:TX:b:t=V&colon;S&colon;	!
 4r	.
 !!LO:PB:g=original
@@ -708,6 +739,7 @@
 4e\	.
 4r	.
 =153	=153
+!	!LO:MO:mod=!null:null
 !	!LO:HP:b:t=crescendo .
 4e\	<
 4e\	.
@@ -738,6 +770,7 @@
 4e\	.
 4e\	[
 =160	=160
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=fo
 4d\	f
 (8e#X\L	.
@@ -776,8 +809,12 @@
 4r	.
 =168	=168
 4r	.
+!	!LO:MO:mod=!null:null
 .	fz
-(8g\L	.
+!	!LO:DY:t= :mod=%s
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!null
+(8g\L	fz
 8f#\	.
 8g\	.
 8e\J)	.
@@ -788,7 +825,11 @@
 =170	=170
 [2.e\	>
 =171	=171
-4e\]	.
+!	!LO:DY:t= :mod=%s
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!null
+4e\]	]
+!	!LO:MO:mod=!null:null
 4r	]
 4r	.
 !!LO:LB:g=original
@@ -811,6 +852,7 @@
 4b\	.
 4r	.
 =177	=177
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=4	!
 2.r	.
 =178	=178
@@ -850,7 +892,7 @@
 (8d#X\	.
 8e\)	.
 (8B\	.
-8c#X\J)	.
+8c#X\J)	. 
 !!LO:LB:g=original
 =187	=187
 2d/ 2A/	.
@@ -858,10 +900,14 @@
 =188	=188
 !	!LO:DY:rj
 2B/ 2D;/	fz
+!LO:MO:mod=!null:null	!
 !LO:TX:b:t=adagio	!
 4r	.
 =189	=189
+!!!OMD:
+!!!OMD-mod: Adagio
 8A/L	.
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=po
 8A/J	p
 8r	.
@@ -869,6 +915,7 @@
 8r	.
 8E/	.
 =190	=190
+!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=a tempo	!
 !LO:TX:b:t=a tempo	!
 4F#/	.
 4r	.
@@ -894,6 +941,7 @@
 4r	.
 4r	.
 =194	=194
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=2	!
 2.r	.
 =195	=195
@@ -907,6 +955,7 @@
 8f#\J	.
 =197	=197
 4g\	.
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=po
 4a\ 4g\	p
 4a\ 4g\	.
@@ -933,7 +982,11 @@
 4A/	.
 =203	=203
 4A/	.
-4A/	.
+!	!LO:DY:t= :mod=%s
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!null
+4A/	[
+!	!LO:MO:mod=!null:null
 4r	[
 =204	=204
 4A/ 4D/	.
@@ -992,11 +1045,19 @@
 4A/	.
 =216	=216
 4A/	.
-[2A/	.
+!	!LO:DY:t= :mod=%s
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!null
+[2A/	fz
+!	!LO:MO:mod=!null:null
 .	fz
 =217	=217
 4A/]	.
-[2A/	.
+!	!LO:DY:t= :mod=%s
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!null
+[2A/	fz
+!	!LO:MO:mod=!null:null
 .	fz
 =218	=218
 4A/]	.
@@ -1016,8 +1077,13 @@
 4A/	.
 4r	.
 =222	=222
-4f#/ 4A/ 4D/	.
+!	!LO:DY:t= :mod=%s
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!null
+4f#/ 4A/ 4D/	f
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=fo
+!	!LO:MO:mod=!null:null
 4r	f
 4r	.
 =223	=223
@@ -1029,12 +1095,18 @@
 4r	.
 4r	.
 =225	=225
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=1.	!
 2.r	.
 =226	=226
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=po
+!	!LO:MO:mod=!null:null
 4r	p
-4e\	.
+!	!LO:DY:t= :mod=%s
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!null
+4e\	p
 4e\	.
 !!LO:LB:g=original
 =227	=227
@@ -1077,10 +1149,15 @@
 =238	=238
 2a\	.
 4b\	.
+!	!LO:MO:mod=!null:null
 !	!LO:DY:t=fo.
+!	!LO:MO:mod=!null:null
 .	f
 =239	=239
-4a\	.
+!	!LO:DY:t= :mod=%s
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!null
+4a\	f
 4f#\	.
 4e\ 4A\	.
 !!LO:LB:g=original
@@ -1089,6 +1166,7 @@
 4r	.
 4r	.
 =241	=241
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=1	!
 2.r	.
 =242	=242
@@ -1120,6 +1198,7 @@
 4F#/	.
 4f#\	.
 =250	=250
+!	!LO:MO:mod=!null:null
 !	!LO:HP:t=dimin
 4g'\	>
 (4g\	.
@@ -1141,20 +1220,33 @@
 =254	=254
 4G/	.
 4r	.
+!	!LO:MO:mod=!null:null
 4r	>
 =255	=255
 4r	.
+!	!LO:MO:mod=!null:null
 4r	]
 (8G#X/L	.
 8A/J)	.
+!!LO:MO:ori
 =256	=256
 *^	*
 4a\	4ryy	.
 4r	4ryy	.
+!	!LO:MO:mod=!null:null	!LO:MO:mod=!null:null
 !	!LO:N:xstem	!LO:DY:t=fo.
 4A\	4e\	f
 *v	*v	*
 !!LO:LB:g=original
+!!LO:MO:end
+!!LO:MO:mod
+!! =256	=256
+!! 4a\	.
+!! 4r	.
+!! !	!
+!! 4e 4A	f
+!! !!LO:LB:g=original
+!!LO:MO:end
 =257	=257
 4f#\ 4A\	.
 (8G#X/L	.
@@ -1164,13 +1256,17 @@
 =258	=258
 4D/	.
 4r	.
+!LO:MO:mod=!null:null	!
 !LO:TX:b:t=Andante.	!
 4r	.
 ==	==
 *-	*-
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!EED: Leszek Kubiak
-!!!EEV: 2021-04-13
+!!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D" | rid -lid
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-03-27
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-04-13
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-07-29

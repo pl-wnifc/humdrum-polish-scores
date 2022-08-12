@@ -1,11 +1,13 @@
 !!!!SEGMENT: pl-kk--kk-i-1--048-001_szadek-tomasz--officium-dies-est-laetitiae-kyrie.krn
 !!!cenid: 15xx:761
 !!!COM: Szadek, Tomasz
-!!!COM-rismid: pe30020506
+!!!COM-rismID:
 !!!CDT:
 !!!CNT:
 !!!OPR: Officium Dies est laetitiae
 !!!OTL: Kyrie
+!!!OMD:
+!!!OMD-mod: Officium Dies est Letitiae
 !!!OMV: 001
 !!!PDT:
 !!!AGN:
@@ -14,561 +16,579 @@
 !!!SMS-shelfwork: 048-001 M
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 300258002
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-kk-nut--i-1
+!!!NIFC-rismSourceID: 300258002
+!!!NIFC-islandoraID: pl-kk:1
+!!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1/datastream/PDF/view
+!!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/5736 @EN{Scan on Polish Music Herritage in Open Access Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: Cantus (s. 145v-152r, skan 0148-0154), Altus (s. 140v-147r, skan 0334-0340), Tenor (s. 119v-126v, skan 0510-0517), Bassus (s. 132v-139r, skan 0695-0701). Części Mszy: 1. Kyrie, 2. Et in terra, 3. Patrem, 4. Sanctus
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: F:lyd
-**kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
-*I"BASSVS	*	*I"TENOR	*	*I"ALTVS	*	*I"CANTVS	*
-*I'B	*	*I'T	*	*I'A	*	*I'S	*
-*Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
-*ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*
-*clefF4	*	*clefC4	*	*clefC4	*	*clefC3	*
-*k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*
-*F:lyd	*	*F:lyd	*	*F:lyd	*	*F:lyd	*
-*M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
-*met(C|)	*	*met(C|)	*	*met(C|)	*	*met(C|)	*
-*all\middle	*	*all\middle	*	*all\middle	*	*all\middle	*
-=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
+**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
+*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
+*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*I"BASSVS	*	*	*I"TENOR	*	*	*I"ALTVS	*	*	*I"CANTVS	*	*
+*mI"Basso	*	*	*mI"Tenore III	*	*	*mI"Tenore II	*	*	*mI"Tenore I	*	*
+*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'C	*	*
+*	*	*	*mI'T 3	*	*	*mI'T 2	*	*	*mI'T 1	*	*
+*Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Isoprn	*	*
+*	*	*	*	*	*	*Itenor	*	*	*mItenor	*	*
+*ICvox	*	*	*ICvox	*	*	*ICvox	*	*	*ICvox	*	*
+*clefF4	*	*	*clefC4	*	*	*clefC4	*	*	*clefC3	*	*
+*	*	*	*mclefGv2	*	*	*mclefGv2	*	*	*mclefGv2	*	*
+*k[b-]	*	*	*k[b-]	*	*	*k[b-]	*	*	*k[b-]	*	*
+*F:lyd	*	*	*F:lyd	*	*	*F:lyd	*	*	*F:lyd	*	*
+*M2/1	*	*	*M2/1	*	*	*M2/1	*	*	*M2/1	*	*
+*met(C|)	*	*	*met(C|)	*	*	*met(C|)	*	*	*met(C|)	*	*
+*mmet(c|)	*	*	*mmet(c|)	*	*	*mmet(c|)	*	*	*mmet(c|)	*	*
+=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
 !!LO:TX:t=P:problem:we wszystkich głosach obecne są cezury (pionowe kreseczki) dopisane później, prawdopodobnie nie odnoszą się do podziału tekstu, ponieważ często są w nietypowych miejscach (np. pośrodku ligatury), być może pełnią funkcję kresek pseudotaktowych
-!LO:TX:a:t=Authore Thoma Szadek eiuſd(em) Cap(p)elae P(re)b(endarius).	!	!	!	!	!	!	!
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:TX:a:t=Dies eſt \nleticiae	!	!LO:TX:a:t=Offitium Dies eſt Letitiae T. Szadek.	!	!LO:TX:a:t=Dies eſt \nleticiae \nofficium	!	!LO:TX:a:t=Off(iciu)m Dies est Letitiae. Tomae Szadek	!
-!	!	!	!	!	!	!LO:SIC:v:l:s=Ky-	!
-1r	.	0r	.	1r	.	1F	KI-
-!LO:SIC:v:l:s=Ky-	!	!	!	!LO:SIC:v:l:s=Ky-	!	!	!
-1FF	KI-	.	.	1F	Ky-	1A	-RI-
-=2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-
-!	!	!LO:SIC:v:l:s=Ky-	!	!	!	!	!
-2.FF/	-ri-	1F	Ki-	2.A/	-ri-	2.c/	-E-
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-4GG/	.	.	.	4B-/	-e	4B-/	.
-2AA/	-e	1F	-ri-	2c\	.	4A/	.
-.	.	.	.	.	.	4G/	.
-2BB-/	e-	.	.	1d\	e-	1F/	-Lei-
-=3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-
-1GG	-ley-	1G	-e-	.	.	.	.
-!	!	!	!	!	!	!LO:SIC:v:l:s=-son	!
-.	.	.	.	4c\	-lei-	2E/	-zon
-.	.	.	.	4B-\	.	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-1FF	-son	1A	-le-	4A\	.	2F/	.
-.	.	.	.	4G\	.	.	.
-.	.	.	.	4F/	.	2c/	.
-.	.	.	.	4E/	.	.	.
-=4	=4-	=4-	=4-	=4-	=4-	=4-	=4-
-*	*	*lig	*	*	*	*	*
-2.BB-/	.	1B-	-i-	2D/	-ſon	2d\	.
-*	*	*	*	*	*ij	*	*
-.	.	.	.	1F	Ky-	2d\	.
-4BB-/	.	.	.	.	.	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-1C	.	1G	.	.	.	2.c/	.
-.	.	.	.	2E/	-ri-	.	.
-.	.	.	.	.	.	4B-/	.
-*	*	*Xlig	*	*	*	*	*
-=5	=5-	=5-	=5-	=5-	=5-	=5-	=5-
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!	!
-1D	.	1F	-zon	2F/	-e	4A/	.
-.	.	.	.	.	.	4G/	.
-.	.	.	.	2A/	e-	2F/	.
-*lig	*	*	*	*	*	*	*ij
-*	*	*	*	*custos:E	*	*	*
-!	!	!	!	!	!	!LO:SIC:v:l:s=Ky-	!
-1E-X	.	2r	.	1G	-lei-	2.B-/	Ky-
-*	*	*	*ij	*	*	*	*
-!	!	!LO:SIC:v:l:s=Ky-	!	!	!	!	!
-.	.	1G/	Ki-	.	.	.	.
-*	*	*	*	*	*	*custos:c	*
-.	.	.	.	.	.	4B-/	-ri-
-=6-	=6-	=6-	=6-	=6-	=6-	=6-	=6-
-*custos:BB-	*	*	*	*	*	*	*
-!	!	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-1C	.	.	.	1E	-ſon	1c	-e
-.	.	2G/	-ri-	.	.	.	.
-*Xlig	*	*	*	*	*Xij	*	*
-!LO:LB:g=original	!	!	!	!	!	!	!
-!	!	!	!	!LO:SIC:v:l:s=Ky-	!	!	!
-2BB-/	.	1D	-e	2.F/	Ki-	4d\	e-
-.	.	.	.	.	.	4c\	.
-2D/	.	.	.	.	.	4B-/	-lei-
-.	.	.	.	4F/	-ri-	4A/	.
-=7-	=7-	=7-	=7-	=7-	=7-	=7-	=7-
-!	!	!	!	!	!	!LO:SIC:v:l:s=-son	!
-2C/	.	2E/	e-	2G/	-e	1c	-zon
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2AA/	.	2.F/	-le-	2A/	e-	.	.
-*	*	*	*	*lig	*	*	*Xij
-1GG	.	.	.	1B-	-ley-	1r	.
-.	.	8E/	-i-	.	.	.	.
-*	*	*custos:E	*	*	*	*	*
-.	.	8D/	.	.	.	.	.
-!	!	!LO:LB:g=original	!	!	!	!	!
-.	.	2E/	-ſon	.	.	.	.
-*	*	*	*Xij	*	*	*	*
-=8-	=8-	=8-	=8-	=8-	=8-	=8-	=8-
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-1FF	.	2F/	e-	1.A	.	1.c	.
-.	.	1F	-lei-	.	.	.	.
-2r	.	.	.	.	.	.	.
-*	*	*	*	*Xlig	*	*	*
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!	!
-1C/	.	4E/	-zon	4G/	.	2c/	.
-.	.	4D/	.	4F/	.	.	.
-=9-	=9-	=9-	=9-	=9-	=9-	=9-	=9-
-*	*	*	*ij	*	*	*	*
-!	!	!LO:SIC:v:l:s=Ky-	!	!	!	!	!
-.	.	2E/	Ki-	2c\	-ſon	2.G/	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2C/	.	1G	.	2c\	e-	.	.
-.	.	.	.	.	.	4A/	.
-*	*ij	*	*	*	*	*	*
-!LO:SIC:v:l:s=Ky-	!	!	!	!	!	!	!
-2.GG/	Ki-	.	.	2.d\	-lei-	1B-	.
-.	.	2G/	-ri-	.	.	.	.
-4AA/	.	.	.	4c\	.	.	.
-=10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-
-4BB-/	.	1D	-e-	2B-\	.	1F	.
-4C/	.	.	.	.	.	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2D/	.	.	.	2A\	-ſon	.	.
-!	!	!	!	!LO:SIC:v:l:s=Ky-	!	!	!
-2C/	.	2E/	.	2.c\	ki-	2G/	.
-2FF/	-ri-	1F/	-le-	.	.	2A/	.
-.	.	.	.	4c\	-ri-	.	.
-=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-
-!	!	!	!	!	!	!LO:SIC:v:l:s=Ky-	!
-1C	-e	.	.	1G	-e	2.c/	Ki-
-.	.	2E/	-i-	.	.	.	.
-.	.	.	.	.	.	4c/	-ri-
-*	*Xij	*	*	*	*	*	*
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!	!
-1BB-	e-	1F	-zon	2.B-\	e-	1d,	-e-
-.	.	.	.	4A/	.	.	.
-=12-	=12-	=12-	=12-	=12-	=12-	=12-	=12-
-1C	-lei-	1r	.	4G/	.	1e	-lei-
-.	.	.	.	4F/	.	.	.
-.	.	.	.	2G/	-lei-	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-*	*	*	*	*	*	*lig	*
-!	!	!	!	!	!	!LO:SIC:v:l:s=-son	!
-!	!	!LO:SIC:v:l:s=Ky-	!	!	!	!	!
-1FF	-son	2.F/	Ki-	2A/	-ſon	1f	-zon:
-*	*	*	*	*	*ij	*	*
-.	.	.	.	1c\	e-	.	.
-.	.	4F/	-ri-	.	.	.	.
-=13	=13-	=13-	=13-	=13-	=13-	=13-	=13-
-*	*	*custos:A	*	*	*	*	*
-0r	.	1G	-e	.	.	1d	.
-*	*	*	*	*custos:A	*	*	*
-.	.	.	.	2B-\	.	.	.
-*	*	*	*	*	*	*Xlig	*ij
-!	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!LO:SIC:v:l:s=Ky-	!
-.	.	2A/	e-	2A/	-lei-	2c/	Ki-
-.	.	4B-/	-lei-	4G/	.	2d\	.
-.	.	4A/	.	4F/	.	.	.
-=14-	=14-	=14-	=14-	=14-	=14-	=14-	=14-
-1C	.	4G/	.	4E/	.	2.c/	.
-.	.	4F/	.	4D/	.	.	.
-.	.	2G/	.	2E/	-ſon	.	.
-.	.	.	.	.	.	4B-/	.
-*	*	*	*	*	*Xij	*	*
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!	!
-2.D/	.	1F	-zon	2F/	e-	4A/	.
-.	.	.	.	.	.	4G/	.
-*	*	*	*	*	*	*custos:G	*
-.	.	.	.	2A\	.	2A/	.
-*custos:GG	*	*	*	*	*	*	*
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-4D/	.	.	.	.	.	.	.
-=15	=15-	=15-	=15-	=15-	=15-	=15-	=15-
-!LO:LB:g=original	!	!	!	!	!	!LO:LB:g=original	!
-2GG/	.	2r	.	2B-\	-lei-	2G/	.
-*	*	*	*Xij	*	*	*	*
-!	!	!LO:SIC:v:l:s=Ky-	!	!	!	!	!
-2D/	.	2F/	ki-	4A\	-ſon	1F	.
-.	.	.	.	4B-\	.	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-1C	.	2.G/	-ri-	2c\	.	.	.
-*	*	*	*	*	*ij	*	*
-.	.	.	.	2c\	e-	2E/	-ri-
-.	.	4G/	-e-	.	.	.	.
-=16	=16-	=16-	=16-	=16-	=16-	=16-	=16-
-1BB-	.	2.D/	.	2d\	.	1F	-e
-.	.	.	.	2d\	-lei-	.	.
-.	.	4E/	-lei-	.	.	.	.
-2AA/	.	2F/	.	2A\	.	2c/	e-
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!	!
-2.GG/	.	1G/	-zon	2.B-\	.	2.d\	-lei-
-=17-	=17-	=17-	=17-	=17-	=17-	=17-	=17-
-4AA/	.	.	.	4c\	.	4c/	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2BB-/	.	1F	.	2d\	.	4B-/	.
-.	.	.	.	.	.	4A/	.
-1C	.	.	.	2c\	-ſon	1G	.
-*	*	*	*	*	*Xij	*	*
-.	.	2E/	.	2.c\	e-	.	.
-=18-	=18-	=18-	=18-	=18-	=18-	=18-	=18-
-0FF;l	.	0Fl/	.	.	.	4A/	.
-.	.	.	.	4B-\	.	4G/	.
-!	!	!	!	!LO:SIC:v:l:s=-lei-	!	!	!
-.	.	.	.	4A\	-ley-	4A/	.
-.	.	.	.	4G\	.	4B-/	.
-*	*	*	*	*custos:A	*	*	*
-!	!	!	!	!	!	!LO:SIC:v:l:s=-son	!
-.	.	.	.	1A;l	-ſon	1c;l	-zon
-*	*	*	*	*	*	*	*Xij
-=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||
-*M2/1	*	*	*	*	*	*	*
-*met(C|)	*	*	*	*	*	*	*
-!	!	!	!	!LO:LB:g=original	!	!	!
-!	!	!LO:LB:g=original	!	!	!	!	!
-1.F	Chri-	1.c	Chri-	1.A	Chri-	1.f	CHri-
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2C/	-ste	2c\	-ſte	2G/	.	2e\	.
-=20	=20-	=20-	=20-	=20-	=20-	=20-	=20-
-4BB-/	.	1d	e-	1B-	-ste	1f	.
-4C/	e-	.	.	.	.	.	.
-!LO:SIC:v:l:s=-lei-	!	!	!	!	!	!	!
-4D/	-ley-	.	.	.	.	.	.
-4E/	.	.	.	.	.	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-1F	-son	1c	-lei-	1A	e-	1f	-ſte
-=21	=21-	=21-	=21-	=21-	=21-	=21-	=21-
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!	!
-2r	.	2A/	-zon	2F/	-lei-	2c/	e-
-*	*ij	*	*ij	*	*	*	*
-2F\	Chri-	2A/	e-	2f\	-ſon	2a\	-le-
-*	*	*	*	*	*ij	*	*
-2G\	-ste	2B-\	-lei-	2d\	Chri-	2g\	-i-
-!	!	!	!	!	!	!LO:SIC:v:l:s=-son	!
-2A\	e-	1c\	.	2c\	.	2f\	-zon
-=22-	=22-	=22-	=22-	=22-	=22-	=22-	=22-
-*custos:C	*	*	*	*	*	*	*
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:SIC:v:l:s=-lei-	!	!	!	!	!	!	!
-1G	-ley-	.	.	1d	.	2g\	.
-*	*	*	*	*	*	*	*ij
-.	.	2B-\	.	.	.	1G	CHri-
-!LO:PB:g=original	!	!	!	!	!	!	!
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!	!
-2C/	-son	0c	-zon	2e\	.	.	.
-*	*	*	*	*	*	*custos:A	*
-1C/	Chri-	.	.	1e\	-ste	2G/	-ſte
-=23-	=23-	=23-	=23-	=23-	=23-	=23-	=23-
-!	!	!	!	!	!	!LO:LB:g=original	!
-.	.	.	.	.	.	2A/	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2C/	-ste	.	.	2e\	e-	2G/	.
-*	*	*	*	*	*	*lig	*
-1D	e-	1r	.	2d\	.	1F	.
-.	.	.	.	1f\	-le-	.	.
-=24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:SIC:v:l:s=-lei-	!	!	!	!	!	!	!
-1C	-ley-	1.c	Chri-	.	.	1G	.
-.	.	.	.	4e\	-i-	.	.
-.	.	.	.	4d\	.	.	.
-*	*	*	*	*	*	*Xlig	*
-2AA/	-son	.	.	2c\	-ſon	2A/	.
-*	*Xij	*	*	*	*	*	*
-*	*	*custos:d	*	*	*	*	*
-2FF/	Chri-	2c\	-ſte	2A\	.	2f\	.
-=25-	=25-	=25-	=25-	=25-	=25-	=25-	=25-
-*	*	*custos:A	*	*	*	*	*
-!	!	!LO:PB:g=original	!	!	!	!	!
-*	*	*	*	*custos:A	*	*	*
-4BB-/	.	1d	e-	1B-	Chri-	1.f	e-
-4C/	.	.	.	.	.	.	.
-4D/	-ste	.	.	.	.	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-4E/	.	.	.	.	.	.	.
-!	!	!LO:LB:g=original	!	!	!	!	!
-!	!	!	!	!LO:PB:g=original	!	!	!
-2F\	.	2.c\	-lei-	2A/	.	.	.
-2C/	e-	.	.	2.G/	-ste	2e\	.
-.	.	4B-\	.	.	.	.	.
-=26-	=26-	=26-	=26-	=26-	=26-	=26-	=26-
-1D	-lei-	2A/	.	.	.	2d\	.
-.	.	.	.	4F/	e-	.	.
-.	.	4G/	.	1F	-le-	2B-/	.
-.	.	4F/	.	.	.	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-1C	-ſon	1G	.	.	.	2c/	.
-.	.	.	.	2E/	-i-	2c/	-le-
-=27	=27-	=27-	=27-	=27-	=27-	=27-	=27-
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!	!
-2r	.	1F	-zon	2F/	-ſon	2A/	.
-2D\	.	.	.	2A/	Chri-	2.d\	.
-2E\	.	1r	.	2G/	.	.	.
-.	.	.	.	.	.	4c/	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2F\	.	.	.	1A\	-ste	1c\	.
-=28	=28-	=28-	=28-	=28-	=28-	=28-	=28-
-1D	.	2r	.	.	.	.	.
-.	.	2D/	e-	4G/	e-	2B-/	.
-.	.	.	.	4F/	.	.	.
-2C/	.	2E/	.	2G/	-le-	2c/	.
-*	*ij	*	*	*	*	*	*
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2FF/	Chri-	2.F/	-le-	2A/	.	2c/	-i-
-=29	=29-	=29-	=29-	=29-	=29-	=29-	=29-
-!	!	!	!	!	!	!LO:SIC:v:l:s=-son	!
-2BB-/	-ste	.	.	2B-/	-i-	2d\	-zon
-.	.	4E/	.	.	.	.	.
-2C/	e-	4D/	.	2G/	-ſon	1c	.
-.	.	4C/	.	.	.	.	.
-*	*	*	*	*	*Xij	*	*Xij
-*custos:AA	*	*	*	*	*	*	*
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-1GG	-lei-	1D,	.	2.G/	Chri-	.	.
-.	.	.	.	.	.	2B-/	.
-.	.	.	.	4F/	.	.	.
-=30	=30-	=30-	=30-	=30-	=30-	=30-	=30-
-!LO:LB:g=original	!	!	!	!	!	!	!
-2AA/	-ſon	2C/	.	2E/	-ste	2.c/	.
-*	*Xij	*	*	*	*	*	*
-*	*	*custos:C	*	*	*	*	*
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2FF/	Chri-	2C/	-i-	2F/	e-	.	.
-.	.	.	.	.	.	4B-/	.
-!	!	!LO:LB:g=original	!	!	!	!	!
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!	!
-2AA/	-ste	2C/	-zon	2E/	-lei-	4A/	.
-.	.	.	.	.	.	4G/	.
-*	*	*	*	*custos:G	*	*	*
-2BB-/	e-	1D/	.	2D/	-ſon	1F/	.
-=31-	=31-	=31-	=31-	=31-	=31-	=31-	=31-
-*	*	*	*	*	*ij	*	*
-!	!	!	!	!LO:LB:g=original	!	!	!
-1GG	-lei-	.	.	1G	Chri-	.	.
-*	*	*	*	*	*	*custos:F	*
-.	.	4C/	.	.	.	2E/	.
-.	.	4BB-/	.	.	.	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!	!	!	!	!	!	!LO:PB:g=original	!
-1FF	-ſon	1C	.	1A	.	2F/	.
-.	.	.	.	.	.	2c\	Chri-
-=32	=32-	=32-	=32-	=32-	=32-	=32-	=32-
-2r	.	1r	.	2B-\	-ste	2d\	.
-2C/	.	.	.	2G/	e-	2e\	-ſte
-*	*	*	*Xij	*	*	*	*
-2D/	.	1D	Chri-	2F/	.	1f	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2BB-/	.	.	.	2B-\	.	.	.
-=33	=33-	=33-	=33-	=33-	=33-	=33-	=33-
-2C/	.	2E/	.	2G/	-le-	2e\	e-
-2AA/	.	2F/	-ſte	2A/	-i-	2c\	-lei-
-*	*ij	*	*	*	*	*	*
-2BB-/	Chri-	2D/	e-	2F/	-ſon	2f\	-ſon.
-*	*	*	*	*	*Xij	*	*
-2C/	-ste	2.G/	-lei-	1c\	Chri-	2e\	.
-=34-	=34-	=34-	=34-	=34-	=34-	=34-	=34-
-*	*	*	*	*	*	*lig	*
-1D	e-	.	.	.	.	1d	.
-.	.	4F/	.	.	.	.	.
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!	!
-.	.	1F	-zon	2B-\	-ſte	.	.
-1C,	-lei-	.	.	2c\	e-	1G	.
-.	.	2E/	.	2c\	-lei-	.	.
-*	*	*	*	*	*	*Xlig	*
-=35-	=35-	=35-	=35-	=35-	=35-	=35-	=35-
-0FF;l	-ſon	0Fl/	.	0c;<l	-ſon	0A;l	.
-*	*Xij	*	*	*	*	*	*
-=36||	=36||	=36||	=36||	=36||	=36||	=36||	=36||
-*M2/1	*	*	*	*	*	*	*
-*met(C|)	*	*	*	*	*	*	*
-!LO:SIC:v:l:s=Ky-	!	!	!	!	!	!	!
-2C/	Ki-	0r	.	1r	.	0r	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2C/	-ri-	.	.	.	.	.	.
-!	!	!	!	!LO:SIC:v:l:s=Ky-	!	!	!
-1D	-e	.	.	2F/	Ki-	.	.
-.	.	.	.	2F/	-ri-	.	.
-=37-	=37-	=37-	=37-	=37-	=37-	=37-	=37-
-*custos:F	*	*	*	*	*	*	*
-*	*	*	*	*custos:A	*	*	*
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-1E	e-	0r	.	1G	-e	1r	.
-!LO:LB:g=original	!	!	!	!LO:LB:g=original	!	!	!
-!LO:SIC:v:l:s=-lei-	!	!	!	!	!	!LO:SIC:v:l:s=Ky-	!
-2.F\	-ley-	.	.	1A,	e-	2c/	Ki-
-.	.	.	.	.	.	2c/	-rie-
-4E\	.	.	.	.	.	.	.
-=38-	=38-	=38-	=38-	=38-	=38-	=38-	=38-
-*	*	*	*	*lig	*	*	*
-4D/	.	0r	.	1B-	-lei-	1d	-lei-
-4C/	.	.	.	.	.	.	.
-2BB-/	.	.	.	.	.	.	.
-!	!	!	!	!	!	!LO:SIC:v:l:s=-son	!
-1C	.	.	.	1G	.	1e	-zon
-*	*	*	*	*Xlig	*	*	*
-=39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-
-*	*	*	*	*	*	*lig	*
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!	!	!LO:SIC:v:l:s=Ky-	!	!	!	!	!
-1FF	-son	2F/	ki-	2A/	-ſon	1f	.
-.	.	2F/	-ri-	1c	e-	.	.
-1r	.	1G	-e	.	.	1d	.
-.	.	.	.	2B-\	-lei-	.	.
-*	*	*	*	*	*	*Xlig	*
-=40-	=40-	=40-	=40-	=40-	=40-	=40-	=40-
-*	*ij	*	*	*	*	*	*ij
-!LO:SIC:v:l:s=Ky-	!	!	!	!	!	!LO:SIC:v:l:s=Ky-	!
-2.F\	Ki-	1A	e-	2c\	-ſon	2c/	Ki-
-.	.	.	.	2A/	.	2c/	-rie
-4F\	-ri-	.	.	.	.	.	.
-*	*	*lig	*	*	*ij	*	*
-2BB-/	.	1B-	-lei-	2F/	.	2d\	e-
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2BB-/	-e	.	.	2F/	e-	1f\	-lei-
-=41	=41-	=41-	=41-	=41-	=41-	=41-	=41-
-1C	.	1G	.	1c	-lei-	.	.
-*	*	*	*	*	*	*custos:f	*
-.	.	.	.	.	.	2e\	.
-*	*	*Xlig	*	*	*	*	*
-!	!	!	!	!	!	!LO:LB:g=original	!
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!LO:SIC:v:l:s=-son	!
-2FF/	.	2F/	-zon	2A\	-ſon	1f	-zon
-*	*	*	*	*	*Xij	*	*Xij
-!	!	!	!	!LO:SIC:v:l:s=Ky-	!	!	!
-1F\	e-	1A\	.	1c\	ki-	.	.
-=42-	=42-	=42-	=42-	=42-	=42-	=42-	=42-
-.	.	.	.	.	.	2r	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!	!	!	!	!	!	!LO:SIC:v:l:s=Ky-	!
-2E\	.	2.G/	.	2G/	-rie-	2c/	Ki-
-!	!	!	!	!LO:SIC:v:l:s=-lei-	!	!	!
-2D\	.	.	.	2A/	-ley-	2d\	-rie-
-.	.	4F/	.	.	.	.	.
-2BB-/	.	1F/	.	2B-\	-ſon	2d\	-lei-
-=43-	=43-	=43-	=43-	=43-	=43-	=43-	=43-
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:SIC:v:l:s=-lei-	!	!	!	!	!	!LO:SIC:v:l:s=-son	!
-1C	-ley-	.	.	1G	.	2.c/	-zon
-.	.	2E/	.	.	.	.	.
-.	.	.	.	.	.	4c/	.
-*lig	*	*	*	*	*	*	*
-1FF	-son	2F/	.	2F/	.	2A/	.
-*	*Xij	*	*ij	*	*ij	*	*
-*	*	*	*	*custos:G	*	*	*
-!	!	!LO:SIC:v:l:s=Ky-	!	!LO:SIC:v:l:s=Ky-	!	!	!
-.	.	1F/	Ki-	1A\	ki-	1c\	.
-=44-	=44-	=44-	=44-	=44-	=44-	=44-	=44-
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-1C	.	.	.	.	.	.	.
-*	*	*	*	*	*	*	*ij
-*	*	*custos:D	*	*	*	*	*
-!	!	!	!	!LO:LB:g=original	!	!	!
-!	!	!	!	!	!	!LO:SIC:v:l:s=Ky-	!
-.	.	2E/	-ri-	2.G/	-ri-	2G/	Ki-
-*Xlig	*	*	*	*	*	*	*
-!	!	!LO:LB:g=original	!	!	!	!	!
-1r	.	2D/	-e	.	.	2A/	-ri-
-.	.	.	.	4F/	-e	.	.
-.	.	2BB-/	e-	1F/	e-	2B-/	-e-
-=45-	=45-	=45-	=45-	=45-	=45-	=45-	=45-
-*	*	*lig	*	*	*	*	*
-2r	.	1C	-lei-	.	.	1G	-lei-
-!	!	!	!	!LO:SIC:v:l:s=-lei-	!	!	!
-1C	.	.	.	2E/	-ley-	.	.
-!	!	!	!	!	!	!LO:SIC:v:l:s=-son	!
-.	.	1D,	.	1F	-ſon	2.F/	-zon
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2BB-/	.	.	.	.	.	.	.
-.	.	.	.	.	.	4G/	.
-*	*	*Xlig	*	*	*	*	*
-=46	=46-	=46-	=46-	=46-	=46-	=46-	=46-
-!	!	!LO:SIC:v:l:s=-son	!	!LO:SIC:v:l:s=Ky-	!	!	!
-2AA/	.	2C/	-zon	2C/	ki-	2A/	.
-*	*	*	*Xij	*	*	*	*
-!	!	!LO:SIC:v:l:s=Ky-	!	!	!	!	!
-2GG/	.	1G	Ki-	2D/	.	2B-/	.
-2C/	.	.	.	2E/	.	2c/	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!	!	!	!	!	!	!LO:SIC:v:l:s=Ky-	!
-2BB-/	.	2D/	-ri-	2F/	.	2.d\	ki-
-=47	=47-	=47-	=47-	=47-	=47-	=47-	=47-
-*	*	*	*	*lig	*	*	*
-2AA/	.	2E/	-e	1A	-ri-	.	.
-.	.	.	.	.	.	4c/	-ri-
-2FF/	.	2F/	e-	.	.	1c	-e-
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-1GG	.	1D,	-lei-	1G	.	.	.
-.	.	.	.	.	.	2B-/	-lei-
-*	*	*	*	*Xlig	*	*	*
-=48	=48-	=48-	=48-	=48-	=48-	=48-	=48-
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!LO:SIC:v:l:s=-son	!
-2r	.	1C	-zon	2G/	-e	2c/	-zon
-*	*	*	*	*	*	*	*Xij
-!LO:SIC:v:l:s=Ky-	!	!	!	!	!	!LO:SIC:v:l:s=Ky-	!
-1C	ki-	.	.	2G/	e-	1e	Ki-
-!	!	!	!	!LO:SIC:v:l:s=-lei-	!	!	!
-.	.	2r	.	2A\	-ley-	.	.
-*	*	*	*ij	*	*	*	*
-*	*	*	*	*	*	*custos:e	*
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-!	!	!LO:SIC:v:l:s=Ky-	!	!	!	!	!
-2BB-/	-ri-	2D/	Ki-	2B-\	.	2d\	-ri-
-=49	=49-	=49-	=49-	=49-	=49-	=49-	=49-
-!	!	!	!	!	!	!LO:LB:g=original	!
-2AA/	-e	1C	-ri-	2c\	.	2e\	-e-
-2FF/	e-	.	.	2A\	.	2.f\	.
-2BB-/	.	2D/	-e	2B-\	-ſon	.	.
-.	.	.	.	.	.	4d\	.
-*	*	*	*	*	*Xij	*	*
-*	*	*	*	*custos:d	*	*	*
-!	!	!	!	!LO:SIC:v:l:s=Ky-	!	!	!
-2C/	.	2E/	e-	2G/	ky-	2.g\	-lei-
-=50-	=50-	=50-	=50-	=50-	=50-	=50-	=50-
-*	*	*lig	*	*	*	*	*
-!	!	!	!	!LO:PB:g=original	!	!	!
-1D	-lei-	1F	-lei-	2d\	-ri-	.	.
-.	.	.	.	.	.	4f\	.
-!	!	!	!	!	!	!LO:SIC:v:l:s=-son	!
-.	.	.	.	2B-\	-e-	1f	-zon
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-1C	-ſon	1G	.	1c	-lei-	.	.
-.	.	.	.	.	.	2e\	.
-*	*	*Xlig	*	*	*	*	*
-=51	=51-	=51-	=51-	=51-	=51-	=51-	=51-
-!	!	!LO:SIC:v:l:s=-son	!	!	!	!	!
-2FF/	.	000F/	-zon	2A\	-ſon	2f\	.
-*	*	*	*Xij	*	*	*	*
-1BB-	.	.	.	1B-	.	1d	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2AA/	.	.	.	2c\	.	2c/	.
-=52	=52-	=52-	=52-	=52-	=52-	=52-	=52-
-*	*	*	*	*	*	*	*ij
-!	!	!	!	!	!	!LO:SIC:v:l:s=Ky-	!
-2.BB-/	.	.	.	2B-\	.	2.d\	ki-
-.	.	.	.	2B-\	.	.	.
-4C/	.	.	.	.	.	4e\	-ri-
-4D/	.	.	.	1A	.	2f\	-e
-4E/	.	.	.	.	.	.	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2F\	.	.	.	.	.	2c/	e-
-=53	=53-	=53-	=53-	=53-	=53-	=53-	=53-
-1BB-	.	.	.	2F/	.	1d	-lei-
-.	.	.	.	1B-	e-	.	.
-!	!	!	!	!	!	!LO:SIC:v:l:s=-son	!
-0.FF;l/	.	.	.	.	.	0.cl\	-zon
-.	.	.	.	4A/	-lei-	.	.
-.	.	.	.	4G/	.	.	.
-*	*	*	*	*	*	*	*Xij
-=54-	=54-	=54-	=54-	=54-	=54-	=54-	=54-
-.	.	.	.	0A;<l	-ſon	.	.
-==	==	==	==	==	==	==	==
-*-	*-	*-	*-	*-	*-	*-	*-
+!LO:TX:a:t=Authore Thoma Szadek eiuſd(em) Cap(p)elae P(re)b(endarius).:mod=	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=Dies eſt \nleticiae:mod=	!	!	!LO:TX:a:t=Offitium Dies eſt Letitiae T. Szadek.:mod=	!	!	!LO:TX:a:t=Dies eſt \nleticiae \nofficium:mod=	!	!	!LO:TX:a:t=Off(iciu)m Dies est Letitiae. Tomae Szadek:mod=	!	!
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!
+1r	.	.	0r	.	.	1r	.	.	1F	KI-	Ky-
+!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!
+1FF	KI-	Ky-	.	.	.	1F	Ky-	Ky-	1A	-RI-	-ri-
+=2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-
+!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!	!	!
+2.FF/	-ri-	-ri-	1F	Ki-	Ky-	2.A/	-ri-	-ri-	2.c/	-E-	-e
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+4GG/	.	.	.	.	.	4B-/	-e	.	4B-/	.	.
+2AA/	-e	-e	1F	-ri-	-ri-	2c\	.	-e	4A/	.	e-
+.	.	.	.	.	.	.	.	.	4G/	.	.
+2BB-/	e-	e-	.	.	.	1d\	e-	e-	1F/	-Lei-	-lei-
+=3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-
+1GG	-ley-	-lei-	1G	-e-	-e	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+.	.	.	.	.	.	4c\	-lei-	-lei-	2E/	-zon	-son
+.	.	.	.	.	.	4B-\	.	.	.	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+1FF	-son	-son	1A	-le-	e-	4A\	.	.	2F/	.	[Ky-
+.	.	.	.	.	.	4G\	.	.	.	.	.
+.	.	.	.	.	.	4F/	.	.	2c/	.	-ri-
+.	.	.	.	.	.	4E/	.	.	.	.	.
+=4-	=4-	=4-	=4-	=4-	=4-	=4-	=4-	=4-	=4-	=4-	=4-
+*	*	*	*lig	*	*	*	*	*	*	*	*
+2.BB-/	.	[Ky-	1B-	-i-	-lei-	2D/	-ſon	-son	2d\	.	-e
+*	*	*	*	*	*	*	*ij	*ij	*	*	*
+.	.	.	.	.	.	1F	Ky-	Ky-	2d\	.	e-
+4BB-/	.	-ri-	.	.	.	.	.	.	.	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+1C	.	-e	1G	.	.	.	.	.	2.c/	.	-lei-
+.	.	.	.	.	.	2E/	-ri-	-ri-	.	.	.
+.	.	.	.	.	.	.	.	.	4B-/	.	.
+*	*	*	*Xlig	*	*	*	*	*	*	*	*
+=5	=5-	=5-	=5-	=5-	=5-	=5-	=5-	=5-	=5-	=5-	=5-
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!	!	!
+1D	.	e-	1F	-zon	-son	2F/	-e	-e	4A/	.	.
+.	.	.	.	.	.	.	.	.	4G/	.	.
+.	.	.	.	.	.	2A/	e-	e-	2F/	.	-son]
+*lig	*	*	*	*	*	*	*	*	*	*ij	*ij
+*	*	*	*	*	*	*custos:E	*	*	*	*	*
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!
+1E-X	.	-lei-	2r	.	.	1G	-lei-	-lei-	2.B-/	Ky-	Ky-
+*	*	*	*	*ij	*ij	*	*	*	*	*	*
+!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!	!	!
+.	.	.	1G/	Ki-	Ky-	.	.	.	.	.	.
+*	*	*	*	*	*	*	*	*	*custos:c	*	*
+.	.	.	.	.	.	.	.	.	4B-/	-ri-	-ri-
+=6-	=6-	=6-	=6-	=6-	=6-	=6-	=6-	=6-	=6-	=6-	=6-
+*custos:BB-	*	*	*	*	*	*	*	*	*	*	*
+!	!	!	!	!	!	!LO:LB:g=original	!	!	!LO:LB:g=original	!	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+1C	.	.	.	.	.	1E	-ſon	-son	1c	-e	-e
+.	.	.	2G/	-ri-	-ri-	.	.	.	.	.	.
+*Xlig	*	*	*	*	*	*	*Xij	*Xij	*	*	*
+!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!
+2BB-/	.	.	1D	-e	-e	2.F/	Ki-	Ky-	4d\	e-	e-
+.	.	.	.	.	.	.	.	.	4c\	.	.
+2D/	.	.	.	.	.	.	.	.	4B-/	-lei-	-lei-
+.	.	.	.	.	.	4F/	-ri-	-ri-	4A/	.	.
+=7-	=7-	=7-	=7-	=7-	=7-	=7-	=7-	=7-	=7-	=7-	=7-
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+2C/	.	.	2E/	e-	e-	2G/	-e	-e	1c	-zon	-son
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2AA/	.	.	2.F/	-lei-	-lei-	2A/	e-	e-	.	.	.
+*	*	*	*	*	*	*lig	*	*	*	*Xij	*Xij
+1GG	.	.	.	.	.	1B-	-ley-	-lei-	1r	.	.
+.	.	.	8E/	.	.	.	.	.	.	.	.
+*	*	*	*custos:E	*	*	*	*	*	*	*	*
+.	.	.	8D/	.	.	.	.	.	.	.	.
+!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
+.	.	.	2E/	-ſon	-son	.	.	.	.	.	.
+*	*	*	*	*Xij	*Xij	*	*	*	*	*	*
+=8-	=8-	=8-	=8-	=8-	=8-	=8-	=8-	=8-	=8-	=8-	=8-
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+1FF	.	-son]	2F/	e-	e-	1.A	.	.	1.c	.	[Ky-
+.	.	.	1F	-lei-	-lei-	.	.	.	.	.	.
+2r	.	.	.	.	.	.	.	.	.	.	.
+*	*ij	*ij	*	*	*	*Xlig	*	*	*	*	*
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!	!	!
+1C/	Ki-	Ky-	4E/	.	.	4G/	.	.	2c/	.	-ri-
+.	.	.	4D/	.	.	4F/	.	.	.	.	.
+=9-	=9-	=9-	=9-	=9-	=9-	=9-	=9-	=9-	=9-	=9-	=9-
+!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!	!	!
+.	.	.	2E/	-son	-son	2c\	-ſon	-son	2.G/	.	-e
+*	*	*	*	*ij	*ij	*	*	*	*	*	*
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2C/	-ri	-ri-	1G	Ki-	Ky-	2c\	e-	e-	.	.	.
+.	.	.	.	.	.	.	.	.	4A/	.	e-
+*	*	*	*	*	*	*	*	*	*	*	*
+!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!	!	!	!	!	!
+2.GG/	-e	-e	.	.	.	2.d\	-lei-	-lei-	1B-	.	-lei
+*	*Xij	*	*	*	*	*	*	*	*	*	*
+.	.	.	2G/	-ri-	-ri-	.	.	.	.	.	.
+4AA/	.	.	.	.	.	4c\	.	.	.	.	.
+=10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-
+4BB-/	.	e-	1D	-e-	-e	2B-\	.	.	1F	.	-son]
+4C/	.	.	.	.	.	.	.	.	.	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2D/	.	-lei-	.	.	.	2A\	-ſon	-son	.	.	.
+!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!
+2C/	.	-son	2E/	.	e-	2.c\	ki-	Ky-	2G/	.	Ky-
+2FF/	e-	Ky-	1F/	-le-	-le-	.	.	.	2A/	.	-ri-
+.	.	.	.	.	.	4c\	-ri-	-ri-	.	.	.
+=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!
+1C	-lei-	-rie	.	.	.	1G	-e	-e	2.c/	Ki-	-e
+.	.	.	2E/	-i-	-i-	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	.	4c/	-ri-	e-
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!LO:MO:mod=1d	!	!
+1BB-	.	e-	1F	-zon	-son	2.B-\	e-	e-	1d,	-e-	-lei-
+.	.	.	.	.	.	4A/	.	.	.	.	.
+=12-	=12-	=12-	=12-	=12-	=12-	=12-	=12-	=12-	=12-	=12-	=12-
+1C	.	-lei-	1r	.	.	4G/	.	.	1e	-lei-	.
+.	.	.	.	.	.	4F/	.	.	.	.	.
+.	.	.	.	.	.	2G/	-lei-	-lei-	.	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+*	*	*	*	*	*	*	*	*	*lig	*	*
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!	!	!
+1FF	-son	-son	2.F/	Ki-	Ky-	2A/	-ſon	-son	1f	-zon:	-son
+*	*Xij	*Xij	*	*	*	*	*ij	*ij	*	*	*
+.	.	.	.	.	.	1c\	e-	e-	.	.	.
+.	.	.	4F/	-ri-	-ri-	.	.	.	.	.	.
+=13-	=13-	=13-	=13-	=13-	=13-	=13-	=13-	=13-	=13-	=13-	=13-
+*	*	*	*custos:A	*	*	*	*	*	*	*	*
+0r	.	.	1G	-e	-e	.	.	.	1d	.	.
+*	*	*	*	*	*	*custos:A	*	*	*	*	*
+.	.	.	.	.	.	2B-\	.	.	.	.	.
+*	*	*	*	*	*	*	*	*	*Xlig	*ij	*ij
+!	!	!	!LO:LB:g=original	!	!	!LO:LB:g=original	!	!	!LO:SIC:v:l:t=Ky-	!	!
+.	.	.	2A/	e-	e-	2A/	-lei-	-lei-	2c/	Ki-	Ky-
+.	.	.	4B-/	-lei-	-lei-	4G/	.	.	2d\	.	.
+.	.	.	4A/	.	.	4F/	.	.	.	.	.
+=14-	=14-	=14-	=14-	=14-	=14-	=14-	=14-	=14-	=14-	=14-	=14-
+1C	.	[Ky-	4G/	.	.	4E/	.	.	2.c/	.	.
+.	.	.	4F/	.	.	4D/	.	.	.	.	.
+.	.	.	2G/	.	.	2E/	-ſon	-son	.	.	.
+.	.	.	.	.	.	.	.	.	4B-/	.	.
+*	*	*	*	*	*	*	*Xij	*Xij	*	*	*
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!	!	!
+2.D/	.	-rie	1F	-zon	-son	2F/	e-	e-	4A/	.	.
+.	.	.	.	.	.	.	.	.	4G/	.	.
+*	*	*	*	*	*	*	*	*	*custos:G	*	*
+.	.	.	.	.	.	2A\	.	.	2A/	.	.
+*custos:GG	*	*	*	*	*	*	*	*	*	*	*
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+4D/	.	e-	.	.	.	.	.	.	.	.	.
+=15	=15-	=15-	=15-	=15-	=15-	=15-	=15-	=15-	=15-	=15-	=15-
+!LO:LB:g=original	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!
+2GG/	.	-lei-	2r	.	.	2B-\	-lei-	-lei-	2G/	.	.
+*	*	*	*	*Xij	*Xij	*	*	*	*	*	*
+!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!	!	!
+2D/	.	.	2F/	ki-	Ky-	4A\	-ſon	.	1F	.	.
+.	.	.	.	.	.	4B-\	.	.	.	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+1C	.	.	2.G/	-ri-	-rie	2c\	.	-son	.	.	.
+*	*	*	*	*	*	*	*ij	*ij	*	*	*
+.	.	.	.	.	.	2c\	e-	e-	2E/	-ri-	-ri-
+.	.	.	4G/	-e-	e-	.	.	.	.	.	.
+=16	=16-	=16-	=16-	=16-	=16-	=16-	=16-	=16-	=16-	=16-	=16-
+1BB-	.	-son	2.D/	.	-lei-	2d\	.	.	1F	-e	-e
+.	.	.	.	.	.	2d\	-lei-	-lei-	.	.	.
+.	.	.	4E/	-lei-	.	.	.	.	.	.	.
+2AA/	.	Ky-	2F/	.	.	2A\	.	.	2c/	e-	e-
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!	!	!
+2.GG/	.	-rie	1G/	-zon	.	2.B-\	.	.	2.d\	-lei-	.
+=17-	=17-	=17-	=17-	=17-	=17-	=17-	=17-	=17-	=17-	=17-	=17-
+4AA/	.	e-	.	.	.	4c\	.	.	4c/	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2BB-/	.	-lei-	1F	.	.	2d\	.	.	4B-/	.	.
+.	.	.	.	.	.	.	.	.	4A/	.	.
+1C	.	.	.	.	.	2c\	-ſon	-son	1G	.	.
+*	*	*	*	*	*	*	*Xij	*Xij	*	*	*
+.	.	.	2E/	.	.	2.c\	e-	e-	.	.	.
+=18-	=18-	=18-	=18-	=18-	=18-	=18-	=18-	=18-	=18-	=18-	=18-
+0FF;l	.	-son]	0Fl/	.	-son	.	.	.	4A/	.	.
+.	.	.	.	.	.	4B-\	.	.	4G/	.	.
+!	!	!	!	!	!	!LO:SIC:v:l:t=-lei-	!	!	!	!	!
+.	.	.	.	.	.	4A\	-ley-	-lei-	4A/	.	-lei-
+.	.	.	.	.	.	4G\	.	.	4B-/	.	.
+*	*	*	*	*	*	*custos:A	*	*	*	*	*
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+.	.	.	.	.	.	1A;l	-ſon	-son	1c;l	-zon	-son
+*	*	*	*	*	*	*	*	*	*	*Xij	*Xij
+=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||
+!LO:MO:mod=!null:null	!	!	!	!	!	!	!	!	!	!	!
+*M2/1	*	*	*	*	*	*	*	*	*	*	*
+*met(C|)	*	*	*	*	*	*	*	*	*	*	*
+!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
+!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
+1.F	Chri-	Chri-	1.c	Chri-	Chri-	1.A	Chri-	Chri-	1.f	CHri-	Chri-
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2C/	-ste	-ste	2c\	-ſte	-ste	2G/	.	-ste	2e\	.	-ste
+=20	=20-	=20-	=20-	=20-	=20-	=20-	=20-	=20-	=20-	=20-	=20-
+4BB-/	.	e-	1d	e-	e-	1B-	-ste	e-	1f	.	e-
+4C/	e-	.	.	.	.	.	.	.	.	.	.
+!LO:SIC:v:l:t=-lei-	!	!	!	!	!	!	!	!	!	!	!
+4D/	-ley-	-lei-	.	.	.	.	.	.	.	.	.
+4E/	.	.	.	.	.	.	.	.	.	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+1F	-son	-son	1c	-lei-	-lei-	1A	e-	-lei-	1f	-ſte	-lei-
+=21	=21-	=21-	=21-	=21-	=21-	=21-	=21-	=21-	=21-	=21-	=21-
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!	!	!
+2r	.	.	2A/	-zon	-son	2F/	-lei-	-son	2c/	e-	-son
+*	*ij	*ij	*	*ij	*ij	*	*	*ij	*	*	*ij
+2F\	Chri-	Chri-	2A/	e-	Chri--	2f\	-ſon	Chri-	2a\	-le-	Chri--
+*	*	*	*	*	*	*	*ij	*	*	*	*
+2G\	-ste	-ste	2B-\	-lei-	-ste	2d\	Chri-	-ste	2g\	-i-	-ste
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+2A\	e-	e-	1c\	.	e-	2c\	.	e-	2f\	-zon	e-
+=22-	=22-	=22-	=22-	=22-	=22-	=22-	=22-	=22-	=22-	=22-	=22-
+*custos:C	*	*	*	*	*	*	*	*	*	*	*
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+!LO:SIC:v:l:t=-lei-	!	!	!	!	!	!	!	!	!	!	!
+1G	-ley-	-lei-	.	.	.	1d	.	-lei-	2g\	.	-lei-
+*	*	*	*	*	*	*	*	*	*	*ij	*ij
+.	.	.	2B-\	.	-lei-	.	.	.	1G	CHri-	-son
+!LO:PB:g=original	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!	!	!
+2C/	-son	-son	0c	-zon	-son	2e\	.	-son	.	.	.
+*	*	*	*	*	*	*	*	*	*custos:A	*	*
+1C/	Chri-	Chri-	.	.	.	1e\	-ste	Chri-	2G/	-ſte	Chri-
+=23-	=23-	=23-	=23-	=23-	=23-	=23-	=23-	=23-	=23-	=23-	=23-
+!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!
+.	.	.	.	.	.	.	.	.	2A/	.	-ste
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2C/	-ste	-ste	.	.	.	2e\	e-	-ste	2G/	.	e-
+*	*	*	*	*	*	*	*	*	*lig	*	*
+1D	e-	e-	1r	.	.	2d\	.	e-	1F	.	-lei-
+.	.	.	.	.	.	1f\	-le-	-lei-	.	.	.
+=24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+!LO:SIC:v:l:t=-lei-	!	!	!	!	!	!	!	!	!	!	!
+1C	-ley-	-lei-	1.c	Chri-	Chri-	.	.	.	1G	.	.
+.	.	.	.	.	.	4e\	-i-	.	.	.	.
+.	.	.	.	.	.	4d\	.	.	.	.	.
+*	*	*	*	*	*	*	*	*	*Xlig	*	*
+2AA/	-son	-son	.	.	.	2c\	-ſon	-son	2A/	.	-son
+*	*Xij	*Xij	*	*	*	*	*	*	*	*	*
+*	*	*	*custos:d	*	*	*	*	*	*	*	*
+2FF/	Chri-	Chri-	2c\	-ſte	-ste	2A\	.	Chri-	2f\	.	Chri-
+=25-	=25-	=25-	=25-	=25-	=25-	=25-	=25-	=25-	=25-	=25-	=25-
+*	*	*	*custos:A	*	*	*	*	*	*	*	*
+!	!	!	!LO:PB:g=original	!	!	!	!	!	!	!	!
+*	*	*	*	*	*	*custos:A	*	*	*	*	*
+4BB-/	.	-ste	1d	e-	e-	1B-	Chri-	-ste	1.f	e-	-ste
+4C/	.	.	.	.	.	.	.	.	.	.	.
+4D/	-ste	.	.	.	.	.	.	.	.	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+4E/	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!LO:PB:g=original	!	!	!	!	!
+2F\	.	.	2.c\	-lei-	-lei-	2A/	.	.	.	.	.
+2C/	e-	e-	.	.	.	2.G/	-ste	e-	2e\	.	e-
+.	.	.	4B-\	.	.	.	.	.	.	.	.
+=26-	=26-	=26-	=26-	=26-	=26-	=26-	=26-	=26-	=26-	=26-	=26-
+1D	-lei-	-lei-	2A/	.	.	.	.	.	2d\	.	-lei-
+.	.	.	.	.	.	4F/	e-	.	.	.	.
+.	.	.	4G/	.	.	1F	-le-	-lei-	2B-/	.	.
+.	.	.	4F/	.	.	.	.	.	.	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+1C	-ſon	-son	1G	.	.	.	.	.	2c/	.	-son
+.	.	.	.	.	.	2E/	-i-	.	2c/	-le-	Chri-
+=27	=27-	=27-	=27-	=27-	=27-	=27-	=27-	=27-	=27-	=27-	=27-
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!	!	!
+2r	.	.	1F	-zon	-son	2F/	-ſon	-son	2A/	.	-ste
+2D\	.	[Chri-	.	.	.	2A/	Chri-	Chri-	2.d\	.	e-
+2E\	.	-ste	1r	.	.	2G/	.	-ste	.	.	.
+.	.	.	.	.	.	.	.	.	4c/	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2F\	.	e-	.	.	.	1A\	-ste	e-	1c\	.	.
+=28	=28-	=28-	=28-	=28-	=28-	=28-	=28-	=28-	=28-	=28-	=28-
+1D	.	-lei-	2r	.	.	.	.	.	.	.	.
+.	.	.	2D/	e-	Chri-	4G/	e-	.	2B-/	.	.
+.	.	.	.	.	.	4F/	.	.	.	.	.
+2C/	.	-son]	2E/	.	-ste	2G/	-le-	-lei-	2c/	.	-le-
+*	*ij	*ij	*	*	*	*	*	*	*	*	*
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2FF/	Chri-	Chri-	2.F/	-le-	e-	2A/	.	.	2c/	-i-	-i-
+=29	=29-	=29-	=29-	=29-	=29-	=29-	=29-	=29-	=29-	=29-	=29-
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+2BB-/	-ste	-ste	.	.	.	2B-/	-i-	.	2d\	-zon	-son
+.	.	.	4E/	.	.	.	.	.	.	.	.
+2C/	e-	e-	4D/	.	.	2G/	-ſon	-son	1c	.	Chri-
+.	.	.	4C/	.	.	.	.	.	.	.	.
+*	*	*	*	*	*	*	*Xij	*Xij	*	*Xij	*
+*custos:AA	*	*	*	*	*	*	*	*	*	*	*
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!LO:MO:mod=1D	!	!	!	!	!	!	!	!
+1GG	-lei-	-lei-	1D,	.	-lei-	2.G/	Chri-	Chri-	.	.	.
+.	.	.	.	.	.	.	.	.	2B-/	.	-ste
+.	.	.	.	.	.	4F/	.	.	.	.	.
+=30	=30-	=30-	=30-	=30-	=30-	=30-	=30-	=30-	=30-	=30-	=30-
+!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!
+2AA/	-ſon	-son	2C/	.	-son	2E/	-ste	-ste	2.c/	.	e-
+*	*Xij	*Xij	*	*	*	*	*	*	*	*	*
+*	*	*	*custos:C	*	*	*	*	*	*	*	*
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2FF/	Chri-	Chri-	2C/	-i-	Chri-	2F/	e-	e-	.	.	.
+.	.	.	.	.	.	.	.	.	4B-/	.	.
+!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!	!	!
+2AA/	-ste	-ste	2C/	-zon	-ste	2E/	-lei-	-lei-	4A/	.	.
+.	.	.	.	.	.	.	.	.	4G/	.	.
+*	*	*	*	*	*	*custos:G	*	*	*	*	*
+2BB-/	e-	e-	1D/	.	e-	2D/	-ſon	-son	1F/	.	-le-
+=31-	=31-	=31-	=31-	=31-	=31-	=31-	=31-	=31-	=31-	=31-	=31-
+*	*	*	*	*	*	*	*ij	*ij	*	*	*
+!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
+1GG	-lei-	-lei-	.	.	.	1G	Chri-	Chri-	.	.	.
+*	*	*	*	*	*	*	*	*	*custos:F	*	*
+.	.	.	4C/	.	-lei-	.	.	.	2E/	.	-i-
+.	.	.	4BB-/	.	.	.	.	.	.	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!LO:PB:g=original	!	!
+1FF	-ſon	-son	1C	.	-son	1A	.	.	2F/	.	-son
+*	*	*	*	*	*	*	*	*	*	*	*Xij
+.	.	.	.	.	.	.	.	.	2c\	Chri-	Chri-
+=32	=32-	=32-	=32-	=32-	=32-	=32-	=32-	=32-	=32-	=32-	=32-
+2r	.	.	1r	.	.	2B-\	-ste	-ste	2d\	.	-ste
+2C/	.	[Chri-	.	.	.	2G/	e-	e-	2e\	-ſte	e-
+*	*	*	*	*Xij	*Xij	*	*	*	*	*	*
+2D/	.	-ste	1D	Chri-	Chri-	2F/	.	.	1f	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2BB-/	.	e-	.	.	.	2B-\	.	.	.	.	.
+=33	=33-	=33-	=33-	=33-	=33-	=33-	=33-	=33-	=33-	=33-	=33-
+2C/	.	-lei-	2E/	.	.	2G/	-le-	-le-	2e\	e-	.
+2AA/	.	-son]	2F/	-ſte	-ste	2A/	-i-	-i-	2c\	-lei-	.
+*	*ij	*ij	*	*	*	*	*	*	*	*	*
+2BB-/	Chri-	Chri-	2D/	e-	e-	2F/	-ſon	-son	2f\	-ſon.	.
+*	*	*	*	*	*	*	*Xij	*Xij	*	*	*
+2C/	-ste	-ste	2.G/	-lei-	-lei-	1c\	Chri-	Chri-	2e\	.	.
+=34-	=34-	=34-	=34-	=34-	=34-	=34-	=34-	=34-	=34-	=34-	=34-
+*	*	*	*	*	*	*	*	*	*lig	*	*
+1D	e-	e-	.	.	.	.	.	.	1d	.	-lei-
+.	.	.	4F/	.	.	.	.	.	.	.	.
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!	!	!
+.	.	.	1F	-zon	.	2B-\	-ſte	-ste	.	.	.
+!LO:MO:mod=1C	!	!	!	!	!	!	!	!	!	!	!
+1C,	-lei-	-lei-	.	.	.	2c\	e-	e-	1G	.	.
+.	.	.	2E/	.	.	2c\	-lei-	-lei-	.	.	.
+*	*	*	*	*	*	*	*	*	*Xlig	*	*
+=35-	=35-	=35-	=35-	=35-	=35-	=35-	=35-	=35-	=35-	=35-	=35-
+!	!	!	!LO:MO:mod=0F;	!	!	!	!	!	!	!	!
+0FF;l	-ſon	-son	0Fl	.	-son	0c;<l	-ſon	-son	0A;l	.	-son
+*	*Xij	*Xij	*	*	*	*	*	*	*	*	*
+=36||	=36||	=36||	=36||	=36||	=36||	=36||	=36||	=36||	=36||	=36||	=36||
+!LO:MO:mod=*null:null	!	!	!	!	!	!	!	!	!	!	!
+*M2/1	*	*	*	*	*	*	*	*	*	*	*
+*met(C|)	*	*	*	*	*	*	*	*	*	*	*
+!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!	!	!	!	!	!
+2C/	Ki-	Ky-	0r	.	.	1r	.	.	0r	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2C/	-ri-	-ri-	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!
+1D	-e	-e	.	.	.	2F/	Ki-	Ky-	.	.	.
+.	.	.	.	.	.	2F/	-ri-	-ri-	.	.	.
+=37-	=37-	=37-	=37-	=37-	=37-	=37-	=37-	=37-	=37-	=37-	=37-
+*custos:F	*	*	*	*	*	*	*	*	*	*	*
+*	*	*	*	*	*	*custos:A	*	*	*	*	*
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+1E	e-	e-	0r	.	.	1G	-e	-e	1r	.	.
+!LO:LB:g=original	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
+!LO:SIC:v:l:t=-lei-	!	!	!	!	!	!LO:MO:mod=1A	!	!	!LO:SIC:v:l:t=Ky-	!	!
+2.F\	-ley-	-le--	.	.	.	1A,	e-	e-	2c/	Ki-	Ky-
+.	.	.	.	.	.	.	.	.	2c/	-rie-	-ri-
+4E\	.	.	.	.	.	.	.	.	.	.	.
+=38-	=38-	=38-	=38-	=38-	=38-	=38-	=38-	=38-	=38-	=38-	=38-
+*	*	*	*	*	*	*lig	*	*	*	*	*
+4D/	.	.	0r	.	.	1B-	-lei-	-lei-	1d	-lei-	-e
+4C/	.	.	.	.	.	.	.	.	.	.	.
+2BB-/	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+1C	.	.	.	.	.	1G	.	.	1e	-zon	e-
+*	*	*	*	*	*	*Xlig	*	*	*	*	*
+=39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-
+*	*	*	*	*	*	*	*	*	*lig	*	*
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!	!	!
+1FF	-son	-son	2F/	ki-	Ky-	2A/	-ſon	-son	1f	.	-lei-
+.	.	.	2F/	-ri-	-ri-	1c	e-	e-	.	.	.
+1r	.	.	1G	-e	-e	.	.	.	1d	.	.
+.	.	.	.	.	.	2B-\	-lei-	.	.	.	.
+*	*	*	*	*	*	*	*	*	*Xlig	*	*
+=40-	=40-	=40-	=40-	=40-	=40-	=40-	=40-	=40-	=40-	=40-	=40-
+*	*ij	*ij	*	*	*	*	*	*	*	*ij	*
+!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!
+2.F\	Ki-	Ky-	1A	e-	e-	2c\	-ſon	-lei-	2c/	Ki-	-son
+*	*	*	*	*	*	*	*	*	*	*	*ij
+.	.	.	.	.	.	2A/	.	.	2c/	-rie	e-
+4F\	-ri-	-ri-	.	.	.	.	.	.	.	.	.
+*	*	*	*lig	*	*	*	*	*	*	*	*
+2BB-/	.	-e	1B-	-lei-	-lei-	2F/	.	-son	2d\	e-	-le-
+*	*	*	*	*	*	*	*ij	*ij	*	*	*
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2BB-/	-e	e-	.	.	.	2F/	e-	e-	1f\	-lei-	.
+=41	=41-	=41-	=41-	=41-	=41-	=41-	=41-	=41-	=41-	=41-	=41-
+1C	.	-lei-	1G	.	.	1c	-lei-	-lei-	.	.	.
+*	*	*	*	*	*	*	*	*	*custos:f	*	*
+.	.	.	.	.	.	.	.	.	2e\	.	-i-
+*	*	*	*Xlig	*	*	*	*	*	*	*	*
+!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+2FF/	.	-son	2F/	-zon	-son	2A\	-ſon	-son	1f	-zon	-son
+*	*	*	*	*	*	*	*Xij	*Xij	*	*Xij	*Xij
+!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!
+1F\	e-	Ky-	1A\	.	[Ky-	1c\	ki-	Ky-	.	.	.
+=42-	=42-	=42-	=42-	=42-	=42-	=42-	=42-	=42-	=42-	=42-	=42-
+.	.	.	.	.	.	.	.	.	2r	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!
+2E\	.	-ri-	2.G/	.	-ri-	2G/	-rie-	-ri-	2c/	Ki-	Ky-
+!	!	!	!	!	!	!LO:SIC:v:l:t=-lei-	!	!	!	!	!
+2D\	.	-e	.	.	.	2A/	-ley-	-e	2d\	-rie-	-rie
+.	.	.	4F/	.	-e	.	.	.	.	.	.
+2BB-/	.	e-	1F/	.	e-	2B-\	-ſon	e-	2d\	-lei-	e--
+=43-	=43-	=43-	=43-	=43-	=43-	=43-	=43-	=43-	=43-	=43-	=43-
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+!LO:SIC:v:l:t=-lei-	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+1C	-ley-	-lei-	.	.	.	1G	.	-lei-	2.c/	-zon	-le-
+.	.	.	2E/	.	-lei-	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	.	4c/	.	-i-
+*lig	*	*	*	*	*	*	*	*	*	*	*
+1FF	-son	-son	2F/	.	-son]	2F/	.	-son	2A/	.	-son
+*	*Xij	*Xij	*	*ij	*ij	*custos:G	*ij	*ij	*	*	*ij
+!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!
+.	.	.	1F/	Ki-	Ky-	1A\	ki-	Ky-	1c\	.	Ky-
+=44-	=44-	=44-	=44-	=44-	=44-	=44-	=44-	=44-	=44-	=44-	=44-
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+1C	.	.	.	.	.	.	.	.	.	.	.
+*	*	*	*	*	*	*	*	*	*	*ij	*
+*	*	*	*custos:D	*	*	*	*	*	*	*	*
+!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!
+.	.	.	2E/	-ri-	-ri-	2.G/	-ri-	-ri-	2G/	Ki-	-ri-
+*Xlig	*	*	*	*	*	*	*	*	*	*	*
+!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
+1r	.	.	2D/	-e	-e	.	.	.	2A/	-ri-	-e
+.	.	.	.	.	.	4F/	-e	.	.	.	.
+.	.	.	2BB-/	e-	e-	1F/	e-	-e	2B-/	-e-	e-
+=45-	=45-	=45-	=45-	=45-	=45-	=45-	=45-	=45-	=45-	=45-	=45-
+*	*	*	*lig	*	*	*	*	*	*	*	*
+2r	.	.	1C	-lei-	-lei-	.	.	.	1G	-lei-	-lei-
+!	!	!	!	!	!	!LO:SIC:v:l:t=-lei-	!	!	!	!	!
+1C	.	[Ky-	.	.	.	2E/	-ley-	e-	.	.	.
+!	!	!	!LO:MO:mod=1D	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+.	.	.	1D,	.	.	1F	-ſon	-lei-	2.F/	-zon	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2BB-/	.	-ri-	.	.	.	.	.	.	.	.	.
+.	.	.	.	.	.	.	.	.	4G/	.	.
+*	*	*	*Xlig	*	*	*	*	*	*	*	*
+=46	=46-	=46-	=46-	=46-	=46-	=46-	=46-	=46-	=46-	=46-	=46-
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!
+2AA/	.	-e	2C/	-zon	-son	2C/	ki-	-son	2A/	.	-son
+*	*	*	*	*Xij	*Xij	*	*	*	*	*	*
+!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!	!	!
+2GG/	.	Ky-	1G	Ki-	Ky-	2D/	.	Ky-	2B-/	.	Ky-
+2C/	.	-rie	.	.	.	2E/	.	-rie	2c/	.	-rie
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!
+2BB-/	.	e-	2D/	-ri-	-ri-	2F/	.	e-	2.d\	ki-	e-
+=47	=47-	=47-	=47-	=47-	=47-	=47-	=47-	=47-	=47-	=47-	=47-
+*	*	*	*	*	*	*lig	*	*	*	*	*
+2AA/	.	-le-	2E/	-e	-e	1A	-ri-	-lei--	.	.	.
+.	.	.	.	.	.	.	.	.	4c/	-ri-	.
+2FF/	.	-i-	2F/	e-	e-	.	.	.	1c	-e-	-le-
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!LO:MO:mod=1D	!	!	!	!	!	!	!	!
+1GG	.	-son]	1D,	-lei-	-lei-	1G	.	.	.	.	.
+.	.	.	.	.	.	.	.	.	2B-/	-lei-	-i-
+*	*	*	*	*	*	*Xlig	*	*	*	*	*
+=48	=48-	=48-	=48-	=48-	=48-	=48-	=48-	=48-	=48-	=48-	=48-
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+2r	.	.	1C	-zon	-son	2G/	-e	-son	2c/	-zon	-son
+*	*	*	*	*	*	*	*	*	*	*Xij	*Xij
+!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!
+1C	ki-	Ky-	.	.	.	2G/	e-	Ky-	1e	Ki-	Ky-
+!	!	!	!	!	!	!LO:SIC:v:l:t=-lei-	!	!	!	!	!
+.	.	.	2r	.	.	2A\	-ley-	-rie	.	.	.
+*	*	*	*	*ij	*ij	*	*	*	*	*	*
+*	*	*	*	*	*	*	*	*	*custos:e	*	*
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!	!	!	!
+2BB-/	-ri-	-ri-	2D/	Ki-	Ky-	2B-\	.	e-	2d\	-ri-	-ri-
+=49	=49-	=49-	=49-	=49-	=49-	=49-	=49-	=49-	=49-	=49-	=49-
+!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!
+2AA/	-e	-e	1C	-ri-	-ri-	2c\	.	-lei-	2e\	-e-	-e
+2FF/	e-	e-	.	.	.	2A\	.	.	2.f\	.	e-
+2BB-/	.	.	2D/	-e	-e	2B-\	-ſon	-son	.	.	.
+.	.	.	.	.	.	.	.	.	4d\	.	.
+*	*	*	*	*	*	*	*Xij	*Xij	*	*	*
+*	*	*	*	*	*	*custos:d	*	*	*	*	*
+!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!	!	!	!
+2C/	.	.	2E/	e-	e-	2G/	ky-	Ky-	2.g\	-lei-	-le-
+=50-	=50-	=50-	=50-	=50-	=50-	=50-	=50-	=50-	=50-	=50-	=50-
+*	*	*	*lig	*	*	*	*	*	*	*	*
+!	!	!	!	!	!	!LO:PB:g=original	!	!	!	!	!
+1D	-lei-	-le-	1F	-lei-	-lei-	2d\	-ri-	-rie	.	.	.
+.	.	.	.	.	.	.	.	.	4f\	.	.
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+.	.	.	.	.	.	2B-\	-e-	-e-	1f	-zon	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+1C	-ſon	-i-	1G	.	.	1c	-lei-	-lei-	.	.	.
+.	.	.	.	.	.	.	.	.	2e\	.	-i-
+*	*	*	*Xlig	*	*	*	*	*	*	*	*
+=51	=51-	=51-	=51-	=51-	=51-	=51-	=51-	=51-	=51-	=51-	=51-
+!	!	!	!LO:SIC:v:l:t=-son	!	!	!	!	!	!	!	!
+2FF/	.	-son	[0F	-zon	-son	2A\	-ſon	-son	2f\	.	-son
+*	*	*	*	*Xij	*Xij	*	*	*	*	*	*ij
+1BB-	.	[Ky-	.	.	.	1B-	.	[Ky-	1d	.	Ky-
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2AA/	.	.	.	.	.	2c\	.	.	2c/	.	.
+=52	=52-	=52-	=52-	=52-	=52-	=52-	=52-	=52-	=52-	=52-	=52-
+*	*	*	*	*	*	*	*	*	*	*ij	*ij
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=Ky-	!	!
+2.BB-/	.	-ri-	0F_	.	.	2B-\	.	-ri-	2.d\	ki-	-ri-
+.	.	.	.	.	.	2B-\	.	-e]	.	.	.
+4C/	.	.	.	.	.	.	.	.	4e\	-ri-	.
+4D/	.	-e]	.	.	.	1A	.	.	2f\	-e	-e
+4E/	.	.	.	.	.	.	.	.	.	.	.
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
+2F\	.	e-	.	.	.	.	.	.	2c/	e-	e-
+=53	=53-	=53-	=53-	=53-	=53-	=53-	=53-	=53-	=53-	=53-	=53-
+1BB-	.	-lei-	0F_	.	.	2F/	.	e-	1d	-lei-	-lei-
+.	.	.	.	.	.	1B-	e-	-lei-	.	.	.
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=-son	!	!
+[1FFl	.	-son	.	.	.	.	.	.	[1cl	-zon	-son
+.	.	.	.	.	.	4A/	-lei-	.	.	.	.
+.	.	.	.	.	.	4G/	.	.	.	.	.
+*	*	*	*	*	*	*	*	*	*	*Xij	*Xij
+=54-	=54-	=54-	=54-	=54-	=54-	=54-	=54-	=54-	=54-	=54-	=54-
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=0c];	!	!
+0FF];	.	.	0F];	.	.	0A;<l	-ſon	-son	0c]	.	.
+==	==	==	==	==	==	==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+!!LO:MO:ori
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!RDF**kern: l = terminal long
+!!LO:MO:end
+!!!filter-modern: sic -sq | autostem -r | tie -s | shed -e "s/-//B" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^custos:/Xcustos:/I" | humtr -p | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-03-09
 !!!ENC: Kamil Watkowski
 !!!END: 2022-03-14
-!!!RDF**kern: l = terminal long
-!!!RDF**kern: > = above
-!!!RDF**kern: < = below
+!!!ENC-modern: Marta Lawrence
+!!!END-modern: 2022-07-17

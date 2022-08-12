@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wn--mus-iii-67-811_wieniawski-henryk--legende-op-17.krn
 !!!cenid: 18xx:3813
 !!!COM: Wieniawski, Henryk
-!!!COM-rismid: pe137176
+!!!COM-rismID:
 !!!CDT:
 !!!CNT:
 !!!OTL: Légende op. 17
@@ -12,8 +12,10 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid:
-!!!URL-scan: https://polona.pl/item/legende-op-17,MzkyNzkyNTc/1/#info:metadata
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://polona.pl/item/legende-op-17,MzkyNzkyNTc/1/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc:
 !!!AIN: 1 piano
 !!!key: g
@@ -21,6 +23,9 @@
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano.	*I"Piano.	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*	*I'	*
+*	*mI'pf	*
 *Ipiano	*Ipiano	*
 *ICklav	*ICklav	*
 *clefF4	*clefG2	*
@@ -30,6 +35,8 @@
 =1	=1	=1
 *^	*	*
 !	!	!LO:TX:a:B:t=Andante.	!
+!	!	!LO:MO:mod=!LO&colon;TX&colon;t=H. WIENIAWSKI. Op. 17.	!
+!	!	!null	!
 (16D/LL	(2GG'\	(16B-/LL	p
 16E-/	.	16c/	.
 16D/	.	16B-/	.
@@ -58,7 +65,7 @@
 16C/JJ)	.	16A/JJ)	.
 =3	=3	=3	=3
 *	*	*^	*
-!	!	!LO:TX:a:B:t=H. WIENIAWSKI. Op. 17.	!	!LO:HP:a
+!	!	!LO:TX:a:B:t=H. WIENIAWSKI. Op. 17.:mod=	!	!LO:HP:a
 (16D/LL	4GG\	2d/	(16B-\LL	<
 16BB-/	.	.	16G\	.
 16D/	.	.	16B-\	.
@@ -295,8 +302,11 @@
 24BB-/	.	.	.
 24D/	.	.	.
 24F/	.	.	.
+!LO:MO:mod=*null:null	!	!	!
 *Xped	*	*	*
 24BB-/	.	.	.
+!LO:MO:null:mod=*Xped	!	!	!
+*	*	*	*
 24D/JJ)	.	.	.
 *ped	*	*	*
 (24FF/LL	4FF\	4een/ 4cc#X/ 4en/	[
@@ -308,6 +318,7 @@
 24C#/JJ)	.	.	.
 !!LO:LB:g=original
 =26	=26	=26	=26
+!LO:MO:mod=!null:null	!	!	!
 !LO:N:vis=2	!	!	!LO:DY:rj
 (24FF/LL	2FF\	4.ff\ 4.dd\ 4.f\	f
 24BB-/	.	.	.
@@ -1482,8 +1493,11 @@
 *Xped	*	*
 .	4r	.
 2r	2r	.
+!LO:MO:mod=*null:null	!	!
 *clefG2	*	*
 =145||	=145||	=145||
+!LO:MO:null:mod=*clefG2	!LO:MO:null:mod=*clefG2	!
+*	*	*
 *tremolo	*	*
 !	!LO:TX:a:B:t=Moderato maestoso.	!
 (32g/LLL 32d/	2dd\	pp
@@ -1815,6 +1829,7 @@
 .	.	12bb-\J)	.
 8g-X/L	4r	4bb-\	.
 8f/J	.	.	.
+!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=rit.	!
 !	!	!LO:TX:b:i:t=rit.	!
 !	!	!LO:TUP:a	!
 4en/)	4r	(12b-\L	.
@@ -1845,6 +1860,7 @@
 24C#/JJ)	.	.	.
 =173	=173	=173	=173
 *ped	*	*	*
+!LO:MO:mod=!null:null	!	!	!
 !LO:N:vis=2	!	!	!
 (24FF/LL	2FF\	4.ff\ 4.dd\ 4.f\	.
 24BB-/	.	.	.
@@ -2120,9 +2136,10 @@
 ==	==	==
 *-	*-	*-
 !!!system-decoration: {(s1,s2)}
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e “s/([()[]_])[><]/$1/g” | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m |
 !!!ENC: Solarz Mateusz
 !!!END: 2022-05-13
 !!!EED: Andrzej Borzym
 !!!EEV: 2022-05-22
-!!!RDF**kern: > = above
-!!!RDF**kern: < = below

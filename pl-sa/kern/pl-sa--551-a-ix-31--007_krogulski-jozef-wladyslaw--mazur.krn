@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-sa--551-a-ix-31--007_krogulski-jozef-wladyslaw--mazur.krn
 !!!cenid: 18xx:506
 !!!COM: Krogulski, Józef Władysław
-!!!COM-rismid: pe30001797
+!!!COM-rismID:
 !!!CDT: 1815/10/04-1842/01/09
 !!!CNT: Polish
 !!!OTL: Mazur
@@ -12,17 +12,21 @@
 !!!SMS-shelfwork: 007 W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001069468
-!!!URL-scan: http://bc.bdsandomierz.pl/dlibra/publication/1307/edition/1275/content
+!!!NIFC-rismSourceID: 1001069468
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://bc.bdsandomierz.pl/dlibra/publication/1307/edition/1275/content @EN{Scan on Cyfrowa Biblioteka Diecezjalna w Sandomierzu} @PL{Skany w portalu Cyfrowa Biblioteka Diecezjalna w Sandomierzu}
 !!!ONB-nifc: Str. 9 (s. 2) – str. 10 (s. 1)
 !!!AIN: 1 piano
-!!!key:
+!!!key: D
 **kern	**kern
 *part1	*part1
 *staff2	*staff1
-*Ipiano	*Iempty
-*I"Piano	*
-*I'P-no	*
+*Ipiano	*Ipiano
+*I"Piano	*I"Piano
+*I'pf	*pf
+*ICklav	*ICklav
+*mI"Pianoforte	*mI"Pianoforte
 *clefF4	*clefG2
 *k[f#c#]	*k[f#c#]
 *D:	*D:
@@ -40,7 +44,7 @@
 4D\	8D/L	24ff#\LL
 .	.	24gg#X\
 .	.	24ff#\JJ
-!	!	!LO:SIC:o:s:=:v:8\right
+!	!	!LO:TX:t=P:problem=8\right
 .	8e/ 8A/ 8G/	8ee\L
 8ryy	8e/J 8A/ 8G/	16cc#\L
 .	.	16a\JJ
@@ -53,6 +57,7 @@
 .	8d\ 8A\ 8F#\	8dd\L
 8ryy	8d\J 8A\ 8F#\	8ee\J
 =4	=4	=4
+!	!	!LO:MO:mod=*null:null
 *	*	*Xtuplet
 4D\	8D/L	24ff#\LL
 .	.	24aa\
@@ -63,10 +68,12 @@
 *Xrep	*	*
 !!LO:LB:g=original
 =5	=5	=5
-!	!	!LO:SIC:o:s:=:v:16\right
+!	!	!LO:TX:t=P:problem=16\right
 *rep	*	*
+!	!	!LO:SIC:s=(16aLL
 4D/	8D\L	((16a\LL
 .	.	32b\L
+!	!	!LO:SIC:s=32cc#JJJ)
 .	.	32cc#\JJJ))
 .	8d\ 8A\ 8F#\	8dd\L
 8ryy	8d\J 8A\ 8F#\	16ee\L
@@ -87,7 +94,7 @@
 .	8d\ 8A\ 8F#\	8ff#\L
 8ryy	8d\J 8A\ 8F#\	8dd\J
 =8	=8	=8
-!	!	!LO:SIC:o:s:=:v:16\right
+!	!	!LO:TX:t=P:problem=16\right
 4D\	8D/L	16ff#\LL
 .	.	32gg#X\L
 .	.	32ff#\JJJ
@@ -112,7 +119,7 @@
 .	16ee\JJ 16cc#\
 =11	=11
 *rep	*
-!LO:SIC:o:s:=:v: rep powinno dotyczyć dwóch taktów	!
+!LO:TX:t=P:problem= rep powinno dotyczyć dwóch taktów	!
 8E/ 8EE/	16dd\LL
 .	32ff#\L
 .	32dd\JJJ
@@ -147,14 +154,16 @@
 8E/ 8EE/	16dd\LL
 .	32ff#\L
 .	32dd\JJJ
+!LO:SIC:v:s=8d\ 8B\ 8G#\ 8E\L	!
 8d\ 8B\ 8Gn\ 8E\L	8b\L
+!LO:SIC:v:s=8d\ 8B\ 8G#\ 8E\L	!
 8d\ 8B\ 8Gn\ 8E\J	8g#X\J
 =16	=16
 8c#\ 8A\	16b\LL
 .	16a\JJ
 4AA/	4a\
 =17:|!|:	=17:|!|:
-!	!LO:SIC:o:s:=:v:16 right
+!	!LO:TX:t=P:problem=16 right
 8AA/	16a\LL
 .	16a\JJ
 8g\ 8e\ 8c#\ 8A\L	16cc#\LL
@@ -169,7 +178,7 @@
 .	16dd\JJ
 =19	=19
 *rep	*
-!LO:SIC:o:s:=:v: rep powinno dotyczyć dwóch taktów	!
+!LO:TX:t=P:problem= rep powinno dotyczyć dwóch taktów	!
 .	8qff#/
 8AA/	24gg\LL
 .	24aa\
@@ -217,7 +226,10 @@
 ==	==
 *-	*-
 !!!system-decoration: {(s1,s2)}
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
 !!!EED: Leszek Kubiak
 !!!EEV: 2020-12-14
 !!!ENC: Anastazja Marusiak
 !!!END: 2020-06-17
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-07-08

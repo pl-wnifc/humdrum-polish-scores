@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wn--mus-iii-153-388_wieniawski-henryk--romance-d-a-rubinstein.krn
 !!!cenid: 18xx:3795
 !!!COM: Wieniawski, Henryk
-!!!COM-rismid: pe137176
+!!!COM-rismID:
 !!!CDT:
 !!!CNT:
 !!!OTL: Romance d’A. Rubinstein
@@ -12,8 +12,10 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid:
-!!!URL-scan: https://polona.pl/item/romance-d-a-rubinstein,MTE3NDg5ODk2/0/#info:metadata
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://polona.pl/item/romance-d-a-rubinstein,MTE3NDg5ODk2/0/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc:
 !!!AIN: 1 piano 1 violn
 !!!key: E-
@@ -22,6 +24,7 @@
 *part2	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*	*
 *I"PIANO.	*I"PIANO.	*	*I"VIOLON.	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*	*
 *Ipiano	*Ipiano	*	*Ivioln	*	*
 *ICklav	*ICklav	*	*ICstr	*	*
 *IGacmp	*IGacmp	*	*IGsolo	*	*
@@ -60,7 +63,9 @@
 4E-\	(8fL 8A-/	.	8f`/	.	.
 .	8c-X/J)	.	(8f/J	.	.
 =4	=4	=4	=4	=4	=4
+!	!	!	!LO:SIC:s=8a-L)	!	!
 (8EE-\L	4r	.	(8a-/L)	2	.
+!	!	!	!LO:SIC:s=(8a-'^	!	!
 8BB-\J)	.	.	8a-'^/	.	.
 4D\	(8b-L 8A-/	.	(8.g'^/	.	.
 .	8B-/J)	.	.	.	.
@@ -72,12 +77,13 @@
 !!LO:LB:g=original
 =5	=5	=5	=5	=5	=5
 (8EE-\L	4r	.	8r	.	.
-!	!	!	!LO:TX:a:B:t=Sul D_:dur=7qe:ext=ud:problem:text with extention lines	!	!
+!	!	!	!LO:TX:a:t=Sul D_:dur=7qe:ext=ud:problem:text with extention lines	!	!
 8BB-\J)	.	.	8gu/L	.	.
 4E-\	(8gL 8G/	.	8f#X/	.	.
 .	8B-/J)	.	8g/J	.	.
 (8EE-\L	4r	.	(8g/L	.	<
 8BB-\J)	.	.	8a-/)	.	.
+!	!	!	!LO:SIC:s=8a-`	!	!
 4E-\	(8a-L 8A-/	.	8a-'/	.	.
 .	8c/J)	.	(8a-/J	.	.
 =6	=6	=6	=6	=6	=6
@@ -118,8 +124,8 @@
 !!LO:LB:g=original
 =9	=9	=9	=9	=9	=9
 (8GG/L	4r	.	8r	.	.
-!	!	!	!	!	!LO:DY:rj
-8BB-/J)	.	.	(8b-^^\L	3	p
+!	!	!	!LO:TX:t=P:problem:up bow symbol inverted:global:	!	!LO:DY:rj
+8BB-/J)	.	.	(8b-v\L	3	p
 4E-\	(8e-L 8G/	.	8cc\	.	.
 .	8B-/J)	.	8b-\J)	.	.
 (8FF/L	4r	.	(8.b-/L	.	.
@@ -139,6 +145,7 @@
 *	*	*	*	*	*below	*
 !	!	!	!	!	!	!LO:HP:a
 (8BBB-/L	4r	4ryy	.	(4.g/	2	>
+!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=ritard.	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=ritard.	!	!
 !LO:TX:a:t=ritard.	!	!	!	!LO:TX:a:t=ritard.	!	!
 8BB-/J)	.	.	.	.	.	.
 4BBB-/	4d/	(>8B-\L	.	.	.	.
@@ -162,10 +169,12 @@
 4r	.	.	.	.	.
 !!LO:PB:g=original
 =13	=13	=13	=13	=13	=13
+!	!	!	!	!	!LO:MO:mod=.
 2BB- 2BBB-\	8r	.	8r	.	mf
-!	!	!	!LO:TX:a:B:t=Sul D_:dur=7qe:ext=ud:problem:text with extention lines	!	!
-!	!	!	!LO:TX:b:B:t=stringendo.	!	!
-.	4f 4d 4F</	.	(8f^^/L	.	.
+!	!	!	!LO:TX:a:t=Sul D_:dur=7qe:ext=ud:problem:text with extention lines	!	!
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=strindendo	!	!
+!	!	!	!LO:TX:b:t=stringendo.	!	!LO:MO:null:mod=mf <
+.	4f 4d 4F</	.	(8fv/L	.	.
 *	*	*	*	*above	*
 .	.	.	8.b-/)	3	.
 .	8f 8d 8F</	.	.	.	.
@@ -173,22 +182,25 @@
 2C 2CC\	8r	.	(8.b-/L	.	.
 .	4f 4e- 4F</	.	.	.	.
 .	.	.	16an/Jk)	.	.
+!	!	!	!	!	!LO:MO:mod=.
 .	.	.	4a/	.	<
 .	8f 8e- 8F</	.	.	.	.
 =14	=14	=14	=14	=14	=14
 2e-\	8r	.	8r	.	.
-.	4an 4f/	.	(8cc^^\L	2	.
+.	4an 4f/	.	(8ccv\L	2	.
 .	.	.	8.ff\	4	.
 .	8a 8f/	.	.	.	.
+!	!	!	!	!	!LO:MO:null:mod=[
 .	.	.	16cc\Jk)	4	.
 2d\	8r	.	(8.cc\L	.	.
 .	4a-X 4f/	.	.	.	.
+!	!	!	!	!	!LO:MO:mod=.
 .	.	.	16bn\Jk)	.	[
 .	.	.	4b\	.	.
 .	8a- 8f/	.	.	.	.
 =15	=15	=15	=15	=15	=15
 4E-^\	8r	.	16r	.	.
-.	.	.	16bn^^\	.	.
+.	.	.	16bnv\	.	.
 !	!	!LO:HP:a	!	!	!
 .	8g 8c 8G/	<	(4cc\	.	.
 4BBn^/	8r	.	.	.	.
@@ -212,10 +224,12 @@
 8F\)	.	.	.	.	.	.
 *	*v	*v	*	*	*	*
 =17	=17	=17	=17	=17	=17
+!	!	!	!	!	!LO:MO:mod=.
 2BB- 2BBB-\	8r	.	8r	.	mf
-!	!	!	!LO:TX:a:B:t=Sul D_:dur=7qe:ext=ud:problem:text with extention lines	!	!
-.	4f 4d 4F</	.	(8f^^/L	.	.
+!	!	!	!LO:TX:a:t=Sul D_:dur=7qe:ext=ud:problem:text with extention lines	!	!LO:MO:null:mod=mf <
+.	4f 4d 4F</	.	(8fv/L	.	.
 .	.	.	8.b-/)	3	.
+!	!	!	!	!	!LO:MO:mod=.
 .	8f 8d 8F</	.	.	.	<
 .	.	.	16b-/Jk	.	.
 2C 2CC\	8r	.	(8.b-/L	.	.
@@ -226,7 +240,7 @@
 !!LO:LB:g=original
 =18	=18	=18	=18	=18	=18
 2e-^\	8r	.	8r	.	.
-.	4an 4f/	.	(8cc^^\L	2	.
+.	4an 4f/	.	(8ccv\L	2	.
 .	.	.	8ff\	4	.
 .	8a 8f/	.	8cc\J)	4	[
 2d^\	8r	.	(8.cc\L	.	.
@@ -236,8 +250,9 @@
 .	8a- 8f/	.	.	.	.
 =19	=19	=19	=19	=19	=19
 4E-^\	8r	.	16r	.	.
-!	!	!	!LO:TX:b:B:t=appassionato.	!	!
-.	.	.	16bn^^\	.	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=appassionato	!	!
+!	!	!	!LO:TX:b:t=appassionato.	!	!
+.	.	.	16bnv\	.	.
 .	8g 8c 8G/	.	(4cc\	.	.
 4BBn^/	8r	.	.	.	.
 .	8g 8f 8d 8G/	.	8dd\)	1	.
@@ -251,216 +266,200 @@
 .	(8f/L	.	8an/	.	.
 4An 4F\	8en/	.	8ddo</	3	.
 .	8e-X/J)	.	8cc/J)	4	]
+!	!LO:SIC:s=8dL	!	!	!	!
 8B-L 8BB-\	(8d/L	.	2b-/	.	.
+!	!LO:SIC:s=(8a-X 8e-	!	!	!	!
 (8c\	8a-X 8e-/	.	.	.	.
 8B-\	8g 8d/	.	.	.	.
 8A-X\J)	8f/J)	.	.	.	.
 =21	=21	=21	=21	=21	=21
+!LO:MO:mod=*null:null	!	!	!	!	!
 *Xtuplet	*	*	*	*	*
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12EE-\L	4r	.	8r	.	.
+!	!	!LO:MO:null:mod=p	!	!	!
+(12EE-\L	4r	.	8r	.	.
+!	!	!	!	!	!LO:MO:mod=.
 12BB-\	.	.	.	.	p
-!	!	!	!LO:TX:b:B:t=agitato	!	!
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=agitato	!	!
+!	!	!	!LO:TX:b:t=agitato	!	!LO:MO:null:mod=p
 .	.	.	8e-u/L	.	.
-12E-\J	.	p	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12E-\L	4B- 4G/	.	8d/	.	.
+!	!	!LO:MO:mod=.	!	!	!
+12E-\J)	.	p	.	.	.
+(12E-\L	4B- 4G/	.	8d/	.	.
 12BB-\	.	.	.	.	.
 .	.	.	8e-/J	.	.
-12EE-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12EE-\L	4r	.	(8en/L	.	.
+12EE-\J)	.	.	.	.	.
+(12EE-\L	4r	.	(8en/L	.	.
 12C-X\	.	.	.	.	.
 .	.	.	8f/)	.	.
-12E-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12E-\L	4c-X 4A-/	.	8f`/	.	.
+12E-\J)	.	.	.	.	.
+(12E-\L	4c-X 4A-/	.	8f`/	.	.
 12C-\	.	.	.	.	.
 .	.	.	(8f/J	.	.
-12EE-\J	.	.	.	.	.
+12EE-\J)	.	.	.	.	.
 =22	=22	=22	=22	=22	=22
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12EE-\L	4r	.	8a-/L)	.	.
+(12EE-\L	4r	.	8a-/L)	.	.
 12BB-\	.	.	.	.	.
 .	.	.	(8a-'^/	.	.
-12D\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12D\L	4b- 4A-/	.	(8.g'^/	.	.
+12D\J)	.	.	.	.	.
+(12D\L	4b- 4A-/	.	(8.g'^/	.	.
 12BB-\	.	.	.	.	.
-12EE-\J	.	.	.	.	.
+12EE-\J)	.	.	.	.	.
 .	.	.	16f#X/Jk))	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12EE-\L	4r	.	(4f#/	.	.
+(12EE-\L	4r	.	(4f#/	.	.
 12BB-\	.	.	.	.	.
-12E-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12E-\L	4e- 4G/	.	4g/)	.	.
+12E-\J)	.	.	.	.	.
+(12E-\L	4e- 4G/	.	4g/)	.	.
 12BB-\	.	.	.	.	.
-12EE-\J	.	.	.	.	.
+12EE-\J)	.	.	.	.	.
 !!LO:LB:g=original
 =23	=23	=23	=23	=23	=23
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12EE-\L	4r	.	8r	.	.
+(12EE-\L	4r	.	8r	.	.
 12BB-\	.	.	.	.	.
-!	!	!	!LO:TX:a:B:t=Sul D_:dur=7qe:ext=ud:problem:text with extention lines	!	!
+!	!	!	!LO:TX:a:t=Sul D_:dur=7qe:ext=ud:problem:text with extention lines	!	!
 .	.	.	8gu/L	.	<
-12E-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12E-\L	4e- 4B-/	<	8f#X/	.	.
+12E-\J)	.	.	.	.	.
+(12E-\L	4e- 4B-/	<	8f#X/	.	.
 12BB-\	.	.	.	.	.
 .	.	.	8g/J	.	.
-12EE-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12EE-\L	4r	.	(8g/L	.	.
+12EE-\J)	.	.	.	.	.
+(12EE-\L	4r	.	(8g/L	.	.
 12C\	.	.	.	.	.
 .	.	.	8a-/)	.	.
-12E-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12E-\L	4e- 4c/	.	8a-`/	.	.
+12E-\J)	.	.	.	.	.
+(12E-\L	4e- 4c/	.	8a-`/	.	.
 12C\	.	.	.	.	.
 .	.	.	(8a-/J	.	.
-12EE-\J	.	.	.	.	.
+12EE-\J)	.	.	.	.	.
 =24	=24	=24	=24	=24	=24
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12EE-\L	4r	.	8cc/L)	2	.
+(12EE-\L	4r	.	8cc/L)	2	.
 12D\	.	.	.	.	.
 .	.	.	(8cc'^/	.	.
-12A-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12A-\L	4f 4B-/	.	(8.b-'^/	.	.
+12A-\J)	.	.	.	.	.
+(12A-\L	4f 4B-/	.	(8.b-'^/	.	.
 12D\	.	.	.	.	.
-12EE-\J	.	.	.	.	.
+12EE-\J)	.	.	.	.	.
 .	.	.	16an/Jk))	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12EE-\L	4r	.	(4cc/	3	.
+(12EE-\L	4r	.	(4cc/	3	.
 12E-\	.	.	.	.	.
-12G\J	.	.	.	.	.
+12G\J)	.	.	.	.	.
+!	!	!LO:MO:mod=.	!	!	!
 12r	4g 4e-/	[	4b-/)	.	[
 (12G\L	.	.	.	.	.
+!	!	!LO:MO:null:mod=[[	!	!	!
 12E-\J)	.	.	.	.	.
 =25	=25	=25	=25	=25	=25
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12GG\L	4r	.	8r	.	.
+!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!
+!	!	!LO:MO:null:mod=ff	!	!	!
+(12GG\L	4r	.	8r	.	.
+!	!	!	!	!	!LO:MO:mod=.
 12BB-\	.	.	.	.	ff
+!	!	!	!	!	!LO:MO:null:mod=ff
 .	.	.	8ee-u\L	.	.
-12E-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12B-\L	4b- 4e-/	.	8ee-\	.	.
+12E-\J)	.	.	.	.	.
+(12B-\L	4b- 4e-/	.	8ee-\	.	.
 12E-\	.	.	.	.	.
 .	.	.	8ee-\J	.	.
-12BB-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12FF\L	8r	.	(8.ee-\L	.	.
+12BB-\J)	.	.	.	.	.
+(12FF\L	8r	.	(8.ee-\L	.	.
 12BB-\	.	.	.	.	.
 .	(4a- 4f/	.	.	.	.
-12D\J	.	.	.	.	.
+12D\J)	.	.	.	.	.
 .	.	.	16dd\Jk)	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12B-\L	.	.	4dd\	.	.
+(12B-\L	.	.	4dd\	.	.
 12D\	.	.	.	.	.
 .	8f 8d/)	.	.	.	.
-12BB-\J	.	.	.	.	.
+12BB-\J)	.	.	.	.	.
 =26	=26	=26	=26	=26	=26
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12GG\L	4r	.	8r	.	.
+(12GG\L	4r	.	8r	.	.
 12D\	.	.	.	.	.
-.	.	.	(8ee-^^\L	.	.
-12E-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
+.	.	.	(8ee-v\L	.	.
+12E-\J)	.	.	.	.	.
 .	.	.	8qgg/	.	.
-12B-\L	4b- 4e-/	.	8.ff\	.	.
+(12B-\L	4b- 4e-/	.	8.ff\	.	.
 12E-\	.	.	.	.	.
-12BB-\J	.	.	.	.	.
+12BB-\J)	.	.	.	.	.
 .	.	.	16ee-\Jk)	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12FF#X\L	8r	.	(8.ee-\L	.	.
+(12FF#X\L	8r	.	(8.ee-\L	.	.
 12AAn\	.	.	.	.	.
 .	(4an 4f#X/	.	.	.	.
-12D\J	.	.	.	.	.
+12D\J)	.	.	.	.	.
 .	.	.	16dd\Jk)	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12An\L	.	.	4dd\	.	.
+(12An\L	.	.	4dd\	.	.
 12D\	.	.	.	.	.
 .	8f# 8d/)	.	.	.	.
-12AA\J	.	.	.	.	.
+12AA\J)	.	.	.	.	.
 !!LO:LB:g=original
 =27	=27	=27	=27	=27	=27
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12FFn\L	8r	.	8r	.	.
+(12FFn\L	8r	.	8r	.	.
 12AA-X\	.	.	.	.	.
 .	4.a-X 4.d/	.	(8dd'^u\L	.	>
-12D\J	.	.	.	.	>
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12A-X\L	.	.	8cc'^\	.	.
+!	!	!	!	!	!LO:MO:mod=.
+12D\J)	.	.	.	.	>
+(12A-X\L	.	.	8cc'^\	.	.
 12D\	.	.	.	.	.
 .	.	.	8bn'^\J)	.	.
-12AA-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12EEn\L	8r	.	(8.dd\L	.	.
+12AA-\J)	.	.	.	.	.
+(12EEn\L	8r	.	(8.dd\L	.	.
 12GG\	.	.	.	.	.
 .	4g 4en/	.	.	.	.
-12C\J	.	.	.	.	.
+12C\J)	.	.	.	.	.
 .	.	.	16cc\Jk)	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12G\L	.	.	4cc\	.	]]
+!	!	!	!	!	!LO:MO:mod=]
+(12G\L	.	.	4cc\	.	]]
 12C\	.	.	.	.	.
 .	8g 8e/	.	.	.	.
-12GG\J	.	.	.	.	.
+12GG\J)	.	.	.	.	.
 =28	=28	=28	=28	=28	=28
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12EE-X\L	8r	.	8r	.	.
+(12EE-X\L	8r	.	8r	.	.
+!	!	!	!	!	!LO:MO:mod=.
 12GG-X\	.	.	.	.	p
+!	!	!	!	!	!LO:MO:null:mod=p
 .	4.g-X 4.c/	.	8cc^u\L	.	.
-12C\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12G-X\L	.	.	8b-^\	.	.
+12C\J)	.	.	.	.	.
+(12G-X\L	.	.	8b-^\	.	.
 12C\	.	.	.	.	.
 .	.	.	8an^\J	.	.
-12GG-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12DD\L	8r	.	(8.cc\L	.	.
+12GG-\J)	.	.	.	.	.
+(12DD\L	8r	.	(8.cc\L	.	.
 12FF\	.	.	.	.	.
 .	4f 4d/	.	.	.	.
-12BB-\J	.	.	.	.	.
+12BB-\J)	.	.	.	.	.
 .	.	.	16b-\Jk)	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12F\L	.	.	[4b-\	.	.
+(12F\L	.	.	[4b-\	.	.
 12BB-\	.	.	.	.	.
 .	8f 8d/	.	.	.	.
-12FF\J	.	.	.	.	.
+12FF\J)	.	.	.	.	.
 =29	=29	=29	=29	=29	=29
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12DD\L	8r	.	4b-\]	.	.
+(12DD\L	8r	.	4b-\]	.	.
 12FF\	.	.	.	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=animato	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=animato	!	!
 !	!LO:TX:b:t=animato.	!	!LO:TX:a:t=animato.	!	!
 .	(8b-/	.	.	.	.
-12BB-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12F\L	8dL 8B-/	.	2b-\	.	.
+12BB-\J)	.	.	.	.	.
+(12F\L	8dL 8B-/	.	2b-\	.	.
 12BB-\	.	.	.	.	.
 .	8b-/J)	.	.	.	.
-12FF\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12EE-\L	8r	.	.	.	.
+12FF\J)	.	.	.	.	.
+(12EE-\L	8r	.	.	.	.
 12GG-X\	.	.	.	.	.
 .	(8b-/	.	.	.	.
-12BB-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!	!	!	!	!
-12G-X\L	8e-L 8B-/	.	[4b-\	.	.
+12BB-\J)	.	.	.	.	.
+(12G-X\L	8e-L 8B-/	.	[4b-\	.	.
 12BB-\	.	.	.	.	.
 .	8b-/J)	.	.	.	.
-12GG-\J	.	.	.	.	.
+12GG-\J)	.	.	.	.	.
 =30	=30	=30	=30	=30	=30
-!LO:TUP:problem:klamra łukowa	!LO:TX:b:t=cres_cen_do.:problem:dynamics with extention lines	!LO:HP:t=cres_cen_do.	!	!	!
-12EEn\L	8r	<	4b-\]	.	.
+!	!LO:TX:b:t=cres_cen_do.:problem:dynamics with extention lines	!LO:HP:t=cres_cen_do.	!	!	!
+(12EEn\L	8r	<	4b-\]	.	.
 12GGn\	.	.	.	.	.
 .	(8b-/	.	.	.	.
-12BB-\J	.	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TX:a:t=ritard.	!	!LO:TX:a:t=ritard.	!	!
-12Gn\L	8enL 8B-/	.	2b-\	.	.
+12BB-\J)	.	.	.	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=ritard.	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=ritard.	!	!
+!	!LO:TX:a:t=ritard.	!	!LO:TX:a:t=ritard.	!	!
+(12Gn\L	8enL 8B-/	.	2b-\	.	.
 12BB-\	.	.	.	.	.
 .	8b-/J)	.	.	.	.
-12GG\J	.	.	.	.	.
+12GG\J)	.	.	.	.	.
 (16FF\LL	8b-L 8a- 8f 8B-/	.	.	.	.
 16AA-\	.	.	.	.	.
 16D\	(16d/L	.	.	.	.
@@ -471,11 +470,13 @@
 16F\JJ)	16f/JJ)	[[	.	.	.
 !!LO:PB:g=original
 =31	=31	=31	=31	=31	=31
-!	!	!	!LO:TX:a:B:t=Sul G_:dur=24q:ext=ud:problem:text with extention lines	!	!
+!	!	!	!LO:TX:a:t=Sul G_:dur=24q:ext=ud:problem:text with extention lines	!	!
 !	!LO:TX:a:B:t=a tempo.	!LO:DY:rj	!LO:TX:a:B:t=a tempo.	!	!
+!	!	!	!LO:MO:mod=!null:null	!	!
 !LO:TX:t=P:problem:mixed beam	!	!	!LO:TX:b:t=grandioso.	!	!LO:DY:rj
 16EE-LL 16EEE-/	16r	ff	(4.g/	.	ff
-!	!LO:TX:b:t=grandioso.	!	!	!	!
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=grandioso	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=[grandioso]	!	!
+!	!LO:TX:b:t=grandioso.	!	!null	!	!
 (16G\	(16g\LL	.	.	.	.
 16B-\	16b-\	.	.	.	.
 16e-\JJ)	16ee-\JJ)	.	.	.	.
@@ -486,12 +487,14 @@
 4G 4E- 4BB- 4GG^/	4b- 4e- 4B-^/	.	8B-^/	.	.
 .	.	.	8G^/J)	.	.
 =32	=32	=32	=32	=32	=32
-!	!	!	!LO:TUP:problem:klamra łukowa	!	!
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=con fuoco	!	!
 !	!	!	!LO:TX:a:t=con fuoco.	!	!
+!	!	!	!LO:SIC:s=(12G^L	!	!
 8FL 8FF\	(8.cc-XL 8.e- 8.c-X/	.	12G^/L	.	.
 .	.	.	12.A-^/	.	.
 8A- 8F\	.	.	.	.	.
 .	16f/Jk)	.	.	.	.
+!	!	!	!LO:SIC:s=24c-^Jk)	!	!
 .	.	.	24c-X^/Jk	.	.
 8c-X 8A-\	4f 4e-/	.	(2c-^/	.	.
 8A-J 8F\	.	.	.	.	.
@@ -510,7 +513,6 @@
 8B-\	8b-\	.	8B-^/	.	.
 8G\J	8g\J	.	8G^/J)	.	.
 =34	=34	=34	=34	=34	=34
-!	!	!	!LO:TUP:problem:klamra łukowa	!	!
 8FL 8FF\	(8.cc-XL 8.e- 8.c-X/	.	(12G^/L	.	.
 .	.	.	12.A-^/	.	.
 8A- 8F\	.	.	.	.	.
@@ -525,6 +527,7 @@
 8A-J 8F\	.	.	.	.	.
 =35	=35	=35	=35	=35	=35
 4EE- 4EEE-\	4E-</	.	16r	.	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=animato	!	!
 !	!	!	!LO:TX:a:t=animato.	!	!
 .	.	.	(16B-/	1	.
 .	.	.	4e-^/	.	.
@@ -559,12 +562,15 @@
 32F/	.	.	.	.	.
 32FF/	.	.	.	.	.
 32F/	.	.	.	.	.
-!	!	!	!LO:TX:a:B:t=Sul A_:dur=5e:ext=ud:problem:text with extention lines	!	!
+!	!	!	!LO:TX:a:t=Sul A_:dur=5e:ext=ud:problem:text with extention lines	!	!
 32FF/	8e-/)	.	.	.	.
+!	!	!	!	!	!LO:MO:mod=.
 32F/	.	.	.	.	p
-!	!	!LO:DY:b=2	!	!	!
+!	!	!LO:DY:b=2	!	!	!LO:MO:mod=p >
+!	!	!LO:MO:mod=.	!	!	!
 32FF/	.	p	16ee-u\	.	>
 32F/JJJ	.	.	.	.	.
+!	!	!LO:MO:mod=p >	!	!	!
 32FF/LLL	4r	>	(4.aa-\	.	.
 32F/	.	.	.	.	.
 32FF/	.	.	.	.	.
@@ -595,10 +601,13 @@
 32BB-/	.	.	.	.	.	.
 32BBB-/	.	.	.	.	.	.
 32BB-/	.	.	.	.	.	.
-!	!LO:TX:a:t=ritard.	!	!	!LO:TX:a:B:t=Sul A_:dur=7e:ext=ud:problem:text with extention lines	!	!
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=ritard.	!	!	!	!	!
+!	!LO:TX:a:t=ritard.	!	!	!LO:TX:a:t=Sul A_:dur=7e:ext=ud:problem:text with extention lines	!	!
 32BBB-/	8e-/)	.	.	.	.	.
+!	!	!	!	!	!	!LO:MO:mod=.
 32BB-/	.	.	.	.	.	p
-!	!	!	!LO:DY:b=2	!	!	!
+!	!	!	!LO:DY:b=2	!	!	!LO:MO:null:mod=p >
+!	!	!LO:MO:null:mod=]]	!LO:MO:mod=.	!	!	!
 32BBB-/	.	.	p	16ddu\	.	.
 32BB-/JJJ	.	.	.	.	.	.
 32BBB-/LLL	4r	.	p	(4.ccc\	4	.
@@ -614,8 +623,10 @@
 32BBB-/	.	.	.	.	.	.
 32BB-/	.	.	.	.	.	.
 32BBB-/	.	.	.	8dd\)	1	.
+!	!	!	!	!	!	!LO:MO:null:mod=]
 32BB-/	.	.	.	.	.	.
 32BBB-/	.	.	.	.	.	.
+!	!	!LO:MO:mod=.	!	!	!	!
 32BB-/JJJ	.	]	.	.	.	.
 *Xtremolo	*	*	*	*	*	*
 *	*	*v	*v	*	*	*
@@ -641,11 +652,13 @@
 =41	=41	=41	=41	=41	=41
 *	*	*	*^	*	*
 *tremolo	*	*	*	*	*	*
-!	!	!	!LO:TX:a:t=Beaucoup de ton.	!	!	!
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=Beaucoup de ton	!	!	!
+!	!	!LO:MO:null:mod=p	!LO:TX:a:t=Beaucoup de ton.	!	!	!
 32EE-/LLL	4r	.	8r	(>8G\	.	.
 32BB-/	.	.	.	.	.	.
 32EE-/	.	.	.	.	.	.
 32BB-/	.	.	.	.	.	.
+!	!	!LO:MO:mod=.	!	!	!	!
 32EE-/	.	p	8e-u/L)	8r	.	.
 32BB-/	.	.	.	.	.	.
 32EE-/	.	.	.	.	.	.
@@ -745,7 +758,7 @@
 32BB-/JJJ	.	.	.	.	.	.	.
 *	*	*	*v	*v	*	*	*
 =44	=44	=44	=44	=44	=44	=44
-!	!	!	!LO:TX:a:B:t=Sul G e D_:dur=4q:ext=ud:problem:text with extention lines	!	!	!
+!	!	!	!LO:TX:a:t=Sul G e D_:dur=4q:ext=ud:problem:text with extention lines	!	!	!
 32EE-/LLL	(2d/	.	8ccL 8a-/	4	2	.
 32BB-/	.	.	.	.	.	.
 32EE-/	.	.	.	.	.	.
@@ -866,6 +879,7 @@
 32BB-/	.	.	.	.	.	.
 32BBB-/	.	.	.	.	.	.
 32BB-/JJJ	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=ten.	!	!	!
 !	!	!	!LO:TX:b:t=ten.	!	!	!
 32BBB-/LLL	2cc 2f 2c/	.	(8.b-/L	4f\	.	.
 32BB-/	.	.	.	.	.	.
@@ -875,6 +889,7 @@
 32BB-/	.	.	.	.	.	.
 32BBB-/	.	.	16a-/K)	.	.	.
 32BB-/	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=ten.	!	!	!
 !	!	!	!LO:TX:b:t=ten.	!	!	!
 32BBB-/	.	.	(8.a-/	4A-\	.	.
 32BB-/	.	.	.	.	.	.
@@ -886,6 +901,7 @@
 32BB-/JJJ	.	.	.	.	.	.
 =48	=48	=48	=48	=48	=48	=48
 *	*^	*	*	*	*	*
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=ten.	!	!	!
 !	!	!	!	!LO:TX:b:t=ten.	!	!	!
 32BBB-/LLL	2ee- 2cc 2e-/	2ryy	.	(8.g/L	4An\	.	.
 32BB-/	.	.	.	.	.	.	.
@@ -895,6 +911,7 @@
 32BB-/	.	.	.	.	.	.	.
 32BBB-/	.	.	.	16f/K)	.	.	.
 32BB-/	.	.	.	.	.	.	.
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=ten.	!	!	!
 !	!	!	!	!LO:TX:b:t=ten.	!	!	!
 32BBB-/	.	.	.	(8.f/	4c\	.	.
 32BB-/	.	.	.	.	.	.	.
@@ -904,6 +921,7 @@
 32BB-/	.	.	.	.	.	.	.
 32BBB-/	.	.	.	16e-/Jk)	.	.	.
 32BB-/JJJ	.	.	.	.	.	.	.
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=ritard.	!	!	!
 !	!	!	!	!LO:TX:a:t=ritard.	!	!	!
 32BBB-/LLL	(<4ee-/	2bb- 2b-\	.	(4.g/	(8B-\L	.	.
 32BB-/	.	.	.	.	.	.	.
@@ -934,7 +952,8 @@
 .	.	.	.	8e-J 8G/	.	.	.
 4r	4r	.	.	8gL 8B-/	.	.	.
 .	.	.	.	8b- 8g/)	.	.	.
-!	!	!LO:DY:a:rj	!LO:DY:a=2:rj	!	!	!	!
+!LO:SIC:s=4B-	!	!LO:DY:a:rj	!LO:DY:a=2:rj	!	!	!	!
+!	!	!LO:MO:mod=.	!	!	!	!	!
 4B->\	4bb- 4dd\	pp	pp	(8gg 8b-/	.	.	.
 .	.	.	.	8ffJ 8a-/)	.	.	.
 *	*	*v	*v	*	*	*	*
@@ -948,8 +967,10 @@
 4r	4r	.	4r	.	.
 !!LO:PB:g=original
 =51	=51	=51	=51	=51	=51
+!	!	!	!	!	!LO:MO:mod=.
 2BB- 2BBB-\	8r	.	8r	.	mf
-.	4f 4d 4F</	.	(8f^^/L	.	<
+!	!	!	!	!	!LO:MO:mod=mf <
+.	4f 4d 4F</	.	(8fv/L	.	<
 .	.	.	8.b-/)	.	.
 .	8f 8d 8F</	.	.	.	.
 .	.	.	16b-/Jk	.	.
@@ -961,9 +982,10 @@
 =52	=52	=52	=52	=52	=52
 2e-^\	8r	.	8r	.	.
 *	*	*	*	*above	*
-!	!	!	!LO:TX:a:B:t=Sul D_:dur=7e:ext=ud:problem:text with extention lines	!	!
-.	4an 4f/	.	(8cc^^\L	2	[
+!	!	!	!LO:TX:a:t=Sul D_:dur=7e:ext=ud:problem:text with extention lines	!	!LO:MO:mod=.
+.	4an 4f/	.	(8ccv\L	2	[
 .	.	.	8ff\	4	.
+!	!	!	!	!	!LO:MO:null:mod=[
 .	8a 8f/	.	8cc\J)	4	.
 2d^\	8r	.	(8.cc\L	.	.
 .	4a-X 4f/	.	.	.	.
@@ -972,8 +994,9 @@
 .	8a- 8f/	.	.	.	.
 =53	=53	=53	=53	=53	=53
 4E-^\	8r	.	16r	.	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=appassionato	!	!
 !	!	!	!LO:TX:b:t=appassionato.	!	!
-!	!	!	!LO:TX:a:B:t=Sul A	!	!
+!	!	!	!LO:TX:a:t=Sul A	!	!
 .	.	.	16bn\	.	.
 .	8g 8c 8G/	.	(4cc\	.	.
 4BBn^/	8r	.	.	.	.
@@ -1063,7 +1086,7 @@
 =57	=57	=57	=57	=57	=57
 32E-\LLL	32g\LLL	.	16r	.	.
 32G\	32gg\	.	.	.	.
-32E-\	32g\	.	16bn 16d^^/	.	.
+32E-\	32g\	.	16bn 16dv/	.	.
 32G\	32gg\	.	.	.	.
 32E-\	32g\	.	(4cc 4e-/	.	.
 32G\	32gg\	.	.	.	.
@@ -1123,6 +1146,7 @@
 32D\	32b-/	.	.	.	.	.
 32BB-\	32a-/	.	.	.	.	.
 32D\	32b-/	.	.	.	.	.
+!	!	!	!	!LO:SIC:s=8fJ)	!	!
 32BB-\	32a-/	.	.	8f\J	.	.
 32D\	32b-/	.	.	.	.	.
 32BB-\	32a-/	.	.	.	.	.
@@ -1131,200 +1155,174 @@
 *	*	*	*v	*v	*	*
 !!LO:LB:g=original
 =59	=59	=59	=59	=59	=59
+!	!LO:MO:mod=*null:null	!	!	!	!
 *	*Xtuplet	*	*	*	*
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!LO:DY:rj	!	!	!
-12E-\L	12g/L	pp	8r)	.	.
+!	!	!LO:DY:rj	!LO:SIC:s=8r	!	!
+(12E-\L	(12g/L	pp	8r)	.	.
+!	!	!	!	!	!LO:MO:mod=.
 12G\	12b-/	.	.	.	p
-!	!	!	!LO:TX:a:B:t=Sul A_:dur=7qe:ext=ud:problem:text with extention lines	!	!
+!	!	!	!LO:TX:a:t=Sul A_:dur=7qe:ext=ud:problem:text with extention lines	!	!LO:MO:null:mod=p
 .	.	.	8ee-u\L	.	.
-12B-\J	12gg/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12B-\L	12gg/L	.	8dd\	.	.
+12B-\J)	12gg/J)	.	.	.	.
+(12B-\L	(12gg/L	.	8dd\	.	.
 12G\	12b-/	.	.	.	.
 .	.	.	8ee-\J	.	.
-12E-\J	12g/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12E-\L	12a-/L	.	(8een\L	.	.
+12E-\J)	12g/J)	.	.	.	.
+(12E-\L	(12a-/L	.	(8een\L	.	.
 12A-\	12cc-X/	.	.	.	.
 .	.	.	8ff\)	.	.
-12c-X\J	12aa-/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12c-\L	12aa-/L	.	8ff\	.	.
+12c-X\J)	12aa-/J)	.	.	.	.
+(12c-\L	(12aa-/L	.	8ff\	.	.
 12A-\	12cc-/	.	.	.	.
 .	.	.	(8ff\J	.	.
-12E-\J	12a-/J	.	.	.	.
+12E-\J)	12a-/J)	.	.	.	.
 =60	=60	=60	=60	=60	=60
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12E-\L	12a-/L	.	8aa-\L)	.	.
+(12E-\L	(12a-/L	.	8aa-\L)	.	.
 12A-\	12dd 12b-/	.	.	.	.
 .	.	.	(8aa-^\	.	.
-12B-\J	12aa-/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12B-\L	12aa-/L	.	(8.gg\	.	.
+12B-\J)	12aa-/J)	.	.	.	.
+(12B-\L	(12aa-/L	.	(8.gg\	.	.
 12A-\	12dd 12b-/	.	.	.	.
-12E-\J	12a-/J	.	.	.	.
+12E-\J)	12a-/J)	.	.	.	.
 .	.	.	16ff#X\Jk))	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12E-\L	12g/L	.	(4ff#\	.	.
+(12E-\L	(12g/L	.	(4ff#\	.	.
 12G\	12b-/	.	.	.	.
-12B-\J	12ee-/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12B-\L	12ee-/L	.	4gg\)	.	.
+12B-\J)	12ee-/J)	.	.	.	.
+(12B-\L	(12ee-/L	.	4gg\)	.	.
 12G\	12b-/	.	.	.	.
-12E-\J	12g/J	.	.	.	.
+12E-\J)	12g/J)	.	.	.	.
 =61	=61	=61	=61	=61	=61
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12E-\L	12g/L	.	8r	.	.
+!	!	!LO:MO:null:mod=<	!	!	!
+(12E-\L	(12g/L	.	8r	.	.
+!	!	!LO:MO:mod=.	!	!	!
 12G\	12b-/	<	.	.	.
 .	.	.	8ggu\L	.	<
-12B-\J	12ee-/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12B-\L	12ee-/L	.	8ff#X\	.	.
+12B-\J)	12ee-/J)	.	.	.	.
+(12B-\L	(12ee-/L	.	8ff#X\	.	.
 12G\	12b-/	.	.	.	.
 .	.	.	8gg\J	.	.
-12E-\J	12g/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12E-\L	12a-/L	.	(8gg\L	.	.
+12E-\J)	12g/J)	.	.	.	.
+(12E-\L	(12a-/L	.	(8gg\L	.	.
 12A-\	12cc/	.	.	.	.
 .	.	.	8aa-\)	.	.
-12c\J	12ee-/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12c\L	12ee-/L	.	8aa-\	.	.
+12c\J)	12ee-/J)	.	.	.	.
+(12c\L	(12ee-/L	.	8aa-\	.	.
 12A-\	12cc/	.	.	.	.
 .	.	.	(8aa-\J	.	.
-12E-\J	12a-/J	.	.	.	.
+12E-\J)	12a-/J)	.	.	.	.
 =62	=62	=62	=62	=62	=62
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12E-\L	12a-/L	.	8ccc\L)	.	.
+(12E-\L	(12a-/L	.	8ccc\L)	.	.
 12A-\	12dd/	.	.	.	.
 .	.	.	(8ccc^\	.	.
-12d\J	12ff/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12d\L	12ff/L	.	(8.bb-\	.	.
+12d\J)	12ff/J)	.	.	.	.
+(12d\L	(12ff/L	.	(8.bb-\	.	.
 12A-\	12dd/	.	.	.	.
-12E-\J	12a-/J	.	.	.	.
+12E-\J)	12a-/J)	.	.	.	.
 .	.	.	16aan\Jk))	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12E-\L	12g/L	[	(4ccc\	.	[
+(12E-\L	(12g/L	[	(4ccc\	.	[
 12G\	12ee-/	.	.	.	.
-12e-\J	12gg/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12e-\L	12gg/L	.	4bb-\)	.	.
+12e-\J)	12gg/J)	.	.	.	.
+(12e-\L	(12gg/L	.	4bb-\)	.	.
 12G\	12ee-/	.	.	.	.
-12E-\J	12g/J	.	.	.	.
+12E-\J)	12g/J)	.	.	.	.
 !!LO:LB:g=original
 =63	=63	=63	=63	=63	=63
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12E-\L	12b-\L	<	8r	.	.
+(12E-\L	(12b-\L	<	8r	.	.
+!	!	!	!	!	!LO:MO:mod=.
 12B-\	12ee-\	.	.	.	<
+!	!	!	!	!	!LO:MO:null:mod=<
 .	.	.	8eee-u\L	.	.
-12g\J	12bb-\J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12g\L	12bb-\L	.	8eee-\	.	.
+12g\J)	12bb-\J)	.	.	.	.
+(12g\L	(12bb-\L	.	8eee-\	.	.
 12B-\	12ee-\	.	.	.	.
 .	.	.	8eee-\J	.	.
-12G\J	12b-\J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12F\L	12a-\L	.	(8.eee-\L	.	.
+12G\J)	12b-\J)	.	.	.	.
+(12F\L	(12a-\L	.	(8.eee-\L	.	.
 12B-\	12dd\	.	.	.	.
-12f\J	12aa-\J	.	.	.	.
+12f\J)	12aa-\J)	.	.	.	.
 .	.	.	16ddd\Jk)	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12f\L	12aa-\L	.	4ddd\	.	.
+(12f\L	(12aa-\L	.	4ddd\	.	.
 12B-\	12dd\	.	.	.	.
-12A-\J	12b-\J	.	.	.	.
+12A-\J)	12b-\J)	.	.	.	.
 =64	=64	=64	=64	=64	=64
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12G\L	12b-\L	.	8r	.	.
+(12G\L	(12b-\L	.	8r	.	.
 12B-\	12ee-\	.	.	.	.
-.	.	.	(8eee-^^\L	.	.
-12g\J	12bb-\J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
+.	.	.	(8eee-v\L	.	.
+12g\J)	12bb-\J)	.	.	.	.
 .	.	.	8qfff/	.	.
-12g\L	12bb-\L	.	8.fff\	.	.
+(12g\L	(12bb-\L	.	8.fff\	.	.
 12B-\	12ee-\	.	.	.	.
-12G\J	12b-\J	.	.	.	.
+12G\J)	12b-\J)	.	.	.	.
 .	.	.	16eee-\Jk)	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12F#X\L	12an\L	.	(8.eee-\L	.	.
+(12F#X\L	(12an\L	.	(8.eee-\L	.	.
 12An\	12dd\	.	.	.	.
-12f#X\J	12aan\J	.	.	.	.
+12f#X\J)	12aan\J)	.	.	.	.
 .	.	.	16ddd\Jk)	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12f#\L	12aa\L	.	4ddd\	.	.
+(12f#\L	(12aa\L	.	4ddd\	.	.
 12A\	12dd\	.	.	.	.
-12F#\J	12a\J	.	.	.	.
+12F#\J)	12a\J)	.	.	.	.
 =65	=65	=65	=65	=65	=65
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12Fn\L	12a-X\L	.	8r	.	.
+(12Fn\L	(12a-X\L	.	8r	.	.
 12A-X\	12dd\	.	.	.	.
 .	.	.	8dddu\L	.	.
-12fn\J	12aa-X\J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12f\L	12aa-\L	.	8ccc\	.	.
+12fn\J)	12aa-X\J)	.	.	.	.
+(12f\L	(12aa-\L	.	8ccc\	.	.
 12A-\	12dd\	.	.	.	.
 .	.	.	8bbn\J	.	.
-12F\J	12a-\J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12En\L	12g\L	.	(8.ddd\L	.	.
+12F\J)	12a-\J)	.	.	.	.
+(12En\L	(12g\L	.	(8.ddd\L	.	.
 12G\	12cc\	.	.	.	.
-12en\J	12gg\J	.	.	.	.
+12en\J)	12gg\J)	.	.	.	.
 .	.	.	16ccc\Jk)	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12e\L	12gg\L	.	4ccc\	.	.
+(12e\L	(12gg\L	.	4ccc\	.	.
 12G\	12cc\	.	.	.	.
-12E\J	12a-\J	.	.	.	.
+12E\J)	12a-\J)	.	.	.	.
 !!LO:PB:g=original
 =66	=66	=66	=66	=66	=66
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12E-X\L	12g-X/L	.	8r	.	.
+(12E-X\L	(12g-X/L	.	8r	.	.
 12G-X\	12cc/	.	.	.	.
 .	.	.	8cccu\L	.	.
-12e-X\J	12gg-X/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12e-\L	12gg-/L	.	8bb-X\	.	.
+12e-X\J)	12gg-X/J)	.	.	.	.
+(12e-\L	(12gg-/L	.	8bb-X\	.	.
 12G-\	12cc/	.	.	.	.
 .	.	.	8aan\J	.	.
-12E-\J	12g-/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12D\L	12f/L	.	(8.ccc\L	.	.
+12E-\J)	12g-/J)	.	.	.	.
+(12D\L	(12f/L	.	(8.ccc\L	.	.
 12F\	12b-/	.	.	.	.
-12d\J	12ff/J	.	.	.	.
+12d\J)	12ff/J)	.	.	.	.
 .	.	.	16bb-\Jk)	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12d\L	12ff/L	.	4bb-\	.	.
+(12d\L	(12ff/L	.	4bb-\	.	.
 12F\	12b-/	.	.	.	.
-12D\J	12f/J	.	.	.	.
+12D\J)	12f/J)	.	.	.	.
 =67	=67	=67	=67	=67	=67
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12D\L	12f/L	.	4bb-\	.	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=animato	!	!
+!	!	!	!null	!	!
+(12D\L	(12f/L	.	4bb-\	.	.
+!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:TX:b:t=animato.	!	!
 12F\	12b-/	.	.	.	.
-12d\J	12ff/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12d\L	12ff/L	.	((4bbb-\	.	.
+12d\J)	12ff/J)	.	.	.	.
+(12d\L	(12ff/L	.	((4bbb-\	.	.
 12F\	12b-/	.	.	.	.
-12D\J	12f/J	.	.	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12E-X\L	12g-X/L	.	8.bbb-\L)	.	.
+12D\J)	12f/J)	.	.	.	.
+(12E-X\L	(12g-X/L	.	8.bbb-\L)	.	.
 12G-X\	12b-/	.	.	.	.
-12e-\J	12gg-X/J	.	.	.	.
+12e-\J)	12gg-X/J)	.	.	.	.
 .	.	.	16bb-\Jk)	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12e-\L	12gg-/L	.	([4bb-\	.	.
+(12e-\L	(12gg-/L	.	([4bb-\	.	.
 12G-\	12b-/	.	.	.	.
-12E-\J	12g-/J	.	.	.	.
+12E-\J)	12g-/J)	.	.	.	.
 =68	=68	=68	=68	=68	=68
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12En\L	12gn/L	.	8.bb-\L]	.	.
+(12En\L	(12gn/L	.	8.bb-\L]	.	.
 12Gn\	12b-/	.	.	.	.
-12en\J	12ggn/J	.	.	.	.
+12en\J)	12ggn/J)	.	.	.	.
 .	.	.	16b-\Jk)	.	.
-!LO:TUP:problem:klamra łukowa	!LO:TUP:problem:klamra łukowa	!	!	!	!
-12e\L	12gg/L	.	(2b-/	.	.
+(12e\L	(12gg/L	.	(2b-/	.	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=ritard.	!	!
 !	!	!	!LO:TX:a:t=ritard.	!	!
 12G\	12b-/	.	.	.	.
-12E\J	12g/J	.	.	.	.
+12E\J)	12g/J)	.	.	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=ritard.	!	!	!	!
 !	!LO:TX:b:t=ritard.	!	!	!	!
 12FL 12FF^\	12a-^/L	.	.	.	.
 12D 12DD^\	12dd 12d^/	.	.	.	.
@@ -1333,10 +1331,11 @@
 8B-J 8BB-^\	8bb-J 8b-^\	.	.	.	.
 .	.	.	16g/Jk)	.	.
 =69	=69	=69	=69	=69	=69
-!	!	!	!LO:TX:a:B:t=Sul G_	!	!
+!	!	!	!LO:TX:a:t=Sul G_	!	!
 !LO:TX:t=P:problem:mixed beam	!LO:TX:a:B:t=a tempo.	!	!LO:TX:a:B:t=a tempo.	!	!LO:DY:rj
 16EE-LL 16EEE-/	16r	ff	(4.g/	.	ff
-!	!	!	!LO:TX:b:t=grandioso.	!	!
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=grandioso	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=grandioso	!	!
+!LO:SIC:s=(<16G	!null	!	!LO:TX:b:t=grandioso.	!	!
 (>16G\	(16g\LL	.	.	.	.
 16B-\	16b-\	.	.	.	.
 16e-\JJ)	16ee-\JJ)	.	.	.	.
@@ -1389,6 +1388,7 @@
 *tremolo	*tremolo	*	*	*	*
 32BB-LLL 32EE-/	32d-XLLL 32G/	.	16r	.	.
 32E-/	32e-/	.	.	.	.
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=con fuoco	!	!
 !	!	!	!LO:TX:b:t=con fuoco.	!	!
 32BB- 32EE-/	32d- 32G/	.	16bb- 16b-u\	.	.
 32E-/	32e-/	.	.	.	.
@@ -1493,8 +1493,7 @@
 .	32a- 32e-/	.	.	.	.
 .	32c-/JJJ	.	.	.	.
 =76	=76	=76	=76	=76	=76
-!	!	!	!LO:TUP:problem:klamra łukowa	!	!
-!	!	!	!LO:TX:a:B:t=Sul G_:dur=4q:ext=ud:problem:text with extention lines	!	!
+!	!	!	!LO:TX:a:t=Sul G_:dur=4q:ext=ud:problem:text with extention lines	!	!
 4B- 4BB-\	32a-LLL 32d/	.	24d/LL	.	.
 .	32B-/	.	.	.	.
 .	.	.	24e-/	.	.
@@ -1603,7 +1602,8 @@
 !!LO:LB:g=original
 =79	=79	=79	=79	=79	=79
 *	*^	*	*	*	*
-!LO:TX:a:B:t=morendo.	!	!	!	!LO:TX:b:B:t=morendo.	!	!
+!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=morendo	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=morendo	!	!
+!LO:TX:a:t=morendo.	!	!	!	!LO:TX:b:t=morendo.	!	!
 (16EE-\LL	1e-	8r	.	(16eee-\LL	.	.
 16BB-\J	.	.	.	16ddd\	.	.
 8G\J)	.	8B-\	.	16fff\	.	.
@@ -1623,14 +1623,14 @@
 *	*v	*v	*	*	*	*
 =80	=80	=80	=80	=80	=80
 !LO:TX:t=P:problem:mixed beam	!	!	!	!	!
-(16G/LL	8r	.	(16B-/LL	.	.
-16e->\J	.	.	16G/	.	.
-8g>\J)	8ee- 8b-/	.	16B-/	.	.
+(16G//LL	8r	.	(16B-/LL	.	.
+16e->\\J	.	.	16G/	.	.
+8g>\\J)	8ee- 8b-/	.	16B-/	.	.
 .	.	.	16e-/JJ	.	.
 !LO:TX:t=P:problem:mixed beam	!	!	!	!	!
-(16B-/LL	8r	.	16g/LL	.	.
-16g>\J	.	.	16b-/	.	.
-8b->\J)	8gg 8ee-/	.	16gg/	.	.
+(16B-//LL	8r	.	16g/LL	.	.
+16g>\\J	.	.	16b-/	.	.
+8b->\\J)	8gg 8ee-/	.	16gg/	.	.
 .	.	.	16ff/JJ)	.	.
 (>16e->\LL	8r	.	(16ee-/LL	.	.
 16b->\J	.	.	16b-/	.	.
@@ -1649,16 +1649,21 @@
 4r	4r	.	.	.	.
 =82	=82	=82	=82	=82	=82
 2.E- 2.BB- 2.EE-\	2.e- 2.B-< 2.G</	.	2.e-/]	.	.
-!LO:TX:b:B:t=FINE.	!	!	!	!	!
+!LO:TX:b:t=FINE.:mod=	!	!	!	!	!
 4r;	4r;	.	4r;	.	.
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!LO:MO:ori
 !!!RDF**dynam: < = "cres.", fontstyle = "normal"
 !!!RDF**dynam: > = "dim.", fontstyle = "normal"
+!!LO:MO:end
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-09
 !!!ENC: Marta Lawrence
 !!!END: 2022-05-20
+!!!ENC-modern: Marta Lawrence
+!!!END-modern: 2022-07-19

@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wn--mus-iii-162-158-cim_wieniawski-henryk--souvenir-de-posen-mazurka-op-3.krn
 !!!cenid: 18xx:3796
 !!!COM: Wieniawski, Henryk
-!!!COM-rismid: pe137176
+!!!COM-rismID:
 !!!CDT:
 !!!CNT:
 !!!OTL: Souvenir de Posen/Mazurka op. 3
@@ -12,17 +12,23 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid:
-!!!URL-scan: https://polona.pl/item/souvenir-de-posen-mazourka-caracteristique-pour-le-violon-avec-accompagnement-de,MjQwNTYxNzY/0/#info:metadata
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://polona.pl/item/souvenir-de-posen-mazourka-caracteristique-pour-le-violon-avec-accompagnement-de,MjQwNTYxNzY/0/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc:
 !!!AIN: 1 piano 1 violn
 !!!key: d
 !!!OMD: SOUVENIR DE POSEN. \nMAZOURKA - CARACTERISTIQUE \npar \nH. WIENIAWSKI. \n Op.3
 **kern	**kern	**dynam	**kern	**fing	**dynam
+!	!	!	!LO:MO:mod=*	!	!
 *	*	*	*scale:70%	*	*
 *part2	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*	*
 *I"PIANO.	*I"PIANO.	*	*I"VIOLON.	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*	*
+*I'	*I'	*	*I'	*	*
+*mI'pf	*mI'pf	*	*mI'vn	*	*
 *Ipiano	*Ipiano	*	*Ivioln	*	*
 *ICklav	*ICklav	*	*ICstr	*	*
 *IGacmp	*IGacmp	*	*IGsolo	*	*
@@ -87,12 +93,13 @@
 *	*	*	*	*above	*
 8C#X 8CC#X\	8a 8g 8e 8A</	.	8ee^\)	2	.
 8r	8r	.	8r	.	.
-!	!	!	!LO:TX:b:t=dimi_nuen_do:problem:dynamics with extention lines	!	!LO:HP:t=dimi_nuen_do
+!	!	!LO:MO:null:mod=>	!LO:TX:b:t=dimi_nuen_do:problem:dynamics with extention lines:mod=	!	!LO:HP:t=dimi_nuen_do
 2D 2DD\	2a 2f 2d 2A</	.	(2ff^\	.	>
 .	.	.	8qqee-X/)	.	.
 =11	=11	=11	=11	=11	=11
 8G 8GG/	8b- 8e-X 8B-/	.	8ee-X\	.	.
 8r	8r	.	8r	.	.
+!	!	!LO:MO:null:mod=]]	!	!	!
 2G 2AA\	[2a 2c#X 2A/	.	(2cc#X^^^\	4	]]
 =12	=12	=12	=12	=12	=12
 8F 8D\	8a] 8d 8A/	.	8ddo\)	4	pp
@@ -143,7 +150,7 @@
 *	*	*	*	*above	*
 8C#X 8CC#X/	8a 8g 8e 8A/	.	8ee^\)	2	.
 8r	8r	.	8r	.	.
-!	!	!	!LO:TX:b:t=dim._:problem:dynamics with extention lines	!	!LO:HP:t=dim._
+!	!	!	!LO:TX:b:t=dim._:problem:dynamics with extention lines:mod=	!	!LO:HP:t=dim._
 2D 2DD/	2a 2f 2d 2A/	.	(<2ff^\	.	>
 .	.	.	8qqee-X/)	.	.
 =19	=19	=19	=19	=19	=19
@@ -213,7 +220,10 @@
 !!LO:LB:g=original
 =29	=29	=29	=29	=29	=29
 *	*^	*	*	*	*
-!	!	!	!	!LO:TX:b:t=viguroso	!	!
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=viguroso	!	!
+!	!	!	!	!LO:TX:b:t=viguroso	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!	!
+!	!	!	!	!	!	!LO:MO:null:mod=ff
 .	.	.	.	(8qff#X/	.	.
 8E 8EE^/	8a/	8e 8c#X\	ff	8eeo 8a^^\)	.	.
 8r	8r	8r	.	8r	.	.
@@ -383,7 +393,7 @@
 4e\	4ee\	.	.	.	.
 4e\	4ee\	.	.	.	.
 =53	=53	=53	=53	=53	=53
-!	!	!	!LO:TX:b:t=sul A_:dur=6q:ext=ud:problem:text with extention lines	!	!
+!	!	!	!LO:TX:b:t=sul A_:dur=6q:ext=ud:problem:text with extention lines:mod=	!	!
 !	!	!	!LO:N:n=2:vis=2	!	!
 2.r	2.r	.	8aaaL 8rdd 8ra\	.	.
 !	!	!	!LO:N:n=2:vis=2	!	!
@@ -395,6 +405,7 @@
 !!LO:LB:g=original
 =54	=54	=54	=54	=54	=54
 *^	*	*	*	*	*
+!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;t=rall.	!LO:MO:mod=!LO&colon;TX&colon;i&colon;t=rall.	!	!	!	!
 !	!LO:TX:b:Bi:t=rall.	!LO:TX:a:Bi:t=rall.	!	!LO:TX:b:i:t=rall.	!	!
 8A/L	2A\	8a\L	.	2ffff] 2rbb-X] 2rff\]	.	.
 8c#X/J	.	8cc#X\J	.	.	.	.
@@ -448,7 +459,7 @@
 .	.	.	8qqee-X/)	.	.
 =61	=61	=61	=61	=61	=61
 *	*	*	*	*below	*
-!	!	!	!LO:TX:b:t=sul A_:dur=3q:ext=ud:problem:text with extention lines	!	!
+!	!	!	!LO:TX:b:t=sul A_:dur=3q:ext=ud:problem:text with extention lines:mod=	!	!
 8GG 8GGG^/	4r	.	(8.ee-X\L	2	.
 8r	.	.	.	.	.
 .	.	.	16bb-\Jk)	2	.
@@ -465,7 +476,7 @@
 *k[f#]	*k[f#]	*	*k[f#]	*	*
 !	!LO:TX:a:B:t=Allegro.	!	!LO:TX:a:B:t=Allegro.	!	!
 4D\	4d/	.	2.r	.	.
-!	!LO:TX:b:t=cre_scen_do:problem:dynamics with extention lines	!LO:HP:t=cre_scen_do	!	!	!
+!	!LO:TX:b:t=cre_scen_do:problem:dynamics with extention lines:mod=	!LO:HP:t=cre_scen_do	!	!	!
 .	.	<	.	.	.
 (8qC#X/	(8qc#X/	.	.	.	.
 4D\)	4d/)	.	.	.	.
@@ -852,8 +863,10 @@
 *	*X8va	*	*	*	*
 8r;	8r;	.	.	.	.
 8.r	8.r	.	8.r	.	.
+!	!	!	!	!	!LO:MO:mod=.
 16D/	16d/	.	16d/	.	p
 !!LO:PB:g=original
+!LO:MO:mod==109||	!LO:MO:mod==109||	!LO:MO:mod==109||	!LO:MO:mod==109||	!LO:MO:mod==109||	!LO:MO:mod==109||
 =109	=109	=109	=109	=109	=109
 !	!LO:TX:b:Bi:t=suivez le Violon	!	!	!	!
 !	!LO:TX:a:B:t=Poco Andante.	!	!LO:TX:a:B:t=Poco Andante.	!	!
@@ -873,6 +886,7 @@
 *	*	*	*	*	*^
 16G\LL	16g\LL	.	16g\LL	.	>	.
 !	!	!	!	!	!	!LO:HP:a:t=dim.
+!	!	!LO:MO:null:mod=>	!	!	!	!LO:MO:mod=.
 16d\	16dd\	.	16dd\	.	.	>
 16c#X\	16cc#X\	.	16cc#X\	.	.	.
 16B-X\JJ	16b-X\JJ	.	16b-X\JJ	.	.	.
@@ -883,6 +897,7 @@
 16G\LL	16g\LL	.	16g\LL	.	.	.
 16d\	16dd\	.	16dd\	.	.	.
 16c#\	16cc#\	.	16cc#\	.	.	.
+!	!	!LO:MO:null:mod=]	!	!	!	!
 16B-\JJ)	16b-\JJ)	.	16b-\JJ)	.	]	.
 *	*	*	*	*	*v	*v
 !!LO:LB:g=original
@@ -899,8 +914,11 @@
 *	*v	*v	*	*	*	*
 =114||	=114||	=114||	=114||	=114||	=114||
 *k[b-]	*k[b-]	*	*k[b-]	*	*
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;B&colon;t=Tempo I.°	!	!
+!	!	!	!null	!	!
 !	!LO:TX:a:B:t=Tempo I.°	!LO:DY:rj	!	!	!
 4D 4AA 4DD\	4d 4A< 4F</	pp	4d/	.	pp
+!	!	!	!LO:MO:mod=!	!	!
 !	!	!	!LO:TX:a:B:t=Tempo I.°	!	!
 !	!	!	!LO:TX:b:i:t=sur la touche	!	!
 .	.	.	(>8qd/	.	.
@@ -1007,8 +1025,12 @@
 4r	4a 4f 4c 4A/	.	4a/	.	.
 =130	=130	=130	=130	=130	=130
 *	*^	*	*	*	*
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=viguroso	!	!
 !	!	!	!	!LO:TX:a:B:t=Viguroso.	!	!
 .	.	.	.	(8qff#X/	.	.
+!	!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!	!
+!	!	!	!	!	!	!LO:MO:null:mod=ff
 8E 8EE^/	8a 8e 8c#/	4ryy	ff	8eeo 8a^^\)	.	.
 8r	8r	.	.	8r	.	.
 4d 4E\	(4.bn/	2g#X 2e\	.	(4.ee 4.bn^\	.	.
@@ -1065,7 +1087,7 @@
 4e\	4ee\	.	.	.	.
 4e\	4ee\	.	.	.	.
 =137	=137	=137	=137	=137	=137
-!	!	!	!LO:TX:b:t=sul A_:dur=6q:ext=ud:problem:text with extention lines	!	!
+!	!	!	!LO:TX:b:t=sul A_:dur=6q:ext=ud:problem:text with extention lines:mod=	!	!
 !	!	!	!LO:N:n=2:vis=2	!	!
 2.r	2.r	.	8aaaL 8rdd 8ra\	.	.
 !	!	!	!LO:N:n=2:vis=2	!	!
@@ -1107,7 +1129,7 @@
 .	.	.	8b-^/J	.	.
 =142	=142	=142	=142	=142	=142
 4AA 4DD\	4d 4A< 4F</	.	8a/L	.	.
-!	!	!	!LO:TX:b:t=cresc_:problem:dynamics with extention lines	!	!LO:HP:t=cresc.
+!	!	!	!LO:TX:b:t=cresc_:problem:dynamics with extention lines:mod=	!	!LO:HP:t=cresc.
 .	.	.	16r	.	<
 .	.	.	16a/Jk	.	.
 4AA 4DD\	4d 4A< 4F</	.	4f/	.	.
@@ -1120,6 +1142,7 @@
 =144	=144	=144	=144	=144	=144
 8C#X 8CC#X/	8a 8g 8e 8A/	.	8eee 8ee\	.	.
 8r	8r	.	8r	.	.
+!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:N:vis=2	!	!
 2D 2DD/	2a 2f 2d 2A/	.	(4.fff 4.ff^^\	.	.
 .	.	.	8eee 8ee\)	.	[[
@@ -1141,7 +1164,10 @@
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e “s/([()[]_])[><]/$1/g” | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | modori -m |
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-12
 !!!ENC: Marta Lawrence
 !!!END: 2022-05-23
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-20

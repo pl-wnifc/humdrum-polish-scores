@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wtm--r-1150_dobrzynski-ignacy-feliks--piosnka-aliny.krn
 !!!cenid: 18xx:1758
 !!!COM: Dobrzyński, Ignacy Feliks
-!!!COM-rismid: pe30020642
+!!!COM-rismID:
 !!!CDT: 1807/02/15-1867/10/09
 !!!CNT: Polish
 !!!OTL: Piosnka Aliny
@@ -12,8 +12,10 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001058039
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r1150
+!!!NIFC-rismSourceID: 1001058039
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan:
 !!!ONB-nifc:
 !!!AIN: 1 forte 1 vox
 !!!key:
@@ -22,7 +24,8 @@
 *staff3	*	*staff2	*	*staff1	*staff1	*staff1	*
 *Iforte	*	*Iempty	*	*Ivox	*	*	*
 *I"Fortepian	*	*	*	*I"Głos	*	*	*
-*I'pf	*	*	*	*I'V	*	*	*
+*mI"Pianoforte	*	*	*	*mI"Voce	*	*	*
+*I'pf	*	*	*	*I'v	*	*	*
 *clefF4	*	*clefG2	*	*clefG2	*	*	*
 *k[b-e-a-d-]	*	*k[b-e-a-d-]	*	*k[b-e-a-d-]	*	*	*
 *f:	*	*f:	*	*f:	*	*	*
@@ -92,6 +95,7 @@
 .	.	8r	.	8r	.	.	.
 !!LO:LB:g=original
 =11	=11	=11	=11	=11	=11	=11	=11
+!	!	!	!	!	!LO:MO:mod=I	!LO:MO:mod=I	!
 2.A- 2.AA-/	.	4r	.	4cc\	J	J	.
 .	.	4f#X 4c/	.	4ddn\	za-	spa-	.
 .	.	4f# 4e- 4c/	.	4ee-\	-po-	-dła	.
@@ -215,14 +219,14 @@
 4C 4FF/	.	4f 4c 4A-/	.	.	.	.	.
 =32	=32	=32	=32	=32	=32	=32	=32
 *>B1	*	*>B1	*	*>B1	*	*	*
-!	!	!	!	!LO:TX:a:t=1a	!	!	!
+!	!	!	!	!LO:TX:a:t=1a:mod=	!	!	!
 4C 4FF/	.	4f 4c 4A-/	.	2.rb	.	.	.
 4C 4FF/	.	4f 4c 4A-/	.	.	.	.	.
 4C 4FF/	.	4f 4c 4A-/	.	.	.	.	.
 =33:|!	=33:|!	=33:|!	=33:|!	=33:|!	=33:|!	=33:|!	=33:|!
 *>B2	*	*>B2	*	*>B2	*	*	*
 *k[]	*	*k[]	*	*k[]	*	*	*
-!	!	!	!	!LO:TX:a:t=2a	!	!	!
+!	!	!	!	!LO:TX:a:t=2a:mod=	!	!	!
 4C 4FF/	.	4f 4c 4An/	.	2.r	.	.	.
 4C 4FF/	.	4f 4c 4A/	.	.	.	.	.
 4C 4FF/	.	4f 4c 4A/	.	.	.	.	.
@@ -291,6 +295,7 @@
 =46	=46	=46	=46	=46	=46	=46	=46
 *	*	*	*^	*	*	*	*
 !	!	!	!LO:DY:a	!LO:DY:b	!	!	!	!
+!	!	!	!LO:MO:mod=.	!	!	!	!	!
 4B- 4BB-\	.	4b- 4f 4d/	p	p	(4b-\	tam	.	.
 4F 4FF\	.	4a 4f 4c/	.	.	4a\)	.	.	.
 4B- 4BB-\	.	4b- 4f 4d/	.	.	4b-\	łzy	.	.
@@ -336,6 +341,7 @@
 8D] 8DD/]	.	8f) 8d) 8A/)	]	8f/	-nie	.	.
 8r	.	8r	.	8r	.	.	.
 =54	=54	=54	=54	=54	=54	=54	=54
+!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;t=poco più rallentando	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=poco più rallentando	!	!	!
 !	!	!LO:TX:b:t=poco più rallentando_:dur=9q:ext=cd:problem=tekst with extention lines	!	!LO:TX:a:t=poco più rallentando_:dur=9q:ext=cd:problem=tekst with extention lines	!	!	!
 2D 2DD/	.	2f 2d 2A/	.	4f/	Módl	.	.
 .	.	.	.	4f/	się	.	.
@@ -362,6 +368,9 @@
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m |
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-19
 !!!ENC: Marta Lawrence
 !!!END: 2021-04-12
 !!!ENC: Anastazja Marusiak

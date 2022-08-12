@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-sa--573-a-ix-53--008_lessel-franciszek--keyboard-piece.krn
 !!!cenid: 18xx:609
 !!!COM: Lessel, Franciszek
-!!!COM-rismid: pe30004332
+!!!COM-rismID:
 !!!CDT: 1780-1838/12/26
 !!!CNT: Polish
 !!!OTL: [Keyboard piece]
@@ -12,23 +12,29 @@
 !!!SMS-shelfwork: 008 W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001077514
-!!!system-decoration: {(s1,s2)}
+!!!NIFC-rismSourceID: 1001077514
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://bc.bdsandomierz.pl/dlibra/publication/1379/edition/1347/content @EN{Scan on Cyfrowa Biblioteka Diecezjalna w Sandomierzu} @PL{Skany w portalu Cyfrowa Biblioteka Diecezjalna w Sandomierzu}
+!!!ONB-nifc: Str. 14. Uwaga: tytuł w źródle: Jan Tarnowski
 !!!AIN: 1 klav
 !!!key:
 **kern	**kern
 *part1	*part1
 *staff2	*staff1
 *ICklav	*ICklav
+*mI"Pianoforte	*mI"Pianoforte
 *Iklav	*Iklav
 *I"	*I"
+*I'	*I'
+*mI'pf	*mI'pf
 *clefF4	*clefG2
 *k[b-e-]	*k[b-e-]
 *g:	*g:
 *M2/4	*M2/4
 =1	=1
 *	*2\right
-!	!LO:TX:a:Bi:t=Jan Tarnowski:rj
+!	!LO:TX:a:Bi:t=Jan Tarnowski:rj:mod=
 2GG/	8r
 .	8ddL 8b-/
 .	8cc#X 8g/
@@ -221,12 +227,13 @@
 4FF;>/	4r;>
 ==	==
 *-	*-
-!!title: @{OTL};
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | autostem -r | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -k -e “s/([()[]_])[><]/$1/g” | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-19
 !!!EED: Wojciech Jakubiak-Danek
 !!!EEV: 2020-12-10
-!!!URL-scan: http://bc.bdsandomierz.pl/dlibra/publication/1379/edition/1347/content
-!!!ONB-nifc: Str. 14. Uwaga: tytuł w źródle: Jan Tarnowski
 !!!ENC: Marcin Jachim
 !!!END: 2020-06-19

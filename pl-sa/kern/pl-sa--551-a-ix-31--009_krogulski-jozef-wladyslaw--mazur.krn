@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-sa--551-a-ix-31--009_krogulski-jozef-wladyslaw--mazur.krn
 !!!cenid: 18xx:508
 !!!COM: Krogulski, Józef Władysław
-!!!COM-rismid: pe30001797
+!!!COM-rismID:
 !!!CDT: 1815/10/04-1842/01/09
 !!!CNT: Polish
 !!!OTL: Mazur
@@ -12,18 +12,21 @@
 !!!SMS-shelfwork: 009 W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001069473
-!!!URL-scan: http://bc.bdsandomierz.pl/dlibra/publication/1307/edition/1275/content
+!!!NIFC-rismSourceID: 1001069473
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://bc.bdsandomierz.pl/dlibra/publication/1307/edition/1275/content @EN{Scan on Cyfrowa Biblioteka Diecezjalna w Sandomierzu} @PL{Skany w portalu Cyfrowa Biblioteka Diecezjalna w Sandomierzu}
 !!!ONB-nifc: Str. 10 (s. 3) – str. 11 (s. 2)
 !!!AIN: 1 piano
-!!!key:
+!!!key: G
 **kern	**kern	**dynam
 *part1	*part1	*part1
 *staff2	*staff1	*
-*Ipiano	*Iempty	*
-*I"Piano	*	*
-*I'pf	*	*
-*clefF4	*clefG2	*
+*Ipiano	*Ipiano	*
+*I"Piano	*I"Piano	*
+*I'pf	*pf	*
+*ICklav	*ICklav	*
+*mI"Pianoforte	*mI"Pianoforte	*
 *k[f#]	*k[f#]	*
 *G:	*G:	*
 *M3/8	*M3/8	*
@@ -45,6 +48,7 @@
 8eL 8A#X 8G\	16.ee\LL	.
 .	32cc#X\JJk	.
 8d 8B 8G\	8dd\L	.
+!	!LO:SIC:v:s=8ggJ	!
 8dJ 8B 8G\	8ff#\J	.
 =3	=3	=3
 *rep	*	*
@@ -69,8 +73,10 @@
 .	16dd 16b\	.
 .	16ccJJ 16a\	.
 =6	=6	=6
+!LO:MO:mod=8G@ 8GG@	!	!
 4.ryy	16bLL 16g\	.
 .	16ddJJ 16b\	.
+!LO:MO:null:mod=4d@ 4B@ 4G@	!	!
 .	8.ggL 8.b 8.g\	.
 .	16ff#Jk 16dd\	.
 =7	=7	=7
@@ -142,7 +148,7 @@
 *tremolo	*	*
 8c#X 8A 8E\L	16cc# 16e\	.
 .	16ee 16g\	.
-!	!LO:CIS:s=bn	!
+!	!LO:SIC:v:s=16.gg 16.bn	!
 8c#X 8A 8E\J	16.gg 16.b#\	.
 .	32ff#JJk 32a\	.
 *Xtremolo	*	*
@@ -202,8 +208,12 @@
 =:|!	=:|!	=:|!
 *-	*-	*-
 !!!system-decoration: {(s1,s2)}
+!!!RDF**kern: | = vertical stroke
+!!!RDF**kern: @ = = marked note, color=#aaa
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
 !!!EED: Antoni Szymański
 !!!EEV: 2020-12-05
 !!!ENC: Marcin Jachim
 !!!END: 2020-06-17
-!!!RDF**kern: | = vertical stroke
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-07-08

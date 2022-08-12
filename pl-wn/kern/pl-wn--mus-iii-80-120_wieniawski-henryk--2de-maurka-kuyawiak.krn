@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wn--mus-iii-80-120_wieniawski-henryk--2de-maurka-kuyawiak.krn
 !!!cenid: 18xx:3804
 !!!COM: Wieniawski, Henryk
-!!!COM-rismid: pe137176
+!!!COM-rismID:
 !!!CDT:
 !!!CNT:
 !!!OTL: 2de Maurka/Kuyawiak
@@ -12,15 +12,20 @@
 !!!SMS-shelfwork: W
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid:
-!!!URL-scan: https://polona.pl/item/2de-mazurka-kuyawiak-danse-nationale-polonaise-pour-violon-avec-accompagnement-de,Mzk2NDY2NzA/2/#info:metadata
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan: https://polona.pl/item/2de-mazurka-kuyawiak-danse-nationale-polonaise-pour-violon-avec-accompagnement-de,Mzk2NDY2NzA/2/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc:
 !!!AIN: 1 piano 1 violn
 !!!key: a
 **kern	**kern	**dynam	**kern	**dynam
+!	!	!	!LO:MO:mod=*null:null	!
+*	*	*	*scale:80%	*
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
 *I"PIANO.	*I"PIANO.	*	*I"Violino.	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*
 *Ipiano	*Ipiano	*	*Ivioln	*
 *ICklav	*ICklav	*	*ICstr	*
 *IGacmp	*IGacmp	*	*IGsolo	*
@@ -29,9 +34,9 @@
 *a:	*a:	*	*a:	*
 *M3/4	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1
-!	!	!	!LO:TX:a:B:t=KUJAWIAK.	!
-!	!	!	!LO:TX:a:t=A Mademoiselle Constance Korzuchowska.	!
-!	!	!	!LO:TX:a:t=2me Mazurka.	!
+!	!	!	!LO:TX:a:B:t=KUJAWIAK.:mod=	!
+!	!	!	!LO:TX:a:t=A Mademoiselle Constance Korzuchowska.:mod=	!
+!	!	!	!LO:TX:a:t=2me Mazurka.:mod=	!
 2.r	8.e^/L	p	2.r	.
 .	16e/Jk	.	.	.
 .	4e/	.	.	.
@@ -62,7 +67,7 @@
 *Xped	*	*	*	*
 .	8a\J	.	.	.
 =6	=6	=6	=6	=6
-!	!	!	!LO:TX:a:t=HENRI WIENIAWSKY.	!
+!	!	!	!LO:TX:a:t=HENRI WIENIAWSKY.:mod=	!
 *ped	*	*	*	*
 4E/ 4AA/	8b/L	.	2.r;	.
 .	8f#X/	.	.	.
@@ -91,7 +96,9 @@
 4B\ 4G#X\ 4E;\	4e;/)	.	.	.
 *Xped	*	*	*	*
 =9	=9	=9	=9	=9
+!	!	!	!	!LO:MO:mod=.
 .	.	.	(8qe/	p
+!	!	!	!	!LO:MO:null:mod=p
 2.E/ 2.AA/	4r	.	8ee^\L)	.
 .	.	.	8dd#X\	.
 .	4f#X/ 4d#X/ 4c/ 4A/	.	8a\	.
@@ -118,46 +125,64 @@
 .	.	.	8f#X/	.
 2B\ 2E;\	2ee/ 2g#X/ 2e;/	.	8a/)	.
 .	.	.	8g#X'/J	.
+!	!	!	!LO:SIC:s=4e;	!
 .	.	.	4en;/	.
-.	.	.	8qe-X;/	.
+.	.	.	8qe-X/	.
 =13!|:	=13!|:	=13!|:	=13!|:	=13!|:
-!	!LO:TX:a:B:t=Tempo di Mazurka.	!	!	!
+!!!OMD:
+!!!OMD-mod: Tempo di Mazurka
+!	!LO:TX:a:B:t=Tempo di Mazurka.:mod=	!	!	!
 4GG/ 4GGG/	4r	ff	8.aa/L 8.b/ 8.d/ 8.G/	ff
 .	.	.	16gg/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4ff/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4dd/ 4d/ 4G^>/	.
 =14	=14	=14	=14	=14
 4CC/ 4CCC/	4r	.	8.cc/L 8.e/ 8.G/	.
 .	.	.	16dd/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4r	4e/ 4c/ 4G/ 4E/	.	4ee/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4r	4e/ 4c/ 4G/ 4E/	.	4cc/ 4e/ 4G^>/	.
 =15	=15	=15	=15	=15
 4GG/ 4GGG/	4r	.	8.a/L 8.f/ 8.G/	.
 .	.	.	16dd/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4a/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4b/ 4f/ 4G^>/	.
 =16	=16	=16	=16	=16
 4CC/ 4CCC/	4r	.	8.cc/L 8.e/ 8.G/	.
 .	.	.	16ee/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4r	4e/ 4c/ 4G/ 4E/	.	4aa/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4r	4e/ 4c/ 4G/ 4E/	.	4gg^>/	.
 !!LO:PB:g=original
 =17	=17	=17	=17	=17
 4GG/ 4GGG/	4r	.	8.aa/L 8.b/ 8.d/ 8.G/	.
 .	.	.	16gg/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4ff/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4dd/ 4d/ 4G^>/	.
 =18	=18	=18	=18	=18
 4CC/ 4CCC/	4r	.	8.cc/L 8.e/ 8.G/	.
 .	.	.	16dd/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4r	4e/ 4c/ 4G/ 4E/	.	4ee/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4r	4e/ 4c/ 4G/ 4E/	.	4cc/ 4e/ 4G^>/	.
 =19	=19	=19	=19	=19
 4GG/ 4GGG/	4r	.	8.a/L 8.f/ 8.G/	.
 .	.	.	16dd/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4a/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4b/ 4f/ 4G^>/	.
 =20	=20	=20	=20	=20
+!	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4CC/ 4CCC/	4e/ 4c/ 4G/ 4E/	.	4cc/ 4e/ 4G/	.
 !	!	!	!	!LO:DY:rj
 4c\ 4G\ 4E\ 4C\	4ccc\ 4gg\ 4ee\ 4cc\	fff	4ccc/ 4cc/ 4e/ 4G/	fff
@@ -178,8 +203,11 @@
 !!LO:PB:g=original
 =23	=23	=23	=23	=23
 4DD/	4r	.	(8.dd\L	<
+!	!	!	!	!LO:MO:mod=.
 .	.	.	16ff\Jk)	[
+!	!	!	!	!LO:MO:mod=[
 .	.	.	(8qff/	f >
+!	!	!	!	!LO:MO:null:mod=f >
 4f\ 4d\ 4A\ 4F\	4ff\ 4dd\ 4a\	.	(4.aa;\)	.
 4f\ 4d\ 4A\ 4F\	4aa\ 4ff\ 4dd\ 4a\	.	.	.
 .	.	.	8ff\)	]
@@ -214,7 +242,7 @@
 .	.	.	(32qqdd#X/LLL	<
 .	.	.	32qqee/	.
 .	.	.	32qqffn/JJJ	.
-!	!	!	!LO:TX:t=P:problem:kasownik pod trylem	!
+!	!	!	!LO:TR:acc=n:problem:kasownik pod trylem	!
 4e\ 4B\ 4G#X\ 4E\	4bb\ 4ee\ 4g#X\	.	(<2.eet\)	[ >
 4r	4r	.	.	.
 4r	4r	.	.	.
@@ -226,6 +254,7 @@
 .	.	.	8r	.
 2e\ 2c\ 2A\ 2E\	(2aa\ 2ee\ 2cc\ 2a\	.	2aa^\	ff
 =30	=30	=30	=30	=30
+!	!	!	!LO:SIC:s=8ff'	!
 4DD/	8ff'\)	.	8ffn'\	f
 .	8r	.	8r	.
 2d\ 2B\ 2A\ 2F\	2ff\ 2dd\ 2b\ 2a\ 2f\	.	2ff^\	ff
@@ -250,7 +279,7 @@
 .	.	.	.	8r	.
 .	.	.	.	(8qee/	.
 4c\ 4A\ 4E\	.	4a\	.	2aa^\)	pp
-4r	4r	4rcyy	.	.	.
+4r	4r	4ryy	.	.	.
 =34	=34	=34	=34	=34	=34
 .	(8qf/	.	.	.	.
 4DD/	2ff/)	4r	.	8ff'\	f
@@ -262,7 +291,8 @@
 =35	=35	=35	=35	=35
 4EE/ 4EEE/	4g#X/ 4d/	.	8b\	.
 .	.	.	8r	.
-!	!LO:TX:b:i:t=rallent.	!	!LO:TX:b:i:t=rallent.	!
+!!LO:TX:a:i:t= :mod=rall.
+!	!LO:TX:b:i:t=rallent.:mod=	!	!LO:TX:b:i:t=rallent.:mod=	!
 4r	4.cc/ 4.e/	.	(4.ee\	.
 4G#X/ 4EE/	.	.	.	.
 .	8b/ 8d/	.	8g#X/)	.
@@ -271,7 +301,8 @@
 4AAA/	.	.	.	.
 4r	4r	.	4r	.
 =37	=37	=37	=37	=37
-!	!LO:TX:b:i:t=poco più lento	!	!LO:TX:a:i:t=poco più lento	!LO:DY:rj
+!!LO:TX:a:i:t= :mod=poco più lento
+!	!LO:TX:b:i:t=poco più lento:mod=	!	!LO:TX:a:i:t=poco più lento:mod=	!LO:DY:rj
 4CC/	4r	mf	8aa'\	mf
 .	.	.	8r	.
 2e\ 2c\ 2A\ 2E\	(2aa\ 2ee\ 2cc\ 2a\	.	2aa^\	.
@@ -312,7 +343,8 @@
 =43	=43	=43	=43	=43
 4EE/ 4EEE/	4g#X/ 4d/	.	8b\	.
 .	.	.	8r	.
-!	!LO:TX:b:i:t=rallent.	!	!LO:TX:b:i:t=rallent.	!
+!!LO:TX:a:i:t= :mod=rall.
+!	!LO:TX:b:i:t=rallent.:mod=	!	!LO:TX:b:i:t=rallent.:mod=	!
 4r	4.cc/ 4.e/	.	(4.ee\	.
 4G#X/ 4EE/	.	.	.	.
 .	8b/ 8d/	.	8g#X/)	.
@@ -322,49 +354,67 @@
 4r	.	.	4r	[[
 !!LO:PB:g=original
 =45||	=45||	=45||	=45||	=45||
-!	!LO:TX:b:i:t=a tempo	!	!LO:TX:a:i:t=a tempo	!
+!!LO:TX:a:i:t= :mod=a tempo
+!	!LO:TX:b:i:t=a tempo:mod=	!	!LO:TX:a:i:t=a tempo:mod=	!
 4GG/ 4GGG/	4r	ff	8.aa/L 8.b/ 8.d/ 8.G/	ff
 .	.	.	16gg/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4ff/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4dd/ 4f/ 4G^>/	.
 =46	=46	=46	=46	=46
 4CC/ 4CCC/	4r	.	8.cc/L 8.e/ 8.G/	.
 .	.	.	16dd/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4r	4e/ 4c/ 4G/ 4E/	.	4ee/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4r	4e/ 4c/ 4G/ 4E/	.	4cc/ 4e/ 4G^>/	.
 =47	=47	=47	=47	=47
 4GG/ 4GGG/	4r	.	8.a/L 8.f/ 8.G/	.
 .	.	.	16dd/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4a/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4b/ 4f/ 4G^>/	.
 =48	=48	=48	=48	=48
 4CC/ 4CCC/	4r	.	8.cc/L 8.e/ 8.G/	.
 .	.	.	16ee/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4r	4e/ 4c/ 4G/ 4E/	.	4aa/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4r	4e/ 4c/ 4G/ 4E/	.	4gg^>/	.
 =49	=49	=49	=49	=49
 4GG/ 4GGG/	4r	.	8.aa/L 8.b/ 8.d/ 8.G/	.
 .	.	.	16gg/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4ff/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4dd/ 4f/ 4G^>/	.
 !!LO:LB:g=original
 =50	=50	=50	=50	=50
 4CC/ 4CCC/	4r	.	8.cc/L 8.e/ 8.G/	.
 .	.	.	16dd/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4r	4e/ 4c/ 4G/ 4E/	.	4ee/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4r	4e/ 4c/ 4G/ 4E/	.	4cc/ 4e/ 4G^>/	.
 =51	=51	=51	=51	=51
 4GG/ 4GGG/	4r	.	8.a/L 8.f/ 8.G/	.
 .	.	.	16dd/Jk	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4a/	.
+!LO:SIC:s=4rGG	!LO:SIC:s=4g 4B< 4G< 4F<	!	!	!
 4r	4g/ 4B/ 4G/ 4F/	.	4b/ 4f/ 4G^>/	.
 =52	=52	=52	=52	=52
+!	!LO:SIC:s=4e 4c 4G< 4E<	!	!	!
 4CC/ 4CCC/	4e/ 4c/ 4G/ 4E/	.	4cc/ 4e/ 4G/	.
 4c\ 4G\ 4E\ 4C\	4ccc\ 4gg\ 4ee\ 4cc\	fff	4ccc/ 4cc/ 4e/ 4G/	fff
 4r	4r	.	4r	.
 =53	=53	=53	=53	=53
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=pizz.	!
 !	!	!	!LO:TX:b:t=pizz.	!LO:DY:rj
 4GG/ 4GGG/	4r	f	8.aa/L 8.b/ 8.d/ 8.G/+<	fff
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=arco	!
 !	!	!	!LO:TX:b:t=arco	!
 .	.	.	16gg~/Jk	.
 4f\ 4d\ 4B\ 4G\	4gg\ 4ff\ 4dd\ 4b\ 4g\	.	4ff~/	.
@@ -372,10 +422,11 @@
 .	8bb\J 8b\	.	.	.
 =54	=54	=54	=54	=54
 *	*^	*	*	*
-4C/ 4CC/	2ccc/ 2cc/	4rg	.	8.cc/L 8.e/ 8.G/+<	.
+!	!	!	!	!LO:TX:a:i:t= :mod=simile	!
+4C/ 4CC/	2ccc/ 2cc/	4r	.	8.cc/L 8.e/ 8.G/+<	.
 .	.	.	.	16dd~/Jk	.
 4e\ 4c\ 4G\	.	4gg\ 4ee\	.	4ee~/	.
-4e\ 4c\ 4G\	8ddd/L 8dd/	4rg	.	4cc/ 4e/ 4G/+<	.
+4e\ 4c\ 4G\	8ddd/L 8dd/	4r	.	4cc/ 4e/ 4G/+<	.
 .	8eee/J 8ee/	.	.	.	.
 !!LO:LB:g=original
 =55	=55	=55	=55	=55	=55
@@ -384,10 +435,10 @@
 4f\ 4d\ 4B\ 4G\	.	4bb\ 4gg\	.	4a~/	.
 4f\ 4d\ 4B\ 4G\	4bb/ 4gg/ 4ff/ 4dd/	4r	.	4b/ 4f/ 4G/+<	.
 =56	=56	=56	=56	=56	=56
-4C/ 4CC/	2ccc/ 2cc/	4rg	.	8.cc/L 8.e/ 8.G/+<	.
+4C/ 4CC/	2ccc/ 2cc/	4r	.	8.cc/L 8.e/ 8.G/+<	.
 .	.	.	.	16ee~/Jk	.
 4e\ 4c\ 4G\	.	4gg\ 4ee\	.	4aa~/	.
-4e\ 4c\ 4G\	[4gg/ [4g/	4re	.	4gg/ 4cc/ 4e/ 4G/+<	.
+4e\ 4c\ 4G\	[4gg/ [4g/	4r	.	4gg/ 4cc/ 4e/ 4G/+<	.
 *	*v	*v	*	*	*
 =57	=57	=57	=57	=57
 4GG/ 4GGG/	4gg\] 4g\]	.	8.aa/L 8.b/ 8.d/ 8.G/+<	.
@@ -397,16 +448,16 @@
 .	8bb\J 8b\	.	.	.
 =58	=58	=58	=58	=58
 *	*^	*	*	*
-4C/ 4CC/	2ccc/ 2cc/	4rg	.	8.cc/L 8.e/ 8.G/+<	.
+4C/ 4CC/	2ccc/ 2cc/	4r	.	8.cc/L 8.e/ 8.G/+<	.
 .	.	.	.	16dd~/Jk	.
 4e\ 4c\ 4G\	.	4gg\ 4ee\	.	4ee~/	.
-4e\ 4c\ 4G\	8ddd/L 8dd/	4rg	.	4cc/ 4e/ 4G/+<	.
+4e\ 4c\ 4G\	8ddd/L 8dd/	4r	.	4cc/ 4e/ 4G/+<	.
 .	8eee/J 8ee/	.	.	.	.
 =59	=59	=59	=59	=59	=59
-4GG/ 4GGG/	2fff/ 2ff/	4rg	.	8.a/L 8.f/ 8.G/+<	.
+4GG/ 4GGG/	2fff/ 2ff/	4r	.	8.a/L 8.f/ 8.G/+<	.
 .	.	.	.	16dd~/Jk	.
 4f\ 4d\ 4B\ 4G\	.	4bb\ 4gg\	.	4a~/	.
-4f\ 4d\ 4B\ 4G\	4bb/ 4gg/ 4ff/ 4dd/	4rg	.	4b/ 4f/ 4G/+<	.
+4f\ 4d\ 4B\ 4G\	4bb/ 4gg/ 4ff/ 4dd/	4r	.	4b/ 4f/ 4G/+<	.
 *	*v	*v	*	*	*
 !!LO:LB:g=original
 =60	=60	=60	=60	=60
@@ -472,7 +523,7 @@
 .	.	.	(32qqdd#X/LLL	<
 .	.	.	32qqee/	.
 .	.	.	32qqffn/JJJ	.
-!	!	!	!LO:TX:t=P:problem:kasownik pod trylem	!
+!	!	!	!LO:TR:acc=n:problem:kasownik pod trylem	!
 4e\ 4B\ 4G#X\ 4E\	4bb\ 4ee\ 4g#X\	.	(<2.eett\)	[ >
 4r	4r	.	.	.
 4r	4r	.	.	.
@@ -517,7 +568,8 @@
 4r	4r	.	.	.
 =75	=75	=75	=75	=75
 4EE/ 4EEE/	4g#X/ 4d/	.	4b\	.
-!	!LO:TX:b:i:t=rallent.	!	!LO:TX:b:i:t=rallent.	!
+!!LO:TX:a:i:t= :mod=rall.
+!	!LO:TX:b:i:t=rallent.:mod=	!	!LO:TX:b:i:t=rallent.:mod=	!
 4r	4.cc/ 4.e/	.	(4.ee\	.
 4G#X/ 4EE/	.	.	.	.
 .	8b/ 8d/	.	8g#X/)	.
@@ -527,7 +579,8 @@
 4AAA/	.	.	.	.
 4r	4r	.	4r	.
 =77	=77	=77	=77	=77
-!	!LO:TX:b:i:t=poco più lento	!	!LO:TX:a:i:t=poco più lento	!
+!!LO:TX:a:i:t= :mod=poco più lento
+!	!LO:TX:b:i:t=poco più lento:mod=	!	!LO:TX:a:i:t=poco più lento:mod=	!
 !	!	!	!LO:N:n=2:vis=2	!
 4CC/	4r	p	8dddddyy\ 8rddd\ 8raaoy\	f
 .	.	.	8r	.
@@ -565,7 +618,7 @@
 !!LO:LB:g=original
 =81	=81	=81	=81	=81
 *	*^	*	*	*
-!	!	!	!	!LO:TX:b:i:t=adlibitum	!
+!	!	!	!	!LO:TX:b:i:t=adlibitum:mod=ad libitum	!
 .	(8qe/	.	.	.	.
 !	!	!	!	!LO:N:n=2:vis=2	!
 4CC/	2ee/)	4r	.	8aaaa\oyy 8rddd\ 8raa\	.
@@ -583,7 +636,9 @@
 4r	4r	4rcyy	.	4r	.
 *	*v	*v	*	*	*
 =83	=83	=83	=83	=83
-!	!	!	!LO:N:n=2:vis=2	!
+!	!	!LO:MO:mod=!LO&colon;HP&colo	!	!
+!	!	!null	!	!
+!	!	!LO:MO:null:mod=<	!LO:N:n=2:vis=2	!
 2EE/ 2EEE/	2ee/ 2g#X/ 2d/	.	16bbb\oyy 16ree\LL 16rbn^\	<
 !	!	!	!LO:N:n=2:vis=2	!
 .	.	.	16aaa\oyy 16rdd#X\ 16ra#X^\	.
@@ -606,6 +661,7 @@
 !	!	!	!LO:N:n=2:vis=2	!
 .	.	.	16gggg\oyy 16rcccn\ 16rggn^\	.
 !	!	!	!LO:N:n=2:vis=2	!
+!	!	!LO:MO:null:mod=[[	!	!LO:MO:null:mod=[[
 .	.	.	16gggg#\oyy 16rccc#X\JJ 16rgg#X^\	.
 =84	=84	=84	=84	=84
 !	!	!	!LO:N:n=2:vis=2	!
@@ -618,10 +674,13 @@
 ==	==	==	==	==
 *-	*-	*-	*-	*-
 !!!system-decoration: s1{(s2,s3)}
-!!!ENC: Solarz Mateusz
-!!!END: 2022-05-16
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: + = l.h. pizz.
-!!!EED: Andrzej Borzym
-!!!EEV: 2022-05-23
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | tie -s
+!!!ENC: Solarz Mateusz
+!!!END: 2022-05-16
+!!!ENC: Andrzej Borzym
+!!!END: 2022-05-23
+!!!ENC-modern: Andrzej Kubiczek
+!!!END-modern: 2022-07-20

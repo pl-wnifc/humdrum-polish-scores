@@ -1,7 +1,7 @@
 !!!!SEGMENT: pl-wtm--r-996-2--001-001_krogulski-jozef-wladyslaw--nieszpory-dixit-dominus.krn
 !!!cenid: 18xx:2099
 !!!COM: Krogulski, Józef Władysław
-!!!COM-rismid: pe30001797
+!!!COM-rismID:
 !!!CDT: 1815/10/04-1842/01/09
 !!!CNT: Polish
 !!!OPR: Nieszpory
@@ -14,14 +14,17 @@
 !!!SMS-shelfwork: 001-001 M
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismid: 1001086267
-!!!URL-scan: http://repozytorium.nifc.pl/skany/pl-wtm-nut--r996
+!!!NIFC-rismSourceID: 1001086267
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
+!!!URL-scan:
 !!!ONB-nifc: UWAGA: folder pl-wtm-r996-2
 !!!AIN: 1 tromp
 !!!key:
 **kern	**dynam
 *Itromp	*
 *I"Tromba 1a in E.	*
+*mI"Tromba I in E	*
 *I'tr 1 in E	*
 *clefG2	*
 *ITrd-2c-4	*
@@ -29,27 +32,40 @@
 *e:	*
 *M3/4	*
 =1	=1
+!!!OMD: Andante.
+!!!OMD-mod: Andante
+!LO:MO:mod=!LO&colon;TX&colon;a&colon;B&colon;t=Psalmus 109	!
 !LO:TX:a:t=Psalmus 109.	!
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=10.	!
-!LO:TX:t=Andante.	!
+!LO:SIC:s=2.r:v	!
 00r	.
 =2	=2
+!LO:SIC:s=2.r:v	!
 .	.
 =3	=3
+!LO:SIC:s=2.r:v	!
 .	.
 =4	=4
+!LO:SIC:s=2.r:v	!
 .	.
 =5	=5
+!LO:SIC:s=2.r:v	!
 00r	.
 =6	=6
+!LO:SIC:s=2.r:v	!
 .	.
 =7	=7
+!LO:SIC:s=2.r:v	!
 .	.
 =8	=8
+!LO:SIC:s=2.r:v	!
 .	.
 =9	=9
+!LO:SIC:s=2.r:v	!
 0r	.
 =10	=10
+!LO:SIC:s=2.r:v	!
 .	.
 =11	=11
 [2.ee\	f
@@ -57,6 +73,7 @@
 2ee\]	.
 4r	.
 =13	=13
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=2.	!
 2.r	.
 =14	=14
@@ -73,6 +90,7 @@
 4b/	.
 4b/	.
 =18	=18
+!LO:MO:mod=!null:null	!
 !LO:TX:t=Nieszpory J Krogulskiego	!
 2b/	.
 4b/	.
@@ -96,6 +114,7 @@
 4r	.
 4r	.
 =25	=25
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=14.	!
 2.r	.
 =26	=26
@@ -129,25 +148,36 @@
 =40	=40
 2.r;	.
 =41	=41
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=10.	!
+!LO:SIC:s=2.r:v	!
 00r	.
 =42	=42
+!LO:SIC:s=2.r:v	!
 .	.
 =43	=43
+!LO:SIC:s=2.r:v	!
 .	.
 =44	=44
+!LO:SIC:s=2.r:v	!
 .	.
 =45	=45
+!LO:SIC:s=2.r:v	!
 00r	.
 =46	=46
+!LO:SIC:s=2.r:v	!
 .	.
 =47	=47
+!LO:SIC:s=2.r:v	!
 .	.
 =48	=48
+!LO:SIC:s=2.r:v	!
 .	.
 =49	=49
+!LO:SIC:s=2.r:v	!
 0r	.
 =50	=50
+!LO:SIC:s=2.r:v	!
 .	.
 =51	=51
 [2.ee\	f
@@ -155,6 +185,7 @@
 2ee\]	.
 4r	.
 =53	=53
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=2.	!
 2.r	.
 =54	=54
@@ -202,6 +233,7 @@
 4r	.
 4r	.
 =69	=69
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=2.	!
 2.r	.
 =70	=70
@@ -225,6 +257,7 @@
 4r	.
 4r	.
 =77	=77
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=2.	!
 2.r	.
 =78	=78
@@ -235,9 +268,16 @@
 2.b;/	.
 =81	=81
 2e/	.
+!LO:MO:mod=!null:null	!
 !LO:TX:a:t=Psalmus 110. 111. 112. 116. Tacet.	!
 4r	.
 ==	==
 *-	*-
+!!!system-decoration: [(s1)]
+!!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D" | rid -lid
 !!!ENC: Krzysztof Stępień
 !!!END: 2021-05-27
+!!!ENC: Andrzej Kubiczek
+!!!END: 2021-06-06
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-07-10
