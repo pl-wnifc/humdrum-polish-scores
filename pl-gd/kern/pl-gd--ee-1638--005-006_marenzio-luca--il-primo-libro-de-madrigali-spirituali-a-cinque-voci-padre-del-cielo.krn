@@ -25,23 +25,32 @@
 *part4	*part4	*part3	*part3	*part5	*part5	*part2	*part2	*part1	*part1
 *staff4	*staff4	*staff3	*staff3	*staff5	*staff5	*staff2	*staff2	*staff1	*staff1
 *I"BASSO	*	*I"TENORE	*	*I"QVINTO	*	*I"ALTO	*	*I"CANTO	*
+*mI"Basso	*	*mI"Tenore II	*	*mI"Tenore I	*	*mI"Alto	*	*mI"Soprano	*
 *I'B	*	*I'T	*	*I'Q	*	*I'A	*	*I'S	*
+*	*	*mI'T II	*	*mI'T I	*	*	*	*	*
 *Ibass	*	*Itenor	*	*Itenor	*	*Ialto	*	*Isoprn	*
 *ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*
 *clefF4	*	*clefC4	*	*clefC4	*	*clefC3	*	*clefC1	*
+*	*	*mclefGv2	*	*mclefGv2	*	*mclefG2	*	*mclefG2	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*
 *F:	*	*F:	*	*F:	*	*F:	*	*F:	*
 *M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
 *met(c|)	*	*met(c|)	*	*met(c|)	*	*met(c|)	*	*met(c|)	*
+*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
 !LO:TX:t=P:problem:zdwojony znak przykluczowy	!	!	!	!	!	!	!	!	!
 !LO:TX:a:t=Prima Parte	!	!LO:TX:a:t=Prima Parte	!	!LO:TX:a:t=Prima Parte	!	!LO:TX:a:t=Prima Parte	!	!LO:TX:a:t=Prima Parte	!
+!	!	!	!	!	!LO:MO:mod=Pa-	!	!	!	!
 00r	.	0r	.	0F/	PA-	1r	.	0r	.
+!	!	!	!	!	!	!	!LO:MO:mod=Pa-	!	!
 .	.	.	.	.	.	0c\	PA-	.	.
 =2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-
+!	!	!	!LO:MO:mod=Pa-	!	!	!	!	!	!
 .	.	0F/	PA-	1A\	-dre	.	.	1r	.
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=Pa-
 .	.	.	.	1c\	del	1.A/	-dre	0cc\	PA-
 =3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-
+!	!LO:MO:mod=Pa-	!	!	!	!	!	!	!	!
 0F\	PA-	1A\	-dre	1.f\	cie-	.	.	.	.
 .	.	.	.	.	.	2F/	del	.	.
 .	.	1c\	del	.	.	1.f\	cie-	1.a\	-dre
@@ -54,16 +63,16 @@
 1.B-\	cie-	1r	.	.	.	1.f\	hor	.	.
 .	.	.	.	.	.	.	.	1dd\	-lo_hor
 .	.	1d\	hor	1B-\	ch`at-	.	.	.	.
-!	!	!	!	!	!	!	!	!LO:SIC:v:l:s=ch'at-	!
+!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=ch'at-	!
 1G\	-lo	.	.	.	.	2g\	ch`at-	1b-\	ch`al-
 =6-	=6-	=6-	=6-	=6-	=6-	=6-	=6-	=6-	=6-
-!	!	!LO:SIC:v:l:s=ch'at-	!	!	!	!	!	!	!
+!	!	!LO:SIC:v:l:t=ch'at-	!	!	!	!	!	!	!
 .	.	1B-\	ch`al-	0G/	-ra	2d\	-ra	.	.
-!	!	!	!	!	!	!	!	!LO:SIC:v:l:s=-ra	!
+!	!	!	!	!	!	!	!	!LO:SIC:v:l:t=-ra	!
 1E-X\	hor	.	.	.	.	4e-X\	nu-	2g/	-tra
 .	.	.	.	.	.	8d\	.	.	.
 .	.	.	.	.	.	8c\	.	.	.
-!	!	!LO:SIC:v:l:s=-ra	!	!	!	!	!	!	!
+!	!	!LO:SIC:v:l:t=-ra	!	!	!	!	!	!	!
 .	.	1e-X\	-tra	.	.	4B-/	.	2.g/	nu-
 !	!	!	!	!	!	!LO:SIC:v:t=custos g	!	!	!
 .	.	.	.	.	.	4G/	.	.	.
@@ -171,6 +180,7 @@
 .	.	.	.	8c\	.	.	.	.	.
 .	.	.	.	8d\	.	.	.	4dd\	per
 .	.	.	.	8e\	.	.	.	.	.
+!	!	!	!	!	!	!	!LO:MO:mod=Con	!	!
 .	.	2B-\	Con	2f\	.	2d\	Co(n)	4dd\	queſ-
 .	.	.	.	.	.	.	.	4dd\	-to_in-
 =18-	=18-	=18-	=18-	=18-	=18-	=18-	=18-	=18-	=18-
@@ -212,6 +222,7 @@
 1AA/	De	.	.	1.A\	la	1e\	De	.	.
 .	.	2c\	mon-	.	.	.	.	.	.
 1.D\	la	2F/	-da-	.	.	2d\	la	1a\	De
+!	!	!	!	!	!LO:MO:mod=mon-	!	!LO:MO:mod=mon-	!	!
 .	.	2G/	-na_e	2G/	mo(n)-	2e\	mo(n)-	.	.
 =22-	=22-	=22-	=22-	=22-	=22-	=22-	=22-	=22-	=22-
 .	.	1A\	pa-	2F/	-da-	0f\	-da-	1.dd\	la
@@ -261,13 +272,16 @@
 .	.	.	.	.	.	.	.	8f/	.
 !	!	!LO:LB:g=original	!	!	!	!	!	!	!
 .	.	4A/	ch`ei	4c\	ch`ei	2r	.	2e/	.
+!	!	!	!LO:MO:mod=non	!	!LO:MO:mod=non	!	!	!	!
 .	.	4A/	no(n)	4c\	no(n)	.	.	.	.
 =29-	=29-	=29-	=29-	=29-	=29-	=29-	=29-	=29-	=29-
 0r	.	2B-\	fal-	2d\	fal-	4r	.	2r	.
 .	.	.	.	.	.	4d\	sì	.	.
 .	.	2A/	-le	2c\	-le	4e\	ch`ei	4r	.
+!	!	!	!	!	!	!	!LO:MO:mod=non	!	!
 .	.	.	.	.	.	4e\	no(n)	4cc\	sì
 .	.	4r	.	4r	.	2f\	fal-	4a\	ch`ei
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=non
 .	.	4c\	Mio	4F/	Mio	.	.	4a\	no(n)
 !	!	!	!	!	!	!	!	!LO:SIC:v:t=custos a	!
 .	.	4.B-\	cor-	4.G/	cor-	2d\	-le	1b-\	fal-
@@ -277,6 +291,7 @@
 4G\	sì	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!
 4A\	ch`ei	2c\	-te	2F/	-te	4r	.	4a\	-le
+!	!LO:MO:mod=non	!	!	!	!	!	!	!	!
 4A\	no(n)	.	.	.	.	4c/	Mio	4a\	Mio
 2B-\	fal-	1r	.	2r	.	4.d\	cor-	4.f/	cor-
 .	.	.	.	.	.	8e\	-ſo_er-	8g/	-ſo_er-
@@ -327,6 +342,7 @@
 4D/	-ra	4F/	-ra	4A/	-ra	4d\	-ra	.	.
 4D/	me	4F/	me	4A/	me	4f\	me	.	.
 =37-	=37-	=37-	=37-	=37-	=37-	=37-	=37-	=37-	=37-
+!	!	!	!	!	!LO:MO:mod=splen-	!	!LO:MO:mod=splen-	!	!
 2C/	ſplen-	2G/	ſplen-	2cny\	ſple(n)-	2e\	ſple(n)-	0r	.
 4BB-y/	-da_e	4B-\	-da_e	4d\	-d`e	4f\	-d`e	.	.
 2F\	del	2c\	del	2f\	del	2a\	del	.	.
@@ -397,3 +413,6 @@
 !!!END: 2022-06-28
 !!!ENC: Andrzej Borzym
 !!!END: 2022-07-15
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-08-16
+!!!filter-modern: sic -sq | autostem -r | tie -s | humtr -p | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"  | shed -e "s/-//B" | modori -m |

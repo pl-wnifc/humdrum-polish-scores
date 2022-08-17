@@ -29,15 +29,20 @@
 *ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*
 *Ivox	*	*Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
 *clefC4	*	*clefF4	*	*clefC4	*	*clefC3	*	*clefC1	*
+*mclefGv2	*	*	*	*mclefGv2	*	*mclefG2	*	*mclefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
 *a:	*	*a:	*	*a:	*	*a:	*	*a:	*
 *M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*	*met(C|)	*	*met(C|)	*
+*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
 !LO:TX:a:t=Seconda Parte	!	!LO:TX:a:t=Seconda Parte	!	!LO:TX:a:t=Seconda Parte.	!	!LO:TX:a:t=Seconda Parte.	!	!LO:TX:a:t=Seconda Parte.	!
+!	!	!	!	!	!	!	!LO:MO:mod=Si	!	!
 0r	.	1r	.	0r	.	1e	SI	1r	.
+!	!	!	!LO:MO:mod=Si	!	!	!	!	!	!LO:MO:mod=Si
 .	.	1A	SI	.	.	1c	che	1cc	SI
 =2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-
+!	!LO:MO:mod=Si	!	!	!	!	!	!	!	!
 1c	SI	1F	che	1A	SI	2r	.	1a	che
 .	.	.	.	.	.	2c/	s'al	.	.
 1A	che	2r	.	1F	che	2c/	co-	2r	.
@@ -223,6 +228,7 @@
 =24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-
 !	!	!	!	!LO:SIC:v:t=custos A	!	!	!	!	!
 2A/	-ra	2AA/	-ra	0A	-ra	2c/	-ra	2r	.
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=Col
 2c\	Col	2A\	Col	.	.	4r	.	2a\	col
 .	.	.	.	.	.	4e\	Col	.	.
 2.c\	ſan-	2F\	ſan-	.	.	2f\	ſan-	2a\	ſan-
@@ -250,7 +256,7 @@
 4Gny/	ho-	.	.	.	.	.	.	.	.
 =28-	=28-	=28-	=28-	=28-	=28-	=28-	=28-	=28-	=28-
 2Fny/	-mai	1r	.	2d\	pa-	.	.	2.a\	Por-
-!	!	!	!	!	!	!LO:SIC:v:t=custos c#	!	!	!
+!	!	!	!	!	!	!LO:SIC:v:t=custos c#	!LO:MO:mod=-gi ho	!	!
 .	.	.	.	.	.	4B/	-ghi ho	.	.
 !	!	!	!	!	!	!LO:LB:g=original	!	!	!
 2E/	pa-	.	.	2e\	-ce à	2c#X/	mai	.	.
@@ -279,6 +285,7 @@
 .	.	.	.	.	.	8e\	.	.	.
 2.d\	Porg'	.	.	.	.	2f#X\	.	.	.
 .	.	2.G\	Porg'	2r	.	1g	-ra	4d/	-ra
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=Por-
 4c\	ho-	.	.	.	.	.	.	2g/	Po-
 2B\	-mai	.	.	2.G/	Por-	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:SIC:v:t=custos b	!
@@ -299,6 +306,7 @@
 2f\	la	2r	.	2D/	la	2d\	pa-	2.a\	la
 2c\	mia	2.AA/	Por-	2A/	mia	2e\	-ce	.	.
 .	.	.	.	.	.	.	.	4a\	mia
+!	!LO:MO:mod=lun-	!	!	!	!	!	!	!	!
 1e	lũ(n)-	.	.	2cny\	lun-	2r	.	2a\	lun-
 .	.	4BB/	-gi ho-	.	.	.	.	.	.
 .	.	2C/	-mai	2c\	-ga	2e\	à	2g/	-ga
@@ -328,3 +336,6 @@
 !!!END: 2022-06-28
 !!!ENC: Natalia Wrzos
 !!!END: 2022-07-14
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-08-16
+!!!filter-modern: sic -sq | autostem -r | tie -s | humtr -p | shed -e "s/-//B" | modori -m |

@@ -25,6 +25,7 @@
 *staff2	*staff1	*
 *Iempty	*Iforte	*
 *	*I"Fortepian	*
+*	*mI"Pianoforte	*
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *a:	*a:	*
@@ -153,7 +154,7 @@
 .	8bb 8gg# 8b\	.
 .	8bbJ 8gg# 8b\	.
 =18	=18	=18
-!LO:TX:b:BI:t=marcato	!	!
+!LO:TX:b:B:i:t=marcato	!	!
 !	!	!LO:DY:b:rj
 2.f 2.F^>\	8dddL 8bb 8dd\	f
 .	8ddd 8bb 8dd\	.
@@ -469,6 +470,7 @@
 4A 4E 4AA\	4e 4c/	.
 8A 8E 8AA\	8e 8c/	.
 =61	=61	=61
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;B&colon;t=Tromba solo	!
 !	!LO:TX:a:i:t=Tromba solo	!
 8A 8E 8AA\	8e 8c/	.
 4A 4E 4AA\	4e 4c/	.
@@ -847,6 +849,7 @@
 .	16gJ 16e 16c 16G/	.
 .	8gJ 8e 8c 8G/	.
 4C 4CC/	8r	.
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;B&colon;t=marcato e risoluto	!
 !	!LO:TX:a:Bi:t=marcato e risoluto.:dur=5es:ext=s:problem=text with extention lines	!
 .	16G/LL	.
 .	16A/JJ	.
@@ -1286,8 +1289,9 @@
 8AL 8AA/	8ccL 8a 8e'</	.
 8FJ 8FF/	8ddJ 8a 8d'</	.
 =187	=187	=187
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;B&colon;t=crescendo molto	!
 !	!LO:TX:b:Bi:t=crescendo molto:problem=dynamics with extention lines	!
-!	!	!LO:HP:b:Bi:t=crescendo molto:ext=s
+!	!	!LO:HP:b:B:i:t=crescendo molto:ext=s
 4E 4EE/	4.ee 4.g#X 4.e/	<
 8D#XL 8DD#X/	.	.
 8D#J 8DD#X/	8ee 8e/	.
@@ -1518,6 +1522,7 @@
 .	16eJ 16c# 16A 16E\	.
 .	8eJ 8c# 8A 8E\	.
 4AA 4AAA/	8r	.
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;B&colon;t=marcato e risoluto	!
 !	!LO:TX:a:Bi:t=marcato e risoluto.:dur=5e:ext=s:problem=text with extention lines	!
 .	16E\LL	.
 .	16F#\JJ	.
@@ -2001,7 +2006,10 @@
 !!!RDF**kern: | = vertical stroke
 !!!RDF**kern: N = linked
 !!!RDF**kern: i = editorial accidental
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-08-17
 !!!EED: Wojciech Jakubiak-Danek
 !!!EEV: 2021-06-02
 !!!ENC: Marcin Jachim
 !!!END: 2021-05-02
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m |

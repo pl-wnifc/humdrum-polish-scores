@@ -2,6 +2,7 @@
 !!!cenid: 18xx:3829
 !!!COM: Wieniawski, Henryk
 !!!COM-rismID: pe137176
+!!!COM-rismid: pe137176
 !!!CDT: 1835/07/10-1880/03/31
 !!!CNT:
 !!!OPR: Concerto I op. 14
@@ -11,12 +12,10 @@
 !!!AGN:
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.80.558
-!!!SMS-shelfwork: 001-001 M
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismSourceID:
-!!!NIFC-islandoraID:
-!!!URL-pdf-islandora:
+!!!SMS-shelfwork: 001-001 M
+!!!NIFC-rismid:
 !!!URL-scan: https://polona.pl/item/concerto-i-op-14,NzIyMDM2MDU/3/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc: UWAGA: części Koncertu: 1. Allegro moderato, 2. Preghiera. Larghetto (od skanu 19), 3. Rondo (od skanu 21)
 !!!AIN: 1 piano 1 violn
@@ -483,7 +482,6 @@
 [1BB	12d#/L	2.d#\	[	1r	.
 .	12b/	.	.	.	.
 .	12f#/J	.	.	.	.
-!	!LO:MO:mod=*null:null	!	!	!	!
 *	*Xtuplet	*	*	*	*
 .	12dd#/L	.	.	.	.
 .	12b/	.	.	.	.
@@ -636,18 +634,18 @@
 12F#/J	.	12dd#J 12f#/	.	.	.	.
 2F#/	(2C#\	4a# 4e/	8r	<	.	.
 .	.	.	(8f#\	.	.	.
+!	!	!	!LO:MO:mod=*Xtuplet	!	!	!
 *	*	*	*tuplet	*	*	*
 .	.	4r	12a#\L	.	.	.
 .	.	.	12g#\	.	.	.
 .	.	.	12f#\J	.	.	.
-!	!	!	!LO:MO:mod=*null:null	!	!	!
 *	*	*	*Xtuplet	*	*	*
 =52	=52	=52	=52	=52	=52	=52
-!	!	!LO:N:vis=4.	!	!	!	!
+!LO:MO:mod=*Xtuplet:null	!	!LO:N:vis=4.	!	!	!	!
+*null	*	*	*	*	*	*
 12r	2D#\	4b/	12r	[	1r	.
 12F#/L	.	.	12f#L 12B\	.	.	.
 12F#/J	.	.	12f#J 12B\	.	.	.
-!	!	!LO:MO:mod=*null:null	!	!	!	!
 *	*	*Xtuplet	*	*	*	*
 6F#/	.	6ryy	6f# 6B\	.	.	.
 12r	.	12g#/	12r	.	.	.
@@ -1856,7 +1854,6 @@ N(>16A#X\KL	.	.	.	.
 =109	=109	=109	=109	=109
 *^	*	*	*	*
 [1BB	[1EE	[1e [1B [1G#	.	4e/	]
-!	!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*	*Xtuplet	*
 !	!	!	!	!LO:TX:b:i:t=leggiero e ben ritmico	!
 .	.	.	.	12eL 12G#'^>/	.
@@ -1927,6 +1924,7 @@ N(>16A#X\KL	.	.	.	.
 .	12b'\J	.	12ff#J 12a'\)	[
 !!LO:REH:t=C
 =113	=113	=113	=113	=113
+!	!	!	!LO:MO:mod=*Xtuplet	!
 *	*	*	*tuplet	*
 !	!	!	!LO:tx:b:t=P:problem:6 na dole zamiast 3	!
 !	!	!	!LO:TX:b:i:t=delicatamente	!
@@ -1935,13 +1933,14 @@ N(>16A#X\KL	.	.	.	.
 .	8r	.	24ee\	.
 .	.	.	24b\	.
 .	.	.	24gg#\JJ)	.
+!	!	!	!LO:MO:mod=*tuplet:null	!
+*	*	*	*null	*
 .	8bb 8gg# 8ee\	.	(24g#\LL	.
 .	.	.	24bb\)	.
 .	.	.	(24b\	.
 .	8r	.	24gg#\	.
 .	.	.	24ee\	.
 .	.	.	24bb\JJ)	.
-!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*Xtuplet	*
 .	8gg# 8ee 8b\	.	(24b\LL	.
 .	.	.	24eee\)	.
@@ -1976,7 +1975,6 @@ N(>16A#X\KL	.	.	.	.
 .	8r	.	24e/LL	<
 .	.	.	24fn/	.
 .	.	.	24e/JJ	.
-!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*Xtuplet	*
 .	4r	.	24d#X/LL	.
 .	.	.	24dn/	.
@@ -2049,6 +2047,7 @@ N(>16A#X\KL	.	.	.	.
 .	.	.	12bbbJ 12ggg#\	[
 =118	=118	=118	=118	=118
 *^	*	*	*	*
+!	!	!	!	!LO:MO:mod=*Xtuplet	!
 *tremolo	*	*tremolo	*	*tuplet	*
 !	!	!	!	!LO:tx:b:t=P:problem:6 na dole zamiast 3	!
 32A/LLL	[1E	(>32d#/LLL	<	12ccccnL 12aaa^<\	.
@@ -2108,6 +2107,7 @@ N(>16A#X\KL	.	.	.	.
 4B 4G# 4E\]	4e/)	>	8gg#\)	>
 .	.	]	.	]
 .	.	.	8r	.
+!	!	!	!LO:MO:mod=*Xtuplet	!
 *	*	*	*tuplet	*
 4rc	4r	.	12g#L 12e'/	p <
 .	.	.	12a 12f#'/	.
@@ -2122,6 +2122,7 @@ N(>16A#X\KL	.	.	.	.
 .	.	.	12bbbJ 12ggg#\	[
 =120	=120	=120	=120	=120
 *^	*	*	*	*
+!	!	!	!	!LO:MO:mod=*Xtuplet	!
 *tremolo	*	*tremolo	*	*tuplet	*
 !	!	!	!	!LO:tx:b:t=P:problem:6 na dole zamiast 3	!
 32A/LLL	[1E	(>32d#/LLL	<	12ccccnL 12aaa^<\	.
@@ -2379,7 +2380,6 @@ N(>16A#X\KL	.	.	.	.
 [4B/	.	12ff#/L]	.	.	.	.
 .	.	12een/	.	.	.	.
 .	.	12ddn/J	.	.	.	.
-!LO:MO:mod=*null:null	!	!LO:MO:mod=*null:null	!	!	!	!
 *Xtuplet	*	*Xtuplet	*	*	*	*
 12B/L]	.	12dd/L	4fn\	.	.	.
 (12c#/)	.	12cc#/	.	.	.	.
@@ -2409,7 +2409,6 @@ N(>16A#X\KL	.	.	.	.
 [1AA)	12e\L	.	(2.cc#\	.
 .	12c#\	[	.	[
 .	12E\J	.	.	.
-!	!LO:MO:mod=*null:null	!	!	!
 *	*Xtuplet	*	*	*
 .	12e\L	.	.	.
 .	12c#\	.	.	.
@@ -2545,7 +2544,6 @@ N(>16A#X\KL	.	.	.	.
 .	4e 4B#X 4E\	.	.	.
 .	.	.	8b#X\)	.
 =141	=141	=141	=141	=141
-!	!LO:MO:mod=*null:null	!	!	!
 *	*Xtuplet	*	*	*
 2AA 2AAA/)	12r	.	2cc#\	]
 .	12eL 12c# 12E\	]	.	.
@@ -3062,6 +3060,8 @@ N(>16A#X\KL	.	.	.	.
 .	.	.	16eee\	.
 .	.	.	16gggg#\JJ	.
 =170	=170	=170	=170	=170
+!	!	!	!LO:MO:mod=*Xtuplet:null	!
+*	*	*	*null	*
 1E 1EE	8r	mf	8bbbb\L	.
 *	*	*	*X8va	*
 !	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=leggiero	!	!	!
@@ -3069,6 +3069,8 @@ N(>16A#X\KL	.	.	.	.
 .	8g#L 8e 8dn/	<	(24bbb\L	f <
 .	.	.	24ddd\	.
 .	.	.	24ee\JJ)	.
+!	!	!	!LO:MO:mod=*tuplet:null	!
+*	*	*	*null	*
 .	8f##X 8e 8c#/	.	(24ee\LL	.
 .	.	.	24ccc#\	.
 .	.	.	24aaa#X\)	.
@@ -5737,10 +5739,10 @@ N(>16A#X\KL	.	.	.	.
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: N = linked
-!!!filter-modern: sic -sq | shed -e "s/yy//" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/tx(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-16
 !!!ENC: Marta Lawrence
 !!!END: 2022-05-25
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-08-02
+!!!filter-modern: sic -sq | shed -e "s/yy//" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/tx(.*):t=P:/tx$1:t=P:/LG" | modori -m
