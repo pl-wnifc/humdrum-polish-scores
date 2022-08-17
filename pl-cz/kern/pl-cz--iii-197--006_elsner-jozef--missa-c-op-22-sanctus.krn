@@ -2,7 +2,6 @@
 !!!cenid: 18xx:265
 !!!COM: Elsner, Józef
 !!!COM-rismID: pe30000957
-!!!COM-rismid: pe30000957
 !!!CDT: 1769/06/01-1854/04/18
 !!!CNT: Polish
 !!!OPR: Missa C op. 22
@@ -13,7 +12,9 @@
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-197
 !!!SMS-shelfwork: 001-006 M
-!!!NIFC-rismid:
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID: pl-cz:36373
+!!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-cz%3A36373/datastream/PDF/view
 !!!URL-scan:
 !!!ONB-nifc: UWAGA: części Mszy: Kyrie, Gloria, Graduale, Credo, Offertorio, Sanctus, Benedictus, Agnus
 !!!AIN: 4 cor 5 empty 2 tenor 1 timpa
@@ -367,8 +368,8 @@
 !!!system-decoration: [(g1)]g2[(g3)]g4
 !!!RDF**kern: <= below
 !!!RDF**kern: >= above
+!!!filter-modern: sic -sq | tie -s | autostem -r | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"  | modori -m |
 !!!ENC: Anna Matuszewska
 !!!END: 2020-06-17
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-08-16
-!!!filter-modern: sic -sq | tie -s | autostem -r | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"  | modori -m |

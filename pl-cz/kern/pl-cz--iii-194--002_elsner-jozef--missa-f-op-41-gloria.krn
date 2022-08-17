@@ -2,23 +2,24 @@
 !!!cenid: 18xx:241
 !!!COM: Elsner, Józef
 !!!COM-rismID: pe30000957
-!!!COM-rismid: pe30000957
 !!!CDT: 1769/06/01-1854/04/18
 !!!CNT: Polish
 !!!OPR: Missa F op. 41
 !!!OTL: Gloria
+!!!OMD:
+!!!OMD-mod: Allegro assai
 !!!OMV: 002
 !!!PDT: 1836
 !!!AGN: Sacred; Mass
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-194
 !!!SMS-shelfwork: 001-002 M
-!!!NIFC-rismid:
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID: pl-cz:35936
+!!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-cz%3A35936/datastream/PDF/view
 !!!URL-scan:
 !!!ONB-nifc: UWAGA: części Mszy: Kyrie, Gloria, Credo, Sanctus, Benedictus, Agnus, Dona nobis
 !!!AIN: 1 alto 1 bass 1 cbass 1 cello 2 clars 2 cor 2 fagot 2 flt 2 oboe 1 organ 1 soprn 1 tenor 1 timpa 1 tromb 2 tromp 1 viola 2 violn
-!!!OMD:
-!!!OMD-mod: Allegro assai
 !!!key: F
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*group1	*	*group1	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -3021,10 +3022,10 @@
 !!!system-decoration: [(ww)][(bras)]<s14>[(vox)][(str)]{(klav)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b)/LO:dy:$1/L" | shed -e "s/LO:HP:(a|b)/LO:hp:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:N:/LO:n:$1/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^custos:/Xcustos:/I" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
 !!!ENC: Tomasz Grochalski
 !!!END: 2020-04-04
 !!!ENC: Jędrzej Mróz
 !!!END: 2021-12-10
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-13
-!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b)/LO:dy:$1/L" | shed -e "s/LO:HP:(a|b)/LO:hp:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:N:/LO:n:$1/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^custos:/Xcustos:/I" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"

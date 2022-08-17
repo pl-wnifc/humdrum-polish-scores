@@ -4356,7 +4356,7 @@
 !!!RDF**dynam: p = po
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g"  | shed -k -e "s/:TUP:/:tup:/L" | modori -m | rid -lid
 !!!ENC: Andrzej Gręziak
-!!!END: 2021-03-30 poprawione 2021-04-14
+!!!END: 2021-04-14
 !!!EED: Leszek Kubiak
 !!!EEV: 2021-04-19
 !!!EED-modern: Antoni Szymański

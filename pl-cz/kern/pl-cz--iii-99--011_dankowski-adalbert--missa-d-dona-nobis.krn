@@ -2774,7 +2774,7 @@
 !!!RDF**kern: | = vertical stroke
 !!LO:MO:ori
 !!!RDF**dynam: p = "p:", fontstyle="bold-italic"
-!!!RDF**dynam: f = "f:", fontstyle="bold-italic"!!!ENC: Katarzyna Serwa
+!!!RDF**dynam: f = "f:", fontstyle="bold-italic"
 !!LO:MO:end
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -ke "s/\(y(?!y)/(/" | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/r[a-gA-G]+/r/D"| shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | modori -m | humtr -p
 !!!ENC: Katarzyna Serwa

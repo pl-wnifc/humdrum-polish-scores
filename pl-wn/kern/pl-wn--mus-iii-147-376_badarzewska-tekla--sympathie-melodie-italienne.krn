@@ -1048,7 +1048,7 @@ N([4BBB-\	.	4r	.	.
 !!!RDF**kern: < = below
 !!!RDF**kern: N = link
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | rid -lid
-!!!ENC: Arek Malec
+!!!ENC: Arkadiusz Malec
 !!!END: 2022-04-11
 !!!ENC: Katarzyna Serwa
 !!!END: 2022-05-04

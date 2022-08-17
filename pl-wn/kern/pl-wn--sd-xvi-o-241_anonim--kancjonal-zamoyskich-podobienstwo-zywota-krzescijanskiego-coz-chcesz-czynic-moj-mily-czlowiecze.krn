@@ -139,7 +139,7 @@
 !!!RDF**kern: l =terminal long
 !!LO:MO:end
 !!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r | tie -s | humtr -p | modori -m
-!!!ENC: Arek Malec
+!!!ENC: Arkadiusz Malec
 !!!END: 2022-04-24
 !!!ENC: Krzysztof Stępień
 !!!END: 2022-05-05

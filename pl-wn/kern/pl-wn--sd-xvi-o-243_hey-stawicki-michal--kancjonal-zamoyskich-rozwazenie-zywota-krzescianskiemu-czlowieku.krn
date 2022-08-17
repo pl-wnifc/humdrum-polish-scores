@@ -306,9 +306,9 @@
 !!LO:MO:end
 !!!RDF**kern: @ = marked note, color=#aaa
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -ke "s/\(y(?!y)/(/" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r | tie -s | humtr -p | modori -m
-!!!ENC: Arek Malec
+!!!ENC: Arkadiusz Malec
 !!!END: 2022-05-02
-!!!ENC: Andrʒej Kubicʒek
+!!!ENC: Andrzej Kubiczek
 !!!END: 2022-05-09
-!!!ENC-modern: Andrʒej Borʒym
+!!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-07-22

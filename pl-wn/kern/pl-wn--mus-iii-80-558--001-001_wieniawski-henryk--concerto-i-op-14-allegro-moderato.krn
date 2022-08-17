@@ -2,7 +2,6 @@
 !!!cenid: 18xx:3829
 !!!COM: Wieniawski, Henryk
 !!!COM-rismID: pe137176
-!!!COM-rismid: pe137176
 !!!CDT: 1835/07/10-1880/03/31
 !!!CNT:
 !!!OPR: Concerto I op. 14
@@ -15,7 +14,9 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!SMS-shelfwork: 001-001 M
-!!!NIFC-rismid:
+!!!NIFC-rismSourceID:
+!!!NIFC-islandoraID:
+!!!URL-pdf-islandora:
 !!!URL-scan: https://polona.pl/item/concerto-i-op-14,NzIyMDM2MDU/3/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc: UWAGA: części Koncertu: 1. Allegro moderato, 2. Preghiera. Larghetto (od skanu 19), 3. Rondo (od skanu 21)
 !!!AIN: 1 piano 1 violn
@@ -5739,10 +5740,10 @@ N(>16A#X\KL	.	.	.	.
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: N = linked
+!!!filter-modern: sic -sq | shed -e "s/yy//" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/tx(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-16
 !!!ENC: Marta Lawrence
 !!!END: 2022-05-25
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-08-02
-!!!filter-modern: sic -sq | shed -e "s/yy//" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/tx(.*):t=P:/tx$1:t=P:/LG" | modori -m

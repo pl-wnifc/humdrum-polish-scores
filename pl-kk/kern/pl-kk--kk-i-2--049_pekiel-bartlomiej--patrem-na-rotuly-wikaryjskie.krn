@@ -1383,7 +1383,7 @@
 !!!RDF**kern: l = terminal long
 !!!RDF**kern: i = editorial accidental
 !!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/[<>]//g"
-!!!ENC: Arek Malec
+!!!ENC: Arkadiusz Malec
 !!!END: 2022-05-05
 !!!ENC: Andrzej Borzym
 !!!END: 2022-05-11
