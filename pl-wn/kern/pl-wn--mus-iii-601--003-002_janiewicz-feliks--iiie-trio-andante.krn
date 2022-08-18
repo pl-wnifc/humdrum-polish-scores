@@ -20,22 +20,27 @@
 !!!URL-scan: https://polona.pl/item/six-trios-pour-deux-violons-basse,MTAxMDA3MzY2/0/#item @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc: UWAGA: źródło zawiera 6 Trio na 2 skrzypiec i wiolonczelę. Violino Primo (od skanu 3), Violino Secondo (od skanu 37), Basso (od skanu 61). Basso to partia wiolonczeli. Części Ie Trio: 1. Allegro, 2. Andante, 3. Rondeau/Allegro
 !!!AIN: 1 cello 2 violn
+!!!OMD:
+!!!OMD-mod: Andante
 !!!key: E
 **kern	**dynam	**kern	**dynam	**kern	**dynam
 *part3	*part3	*part2	*part2	*part1	*part1
 *staff3	*	*staff2	*	*staff1	*
 *I"BASSO	*	*I"VIOLINO SECONDO	*	*I"VIOLINO PRIMO	*
-*I'vlc	*	*I'vl II	*	*I'vl I	*
-*ICstr	*	*ICstr	*	*ICstr	*
+*mI"Violoncello	*	*mI"Violino II	*	*mI"Violino I	*
+*I'vlc	*	*I'vl 2	*	*I'vl 1	*
 *Icello	*	*Ivioln	*	*Ivioln	*
+*ICstr	*	*ICstr	*	*ICstr	*
 *clefF4	*	*clefG2	*	*clefG2	*
 *k[f#c#g#d#]	*	*k[f#c#g#d#]	*	*k[f#c#g#d#]	*
 *E:	*	*E:	*	*E:	*
 *M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=semplicemente e sostenuto	!
 !	!	!	!	!LO:TX:b:t=semplicemente e sostenuto	!
-!	!	!LO:TX:a:t=I	!	!LO:TX:a:t=Rendi sereno il ciglio. Par handel	!
-!LO:TX:a:B:t=Andante.	!	!LO:TX:a:B:t=Andante.	!	!LO:TX:a:B:t=Andante	!
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=Rendi sereno il ciglio. By Handel	!
+!	!	!LO:TX:a:t=I:mod=	!	!LO:TX:a:t=Rendi sereno il ciglio. Par handel	!
+!LO:TX:a:B:t=Andante.:mod=	!	!LO:TX:a:B:t=Andante.:mod=	!	!LO:TX:a:B:t=Andante:mod=	!
 2.B\	p	2.r	.	4dd#\	.
 .	.	.	.	4cc#\	.
 .	.	.	.	4b\	.
@@ -53,7 +58,7 @@
 2F#\]	.	2A#X/	.	2f#/	.
 4r	.	4r	.	4r	.
 =5	=5	=5	=5	=5	=5
-!	!	!LO:TX:a:t=I	!	!	!
+!	!	!LO:TX:a:t=I:mod=	!	!	!
 4d#\	.	2.r	.	4b\	.
 4c#\	.	.	.	4cc#\	.
 4B\	.	.	.	4dd#\	.
@@ -63,7 +68,7 @@
 =7	=7	=7	=7	=7	=7
 2.BB/	.	2.d#/	.	2.b\	.
 =8	=8	=8	=8	=8	=8
-!	!	!LO:TX:a:t=I	!	!	!
+!	!	!LO:TX:a:t=I:mod=	!	!	!
 4F#\	.	2.r	.	4cc#\	.
 .	.	.	.	8qqee/	.
 4B\	.	.	.	4dd#\	.
@@ -71,15 +76,15 @@
 .	.	.	.	16qqcc#/JJ	.
 4G#\	.	.	.	4b\	.
 =9	=9	=9	=9	=9	=9
-!LO:TX:b:i:t=rinf	!	!LO:TX:b:i:t=rinf	!	!	!
-(2.C#/	.	2.g#/ 2.b	.	2.ee#X\	>
-.	.	.	.	8qqgg#/L	]
-.	.	.	.	8qqff#/	.
-.	.	.	.	8qqee#/	.
-.	.	.	.	8qqff#/	.
-.	.	.	.	8qqgg#/J	]]
+!	!LO:DY:t=rinf:mod=%s	!	!LO:DY:t=rinf:mod=%s	!	!
+(2.C#/	rf	2.g#/ 2.b	rf	2.ee#X\	>
+.	.	.	.	16qqgg#/L	.
+.	.	.	.	16qqff#/	.
+.	.	.	.	16qqee#/	.
+.	.	.	.	16qqff#/	.
+.	.	.	.	16qqgg#/J	.
 =10	=10	=10	=10	=10	=10
-4D#\)	p	4a#X/	.	4ff#\	.
+4D#\)	p	4a#X/	.	4ff#\	]
 4r	.	4r	.	4r	.
 4r	.	4r	.	4r	.
 !	!	!	!	!LO:LB:g=original	!
@@ -95,7 +100,7 @@
 !	!	!LO:LB:g=original	!	!	!
 =13	=13	=13	=13	=13	=13
 2FF#/	.	2f#/	.	2f#/	.
-!	!LO:DY:b:t=F	!	!LO:DY:b:t=F	!	!LO:DY:b:t=F
+!	!LO:DY:t=F:mod=%s	!	!LO:DY:t=F:mod=%s	!	!LO:DY:t=F:mod=%s
 4A#X\	f	4f#/	f	4cc#\	f
 =14	=14	=14	=14	=14	=14
 4B\	.	4f#/	.	8dd#`\L	.
@@ -106,7 +111,9 @@
 =15	=15	=15	=15	=15	=15
 2.F#\	.	2.a#X/	.	2.cc#\	.
 =16	=16	=16	=16	=16	=16
-!LO:TX:a:t=I	!	!LO:TX:a:t=I	!	!	!
+!	!	!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!null
+!LO:TX:a:t=I:mod=	!	!LO:TX:a:t=I:mod=	!	!	!LO:MO:null:mod=p
 2.r	.	2.r	.	[2.ff#\	.
 =17	=17	=17	=17	=17	=17
 4BB/	p	(4dd#\	p	4ff#\]	.
@@ -115,6 +122,7 @@
 =18	=18	=18	=18	=18	=18
 4E\	.	(4g#/	.	(8dd#\L	.
 .	.	.	.	8cc#\)	.
+!	!	!	!	!LO:MO:mod=16qqcc#	!
 .	.	.	.	8qqcc#/	.
 4F#\	.	4f#/	.	8.b\	.
 .	.	.	.	16a#X\Jk	.
@@ -125,8 +133,8 @@
 .	.	.	.	[2f#/	.
 4G#\	.	4b\	.	.	.
 =20	=20	=20	=20	=20	=20
-!	!	!LO:TX:b:i:t=rinf	!	!	!
-4A#X\	.	2cc#\	.	4f#/]	.
+!	!	!	!LO:DY:t=rinf:mod=%s	!	!
+4A#X\	.	2cc#\	rf	4f#/]	.
 4F#\	.	.	.	4r	.
 4B\	.	4dd#\	.	4r	.
 =21	=21	=21	=21	=21	=21
@@ -154,15 +162,18 @@
 .	.	.	.	4a#X\	.
 !	!	!LO:LB:g=original	!	!	!
 =27	=27	=27	=27	=27	=27
-!LO:TX:a:t=I	!	!	!	!	!
+!LO:TX:a:t=I:mod=	!	!	!	!	!
 2.r	.	4r	.	4r	.
 .	.	[2a#X/	.	[2ff#\	<
 =28	=28	=28	=28	=28	=28
+!	!	!	!	!	!LO:MO:mod=.
 2D#\	.	4a#/]	.	4ff#\]	[
+!	!	!	!	!	!LO:MO:null:mod=[
 .	.	4g#/	.	4ee#X\	.
 4G#\	.	4f#/	.	4dd#\	.
 =29	=29	=29	=29	=29	=29
 2A#X\	.	2f#/	.	2a#X/	.
+!LO:SIC:s=4AA#	!	!	!	!	!
 4AA/	.	4e#X/	.	4cc#X\	.
 =30	=30	=30	=30	=30	=30
 2.BB/	.	2d#/	.	2.dd#\	.
@@ -171,7 +182,9 @@
 2.C#/	p	2a#X/	p	[2.een\	<
 .	.	4g#/	.	.	.
 =32	=32	=32	=32	=32	=32
+!	!	!LO:SIC:s=2f##	!	!	!LO:MO:mod=.
 2D#\	.	2f#X/	.	4ee\]	[
+!	!	!	!	!	!LO:MO:null:mod=[
 .	.	.	.	4dd#\	.
 4E\	.	4g#/	.	4gg#\	.
 !LO:LB:g=original	!	!	!	!	!
@@ -179,16 +192,17 @@
 2.D#\	.	2g#/	pp	4.b\	.
 .	.	.	.	8cc#\	.
 .	.	.	.	8qqb/	.
+!	!	!LO:SIC:s=4f##	!	!	!
 .	.	4f#X/	.	4a#Xt</	.
 =34	=34	=34	=34	=34	=34
 2.GG#/	.	2.g#/	.	2.g#/	.
 =35	=35	=35	=35	=35	=35
-!LO:TX:b:i:t=rinf	!	!	!LO:DY:b:t=F	!	!
-2BB;/	.	2d#;/	f	2bT;\	.
+!	!LO:DY:t=rinf:mod=%s	!	!LO:DY:t=F:mod=%s	!	!
+2BB;/	rf	2d#;/	f	2bT;\	.
 4r	.	4r	.	8f#/	.
 .	.	.	.	8r	.
 =36	=36	=36	=36	=36	=36
-!	!	!LO:TX:a:t=I	!	!	!
+!	!	!LO:TX:a:t=I:mod=	!	!	!
 2.B\	p	2.r	.	4dd#\	.
 .	.	.	.	4cc#\	.
 .	.	.	.	4b\	.
@@ -215,14 +229,15 @@
 =42	=42	=42	=42	=42	=42
 2.BB/	.	2.d#/	.	2.b/	.
 =43	=43	=43	=43	=43	=43
-!	!	!LO:TX:a:t=I	!	!	!
+!	!	!LO:TX:a:t=I:mod=	!	!	!
 4F#\	.	2.r	.	4cc#\	.
 4B\	.	.	.	4dd#\	.
 4G#\	.	.	.	4b\	.
 =44	=44	=44	=44	=44	=44
-!LO:TX:b:i:t=rinf	!	!LO:TX:b:i:t=rinf	!	!	!
-2.C#/	.	2.g#/ 2.b	.	2.ee#X\	<
+!	!LO:DY:t=rinf:mod=%s	!	!LO:DY:t=rinf:mod=%s	!	!LO:MO:mod=>
+2.C#/	rf	2.g#/ 2.b	rf	2.ee#X\	<
 =45	=45	=45	=45	=45	=45
+!	!	!	!	!	!LO:MO:mod=]
 4D#\	p	4a#X/	p	4ff#\	[
 4r	.	4r	.	4r	.
 4r	.	4r	.	4r	.
@@ -238,8 +253,8 @@
 .	.	2e#X/	.	2g#T</	.
 =48	=48	=48	=48	=48	=48
 2FF#/	.	2f#/	.	2f#/	.
-!	!	!	!LO:DY:b:t=F	!LO:TX:b:i:t=rinf	!
-4A#X\	.	4f#/	f	4cc#`\	.
+!	!	!	!LO:DY:t=F:mod=%s	!	!LO:DY:t=rinf:mod=%s
+4A#X\	.	4f#/	f	4cc#`\	rf
 =49	=49	=49	=49	=49	=49
 4B\	.	4f#/	.	8dd#`\L	.
 .	.	.	.	8cc#`\J	.
@@ -249,10 +264,12 @@
 =50	=50	=50	=50	=50	=50
 2.F#\	.	2.a#X/	.	2.cc#\	.
 =51	=51	=51	=51	=51	=51
-!LO:TX:a:t=I	!	!LO:TX:a:t=I	!	!	!
+!LO:TX:a:t=I:mod=	!	!LO:TX:a:t=I:mod=	!	!	!
 2.r	.	2.r	.	[2.ff#\	<
 =52	=52	=52	=52	=52	=52
+!	!	!	!	!	!LO:MO:mod=.
 4BB/	p	(4dd#\	p	4ff#\]	[
+!	!	!	!	!	!LO:MO:null:mod=[
 4C#/	.	4cc#\	.	4ee\	.
 4D#\	.	4b\)	.	4dd#\	.
 !	!	!LO:LB:g=original	!	!LO:LB:g=original	!
@@ -269,11 +286,12 @@
 .	.	.	.	[2f#/	.
 4G#\	.	4b\	.	.	.
 =55	=55	=55	=55	=55	=55
-!	!	!LO:TX:b:i:t=rinf	!	!	!
-4A#X\	.	2cc#\	.	4f#/]	.
+!	!	!	!LO:DY:t=rinf:mod=%s	!	!
+4A#X\	.	2cc#\	rf	4f#/]	.
 4F#\	.	.	.	4r	.
 4B\	.	4dd#\	.	4r	.
 =56	=56	=56	=56	=56	=56
+!	!	!	!	!LO:SIC:s=4ee	!
 4G#\	.	2.b\	p	4een\	.
 4D#\	.	.	.	4ff#\	.
 4E\	.	.	.	4gg#\	.
@@ -290,42 +308,49 @@
 .	.	4cc#\	.	4ee\	.
 .	.	4b\	.	4dd#\	.
 =60	=60	=60	=60	=60	=60
-!	!	!LO:TX:b:i:t=rinf	!	!	!
-2G#\	.	2b\	.	2ee\	>]
+!	!	!	!LO:DY:t=rinf:mod=%s	!	!
+2G#\	.	2b\	rf	2ee\	>]
 4r	.	4r	.	4r	.
 =61	=61	=61	=61	=61	=61
 2F#\	.	4cc#\	p	4ee\	p
 .	.	4b\	.	4dd#\	.
 4r	.	4a#X/	.	4cc#\	.
 =62	=62	=62	=62	=62	=62
-!	!	!	!LO:DY:b:t=F	!	!
+!	!	!	!LO:DY:t=F:mod=%s	!	!
 2B\	.	2b\	f	2dd#\	>]
 4r	.	4r	.	4r	.
 =63	=63	=63	=63	=63	=63
-!	!	!LO:TX:a:t=I	!	!	!
+!LO:SIC:s=2D# 2B;	!	!LO:TX:a:t=I:mod=	!	!	!
 2D#\ 2B	.	2.r;	.	2ff#;\	.
+!LO:SIC:s=4r	!	!	!	!	!
 4r;	.	.	.	4b\	.
 =64	=64	=64	=64	=64	=64
-!	!	!LO:TX:a:t=I	!	!	!
+!	!	!LO:TX:a:t=I:mod=	!	!	!
 4E\ 4B	.	2.r	.	4r	.
 4r	.	.	.	4r	.
 4r	.	.	.	4gg#\	.
 .	.	.	.	16qqaa#X/LL	.
 .	.	.	.	16qqbb/JJ	.
-.	.	.	.	8qqbb/	.
 =65	=65	=65	=65	=65	=65
+.	.	.	.	8qqbb/	.
 2F#;\	.	4b;\	.	2dd#;\	.
 .	.	2a#X/	.	.	.
+!	!	!	!	!LO:SIC:s=4cc#T	!
 4FF#/	.	.	.	4cc#T;\	.
 =66	=66	=66	=66	=66	=66
+!	!	!LO:MO:mod=2.b	!	!	!
 2.BB/	.	2b\	.	2.b\	.
+!	!	!LO:MO:mod=.	!	!	!
 .	.	4r	.	.	.
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2,s3)]
+!!!system-decoration: [(*)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-21
 !!!ENC: Jan Barakat
 !!!END: 2022-07-01
+!!!ENC-modern: Andrzej Kubiczek
+!!!END-modern: 2022-08-17
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | tie -s

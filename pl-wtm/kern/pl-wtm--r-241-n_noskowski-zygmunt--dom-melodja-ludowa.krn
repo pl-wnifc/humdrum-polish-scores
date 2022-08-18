@@ -20,187 +20,193 @@
 !!!OMD: Adagio
 !!!AIN: 1 empty 1 tenor
 !!!key:
-**kern	**text	**dynam	**kern	**text	**text	**dynam
-*part2	*part2	*part2	*part1	*part1	*part1	*part1
-*staff2	*staff2	*	*staff1	*staff1	*staff1	*
-*Iempty	*	*	*Itenor	*	*	*
-*I"[Basso]	*	*	*I"[Tenore]	*	*	*
-*I'[B]	*	*	*I'[T]	*	*	*
-*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]
-*>A	*>A	*>A	*>A	*>A	*>A	*>A
-*clefF4	*	*	*clefG2	*	*	*
-*	*	*	*ITrd7c12	*	*	*
-*k[f#c#]	*	*	*k[f#c#]	*	*	*
-*D:	*	*	*D:	*	*	*
-*M4/4	*	*	*M4/4	*	*	*
-*met(c)	*	*	*met(c)	*	*	*
-=1	=1	=1	=1	=1	=1	=1
-*^	*	*	*^	*	*	*
-!	!	!	!LO:DY:a:rj	!	!	!	!	!LO:DY:b:rj
-4F#/	4F#\	.	p	4F#/	4F#\	1._Kie-	2._Py-	p
-8.F#/	8.F#\	.	<	8.F#/	8.F#\	-dym	-tam	.
-!	!	!	!	!	!	!	!	!LO:HP:a
-.	.	.	.	.	.	.	.	<
-16E/	16E\	.	.	16E/	16E\	wę-	go	.
-4D/	4D\	.	.	4D/	4D\	-drow-	więc:	.
-4F#/	4F#\	.	[	4F#/	4F#\	-ca	o!	[
-=2	=2	=2	=2	=2	=2	=2	=2	=2
-!	!	!	!	!	!	!	!	!LO:HP:a
-2B/	2B\	.	>	2B/	2B\	py-	bra-	>
-4A/	4A\	.	]	4A/	4A\	-tał:	-cie!	]
-4r	4ryy	.	.	4r	4ryy	.	.	.
-=3	=3	=3	=3	=3	=3	=3	=3	=3
-!	!	!	!	!	!	!	!	!LO:HP:a
-2A/	2F#\	.	.	2A/	2D\	skąd	gdzież	<
-.	.	.	<	.	.	.	.	.
-4c#/	4E\	.	.	4A/	4G\	i-	cier-	.
-4d/	4D\	.	[[	4A/	4F#\	-dziesz	-pień	[
-=4	=4	=4	=4	=4	=4	=4	=4	=4
-!	!	!	!	!	!	!	!	!LO:HP:a
-2.A/	2.C#\	.	>	2.e/	2.G\	ty?	kres?	>
-.	.	.	.	.	.	.	.	]
-4G/	4C#\	.	]	4A/	4E\	Ach!	Ach!	.
-=5	=5	=5	=5	=5	=5	=5	=5	=5
-2F#^/	2D\	.	.	2A^/	2D\	z_do-	w_do-	.
-!	!	!	!LO:HP:a	!	!	!	!	!LO:HP:a
-.	.	.	>	.	.	.	.	>
-4A/	4D\	.	]	4F#/	4D\	-mu,	-mu,	.
-4A/	4D\	.	.	4d/	4F#\	ach!	ach!	]
+**kern	**text	**mod-text	**mod-text	**dynam	**mod-dynam	**kern	**text	**text	**dynam
+*part2	*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1
+*staff2	*staff2	*staff2	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1	*
+*Iempty	*	*	*	*	*	*Itenor	*	*	*
+*I"[Basso]	*	*	*	*	*	*I"[Tenore]	*	*	*
+*mI"Basso	*	*	*	*	*	*mI"Tenore	*	*	*
+*I'[B]	*	*	*	*	*	*I'[T]	*	*	*
+*mI'B	*	*	*	*	*	*mI'T	*	*	*
+*clefF4	*	*	*	*	*	*clefG2	*	*	*
+*	*	*	*	*	*	*ITrd7c12	*	*	*
+*k[f#c#]	*	*	*	*	*	*k[f#c#]	*	*	*
+*D:	*	*	*	*	*	*D:	*	*	*
+*M4/4	*	*	*	*	*	*M4/4	*	*	*
+*met(c)	*	*	*	*	*	*met(c)	*	*	*
+*mmet(c)	*	*	*	*	*	*mmet(c)	*	*	*
+=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
+*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]
+*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A
+*^	*	*	*	*	*	*^	*	*	*
+!	!	!	!	!	!LO:DY:a:rj	!	!	!	!	!	!LO:DY:b:rj
+4F#/	4F#\	.	1._Kie-	2._Py-	p	p	4F#/	4F#\	1._Kie-	2._Py-	p
+8.F#/	8.F#\	.	-dym	-tam	<	<	8.F#/	8.F#\	-dym	-tam	.
+!	!	!	!	!	!	!	!	!	!	!	!LO:HP:a
+.	.	.	.	.	.	.	.	.	.	.	<
+16E/	16E\	.	wę-	go	.	.	16E/	16E\	wę-	go	.
+4D/	4D\	.	-drow-	więc:	.	.	4D/	4D\	-drow-	więc:	.
+4F#/	4F#\	.	-ca	o!	[	[	4F#/	4F#\	-ca	o!	[
+=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
+!	!	!	!	!	!	!	!	!	!	!	!LO:HP:a
+2B/	2B\	.	py-	bra-	>	>	2B/	2B\	py-	bra-	>
+4A/	4A\	.	-tał:	-cie!	]	]	4A/	4A\	-tał:	-cie!	]
+4r	4ryy	.	.	.	.	.	4r	4ryy	.	.	.
+=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+!	!	!	!	!	!	!	!	!	!	!	!LO:HP:a
+2A/	2F#\	.	skąd	gdzież	.	.	2A/	2D\	skąd	gdzież	<
+.	.	.	.	.	<	<	.	.	.	.	.
+4c#/	4E\	.	i-	cier-	.	.	4A/	4G\	i-	cier-	.
+4d/	4D\	.	-dziesz	-pień	[[	[[	4A/	4F#\	-dziesz	-pień	[
+=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
+!	!	!	!	!	!	!	!	!	!	!	!LO:HP:a
+2.A/	2.C#\	.	ty?	kres?	>	>	2.e/	2.G\	ty?	kres?	>
+.	.	.	.	.	.	.	.	.	.	.	]
+4G/	4C#\	.	Ach!	Ach!	]	]	4A/	4E\	Ach!	Ach!	.
+=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
+2F#^/	2D\	.	z_do-	w_do-	.	.	2A^/	2D\	z_do-	w_do-	.
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:HP:a
+.	.	.	.	.	>	>	.	.	.	.	>
+4A/	4D\	.	-mu,	-mu,	]	]	4F#/	4D\	-mu,	-mu,	.
+4A/	4D\	.	ach!	ach!	.	.	4d/	4F#\	ach!	ach!	]
 !!LO:LB:g=original
-=6	=6	=6	=6	=6	=6	=6	=6	=6
-!	!	!	!LO:HP:a	!	!	!	!	!LO:HP:a
-2d/	2D\	.	<	2f#/	2A\	z_do-	w_do-	<
-!	!	!	!LO:HP:a	!	!	!	!	!LO:HP:a
-.	.	.	[ >	.	.	.	.	[ >
-4d/	4F#\	.	]	4d/	4A\	-mu,	-mu,	]
-4d/	4G\	.	.	4B/	4G\	z_wes-	od-	.
-=7	=7	=7	=7	=7	=7	=7	=7	=7
-4.d/	4.A\	.	.	4.A/	4.F#\	-tchnie-	-po-	.
-8d/	8A\	.	.	8A/	8F#\	-niem	-wie	.
-4B/	4A\	.	.	4A/	4D\	od-	mi	.
-4c#/	4A\	.	.	4A/	4E\	-rzekł	śród	.
-=8	=8	=8	=8	=8	=8	=8	=8	=8
-4d/	4D\	.	.	4A/	4F#\	mi.	łez.	.
-!	!	!	!LO:HP:a	!	!	!	!	!
-4rc	4AA\	o!	<	4rcc	4r	.	.	.
-!	!	!	!LO:DY:a:rj	!	!	!	!	!LO:DY:b:rj
-4rc	4D\	tak,	[ f	4rcc	4r	.	.	p
-!	!	!	!LO:HP:a	!	!	!	!	!LO:HP:a
-4A/	4F#\	.	< [	4A/	4D\	Ach!	Ach!	< [
-=9	=9	=9	=9	=9	=9	=9	=9	=9
-!	!	!	!LO:HP:a	!	!	!	!	!LO:HP:a
-2A/	2F#\	.	>	2A/	2D\	z_do-	w_do-	>
-4A/	4D\	.	]	4F#/	4D\	-mu,	-mu,	]
-!	!	!	!LO:HP:a	!	!	!	!	!LO:HP:a
-4B/	4BB\	.	< [	4d/	4F#\	ach	ach	<
-=10	=10	=10	=10	=10	=10	=10	=10	=10
-!	!	!	!LO:HP:a	!	!	!	!	!
-2c#/	2AA#X\	.	>	2f#/	2F#\	z_do-	w_do-	[
-!	!	!	!	!	!	!	!	!LO:HP:a
-.	.	.	.	.	.	.	.	>
-4B/	4BB\	.	]	4d/	4F#\	-mu,	-mu,	.
-.	.	.	.	.	.	.	.	]
-4d/	4GG\	.	.	4B/	4G\	z_wes-	od-	.
+=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:HP:a
+2d/	2D\	.	z_do-	w_do-	<	<	2f#/	2A\	z_do-	w_do-	<
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:HP:a
+.	.	.	.	.	[ >	[ >	.	.	.	.	[ >
+4d/	4F#\	.	-mu,	-mu,	]	]	4d/	4A\	-mu,	-mu,	]
+4d/	4G\	.	z_wes-	od-	.	.	4B/	4G\	z_wes-	od-	.
+=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7
+4.d/	4.A\	.	-tchnie-	-po-	.	.	4.A/	4.F#\	-tchnie-	-po-	.
+8d/	8A\	.	-niem	-wie	.	.	8A/	8F#\	-niem	-wie	.
+4B/	4A\	.	od-	mi	.	.	4A/	4D\	od-	mi	.
+4c#/	4A\	.	-rzekł	śród	.	.	4A/	4E\	-rzekł	śród	.
+=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
+4d/	4D\	.	mi.	łez.	.	.	4A/	4F#\	mi.	łez.	.
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!
+4rc	4AA\	o!	O!	.	<	f	4rcc	4r	.	.	.
+!	!	!	!	!	!LO:DY:a:rj	!	!	!	!	!	!LO:DY:b:rj
+4rc	4D\	tak,	Tak!	.	[ f	p	4rcc	4r	.	.	p
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:HP:a
+4A/	4F#\	.	Ach!	Ach!	< [	< [	4A/	4D\	Ach!	Ach!	< [
+=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:HP:a
+2A/	2F#\	.	z_do-	w_do-	>	>	2A/	2D\	z_do-	w_do-	>
+4A/	4D\	.	-mu,	-mu,	]	]	4F#/	4D\	-mu,	-mu,	]
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:HP:a
+4B/	4BB\	.	ach	ach	< [	< [	4d/	4F#\	ach	ach	<
+=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!
+2c#/	2AA#X\	.	z_do-	w_do-	>	>	2f#/	2F#\	z_do-	w_do-	[
+!	!	!	!	!	!	!	!	!	!	!	!LO:HP:a
+.	.	.	.	.	.	.	.	.	.	.	>
+4B/	4BB\	.	-mu,	-mu,	]	]	4d/	4F#\	-mu,	-mu,	.
+.	.	.	.	.	.	.	.	.	.	.	]
+4d/	4GG\	.	z_wes-	od-	.	.	4B/	4G\	z_wes-	od-	.
 !!LO:LB:g=original
-=11	=11	=11	=11	=11	=11	=11	=11	=11
-!	!	!	!	!	!	!	!	!LO:HP:a
-4.d/	4.AA\	.	.	4.A/	4.F#\	-tchnie-	-po-	>
-!	!	!	!LO:HP:a	!	!	!	!	!
-.	.	.	>	.	.	.	.	.
-8B/	8AA\	.	.	8A/	8G\	-niem	-wie	.
-4G/	4AA\	.	.	4A/	4E\	od-	mi	.
-4A/	4AA\	.	]	4A/	4F#\	-rzekł	śród	]
-=12	=12	=12	=12	=12	=12	=12	=12	=12
-2.F#;/	2.D\	.	.	2.A;/	2.D\	mi.	łez.	.
-4r	4ryy	.	.	4r	4ryy	.	.	.
-!	!	!	!LO:DY:a	!	!	!	!	!LO:DY:b
-.	.	.	pp	.	.	.	.	f
-=13	=13	=13	=13	=13	=13	=13	=13	=13
-4F#/	4F#\	.	.	4F#/	4F#\	Znów	I	.
-8.F#/	8.F#\	.	.	8.F#/	8.F#\	go	mnie	.
-16E/	16E\	.	.	16E/	16E\	spot-	reż	.
-4D/	4D\	.	.	4D/	4D\	-ka-	raz	.
-4F#/	4F#\	.	.	4F#/	4F#\	-łem	mó-	.
-=14	=14	=14	=14	=14	=14	=14	=14	=14
-!	!	!	!LO:HP:a	!	!	!	!	!LO:HP:a
-2B/	2B\	.	>	2B/	2B\	w_dro-	-wio-	>
-4A/	4A\	.	]	4A/	4A\	-dze:	-no:	]
-4r	4ryy	.	.	4r	4ryy	.	.	.
-=15	=15	=15	=15	=15	=15	=15	=15	=15
-!	!	!	!LO:DY:a	!	!	!	!	!LO:DY:a
-2A/	2D\	.	<	2A/	2F#\	gdzież	wróć	<
-4A/	4C#\	.	.	4A/	4E\	dą-	w_pro-	.
-4A/	4BB\	.	[	4A/	4D\	-żysz	-gi	[
+=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11
+!	!	!	!	!	!	!	!	!	!	!	!LO:HP:a
+4.d/	4.AA\	.	-tchnie-	-po-	.	.	4.A/	4.F#\	-tchnie-	-po-	>
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!
+.	.	.	.	.	>	>	.	.	.	.	.
+8B/	8AA\	.	-niem	-wie	.	.	8A/	8G\	-niem	-wie	.
+4G/	4AA\	.	od-	mi	.	.	4A/	4E\	od-	mi	.
+4A/	4AA\	.	-rzekł	śród	]	]	4A/	4F#\	-rzekł	śród	]
+=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
+2.F#;/	2.D\	.	mi.	łez.	.	.	2.A;/	2.D\	mi.	łez.	.
+4r	4ryy	.	.	.	.	.	4r	4ryy	.	.	.
+!	!	!	!	!	!LO:DY:a	!	!	!	!	!	!LO:DY:b
+.	.	.	.	.	pp	p	.	.	.	.	f
+=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13
+4F#/	4F#\	.	Znów	I	.	.	4F#/	4F#\	Znów	I	.
+8.F#/	8.F#\	.	go	mnie	.	.	8.F#/	8.F#\	go	mnie	.
+16E/	16E\	.	spot-	reż	.	.	16E/	16E\	spot-	reż	.
+4D/	4D\	.	-ka-	raz	.	.	4D/	4D\	-ka-	raz	.
+4F#/	4F#\	.	-łem	mó-	.	.	4F#/	4F#\	-łem	mó-	.
+=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:HP:a
+2B/	2B\	.	w_dro-	-wio-	>	>	2B/	2B\	w_dro-	-wio-	>
+4A/	4A\	.	-dze:	-no:	]	]	4A/	4A\	-dze:	-no:	]
+4r	4ryy	.	.	.	.	.	4r	4ryy	.	.	.
+=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15
+!	!	!	!	!	!LO:DY:a	!L	!	!	!	!	!LO:DY:a
+2A/	2D\	.	gdzież	wróć	<	<	2A/	2F#\	gdzież	wróć	<
+4A/	4C#\	.	dą-	w_pro-	.	.	4A/	4E\	dą-	w_pro-	.
+4A/	4BB\	.	-żysz	-gi	[	[	4A/	4D\	-żysz	-gi	[
 !!LO:LB:g=original
-=16	=16	=16	=16	=16	=16	=16	=16	=16
-2.c#/	2.AA\	.	.	2.e/	2.G\	gdzie?	twe!	.
-!	!	!	!LO:DY:a:rj	!	!	!	!	!LO:HP:a
-!	!	!	!LO:HP:a	!	!	!	!	!
-4c#/	4A\	.	pp < [	4A/	4G\	D	Nie	<
-=17	=17	=17	=17	=17	=17	=17	=17	=17
-2d/	2D\	.	.	2A/	2F#\	do-	mo-	[
-!	!	!	!LO:HP:a	!	!	!	!	!
-.	.	.	>	.	.	.	.	>
-4A/	4D\	.	]	4F#/	4D\	-mu,	-gę,	]
-!	!	!	!LO:HP:a	!	!	!	!	!LO:DY:b:rj
-!	!	!	!	!	!	!	!	!LO:HP:a
-4A/	4D\	.	< [	4d/	4F#\	do	nie	f <
-=18	=18	=18	=18	=18	=18	=18	=18	=18
-2d^/	2D\	.	.	2f#/	2A\	do-	mo-	[
-!	!	!	!LO:HP:a	!	!	!	!	!LO:HP:a
-.	.	.	>	.	.	.	.	>
-4d/	4F#\	.	]	4d/	4A\	-mu,	-gę,	]
-4d/	4G\	.	.	4B/	4G\	bo	bo	.
-=19	=19	=19	=19	=19	=19	=19	=19	=19
-!	!	!	!LO:HP:a	!	!	!	!	!LO:HP:a
-4.d/	4.A\	.	<	4.A/	4.F#\	tam	nie	<
-8d/	8A\	.	[	8A/	8F#\	cze-	mam	.
-.	.	.	.	.	.	.	.	[
-!	!	!	!	!	!	!	!	!LO:HP:a
-4e/	4A\	.	>	4c#/	4G\	-ka-	do-	>
-4c#/	4AA\	.	.	(8B/L	4G\	-ją	-mu	.
-.	.	.	.	8A/J)	.	.	.	.
-=20	=20	=20	=20	=20	=20	=20	=20	=20
-4d/	4D\	.	]	4A/	4F#\	mnie	nie!	]
-4rc	4AA\	.	.	4rcc	4r	.	.	.
-4rc	4F#\	.	.	4rcc	4r	.	.	.
-4c#/	4E\	.	.	4A/	4G\	do	Nie	.
+=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
+2.c#/	2.AA\	.	gdzie?	twe!	.	.	2.e/	2.G\	gdzie?	twe!	.
+!	!	!	!	!	!LO:DY:a:rj	!L	!	!	!	!	!LO:HP:a
+!	!	!	!	!	!LO:HP:a	!	!	!	!LO:MO:mod=Do	!	!
+4c#/	4A\	.	Do	Nie	pp < [	< [	4A/	4G\	D	Nie	<
+=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
+2d/	2D\	.	do-	mo-	.	.	2A/	2F#\	do-	mo-	[
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!
+.	.	.	.	.	>	>	.	.	.	.	>
+4A/	4D\	.	-mu,	-gę,	]	]	4F#/	4D\	-mu,	-gę,	]
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:DY:b:rj
+!	!	!	!	!	!	!	!	!	!	!	!LO:HP:a
+4A/	4D\	.	do	nie	< [	f < [	4d/	4F#\	do	nie	f <
+=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18
+2d^/	2D\	.	do-	mo-	.	.	2f#/	2A\	do-	mo-	[
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:HP:a
+.	.	.	.	.	>	>	.	.	.	.	>
+4d/	4F#\	.	-mu,	-gę,	]	]	4d/	4A\	-mu,	-gę,	]
+4d/	4G\	.	bo	bo	.	.	4B/	4G\	bo	bo	.
+=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:HP:a
+4.d/	4.A\	.	tam	nie	<	<	4.A/	4.F#\	tam	nie	<
+8d/	8A\	.	cze-	mam	[	[	8A/	8F#\	cze-	mam	.
+.	.	.	.	.	.	.	.	.	.	.	[
+!	!	!	!	!	!	!	!	!	!	!	!LO:HP:a
+4e/	4A\	.	-ka-	do-	>	>	4c#/	4G\	-ka-	do-	>
+4c#/	4AA\	.	-ją	-mu	.	.	(8B/L	4G\	-ją	-mu	.
+.	.	.	.	.	.	.	8A/J)	.	.	.	.
+=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20
+4d/	4D\	.	mnie	nie!	]	]	4A/	4F#\	mnie	nie!	]
+4rc	4AA\	.	.	.	.	.	4rcc	4r	.	.	.
+4rc	4F#\	.	.	.	.	.	4rcc	4r	.	.	.
+4c#/	4E\	.	do	Nie	.	.	4A/	4G\	do	Nie	.
 !!LO:LB:g=original
-=21	=21	=21	=21	=21	=21	=21	=21	=21
-!	!	!	!LO:DY:b:rj	!	!	!	!	!LO:DY:b:rj
-2d/	2D\	.	f	2A/	2F#\	do-	mo-	f >
-!	!	!	!LO:HP:a	!	!	!	!	!
-.	.	.	>	.	.	.	.	.
-!	!	!	!	!	!	!	!	!LO:HP:a
-4d/	4d\	.	]	4F#/	4F#\	-mu,	-gę	] <
-!	!	!	!LO:HP:a	!	!	!	!	!
-4d/	4B\	.	<	4d/	4F#\	do	nie	[[
-=22	=22	=22	=22	=22	=22	=22	=22	=22
-2c#/	2F#\	.	[	2f#/	2A#X\	do-	mo-	.
-!	!	!	!LO:HP:a	!	!	!	!	!LO:HP:a
-.	.	.	>	.	.	.	.	>
-4B/	4G\	.	.	4d/	4B\	-mu,	-gę,	.
-4d/	4G#X\	.	]	4B/	4E\	bo	bo	]]
-=23	=23	=23	=23	=23	=23	=23	=23	=23
-4.d/	4.A\	.	.	4.A/	4.F#\	tam	nie	.
-!	!	!	!LO:HP:a	!	!	!	!	!LO:HP:a
-.	.	.	>	.	.	.	.	>
-8B/	8AA\	.	.	8A/	8G\	cze-	mam	.
-4A/	4AA\	.	.	4A/	4F#\	-ka-	do-	.
-4G/	4AA\	.	]	4A/	4E\	-ją	-mu	]
-=24	=24	=24	=24	=24	=24	=24	=24	=24
-!	!	!	!	!	!	!	!	!LO:DY:a
-!	!	!	!LO:HP:a	!LO:TX:b:Bi:t=Autograf\nZ. Noskowskiego\nz roku 1880\n22. i0. 19ii F.K.	!	!	!	!LO:DY:a
-1F#;	1D;	.	<	1A;	1D;	mnie!	nie!	<
-!	!	!	!LO:HP:a	!	!	!	!	!
-.	.	.	[ >	.	.	.	.	[ >
-.	.	.	]	.	.	.	.	]
-*v	*v	*	*	*	*	*	*	*
-*	*	*	*v	*v	*	*	*
-=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!
-*-	*-	*-	*-	*-	*-	*-
+=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21
+!	!	!	!	!	!LO:DY:b:rj	!	!	!	!	!	!LO:DY:b:rj
+2d/	2D\	.	do-	mo-	f	f	2A/	2F#\	do-	mo-	f >
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!
+.	.	.	.	.	>	>	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!LO:HP:a
+4d/	4d\	.	-mu,	-gę	]	]	4F#/	4F#\	-mu,	-gę	] <
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!
+4d/	4B\	.	do	nie	<	<	4d/	4F#\	do	nie	[[
+=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22
+2c#/	2F#\	.	do-	mo-	[	[	2f#/	2A#X\	do-	mo-	.
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:HP:a
+.	.	.	.	.	>	>	.	.	.	.	>
+4B/	4G\	.	-mu,	-gę,	.	.	4d/	4B\	-mu,	-gę,	.
+4d/	4G#X\	.	bo	bo	]	]	4B/	4E\	bo	bo	]]
+=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23
+4.d/	4.A\	.	tam	nie	.	.	4.A/	4.F#\	tam	nie	.
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:HP:a
+.	.	.	.	.	>	>	.	.	.	.	>
+8B/	8AA\	.	cze-	mam	.	.	8A/	8G\	cze-	mam	.
+4A/	4AA\	.	-ka-	do-	.	.	4A/	4F#\	-ka-	do-	.
+4G/	4AA\	.	-ją	-mu	]	]	4A/	4E\	-ją	-mu	]
+=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24
+!	!	!	!	!	!	!	!	!	!	!	!LO:DY:a
+!	!	!	!	!	!LO:HP:a	!	!LO:TX:b:Bi:t=Autograf\nZ. Noskowskiego\nz roku 1880\n22. i0. 19ii F.K.:mod=	!	!	!	!LO:DY:a
+1F#;	1D;	.	mnie!	nie!	<	<	1A;	1D;	mnie!	nie!	<
+!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!
+.	.	.	.	.	[ >	[ >	.	.	.	.	[ >
+.	.	.	.	.	]	]	.	.	.	.	]
+*v	*v	*	*	*	*	*	*	*	*	*	*
+*	*	*	*	*	*	*v	*v	*	*	*
+=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!
+*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: {(s1,s2)}
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-08-17
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-07-02
 !!!ENC: Krzysztof Stępień
 !!!END: 2021-05-10
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:t=/LO:dy:t=/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m |
