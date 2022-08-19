@@ -8,7 +8,6 @@
 !!!OTL: Rondo
 !!!PDT: 1850
 !!!AGN: Secular; Rondo
-!!!OMD: Allegretto moderato
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 116/N
 !!!SMS-shelfwork: 005 G
@@ -19,19 +18,26 @@
 !!!URL-pdf-islandora:
 !!!URL-scan:
 !!!ONB-nifc:
-!!!AIN: 1 empty 1 piano
-!!!key:
+!!!AIN: 2 piano
+!!!OMD: Allegretto moderato.
+!!!OMD-mod: Allegretto moderato
+!!!key: A-
 **kern	**fing	**kern	**fing	**dynam
 *part2	*	*part1	*	*part1
 *staff2	*	*staff1	*	*
-*Iempty	*	*Ipiano	*	*
-*	*	*I"piano	*	*
+*Ipiano	*	*Ipiano	*	*
+*ICklav	*	*ICklav	*	*
+*IGsolo	*	*IGsolo	*	*
+*I"Piano	*	*I"Piano	*	*
+*mI"Pianoforte	*	*mI"Pianoforte	*	*
 *clefF4	*	*clefG2	*	*
 *k[b-e-a-d-]	*	*k[b-e-a-d-]	*	*
 *A-:	*	*A-:	*	*
 *M2/2	*	*M2/2	*	*
 *met(c|)	*	*met(c|)	*	*
+*mmet(c|)	*	*mmet(c|)	*	*
 *	*	*^	*	*
+!!LO:TX:t=P:problem=4, 8, 16\left, middle or right:global
 !	!	!	!	!	!LO:DY:rj
 4r	.	(4cc/	8a-\L	.	p
 .	.	.	8e-\J	.	.
@@ -107,6 +113,7 @@
 .	.	.	8fn\	.	.
 .	.	.	8e-\J	.	.
 !	!	!LO:TX:t=P:problem=mixed beam	!	!	!
+!	!	!	!LO:MO:mod=8d-\L	!	!
 4r	.	4r	8d-\L	.	.
 .	.	.	8c\	.	.
 4ryy	.	(>4a-/	8B-</	.	.
@@ -156,10 +163,11 @@
 .	.	.	8e-\J	.	]
 [2E-\	.	4g/	8B-\L	.	.
 .	.	.	8d-\	.	.
+!	!	!LO:SIC:s=4f/	!	!	!
 .	.	4f/)	8A-\	.	.
 .	.	.	8c\J	.	.
 =14	=14	=14	=14	=14	=14
-!	!	!	!	!	!LO:DY:rj
+!	!	!LO:SIC:s=2.e-/)	!	!	!LO:DY:rj
 4E-\]	.	2.e-/	8G\L	.	p
 .	.	.	8B-\	.	.
 4Dn\	.	.	8c\	.	.
@@ -206,6 +214,7 @@
 4FF/	.	(4a-/	8A-\	.	.
 .	.	.	8c\J	.	.
 =19	=19	=19	=19	=19	=19
+!LO:MO:mod=!null:null	!	!	!	!	!
 !LO:N:vis=1	!	!	!	!	!
 2D-\)	.	4b-/	8f\L	.	.
 .	.	.	8B-\	.	.
@@ -215,7 +224,6 @@
 .	.	.	8d-\	.	.
 4E-\	.	4b-/	8gn\	.	.
 .	.	.	8d-\J	.	.
-!!LO:PB:g=original
 =20	=20	=20	=20	=20	=20
 [2AA-/	.	[2a-/	8c\L	.	.
 .	.	.	8f\	.	]
@@ -223,9 +231,11 @@
 .	.	.	8c\J	.	.
 4AA-/])	.	8a-/])	8A-\	.	.
 .	.	8r	8r	.	.
+!	!	!	!LO:SIC:s=4ryy	!	!
 4r	.	(8a-/L	4r	.	mf
 .	.	8b-/J	.	.	.
 *	*	*v	*v	*	*
+!!LO:PB:g=original
 =21	=21	=21	=21	=21
 (8F\L	.	4cc\	.	.
 8c\	.	.	.	.
@@ -233,7 +243,9 @@
 8e-\J	.	8cc\J	.	.
 8d-\L	.	8b-\L	.	.
 8c\	.	8gg\J)	.	.
+!LO:SIC:s=8B-\	!	!	!	!
 8B-\)	.	4gg^\	.	.
+!LO:SIC:s=8d-\J)	!	!	!	!
 8d-\J	.	.	.	.
 =22	=22	=22	=22	=22
 (8En\L	.	(4b-\	.	.
@@ -267,7 +279,9 @@
 8G\	.	.	.	.
 8A-\	.	8ff\L	.	.
 8G\J	.	8ee-\J	.	.
+!	!	!LO:SIC:s=8ddn\L	!	!
 8F\L	.	8ddn\L)	.	.
+!	!	!LO:SIC:s=8aa-\J)	!	!
 8c\	.	8aa-\J	.	.
 8dn\	.	4aa-^\	.	.
 8f\J)	.	.	.	.
@@ -287,9 +301,12 @@
 8c\J	.	8ddn\J	.	.
 8F\L	.	4ee-\	.	.
 8A-\	.	.	.	.
+!LO:SIC:s=8G\	!	!	!	!
 8G\)	.	8ff\L	.	.
+!LO:SIC:s=8Bn\J)	!	!LO:SIC:s=8dd\J	!	!
 8Bn\J	.	8dd\J)	.	.
 =28	=28	=28	=28	=28
+!	!	!LO:SIC:s=4cc\)	!	!
 (8C\L	.	4cc\	.	.
 8G\	.	.	.	.
 8An\	.	4gg\ 4ee-\ 4g^\	.	.
@@ -305,12 +322,14 @@
 8f\J)	.	8ddn\	.	.
 8r	.	8cc\J	.	.
 (8GG\L	.	8bn\L	.	.
+!LO:SIC:s=8F\	!	!	!	!
 8F\)	.	8dd\	.	.
+!LO:SIC:s=8Bn\J)	!	!	!	!
 8Bn\J	.	8a-\	.	.
 8r	.	8g\J	.	.
 !!LO:LB:g=original
 =30	=30	=30	=30	=30
-(8C\L	.	4cc\)	.	.
+(8C\L	.	4cc'\)	.	.
 8G\	.	.	.	.
 !	!	!	!	!LO:DY:rj
 8An\	.	4gg\ 4ee-\ 4g^\	.	f
@@ -328,9 +347,9 @@
 (8C\L	.	8een\L	.	.
 8B-\	.	8gg\	.	.
 8en\J)	.	8dd-X\	.	.
-8r	.	8cc\J)	.	.
+8r	.	8cc\J	.	.
 =32	=32	=32	=32	=32
-(8F\L	.	4ff\	.	.
+(8F\L	.	4ff\)	.	.
 8c\	.	.	.	.
 !	!	!	!	!LO:DY:rj
 8a-\	.	4ccc\ 4ff\ 4cc^\	.	f
@@ -346,7 +365,9 @@
 8r	.	8gg\J	.	.
 4r	.	8aa-\L	.	.
 .	.	8een\	.	.
+!	!	!LO:SIC:s=8ff\	!	!
 4a-\ 4dn\ 4c\	.	8ff\)	.	.
+!	!	!LO:SIC:s=8ccc\J)	!	!
 .	.	8ccc\J	.	.
 =34	=34	=34	=34	=34
 (8E-\L	.	(8gg^\L	.	.
@@ -355,13 +376,15 @@
 8r	.	8ff#X\J	.	.
 4r	.	8gg\L	.	.
 .	.	8ddn\	.	.
+!	!	!LO:SIC:s=8ee-\	!	!
 4g\ 4c\	.	8ee-\)	.	.
+!	!	!LO:SIC:s=8ccc\J)	!	!
 .	.	8ccc\J	.	.
 !!LO:LB:g=original
 =35	=35	=35	=35	=35
 (8GG\L	.	(8ee-^\L	.	.
-8E-\)	.	8ff\	.	.
-8c\J	.	8ee-\	.	.
+8E-\	.	8ff\	.	.
+8c\J)	.	8ee-\	.	.
 8r	.	8ddn\J	.	.
 4r	.	8ee-\L	.	.
 .	.	8bn\	.	.
@@ -369,7 +392,9 @@
 .	.	8gg\J)	.	.
 =36	=36	=36	=36	=36
 (8GG\L	.	(8ff^\L	.	.
+!LO:SIC:s=8F\	!	!	!	!
 8F\)	.	8gg\	.	.
+!LO:SIC:s=8Bn\J)	!	!	!	!
 8Bn\J	.	8ff\	.	.
 8r	.	8ee-\J	.	.
 4r	.	8ddn\L	.	.
@@ -507,10 +532,10 @@
 .	.	.	8c\J	.	.
 .	.	4g/	8en\L	.	.
 .	.	.	8B-\	.	.
-(4FF/	.	4f/)	8c\	.	.
+(4FF/	.	4f/	8c\	.	.
 .	.	.	8A-\J	.	.
 =51	=51	=51	=51	=51	=51
-4C/	.	2.e-X/	8c\L	.	.
+4C/	.	2.e-X/)	8c\L	.	.
 .	.	.	8G\	.	.
 4BB-/	.	.	8d-\	.	.
 .	.	.	8G\J	.	.
@@ -556,12 +581,13 @@
 8F'\J	.	8f/J 8d-/ 8B-'/	.	.
 =56	=56	=56	=56	=56
 4E-'\	.	4g-/ 4d-/ 4B-'/	.	.
-8D-/L	.	8b-/L 8g-/ 8d-'/	.	.
+8D-'/L	.	8b-/L 8g-/ 8d-'/	.	.
 8C'/J	.	8b-/J 8g-/ 8d-'/	.	.
 4BB-'/	.	4dd-/ 4g-/ 4d-'/	.	.
 8C'/L	.	8cc/L 8g-/ 8e-'/	.	.
 8D-'/J	.	8b-/J 8g-/ 8d-'/	.	.
 =57	=57	=57	=57	=57
+!LO:SIC:s=4E-'\	!	!	!	!
 4E-\	.	4a-/ 4g-/ 4c'/	.	.
 4A-\ 4E-\ 4AA-^^\	.	4ee-^^/: 4a-/: 4g-/: 4c:/	.	.
 4r	.	4r	.	mf
@@ -583,7 +609,7 @@
 8D-/L 8DD-/	.	8f/L 8d-/ 8A-/	.	p
 8D-/J 8DD-/	.	8gn/J 8e-/ 8B-/	.	.
 =60	=60	=60	=60	=60
-!	!	!LO:TX:a:i:t=rallentando	!	!
+!	!	!LO:TX:a:i:t=rallentando:mod=rall.	!	!
 4C/ 4CC/	.	4a-/ 4e-/ 4A-/	.	.
 8BB-/L 8BBB-/	.	8dd-/L 8a-/ 8f/ 8d-/	.	.
 8BB-/J 8BBB-/	.	8dd-/J 8a-/ 8f/ 8d-/	.	.
@@ -592,12 +618,12 @@
 8EE-/J 8EEE-/	.	8g/J 8d-/ 8G/	.	.
 =61	=61	=61	=61	=61
 4AA-/ 4AAA-/	.	4e-/ 4c/ 4A-/	.	[
-!	!	!LO:TX:t=P:problem=arpeggio przez 2 systemy	!	!
-4E-/: 4AA-:/	.	4a-/: 4e-/: 4c/: 4A-:/	.	.
+4E-/:: 4AA-::/	.	4a-/:: 4e-/:: 4c/:: 4A-:/	.	.
 4r	.	4r	.	.
-!	!	!LO:TX:a:i:t=à tempo	!	!LO:DY:rj
+!	!	!LO:TX:a:i:t=à tempo:mod=a tempo	!	!LO:DY:rj
 8D-'\L	.	8f/L 8d-/ 8A-'/	.	p
 8D-'\J	.	8f/J 8d-/ 8A-'/	.	.
+!!LO:LB:g=original
 =62	=62	=62	=62	=62
 4F'\	.	4a-/ 4d-/ 4A-'/	.	.
 8D-'/L	.	8f/L 8d-/ 8A-'/	.	.
@@ -607,7 +633,7 @@
 8FF'/J	.	8e-/J 8c-/ 8A-'/	.	.
 =63	=63	=63	=63	=63
 4GG-'/	.	4d-/ 4B-'/	.	.
-4G-/ 4D-/ 4GG-^^/	.	4b-/ 4d-/ 4B-^^/	.	.
+4G-\ 4D-\ 4GG-^^\	.	4b-/ 4d-/ 4B-^^/	.	.
 4r	.	4r	.	.
 8G-'\L	.	8e-/L 8d-/ 8B-'/	.	.
 8F'\J	.	8f/J 8d-/ 8B-'/	.	.
@@ -646,7 +672,7 @@
 8GG-/L 8GGG-/	.	8dd-/L 8b-/ 8f/	.	.
 8GG-/J 8GGG-/	.	8ee-/J 8b-/ 8f/	.	.
 4C/ 4CC/	.	4b-/ 4g-/ 4f/	.	.
-!	!	!LO:TX:a:i:t=rallent	!	!
+!	!	!LO:TX:a:i:t=rallent:mod=rall.	!	!
 8C/L 8CC/	.	8cc/L 8a-/ 8en/	.	.
 8C/J 8CC/	.	8dd-/J 8g-/ 8e/	.	.
 =69	=69	=69	=69	=69
@@ -667,8 +693,8 @@
 *Xped	*	*	*	*
 2r	.	8gg-\L	.	.
 .	.	8ddn\	.	.
-.	.	8ee-\)	.	.
-.	.	8ff\J	.	.
+.	.	8ee-\	.	.
+.	.	8ff\J)	.	.
 =71	=71	=71	=71	=71
 *ped	*	*	*	*
 (8qAA-/	.	.	.	.
@@ -692,7 +718,7 @@
 4AA-'/	.	8g-/	.	.
 .	.	8b-/J	.	.
 =73	=73	=73	=73	=73
-*	*below	*	*	*
+*ped	*below	*	*	*
 (12DD-/L	5	2a-/)	.	.
 12AA-/	3	.	.	.
 12BB-/J	2	.	.	.
@@ -704,6 +730,8 @@
 12d-\J	.	.	.	.
 !	!	!	!	!LO:DY:rj
 8f\)	.	(8dd-\L	.	mf
+!LO:MO:null:mod=*Xped	!	!	!	!
+*	*	*	*	*
 8r	.	8ddn\J	.	.
 !!LO:LB:g=original
 =74	=74	=74	=74	=74
@@ -724,7 +752,7 @@
 8g-\)	.	8ee-\L	.	.
 8r	.	8gg-X\J	.	.
 2r	.	8bb-\L	.	.
-.	.	8aa-\	.	.
+.	.	8ff\	.	.
 .	.	8gg-\	.	.
 .	.	8aa-\J)	.	.
 =76	=76	=76	=76	=76
@@ -751,13 +779,15 @@
 8B-\	.	(8b-\	.	.
 8e-\J)	.	8gg-\	.	.
 8r	.	8ff\J	.	.
-2r	.	(8ee-\L	.	.
+2r	.	8ee-\L	.	.
 .	.	8ddn\	.	.
-.	.	8ee-\)	.	.
+.	.	8ee-\	.	.
 .	.	8ff\J	.	.
 =79	=79	=79	=79	=79
-(8AA-/L	.	8gg-\L)	.	.
+(>8AA-/L	.	8gg-\L)	.	.
+!LO:SIC:s=8E-/J	!	!	!	!
 8E-/J)	.	(8b-\	.	.
+!LO:SIC:s=8cn\ 8G-\)	!	!	!	!
 8cn\ 8G-\	.	8ee-\	.	.
 8r	.	8dd-X\J	.	.
 2r	.	8cc\L	.	>
@@ -784,7 +814,7 @@
 8GG-'/	.	8d-/ 8B-'/	.	.
 8r	.	8r	.	.
 *ped	*	*	*	*
-8g-\: 8d-\: 8G-:\	.	(12b-\L	.	.
+8g-\: 8d-\: 8G-:\	.	(12b-\L	2	.
 .	.	12cc-X\	.	.
 8r	.	.	.	.
 .	.	12dd-\J	.	.
@@ -797,6 +827,8 @@
 .	.	12ddd-\J	5	.
 !!LO:LB:g=original
 =83	=83	=83	=83	=83
+!LO:MO:null:mod=*Xped	!	!	!	!
+*	*	*	*	*
 4r	.	8gg-\)	1	.
 .	.	8r	.	.
 8G-'\L	.	8b-/L 8g-/ 8d-'/	.	.
@@ -820,8 +852,11 @@
 .	.	12eee-\	.	.
 .	.	12eeen\J	4	[[
 =85	=85	=85	=85	=85
+!LO:MO:null:mod=*Xped	!	!	!	!
+*	*	*	*	*
 8d-\ 8A-\ 8D-\	.	8fff\)	5	.
 8r	.	8r	.	.
+!	!	!	!	!LO:MO:mod=!LO&colon;DY&colon;b&colon;t=sempre %s
 !	!	!	!	!LO:DY:t=sempre p.
 8G-/L 8GG-'/	.	8eee-X\L 8aa-\ 8ee-X'\	.	p
 8G-/J 8GG-'/	.	8fff\J 8aa-\ 8ff'\	.	.
@@ -838,10 +873,10 @@
 .	.	12gg\J	.	.
 !!LO:PB:g=original
 =87	=87	=87	=87	=87
-*	*	*Xtuplet	*	*
 4C/	.	12aa-\L	.	.
 .	.	12bb-\	.	.
 .	.	12ccc\J	.	.
+*	*	*Xtuplet	*	*
 4e-\ 4A-\	.	12ddd-\L	.	.
 .	.	12eee-\	.	.
 .	.	12fff\J	.	<
@@ -895,6 +930,8 @@
 .	.	12ddn\J	1	.
 4r	.	12ee-\L	.	.
 .	.	12ff\	.	.
+!	!	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;b&colon;t=dim.
+!	!	!	!	!null
 .	.	12dd\J	.	>
 =91	=91	=91	=91	=91
 1r	.	12ee-\L	.	.
@@ -910,22 +947,24 @@
 .	.	12gg\	.	.
 .	.	12ff\J	.	.
 =92	=92	=92	=92	=92
-!	!	!LO:TX:b:i:t=poco riten	!	!
-2r	.	12gg\L	.	.
-.	.	12aa-\	.	.
-.	.	12gg\J	.	.
-.	.	12bb-\L	4	.
-.	.	12gg\	2	.
-.	.	12ee-\J	1	.
-4r	.	12bbn\L	.	.
-.	.	12gg\	.	.
-.	.	12ee-\J)	.	.
-!	!	!LO:TX:a:i:t=à tempo	!	!LO:DY:rj
-4A-\	.	(12ccc|\L	5	pp
-.	.	12aa-\	3	.
-.	.	12ee-|\J	.	.
-=93	=93	=93	=93	=93
 *	*	*^	*	*
+!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;a&colon;t=poco rit.	!	!	!
+!	!	!LO:TX:b:i:t=poco riten	!	!	!
+2r	.	12gg\L	2ryy	.	.
+.	.	12aa-\	.	.	.
+.	.	12gg\J	.	.	.
+.	.	12bb-\L	.	4	.
+.	.	12gg\	.	2	.
+.	.	12ee-\J	.	1	.
+4r	.	12bbn\L	4ryy	.	.
+.	.	12gg\	.	.	.
+.	.	12ee-\J)	.	.	.
+!	!	!LO:TX:a:i:t=à tempo:mod=a tempo	!	!	!LO:DY:rj
+!	!	!LO:MO:mod=(12ccc\L	!LO:MO:mod=4ccc/	!	!
+4A-\	.	(12ccc\L	4ccc/	5	pp
+.	.	12aa-\	.	3	.
+.	.	12ee-\J	.	1	.
+=93	=93	=93	=93	=93	=93
 4e-\	.	4bb-X/	12bb-X\L	5	.
 .	.	.	12ee-\	.	.
 .	.	.	12dd-\J	.	.
@@ -946,6 +985,7 @@
 4d-\	.	.	12b-\L	2	.
 .	.	.	12cc\	.	.
 .	.	.	12b-\J	.	.
+!	!	!	!LO:TX:t=P:problem:nie wyświetla się palcowanie	!	!
 4c\	.	4ryy	12a-\L	1	.
 .	.	.	12cc\	2	.
 .	.	.	12ee-\J	3	.
@@ -1000,6 +1040,7 @@
 4D-X\	.	.	12b-\L	.	.	.
 .	.	.	12cc\	.	.	.
 .	.	.	12b-\J	.	.	.
+!	!	!	!LO:TX:t=P:problem:nie wyświetla się palcowanie	!	!	!
 4C/	.	4ryy	12a-\L	1	.	.
 .	.	.	12ff\	3	.	.
 .	.	.	12ee-\J	2	.	.
@@ -1013,10 +1054,11 @@
 4C/	.	4ccc/	12ccc\L	.	.	.
 .	.	.	12een\	.	.	.
 .	.	.	12gg\J	.	.	.
-4BB-/	.	4ddd-/)	12ddd-\L	.	.	.
+4BB-/	.	4ddd-/	12ddd-\L	.	.	.
 .	.	.	12ff\	1	.	.
 .	.	.	12aa-\J	3	.	.
-4E-X\	.	4ryy	12bb-\L	4	.	.
+!	!	!	!LO:TX:t=P:problem:nie wyświetla się palcowanie	!	!	!
+4E-X\	.	4bb-/	12bb-\L	4	.	.
 .	.	.	12dd-\	.	.	.
 .	.	.	12gg\J	3	.	.
 *	*	*	*	*v	*v	*
@@ -1026,8 +1068,9 @@
 .	.	.	12ee-\	.	.
 8r	.	.	.	.	.
 .	.	.	12cc\J	.	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *Xbrackettup	*	*	*	*	*
-12r	.	.	8a-/	.	.
+12r	.	.	8a-/)	.	.
 (12f\L	.	.	.	.	.
 .	.	.	8r	.	.
 12e-\J	.	.	.	.	.
@@ -1069,8 +1112,10 @@
 4C'/)	.	4bb-/	12bb-\L	.	.
 .	.	.	12ee-\	.	.
 .	.	.	12a-\J	.	.
+*	*above	*	*	*	*
 (12c\L	2	4aa-/	12aa-\L	.	.
 12e-\	1	.	12ee-\	.	.
+*	*below	*	*	*	*
 12c\J	.	.	12a-\J	.	.
 4B-'\)	.	4gg/	12gg\L	.	.
 .	.	.	12ee-\	.	.
@@ -1079,7 +1124,7 @@
 12e-\	.	.	12ee-\	.	.
 12A-\J	.	.	12cc\J	.	.
 =104	=104	=104	=104	=104	=104
-!	!	!LO:TX:a:i:t=Piu tranquillo e	!	!	!
+!	!	!LO:TX:a:i:t=Più tranquillo e:mod=più tranquillo e allargando	!	!	!
 4G'\)	.	4bb-/	12bb-\L	.	.
 .	.	.	12ee-\	.	.
 .	.	.	12b-\J	.	.
@@ -1094,7 +1139,7 @@
 .	.	.	12b-\J	.	.
 *	*	*v	*v	*	*
 =105	=105	=105	=105	=105
-!	!	!LO:TX:t=al_lar_gan_do:dur=7q:ext=cd:problem=text with extension lines	!	!LO:DY:rj
+!	!	!LO:TX:t=al_lar_gan_do:dur=7q:ext=cd:problem=text with extension lines:mod=	!	!LO:DY:rj
 (12E-\L	.	(4bb-\ 4dd-X\	.	f
 12B-\	.	.	.	.
 12e-\J	.	.	.	.
@@ -1120,6 +1165,7 @@
 12B-\	.	.	.	.	.
 12e-\J	.	.	.	.	.
 12C\L	.	4ryy	4aa-\ 4ee-\ 4a-\	.	.
+!	!	!	!	!	!LO:MO:mod=!LO&colon;HP&colon;b&colon;t=cresc. molto
 !	!	!	!	!	!LO:HP:t=crescendo molto
 12A-\	.	.	.	.	<
 12e-\J)	.	.	.	.	.
@@ -1145,8 +1191,8 @@
 12A-\J	.	.	.	.
 8c\)	.	.	.	.
 8r	.	.	.	.
-!	!	!LO:TX:b:i:t=pesante.	!	!
-!	!	!LO:TX:a:t=Maestoso	!	!LO:DY:rj
+!	!	!LO:TX:a:B:t=Maestoso	!	!
+!	!	!LO:TX:b:i:t=pesante.:mod=pesante	!	!LO:DY:rj
 4FF/ 4FFF^/	.	4ccc^\ 4aa-\ 4ee-\ 4cc\	.	ff
 =109	=109	=109	=109	=109
 4GG-X/ 4GGG-X^/	.	4bb-\ 4gg-X\ 4dd-\ 4b-^\	.	.
@@ -1156,6 +1202,7 @@
 !!LO:LB:g=original
 =110	=110	=110	=110	=110
 2.C/ 2.CC^/	.	2.ee-/ 2.cc/ 2.g/ 2.e-^/	.	.
+!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;a&colon;t=rit.	!	!
 !	!	!LO:TX:b:i:t=ritenuto	!	!
 4BB-X/ 4BBB-X^/	.	4aa-\ 4ff\ 4ddn\ 4a-^\	.	.
 =111	=111	=111	=111	=111
@@ -1164,16 +1211,19 @@
 4FF-X/ 4FFF-X^/	.	4ddd-\ 4bb-\ 4gg-X\ 4dd-^\	.	.
 4EE-/ 4EEE-^/	.	4bb-\ 4ggn\ 4dd-\ 4b-^\	.	.
 =112	=112	=112	=112	=112
+!	!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;a&colon;t=Tempo I	!	!
 !	!	!LO:TX:a:i:t=Tempo Io.	!	!
 (12AA-\L 12AAA-\	.	2aa-\ 2ee-\ 2cc\ 2a-\	.	f
 12E-\	4	.	.	.
 12A-\J	.	.	.	.
 12c\L	.	.	.	.
 12d-\	.	.	.	.
+!LO:SIC:s=12dn\J	!	!	!	!
 12dn\J)	.	.	.	.
 *	*	*tuplet	*	*
+!	!	!LO:MO:mod=*null:null	!	!
 *	*	*Xbrackettup	*	*
-!	!	!LO:TUP:b	!	!
+!LO:SIC:s=8e-\)	!	!LO:TUP:b	!	!
 8e-\	.	12r	.	.
 .	.	(12a-/L	2	.
 8r	.	.	.	.
@@ -1271,21 +1321,25 @@
 4r	.	4r	.	.
 2r	.	2r	.	.
 =119	=119	=119	=119	=119
-!	!	!LO:TX:t=P:problem=arpeggio przez 2 systemy	!	!
-2E-/: 2AA-:/	.	2a-/: 2e-/: 2c/: 2A-:/	.	.
-!	!	!LO:TX:t=P:problem=arpeggio przez 2 systemy	!	!
-2E-/: 2AA-:/	.	2a-/: 2e-/: 2c/: 2A-:/	.	.
+2E-/:: 2AA-::/	.	2a-/:: 2e-/:: 2c/:: 2A-::/	.	.
+2E-/:: 2AA-::/	.	2a-/:: 2e-/:: 2c/:: 2A-::/	.	.
 =120	=120	=120	=120	=120
 (8qAAA-/	.	.	.	.
+!LO:SIC:s=1E-/ 1AA-/;)	!	!	!	!
 1E-/ 1AA-/;<)	.	1a-/ 1e-/ 1c/ 1A-/;	.	.
 ==	==	==	==	==
 *-	*-	*-	*-	*-
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!LO:MO:ori
 !!!RDF**dynam: > = diminuendo
+!!LO:MO:end
 !!!RDF**kern: | = vertical stroke
-!!!EED: Andrzej Borzym
-!!!EEV: 2021-05-30
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-05-02
+!!!ENC: Andrzej Borzym
+!!!END: 2021-05-30
+!!!ENC-modern: Katarzyna Serwa
+!!!END-modern: 2022-08-18
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s |  shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m

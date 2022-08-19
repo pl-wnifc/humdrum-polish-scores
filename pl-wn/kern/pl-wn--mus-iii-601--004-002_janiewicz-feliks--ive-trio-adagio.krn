@@ -21,11 +21,15 @@
 !!!ONB-nifc: UWAGA: źródło zawiera 6 Trio na 2 skrzypiec i wiolonczelę. Violino Primo (od skanu 3), Violino Secondo (od skanu 37), Basso (od skanu 61). Basso to partia wiolonczeli. Części Ie Trio: 1. Allegro moderato, 2. Adagio, 3. Polonese/Allegretto
 !!!AIN: 1 cello 2 violn
 !!!key: E-
+!!!OMD:
+!!!OMD-mod: Adagio
 **kern	**dynam	**kern	**dynam	**kern	**dynam
 *part3	*part3	*part2	*part2	*part1	*part1
 *staff3	*	*staff2	*	*staff1	*
 *I"BASSO	*	*I"VIOLINO SECONDO	*	*I"VIOLINO PRIMO	*
-*I'vlc	*	*I'vl II	*	*I'vl I	*
+*mI"Violoncello	*	*mI"Violino II	*	*mI"Violino I	*
+*I'b	*	*I'vl 2	*	*I'vl 1	*
+*mI'vlc	*	*	*	*	*
 *ICstr	*	*ICstr	*	*ICstr	*
 *Icello	*	*Ivioln	*	*Ivioln	*
 *clefF4	*	*clefG2	*	*clefG2	*
@@ -34,20 +38,24 @@
 *M2/4	*	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1	=1
 *	*	*	*	*^	*
-!LO:TX:a:B:t=Adagio	!	!LO:TX:a:B:t=Adagio	!	!LO:TX:a:B:t=Adagio	!	!LO:DY:b:t=F
-4E-\	.	4B-/ 4g	p	4ee-\	4ee-/	f
-4BB-/	.	4B-/ 4a-	.	8.ff\L	8.ryy	.
-.	.	.	.	16gg\Jk	16ryy	.
+!LO:TX:a:B:t=Adagio:mod=	!	!LO:TX:a:B:t=Adagio:mod=	!	!LO:TX:a:B:t=Adagio:mod=	!	!LO:DY:b:t=F
+!	!LO:DY:t= :mod=%s	!	!	!	!	!
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!
+!	!null	!	!	!	!	!
+4E-\	p	4g 4B-/	p	4ee-\	4ee-/	f
+4BB-/	.	4a- 4B-/	.	8.ff\L	8.ryyyy	.
+.	.	.	.	16gg\Jk	16ryyyy	.
 *	*	*	*	*v	*v	*
 =2	=2	=2	=2	=2	=2
 !LO:TX:t=P:problem:mixed beam	!	!	!	!	!
-8EE-/L	.	[4B-/ 4g	.	[4ee-\	>
+8EE-/L	.	4g [4B-/	.	[4ee-\	>
 8E-\	.	.	.	.	.
-8E-\J	.	8B-/] 8g	.	16ee-\LL]	.
+8E-\J	.	8g 8B-/]	.	16ee-\LL]	.
 .	.	.	.	(16b-\	.
 8r	.	8r	.	16ee-\	.
 .	.	.	.	16gg\JJ)	]]
 =3	=3	=3	=3	=3	=3
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=Dolce	!
 !	!	!	!	!LO:TX:b:i:t=dol	!
 8r	.	8r	.	8.bb-\L	.
 8BB-/L	.	8d/L	.	.	.
@@ -66,11 +74,16 @@
 8r	.	8r	.	8r	.
 !	!	!	!	!LO:LB:g=original	!
 =5	=5	=5	=5	=5	=5
-!	!	!	!	!LO:TX:b:i:t=rinf	!
-4A-\	.	[2cc\	<	4ff\	.
+!	!	!	!	!	!LO:MO:mod=!null:null
+!	!	!	!	!	!LO:DY:t=rinf
+4A-\	.	[2cc\	<	4ff\	rfz
 4En\	.	.	.	4gg\	.
 =6	=6	=6	=6	=6	=6
-4F\	.	8cc\]	.	(8.aa-\L	>
+!	!	!	!LO:DY:t= :mod=%s	!	!
+!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=	!	!
+!	!	!	!null	!	!
+4F\	.	8cc\]	[	(8.aa-\L	>
+!	!	!	!LO:MO:mod=.	!	!
 .	.	8r	[	.	.
 .	.	.	.	16ccc\Jk)	.
 4r	.	4r	.	16bb-\LL	.
@@ -78,8 +91,12 @@
 .	.	.	.	16gg\	.
 .	.	.	.	16ff\JJ	]]
 =7	=7	=7	=7	=7	=7
+!	!	!	!	!	!LO:MO:mod=.
 .	.	.	.	8qqff/	p
-4B-\	.	4g/	.	8ee-\L	.
+!	!LO:DY:t= :mod=%s	!	!LO:DY:t= :mod=%s	!	!LO:DY:t= :mod=%s
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!null	!	!null	!	!null
+4B-\	p	4g/	p	8ee-\L	p
 .	.	.	.	8ee-\J	.
 .	.	.	.	8qqgg/	.
 4BB-/	.	4a-/	.	16.ff\LL	.
@@ -87,9 +104,9 @@
 .	.	.	.	16.ff\	.
 .	.	.	.	32gg\JJk	.
 =8	=8	=8	=8	=8	=8
-8E-\L	.	8B-/L 8g	.	4ee-\	.
-8EE-/	.	8B-/ 8g	.	.	.
-8EE-/J	.	8B-/J 8g	.	8r	.
+8E-\L	.	8gL 8B-/	.	4ee-\	.
+8EE-/	.	8g 8B-/	.	.	.
+8EE-/J	.	8gJ 8B-/	.	8r	.
 !	!	!	!	!	!LO:DY:b:t=F
 8r	.	8r	.	16.gg\LL	f
 .	.	.	.	32gg\JJk	.
@@ -108,15 +125,23 @@
 =10	=10	=10	=10	=10	=10
 .	.	.	.	8qqdd/	.
 8C/	.	16r	.	16ff\LL	.
+!	!	!LO:SIC:s=(16e-/LL:v	!	!	!
 .	.	(16d/LL	.	16ee-\JJ	.
 8r	.	16g/	.	16r	.
+!	!	!LO:SIC:s=16e-/JJ):v	!	!	!
 .	.	16d/JJ)	.	16ee-\	.
+!	!	!	!	!	!LO:MO:mod=.
 .	.	.	.	16qqff/LL	p
 .	.	.	.	16qqgg/JJ	.
-8C/	.	16r	.	16ff\LL	.
+!	!	!	!	!	!LO:DY:t= :mod=%s
+!	!	!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!	!	!	!	!null
+8C/	.	16r	.	16ff\LL	p
+!	!	!LO:SIC:s=(16e-/LL:v	!	!	!
 .	.	(16d/LL	.	16ee-\	.
 .	.	.	.	8qqee-/	.
 8r	.	16g/	.	16dd\	.
+!	!	!LO:SIC:s=16e-/JJ):v	!	!	!
 .	.	16d/JJ)	.	16cc\JJ	.
 =11	=11	=11	=11	=11	=11
 8F\	.	16r	.	(16b-\LL	.
@@ -125,9 +150,11 @@
 .	.	16c/JJ)	.	.	.
 8AAn/	.	16r	.	32eee-\LLL]	>
 .	.	.	.	(32ccc\	.
+!	!	!	!	!LO:SIC:s=32aan\:v	!
 .	.	(16c/LL	.	32aa-\	.
 .	.	.	.	32bb-\	.
 8r	.	16f/	.	32ccc\	.
+!	!	!	!	!LO:SIC:s=32aa\:v	!
 .	.	.	.	32aa-\	.
 .	.	16c/JJ)	.	32ff\	.
 .	.	.	.	32ee-\JJJ)	]]
@@ -136,6 +163,7 @@
 8BB-/	.	16r	.	(8.ff\L	p
 .	.	(<16B-/LL	.	.	.
 8r	.	16d/	.	.	.
+!	!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*	*Xtuplet	*
 .	.	16f/JJ	.	48ee-\LL	.
 .	.	.	.	48dd\	.
@@ -147,10 +175,15 @@
 .	.	.	.	16bb-'\JJ	[[
 !	!	!	!	!LO:LB:g=original	!
 =13	=13	=13	=13	=13	=13
-!LO:TX:b:i:t=rinf	!	!	!	!LO:TX:b:i:t=rinf	!
-.	.	.	.	8qqbb-/	.
-!	!	!	!LO:DY:b:t=F	!	!
-[2G-X\	.	(16b-\LL	f	4.ddd-X\	.
+!	!	!	!	!	!LO:DY:t=rinf
+!	!	!	!	!	!LO:MO:mod=.
+.	.	.	.	8qqbb-/	rfz
+!	!LO:MO:mod=!null:null	!	!LO:DY:b:t=F	!	!
+!	!LO:DY:t=rinf	!	!LO:MO:mod=rfz	!	!
+!	!	!	!	!	!LO:DY:t= :mod=%s
+!	!	!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!	!	!	!	!null
+[2G-X\	rfz	(16b-\LL	f	4.ddd-X\	rfz
 .	.	16dd-X\	.	.	.
 .	.	16b-\	.	.	.
 .	.	16dd-\JJ)	.	.	.
@@ -175,15 +208,19 @@
 8G-\	.	16b-\	.	8.ee\J	.
 .	.	16dd-\JJ)	.	.	.
 8G-\	.	(16b-\LL	.	.	.
+!	!	!	!	!LO:SIC:s=16ddd-\LL:v	!
 .	.	16dd-\	.	16ddd\LL	.
 8G-\J	]]	16b-\	.	16bb-\	.
+!	!	!	!LO:MO:mod=]	!	!
 .	.	16dd-\JJ)	]]	16ee\JJ	.
 =16	=16	=16	=16	=16	=16
 .	.	.	.	8qqee-/	.
-4F;\	.	4f;/ 4an	.	4ffT;\	.
+4F;\	.	4an 4f;/	.	4ffT;\	.
 4r	.	4r	.	4r	.
 =17	=17	=17	=17	=17	=17
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=Dolce	!
 !	!	!	!	!LO:TX:a:i:t=dol	!
+!	!LO:MO:mod=pp	!	!	!	!
 [2B-\	p	(16b-/LL	pp	(8.ddn\L	.
 .	.	16f/	.	.	.
 .	.	16d/	.	.	.
@@ -230,9 +267,16 @@
 .	.	16f/JJ)	.	.	.
 !	!	!LO:LB:g=original	!	!	!
 =21	=21	=21	=21	=21	=21
-!	!	!	!	!LO:TX:b:i:t=rinf	!
-4F#X\	.	16r	.	4cc\	.
-.	.	(16d/LL	.	.	.
+!	!	!	!	!	!LO:MO:mod=!null:null
+!	!	!	!	!	!LO:DY:t=rinf
+!	!LO:DY:t= :mod=%s	!	!	!	!
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!
+!	!null	!	!	!	!
+4F#X\	rfz	16r	.	4cc\	rfz
+!	!	!	!LO:DY:t= :mod=%s	!	!
+!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!
+!	!	!	!null	!	!
+.	.	(16d/LL	rfz	.	.
 .	.	16an/	.	.	.
 .	.	16g/JJ	.	.	.
 4D\	.	8f#X/)	.	16r	.
@@ -251,16 +295,25 @@
 !	!	!	!	!LO:LB:g=original	!
 =23	=23	=23	=23	=23	=23
 !	!	!	!	!	!LO:DY:b:t=F
-4Fn\	.	8c/L]	.	(16an\LL	f
+!	!LO:DY:t= :mod=%s	!	!	!	!
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!
+!	!null	!	!	!	!
+4Fn\	f	8c/L]	.	(16an\LL	f
 .	.	.	.	16cc\	.
-.	.	(16an/L	.	16ff\	.
+!	!	!	!LO:DY:t= :mod=%s	!	!
+!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!
+!	!	!	!null	!	!
+.	.	(16an/L	f	16ff\	.
+!	!	!	!	!LO:SIC:s=16aan\JJ):v	!
 .	.	16cc/JJ)	.	16aa-\JJ)	.
 !LO:TX:t=P:problem:mixed beam	!	!	!	!	!
+!	!	!	!	!LO:SIC:s=(16aa\LL:v	!
 8c\L	.	(16cc/LL	.	(16aa-\LL	.
 .	.	16b-/	.	16gg\	.
 8C/J	.	16a/	.	16ff\	.
 .	.	16g/JJ)	.	16een\JJ)	.
 =24	=24	=24	=24	=24	=24
+!	!	!LO:SIC:s=8an'/L:v	!	!	!
 4F'\	pp	8a-'/L	pp	16gg'\KL	>
 .	.	.	.	8ff'\	.
 .	.	8b-'/	.	.	.
@@ -271,8 +324,12 @@
 .	.	.	.	16ee-\JJ)	]]
 =25	=25	=25	=25	=25	=25
 !	!	!LO:TX:t=P:problem: X zapisany ołówkiem	!	!	!
+!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!LO:TX:a:t=X:color=grey	!	!	!
-[2B-\	.	16f/LL]	.	(8.dd\L	.
+!	!LO:DY:t= :mod=%s	!	!	!	!LO:DY:t= :mod=%s
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack
+!	!null	!	!	!	!null
+[2B-\	p	16f/LL]	.	(8.dd\L	p
 .	.	16f/	p	.	.
 .	.	16f/	.	.	.
 .	.	16f/JJ	.	32ee-\LL	.
@@ -320,15 +377,20 @@
 (4F\	.	(16c/LL	.	8.ee-\L	.
 .	.	16An/	.	.	.
 .	.	16c/	.	.	.
-!	!	!	!	!LO:TX:b:i:t=rinf	!
-.	.	16A/JJ)	.	16cc\Jk	.
-!LO:TX:b:i:t=rinf	!	!	!	!	!
-4E-X\)	.	(16f/LL	.	8.an/L	.
+!	!	!	!	!	!LO:DY:t=rinf
+!	!	!	!	!	!LO:MO:mod=.
+.	.	16A/JJ)	.	16cc\Jk	rfz
+!	!LO:MO:mod=!null:null	!	!	!	!
+!	!LO:DY:t=rinf	!	!	!	!
+!	!	!	!LO:DY:t= :mod=%s	!	!LO:DY:t= :mod=%s
+!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!	!	!null	!	!null
+4E-X\)	rfz	(16f/LL	rfz	8.an/L	rfz
 .	.	16c/	.	.	.
 .	.	16f/	.	.	.
 .	.	16c/JJ)	.	16f/Jk	.
 =30	=30	=30	=30	=30	=30
-4D\	.	4B-/ 4f	.	(32b-\LLL	.
+4D\	.	4f 4B-/	.	(32b-\LLL	.
 .	.	.	.	32cc\	.
 .	.	.	.	32b-\	.
 .	.	.	.	32an\	.
@@ -342,6 +404,7 @@
 .	.	.	.	32ee-'\	.
 .	.	.	.	32ff'\	.
 .	.	.	.	32gg'\	.
+!	!	!	!	!LO:SIC:s=32aan'\:v	!
 .	.	.	.	32aa-'\	.
 .	.	.	.	32bb-'\JJJ)	.
 !	!	!	!	!LO:LB:g=original	!
@@ -363,17 +426,22 @@
 .	.	16an/	.	16cc\	.
 .	.	16a-X/JJ)	[[	16dd\JJ)	[[
 =33	=33	=33	=33	=33	=33
-!	!	!LO:TX:a:i:t=rinf	!	!	!LO:DY:b:t=F
-4E-\	.	4B-/ 4g	.	4ee-\	f
-!LO:TX:b:i:t=rinf	!	!	!	!	!
-4BB-/	.	4B-/ 4a-	.	8.ff\L	.
+!	!	!	!LO:MO:mod=!null:null	!	!
+!	!	!	!LO:DY:t=rinf	!	!LO:DY:b:t=F
+!	!LO:DY:t= :mod=%s	!	!	!	!
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=	!	!	!	!
+!	!null	!	!	!	!
+4E-\	rfz	4g 4B-/	rfz	4ee-\	f
+!	!LO:DY:t=rinf	!	!	!	!
+!	!LO:MO:mod=.	!	!	!	!
+4BB-/	rfz	4a- 4B-/	.	8.ff\L	.
 .	.	.	.	16gg\Jk	.
 =34	=34	=34	=34	=34	=34
-16EE-/LL	.	[4B-/ 4g	.	[4ee-\	.
+16EE-/LL	.	4g [4B-/	.	[4ee-\	.
 16E-/	.	.	.	.	.
 16BB-/	.	.	.	.	.
 16GG/JJ	.	.	.	.	.
-8EE-/	.	8B-/] 8g	.	16ee-\LL]	.
+8EE-/	.	8g 8B-/]	.	16ee-\LL]	.
 .	.	.	.	(16b-\	.
 8r	.	8r	.	16ee-\	.
 .	.	.	.	16gg\JJ)	.
@@ -394,8 +462,9 @@
 8B-\J	.	8d/)	.	8ff\)	.
 8r	.	8r	.	8r	.
 =37	=37	=37	=37	=37	=37
-!LO:TX:b:i:t=rinf	!	!	!	!LO:TX:b:i:t=rinf	!
-4A-\	.	[2cc\	<	4ff\	.
+!	!LO:MO:mod=!null:null	!	!	!	!LO:MO:mod=!null:null
+!	!LO:DY:t=rinf	!	!	!	!LO:DY:t=rinf
+4A-\	rfz	[2cc\	<	4ff\	rfz
 4En\	.	.	.	4gg\	.
 !LO:LB:g=original	!	!	!	!	!
 =38	=38	=38	=38	=38	=38
@@ -407,7 +476,10 @@
 .	.	.	.	16ff\JJ)	.
 =39	=39	=39	=39	=39	=39
 .	.	.	.	8qqff/	.
-4B-\	p	4g/	p	8ee-\L	.
+!	!	!	!	!	!LO:DY:t= :mod=%s
+!	!	!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!null
+4B-\	p	4g/	p	8ee-\L	p
 .	.	.	.	8ee-\J	.
 .	.	.	.	8qqgg/	.
 4BB-/	.	4a-/	.	16.ff\LL	.
@@ -415,10 +487,14 @@
 .	.	.	.	16.ff\	.
 .	.	.	.	32gg\JJk	.
 =40	=40	=40	=40	=40	=40
-16E-'\LL	.	16g'\LL	.	4ee-\	.
+!	!LO:DY:t= :mod=%s	!	!LO:DY:t= :mod=%s	!	!
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=	!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!
+!	!null	!	!null	!	!
+16E-'\LL	rfz	16g'\LL	rfz	4ee-\	.
 (16G\	.	(16b-\	.	.	.
-!LO:TX:b:i:t=rinf	!	!	!	!	!
-16A-\	.	16cc\	.	.	.
+!	!LO:DY:t=rinf	!	!	!	!
+!	!LO:MO:mod=.	!	!	!	!
+16A-\	rfz	16cc\	.	.	.
 16G\JJ	.	16b-\JJ	.	.	.
 16A-\LL	.	16cc\LL	.	4r	.
 16G\	.	16b-\	.	.	.
@@ -426,16 +502,20 @@
 16E-\JJ)	.	16g\JJ)	.	.	.
 !	!	!LO:LB:g=original	!	!	!
 =41	=41	=41	=41	=41	=41
-4B-\	p	4.d/	.	16r	.
-.	.	.	.	(16ff\LL 16aa-	<
-.	.	.	.	16gg\ 16bb-	.
-.	.	.	.	16ff\JJ) 16aa-	.
-4BB-/	.	.	.	(16gg\LL 16bb-	.
-.	.	.	.	16ff\ 16aa-	.
-.	.	(8a-/	.	16ee-\ 16gg	.
-.	.	.	.	16dd\JJ) 16ff	.
+!	!	!	!LO:DY:t= :mod=%s	!	!
+!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!
+!	!	!	!null	!	!
+4B-\	p	4.d/	p	16r	.
+.	.	.	.	(16aa-LL 16ff\	<
+.	.	.	.	16bb- 16gg\	.
+.	.	.	.	16aa-JJ 16ff\)	.
+4BB-/	.	.	.	(16bb-LL 16gg\	.
+.	.	.	.	16aa- 16ff\	.
+.	.	(8a-/	.	16gg 16ee-\	.
+.	.	.	.	16ffJJ 16dd\)	.
 =42	=42	=42	=42	=42	=42
-16E-'\LL	.	16g/LL)	.	4ee-\ 4gg	.
+!	!	!LO:SIC:s=16g'/LL):v	!	!	!
+16E-'\LL	.	16g/LL)	.	4gg 4ee-\	.
 (16G\	.	(16b-/	.	.	.
 16A-\	.	16cc/	.	.	.
 16G\JJ	.	16b-/JJ	.	.	.
@@ -445,41 +525,48 @@
 16E-\JJ)	.	16g/JJ)	.	.	.
 =43	=43	=43	=43	=43	=43
 4B-\	.	4.d/	.	16r	.
-.	.	.	.	(16ff\LL 16aa-	p
-.	.	.	.	16gg\ 16bb-	.
-.	.	.	.	16ff\JJ) 16aa-	.
-4BB-/	.	.	.	(16gg\LL 16bb-	.
-.	.	.	.	16ff\ 16aa-	.
-.	.	8a-/	.	16ee-\ 16gg	.
-.	.	.	.	16dd\JJ) 16ff	.
+.	.	.	.	(16aa-LL 16ff\	p
+.	.	.	.	16bb- 16gg\	.
+.	.	.	.	16aa-JJ 16ff\)	.
+4BB-/	.	.	.	(16bb-LL 16gg\	.
+.	.	.	.	16aa- 16ff\	.
+.	.	8a-/	.	16gg 16ee-\	.
+.	.	.	.	16ffJJ 16dd\)	.
 =44	=44	=44	=44	=44	=44
 !	!LO:DY:b:t=F	!	!	!	!LO:DY:b:t=F
-16E-\LL	f	8g/	.	16ee-\KL 16gg	f
-16G\	.	.	.	8ee-\ 8gg	.
+16E-\LL	f	8g/	.	16ggKL 16ee-\	f
+16G\	.	.	.	8gg 8ee-\	.
 16E-\	.	8r	.	.	.
-16D\JJ	.	.	.	8ee-\ 8gg	.
+16D\JJ	.	.	.	8gg 8ee-\	.
 !	!	!	!LO:DY:b:t=F	!	!
 16C/LL	.	16e-/LL	f	.	.
-16E-/	.	16g/	.	8ee-\ 8gg	.
+16E-/	.	16g/	.	8gg 8ee-\	.
 16C/	.	16e-/	.	.	.
-16AAn/JJ	.	16c/JJ	.	16ee-\Jk 16gg	.
+16AAn/JJ	.	16c/JJ	.	16ggJk 16ee-\	.
 =45	=45	=45	=45	=45	=45
-4BB-;/	.	4B-;/	.	4ee-;\ 4gg	.
-4r;	.	4r;	.	4ddt;\ 4ff	.
+4BB-;/	.	4B-;/	.	4gg 4ee-;\	.
+4r;	.	4r;	.	4ff 4ddt;\	.
 =46	=46	=46	=46	=46	=46
-8E-'\	.	8B-/ 8g	p	8ee-\	.
+!	!LO:DY:t= :mod=%s	!	!	!	!LO:DY:t= :mod=%s
+!	!LO:MO:mod=!LO&colon;DY&colon;ed=	!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!null	!	!	!	!null
+8E-'\	p	8g 8B-/	p	8ee-\	p
 8r	.	8r	.	8r	.
-8EE-/L	p	8B-/L 8g	.	8ee-\L	p
-8EE-/J	.	8B-/J 8g	.	8ee-\J	.
+!	!LO:MO:mod=.	!	!	!	!LO:MO:mod=.
+8EE-/L	p	8gL 8B-/	.	8ee-\L	p
+8EE-/J	.	8gJ 8B-/	.	8ee-\J	.
 =47	=47	=47	=47	=47	=47
-4EE-/	.	4B-/ 4g	.	4ee-\	.
+4EE-/	.	4g 4B-/	.	4ee-\	.
 4r	.	4r	.	4r	.
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-23
 !!!ENC: Jan Barakat
 !!!END: 2022-07-01
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-08-18

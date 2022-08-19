@@ -1162,7 +1162,7 @@
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | rid -li
 !!!NIFC-islandoraID: pl-kk:750
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A750/datastream/PDF/view#page=87
-!!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/5828 @EN{Scan on Polish Music Herritage in Open Access Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
+!!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/5828 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: Części mszy: Kyrie, Gloria, Credo, Sanctus, Benedictus, Agnus Dei; skany: C: 0087-0088; A: 0191-0192; T: 0290; B: 0391-0392
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-05-03

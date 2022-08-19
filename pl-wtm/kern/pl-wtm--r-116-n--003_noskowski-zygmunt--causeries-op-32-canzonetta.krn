@@ -18,25 +18,31 @@
 !!!URL-pdf-islandora:
 !!!URL-scan:
 !!!ONB-nifc:
+!!!AIN: 2 piano
 !!!OMD: Andantino con moto.
-!!!AIN: 1 empty 1 piano
-!!!key:
+!!!OMD-mod: Andantino con moto
+!!!key: B-
 **kern	**fing	**kern	**fing	**dynam
 *part2	*	*part1	*	*part1
 *staff2	*	*staff1	*	*
-*Iempty	*	*Ipiano	*	*
-*	*	*I"Piano	*	*
+*Ipiano	*	*Ipiano	*	*
+*ICklav	*	*ICklav	*	*
+*IGsolo	*	*IGsolo	*	*
+*I"Piano	*	*I"Piano	*	*
+*mI"Pianoforte	*	*mI"Pianoforte	*	*
 *clefF4	*	*clefG2	*	*
 *k[b-e-]	*	*k[b-e-]	*	*
-*g:	*	*g:	*	*
+*B-:	*	*B-:	*	*
 *M2/4	*	*M2/4	*	*
+*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]	*>[A,A,B]
 =1	=1	=1	=1	=1
+*>A	*>A	*>A	*>A	*>A
 *	*	*^	*	*
-!	!	!LO:TX:t=P:problem=UWAGA! LB i PB wprowadzone wg źródła	!	!	!
-!	!	!LO:TX:t=P:problem=4, 8, 16\left, middle or right&colon; global	!	!	!LO:DY:b:rj
+!!LO:TX:t=P:problem=4, 8, 16\left, middle or right:global
+!	!	!	!	!	!LO:DY:b:rj
 8cL 8D\	.	(>16f#X/LL	8d\	.	p
 .	.	16g/	.	.	.
-!	!	!LO:TX:i:b:t=cantabile.	!	!	!
+!	!	!LO:TX:i:b:t=cantabile.:mod=cantabile	!	!	!
 8GG\J	.	16a/	8rc	.	.
 .	.	16b-/JJ	.	.	.
 8cL 8D\	.	8a/L	8d\	.	.
@@ -89,13 +95,15 @@
 8c#XJ 8A\	.	8eenJ 8g\)	.	.
 =8	=8	=8	=8	=8
 8DD/	.	8dd\	.	.
+!LO:SIC:s=4f 4A 4D^\	!	!	!	!
 4f 4A 4D\	.	4aa^> 4dd 4a\	.	.
 .	.	.	.	>
 8r	.	8dd\	.	]
 =9:|!	=9:|!	=9:|!	=9:|!	=9:|!
+*>B	*>B	*>B	*>B	*>B
 *	*	*^	*	*
 !	!	!	!	!	!LO:DY:b
-8DD/	.	(>8.ee-/L	8r	.	mf
+8DD/	.	(>8.ee-/L	8re	.	mf
 4c 4A 4D\	.	.	4f#X\	.	.
 .	.	16dd/Jk	.	.	.
 .	.	8a/L)	.	.	.
@@ -129,7 +137,8 @@
 *	*	*^	*	*
 !	!	!	!	!	!LO:DY:b:rj
 8FF\L	.	8.aa-X/L	8r	.	f
-!	!	!LO:TX:b:t=sos-te-nu-to.:dur=6e:ext=cd:problem=text with extention lines	!	!	!
+!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;b&colon;t=sostenuto	!	!	!
+!	!	!LO:TX:b:i:t=sos-te-nu-to:dur=6e:ext=cd:problem=text with extention lines	!	!	!
 8e-J 8c 8F\	.	.	8a-X\	.	.
 .	.	16cc/Jk)	.	.	.
 8B-L 8BB-\	.	(>24dd/LL	8a-\L	.	.
@@ -160,6 +169,7 @@
 8D\L	.	16a/LL	.	.
 .	.	16e-/	.	.
 8cJ 8F#X\	.	16d/	.	.
+!	!	!	!	!LO:MO:mod=!LO&colon;HP&colon;b&colon;t=dim.
 !	!	!	!	!LO:HP:b:t=dimin
 .	.	16e-/JJ	.	>
 4r	.	16d/LL	.	.
@@ -231,7 +241,8 @@
 8DD/	.	(>16f#X/LL	.	.
 .	.	16a/JJ	.	.
 4A 4D;>\	.	4dd 4f#;>\)	.	.
-!	!	!	!	!LO:DY:b:rj
+!LO:MO:null:mod=*Xped	!	!	!	!LO:DY:b:rj
+*	*	*	*	*
 8r	.	(>16een\LL	.	p
 .	.	16bn\JJ	.	.
 *kcancel	*	*	*	*
@@ -240,6 +251,7 @@
 *k[f#]	*	*k[f#]	*	*
 !	!	!LO:TX:i:a:t=espressivo	!	!
 !	!	!LO:TX:a:t=P:problem=brak zakończenia łuku	!	!
+!	!	!LO:SIC:s=8dd\L	!	!
 8GG\L	.	(>8dd\L)	.	.
 (>8BJ 8D#X\	.	16cc\L	.	.
 .	.	16b\JJ	.	.
@@ -318,8 +330,8 @@
 .	.	16bb 16gg\	.	.
 .	.	16aaJJ 16ff#\	.	.
 =34	=34	=34	=34	=34
-4AA 4DD/	.	16bbLL 16gg\	.	.
 *ped	*	*	*	*
+4AA 4DD/	.	16bbLL 16gg\	.	.
 .	.	16dd\	.	.
 .	.	16bb 16gg\	.	.
 .	.	16aaJJ 16ff#\	.	.
@@ -532,6 +544,7 @@
 .	.	16gn/JJ	.	]
 !!LO:LB:g=original
 =55	=55	=55	=55	=55
+!	!	!	!	!LO:MO:mod=!LO&colon;HP&colon;b&colon;t=molto dim.
 !	!	!	!	!LO:HP:b:t=molto diminuendo
 2ryy	.	16a/LL	.	>
 .	.	16cc/	.	.
@@ -542,7 +555,7 @@
 .	.	16a/	.	.
 .	.	16en/JJ	.	.
 =56	=56	=56	=56	=56
-!	!	!LO:TX:a:i:t=poco sost	!	!
+!	!	!LO:TX:a:i:t=poco sost:mod=poco sostenuto	!	!
 2ryy	.	16a/LL	.	.
 .	.	16e-X/	.	.
 .	.	16d/	.	.
@@ -745,6 +758,7 @@
 16B-\JJ	.	16g/JJ	.	.
 =79	=79	=79	=79	=79
 8d\)	.	8b-/)	.	.
+!LO:MO:mod=(<16B-\LL	!	!LO:MO:mod=(>16g/LL	!	!
 (<16B-\LL	.	(>16g/LL	.	.
 16d>\JJ	.	16b-/JJ	.	.
 16g>\LL	.	16dd/LL	.	.
@@ -753,6 +767,8 @@
 16gg>\JJ	.	16ddd/JJ	.	.
 !!LO:LB:g=original
 =80	=80	=80	=80	=80
+!LO:MO:null:mod=*Xped	!	!	!	!
+*	*	*	*	*
 8bb->\)	.	8ggg\)	.	.
 *ped	*	*	*	*
 8r	.	8r	.	.
@@ -772,7 +788,10 @@
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!EED: Antoni Szymański
-!!!EEV: 2021-05-29
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-05-08
+!!!ENC: Antoni Szymański
+!!!END: 2021-05-29
+!!!ENC-modern: Katarzyna Serwa
+!!!END-modern: 2022-08-18
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m

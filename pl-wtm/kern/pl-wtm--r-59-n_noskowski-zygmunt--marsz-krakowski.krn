@@ -25,7 +25,9 @@
 *staff2	*staff1	*
 *Iempty	*Ipiano	*
 *	*I"[Pianoforte]	*
+*	*mI"Pianoforte	*
 *	*I'[pf]	*
+*	*mI'pf	*
 *clefF4	*clefG2	*
 *k[b-e-a-]	*k[b-e-a-]	*
 *E-:	*E-:	*
@@ -445,6 +447,7 @@
 .	(8fff\L	.
 .	8eee-\)	.
 4BB-/ 4BBB-/	8fff'\	.
+!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;t=*Coda	!
 !	!LO:TX:a:t=*Coda	!
 .	8ggg'\J	.
 =58	=58	=58
@@ -487,6 +490,7 @@
 2E-/ 2EE-^^/	2dd-/ 2g/ 2d-^^/	.
 =63!|:	=63!|:	=63!|:
 *>F	*	*
+!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;t=Trio Volkslied Krakowiak	!
 !	!LO:TX:a:t=Trio (Volkslied Krakowiak)	!
 4AA-/ 4AAA-/	4cc/ 4a-/ 4c/	mf
 2A-\ 2E-\	4dd-/ 4b-/ 4d-/	.
@@ -754,12 +758,14 @@
 8A-\L 8E-\	2a-/ 2c/	.
 8A-\J 8E-\	.	.
 4AA-/	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;t=Marcia d.s. [segno] e poi Coda*	!
 !	!LO:TX:a:t=Marcia d.s. [segno] e poi Coda*	!
 4r	(8ee-\L	.
 .	8cc\J)	.
 !!LO:LB:g=original
 =105||	=105||	=105||
 *>I	*coda	*
+!	!LO:MO:mod=!LO&colon;TX&colon;B&colon;t=*Coda	!
 !	!LO:TX:a:t=*Coda	!
 4E-/ 4EE-/	2ee-/ 2e-/	.
 4B-\ 4G\ 4E-\	.	.
@@ -800,7 +806,10 @@
 !!!system-decoration: [(s1,s2)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-08-18
 !!!EED: Leszek Kubiak
 !!!EEV: 2021-05-27
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-05-10
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" |  shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
