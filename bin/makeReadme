@@ -1,0 +1,288 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Sun Aug 21 09:58:33 CEST 2022
+# Last Modified: Mon Aug 22 10:03:49 CEST 2022
+# Filename:      humdrum-polish-scores/bin/makeReadme
+# Syntax:        perl 5
+#
+# Description:   Create readme for repository.
+#
+
+use strict;
+
+my @filelist = glob("*/kern/*.krn");
+my $totalfiles = @filelist;
+my $commafiles = commify($totalfiles);
+
+my %notecounts = getNoteCounts();
+my $totalnotes = getTotalNotes();
+my $commanotes = commify($totalnotes);
+
+my %composerList = getComposerList();
+
+my @data = <DATA>;
+my $output = join("", @data);
+my $siglaInfo = buildLibraryTable();
+my $composerInfo = buildComposerTable();
+
+
+# Fill in template markers:
+$output =~ s/{{library-table}}/$siglaInfo/g;
+$output =~ s/{{composer-table}}/$composerInfo/g;
+$output =~ s/{{notecount}}/$commanotes/g;
+$output =~ s/{{scorecount}}/$commafiles/g;
+
+print $output;
+
+
+###########################################################################
+
+
+##############################
+##
+## getComposerList -- Return a list of composers indexed by filename.
+##
+
+sub getComposerList {
+	my %output;
+	foreach my $file (@filelist) {
+		open(FILE, $file) or die "Cannot open $file\n";
+		while (my $line = <FILE>) {
+			if ($line =~ /^!!!COM:\s*(.*)\s*$/) {
+				$output{$file} = $1;
+				last;
+			}
+		}
+		close FILE;
+	}
+	return %output;
+}
+
+
+
+##############################
+##
+## buildComposerTable -- Create Markdown table listing composers
+##     represented in the repository.
+##
+
+sub buildComposerTable {
+	my $output = "";
+
+	$output .= "| Composer | Scores | Notes |\n";
+	$output .= "| -------- | -----: | ----: |\n";
+
+	my %c;
+	foreach my $file (@filelist) {
+		my $composer = $composerList{$file};
+		$c{$composer}++;
+	}
+
+	my @composers = sort keys %c;
+
+	foreach my $composer (@composers) {
+		my $scores = commify($c{$composer});
+		my $notes  = commify(getNoteCountForComposer($composer));
+		$composer = "Anonymous" if $composer eq "Anonim";
+		$output   .= "| $composer | $scores | $notes |\n";
+	}
+
+	return $output;
+}
+
+
+
+##############################
+##
+## getNoteCountForComposer --
+##
+
+sub getNoteCountForComposer {
+	my ($composer) = @_;
+	my $output = 0;
+	foreach my $file (@filelist) {
+		if ($composerList{$file} eq $composer) {
+			$output += $notecounts{$file};
+		}
+	}
+	return $output;
+}
+
+
+
+##############################
+##
+## buildLibraryTable -- Create Markdown table listing source archives sorted by RISM siglum.
+#
+# @@BEGIN: ENTRY
+#    @Siglum:		PL-Kj
+#    @RISM-ID:		30002079
+#    @Name-long-PL:		Biblioteka Jagiellońska
+#    @Name-short-PL:		Biblioteka Jagiellońska
+#    @Name-long-EN:		Jagiellonian University Libraries
+#    @Name-short-EN:		Jagiellonian Library, Cracow
+#    @Website-PL:		https://bj.uj.edu.pl
+#    @Website-EN:		https://bj.uj.edu.pl/en_GB/start-en
+#    @NIFC-URL-PL:		
+#    @NIFC-URL-EN:		
+#    @@END: ENTRY
+##
+
+sub buildLibraryTable {
+	my $macroid = "AKfycbyCYdG0G1mlr-EyN498pmM3w5OD967frNkdHN2JJaWe53LQEriPk79fZ0Ycc8iZq_DsVw";
+	my $url = "https://script.google.com/macros/s/$macroid/exec?format=aton";
+	my $command = "wget $url -O - 2> /dev/null";
+	my @contents = `$command`;
+	chomp @contents;
+	my %sigurl;
+	my %signame;
+	my %sigrism;
+	my $siglum;
+	my $rism;
+	my $name;
+	my $urlen;
+	my $urlpl;
+	my $counter = 0;
+	for (my $i=0; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		if ($line =~ /^\@\@BEGIN:/) {
+			$siglum = "";
+			$rism = "";
+			$name = "";
+			$urlen = "";
+			$urlpl = "";
+			next;
+		}
+		if ($line =~ /^\@Siglum:\s*(.*?)\s*$/) { $siglum = $1; }
+		if ($line =~ /^\@RISM-ID:\s*(\d+)\s*$/) { $rism = $1; }
+		if ($line =~ /^\@Name-short-EN:\s*(.*?)\s*$/) { $name = $1; }
+		if ($line =~ /^\@Website-PL:\s*(.*?)\s*$/) { $urlpl = $1; }
+		if ($line =~ /^\@Website-EN:\s*(.*?)\s*$/) { $urlen = $1; }
+		if (($line =~ /^\@\@END:/) && ($siglum !~ /^\s*$/)) {
+			my $siglow = lc($siglum);
+			$signame{$siglow} = $name;
+			$sigrism{$siglow} = $rism;
+			$sigurl{$siglow}  = $urlen;
+			$sigurl{$siglow}  = $urlpl if $sigurl{$siglow} =~ /^\s*$/;
+			$counter++;
+		}
+	}
+	my %sigfiles;
+	my %signotes;
+
+	foreach my $file (@filelist) {
+		next if $file !~ /^([a-z]+-[a-z]+)\//;
+		my $siglum = $1;
+		$sigfiles{$siglum}++;
+		$signotes{$siglum} += $notecounts{$file};
+	}
+
+	my @skeys = sort keys %signotes;
+
+	my $output = "";
+	$output .= "| Siglum | Library | Scores |    % | Notes |    % |\n";
+	$output .= "| ------ | ------- | -----: | ---: | ----: | ---: |\n";
+	for (my $i=0; $i<@skeys; $i++) {
+		my $siglum = $skeys[$i];
+		my $scorepercent  = int($sigfiles{$siglum}/$totalfiles * 1000.0)/10.0;
+		my $notepercent   = int($signotes{$siglum}/$totalnotes * 1000.0)/10.0;
+		$scorepercent .= ".0" if $scorepercent !~ /\./;
+		$notepercent  .= ".0" if $notepercent  !~ /\./;
+		my $commascores = commify($sigfiles{$siglum});
+		my $commanotes  = commify($signotes{$siglum});
+
+		my $rism = $sigrism{$siglum};
+		my $rismurl = "https://rism.online/institutions/$rism";
+		$output .= "| [$siglum]($rismurl) ";
+		$output .= "| [$signame{$siglum}]($sigurl{$siglum}) ";
+		$output .= "| $commascores ";
+		$output .= "| $scorepercent ";
+		$output .= "| $commanotes ";
+		$output .= "| $notepercent ";
+		$output .= "|\n";
+	}
+
+	return $output;
+}
+
+
+
+##############################
+##
+## getNoteCounts -- Count notes in all input files.   The results will be
+##     stored for later use.  The notecount tool is also used as a basic
+##     check to verify the structure of the file (otherwise notes cannot
+##     be counted).
+##
+
+sub getNoteCounts {
+	my %output;
+	foreach my $file (@filelist) {
+		my $count = `notecount $file | extractx -i print | ridx -H`;
+		chomp $count;
+		die "Problem with file $file $count\n" if $count !~ /^\d+$/;
+		die "Problem with zero note count in file $file\n" if !$count;
+		$output{$file} = $count;
+	}
+	return %output;
+}
+
+
+
+##############################
+##
+## getTotalNotes --
+##
+
+sub getTotalNotes {
+	my $output = 0;
+	foreach my $file (@filelist) {
+		$output += $notecounts{$file};
+	}
+	return $output;
+}
+
+
+
+##############################
+##
+## commify -- Add commas to numbers for thousands separator.
+##
+
+sub commify {
+	my ($number) = @_;
+	$number =~ s/(\d)(?=(\d{3})+(\D|$))/$1\,/g;
+	return $number;
+}
+
+
+
+__DATA__
+
+Humdrum Digital Scores from The Heritage of Polish Music in Open Access project at the Chopin Institute
+======================================
+
+
+Libraries
+---------
+
+Here are a list archives represented in the repository.  Directory
+names are based on the RISM siglum of the archive.  Click on the
+directory name in the first column to see the RISM Online information
+about the archive, or click on the name of the archive to visit its
+webpage.
+
+The `Scores` column lists the number of digital transcriptions within
+each archive directory, and the `Notes` column gives the number of
+musical notes contained within those scores.   Currently there are
+{{scorecount}} score containing a total of {{notecount}} notes.
+
+{{library-table}}
+
+Composers
+---------
+
+{{composer-table}}
+
+

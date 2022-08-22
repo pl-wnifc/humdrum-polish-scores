@@ -21,11 +21,14 @@
 !!!OMD: Cantabile non troppo lento.
 !!!AIN: 2 piano
 !!!key:
+!!!OMD-mod: Cantabile non troppo lento
 **kern	**fing	**kern	**dynam
 *part2	*	*part1	*part1
 *staff2	*	*staff1	*
 *Ipiano	*	*Ipiano	*
 *I"Piano	*	*I"Piano	*
+*mI"Pianoforte	*	*mI"Pianoforte	*
+*I'pf	*	*I'pf	*
 *clefF4	*	*clefG2	*
 *k[f#]	*	*k[f#]	*
 *E:	*	*E:	*
@@ -115,6 +118,7 @@
 *	*	*^	*^
 *ped	*	*	*	*	*
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!LO:DY:rj
+!	!	!	!	!	!LO:MO:mod=!null:null
 16EE/LL	.	(4b/	2ryy	mf	p
 16BB/	.	.	.	.	.
 16G/	.	.	.	.	.
@@ -229,13 +233,17 @@
 16A/	.	.	.	.
 *Xped	*	*	*	*
 16B>\	.	8f#/	.	.
+!LO:SIC:s=16d#>\JJ:v	!	!	!	!
 16d>\JJ	.	.	.	.
 *ped	*	*	*	*
 !LO:TX:t=P:problem=mixed beam	!	!	!	!
 16BB/LL	.	8e/	.	.
 16G/	.	.	.	.
+!LO:MO:mod=*null:null 	!	!	!	!
 *Xped	*	*	*	*
 16B>\	.	8b/J	.	.
+!LO:MO:mod=*Xped:null	!	!	!	!
+*null	*	*	*	*
 16e>\JJ	.	.	.	.
 =21	=21	=21	=21	=21
 *ped	*	*	*	*
@@ -246,6 +254,7 @@
 16d#X>\JJ	.	.	.	.
 !LO:TX:t=P:problem=mixed beam	!	!	!	!
 16g>\LL	.	8g/L	.	.
+!LO:SIC:s=16d#>\:v	!	!	!	!
 16d#X>\	.	.	.	.
 *Xped	*	*	*	*
 16A/	.	8f#/	.	.
@@ -311,8 +320,11 @@
 !LO:TX:t=P:problem=mixed beam	!	!	!
 16BB/LL	.	4a/	.
 16A/	.	.	.
+!LO:MO:mod=*null:null 	!	!	!
 *Xped	*	*	*
 16B>\	.	.	.
+!LO:MO:mod=*Xped:null	!	!	!
+*null	*	*	*
 16d#>\JJ	.	.	.
 =25	=25	=25	=25
 *ped	*	*	*
@@ -332,8 +344,9 @@
 16BB/JJ)	.	.	.
 =26	=26	=26	=26
 *Xped	*	*	*
-!LO:TX:a:t=molto crescendo	!	!	!
-(<16EE/LL	.	4e/])	.
+!	!	!	!LO:MO:mod=!LO&colon;HP&colon;b&colon;i&colon;t=molto cresc.
+!	!	!	!LO:HP:t=molto crescendo
+(<16EE/LL	.	4e/])	<
 16BB/	.	.	.
 16C/	.	.	.
 16BB/JJ	.	.	.
@@ -355,13 +368,16 @@
 .	.	16g/	.
 .	.	16b/JJ	.
 4r	.	16ee\LL	.
+!	!	!	!LO:MO:null:mod=.
 .	.	16b\	[
 .	.	16ee\	.
+!	!	!	!LO:MO:null:mod=[
 .	.	16gg\JJ)	.
 !!LO:LB:g=original
 =28||	=28||	=28||	=28||
 !!!OMD: Poco più animato
 *ped	*	*	*
+!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=appassionato	!
 !	!	!LO:TX:b:i:t=appasionato	!
 32EELLL 32EEE^^\	.	4bb 4gg 4ee 4b^\	ff
 (32BB\	.	.	.
@@ -531,15 +547,20 @@
 32d#X\LLL	.	.	.
 32B\	.	.	.
 32A\	.	.	.
+!LO:SIC:s=32F#\JJJ):v	!	!	!
 32F#\JJJ	.	.	.
 *Xped	*	*	*
+!LO:SIC:s=8d#^^\:v	!	!	!
 8d#X^^\)	.	8ggL 8g\	.
 8r	.	8ff#J 8f#\	.
 4BB 4BBB^/	.	8eeL 8cc 8e\)	.
+!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=con forza	!
 !	!	!LO:TX:b:i:t=con forʒa	!
+!	!	!LO:SIC:s=8ff#J 8dd# 8f#\:v	!
 .	.	8ff#J 8dd#X 8f#\	.
 =36	=36	=36	=36
 *ped	*	*	*
+!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=sosten.	!
 !LO:TX:t=P:problem=mixed beam	!	!LO:TX:a:i:t=sostenuto.	!
 (>32EELLL 32EEE^</	.	4gg 4ee 4b 4g'~\	.
 32E\	.	.	.
@@ -565,8 +586,11 @@
 *Xped	*	*	*
 !!LO:LB:g=original
 =37	=37	=37	=37
+!LO:MO:mod=*ped:null	!	!	!
+*null	*	*	*
 32AALLL 32AAA^^\	.	(8cccL 8ff# 8ee 8cc\	.
 (32E\	.	.	.
+!LO:MO:mod=*null:null 	!	!	!
 *ped	*	*	*
 32F#\	.	.	.
 32c\JJJ	.	.	.
@@ -578,6 +602,7 @@
 32c\	.	.	.
 32F#\	.	.	.
 32E\JJJ	.	.	.
+!LO:SIC:s=32e\LL:v	!	!	!
 32e\LLL	.	.	.
 32c\	.	.	.
 32F#\	.	.	.
@@ -585,6 +610,7 @@
 32e\LL	.	.	.
 32c\	.	.	.
 32F#\	.	.	.
+!LO:SIC:s=32E\JJ:v	!	!	!
 32E\JJJ	.	.	.
 32e\LLL	.	.	.
 32c\	.	.	.
@@ -596,7 +622,9 @@
 8r	.	(8ff# 8f#\	.
 4r	.	8gg 8g\	<
 .	.	8aa 8a\	.
+!	!	!	!LO:MO:null:mod=.
 4r	.	8bb 8b\	[
+!	!	!	!LO:MO:null:mod=[
 .	.	8cccJ 8cc\)	.
 =39	=39	=39	=39
 *ped	*	*	*
@@ -628,6 +656,7 @@
 !!LO:PB:g=original
 =40	=40	=40	=40
 8e\)	.	8ff#]L 8f#\]	.
+!	!	!	!LO:MO:mod=!null:null
 !	!	!	!LO:HP:t=diminuendo
 8r	.	(8ee#XJ 8e#X\	>
 4r	.	8ff#L 8f#\	.
@@ -636,11 +665,14 @@
 .	.	8ee#J 8e#\)	.
 =41||	=41||	=41||	=41||
 !!!OMD: Tranquillo e con sentimento.
+!!!OMD-mod: Tranquillo e con sentimento
 *k[f#c#g#d#]	*	*k[f#c#g#d#]	*
 *M4/4	*	*M4/4	*
 *met(c)	*	*met(c)	*
+!LO:MO:mod=!null:null	!	!	!
 *Xtuplet	*	*	*
 *ped	*	*	*
+!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=dolciss.	!
 !	!	!LO:TX:b:i:t=dolcissimo	!LO:DY:rj
 24BBLL 24BBB\	.	(8ff#L 8f#\	p
 (24A\	.	.	.
@@ -660,10 +692,12 @@
 24f#\LL	.	8bb#X 8b#X\	.
 24Bn\	.	.	.
 24A\JJ	.	.	.
+!	!	!LO:SIC:s=8ccc# 8cc#\:v	!
 24D#\LL	.	8ccc# 8cc#\)	.
 24A\	.	.	.
 24B\JJ	.	.	.
 *Xped	*	*	*
+!	!	!LO:SIC:s=8ddd#J 8dd#\):v	!
 24f#\LL	.	8ddd#J 8dd#\	.
 24B\	.	.	.
 24A\JJ)	.	.	.
@@ -764,6 +798,7 @@
 *Xped	*	*	*
 8r	.	8aaa#XJ 8aa#X\)	.
 =46	=46	=46	=46
+!	!LO:MO:mod=*null:null	!	!
 *ped	*below	*	*
 24FF#LL 24FFF#/	.	4aaan 4eee 4aan\	.
 (24C#/	5	.	.
@@ -830,10 +865,12 @@
 24F#\	.	.	.
 24A\JJ	.	.	.
 8d#X\)	.	8ddd#X 8dd#X\	.
+!	!	!LO:SIC:s=8ccc#X 8cc#X\:v	!
 (24AA\LL	.	8ccc#X 8cc#X\)	.
 24D#\	.	.	.
 24F#\JJ	.	.	.
 *Xped	*	*	*
+!	!	!LO:SIC:s=8bbJ 8b\):v	!
 8B\)	.	8bbJ 8b\	.
 =49	=49	=49	=49
 *ped	*	*	*
@@ -1021,16 +1058,22 @@
 24Dn\LL	.	8gg#L 8g#\	.
 24G#\	.	.	.
 24B\JJ	.	.	.
+!	!	!	!LO:MO:null:mod=>
 24e\LL	.	8aaJ 8a\)	.
 24B\	.	.	.
 24G#\JJ	.	.	.
 24D\LL	.	2bb 2b\	.
 24G#\	.	.	.
+!	!	!	!LO:MO:null:mod=]
 24B\JJ	.	.	>
 24e\LL	.	.	.
 24B\	.	.	.
+!LO:MO:mod=*null:null 	!	!	!
 *Xped	*	*	*
 24G#\JJ	.	.	.
+!LO:MO:mod=*Xped:null	!	!	!
+*null	*	*	*
+!	!	!	!LO:MO:null:mod=.
 8D\)	.	.	]
 8r	.	.	.
 =59	=59	=59	=59
@@ -1086,7 +1129,9 @@
 =62	=62	=62	=62
 *ped	*	*	*
 24GG#LL 24GGG#/	.	8gg#L 8g#\	.
+!LO:SIC:s=(24D#/:v	!	!	!
 24D#/	.	.	.
+!LO:SIC:s=24G#/JJ:v	!	!	!
 (24G#/JJ	.	.	.
 24B#X\LL	.	8aa#XJ 8a#X\	.
 24G#\	.	.	.
@@ -1121,12 +1166,17 @@
 24G\	.	.	.
 24E-\JJ	.	.	.
 =64	=64	=64	=64
+!LO:MO:mod=*Xped:null	!	!	!
+*null	*	*	*
 8Cn/)	.	8eee-]L 8ee-\]	>
+!LO:MO:mod=*null:null 	!	!	!
 *Xped	*	*	*
 8r	.	(8dddn 8ddn\	.
 2r	.	8eee-y 8ee-X\	.
 .	.	8ddd 8dd\	.
+!	!	!	!LO:MO:null:mod=.
 .	.	8eee- 8ee-\	]
+!	!	!	!LO:MO:null:mod=]
 .	.	8dddJ 8dd\)	.
 !!LO:LB:g=original
 =65	=65	=65	=65
@@ -1286,12 +1336,14 @@
 !!LO:LB:g=original
 =75	=75	=75	=75
 *ped	*	*	*
+!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=Ped. al fine	!	!	!
 !LO:TX:b:t=Ped al fine	!	!	!
 !LO:TX:t=P:problem=mixed beam	!	!	!
 24ELL 24EE/	.	4bbb: 4ggg#X: 4eee: 4bb:\	.
 (24G#X\	.	.	.
 24B\JJ	.	.	.
 24e\LL	.	.	.
+!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=dolciss.	!
 !	!	!LO:TX:b:i:t=dolcissimo	!
 24B\	.	.	.
 24G#\JJ	.	.	.
@@ -1321,7 +1373,9 @@
 24b/JJ	.	.	.
 24ee/LL	.	.	.
 24b/	.	.	.
+!LO:SIC:s=24g#/JJ:v	!	!	!
 24g#/JJ)	.	.	.
+!LO:SIC:s=8e/):v	!	!	!
 8e/	.	4r	.
 8r	.	.	.
 4r	.	4bbb: 4ggg#: 4eee: 4bb:\	.
@@ -1331,7 +1385,9 @@
 24b/JJ	.	.	.
 24ee/LL	.	.	.
 24b/	.	.	.
+!LO:SIC:s=24g#/JJ:v	!	!	!
 24g#/JJ)	.	.	.
+!LO:SIC:s=8e/):v	!	!	!
 8e/	.	4bbb: 4ggg#: 4eee: 4bb:\	.
 8r	.	.	.
 4r	.	4ggg#: 4eee: 4bb: 4gg#:\	.
@@ -1361,7 +1417,10 @@
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!ENC: Marta Lawrence
-!!!END: 2021-05-31
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-05-04
+!!!ENC: Marta Lawrence
+!!!END: 2021-05-31
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-08-20

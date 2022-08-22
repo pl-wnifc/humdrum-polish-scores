@@ -37,10 +37,28 @@ all:
 ##
 
 u: update
-update: clear
+update: clear copyscores readme
+
+
+
+##############################
+##
+## copyscores: Copy scores from production repository.
+##
+
+copyscores:
 	bin/updateScores $(DIR1) ./
 	bin/updateScores $(DIR2) ./
 
+
+
+##############################
+##
+## readme -- Generate a new README file based on updated scores.
+##
+
+readme:
+	@bin/makeReadme > README.md
 
 
 ##############################
@@ -95,6 +113,10 @@ cn: note-count
 count-notes: note-count
 count-note: note-count
 note-counts: note-count
+notecount: note-count
+notecounts: note-count
+countnotes: note-count
+countnote: note-count
 note-count:
 	@bin/countNotes
 
@@ -128,6 +150,5 @@ fc: file-composers
 file-composer: file-composers
 file-composers:
 	@ls pl-*/kern/* | sed 's/.*_//; s/--.*//' | sort | uniq -c
-
 
 

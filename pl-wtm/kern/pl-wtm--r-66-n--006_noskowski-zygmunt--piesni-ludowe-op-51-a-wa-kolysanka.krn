@@ -21,121 +21,136 @@
 !!!OMD: Andante con moto
 !!!AIN: 1 bass 1 tenor
 !!!key:
-**kern	**dynam	**kern	**text	**text	**text	**dynam
-*part2	*part2	*part1	*part1	*part1	*part1	*part1
-*staff2	*	*staff1	*staff1	*staff1	*staff1	*
-*Ibass	*	*Itenor	*	*	*	*
-*I"Basy	*	*I"Tenory	*	*	*	*
-*I'B	*	*I'T	*	*	*	*
-*clefF4	*	*clefG2v2	*	*	*	*
-*k[b-e-a-d-]	*	*k[b-e-a-d-]	*	*	*	*
-*A-:	*	*A-:	*	*	*	*
-*M2/4	*	*M2/4	*	*	*	*
-*>[A,A,A]	*	*>[A,A,A]	*	*	*	*
-=1	=1	=1	=1	=1	=1	=1
-*^	*	*	*	*	*	*
-*	*	*	*^	*	*	*	*
-*	*	*	*	*	*	*	*	*^
-*	*	*	*	*	*	*	*	*	*^
-*>A	*>A	*	*>A	*>A	*	*	*	*	*	*
+**kern	**dynam	**text	**text	**text	**mod-text	**mod-text	**mod-text	**kern	**dynam	**text	**text	**text
+*part2	*part2	*part2	*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1	*part1
+*staff2	*staff2	*staff2	*staff2	*staff2	*staff2	*staff2	*staff2	*staff1	*	*staff1	*staff1	*staff1
+*Ibass	*	*	*	*	*	*	*	*Itenor	*	*	*	*
+*I"Basy	*	*	*	*	*	*	*	*I"Tenory	*	*	*	*
+*mI"Basso	*	*	*	*	*	*	*	*mI"Tenore	*	*	*	*
+*I'B	*	*	*	*	*	*	*	*I'T	*	*	*	*
+*clefF4	*	*	*	*	*	*	*	*clefG2v2	*	*	*	*
+*k[b-e-a-d-]	*	*	*	*	*	*	*	*k[b-e-a-d-]	*	*	*	*
+*A-:	*	*	*	*	*	*	*	*A-:	*	*	*	*
+*M2/4	*	*	*	*	*	*	*	*M2/4	*	*	*	*
+*>[A,A,A]	*	*	*	*	*	*	*	*>[A,A,A]	*	*	*	*
+=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
+*^	*	*	*	*	*	*	*	*	*	*	*	*
+*	*	*	*	*	*	*	*	*	*^	*	*	*	*
+*	*	*	*	*	*	*	*	*	*	*	*^	*	*	*
+*	*	*	*	*	*	*	*	*	*	*	*	*^	*	*	*
+*>A	*>A	*	*	*	*	*	*	*	*>A	*>A	*	*	*	*	*	*
 !!LO:TX:t=P:problem:all\left, middle right:global	!
-!	!	!	!LO:TX:t=P:problem=inna dynamika dla każdej zwrotki	!	!	!	!	!	!	!
-!	!	!	!LO:TX:t=P:problem=w źródle brak przenośnika oktawowego przy kluczu	!	!	!	!	!	!	!
-!	!	!	!	!	!	!	!	!LO:DY:b:rj	!LO:DY:b:rj	!LO:DY:b:rj
-4A-/	4A-\	.	4e-/	4c\	1. A-	2. Kuj,	3. Kuj,	mf	p	pp
-4A-/	4D-\	.	4f/	4d-\	-wa,	kuj	kuj	.	.	.
-*	*	*	*	*	*	*	*	*	*v	*v
-*	*	*	*	*	*	*	*	*v	*v
-=2	=2	=2	=2	=2	=2	=2	=2	=2
-8G/	8E-\	.	8e-/	8B-\	kot-	ko-	ko-	.
-8G/	8D-\	.	8e-/	8B-\	-ki	-wa-	-wa-	.
-4A-/	4C\	.	4a-/	4e-\	dwa	-lu,	-lu,	.
-=3	=3	=3	=3	=3	=3	=3	=3	=3
-8G/	8BB-\	.	8e-/	8d-\	Sza-	Po-	Po-	.
-8G-X/	8AA-\	.	8e-/	8c\	-re	-je-	-je-	.
-8F/	8D-\	.	8f/	8d-\	bu-	-dzie-	-dzie-	.
-8Gn/	8E-\	.	8f/	8d-\	-re	-ma	-ma	.
-=4	=4	=4	=4	=4	=4	=4	=4	=4
-8A-/	8F\	.	8e-/	8c\	o-	do	do	.
-8B-/	8G\	.	8d-/	8B-\	-by-	bo-	bo-	.
-4A-/	4A-\	.	4c/	4c\	-dwa,	-ru,	-ru,	.
-=5	=5	=5	=5	=5	=5	=5	=5	=5
-8G/	8C\	.	8e-/	8c\	Le-	A	A	.
-8G/	8C\	.	8e-/	8c\	-cą	od	od	.
-8G/	8E-\	.	8B-/	8G\	le-	bo-	ma-	.
-8G/	8E-\	.	8B-/	8G\	-cą	-ru	-my	.
+!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=inna dynamika dla każdej zwrotki	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=w źródle brak przenośnika oktawowego przy kluczu	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!LO:DY:b:rj	!LO:DY:b:rj	!LO:DY:b:rj	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=!null:null	!LO:MO:mod=!null:null	!	!	!
+!	!	!LO:DY:t= :mod=%s	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!null	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+4A-/	4A-\	mf	.	.	.	1. A-	2. Kuj,	3. Kuj,	4e-/	4c\	mf	p	pp	1. A-	2. Kuj,	3. Kuj,
+4A-/	4D-\	.	.	.	.	-wa,	kuj	kuj	4f/	4d-\	.	.	.	-wa,	kuj	kuj
+*	*	*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*
+*	*	*	*	*	*	*	*	*	*	*	*v	*v	*	*	*
+=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
+8G/	8E-\	.	.	.	.	kot-	ko-	ko-	8e-/	8B-\	.	kot-	ko-	ko-
+8G/	8D-\	.	.	.	.	-ki	-wa-	-wa-	8e-/	8B-\	.	-ki	-wa-	-wa-
+!	!	!	!	!	!	!LO:MO:mod=dwa,	!	!	!	!	!	!LO:MO:mod=dwa,	!	!
+4A-/	4C\	.	.	.	.	dwa	-lu,	-lu,	4a-/	4e-\	.	dwa	-lu,	-lu,
+=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
+!	!	!	!	!	!	!LO:MO:mod=sza-	!LO:MO:mod=po-	!LO:MO:mod=po-	!	!	!	!LO:MO:mod=sza-	!LO:MO:mod=po-	!LO:MO:mod=po-
+8G/	8BB-\	.	.	.	.	Sza-	Po-	Po-	8e-/	8d-\	.	Sza-	Po-	Po-
+8G-X/	8AA-\	.	.	.	.	-re	-je-	-je-	8e-/	8c\	.	-re	-je-	-je-
+8F/	8D-\	.	.	.	.	bu-	-dzie-	-dzie-	8f/	8d-\	.	bu-	-dzie-	-dzie-
+8Gn/	8E-\	.	.	.	.	-re	-ma	-ma	8f/	8d-\	.	-re	-ma	-ma
+=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
+8A-/	8F\	.	.	.	.	o-	do	do	8e-/	8c\	.	o-	do	do
+8B-/	8G\	.	.	.	.	-by-	bo-	bo-	8d-/	8B-\	.	-by-	bo-	bo-
+4A-/	4A-\	.	.	.	.	-dwa,	-ru,	-ru,	4c/	4c\	.	-dwa,	-ru,	-ru,
+=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
+!	!	!	!	!	!	!LO:MO:mod=le-	!LO:MO:mod=a	!LO:MO:mod=a	!	!	!	!LO:MO:mod=le-	!LO:MO:mod=a	!LO:MO:mod=a
+8G/	8C\	.	.	.	.	Le-	A	A	8e-/	8c\	.	Le-	A	A
+!	!	!	!	!	!	!LO:MO:mod=-cą,	!	!	!	!	!	!LO:MO:mod=-cą,	!	!
+8G/	8C\	.	.	.	.	-cą	od	od	8e-/	8c\	.	-cą	od	od
+8G/	8E-\	.	.	.	.	le-	bo-	ma-	8B-/	8G\	.	le-	bo-	ma-
+8G/	8E-\	.	.	.	.	-cą	-ru	-my	8B-/	8G\	.	-cą	-ru	-my
 !!LO:PB:g=original
-=6	=6	=6	=6	=6	=6	=6	=6	=6
-8F/	8BB-\	.	8d-/	8B-\	do	do	do	.
-8F/	8BB-\	.	8d-/	8B-\	la-	ma-	ta-	.
-4F/	4F\	.	4c/	4A-\	-sa,	-my,	-ty,	.
-=7	=7	=7	=7	=7	=7	=7	=7	=7
-8G/	(>16E-\LL	.	8e-/	8B-\	I	Do-	Jest	.
-.	16D-\JJ)	.	.	.	.	.	.	.
-8A-/	8C\	.	8e-/	8A-\	wo-	-sta-	tam	.
-8F/	8D-\	.	8B-/	8B-\	-ła-	-nie-	pie-	.
-8F/	8Dn\	.	8B-/	8A-\	-ją	-ma	-sek	.
-=8	=8	=8	=8	=8	=8	=8	=8	=8
-8E-/	8E-\	.	8c/	8G\	hop	śmie-	ku-	.
-8E-/	8D-X\	.	8B-/	8G\	sa	-ta-	-dła-	.
-(>8E-/L	(<8C\L	.	4A-/	4A-\	sa	-ny.	-ty.	.
-8D-/J)	8BB-\J)	.	.	.	.	.	.	.
-=9	=9	=9	=9	=9	=9	=9	=9	=9
-!	!	!LO:DY:a:rj	!	!	!	!	!	!LO:DY:a:rj
-(>4C/	(<4AA-\	p	(>4A-/	(<8F\L	A	.	.	p
-.	.	.	.	8E-\	.	.	.	.
-4D-/	4GG\	.	4B-/	8F\	.	.	.	.
-.	.	.	.	8E-\J	.	.	.	.
-=10	=10	=10	=10	=10	=10	=10	=10	=10
-8C/L	8AA-\L	.	8A-/L	8F\L	.	.	.	.
-8D-/J	8BB-\J	.	8G/J	8E-\	.	.	.	.
-4C/)	4C\)	.	4A-/)	8F\	.	.	.	.
-.	.	.	.	8E-\J)	.	.	.	.
+=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
+8F/	8BB-\	.	.	.	.	do	do	do	8d-/	8B-\	.	do	do	do
+8F/	8BB-\	.	.	.	.	la-	ma-	ta-	8d-/	8B-\	.	la-	ma-	ta-
+4F/	4F\	.	.	.	.	-sa,	-my,	-ty,	4c/	4A-\	.	-sa,	-my,	-ty,
+=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7
+!	!	!	!	!	!	!LO:MO:mod=i	!LO:MO:mod=do-	!LO:MO:mod=jest	!	!	!	!LO:MO:mod=i	!LO:MO:mod=do-	!LO:MO:mod=jest
+8G/	(>16E-\LL	.	.	.	.	I	Do-	Jest	8e-/	8B-\	.	I	Do-	Jest
+.	16D-\JJ)	.	.	.	.	.	.	.	.	.	.	.	.	.
+8A-/	8C\	.	.	.	.	wo-	-sta-	tam	8e-/	8A-\	.	wo-	-sta-	tam
+8F/	8D-\	.	.	.	.	-ła-	-nie-	pie-	8B-/	8B-\	.	-ła-	-nie-	pie-
+8F/	8Dn\	.	.	.	.	-ją	-ma	-sek	8B-/	8A-\	.	-ją	-ma	-sek
+=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
+8E-/	8E-\	.	.	.	.	hop	śmie-	ku-	8c/	8G\	.	hop	śmie-	ku-
+8E-/	8D-X\	.	.	.	.	sa	-ta-	-dła-	8B-/	8G\	.	sa	-ta-	-dła-
+!	!	!	!	!	!	!LO:MO:mod=sa.	!	!	!	!	!	!LO:MO:mod=sa.	!	!
+(>8E-/L	(<8C\L	.	.	.	.	sa	-ny.	-ty.	4A-/	4A-\	.	sa	-ny.	-ty.
+8D-/J)	8BB-\J)	.	.	.	.	.	.	.	.	.	.	.	.	.
+=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
+!	!	!LO:DY:a:rj	!	!	!	!	!	!	!	!	!LO:DY:a:rj	!	!	!
+(>4C/	(<4AA-\	p	.	.	.	A	.	.	(>4A-/	(<8F\L	p	A	.	.
+.	.	.	.	.	.	.	.	.	.	8E-\	.	.	.	.
+4D-/	4GG\	.	.	.	.	.	.	.	4B-/	8F\	.	.	.	.
+.	.	.	.	.	.	.	.	.	.	8E-\J	.	.	.	.
+=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
+8C/L	8AA-\L	.	.	.	.	.	.	.	8A-/L	8F\L	.	.	.	.
+8D-/J	8BB-\J	.	.	.	.	.	.	.	8G/J	8E-\	.	.	.	.
+4C/)	4C\)	.	.	.	.	.	.	.	4A-/)	8F\	.	.	.	.
+.	.	.	.	.	.	.	.	.	.	8E-\J)	.	.	.	.
 !!LO:LB:g=original
-=11	=11	=11	=11	=11	=11	=11	=11	=11
-(>8F/L	(<8D-\L	.	(>8B-/L	(<4.A-\	A	.	.	.
-8E-/	8C\	.	8c/	.	.	.	.	.
-8F/	8BB-\	.	8d-/	.	.	.	.	.
-8E-/J	8C\J	.	8c/J	8G\	.	.	.	.
-=12	=12	=12	=12	=12	=12	=12	=12	=12
-8F/L	8D-\L	.	8B-/L	8F\L	.	.	.	.
-8E-/	8E-\J	.	16c/L	8G\J	.	.	.	.
-.	.	.	16B-/JJ	.	.	.	.	.
-8F/	4AA-\)	.	4A-/)	4A-\)	.	.	.	.
-8E-/J)	.	.	.	.	.	.	.	.
-=13	=13	=13	=13	=13	=13	=13	=13	=13
-!	!	!LO:DY:a:rj	!	!	!	!	!	!LO:DY:a:rj
-(>8F/L	(<8D-\L	pp	(>4A-/	[<2F\	A	.	.	pp
-8E-/J	8C\	.	.	.	.	.	.	.
-4D-/	8BB-\	.	4B-/	.	.	.	.	.
-.	8AA-\J	.	.	.	.	.	.	.
-=14	=14	=14	=14	=14	=14	=14	=14	=14
-8D-/L	8BB-\L	.	8A-/L	8F\L]	.	.	.	.
-8C/J	8C\J	.	8G/J	8En\J	.	.	.	.
-4F/)	8F\L	.	4A-/)	4F\	.	.	.	.
-.	8E-\J)	.	.	.	.	.	.	.
-=15	=15	=15	=15	=15	=15	=15	=15	=15
-(>4.F/	(<8D-\L	.	(>8B-/L	(<4G\	A	.	.	.
-.	8C\	.	8c/	.	.	.	.	.
-.	8BB-\	.	8d-/	8A-\L	.	.	.	.
-!LO:TX:b:Bi:t=rall.	!	!	!LO:TX:b:Bi:t=rall.	!	!	!	!	!
-8En/	8C\J	.	8c/J	8G\J	.	.	.	.
-=16	=16	=16	=16	=16	=16	=16	=16	=16
-8F/L	8D-\L	.	8B-/L	8F\L	.	.	.	.
-8E-X/J	8E-\J	.	16c/L	8G\J	.	.	.	.
-.	.	.	16B-/JJ	.	.	.	.	.
-4C;>/)	4AA-;<\)	.	4A-;>/)	4E-;<\)	.	.	.	.
-*v	*v	*	*	*	*	*	*	*
-*	*	*v	*v	*	*	*	*
-==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!
-*-	*-	*-	*-	*-	*-	*-
+=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11
+(>8F/L	(<8D-\L	.	.	.	.	A	.	.	(>8B-/L	(<4.A-\	.	A	.	.
+8E-/	8C\	.	.	.	.	.	.	.	8c/	.	.	.	.	.
+8F/	8BB-\	.	.	.	.	.	.	.	8d-/	.	.	.	.	.
+8E-/J	8C\J	.	.	.	.	.	.	.	8c/J	8G\	.	.	.	.
+=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
+8F/L	8D-\L	.	.	.	.	.	.	.	8B-/L	8F\L	.	.	.	.
+8E-/	8E-\J	.	.	.	.	.	.	.	16c/L	8G\J	.	.	.	.
+.	.	.	.	.	.	.	.	.	16B-/JJ	.	.	.	.	.
+8F/	4AA-\)	.	.	.	.	.	.	.	4A-/)	4A-\)	.	.	.	.
+8E-/J)	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13
+!	!	!LO:DY:a:rj	!	!	!	!	!	!	!	!	!LO:DY:a:rj	!	!	!
+(>8F/L	(<8D-\L	pp	.	.	.	A	.	.	(>4A-/	[<2F\	pp	A	.	.
+8E-/J	8C\	.	.	.	.	.	.	.	.	.	.	.	.	.
+4D-/	8BB-\	.	.	.	.	.	.	.	4B-/	.	.	.	.	.
+.	8AA-\J	.	.	.	.	.	.	.	.	.	.	.	.	.
+=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14	=14
+8D-/L	8BB-\L	.	.	.	.	.	.	.	8A-/L	8F\L]	.	.	.	.
+8C/J	8C\J	.	.	.	.	.	.	.	8G/J	8En\J	.	.	.	.
+4F/)	8F\L	.	.	.	.	.	.	.	4A-/)	4F\	.	.	.	.
+.	8E-\J)	.	.	.	.	.	.	.	.	.	.	.	.	.
+=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15
+(>4.F/	(<8D-\L	.	.	.	.	A	.	.	(>8B-/L	(<4G\	.	A	.	.
+.	8C\	.	.	.	.	.	.	.	8c/	.	.	.	.	.
+.	8BB-\	.	.	.	.	.	.	.	8d-/	8A-\L	.	.	.	.
+!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=rall.	!	!	!	!	!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=rall.	!	!	!	!	!
+!LO:TX:b:Bi:t=rall.	!	!	!	!	!	!	!	!	!LO:TX:b:Bi:t=rall.	!	!	!	!	!
+8En/	8C\J	.	.	.	.	.	.	.	8c/J	8G\J	.	.	.	.
+=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
+8F/L	8D-\L	.	.	.	.	.	.	.	8B-/L	8F\L	.	.	.	.
+8E-X/J	8E-\J	.	.	.	.	.	.	.	16c/L	8G\J	.	.	.	.
+.	.	.	.	.	.	.	.	.	16B-/JJ	.	.	.	.	.
+4C;>/)	4AA-;<\)	.	.	.	.	.	.	.	4A-;>/)	4E-;<\)	.	.	.	.
+*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*
+*	*	*	*	*	*	*	*	*v	*v	*	*	*	*
+==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!
+*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: | = vertical stroke
 !!!RDF**kern: N = linked
 !!!RDF**kern: i = editorial accidental
-!!!EED: Wojciech Jakubiak-Danek
-!!!EEV: 2021-06-09
+!!!filter-modern: humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Marcin Jachim
 !!!END: 2021-05-31
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2021-06-09
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-08-21
