@@ -1064,6 +1064,35 @@ Composers
 
 
 
+Filenames
+---------
+
+Filenames are in the form `siglum--shelfmark--sequence_composer--title.krn`
+
+Example: `pl-kc--40102-iii-1-saf--002-052_zielenski-mikolaj--communiones-totius-anni-in-epiphania-domini-vidimus-stellam-eius.krn`
+
+| Component | Meaning |
+| --------- | ------- |
+| `pl-kc`     | RISM siglum of source archive. |
+| `40102-iii-saf` | Shelf mark containing source of transcription. |
+| `002-005`   | This is fifth movement/work in the second work/group in the given shelfmark. |
+| `zielenski-mikolaj` | The composer's name |
+| `communiones-totius-anni-in-epiphania-domini-vidimus-stellam-eius` | The composition title. |
+
+Filenames only contains letters (a-z without accents), numbers, dashes, underscores and dots.
+
+The first part of the file name (siglum + shelfmark + sheflmark enumeration) is unique and 
+is used for data processing, while the second part of the file name (composer + title) is for
+human readability.
+
+
+Reference records
+-----------------
+
+Here is a list of reference records used in the Humdrum scores and their meanings:
+
+{{reference-table}}
+
 
 
 
