@@ -152,3 +152,16 @@ file-composers:
 	@ls pl-*/kern/* | sed 's/.*_//; s/--.*//' | sort | uniq -c
 
 
+
+##############################
+##
+## reference-keys -- List all reference record keys in database.
+##
+
+rk: reference-keys
+reference-keys:
+	grep -rh "^\!\!\![^\!:]*:" */kern | sed 's/:.*//; s/^\!*//' | sort | uniq -c
+
+
+
+
