@@ -135,12 +135,12 @@ sub buildComposerTable {
 
 sub sortEntriesByScoreCount {
 	my @entries = @_;
-	my @output = sort {     
+	my @output = sort {
 		$a =~ /\|\s*([0-9,]+)\s*\|\s*([0-9,]+)\s*\|/;
-		my $anum = $1;
+		my $anum = commify($1);
 		$anum =~ s/,//g;
 		$b =~ /\|\s*([0-9,]+)\s*\|\s*([0-9,]+)\s*\|/;
-		my $bnum = $1;
+		my $bnum = commify($1);
 		$bnum =~ s/,//g;
 		return $bnum <=> $anum;
 	} @entries;
@@ -156,12 +156,12 @@ sub sortEntriesByScoreCount {
 
 sub sortEntriesByNoteCount {
 	my @entries = @_;
-	my @output =  sort {     
-		$a =~ /\|\s*([0-9,]+)\s*\|\s*(0-9,]+)\s*\|/;
-		my $anum = $2;
+	my @output =  sort {
+		$a =~ /\|\s*([0-9,]+)\s*\|\s*([0-9,]+)\s*\|/;
+		my $anum = commify($2);
 		$anum =~ s/,//g;
 		$b =~ /\|\s*([0-9,]+)\s*\|\s*([0-9,]+)\s*\|/;
-		my $bnum = $2;
+		my $bnum = commify($2);
 		$bnum =~ s/,//g;
 		return $bnum <=> $anum;
 	} @entries;
@@ -285,7 +285,7 @@ sub buildLibraryTable {
 		$output .= "|\n";
 	}
 
-	$output = "<details open><summary>Archives represented in repository</summary>\n\n$output\n</details>";
+	$output = "<details><summary>Archives represented in repository</summary>\n\n$output\n</details>";
 
 	return $output;
 }
@@ -494,7 +494,7 @@ Example: `pl-kc--40102-iii-1-saf--002-052_zielenski-mikolaj--communiones-totius-
 
 Filenames only contains letters (a-z without accents), numbers, dashes, underscores and dots.
 
-The first part of the file name (siglum + shelfmark + sheflmark enumeration) is unique and 
+The first part of the file name (siglum + shelfmark + sheflmark enumeration) is unique and
 is used for data processing, while the second part of the file name (composer + title) is for
 human readability.
 
