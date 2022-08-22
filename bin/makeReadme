@@ -29,7 +29,7 @@ my $composerInfo = buildComposerTable();
 
 # Fill in template markers:
 $output =~ s/{{library-table}}/$siglaInfo/g;
-$output =~ s/{{composer-table}}/$composerInfo/g;
+$output =~ s/{{composer-tables}}/$composerInfo/g;
 $output =~ s/{{notecount}}/$commanotes/g;
 $output =~ s/{{scorecount}}/$commafiles/g;
 
@@ -70,25 +70,96 @@ sub getComposerList {
 sub buildComposerTable {
 	my $output = "";
 
-	$output .= "| Composer | Scores | Notes |\n";
-	$output .= "| -------- | -----: | ----: |\n";
-
 	my %c;
 	foreach my $file (@filelist) {
 		my $composer = $composerList{$file};
 		$c{$composer}++;
 	}
-
 	my @composers = sort keys %c;
 
+	$output .= "<details markdown=\"1\">\n";
+	$output .= "<summary> Alphabetical composer list</summary>\n";
+
+	$output .= "\n";
+	$output .= "| Composer | Scores | Notes |\n";
+	$output .= "| -------- | -----: | ----: |\n";
+
+	my @entries;
 	foreach my $composer (@composers) {
+		my $entry = "";
 		my $scores = commify($c{$composer});
 		my $notes  = commify(getNoteCountForComposer($composer));
 		$composer = "Anonymous" if $composer eq "Anonim";
-		$output   .= "| $composer | $scores | $notes |\n";
+		$entry = "| $composer | $scores | $notes |\n";
+		$entries[@entries] = $entry;
+		$output .= $entry;
 	}
 
+	$output .= "\n</details>\n\n";
+
+	$output .= "<details markdown=\"1\">\n";
+	$output .= "<summary> Composer list by score count</summary>\n";
+	$output .= "\n";
+	$output .= "| Composer | Scores | Notes |\n";
+	$output .= "| -------- | -----: | ----: |\n";
+	my @scoresort = sortEntriesByScoreCount(@entries);
+	foreach my $line (@scoresort) {
+		$output .= $line;
+	}
+	
+	$output .= "\n</details>\n\n";
+
+	$output .= "<details markdown=\"1\">\n";
+	$output .= "<summary> Composer list by notecount count</summary>\n";
+	$output .= "\n";
+	$output .= "| Composer | Scores | Notes |\n";
+	$output .= "| -------- | -----: | ----: |\n";
+	my @notesort = sortEntriesByNoteCount(@entries);
+	foreach my $line (@notesort) {
+		$output .= $line;
+	}
+
+	$output .= "\n</details>\n\n";
+
 	return $output;
+}
+
+
+
+##############################
+##
+## sortEntriesByScoreCount --
+##
+
+sub sortEntriesByScoreCount {
+	my @entries = @_;
+	my @output = sort {     
+		$a =~ /\|\s*(\d+)\s*\|\s*(\d+)\s*|/;
+		my $anum = $1;
+		$b =~ /\|\s*(\d+)\s*\|\s*(\d+)\s*|/;
+		my $bnum = $1;
+		return $b <=> $a;
+	} @entries;
+	return @output;
+}
+
+
+
+##############################
+##
+## sortEntriesByNoteCount --
+##
+
+sub sortEntriesByNoteCount {
+	my @entries = @_;
+	my @output =  sort {     
+		$a =~ /\|\s*(\d+)\s*\|\s*(\d+)\s*|/;
+		my $anum = $2;
+		$b =~ /\|\s*(\d+)\s*\|\s*(\d+)\s*|/;
+		my $bnum = $2;
+		return $b <=> $a;
+	} @entries;
+	return @output;
 }
 
 
@@ -135,8 +206,8 @@ sub buildLibraryTable {
 	my $command = "wget $url -O - 2> /dev/null";
 	my @contents = `$command`;
 	chomp @contents;
-	my %sigurl;
-	my %signame;
+	my %sigurls;
+	my %signames;
 	my %sigrism;
 	my $siglum;
 	my $rism;
@@ -161,10 +232,10 @@ sub buildLibraryTable {
 		if ($line =~ /^\@Website-EN:\s*(.*?)\s*$/) { $urlen = $1; }
 		if (($line =~ /^\@\@END:/) && ($siglum !~ /^\s*$/)) {
 			my $siglow = lc($siglum);
-			$signame{$siglow} = $name;
+			$signames{$siglow} = $name;
 			$sigrism{$siglow} = $rism;
-			$sigurl{$siglow}  = $urlen;
-			$sigurl{$siglow}  = $urlpl if $sigurl{$siglow} =~ /^\s*$/;
+			$sigurls{$siglow}  = $urlen;
+			$sigurls{$siglow}  = $urlpl if $sigurls{$siglow} =~ /^\s*$/;
 			$counter++;
 		}
 	}
@@ -180,11 +251,13 @@ sub buildLibraryTable {
 
 	my @skeys = sort keys %signotes;
 
+	my $basedir = "https://github.com/pl-wnifc/humdrum-polish-scores/tree/main";
 	my $output = "";
 	$output .= "| Siglum | Library | Scores |    % | Notes |    % |\n";
 	$output .= "| ------ | ------- | -----: | ---: | ----: | ---: |\n";
 	for (my $i=0; $i<@skeys; $i++) {
 		my $siglum = $skeys[$i];
+		my $lcsiglum = lc($siglum);
 		my $scorepercent  = int($sigfiles{$siglum}/$totalfiles * 1000.0)/10.0;
 		my $notepercent   = int($signotes{$siglum}/$totalnotes * 1000.0)/10.0;
 		$scorepercent .= ".0" if $scorepercent !~ /\./;
@@ -193,9 +266,11 @@ sub buildLibraryTable {
 		my $commanotes  = commify($signotes{$siglum});
 
 		my $rism = $sigrism{$siglum};
-		my $rismurl = "https://rism.online/institutions/$rism";
-		$output .= "| [$siglum]($rismurl) ";
-		$output .= "| [$signame{$siglum}]($sigurl{$siglum}) ";
+		my $datadir = "$basedir/$siglum/kern";
+		my $sigurl = $sigurls{$siglum};
+		my $signame = $signames{$siglum};
+		$output .= "| <img src=\"https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/$lcsiglum.svg\"> [$siglum]($datadir) ";
+		$output .= "| [$signame]($sigurl) ";
 		$output .= "| $commascores ";
 		$output .= "| $scorepercent ";
 		$output .= "| $commanotes ";
@@ -260,17 +335,26 @@ sub commify {
 
 __DATA__
 
-Humdrum Digital Scores from The Heritage of Polish Music in Open Access project at the Chopin Institute
+Humdrum Polish Scores
 ======================================
 
+This repository contains transcriptions from the _Heritage of Polish
+Music in Open Access_ project at the [Chopin Institute](https://nifc.pl/en).
 
-Libraries
----------
+
+Frontend
+--------
+
+The main user interface for these digital scores is at https://polishscores.org.
+All transcriptions include scans of the physical scores.
+
+Represented libraries and archives
+----------------------------------
 
 Here are a list archives represented in the repository.  Directory
 names are based on the RISM siglum of the archive.  Click on the
-directory name in the first column to see the RISM Online information
-about the archive, or click on the name of the archive to visit its
+siglum in the first column to see a list of the Humdrum digital
+transcriptions, or click on the name of the archive to visit its
 webpage.
 
 The `Scores` column lists the number of digital transcriptions within
@@ -283,6 +367,6 @@ musical notes contained within those scores.   Currently there are
 Composers
 ---------
 
-{{composer-table}}
+{{composer-tables}}
 
 
