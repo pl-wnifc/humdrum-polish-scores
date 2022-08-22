@@ -134,10 +134,12 @@ sub buildComposerTable {
 sub sortEntriesByScoreCount {
 	my @entries = @_;
 	my @output = sort {     
-		$a =~ /\|\s*(\d+)\s*\|\s*(\d+)\s*|/;
+		$a =~ /\|\s*([\d,]+)\s*\|\s*([\d,]+)\s*|/;
 		my $anum = $1;
-		$b =~ /\|\s*(\d+)\s*\|\s*(\d+)\s*|/;
+		$anum =~ s/,//g;
+		$b =~ /\|\s*([\d,]+)\s*\|\s*([\d,]+)\s*|/;
 		my $bnum = $1;
+		$bnum =~ s/,//g;
 		return $b <=> $a;
 	} @entries;
 	return @output;
@@ -153,10 +155,12 @@ sub sortEntriesByScoreCount {
 sub sortEntriesByNoteCount {
 	my @entries = @_;
 	my @output =  sort {     
-		$a =~ /\|\s*(\d+)\s*\|\s*(\d+)\s*|/;
+		$a =~ /\|\s*([\d,]+)\s*\|\s*(\d,]+)\s*|/;
 		my $anum = $2;
-		$b =~ /\|\s*(\d+)\s*\|\s*(\d+)\s*|/;
+		$anum =~ s/,//g;
+		$b =~ /\|\s*([\d,]+)\s*\|\s*([\d,]+)\s*|/;
 		my $bnum = $2;
+		$bnum =~ s/,//g;
 		return $b <=> $a;
 	} @entries;
 	return @output;
@@ -269,7 +273,8 @@ sub buildLibraryTable {
 		my $datadir = "$basedir/$siglum/kern";
 		my $sigurl = $sigurls{$siglum};
 		my $signame = $signames{$siglum};
-		$output .= "| <img src=\"https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/$lcsiglum.svg\"> [$siglum]($datadir) ";
+		$output .= "| <a target=\"_blank\" href=\"https://polishscores.org?s=$lcsiglum\"><img src=\"https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/$lcsiglum.svg\"></a>";
+		$output .= "<br/><span class=\"nobr\">[$siglum]($datadir)</span></span> ";
 		$output .= "| [$signame]($sigurl) ";
 		$output .= "| $commascores ";
 		$output .= "| $scorepercent ";
@@ -334,12 +339,14 @@ sub commify {
 
 
 __DATA__
-
 Humdrum Polish Scores
 ======================================
 
 This repository contains transcriptions from the _Heritage of Polish
-Music in Open Access_ project at the [Chopin Institute](https://nifc.pl/en).
+Music in Open Access_ project at the [Chopin Institute](https://nifc.pl/en) in the
+Humdrum digital score format.   Files are organized by the RISM siglum ID of the
+source archive.
+
 
 
 Frontend
@@ -348,14 +355,18 @@ Frontend
 The main user interface for these digital scores is at https://polishscores.org.
 All transcriptions include scans of the physical scores.
 
+
+
 Represented libraries and archives
 ----------------------------------
 
 Here are a list archives represented in the repository.  Directory
 names are based on the RISM siglum of the archive.  Click on the
-siglum in the first column to see a list of the Humdrum digital
-transcriptions, or click on the name of the archive to visit its
-webpage.
+archive icon in the first column to see a list of the scores at
+https://polishscores.org, or click on the directory name in the
+first column to see a list of the Humdrum digital transcriptions
+for the given archive on Github, or click on the name of the archive
+to visit its webpage.
 
 The `Scores` column lists the number of digital transcriptions within
 each archive directory, and the `Notes` column gives the number of
@@ -364,9 +375,23 @@ musical notes contained within those scores.   Currently there are
 
 {{library-table}}
 
+
+
 Composers
 ---------
 
 {{composer-tables}}
+
+
+
+<style>
+
+.nobr {
+	white-space: pre;
+}
+
+</style>
+
+
 
 
