@@ -160,7 +160,7 @@ file-composers:
 
 rk: reference-keys
 reference-keys:
-	grep -rh "^\!\!\![^\!:]*:" */kern | sed 's/:.*//; s/^\!*//' | sort | uniq -c
+	@grep -rh "^\!\!\![^\!:]*:" */kern | sed 's/:.*//; s/^\!*//' | sort | uniq
 
 
 

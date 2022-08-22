@@ -19,18 +19,23 @@
 !!!URL-scan:
 !!!ONB-nifc: UWAGA: w zbiorze 10 krótkich pieśni
 !!!AIN: 1 piano
-!!!key:
+!!!key: F
+!!!OMD:
+!!!OMD-mod: Allegretto
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | tie -s  | modori -m
 **kern	**kern	**text
 *part1	*part1	*part1
 *staff2	*staff1	*staff1
 *Ipiano	*Ipiano	*
 *I"[Piano]	*I"[Piano]	*
+*I'pf	*I'pf	*
+*mI"Pianoforte	*mI"Pianoforte	*
 *clefF4	*clefG2	*
 *k[b-]	*k[b-]	*
 *F:	*F:	*
 *M3/4	*M3/4	*
 =1	=1	=1
-!	!LO:TX:a:i:t=Allegretto.	!
+!	!LO:TX:a:i:t=Allegretto.:mod=	!
 !	!LO:TX:a:t=P:problem= 8, 4\right	!
 4F\ 4A 4c	(<8f/L	Hej
 .	8a/J)	.
@@ -91,7 +96,7 @@
 *	*v	*v	*
 =12	=12	=12
 4F\ 4A	4f/ 4a	zer-
-!LO:TX:b:i:t=Skończyłem o godz 1ej z południa\nna tenże sam dzień JNosk\nCzy to wiedza, czy też natchnienie?...	!	!
+!LO:TX:b:i:t=Skończyłem o godz 1ej z południa\nna tenże sam dzień JNosk\nCzy to wiedza, czy też natchnienie?...:mod=	!	!
 2F\ 2A 2c	2f/	-wą
 ==	==	==
 *-	*-	*-
@@ -102,3 +107,5 @@
 !!!EEV: 2021-06-05
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-12
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-22

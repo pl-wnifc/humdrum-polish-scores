@@ -19,12 +19,15 @@
 !!!URL-scan:
 !!!ONB-nifc: UWAGA: w zbiorze 10 krótkich pieśni
 !!!AIN: 1 piano
-!!!key:
+!!!key: B-
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | tie -s  | modori -m
 **kern	**kern	**text
 *part1	*part1	*part1
 *staff2	*staff1	*staff1
 *Ipiano	*Iempty	*
 *I"[Piano]	*	*
+*mI"Pianoforte	*	*
+*mI'pf	*	*
 *clefF4	*clefG2	*
 *k[b-e-]	*k[b-e-]	*
 *B-:	*B-:	*
@@ -80,7 +83,7 @@
 =9	=9	=9
 8B-\L	8f#X 8d/	Gę-
 !LO:TX:a:t=P:problem=nuta i belka dopisana ołówkiem	!	!
-8B-\J	8f# 8d/	-gę-
+8B-\J@	8f# 8d/	-gę-
 8BnL 8G\	4g 4d/	-gę-
 8BJ 8G\	.	.
 =10	=10	=10
@@ -97,7 +100,7 @@
 8C#X\J	.	.
 =12	=12	=12
 !	!LO:TX:a:t=P:problem=2A dopisane ołówkiem	!
-8.A\L	2f#X 2d 2A/	gę
+8.A\L	2f#X 2d 2A/@	gę
 16AA\Jk	.	.
 8D\L	.	.
 8Cn\J	.	.
@@ -128,7 +131,12 @@
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!LO:MO:ori
+!!!RDF**kern: @ = marked note, color=grey
+!!LO:MO:end
 !!!EED: Antoni Szymański
 !!!EEV: 2021-06-05
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-11
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-22

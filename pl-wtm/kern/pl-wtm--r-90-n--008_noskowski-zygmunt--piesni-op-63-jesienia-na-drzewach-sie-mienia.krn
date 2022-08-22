@@ -19,19 +19,24 @@
 !!!URL-scan:
 !!!ONB-nifc: UWAGA: w zbiorze 10 krótkich pieśni
 !!!AIN: 1 piano
-!!!key:
+!!!key: A-
+!!!OMD:
+!!!OMD-mod: Andantino
+!!!filter-modern: sic -sq | shed -e "s/yy//" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | tie -s  | modori -m
 **kern	**kern	**text
 *part1	*part1	*part1
 *staff2	*staff1	*staff1
 *Ipiano	*Ipiano	*
 *I"[Piano]	*I"[Piano]	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
 *clefF4	*clefG2	*
 *k[b-e-a-d-]	*k[b-e-a-d-]	*
 *A-:	*A-:	*
 *M6/8	*M6/8	*
 =1	=1	=1
 *all\right	*all\right	*
-!	!LO:TX:a:i:t=Andantino.	!
+!	!LO:TX:a:i:t=Andantino.:mod=	!
 8C\L	4.ryy	.
 8E-\	.	.
 8F\J	.	.
@@ -72,7 +77,7 @@
 *	*^	*
 8AA-\L	(>4a-/	4c\	-śli-
 8F\	.	.	.
-8E-\J	8g/)	2ryy	.
+8E-\J	8g/)	2ryyyy	.
 8A-\L	4a- 4c/	.	-cznie,
 8E-\	.	.	.
 8A-J 8D-\	8cc 8e-/	.	og-
@@ -90,8 +95,8 @@
 8BB-\L	8b-/L	4.d-\	-wo-
 8F\	8dd-/	.	.
 8A-\J	8f/J	.	.
-8E-\L	4g 4d-/	8ryy	-ce
-8B-\	.	4ryy	.
+8E-\L	4g 4d-/	8ryyyy	-ce
+8B-\	.	4ryyyy	.
 8E-\J	8cc/	.	i
 *	*v	*v	*
 =9	=9	=9
@@ -109,3 +114,5 @@
 !!!EEV: 2021-06-05
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-05-12
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-22

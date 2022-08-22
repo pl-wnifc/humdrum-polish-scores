@@ -19,22 +19,29 @@
 !!!URL-scan:
 !!!ONB-nifc: UWAGA: w zbiorze 10 krótkich pieśni
 !!!AIN: 1 piano
-!!!key:
+!!!key: C
+!!!filter-modern: sic -sq | shed -e "s/yy//" | autostem -r | tie -s  | modori -m
+!!!OMD:
+!!!OMD-mod: Moderato assai
 **kern	**kern	**text
 *part1	*part1	*part1
 *staff2	*staff1	*staff1
-*Ipiano	*Iempty	*
-*I"[Piano]	*	*
+*Ipiano	*Ipiano	*
+*I"[Piano]	*I"[Piano]	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
 *M4/4	*M4/4	*
 *met(c)	*met(c)	*
 =1	=1	=1
-!	!LO:TX:a:i:t=Moderato assai	!
+!	!LO:TX:a:i:t=Moderato assai:mod=	!
 8C/	8g 8e 8c/	By-
 8r	8b/	-ła
+!LO:SIC:s=8cL	!	!
 8c\	8cc/	ma-
+!LO:SIC:s=8EJ	!	!
 8E\	8a 8e/	-ła
 4G\	4g/	raz
 4B 4G 4F\	4d/	kró-
@@ -58,9 +65,9 @@
 *	*^	*
 4c 4C\	8b/L	4e\	-wie-
 .	8cc/J	.	.
-8C\L	2g 2e/	4rcyy	-wna
+8C\L	2g 2e/	4rcyyyy	-wna
 8D\J	.	.	.
-8E\L	.	2rcyy	.
+8E\L	.	2rcyyyy	.
 8F\	.	.	.
 8A\	4r	.	.
 8G\J	.	.	.
@@ -77,15 +84,15 @@
 *	*^	*
 4d 4B\	8ee/L	4g\	-dusz-
 .	8dd/J	.	.
-8dL 8B\	2g/	4rcyy	-ka
+8dL 8B\	2g/	4rcyyyy	-ka
 8cJ 8A\	.	.	.
-4A 4F\	.	2rcyy	.
+4A 4F\	.	2rcyyyy	.
 4d 4Fn\	8a/	.	Skrzy-
 .	8b 8g/	.	-dla-
 =7	=7	=7	=7
-4c 4E\	4cc 4g/	2rcyy	-te-
+4c 4E\	4cc 4g/	2rcyyyy	-te-
 4c 4C\	4b-X 4e/	.	-go
-4c 4F\	4a 4f/	4rcyy	mia-
+4c 4F\	4a 4f/	4rcyyyy	mia-
 4c 4A\	8bn/L	4f\	-ła
 .	8cc/J	.	.
 =8	=8	=8	=8
@@ -96,7 +103,8 @@
 8G\J	.	.	.
 8C/	.	.	.
 8r	.	.	.
-4r	4raayy	4rcyy	.
+!	!LO:MO:mod=4r	!	!
+4r	4raayy	4rcyyyy	.
 *	*v	*v	*
 ==	==	==
 *-	*-	*-
@@ -105,3 +113,5 @@
 !!!EEV: 2021-06-05
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-12
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-22

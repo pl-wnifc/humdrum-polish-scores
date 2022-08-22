@@ -19,7 +19,8 @@
 !!!URL-pdf-islandora:
 !!!URL-scan: https://polona.pl/item/six-trios-pour-deux-violons-basse,MTAxMDA3MzY2/0/#item @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc: UWAGA: źródło zawiera 6 Trio na 2 skrzypiec i wiolonczelę. Violino Primo (od skanu 3), Violino Secondo (od skanu 37), Basso (od skanu 61). Basso to partia wiolonczeli. Części Ie Trio: 1. Allegro moderato, 2. Andantino la Pollacca, 3. Finale/Allegro
-!!!Key: C
+!!!AIN: 1 cello 2 violn
+!!!key: C
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**fing
 *part3	*part3	*part2	*part2	*part1	*part1	*
 *staff3	*	*staff2	*	*staff1	*	*
@@ -1751,7 +1752,6 @@
 ==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
-!!!AIN: 1 cello 2 violn
 !!!RDF**kern: | = vertical stroke
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Marta Opryszak

@@ -19,13 +19,17 @@
 !!!URL-scan:
 !!!ONB-nifc: UWAGA: w zbiorze 10 krótkich pieśni
 !!!AIN: 1 piano
-!!!key:
+!!!key: D
+!!!OMD: Andantino
+!!!filter-modern: sic -sq | autostem -r | tie -s  | modori -m
 **kern	**kern	**text
 *part1	*part1	*part1
 *staff2	*staff1	*staff1
 *Ipiano	*Iempty	*
 *I"[Piano]	*	*
 *I'[Piano]	*	*
+*mI"Pianoforte	*	*
+*mI'pf	*	*
 *clefF4	*clefG2	*
 *k[f#c#]	*k[f#c#]	*
 *D:	*D:	*
@@ -33,7 +37,7 @@
 *met(c)	*met(c)	*
 =1	=1	=1
 *	*^	*
-!	!LO:TX:a:i:t=Andantino	!	!
+!	!LO:TX:a:i:t=Andantino:mod=	!	!
 4A 4D\	4.f#/	2d\	Szedł
 4A 4BB\	.	.	.
 .	8g/	.	tu
@@ -84,7 +88,7 @@
 16dL 16B\	.	.
 16dJJ 16B\	16a/	-pił
 8dL 8F#\	4.cc#\	zie-
-8dJ 8F#\	.	.
+8d\J 8F#\	.	.
 8dL 8G#X\	.	.
 8dJ 8G#\	8b\	-mi
 =8	=8	=8
@@ -119,6 +123,7 @@
 .	8c#/	-ry
 =12	=12	=12
 4G 4AA\	4e 4c#/	ca-
+!	!	!LO:MO:mod=-le.
 4F# 4D\	4d/	-le
 4r	4r	.
 ==	==	==
@@ -130,3 +135,5 @@
 !!!EEV: 2021-06-05
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-11
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-22

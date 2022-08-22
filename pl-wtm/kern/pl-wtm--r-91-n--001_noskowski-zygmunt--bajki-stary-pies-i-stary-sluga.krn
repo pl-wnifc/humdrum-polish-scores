@@ -12,19 +12,25 @@
 !!!SMS-shelfmark: R 91/N
 !!!SMS-shelfwork: 001 G
 !!!SMS-variant:
-!!!SMS-altvar:
+!!!SMS-altvar: s
 !!!NIFC-rismSourceID: 1001084142
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
 !!!URL-scan:
 !!!ONB-nifc:
 !!!AIN: 1 forte 1 vox
-!!!key:
+!!!key: a
+!!!OMD:
+!!!OMD-mod: Andantino con moto
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B"  | tie -s  | modori -m | humtr -p
 **kern	**kern	**dynam	**kern	**text	**dynam
 *part2	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1	*
 *Iforte	*Iforte	*	*Ivox	*	*
 *I"Fortepian	*I"Fortepian	*	*I"Spiew	*	*
+*I'	*I'	*	*I'	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*	*
+*mI'pf	*mI'pf	*	*mI'v	*	*
 *clefF4	*clefG2	*	*clefG2	*	*
 *k[]	*k[]	*	*k[]	*	*
 *a:	*a:	*	*a:	*	*
@@ -32,17 +38,17 @@
 =1	=1	=1	=1	=1	=1
 *all\right	*all\right	*	*all\right	*	*
 *2\right	*2\right	*	*2\right	*	*
-!	!LO:TX:a:i:t=Andantino con moto	!	!LO:TX:a:i:t=Andantino con moto	!	!
+!	!LO:TX:a:i:t=Andantino con moto:mod=	!	!LO:TX:a:i:t=Andantino con moto:mod=	!	!
 !	!	!LO:DY:b=2:rj	!	!	!
 [<2.E [<2.AA\	4r	p	8%9r	.	.
 .	8r	.	.	.	.
-.	[>4.d#X [>4.c [>4.F#X<^>/	.	.	.	.
+.	[>4.d#X [>4.c [>4.F#X<^>>/	.	.	.	.
 4E] 4AA\]	4d#] 4c] 4F#</]	.	.	.	.
 8r	8r	.	.	.	.
 =2	=2	=2	=2	=2	=2
 [<2.E [<2.AA\	4r	.	8%9r	.	.
 .	8r	.	.	.	.
-.	[>4.d#X [<4.c [>4.F#X</	.	.	.	.
+.	[>4.d#X [<4.c [>4.F#X<^>>/	.	.	.	.
 4E] 4AA\]	4d#] 4c] 4F#</]	.	.	.	.
 8r	8r	.	.	.	.
 =3	=3	=3	=3	=3	=3
@@ -62,6 +68,7 @@
 [>4.E [<4.EE\	[>4.e/	8c\L	[>4.G#X</	.	.	.	.
 .	.	8B\	.	.	.	.	.
 .	.	8c\J	.	.	.	.	.
+!	!	!	!LO:SIC:s=4G#<]	!	!	!	!
 4E] 4EE\;<]	4e;>/]	4d\	4G#<;>/]	.	.	.	.
 8r	8raa	8rcyy	8ryy	.	.	.	.
 *	*v	*v	*v	*	*	*	*
@@ -69,7 +76,7 @@
 [<2.E [<2.AA\	4r	p	4r	.	.
 .	8r	.	8r	.	.
 !	!	!	!LO:TX:a:i:t=dolce	!	!LO:DY:b:rj
-.	2d#X 2c 2F#X<^>/	.	4a/	Pó-	p
+.	2d#X 2c 2F#X<^>>/	.	4a/	Pó-	p
 .	.	.	8b/	-ki	.
 4.E] 4.AA\]	.	.	8cc\	go-	.
 .	4ryy	.	8b\	-nił	.
@@ -78,14 +85,14 @@
 =6	=6	=6	=6	=6	=6
 [>2.EE [<2.AAA/	4r	.	(>[>4.ee\	-ją-	.
 .	8r	.	.	.	.
-.	2.e 2.c 2.E<^>/	.	4ee\]	.	.
+.	2.e 2.c 2.E<^>>/	.	4ee\]	.	.
 .	.	.	8dd\)	.	.
 4.EE] 4.AAA/]	.	.	4cc\	-ce,	.
 .	.	.	8r	.	.
 =7	=7	=7	=7	=7	=7
 [<2.E [<2.AA\	4r	.	4r	.	.
 .	8r	.	8r	.	.
-.	2d#X 2c 2F#X<^>/	.	4a/	pó-	.
+.	2d#X 2c 2F#X<^>>/	.	4a/	pó-	.
 .	.	.	8b/	-ki	.
 4.E] 4.AA\]	.	.	(>8cc\L	kacz-	.
 .	4r	.	8b\J)	.	.
@@ -105,6 +112,7 @@
 *	*^	*	*	*	*
 !LO:N:vis=2	!	!	!	!	!	!
 2.C 2.CC\	(>4A</	2.E</	.	4.ee\	Kasz-	.
+!	!LO:MO:mod=!null:null	!	!	!	!	!
 !	!LO:TX:a:i:t=cres-cen-do:problem=dynamics with line extensions	!	!LO:HP:a:i:t=cres-cen-do:ext=cd	!	!	!
 .	8B</	.	<	.	.	.
 .	8c</L	.	.	[<4.a/	-tan,	.
@@ -158,14 +166,14 @@
 .	.	8a/J	.	.	8r	.	.
 8rcyy	4E\	4.g#X 4.e 4.B/)	8rcyy	>	8r	.	.
 4rcyy	.	.	8rcyy	.	8r	.	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=p
 .	8Dn\)	.	[8rcyy	]	8ee\	Ze-	.
 *v	*v	*	*	*	*	*	*
 =15	=15	=15	=15	=15	=15	=15
 !	!	!	!	!LO:TX:a:t=P:problem="p" dopisane ołówkiem	!	!
-!	!	!	!	!	!	!LO:DY:b:rj
-!	!	!	!	!LO:TX:a:t=P:problem=łuk dopisany ołówkiem	!	!
-!	!	!	!	!LO:TX:a:i:t=sost	!	!
-!	!	!	!	!LO:TX:a:t=P:problem="sost" dopisane ołówkiem	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=łuk dopisany ołówkiem	!	!LO:DY:b:rj
+!	!	!	!	!LO:TX:a:i:t=sost:mod=sostenuto	!	!
+!	!	!	!	!LO:TX:a:t=P:problem="sost" dopisane ołówkiem	!	!LO:MO:null:mod=.
 2.C^> 2.CC/	2.gn 2.e 2.B-X^>/	8ryy	pp	(>4ee\	-sta-	p
 .	.	8rcyy	.	.	.	.
 .	.	8rcyy	.	8g/)	-rzał	.
@@ -212,7 +220,9 @@
 8D\	8d/	.	.	.	.
 8C\J)	8c/J)	.	8r	.	.
 =19	=19	=19	=19	=19	=19
-!	!	!	!LO:TX:a:i:t=molto espressivo	!	!
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!
+!	!	!	!LO:TX:a:i:t=molto espressivo	!	!LO:MO:null:mod=mf
 8FL 8AA-X\	8fL 8c/	mf	[>4.cc\	Psis-	.
 (>8E\	(<8e/	.	.	.	.
 8F\J	8f/J	.	.	.	.
@@ -279,6 +289,7 @@
 (<8En/L	4.EE\	4r	pp	8%9r	.	.
 8C/	.	.	.	.	.	.
 8BB/J)	.	8r	.	.	.	.
+!	!	!	!LO:MO:null:mod=.	!	!	!
 [>2.BB [<2.EE^>/	8rEEyy	(>4g 4en/	pp	.	.	.
 .	8rEEyy	.	.	.	.	.
 .	8rEEyy	8f#X 8d#X/	.	.	.	.
@@ -297,9 +308,9 @@
 8C/	.	.	.	.	.	.
 8BB/J)	.	8r	.	.	.	.
 =27	=27	=27	=27	=27	=27	=27
-[<4.BB^>/	[<2.EE\	4r	.	8%9r	.	.
+[<4.BB^>>/	[<2.EE\	4r	.	8%9r	.	.
 .	.	8r	.	.	.	.
-4BB/]	.	2.d#X 2.c 2.F#X<^>/	.	.	.	.
+4BB/]	.	2.d#X 2.c 2.F#X<^>>/	.	.	.	.
 8BB/	.	.	.	.	.	.
 8C/L	4.EE\_<	.	.	.	.	.
 8BB/	.	.	.	.	.	.
@@ -312,6 +323,7 @@
 8BB/J	.	8r	8rcyy	8ryy	.	.	.	.
 2.E 2.EE\	2.rEEyy	2.e/	8c\L	2.G#X</	.	.	.	.
 .	.	.	8B\	.	.	.	.	.
+!	!	!	!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!	!	!	!LO:HP:a	!	!	!
 .	.	.	8c\J	.	>	.	.	.
 .	.	.	8d\L	.	.	.	.	.
@@ -323,7 +335,7 @@
 [<2.E [<2.AA\	4r	pp	4r	.	.
 .	8r	.	8r	.	.
 !	!	!	!	!	!LO:DY:b:rj
-.	2.d#X 2.c 2.F#X<^>/	.	8a/	Wi-	p
+.	2.d#X 2.c 2.F#X<^>>/	.	8a/	Wi-	p
 .	.	.	8a/	-dząc,	.
 .	.	.	8b/	że	.
 4.E] 4.AA\]	.	.	(>8cc\L	pies	.
@@ -332,7 +344,7 @@
 =30	=30	=30	=30	=30	=30
 [>2.EE [<2.AAA/	4r	.	(>[>4.ee\	-bo-	.
 .	8r	.	.	.	.
-.	2.e 2.c 2.E<^>/	.	4ee\]	.	.
+.	2.e 2.c 2.E<^>>/	.	4ee\]	.	.
 .	.	.	8dd\)	.	.
 4.EE] 4.AAA/]	.	.	4cc\	-rak	.
 .	.	.	8r	.	.
@@ -340,7 +352,7 @@
 =31	=31	=31	=31	=31	=31
 [<2.E [<2.AA\	4r	.	4r	.	.
 .	8r	.	8r	.	.
-.	2.d#X 2.c 2.F#X<^>/	.	4a/	ob-	.
+.	2.d#X 2.c 2.F#X<^>>/	.	4a/	ob-	.
 .	.	.	8b/	-li-	.
 4.E] 4.AA\]	.	.	(>8cc\L	-zu-	.
 .	.	.	8b\J)	.	.
@@ -353,8 +365,8 @@
 .	.	.	.	8r	.	.
 4.D 4.DD\	8e]L	8B< 8G#<^>/	.	4r	.	.
 .	(<8qg/	.	.	.	.	.
-.	(<8f/)	8rA<	.	.	.	.
-.	8e/J)	8rA<	.	8r	.	.
+.	(<8f/)	8rA<<	.	.	.	.
+.	8e/J)	8rA<<	.	8r	.	.
 *	*v	*v	*	*	*	*
 =33	=33	=33	=33	=33	=33
 *	*^	*	*	*	*
@@ -371,9 +383,11 @@
 2.F 2.FF\	(>/4B< 4A</	.	4dd\	sta-	.
 .	8a/)	.	8dd\	-ry	.
 .	(<8a/L	.	(>4dd\	sza-	.
+!	!LO:MO:mod=!null:null	!	!	!	!
 !	!LO:TX:b:i:t=cres-cen-do:problem=dynamics with line extensions	!LO:HP:b:i:t=cres-cen-do:ext=cd	!	!	!
 .	8g#X/	<	.	.	.
 .	8a/J)	.	8cc\)	.	.
+!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:TX:a:i:t=cres-cen-do:problem=dynamics with line extensions	!	!LO:HP:a:i:t=cres-cen-do:ext=cd
 4.D 4.DD/	(<8a/L	.	4b\	-farz,	<
 .	8f/	.	.	.	.
@@ -390,7 +404,9 @@
 .	8d/J)	.	.	.	.
 !!LO:LB:g=original
 =36	=36	=36	=36	=36	=36
-!	!	!LO:DY:rj	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!
+!	!	!LO:DY:rj	!	!	!LO:MO:null:mod=f
 8GG#XL 8GGG#X/	[>4.b [>4.f [<4.d/	f	[>4.ff\	sta-	.
 (<8D/	.	.	.	.	.
 8F/J	.	.	.	.	.
@@ -421,6 +437,7 @@
 !	!	!	!	!	!LO:HP:b
 8C/L	8A/L	>	4.ee\_>	.	>
 8BB/)	8B/	.	.	.	.
+!	!	!LO:MO:null:mod=.	!	!	!
 8AA/J	8c/J)	]]	.	.	.
 =39	=39	=39	=39	=39	=39
 *	*^	*	*	*	*
@@ -431,6 +448,7 @@
 .	.	8G#X</L	.	.	.	.
 .	.	8B</	.	.	.	.
 .	.	8F</J	.	.	.	.
+!	!	!	!LO:MO:null:mod=]	!	!	!
 4.EE/]	4.e] 4.d/]	4.E</	.	8ee\L]	.	]
 .	.	.	.	8cc\	.	.
 .	.	.	.	8b\J)	.	.
@@ -438,7 +456,9 @@
 =40	=40	=40	=40	=40	=40
 !	!	!LO:DY:rj	!	!	!
 *ped	*	*	*	*	*
+!LO:SIC:s=4.EE 4.AAA\\	!	!	!	!	!
 4.EE 4.AAA/	4.e 4.c 4.E</	pp	[<4.a/	-ci.	.
+!LO:SIC:s=2.d#X 2.c 2.F#X\^	!	!	!	!	!
 2.d#X 2.c 2.F#X\	2.dd#X 2.cc 2.f#X^>/	.	4a/]	.	.
 .	.	.	8r	.	.
 .	.	.	4r	.	.
@@ -454,7 +474,8 @@
 =42	=42	=42	=42	=42	=42
 4.EE 4.AAA\	4.E< 4.AA</	pp	8%9r	.	.
 (<4e> 4c>\	(>4ee 4cc/	.	.	.	.
-!LO:TX:a:i:t=ritenuto	!	!	!	!	!
+!	!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;t=ritenuto	!	!	!	!
+!LO:TX:a:i:t=ritenuto:mod=	!	!	!	!	!
 8d> 8B>\	8dd 8b/	.	.	.	.
 8e>L 8c>\	8eeL 8cc/	.	.	.	.
 8fn> 8dn>\	8ffn 8ddn/	.	.	.	.
@@ -462,16 +483,22 @@
 =43	=43	=43	=43	=43	=43
 *ped	*	*	*	*	*
 4.e> 4.c>\	4.ee 4.cc/	.	8%9r;>	.	.
+!	!LO:SIC:s=2.E< 2.AA<	!	!	!	!
 2.EE 2.AAA;<\	2.E< 2.AA<;>/	.	.	.	.
 !	!LO:TX:a:t=P:problem=w źródle ta adnotacja zapisana za ostatnim taktem	!	!	!	!
-!	!LO:TX:b:i:t=2/1 1875.-	!	!	!	!
+!LO:MO:null:mod=*Xped	!LO:TX:b:i:t=2/1 1875.-:mod=	!	!	!	!
+*	*	*	*	*	*
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: s1{(s2,s3)}
+!!LO:MO:ori
 !!!RDF**dynam: > = "diminuendo", 'fontstyle="italics"
+!!LO:MO:end
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!EED: Antoni Szymański
 !!!EEV: 2021-06-05
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-12
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-22

@@ -2,7 +2,7 @@
 #
 # Programmer:    Craig Stuart Sapp <craig.stanford.edu>
 # Creation Date: Sun Aug 21 09:58:33 CEST 2022
-# Last Modified: Mon Aug 22 10:03:49 CEST 2022
+# Last Modified: Mon Aug 22 18:21:31 CEST 2022
 # Filename:      humdrum-polish-scores/bin/makeReadme
 # Syntax:        perl 5
 #
@@ -25,11 +25,13 @@ my @data = <DATA>;
 my $output = join("", @data);
 my $siglaInfo = buildLibraryTable();
 my $composerInfo = buildComposerTable();
+my $referenceInfo = buildReferenceTable();
 
 
 # Fill in template markers:
 $output =~ s/{{library-table}}/$siglaInfo/g;
 $output =~ s/{{composer-tables}}/$composerInfo/g;
+$output =~ s/{{reference-table}}/$referenceInfo/g;
 $output =~ s/{{notecount}}/$commanotes/g;
 $output =~ s/{{scorecount}}/$commafiles/g;
 
@@ -336,6 +338,96 @@ sub commify {
 	my ($number) = @_;
 	$number =~ s/(\d)(?=(\d{3})+(\D|$))/$1\,/g;
 	return $number;
+}
+
+
+
+##############################
+##
+## buildReferenceTable --
+##
+
+sub buildReferenceTable() {
+
+	my %refInfo;
+	$refInfo{"AGN"} =                   "Genre.  Multiple genres separated by semicolons (;).";
+	$refInfo{"AIN"} =                   "Instrumentation";
+	$refInfo{"AIN-mod"} =               "Modern instrumentation";
+	$refInfo{"ARL"} =                   "Geographical region";
+	$refInfo{"CDT"} =                   "Composer's dates (birth-death)";
+	$refInfo{"CNT"} =                   "Composer nationality";
+	$refInfo{"COM"} =                   "Composer's name";
+	$refInfo{"COM-rismID"} =            "RISM Online ID of the composer";
+	$refInfo{"CharacterEncoding"} =     "IGNORE";
+	$refInfo{"EED"} =                   "IGNORE";
+	$refInfo{"EED-modern"} =            "IGNORE";
+	$refInfo{"EEV"} =                   "IGNORE";
+	$refInfo{"EFL"} =                   "IGNORE";
+	$refInfo{"ENC"} =                   "Digital score encoder";
+	$refInfo{"ENC-iiif"} =              "Encoder of IIIF bounding boxes";
+	$refInfo{"ENC-modern"} =            "Encoder of modernization filter";
+	$refInfo{"END"} =                   "Encoding date";
+	$refInfo{"END-iiif"} =              "Date that IIIF bounding boxes were added";
+	$refInfo{"END-modern"} =            "Date that moderization filter added";
+	$refInfo{"ESR"} =                   "IGNORE";
+	$refInfo{"EST"} =                   "IGNORE";
+	$refInfo{"GTL"} =                   "Title of multiple works forming a group";
+	$refInfo{"IIIF"} =                  "IIIF manifest for source scan";
+	$refInfo{"LO"} =                    "IGNORE";
+	$refInfo{"NIFC-islandoraID"} =      "NIFC Islandora ID";
+	$refInfo{"NIFC-rismSourceID"} =     "RISM Online ID for source edition/manuscript";
+	$refInfo{"ODT"} =                   "IGNORE";
+	$refInfo{"OMD"} =                   "Movement designation";
+	$refInfo{"OMD-mod"} =               "Modern movement designation";
+	$refInfo{"OMV"} =                   "Movement number";
+	$refInfo{"ONB"} =                   "General note";
+	$refInfo{"ONB-nifc"} =              "NIFC-specific general note";
+	$refInfo{"OPR"} =                   "Title of work when there are multiple movements";
+	$refInfo{"OTL"} =                   "Title of single-movement work, or title of movement";
+	$refInfo{"OTL\@\@LAT"} =            "IGNORE";
+	$refInfo{"OTL\@\@POL"} =            "IGNORE";
+	$refInfo{"PDT"} =                   "Publication date";
+	$refInfo{"RDF**dynam"} =            "Signifier definition for dynam spines";
+	$refInfo{"RDF**kern"} =             "Signifier definition for kern spines";
+	$refInfo{"SMS"} =                   "IGNORE";
+	$refInfo{"SMS-altvar"} =            "IGNORE";
+	$refInfo{"SMS-shelfmark"} =         "Shelfmark of score";
+	$refInfo{"SMS-shelfwork"} =         "Enumeraion of work/movement within shelfmark";
+	$refInfo{"SMS-siglum"} =            "RISM siglum of source archive";
+	$refInfo{"SMS-variant"} =           "IGNORE";
+	$refInfo{"TXO"} =                   "IGNORE";
+	$refInfo{"URL-pdf-islandora"} =     "PDF of scan from NIFC Islandora database";
+	$refInfo{"URL-scan"} =              "URL for scan of source edition/manuscript";
+	$refInfo{"YEM"} =                   "IGNORE";
+	$refInfo{"cenid"} =                 "Century ID";
+	$refInfo{"filter-modern"} =         "Modernization filter";
+	$refInfo{"finalis"} =               "Finalis note (early music)";
+	$refInfo{"kernsource"} =            "IGNORE";
+	$refInfo{"key"} =                   "Human-assigned musical key";
+	$refInfo{"pag"} =                   "IGNORE";
+	$refInfo{"rism-genre"} =            "IGNORE";
+	$refInfo{"rism-key"} =              "IGNORE";
+	$refInfo{"rism-title"} =            "IGNORE";
+	$refInfo{"system-decoration"} =     "Bracketing on left side of system";
+	$refInfo{"system-decoration-mod"} = "Modernized bracketing on left side of system";
+	$refInfo{"tempo-scaling"} =         "IGNORE";
+	$refInfo{"voices"} =                "IGNORE";
+
+	my @reflist = `grep -rh "^!!![^\!:]*:" */kern | sed 's/:.*//; s/^!*//' | sort | uniq`;
+	chomp @reflist;
+
+	my $output = "";
+	$output .= "| Reference&nbsp;key | Meaning |\n";
+	$output .= "| ------------------ | ------- |\n";
+
+	foreach my $key (@reflist) {
+		my $description = $refInfo{$key};
+		next if $description eq "IGNORE";
+		$description = "UNKNOWN" if $description =~ /^\s*$/;
+		$output .= "| `$key` | $description |\n";
+	}
+	
+	return $output;
 }
 
 
