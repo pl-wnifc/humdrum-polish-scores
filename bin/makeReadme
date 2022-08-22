@@ -134,10 +134,10 @@ sub buildComposerTable {
 sub sortEntriesByScoreCount {
 	my @entries = @_;
 	my @output = sort {     
-		$a =~ /\|\s*([\d,]+)\s*\|\s*([\d,]+)\s*|/;
+		$a =~ /\|\s*([0-9,]+)\s*\|\s*([0-9,]+)\s*\|/;
 		my $anum = $1;
 		$anum =~ s/,//g;
-		$b =~ /\|\s*([\d,]+)\s*\|\s*([\d,]+)\s*|/;
+		$b =~ /\|\s*([0-9,]+)\s*\|\s*([0-9,]+)\s*\|/;
 		my $bnum = $1;
 		$bnum =~ s/,//g;
 		return $b <=> $a;
@@ -155,10 +155,10 @@ sub sortEntriesByScoreCount {
 sub sortEntriesByNoteCount {
 	my @entries = @_;
 	my @output =  sort {     
-		$a =~ /\|\s*([\d,]+)\s*\|\s*(\d,]+)\s*|/;
+		$a =~ /\|\s*([0-9,]+)\s*\|\s*(0-9,]+)\s*\|/;
 		my $anum = $2;
 		$anum =~ s/,//g;
-		$b =~ /\|\s*([\d,]+)\s*\|\s*([\d,]+)\s*|/;
+		$b =~ /\|\s*([0-9,]+)\s*\|\s*([0-9,]+)\s*\|/;
 		my $bnum = $2;
 		$bnum =~ s/,//g;
 		return $b <=> $a;
@@ -274,7 +274,7 @@ sub buildLibraryTable {
 		my $sigurl = $sigurls{$siglum};
 		my $signame = $signames{$siglum};
 		$output .= "| <a target=\"_blank\" href=\"https://polishscores.org?s=$lcsiglum\"><img src=\"https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/$lcsiglum.svg\"></a>";
-		$output .= "<br/><span class=\"nobr\">[$siglum]($datadir)</span></span> ";
+		$output .= "<br/><span style=\"white-space:pre; text-align:center;\" class=\"nobr\">[$siglum]($datadir)</span></span> ";
 		$output .= "| [$signame]($sigurl) ";
 		$output .= "| $commascores ";
 		$output .= "| $scorepercent ";
@@ -384,7 +384,6 @@ Composers
 
 
 
-<style> .nobr { white-space: pre; text-align: center; } </style>
 
 
 
