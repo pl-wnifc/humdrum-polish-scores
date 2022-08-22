@@ -1062,13 +1062,7 @@ Composers
 
 
 
-<style>
-
-.nobr {
-	white-space: pre;
-}
-
-</style>
+<style> .nobr { white-space: pre; text-align: center; } </style>
 
 
 
