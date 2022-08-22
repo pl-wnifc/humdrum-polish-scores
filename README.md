@@ -28,18 +28,18 @@ musical notes contained within those scores.   Currently there are
 
 | Siglum | Library | Scores |    % | Notes |    % |
 | ------ | ------- | -----: | ---: | ----: | ---: |
-| <img src="https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/pl-cz.svg"> [pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern) | [Jasna Góra Monastery](https://jasnagora.pl/en/o-sanktuarium/biblioteki/biblioteka-jasnogorska) | 1,292 | 18.6 | 3,337,508 | 32.5 |
-| <img src="https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/pl-gd.svg"> [pl-gd](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-gd/kern) | [Gdańsk Library PAoS](https://bgpan.gda.pl/?lang=en) | 244 | 3.5 | 190,173 | 1.8 |
-| <img src="https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/pl-kc.svg"> [pl-kc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kc/kern) | [Czartoryski Library, Cracow](https://mnk.pl/branch/the-princes-czartoyski-library) | 108 | 1.5 | 73,359 | 0.7 |
-| <img src="https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/pl-kj.svg"> [pl-kj](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kj/kern) | [Jagiellonian Library, Cracow](https://bj.uj.edu.pl/en_GB/start-en) | 29 | 0.4 | 80,110 | 0.7 |
-| <img src="https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/pl-kk.svg"> [pl-kk](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kk/kern) | [Wawel Cathedral, Cracow](http://akkk.com.pl) | 1,720 | 24.8 | 1,320,292 | 12.8 |
-| <img src="https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/pl-kozmzk.svg"> [pl-kozmzk](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kozmzk/kern) | [Zamoyski Museum, Kozłówka](https://www-muzeumzamoyskich-pl.translate.goog/?_x_tr_sch=http&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en) | 168 | 2.4 | 84,620 | 0.8 |
-| <img src="https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/pl-sa.svg"> [pl-sa](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-sa/kern) | [Diocesan Library, Sandomierz](http://bc.bdsandomierz.pl/dlibra?language=en) | 1,244 | 17.9 | 1,576,517 | 15.3 |
-| <img src="https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/pl-stab.svg"> [pl-stab](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-stab/kern) | [St. Adalbert Abbey, Staniątki](https://rism.info/library_collections/2017/09/28/music-in-the-convent-of-st-adalberts-abbey-in.html) | 154 | 2.2 | 379,091 | 3.6 |
-| <img src="https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/pl-wn.svg"> [pl-wn](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wn/kern) | [Polish National Library](https://www.bn.org.pl/en) | 493 | 7.1 | 750,176 | 7.3 |
-| <img src="https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/pl-wnifc.svg"> [pl-wnifc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wnifc/kern) | [Chopin Institute, Warsaw](https://nifc.pl/en) | 218 | 3.1 | 138,215 | 1.3 |
-| <img src="https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/pl-wtm.svg"> [pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern) | [Warsaw Music Society](http://warszawskietowarzystwomuzyczne.pl/biblioteka/) | 1,162 | 16.7 | 2,232,114 | 21.7 |
-| <img src="https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/pl-wumfc.svg"> [pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern) | [Chopin University of Music](http://www.biblioteka.chopin.edu.pl/pl) | 100 | 1.4 | 85,576 | 0.8 |
+| <img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-cz.svg"> [pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern) | [Jasna Góra Monastery](https://jasnagora.pl/en/o-sanktuarium/biblioteki/biblioteka-jasnogorska) | 1,292 | 18.6 | 3,337,508 | 32.5 |
+| <img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-gd.svg"> [pl-gd](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-gd/kern) | [Gdańsk Library PAoS](https://bgpan.gda.pl/?lang=en) | 244 | 3.5 | 190,173 | 1.8 |
+| <img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kc.svg"> [pl-kc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kc/kern) | [Czartoryski Library, Cracow](https://mnk.pl/branch/the-princes-czartoyski-library) | 108 | 1.5 | 73,359 | 0.7 |
+| <img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kj.svg"> [pl-kj](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kj/kern) | [Jagiellonian Library, Cracow](https://bj.uj.edu.pl/en_GB/start-en) | 29 | 0.4 | 80,110 | 0.7 |
+| <img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kk.svg"> [pl-kk](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kk/kern) | [Wawel Cathedral, Cracow](http://akkk.com.pl) | 1,720 | 24.8 | 1,320,292 | 12.8 |
+| <img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kozmzk.svg"> [pl-kozmzk](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kozmzk/kern) | [Zamoyski Museum, Kozłówka](https://www-muzeumzamoyskich-pl.translate.goog/?_x_tr_sch=http&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en) | 168 | 2.4 | 84,620 | 0.8 |
+| <img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-sa.svg"> [pl-sa](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-sa/kern) | [Diocesan Library, Sandomierz](http://bc.bdsandomierz.pl/dlibra?language=en) | 1,244 | 17.9 | 1,576,517 | 15.3 |
+| <img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-stab.svg"> [pl-stab](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-stab/kern) | [St. Adalbert Abbey, Staniątki](https://rism.info/library_collections/2017/09/28/music-in-the-convent-of-st-adalberts-abbey-in.html) | 154 | 2.2 | 379,091 | 3.6 |
+| <img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wn.svg"> [pl-wn](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wn/kern) | [Polish National Library](https://www.bn.org.pl/en) | 493 | 7.1 | 750,176 | 7.3 |
+| <img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wnifc.svg"> [pl-wnifc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wnifc/kern) | [Chopin Institute, Warsaw](https://nifc.pl/en) | 218 | 3.1 | 138,215 | 1.3 |
+| <img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wtm.svg"> [pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern) | [Warsaw Music Society](http://warszawskietowarzystwomuzyczne.pl/biblioteka/) | 1,162 | 16.7 | 2,232,114 | 21.7 |
+| <img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wumfc.svg"> [pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern) | [Chopin University of Music](http://www.biblioteka.chopin.edu.pl/pl) | 100 | 1.4 | 85,576 | 0.8 |
 
 
 Composers
@@ -378,7 +378,6 @@ Composers
 | Żebrowski, Marcin Józef | 71 | 154,142 |
 | Żeleński, Władysław | 150 | 307,586 |
 
-
 </details>
 
 <details markdown="1">
@@ -714,7 +713,6 @@ Composers
 | Żebrowski, Marcin Józef | 71 | 154,142 |
 | Żeleński, Władysław | 150 | 307,586 |
 
-
 </details>
 
 <details markdown="1">
@@ -1049,7 +1047,6 @@ Composers
 | Śmietański, Emil Władysław | 74 | 249,194 |
 | Żebrowski, Marcin Józef | 71 | 154,142 |
 | Żeleński, Władysław | 150 | 307,586 |
-
 
 </details>
 

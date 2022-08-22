@@ -269,7 +269,7 @@ sub buildLibraryTable {
 		my $datadir = "$basedir/$siglum/kern";
 		my $sigurl = $sigurls{$siglum};
 		my $signame = $signames{$siglum};
-		$output .= "| <img src=\"https://github.com/craigsapp/website-polish-scores/tree/main/img/siglum/$lcsiglum.svg\"> [$siglum]($datadir) ";
+		$output .= "| <img src=\"https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/$lcsiglum.svg\"> [$siglum]($datadir) ";
 		$output .= "| [$signame]($sigurl) ";
 		$output .= "| $commascores ";
 		$output .= "| $scorepercent ";
