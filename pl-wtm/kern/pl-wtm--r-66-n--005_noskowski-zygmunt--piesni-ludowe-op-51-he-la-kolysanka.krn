@@ -19,44 +19,55 @@
 !!!URL-scan:
 !!!ONB-nifc: UWAGA: na podstawie partytur z folderu pl-wtm-r66n
 !!!OMD: Andante con moto.
+!!!OMD-mod: Andante con moto
 !!!AIN: 1 bass 1 tenor
-!!!key:
+!!!key: c
 **kern	**text	**text	**dynam	**kern	**text	**text	**dynam
 *part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1
 *staff2	*staff2	*staff2	*	*staff1	*staff1	*staff1	*
-*Ibass	*	*	*	*Itenor	*	*	*
+*>[A,A,B]	*	*	*	*>[A,A,B]	*	*	*
+*>A	*	*	*	*>A	*	*	*
 *I"Basy	*	*	*	*I"Tenory	*	*	*
-*I'B.	*	*	*	*I'T.	*	*	*
-*clefF4	*	*	*	*clefG2v2	*	*	*
+*mI"Bassi	*	*	*	*mI"Tenori	*	*	*
+*I'B	*	*	*	*I'T	*	*	*
+*Ibass	*	*	*	*Itenor	*	*	*
+*ICvox	*	*	*	*ICvox	*	*	*
+!	!	!	!	!LO:MO:mod=*clefGv2	!	!	!
+*clefF4	*	*	*	*clefG2	*	*	*
+!	!	!	!	!LO:MO:mod=*null:null	!	!	!
+*	*	*	*	*ITrd8c12	*	*	*
 *k[b-e-a-]	*	*	*	*k[b-e-a-]	*	*	*
 *c:	*	*	*	*c:	*	*	*
 *M2/4	*	*	*	*M2/4	*	*	*
-*>[A,A,B]	*	*	*	*>[A,A,B]	*	*	*
+*	*	*	*	*	*v:1-2.	*	*
 =1	=1	=1	=1	=1	=1	=1	=1
-*^	*	*	*	*	*	*	*
-*	*	*	*	*	*^	*	*	*
-*>A	*>A	*	*	*	*>A	*>A	*	*	*
+*^	*	*	*	*^	*	*	*
 !	!	!	!	!LO:DY:b:rj	!	!	!	!	!LO:DY:b:rj
-(<8G/L	4C\	.	.	p	4g/	4e-\	1. 2. He-	.	p
+(<8G/L	4C\	.	.	p	4g/	4e-\	He-	.	p
 8B-/J)	.	.	.	.	.	.	.	.	.
 4A-/	(>8C\L	.	.	.	4f#X/	(8>e-\L	-la,	.	.
 .	8E-\J)	.	.	.	.	8c\J)	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-*	*	*	*	*	*	*	*	*	*
 (<8G/L	4C\	.	.	.	4g/	4e-\	he-	.	.
 8B-/J)	.	.	.	.	.	.	.	.	.
 4A-/	(>8E-\L	.	.	.	4f#X/	(>8c\L	-la,	.	.
 .	8C\J)	.	.	.	.	8e-\J)	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3
-!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle tekst zwrotek również nad nutami partii tenorów	!	!	!	!
-(<8G/L	[<2C\	he-	.	.	[>2g/	[<2e-\	hej!	hej!	.
-8B-/J)	.	.	.	.	.	.	.	.	.
-(<8c/L	.	.	.	.	.	.	.	.	.
-8A-/J)	.	-la	.	.	.	.	.	.	.
+*	*	*^	*	*	*	*	*	*	*
+*	*	*above	*	*	*	*	*	*above	*	*
+!	!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle tekst zwrotek również nad nutami partii tenorów	!	!	!	!
+(<8G/L	[<2C\	he-	hej!	.	.	[>2g/	[<2e-\	hej!	.	.
+8B-/J)	.	.	.	.	.	.	.	.	.	.
+(<8c/L	.	-la	.	.	.	.	.	.	.	.
+8A-/J)	.	.	.	.	.	.	.	.	.	.
+*	*	*Xabove	*	*	*	*	*	*	*	*
+*	*	*v	*v	*	*	*	*	*	*	*
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4
+*	*	*	*	*	*	*	*Xabove	*	*
 2G/	2C\]	.	.	.	2g/]	2e-\]	hej	.	.
+*	*	*	*	*	*	*	*v:1	*v:2	*
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5
-(<8G/L	4C\	.	.	.	4d/	4B\	1. Szedł	2. Na	.
+(<8G/L	4C\	.	.	.	4d/	4B\	Szedł	Na	.
 8A-/J)	.	.	.	.	.	.	.	.	.
 4G/	(>8C\L	.	.	.	4f/	4d\	chłop,	skrzy-	.
 .	8G\J)	.	.	.	.	.	.	.	.
@@ -66,12 +77,15 @@
 4G/	(8C\L	.	.	.	4g/	4e-\	chłop	-kach	.
 .	8G\J)	.	.	.	.	.	.	.	.
 =7	=7	=7	=7	=7	=7	=7	=7	=7	=7
-!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle tekst zwrotek również nad nutami partii tenorów	!	!	!	!
+!	!	!	!LO:MO:mod=ra,	!	!LO:TX:a:t=P:problem=w źródle tekst zwrotek również nad nutami partii tenorów	!	!	!	!
 (<8G/L	4C\	bez	ra	.	8d/	8B\	bez	ra,	.
 8A-/J)	.	.	.	.	8B/	8B\	ry-	ra,	.
+!	!	!	!LO:MO:mod=ra,	!	!	!	!	!	!
 8G/	8C\	ry-	ra	.	4G/	4G\	-nek,	ra,	.
+!	!	!	!LO:MO:mod=ra,	!	!	!	!	!	!
 8G/	8E-\	-nek	ra	.	.	.	.	.	.
 =8	=8	=8	=8	=8	=8	=8	=8	=8	=8
+!	!	!	!	!	!	!	!LO:MO:mod=ku-	!LO:MO:mod=tań-	!
 (8G/L	4GG\	.	.	.	4d/	4B\	Ku-	Tań-	.
 8A-/J)	.	.	.	.	.	.	.	.	.
 4G/	(>8GG\L	.	.	.	4f/	4d\	-pił	-co-	.
@@ -87,6 +101,7 @@
 8G/	8BBn\	-be-	-ba-	.	4G/	4G\	-nek,	-ra,	.
 8G/	8BB\	-nek	-ra	.	.	.	.	.	.
 =11	=11	=11	=11	=11	=11	=11	=11	=11	=11
+!	!	!	!	!	!	!	!LO:MO:mod=na	!LO:MO:mod=na	!
 (<8G/L	4E-\	.	.	.	4c/	(<8G\L	Na	Na	.
 8B-/J)	.	.	.	.	.	8B-X\J)	.	.	.
 (<8A-/L	4E-\	.	.	.	4c/	(<8A-\L	bę-	o-	.
@@ -97,11 +112,14 @@
 (<8G/L	4D\	.	.	.	4c/	(<8G\L	-ku	-i	.
 8F/J)	.	.	.	.	.	8F\J)	.	.	.
 =13	=13	=13	=13	=13	=13	=13	=13	=13	=13
+!	!	!	!	!	!	!	!LO:MO:mod=ru,	!LO:MO:mod=ta,	!
 8E-/	8C\	.	.	.	8G/	8G\	ru	ta	.
+!	!	!	!	!	!	!	!LO:MO:mod=tu,	!LO:MO:mod=ta,	!
 8F/	8C\	.	.	.	8G/	8G\	tu	ta	.
 (<8E-/L	4BBn\	.	.	.	4G/	4G\	tu,	ta,	.
 8D/J)	.	.	.	.	.	.	.	.	.
 =14	=14	=14	=14	=14	=14	=14	=14	=14	=14
+!	!	!	!	!	!	!	!LO:MO:mod=na	!LO:MO:mod=a	!
 4En/	(>8BB-X\L	.	.	.	4c/	4G\	Na	A	.
 .	8C\J)	.	.	.	.	.	.	.	.
 4E/	4BB-\	.	.	.	4c/	(<8A-\L	pisz-	na	.
@@ -115,10 +133,12 @@
 =16	=16	=16	=16	=16	=16	=16	=16	=16	=16
 8BBn/	8GG\	.	.	.	8d/	8F\	fiu,	tra,	.
 8F/	8D\	.	.	.	8B/	8G\	fiu,	ra,	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=ra.	!
 (>8E-/L	(<8C\L	.	.	.	4G/	4G\	fiu.	ra	.
 8F/J)	8D\J)	.	.	.	.	.	.	.	.
 =17:|!	=17:|!	=17:|!	=17:|!	=17:|!	=17:|!	=17:|!	=17:|!	=17:|!	=17:|!
 *>B	*>B	*	*	*	*>B	*>B	*	*	*
+!	!	!	!	!LO:MO:mod=!LO&colon;DY&colon;b	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!LO:DY:a:rj	!	!	!	!	!LO:DY:b:rj
 (<8G/L	4E-\	.	.	pp	4g/	4e-\	He-	.	pp
 8B-X/J)	.	.	.	.	.	.	.	.	.
@@ -130,8 +150,9 @@
 4An/	(>8C\L	.	.	.	4f#X/	(<8e-\L	-la	.	.
 .	8E-\J)	.	.	.	.	8c\J)	.	.	.
 =19	=19	=19	=19	=19	=19	=19	=19	=19	=19
-!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle tekst zwrotek również nad nutami partii tenorów	!	!	!	!
-(<8B-/L	(<2E-\	Hej,	.	.	[>2g/	(<2e-\	Hej!	Hej!	.
+*	*	*above	*	*	*	*	*	*	*
+!	!	!	!LO:MO:mod=hej!	!	!LO:TX:a:t=P:problem=w źródle tekst zwrotek również nad nutami partii tenorów	!	!LO:MO:mod=hej!	!	!
+(<8B-/L	(<2E-\	he-	Hej,	.	[>2g/	(<2e-\	Hej!	.	.
 8An/J)	.	.	.	.	.	.	.	.	.
 4B-/	.	-la,	.	.	.	.	.	.	.
 =20	=20	=20	=20	=20	=20	=20	=20	=20	=20
@@ -139,8 +160,8 @@
 8An/J)	.	.	.	.	.	.	.	.	.
 4B-/	.	-la,	.	.	.	.	.	.	.
 =21	=21	=21	=21	=21	=21	=21	=21	=21	=21
-!	!	!	!	!	!LO:TX:a:t=P:problem=w źródle tekst zwrotek również nad nutami partii tenorów	!	!	!	!
-(<8c/L	[<2C\	Hej,	.	.	[>2g/	[<2e-\	Hej,	Hej,	.
+!	!	!	!LO:MO:mod=hej!	!	!LO:TX:a:t=P:problem=w źródle tekst zwrotek również nad nutami partii tenorów	!	!LO:MO:mod=hej!	!	!
+(<8c/L	[<2C\	he-	Hej,	.	[>2g/	[<2e-\	Hej,	.	.
 8A-X/J)	.	.	.	.	.	.	.	.	.
 4G/	.	-la,	.	.	.	.	.	.	.
 =22	=22	=22	=22	=22	=22	=22	=22	=22	=22
@@ -151,22 +172,29 @@
 (<4c/	2C\_<	he-	.	.	2g/_>	2e-\_<	.	.	.
 4A-/)	.	.	.	.	.	.	.	.	.
 =24	=24	=24	=24	=24	=24	=24	=24	=24	=24
-!	!	!	!	!LO:HP:b	!	!	!	!	!LO:HP:b
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=!null:null
+!	!	!LO:MO:mod=-la	!	!LO:HP:b	!	!	!	!	!LO:HP:b
 2G/	2C\]	-la,	.	>	4g/]	4e-\]	.	.	>
 .	.	.	.	]]	4e-/	4c\	hej,	.	]]
+*	*	*Xabove	*	*	*	*	*	*	*
 =25	=25	=25	=25	=25	=25	=25	=25	=25	=25
-2E-;/>	2C;<\	hej	.	.	2c;>/	2G;<\	.	.	.
+!LO:SIC:s=2E-	!	!	!	!	!	!LO:SIC:s=2G	!LO:MO:mod=hej.	!	!
+2E-;/>	2C;<\	.	.	.	2c;>/	2G;<\	hej	.	.
 *v	*v	*	*	*	*	*	*	*	*
 *	*	*	*	*v	*v	*	*	*
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
+!!LO:MO:ori
 !!!system-decoration: {(s1,s2)}
+!!LO:MO:mod
+!! !!!system-decoration: [(*)]
+!!LO:MO:end
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!RDF**kern: | = vertical stroke
-!!!RDF**kern: N = linked
-!!!RDF**kern: i = editorial accidental
-!!!EED: Wojciech Jakubiak-Danek
-!!!EEV: 2021-06-09
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-05-31
+!!!ENC: Wojciech Jakubiak-Danek
+!!!END: 2021-06-09
+!!!ENC-modern: Andrzej Kubiczek
+!!!END-modern: 2022-08-22
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -X dynam -e "s/:a/:A/LX" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | humtr -p

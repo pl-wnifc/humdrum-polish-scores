@@ -24,9 +24,11 @@
 *part1	*part1
 *staff2	*staff1
 *I"Organo Solo	*I"Hej Bracia
+*mI"Organo	*mI"Organo
+*I'	*I'
+*mI'org	*mI'org
 *Iorgan	*Iorgan
 *ICklav	*ICklav
-*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[b-]	*k[b-]
 *F:	*F:
@@ -87,20 +89,29 @@
 .	16cc\JJ)
 !!LO:LB:g=original
 =10	=10
+!LO:SIC:s=8FFL	!
 8C\L	8ff\L
+!	!LO:SIC:s=(16ffL
 8A 8F\	16ff\L
+!	!LO:SIC:s=16eeJJ)
 .	16ee\JJ
+!	!LO:SIC:s=(16ffLL
 8A 8F\	16ff\LL
 .	16gg\
 8AJ 8F\	16aa\
+!	!LO:SIC:s=16ffJJ)
 .	16ff\JJ
 =11	=11
 8C\L	8ee\L
+!	!LO:SIC:s=(16eeL
 8B- 8G 8E\	16ee\L
+!	!LO:SIC:s=16ddJJ)
 .	16dd\JJ
+!	!LO:SIC:s=(16ccLL
 8B- 8G 8E\	16cc\LL
 .	16dd\
 8B-J 8G 8E\	16ee\
+!	!LO:SIC:s=16ccJJ)
 .	16cc\JJ
 =12	=12
 (8F\L	8ff\
@@ -169,13 +180,17 @@
 8AL 8F\	8ff\L
 8c\	(16ff\L
 .	16ee\JJ)
+!	!LO:SIC:s=(16ffLL
 8A 8F\	16ff\LL
 .	16gg\
 8c\J	16aa\
+!	!LO:SIC:s=16ffJJ)
 .	16ff\JJ
 =23	=23
 8C\L	8ee\L
+!	!LO:SIC:s=(16eeL
 8c\	16ee\L
+!	!LO:SIC:s=16ddJJ)
 .	16dd\JJ
 8B- 8G\	(16cc\LL
 .	16dd\
@@ -187,7 +202,7 @@
 8A 8F\	.
 8c\J	8f/
 =25	=25
-!	!LO:TX:a:t=[spiew.:color=grey
+!	!LO:TX:a:t=[spiew.:color=grey:mod=
 4F\	8r
 .	8aL 8f 8c/
 4FF/	8a 8f 8c/
@@ -233,7 +248,7 @@
 .	8aL 8f/
 .	8aJ 8f/
 .	8ff 8a\
-!	!LO:TX:a:t=X:color=grey
+!	!LO:TX:a:t=X:color=grey:mod=
 =33	=33
 *tremolo	*
 8B-L 8G 8E\	(16ee\LL
@@ -245,14 +260,18 @@
 8C\J	16bb-\
 .	16gg\JJ)
 =34	=34
+!	!LO:SIC:s=(16aaLL
 8AL 8F\	16aa\LL
 .	16cc\
 8C\	16ccc\
+!	!LO:SIC:s=16ccJJ)
 .	16cc\JJ
 *	*rep
+!	!LO:SIC:s=(16aaLL
 8A 8F\	16aa\LL
 .	16cc\
 8C\J	16ccc\
+!	!LO:SIC:s=16ccJJ)
 .	16cc\JJ
 *	*Xrep
 !!LO:LB:g=original
@@ -270,9 +289,11 @@
 .	16cc\
 8C\	16aa\
 .	16cc\JJ)
+!	!LO:SIC:s=(16ffLL
 8A 8F\	16ff\LL
 .	16cc\
 8C\J	16aa\
+!	!LO:SIC:s=16ffJJ)
 .	16ff\JJ
 *Xtremolo	*
 =37	=37
@@ -310,7 +331,7 @@
 8r	16g/L
 .	16a/JJ
 =41	=41
-!LO:TX:a:t=I my już:color=grey	!LO:TX:a:t=[Sp J.:color=grey
+!LO:TX:a:t=I my już:color=grey:mod=	!LO:TX:a:t=[Sp J.:color=grey:mod=
 8B-L 8F 8D 8BB-\	8b-/L
 8B- 8F 8D 8BB-\	(16b-/L
 .	16a/JJ)
@@ -358,7 +379,7 @@
 8FF/J	8f/L
 8F\L	8ff\J
 8B-\J	8bb- 8b-\
-!	!LO:TX:a:t=|:color=grey
+!	!LO:TX:a:t=|:color=grey:mod=
 =48	=48
 8dL 8D\	8dddL 8dd\
 8dJ 8D\	8dddJ 8dd\
@@ -369,14 +390,14 @@
 8GJ 8GG\	8ggJ 8g\
 8cL 8C\	8cccL 8cc\
 8cJ 8C\	8cccJ 8cc\
-!	!LO:TX:a:t=|:color=grey
+!	!LO:TX:a:t=|:color=grey:mod=
 =50	=50
 16r	8ffL 8f\
 16F\LL	.
 16C\	8ffJ 8f\
 16AA\JJ	.
 8FF/	8f/
-!	!LO:TX:b:t=Trwoga:color=grey
+!	!LO:TX:b:t=Trwoga:color=grey:mod=
 8r	8r
 =51	=51
 8r	8r
@@ -412,8 +433,8 @@
 16GG\JJ)	16g\JJ)
 =56	=56
 4FF/	4f/
-!LO:TX:b:i:t=Staniątki 19 grudnia 1866,r.\nWincenty Leszczyński	!
-!LO:TX:a:t=V&colon;S&colon;	!
+!LO:TX:b:i:t=Staniątki 19 grudnia 1866,r.\nWincenty Leszczyński:mod=	!
+!LO:TX:a:t=V&colon;S&colon;:mod=	!
 4r	4r
 !!LO:PB:g=original
 =57	=57
@@ -451,11 +472,15 @@
 .	(16ffL 16f/
 .	16eenJJ 16en/)
 .	8ffL 8f/
+!	!LO:SIC:s=(16ffL 16f
 .	16ffL 16f/
+!	!LO:SIC:s=16eeJJ 16e)
 .	16eenJJ 16en/
 =63	=63
 2F_ 2BB-\_	8ffL 8f/
+!	!LO:SIC:s=(16ffL 16f
 .	16ffL 16f/
+!	!LO:SIC:s=16eeJJ 16e)
 .	16eeJJ 16e/
 .	8ffL 8f\
 .	8bb-J 8b-\
@@ -469,14 +494,20 @@
 .	8ee-XJ 8e-X/
 =66	=66
 2F_ 2BB-\_	8ffL 8f/
+!	!LO:SIC:s=(16ffL 16f
 .	16ffL 16f/
+!	!LO:SIC:s=16eenJJ 16en)
 .	16eenJJ 16en/
 .	8ffL 8f/
+!	!LO:SIC:s=(16ffL 16f
 .	16ffL 16f/
+!	!LO:SIC:s=16eeJJ 16e)
 .	16eenJJ 16en/
 =67	=67
 2F] 2BB-\]	8ffL 8f/
+!	!LO:SIC:s=(16ffL 16f
 .	16ffL 16f/
+!	!LO:SIC:s=16ddJJ 16d)
 .	16ddJJ 16d/
 .	8ee-XL 8e-X\
 .	8ccJ 8c\
@@ -607,16 +638,22 @@
 .	16c/JJ)
 =90	=90
 8AL 8C\	8f/L
+!	!LO:SIC:s=(16f/L
 8A 8C\	16f/L
+!	!LO:SIC:s=16e/JJ)
 .	16e/JJ
+!	!LO:SIC:s=(16f/LL
 8A 8C\	16f/LL
 .	16g/
 8AJ 8C\	16a/
+!	!LO:SIC:s=16f/JJ)
 .	16f/JJ
 =91	=91
 !	!LO:TX:t=P:problem=mixed beam
 (8B-L 8G\	8e/L
+!	!LO:SIC:s=(16eeL
 8C\	16ee\L
+!	!LO:SIC:s=16ddJJ)
 .	16dd\JJ
 8B- 8G\	(16cc\LL
 .	16dd\
@@ -751,11 +788,15 @@
 .	8f/
 =113	=113
 8C\L	8e/L
+!	!LO:SIC:s=(16eL
 8B- 8G 8E\	16e/L
+!	!LO:SIC:s=16dJJ)
 .	16d/JJ
+!	!LO:SIC:s=(16cLL
 8B- 8G 8E\	16c/LL
 .	16d/
 8B-J 8G 8E\	16e/
+!	!LO:SIC:s=16cJJ)
 .	16c/JJ
 =114	=114
 *tremolo	*
@@ -780,6 +821,7 @@
 8A 8F\	.
 8C\J)	8ff\
 =117	=117
+!	!LO:SIC:s=(16eeLL
 8B-L 8G 8C\	16ee\LL
 .	16dd\
 8B- 8G 8C\	16cc\
@@ -787,6 +829,7 @@
 8B- 8G 8C\	16ee\LL
 .	16ff\
 8B-J 8G 8C\	16gg\
+!	!LO:SIC:s=16eeJJ)
 .	16ee\JJ
 =118	=118
 8AL 8F 8C\	8ff\L
@@ -831,6 +874,7 @@
 .	8.ee\L
 .	16gg\Jk
 =127	=127
+!LO:SIC:s=8F^L	!
 8F\L	8ff^\L
 (16E\L	(16ee\L
 16D\JJ)	16dd\JJ)
@@ -848,6 +892,7 @@
 8r	8r
 8F 8FF\	8f 8c 8A/
 =130	=130
+!LO:SIC:s=4F 4FF;<	!
 4F 4FF;\	4f 4c 4A;/
 4r	4r
 ==	==
@@ -859,3 +904,6 @@
 !!!END: 2021-11-16
 !!!ENC: Marta Lawrence
 !!!END: 2021-11-30
+!!!ENC-modern: Andrzej Kubiczek
+!!!END-modern: 2022-08-23
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | sic -sq | modori -m | autostem -r | tie -s

@@ -7,7 +7,6 @@
 !!!OTL: Hasło dla grona śpiewaczego
 !!!PDT: 1893
 !!!AGN: Secular
-!!!OMD: Allegro molto maestoso
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 75/N
 !!!SMS-shelfwork: W
@@ -18,30 +17,36 @@
 !!!URL-pdf-islandora:
 !!!URL-scan:
 !!!ONB-nifc:
-!!!AIN: 2 empty
-!!!key:
+!!!OMD: Allegro molto maestoso
+!!!AIN: 1 bass 1 tenor
+!!!key: D-
 **kern	**text	**dynam	**kern	**text	**dynam
 *part2	*part2	*part2	*part1	*part1	*part1
 *staff2	*staff2	*	*staff1	*staff1	*
-*Iempty	*	*	*Iempty	*	*
 *I"	*	*	*I"	*	*
+*mI"Bassi	*	*	*mI"Tenori	*	*
+*I'	*	*	*I'	*	*
+*mI'B	*	*	*mI'T	*	*
+*Ibass	*	*	*Itenor	*	*
+*ICvox	*	*	*ICvox	*	*
 *clefF4	*	*	*clefG2	*	*
 *k[b-e-a-d-g-]	*	*	*k[b-e-a-d-g-]	*	*
 *D-:	*	*	*D-:	*	*
 *M3/4	*	*	*M3/4	*	*
 =1	=1	=1	=1	=1	=1
 *^	*	*	*^	*	*
+!	!	!	!	!	!	!	!LO:MO:mod=*null:null
 *	*	*	*below	*	*	*	*below
-!	!	!	!	!LO:TX:t=P:problem=wiekszość dolnych caud z prawej strony	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=większość dolnych caud z prawej strony	!	!	!
 !	!	!	!LO:DY:rj	!	!	!	!LO:DY:rj
 2.d-/	2.d-\	.	f	2.dd-/	2.dd-\	Hej!	f
 =2	=2	=2	=2	=2	=2	=2	=2
-*	*Xtuplet	*	*	*	*Xtuplet	*	*
-*Xbrackettup	*Xbrackettup	*	*	*Xbrackettup	*Xbrackettup	*	*
-!LO:TX:t=P:problem=klamra łukowa	!	!	!	!LO:TX:t=P:problem=klamra łukowa	!	!	!
-!LO:TUP:b	!	!	!	!	!	!	!
+!LO:MO:mod=*null:null	!	!	!	!LO:MO:mod=*null:null	!	!	!
+*Xbrackettup	*Xtuplet	*	*	*Xbrackettup	*Xtuplet	*	*
+!	!LO:TUP:b:problem=klamra łukowa	!	!	!	!LO:TUP:b:problem=klamra łukowa	!	!
 12G-/	12G-\	.	.	12g-/	12g-\	gro-	.
 12A-/	12A-\	.	.	12a-/	12a-\	-no	.
+!	!	!	!	!	!	!LO:MO:mod=śpie-	!
 12B-/	12B-\	.	.	12b-/	12b-\	śpieś-	.
 4A-/	4A-\	.	.	4cc/	4cc\	-wa-	.
 8.G-/	8.G-\	.	.	8.b-/	8.b-\	-cze	.
@@ -50,7 +55,9 @@
 4F/	4D-\	.	.	4dd-/	4a-\	hej!	.
 4B-/	(>8BB-\L	.	.	4gg-/	4dd-\	niech	.
 .	8C\J)	.	.	.	.	.	.
-!LO:TUP:b	!	!	!	!	!	!	!
+!LO:MO:mod=*tuplet	!LO:MO:mod=*Xtuplet	!	!	!LO:MO:mod=*tuplet	!LO:MO:mod=*Xtuplet	!	!
+*null	*null	*	*	*null	*null	*	*
+!	!LO:TUP:b	!	!	!	!	!	!
 12A-/	12D-\	.	.	12ff/	12dd-\	tu	.
 12.G-/	12.E-\	.	.	12.ee-/	12.cc\	się	.
 24A-/	24F\	.	.	24dd-/	24dd-\	zje-	.
@@ -58,18 +65,21 @@
 4A-/	4A-\	.	.	4ff/	4dd-\	-dno-	.
 4A-/	4AA-\	.	.	4ee-/	4cc\	-czy	.
 !	!	!	!LO:DY:rj	!	!	!	!
+!	!	!	!LO:MO:mod=.	!	!	!	!
 8r	4A-\	Hej!	mp	8r	8ryy	.	.
-!	!	!	!LO:DY:a:rj	!	!	!	!LO:DY:rj
+!	!	!	!LO:DY:a:rj	!	!	!LO:MO:mod=do	!LO:DY:rj
 8A-/	.	.	p	8a-/	8a-\	Do	p
 !!LO:LB:g=original
 =5	=5	=5	=5	=5	=5	=5	=5
 !	!	!	!LO:HP:a	!	!	!	!LO:HP:a
 4G-/	2AA-\	hej!	<	4cc/	4a-\	pieś-	<
+!	!	!	!LO:MO:mod=.	!	!	!	!LO:MO:mod=.
 4F/	.	.	[	4dd-/	4b-\	-ni,	[
 8r	4A-\	hej!	.	8r	8ryy	.	.
 8F/	.	.	.	8b-/	8b-\	do	.
 =6	=6	=6	=6	=6	=6	=6	=6
 !	!	!	!LO:HP:a	!	!	!	!LO:HP:a
+!	!	!	!LO:MO:mod=.	!	!	!	!LO:MO:mod=.
 4F/	2AA-\	hej!	<	4dd-/	4b-\	pieś-	<
 4G-/	.	.	.	4ee-/	4cc\	-ni	.
 8r	8A-\	hej	.	8r	8ryy	.	.
@@ -81,17 +91,21 @@
 4c/	4A-\	.	.	4ee-/	4cc\	o-	.
 =8	=8	=8	=8	=8	=8	=8	=8
 4c-X/	4D-\	.	.	4aa-/	4ff\	-cho-	.
+!	!	!	!	!	!	!LO:MO:mod=-czej,	!
 4B-/	4G-\	.	.	4gg-/	4dd-\	-czej.	.
 8r	8ryy	.	.	8r	8ryy	.	.
-!	!	!	!LO:DY:rj	!	!	!	!LO:DY:rj
+!	!	!	!LO:DY:rj	!	!	!LO:MO:mod=do	!LO:DY:rj
 8G-/	8G-\	.	p	8b-/	8b-\	Do	p
 =9	=9	=9	=9	=9	=9	=9	=9
 !	!	!	!	!	!	!	!LO:HP:a
 4G-/	4E-\	.	<	4ff/	4cc\	pieś-	<
+!	!	!	!LO:MO:mod=.	!	!	!	!LO:MO:mod=.
 4B-/	4G-\	.	[	4ee-/	4dd-\	-ni	[
+!	!	!	!	!	!	!LO:MO:mod=o-	!
 4G-/	4BB-\	.	.	4gg-/	4dd-\	O-	.
 =10	=10	=10	=10	=10	=10	=10	=10
 !	!	!	!	!	!	!	!LO:HP:a
+!	!	!	!LO:MO:mod=.	!	!	!	!LO:MO:mod=.
 (4A-/	2.AA-\	.	<	(2cc/	(2cc\	-cho-	<
 4Gn/	.	.	.	.	.	.	.
 4G-X/)	.	.	.	8ff/L	4b-\)	.	.
@@ -113,22 +127,31 @@
 16A-/	16A-\	.	ff	16ff/	16dd-\	do	ff
 =13	=13	=13	=13	=13	=13	=13	=13
 4d-/	4d-\	.	.	4ff/	4dd-\	pieś-	.
+!	!LO:SIC:s=[2D-;	!	!	!LO:SIC:s=[2dd-;	!	!	!
 [2F/	[2D-\	.	.	[2dd-/	[2a-\	-ni!	.
 =14	=14	=14	=14	=14	=14	=14	=14
+!LO:SIC:s=4F_	!LO:SIC:s=4D-_	!	!	!LO:SIC:s=4dd-_	!LO:SIC:s=4a-_	!	!
 4F;/_	4D-;\_	.	.	4dd-;/_	4a-;\_	.	.
 8F/]	8D-\]	.	.	8dd-/]	8a-\]	.	.
 8r	8r	.	.	8r	8ryy	.	.
-!LO:TX:b:i:t=ZNoskowski	!	!	!	!	!	!	!
+!LO:TX:b:i:t=ZNoskowski:mod=	!	!	!	!	!	!	!
 4r	4r	.	.	4r	4ryy	.	.
 *v	*v	*	*	*	*	*	*
 *	*	*	*v	*v	*	*
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
+!!LO:MO:ori
 !!!system-decoration: {(s1,s2)}
 !!!RDF**dynam: < = cresc
+!!LO:MO:mod
+!! !!!system-decoration: [(*)]
+!!LO:MO:end
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!EED: Andrzej Borzym
-!!!EEV: 2021-06-11
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-05-11
+!!!ENC: Andrzej Borzym
+!!!END: 2021-06-11
+!!!ENC-modern: Andrzej Kubiczek
+!!!END-modern: 2022-08-22
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/LO:HP:(a|b|rj)/LO:hp:$1/L" | sic -sq | modori -m | autostem -r | humtr -p
