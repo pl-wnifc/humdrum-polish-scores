@@ -16,7 +16,7 @@
 !!!NIFC-rismSourceID:
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
-!!!URL-scan: https://polona.pl/item/l-ecole-moderne-etudes-caprices-pour-violon-seul-op-10,MTE2OTgzMTMy/4/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
+!!!URL-scan: https://polona.pl/item/l-ecole-moderne-etudes-caprices-pour-violon-seul-op-10,MTE2OTgzMTMy/4 @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc: UWAGA: od skanu 23. Temat z wariacjami w jednym pliku.
 !!!OMD: Andante.
 !!!AIN: 2 violn
@@ -2510,7 +2510,7 @@
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: sic -sq | filtr autostem -r | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g”  |shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m|
+!!!filter-modern: sic -sq | filtr autostem -r | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g”  |shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
 !!!ENC: Katarzyna Serwa
 !!!END: 2022-05-19
 !!!ENC: Berenika Jozajtis

@@ -1400,7 +1400,7 @@
 !!!RDF**dynam: < = "cres", fontstyle= "bold-italic"
 !!!RDF**dynam: > = "dim", fontstyle= "bold-italic"
 !!LO:MO:end
-!!!filter-modern: sic -sq  | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e "s/yy//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/LO:HP:(a|b|rj)/LO:dy:$1/L" | autostem -r | modori -m|
+!!!filter-modern: sic -sq  | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e "s/yy//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/LO:HP:(a|b|rj)/LO:dy:$1/L" | autostem -r | modori -m
 !!!EED: Wojciech Jakubiak-Danek
 !!!EEV: 2021-04-10
 !!!ENC: Katarzyna Serwa

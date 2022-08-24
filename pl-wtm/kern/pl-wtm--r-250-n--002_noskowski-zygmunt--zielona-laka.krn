@@ -271,4 +271,4 @@
 !!!END: 2021-06-02
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-05-23
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m

@@ -920,7 +920,7 @@
 !!!system-decoration: [g1]s7[g2]s12
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: sic -sq | autostem -r | humtr -p | tie -s | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" |  shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
+!!!filter-modern: sic -sq | autostem -r | humtr -p | tie -s | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" |  shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Kamil Watkowski
 !!!END: 2020-04-14
 !!!ENC: Marta Lawrence

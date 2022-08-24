@@ -2012,4 +2012,4 @@
 !!!EEV: 2021-06-02
 !!!ENC: Marcin Jachim
 !!!END: 2021-05-02
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m |
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m

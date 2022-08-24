@@ -209,4 +209,4 @@
 !!!END: 2021-07-02
 !!!ENC: Krzysztof Stępień
 !!!END: 2021-05-10
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:t=/LO:dy:t=/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m |
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:t=/LO:dy:t=/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m

@@ -15,7 +15,7 @@
 !!!SMS-altvar:
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
-!!!URL-scan: https://polona.pl/item/psalm-xlv-devs-noster-refvgivm-ktorym-sobie-kosciol-swiethy-mysl-dobra-czyni-w,MTE3MTYwMQ/3/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
+!!!URL-scan: https://polona.pl/item/psalm-xlv-devs-noster-refvgivm-ktorym-sobie-kosciol-swiethy-mysl-dobra-czyni-w,MTE3MTYwMQ/3 @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc: UWAGA: proszę zapisywać tylko teksty występujące bezpośrednio pod nutami
 !!!NIFC-rismSourceID: 990072217
 !!!AIN: 2 empty 1 soprn 1 tenor
@@ -135,7 +135,7 @@
 !!!RDF**kern: i = editorial accidental
 !!!RDF**kern: l = terminal long
 !!LO:MO:end
-!!!filter-modern: | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | humtr -p | modori -m |
+!!!filter-modern: | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | humtr -p | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-04-28
 !!!EED: Wojciech Jakubiak-Danek

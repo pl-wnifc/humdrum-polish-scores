@@ -584,7 +584,7 @@
 !!!system-decoration: [(s1,s2,s3,s4)]
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
-!!!filter-modern: sic -sq | autostem -r |shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" |shed -k -e "s/yy//" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
+!!!filter-modern: sic -sq | autostem -r |shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" |shed -k -e "s/yy//" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-29
 !!!ENC: Marta Chmielewska

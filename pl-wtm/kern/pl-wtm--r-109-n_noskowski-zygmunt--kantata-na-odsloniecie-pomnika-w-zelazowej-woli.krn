@@ -1829,4 +1829,4 @@
 !!!EEV: 2021-08-10
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-07-29
-!!!filter-modern: sic -sq | autostem -r | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -k -e "s/yy//" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:t=/LO:dy:t=/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m |
+!!!filter-modern: sic -sq | autostem -r | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -k -e "s/yy//" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:t=/LO:dy:t=/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m

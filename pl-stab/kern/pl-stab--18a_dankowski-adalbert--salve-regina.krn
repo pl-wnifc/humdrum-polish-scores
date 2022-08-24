@@ -1607,7 +1607,7 @@
 !!!system-decoration: [(g1)]s3[(g2)]s6
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m |
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-21
 !!!ENC: Kamil Watkowski

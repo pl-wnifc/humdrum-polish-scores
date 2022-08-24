@@ -798,7 +798,7 @@
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(g1)][(g2)][(g3)]s9
 !!!RDF**kern: | = vertical stroke
-!!!filter-modern: | autostem -r| humtr -p | tie -s | shed -e "s/LO:DY:t=/LO:dy:t=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" |  shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m |
+!!!filter-modern: | autostem -r| humtr -p | tie -s | shed -e "s/LO:DY:t=/LO:dy:t=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" |  shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
 !!!ENC: Filip Voros
 !!!END: 2021-12-03
 !!!ENC: Marta Lawrence

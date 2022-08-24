@@ -586,7 +586,7 @@
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: (s1,s2,s3,s4,s5,s6)
 !!!RDF**kern: < = below
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" "  shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m |
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" "  shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
 !!!ENC: Marta Lawrence
 !!!END: 2021-06-06
 !!!ENC: Tomasz Grochalski

@@ -15,7 +15,7 @@
 !!!NIFC-rismSourceID:
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
-!!!URL-scan: https://polona.pl/item/gigue-op-23-et-fantaisie-orientale,NjkyOTMwMjM/0/#info:metadata @EN{Scan on Polona} @PL{Skany w portalu Polona}
+!!!URL-scan: https://polona.pl/item/gigue-op-23-et-fantaisie-orientale,NjkyOTMwMjM/0 @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!ONB-nifc:
 !!!AIN: 1 violn
 !!!key: a
@@ -1007,7 +1007,7 @@
 *-	*-	*-
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: autostem -r | tie -s | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | modori -m |
+!!!filter-modern: autostem -r | tie -s | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-12
 !!!EED: Andrzej Borzym

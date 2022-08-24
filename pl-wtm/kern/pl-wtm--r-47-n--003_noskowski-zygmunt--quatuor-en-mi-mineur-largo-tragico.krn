@@ -1651,4 +1651,4 @@
 !!!END: 2021-08-27
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-07-26
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L"| shed -e "s/^(X?)rep$/$1REP/I" | modori -m |
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L"| shed -e "s/^(X?)rep$/$1REP/I" | modori -m

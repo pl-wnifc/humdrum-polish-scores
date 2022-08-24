@@ -3372,7 +3372,7 @@
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2)][(s3,s4)][(s5,s6,s7,s8)][(s9,s10)][(s11)]
 !!!RDF**kern: | = vertical stroke
-!!!filter-modern: sic -sq | tie -s | humtr -p | autostem -r | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e "s/yy//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m |
+!!!filter-modern: sic -sq | tie -s | humtr -p | autostem -r | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e "s/yy//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-11-22
 !!!ENC: Leszek Kubiak

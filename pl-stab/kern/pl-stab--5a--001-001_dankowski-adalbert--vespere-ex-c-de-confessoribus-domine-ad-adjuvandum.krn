@@ -520,7 +520,7 @@
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
 !!!RDF**kern: | = vertical stroke
-!!!filter-modern: | autostem -r | tie -s | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" |  modori -m |
+!!!filter-modern: | autostem -r | tie -s | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" |  modori -m
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-26
 !!!ENC: Marta Chmielewska

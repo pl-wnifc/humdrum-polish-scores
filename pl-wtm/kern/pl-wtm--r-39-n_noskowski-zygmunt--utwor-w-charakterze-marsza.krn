@@ -766,4 +766,4 @@
 !!!END: 2021-05-28
 !!!ENC: Tomasz Grochalski
 !!!END: 2021-05-15
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L"  | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L"  | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m

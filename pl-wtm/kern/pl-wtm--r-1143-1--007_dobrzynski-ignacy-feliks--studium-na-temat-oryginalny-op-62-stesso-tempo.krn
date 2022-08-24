@@ -258,7 +258,7 @@
 !!!system-decoration: {(s1,s2,s3,s4)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"  | shed -k -e "s/yy//" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m |
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"  | shed -k -e "s/yy//" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-29
 !!!ENC: Marta Lawrence
