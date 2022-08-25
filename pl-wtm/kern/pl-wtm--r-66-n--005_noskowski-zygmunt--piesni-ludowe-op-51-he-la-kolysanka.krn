@@ -198,3 +198,5 @@
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-22
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -X dynam -e "s/:a/:A/LX" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | humtr -p
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
