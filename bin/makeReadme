@@ -462,7 +462,7 @@ sub buildEncoderTable() {
 		return $alast cmp $blast;
 	} @peeps;
 
-	$output .= "| Name | Encoded scores | Encoded notes | Edited scores | Modern ed. | IIIF scores |\n";
+	$output .= "| Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |\n";
 	$output .= "| ---- | -------------: | ------------: | ------------: | ---------: | ----------: |\n";
 
 	my $totalEncodedScores = 0;

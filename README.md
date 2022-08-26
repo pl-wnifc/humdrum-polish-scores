@@ -22,11 +22,11 @@ People
 <details open>
 <summary>Encoder and Editor statistics</summary>
 
-| Name | Encoded scores | Encoded notes | Edited scores | Modern ed. | IIIF scores |
+| Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
-| Jan Barakat |  |  | 200 |  | 8 |
+| Jan Barakat |  |  | 201 |  | 8 |
 | Lidia Bialucha |  |  |  |  | 2 |
-| Andrzej Borzym | 373 | 606569 | 428 | 121 |  |
+| Andrzej Borzym | 373 | 606569 | 428 | 123 |  |
 | Elżbieta Cabała |  |  |  |  | 8 |
 | Marta Chmielewska | 153 | 191995 | 461 |  |  |
 | Tomasz Grochalski | 562 | 831052 |  |  |  |
@@ -34,7 +34,7 @@ People
 | Jacek Iwaszko | 1 | 219 | 2 | 1 |  |
 | Marcin Jachim | 570 | 880723 | 1 |  |  |
 | Wojciech Jakubiak-Danek |  |  | 378 |  |  |
-| Berenika Jozajtis | 697 | 1077392 | 3 |  |  |
+| Berenika Jozajtis | 698 | 1077683 | 3 |  |  |
 | Marcin Konik | 5 | 192 | 5 |  |  |
 | Leszek Kubiak | 40 | 9344 | 805 | 113 |  |
 | Andrzej Kubiczek | 532 | 848354 | 721 | 139 |  |
@@ -46,20 +46,20 @@ People
 | Mateusz Mrugas | 1 | 2963 | 237 |  | 4 |
 | Jędrzej Mróz | 21 | 3957 | 241 |  |  |
 | Zofia Niedbalska | 1 | 425 | 74 |  |  |
-| Marta Opryszak | 165 | 247879 | 1 |  | 22 |
+| Marta Opryszak | 165 | 247879 | 1 |  | 35 |
 | Julita Ruszuk | 1 | 182 | 106 |  |  |
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
-| Katarzyna Serwa | 312 | 535966 | 249 | 40 |  |
+| Katarzyna Serwa | 312 | 535966 | 249 | 42 |  |
 | Mateusz Solarz | 595 | 888158 | 10 |  |  |
 | Krzysztof Stępień | 476 | 692241 | 122 | 4 |  |
 | Antoni Szymański |  |  | 543 |  | 5 |
-| Konrad Tyszka |  |  |  |  | 6 |
+| Konrad Tyszka |  |  |  |  | 7 |
 | Filip Voros | 362 | 466314 | 1 |  |  |
 | Kamil Watkowski | 403 | 544716 | 122 |  |  |
 | Natalia Wrzos |  |  | 206 |  | 5 |
-| Emilia Ziętek | 12 | 2142 | 1 |  | 9 |
+| Emilia Ziętek | 12 | 2142 | 1 |  | 11 |
 | Urszula Świątek | 3 | 3016 | 199 |  |  |
-| TOTALS | 6991 | 10304848 | 6362 | 487 | 220 |
+| TOTALS | 6992 | 10305139 | 6363 | 491 | 236 |
 
 </details>
 
@@ -80,7 +80,7 @@ to visit its webpage.
 The `Scores` column lists the number of digital transcriptions within
 each archive directory, and the `Notes` column gives the number of
 musical notes contained within those scores.   Currently there are
-6,993 scores containing a total of 10,305,204 notes.
+6,994 scores containing a total of 10,305,495 notes.
 
 <details><summary>Archives represented in repository</summary>
 
@@ -95,7 +95,7 @@ musical notes contained within those scores.   Currently there are
 | <a target="_blank" href="https://polishscores.org?s=pl-sa"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-sa.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-sa](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-sa/kern)</span></span> | [Diocesan Library, Sandomierz](http://bc.bdsandomierz.pl/dlibra?language=en) | 1,244 | 17.7 | 1,576,517 | 15.2 |
 | <a target="_blank" href="https://polishscores.org?s=pl-stab"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-stab.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-stab](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-stab/kern)</span></span> | [St. Adalbert Abbey, Staniątki](https://rism.info/library_collections/2017/09/28/music-in-the-convent-of-st-adalberts-abbey-in.html) | 154 | 2.2 | 379,087 | 3.6 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wn"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wn.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wn](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wn/kern)</span></span> | [Polish National Library](https://www.bn.org.pl/en) | 493 | 7.0 | 750,176 | 7.2 |
-| <a target="_blank" href="https://polishscores.org?s=pl-wnifc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wnifc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wnifc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wnifc/kern)</span></span> | [Chopin Institute, Warsaw](https://nifc.pl/en) | 279 | 3.9 | 195,672 | 1.8 |
+| <a target="_blank" href="https://polishscores.org?s=pl-wnifc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wnifc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wnifc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wnifc/kern)</span></span> | [Chopin Institute, Warsaw](https://nifc.pl/en) | 280 | 4.0 | 195,963 | 1.9 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wtm"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wtm.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern)</span></span> | [Warsaw Music Society](http://warszawskietowarzystwomuzyczne.pl/biblioteka/) | 1,162 | 16.6 | 2,232,114 | 21.6 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wumfc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wumfc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern)</span></span> | [Chopin University of Music](http://www.biblioteka.chopin.edu.pl/pl) | 100 | 1.4 | 85,576 | 0.8 |
 
@@ -322,7 +322,7 @@ Composers
 | Neumann, Wawrzyniec | 11 | 19,988 |
 | Noskowski, Zygmunt | 85 | 140,336 |
 | Nowakiewicz, Kazimierz | 26 | 60,292 |
-| Nowakowski, Józef | 15 | 10,643 |
+| Nowakowski, Józef | 16 | 10,934 |
 | Nowicki, Ludwik | 1 | 483 |
 | Ogiński, Michał Kleofas | 14 | 10,081 |
 | Orgas, Annibale | 1 | 843 |
@@ -518,13 +518,13 @@ Composers
 | Casali, Giovanni Battista | 17 | 16,205 |
 | Janiewicz, Feliks | 17 | 36,586 |
 | Mikuli, Karol | 16 | 24,851 |
+| Nowakowski, Józef | 16 | 10,934 |
 | Orłowski, Michał | 16 | 31,120 |
 | Richling | 16 | 4,807 |
 | Goetz-Gieczyński, Cyryl | 15 | 77,488 |
 | Grim, Józef | 15 | 3,934 |
 | Hasse, Johann Adolf | 15 | 45,732 |
 | Just, Franciszek Kasper | 15 | 35,024 |
-| Nowakowski, Józef | 15 | 10,643 |
 | Pugnani, Gaetano | 15 | 10,742 |
 | Kobierkowicz, Józef | 14 | 19,943 |
 | Ogiński, Michał Kleofas | 14 | 10,081 |
@@ -903,9 +903,9 @@ Composers
 | Kottritsch, Franciszek | 10 | 11,728 |
 | Kraus, Lambert | 8 | 11,330 |
 | Costanzi, Giovanni Battista | 18 | 10,982 |
+| Nowakowski, Józef | 16 | 10,934 |
 | Pugnani, Gaetano | 15 | 10,742 |
 | Königsperger, Marianus | 7 | 10,654 |
-| Nowakowski, Józef | 15 | 10,643 |
 | Różycki, Jacek | 12 | 10,512 |
 | Szlagórski, Walenty | 19 | 10,509 |
 | Szadek, Tomasz | 9 | 10,181 |
