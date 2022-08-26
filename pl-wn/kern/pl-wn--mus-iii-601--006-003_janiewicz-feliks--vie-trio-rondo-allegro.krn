@@ -2308,7 +2308,7 @@
 !!!system-decoration: [(s1,s2,s3)]
 !!!RDF**kern: | = vertical stroke
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
-!!!ENC: Arek Malec
+!!!ENC: Arkadiusz Malec
 !!!END: 2022-05-29
 !!!ENC: Julita Ruszuk
 !!!END: 2022-05-29

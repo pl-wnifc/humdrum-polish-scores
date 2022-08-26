@@ -19,19 +19,28 @@ my %notecounts = getNoteCounts();
 my $totalnotes = getTotalNotes();
 my $commanotes = commify($totalnotes);
 
+my %encoders;
+my %editors;
+my %modern;
+my %iiif;
+my %people;
+
 my %composerList = getComposerList();
 
 my @data = <DATA>;
 my $output = join("", @data);
-my $siglaInfo = buildLibraryTable();
-my $composerInfo = buildComposerTable();
+
+my $siglaInfo     = buildLibraryTable();
+my $composerInfo  = buildComposerTable();
 my $referenceInfo = buildReferenceTable();
+my $encoderInfo   = buildEncoderTable();
 
 
 # Fill in template markers:
 $output =~ s/{{library-table}}/$siglaInfo/g;
 $output =~ s/{{composer-tables}}/$composerInfo/g;
 $output =~ s/{{reference-table}}/$referenceInfo/g;
+$output =~ s/{{encoder-table}}/$encoderInfo/g;
 $output =~ s/{{notecount}}/$commanotes/g;
 $output =~ s/{{scorecount}}/$commafiles/g;
 
@@ -432,6 +441,293 @@ sub buildReferenceTable() {
 
 
 
+##############################
+##
+## buildEncoderTable --
+##
+
+sub buildEncoderTable() {
+	my $output = "";
+
+	setupEncoderInformation();
+
+	my @peeps = keys %people;
+	@peeps = sort {
+		my $alast = $a;
+		my $blast = $b;
+		$alast =~ s/\s+$//;
+		$blast =~ s/\s+$//;
+		$alast =~ s/.* //;
+		$blast =~ s/.* //;
+		return $alast cmp $blast;
+	} @peeps;
+
+	$output .= "| Name | Encoded scores | Encoded notes | Edited scores | Modern ed. | IIIF scores |\n";
+	$output .= "| ---- | -------------: | ------------: | ------------: | ---------: | ----------: |\n";
+
+	my $totalEncodedScores = 0;
+	my $totalEncodedNotes  = 0;
+	my $totalEditedScores  = 0;
+	my $totalModernScores  = 0;
+	my $totalIiifScores    = 0;
+
+	for (my $i=0; $i<@peeps; $i++) {
+		my $name = $peeps[$i];
+		next if $name =~ /^\s*$/;
+
+		my $encodedScores = getEncodedScores($peeps[$i]);
+		my $encodedNotes  = getEncodedNotes($peeps[$i]);
+		my $editedScores  = getEditedScores($peeps[$i]);
+		my $modernScores  = getModernScores($peeps[$i]);
+		my $iiifScores    = getIiifScores($peeps[$i]);
+
+		$totalEncodedScores += $encodedScores;
+		$totalEncodedNotes  += $encodedNotes;
+		$totalEditedScores  += $editedScores;
+		$totalModernScores  += $modernScores;
+		$totalIiifScores    += $iiifScores;
+
+		next if $name =~ /^\s*$/;
+		$output .= "| ";
+		$output .= $peeps[$i];
+		$output .= " | ";
+		$output .= $encodedScores;
+		$output .= " | ";
+		$output .= $encodedNotes;
+		$output .= " | ";
+		$output .= $editedScores;
+		$output .= " | ";
+		$output .= $modernScores;
+		$output .= " | ";
+		$output .= $iiifScores;
+		$output .= " |\n";
+	}
+
+	$output .= "| TOTALS | $totalEncodedScores | $totalEncodedNotes | $totalEditedScores | $totalModernScores | $totalIiifScores |\n";
+
+	$output = "<details open>\n<summary>Encoder and Editor statistics</summary>\n\n$output\n</details>\n";
+
+	return $output;
+}
+
+
+
+##############################
+##
+## getEncodedScores --
+##
+
+sub getEncodedScores {
+	my ($person) = @_;
+	my $total = 0;
+	foreach my $file (@filelist) {
+		if ($encoders{$file} eq $person) {
+			$total++;
+		}
+	}
+	if ($total) {
+		return $total;
+	} else {
+		return "";
+	}
+
+}
+
+
+##############################
+##
+## getEncodedNotes --
+##
+
+sub getEncodedNotes {
+	my ($person) = @_;
+	my $total = 0;
+	foreach my $file (@filelist) {
+		if ($encoders{$file} eq $person) {
+			$total+= $notecounts{$file};
+		}
+	}
+	if ($total) {
+		return $total;
+	} else {
+		return "";
+	}
+
+
+}
+
+
+
+##############################
+##
+## getEditedScores --
+##
+
+sub getEditedScores {
+	my ($person) = @_;
+	my $total = 0;
+	foreach my $file (@filelist) {
+		if ($editors{$file} eq $person) {
+			$total++;
+		}
+	}
+	if ($total) {
+		return $total;
+	} else {
+		return "";
+	}
+}
+
+
+
+##############################
+##
+## getModernScores --
+##
+
+sub getModernScores {
+	my ($person) = @_;
+	my $total = 0;
+	foreach my $file (@filelist) {
+		if ($modern{$file} eq $person) {
+			$total++;
+		}
+	}
+	if ($total) {
+		return $total;
+	} else {
+		return "";
+	}
+}
+
+
+
+##############################
+##
+## getIiifScores --
+##
+
+sub getIiifScores {
+	my ($person) = @_;
+	my $total = 0;
+	foreach my $file (@filelist) {
+		if ($iiif{$file} eq $person) {
+			$total++;
+		}
+	}
+	if ($total) {
+		return $total;
+	} else {
+		return "";
+	}
+}
+
+
+
+##############################
+##
+## setupEncoderInformation --
+##
+
+sub setupEncoderInformation {
+	# my %encoders;
+	# my %editors;
+	# my %modern;
+	# my %iiif;
+	my $encoder;
+	my $editor;
+	my $modenc;
+	my $iiifenc;
+
+	foreach my $file (@filelist) {
+		($encoder, $editor, $modenc, $iiifenc) = getEncoderInformation($file);
+		$encoders{$file} = $encoder if $encoder !~ /^\s*$/;
+		$editors{$file}  = $editor  if $editor  !~ /^\s*$/;
+		$modern{$file}   = $modenc  if $modenc  !~ /^\s*$/;
+		$iiif{$file}     = $iiifenc if $iiifenc !~ /^\s*$/;
+	}
+}
+
+
+
+##############################
+##
+## getEncoderInformation --
+##
+
+sub getEncoderInformation {
+	my ($file) = @_;
+	open(FILE, $file) or die "Cannot read $file\n";
+	my @contents = <FILE>;
+	close FILE;
+	chomp @contents;
+	my $enc1     = "";
+	my $enc1date = 0;
+	my $enc2     = "";
+	my $enc2date = 0;
+	my $eed      = "";
+	my $eeddate  = 0;
+	my $modern   = "";
+	my $iiif     = "";
+
+	for (my $i=0; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		next if $line !~ /^!!!([^!:]+):\s*(.*)\s*$/;
+		my $key = $1;
+		my $value = $2;
+		$modern = $value if $key eq "ENC-modern";
+		$iiif = $value if $key eq "ENC-iiif";
+
+		if ($key eq "EED") {
+			$eed = $value;
+			my $line2 = $contents[$i+1];
+			if ($line2 =~ /^!!!([^!:]+):\s*(.*)\s*$/) {
+				my $date = $2;
+				$date =~ s/-//g;
+            $eeddate = $date;
+			}
+		}
+
+		if ($key eq "ENC") {
+			my $enc = $value;
+			my $date = 0;
+			my $line2 = $contents[$i+1];
+			if ($line2 =~ /^!!!([^!:]+):\s*(.*)\s*$/) {
+				$date = $2;
+				$date =~ s/-//g;
+			}
+			if ($enc1 =~ /^\s*$/) {
+				$enc1 = $enc;
+				$enc1date = $date;
+			} else {
+				$enc2 = $enc;
+				$enc2date = $date;
+			}
+		}
+	}
+
+	if (($enc1date > 0) && ($enc2date > 0)) {
+		if ($enc1date > $enc2date) {	
+			my $temp = $enc1;
+			$enc1 = $enc2;
+			$enc2 = $temp;
+		}
+	}
+
+	if ($eed) {	
+		$enc2 = $eed;
+	}
+
+	$people{$enc1}++;
+	$people{$enc2}++;
+	$people{$modern}++;
+	$people{$iiif}++;
+
+	return ($enc1, $enc2, $modern, $iiif);
+}
+
+
+
 __DATA__
 Humdrum Polish Scores
 ======================================
@@ -448,6 +744,13 @@ Frontend
 
 The main user interface for these digital scores is at https://polishscores.org.
 All transcriptions include scans of the physical scores.
+
+
+
+People
+------
+
+{{encoder-table}}
 
 
 
@@ -477,6 +780,7 @@ Composers
 {{composer-tables}}
 
 
+
 Filenames
 ---------
 
@@ -499,15 +803,13 @@ is used for data processing, while the second part of the file name (composer + 
 human readability.
 
 
+
 Reference records
 -----------------
 
 Here is a list of reference records used in the Humdrum scores and their meanings:
 
 {{reference-table}}
-
-
-
 
 
 

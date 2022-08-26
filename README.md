@@ -16,6 +16,56 @@ All transcriptions include scans of the physical scores.
 
 
 
+People
+------
+
+<details open>
+<summary>Encoder and Editor statistics</summary>
+
+| Name | Encoded scores | Encoded notes | Edited scores | Modern ed. | IIIF scores |
+| ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
+| Jan Barakat |  |  | 200 |  | 8 |
+| Lidia Bialucha |  |  |  |  | 2 |
+| Andrzej Borzym | 373 | 606569 | 428 | 121 |  |
+| Elżbieta Cabała |  |  |  |  | 8 |
+| Marta Chmielewska | 153 | 191995 | 461 |  |  |
+| Tomasz Grochalski | 562 | 831052 |  |  |  |
+| Andrzej Gręziak | 800 | 1286160 | 2 |  |  |
+| Jacek Iwaszko | 1 | 219 | 2 | 1 |  |
+| Marcin Jachim | 570 | 880723 | 1 |  |  |
+| Wojciech Jakubiak-Danek |  |  | 378 |  |  |
+| Berenika Jozajtis | 697 | 1077392 | 3 |  |  |
+| Marcin Konik | 5 | 192 | 5 |  |  |
+| Leszek Kubiak | 40 | 9344 | 805 | 113 |  |
+| Andrzej Kubiczek | 532 | 848354 | 721 | 139 |  |
+| Marta Lawrence | 92 | 32446 | 1071 | 69 |  |
+| Arkadiusz Malec | 41 | 69147 |  |  |  |
+| Anastazja Marusiak | 559 | 726694 | 2 |  |  |
+| Solarz Mateusz | 19 | 22799 |  |  |  |
+| Anna Matuszewska | 195 | 333803 | 170 |  |  |
+| Mateusz Mrugas | 1 | 2963 | 237 |  | 4 |
+| Jędrzej Mróz | 21 | 3957 | 241 |  |  |
+| Zofia Niedbalska | 1 | 425 | 74 |  |  |
+| Marta Opryszak | 165 | 247879 | 1 |  | 22 |
+| Julita Ruszuk | 1 | 182 | 106 |  |  |
+| Craig Stuart Sapp |  |  | 1 |  | 151 |
+| Katarzyna Serwa | 312 | 535966 | 249 | 40 |  |
+| Mateusz Solarz | 595 | 888158 | 10 |  |  |
+| Krzysztof Stępień | 476 | 692241 | 122 | 4 |  |
+| Antoni Szymański |  |  | 543 |  | 5 |
+| Konrad Tyszka |  |  |  |  | 6 |
+| Filip Voros | 362 | 466314 | 1 |  |  |
+| Kamil Watkowski | 403 | 544716 | 122 |  |  |
+| Natalia Wrzos |  |  | 206 |  | 5 |
+| Emilia Ziętek | 12 | 2142 | 1 |  | 9 |
+| Urszula Świątek | 3 | 3016 | 199 |  |  |
+| TOTALS | 6991 | 10304848 | 6362 | 487 | 220 |
+
+</details>
+
+
+
+
 Represented libraries and archives
 ----------------------------------
 
@@ -1094,6 +1144,7 @@ Composers
 
 
 
+
 Filenames
 ---------
 
@@ -1114,6 +1165,7 @@ Filenames only contains letters (a-z without accents), numbers, dashes, undersco
 The first part of the file name (siglum + shelfmark + shelfmark enumeration) is unique and
 is used for data processing, while the second part of the file name (composer + title) is for
 human readability.
+
 
 
 Reference records
@@ -1163,9 +1215,6 @@ Here is a list of reference records used in the Humdrum scores and their meaning
 | `key` | Human-assigned musical key |
 | `system-decoration` | Bracketing on left side of system |
 | `system-decoration-mod` | Modernized bracketing on left side of system |
-
-
-
 
 
 
