@@ -20,13 +20,17 @@
 !!!ONB-nifc: Nr V
 !!!AIN: 1 piano 1 vox
 !!!key: b
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m |  humtr -p
 **kern	**kern	**dynam	**kern	**dynam
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
-*I"Fortepian	*I"Fortepian	*	*I"Voce	*
+*I"[Pianoforte]	*I"[Pianoforte]	*	*I"[Voce]	*
+*I'	*I'	*	*I'	*
 *Ipiano	*Ipiano	*	*Ivox	*
 *ICklav	*ICklav	*	*ICvox	*
 *IGacmp	*IGacmp	*	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*
+*mI'pf	*mI'pf	*	*mI'V	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[f#c#]	*k[f#c#]	*	*k[f#c#]	*
 *b:	*b:	*	*b:	*
@@ -82,6 +86,7 @@
 *2\right	*	*	*	*
 2B^\	2d/] 2f#] 2b]	.	.	.
 =9	=9	=9	=9	=9
+!	!	!	!LO:TX:t=P:problem=brak tekstu	!
 4BB\	4r	.	4.b/	.
 4F#\ 4B 4d	4f#/ 4b 4dd	.	.	.
 .	.	.	8cc#\	.
@@ -94,7 +99,9 @@
 4D\ 4F# 4B	4f#/ 4b 4ff#	.	4dd\	.
 =11	=11	=11	=11	=11
 4FF#\	4r	.	16cc#\	.
+!	!	!	!LO:MO:mod=[8.a	!
 .	.	.	[8a/L	.
+!	!	!	!LO:MO:null:mod=.	!
 .	.	.	16a/Jk_	.
 4F#\ 4A 4c#	4f#/ 4a 4cc#	.	4a/]	.
 4F#\ 4A	4f#/ 4cc# 4ff#	.	4r	.
@@ -112,7 +119,9 @@
 4D\ 4F# 4B	4f#/ 4b 4ff#	.	4dd\	.
 =14	=14	=14	=14	=14
 4FF#\	4r	.	16cc#\	.
+!	!	!	!LO:MO:mod=[8.a	!
 .	.	.	[8a/L	.
+!	!	!	!LO:MO:null:mod=.	!
 .	.	.	16a/Jk_	.
 4F#\ 4A 4c#	4f#/ 4a 4cc#	.	4a/]	.
 4F#\ 4A	4f#/ 4cc# 4ff#	.	4r	.
@@ -147,7 +156,9 @@
 .	.	.	4cc#\	.
 =20	=20	=20	=20	=20
 4BBB\	2B/ 2d 2f# 2b	.	16dd\	.
+!	!	!	!LO:MO:mod=[8.b	!
 .	.	.	[8b/L	.
+!	!	!	!LO:MO:null:mod=.	!
 .	.	.	16b/Jk_	.
 4BB\	.	.	4b/]	.
 4AA\	4r	.	4r	.
@@ -165,8 +176,11 @@
 .	.	.	4ff#\	.
 =23	=23	=23	=23	=23
 4BBB\	2B/ 2d 2f# 2b	.	16dd\	.
-.	.	.	[4b/	.
+!	!	!	!LO:MO:mod=[8.b	!
+.	.	.	[4b	.
+!	!	!	!LO:MO:null:mod=4b]	!
 4F#\	.	.	.	.
+!	!	!	!LO:MO:null:mod=.	!
 .	.	.	8.b/]	.
 4B\	4r	.	4r	.
 =24	=24	=24	=24	=24
@@ -226,7 +240,7 @@
 2F#\	2f#/]	.	.	.
 =33	=33	=33	=33	=33
 *^	*	*	*	*
-2.FF#\	4ryy	16cc#/KL	.	2.r	.
+2.FF#\	4ryyyy	16cc#/KL	.	2.r	.
 .	.	8.f#/J	.	.	.
 .	2F#/ 2f#>	4f#\	.	.	.
 .	.	4e#X/	.	.	.
@@ -248,8 +262,8 @@
 !!LO:LB:g=original
 =37	=37	=37	=37	=37	=37
 *^	*	*	*	*	*
-!	!	!	!LO:TX:b:t=ré:rj	!	!	!
-2.BBB\ 2.FF#	2.F#/	2.f#/	2d#\	.	8dd#\	.
+!	!	!	!LO:TX:b:t=ré:rj:mod=	!	!	!
+2.F#/	2.BBB\ 2.FF#	2.f#/	2d#\	.	8dd#\	.
 .	.	.	.	.	8cc#\	.
 .	.	.	.	.	4b\	.
 .	.	.	4B\	.	4dd#\	.
@@ -259,6 +273,7 @@
 2.BBB\ 2.FF#	(4E/ 4A# 4c# 4f#	.	[4ff#\	.
 .	4B/ 4d# 4g#	<	8ff#\L]	.
 .	.	.	8ee\	.
+!	!LO:SIC:v:s=4c#/ 4e 4a#	!	!	!
 .	4c#/ 4e 4g#	.	8dd#\	.
 .	.	.	8cc#\J	.
 =39	=39	=39	=39	=39
@@ -287,7 +302,7 @@
 .	.	.	.	8dd#\	.
 .	.	4c#\	.	4ee\	.
 =44	=44	=44	=44	=44	=44
-!	!	!LO:TX:b:t=ré	!	!	!
+!	!	!LO:TX:b:t=ré:mod=	!	!	!
 2.BBB\ 2.FF#	2.F#</ 2.f#	2d#\	.	8dd#\	.
 .	.	.	.	8cc#\	.
 .	.	.	.	4b\	.
@@ -317,10 +332,12 @@
 .	2cc#\) 2ee 2aa#	.	.	.
 .	.	.	4f#/	.
 !!LO:PB:g=original
+!LO:MO:mod==49||	!LO:MO:mod==49||	!LO:MO:mod==49||	!LO:MO:mod==49||	!LO:MO:mod==49||
 =49	=49	=49	=49	=49
 *ok[f#c#gndnan]	*ok[f#c#gndnan]	*	*ok[f#c#gndnan]	*
 *k[f#c#]	*k[f#c#]	*	*k[f#c#]	*
 4BB\	4r	.	4.b/	.
+!LO:SIC:v:s=4F#\ 4B 4d	!	!	!	!
 4F#\ 4A 4d	4f#/ 4b 4dd	.	.	.
 .	.	.	8cc#\	.
 4E\ 4B 4c#	4g/ 4b 4cc# 4gg	.	8dd\	.
@@ -332,8 +349,11 @@
 4D\ 4F# 4B	4f#/ 4b 4ff#	.	4dd\	.
 =51	=51	=51	=51	=51
 4FF#\	4r	.	16cc#/	.
+!	!	!	!LO:MO:mod=[8.a	!
 .	.	.	[4a/	.
+!	!	!	!LO:MO:null:mod=4a]	!
 4F#\ 4A 4c#	4f#/ 4a 4cc#	.	.	.
+!	!	!	!LO:MO:null:mod=.	!
 .	.	.	8.a/]	.
 4C#\ 4F# 4A	4f#/ 4cc# 4ff#	.	4r	.
 =52	=52	=52	=52	=52
@@ -349,8 +369,11 @@
 .	.	.	4cc#\	.
 =54	=54	=54	=54	=54
 4BBB\	2B/ 2d 2f# 2b	.	16dd\	.
+!	!	!	!LO:MO:mod=[8.b	!
 .	.	.	[4b/	.
+!	!	!	!LO:MO:null:mod=4b]	!
 4BB\	.	.	.	.
+!	!	!	!LO:MO:null:mod=.	!
 .	.	.	8.b/]	.
 4AA\	4r	.	4r	.
 !!LO:LB:g=original
@@ -364,13 +387,17 @@
 4EE\ 4E	4c#/ 4g 4b 4cc#	.	8cc#\	.
 .	.	.	8b\	.
 2FF#\ 2C# 2F#	2A#X/ 2e 2f# 2a#X	.	4a#X/	.
+!	!	!	!LO:MO:mod=!null:null	!
 !	!	!	!LO:N:vis=8	!
 .	.	.	4ff#\	.
 =57	=57	=57	=57	=57
-!LO:TX:b:t=si	!	!	!	!
+!LO:TX:b:t=si:mod=	!	!	!	!
 4BBB\	2B/ 2d 2f# 2b	.	16dd\	.
+!	!	!	!LO:MO:mod=[8.b	!
 .	.	.	[4b/	.
+!	!	!	!LO:MO:null:mod=4b]	!
 4F#\	.	.	.	.
+!	!	!	!LO:MO:null:mod=.	!
 .	.	.	8.b/]	.
 4B\	4r	.	4r	.
 =58	=58	=58	=58	=58
@@ -412,5 +439,6 @@
 !!!END: 2021-11-08
 !!!ENC: Marta Chmielewska
 !!!END: 2021-11-09
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-28!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

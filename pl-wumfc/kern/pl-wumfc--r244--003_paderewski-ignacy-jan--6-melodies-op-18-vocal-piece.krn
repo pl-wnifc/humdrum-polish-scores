@@ -18,14 +18,16 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A155/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4664 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: Nr III, Moja Pieszczotka
-!!!AIN: 1 empty 1 piano
-!!!key:
+!!!AIN: 1 piano 1 vox
+!!!key: B-
 **kern	**kern	**dynam	**kern	**text	**dynam
 *part2	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1	*
-*Ipiano	*Ipiano	*	*Iempty	*	*
-*I"[Piano]	*I"[Piano]	*	*I"[Vioce]	*	*
+*I"[Piano]	*I"[Piano]	*	*I"[Voice]	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*	*
 *I'pf	*I'pf	*	*I'V	*	*
+*Ipiano	*Ipiano	*	*Ivox	*	*
+*ICklav	*ICklav	*	*ICvox	*	*
 *clefF4	*clefG2	*	*clefG2	*	*
 *k[b-e-]	*k[b-e-]	*	*k[b-e-]	*	*
 *B-:	*B-:	*	*B-:	*	*
@@ -33,14 +35,14 @@
 =1	=1	=1	=1	=1	=1
 8BBB-/	4r	.	4.r	.	.
 8r	.	.	.	.	.
-!LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
+!LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!LO:MO:mod=p <	!	!	!
 (>16F\LL	(>16f/LL	<	.	.	.
 16B-\J	16b-/J	.	.	.	.
 =2	=2	=2	=2	=2	=2
-8f\J)	8ff/J)	.	4.r	.	.
-8r	8r	[	.	.	.
+8f\J)	8ff/J)	[	4.r	.	.
+8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(<[>8FF/L	(>8gL 8e- 8c/	.	.	.	.
+(<[>>8FF/L	(>8gL 8e- 8c/	.	.	.	.
 =3	=3	=3	=3	=3	=3
 8FF]J 8BBB-/)	8b-J 8f 8d/)	.	4.r	.	.
 8r	8r	.	.	.	.
@@ -48,20 +50,21 @@
 (>16F\LL	(>16f/LL	<	.	.	.
 16B-\J	16b-/J	.	.	.	.
 =4	=4	=4	=4	=4	=4
-8f\J)	8ff/J)	.	4.r	.	.
-8r	8r	[	.	.	.
+8f\J)	8ff/J)	[	4.r	.	.
+8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(<[>8FF/L	(>8gL 8e- 8c/	.	.	.	.
+(<[>>8FF/L	(>8gL 8e- 8c/	.	.	.	.
 =5	=5	=5	=5	=5	=5
-!LO:TX:a:t=Ped.	!	!	!	!	!
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null	!	!	!	!
+*null	*ped	*	*	*	*
 8FF]J 8BBB-/)	8b-J 8f 8d/)	.	4.r	.	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16F\LL	(>16f/LL	<	.	.	.
 16B-\J	16b-/J	.	.	.	.
 =6	=6	=6	=6	=6	=6
-8f\J)	8ff/J)	.	4.r	.	.
-8r	8r	[	.	.	.
+8f\J)	8ff/J)	[	4.r	.	.
+8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16F\LL	(>16f/LL	.	.	.	.
 16B-\J	16b-/J	.	.	.	.
@@ -70,23 +73,31 @@
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16F\LL	(>16ff\LL	.	.	.	.
-16B-\JJ	16bb-\JJ	.	.	.	.
+16B-\J	16bb-\J	.	.	.	.
 !!LO:LB:g=original
 =8	=8	=8	=8	=8	=8
-8f\)	8fff\)	.	4.r;>	.	.
+8f\)J	8fff\)J	.	4.r;>	.	.
 8r	8r	.	.	.	.
-*	*Xped	*	*	*	*
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null	!	!	!	!
+*null	*Xped	*	*	*	*
+!LO:SIC:s=8r;	!	!	!	!	!
 8r	8r;>	.	.	.	.
 =9	=9	=9	=9	=9	=9
+!	!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*	*color:grey	*
+!	!	!	!LO:SIC:s=(4dd	!	!LO:MO:null:mod=p
 8F 8BB-\	8dd 8f 8d/	.	4dd\	Mo-	.
+!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!	!LO:HP:a
+!	!	!	!	!	!LO:MO:mod=.
 8r	8r	.	.	.	>
-!LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
+!LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!LO:SIC:s=8cc)	!	!
 (>8e-L 8A\	(>8cccL 8gg 8cc\	.	8cc\	.	.
 =10	=10	=10	=10	=10	=10
+!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!	!LO:DY:a:t=p.
-8gJ 8e- 8A\)	8eee-J 8gg 8ee-\)	.	4ee-\	-ja	]p
+!	!	!	!	!	!LO:MO:mod=.
+8gJ 8e- 8A\)	8eee-J 8gg 8ee-\)	.	4ee-\	-ja	] p
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>8F\L	(>8ddL 8f 8d/	.	8dd\	pie-	.
@@ -99,16 +110,19 @@
 8e-XJ 8c\)	8aaJ 8cc 8a\)	.	4a/	gdy	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(>[>8C\L	(>8gL 8e- 8B-/	.	8g/	w we-	.
+(>[>>8C\L	(>8gL 8e- 8B-/	.	8g/	w_we-	.
 =13	=13	=13	=13	=13	=13
 8CJ] 8FF\)	8fJ 8e- 8A/)	.	4f/	-so-	.
 8r	8r	.	.	.	.
+!LO:SIC:s=(8B- 8GL	!LO:SIC:s=(8b- 8gL	!	!	!	!
 (>8B- 8G\	(>8b- 8g/	.	(>16g/LL	-łej	.
 .	.	.	16b-/JJ)	.	.
 !!LO:LB:g=original
 =14	=14	=14	=14	=14	=14
+!LO:SIC:s=8e-J)	!LO:SIC:s=8ee-J)	!	!	!	!
 8e-\)	8ee-\)	.	[>4.ee-\	chwi-	.
 8r	8r	.	.	.	.
+!LO:SIC:s=([>8CL	!	!	!	!	!
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (<[<8C\L	(>8gL 8e- 8B-/	.	.	.	.
 =15	=15	=15	=15	=15	=15
@@ -121,9 +135,9 @@
 8e-\J)	8ee-/J)	.	4g/	li	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(>8F 8E-\	(>8g 8A/	.	8r	.	.
+(>8F 8E-\L	(>8g 8A/L	.	8r	.	.
 =17	=17	=17	=17	=17	=17
-8F 8D\)	8f 8B-/)	.	4.f/	po-	.
+8F 8D\)J	8f 8B-/)J	.	4.f/	po-	.
 8r	8r	.	.	.	.
 (>16A\LL	(>16a/LL	.	.	.	.
 16B-\J	16b-/J	.	.	.	.
@@ -137,15 +151,16 @@
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16A\LL	(>16a/LL	.	.	.	.
-16B-\JJ	16b-/JJ	.	.	.	.
+16B-\J	16b-/J	.	.	.	.
 !!LO:LB:g=original
 =20	=20	=20	=20	=20	=20
-8f\)	8ff\)	.	4ff\]	.	.
+8f\)J	8ff\)J	.	4ff\]	.	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>8D-XL 8DD-X\	(>8fL 8B- 8G/	.	8ff\	-tać	.
 =21	=21	=21	=21	=21	=21
-*	*ped	*	*	*	*
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null	!	!	!	!
+*null	*ped	*	*	*	*
 8CJ 8CC\)	8enJ 8B- 8G/)	.	4.een\	i	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
@@ -154,6 +169,8 @@
 =22	=22	=22	=22	=22	=22
 8gJ 8en\)	8ggJ 8een/)	.	4dd\	gru-	.
 8r	8r	.	.	.	.
+!LO:MO:mod=*Xped	!	!	!	!	!
+*null	*	*	*	*	*
 8r	8r	.	8cc\	-chać	.
 =23	=23	=23	=23	=23	=23
 .	.	.	(>16qqcc/LL	.	.
@@ -171,9 +188,11 @@
 !	!	!	!LO:S:color=grey	!	!
 8FJ 8BB-\)	8ddJ 8f 8d/)	.	(>4dd\	Tak	.
 8r	8r	.	.	.	.
+!LO:SIC:s=[8e- [8AL	!LO:SIC:s=(8ccc 8gg 8ccL	!	!	!	!
 [8e- [>8A\	(>8ccc 8gg 8cc\	.	8cc\)	.	.
 !!LO:PB:g=original
 =26	=26	=26	=26	=26	=26
+!LO:SIC:s=8g 8e-] 8AJ]	!LO:SIC:s=8eee- 8gg 8ee-J)	!	!	!	!
 8g 8e-] 8A\]	8eee- 8gg 8ee-\)	.	4ee-\	mi-	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
@@ -187,40 +206,47 @@
 8e-XJ 8c\)	8aaJ 8cc 8a\)	.	8a/	szcze-	.
 8r	8r	.	8a/	-bio-	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(>8C\L	(>8gL 8e- 8B-/	.	8g/	-cze	.
+[>>8C\L	(>8gL 8e- 8B-/	.	8g/	-cze	.
 =29	=29	=29	=29	=29	=29
+!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:S:color=grey	!	!
-8CJ 8FF\)	8fJ 8e- 8A/)	.	(>4f/	i	.
+8CJ] 8FF\	8fJ 8e- 8A/)	.	(>4f/	i	.
 8r	8r	.	.	.	.
+!	!	!	!LO:SIC:s=16gLL	!	!
 (>8B- 8G\	(>8b- 8g/	.	(>16g/LL	.	.
+!	!	!	!LO:SIC:s=16b-JJ)	!	!
 .	.	.	16b-/JJ))	.	.
 =30	=30	=30	=30	=30	=30
+!	!	!	!	!LO:MO:mod=kwi-	!
 4e-\)	4ee-\)	.	[>4.ee-\	Kwi-	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(>8C\L	(>8gL 8e- 8B-/	.	.	.	.
+[>>8C\L	(>8gL 8e- 8B-/	.	.	.	.
 =31	=31	=31	=31	=31	=31
-8CJ 8FF\)	8fJ 8e- 8A/)	.	4.ee-\]	.	.
+8CJ] 8FF\	8fJ 8e- 8A/)	.	4.ee-\]	.	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16G\LL	(>16g/LL	.	.	.	.
-16B-\JJ	16b-/JJ	.	.	.	.
+16B-\J	16b-/J	.	.	.	.
 !!LO:LB:g=original
 =32	=32	=32	=32	=32	=32
-8e-\)	8ee-\)	.	4g/	-li	.
+8e-\J)	8ee-\J)	.	4g/	-li	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>8CL 8CC\	(>8aL 8e- 8A/	.	8r	.	.
 =33	=33	=33	=33	=33	=33
 8DJ 8DD\)	8f#XJ 8d 8A/)	.	4r	.	.
 8r	8r	.	.	.	.
-!LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
+!	!LO:SIC:s=(8aL 8f#	!	!	!	!
+!LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!LO:MO:mod=Że	!
 (>8AL 8F#X\	(>8aL 8f#X/	.	8dd\	Ze	.
 =34	=34	=34	=34	=34	=34
 8d\J)	8dd/J)	.	4dd\	nie	.
 8r	8r	.	.	.	.
+!	!LO:SIC:s=(8dL 8Bn 8G	!	!	!	!
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (<8GG\L	(>8d<L 8Bn< 8G</	.	8dd\	chcąc	.
 =35	=35	=35	=35	=35	=35
+!	!LO:SIC:s=8e-J 8c 8G)	!	!	!	!
 8CC\J)	8e-<J 8c< 8G</)	.	[>4.ee-\	słów-	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
@@ -235,10 +261,10 @@
 8FF\J)	8aJ 8e- 8A/)	.	4cc\	ża-	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(>8c\	(>8gg 8ee- 8b-\	.	8b-/	-dne-	.
+(>8c\L	(>8gg 8ee- 8b-\L	.	8b-/	-dne-	.
 !!LO:LB:g=original
 =38	=38	=38	=38	=38	=38
-8f\)	8ff 8ee- 8a\)	.	4a/	-go	.
+8f\J)	8ff 8ee- 8a\J)	.	4a/	-go	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>8FL 8E-\	[>8fL 8A/	.	8cc/	po-	.
@@ -247,6 +273,7 @@
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16B-\LL	(>16b-\LL	.	.	.	.
+!LO:SIC:s=16fJ	!	!	!	!	!
 16d\J	16ff\J	.	.	.	.
 =40	=40	=40	=40	=40	=40
 8b-\J)	8bb-\J)	.	4f/]	.	.
@@ -268,16 +295,17 @@
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16C\LL	(>16cc\LL	.	.	.	.
-16G\JJ	16gg\JJ	.	.	.	.
+16G\J	16gg\J	.	.	.	.
 !!LO:LB:g=original
 =44	=44	=44	=44	=44	=44
-8c\)	8ccc\)	.	4cc\]	.	.
+8c\)J	8ccc\)J	.	4cc\]	.	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>8EnL 8EEn\	(>8ccL 8b- 8c/	.	8g/	-wać	.
 =45	=45	=45	=45	=45	=45
 8FJ 8FF\)	8ccJ 8a 8c/)	.	4cc\	nie	.
 8r	8r	.	.	.	.
+!	!LO:SIC:s=(8cccL 8ee- 8cc	!	!	!	!
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>8e-L 8A\	(>8cccL 8gg 8cc\	.	8cc\	śmiem	.
 =46	=46	=46	=46	=46	=46
@@ -289,6 +317,7 @@
 !	!	!	!LO:N:vis=4	!	!
 8F#XJ 8FF#X\)	8ddJ 8a 8d/)	.	[>4.dd\	-wia-	.
 8r	8r	.	.	.	.
+!	!LO:SIC:s=(16ddLL	!	!	!	!
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16D\LL	(>16b-\LL	.	.	.	.
 16A\J	16aa\J	.	.	.	.
@@ -300,10 +329,11 @@
 =49	=49	=49	=49	=49	=49
 8GJ 8GG\)	8ddJ 8b- 8d/)	.	4r	.	.
 8r	8r	.	.	.	.
+!	!	!	!	!LO:MO:mod=i	!
 8b- 8g 8en\	(>8bb- 8gg 8een\	.	8dd\	y	.
 !!LO:PB:g=original
 =50	=50	=50	=50	=50	=50
-!	!LO:TX:t=P:LO:N:vis=4.:problem	!	!	!	!
+!	!LO:N:vis=4.	!	!	!	!
 4b- 4g 4en 4d\	4ddd 4bb- 4gg 4een\)	.	4dd\	tyl-	.
 8r	8r	.	8dd\	-ko	.
 =51	=51	=51	=51	=51	=51
@@ -341,19 +371,25 @@
 8r	8r	.	8dd\	-chać	.
 =59	=59	=59	=59	=59	=59
 4AAA/	4r	.	4r	.	.
+!	!	!	!LO:SIC:s=16aLL	!	!
 [>8c#X [<8A\	[>8cc#X [<8a/	.	(<16a/LL	słu-	.
+!	!	!	!LO:SIC:s=16cc#JJ	!	!
 .	.	.	16cc#X/JJ)	.	.
 =60	=60	=60	=60	=60	=60
+!LO:SIC:s=4.e 4.c#] 4.A]	!LO:SIC:s=4.ee 4.cc#] 4.a]	!	!LO:SIC:s=([4.ee	!	!
 4.e- 4.c#] 4.A\]	4.ee- 4.cc#] 4.a/]	.	[4.ee-;>\	.	.
 =61	=61	=61	=61	=61	=61
+!	!	!	!LO:SIC:s=4.ee_	!	!
 8AA/	4r	.	4.ee-\_>	.	.
 8r	.	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16A\LL	(>16a/LL	.	.	.	.
-16e-\JJ	16ee-/JJ	.	.	.	.
+!LO:SIC:s=16eJ	!LO:SIC:s=16eeJ	!	!	!	!
+16e-\J	16ee-/J	.	.	.	.
 !!LO:LB:g=original
 =62	=62	=62	=62	=62	=62
-8a\)	8aa\)	.	(>4ee-;>\]	.	.
+!	!	!	!LO:SIC:s=4ee]	!	!
+8a\)J	8aa\)J	.	(>4ee-;>\]	.	.
 8r;>	8r;>	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 [>8AA/L	(<8aL 8g/	.	8dd\)	.	.
@@ -366,8 +402,9 @@
 =64	=64	=64	=64	=64	=64
 8a\J)	8aa\J)	.	4.ryy	.	.
 8r	8r	.	.	.	.
+!	!LO:SIC:s=(8b-L 8g 8e	!	!	!	!
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(>[>8AA/L	(<8b-L 8g 8e-/	.	.	.	.
+(>[>>8AA/L	(<8b-L 8g 8e-/	.	.	.	.
 =65	=65	=65	=65	=65	=65
 8AA]J) 8DD/	8ddJ 8a 8f/)	.	4.ryy	.	.
 8r	8r	.	.	.	.
@@ -377,16 +414,17 @@
 =66	=66	=66	=66	=66	=66
 8a\J)	8aa\J)	.	4.ryy	.	.
 8r	8r	.	.	.	.
-(>[>8AA/L	(<8b-L 8g 8e-/	.	.	.	.
+!	!LO:SIC:s=(8b-L 8g 8e	!	!	!	!
+(>[>>8AA/L	(<8b-L 8g 8e-/	.	.	.	.
 =67	=67	=67	=67	=67	=67
 8AA]J) 8DD/	8ddJ 8a 8f/)	.	4.ryy	.	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16A\LL	(>16a\LL	.	.	.	.
-16d\JJ	16dd\JJ	.	.	.	.
+16d\J	16dd\J	.	.	.	.
 !!LO:LB:g=original
 =68	=68	=68	=68	=68	=68
-8a\)	8aa\)	.	4.ryy	.	.
+8a\)J	8aa\)J	.	4.ryy	.	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16A\LL	(>16a\LL	.	.	.	.
@@ -410,9 +448,9 @@
 8fJ 8c] 8A-\])	[>4.aa-X [>4.cc [<4.a-X/)	.	4cc\	mo-	.
 8r	.	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!	!	!	!	!
-(>8C\L	.	.	8cc\	-wy	.
+[>>8C\L	.	.	8cc\	-wy	.
 =73	=73	=73	=73	=73	=73
-8CJ 8FF\)	8aa-] 8cc] 8a-/]	.	[>4.cc\	ży-	.
+8C] 8FF\J	8aa-] 8cc] 8a-/]	.	[>4.cc\	ży-	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!	!	!	!	!
 [8c [8A-X\	[8cc [>8a-X/	.	.	.	.
@@ -421,19 +459,20 @@
 8f 8c] 8A-\]	[>4.aa-X 4.cc_> 4.a-/_<	.	4cc\]	.	.
 8r	.	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!	!	!	!	!
-(>8F\L	.	.	8cc\	-wość	.
+[>8F\L	.	.	8cc\	-wość	.
 =75	=75	=75	=75	=75	=75
-8FJ 8BB-\)	8aa-] 8cc] 8a-/]	.	4cc\	gdy	.
+8FJ] 8BB-\	8aa-] 8cc] 8a-/]	.	4cc\	gdy	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>8cL 8A-X 8F\	(>8ccL 8a-X/	.	8ee-\	o-	.
 =76	=76	=76	=76	=76	=76
+!	!LO:SIC:s=8ffJ 8dd 8a-)	!	!	!	!
 8dJ 8B-\)	8ffJ 8dd 8a-y/)	.	4dd\	-czki	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(>8BB-\L	(>8cL 8A-X/	.	8cc\	za-	.
+[>>8BB-\L	(>8cL 8A-X/	.	8cc\	za-	.
 =77	=77	=77	=77	=77	=77
-8GGJ 8CC\)	8e-J 8G/)	.	[>4.ee-\	-pa-	.
+8BB-J] 8EE-\	8e-J 8G/)	.	[>4.ee-\	-pa-	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16B-\LL	(>16b-\LL	.	.	.	.
@@ -442,36 +481,39 @@
 8b-\J)	8bb-\J)	.	4ee-\]	.	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(>8BB-\L	(>8ccL 8a-X 8f/	.	8b-/	-li	.
+[>>8BB-\L	(>8ccL 8a-X 8f/	.	8b-/	-li	.
 =79	=79	=79	=79	=79	=79
-8BB-J 8EE-\)	8ee-J 8b- 8g/)	.	4r	.	.
+8BB-J] 8EE-\	8ee-J 8b- 8g/)	.	4r	.	.
 8r	8r	.	.	.	.
-!LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
+!LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!LO:MO:mod=i	!
 (>16B-\LL	(>16b-\LL	.	8b-/	y	.
-16e-\JJ	16ee-\JJ	.	.	.	.
+16e-\J	16ee-\J	.	.	.	.
 !!LO:LB:g=original
 =80	=80	=80	=80	=80	=80
-8b-\)	8bb-\)	.	4b-/	pocz-	.
+8b-\)J	8bb-\)J	.	4b-/	pocz-	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!	!	!	!	!
-(>8BB-\L	8r	.	8b-/	-nie	.
+[>>8BB-\L	8r	.	8b-/	-nie	.
 =81	=81	=81	=81	=81	=81
-8BB-J 8EE-\)	4r	.	[<4.b-/	mo-	.
+8BB-J] 8EE-\	4r	.	[<4.b-/	mo-	.
 8r	.	.	.	.	.
+!	!LO:SIC:s=([8b- [8g-/	!	!	!	!
 (>[>8B-L [>8G-X\	(>8b- [<8g-X/	.	.	.	.
 =82	=82	=82	=82	=82	=82
+!	!LO:SIC:s=[4.gg-X 4.b-_ 4.g-_)	!	!	!	!
 8e-J) 8B-] 8G-\]	[4.gg-X [4.b- 4.g-/_)	.	4b-/]	.	.
 8r	.	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!	!	!	!	!
-(>8E-\L	.	.	8b-/	-cniej	.
+[>>8E-\L	.	.	8b-/	-cniej	.
 =83	=83	=83	=83	=83	=83
-8E-J 8AA-X\)	8gg-] 8b-] 8g-/]	.	4b-\	ja-	.
+8E-J] 8AA-X\	8gg-] 8b-] 8g-/]	.	4b-\	ja-	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>8B-L 8G-X\	(>8b-L 8g-X/	.	8dd-X\	-go-	.
 =84	=84	=84	=84	=84	=84
 8cJ 8A-X\)	8ee-J 8cc 8g-X/)	.	4cc\	-dy	.
 8r	8r	.	.	.	.
+!	!LO:SIC:s=8B-L 8G-	!	!	!	!
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 [>8AA-X\L	8dL 8G-X/	.	8b-\	ró-	.
 =85	=85	=85	=85	=85	=85
@@ -479,13 +521,13 @@
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16A-X\LL	(>16a-X\LL	.	.	.	.
-16d-X\JJ	16dd-X\JJ	.	.	.	.
+16d-X\J	16dd-X\J	.	.	.	.
 !!LO:LB:g=original
 =86	=86	=86	=86	=86	=86
-8a-X\)	8aa-X\)	.	4.a-/_>	.	.
+8a-X\)J	8aa-X\)J	.	4.a-/_>	.	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-[>8AA-X\L	(>8b-L 8g-X 8e-/	.	.	.	.
+[>>8AA-X\L	(>8b-L 8g-X 8e-/	.	.	.	.
 =87	=87	=87	=87	=87	=87
 8AA-]J 8DD-X\	8dd-XJ 8a 8f/)	.	4.a-/_>	.	.
 8r	8r	.	.	.	.
@@ -497,41 +539,58 @@
 8r	8r	.	.	.	.
 8E- 8EE-\	8g-X 8d-X 8B-/	.	8g-X/	-wać	.
 =89	=89	=89	=89	=89	=89
-*	*ped	*	*	*	*
+!LO:MO:null:mod=*ped	!LO:MO:mod=*null:null	!	!	!	!
+*null	*ped	*	*	*	*
 4.F 4.FF\	4f 4c 4A/	.	4r	.	.
 !	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 .	(>8f/L	.	8f/	Per-	.
 =90	=90	=90	=90	=90	=90
 4F\	8ff/J)	.	4f/	-ło-	.
 .	8r	.	.	.	.
-*	*Xped	*	*	*	*
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null	!	!	!	!
+*null	*Xped	*	*	*	*
 !	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 8r	(>8f/L	.	8f/	-we	.
 =91	=91	=91	=91	=91	=91
-*	*ped	*	*	*	*
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null	!	!	!	!
+*null	*ped	*	*	*	*
 4.E- 4.EE-\	8g-XJ 8f 8G-X^>/)	.	[>4.g-X/	zą-	.
 .	8r	.	.	.	.
+!	!LO:SIC:s=(8g-L	!	!	!	!
 !	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-.	(>8g-X/	.	.	.	.
+.	(>8g-XL/	.	.	.	.
 !!LO:LB:g=original
 =92	=92	=92	=92	=92	=92
-4G-X\	8ff\)	.	4g-X/]	-bki	.
+!	!	!	!LO:SIC:s=4g-]	!	!
+4G-X\	8ff\)J	.	4g-X/]	-bki	.
 .	8r	.	.	.	.
+!LO:MO:mod=*Xped	!	!	!	!	!
+*null	*	*	*	*	*
 8r	8g-X/	.	8r	.	.
 =93	=93	=93	=93	=93	=93
+!LO:MO:mod=*ped	!	!	!	!	!
+*null	*	*	*	*	*
 4.D 4.DD\	4gn 4f 4Gn/	.	4gn/	bły-	.
 !	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 .	(<8g/L	.	8g/	-sną	.
 =94	=94	=94	=94	=94	=94
 4G\	8ff/J)	.	4g/	wśród	.
 .	8r	.	.	.	.
+!LO:MO:mod=*Xped	!	!	!	!LO:MO:mod=ko-	!
+*null	*	*	*	*	*
 8r	8g/	.	8g/	Ko-	.
 =95	=95	=95	=95	=95	=95
+!LO:MO:mod=*ped	!	!	!	!	!
+*null	*	*	*	*	*
 4.D-X 4.DD-X\	4g#X 4f 4G#X/	.	4.g#X/	-ra-	.
+!	!LO:SIC:s=(8g#L	!	!	!	!
 !	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 .	8g#/L	.	.	.	.
 =96	=96	=96	=96	=96	=96
+!	!LO:SIC:s=8ffJ)	!	!	!	!
 4G#X\	8ff/J	.	4g#X/	-li	.
+!LO:MO:mod=*Xped	!	!	!	!	!
+*null	*	*	*	*	*
 .	8r	.	.	.	.
 8r	8g#X/	.	8ryy	.	.
 =97	=97	=97	=97	=97	=97
@@ -540,6 +599,7 @@
 !!LO:PB:g=original
 =98	=98	=98	=98	=98	=98
 4BB- 4BBB-\	4b- 4f 4e- 4B-/	.	4b-\	wśród	.
+!	!	!	!	!LO:MO:mod=ko-	!
 8GG#X 8GGG#X\	8bn 8f 8d 8Bn/	.	8bn\	Ko-	.
 =99	=99	=99	=99	=99	=99
 4AA 4AAA\	4.cc 4.f 4.e- 4.c/	.	4.cc\	-ra-	.
@@ -548,11 +608,13 @@
 4FF 4FFF\]	4cc#X 4a 4e-X 4c#X/	.	4cc#X\	-li	.
 8r	8r	.	8r	.	.
 =101	=101	=101	=101	=101	=101
-8BB- 8FF 8BBB-\	8dd 8b- 8d'/	sf	4dd\	ach!	.
+!	!	!	!	!LO:MO:mod=Ach!	!
+8BB- 8FF 8BBB-\	8dd 8b- 8d/	sf	4dd\	ach!	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>8e-L 8A\	(>8cccL 8gg 8cc\	.	8r	.	.
 =102	=102	=102	=102	=102	=102
+!	!	!	!	!LO:MO:mod=wten-	!
 8gJ 8e- 8A\)	8cccJ 8gg 8ee-\)	.	4ee-\	Wten-	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
@@ -561,24 +623,26 @@
 8FF\J)	8ccJ 8e- 8c/)	.	4cc\	śmie-	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(>8en 8d-X\	(>8bb- 8dd-X 8b-\	.	8b-\	-lej	.
+(>8en 8d-X\L	(>8bb- 8dd-X 8b-\L	.	8b-\	-lej	.
 !!LO:LB:g=original
 =104	=104	=104	=104	=104	=104
-8e-X 8c\)	8aa 8cc 8a\)	.	8a/	W o-	.
+!	!	!	!	!LO:MO:mod=w_o-	!
+8e-X 8c\)J	8aa 8cc 8a\)J	.	8a/	W o-	.
 8r	8r	.	8a/	-czę-	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(>[>8C\L	(<8gL 8e- 8B-/	.	8g/	-ta	.
+(>[>>8C\L	(<8gL 8e- 8B-/	.	8g/	-ta	.
 =105	=105	=105	=105	=105	=105
 8C]J 8FF\)	8fJ 8e- 8A/)	.	4f/	spo-	.
 8r	8r	.	.	.	.
+!	!	!	!LO:MO:mod=!null:null	!	!
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!LO:S:color=grey	!	!
-(>8B-L 8G\	(>8b- 8g/	.	(>16g/LL	.	.
+(>8B-L 8G\	(>8b-L 8g/	.	(>16g/LL	.	.
 .	.	.	16b-/JJ)	.	.
 =106	=106	=106	=106	=106	=106
-8e-\J)	8ee-\)	.	[>4.ee-\	-glą-	.
+8e-\J)	8ee-\J)	.	[>4.ee-\	-glą-	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(>[>8C\L	(<8gL 8e- 8B-/	.	.	.	.
+(>[>>8C\L	(<8gL 8e- 8B-/	.	.	.	.
 =107	=107	=107	=107	=107	=107
 8C]J 8FF\)	8fJ 8e- 8A/)	.	4.ee-\]	.	.
 8r	8r	.	.	.	.
@@ -595,10 +659,10 @@
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16A\LL	(>16a\LL	.	.	.	.
-16B-\JJ	16b-\JJ	.	.	.	.
+16B-\J	16b-\J	.	.	.	.
 !!LO:LB:g=original
 =110	=110	=110	=110	=110	=110
-8f\)	8ff\)	.	4a/	-sta	.
+8f\)J	8ff\)J	.	4a/	-sta	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>8DL 8DD\	(<8fL 8B-/	.	8b-/	po-	.
@@ -614,27 +678,36 @@
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>8D-XL 8DD-X\	(<8fL 8B- 8G/	.	8ff\	-kam	.
 =113	=113	=113	=113	=113	=113
-*	*ped	*	*	*	*
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null	!	!	!	!
+*null	*ped	*	*	*	*
+!	!	!	!	!LO:MO:mod=i	!
 8CJ 8CC\)	8enJ 8B- 8G/)	.	4.een\	I	.
 8r	8r	.	.	.	.
+!LO:SIC:s=(16ALL	!	!	!	!	!
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 16A\LL	(>16a\LL	.	.	.	.
 16B-\J	16b-\J	.	.	.	.
 =114	=114	=114	=114	=114	=114
+!LO:SIC:s=8gJ 8en)	!	!	!	!	!
 8gJ 8en\	8ggJ 8een\)	.	4dd\	słu-	.
+!LO:MO:mod=*Xped	!	!	!	!	!
+*null	*	*	*	*	*
 8r	8r	.	.	.	.
 8r	8r	.	8cc\	-chać	.
 =115	=115	=115	=115	=115	=115
 .	.	.	(>16qqcc/LL	.	.
-*	*ped	*	*	*	*
 .	.	.	16qqdd/JJ	.	.
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null	!	!	!	!
+*null	*ped	*	*	*	*
 4F 4C 4FF\	4a 4e-X 4A/	.	4.ee-X\)	nie	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16A\LL	(>16a\LL	.	.	.	.
-16e-X\JJ	16ee-X\JJ	.	.	.	.
+16e-X\J	16ee-X\J	.	.	.	.
 !!LO:LB:g=original
 =116	=116	=116	=116	=116	=116
-8a\)	8aa\)	.	4dd\	żą-	.
+8a\)J	8aa\)J	.	4dd\	żą-	.
+!LO:MO:mod=*Xped	!	!	!	!	!
+*null	*	*	*	*	*
 8r	8r	.	.	.	.
 8r	8r	.	8cc\	-dam	.
 =117	=117	=117	=117	=117	=117
@@ -657,10 +730,11 @@
 4r	4r	.	4.gg\_	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16BB-\LL	(>16b-\LL	.	.	.	.
-16E-\JJ	16dd\JJ	.	.	.	.
+16E-\J	16ee-\J	.	.	.	.
 !!LO:PB:g=original
 =122	=122	=122	=122	=122	=122
-8b-\)	8bb-\)	.	4.gg\_	.	.
+!LO:SIC:s=8B-J)	!	!	!	!	!
+8b-\)J	8bb-\)J	.	4.gg\_	.	.
 8r	8r	.	.	.	.
 8r	8r	.	.	.	.
 =123	=123	=123	=123	=123	=123
@@ -685,6 +759,7 @@
 .	.	.	(>16g/LL	ca-	.
 .	.	.	16b-/JJ)	.	.
 =130	=130	=130	=130	=130	=130
+!	!	!	!LO:SIC:s=([4.ee-	!	!
 4c] 4G] 4C\]	4ee-] 4b-] 4g] 4e-/]	.	(>[>4.ee-;>\	-ło-	.
 8r	8r	.	.	.	.
 =131	=131	=131	=131	=131	=131
@@ -694,6 +769,7 @@
 (>16E-\LL	(<16f/LL	.	.	.	.
 16A\J	16a/J	.	.	.	.
 =132	=132	=132	=132	=132	=132
+!	!	!	!LO:SIC:s=4cc;	!	!
 8c\J)	8cc/J)	.	4cc\	.	.
 8r;>	8r;>	.	.	.	.
 8FF/	8f/	.	8b-\)	.	.
@@ -702,13 +778,13 @@
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16F\LL	(>16ff\LL	.	8r	.	.
-16B-\JJ	16bb-\JJ	.	.	.	.
+16B-\J	16bb-\J	.	.	.	.
 !!LO:LB:g=original
 =134	=134	=134	=134	=134	=134
-8f\)	8fff\)	.	4.ryy	.	.
+8f\)J	8fff\)J	.	4.ryy	.	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(<[>8FF/L	(>8gL 8e- 8c/	.	.	.	.
+(<[>>8FF/L	(>8gL 8e- 8c/	.	.	.	.
 =135	=135	=135	=135	=135	=135
 8FF]J 8BBB-/)	8b-J 8f 8d/)	.	4.ryy	.	.
 8r	8r	.	.	.	.
@@ -719,9 +795,10 @@
 8f\J)	8fff\J)	.	4.ryy	.	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
-(<[>8FF/L	(>8gL 8e- 8c/	.	.	.	.
+(<[>>8FF/L	(>8gL 8e- 8c/	.	.	.	.
 =137	=137	=137	=137	=137	=137
-*	*ped	*	*	*	*
+!LO:MO:mod=*ped	!LO:MO:mod=*null:null	!	!	!	!
+*null	*ped	*	*	*	*
 8FF]J 8BBB-/)	8b-J 8f 8d/)	.	4.ryy	.	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
@@ -738,10 +815,10 @@
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16F\LL	(>16ff\LL	.	.	.	.
-16B-\JJ	16bb-\JJ	.	.	.	.
+16B-\J	16bb-\J	.	.	.	.
 !!LO:LB:g=original
 =140	=140	=140	=140	=140	=140
-8f\)	8fff\)	.	4.r	.	.
+8f\)J	8fff\)J	.	4.r	.	.
 8r	8r	.	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!	!
 (>16F\LL	(>16ff\LL	.	.	.	.
@@ -757,7 +834,8 @@
 8r	8r<	.	.	.	.
 =144	=144	=144	=144	=144	=144
 4.r	4.r	.	4.r	.	.
-*	*Xped	*	*	*	*
+!LO:MO:mod=*Xped	!LO:MO:mod=*null:null	!	!	!	!
+*null	*Xped	*	*	*	*
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: s1{(s2,s3)}
@@ -765,7 +843,10 @@
 !!!RDF**kern: < = below
 !!!ENC: Filip Voros
 !!!END: 2021-11-04
-!!!EED: Antoni Szymański
-!!!EEV: 2021-11-05
+!!!ENC: Antoni Szymański
+!!!ED: 2021-11-05
+!!!ENC-modern: Andrzej Kubiczek
+!!!END-modern: 2022-08-28
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b)/LO:dy:$1/L" | shed -e "s/LO:N:/LO:n:$1/L" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -20,17 +20,22 @@
 !!!ONB-nifc: Nr IV, Nad wodą wielką i czystą
 !!!AIN: 1 piano 1 vox
 !!!key: a
+!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m |  humtr -p
 **kern	**kern	**dynam	**kern	**text
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1
 *I"[Pianoforte]	*I"[Pianoforte]	*	*I"[Voce]	*
+*I'	*I'	*	*I'	*
 *Ipiano	*Ipiano	*	*Ivox	*
 *ICklav	*ICklav	*	*ICvox	*
 *IGacmp	*IGacmp	*	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*
+*mI'pf	*mI'pf	*	*mI'V	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *a:	*a:	*	*a:	*
 *M2/4	*M2/4	*	*M2/4	*
+!	!	!	!	!LO:MO:mod=*null:null
 *	*	*	*	*color:grey
 =1	=1	=1	=1	=1
 !LO:TUP:a:problem=klamra łukowa	!	!LO:TX:a:t=P:problem=all\right, middle or left&colon; global	!	!
@@ -42,7 +47,10 @@
 12AAA\	.	.	.	.
 12EE\J)	.	.	.	.
 =2	=2	=2	=2	=2
+!LO:MO:mod=*null:null	!	!	!	!
 *Xtuplet	*	*	*	*
+!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;t=[simile]	!	!	!	!
+!	!	!	!	!
 12AAA\L	2r	.	2r	.
 12EE\	.	.	.	.
 12AAA\J	.	.	.	.
@@ -220,6 +228,7 @@
 12EE\J	.	.	.	.
 !!LO:PB:g=original
 =25	=25	=25	=25	=25
+!	!	!	!LO:TX:t=P:problem=brak tekstu	!
 12AAA\L	4e< 4c< 4A< 4E</	.	4a/	.
 12EE\	.	.	.	.
 12AAA\J	.	.	.	.
@@ -306,7 +315,7 @@
 12DD#X\L	4a] 4f] 4c] 4A</]	<	4a/)	.
 12AA\	.	.	.	.
 12DD#\J	.	.	.	.
-12EEL 12AAA^\	4cc 4a 4e 4c/	.	4cc\)	.
+12EEL 12AAA^<<\	4cc 4a 4e 4c/	.	4cc\)	.
 12AA\	.	.	.	.
 12AAA\J	.	[	.	.
 !!LO:LB:g=original
@@ -964,5 +973,7 @@
 !!!END: 2021-11-05
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-11-09
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-28
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

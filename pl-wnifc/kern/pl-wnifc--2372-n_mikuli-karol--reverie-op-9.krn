@@ -20,12 +20,15 @@
 !!!OMD: Adagio come un Recitatif dans le style d’une „Doina” moldare.
 !!!AIN: 1 piano
 !!!key: D
+!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m 
 **kern	**kern	**fing	**dynam
 *part1	*part1	*part1	*part1
 *staff2	*staff1	*staff1	*
 *I"Piano.	*I"Piano.	*	*
 *I'	*I'	*	*
 *Ipiano	*Ipiano	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*
+*mI'pf	*mI'pf	*	*
 *ICklav	*ICklav	*	*
 *clefF4	*clefG2	*	*
 *kcancel	*kcancel	*	*
@@ -36,7 +39,7 @@
 4r	4ff#\	.	p
 =1	=1	=1	=1
 *ped	*	*	*
-!	!LO:TX:b:i:t=dolente.	!	!
+!	!LO:TX:b:i:t=dolente.:mod=dolente	!	!
 (16GG\LL	(8..bb^\L	.	.
 16E\	.	.	.
 16B\	.	.	.
@@ -65,6 +68,7 @@
 .	32ee\JJ	.	.
 .	64.dd\LLL	.	.
 .	128cc#\K	.	.
+!	!LO:MO:mod=*null:null	!	!
 *	*rscale:1/2	*	*
 !	!LO:TUP:a:problem=klamra łukowa	!	!
 .	96cc#\	.	.
@@ -83,7 +87,9 @@
 (16DD\LL	8ryy	4.ff#\	.	.
 16D\	.	.	.	.
 [[16F#\	8F#/	.	.	.
+!LO:SIC:s=[16f#\JJ)	!	!	!	!
 16f#\JJ)	.	.	.	.
+!LO:SIC:s=4f#] 4A 4F#\]]	!	!	!	!
 4f# 4A 4F#\]]	4ryy	.	.	.
 *Xped	*	*	*	*
 .	.	[8ff#\	.	.
@@ -105,9 +111,10 @@
 ([[16CC#\LL	(8..ff#^\L	.	>
 [[16C#\	.	.	.
 [[16G\	.	.	.
+!LO:SIC:s=[16eJJ	!	!	!
 16e\JJ)	.	.	.
 .	32b\Jkk)	.	]
-!	!LO:TUP:a:problem=klamra łukowa	!	!
+!LO:SIC:s=4e] 4G]] 4C#]] 4CC#\]]	!LO:TUP:a:problem=klamra łukowa	!	!
 4e 4G]] 4C#]] 4CC#\]]	28b\LL	.	.
 .	28b\	.	.
 .	28b\	.	.
@@ -124,6 +131,7 @@
 [[16F#\	48a#\LLL	.	.
 .	48b\	.	.
 .	48a#\JJ	.	.
+!	!LO:MO:mod=*null:null	!	!
 *Xped	*rscale:2	*	*
 !	!LO:TUP:a:problem=klamra łukowa	!	!
 [16e\JJ)	80g#X\LLL	.	<
@@ -161,6 +169,7 @@
 .	24a/L	.	.
 .	24g#X/	.	.
 .	24gn/JJ	.	.
+!	!	!	!LO:MO:mod=!LO&colon;HP&colon;t=cresc. molto
 !	!	!	!LO:HP:t=cresc. molto.
 16r	[4f#/	.	<
 *ped	*	*	*
@@ -190,12 +199,13 @@
 .	20c/	.	.
 .	20c/	.	.
 .	20c/JJ	.	.
+!	!LO:MO:mod=*null:null	!	!
 *Xped	*Xtuplet	*	*
 4r	(48.c;/LLL	.	>
 .	96d/K	.	.
 .	48c/	.	.
 .	48d/JJ)	.	.
-!	!LO:TX:b:i:t=accelerando.	!	!
+!	!LO:TX:b:i:t=accelerando.:mod=accelerando	!	!
 .	(48e/LL	.	.
 .	48d/	.	.
 .	48c/	.	.
@@ -206,7 +216,9 @@
 .	48B/JJJ)	.	]]
 !!LO:LB:g=original
 =6	=6	=6	=6
-!	!LO:TX:b:B:t=a tempo.	!	!
+!!!OMD:
+!!!OMD-mod: A tempo
+!	!LO:TX:b:B:t=a tempo.:mod=	!	!
 4r	8B</L	.	.
 .	.	.	<
 .	8A#X</	.	.
@@ -255,6 +267,7 @@
 .	32ee\JJ	.	.
 .	64.dd\LLL	.	.
 .	128cc#\K	.	.
+!	!LO:MO:mod=*null:null	!	!
 *Xped	*rscale:1/2	*	*
 !	!LO:TUP:a:problem=klamra łukowa	!	!
 .	96cc#\	.	.
@@ -314,6 +327,7 @@
 .	48b\	.	.
 *Xped	*	*	*
 .	48a#\JJ	.	.
+!	!LO:MO:mod=*null:null	!	!
 *	*rscale:2	*	*
 !	!LO:TUP:a:problem=klamra łukowa	!	!
 [16e\JJ)	80g#X\LLL	.	.
@@ -322,6 +336,7 @@
 .	80cc#\	.	.
 .	80dd\JJJJ	.	[
 *	*rscale:1	*	*
+!	!LO:MO:mod=*null:null	!	!
 *	*Xtuplet	*	*
 !	!LO:TUP:a:problem=klamra łukowa	!	!
 4e] 4F#]] 4C#]] 4FF#\]]	[12ff#\L	.	>
@@ -382,13 +397,15 @@
 .	20c/	.	.
 .	20c/	.	.
 .	20c/JJ	.	.
+!	!LO:MO:mod=*null:null	!	!
 *Xped	*Xtuplet	*	*
+!	!	!	!LO:MO:mod=!null:null
 !	!LO:TUP:b:problem=klamra łukowa	!	!LO:HP:a
 4r	48c/LLL	.	<
 .	48d/	.	.
 .	48c/	.	.
 .	48d/JJ	.	.
-!	!LO:TX:b:i:t=accelerando.	!	!
+!	!LO:TX:b:i:t=accelerando.:mod=accelerando	!	!
 .	48e/LL	.	.
 .	48d/	.	.
 .	48c/	.	.
@@ -399,7 +416,9 @@
 .	48B/JJJ	.	[[
 !!LO:LB:g=original
 =12	=12	=12	=12
-!	!LO:TX:b:B:t=a tempo.	!	!
+!!!OMD:
+!!!OMD-mod: A tempo
+!	!LO:TX:b:B:t=a tempo.:mod=	!	!
 4ryy	8B</L	.	p <
 .	8A#X</	.	.
 *ped	*	*	*
@@ -479,8 +498,10 @@
 4c# 4A\	.	.	.	.	.
 *	*	*v	*v	*	*
 =17	=17	=17	=17	=17
+!!!OMD:
+!!!OMD-mod: A tempo
 *ped	*	*	*	*
-!	!LO:TX:b:B:t=a tempo.	!	!	!
+!	!LO:TX:b:B:t=a tempo.:mod=	!	!	!
 4GG#X 4GGG#X/	[4cc#/	2b 2e#X\	.	.
 4c# 4B 4G#X\	(16cc#/LL]	.	.	.
 *Xped	*	*	*	*
@@ -528,6 +549,7 @@
 =20	=20	=20	=20
 *	*	*	*^
 .	(8qccc#/	.	.	.
+!	!	!	!LO:MO:null:mod=.	!
 4c# 4F# 4AA\	[4fff#;\)	.	f	.
 (8qBB 8qBBB/	.	.	.	.
 *ped	*cue	*	*	*
@@ -559,6 +581,7 @@
 .	64b\	.	.	.
 .	64a\	.	.	.
 .	64g#X\	3	.	.
+!	!	!	!	!LO:MO:null:mod=.
 .	64a\	4	.	p
 .	64g#\	.	.	.
 .	64f#\	.	.	.
@@ -611,7 +634,7 @@
 =22	=22	=22	=22	=22
 *^	*	*	*	*
 4C# 4FF#\)	4ryy	32gn/KKL	4A#X\	.	.
-!	!	!LO:TX:b:i:t=legato.	!	!	!
+!	!	!LO:TX:b:i:t=legato.:mod=legato	!	!	!
 .	.	8..f#/J	.	.	.
 4c#/	2.F#\	2ff#/	4a#X 4f#\	.	p
 4e#X 4d 4B/	.	.	4b 4g#X\	.	.
@@ -647,12 +670,14 @@
 .	32ee\	.	.
 20g\JJ	.	.	.
 .	32ff#\JJJ)	.	.
+!	!LO:MO:mod=*null:null	!	!
 *	*rscale:2	*	*
+!	!LO:MO:mod=*null:null	!	!
 *	*Xtuplet	*	*
 4r	(76aaLLL	.	.
 .	76gg	.	.
 .	76fff#	5	.
-!	!LO:TX:b:i:t=egualmente.	!	!
+!	!LO:TX:b:i:t=egualmente.:mod=egualmente	!	!
 .	76r	.	.
 .	76eee	5	.
 .	76ddd	4	.
@@ -718,6 +743,7 @@
 .	48b\	.	.
 *Xped	*	*	*
 .	48a#\JJ	.	.
+!	!LO:MO:mod=*null:null	!	!
 *	*rscale:2	*	*
 !	!LO:TUP:a:problem=klamra łukowa	!	!
 [16e\JJ	80g#X\LLL	.	<
@@ -783,12 +809,13 @@
 .	20c/	.	.
 .	20c/	.	.
 .	20c/JJ	.	.
+!	!LO:MO:mod=*null:null	!	!
 *Xped	*Xtuplet	*	*
 4r	(48c;/LLL	.	.
 .	48d/	.	.
 .	48c/	.	.
 .	48d/JJ	.	.
-!	!LO:TX:b:i:t=accelerando.	!	!
+!	!LO:TX:b:i:t=accelerando.:mod=accelerando	!	!
 .	48e/LL	.	.
 .	48d/	.	.
 .	48c/	.	.
@@ -798,7 +825,9 @@
 .	48c/	.	.
 .	48B/JJJ)	.	.
 =28	=28	=28	=28
-!	!LO:TX:b:B:t=a tempo.	!	!
+!!!OMD:
+!!!OMD-mod: A tempo
+!	!LO:TX:b:B:t=a tempo.:mod=	!	!
 2r	4B</	.	p
 .	[4A#X</	.	.
 *ped	*	*	*
@@ -806,10 +835,12 @@
 !!LO:PB:g=original
 =29||	=29||	=29||	=29||
 !!!OMD: Tempo di Chora Allegretto comodo. ([quarter]=88.)
+!!!OMD-mod: Tempo di Chora Allegretto comodo. ([quarter]=88.)
 *k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*	*
 *M2/4	*M2/4	*	*
 8BB 8BBB\	8d#< 8B< 8F#< 8D#</	.	.
-!LO:TX:b:i:t=Pedale a chaque mesure.	!	!	!LO:DY:t=sempre pianissimo.
+!	!	!	!LO:MO:mod=!LO&colon;DY&colon;t=sempre pp
+!LO:TX:b:i:t=Pedale a chaque mesure.:mod=Pedale a chaque mesure	!	!	!LO:DY:t=sempre pianissimo.
 (8BL 8D#'\	8r	.	pp
 8d# 8F#'\	4r	.	.
 8BJ 8D#'\)	.	.	.
@@ -829,6 +860,8 @@
 8d# 8F#'\	.	.	.
 8BJ 8D#'\)	.	.	.
 =33	=33	=33	=33
+!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;t=[simile]	!	!	!
+!	!	!	!
 8BBB/	(4dd#'\	.	<
 8BL 8D#\	.	.	.
 8d# 8F#\	4dd#'\	.	.
@@ -866,7 +899,9 @@
 8BJ 8E\	16an\	4	.
 .	16gn\JJ)	.	.
 =38	=38	=38	=38
-!	!LO:TX:b:B:t=a tempo.	!	!
+!!!OMD:
+!!!OMD-mod: A tempo
+!	!LO:TX:b:B:t=a tempo.:mod=	!	!
 .	(8qd#/	1	.
 8BBB/	4f#/)	2	.
 8BL 8D#\	.	.	.
@@ -924,7 +959,9 @@
 8BJ 8E\	16an\	.	.
 .	16gn\JJ)	.	.
 =46	=46	=46	=46
-!	!LO:TX:b:B:t=a tempo.	!	!
+!!!OMD:
+!!!OMD-mod: A tempo
+!	!LO:TX:b:B:t=a tempo.:mod=	!	!
 .	(8qd#/	.	.
 8BBB/	4f#/)	.	.
 8BL 8D#\	.	.	.
@@ -1332,7 +1369,7 @@
 !!!OMD: Tempo I.
 *k[f#c#]	*k[f#c#]	*	*
 *^	*^	*	*
-!	!	!LO:TX:a:i:t=con espressione.	!	!	!LO:DY:rj
+!	!	!LO:TX:a:i:t=con espressione.:mod=con espressione	!	!	!LO:DY:rj
 (2D/	[2GGn\	4..b/	2B\_	.	p
 .	.	16e/	.	.	.
 =106	=106	=106	=106	=106	=106
@@ -1371,6 +1408,7 @@
 !	!LO:TX:a:i:t=ten.	!	!LO:DY:rj
 2EE 2EEE;<\	[<2cn 2G< N[2Cn<;/	.	f
 =112-	=112-	=112-	=112-
+!	!	!	!LO:MO:mod=!null:null
 !	!	!	!LO:HP:b=2
 (4C/N]	(4c/]	.	<
 4D/	4d/	.	.
@@ -1380,6 +1418,7 @@
 =114-	=114-	=114-	=114-
 [2E;\	[2e^;/	.	[
 =115-	=115-	=115-	=115-
+!	!	!	!LO:MO:mod=!null:null
 !	!	!	!LO:HP:b=2
 (8E\L]	(8e/L]	.	>
 8D\	8d/	.	.
@@ -1388,12 +1427,14 @@
 =116-	=116-	=116-	=116-
 [2E;\	[2e^;/	.	.
 =117-	=117-	=117-	=117-
+!	!	!	!LO:MO:mod=!null:null
 !	!	!	!LO:HP:b=2
 (8E\L]	(8e/L]	.	>
 8D\	8d/	.	.
 8C\	8c/	.	.
 8BB\J)	8B/J)	.	]
 =118-	=118-	=118-	=118-
+!	!	!	!LO:MO:mod=!null:null
 !	!	!	!LO:HP:b=2
 (8E\L	(>8e/L	.	>
 !	!LO:TX:b:i:t=accelerando.	!	!
@@ -1412,6 +1453,7 @@
 4AA#X/]	4A#X/]	.	.
 4FF# 4FFF#\	4d< 4A#X< 4F#< 4E</	.	pp
 =122	=122	=122	=122
+!	!LO:SIC:s=2d< 2B< 2F#< 2D</	!	!
 2FF# 2BBB;<\	2d< 2B< 2F#< 2D<;/	.	.
 ==	==	==	==
 *-	*-	*-	*-
@@ -1423,5 +1465,7 @@
 !!!END: 2022-07-23
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-08-17
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-27
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

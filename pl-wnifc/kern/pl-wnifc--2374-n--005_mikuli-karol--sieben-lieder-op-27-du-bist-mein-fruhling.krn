@@ -20,6 +20,9 @@
 !!!ONB-nifc:
 !!!AIN: 2 piano 1 soprn
 !!!key: E
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | tie -s  | modori -m | humtr -p
+!!!OMD:
+!!!OMD-mod: Mit Feuer [quarter] = 100
 **kern	**kern	**dynam	**kern	**text	**dynam
 *part3	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1	*
@@ -27,11 +30,13 @@
 *I'pf	*I'pf	*	*I'V	*	*
 *ICklav	*ICklav	*	*ICvox	*	*
 *Ipiano	*Ipiano	*	*Isoprn	*	*
+*IGacmp	*IGacmp	*	*IGsolo	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*	*
 *clefF4	*clefG2	*	*clefG2	*	*
 *k[f#c#g#d#]	*k[f#c#g#d#]	*	*k[f#c#g#d#]	*	*
 *E:	*E:	*	*E:	*	*
 *M3/4	*M3/4	*	*M3/4	*	*
-!	!	!	!LO:TX:a:B:t=Mit Feuer.	!	!
+!	!	!	!LO:TX:a:B:t=Mit Feuer.:mod=	!	!
 16Dn\LL 16Fn 16G# 16dn	16f#/LL 16gn	f	8.r	.	.
 16D\ 16F 16G# 16d	16f#/ 16a	.	.	.	.
 16D\JJ 16F 16G# 16d	16f#/JJ 16a#X	.	.	.	.
@@ -84,7 +89,7 @@
 *v	*v	*	*	*	*	*	*
 =6	=6	=6	=6	=6	=6	=6
 *ped	*	*	*	*	*	*
-(<2AA\ 2A	8.b#X/L	2e\]	.	8.dd#^\	muss	.
+(<<2AA\ 2A	8.b#X/L	2e\]	.	8.dd#^\	muss	.
 .	16cc#/Jk	.	.	16cc#\	zu	.
 .	4cc#/	.	.	4cc#\	dir,	.
 !	!	!	!	!	!	!LO:DY:a
@@ -97,7 +102,7 @@
 *ped	*	*	*	*	*
 4FF#/) 4F#	4f#/ [4a	f	4.aa^\	muss	f >
 *Xped	*	*	*	*	*
-(8FFF#/L 8FF#	(>8c#/L 8a]	.	.	.	.
+(8FFF#/L 8FF#	(>>8c#/L 8a]	.	.	.	.
 8GGG#/ 8GG#	8B/ 8e#X	.	8gg#\	es	.
 8AAA/ 8AA	8c#/ 8f#	.	8ff#\	selbst	.
 8AAA#X/J 8AA#X	8Gn/J 8en	.	8cc#\	dir	]]
@@ -110,8 +115,10 @@
 =9	=9	=9	=9	=9	=9
 !	!	!	!LO:TX:a:i:t=sehr sanf	!	!LO:DY:a
 *ped	*	*	*	*	*
+!	!	!LO:MO:null:mod=pp	!	!	!
 2.BBB\ 2.BB	8r	.	(4.dd#\	du_	p
 !	!	!LO:DY:a	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!
 .	(<8An</L	pp	.	.	.
 .	8B</	.	.	.	.
 .	8d#/	.	16ee\LL	.	.
@@ -131,6 +138,7 @@
 =11	=11	=11	=11	=11	=11
 *ped	*	*	*	*	*
 !LO:TX:a:t=P:problem:mixed beam	!LO:TX:a:i:t=cantabile	!	!	!	!LO:DY:a
+!	!	!	!	!	!LO:MO:null:mod=.
 (8BBB/L	(4.dd#\	.	4b\	Fruh-	p
 8F#\	.	.	.	.	.
 8A\	.	.	4b\	-ling,	.
@@ -141,6 +149,7 @@
 8f#\J)	8dd#\J	.	8a/	nur	.
 =12	=12	=12	=12	=12	=12
 *ped	*	*	*	*	*
+!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!
 (8EE/L	(4.ff#\	.	2g#/	mir	.
 8G#\	.	.	.	.	.
 8B\	.	.	.	.	.
@@ -163,24 +172,32 @@
 =14	=14	=14	=14	=14	=14	=14
 !LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!
 *ped	*	*	*	*	*	*
+!LO:SIC:s=(8CC#L	!	!	!	!	!	!
 8CC#/L	(4.dd#/	[2.e\	.	(4ff#\	lich-	.
 8E\	.	.	.	.	.	.
 8G#\	.	.	.	4ee\)	.	.
 *Xped	*	*	*	*	*	*
+!LO:SIC:s=8c#J)	!	!	!	!	!	!
 8c#\J	8cc#/L	.	.	.	.	.
 *ped	*	*	*	*	*	*
+!LO:SIC:s=(8AA#L	!	!	!	!	!	!
 8AA#X/L	8f#/	.	.	4cc#\	-ten	.
+!LO:SIC:s=8c#J)	!	!	!	!	!	!
 8c#\J	8f##X/J)	.	.	.	.	.
 *Xped	*	*	*	*	*	*
 =15	=15	=15	=15	=15	=15	=15
 *ped	*	*	*	*	*	*
+!LO:SIC:s=(8BBL	!	!	!	!	!	!
 8BB\L	(8g#/L	4e\]	.	2.b\	Ta-	.
 8G#\	8b/	.	.	.	.	.
 *Xped	*	*	*	*	*	*
 8B\	8ee/	4g#\	<	.	.	.
+!LO:SIC:s=8c##J)	!	!	!	!	!	!
 8c##X\J	8ee#X/J	.	.	.	.	.
 *ped	*	*	*	*	*	*
+!LO:SIC:s=(8BB\L 8d#	!	!	!	!	!	!
 8BB\L 8d#	8gg#/L	4an\	[ >	.	.	.
+!LO:SIC:s=8BJ)	!	!	!	!	!	!
 8B\J	8ff#X/J)	.	]]	.	.	.
 *Xped	*	*	*	*	*	*
 =16	=16	=16	=16	=16	=16	=16
@@ -191,7 +208,7 @@
 [8E\J	.	.	.	.	.	.	.
 8B/L	[2E\]	.	.	.	4r	.	.
 !	!	!	!	!LO:DY:a	!	!	!
-8e/	.	(>16aa/LL	.	p	.	.	.
+8e/	.	(>>16aa/LL	.	p	.	.	.
 .	.	16gg#/J	.	.	.	.	.
 *Xped	*	*	*	*	*	*	*
 8d#/	.	8ff#/	4b\	.	4r	.	.
@@ -231,6 +248,7 @@
 4GG#/	8B#X/ 8f# 8g#	.	4g#/	Ich	p
 .	8B#/J 8f# 8g#	.	.	.	.
 =20	=20	=20	=20	=20	=20
+!	!	!LO:MO:null:mod=.	!	!	!
 4CC#/	8c#/L 8e 8g#	p	4.g#/	will	.
 .	8c#/ 8e 8g#	.	.	.	.
 4C#/	8c#/ 8e 8g#	.	.	.	.
@@ -292,7 +310,7 @@
 .	8E</ 8c#	.	.	.	.
 .	.	.	32ee\LL	.	.
 .	.	.	32dd#\JJJ)	.	.
-[<4C#\	8E</ 8c#	.	4cc#\	-ten,	.
+[<<4C#\	8E</ 8c#	.	4cc#\	-ten,	.
 .	8E</J 8c#	.	.	.	.
 !	!	!	!	!	!LO:DY:a
 4C#\] 4c#	8c#/L 8e	.	4cc#\	ich	p
@@ -413,6 +431,7 @@
 *v	*v	*	*	*	*	*	*
 =40	=40	=40	=40	=40	=40	=40
 *ped	*	*	*	*	*	*
+!LO:SIC:s=(<<2AA 2A	!	!	!	!	!	!
 2AA\ 2A	(8.b#X/L	2e\	.	8.dd#\	will	.
 .	16cc#/Jk)	.	.	16cc#\	zu	.
 *Xped	*	*	*	*	*	*
@@ -422,11 +441,14 @@
 *	*v	*v	*	*	*	*
 =41	=41	=41	=41	=41	=41
 *ped	*	*	*	*	*
-4FF#/ 4F#	(>4f#/ [4a	.	4.aa\	will	.
+!LO:SIC:s=4FF#/ 4F#)	!	!	!	!	!
+4FF#/ 4F#	(>>4f#/ [4a	.	4.aa\	will	.
 *Xped	*	*	*	*	*
+!LO:SIC:s=(8FFF#/L 8FF#	!	!	!	!	!
 8FFF#/L 8FF#	8c#/L 8a]	.	.	.	.
 8GGG#/ 8GG#	8B/ 8e#X	.	8gg#\	es	.
 8AAA/ 8AA	8c#/ 8f#	.	8ff#\	selbst	.
+!LO:SIC:s=8AAA#X/J 8AA#X)	!	!	!	!	!
 8AAA#X/J 8AA#X	8Gn/J 8en	.	8cc#\	dir	.
 =42	=42	=42	=42	=42	=42
 *	*^	*	*	*	*
@@ -457,7 +479,8 @@
 !!LO:LB:g=original	!	!	!	!	!
 =45	=45	=45	=45	=45	=45
 *ped	*	*	*	*	*
-!	!LO:TX:b:i:t=mit Ausdruck	!	!	!	!
+!LO:TX:a:t=P:problem:mixed beam	!LO:TX:b:i:t=mit Ausdruck	!	!	!	!
+!LO:SIC:s=(8BBL	!	!	!	!	!
 (>8BB/L	(4.dd#\	.	4b\	Früh-	.
 8F#\	.	.	.	.	.
 8A\	.	.	4b\	-ling,	.
@@ -496,18 +519,24 @@
 *Xped	*	*	*	*	*	*
 8c#\J)	8cc#/L	.	.	.	.	.
 *ped	*	*	*	*	*	*
+!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!	!
+!LO:SIC:s=(>8AA#XL	!	!	!	!	!	!
 (>8AA#X/L	8f#/	.	.	4cc#\	-ten	.
 8c#\J)	8f##X/J)	.	.	.	.	.
 *Xped	*	*	*	*	*	*
 =49	=49	=49	=49	=49	=49	=49
 *ped	*	*	*	*	*	*
+!LO:SIC:s=(8BBL	!	!	!	!	!	!
 8BB\L	(8g#/L	4e\]	.	2.b\	Ta-	.
 8G#\	8b/	.	.	.	.	.
 8B\	8ee/	4g#\	.	.	.	.
 *Xped	*	*	*	*	*	*
+!LO:SIC:s=8c##J)	!	!	!	!	!	!
 8c##X\J	8ee#X/J	.	.	.	.	.
 *ped	*	*	*	*	*	*
+!LO:SIC:s=(8BB\L 8d#	!	!	!	!	!	!
 8BB\L 8d#	8gg#/L	4an\	.	.	.	.
+!LO:SIC:s=8BJ)	!	!	!	!	!	!
 8B\J	8ff#X/J)	.	.	.	.	.
 *Xped	*	*	*	*	*	*
 =50	=50	=50	=50	=50	=50	=50
@@ -517,7 +546,7 @@
 (8EE/L	4ryy	4.g#\ 4.een	2ryy	.	4e/	-gen.	.
 [8E\J	.	.	.	.	.	.	.
 8B/L	[2E\]	.	.	.	4r	.	.
-8e/	.	(>16aa/LL	.	.	.	.	.
+8e/	.	(>>16aa/LL	.	.	.	.	.
 .	.	16gg#/J	.	.	.	.	.
 *Xped	*	*	*	*	*	*	*
 8d#/	.	8ff#/	4b\	.	4r	.	.
@@ -579,7 +608,7 @@
 4CC#X\ 4C#X	4E</ 4G#< 4c#X 4e	pp	.	.	.
 4BBB\ 4BB	4F#</ 4B< 4d# 4f#	.	.	.	.
 =57	=57	=57	=57	=57	=57
-2.EEE;<\ 2.EE	2.G#<;/ 2.B< 2.e 2.g#	.	2.r;	.	.
+2.EEE;<<\ 2.EE	2.G#<;/ 2.B< 2.e 2.g#	.	2.r;	.	.
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: s1{(s2,s3)}
@@ -589,5 +618,7 @@
 !!!END: 2022-07-23
 !!!ENC: Jan Barakat
 !!!END: 2022-08-18
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-27
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

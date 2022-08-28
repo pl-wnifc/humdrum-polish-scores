@@ -19,6 +19,9 @@
 !!!ONB-nifc:
 !!!AIN: 2 piano 1 soprn 1 tenor
 !!!key: A-
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
+!!!OMD:
+!!!OMD-mod: Andantino. [quarter]. = 60
 **kern	**kern	**fing	**dynam	**kern	**text	**dynam	**kern	**text	**dynam
 *part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
 *staff4	*staff3	*	*	*staff2	*staff2	*	*staff1	*staff1	*
@@ -26,12 +29,14 @@
 *I'pf	*I'pf	*	*	*I'T	*	*	*I'S	*	*
 *ICklav	*ICklav	*	*	*ICvox	*	*	*ICvox	*	*
 *Ipiano	*Ipiano	*	*	*Itenor	*	*	*Isoprn	*	*
+*IGacmp	*IGacmp	*	*	*IGsolo	*	*	*IGsolo	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*	*mI"Tenore	*	*	*mI"Soprano	*	*
 *clefG2	*clefG2	*	*	*clefGv2	*	*	*clefG2	*	*
 *k[b-e-a-d-]	*k[b-e-a-d-]	*	*	*k[b-e-a-d-]	*	*	*k[b-e-a-d-]	*	*
 *A-:	*A-:	*	*	*A-:	*	*	*A-:	*	*
 *M6/8	*M6/8	*	*	*M6/8	*	*	*M6/8	*	*
 !	!LO:TX:b:i:t=legato	!	!	!	!	!	!	!	!
-!	!LO:TX:B:a:t=Andantino. [quarter]. = 60	!	!	!	!	!	!LO:TX:B:a:t=Andantino.	!	!
+!	!LO:TX:B:a:t=Andantino. [quarter]. = 60:mod=	!	!	!	!	!	!LO:TX:B:a:t=Andantino.:mod=	!	!
 (4.a-/	([4.ee-\ 4.aa- 4.ccc	.	p	4r	.	.	4r	.	.
 .	.	.	.	8r	.	.	8r	.	.
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1
@@ -96,8 +101,9 @@
 .	8d-/	.	.	.	.	.	.	.	.
 .	8e-/J)	.	.	8B-\	auf	.	8g/	auf	.
 =13	=13	=13	=13	=13	=13	=13	=13	=13	=13
-!	!	!	!	!	!	!LO:DY:a	!	!	!LO:DY:a
+!	!	!	!LO:MO:null:mod=<	!	!	!LO:DY:a	!	!	!LO:DY:a
 4.AA-/	(8e-/L	.	.	8c\L	uns'-	<	4a-/	uns'-	<
+!	!	!	!LO:MO:null:mod=.	!	!	!	!	!	!
 .	8A-/	.	<	8Bn\J	.	.	.	.	.
 .	8en/J	.	.	8c\	-rer	.	8a-/	-rer	.
 4.D-\	8f/L	.	.	4d-\	grü-	.	4a-/	grü-	.
@@ -168,6 +174,7 @@
 .	8f/	.	.	8f\J	.	.	8an/J	.	.
 8r	8An/J)	.	.	8e-\	es	.	8cc\	es	.
 =22	=22	=22	=22	=22	=22	=22	=22	=22	=22
+!	!	!	!	!	!	!	!	!LO:MO:mod=spricht!	!
 2.BB-/	(8B-/L	.	.	4.d-\	spricht!	.	4.b-\	spricht	.
 .	8d-/	.	.	.	.	.	.	.	.
 .	8f/J	.	.	.	.	.	.	.	.
@@ -180,9 +187,9 @@
 8r	8dd-X\J	.	.	8Gn/	-mer	.	8b-\	-mer	.
 4AA-/	8cc\L	.	.	8A-/L	nur	.	8cc\L	nur	.
 .	8b-\	.	.	8B-/J	.	.	8dd-\J	.	.
-8r	8a-\J)	.	]]	8c\	das	.	8ee-\	das-	.
+8r	8a-\J)	.	]]	8c\	das-	.	8ee-\	das-	.
 =24	=24	=24	=24	=24	=24	=24	=24	=24	=24
-4.E-\	8r	.	.	(4c\	sel-	.	(4f/	-sel-	.
+4.E-\	8r	.	.	(4c\	-sel-	.	(4f/	-sel-	.
 .	(8e-/L	.	.	.	.	.	.	.	.
 .	8d-/J	.	.	8B-\)	.	.	8g/)	.	.
 4AA-/	8c/L	.	.	8A-/	-be,	.	8a-/	-be,	.
@@ -217,38 +224,44 @@
 *v	*v	*	*	*	*	*	*	*	*	*	*
 *	*v	*v	*	*	*	*	*	*	*	*
 =29	=29	=29	=29	=29	=29	=29	=29	=29	=29
+!	!	!	!	!	!	!	!	!LO:MO:mod=-giss-	!
 2.r	2.r	.	.	4.G/	-giss-	.	4.dd-\	-gis-	.
-.	.	.	.	4.d-X\	-mein-	.	4.g/	-smein-	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=-mein-	!
+.	.	.	.	4.d-X\	-mein-	.	4.g/	-smein	.
 =30	=30	=30	=30	=30	=30	=30	=30	=30	=30
 2.r;	2.r;	.	.	4c\	-nicht!	.	4a-/	-nicht!	.
 .	.	.	.	8r;	.	.	8r;	.	.
 .	.	.	.	4.d-\	Ver-	.	4.ff\	Ver	.
 =31	=31	=31	=31	=31	=31	=31	=31	=31	=31
+!	!	!	!	!	!	!	!	!LO:MO:mod=-giss-	!
 2.r	2.r	.	.	4.c\	-giss-	.	4.gg-X\	gis-	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=-mein-	!
 .	.	.	.	4.e-\	-mein-	.	4.an/	-smein	.
 =32	=32	=32	=32	=32	=32	=32	=32	=32	=32
-2.r	2.r	.	.	4.d-\	-nicht!	.	4.b-\	nicht!	.
+2.r	2.r	.	.	4.d-\	-nicht!	.	4.b-\	-nicht!	.
 .	.	.	.	8r;	.	.	8r;	.	.
 .	.	.	.	16r	.	.	16r	.	.
 .	.	.	.	16f-X\	Ver-	.	16b-\	Ver-	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=-giss-	!
 .	.	.	.	16e-\	-giss-	.	16cc\	-gis-	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=-mein-	!
 .	.	.	.	16d-\	-mein-	.	16dd-\	-smein	.
 =33	=33	=33	=33	=33	=33	=33	=33	=33	=33
-2.r	2.r	.	.	4.c\	-nicht,	.	4.ee-\	nicht,	.
+2.r	2.r	.	.	4.c\	-nicht,	.	4.ee-\	-nicht,	.
 .	.	.	.	[4.f\	Ver-	.	4.a-/	Ver-	.
 =34	=34	=34	=34	=34	=34	=34	=34	=34	=34
 !	!	!	!	!	!	!LO:DY:a	!	!	!
 2.r	2.r	.	.	(4f\]	.	>	(4.dd-\	-giss-	.
 .	.	.	.	8f-X\)	.	.	.	.	.
 .	.	.	.	4e-\	-giss-	.	4cc\)	.	.
-.	.	.	.	8d-\	-mein-	]]	8b-\	-mein	.
+.	.	.	.	8d-\	-mein-	]]	8b-\	-mein-	.
 !!LO:LB:g=original	!	!	!	!	!	!	!	!
 =35	=35	=35	=35	=35	=35	=35	=35	=35	=35
 *	*^	*	*	*	*	*	*	*	*
 *ped	*	*	*	*	*	*	*	*	*	*
-16AA-/	16r	4ryy	.	.	4.c\	-nicht!	.	4.a-/	nicht!	.
+16AA-/	16r	4ryy	.	.	4.c\	-nicht!	.	4.a-/	-nicht!	.
 !	!LO:TX:t=P:problem:łuk w formie "fali"	!	!	!	!	!	!	!	!	!
-16r	N(>16ee-/LL	.	.	.	.	.	.	.	.	.
+16r	N(>>16ee-/LL	.	.	.	.	.	.	.	.	.
 16r	16e-/JJ	.	.	.	.	.	.	.	.	.
 16c\LL	16r	.	.	.	.	.	.	.	.	.
 16A-\	8r	8c\ 8e-	.	.	.	.	.	.	.	.
@@ -310,7 +323,7 @@
 16E-\JJN)	.	.	.	.	.	.	.	.	.	.
 16AA-/	16r	4ryy	.	.	4r	.	.	4r	.	.
 !	!LO:TX:t=P:problem:łuk w formie "fali"	!	!	!	!	!	!	!	!	!
-16r	N(>16ee-/LL	.	.	.	.	.	.	.	.	.
+16r	N(>>16ee-/LL	.	.	.	.	.	.	.	.	.
 16r	16e-/JJ	.	.	.	.	.	.	.	.	.
 16e-\LL	16r	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!LO:DY:a	!	!	!LO:DY:a
@@ -442,10 +455,12 @@
 16E-\JJ	.	.	.	.	.	.	.	.	.
 *Xped	*	*	*	*	*	*	*	*	*
 16C/LL	16r	.	.	4c\]	.	.	4a-/]	.	.
+!	!LO:SIC:s=([16ee-/KL	!	!	!	!	!	!	!	!
 16F/	[16ee-/KL	.	.	.	.	.	.	.	.
 16E-/	8.e-/ 8.ee-]	.	.	.	.	.	.	.	.
 16C/	.	.	.	.	.	.	.	.	.
 16AA-/	.	.	.	8B-\	Da	.	8cc\	Da	.
+!	!LO:SIC:s=16en/Jk 16een)	!	!	!	!	!	!	!	!
 16GG-X/JJ)	16en/Jk 16een	.	.	.	.	.	.	.	.
 !!LO:LB:g=original	!	!	!	!	!	!	!	!
 =47	=47	=47	=47	=47	=47	=47	=47	=47	=47
@@ -638,6 +653,8 @@
 2.r	2.r	.	.	4.c\	-nicht,	.	4.ee-\	-nicht,	.
 .	.	.	.	[4.fn\	Ver-	.	4.a-/	Ver-	.
 =62	=62	=62	=62	=62	=62	=62	=62	=62	=62
+!	!	!	!	!	!	!	!	!	!LO:HP:ed=brack
+!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=>
 2.r	2.r	.	.	(4f\]	.	>	(4.dd-\	-giss-	.
 .	.	.	.	8f-X\)	.	.	.	.	.
 .	.	.	.	4e-\	-giss-	.	4cc\)	.	.
@@ -645,10 +662,11 @@
 =63	=63	=63	=63	=63	=63	=63	=63	=63	=63
 *	*^	*	*	*	*	*	*	*	*
 *ped	*	*	*	*	*	*	*	*	*	*
+!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=]
 16AA-/	16r	4ryy	.	p	4.c\	-nicht!	]	4.a-/	-nicht!	.
 !	!LO:TX:a:i:t=erstes Zeitmass.	!	!	!	!	!	!	!	!	!
 !	!LO:TX:t=P:problem:łuk w formie "fali"	!	!	!	!	!	!	!	!	!
-16r	N(>16ee-/LL	.	.	.	.	.	.	.	.	.
+16r	N(>>16ee-/LL	.	.	.	.	.	.	.	.	.
 16r	16e-/JJ	.	.	.	.	.	.	.	.	.
 16c\LL	16r	.	.	.	.	.	.	.	.	.
 16A-\	8r	8c\ 8e-	.	.	.	.	.	.	.	.
@@ -745,5 +763,7 @@
 !!!END: 2022-07-23
 !!!ENC: Natalia Wrzos
 !!!END: 2022-08-17
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-27
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

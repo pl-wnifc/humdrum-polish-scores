@@ -22,13 +22,17 @@
 !!!AIN: 1 piano
 !!!key: d
 !!!OMD: Poco moderato
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|rj)/LO:dy:$1/L" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | modori -m
 **kern	**kern	**dynam
 *part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano	*I"Piano	*
+*I'	*I'	*
 *Ipiano	*Ipiano	*
 *ICklav	*ICklav	*
 *IGsolo	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
 *clefF4	*clefG2	*
 *k[b-]	*k[b-]	*
 *d:	*d:	*
@@ -43,6 +47,7 @@
 4A>\	.	(4A/	.	.
 4G/	.	4B-/	.	.
 !	!	!	!	!LO:HP:a
+!	!	!	!	!LO:MO:null:mod=.
 4E/	.	4c#X/	<	<
 =3	=3	=3	=3	=3
 4F/	1DD_	4d/	.	.
@@ -81,6 +86,7 @@
 2.DD\	([2A/)	(<4G\]	.	.
 .	.	8F</L	<	.
 !	!	!	!	!LO:HP:b=2:t=cres
+!	!	!	!	!LO:MO:null:mod=.
 .	.	8E</J)	.	<
 .	4A/]	[2F</	.	.
 4GG\	4Bn/	.	[	.
@@ -95,6 +101,7 @@
 .	4g/)	4B-</	.
 =10	=10	=10	=10
 [2FF\	(>[2c/	&((<4B-</&)	.
+!	!	!	!LO:MO:mod=!null:null
 !	!	!	!LO:HP:b=2:t=cres
 .	.	8A</L	<
 .	.	8G</J)	.
@@ -109,8 +116,10 @@
 .	4bn/)	4d</	.
 =12	=12	=12	=12
 1AA	4e,/)	4c#X</&)	.
+!	!	!	!LO:MO:mod=!null:null
 !	!	!	!LO:HP:b=2
 .	(>4a/	&(4A</	<
+!LO:MO:mod=!LO&colon;TX&colon;t=marcato il thema	!	!	!
 !LO:TX:b:t=marcato	!	!	!
 .	4g/	4B-</	.
 .	8f/L	4c#X</	.
@@ -119,13 +128,15 @@
 =13	=13	=13	=13
 4D\	4f/	4d</	.
 4C\	4a/	4e</	.
-!	!LO:TX:b:t=il tema	!	!
+!	!LO:TX:b:t=il tema:mod=	!	!
 2BB-\	2dd\	4f</	.
 .	.	4g</&)	.
 =14	=14	=14	=14
 2FF/	2cc/	4a\	.
 !	!	!	!LO:DY:rj
+!	!	!	!LO:MO:null:mod=.
 .	.	4A,\)	f
+!	!	!	!LO:MO:null:mod=f
 4F\	(4cc/	(4a\	.
 4E\	4cc#X/	4g\	.
 =15	=15	=15	=15
@@ -158,6 +169,8 @@
 [>2C\	8f/L]	1c<	.	.
 .	8e/	.	.	.
 .	8d/	.	.	.
+!	!	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;b=2
+!	!	!	!	!
 .	8f/J	.	.	>
 (>8C\L]	4e/)	.	<	.
 8C\	.	.	.	.
@@ -214,6 +227,7 @@
 8GG\	.	.	.
 !	!	!LO:TX:b:t=largo	!
 8FF\	.	.	.
+!	!	!	!LO:MO:null:mod=.
 8GG\J	.	.	f
 !	!	!	!LO:DY:a:rj
 4AA\	2c#X/	2E</	f
@@ -251,7 +265,7 @@
 4C\	4e/	4G</	>
 4FF\	8f/L	4A</	.
 .	8c/J)	.	]
-2AA\	(>2c#X/	&(4F</	.
+2AA\	(>2c#X/	(4F</	.
 !	!	!	!LO:HP:t=poco cres.
 .	.	4E</	<
 =32	=32	=32	=32
@@ -269,7 +283,8 @@
 2EE-X\	(2G/	4E-X</	.
 .	.	4D</	.
 =34	=34	=34	=34
-1AAA	4A/)	4C#X</&)	.
+1AAA	4A/)	4C#X</)	.
+!	!	!	!LO:MO:mod=!null:null
 !	!	!	!LO:HP:b=2
 .	(>4A/	(4G</	<
 .	4Bn/	4F</	.
@@ -282,6 +297,7 @@
 .	8f/J	.	.
 =36	=36	=36	=36
 1DD	4d/)	4F</	.
+!	!	!	!LO:MO:mod=!LO&colon;HP&colon;t=più
 !	!	!	!LO:HP:t=piu cres.
 .	(>4d/	(<4F#X</	<
 .	4e/	4G</	.
@@ -289,10 +305,14 @@
 !!LO:LB:g=original
 =37	=37	=37	=37
 *	*	*	*^
+!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!LO:HP:t=poco cres	!LO:HP:a
+!	!	!	!	!LO:MO:null:mod=.
 2D\	4g/)	4B-</	<	<
 .	4a/	4c</	.	.
+!	!	!	!LO:MO:mod=!null:null	!
 !	!	!	!LO:DY:b=2:rj	!
+!	!	!	!LO:MO:mod=[ ff	!
 2DD\	4b-/	4d</	ff	.
 .	8a/L	4c</	.	.
 .	8b-/J	.	.	[
@@ -355,6 +375,7 @@
 8F/	.	(>4A/	.
 8D/J	.	.	.
 =46	=46	=46	=46
+!	!	!	!LO:MO:mod=!null:null
 !	!	!	!LO:HP:a
 8G/L	1DD_	4B-/	<
 8F/	.	.	.
@@ -376,7 +397,9 @@
 *v	*v	*	*
 =48	=48	=48
 *	*^	*
+!	!	!	!LO:MO:null:mod=p
 [1DD	(4dd/	8f#X\L	.
+!	!	!	!LO:MO:null:mod=.
 .	.	8d\	p
 .	4cc/	8e\	.
 .	.	8f#\J	.
@@ -395,7 +418,7 @@
 .	4b-/)	8e\L]	.
 .	.	8d\J	.
 =50	=50	=50	=50
-!	!	!LO:TX:b:t=dimi-nu-endo:problem=dynamics with extention lines	!LO:HP:t=dimi-nu-endo
+!	!	!LO:TX:b:t=dimi-nu-endo:problem=dynamics with extention lines:mod=	!LO:HP:t=dimi-nu-endo
 1DD_	(4a/	8c#X\L	>
 .	.	8A\	.
 .	8g/L	8Bn\	.
@@ -416,7 +439,7 @@
 =52	=52	=52	=52
 4DD\]	4d/	8F</L	.
 .	.	8E</J	.
-!	!LO:TX:a:i:t=poco rallen-tando	!	!
+!	!LO:TX:a:i:t=poco rallen-tando:mod=poco rallentando	!	!
 2AA\	(>4A/	4F</	pp
 .	4B-/	8G</L	.
 .	.	8F</	.
@@ -448,10 +471,13 @@
 4C#X\	4A/	8E</	.
 .	.	8F</J	.
 =56	=56	=56	=56
+!	!LO:MO:mod=!null:null	!LO:MO:mod=!null:null	!
 !	!LO:N:vis=2	!LO:N:vis=8	!
-(4D\	2.r	4r<	.
+!	!LO:MO:mod=1rdd	!	!
+(4D\	2.r	4r<<	.
 4F\	.	(4A</	.
 4G\	.	4B-</	.
+!	!LO:MO:null:mod=.	!	!
 4G 4E\	4r	4c#X</	.
 !!LO:LB:g=original
 =57	=57	=57	=57
@@ -460,6 +486,7 @@
 4BB-\	.	4G</	.
 4GG\	4e/	4B-</	[[
 =58	=58	=58	=58
+!LO:MO:null:mod=*ped	!LO:MO:null:mod=.	!	!
 *	*ped	*	*
 1DD	[>1f#X)	[1A</&)	.
 =59	=59	=59	=59
@@ -467,7 +494,10 @@
 =60	=60	=60	=60
 *8ba	*	*	*
 1DDD	1r	1r<	.
+!	!	!LO:MO:null:mod=.	!
 *X8ba	*	*Xped	*
+!LO:MO:null:mod=*Xped	!	!	!
+*	*	*	*
 *	*v	*v	*
 ==	==	==
 *-	*-	*-
@@ -478,5 +508,7 @@
 !!!END: 2021-11-17
 !!!ENC: Marta Lawrence
 !!!END: 2021-12-29
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-28
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -20,6 +20,7 @@
 !!!ONB-nifc:
 !!!AIN: 2 piano 1 tenor
 !!!key: e
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | tie -s  | modori -m | humtr -p
 **kern	**kern	**dynam	**kern	**text	**dynam
 *part3	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1	*
@@ -27,13 +28,17 @@
 *I'pf	*I'pf	*	*I'V	*	*
 *ICklav	*ICklav	*	*ICvox	*	*
 *Ipiano	*Ipiano	*	*Itenor	*	*
+*IGacmp	*IGacmp	*	*IGsolo	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*	*
 *clefF4	*clefG2	*	*clefG2	*	*
 *k[f#]	*k[f#]	*	*k[f#]	*	*
 *e:	*e:	*	*e:	*	*
 *M6/8	*M6/8	*	*M6/8	*	*
 =1	=1	=1	=1	=1	=1
+!!!OMD:
+!!!OMD-mod: Sehr bewegt. [quarter]. = 100.
 *^	*	*	*	*	*
-!	!	!	!	!LO:TX:a:B:t=Sehr bewegt. [quarter]. = 100.	!	!
+!	!	!	!	!LO:TX:a:B:t=Sehr bewegt. [quarter]. = 100.:mod=	!	!
 (8G/L	4EE\	8B/L 8e 8b	f	2.r	.	.
 8D#X/	.	8c/ 8f# 8a	.	.	.	.
 8E/J	8ryy	8B/J 8g	.	.	.	.
@@ -42,7 +47,7 @@
 8C/J)	.	8G/J 8e	.	.	.	.
 *v	*v	*	*	*	*	*
 =2	=2	=2	=2	=2	=2
-(<8C\L	8G/L 8c 8e	.	2.r	.	.
+(<<8C\L	8G/L 8c 8e	.	2.r	.	.
 8GG#X\	8Fn</ 8B 8dn	.	.	.	.
 8AA\J	8E</J 8c	.	.	.	.
 8AA\L	8E</L 8A< 8c<	.	.	.	.
@@ -51,26 +56,31 @@
 =3	=3	=3	=3	=3	=3
 *	*^	*	*	*	*
 *ped	*	*	*	*	*	*
+!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!
 [<2.BB\	4.B^/	8B\L	.	2.r	.	.
 .	.	8E</ 8F#<	.	.	.	.
 .	.	8E</J 8F#<	.	.	.	.
+!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!
 .	4e^/	8e\L	.	.	.	.
 .	.	8F#</ 8B<	.	.	.	.
 .	8f#^/	8f#\J	.	.	.	.
 *Xped	*	*	*	*	*	*
 =4	=4	=4	=4	=4	=4	=4
 *ped	*	*	*	*	*	*
+!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!
 2.BBB\ 2.BB_<	4.b/	8b\L	.	2.r	.	.
 .	.	8A</ 8B< 8e<	.	.	.	.
 *Xped	*	*	*	*	*	*
 .	.	8A</J 8B< 8e<	.	.	.	.
 *ped	*	*	*	*	*	*
+!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!
 .	4.d#/	8d#X\L	.	.	.	.
 .	.	8A</ 8B<	.	.	.	.
 .	.	8A</J 8B<	.	.	.	.
 *Xped	*	*	*	*	*	*
 !!LO:LB:g=original	!	!	!	!	!	!
 =5	=5	=5	=5	=5	=5	=5
+!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!
 !	!	!LO:N:vis=2	!	!	!	!
 2.EE\ 2.BB]	2.e/	8e\L	.	2.r	.	.
 .	.	8G</ 8B<	.	.	.	.
@@ -84,7 +94,7 @@
 4EE\ 4E	8r	.	4r	.	.
 .	8G</L 8B<	.	.	.	.
 8r	8G</J 8B<	.	8r	.	.
-!	!LO:TX:a:B:t=a tempo	!	!	!	!
+!	!LO:TX:i:t=a tempo	!	!	!	!
 4r	8G</L 8B<	.	4r	.	.
 .	8G</ 8B<	.	.	.	.
 !	!	!	!	!	!LO:DY:a
@@ -94,7 +104,7 @@
 .	8G</L 8B< 8e	.	8a/	mei-	.
 .	8G</J 8B< 8e	.	8g/	-ne	.
 8EE\]	8G</L 8B< 8e	.	8g/	Schmer-	.
-(<4AA\	8F#</ 8c< 8e	.	8a/	-zen	.
+(<<4AA\	8F#</ 8c< 8e	.	8a/	-zen	.
 .	8F#</J 8c< 8e	.	8f#/	er-	.
 =8	=8	=8	=8	=8	=8
 4.E\	8r	.	4.e/	-gö-	.
@@ -161,9 +171,9 @@
 .	8B\	8c##X/ 8e#X 8a#X	<	8a#X/	-gen	.
 .	8B\J	8d#/J 8f# 8b	.	8b\	zu	.
 .	8B\L	4en/ 4g 4ccn	.	4cc\	dir,	.
-.	8B\	.	.	.	.	.
+.	8B\	.	.	.	.	[[
 !	!	!	!	!	!	!LO:DY:a
-.	8B\J	8g\ 8cc 8ee	[[	8ee\	Ge-	f [[
+.	8B\J	8g\ 8cc 8ee	[[	8ee\	Ge-	f
 =16	=16	=16	=16	=16	=16	=16
 !	!LO:N:vis=2	!	!	!	!	!LO:DY:a
 2.BB/	8BB\L	4.g\ 4.cc 4.ee	>	4.ee\	-lieb-	>
@@ -219,11 +229,11 @@
 !	!	!	!	!	!LO:DY:a
 8BB\	8f#/J 8dd#X	[[	8b\	Und	mf
 =23	=23	=23	=23	=23	=23
-[4.EE\ [<4.E	8g\ 8ee	fz	8b\	hast	.
+[4.EE\ [<<4.E	8g\ 8ee	fz	8b\	hast	.
 .	8G</L 8B< 8e	.	8a/	du	.
 .	8G</J 8B< 8e	.	8g/	zum	.
 8EE\] 8E]	8G</L 8B< 8e	.	8g/	nächt-	.
-(<4AA\	8F#</ 8c< 8e	.	8a/	-li-	.
+(<<4AA\	8F#</ 8c< 8e	.	8a/	-li-	.
 .	8F#</J 8c< 8e	.	8f#/	-chen	.
 =24	=24	=24	=24	=24	=24
 !LO:TX:b:i:t=legato	!	!	!	!	!
@@ -288,22 +298,22 @@
 4.CC\ 4.C	4.E<^>/ 4.G< 4.e	.	2.r	.	.
 4.BBB\ 4.BB	4.E<^>/ 4.G#X< 4.e	.	.	.	.
 =33	=33	=33	=33	=33	=33
-2.AAA#X;<\ 2.AA#X	2.E<^>;/ 2.Gn< 2.e	.	2.r;	.	.
+2.AAA#X;<<\ 2.AA#X	2.E<^>;/ 2.Gn< 2.e	.	2.r;	.	.
 =34	=34	=34	=34	=34	=34
-[4.BBB\ [<4.BB	[>4.E</ [>4.F#< 4.e	f	2.r	.	.
+[4.BBB\ [<<4.BB	[>>4.E</ [>>4.F#< 4.e	f	2.r	.	.
 8BBB\L] 8BB]	8E</L] 8F#<] 8e	.	.	.	.
 8BBB\ 8BB	8F#</ 8An< 8e	.	.	.	.
 8BBB\J 8BB	8F#</J 8A< 8B<	.	.	.	.
 =35	=35	=35	=35	=35	=35
 4.EE\ 4.BB	4.G</ 4.B< 4.e	.	2.r	.	.
-[4.EEE\ [>4.EE	[4.E</	.	.	.	.
+[4.EEE\ [>>4.EE	[4.E</	.	.	.	.
 =36	=36	=36	=36	=36	=36
 4.EEE\] 4.EE]	4.E</]	.	2.r	.	.
 .	8qD#X</	.	.	.	.
 4.AAA\ 4.EE	4.AA</ 4.C< 4.E<	.	.	.	.
 =37	=37	=37	=37	=37	=37
 .	8qD#X</	.	.	.	.
-2.EEE;<\ 2.EE	2.GG<;/ 2.BB< 2.E<	.	2.r;	.	.
+2.EEE;<<\ 2.EE	2.GG<;/ 2.BB< 2.E<	.	2.r;	.	.
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: s1{(s2,s3)}
@@ -313,5 +323,7 @@
 !!!END: 2022-07-23
 !!!ENC: Natalia Wrzos
 !!!END: 2022-08-17
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-27
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
