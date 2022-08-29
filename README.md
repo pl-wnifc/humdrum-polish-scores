@@ -29,7 +29,7 @@ People
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
 | Jan Barakat |  |  | 211 |  | 8 |
 | Lidia Bialucha |  |  |  |  | 3 |
-| Andrzej Borzym | 373 | 606569 | 428 | 133 |  |
+| Andrzej Borzym | 373 | 606569 | 428 | 134 |  |
 | Elżbieta Cabała |  |  |  |  | 8 |
 | Marta Chmielewska | 153 | 191995 | 461 |  |  |
 | Tomasz Grochalski | 562 | 831052 |  |  |  |
@@ -49,21 +49,21 @@ People
 | Mateusz Mrugas | 1 | 2963 | 237 |  | 4 |
 | Jędrzej Mróz | 21 | 3957 | 241 |  |  |
 | Zofia Niedbalska | 1 | 425 | 74 |  |  |
-| Mrta Opryszak |  |  |  |  | 1 |
 | Marta Opryszak | 165 | 247879 | 1 |  | 38 |
+| Mrta Opryszak |  |  |  |  | 1 |
 | Julita Ruszuk | 1 | 182 | 106 |  |  |
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
 | Katarzyna Serwa | 312 | 535966 | 249 | 42 |  |
 | Mateusz Solarz | 596 | 888336 | 10 |  |  |
 | Krzysztof Stępień | 476 | 692241 | 122 | 4 |  |
 | Antoni Szymański |  |  | 543 |  | 5 |
-| Konrad Tyszka |  |  |  |  | 12 |
+| Konrad Tyszka |  |  |  |  | 14 |
 | Filip Voros | 370 | 475189 | 1 |  |  |
 | Kamil Watkowski | 403 | 544716 | 122 |  |  |
 | Natalia Wrzos |  |  | 206 |  | 5 |
 | Emilia Ziętek | 12 | 2142 | 1 |  | 11 |
 | Urszula Świątek | 3 | 3016 | 201 |  |  |
-| TOTALS | 7004 | 10320113 | 6375 | 502 | 246 |
+| TOTALS | 7004 | 10320113 | 6375 | 503 | 248 |
 
 </details>
 
