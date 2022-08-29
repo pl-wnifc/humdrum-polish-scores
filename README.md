@@ -1,5 +1,8 @@
-Humdrum Polish Scores
-======================================
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+Digital scores from the Polish Heritage in Open Access project
+==============================================================
 
 This repository contains transcriptions from the _Heritage of Polish
 Music in Open Access_ project at the [Chopin Institute](https://nifc.pl/en) in the
@@ -46,8 +49,8 @@ People
 | Mateusz Mrugas | 1 | 2963 | 237 |  | 4 |
 | Jędrzej Mróz | 21 | 3957 | 241 |  |  |
 | Zofia Niedbalska | 1 | 425 | 74 |  |  |
-| Marta Opryszak | 165 | 247879 | 1 |  | 38 |
 | Mrta Opryszak |  |  |  |  | 1 |
+| Marta Opryszak | 165 | 247879 | 1 |  | 38 |
 | Julita Ruszuk | 1 | 182 | 106 |  |  |
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
 | Katarzyna Serwa | 312 | 535966 | 249 | 42 |  |
