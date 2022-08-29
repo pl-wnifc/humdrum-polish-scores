@@ -27,7 +27,7 @@ People
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
-| Jan Barakat |  |  | 211 |  | 8 |
+| Jan Barakat |  |  | 211 |  | 13 |
 | Lidia Bialucha |  |  |  |  | 3 |
 | Andrzej Borzym | 373 | 606569 | 428 | 134 |  |
 | Elżbieta Cabała |  |  |  |  | 8 |
@@ -57,13 +57,13 @@ People
 | Mateusz Solarz | 596 | 888336 | 10 |  |  |
 | Krzysztof Stępień | 476 | 692241 | 122 | 4 |  |
 | Antoni Szymański |  |  | 543 |  | 5 |
-| Konrad Tyszka |  |  |  |  | 14 |
+| Konrad Tyszka |  |  |  |  | 16 |
 | Filip Voros | 375 | 479164 | 1 |  |  |
 | Kamil Watkowski | 403 | 544716 | 122 |  |  |
-| Natalia Wrzos |  |  | 213 |  | 5 |
+| Natalia Wrzos |  |  | 213 |  | 9 |
 | Emilia Ziętek | 12 | 2142 | 1 |  | 11 |
 | Urszula Świątek | 3 | 3016 | 201 |  |  |
-| TOTALS | 7011 | 10325192 | 6382 | 505 | 248 |
+| TOTALS | 7011 | 10325192 | 6382 | 505 | 259 |
 
 </details>
 
@@ -1215,6 +1215,7 @@ Here is a list of reference records used in the Humdrum scores and their meaning
 | `END` | Encoding date |
 | `END-iiif` | Date that IIIF bounding boxes were added |
 | `END-modern` | Date that moderization filter added |
+| `ENF-iiif` | UNKNOWN |
 | `GTL` | Title of multiple works forming a group |
 | `IIIF` | IIIF manifest for source scan |
 | `NIFC-islandoraID` | NIFC Islandora ID |
