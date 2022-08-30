@@ -27,18 +27,20 @@ People
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
-| Jan Barakat |  |  | 211 |  | 13 |
-| Lidia Bialucha |  |  |  |  | 3 |
+| Jan Barakat |  |  | 211 |  | 22 |
+| Lidia Bialucha |  |  |  |  | 5 |
 | Andrzej Borzym | 373 | 606569 | 428 | 134 |  |
+| Jolanta Bujas-Poniatowska |  |  |  |  | 1 |
 | Elżbieta Cabała |  |  |  |  | 8 |
 | Marta Chmielewska | 153 | 191995 | 461 |  |  |
 | Tomasz Grochalski | 562 | 831052 |  |  |  |
-| Andrzej Gręziak | 802 | 1287264 | 2 |  |  |
+| Andrzej Gręziak | 802 | 1284829 | 2 |  |  |
 | Jacek Iwaszko | 1 | 219 | 2 | 1 |  |
 | Marcin Jachim | 570 | 880723 | 1 |  |  |
 | Wojciech Jakubiak-Danek |  |  | 378 |  |  |
 | Berenika Jozajtis | 698 | 1077683 | 3 |  |  |
 | Marcin Konik | 5 | 192 | 5 |  |  |
+| Magdalena Agnieszka Krok |  |  |  |  | 1 |
 | Leszek Kubiak | 40 | 9344 | 805 | 113 |  |
 | Andrzej Kubiczek | 532 | 848354 | 721 | 140 |  |
 | Marta Lawrence | 92 | 32446 | 1071 | 69 |  |
@@ -53,17 +55,17 @@ People
 | Marta Opryszak | 165 | 247879 | 1 |  | 38 |
 | Julita Ruszuk | 1 | 182 | 106 |  |  |
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
-| Katarzyna Serwa | 312 | 535966 | 249 | 44 |  |
+| Katarzyna Serwa | 312 | 535966 | 249 | 45 |  |
 | Mateusz Solarz | 596 | 888336 | 10 |  |  |
 | Krzysztof Stępień | 476 | 692241 | 122 | 4 |  |
 | Antoni Szymański |  |  | 543 |  | 5 |
-| Konrad Tyszka |  |  |  |  | 16 |
+| Konrad Tyszka |  |  |  |  | 20 |
 | Filip Voros | 375 | 479164 | 1 |  |  |
 | Kamil Watkowski | 403 | 544716 | 122 |  |  |
-| Natalia Wrzos |  |  | 213 |  | 9 |
-| Emilia Ziętek | 12 | 2142 | 1 |  | 11 |
+| Natalia Wrzos |  |  | 213 |  | 26 |
+| Emilia Ziętek | 12 | 2142 | 1 |  | 12 |
 | Urszula Świątek | 3 | 3016 | 201 |  |  |
-| TOTALS | 7011 | 10325192 | 6382 | 505 | 259 |
+| TOTALS | 7011 | 10322757 | 6382 | 506 | 294 |
 
 </details>
 
@@ -84,7 +86,7 @@ to visit its webpage.
 The `Scores` column lists the number of digital transcriptions within
 each archive directory, and the `Notes` column gives the number of
 musical notes contained within those scores.   Currently there are
-7,013 scores containing a total of 10,325,548 notes.
+7,013 scores containing a total of 10,323,113 notes.
 
 <details><summary>Archives represented in repository</summary>
 
@@ -101,7 +103,7 @@ musical notes contained within those scores.   Currently there are
 | <a target="_blank" href="https://polishscores.org?s=pl-wn"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wn.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wn](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wn/kern)</span></span> | [Polish National Library](https://www.bn.org.pl/en) | 493 | 7.0 | 750,176 | 7.2 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wnifc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wnifc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wnifc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wnifc/kern)</span></span> | [Chopin Institute, Warsaw](https://nifc.pl/en) | 299 | 4.2 | 216,016 | 2.0 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wtm"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wtm.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern)</span></span> | [Warsaw Music Society](http://warszawskietowarzystwomuzyczne.pl/biblioteka/) | 1,162 | 16.5 | 2,232,114 | 21.6 |
-| <a target="_blank" href="https://polishscores.org?s=pl-wumfc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wumfc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern)</span></span> | [Chopin University of Music](http://www.biblioteka.chopin.edu.pl/pl) | 100 | 1.4 | 85,576 | 0.8 |
+| <a target="_blank" href="https://polishscores.org?s=pl-wumfc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wumfc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern)</span></span> | [Chopin University of Music](http://www.biblioteka.chopin.edu.pl/pl) | 100 | 1.4 | 83,141 | 0.8 |
 
 </details>
 
@@ -341,7 +343,7 @@ Composers
 | Osmański, Wojciech | 3 | 2,584 |
 | Ostrowski, Jan | 1 | 1,063 |
 | Pacelli, Asprilio | 9 | 9,933 |
-| Paderewski, Ignacy Jan | 100 | 85,576 |
+| Paderewski, Ignacy Jan | 100 | 83,141 |
 | Palestrina, Giovanni Pierluigi da | 46 | 20,717 |
 | Paszkiewicz, Andrzej | 3 | 1,031 |
 | Pausch, Eugen | 7 | 11,805 |
@@ -479,7 +481,7 @@ Composers
 | Volckmer, Augustin | 119 | 414,631 |
 | Zieleński, Mikołaj | 108 | 73,359 |
 | Walczyński, Franciszek | 106 | 20,219 |
-| Paderewski, Ignacy Jan | 100 | 85,576 |
+| Paderewski, Ignacy Jan | 100 | 83,141 |
 | Luna, Georgius | 92 | 251,534 |
 | Noskowski, Zygmunt | 86 | 140,627 |
 | Śmietański, Emil Władysław | 74 | 249,194 |
@@ -843,7 +845,7 @@ Composers
 | Zeidler, Józef | 32 | 101,423 |
 | Wieniawski, Henryk | 36 | 89,137 |
 | Dobrzyński, Ignacy Feliks | 30 | 88,108 |
-| Paderewski, Ignacy Jan | 100 | 85,576 |
+| Paderewski, Ignacy Jan | 100 | 83,141 |
 | Koperski, Maksymilian | 24 | 78,938 |
 | Engel, Jan | 29 | 78,428 |
 | Goetz-Gieczyński, Cyryl | 15 | 77,488 |
