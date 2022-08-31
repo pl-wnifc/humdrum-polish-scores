@@ -1190,7 +1190,7 @@ Filenames are in the form `siglum--shelfmark--sequence_composer--title.krn`
 | `zielenski-mikolaj` | The composer's name |
 | `communiones-totius-anni-in-epiphania-domini-vidimus-stellam-eius` | The composition title. |
 
-<details>
+</details>
 
 Filenames only contains letters (a-z without accents), numbers, dashes, underscores and dots.
 
