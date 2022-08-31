@@ -844,7 +844,7 @@
 !!!ENC: Filip Voros
 !!!END: 2021-11-04
 !!!ENC: Antoni Szymański
-!!!ED: 2021-11-05
+!!!END: 2021-11-05
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-28
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b)/LO:dy:$1/L" | shed -e "s/LO:N:/LO:n:$1/L" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"

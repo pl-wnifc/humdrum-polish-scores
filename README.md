@@ -33,6 +33,7 @@ People
 | Jolanta Bujas-Poniatowska |  |  |  |  | 3 |
 | Elżbieta Cabała |  |  |  |  | 12 |
 | Marta Chmielewska | 153 | 191995 | 461 |  |  |
+| Zuzanna Daniec |  |  |  |  | 1 |
 | Tomasz Grochalski | 562 | 831052 |  |  |  |
 | Andrzej Gręziak | 802 | 1284829 | 2 |  |  |
 | Jacek Iwaszko | 1 | 219 | 2 | 1 |  |
@@ -48,7 +49,7 @@ People
 | Anastazja Marusiak | 559 | 726694 | 2 |  |  |
 | Solarz Mateusz | 22 | 28720 |  |  |  |
 | Anna Matuszewska | 195 | 333803 | 170 |  |  |
-| Mateusz Mrugas | 1 | 2963 | 237 |  | 15 |
+| Mateusz Mrugas | 1 | 2963 | 237 |  | 16 |
 | Jędrzej Mróz | 21 | 3957 | 241 |  |  |
 | Zofia Niedbalska | 1 | 425 | 74 |  |  |
 | Marta Opryszak | 165 | 247879 | 1 |  | 39 |
@@ -64,7 +65,7 @@ People
 | Natalia Wrzos |  |  | 213 |  | 37 |
 | Emilia Ziętek | 12 | 2142 | 1 |  | 12 |
 | Urszula Świątek | 3 | 3016 | 201 |  |  |
-| TOTALS | 7011 | 10322757 | 6382 | 506 | 373 |
+| TOTALS | 7011 | 10322757 | 6382 | 506 | 375 |
 
 </details>
 
@@ -1209,16 +1210,12 @@ Here is a list of reference records used in the Humdrum scores and their meaning
 | `CNT` | Composer nationality |
 | `COM` | Composer's name |
 | `COM-rismID` | RISM Online ID of the composer |
-| `ED` | UNKNOWN |
 | `ENC` | Digital score encoder |
-| `ENC-IIIf` | UNKNOWN |
 | `ENC-iiif` | Encoder of IIIF bounding boxes |
 | `ENC-modern` | Encoder of modernization filter |
 | `END` | Encoding date |
-| `END-IIIF` | UNKNOWN |
 | `END-iiif` | Date that IIIF bounding boxes were added |
 | `END-modern` | Date that moderization filter added |
-| `ENF-iiif` | UNKNOWN |
 | `GTL` | Title of multiple works forming a group |
 | `IIIF` | IIIF manifest for source scan |
 | `NIFC-islandoraID` | NIFC Islandora ID |
