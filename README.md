@@ -27,11 +27,11 @@ People
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
-| Jan Barakat |  |  | 211 |  | 22 |
-| Lidia Bialucha |  |  |  |  | 5 |
+| Jan Barakat |  |  | 211 |  | 57 |
+| Lidia Bialucha |  |  |  |  | 8 |
 | Andrzej Borzym | 373 | 606569 | 428 | 134 |  |
-| Jolanta Bujas-Poniatowska |  |  |  |  | 1 |
-| Elżbieta Cabała |  |  |  |  | 8 |
+| Jolanta Bujas-Poniatowska |  |  |  |  | 3 |
+| Elżbieta Cabała |  |  |  |  | 12 |
 | Marta Chmielewska | 153 | 191995 | 461 |  |  |
 | Tomasz Grochalski | 562 | 831052 |  |  |  |
 | Andrzej Gręziak | 802 | 1284829 | 2 |  |  |
@@ -40,7 +40,7 @@ People
 | Wojciech Jakubiak-Danek |  |  | 378 |  |  |
 | Berenika Jozajtis | 698 | 1077683 | 3 |  |  |
 | Marcin Konik | 5 | 192 | 5 |  |  |
-| Magdalena Agnieszka Krok |  |  |  |  | 1 |
+| Magdalena Agnieszka Krok |  |  |  |  | 3 |
 | Leszek Kubiak | 40 | 9344 | 805 | 113 |  |
 | Andrzej Kubiczek | 532 | 848354 | 721 | 140 |  |
 | Marta Lawrence | 92 | 32446 | 1071 | 69 |  |
@@ -48,24 +48,23 @@ People
 | Anastazja Marusiak | 559 | 726694 | 2 |  |  |
 | Solarz Mateusz | 22 | 28720 |  |  |  |
 | Anna Matuszewska | 195 | 333803 | 170 |  |  |
-| Mateusz Mrugas | 1 | 2963 | 237 |  | 4 |
+| Mateusz Mrugas | 1 | 2963 | 237 |  | 15 |
 | Jędrzej Mróz | 21 | 3957 | 241 |  |  |
 | Zofia Niedbalska | 1 | 425 | 74 |  |  |
-| Mrta Opryszak |  |  |  |  | 1 |
-| Marta Opryszak | 165 | 247879 | 1 |  | 38 |
+| Marta Opryszak | 165 | 247879 | 1 |  | 39 |
 | Julita Ruszuk | 1 | 182 | 106 |  |  |
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
 | Katarzyna Serwa | 312 | 535966 | 249 | 45 |  |
 | Mateusz Solarz | 596 | 888336 | 10 |  |  |
 | Krzysztof Stępień | 476 | 692241 | 122 | 4 |  |
-| Antoni Szymański |  |  | 543 |  | 5 |
-| Konrad Tyszka |  |  |  |  | 20 |
+| Antoni Szymański |  |  | 543 |  | 8 |
+| Konrad Tyszka |  |  |  |  | 28 |
 | Filip Voros | 375 | 479164 | 1 |  |  |
 | Kamil Watkowski | 403 | 544716 | 122 |  |  |
-| Natalia Wrzos |  |  | 213 |  | 26 |
+| Natalia Wrzos |  |  | 213 |  | 37 |
 | Emilia Ziętek | 12 | 2142 | 1 |  | 12 |
 | Urszula Świątek | 3 | 3016 | 201 |  |  |
-| TOTALS | 7011 | 10322757 | 6382 | 506 | 294 |
+| TOTALS | 7011 | 10322757 | 6382 | 506 | 373 |
 
 </details>
 
@@ -1212,9 +1211,11 @@ Here is a list of reference records used in the Humdrum scores and their meaning
 | `COM-rismID` | RISM Online ID of the composer |
 | `ED` | UNKNOWN |
 | `ENC` | Digital score encoder |
+| `ENC-IIIf` | UNKNOWN |
 | `ENC-iiif` | Encoder of IIIF bounding boxes |
 | `ENC-modern` | Encoder of modernization filter |
 | `END` | Encoding date |
+| `END-IIIF` | UNKNOWN |
 | `END-iiif` | Date that IIIF bounding boxes were added |
 | `END-modern` | Date that moderization filter added |
 | `ENF-iiif` | UNKNOWN |
