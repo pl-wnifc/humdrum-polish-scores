@@ -1200,6 +1200,9 @@ Reference records
 
 Here is a list of reference records used in the Humdrum scores and their meanings:
 
+<details>
+<summary>List of reference records</summary>
+
 | Reference&nbsp;key | Meaning |
 | ------------------ | ------- |
 | `AGN` | Genre.  Multiple genres separated by semicolons (;). |
@@ -1235,13 +1238,16 @@ Here is a list of reference records used in the Humdrum scores and their meaning
 | `SMS-siglum` | RISM siglum of source archive |
 | `URL-pdf-islandora` | PDF of scan from NIFC Islandora database |
 | `URL-scan` | URL for scan of source edition/manuscript |
-| `YEC` | UNKNOWN |
+| `YEC` | Date and owner of electronic copyright |
+| `YEM` | Copyright message |
 | `cenid` | Century ID |
 | `filter-modern` | Modernization filter |
 | `finalis` | Finalis note (early music) |
 | `key` | Human-assigned musical key |
 | `system-decoration` | Bracketing on left side of system |
 | `system-decoration-mod` | Modernized bracketing on left side of system |
+
+</details>
 
 
 

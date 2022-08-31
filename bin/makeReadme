@@ -407,7 +407,8 @@ sub buildReferenceTable() {
 	$refInfo{"TXO"} =                   "IGNORE";
 	$refInfo{"URL-pdf-islandora"} =     "PDF of scan from NIFC Islandora database";
 	$refInfo{"URL-scan"} =              "URL for scan of source edition/manuscript";
-	$refInfo{"YEM"} =                   "IGNORE";
+	$refInfo{"YEM"} =                   "Copyright message";
+	$refInfo{"YEC"} =                   "Date and owner of electronic copyright";
 	$refInfo{"cenid"} =                 "Century ID";
 	$refInfo{"filter-modern"} =         "Modernization filter";
 	$refInfo{"finalis"} =               "Finalis note (early music)";
@@ -435,6 +436,8 @@ sub buildReferenceTable() {
 		$description = "UNKNOWN" if $description =~ /^\s*$/;
 		$output .= "| `$key` | $description |\n";
 	}
+
+	$output = "<details>\n<summary>List of reference records</summary>\n\n$output\n</details>\n";
 	
 	return $output;
 }
