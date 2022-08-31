@@ -65,7 +65,7 @@ People
 | Natalia Wrzos |  |  | 213 |  | 37 |
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 12 |
 | Urszula Świątek | 3 | 3,016 | 201 |  |  |
-| TOTALS | 7011 | 10322757 | 6382 | 506 | 375 |
+| TOTALS | 7,011 | 10,322,757 | 6,382 | 506 | 375 |
 
 </details>
 

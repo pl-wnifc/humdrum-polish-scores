@@ -506,7 +506,7 @@ sub buildEncoderTable() {
 		$output .= " |\n";
 	}
 
-	$output .= "| TOTALS | $totalEncodedScores | $totalEncodedNotes | $totalEditedScores | $totalModernScores | $totalIiifScores |\n";
+	$output .= "| TOTALS | " . commify($totalEncodedScores) . " | " . commify($totalEncodedNotes) . " | " . commify($totalEditedScores) . " | " . commify($totalModernScores) . " | " . commify($totalIiifScores) . " |\n";
 
 	$output = "<details open>\n<summary>Encoder and Editor statistics</summary>\n\n$output\n</details>\n";
 
