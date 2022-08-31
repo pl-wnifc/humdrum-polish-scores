@@ -817,7 +817,7 @@ Composers
 </details>
 
 <details markdown="1">
-<summary> Composer list by notecount count</summary>
+<summary> Composer list by note count</summary>
 
 | Composer | Scores | Notes |
 | -------- | -----: | ----: |
@@ -1177,15 +1177,20 @@ Filenames
 
 Filenames are in the form `siglum--shelfmark--sequence_composer--title.krn`
 
-Example: `pl-kc--40102-iii-1-saf--002-052_zielenski-mikolaj--communiones-totius-anni-in-epiphania-domini-vidimus-stellam-eius.krn`
+<details>
+<summary markdown="1">Example:
+`pl-kc--40102-iii-1-saf--002-052_zielenski-mikolaj--communiones-totius-anni-in-epiphania-domini-vidimus-stellam-eius.krn`
+</summary>
 
 | Component | Meaning |
 | --------- | ------- |
-| `pl-kc`     | RISM siglum of source archive. |
-| `40102-iii-saf` | Shelf mark containing source of transcription. |
+| `pl-kc`     | RISM siglum (ID) of source archive. |
+| `40102-iii-saf` | Shelfmark (call number) containing source of transcription. |
 | `002-005`   | This is fifth movement/work in the second work/group in the given shelfmark. |
 | `zielenski-mikolaj` | The composer's name |
 | `communiones-totius-anni-in-epiphania-domini-vidimus-stellam-eius` | The composition title. |
+
+<details>
 
 Filenames only contains letters (a-z without accents), numbers, dashes, underscores and dots.
 
