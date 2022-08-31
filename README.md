@@ -29,42 +29,42 @@ People
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
 | Jan Barakat |  |  | 211 |  | 57 |
 | Lidia Bialucha |  |  |  |  | 8 |
-| Andrzej Borzym | 373 | 606569 | 428 | 134 |  |
+| Andrzej Borzym | 373 | 606,569 | 428 | 134 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 3 |
 | Elżbieta Cabała |  |  |  |  | 12 |
-| Marta Chmielewska | 153 | 191995 | 461 |  |  |
+| Marta Chmielewska | 153 | 191,995 | 461 |  |  |
 | Zuzanna Daniec |  |  |  |  | 1 |
-| Tomasz Grochalski | 562 | 831052 |  |  |  |
-| Andrzej Gręziak | 802 | 1284829 | 2 |  |  |
+| Tomasz Grochalski | 562 | 831,052 |  |  |  |
+| Andrzej Gręziak | 802 | 1,284,829 | 2 |  |  |
 | Jacek Iwaszko | 1 | 219 | 2 | 1 |  |
-| Marcin Jachim | 570 | 880723 | 1 |  |  |
+| Marcin Jachim | 570 | 880,723 | 1 |  |  |
 | Wojciech Jakubiak-Danek |  |  | 378 |  |  |
-| Berenika Jozajtis | 698 | 1077683 | 3 |  |  |
+| Berenika Jozajtis | 698 | 1,077,683 | 3 |  |  |
 | Marcin Konik | 5 | 192 | 5 |  |  |
 | Magdalena Agnieszka Krok |  |  |  |  | 3 |
-| Leszek Kubiak | 40 | 9344 | 805 | 113 |  |
-| Andrzej Kubiczek | 532 | 848354 | 721 | 140 |  |
-| Marta Lawrence | 92 | 32446 | 1071 | 69 |  |
-| Arkadiusz Malec | 41 | 69147 |  |  |  |
-| Anastazja Marusiak | 559 | 726694 | 2 |  |  |
-| Solarz Mateusz | 22 | 28720 |  |  |  |
-| Anna Matuszewska | 195 | 333803 | 170 |  |  |
-| Mateusz Mrugas | 1 | 2963 | 237 |  | 16 |
-| Jędrzej Mróz | 21 | 3957 | 241 |  |  |
+| Leszek Kubiak | 40 | 9,344 | 805 | 113 |  |
+| Andrzej Kubiczek | 532 | 848,354 | 721 | 140 |  |
+| Marta Lawrence | 92 | 32,446 | 1,071 | 69 |  |
+| Arkadiusz Malec | 41 | 69,147 |  |  |  |
+| Anastazja Marusiak | 559 | 726,694 | 2 |  |  |
+| Solarz Mateusz | 22 | 28,720 |  |  |  |
+| Anna Matuszewska | 195 | 333,803 | 170 |  |  |
+| Mateusz Mrugas | 1 | 2,963 | 237 |  | 16 |
+| Jędrzej Mróz | 21 | 3,957 | 241 |  |  |
 | Zofia Niedbalska | 1 | 425 | 74 |  |  |
-| Marta Opryszak | 165 | 247879 | 1 |  | 39 |
+| Marta Opryszak | 165 | 247,879 | 1 |  | 39 |
 | Julita Ruszuk | 1 | 182 | 106 |  |  |
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
-| Katarzyna Serwa | 312 | 535966 | 249 | 45 |  |
-| Mateusz Solarz | 596 | 888336 | 10 |  |  |
-| Krzysztof Stępień | 476 | 692241 | 122 | 4 |  |
+| Katarzyna Serwa | 312 | 535,966 | 249 | 45 |  |
+| Mateusz Solarz | 596 | 888,336 | 10 |  |  |
+| Krzysztof Stępień | 476 | 692,241 | 122 | 4 |  |
 | Antoni Szymański |  |  | 543 |  | 8 |
 | Konrad Tyszka |  |  |  |  | 28 |
-| Filip Voros | 375 | 479164 | 1 |  |  |
-| Kamil Watkowski | 403 | 544716 | 122 |  |  |
+| Filip Voros | 375 | 479,164 | 1 |  |  |
+| Kamil Watkowski | 403 | 544,716 | 122 |  |  |
 | Natalia Wrzos |  |  | 213 |  | 37 |
-| Emilia Ziętek | 12 | 2142 | 1 |  | 12 |
-| Urszula Świątek | 3 | 3016 | 201 |  |  |
+| Emilia Ziętek | 12 | 2,142 | 1 |  | 12 |
+| Urszula Świątek | 3 | 3,016 | 201 |  |  |
 | TOTALS | 7011 | 10322757 | 6382 | 506 | 375 |
 
 </details>

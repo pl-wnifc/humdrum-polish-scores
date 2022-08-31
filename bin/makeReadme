@@ -494,15 +494,15 @@ sub buildEncoderTable() {
 		$output .= "| ";
 		$output .= $peeps[$i];
 		$output .= " | ";
-		$output .= $encodedScores;
+		$output .= commify($encodedScores);
 		$output .= " | ";
-		$output .= $encodedNotes;
+		$output .= commify($encodedNotes);
 		$output .= " | ";
-		$output .= $editedScores;
+		$output .= commify($editedScores);
 		$output .= " | ";
-		$output .= $modernScores;
+		$output .= commify($modernScores);
 		$output .= " | ";
-		$output .= $iiifScores;
+		$output .= commify($iiifScores);
 		$output .= " |\n";
 	}
 
