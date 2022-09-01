@@ -11,24 +11,21 @@ source archive.
 
 
 
-Frontend
---------
+People and Sponsors
+-------------------
 
-The main user interface for these digital scores is at https://polishscores.org.
-All transcriptions include scans of the physical scores.
+* **Lead**: Marcin Konik
+* **Technical Lead**: Craig Sapp
+* **Project Manager**: Jacek Iwaszko
+* **Assistant Project Manager**: Emilia Ziętek
 
-
-
-People
-------
-
-<details open>
-<summary>Encoder and Editor statistics</summary>
+<details>
+<summary>Digital score encoders and editors </summary>
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
 | Jan Barakat |  |  | 211 |  | 57 |
-| Lidia Bialucha |  |  |  |  | 8 |
+| Lidia Bialucha |  |  |  |  | 9 |
 | Andrzej Borzym | 373 | 606,569 | 428 | 134 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 3 |
 | Elżbieta Cabała |  |  |  |  | 12 |
@@ -49,7 +46,7 @@ People
 | Anastazja Marusiak | 559 | 726,694 | 2 |  |  |
 | Solarz Mateusz | 22 | 28,720 |  |  |  |
 | Anna Matuszewska | 195 | 333,803 | 170 |  |  |
-| Mateusz Mrugas | 1 | 2,963 | 237 |  | 16 |
+| Mateusz Mrugas | 1 | 2,963 | 237 |  | 18 |
 | Jędrzej Mróz | 21 | 3,957 | 241 |  |  |
 | Zofia Niedbalska | 1 | 425 | 74 |  |  |
 | Marta Opryszak | 165 | 247,879 | 1 |  | 39 |
@@ -59,16 +56,32 @@ People
 | Mateusz Solarz | 596 | 888,336 | 10 |  |  |
 | Krzysztof Stępień | 476 | 692,241 | 122 | 4 |  |
 | Antoni Szymański |  |  | 543 |  | 8 |
-| Konrad Tyszka |  |  |  |  | 28 |
+| Konrad Tyszka |  |  |  |  | 31 |
 | Filip Voros | 375 | 479,164 | 1 |  |  |
 | Kamil Watkowski | 403 | 544,716 | 122 |  |  |
 | Natalia Wrzos |  |  | 213 |  | 37 |
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 12 |
 | Urszula Świątek | 3 | 3,016 | 201 |  |  |
-| TOTALS | 7,011 | 10,322,757 | 6,382 | 506 | 375 |
+| TOTALS | 7,011 | 10,322,757 | 6,382 | 506 | 381 |
 
 </details>
 
+
+![European Funds: Digital Poland](https://user-images.githubusercontent.com/3487289/187831797-73f8d302-7299-499e-a93a-5a977fda556d.png)
+
+![Republic of Poland](https://user-images.githubusercontent.com/3487289/187831991-56a199a3-6d13-4414-b565-9cb28c8c3627.png)
+
+![Polish Ministry of Culture, National Heritage and Sports](https://user-images.githubusercontent.com/3487289/187832111-9d2e5c72-0c6b-4bdb-8c3f-b692c6f4b553.png)
+
+![European Regional Development Fund](https://user-images.githubusercontent.com/3487289/187836194-74a41748-21f7-45fa-856e-739d5aab6829.png)
+
+
+
+Frontend
+--------
+
+The main user interface for these digital scores is at https://polishscores.org.
+All transcriptions include scans of the physical scores.
 
 
 
@@ -1177,9 +1190,11 @@ Filenames
 
 Filenames are in the form `siglum--shelfmark--sequence_composer--title.krn`
 
-<details>
-<summary markdown="1">Example:
-`pl-kc--40102-iii-1-saf--002-052_zielenski-mikolaj--communiones-totius-anni-in-epiphania-domini-vidimus-stellam-eius.krn`
+<details markdown="1">
+<summary markdown="1">
+
+Example: `pl-kc--40102-iii-1-saf--002-052_zielenski-mikolaj--communiones-totius-anni-in-epiphania-domini-vidimus-stellam-eius.krn`
+
 </summary>
 
 | Component | Meaning |
@@ -1192,18 +1207,21 @@ Filenames are in the form `siglum--shelfmark--sequence_composer--title.krn`
 
 </details>
 
-Filenames only contains letters (a-z without accents), numbers, dashes, underscores and dots.
+Filenames only contains lower-case letters (a-z without accents),
+numbers, dashes, underscores and dots.
 
-The first part of the file name (siglum + shelfmark + shelfmark enumeration) is unique and
-is used for data processing, while the second part of the file name (composer + title) is for
-human readability.
+The first part of the file name (siglum + shelfmark + shelfmark
+enumeration) is unique and is used for data processing, while the
+second part of the file name (composer + title) is for human
+readability.
 
 
 
 Reference records
 -----------------
 
-Here is a list of reference records used in the Humdrum scores and their meanings:
+Here is a list of reference records used in the Humdrum scores and
+their meanings:
 
 <details>
 <summary>List of reference records</summary>
@@ -1219,9 +1237,11 @@ Here is a list of reference records used in the Humdrum scores and their meaning
 | `COM` | Composer's name |
 | `COM-rismID` | RISM Online ID of the composer |
 | `ENC` | Digital score encoder |
+| `ENC-IIIF` | UNKNOWN |
 | `ENC-iiif` | Encoder of IIIF bounding boxes |
 | `ENC-modern` | Encoder of modernization filter |
 | `END` | Encoding date |
+| `END-IIIF` | UNKNOWN |
 | `END-iiif` | Date that IIIF bounding boxes were added |
 | `END-modern` | Date that moderization filter added |
 | `GTL` | Title of multiple works forming a group |

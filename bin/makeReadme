@@ -508,7 +508,7 @@ sub buildEncoderTable() {
 
 	$output .= "| TOTALS | " . commify($totalEncodedScores) . " | " . commify($totalEncodedNotes) . " | " . commify($totalEditedScores) . " | " . commify($totalModernScores) . " | " . commify($totalIiifScores) . " |\n";
 
-	$output = "<details open>\n<summary>Encoder and Editor statistics</summary>\n\n$output\n</details>\n";
+	$output = "<details>\n<summary>Digital score encoders and editors </summary>\n\n$output\n</details>\n";
 
 	return $output;
 }
@@ -745,18 +745,31 @@ source archive.
 
 
 
+People and Sponsors
+-------------------
+
+* **Lead**: Marcin Konik
+* **Technical Lead**: Craig Sapp
+* **Project Manager**: Jacek Iwaszko
+* **Assistant Project Manager**: Emilia Ziętek
+
+{{encoder-table}}
+
+![European Funds: Digital Poland](https://user-images.githubusercontent.com/3487289/187831797-73f8d302-7299-499e-a93a-5a977fda556d.png)
+
+![Republic of Poland](https://user-images.githubusercontent.com/3487289/187831991-56a199a3-6d13-4414-b565-9cb28c8c3627.png)
+
+![Polish Ministry of Culture, National Heritage and Sports](https://user-images.githubusercontent.com/3487289/187832111-9d2e5c72-0c6b-4bdb-8c3f-b692c6f4b553.png)
+
+![European Regional Development Fund](https://user-images.githubusercontent.com/3487289/187836194-74a41748-21f7-45fa-856e-739d5aab6829.png)
+
+
+
 Frontend
 --------
 
 The main user interface for these digital scores is at https://polishscores.org.
 All transcriptions include scans of the physical scores.
-
-
-
-People
-------
-
-{{encoder-table}}
 
 
 
@@ -792,9 +805,11 @@ Filenames
 
 Filenames are in the form `siglum--shelfmark--sequence_composer--title.krn`
 
-<details>
-<summary markdown="1">Example:
-`pl-kc--40102-iii-1-saf--002-052_zielenski-mikolaj--communiones-totius-anni-in-epiphania-domini-vidimus-stellam-eius.krn`
+<details markdown="1">
+<summary markdown="1">
+
+Example: `pl-kc--40102-iii-1-saf--002-052_zielenski-mikolaj--communiones-totius-anni-in-epiphania-domini-vidimus-stellam-eius.krn`
+
 </summary>
 
 | Component | Meaning |
@@ -807,18 +822,21 @@ Filenames are in the form `siglum--shelfmark--sequence_composer--title.krn`
 
 </details>
 
-Filenames only contains letters (a-z without accents), numbers, dashes, underscores and dots.
+Filenames only contains lower-case letters (a-z without accents),
+numbers, dashes, underscores and dots.
 
-The first part of the file name (siglum + shelfmark + shelfmark enumeration) is unique and
-is used for data processing, while the second part of the file name (composer + title) is for
-human readability.
+The first part of the file name (siglum + shelfmark + shelfmark
+enumeration) is unique and is used for data processing, while the
+second part of the file name (composer + title) is for human
+readability.
 
 
 
 Reference records
 -----------------
 
-Here is a list of reference records used in the Humdrum scores and their meanings:
+Here is a list of reference records used in the Humdrum scores and
+their meanings:
 
 {{reference-table}}
 
