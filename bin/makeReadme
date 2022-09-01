@@ -371,11 +371,11 @@ sub buildScanTable {
 
 	my %names;
 
-	$names{"https://polish.musicsources.pl"}   = '<a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources"</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>/)';
-	$names{"https://cyfrowe.mnk.pl"}           = '<a target="_blank" href="https://cyfrowe.mnk.pl">Polish National Museum in Krakow"</a>';
+	$names{"https://polish.musicsources.pl"}   = '<a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>)';
+	$names{"https://cyfrowe.mnk.pl"}           = '<a target="_blank" href="https://cyfrowe.mnk.pl">Polish National Museum in Krakow</a>';
 	$names{"http://staniatki.studiokropka.pl"} = '<a target="_blank" href="http://staniatki.studiokropka.pl/mbp">Music of the Polish Benedictine Sisters</a>';
 	$names{"https://polona.pl"}                = '<a target="_blank" href="http://polona.pl">Polona</a> (<a target="_blank" href="https://www.bn.org.pl/en">Polish National Library</a>)';
-	$names{"https://bc.bdsandomierz.pl"}       = '<a target="_blank" href="https://bc.bdsandomierz.pl/dilibra>Digital Library of the Diocean Library in Sandomierz</a>';
+	$names{"https://bc.bdsandomierz.pl"}       = '<a target="_blank" href="https://bc.bdsandomierz.pl/dilibra">Digital Library of the Diocesan Library in Sandomierz</a>';
 
 	my @keys = sort keys %entries;
 	my $output = "| Website | Scores | Percent |\n";
@@ -389,7 +389,8 @@ sub buildScanTable {
 		}
 		$percent = int($percent * 10.0)/10.0;
 		$percent .= ".0" if $percent !~ /\./;
-		$output .= "| $name | $entries{$key} | $percent |\n";
+		my $value = commify($entries{$key});
+		$output .= "| $name | $value | $percent |\n";
 	}
 
 	$output .= "| TOTAL | $count |     |\n";
@@ -822,8 +823,8 @@ All transcriptions include scans of the physical scores.
 
 
 
-Represented libraries and archives
-----------------------------------
+Libraries and archives
+----------------------
 
 Here are a list archives represented in the repository.  Directory
 names are based on the RISM siglum of the archive.  Click on the

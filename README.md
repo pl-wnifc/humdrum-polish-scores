@@ -85,8 +85,8 @@ All transcriptions include scans of the physical scores.
 
 
 
-Represented libraries and archives
-----------------------------------
+Libraries and archives
+----------------------
 
 Here are a list archives represented in the repository.  Directory
 names are based on the RISM siglum of the archive.  Click on the
@@ -135,9 +135,9 @@ websites for the scanned source editions that are currently available:
 | Website | Scores | Percent |
 | ------- | -----: | ------: |
 | <a target="_blank" href="http://staniatki.studiokropka.pl/mbp">Music of the Polish Benedictine Sisters</a> | 7 | 0.1 |
-| <a target="_blank" href="https://bc.bdsandomierz.pl/dilibra>Digital Library of the Diocean Library in Sandomierz</a> | 1010 | 21.3 |
-| <a target="_blank" href="https://cyfrowe.mnk.pl">Polish National Museum in Krakow"</a> | 108 | 2.2 |
-| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources"</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>/) | 3077 | 65.1 |
+| <a target="_blank" href="https://bc.bdsandomierz.pl/dilibra">Digital Library of the Diocesan Library in Sandomierz</a> | 1,010 | 21.3 |
+| <a target="_blank" href="https://cyfrowe.mnk.pl">Polish National Museum in Krakow</a> | 108 | 2.2 |
+| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 3,077 | 65.1 |
 | <a target="_blank" href="http://polona.pl">Polona</a> (<a target="_blank" href="https://www.bn.org.pl/en">Polish National Library</a>) | 523 | 11.0 |
 | TOTAL | 4725 |     |
 
