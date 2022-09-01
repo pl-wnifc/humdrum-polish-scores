@@ -34,6 +34,7 @@ my $siglaInfo     = buildLibraryTable();
 my $composerInfo  = buildComposerTable();
 my $referenceInfo = buildReferenceTable();
 my $encoderInfo   = buildEncoderTable();
+my $scanInfo      = buildScanTable();
 
 
 # Fill in template markers:
@@ -41,6 +42,7 @@ $output =~ s/{{library-table}}/$siglaInfo/g;
 $output =~ s/{{composer-tables}}/$composerInfo/g;
 $output =~ s/{{reference-table}}/$referenceInfo/g;
 $output =~ s/{{encoder-table}}/$encoderInfo/g;
+$output =~ s/{{scan-table}}/$scanInfo/g;
 $output =~ s/{{notecount}}/$commanotes/g;
 $output =~ s/{{scorecount}}/$commafiles/g;
 
@@ -350,13 +352,60 @@ sub commify {
 }
 
 
+##############################
+##
+## buildScanTable --
+##
+
+
+sub buildScanTable {
+	my @entries = `grep -rh URL-scan */kern`;
+	my %entries;
+	my $count = 0;
+	for (my $i=0; $i<@entries; $i++) {
+		my $line = $entries[$i];
+		next if $line !~ /(https?:\/\/[^\/]+)/;
+		$entries{$1}++;
+		$count++;
+	}
+
+	my %names;
+
+	$names{"https://polish.musicsources.pl"}   = '<a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources"</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>/)';
+	$names{"https://cyfrowe.mnk.pl"}           = '<a target="_blank" href="https://cyfrowe.mnk.pl">Polish National Museum in Krakow"</a>';
+	$names{"http://staniatki.studiokropka.pl"} = '<a target="_blank" href="http://staniatki.studiokropka.pl/mbp">Music of the Polish Benedictine Sisters</a>';
+	$names{"https://polona.pl"}                = '<a target="_blank" href="http://polona.pl">Polona</a> (<a target="_blank" href="https://www.bn.org.pl/en">Polish National Library</a>)';
+	$names{"https://bc.bdsandomierz.pl"}       = '<a target="_blank" href="https://bc.bdsandomierz.pl/dilibra>Digital Library of the Diocean Library in Sandomierz</a>';
+
+	my @keys = sort keys %entries;
+	my $output = "| Website | Scores | Percent |\n";
+	$output .=   "| ------- | -----: | ------: |\n";
+
+	foreach my $key (@keys) {
+		my $percent = ($entries{$key}  / $count) * 100.0;
+		my $name = $names{$key};
+		if ($name =~ /^\s*$/) {
+			$name = "($key)[$key]";
+		}
+		$percent = int($percent * 10.0)/10.0;
+		$percent .= ".0" if $percent !~ /\./;
+		$output .= "| $name | $entries{$key} | $percent |\n";
+	}
+
+	$output .= "| TOTAL | $count |     |\n";
+
+	$output = "<details>\n<summary>List of scan source websites</summary>\n\n$output\n</details>\n";
+	return $output;
+}
+
+
 
 ##############################
 ##
 ## buildReferenceTable --
 ##
 
-sub buildReferenceTable() {
+sub buildReferenceTable {
 
 	my %refInfo;
 	$refInfo{"AGN"} =                   "Genre.  Multiple genres separated by semicolons (;).";
@@ -449,7 +498,7 @@ sub buildReferenceTable() {
 ## buildEncoderTable --
 ##
 
-sub buildEncoderTable() {
+sub buildEncoderTable {
 	my $output = "";
 
 	setupEncoderInformation();
@@ -759,7 +808,7 @@ People and Sponsors
 
 ![Republic of Poland](https://user-images.githubusercontent.com/3487289/187831991-56a199a3-6d13-4414-b565-9cb28c8c3627.png)
 
-![Polish Ministry of Culture, National Heritage and Sports](https://user-images.githubusercontent.com/3487289/187832111-9d2e5c72-0c6b-4bdb-8c3f-b692c6f4b553.png)
+![Polish Ministry of Culture and National Heritage](https://user-images.githubusercontent.com/3487289/187832111-9d2e5c72-0c6b-4bdb-8c3f-b692c6f4b553.png)
 
 ![European Regional Development Fund](https://user-images.githubusercontent.com/3487289/187836194-74a41748-21f7-45fa-856e-739d5aab6829.png)
 
@@ -790,6 +839,18 @@ musical notes contained within those scores.   Currently there are
 {{scorecount}} scores containing a total of {{notecount}} notes.
 
 {{library-table}}
+
+
+Source editions
+---------------
+
+All source editions for digital scores in this repository are (or wil be)
+available online.  See the `URL-scan` reference records in the Humdrum
+files for a link to the scanned source editions.  Here is a list of the
+websites for the scanned source editions that are currently available:
+
+{{scan-table}}
+
 
 
 
@@ -839,6 +900,5 @@ Here is a list of reference records used in the Humdrum scores and
 their meanings:
 
 {{reference-table}}
-
 
 

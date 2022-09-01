@@ -24,7 +24,7 @@ People and Sponsors
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
-| Jan Barakat |  |  | 211 |  | 57 |
+| Jan Barakat |  |  | 211 |  | 58 |
 | Lidia Bialucha |  |  |  |  | 9 |
 | Andrzej Borzym | 373 | 606,569 | 428 | 134 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 3 |
@@ -59,10 +59,10 @@ People and Sponsors
 | Konrad Tyszka |  |  |  |  | 31 |
 | Filip Voros | 375 | 479,164 | 1 |  |  |
 | Kamil Watkowski | 403 | 544,716 | 122 |  |  |
-| Natalia Wrzos |  |  | 213 |  | 37 |
-| Emilia Ziętek | 12 | 2,142 | 1 |  | 12 |
+| Natalia Wrzos |  |  | 213 |  | 39 |
+| Emilia Ziętek | 12 | 2,142 | 1 |  | 13 |
 | Urszula Świątek | 3 | 3,016 | 201 |  |  |
-| TOTALS | 7,011 | 10,322,757 | 6,382 | 506 | 381 |
+| TOTALS | 7,011 | 10,322,757 | 6,382 | 506 | 385 |
 
 </details>
 
@@ -71,7 +71,7 @@ People and Sponsors
 
 ![Republic of Poland](https://user-images.githubusercontent.com/3487289/187831991-56a199a3-6d13-4414-b565-9cb28c8c3627.png)
 
-![Polish Ministry of Culture, National Heritage and Sports](https://user-images.githubusercontent.com/3487289/187832111-9d2e5c72-0c6b-4bdb-8c3f-b692c6f4b553.png)
+![Polish Ministry of Culture and National Heritage](https://user-images.githubusercontent.com/3487289/187832111-9d2e5c72-0c6b-4bdb-8c3f-b692c6f4b553.png)
 
 ![European Regional Development Fund](https://user-images.githubusercontent.com/3487289/187836194-74a41748-21f7-45fa-856e-739d5aab6829.png)
 
@@ -119,6 +119,31 @@ musical notes contained within those scores.   Currently there are
 | <a target="_blank" href="https://polishscores.org?s=pl-wumfc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wumfc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern)</span></span> | [Chopin University of Music](http://www.biblioteka.chopin.edu.pl/pl) | 100 | 1.4 | 83,141 | 0.8 |
 
 </details>
+
+
+Source editions
+---------------
+
+All source editions for digital scores in this repository are (or wil be)
+available online.  See the `URL-scan` reference records in the Humdrum
+files for a link to the scanned source editions.  Here is a list of the
+websites for the scanned source editions that are currently available:
+
+<details>
+<summary>List of scan source websites</summary>
+
+| Website | Scores | Percent |
+| ------- | -----: | ------: |
+| <a target="_blank" href="http://staniatki.studiokropka.pl/mbp">Music of the Polish Benedictine Sisters</a> | 7 | 0.1 |
+| <a target="_blank" href="https://bc.bdsandomierz.pl/dilibra>Digital Library of the Diocean Library in Sandomierz</a> | 1010 | 21.3 |
+| <a target="_blank" href="https://cyfrowe.mnk.pl">Polish National Museum in Krakow"</a> | 108 | 2.2 |
+| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources"</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>/) | 3077 | 65.1 |
+| <a target="_blank" href="http://polona.pl">Polona</a> (<a target="_blank" href="https://www.bn.org.pl/en">Polish National Library</a>) | 523 | 11.0 |
+| TOTAL | 4725 |     |
+
+</details>
+
+
 
 
 
@@ -1273,7 +1298,6 @@ their meanings:
 | `system-decoration-mod` | Modernized bracketing on left side of system |
 
 </details>
-
 
 
 
