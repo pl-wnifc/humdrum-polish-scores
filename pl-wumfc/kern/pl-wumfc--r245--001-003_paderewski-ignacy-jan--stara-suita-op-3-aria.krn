@@ -21,13 +21,17 @@
 !!!ONB-nifc: UWAGA: części Suity: 1.Preludio, 2. Intermezzo, 3. Aria, 4. Fuga
 !!!AIN: 1 piano
 !!!key: F
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|rj)/LO:dy:$1/L" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | autostem -r |  modori -m
 **kern	**kern	**dynam
 *part1	*part1	*part1
 *staff2	*staff1	*
-*I"Fortepian	*I"Fortepian	*
+*I"Piano	*I"Piano	*
+*I'	*I'	*
 *Ipiano	*Ipiano	*
 *ICklav	*ICklav	*
 *IGsolo	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
 *clefF4	*clefG2	*
 *k[b-]	*k[b-]	*
 *F:	*F:	*
@@ -108,11 +112,14 @@
 .	.	8e\J	.
 .	4a/)	4f\	.
 =15	=15	=15	=15
+!	!	!	!LO:MO:null:mod=p
 (4AA\	(4cc/	(4e\	.
+!	!	!	!LO:MO:null:mod=.
 .	.	.	p
 2D\)	2a/)	2f\)	.
 !!LO:LB:g=original
 =16	=16	=16	=16
+!	!	!	!LO:MO:mod=!null:null
 !	!	!	!LO:DY:t=pp.
 (4AA\	(4cc/	(4e\	pp
 2D\)	2a/)	2f\)	.
@@ -147,8 +154,11 @@
 8AA\L	4a/	8c\L	.
 8BB-\J	.	8d\J	.
 4C\)	4g/	4e\	.
+!	!LO:MO:null:mod=.	!	!
 .	8qqa/	.	.
 =24	=24	=24	=24
+!	!LO:MO:null:mod=8qqa	!	!
+.	.	.	.
 (4FF\	[2.a/)	(2.f\	<
 4C\	.	.	.
 4F\)	.	.	[ >]
@@ -193,8 +203,10 @@
 .	4cc/)	4a\	.
 .	.	.	]
 =32	=32	=32	=32
+!!!OMD:
+!!!OMD-mod: Grave
 !	!LO:TX:a:t=à tempo	!	!
-!	!LO:TX:b:t=grave	!	!
+!	!LO:TX:b:t=grave:mod=	!	!
 4r	4dd/	4r	.
 (4d\	(4dd/	4f\	.
 4A\	4cc/	4e\	>
@@ -219,7 +231,9 @@
 (4AA\	(4cc/	4e\	pp
 2D\)	2a/)	2f\	.
 =37	=37	=37	=37
+!	!	!	!LO:MO:null:mod=ppp
 4AA\	((8dd/L	4e\	.
+!	!	!	!LO:MO:null:mod=.
 .	8cc/J)	.	ppp
 4D\	4a/	4f\	.
 4GG\	(8cc/L	4d\	>
@@ -237,7 +251,7 @@
 .	.	.	>
 =41	=41	=41	=41
 4FF\	4f/	4f\	]
-!	!	!	!LO:DY:t=pianiſs. poſsibile
+!	!	!	!LO:DY:t=pianiſs. poſsibile:mod=pp possibile
 4D\	(4a/)	4f\	ppp
 !LO:TX:b:t=due pedale	!	!	!
 4C\	4a/	4e\	.
@@ -251,8 +265,11 @@
 8AA\L	4a/	8c\L	.
 8BB-\J	.	8d\J	.
 4C\	4g/	4e\	.
+!	!LO:MO:null:mod=.	!	!
 .	8qqa/	.	.
 =44	=44	=44	=44
+!	!LO:MO:null:mod=8qqa	!	!
+.	.	.	.
 4FF\	[2.a/)	2.f\	<
 4C\	.	.	.
 4F\	.	.	[
@@ -273,8 +290,11 @@
 8AA\J	8a/J	8c\J	.
 4BB-\	4g/	4d\	.
 4C;\	4e;/)	4G\	.
+!	!LO:MO:null:mod=.	!	!
 .	8qqf/	.	.
 =48	=48	=48	=48
+!	!LO:MO:null:mod=8qqf	!	!
+.	.	.	.
 2FF;\)	2.f;/	2.A\	.
 4ryy	.	.	.
 *	*v	*v	*
@@ -286,5 +306,7 @@
 !!!END: 2021-11-04
 !!!ENC: Marta Lawrence
 !!!END: 2021-11-05
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-28
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
