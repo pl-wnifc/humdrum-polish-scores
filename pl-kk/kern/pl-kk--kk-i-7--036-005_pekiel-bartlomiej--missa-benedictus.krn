@@ -579,14 +579,14 @@
 !!!RDF**kern: l = terminal long
 !!LO:MO:end
 !!!filter-modern: sic -sq | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -k -e "s/[<>]//g" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p | extract -k 1,3,4,2
+!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/IIIF/view
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-03-13
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-02-25
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-07-14
+!!!ENC-iiif: Konrad Tyszka
+!!!END-iiif: 2022-09-01
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/IIIF/view
-!!!ENC-iiif: Konrad Tyszka
-!!!END-iif: 2022-09-01

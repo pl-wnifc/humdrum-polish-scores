@@ -905,6 +905,7 @@
 !!LO:MO:end
 !!!RDF**kern: l = terminal long
 !!!filter-modern: sic -sq | tie -s | humtr -p  | extract -s 1,2,5,6,7,8,3,4 | autostem -r | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | modori -m
+!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/IIIF/view
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-02-24
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
@@ -912,8 +913,7 @@
 !!!END: 2021-03-12
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-22
+!!!ENC-iiif: Konrad Tyszka
+!!!END-iiif: 2022-09-01
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/IIIF/view
-!!!ENC-iiif: Konrad Tyszka
-!!!END-iif: 2022-09-01

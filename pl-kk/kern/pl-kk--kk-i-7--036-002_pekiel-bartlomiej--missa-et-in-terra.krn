@@ -1690,14 +1690,14 @@
 !!!RDF**kern: < = below
 !!!RDF**kern: i = editorial accidental
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/yy//"  | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -ke "s/\[y(?!y)/[/g" | shed -k -e "s/LO:N:xstem/LO:n:xstem/L" | shed -k -e "s/LO:N:acc/LO:n:acc:/L"  | autostem -r | tie -s | modori -m | humtr -p
+!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/IIIF/view
 !!!EED: Leszek Kubiak
 !!!EEV: 2021-03-12
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-03-01
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-07-14
+!!!ENC-iiif: Konrad Tyszka
+!!!END-iiif: 2022-09-01
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/IIIF/view
-!!!ENC-iiif: Konrad Tyszka
-!!!END-iif: 2022-09-01

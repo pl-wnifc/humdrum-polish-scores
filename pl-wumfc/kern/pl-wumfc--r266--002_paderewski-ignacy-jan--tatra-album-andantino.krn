@@ -19,26 +19,33 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A309/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4686 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: zbiór zawiera utwory na 4 ręce numerowane I-VI. Nr 002 od skanu 0006
-!!!AIN: 4 empty
+!!!AIN: 2 piano
 !!!key:
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | shed -k -e "s/:TUP:/:tup:/L" | autostem -r | modori -m
 **kern	**kern	**dynam	**kern	**kern	**fing	**dynam
-*part4	*part3	*part3	*part2	*part1	*	*part1
+*part2	*part2	*part2	*part1	*part1	*part1	*part1
 *staff4	*staff3	*	*staff2	*staff1	*	*
-*Iempty	*Iempty	*	*Iempty	*Iempty	*	*
+*Ipiano	*Ipiano	*	*Ipiano	*Ipiano	*	*
+*ICklav	*ICklav	*	*ICklav	*ICklav	*	*
+*IGsolo	*IGsolo	*	*IGsolo	*IGsolo	*	*
 *I"Clavier	*I"Clavier	*	*I"Clavier	*I"Clavier	*	*
 *I'pf	*I'pf	*	*I'pf	*I'pf	*	*
+*mI"Pianoforte II	*mI"Pianoforte II	*	*mI"Pianoforte I	*mI"Pianoforte I	*	*
+*mI'pf II	*mI'pf II	*	*mI'pf I	*mI'pf I	*	*
 *clefF4	*clefF4	*	*clefG2	*clefG2	*	*
 *k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*	*
 *B:	*B:	*	*B:	*B:	*	*
 *M3/8	*M3/8	*	*M3/8	*M3/8	*	*
 =1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!LO:TX:t=P:problem=caudy \ różnie global	!	!
-!	!	!	!	!LO:TX:a:t=Andantino	!	!
+!	!	!LO:MO:null:mod=p	!	!LO:TX:a:t=Andantino:mod=	!	!
 4.BBB\	8r	.	4r	(8dd#~\L	.	p
+!	!	!LO:MO:null:mod=.	!	!	!	!
 .	(8F#\L	p	.	8dd#~\	.	.
 .	8B\J	.	8f#/	8dd#~\J	.	.
 =2	=2	=2	=2	=2	=2	=2
 *	*^	*	*	*	*	*
+!	!	!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!	!	!	!LO:HP:a
 4.FF#\	8B/	4.F#\	.	[4.f#/	8cc#~\L	.	<
 .	4A#^/)	.	.	.	8gg#~\	.	[
@@ -46,11 +53,11 @@
 *	*v	*v	*	*	*	*	*
 =3	=3	=3	=3	=3	=3	=3
 4.BBB\	(8BL 8F#\	.	8f#/]	(8dd#~\L	.	.
-.	8B\	.	4f#/	8dd#~~\	.	.
+.	8B\	.	4f#/	8dd#~\	.	.
 .	8F#\J	.	.	8dd#~\J	.	>
 =4	=4	=4	=4	=4	=4	=4
 8EE\L	8BL 8G#\	.	(>8g#/L	8cc#\L	.	.
-!	!LO:TX:b:t=rit	!	!	!LO:TX:b:t=rit	!	!
+!	!LO:TX:b:t=rit:mod=rit.	!	!	!LO:TX:b:t=rit:mod=rit.	!	!
 .	.	.	.	8qdd#/	.	.
 8FF#\	8A# 8F# 8C#\	.	8f# 8e/	8cc#\	.	]
 8BBB\J	8BJ 8F# 8D#\)	.	8f#J 8d#/)	8b\J)	.	.
@@ -60,8 +67,10 @@
 .	8B\J	<	8f#/	8dd#~\J	.	.
 =6	=6	=6	=6	=6	=6	=6
 *	*^	*	*	*	*	*
+!	!	!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!	!	!	!LO:HP:a
 8EE\	8B/L	4.G#\	.	4.g#^/	8cc#\L	.	<[
+!	!	!	!	!	!	!	!LO:MO:null:mod=.
 4CC#\	8A#/	.	.	.	8gg#\	.	<
 .	8e/J)	.	.	.	8ee\J)	.	.
 *	*v	*v	*	*	*	*	*
@@ -73,17 +82,19 @@
 !LO:LB:g=original	!	!	!LO:LB:g=original	!	!	!
 =8	=8	=8	=8	=8	=8	=8
 4FF#\	8BL 8En\	>	8en/L	8cc#\L	.	>
-!	!LO:TX:b:t=rit	!	!	!LO:TX:b:t=rit	!	!
+!	!LO:TX:b:t=rit:mod=rit.	!	!	!LO:TX:b:t=rit:mod=rit.	!	!
 .	.	.	.	8qqdd#/	.	]
 .	8A# 8F# 8C#\	]	8f# 8e/	8cc#\	.	.
 8BBB\	8BJ 8F# 8D#\)	.	8f#J 8d#/)	8b\J)	.	.
 =9	=9	=9	=9	=9	=9	=9
-!	!LO:TX:a:t=Piumosso.	!	!	!	!	!
+!!!OMD:
+!!!OMD-mod: Più mosso
+!	!LO:TX:a:t=Piumosso.:mod=	!	!	!	!	!
 (4.GG#\	16B'\LL	pp	(8g#/L	8r	.	.
 .	16A#'\	.	.	.	.	.
 .	.	.	.	(16qqb/LL	.	<
-!	!	!	!	!LO:TX:a:t=con sentimento.	!	!
-!	!	!	!LO:TX:a:t=sempre legato e piano	!LO:TX:a:t=Piu mosso.	!	!
+!	!	!	!	!LO:TX:a:t=con sentimento.:mod=con sentimento	!	!
+!	!	!	!LO:TX:a:t=sempre legato e piano	!LO:TX:a:t=Piu mosso.:mod=	!	!
 .	.	.	.	16qqcc#/JJ	.	.
 .	16B'\	.	8d#/	(8dd#\L)	.	.
 .	16G#'\	.	.	.	.	.
@@ -104,9 +115,11 @@
 .	16G#'\	.	.	.	.	.
 *	*	*	*	*	*	*^
 !	!	!	!	!	!	!	!LO:HP:a
+!	!	!	!	!	!	!	!LO:MO:null:mod=.
 .	16A#'\	.	8g#/J	8dd#~\J	.	.	<
 .	16B'\JJ	.	.	.	.	.	.
 =12	=12	=12	=12	=12	=12	=12	=12
+!	!	!	!	!	!	!	!LO:MO:null:mod=.
 4.GGG#\	16c#'\LL	.	8e/L	8aa#^\L	.	.	[
 *	*	*	*	*	*	*v	*v
 .	16B'\	.	.	.	.	.
@@ -117,8 +130,8 @@
 4.GG#\	16d#'\LL	.	8g#/L	8r	.	.
 .	16c#'\	<	.	.	.	.
 !	!	!	!	!	!	!LO:DY:a
-.	.	.	.	(>16qqb/LL	.	<
-!	!	!	!	!LO:TX:b:t=poco crescendo	!	!
+.	.	.	.	(>>16qqb/LL	.	<
+!	!	!	!	!LO:TX:b:t=poco crescendo:mod=	!	!
 .	.	.	.	16qqcc#/JJ	.	.
 .	16B'\	.	8d#/	8dd#\L	.	.
 .	16c#'\	.	.	.	.	.
@@ -143,7 +156,7 @@
 .	16B'\	.	.	8gg#\J)	.	.
 .	16c#'\JJ	[	.	.	.	]
 =16	=16	=16	=16	=16	=16	=16
-!	!LO:TX:b:t=accel.	!LO:DY:a	!	!LO:TX:b:t=accelerando	!	!
+!	!LO:TX:b:t=accel.:mod=accelerando	!LO:DY:a	!	!LO:TX:b:t=accelerando	!	!
 4.AA# 4.AAA#\	4.d# 4.A# 4.F# 4.D#\	sf	4.a#^/	(16ff#\LL	.	.
 .	.	.	.	16aa#\	.	.
 .	.	.	.	16ee#X\	.	.
@@ -154,7 +167,7 @@
 .	.	.	.	(16qqee#X/LL	.	.
 .	.	.	.	16qqff#/JJ	.	.
 *ped	*	*	*	*	*	*
-4.AA# 4.AAA#\	8B 8G# 8E#X 8D# 8BB/	.	(8g#^/L	16een\LL)	.	.
+4.AA# 4.AAA#\	8B 8G# 8E#X 8D# 8BB/	.	(8g#^/L	16ee#y\LL)	.	.
 .	.	.	.	16dd#\JJ	.	.
 .	8r	.	16d#/L	8.b/L	.	.
 .	.	.	16e#X/	.	.	.
@@ -171,23 +184,26 @@
 .	.	.	.	16qqe#X/LL	.	.
 !	!LO:TX:b:t=rit.	!	!	!	!	!
 .	.	.	.	16qqf#/JJ	.	.
-4.AA# 4.AAA#\	[8G#L [8E#X [8AA#/	.	4.r	16en/LL	.	.
+!	!	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;t=rit.	!	!
+!	!	!	!	!	!	!
+4.AA# 4.AAA#\	[8G#L [8E#X [[8AA#/	.	4.r	16e#y/LL	.	.
 .	.	.	.	16c##X/J	.	.
-!	!	!	!	!LO:TX:b:t=rit.	!	!
-.	16G#]L 16E#] 16AA#/_	.	.	8.A#/J)	.	.
+!	!	!	!	!LO:TX:b:t=rit.:mod=	!	!
+.	16G#]L 16E#] 16AA#/__	.	.	8.A#/J)	.	.
 .	16G#/	.	.	.	.	.
 .	16E#/	.	.	.	.	.
-.	16AA#/JJ]	.	.	16A#/	.	.
+.	16AA#/JJ]]	.	.	16A#/	.	.
 !LO:PB:g=original	!	!	!LO:PB:g=original	!	!	!
+*kcancel	*kcancel	*	*kcancel	*kcancel	*	*
 =20	=20	=20	=20	=20	=20	=20
-*k[fncngndnb-e-a-]	*k[fncngndnb-e-a-]	*	*k[fncngndnb-e-a-]	*k[fncngndnb-e-a-]	*	*
+*k[b-e-a-]	*k[b-e-a-]	*	*k[b-e-a-]	*k[b-e-a-]	*	*
 *M3/8	*M3/8	*	*M3/8	*M3/8	*	*
 *	*^	*	*	*	*	*
-!	!	!	!	!	!LO:TX:a:t=con passione.	!	!
-!	!LO:TX:a:t=Con passione.	!	!	!	!	!	!LO:DY:t=forte.
+!	!	!	!	!	!LO:TX:a:t=con passione.:mod=con passione	!	!LO:MO:mod=!null:null
+!	!LO:TX:a:t=Con passione.:mod=con passione	!	!	!	!	!	!LO:DY:t=forte.
 4.EE-\	16r	8G^>\L	f	4.r	(>8g~/L	.	f
 .	(16B- 16BB-/	.	.	.	.	.	.
-!	!LO:TX:a:t=marcato il cauto	!	!	!	!	!	!
+!	!LO:TX:a:t=marcato il canto	!	!	!	!	!	!
 .	16r	8G^>\	.	.	8g~/	.	.
 .	16B- 16BB-/	.	.	.	.	.	.
 .	16r	8G^>\J	.	.	8g~/J	.	.
@@ -210,8 +226,10 @@
 =23	=23	=23	=23	=23	=23	=23	=23
 8DD\L	16r	8F\L	.	4.r	8f/L	.	>
 .	16c 16C/	.	.	.	.	.	.
-!	!	!	!	!	!LO:TX:b:t=rit	!	!
+!	!	!	!	!	!LO:TX:b:t=rit:mod=rit.	!	!
 .	.	.	.	.	8qqg/	.	]
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;t=rit.	!	!	!	!	!
+!	!	!	!	!	!	!	!
 8GG\	16r	8F\	.	.	8f/	.	.
 .	16Bn 16BBn/	.	.	.	.	.	.
 8CC\J	16r	8E-\J	.	.	8e-/J)	.	.
@@ -242,15 +260,19 @@
 .	.	.	.	8g~/	.	.
 8GG 8GGG\	8d 8B- 8D\	.	.	8g~/J	.	.
 =27	=27	=27	=27	=27	=27	=27
-!	!LO:TX:b:t=rit	!	!	!	!	!
+!	!	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;t=rit.	!	!
+!	!LO:TX:b:t=rit:mod=rit.	!	!	!	!	!
 8AA-L 8AAA-\	8cL 8A- 8C\	.	4.r	8f/L	.	>
-!	!	!	!	!LO:TX:b:t=rit	!	!
+!	!	!	!	!LO:TX:b:t=rit:mod=	!	!
 .	.	.	.	8qqg/	.	]
 8BB- 8BBB-\	8B- 8A- 8D\	.	.	8f/	.	.
+!LO:SIC:s=8EE-\J;	!	!	!	!	!	!
 8EE-\J	8B-J 8G 8E-;\)	.	.	8e-;/J)	.	.
 =28||	=28||	=28||	=28||	=28||	=28||	=28||
-*k[bnenanf#c#g#d#a#]	*k[bnenanf#c#g#d#a#]	*	*k[bnenanf#c#g#d#a#]	*k[bnenanf#c#g#d#a#]	*	*
-!	!LO:TX:a:t=Un poco piu molto.	!	!	!LO:TX:a:t=Un poco piu molto.	!	!
+!!!OMD:
+!!!OMD-mod: Un poco più molto
+*k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*	*k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*	*
+!	!LO:TX:a:t=Un poco piu molto.:mod=	!	!	!LO:TX:a:t=Un poco piu molto.:mod=	!	!
 [<4.DD#\	(8d#L 8D#\	.	8r	4.r	.	.
 .	.	.	(16qqf#/LL	.	.	.
 .	.	.	16qqg#/JJ	.	.	.
@@ -301,7 +323,8 @@
 .	.	.	.	16ccc#\JJ)	2	.
 =35	=35	=35	=35	=35	=35	=35
 *	*^	*	*	*	*	*
-!	!	!	!	!	!LO:TX:b:t=accelerando e crescendo.	!	!
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;t=accelerando e crescendo	!	!	!	!	!
+!	!	!	!LO:MO:null:mod=.	!	!LO:TX:b:t=accelerando e crescendo.:mod=accelerando e crescendo	!	!
 (4FF#\	8e~/L	4A# 4F#\	<	(16dd#\LL	(16ddd#\LL	3	.
 .	.	.	.	16ff#\	16fff#\	.	.
 .	8e~/	.	.	16cc#\	16ccc#\	.	.
@@ -328,6 +351,7 @@
 =38	=38	=38	=38	=38	=38	=38	=38
 .	.	.	.	.	(16qqcc#/LL	.	.
 .	.	.	.	.	16qqdd#/JJ	.	.
+!	!	!	!LO:MO:null:mod=.	!	!	!	!
 [4.C# [4.CC#\	(8G#/L	4.E\	<	4.e/)	16cc#\LL)	.	.
 .	.	.	.	.	16b\	.	.
 .	8B/	.	.	.	16g#\	.	.
@@ -337,6 +361,7 @@
 *	*v	*v	*	*	*	*	*
 =39	=39	=39	=39	=39	=39	=39
 !	!	!LO:HP:t=crescendo.	!	!LO:TX:a:t=rubato	!	!
+!	!	!LO:MO:null:mod=.	!	!	!	!
 4.C#] 4.CC#\]	[8E\L	<	4.r	(16cc#\LL	.	.
 .	.	.	.	16dd#\	.	.
 .	[>8G# 8E\_>	.	.	16cc#T\	.	.
@@ -346,6 +371,9 @@
 =40	=40	=40	=40	=40	=40	=40
 !	!LO:TX:b:t=molto accelerando e poi veloce	!	!	!LO:TX:b:t=molto accelerando e poi veloce	!	!
 *ped	*	*	*	*	*	*
+!	!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!	!
+!	!	!	!	!	!	!LO:MO:null:mod=f
 [4.C# [4.CC#\	[4.e [4.B [4.G# [4.E\	f	4.r	(16cc#\LL	.	.
 .	.	.	.	16dd#\	.	.
 .	.	.	.	16g#\	.	.
@@ -407,7 +435,7 @@
 .	.	.	.	16cc#/	.	.
 .	.	.	.	16a#/JJ	.	.
 =48	=48	=48	=48	=48	=48	=48
-!	!LO:TX:b:t=ritenu	!	!	!LO:TX:b:t=cus. e. ritardando	!	!
+!	!LO:TX:b:t=ritenu:mod=cresc. e ritardando	!	!	!LO:TX:b:t=cus. e. ritardando:mod=cresc. e ritardando	!	!
 [4.FF# [4.FFF#\	[4.e [4.A# [4.F#\	.	4.r	16g#/LL	.	[
 .	.	.	.	16cc#/	.	.
 .	.	.	.	16a#/	.	.
@@ -418,19 +446,23 @@
 4.FF#] 4.FFF#\]	4.e] 4.A#] 4.F#\]	.	8r	16g#/LL	.	.
 .	.	.	.	16cc#/	.	.
 .	.	.	8r	16a#/	.	.
+!	!	!	!	!	!	!
 .	.	.	.	16g#/JJ	.	.
-!	!	!	!LO:TX:a:t=rit	!	!	!
+!	!	!	!LO:TX:a:t=rit:mod=rit.:mod=	!	!	!
 .	.	.	8f#^>/	16r	.	.
-!	!	!	!	!LO:TX:a:t=rit	!	!
+!	!	!	!	!LO:TX:a:t=rit.:mod=	!	!
 .	.	.	.	16ff#/	.	.
 !LO:LB:g=original	!	!	!LO:LB:g=original	!	!	!
 =50	=50	=50	=50	=50	=50	=50
-!	!LO:TX:a:t=Tempo I°	!	!	!LO:TX:a:t=Tempo 1°	!	!
+!!!OMD:
+!!!OMD-mod: Tempo I°
 *ped	*	*	*	*	*	*
+!	!LO:TX:a:t=Tempo I°:mod=	!LO:MO:null:mod=f	!	!LO:TX:a:t=Tempo 1°:mod=	!	!LO:MO:mod=f
 &(16BBB^\LL	8r	.	(8dd#~\L	8ddd#~\L	.	ff
 *	*	*^	*	*	*	*
 16BB\JJ	.	<	.	.	.	.	.
 !	!	!	!LO:DY:t=forte	!	!	!	!
+!	!	!	!LO:MO:null:mod=.	!	!	!	!
 8r	16F#\LL	.	f	8dd#~\	8ddd#~\	.	.
 .	16B\	.	.	.	.	.	.
 !	!	!	!	!	!LO:TX:b:t=con passione	!	!
@@ -464,9 +496,11 @@
 .	16F#\JJ)	[	.	.	.	.
 =54	=54	=54	=54	=54	=54	=54
 *	*clefG2	*	*	*	*	*
+!	!	!LO:MO:null:mod=ff	!	!	!	!
 N(16DD#^\LL	8r	.	(8ff#~\L	(8fff#~\L	.	ff
 16BB\	.	.	.	.	.	<
-!	!	!	!	!LO:TX:b:t=accel	!	!
+!	!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;t=accel	!	!	!	!	!
+!	!	!LO:MO:null:mod=.	!	!LO:TX:b:t=accel	!	!
 16F#\JJ	16B/LL	ff	8ff#~\	8fff#~\	.	.
 16r	16d#/	.	.	.	.	.
 8DD#^\	16b 16f#/	.	8ff#~\J	8fff#~\J	.	.
@@ -483,27 +517,31 @@ N(16CC##\LL	8r	.	8ee#X\L	8eee#X\L	.	.	<
 .	16B/JJN)	.	.	.	.	.
 !LO:LB:g=original	!	!	!LO:PB:g=original	!	!	!
 =56	=56	=56	=56	=56	=56	=56
-*ped	*	*	*	*	*	*
-N(16DD#^\LL	8r	.	(8ff#~\L	(8fff#~\L	.	p
 *	*	*^	*	*	*	*
+*ped	*	*	*	*	*	*	*
+N(16DD#^\LL	8r	.	.	(8ff#~\L	(8fff#~\L	.	p
+!	!	!LO:MO:null:mod=p <	!	!	!	!	!
 16BB\	.	<	.	.	.	.	.
 !	!	!	!LO:DY:t=piano	!	!	!	!
+!	!	!	!LO:MO:null:mod=.	!	!	!	!
 16F#\JJ	16B/LL	.	p	8ff#~\	8fff#~\	.	.
 16r	16d#/	[	.	.	.	.	.
+*Xped	*	*	*	*	*	*	*
+8DD#^\	16b 16f#/	.	.	8ff#~\J	8fff#~\J	.	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=.
+.	16B/JJN)	.	.	.	.	.	pp
 *	*	*v	*v	*	*	*	*
-*Xped	*	*	*	*	*	*
-8DD#^\	16b 16f#/	.	8ff#~\J	8fff#~\J	.	.
-.	16B/JJN)	.	.	.	.	pp
 =57	=57	=57	=57	=57	=57	=57
 *ped	*	*	*	*	*	*
+!	!	!	!	!	!	!LO:MO:mod=pp <
 N(16EE\LL	8r	pp	8ggn\L	8gggn\L	.	<
 16BB\	.	.	.	.	.	.
-!	!	!	!	!LO:TX:a:t=rit	!	!
+!	!	!	!	!LO:TX:a:t=rit:mod=rit.	!	!
 16Gn\JJ	16B/LL	<	8bb\	8bbb\	.	[ >
 *Xped	*	*	*	*	*	*
 *ped	*	*	*	*	*	*
 16r	16e/	.	.	.	.	.
-!	!LO:TX:a:t=rit	!	!	!	!	!
+!	!LO:TX:a:t=rit:mod=rit.	!	!	!	!	!
 8AAAn\	16b 16gn 16c#^/	[ >	8gg\J)	8ggg\J)	.	]
 .	16An/JJN)	]	.	.	.	.
 *Xped	*	*	*	*	*	*
@@ -521,6 +559,7 @@ N(16DDn^\LL	8r	.	4ff#\	(4fff#\	.	.
 !	!	!	!	!LO:TX:b:t=con sentimento	!	!
 .	.	.	16qqff#/JJ	16qqfff#/JJ	.	.
 *ped	*	*	*	*	*	*
+!	!	!	!LO:SIC:v:s=8ggL)	!	!	!
 N(16EE^\LL	8r	.	8gg#\L)	8gggn\L)	.	.
 16C#\	.	.	.	.	.	.
 16E\JJ	16Gn/LL	[	8ff#\	8fff#\	.	.
@@ -532,7 +571,8 @@ N(16EE^\LL	8r	.	8gg#\L)	8gggn\L)	.	.
 *ped	*	*	*	*	*	*
 N(16FF#^\LL	8r	.	[4dd#\	4ddd#\	.	.
 16D#X\JJ	.	.	.	.	.	.
-!	!LO:TX:a:t=poco ritar	!	!	!	!	!
+!	!	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=poco ritard.	!	!
+!	!LO:TX:a:t=poco ritar:mod=poco ritard.	!	!	!	!	!
 8r	16F#/LL	.	.	.	.	.
 .	16B/	.	.	.	.	.
 *Xped	*	*	*	*	*	*
@@ -540,7 +580,8 @@ N(16FF#^\LL	8r	.	[4dd#\	4ddd#\	.	.
 .	16F#/JJN)	.	.	.	.	.
 =61	=61	=61	=61	=61	=61	=61
 *	*	*	*	*	*	*^
-!	!	!	!	!LO:TX:b:t=rit	!	!LO:HP:a	!
+!	!	!	!	!LO:TX:b:t=rit:mod=	!	!LO:HP:a	!
+!	!	!	!	!	!	!LO:MO:null:mod=.	!
 4.FF# 4.FFF#\	16r	.	8gn\L	8ggn\L	.	<	<
 .	16F#</LL	.	.	.	.	.	.
 .	16Gn</	.	8ee\	8eee\	.	[	[
@@ -555,12 +596,13 @@ N(16FF#^\LL	8r	.	[4dd#\	4ddd#\	.	.
 .	.	8d#~>/	.	.	.	.	.
 .	.	8d#~>/J	.	8r	([8b^\	.	.
 =63	=63	=63	=63	=63	=63	=63	=63
+!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=stringendo	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=stringendo	!	!
 !	!	!LO:TX:b:t=stringendo	!	!	!	!	!
 4.F#/]	4.BB] 4.BBB\]	8c#/L	<	4.r	16b\LL]	.	.
 .	.	.	.	.	16a#\	.	<
 .	.	8g#/	[	.	16b\	.	.
 .	.	.	.	.	16b#X\	.	.
-!	!	!	!	!	!LO:TX:b:t=stingendo.	!	!
+!	!	!	!	!	!LO:TX:b:t=stingendo.:mod=	!	!
 .	.	8e/J)	.	.	16cc#\	.	.
 .	.	.	.	.	16cc##X\JJ	.	.
 =64	=64	=64	=64	=64	=64	=64	=64
@@ -581,7 +623,7 @@ N(16FF#^\LL	8r	.	[4dd#\	4ddd#\	.	.
 =66	=66	=66	=66	=66	=66	=66
 !	!	!	!	!	!	!LO:HP:b=2
 4.BB 4.BBB\	4.d# 4.B 4.F#</	.	16r	4.ddd#\)	.	<
-!	!	!	!LO:TX:a:t=ritardando.	!	!	!
+!	!	!	!LO:TX:a:t=ritardando.:mod=ritardando	!	!	!
 .	.	.	(>16e/LL	.	.	.
 .	.	.	16e#X/	.	.	.
 .	.	.	16f#/	.	.	.
@@ -599,10 +641,10 @@ N(16FF#^\LL	8r	.	[4dd#\	4ddd#\	.	.
 !LO:LB:g=original	!	!	!LO:LB:g=original	!	!	!
 =68	=68	=68	=68	=68	=68	=68
 *^	*	*	*	*	*	*
-!	!	!LO:TX:b:t=morendo.	!	!	!	!	!
+!	!	!LO:TX:b:t=morendo.:mod=morendo	!	!	!	!	!
 [4.F#/	4.BB 4.BBB\	8d#~>/L	.	4.f#/	[4.ffff#\	.	.
 .	.	8d#~>/	.	.	.	.	.
-!	!	!	!	!	!LO:TX:b:t=ritardando.	!	!
+!	!	!	!	!	!LO:TX:b:t=ritardando.:mod=ritardando	!	!
 .	.	8d#~>/J	<	.	.	.	.
 =69	=69	=69	=69	=69	=69	=69	=69
 !	!	!LO:TX:b:t=stringendo	!	!	!	!	!
@@ -611,28 +653,33 @@ N(16FF#^\LL	8r	.	[4dd#\	4ddd#\	.	.
 .	.	8f#/J	[	.	.	.	.
 *v	*v	*	*	*	*	*	*
 =70	=70	=70	=70	=70	=70	=70
-!	!	!LO:DY:a	!	!	!	!LO:DY:a
+!LO:MO:null:mod=*ped	!LO:MO:mod=*null:null	!LO:DY:a	!	!	!	!LO:DY:a
 *	*ped	*	*	*	*	*
 4.BB 4.BBB\	[4.f# [4.d# [>4.F#</	p	[4.dd#^\	[4.ffff# [4.fff#\	.	pp
 =71	=71	=71	=71	=71	=71	=71
 *8ba	*	*	*	*	*	*
+!LO:MO:null:mod=*Xped	!LO:MO:mod=*null:null	!	!	!	!	!
 *	*Xped	*	*	*	*	*
 4.BBBB\	4.f#]; 4.d#] 4.F#</]	.	4.dd#;\]	4.ffff#] 4.fff#;\]	.	.
 *	*	*	*	*X8va	*	*
 ==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2)][(s3,s4)]
+!!!system-decoration: {(s1,s2)},{(s3,s4)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!LO:MO:ori
 !!!RDF**dynam: p = p.
 !!!RDF**dynam: pp = pp.
 !!!RDF**dynam: mp = mp.
 !!!RDF**dynam: f = f.
 !!!RDF**dynam: ff = ff.
 !!!RDF**dynam: < = cres
+!!LO:MO:end
 !!!RDF**kern: N = linked
 !!!ENC: Anastazja Marusiak
 !!!ENC: Leszek Kubiak
 !!!END: 2021-11-16
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-28
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

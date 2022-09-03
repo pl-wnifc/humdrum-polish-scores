@@ -19,13 +19,18 @@
 !!!ONB-nifc:
 !!!AIN: 2 piano
 !!!key: E
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern
 *group1	*group1
 *part2	*part1
 *staff2	*staff1
 *I"[Piano]	*I"[Piano]
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[f#c#g#d#]	*k[f#c#g#d#]
 *E:	*E:
@@ -65,11 +70,10 @@
 *^	*^
 2BB\	2ryy	4f#/	2B\ 2d#\
 .	.	8g#/L	.
-!	!	!LO:TX:t=P:problem=łamanie systemu	!
+!!LO:LB:g=original
 .	.	8a/J	.
 2B/	4GG#\	4b/	4d#\
 .	4GGn\	4cc#/	4e\
-!!LO:LB:g=original
 =7	=7	=7	=7
 2B/	4FF#\	2dd#/	2f#\
 .	4F#\	.	.
@@ -193,23 +197,30 @@
 .	(<8qdd/
 8E\J	16d/L) 16g#X/ 16cc/
 .	16b/JJ
-8GG\)	8c/) 8a/ 8cc/
+8AA\)	8c/) 8a/ 8cc/
 8E\	8e/
 =28	=28
 *^	*^
+!LO:SIC:v:s=8AA\L 8E\ 8A\	!	!	!
 8AA-\L 8E\ 8A-\	4ryy	8c/L 8e/ 8cc/	4ryy
+!LO:SIC:v:s=8AA\J 8E\ 8A\	!	!	!
 8AA-\J 8E\ 8A-\	.	8c/J 8e/ 8cc/	.
+!LO:SIC:v:s=8A/L	!	!	!
 8A-/L	4D\	8f/L	4c\
 16G/L	.	16g/L	.
+!	!	!LO:SIC:v:s=16aJJ	!
 16F/JJ	.	16a#X/JJ	.
 *v	*v	*	*
 *	*v	*v
 =29	=29
+!LO:SIC:v:s=(>8GG\L 8D\ 8G\	!LO:SIC:v:s=(<8B-/L 8f/ 8b-/
 (>8GG\L 8D-\ 8G\	(<8B/L 8f/ 8b/
+!	!LO:SIC:v:s=(8qb-/
 .	(8qb/
+!	!LO:SIC:v:s=16B-/L) 16e/ 16a/
 8C\J	16B/L) 16e/ 16a/
 .	16g/JJ
-!LO:TX:a:i:t=rit:rj	!
+!LO:TX:a:i:t=rit:rj:mod=rit.	!LO:SIC:v:s=8A/) 8f/ 8a/
 8FF\) 8F\	8A-/) 8f/ 8a/
 (>8E\	(<8d/ 8f/ 8g#X/
 !!LO:LB:g=original
@@ -232,7 +243,7 @@
 .	16cc/JJ
 =33	=33
 *>C1	*>C1
-!!LO:TX:a:t=1 volta
+!!LO:TX:a:t=1 volta:mod=
 (>8A\L	4.c/ 4.e/ 4.a/
 8E\	.
 8AA\J)	.
@@ -240,11 +251,12 @@
 =34||	=34||
 *>C2	*>C2
 !	!LO:TX:t=P:problem=po prawej dopisany takt ołówkiem
-!!LO:TX:a:t=2 volta
+!!LO:TX:a:t=2 volta:mod=
 8A\L)	2c/) 2e/ 2a/
 8E\J	.
 4AA\	.
 !!LO:PB:g=original
+!LO:MO:mod==35!|:	!LO:MO:mod==35!|:
 =35||	=35||
 *>D	*>D
 *k[b-]	*k[b-]
@@ -291,6 +303,7 @@
 =44	=44	=44	=44
 4d/	2D\	4dd/	4f#X\
 4c/	.	8g/L	8e\L
+!	!	!LO:SIC:v:s=8f#/J 8a/	!
 .	.	8f#/J 8b-/	8f#\J
 4B-/	4GG\	4b-/)	4g\
 =45	=45	=45	=45
@@ -355,11 +368,10 @@
 =56	=56	=56	=56
 4d/	4GG\	4b-/	4f\
 8c/L	4C\	8a/L	4e\
-!	!	!LO:TX:t=P:problem=łamanie systemu	!
+!!LO:LB:g=original
 8B-/J	.	8g/J	.
 4A/	4FF\	4a/	4f\
 4r	4F\	4r	4r
-!!LO:LB:g=original
 =57	=57	=57	=57
 4r	4E\	4r	4r
 4r	4D\	4a/	4f\
@@ -380,6 +392,7 @@
 =60	=60	=60	=60
 4d/	4B-\	4dd/	4b-\
 4g/	4A\	4ee/	4cc#X\
+!	!LO:SIC:v:s=4d	!	!
 2f/	4c\	4ff/	2dd\
 .	4c\	4aa/	.
 =61	=61	=61	=61
@@ -460,6 +473,7 @@
 8G\J	8d/J 8g/ 8b/
 =73	=73
 .	(<8qdd/
+!	!LO:SIC:v:s=4e/) 4g/ 4cc/
 4C\	4e/) 4a/ 4cc/
 8D\L	8d/L 8f#X/ 8b/
 8D#X\J	8c/J 8f#/ 8a/
@@ -538,12 +552,14 @@
 8AAA\J	.
 ==	==
 *-	*-
-!!!system-decoration: [{g1}]
+!!!system-decoration: {(g1)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Filip Voros
 !!!END: 2021-11-10
 !!!EED: Jędrzej Mróz
 !!!ESR: 2021-11-12
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-28
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
