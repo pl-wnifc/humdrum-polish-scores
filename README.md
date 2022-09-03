@@ -24,11 +24,11 @@ People and Sponsors
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
-| Jan Barakat |  |  | 211 |  | 91 |
-| Lidia Bialucha |  |  |  |  | 10 |
+| Jan Barakat |  |  | 211 |  | 99 |
+| Lidia Bialucha |  |  |  |  | 13 |
 | Andrzej Borzym | 373 | 606,569 | 428 | 146 |  |
-| Jolanta Bujas-Poniatowska |  |  |  |  | 5 |
-| Elżbieta Cabała |  |  |  |  | 29 |
+| Jolanta Bujas-Poniatowska |  |  |  |  | 6 |
+| Elżbieta Cabała |  |  |  |  | 35 |
 | Marta Chmielewska | 153 | 191,995 | 461 |  |  |
 | Zuzanna Daniec |  |  |  |  | 4 |
 | Olaf Gawdzik |  |  |  |  | 5 |
@@ -48,7 +48,7 @@ People and Sponsors
 | Anastazja Marusiak | 558 | 724,094 | 2 |  |  |
 | Solarz Mateusz | 25 | 31,345 |  |  |  |
 | Anna Matuszewska | 195 | 333,803 | 170 |  |  |
-| Mateusz Mrugas | 1 | 2,963 | 237 |  | 33 |
+| Mateusz Mrugas | 1 | 2,963 | 237 |  | 39 |
 | Jędrzej Mróz | 21 | 3,957 | 242 |  |  |
 | Zofia Niedbalska | 1 | 425 | 74 |  |  |
 | Marta Opryszak | 165 | 247,879 | 1 |  | 39 |
@@ -57,14 +57,14 @@ People and Sponsors
 | Katarzyna Serwa | 312 | 535,966 | 249 | 49 |  |
 | Mateusz Solarz | 596 | 888,336 | 10 |  |  |
 | Krzysztof Stępień | 476 | 692,241 | 122 | 4 |  |
-| Antoni Szymański |  |  | 543 |  | 32 |
-| Konrad Tyszka |  |  |  |  | 55 |
+| Antoni Szymański |  |  | 543 |  | 44 |
+| Konrad Tyszka |  |  |  |  | 60 |
 | Filip Voros | 381 | 484,233 | 1 |  |  |
 | Kamil Watkowski | 403 | 544,716 | 123 |  |  |
-| Natalia Wrzos |  |  | 213 |  | 75 |
-| Emilia Ziętek | 12 | 2,142 | 1 |  | 52 |
+| Natalia Wrzos |  |  | 213 |  | 77 |
+| Emilia Ziętek | 12 | 2,142 | 1 |  | 66 |
 | Urszula Świątek | 3 | 3,016 | 201 |  |  |
-| TOTALS | 7,021 | 10,329,609 | 6,393 | 522 | 586 |
+| TOTALS | 7,021 | 10,329,609 | 6,393 | 522 | 643 |
 
 </details>
 
@@ -139,9 +139,9 @@ websites for the scanned source editions that are currently available:
 | <a target="_blank" href="http://staniatki.studiokropka.pl/mbp">Music of the Polish Benedictine Sisters</a> | 7 | 0.1 |
 | <a target="_blank" href="https://bc.bdsandomierz.pl/dilibra">Digital Library of the Diocesan Library in Sandomierz</a> | 1,010 | 21.3 |
 | <a target="_blank" href="https://cyfrowe.mnk.pl">Polish National Museum in Krakow</a> | 108 | 2.2 |
-| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 3,087 | 65.1 |
+| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 3,089 | 65.2 |
 | <a target="_blank" href="http://polona.pl">Polona</a> (<a target="_blank" href="https://www.bn.org.pl/en">Polish National Library</a>) | 523 | 11.0 |
-| TOTAL | 4735 |     |
+| TOTAL | 4737 |     |
 
 </details>
 
