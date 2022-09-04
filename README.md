@@ -25,15 +25,15 @@ People and Sponsors
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
 | Jan Barakat |  |  | 211 |  | 99 |
-| Lidia Bialucha |  |  |  |  | 13 |
+| Lidia Bialucha |  |  |  |  | 14 |
 | Andrzej Borzym | 373 | 606,569 | 428 | 146 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 6 |
-| Elżbieta Cabała |  |  |  |  | 35 |
+| Elżbieta Cabała |  |  |  |  | 38 |
 | Marta Chmielewska | 153 | 191,995 | 461 |  |  |
 | Zuzanna Daniec |  |  |  |  | 4 |
 | Olaf Gawdzik |  |  |  |  | 5 |
 | Tomasz Grochalski | 562 | 831,052 |  |  |  |
-| Andrzej Gręziak | 804 | 1,286,581 | 2 |  |  |
+| Andrzej Gręziak | 804 | 1,286,581 | 3 |  |  |
 | Jacek Iwaszko | 1 | 219 | 2 | 1 |  |
 | Marcin Jachim | 570 | 880,723 | 1 |  |  |
 | Wojciech Jakubiak-Danek |  |  | 378 |  |  |
@@ -48,23 +48,24 @@ People and Sponsors
 | Anastazja Marusiak | 558 | 724,094 | 2 |  |  |
 | Solarz Mateusz | 25 | 31,345 |  |  |  |
 | Anna Matuszewska | 195 | 333,803 | 170 |  |  |
-| Mateusz Mrugas | 1 | 2,963 | 237 |  | 39 |
+| Mateusz Mrugas | 1 | 2,963 | 237 |  | 48 |
 | Jędrzej Mróz | 21 | 3,957 | 242 |  |  |
 | Zofia Niedbalska | 1 | 425 | 74 |  |  |
 | Marta Opryszak | 165 | 247,879 | 1 |  | 39 |
-| Julita Ruszuk | 1 | 182 | 116 |  |  |
+| Julita Ruszuk | 2 | 1,517 | 117 |  |  |
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
 | Katarzyna Serwa | 312 | 535,966 | 249 | 49 |  |
 | Mateusz Solarz | 596 | 888,336 | 10 |  |  |
 | Krzysztof Stępień | 476 | 692,241 | 122 | 4 |  |
-| Antoni Szymański |  |  | 543 |  | 44 |
-| Konrad Tyszka |  |  |  |  | 60 |
-| Filip Voros | 381 | 484,233 | 1 |  |  |
+| Antoni Szymański |  |  | 543 |  | 59 |
+| Konrad Tyszka |  |  |  |  | 67 |
+| Filip Voros | 382 | 485,394 | 1 |  |  |
 | Kamil Watkowski | 403 | 544,716 | 123 |  |  |
 | Natalia Wrzos |  |  | 213 |  | 77 |
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 66 |
 | Urszula Świątek | 3 | 3,016 | 201 |  |  |
-| TOTALS | 7,021 | 10,329,609 | 6,393 | 522 | 643 |
+| Bartosz Żurakowski |  |  |  |  | 2 |
+| TOTALS | 7,023 | 10,332,105 | 6,395 | 522 | 680 |
 
 </details>
 
@@ -101,7 +102,7 @@ to visit its webpage.
 The `Scores` column lists the number of digital transcriptions within
 each archive directory, and the `Notes` column gives the number of
 musical notes contained within those scores.   Currently there are
-7,023 scores containing a total of 10,329,965 notes.
+7,025 scores containing a total of 10,332,461 notes.
 
 <details><summary>Archives represented in repository</summary>
 
@@ -116,7 +117,7 @@ musical notes contained within those scores.   Currently there are
 | <a target="_blank" href="https://polishscores.org?s=pl-sa"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-sa.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-sa](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-sa/kern)</span></span> | [Diocesan Library, Sandomierz](http://bc.bdsandomierz.pl/dlibra?language=en) | 1,244 | 17.7 | 1,576,517 | 15.2 |
 | <a target="_blank" href="https://polishscores.org?s=pl-stab"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-stab.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-stab](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-stab/kern)</span></span> | [St. Adalbert Abbey, Staniątki](https://rism.info/library_collections/2017/09/28/music-in-the-convent-of-st-adalberts-abbey-in.html) | 154 | 2.1 | 379,087 | 3.6 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wn"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wn.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wn](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wn/kern)</span></span> | [Polish National Library](https://www.bn.org.pl/en) | 493 | 7.0 | 750,176 | 7.2 |
-| <a target="_blank" href="https://polishscores.org?s=pl-wnifc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wnifc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wnifc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wnifc/kern)</span></span> | [Chopin Institute, Warsaw](https://nifc.pl/en) | 309 | 4.3 | 224,427 | 2.1 |
+| <a target="_blank" href="https://polishscores.org?s=pl-wnifc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wnifc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wnifc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wnifc/kern)</span></span> | [Chopin Institute, Warsaw](https://nifc.pl/en) | 311 | 4.4 | 226,923 | 2.1 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wtm"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wtm.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern)</span></span> | [Warsaw Music Society](http://warszawskietowarzystwomuzyczne.pl/biblioteka/) | 1,162 | 16.5 | 2,232,114 | 21.6 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wumfc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wumfc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern)</span></span> | [Chopin University of Music](http://www.biblioteka.chopin.edu.pl/pl) | 100 | 1.4 | 81,582 | 0.7 |
 
@@ -139,9 +140,9 @@ websites for the scanned source editions that are currently available:
 | <a target="_blank" href="http://staniatki.studiokropka.pl/mbp">Music of the Polish Benedictine Sisters</a> | 7 | 0.1 |
 | <a target="_blank" href="https://bc.bdsandomierz.pl/dilibra">Digital Library of the Diocesan Library in Sandomierz</a> | 1,010 | 21.3 |
 | <a target="_blank" href="https://cyfrowe.mnk.pl">Polish National Museum in Krakow</a> | 108 | 2.2 |
-| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 3,089 | 65.2 |
+| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 3,091 | 65.2 |
 | <a target="_blank" href="http://polona.pl">Polona</a> (<a target="_blank" href="https://www.bn.org.pl/en">Polish National Library</a>) | 523 | 11.0 |
-| TOTAL | 4737 |     |
+| TOTAL | 4739 |     |
 
 </details>
 
@@ -438,7 +439,7 @@ Composers
 | Siwiński, Andrzej | 24 | 24,554 |
 | Smacierzyński | 1 | 113 |
 | Sokół, Andrzej | 1 | 287 |
-| Sowiński, Wojciech | 65 | 205,756 |
+| Sowiński, Wojciech | 67 | 208,252 |
 | Stabile, Annibale | 63 | 47,467 |
 | Stachowicz, Damian | 1 | 1,141 |
 | Staromiejski, J. | 8 | 35,213 |
@@ -528,7 +529,7 @@ Composers
 | Śmietański, Emil Władysław | 74 | 249,194 |
 | Hertz, Michał | 71 | 102,866 |
 | Żebrowski, Marcin Józef | 71 | 154,142 |
-| Sowiński, Wojciech | 65 | 205,756 |
+| Sowiński, Wojciech | 67 | 208,252 |
 | Gorczycki, Grzegorz Gerwazy | 64 | 41,083 |
 | Stabile, Annibale | 63 | 47,467 |
 | Rodowski, Aleksander | 57 | 153,296 |
@@ -873,7 +874,7 @@ Composers
 | Żeleński, Władysław | 151 | 312,978 |
 | Luna, Georgius | 92 | 251,534 |
 | Śmietański, Emil Władysław | 74 | 249,194 |
-| Sowiński, Wojciech | 65 | 205,756 |
+| Sowiński, Wojciech | 67 | 208,252 |
 | Ścigalski, Franciszek | 51 | 160,680 |
 | Żebrowski, Marcin Józef | 71 | 154,142 |
 | Rodowski, Aleksander | 57 | 153,296 |
