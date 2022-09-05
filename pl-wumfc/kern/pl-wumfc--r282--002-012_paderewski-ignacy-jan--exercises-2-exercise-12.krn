@@ -19,20 +19,28 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A419/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4702 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: druga grupa ćwiczeń od skanu 0008
-!!!AIN: 2 piano
-!!!key: G
+!!!AIN: 1 piano
+!!!key: C
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" |  modori -m |
 **kern	**kern
-*part2	*part1
+*part1	*part1
 *group1	*group1
 *staff2	*staff1
 *I"[Pianoforte]	*I"[Pianoforte]
 *I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[]	*k[]
-*G:	*G:
+*C:	*C:
+!LO:MO:mod=*M2/2	!LO:MO:mod=*M2/2
 *M	*M
+!LO:MO:mod=*met(c|)	!LO:MO:mod=*met(c|)
+*	*
+*mmet(c|)	*mmet(c|)
 *^	*^
 !	!	!LO:TX:a:t=C. f	!
 2GG\	8G/L	2g/	8B\L
@@ -42,19 +50,15 @@
 *	*	*v	*v
 =1	=1	=1
 2E\	8G/L	2g/
-!	!LO:SIC:v:s=8F#/	!
 .	8F/	.
 .	8G/	.
 .	8A/J	.
-!	!	!LO:SIC:v:s=2f#/
 2D\	8B/L	2f/
 .	8c/	.
 .	8d/	.
-!	!LO:SIC:v:s=8F#/	!
 .	8F/J	.
 =2	=2	=2
 2C\	8G/L	2e/
-!	!LO:SIC:v:s=8F#/	!
 .	8F/	.
 .	8G/	.
 .	8A/J	.
@@ -64,36 +68,33 @@
 .	8A/J	.
 =3	=3	=3
 *	*	*^
-2E\	8G/L	2g/	16G\LL
-.	.	.	16A\
-.	8g/	.	16B\
-.	.	.	16e\JJ
-!	!LO:SIC:v:s=8f#/	!	!
-.	8f/	.	4ryy
-.	8e/J	.	.
-!LO:SIC:v:s=2F#\	!	!	!
+!	!	!	!LO:N:vis=16
+2E\	8G/L	2g/	8G\LL
+!	!	!	!LO:N:vis=16
+.	8g/	.	8A\
+!	!	!	!LO:N:vis=16
+.	8f/	.	8B\
+!	!	!	!LO:N:vis=16
+.	8e/J	.	8e\JJ
 2F\	8d/L	2a/	2ryy
 .	8e/	.	.
 .	8d/	.	.
 .	8c/J	.	.
 =4	=4	=4	=4
+!	!LO:SIC:s=2B/	!	!
 2G;\	2B;/	2r;yy	2b;>/
 2G\	2ryy	2b/	8g\L
-!	!	!	!LO:SIC:v:s=8f#\
 .	.	.	8f\
 .	.	.	8e\
 .	.	.	8d\J
 *v	*v	*	*
-!!linebreak:original
+!!LO:LB:g=original
 =5	=5	=5
 2G\	2b/	8e\L
-!	!	!LO:SIC:v:s=8f#\
 .	.	8f\
 .	.	8g\
-!	!	!LO:SIC:v:s=8f#\J
 .	.	8f\J
 2GG\	2b/	8e\L
-!	!	!LO:SIC:v:s=8f#\
 .	.	8f\
 .	.	8e\
 .	.	8d\J
@@ -101,10 +102,8 @@
 2AA\	2a/	8c\L
 .	.	8B\
 .	.	8A\
-!	!	!LO:SIC:v:s=8f#\J
 .	.	8f\J
 2C\	2g/	8e\L
-!	!	!LO:SIC:v:s=8f#\
 .	.	8f\
 .	.	8e\
 .	.	8d\J
@@ -112,17 +111,15 @@
 2E\	2cc/	8c\L
 .	.	8d\
 .	.	8e\
-!	!	!LO:SIC:v:s=8f#\J
 .	.	8f\J
 2E\	2b/	8g\L
-!	!	!LO:SIC:v:s=8f#\
 .	.	8f\
 .	.	8e\
 .	.	8d\J
 =8	=8	=8
+!	!	!LO:SIC:s=2c
 2A;\	2a;/	2c;\
 2E\	2g/	8e\L
-!	!	!LO:SIC:v:s=8f#\
 .	.	8f\
 .	.	8e\
 .	.	8d\J
@@ -130,10 +127,9 @@
 2A\	2a/	8c\L
 .	.	8d\
 .	.	8e\
-!	!	!LO:SIC:v:s=8f#\J
+!	!	!J
 .	.	8f\J
 2G\	2b/	8g\L
-!	!	!LO:SIC:v:s=8f#\
 .	.	8f\
 .	.	8e\
 .	.	8d\J
@@ -143,24 +139,23 @@
 .	.	8c\
 .	.	8d\J
 2E\	2g/	8e\L
-!	!	!LO:SIC:v:s=8f#\
 .	.	8f\
 .	.	8e\
 .	.	8B\J
 *	*v	*v
-!!linebreak:original
+!!LO:LB:g=original
 =11	=11
 *^	*
 2A\	8c/L	2e/
 .	8B/	.
 .	8c/	.
 .	8e/J	.
-!	!	!LO:SIC:v:s=2f#/
 2D\	8d/L	2f/
 .	8e/	.
 .	8d/	.
 .	8c/J	.
 =12	=12	=12
+!	!LO:SIC:s=2B/	!
 2G;\	2B;/	2g;/
 2G\	8B/L	2dd\
 .	8A/	.
@@ -168,12 +163,10 @@
 .	8G/J	.
 =13	=13	=13
 2G\	8g/L	2b/
-!	!LO:SIC:v:s=8f#/	!
 .	8f/	.
 .	8e/	.
 .	8d/J	.
 2E\	8e/L	2g/
-!	!LO:SIC:v:s=8f#/	!
 .	8f/	.
 .	8e/	.
 .	8d/J	.
@@ -186,32 +179,31 @@
 2AA\	2ryy	2cc/	8e\L
 .	.	.	8d\
 .	.	.	8e\
-!	!	!	!LO:SIC:v:s=8f#\J
 .	.	.	8f\J
 *v	*v	*	*
 =15	=15	=15
 2BB\	2b/	8g\L
-!	!	!LO:SIC:v:s=8f#\
 .	.	8f\
 .	.	8g\
 .	.	8d\J
-!	!	!LO:SIC:v:s=8f#\L
 2D\	2a/	8f\L
 .	.	8e\
 .	.	8d\
 .	.	8c\J
 =16	=16	=16
-!LO:N:vis=2.	!	!
+!LO:N:vis=2.	!	!LO:SIC:s=2B
 2GG;\	2g;/	2B;\
 *	*v	*v
 ==	==
 *-	*-
-!!!system-decoration: [(g1)]
+!!!system-decoration: {(g1)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-11-16
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-12
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

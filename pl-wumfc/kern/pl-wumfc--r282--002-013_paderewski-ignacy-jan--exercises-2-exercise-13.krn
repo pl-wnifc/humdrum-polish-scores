@@ -22,16 +22,25 @@
 !!!OMD:
 !!!AIN: 1 piano
 !!!key: G
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part1	*part1
 *staff2	*staff1
-*I"Fortepian	*I"Fortepian
+*I"[Pianoforte]	*I"[Pianoforte]
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[f#]	*k[f#]
 *G:	*G:
-*M4/4	*M4/4
+!LO:MO:mod=*M2/2	!LO:MO:mod=*M2/2
+*M	*M
+!LO:MO:mod=*met(c|)	!LO:MO:mod=*met(c|)
+*	*
+*mmet(c|)	*mmet(c|)
 *	*^
 !	!LO:TX:t=P:problem=brak metrum	!
 !	!LO:TX:b:t=C.f.	!
@@ -105,6 +114,7 @@
 .	8a/	.
 .	8b/J	.
 =8	=8	=8
+!	!	!LO:SIC:s=2c
 2A;>\	2cc;>/	2c;<\
 2G\	8b/L	2g\
 .	8cc/	.
@@ -139,6 +149,7 @@
 .	8a/J	.
 !!LO:LB:g=original
 =12	=12	=12
+!	!	!LO:SIC:s=2B
 2G;>\	2b;>/	2B;<\
 2d\	8ff#/L	2d\
 .	8ee/	.
@@ -178,12 +189,14 @@
 !!LO:LB:g=original
 ==	==
 *-	*-
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-12
 !!!ENC: Marta Chmielewska
 !!!END: 2021-11-16
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

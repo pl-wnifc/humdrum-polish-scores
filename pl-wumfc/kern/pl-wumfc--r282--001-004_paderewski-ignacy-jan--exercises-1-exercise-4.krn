@@ -21,17 +21,24 @@
 !!!ONB-nifc: UWAGA: pierwsza grupa ćwiczeń na skanach 0004-0007
 !!!AIN: 1 piano
 !!!key: e
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part1	*part1
 *staff2	*staff1
 *>[A,A,B]	*>[A,A,B]
 *>A	*>A
 *I"[Pianoforte]	*I"[Pianoforte]
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[f#]	*k[f#]
 *e:	*e:
+!LO:MO:null:mod=*M2/2	!LO:MO:null:mod=*M2/2
+*	*
 !LO:TX:a:i:t=C. f	!LO:TX:t=P:problem=brak oznaczenia metrycznego
 2E\	4ee\
 .	4dd\
@@ -156,10 +163,12 @@
 2E\	2e;/
 ==	==
 *-	*-
-!!!system-decoration: (s1,s2)
+!!!system-decoration: {(s1,s2)}
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-10
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-11-13
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

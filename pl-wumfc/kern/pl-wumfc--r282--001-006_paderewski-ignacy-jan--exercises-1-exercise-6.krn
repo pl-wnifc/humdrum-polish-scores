@@ -21,17 +21,24 @@
 !!!ONB-nifc: UWAGA: pierwsza grupa ćwiczeń na skanach 0004-0007
 !!!AIN: 1 piano
 !!!key: e
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part1	*part1
 *staff2	*staff1
 *>[A,A,B]	*>[A,A,B]
-*>A	*>A
 *I"[Pianoforte]	*I"[Pianoforte]
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[f#]	*k[f#]
 *e:	*e:
+!LO:MO:null:mod=*M6/4	!LO:MO:null:mod=*M6/4
+*	*
+*>A	*>A
 !LO:TX:a:t=C. f	!LO:TX:t=P:problem=brak oznaczenia metrycznego / klucza
 2.E\	4r
 .	4ee\
@@ -58,7 +65,9 @@
 .	4b/
 .	4a/
 =4	=4
+!	!LO:MO:mod=!null:null
 !	!LO:N:vis=2
+!	!LO:SIC:s=2.g;
 2.E;\	2.g;</
 2.B\	4gg\
 .	4dd\
@@ -146,6 +155,7 @@
 .	4a/
 .	4b/
 =16	=16
+!	!LO:SIC:s=4cc#X\;
 2.E;\	4cc#X\
 .	4dd#X\
 .	4ee\
@@ -203,15 +213,18 @@
 .	4f#/
 .	4g/
 =24	=24
+!LO:SIC:s=2.E\;	!LO:SIC:s=2.e/;
 2.E\	2.e/
 ==	==
 *-	*-
-!!!system-decoration: (s1,s2)
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-11-11
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-11-13
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

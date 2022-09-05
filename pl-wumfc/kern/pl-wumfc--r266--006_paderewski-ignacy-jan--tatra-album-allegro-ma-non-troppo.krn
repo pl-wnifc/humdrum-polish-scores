@@ -18,24 +18,32 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A309/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4686 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: zbiór zawiera utwory na 4 ręce numerowane I-VI. Nr 006 od skanu 0020
-!!!AIN: 4 piano
-!!!key: a
+!!!AIN: 2 piano
+!!!key: C
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | autostem -r | modori -m
 **kern	**kern	**dynam	**kern	**kern	**dynam
-*part4	*part3	*part3	*part2	*part1	*part1
+*group2	*group2	*	*group1	*group1	*
+*part2	*part2	*part2	*part1	*part1	*part1
 *staff4	*staff3	*	*staff2	*staff1	*
 *I"Klavier [for hands]	*I"Klavier [for hands]	*	*I"Klavier [for hands]	*I"Klavier [for hands]	*
+*I'	*I'	*	*I'	*I'	*
 *Ipiano	*Ipiano	*	*Ipiano	*Ipiano	*
 *ICklav	*ICklav	*	*ICklav	*ICklav	*
+*IGsolo	*IGsolo	*	*IGsolo	*IGsolo	*
+*mI"Pianoforte II	*mI"Pianoforte II	*	*mI"Pianoforte I	*mI"Pianoforte I	*
+*mI'pf II	*mI'pf II	*	*mI'pf I	*mI'pf I	*
 *>[A,B,B,C,D,D,E]	*>[A,B,B,C,D,D,E]	*>[A,B,B,C,D,D,E]	*>[A,B,B,C,D,D,E]	*>[A,B,B,C,D,D,E]	*>[A,B,B,C,D,D,E]
 *>A	*>A	*>A	*>A	*>A	*>A
 *clefF4	*clefF4	*	*clefG2	*clefG2	*
 *k[]	*k[]	*	*k[]	*k[]	*
-*a:	*a:	*	*a:	*a:	*
+*C:	*C:	*	*C:	*C:	*
 *M2/4	*M2/4	*	*M2/4	*M2/4	*
 =1	=1	=1	=1	=1	=1
+!!!OMD:
+!!!OMD-mod: Allegro ma non troppo
 *^	*	*	*	*	*
-!	!	!	!	!	!LO:TX:t=P:problem=all\right or left	!
-!	!	!LO:TX:a:t=Allegro ma non troppo.	!	!	!LO:TX:a:t=Allegro ma non troppo.	!LO:DY:t=mf.
+!	!	!	!	!	!LO:TX:t=P:problem=all\right or left	!LO:MO:mod=!null:null
+!	!	!LO:TX:a:t=Allegro ma non troppo.:mod=	!	!	!LO:TX:a:t=Allegro ma non troppo.:mod=	!LO:DY:t=mf.
 8rGG	2CC\	4r	mf	2r	(8.c/L	mf
 [<8GG^/	.	.	.	.	.	.
 .	.	.	.	.	16d/Jk	.
@@ -71,6 +79,7 @@
 8rGG	2GGG\	4r	.	8r	24d/LL	.
 .	.	.	.	.	24e/	.
 .	.	.	.	.	24d/JJ	.
+!	!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!	!	!LO:HP:t=cres.
 [<8GG^/	.	.	.	8c'>/L	8r	<
 4GG/]	.	4F 4BB/	.	8B'>/	4r	.
@@ -94,11 +103,13 @@
 *^	*	*	*	*	*
 *	*8ba	*	*	*	*	*
 !	!	!	!	!LO:S:color=grey	!LO:S:color=grey	!
-!	!	!	!	!LO:ART:color=grey	!LO:ART:color=grey	!
+!	!	!	!LO:MO:null:mod=f	!LO:ART:color=grey	!LO:ART:color=grey	!LO:MO:null:mod=f
 8r	2CCC\	4r	.	(>8.c^>/L	(8.cc^\L	.
 *	*X8ba	*	*	*	*	*
 [<8GG^/	.	.	.	.	.	.
+!	!	!	!	!	!	!LO:MO:null:mod=.
 .	.	.	.	16d/Jk)	16dd\Jk	f
+!	!	!	!LO:MO:null:mod=.	!	!	!
 4GG/]	.	4G 4E 4C/	f	8e'>/L	8ee'\L)	.
 .	.	.	.	8f'>/J	8ff'\J	.
 *v	*v	*	*	*	*	*
@@ -126,8 +137,10 @@
 =12	=12	=12	=12	=12	=12
 *8ba	*	*	*	*	*
 4DDD\	8r	.	8f'/L	8ff'\L	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *X8ba	*	*	*	*	*
 .	8G 8F 8AA/	.	8e'/J	8ee'\J	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *8ba	*	*	*	*	*
 4GGG\	8r	.	4d^>/	4dd^\	.
 .	8G 8F 8BB/	.	.	.	.
@@ -136,6 +149,7 @@
 =13	=13	=13	=13	=13	=13
 *^	*	*	*	*	*
 !	!	!	!LO:DY:t=forte	!	!	!
+!	!	!	!LO:MO:null:mod=.	!	!	!
 8rGG	2GGG\	4r	f	(>8.B/L	(8.b\L	.
 [<8GG/	.	.	.	.	.	.
 .	.	.	.	16c/Jk	16cc\Jk	.
@@ -163,11 +177,17 @@
 8r	2CCC\	4r	.	8e'/L	8ee'\L	.
 *	*X8ba	*	*	*	*	*
 [<8GG^/	.	.	.	8d'/J	8dd'\J	.
+!	!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!	!
+!	!	!	!	!	!	!LO:MO:null:mod=sf
 4GG/]	.	4G 4E 4C/	sf	4c^>/	4cc^\	.
 *v	*v	*	*	*	*	*
 =17!|:	=17!|:	=17!|:	=17!|:	=17!|:	=17!|:
 *>B	*>B	*>B	*>B	*>B	*>B
-!	!LO:TX:a:t=Presto	!LO:DY:t=Piano	!	!LO:TX:a:t=Presto	!LO:DY:t=p.
+!!!OMD:
+!!!OMD-mod: Presto
+!	!	!LO:MO:mod=!null:null	!	!	!LO:MO:mod=!null:null
+!	!LO:TX:a:t=Presto:mod=	!LO:DY:t=Piano	!	!LO:TX:a:t=Presto:mod=	!LO:DY:t=p.
 2AAA\	8r	p	8cc'\L	8aa'\L	p
 !	!LO:TX:b:t=leggiero	!	!	!LO:TX:b:t=leggiero	!
 .	8e'\L	.	8ee'\	8ccc'\	.
@@ -189,15 +209,19 @@
 .	8e'\J	.	8a\J	8ff#X'\J	[
 =20	=20	=20	=20	=20	=20
 *	*	*	*	*	*^
+!	!	!LO:MO:mod=!null:null	!	!	!	!
 !	!	!LO:DY:t=forte	!	!	!	!
 4EE\	4B 4G#X 4E\	f	4b 4e\	4gg#X 4ee\	ff	.
 *8ba	*	*	*	*	*	*
 !	!	!	!	!	!	!LO:DY:a
+!	!	!	!	!	!	!LO:MO:null:mod=.
 4EEE\	4B 4G# 4E\	sf	4b 4e\	4eee 4gg# 4ee\	sf	sf
 *X8ba	*	*	*	*	*	*
 *	*	*	*	*	*v	*v
 =21	=21	=21	=21	=21	=21
-!	!	!LO:DY:t=p.	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!LO:MO:mod=!null:null	!	!	!
+!	!	!LO:DY:t=p.	!	!	!LO:MO:null:mod=p
 2AAA\	8r	p	8cc'\L	8aa'\L	.
 !	!LO:TX:b:t=leggiero	!	!	!LO:TX:b:t=leggiero	!
 .	8e'\L	.	8ee'\	8ccc'\	.
@@ -217,15 +241,21 @@
 .	8E'\	.	8b\L	8gg#X'\L	.
 .	8e'\J	[	8g#X\J	8ee'\J	[[
 =24	=24	=24	=24	=24	=24
+!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!LO:DY:t=forte	!	!	!
+!	!	!LO:MO:mod=ff	!	!	!
 4AA\	4c 4A 4E\	f	4cc 4a\	4aa 4ee\	ff
 !	!	!	!	!	!LO:DY:a
 4AA 4AAA\	4e 4c 4A 4E\	sf	4ee 4a^\	4aaa 4ccc 4aa\	sf
 !!LO:LB:g=original
 =25:|!	=25:|!	=25:|!	=25:|!	=25:|!	=25:|!
 *>C	*>C	*>C	*>C	*>C	*>C
+!!!OMD:
+!!!OMD-mod: Tempo Iº
 *^	*	*	*	*	*
-!	!	!LO:TX:a:t=Tempo Iº	!	!	!LO:TX:a:t=Tempo Iº	!
+!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!
+!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=Tempo Iº:mod=	!LO:MO:null:mod=mf	!	!LO:TX:a:t=Tempo Iº:mod=	!
 8rGG	2CC\	4r	.	(>8.c/L	(8.cc\L	mf
 [<8GG^/	.	.	.	.	.	.
 .	.	.	.	16d/Jk)	16dd\Jk)	.
@@ -234,7 +264,9 @@
 =26	=26	=26	=26	=26	=26	=26
 8rGG	2CC\	4r	.	8e'/L	8ee'\L	.
 [<8GG^/	.	.	.	(16e/L	(16ee\L	.
+!	!	!	!	!	!LO:SIC:s=16ff\JJ	!
 .	.	.	.	16f/JJ	16ff\JJ)	.
+!	!	!	!	!LO:SIC:s=8e/L)'	!LO:SIC:s=8ee'\L)	!
 4GG/]	.	4G 4E 4C/	.	8e/L)	8ee'\L	.
 .	.	.	.	8c'/J	8cc'\J	.
 *v	*v	*	*	*	*	*
@@ -254,16 +286,22 @@
 *^	*	*	*	*	*
 8rGG	2GGG\	4r	.	(>8.B/L	(8.b\L	.
 [<8GG^/	.	.	.	.	.	.
+!	!	!	!	!LO:SIC:s=16c/Jk	!	!
 .	.	.	.	16c/Jk)	16cc\Jk	.
+!	!	!	!	!LO:SIC:s=8d'/L)	!	!
 4GG/]	.	4G 4F 4BB^>/	.	8d'/L	8dd'\L)	.
 .	.	.	.	8e'/J	8ee'\J	.
 =30	=30	=30	=30	=30	=30	=30
 !	!	!	!	!LO:TUP:b:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa	!
 8rGG	2GGG\	4r	.	24d/LL	24dd\LL	.
 .	.	.	.	24e/	24ee\	.
+!	!	!	!	!LO:SIC:s=24d/JJ	!LO:SIC:s=24dd/JJ	!
 .	.	.	.	24d/JJ|>	24dd\JJ|	.
+!LO:SIC:s=[<8GG^	!	!	!	!LO:SIC:s=8c/L'	!	!
 [<8GG/	.	.	.	8c/L	8cc'\L	.
+!	!	!	!	!LO:SIC:s=8B/'	!	!
 4GG/]	.	8G 8F 8BB/	.	8B/	8b'\	.
+!	!	!	!	!LO:SIC:s=8A/J'	!	!
 .	.	8r	.	8A/J	8a'\J	.
 *v	*v	*	*	*	*	*
 !!LO:LB:g=original
@@ -273,7 +311,8 @@
 .	.	.	.	(8qf#X/@	.	.
 4GGG\	8r	.	4G/	4g/)	.	.
 .	8F 8BB/	.	.	.	.	.
-!	!	!	!	!	!LO:DY:t=sf.	!LO:DY:a
+!	!	!	!	!	!LO:MO:mod=!null:null	!LO:DY:a
+!	!	!	!	!	!LO:DY:t=sf.	!LO:MO:null:mod=.
 4GG\	8r	.	4f/	4ff\	sf	sf
 .	8G 8F 8BB/	.	.	.	.	.
 *	*	*	*	*	*v	*v
@@ -285,83 +324,113 @@
 *v	*v	*	*	*	*	*
 =33	=33	=33	=33	=33	=33
 *8ba	*	*	*	*	*
+!	!	!LO:MO:null:mod=ff	!	!	!
 2CCC\	8r	.	(8.cc\L	(8.ccc\L	ff
 !	!	!LO:DY:t=ff.	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!
 .	8gL 8e 8c\	ff	.	.	.
 .	.	.	16dd\Jk	16ddd\Jk	.
 .	8G\	.	8ee'\L)	8eee\L)	.
 .	8gJ 8e 8c\	.	8ff'\J	8fff'\J	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *X8ba	*	*	*	*	*
 =34	=34	=34	=34	=34	=34
+!LO:MO:mod=*null:null	!	!	!	!	!
 *8ba	*	*	*	*	*
 2CCC\	8r	.	8ee'\L	8eee'\L	.
 .	8gL 8e 8c\	.	(16ee\L|	(16eee\L	.
 .	.	.	16ff\JJ	16fff\JJ	.
 .	8G\	.	8ee\L)	8eee\L)	.
 .	8gJ 8e 8c\	.	8cc'\J	8ccc'\J	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *X8ba	*	*	*	*	*
 =35	=35	=35	=35	=35	=35
 !	!	!	!	!LO:S:color=grey	!
 !	!	!	!LO:S:color=grey	!	!
 .	.	.	(<8qdd#X/@	(<8qddd#X/@	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *8ba	*	*	*	*	*
 4CCC\	8r	.	4ee\)	4eee'\)	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *X8ba	*	*	*	*	*
 .	8gL 8e 8c\	.	.	.	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *8ba	*	*	*	*	*
 4CCC#X\	8G\	.	4gg^\	4ggg^\	.
 .	8gJ 8e 8B-X\	.	.	.	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *X8ba	*	*	*	*	*
 =36	=36	=36	=36	=36	=36
+!LO:MO:mod=*null:null	!	!	!	!	!
 *8ba	*	*	*	*	*
 2DDD\	8r	.	8ff'\L	8fff'\L	.
 .	8fL 8d 8A\	.	8ee'\J	8eee'\J	.
 .	8F\	.	4dd^\	4ddd^\	.
 .	8fJ 8d 8A\	.	.	.	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *X8ba	*	*	*	*	*
 !!LO:PB:g=original
 =37	=37	=37	=37	=37	=37
+!LO:MO:mod=*null:null	!	!	!	!	!
 *8ba	*	*	*	*	*
+!	!	!LO:MO:null:mod=f	!	!	!
 2EEE\	8r	.	(8.b\L	(8.bb\L	.
+!	!	!	!	!	!LO:MO:null:mod=.
 .	8eL 8d 8G#X\	.	.	.	ff
 .	.	.	16cc\Jk	16ccc\Jk)	.
+!	!	!LO:MO:null:mod=.	!	!	!
 .	8E\	f	8dd'\L)	8ddd'\L	.
 .	8eJ 8d 8G#\	.	8ee'\J	8eee'\J	.
 *X8ba	*	*	*	*	*
 =38	=38	=38	=38	=38	=38
-!	!	!	!LO:TUP:a:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa	!
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack
+!	!	!	!	!	!
+!	!	!	!LO:TUP:a:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa	!LO:MO:null:mod=<
 4AA 4AAA\	8r	<	24dd\LL	24ddd\LL	.
 .	.	.	24ee\	24eee\	.
+!	!	!	!	!LO:SIC:s=24ddd\JJ	!
 .	.	.	24dd\JJ	24ddd\JJ|	.
+!	!	!	!LO:SIC:s=8cc\L'	!	!
 .	8e 8c 8E\	.	8cc\L	8ccc'\L	.
 *8ba	*	*	*	*	*
+!	!	!	!LO:SIC:s=8b\'	!	!
 4DDD\	8r	.	8b\	8bb'\	.
+!	!	!	!LO:SIC:s=8a\J'	!	!LO:MO:null:mod=[
 .	8f#X 8c 8F#X\	[	8a\J	8aa'\J	.
 *X8ba	*	*	*	*	*
 =39	=39	=39	=39	=39	=39
 *	*^	*	*	*	*
-!	!	!	!	!	!LO:S:color=grey	!
+!	!	!	!	!	!LO:S:color=grey	!LO:MO:null:mod=fff
 .	.	.	.	.	(<8qff#X/@	.
 2GG 2GGG\	8r	8ryy	.	4g/	4gg\)	.
+!	!	!	!	!	!	!LO:MO:null:mod=.
 .	(8G/L	8BB\	.	.	.	fff
 !	!	!	!LO:HP:t=cres	!	!	!LO:DY:a
+!	!	!	!LO:MO:null:mod=.	!	!	!
 .	8A/	4D\	<	4f^>/	4fff 4ffny\	sf
 .	8B/J	.	.	.	.	.
 =40	=40	=40	=40	=40	=40	=40
 *^	*	*	*	*	*	*
 *	*8ba	*	*	*	*	*	*
+!	!	!	!	!LO:MO:null:mod=ff	!	!	!
 8rGG	2CCC\	(8c/L)	4E\	.	8gL 8e/	8eeeL 8ee\	.
 *	*X8ba	*	*	*	*	*	*
 !	!	!	!	!LO:DY:rj	!	!	!
+!	!	!	!	!LO:MO:null:mod=.	!	!	!
 [<8GG/	.	8G/J)	.	ff	8d/J	8dddJ 8dd\	.
-!	!	!	!	!LO:DY:t=sf.	!	!	!
+!	!	!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!LO:MO:mod=!null:null	!	!	!
+!	!	!	!	!LO:DY:t=sf.	!	!	!LO:MO:null:mod=sf
 4GG/]	.	4ryy	4G 4E 4C\	sf	4g 4e 4c^>/	4ccc 4ee 4cc^\	.
 *	*	*v	*v	*	*	*	*
 *v	*v	*	*	*	*	*
 =41	=41	=41	=41	=41	=41
-!	!LO:TX:a:i:t=Piu lento	!	!	!	!
+!!!OMD:
+!!!OMD-mod: Più lento
+!	!LO:TX:a:i:t=Piu lento:mod=	!	!	!	!
 2r	4r	.	8e'>/L	2r	f
 .	.	.	8d'>/J	.	.
+!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!LO:DY:t=sf.	!	!	!
 .	[4C/	sf	4c/	.	sf
 =42	=42	=42	=42	=42	=42
@@ -370,6 +439,7 @@
 [>4C/	4r	sf	[4c^>/	.	.
 !!LO:LB:g=original
 =43	=43	=43	=43	=43	=43
+!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!LO:DY:t=p.	!	!	!
 2C/_>	8B-X'\L	p	2c/_	2r	>
 .	8A'\	.	.	.	.
@@ -377,18 +447,24 @@
 .	8r	.	.	.	.
 =44	=44	=44	=44	=44	=44
 2C/]	8B'\L	.	2c/]	2r	]]
+!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;b&colon;t=rit.	!	!	!	!
 !	!LO:TX:b:t=rit	!	!	!	!
 .	8A'\	.	.	.	.
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;b&colon;t=rit.	!
 !	!	!	!	!LO:TX:b:t=rit	!
 .	8G'\J	.	.	.	.
 .	8r	.	.	.	.
 =45||	=45||	=45||	=45||	=45||	=45||
+!!!OMD:
+!!!OMD-mod: Meno mosso
 *k[b-]	*k[b-]	*	*k[b-]	*k[b-]	*
 *M2/4	*M2/4	*	*M2/4	*M2/4	*
-!	!LO:TX:b:t=leggiero	!	!	!LO:TX:b:t=espres.	!
-!	!LO:TX:a:t=Meno mosso	!	!	!LO:TX:a:t=Meno mosso.	!
+!	!LO:TX:b:t=leggiero	!	!	!LO:TX:b:t=espres.:mod=espress.	!
+!LO:SIC:s=(8qFFF/	!LO:TX:a:t=Meno mosso:mod=	!	!	!LO:TX:a:t=Meno mosso.:mod=	!
 8qFFF/	.	.	.	.	.
-!	!	!	!	!	!LO:DY:b=2:rj:t=p.
+!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!
+!	!	!	!	!	!
+!LO:SIC:s=2FF^\)	!	!LO:MO:null:mod=p	!	!	!LO:DY:b=2:rj:t=p.
 2FF^\	8AL 8C'\	.	[2c/	(8.f/L	p
 .	8G-X 8C'\	.	.	.	.
 .	.	.	.	16a/Jk	<
@@ -408,6 +484,7 @@
 2FF^\)	8B-L 8C'\	[	2c/	(>8aL 8e/	.
 .	.	.	.	.	<
 .	8A 8C'\	.	.	8a/	.
+!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;b&colon;t=rit.	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;b&colon;t=rit.	!
 !	!LO:TX:b:t=rit.	!	!	!LO:TX:b:t=rit	!
 .	8GJ 8C'\	.	.	8b- 8e/	[ >
 .	8r	.	.	8g/J)	]]
@@ -422,6 +499,7 @@
 !!LO:LB:g=original
 =49	=49	=49	=49	=49	=49
 (8qFFF/	.	.	.	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;t=leggiero	!	!	!	!
 !	!LO:TX:a:t=leggiero	!	!	!	!
 2FF^\)	8AL 8C'\	p	2c/_	(8f/L	<
 .	8G 8C'\	.	.	8a/	.
@@ -440,6 +518,7 @@
 (8qFFF/	.	.	.	.	.
 2FF^\)	8B-L 8C'\	[	2c/	(>8aL 8e/	<
 .	8A 8C'\	.	.	8a/	.
+!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;b&colon;t=rit.	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;b&colon;t=rit.	!
 !	!LO:TX:b:t=rit	!	!	!LO:TX:b:t=rit	!
 .	8GJ 8C'\	.	.	8b- 8e/	[
 .	8r	.	.	8g^/J)	.
@@ -451,9 +530,13 @@
 .	8FJ 8C'\	.	4r	.	.
 .	8r	]]	.	.	.
 =53	=53	=53	=53	=53	=53
-!	!	!	!	!LO:TX:a:t=Piu vi[v]o	!
+!!!OMD:
+!!!OMD-mod: Più vivo
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!
+!	!	!LO:MO:null:mod=p	!	!LO:TX:a:t=Piu vi[v]o:mod=	!LO:MO:mod=p <
 2FF\	8r	.	2r	(4a/	<
-!	!LO:TX:a:t=Piu vivo	!	!	!	!
+!	!LO:TX:a:t=Piu vivo:mod=	!LO:MO:null:mod=.	!	!	!
 .	8c\L	p	.	.	.
 .	8C\	.	.	8b-/L	.
 .	8c\J	.	.	8g/J)	.
@@ -465,25 +548,32 @@
 !!LO:LB:g=original
 =55	=55	=55	=55	=55	=55
 2FF\	8r	.	2r	8a/	.
-!	!	!	!	!LO:TX:b:t=cres.	!
-.	8c\L	.	.	(8a/L	.
+!	!	!	!	!	!LO:MO:mod=!null:null
+!	!	!	!	!	!LO:HP:t=cres
+.	8c\L	.	.	(8a/L	<
+!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!LO:HP:t=cres	!	!	!
 .	8C\	<	.	8b-/	.
 .	8c\J	.	.	8g/J	.
 =56	=56	=56	=56	=56	=56
 2FFF\	8r	.	2r	2cc^\)	.
-!	!LO:TX:b:t=espres.	!	!	!	!
-!	!LO:TX:b:t=molto ritenuto	!	!	!LO:TX:b:i:t=molto rit.	!
-.	(>8g/L	<	.	.	.
+!	!LO:TX:b:t=espres.:mod=espress.	!	!	!	!
+!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;a&colon;t=molto rit.	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;a&colon;t=molto rit.	!
+!	!LO:TX:b:t=molto ritenuto	!LO:MO:null:mod=.	!	!LO:TX:b:i:t=molto rit.	!
+.	(>>8g/L	<	.	.	.
 *	*^	*	*	*	*
+!	!	!	!LO:MO:null:mod=.	!	!	!
 .	8e-X/	4A\	[	.	.	.
 .	8f/J)	.	.	.	.	.
 *	*v	*v	*	*	*	*
 =57	=57	=57	=57	=57	=57
-!	!	!	!	!LO:TX:b:t=a tempo	!
-!	!	!LO:DY:t=p.	!	!LO:TX:a:t=Vivo.	!
+!!!OMD:
+!!!OMD-mod: Vivo
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!LO:MO:mod=!null:null	!	!LO:TX:b:t=a tempo:mod=	!
+!	!	!LO:DY:t=p.	!	!LO:TX:a:t=Vivo.:mod=	!LO:MO:null:mod=p
 2BBB-\	8r	p	2r	(4dd^\	.
-!	!LO:TX:a:t=Vivo.	!	!	!	!
+!	!LO:TX:a:t=Vivo.:mod=	!	!	!	!
 .	8f\L	.	.	.	.
 .	8F\	.	.	8ee-X\L	.
 .	8f\J	<	.	8cc\J)	.
@@ -498,18 +588,23 @@
 .	8F\	.	.	8ee-X\	.
 .	8f\J	[	.	8cc\J	.
 =60	=60	=60	=60	=60	=60
+!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;a&colon;t=molto rit.	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;a&colon;t=molto rit.	!
 !	!LO:TX:b:t=molto rit.	!	!	!LO:TX:b:i:t=molto riten.	!
 2BBB-\	8r	.	2r	(4.ff\)	.
-!	!LO:TX:b:t=espres.	!	!	!LO:TX:a:i:t=espres.	!
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;t=espress.	!
+!	!LO:TX:b:t=espres.:mod=espress.	!LO:MO:null:mod=.	!	!LO:TX:a:i:t=espres.	!
 .	(8f\	<	.	.	.
+!	!	!LO:MO:null:mod=.	!	!	!
 .	4d 4A-X^\)	[	.	.	.
 .	.	.	.	8f/)	.
 !!LO:LB:g=original
 =61	=61	=61	=61	=61	=61
+!!!OMD:
+!!!OMD-mod: Lento
 *	*	*	*^	*	*
-!	!	!	!	!	!LO:TX:a:t=lento	!
+!	!	!	!	!	!LO:TX:a:t=lento:mod=	!
 2CC\	8r	<	8r	8ryy	(8a/L	.
-!	!LO:TX:a:t=lento.	!	!	!	!	!
+!	!LO:TX:a:t=lento.:mod=	!	!	!	!	!
 .	([<8C\L	.	8r	[4c\	8a/	.
 .	8G 8C\_>	.	4e/	.	8b-/	.
 .	8B-J 8C\])	[[	.	8c\]	8g/J)	.
@@ -517,16 +612,20 @@
 =62	=62	=62	=62	=62	=62
 .	.	.	.	(16qqa/LL	.
 .	.	.	.	16qqg/JJ)	.
+!LO:SIC:s=2FF;	!	!	!	!	!
 2FF\	8AL 8C'\	>	[4c;/	2f;/	.
 .	8G 8C'\	.	.	.	.
 .	8FJ 8C'\	]	8.c/L]	.	.
+!	!LO:SIC:s=8r;	!	!	!	!
 .	8r	.	.	.	.
 .	.	.	[16c^/Jk	.	.
 =63	=63	=63	=63	=63	=63
-!	!LO:TX:b:t=leggiero.	!	!	!LO:TX:b:t=espres.	!
-!	!LO:TX:a:t=a Tempo.	!	!	!LO:TX:a:t=a tempo.	!
+!	!LO:TX:b:t=leggiero.:mod=leggiero	!	!	!LO:TX:b:t=espres.:mod=espress.	!
+!	!LO:TX:a:t=a Tempo.:mod=a tempo	!	!	!LO:TX:a:t=a tempo.:mod=a tempo	!
 (8qFFF/	.	.	.	.	.
-!	!	!LO:DY:rj:t=p.	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!LO:MO:mod=!null:null	!	!	!
+!	!	!LO:DY:rj:t=p.	!	!	!LO:MO:mod=p <
 2FF^\)	8AL 8C'\	p	2c/_	(8.f/L	<
 .	8G 8C'\	.	.	.	.
 .	.	.	.	16a/K	.
@@ -545,6 +644,7 @@
 (8qFFF/	.	.	.	.	.
 2FF^\)	8B-L 8C'\	[	2c/	(>8aL 8e/	<
 .	8A 8C'\	.	.	8a/	.
+!	!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;b&colon;t=[rit.]	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;b&colon;t=rit.	!
 !	!	!	!	!LO:TX:b:t=rit	!
 .	8GJ 8C'\	.	.	8b- 8e/	[
 .	8r	.	.	8g/J)	.
@@ -558,7 +658,7 @@
 .	.	.	[16c^>/Jk	.	.
 !!LO:LB:g=original
 =67	=67	=67	=67	=67	=67
-!	!LO:TX:b:t=leggiero.	!	!	!	!
+!	!LO:TX:b:t=leggiero.:mod=leggiero	!	!	!	!
 (8qFFF/	.	.	.	.	.
 2FF^\)	8AL 8C'\	.	2c/_	(8.f/L	.
 .	8G 8C'\	.	.	.	<
@@ -578,6 +678,7 @@
 (8qFFF/	.	.	.	.	.
 2FF^\)	8B-L 8C'\	[	2c/	(>8aL 8e/	<
 .	8A 8C'\	.	.	8a/	.
+!	!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;b&colon;t=[rit.]	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;b&colon;t=rit.	!
 !	!	!	!	!LO:TX:b:t=rit.	!
 .	8GJ 8C'\	.	.	8b- 8e/	[
 .	8r	.	.	8g/J)	.
@@ -589,9 +690,13 @@
 .	8FJ 8C'\	.	4r	.	.
 .	8r	.	.	.	.
 =71	=71	=71	=71	=71	=71
-!	!	!LO:DY:t=p.	!	!LO:TX:a:t=Piu vivo.	!
+!!!OMD:
+!!!OMD-mod: Più vivo
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!LO:MO:mod=!null:null	!	!	!
+!	!	!LO:DY:t=p.	!	!LO:TX:a:t=Piu vivo.:mod=	!LO:MO:null:mod=p
 2FF\	8r	p	2r	(4a/	.
-!	!LO:TX:a:t=Piu vivo.	!	!	!	!
+!	!LO:TX:a:t=Piu vivo.:mod=	!	!	!	!
 .	8c\L	<	.	.	.
 .	8C\	.	.	8b-^/L	.
 .	8c\J	.	.	8g/J)	.
@@ -599,25 +704,32 @@
 2FF\	8r	.	2r	8a/	.
 .	8c\L	.	.	(8a/L	.
 .	8C\	.	.	8b-/	.
+!	!	!LO:MO:null:mod=.	!	!	!
 .	8c\J	[[	.	8g/J)	.
 !!LO:PB:g=original
 =73	=73	=73	=73	=73	=73
 2FF\	8r	.	2r	8a/L	<
 .	(8c\L	.	.	(8a/	.
 !	!	!LO:HP:t=cres.	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!
 .	8C\	<	.	8b-/	[
+!	!	!LO:MO:null:mod=[	!	!	!
 .	8c\J)	.	.	8g/J)	.
 =74	=74	=74	=74	=74	=74
 *	*^	*	*	*	*
+!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;a&colon;t=molto rit.	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;a&colon;t=molto rit.	!
 !	!LO:TX:b:t=molto rit.	!	!	!	!LO:TX:b:t=rit molto	!
 2FF\	8r	4ryy	.	2r	2cc\	.
-!	!LO:TX:b:t=espres.	!	!LO:HP:a	!	!	!
-.	(>8g/L	.	<	.	.	.
+!	!LO:TX:b:t=espres.:mod=espress.	!	!LO:HP:a	!	!	!
+.	(>>8g/L	.	<	.	.	.
 .	8e-X/	4A^\	[	.	.	.
 .	8f/J)	.	.	.	.	.
 *	*v	*v	*	*	*	*
 =75	=75	=75	=75	=75	=75
-!	!LO:TX:a:t=Vivo.	!LO:DY:t=p.	!	!LO:TX:a:t=Vivo.	!LO:DY:t=mf.
+!!!OMD:
+!!!OMD-mod: Vivo
+!	!	!LO:MO:mod=!null:null	!	!	!LO:MO:mod=!null:null
+!	!LO:TX:a:t=Vivo.:mod=	!LO:DY:t=p.	!	!LO:TX:a:t=Vivo.:mod=	!LO:DY:t=mf.
 2BBB-\	8r	p	2r	(4dd\	mf
 .	(8f\L	.	.	.	<
 .	8F\	.	.	8ee-X\L	.
@@ -626,26 +738,35 @@
 2BBB-\	8r	<	2r	8dd\L	.
 .	(8f\L	.	.	(8dd\	.
 .	8F\	.	.	8ee-X\	.
+!	!	!	!	!	!LO:MO:null:mod=.
 .	8f\J)	.	.	8cc\J)	[[
 =77	=77	=77	=77	=77	=77
 2BBB-\	8r	.	2r	8dd\L	.
 .	(8f\L	.	.	(8dd\	.
 !	!	!	!	!	!LO:HP:t=cres.
+!	!	!	!	!	!LO:MO:null:mod=.
 .	8F\	[	.	8ee-X\	<
+!	!	!	!	!	!LO:MO:null:mod=[
 .	8f\J)	.	.	8cc\J)	.
 =78	=78	=78	=78	=78	=78
+!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;a&colon;t=molto rit.	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;a&colon;t=molto rit.	!
 !	!LO:TX:b:t=molto rite.	!	!	!LO:TX:b:t=rit. molto.	!
 2BBB-\	8r	.	2r	(4.ff\	.
-!	!LO:TX:b:t=espres.	!	!	!	!
+!	!LO:TX:b:t=espres.:mod=espress.	!	!	!	!
 .	(8f\	.	.	.	.
 .	4d 4A-X\)	.	.	.	.
 .	.	.	.	8f/)	.
 !!LO:LB:g=original
 =79	=79	=79	=79	=79	=79
+!!!OMD:
+!!!OMD-mod: Lento
 *	*^	*	*^	*	*
-!	!	!	!	!	!	!	!LO:DY:t=mf.
-2CC\	8r	4r	.	8r	8ryy	8a/L	mf
-!	!LO:TX:a:t=lento	!	!LO:DY:t=piano sempre	!	!	!LO:TX:a:t=lento.	!
+!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;t=p sempre	!	!	!	!LO:MO:mod=!null:null
+!	!	!	!	!	!	!	!
+!	!	!	!LO:MO:null:mod=p	!	!	!	!LO:DY:t=mf.
+2CC\	8rA	4rAA	.	8r	8ryy	8a/L	mf
+!	!LO:TX:a:t=lento:mod=	!	!LO:DY:t=piano sempre	!	!	!LO:TX:a:t=lento.:mod=	!
+!	!	!	!LO:MO:null:mod=.	!	!	!	!
 .	([<8C^/L	.	p	8r	[4c\	(8a/	.
 .	8G/	4C\]	.	4e/	.	8b-/	.
 .	8B-/J)	.	.	.	8c\]	8g/J)	.
@@ -655,11 +776,14 @@
 4CC\	8G/	4C\]	[ >	4e/	.	8b-/	[
 .	8B-/J)	.	]	.	.	8g/J)	>]
 =81	=81	=81	=81	=81	=81	=81	=81
-!	!	!	!LO:DY:t=pp.	!	!	!LO:TX:a:i:t=piu lento.	!
+!!!OMD:
+!!!OMD-mod: Più lento
+!	!	!	!LO:MO:mod=!null:null	!	!	!	!
+!	!	!	!LO:DY:t=pp.	!	!	!LO:TX:a:i:t=piu lento.:mod=	!
 !	!	!	!LO:HP:a	!	!	!	!
 4FF\	(8A/L	8C\	pp <	4rg	2c\	(>16f/LL	p <
 .	.	.	.	.	.	16a/J	.
-!	!LO:TX:b:t=piu lento.	!	!	!	!	!	!
+!	!LO:TX:b:t=piu lento.:mod=	!	!	!	!	!	!
 .	[<8C^/	8r	.	.	.	8cc/J	.
 !	!	!	!LO:HP:a	!	!	!	!
 4CC\	8G/	4C\]	[ >	4e/	.	8b-/L	[
@@ -667,18 +791,23 @@
 *	*	*	*	*v	*v	*	*
 =82	=82	=82	=82	=82	=82	=82
 .	.	.	.	.	(16qqa/LL	.
+!	!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;b&colon;t=rit.	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;b&colon;t=rit.	!
 !	!	!	!	!	!LO:TX:b:t=rit.	!
 .	.	.	.	.	16qqg/JJ)	.
 2FF\	8A'/L	2C\	.	2c\	2f/)	.
 !	!	!	!LO:DY:a:rj:t=pp.	!	!	!
+!	!	!	!LO:MO:null:mod=.	!	!	!
 .	8G'/J	.	pp	.	.	.
-!	!LO:TX:b:t=rit	!	!	!	!	!
+!	!LO:TX:b:t=rit:mod=	!	!	!	!	!
 .	4F^/	.	.	.	.	.
 *	*v	*v	*	*	*	*
 =83||	=83||	=83||	=83||	=83||	=83||
+!!!OMD:
+!!!OMD-mod: Tempo Iº
 *k[]	*k[]	*	*k[]	*k[]	*
 *^	*	*	*	*	*
-!	!	!LO:TX:a:t=Tempo 1º	!	!	!LO:TX:a:i:t=Tempo 1º	!LO:DY:t=mf.
+!	!	!	!	!	!	!LO:MO:mod=!null:null
+!	!	!LO:TX:a:t=Tempo 1º:mod=	!	!	!LO:TX:a:i:t=Tempo 1º:mod=	!LO:DY:t=mf.
 8r	2CC\	4r	mp	2r	(8.c^/L	mf
 [<8GG^/	.	.	.	.	.	.
 .	.	.	.	.	16d/K	.
@@ -713,6 +842,7 @@
 !	!	!	!	!	!LO:TUP:b:problem=klamra łukowa	!
 8r	2GGG\	4r	.	8r	24d/LL	.
 .	.	.	.	.	24e/	.
+!	!	!	!	!	!LO:SIC:s=24d/JJ	!
 .	.	.	.	.	24d/JJ|>	.
 [<8GG^/	.	.	.	8c/L	8r	.
 4GG/]	.	4F 4BB/	.	8B/	4r	.
@@ -737,7 +867,9 @@
 *	*X8ba	*	*	*	*	*
 [<8GG^/	.	.	.	.	.	.
 .	.	.	.	16d/K	16dd\K	.
+!	!	!	!	!LO:SIC:s=8e/)'	!LO:SIC:s=8ee\)'	!
 4GG/]	.	4G 4E 4C^/	.	8e/)	8ee\)	.
+!	!	!	!	!LO:SIC:s=8f/J'	!	!
 .	.	.	.	8f/J	8ff'\J	.
 *v	*v	*	*	*	*	*
 *X	*	*	*	*	*
@@ -754,17 +886,23 @@
 =93	=93	=93	=93	=93	=93
 *8ba	*	*	*	*	*
 4CCC\	8r	.	4e/	4ee\	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *X8ba	*	*	*	*	*
 .	8G 8E 8C/	.	.	.	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *8ba	*	*	*	*	*
 4EEE\	8r	.	4g/	4gg\	sf
 .	8G 8E 8C/	.	.	.	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *X8ba	*	*	*	*	*
 =94	=94	=94	=94	=94	=94
+!LO:MO:mod=*null:null	!	!	!	!	!
 *8ba	*	*	*	*	*
 4DDD\	8r	.	8f/L	8ff\L	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *X8ba	*	*	*	*	*
 .	8G 8F 8AA/	.	8e/J	8ee\J	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *8ba	*	*	*	*	*
 4GGG\	8r	.	4d^>/	4dd^\	.
 .	8G 8F 8BB/	.	.	.	.
@@ -780,6 +918,7 @@
 !	!	!	!	!LO:TUP:b:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa	!
 8r	2GGG\	4r	.	24d/LL	24dd\LL	.
 .	.	.	.	24e/	24ee\	.
+!	!	!	!	!LO:SIC:s=24d/JJ	!LO:SIC:s=24dd\JJ	!
 .	.	.	.	24d/JJ|>	24dd\JJ|	.
 [8GG^/	.	.	.	8c/L	8cc\L	.
 4GG/]	.	8G 8F 8BB/	.	8B/	8b\	.
@@ -797,15 +936,19 @@
 8r	2CCC\	4r	.	8e/L	8ee\L	.
 *	*X8ba	*	*	*	*	*
 !	!	!	!	!	!	!LO:DY:rj
+!	!	!	!	!	!	!LO:MO:null:mod=.
 [<8GG/	.	.	.	8d/J	8dd\J	f
+!	!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!	!LO:DY:t=sf&colon;	!	!	!
 4GG/]	.	4G 4E 4C^\	sf	4c/	4cc\	.
 *v	*v	*	*	*	*	*
 =99!|:	=99!|:	=99!|:	=99!|:	=99!|:	=99!|:
 *>D	*>D	*>D	*>D	*>D	*>D
+!!!OMD:
+!!!OMD-mod: Un poco più mosso
 *	*clefG2	*	*	*	*
-!	!	!	!	!LO:TX:a:i:t=Un poco più mosso:color=grey	!
-!	!LO:TX:a:i:t=Un poco piu mosso:color=grey	!LO:DY:t=piano	!	!LO:TX:b:t=leggiero.	!LO:DY:rj
+!	!	!LO:MO:mod=!null:null	!	!LO:TX:a:i:t=Un poco più mosso:color=grey:mod=	!
+!	!LO:TX:a:i:t=Un poco piu mosso:color=grey:mod=	!LO:DY:t=piano	!	!LO:TX:b:t=leggiero.:mod=leggiero	!LO:DY:rj
 (4AA\	(32d#X^>/LLL	p	8cc'\L	8aa'\L	p
 .	32e/	.	.	.	.
 .	32d#/	.	.	.	.
@@ -851,12 +994,14 @@
 .	.	.	.	(112ee\L]	<	.
 .	.	.	.	112ff#X\	.	.
 .	.	.	.	112gg#y\	.	.
-!	!	!	!LO:TX:a:t=rit.	!	!	!
+!	!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;i&colon;t=[rit.]	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;i&colon;t=rit.	!	!
+!	!	!	!LO:TX:a:t=rit.:mod=	!	!	!
 .	.	.	.	112aa\	.	.
-!	!	!	!	!LO:TX:b:t=ralen	!	!
+!	!	!	!	!LO:TX:b:t=ralen:mod=	!	!
 .	.	.	.	112bb\	.	.
 .	.	.	.	112ccc#X\	.	.
 !	!	!	!	!	!	!LO:HP:t=cres.
+!	!	!	!	!	!	!LO:MO:null:mod=.
 .	.	.	.	112ddd#X\	.	<
 .	.	.	.	112eee\	.	.
 .	.	.	.	112fff#X\	.	.
@@ -869,11 +1014,13 @@
 *8ba	*clefF4	*	*	*rscale:1	*	*
 4EEE;<\	4e 4B 4G#X 4E^;\	.	4ee 4b 4g#;</	4eeee^\J;)	sf	.
 *X8ba	*	*	*	*X8va	*	*
+!	!LO:MO:mod=!null:null	!	!	!	!	!
 !	!LO:CL:color=grey	!	!	!	!	!
 *	*clefG2	*	*	*	*	*
 *	*	*	*	*	*v	*v
 !!LO:LB:g=original
 =103	=103	=103	=103	=103	=103
+!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!LO:TX:b:t=leggiero	!LO:DY:rj:t=p.
 (4AA\	(32d#X^>/LLL	.	8cc'\L	8aa'\L	p
 .	32e/	.	.	.	.
@@ -927,6 +1074,7 @@
 .	.	.	.	.	112fff#X\	.	.
 .	.	.	.	.	112ggg#X\	.	.
 !	!	!	!	!	!	!	!LO:HP:t=cres.
+!	!	!	!	!	!	!	!LO:MO:null:mod=.
 .	.	.	.	.	112aaa\	.	<
 *	*	*	*	*	*8va	*	*
 .	.	.	.	.	112bbb\	.	.
@@ -937,6 +1085,7 @@
 .	.	.	.	.	112gggg#X\	.	.
 *	*clefF4	*	*	*	*rscale:1	*	*
 !	!	!	!LO:DY:a:t=sf.	!	!	!	!LO:DY:a:t=sf.
+!	!	!LO:MO:null:mod=.	!	!	!	!	!LO:MO:null:mod=.
 4AA 4AAA^\	4e 4c 4A 4E\	ff	sf	4aa 4ee 4cc 4a\	4aaaa\J)	sf	sf
 *	*	*	*	*	*X8va	*	*
 *	*	*	*	*	*	*v	*v
@@ -944,9 +1093,11 @@
 !!LO:PB:g=original
 =107:|!	=107:|!	=107:|!	=107:|!	=107:|!	=107:|!
 *>E	*>E	*>E	*>E	*>E	*>E
+!!!OMD:
+!!!OMD-mod: Tempo Iº
 *^	*	*	*	*	*
 *	*8ba	*	*	*	*	*
-!	!	!LO:TX:a:t=Tempo Iº	!	!	!LO:TX:a:t=Tempo Iº	!
+!	!	!LO:TX:a:t=Tempo Iº:mod=	!	!	!LO:TX:a:t=Tempo Iº:mod=	!
 8r	2CCC\	4r	f	(>8.c/L	(8.cc\L	f
 *	*X8ba	*	*	*	*	*
 [<8GG/	.	.	.	.	.	.
@@ -996,14 +1147,17 @@
 !	!	!	!	!LO:TUP:b:problem=klamra łukowa	!LO:TUP:a:problem=klamra łukowa	!
 8r	2GGG\	4r	.	24d/LL	24dd\LL	.
 .	.	.	.	24e/	24ee\	.
+!	!	!	!	!LO:SIC:s=24d/JJ	!LO:SIC:s=24dd\JJ	!
 .	.	.	.	24d/JJ|>	24dd\JJ|	.
 [<8GG/	.	.	.	8c'>/L	8cc'\L	.
 4GG/]	.	8G 8F 8BB/	.	8B'>/	8b'\	[[
 !	!	!	!	!	!	!LO:HP:t=cres.
+!	!	!	!	!	!	!LO:MO:null:mod=.
 .	.	8r	.	8A'>/J	8a'\J	<
 *v	*v	*	*	*	*	*
 !!LO:LB:g=original
 =113	=113	=113	=113	=113	=113
+!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!LO:S:color=grey	!LO:DY:t=f.
 .	.	.	.	(<8qf#X/@	f
 4GGG\	8r	.	4G/	4g/)	.
@@ -1019,16 +1173,20 @@
 4GG/]	.	4G 4E 4C/	.	4c^>/	4cc^\	]
 *v	*v	*	*	*	*	*
 =115	=115	=115	=115	=115	=115
+!!!OMD:
+!!!OMD-mod: Poco più mosso
 *8ba	*	*	*	*	*
-!	!	!	!	!LO:TX:a:i:t=Poco piu mosso	!
+!	!	!	!	!LO:TX:a:i:t=Poco piu mosso:mod=	!
 2CCC\	8r	ff	(8.eeL 8.cc\	(8.eeeL 8.ccc\	ff
-!	!LO:TX:a:t=Poco piu mosso	!	!	!	!
+!	!LO:TX:a:t=Poco piu mosso:mod=	!	!	!	!
 .	8gL 8e 8c\	.	.	.	.
 .	.	.	16dd\Jk	16ddd\Jk	.
 .	8G\	.	8ee\L)	8eee\L)	.
 .	8gJ 8e 8c\	.	8ff\J	8fff\J	.
+!LO:MO:mod=*null:null	!	!	!	!	!
 *X8ba	*	*	*	*	*
 =116	=116	=116	=116	=116	=116
+!LO:MO:mod=*null:null	!	!	!	!	!
 *8ba	*	*	*	*	*
 2CCC\	8r	.	8ee\L	8eee\L	.
 .	8gL 8e 8c\	.	(16ee\L	(16eee\L	.
@@ -1040,7 +1198,9 @@
 !	!	!	!LO:S:color=grey	!LO:S:color=grey	!
 .	.	.	(<8qdd#X/@	(<8qddd#X/@	.
 4C 4CC\	8r	.	4ee\)	4eee\)	.
+!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!LO:HP:b=2	!	!	!
+!	!	!LO:MO:mod=<	!	!	!
 .	8g 8e 8c 8G\	ff <	.	.	.
 4B-X 4BB-X^\	8r	.	4gg\	4ggg\	sf
 .	8g 8e 8c 8G\	.	.	.	.
@@ -1051,9 +1211,10 @@
 .	8f 8c 8E\	.	.	.	.
 !!LO:LB:g=original
 =119	=119	=119	=119	=119	=119
+!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=accelerando	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=accelerando	!
 !	!	!	!	!LO:TX:b:t=accelerando.	!
 4G 4GG\	8r	.	4dd\	4ddd\	.
-!	!LO:TX:b:t=accelerando.	!	!	!	!
+!	!LO:TX:b:t=accelerando.:mod=	!	!	!	!
 .	8f 8B 8G\	.	.	.	.
 4GG 4GGG\	8r	.	4ff^\	4fff^\	.
 .	8f 8B 8F\	.	.	.	.
@@ -1064,53 +1225,72 @@
 .	8e 8c 8E\	.	.	.	.
 =121	=121	=121	=121	=121	=121
 *^	*	*	*	*	*
-!LO:TX:a:t=Ped.	!	!	!	!	!	!
+!LO:TX:a:t=Ped.:mod=	!	!	!	!	!	!
 4r	[>2DD [2DDD\	4c 4F#X 4D\	.	4cc^\	4ccc^\	.
+!LO:MO:null:mod=*ped	!	!	!	!	!	!
 *	*	*	*	*ped	*	*
 [4E 4D;\	.	[4e 4c 4F#;\	ff	[4ee^;\	[4eee [4ff#X^;\	ff
 =122	=122	=122	=122	=122	=122	=122
-!	!	!LO:TX:a:t=Presto	!	!	!LO:TX:b:t=Presto.	!
-2DD_ 2DDD/_<	8E/L]	8e\L]	.	8ee\L]|	8eee]L 8ff#\]	.
-.	8D'/	8d\|	.	8dd\|	8ddd\|	.
-.	8C'/	8c\|	.	8cc\|	8ccc\|	.
-.	8AA'/J	8A'\J	.	8a\J|	8aa\J|	.
+!!!OMD:
+!!!OMD-mod: Presto
+!LO:SIC:s=2DD_ 2DDD\\_<	!LO:SIC:s=8E//L]	!LO:TX:a:t=Presto:mod=	!	!LO:SIC:s=8ee\L]	!LO:TX:b:t=Presto.:mod=	!
+2DD_ 2DDD/_<	8E//L]	8e\L]	.	8ee\L]|	8eee]L 8ff#\]	.
+!	!LO:SIC:s=8D//|	!	!	!	!	!
+.	8D'//	8d\|	.	8dd\|	8ddd\|	.
+!	!LO:SIC:s=8C|//	!	!	!	!	!
+.	8C'//	8c\|	.	8cc\|	8ccc\|	.
+!	!LO:SIC:s=8AA|//J	!	!	!	!	!
+.	8AA'//J	8A'\J	.	8a\J|	8aa\J|	.
 =123	=123	=123	=123	=123	=123	=123
 8FF'/L	4DD] 4DDD\]	8F#X'\L	.	8f#X'>/L	8ff#X'\L	ff
 8EE'/	.	8E'\	.	8e'>/	8ee'\	.
+!LO:SIC:s=8DD'>>/	!	!	!	!	!	!
+8DD'/	4ryy	8D'\	.	8d'/	8dd'>\	.
+!LO:SIC:s=8CC'>>/J	!	!	!	!	!	!
+8CC'/J	.	8C\J	.	8c/J	8cc'>\J	.
 *v	*v	*	*	*	*	*
-8DD'/	8D'\	.	8d'/	8dd'>\	.
-8CC'/J	8C\J	.	8c/J	8cc'>\J	.
 =124	=124	=124	=124	=124	=124
+!LO:SIC:s=8AAA/'	!LO:SIC:s=8AL 8AA\'	!	!	!	!
 8AAA/	8AL 8AA\|	.	2r;	8a'>/L	.
 *8ba	*	*	*	*	*
 8FFF#X'/L	8F#X 8FF#X'\	.	.	8f#X'>/	.
+!LO:SIC:s=8EE 8EEE/'	!	!	!	!	!
 8EE 8EEE/	8E'\	.	.	8e'>/	.
 !LO:TX:t=P:problem=fermata po kresce taktowej	!LO:TX:t=P:problem=fermata po kresce taktowej	!	!LO:TX:t=P:problem=fermata po kresce taktowej	!LO:TX:t=P:problem=fermata po kresce taktowej	!
+!	!LO:SIC:s=8D;\J'	!	!	!	!
 8DDJ 8DDD';/	8D;\J	.	.	8d'>;/J	.
 *X8ba	*	*	*	*	*
 !!LO:LB:g=original
 =125	=125	=125	=125	=125	=125
 !LO:TX:b:rj:t=loco	!	!	!	!	!
 4GG 4GGG\	4G\	.	4r	4g/	.
+!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!LO:DY:t=sf.	!	!	!
 4GG 4GGG\	4B 4G 4F 4BB\	sf	4g 4f/	4fff 4gg 4ff\	sf
 =126	=126	=126	=126	=126	=126
 *8ba	*	*	*	*	*
+!	!	!LO:MO:null:mod=.	!	!	!
 4CCC\	4r	ff	8gL 8e/	8eeeL 8gg 8ee\	.
 .	.	.	8d/J	8dddJ 8dd\	.
 *X8ba	*	*	*	*	*
-!	!	!	!	!	!LO:DY:t=sf.
+!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!
+!	!	!	!	!	!LO:MO:mod=!null:null
+!	!	!LO:MO:null:mod=sf	!	!	!LO:DY:t=sf.
 4GG 4CC\	4c 4G 4E 4C^<\	.	4g 4e/	4ccc 4gg 4ee 4cc\	sf
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
-!!!system-decoration: {(s1,s2)}{(s3,s4)}
+!!!system-decoration: {(g1)}{(g2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: | = vertical stroke
+!!LO:MO:ori
 !!!RDF**kern: @ = marked note, color=grey
+!!LO:MO:end
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-11
 !!!ENC: Marta Lawrence
 !!!END: 2021-11-13
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-28!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

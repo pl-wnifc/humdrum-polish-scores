@@ -20,82 +20,80 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4702 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: druga grupa ćwiczeń od skanu 0008
 !!!AIN: 2 piano
-!!!key: G
+!!!key: C
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part2	*part1
 *group1	*group1
 *staff2	*staff1
 *I"[Pianoforte]	*I"[Pianoforte]
 *I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[]	*k[]
-*G:	*G:
+*C:	*C:
 *M	*M
 *	*^
-!!LO:TX:t=P:problem:brak kluczy na początku ćwiczenia
 !	!LO:TX:a:t=C. f.	!
 2g\	2g/	2g\
 =1	=1	=1
 2e\	[2b/	2g\
-!	!	!LO:SIC:v:s=2f#\
 2d\	2b/]	2f\
 2c\	2cc/	2e\
 2B\	2dd/	2d\
 =2	=2	=2
 2E\	2ee/	2g\
-!LO:SIC:v:s=2F#\	!	!
 2F\	2dd/	2a\
 2G;\	2b;/	2b\
 2e\	2gg/	2b\
 =3	=3	=3
-!	!LO:SIC:v:s=2ff#/	!
 2d\	2ff/	2b\
 2g\	2ee/	2b\
-!LO:SIC:v:s=2f#\	!LO:SIC:v:s=2ff#/	!
 2f\	2ff/	2a\
 2e\	2gg/	2g\
 =4	=4	=4
 2c\	2ee/	2cc\
 2d\	2dd/	2b\
-!	!	!LO:TX:t=P:problem:fermata nad główką nuty, na pięciolinii
+!	!LO:SIC:s=2ee	!LO:TX:t=P:problem:fermata nad główką nuty, na pięciolinii
 2c;\	2ee;/	2a;>\
 2e\	2gg/	2g\
 =5	=5	=5
-!	!LO:SIC:v:s=2ff#/	!
 2d\	2ff/	2a\
 2G\	2ee/	2b\
 !	!LO:TX:t=P:problem:2ff poprawione ołówkiem na 2cc	!
-!	!LO:SIC:v:s=2ff#/	!
 2A\	2ff/	2a\
 2B\	2dd/	2g\
 =6	=6	=6
 2c\	2ee/	2e\
-!	!	!LO:SIC:v:s=2f#\
 2d\	2dd/	2f\
+!	!	!LO:SIC:s=2g
 2e;\	2b;/	2g;\
 2d\	2dd/	2dd\
 =7	=7	=7
 2G\	2ee/	2b\
 2e\	2gg/	2g\
-!	!LO:SIC:v:s=2ff#/	!
 2d\	2ff/	2a\
 2c\	2ee/	2cc\
 =8	=8	=8
 2d\	[2dd/	2b\
-!LO:SIC:v:s=2f#\	!	!
 2f\	2dd/]	2a\
+!	!	!LO:SIC:s=2g
 2g;\	2b;/	2g;\
 *	*v	*v
 ==	==
 *-	*-
-!!!system-decoration: [(g1)]
+!!!system-decoration: {(g1)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-11-16
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-12
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -20,37 +20,40 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4702 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: druga grupa ćwiczeń od skanu 0008
 !!!AIN: 2 piano
-!!!key: G
+!!!key: C
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part2	*part1
 *group1	*group1
 *staff2	*staff1
 *I"[Pianoforte]	*I"[Pianoforte]
 *I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[]	*k[]
-*G:	*G:
+*C:	*C:
+!LO:MO:mod=*M12/4	!LO:MO:mod=*M12/4
 *M	*M
 *	*^
 !	!LO:TX:b:t=C. f	!LO:N:vis=2
 2.G\	4g/	2.B\
 .	4gg/	.
-!	!LO:SIC:v:s=4ff#/	!
 .	4ff/	.
 =1	=1	=1
 2.G\	4ee/	2.e\
 .	4b/	.
 .	4cc/	.
-!LO:SIC:v:s=2.F#\	!	!LO:SIC:v:s=2.f#\
 2.F\	4dd/	2.f\
 .	4ee/	.
 .	4dd/	.
 2.E\	4cc/	2.g\
 .	4g/	.
 .	4a/	.
-!	!	!LO:SIC:v:s=2.f#\
+!	!	!
 2.D\	4b/	2.f\
 .	4cc/	.
 .	4dd/	.
@@ -62,24 +65,24 @@
 .	4b/	.
 .	4cc/	.
 !	!	!LO:TX:t=P:problem:fermata nad główką nuty, na pięciolinii
+!	!	!LO:SIC:s=2.d
 2.B;\	2.dd;/	2.d;>\
 2.B\	4gg/	2.d\
-!	!LO:SIC:v:s=4ff#/	!
 .	4ff/	.
 .	4ee/	.
-!!linebreak:original
+!!LO:LB:g=original
 =3	=3	=3
+!	!	!LO:SIC:s=[2.g
 2.B\	4dd/	[>2.g\
 .	4ee/	.
-!	!LO:SIC:v:s=4ff#/	!
 .	4ff/	.
 2.B\	4gg/	2.g\]
 .	4dd/	.
 .	4ee/	.
-!	!LO:SIC:v:s=4ff#/	!
 2.A\	4ff/	2.a\
 .	4cc#X/	.
 .	4dd#X/	.
+!	!	!LO:SIC:s=[2.e
 2.G\	4ee/	[>2.e\
 .	4dd#/	.
 .	4ee/	.
@@ -90,6 +93,7 @@
 2.B\	4b/	2.d\
 .	4cc/	.
 .	4ddn/	.
+!	!	!LO:SIC:s=2.e
 2.A;\	2.cc;/	2.e;\
 2.G\	4ee/	2.gn\
 .	4dd/	.
@@ -99,7 +103,6 @@
 .	4b/	.
 .	4cc/	.
 2.B\	4dd/	2.d\
-!	!LO:SIC:v:s=4f#/	!
 .	4f/	.
 .	4g/	.
 2.A\	4a/	2.c\
@@ -112,13 +115,12 @@
 2.E\	4cc/	2.e\
 .	4dd/	.
 .	4cc/	.
-!LO:SIC:v:s=2.F#\	!	!
 2.F\	4dd/	[2.d\
 .	4ee/	.
 .	4dd/	.
-!LO:N:vis=2	!	!
+!LO:N:vis=2	!	!LO:SIC:s=2.d]
 2.G;\	2.b;/	2.d;\]
-!	!	!LO:SIC:v:s=2.f#\
+!	!	!
 2.d\	4a/	2.f\
 .	4g/	.
 .	4a/	.
@@ -126,6 +128,7 @@
 2.B\	4b/	2.g\
 .	4cc/	.
 .	4dd/	.
+!	!	!LO:SIC:s=[2.e
 2.G\	4ee/	[>2.e\
 .	4dd/	.
 .	4ee/	.
@@ -138,25 +141,25 @@
 *	*v	*v
 =8	=8
 *^	*
-!	!	!LO:SIC:v:s=4ff#/
 2.d/	2.B\	4ff/
-!	!	!LO:SIC:v:s=4f#/
 .	.	4f/
 .	.	4g/
 2.c/	2.A\	4a/
 .	.	4b/
 .	.	4cc/
-!	!LO:TX:t=P:problem:fermata nad główką nuty, na pięciolinii	!
+!LO:SIC:s=2.d	!LO:TX:t=P:problem:fermata nad główką nuty, na pięciolinii	!
 2.d;/	2.G;>\	2.b;/
 *v	*v	*
 ==	==
 *-	*-
-!!!system-decoration: [(g1)]
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-11-16
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-12
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

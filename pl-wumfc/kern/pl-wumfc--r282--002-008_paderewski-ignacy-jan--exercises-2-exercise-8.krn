@@ -19,18 +19,25 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A419/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4702 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: druga grupa ćwiczeń od skanu 0008
-!!!AIN: 2 forte
-!!!key:
+!!!AIN: 2 piano
+!!!key: G
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" |  modori -m |
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
-*Iforte	*Iforte
-*I"[fortepian]	*I"[fortepian]
-*I'pf	*I'pf
+*I"[Pianoforte]	*I"[Pianoforte]
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
+*Ipiano	*Ipiano
+*ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[f#]	*k[f#]
 *G:	*G:
+!LO:MO:mod=*M4/2	!LO:MO:mod=*M4/2
 *M2/1	*M2/1
+*	*
 *	*^
 !	!LO:TX:b:t=C. f.	!
 4G\	2g/	2G\
@@ -51,6 +58,7 @@
 4D\	.	.
 4C/	2a/	2c\
 4AA/	.	.
+!LO:SIC:s=2GG;	!	!LO:SIC:s=2d
 2GG;\	2b;/	2d;\
 4G\	2b/	2g\
 4A\	.	.
@@ -62,32 +70,42 @@
 4C/	2a/	[2e\
 4D\	.	.
 4E\	2g/	2e\]
+!LO:SIC:s=4GG	!	!
 4GG\	.	.
 =4	=4	=4
+!LO:SIC:s=4AA	!	!
 4AA\	2cc/	2c\
 4E\	.	.
 4D\	2b/	[2d\
 4E\	.	.
+!	!	!LO:SIC:s=2d]
 2F#;\	2a;/	2d;\]
 4E\	2g/	2B\
 4D\	.	.
 =5	=5	=5
+!LO:SIC:s=4C	!	!
 4C\	2a/	2c\
+!LO:SIC:s=4AA	!	!
 4AA\	.	.
+!LO:SIC:s=4GG	!	!
 4GG\	2b/	2B\
 4G\	.	.
 4F#\	2a/	2d\
 4D\	.	.
 4E\	2g/	2B\
 4G\	.	.
-!!linebreak:original
+!!LO:LB:g=original
 =6	=6	=6
 *^	*	*
 4A\	4ryy	2e/	2c\
 !LO:TX:t=P:problem=zapisane ołówkiem	!	!	!
+!LO:SIC:s=4G	!LO:SIC:s=4AA	!	!
 4G\	4AA/	.	.
+!LO:SIC:s=4F#	!	!	!
 4F#\	4D\	2f#/	2A\
+!LO:SIC:s=4D	!	!	!
 4D\	4C\	.	.
+!LO:SIC:s=2E;	!LO:SIC:s=2BB	!	!LO:SIC:s=2G
 2E;\	2BB;\	2g;/	2G;\
 4BB\	2ryy	2dd/	2F#\
 4AA\	.	.	.
@@ -106,14 +124,17 @@
 4E\	.	.
 4F#\	2a/	2d\]
 4D\	.	.
+!	!	!LO:SIC:s=2B
 2G;\	2g;/	2B;\
 !	!LO:TX:t=P:problem=niepełna miara w takcie	!
 2ryy	2ryy	2ryy
 *	*v	*v
 ==	==
 *-	*-
-!!!system-decoration: s1,s2
+!!!system-decoration: {(s1,s2)}
 !!!ENC: Anastazja Marusiak
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!END: 2021-11-12
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

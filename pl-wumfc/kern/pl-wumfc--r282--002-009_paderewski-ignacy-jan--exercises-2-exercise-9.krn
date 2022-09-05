@@ -19,17 +19,23 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A419/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4702 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: druga grupa ćwiczeń od skanu 0008
-!!!AIN: 2 forte
-!!!key:
+!!!AIN: 2 piano
+!!!key: C
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
-*Iforte	*Iforte
-*I"[fortepian]	*I"[fortepian]
-*I'pf	*I'pf
+*I"[Pianoforte]	*I"[Pianoforte]
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
+*Ipiano	*Ipiano
+*ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[]	*k[]
 *C:	*C:
+!LO:MO:mod=*M12/4	!LO:MO:mod=*M12/4
 *M3/1	*M3/1
 *	*^
 !	!LO:TX:a:t=C.f.	!
@@ -56,6 +62,7 @@
 2.F\	2.a/	4d\
 .	.	4e\
 .	.	4d\
+!	!	!LO:SIC:s=2.B
 2.G;\	2.b;/	2.B;\
 2.G\	2.b/	4g\
 .	.	4f\
@@ -80,6 +87,7 @@
 2.BB\	2.b/	4d\
 .	.	4e\
 .	.	4d\
+!	!	!LO:SIC:s=2.c
 2.C;\	2.a;/	2.c;\
 2.E\	2.g/	4G\
 .	.	4A\
@@ -104,6 +112,7 @@
 2.D\	2.f/	4A\
 .	.	4d\
 .	.	4c\
+!	!	!LO:SIC:s=2.B
 2.GG;\	2.g;/	2.B;\
 2.BB\	2.dd/	4d\
 .	.	4e\
@@ -122,25 +131,31 @@
 .	.	4d\
 4ryy	.	4e\
 =8	=8	=8
-[2D\	2.b/	4f\
+!LO:MO:mod=!null:null	!	!
+!LO:N:vis=2	!	!
+[2.D\	2.b/	4f\
 .	.	4B\
-4ryy	.	4c\
-2D\]	2.a/	4d\
+.	.	4c\
+!LO:MO:mod=!null:null	!	!
+!LO:N:vis=2	!	!
+2.D\]	2.a/	4d\
 .	.	4e\
-4ryy	.	4f\
-!	!LO:TX:t=P:problem=niepełna miara w takcie	!
+.	.	4f\
+!	!LO:SIC:s=2.g;	!
 2.GG;\	2.g/	2.g\
 4ryy	4ryy	4ryy
 2ryy	2ryy	2ryy
 *	*v	*v
 ==	==
 *-	*-
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-12
 !!!ENC: Leszek Kubiak
 !!!END: 2021-11-16
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

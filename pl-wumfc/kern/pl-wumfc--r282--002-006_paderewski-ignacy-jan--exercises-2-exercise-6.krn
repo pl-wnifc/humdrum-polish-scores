@@ -21,18 +21,24 @@
 !!!ONB-nifc: UWAGA: druga grupa ćwiczeń od skanu 0008
 !!!AIN: 2 piano
 !!!key: G
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part2	*part1
 *group1	*group1
 *staff2	*staff1
 *I"[Pianoforte]	*I"[Pianoforte]
 *I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[f#]	*k[f#]
 *G:	*G:
 *M	*M
+!LO:MO:null:mod=*M4/2	!LO:MO:null:mod=*M4/2
+*	*
 *^	*^
 !!LO:TX:t=P:problem:brak kluczy na początku ćwiczenia
 !	!	!LO:TX:b:t=C. f	!
@@ -70,6 +76,7 @@
 .	.	4a\
 2B\	2dd/	4b\
 .	.	4d\
+!	!	!LO:SIC:s=2e
 2A;\	2cc;/	2e;\
 2G\	2b/	4g\
 .	.	4f#\
@@ -87,6 +94,7 @@
 .	.	4e\
 2F#\	2a/	4d\
 .	.	4c\
+!	!	!LO:SIC:s=2B
 2G;\	2b;/	2B;\
 2d\	2a/	4f#\
 .	.	4e\
@@ -104,14 +112,17 @@
 .	.	4d\
 2A\	2cc/	4e\
 .	.	4f#\
+!	!	!LO:SIC:s=2g
 2G;\	2b;/	2g;\
 *	*v	*v
 ==	==
 *-	*-
-!!!system-decoration: [(g1)]
+!!!system-decoration: {(g1)}
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-11-16
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-12
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

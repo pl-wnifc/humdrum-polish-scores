@@ -19,21 +19,28 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A419/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4702 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: pierwsza grupa ćwiczeń na skanach 0004-0007
-!!!AIN: 1 empty
-!!!key:
+!!!AIN: 1 piano
+!!!key: e
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part1	*part1
 *staff2	*staff1
-*Iempty	*Ipiano
-*	*I"Pianoforte
+*I"[Pianoforte]	*I"[Pianoforte]
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
+*Ipiano	*Ipiano
+*ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[f#]	*k[f#]
 *e:	*e:
 *M4/4	*M4/4
 *met(c)	*met(c)
+*mmet(c)	*mmet(c)
 *>[A,A,B]	*[A,A,B]
 *>A	*>A
-!LO:TX:a:Bi:t=C.f.	!LO:TX:a:Bi:t=[[C.f.]]
+!LO:TX:a:Bi:t=C.f.	!LO:TX:a:Bi:t=[[C.f.]]:mod=
 2E\	4e/
 .	4d/
 =1	=1
@@ -107,6 +114,7 @@
 .	4e/
 .	4d/
 =15	=15
+!	!LO:SIC:s=(4c
 1A;>	(>4c/
 .	4B/
 .	4c/
@@ -148,6 +156,7 @@
 .	4a/
 .	4b/
 =23	=23
+!	!LO:SIC:s=4cc;
 1c;>	4cc\
 .	4b\
 .	4cc\
@@ -189,6 +198,7 @@
 .	4d#/
 !!LO:PB:g=original
 =31	=31
+!	!LO:SIC:s=4e;
 1E;>	4e/
 .	4f#/
 .	4g/
@@ -229,6 +239,7 @@
 .	4f#/
 .	4e/
 =39	=39
+!	!LO:SIC:s=4d#;
 1B;>	4d#X/
 .	4e/
 .	4f#/
@@ -273,7 +284,7 @@
 1E	1e
 ==	==
 *-	*-
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: | = vertical stroke
@@ -283,5 +294,7 @@
 !!!END: 2021-11-12
 !!!EED: Wojciech Jakubiak-Danek
 !!!EEV: 2021-11-13
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

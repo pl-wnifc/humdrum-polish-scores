@@ -21,19 +21,27 @@
 !!!ONB-nifc: UWAGA: pierwsza grupa ćwiczeń na skanach 0004-0007
 !!!AIN: 2 piano
 !!!key: G
+!!!filter-modern: sic -sq  | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part2	*part1
 *group1	*group1
 *staff2	*staff1
 *I"[Pianoforte]	*I"[Pianoforte]
-*	*I'
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[f#]	*k[f#]
 *G:	*G:
-*M	*M
 *>[A,A,B]	*>[A,A,B]
+!LO:MO:null:mod=*M4/4	!LO:MO:null:mod=*M4/4
+*	*
+!LO:MO:null:mod=*met(c)	!LO:MO:null:mod=*met(c|)
+*	*
+*mmet(c)	*mmet(c|)
 =1	=1
 *>A	*>A
 !!LO:TX:t=P:problem:brak kluczy na początku ćwiczenia
@@ -82,7 +90,7 @@
 4G\	.
 4F#\	.
 4E\	.
-!!linebreak:original
+!!LO:LB:g=original
 =10	=10
 4D\	1d_>
 4E\	.
@@ -134,7 +142,7 @@
 =20	=20	=20
 1G;)	1GG	1g;]
 *v	*v	*
-!!linebreak:original
+!!LO:LB:g=original
 =21:|!	=21:|!
 *>B	*>B
 4GG\	1b
@@ -167,6 +175,7 @@
 4G#\	.
 4E\	.
 =27	=27
+!	!LO:SIC:s=[1a
 4A\	[1a;
 4B\	.
 4c\	.
@@ -180,7 +189,7 @@
 4B\	.
 4c\	.
 4A\	.
-!!linebreak:original
+!!LO:LB:g=original
 =30	=30
 4d\	1f#
 4c\	.
@@ -215,12 +224,14 @@
 1GG;	1g;]
 ==	==
 *-	*-
-!!!system-decoration: [(g1)]
+!!!system-decoration: {(g1)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-11-16
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-11
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

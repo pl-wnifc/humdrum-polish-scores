@@ -21,17 +21,22 @@
 !!!ONB-nifc: UWAGA: druga grupa ćwiczeń od skanu 0008
 !!!AIN: 2 piano
 !!!key: G
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m
 **kern	**kern
 *part2	*part1
 *group1	*group1
 *staff2	*staff1
 *I"[Pianoforte]	*I"[Pianoforte]
 *I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[f#]	*k[f#]
 *G:	*G:
+!LO:MO:mod=*M12/4	!LO:MO:mod=*M12/4
 *M	*M
 *	*^
 !!LO:TX:t=P:problem:brak kluczy na początku ćwiczenia
@@ -59,6 +64,7 @@
 4c\	2.ee/]	2.a\
 4B\	.	.
 4c\	.	.
+!	!	!LO:SIC:s=2.b
 2.d;\	2.dd;/	2.b;\
 4g\	2.dd/	2.b\
 4f#\	.	.
@@ -113,11 +119,12 @@
 4d\	2.dd/	2.f#\
 4B\	.	.
 4A\	.	.
+!	!	!LO:SIC:s=2.g
 2.G;\	2.b;/	2.g;\
 2.d\	4dd/	2.dd\
 .	4ee/	.
 .	4ff#/	.
-!!linebreak:original
+!!LO:LB:g=original
 =7	=7	=7
 2.e\	4gg/	2.b\
 .	4aa/	.
@@ -132,25 +139,31 @@
 .	4ee/	.
 .	4ff#/	.
 =8	=8	=8
+!LO:MO:mod=!null:null	!	!
 !LO:N:vis=2	!	!
 2.G\	4gg/	2.b\
 .	4dd/	.
 .	4ee/	.
+!LO:MO:mod=!null:null	!	!
 !LO:N:vis=2	!	!
 2.D\	4ff#/	2.a\
 .	4ee/	.
 .	4ff#/	.
-!LO:N:vis=2	!	!LO:TX:t=P:problem:fermata nad główką nuty, na pięciolinii
+!LO:MO:mod=!null:null	!	!
+!LO:N:vis=2	!LO:SIC:s=2.gg	!LO:TX:t=P:problem:fermata nad główką nuty, na pięciolinii
+!LO:SIC:s=2.G;	!	!
 2.G\	2.gg;/	2.g;>\
 *	*v	*v
 ==	==
 *-	*-
-!!!system-decoration: [(g1)]
+!!!system-decoration: {(g1)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-11-16
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-12
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

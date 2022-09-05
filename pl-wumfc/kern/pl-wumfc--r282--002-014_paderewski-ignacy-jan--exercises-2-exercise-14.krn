@@ -22,16 +22,25 @@
 !!!OMD:
 !!!AIN: 1 piano
 !!!key: C
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part1	*part1
 *staff2	*staff1
-*I"Fortepian	*I"Fortepian
+*I"[Pianoforte]	*I"[Pianoforte]
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[]	*k[]
 *C:	*C:
-*M4/4	*M4/4
+!LO:MO:mod=*M2/2	!LO:MO:mod=*M2/2
+*M	*M
+!LO:MO:mod=*met(c|)	!LO:MO:mod=*met(c|)
+*	*
+*mmet(c|)	*mmet(c|)
 *	*^
 !	!LO:TX:t=P:problem=brak metrum	!
 8G\L	2b/	2g\
@@ -66,6 +75,7 @@
 8c\	.	.
 8A\J	.	.
 =4	=4	=4
+!	!	!LO:SIC:s=2b
 2G;>\	2gg;>/	2b;<\
 8g\L	2dd/	2b\
 8a\	.	.
@@ -100,6 +110,7 @@
 8g\	.	.
 8G\J	.	.
 =8	=8	=8
+!	!	!LO:SIC:s=2a
 2A;>\	2cc;>/	2a;<\
 8g\L	2b/	2g\
 8f\	.	.
@@ -167,17 +178,20 @@
 8d\	.	.
 8D\J	.	.
 =16	=16	=16
+!	!	!LO:SIC:s=2g
 2G;>\	2gg;>/	2g;<\
 *	*v	*v
 !!LO:PB:g=original
 ==	==
 *-	*-
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-11-13
 !!!ENC: Marta Chmielewska
 !!!END: 2021-11-16
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

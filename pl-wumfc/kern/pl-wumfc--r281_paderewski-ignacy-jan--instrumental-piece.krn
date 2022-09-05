@@ -20,15 +20,19 @@
 !!!OMD: Allegretto non troppo
 !!!AIN: 1 cbass 1 cello 2 clars 2 cor 2 fagot 2 flt 2 oboe 1 timpa 2 tromb 2 tromp 1 viola 2 violn
 !!!key: B-
+!!!filter-modern: sic -sq | shed -e "s/yy//" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern
-*group8	*group8	*group8	*group8	*group8	*group8	*group7	*group7	*group6	*group6	*group5	*group5	*group4	*group4	*group3	*group3	*group2	*group2	*group1	*group1
+*group8	*group8	*group8	*group8	*group8	*	*group7	*group7	*group6	*group6	*group5	*group5	*group4	*group4	*group3	*group3	*group2	*group2	*group1	*group1
 *	*	*	*	*	*	*I""Tromboni	*	*I""Corni in F	*	*I""Trombi in F	*	*I""Fagotti	*	*I""Clarinetti in B.	*	*I""Oboi	*	*I""Flauti	*
 *part20	*part19	*part18	*part17	*part16	*part15	*part14	*part13	*part12	*part11	*part10	*part9	*part8	*part7	*part6	*part5	*part4	*part3	*part2	*part1
 *staff20	*staff19	*staff18	*staff17	*staff16	*staff15	*staff14	*staff13	*staff12	*staff11	*staff10	*staff9	*staff8	*staff7	*staff6	*staff5	*staff4	*staff3	*staff2	*staff1
 *ICstr	*ICstr	*ICstr	*ICstr	*ICstr	*ICidio	*ICbras	*ICbras	*ICbras	*ICbras	*ICbras	*ICbras	*ICww	*ICww	*ICww	*ICww	*ICww	*ICww	*ICww	*ICww
 *Icbass	*Icello	*Iviola	*Ivioln	*Ivioln	*Itimpa	*Itromb	*Itromb	*Icor	*Icor	*Itromp	*Itromp	*Ifagot	*Ifagot	*Iclars	*Iclars	*Ioboe	*Ioboe	*Iflt	*Iflt
-*I"Basſo.	*I"Cello.	*I"Alto	*I"Violino II	*I"Violino Io	*I"Tympani in B F	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*I"Basſo.	*I"Cello.	*I"Alto	*I"Violino II	*I"Violino Io	*I"Tympani in B F	*	*I"	*	*I"	*	*I"	*	*I"	*	*	*	*I"	*	*I"
+*I'cb	*I'vlc	*I'vla	*I'vl 2	*I'vl 1	*I'timp in B|b F	*I'b-trb	*I't-trb	*I'cor 2	*I'cor 1	*I'tr 2	*I'tr 1	*I'fag 2	*I'fag 1	*I'cl in B|b 2	*I'cl in B|b 1	*I'ob 2	*I'ob 1	*I'fl 2	*I'fl 1
+*mI"Contrabasso	*mI"Violoncello	*mI"Viola	*	*mI"Violino I	*mI"Timpani in Bb F	*mI"Trombone basso	*mI"Trombone tenore	*mI"Corno II in F	*mI"Corno I in F	*mI"Tromba II in F	*mI"Tromba I in F	*mI"Fagotto II	*mI"Fagotto I	*mI"Clarinetto I in Bb	*mI"Clarinetto II in Bb	*mI"Oboe II	*mI"Oboe I	*mI"Flauto II	*mI"Flauto I
 *clefF4	*clefF4	*clefC3	*clefG2	*clefG2	*clefG2	*clefG2	*clefF4	*clefG2	*clefG2	*clefG2	*clefG2	*clefF4	*clefF4	*clefG2	*clefG2	*clefG2	*clefG2	*clefG2	*clefG2
+*	*	*	*	*	*	*mclefF4	*	*	*	*	*	*	*	*	*	*	*	*	*
 *ITrd0c0	*	*	*	*	*	*	*	*ITrd4c7	*ITrd4c7	*ITrd4c7	*ITrd4c7	*	*	*ITrd1c2	*ITrd1c2	*	*	*	*
 *k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]
 *B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:	*B-:
@@ -71,13 +75,14 @@
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*Xrep	*	*Xrep	*	*	*
 =8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*rep	*	*rep	*	*	*
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=rit.	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!	!	!	!	!	!	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=rit.	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=rit.	!	!
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:t=rit	!	!
 2r	2r	2d\	4g/	2a\)	2r	2ryy	2ryy	2ryy	2ryy	2ryy	2ryy	2ryy	2d\	4g/	4g/	4a/	4a/	2ryy	2ryy
-!	!	!	!LO:TX:a:t=rit.	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:t=rit	!	!	!	!
+!	!	!	!LO:TX:a:t=rit.:mod=	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:t=rit:mod=	!	!	!	!
 .	.	.	4f#X/	.	.	.	.	.	.	.	.	.	.	4f#X/	4f#X/	4dd/)	4dd/)	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*Xrep	*	*Xrep	*	*	*
 =9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
-!!pagebreak:original
+!!LO:PB:g=original
 4BB-\	4BB-\	4B-/	4d/	4f/	2ryy	2r	2r	2r	2F/	2r	2r	2r	2r	2r	2r	2r	2r	2r	2r
 8BB-\L	8BB-\L	4B-/	8d/L	8f/L	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8BB-\J	8BB-\J	.	8d/J	8f/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -116,14 +121,15 @@
 =16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
 *	*	*^	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *	*	*	*	*	*	*rep	*rep	*rep	*rep	*rep	*rep	*rep	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=rit	!	!	!	!	!	!LO:TX:b:t=rit
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!	!	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=[rit.]	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=rit.	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=rit.
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=rit:mod=rit.	!	!	!	!	!	!LO:TX:b:t=rit
 2r	2r	2c/	2F\	2f/	4b-\	2r	2r	2r	2r	2F/	2F/	2F/	2F\	2F\	2r	2f/	2r	4b-/	2r	2dd\
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:t=rit:rj	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:t=rit:rj:mod=	!	!
 .	.	.	.	.	4a\	.	.	.	.	.	.	.	.	.	.	.	.	4a/	.	.
 *	*	*	*	*	*	*Xrep	*Xrep	*Xrep	*Xrep	*Xrep	*Xrep	*Xrep	*	*	*	*	*	*	*	*
 *	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 =17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
-!!pagebreak:original
+!!LO:PB:g=original
 2C\	2C\	2G/	[>2e-/	8r	2ryy	2ryy	2ryy	2G/	[2e-\	2ryy	2ryy	2ryy	2ryy	2ryy	2ryy	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	(8g/L	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	8ee-/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -163,7 +169,7 @@
 .	.	.	8c/J	8g/J	.	.	.	8c/J	8g\J	.	.	.	.	.	.	.	.	.	.
 .	.	.	4A/	4f/	.	.	.	4A/)	4f\)	.	.	.	.	.	.	.	.	.	.
 =25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25
-!!pagebreak:original
+!!LO:PB:g=original
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*rep	*rep
 4BB-\	4BB-\	4B-/	4d/	4f/	2ryy	2ryy	2BB-\	2B-/	2f\	2ryy	2ryy	2ryy	2ryy	2ryy	4dd\	4dd\	4ff\	4ff\	4ff\
 8BB-\L	8BB-\L	8B-/L	8d/L	8f/L	.	.	.	.	.	.	.	.	.	.	8cc\L	8dd\L	8ff\L	8ff\L	8ff\L
@@ -189,19 +195,23 @@
 .	.	.	4d/	4f/	.	.	.	4B-\	4f\	.	.	.	.	.	.	4dd\	4ff\	4ff\	4ff\
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*Xrep	*Xrep
 =29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
+!LO:SIC:v:s=2G	!LO:SIC:v:s=2G	!LO:SIC:v:s=2D	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 2F\	2F\	2C/	2g\	2dd\	2ryy	2ryy	2ryy	2G/	2d\	2BB-/ 2B-	2G/	2ryy	4E-\	2ryy	4b-\	[2b-\	4gg\	2ryy	4ddd\
 .	.	.	.	.	.	.	.	.	.	.	.	.	4c\	.	8g\L	.	8gg\L	.	8bb-\L
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8f\J	.	8dd\J	.	8aa\J
 =30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30
+!	!	!LO:SIC:v:s=2E-	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 2C\	2C\	2D/	2g\	[2ee-\	2ryy	2ryy	2C\	2c/	2e-\	2C/	2G/	2ryy	4F\	2ryy	4e-/	4b-\]	[2ee-\	2ryy	4gg\
 .	.	.	.	.	.	.	.	.	.	.	.	.	4F\	.	4e-/	4cc\	.	.	8aa\L
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8bb-\J
 =31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31
+!	!	!LO:SIC:v:s=2F	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 2F\	2F\	2G/	8f\L	2ee-\]	2ryy	2ryy	4F\	2F/	2e-\	4D/	2F/	2ryy	2B-\	2ryy	2f/	8dd\L	2ee-\_	2ryy	8bb-\L
 .	.	.	8cc\	.	.	.	.	.	.	.	.	.	.	.	.	8cc\	.	.	8aa\J
 .	.	.	8b-\	.	.	.	4FF\	.	.	4E-/	.	.	.	.	.	8b-\	.	.	8gg\L
 .	.	.	8a\J	.	.	.	.	.	.	.	.	.	.	.	.	8a\J	.	.	8ff\J
 =32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32
+!	!	!LO:SIC:v:s=2F	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 2BB-\	2BB-\	2G/	2b-\	4ee-\	2ryy	2ryy	2BB-\	2F/	2f\	4E-/	2F/	2ryy	2r	2ryy	2f/	2b-\	4ee-\]	2ryy	4ff\
 .	.	.	.	4dd\	.	.	.	.	.	4D/	.	.	.	.	.	.	4dd\	.	4bb-\
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
@@ -213,5 +223,7 @@
 !!!END: 2021-11-09
 !!!ENC: Krzysztof Stępień
 !!!END: 2021-11-13
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
