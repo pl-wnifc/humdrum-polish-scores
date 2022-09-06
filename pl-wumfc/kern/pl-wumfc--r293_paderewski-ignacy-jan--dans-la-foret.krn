@@ -25,7 +25,8 @@
 *group2	*group2	*	*group1	*group1
 *staff3	*staff2	*	*staff1	*staff1
 *I"[Fortepian]	*I"[Fortepian]	*	*I"[Głos]	*
-*I'	*I'	*	*I'	*
+*mI"[Pianoforte]	*mI"[Pianoforte]	*	*mI"[Voce]	*
+*I'[pf]	*I'[pf]	*	*I'[V]	*
 *Ipiano	*Ipiano	*	*Ivox	*
 *ICklav	*ICklav	*	*ICvox	*
 *IGacmp	*IGacmp	*	*IGsolo	*
@@ -34,8 +35,11 @@
 *a:	*a:	*	*a:	*
 *M2/4	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1
+!!!OMD:
+!!!OMD-mod: Allegretto non troppo
 *ped	*	*	*	*
-!	!	!LO:DY:t=p.	!LO:TX:a:B:t=Allegretto non troppo.	!
+!	!	!LO:MO:mod=!null:null	!	!
+!	!	!LO:DY:t=p.	!LO:TX:a:B:t=Allegretto non troppo.:mod=	!
 4r	4r	p	2r	.
 8r	8r	.	.	.
 !LO:TX:t=P:problem=cross-measure beam	!LO:TX:t=P:problem=cross-measure beam	!	!	!
@@ -73,7 +77,7 @@
 8e\)	8ee/)	.	8E\	-e
 (16e\LL	(>16ee/LL	.	8r	.
 16E\JJ	16e/JJ	.	.	.
-!!linebreak:original
+!!LO:LB:g=original
 =7	=7	=7	=7	=7
 *Xped	*	*	*	*
 8e\)	8ee/)	.	2r	.
@@ -83,6 +87,7 @@
 =8	=8	=8	=8	=8
 *	*^	*	*	*
 4c 4G 4C<\)	8cc~/L)	4g 4e-X\	.	8r	.
+!	!	!	!	!	!LO:MO:mod=il
 .	8cc~/J	.	.	16G\	Il
 .	.	.	.	16A\	ne
 !	!	!	!LO:SIC:v:n=3:s=4B-\	!	!
@@ -94,30 +99,37 @@
 .	.	.	16G\	au
 .	.	.	16F\	ra-
 4F 4FF<\	4a 4f 4c 4A/	.	8A\	-meau
+!	!	!	!	!LO:MO:mod=qu'u-
 .	.	.	16Bn\	Qu'u-
 .	.	.	16c\	-ne
 =10	=10	=10	=10	=10
 4f>:: 4B>::\	4aa: 4dd:: 4a::/	sf	8d\	pau-
 .	.	.	8d\	-vre
-*	*ped	*	*	*
+!LO:MO:mod=*ped:null	!LO:MO:mod=*null:null	!	!	!
+*null	*ped	*	*	*
 !	!	!LO:DY:a:t=p.	!	!
 [4E [4BB [4EE\	[4g#X [>4d [4G#X/	p	8.G#X\	feuille
 .	.	.	16G#\	ou-
 =11	=11	=11	=11	=11
+!	!	!	!	!LO:MO:mod=-bli-
 8E] 8BB] 8EE\]	8g#] 8d] 8G#/]	.	[2d\	-blié-
+!	!	!LO:MO:mod=!null:null	!	!
 !	!	!LO:DY:t=p.	!	!
 (16e\LL	(16eee/LL	p	.	.
 16E\JJ	16ee/JJ	.	.	.
 8e\)	8eee/)	.	.	.
 (16e\LL	(<16eee/LL	.	.	.
 16E\JJ	16ee/JJ	.	.	.
-!!linebreak:original
+!!LO:LB:g=original
 =12	=12	=12	=12	=12
 !	!LO:TX:t=P:problem=zakończenie łuku na górze	!	!	!
 8e\)	8eee\)	.	4d\]	.
-*	*Xped	*	*	*
+!LO:MO:mod=*Xped:null	!LO:MO:mod=*null:null	!	!	!
+*null	*Xped	*	*	*
 8r	8r	.	.	.
+!	!	!	!	!LO:MO:mod=-ée,
 8r	8r	.	8E\	-e
+!	!	!LO:MO:mod=!null:null	!	!
 !	!	!LO:HP:t=cres.	!	!
 (16A\LL	(>16a/LL	<	8r	.
 16B\JJ	16b/JJ	.	.	.
@@ -130,6 +142,7 @@
 *	*v	*v	*	*	*
 =14	=14	=14	=14	=14
 (<2A 2D\	(>2cc 2f#X 2c/	.	4r	.
+!	!	!	!	!LO:MO:mod=rien
 .	.	.	8c\	Rien
 .	.	.	16c\	qu'u-
 .	.	.	16c\	-ne
@@ -138,15 +151,18 @@
 .	.	.	8A\	-le....
 .	.	.	8r	.
 =16	=16	=16	=16	=16
+!	!	!LO:MO:mod=!null:null	!	!
 !	!	!LO:DY:t=p.	!	!
 4G 4BB\	4b 4e/	p	8r	.
 .	.	.	8G\	et
 4A 4F#X 4BB\	4b 4d#X 4B/	.	8F#X\	qu'un
 .	.	.	8F#\	oi-
-!!linebreak:original
+!!LO:LB:g=original
 =17	=17	=17	=17	=17
 !	!	!LO:DY:a:t=p.	!	!
-*	*ped	*	*	*
+!LO:MO:mod=*ped:null	!LO:MO:mod=*null:null	!	!	!
+*null	*ped	*	*	*
+!	!	!	!	!LO:MO:mod=-seau,
 8G 8BB 8EE\	8b 8e 8B/	p	[2E\	-seau
 8r	(16bb/LL	.	.	.
 .	16b/JJ	.	.	.
@@ -155,13 +171,16 @@
 .	16b/JJ	[[	.	.
 =18	=18	=18	=18	=18
 4g 4B^\]	8bb/)	.	4E\]	.
-*	*Xped	*	*	*
+!LO:MO:mod=*Xped:null	!LO:MO:mod=*null:null	!	!	!
+*null	*Xped	*	*	*
 .	8r	.	.	.
+!LO:MO:mod=!null:null	!	!	!	!
 !LO:N:vis=2	!	!	!	!
 4r	8fnL 8A~>/	.	4r	.
 .	8fJ 8A~>/	.	.	.
 =19	=19	=19	=19	=19
-*	*ped	*	*	*
+!LO:MO:mod=*ped:null	!LO:MO:mod=*null:null	!	!	!
+*null	*ped	*	*	*
 4EEE\	8e 8G~>/	.	2r	.
 .	(16bb/LL	.	.	.
 .	16b/JJ	.	.	.
@@ -170,7 +189,8 @@
 .	16b/JJ	.	.	.
 =20	=20	=20	=20	=20
 4g 4B\]	8bb/)	[	2r	.
-*	*Xped	*	*	*
+!LO:MO:mod=*Xped:null	!LO:MO:mod=*null:null	!	!	!
+*null	*Xped	*	*	*
 .	8r	.	.	.
 4r	8fnL 8A~>/	.	.	.
 .	8fJ 8A~>/	.	.	.
@@ -182,12 +202,16 @@
 8r	(>16e/LL	.	.	.
 .	16E</JJ)	[	.	.
 =22	=22	=22	=22	=22
-*	*ped	*	*	*
-!LO:TX:b:B:t=Piu mosso	!	!LO:DY:a	!LO:TX:a:B:t=Piu mosso	!
+!!!OMD:
+!!!OMD-mod: Più mosso
+!LO:MO:mod=*ped:null	!LO:MO:mod=*null:null	!	!	!
+*null	*ped	*	*	*
+!LO:TX:b:B:t=Piu mosso:mod=	!	!LO:DY:a	!LO:TX:a:B:t=Piu mosso:mod=	!
 [<2C [2CC\	[2e [>2B-X [2E</	f	4r	.
+!	!	!	!	!LO:MO:mod=il
 .	.	.	8G\	Il
 .	.	.	8A\	ne
-!!pagebreak:original
+!!LO:PB:g=original
 =23	=23	=23	=23	=23
 !	!LO:TX:t=P:problem=łuk górą	!	!	!
 4C] 4CC\]	4e] 4B-] 4E</]	.	8B-X\	res-
@@ -196,6 +220,7 @@
 .	.	.	16G\	dans
 .	.	.	16G\	mon
 =24	=24	=24	=24	=24
+!	!	!LO:MO:mod=!null:null	!	!
 !	!	!LO:HP:t=cres	!	!
 (<4AA 4AAA\	4f 4c 4F</	<	(4F\	â-
 4AA-X 4AAA-X\	4f 4Bn 4F</	.	8E\)	.
@@ -203,14 +228,16 @@
 =25	=25	=25	=25	=25
 2GG 2GGG\)	2f 2d 2B-X 2F</	.	8r	.
 !	!	!	!LO:TX:a:i:t=con passione	!
+!	!	!	!	!LO:MO:mod=qu'un
 .	.	.	8D\	Qu'un
 .	.	.	8.c\	seul
 .	.	.	16c\	a-
 =26	=26	=26	=26	=26
-!	!LO:SIC:v:n=3:s=2B-	!LO:HP:b=2	!	!
+!	!	!LO:MO:mod=!null:null	!	!
+!	!	!LO:HP:b=2	!	!
 (<4GG 4GGG\	[2e 2c 2B [2E</	<	2c\	-mour
 4GG-X 4GGG-X\	.	[	.	.
-!!linebreak:original
+!!LO:LB:g=original
 =27	=27	=27	=27	=27
 *	*^	*	*	*
 !LO:TX:t=P:problem=brak zakończenia łuku	!	!	!	!	!
@@ -219,15 +246,19 @@
 .	[4e-X [4E-<X/	.	.	8G\	y
 .	.	.	[[	8F\	chan-
 =28	=28	=28	=28	=28	=28
+!	!	!	!	!	!LO:MO:mod=-ter;
 2FF] 2FFF\])	8e-]L 8E-</]	2A\	.	[2F\	-ter
 .	8d 8D</	.	.	.	.
 .	8d-X 8D-<X/	.	.	.	.
 .	8cJ 8C</	.	.	.	.
 *	*v	*v	*	*	*
 =29	=29	=29	=29	=29
+!!!OMD:
+!!!OMD-mod: Più vivo ed appassionato
 *ped	*	*	*	*
-!	!	!	!LO:TX:a:B:t=piu vivo ed ap(p)assionato.	!
+!	!	!	!LO:TX:a:B:t=piu vivo ed ap(p)assionato.:mod=	!
 8FF 8FFF\	8c 8A 8C</	.	4F\]	.
+!	!	!LO:MO:mod=!null:null	!	!
 !	!	!LO:HP:t=crescendo	!	!
 (16GLL 16E-X\	8r	<	.	.
 16FF\JJ	.	.	.	.
@@ -241,6 +272,7 @@
 (16GLL 16E-X\	8dd 8d/	.	.	.
 16FF\JJ	.	.	.	.
 *Xped	*	*	*	*
+!	!	!	!	!LO:MO:mod=mais
 4G 4E-\)	8cc 8c/	.	8c\	Mais
 .	8b-XJ 8B-X/	.	8d\	le
 =31	=31	=31	=31	=31
@@ -250,7 +282,7 @@
 4FF\)	8f 8A< 8F</	.	8d\	-to-
 .	8e-XJ 8E-<X/	.	16c\	-mne
 .	.	.	16c\	qui
-!!linebreak:original
+!!LO:LB:g=original
 =32	=32	=32	=32	=32
 8FF\L	4d 4B-<X 4D</	.	(4B-X\	bra-
 (16FF\L	.	.	.	.
@@ -260,6 +292,7 @@
 16FFF\JJ	.	.	.	.
 =33	=33	=33	=33	=33
 8FF\L)	2c 2A< 2E-X< 2C</	>]	8r	.
+!	!	!	!	!LO:MO:mod=ne
 (16FF\L	.	.	4F\	Ne
 16FFF\JJ	.	.	.	.
 4FF\)	.	.	.	.
@@ -276,16 +309,19 @@
 =36	=36	=36	=36	=36
 *ped	*	*	*	*
 !	!	!LO:DY:b:t=p.	!	!
+!	!	!	!	!LO:MO:mod=-ter.
 8EE 8EEE\	8B< 8G#X< 8E< 8BB</	p	[2B\	-ter
+!	!	!LO:MO:mod=!null:null	!	!
 !	!	!LO:HP:t=cres_	!	!
 !	!	!LO:DY:a	!	!
+!	!	!LO:MO:mod=<	!	!
 (8B>\L	(<16eee/LL	p <	.	.
 .	16ee/JJ	.	.	.
 8b>\	8eee/L)	.	.	.
 8a>\J	(<16eee/L	.	.	.
 .	16ee/JJ	.	.	.
 *Xped	*	*	*	*
-!!pagebreak:original
+!!LO:PB:g=original
 =37	=37	=37	=37	=37
 8gn>\L	8eee/L)	.	2B\_	.
 8fn>\J	(<16eee/L	.	.	.
@@ -293,6 +329,7 @@
 4e>\)	4eee/)	.	.	.
 =38	=38	=38	=38	=38
 8EE 8EEE\	8B< 8G#X< 8E< 8BB</	.	4B\]	.
+!	!	!LO:MO:mod=!null:null	!	!
 !	!	!LO:DY:t=pp.	!	!
 (<8B>\L	(<16eee/LL	pp	.	.
 .	16ee/J	.	.	.
@@ -311,6 +348,7 @@
 8cc> 8a> 8e>\	8eee/L	.	8A\	-seau
 8r>	(<16eee/L	.	8A\	s'en
 .	16ee/JJ	.	.	.
+!	!	!	!	!LO:MO:mod=va,
 8ee> 8b> 8e>\	8eee/)	.	8G\	va
 8r>	8r	.	8G\	la
 =41	=41	=41	=41	=41
@@ -318,13 +356,15 @@
 8r>	(<16eee/L	.	8F\	-le
 .	16ee/JJ	.	.	.
 8cc> 8a> 8e>\	8eee/)	.	8A\	tom-
+!	!	!	!	!LO:MO:mod=-be,
 8r>	8r	.	16A\	-be
 .	.	.	16r	.
-!!pagebreak:original
+!!LO:LB:g=original
 =42	=42	=42	=42	=42
 *ped	*	*	*	*
 !	!	!LO:DY:b:t=sf.	!	!
 2AA 2AAA\	2c#X< 2G< 2E<^/	sf	8r	.
+!	!	!	!	!LO:MO:mod=l'a-
 .	.	.	8G\	L'a-
 .	.	.	8.A\	-mour
 .	.	.	16B-X\	s'é-
@@ -341,21 +381,27 @@
 .	.	.	8A\	c'est
 .	.	.	8B\	l'hi-
 =45	=45	=45	=45	=45
+!	!	!	!	!LO:MO:mod=-ver.
 2a>: 2f>: 2c>: 2A>:^>\	8rddd	sf	2cn\	-ver
 .	(16eee-X/LL	.	.	.
+!	!	!	!LO:MO:mod=!null:null	!
 !	!	!	!LO:TX:a:i:t=rit	!
 .	16ee-X/JJ	.	.	.
 .	4eee-/)	.	.	.
 *Xped	*	*	*	*
 =46	=46	=46	=46	=46
 !	!	!	!LO:TX:t=P:problem=klamra łukowa i 3	!
-*	*ped	*	*Xbrackettup	*
+!LO:MO:mod=*ped:null	!LO:MO:mod=*null:null	!	!	!
+*null	*ped	*	*Xbrackettup	*
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=rit.	!
+!	!	!	!null	!
 2a> 2f> 2d> 2B>\	8ddd/L	.	12B\	Pe-
 .	.	.	12B\	-tit
 .	(<16ddd/L	.	.	.
 .	.	.	12B\	oi-
 .	16dd/JJ	.	.	.
 !	!LO:TX:b:i:t=leggiero	!	!	!
+!	!	!	!	!LO:MO:mod=-seau,
 .	8ff'/L)	.	8.d\	-seau
 !	!LO:TX:t=P:problem=pięciola oznaczona 5	!	!	!
 .	(40ff/LL	.	.	.
@@ -364,8 +410,9 @@
 .	.	.	16d\	viens
 .	40gg/	.	.	.
 .	40ff/JJJ	.	.	.
-*	*Xped	*	*	*
-!!pagebreak:original
+!LO:MO:mod=*Xped:null	!LO:MO:mod=*null:null	!	!	!
+*null	*Xped	*	*	*
+!!LO:PB:g=original
 =47	=47	=47	=47	=47
 4a> 4e> 4c>\	8ee'>/L)	.	8c\	sur
 !	!LO:TUP:b	!	!	!
@@ -375,6 +422,7 @@
 .	40ff/	.	.	.
 .	40ee/JJJ	.	.	.
 4d 4B 4E\	8gg#X'>/L)	.	8B\	tom-
+!	!LO:MO:mod=*null:null	!	!	!
 *	*Xtuplet	*	*	*
 .	(40gg#/LL	.	8B\	-be
 .	40aa/	.	.	.
@@ -383,12 +431,14 @@
 .	40gg#/JJJ	.	.	.
 =48	=48	=48	=48	=48
 4c 4A 4F\	8aa'>/L)	.	8r	.
+!	!	!	!	!LO:MO:mod=chan-
 .	(40aa/LL	.	8A\	Chan-
 .	40bb/	.	.	.
 .	40aa/	.	.	.
 .	40bb/	.	.	.
 .	40aa/JJJ	.	.	.
 *ped	*tuplet	*	*	*
+!	!	!	!	!LO:MO:mod=-ter,
 8e 8G 8C\	8eee'>/L)	.	[4G\	-ter
 !	!LO:TUP:b	!	!	!
 (16ee>\LL	(<48eee/LL	<	.	.
@@ -410,6 +460,7 @@
 4ee>\)	4eee/)	]	4r	.
 *Xped	*	*	*	*
 =50	=50	=50	=50	=50
+!	!	!	!	!LO:MO:mod=viens
 4c 4A-X 4F\	8aa-X/L	.	8.A-X\	Viens
 !	!LO:TUP:b	!	!	!
 .	(40aa-/LL	.	.	.
@@ -419,6 +470,7 @@
 .	40bb-/	.	.	.
 .	40aa-/JJJ	.	.	.
 *ped	*	*	*	*
+!	!	!	!	!LO:MO:mod=-ter,
 8e 8G 8C\	8eee'>/L)	.	[4e\	-ter
 !	!LO:TUP:b	!	!	!
 (16ee>\LL	(<48eee/LL	[	.	.
@@ -427,7 +479,7 @@
 16e>\JJ	48fff/	.	.	.
 .	48eee/	.	.	.
 .	48fff/JJJ	.	.	.
-!!linebreak:original
+!!LO:LB:g=original
 =51	=51	=51	=51	=51
 8ee>\L)	8eee'/L)	.	2e;\_	.
 !	!LO:TUP:b	!	!	!
@@ -454,6 +506,7 @@
 4e 4E\	8eee/L)	.	8B\	se-
 .	(16eee/L	.	8B\	-ra
 .	16ee/JJ	.	.	.
+!	!	!	!	!LO:MO:mod=vert,
 4AAA\	[>4eee/)	.	4A\	vert
 =54	=54	=54	=54	=54
 *^	*	*	*	*
@@ -463,13 +516,14 @@
 4e 4c#X 4A\	4ryy	8eee/)	.	8c#X\	l'ar-
 .	.	8r	.	8c#\	-bre
 *v	*v	*	*	*	*
-!!linebreak:original
+!!LO:LB:g=original
 =55	=55	=55	=55	=55
 8F#XL 8D\	8eee/L	.	(16B\LL	se-
 .	.	.	16c#X\JJ)	.
 8G#XJ 8E\	(16eee/L	.	8B\	-ra
 .	16ee/JJ	.	.	.
 *ped	*	*	*	*
+!	!	!	!	!LO:MO:mod=vert.
 [4A [4E [4C#X [4AA\	[>4eee/)	.	[4A\	vert
 =56	=56	=56	=56	=56
 4A] 4E] 4C#] 4AA\]	8eee/L]	.	2A\_	.
@@ -502,11 +556,15 @@
 ==	==	==	==	==
 *-	*-	*-	*-	*-
 !!!system-decoration: g1{g2}
+!!!system-decoration-mod: g1{(g2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-11-17
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-13
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-09-06
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
