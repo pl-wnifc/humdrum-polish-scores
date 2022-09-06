@@ -15,6 +15,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 1001158933
+!!!NIFC-rismChildID: 1001158933
 !!!NIFC-islandoraID: pl-wumfc:419
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A419/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4702 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
@@ -22,17 +23,23 @@
 !!!OMD:
 !!!AIN: 2 piano
 !!!key: C
+!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
-*I"Fortepian	*I"Fortepian
+*I"[Pianoforte]	*I"[Pianoforte]
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[]	*k[]
 *C:	*C:
 *M4/4	*M4/4
 *met(c)	*met(c)
+*mmet(c)	*mmet(c)
 !LO:TUP:a:problem=klamra łukowa	!
 6C\	2cc\
 6D\	.
@@ -140,16 +147,21 @@
 6G\	.
 6BB\	.
 =16	=16
+!LO:SIC:s=1C;	!
 1C;<	1c;>
 !!LO:LB:g=original
 ==	==
 *-	*-
+!!LO:MO:ori
 !!!system-decoration: [(s1,s2)]
+!!LO:MO:mod
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
 !!!ENC: Filip Voros
 !!!END: 2021-11-13
 !!!ENC: Marta Chmielewska
 !!!END: 2021-11-17
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

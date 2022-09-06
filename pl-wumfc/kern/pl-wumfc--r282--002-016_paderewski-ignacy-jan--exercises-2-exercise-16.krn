@@ -15,6 +15,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 1001158933
+!!!NIFC-rismChildID: 1001158933
 !!!NIFC-islandoraID: pl-wumfc:419
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A419/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4702 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
@@ -22,16 +23,22 @@
 !!!OMD:
 !!!AIN: 1 piano
 !!!key: G
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part1	*part1
 *staff2	*staff1
-*I"Fortepian	*I"Fortepian
+*I"[Pianoforte]	*I"[Pianoforte]
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[f#]	*k[f#]
 *G:	*G:
-*M4/4	*M4/4
+!LO:MO:null:mod=*M4/4	!LO:MO:null:mod=*M4/4
+*	*
 *^	*^
 !	!	!LO:TX:a:t=C. f	!
 4G/	4GG\	4g/	4g\
@@ -53,6 +60,7 @@
 =4	=4	=4	=4
 4A/	4AA\	4cc/	4c\
 4G/	4BB\	4b/	4d\
+!	!LO:SIC:s=4C	!	!LO:SIC:s=4c
 4A;>/	4C;>\	4a;>/	4c;>\
 4E/	4E\	4g/	4B\
 =5	=5	=5	=5
@@ -64,6 +72,7 @@
 =6	=6	=6	=6
 4E/	4C\	4e/	4G\
 4D#X/	4BB\	4f#/	[<4B\
+!	!LO:SIC:s=4EE	!	!
 4E;>/	4EE;>\	4g;>/	4B\]
 4F#/	4BB\	4dd/	[<4d\
 =7	=7	=7	=7
@@ -80,12 +89,14 @@
 *	*v	*v
 ==	==
 *-	*-
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-13
 !!!ENC: Marta Chmielewska
 !!!END: 2021-11-16
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

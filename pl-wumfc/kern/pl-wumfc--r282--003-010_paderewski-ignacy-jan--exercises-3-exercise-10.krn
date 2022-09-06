@@ -15,6 +15,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 1001158933
+!!!NIFC-rismChildID: 1001158933
 !!!NIFC-islandoraID: pl-wumfc:419
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A419/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4702 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
@@ -24,20 +25,23 @@
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
-*I"Fortepian	*I"Fortepian
+*I"[Pianoforte]	*I"[Pianoforte]
 *Ipiano	*Ipiano
 *ICklav	*ICklav
 *IGsolo	*IGsolo
 *clefF4	*clefG2
+!!LO:MO:mod
+!! *M4/4	*M4/4
+!!LO:MO:end
 *k[]	*k[]
 *F:	*F:
 =1	=1
 *^	*^
-4r	2r	2a/	8r
+4r	2ryyyy	2a/	8r
 .	.	.	8f\L
 4r	.	.	8e\
 .	.	.	8d\J
-8r	2r	2ee/	2c\
+8r	2ryyyy	2ee/	2c\
 8B/L	.	.	.
 8A/	.	.	.
 8G/J	.	.	.
@@ -51,7 +55,7 @@
 .	8C\	.	.
 .	8D\J	.	.
 =3	=3	=3	=3
-8G#X/L	2E\	2b/	[>2e\
+8G#X/L	2E\	2b/	[<2e\
 8E/	.	.	.
 8F#X/	.	.	.
 8G#/J	.	.	.
@@ -94,6 +98,7 @@
 .	.	.	8cc\
 .	.	.	8b-X\J
 =8	=8	=8	=8
+!	!LO:SIC:s=2F\:v	!	!
 2c;/	2F;\	2ff;/	2a\
 2c/	8r	2ee/	2g\
 .	8C\L	.	.
@@ -127,6 +132,7 @@
 .	8E\	.	.
 .	8C\J	.	.
 =12	=12	=12	=12
+!	!LO:SIC:s=2GG\:v	!	!
 2B;/	2GG;\	2dd;/	2g\
 4c/	4C\	2cc/	8e\
 .	.	.	(>8c\L
@@ -134,7 +140,7 @@
 .	.	.	8f\J)
 !!LO:LB:g=original
 =13	=13	=13	=13
-8r	2r	2b/	2f\
+8r	2ryyyy	2b/	2f\
 8B/L	.	.	.
 8d/	.	.	.
 8e/J	.	.	.
@@ -161,6 +167,7 @@
 .	8E\	.	4d\
 .	8EE\J	.	.
 =16	=16	=16	=16
+!	!LO:SIC:s=1AA:v	!	!
 1A;	1AA;	1a;	1c
 *v	*v	*	*
 *	*v	*v
@@ -168,9 +175,14 @@
 *-	*-
 !!!system-decoration: [(s1,s2)]
 !!!RDF**kern: > = above
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/[<>]//g" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Filip Voros
 !!!END: 2021-11-13
 !!!ENC: Marta Lawrence
 !!!END: 2021-11-15
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-09-05
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below

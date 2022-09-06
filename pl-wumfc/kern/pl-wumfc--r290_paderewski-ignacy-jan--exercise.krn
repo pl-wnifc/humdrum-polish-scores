@@ -13,6 +13,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 1001159470
+!!!NIFC-rismChildID: 1001159470
 !!!NIFC-islandoraID: pl-wumfc:8534
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A8534/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4710 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
@@ -24,6 +25,7 @@
 *part4	*part3	*part2	*part1
 *staff4	*staff3	*staff2	*staff1
 *I"2 Fagotti	*I"2 Clarinetti in B	*I"2 Oboi	*I"2 Flauti
+*I'fag	*I'cl	*I'ob	*I'fl
 *Ifagot	*Iclars	*Ioboe	*Iflt
 *ICww	*ICww	*ICww	*ICww
 *clefF4	*clefG2	*clefG2	*clefG2
@@ -95,8 +97,10 @@
 *	*	*	*	*v	*v	*
 =10	=10	=10	=10	=10	=10
 *	*	*	*	*	*^
+!	!	!	!	!LO:SIC:s=4an/:v	!	!
 4c/]	4F\	4a/	4f\	4a-/	4ccc/	4ff\
 *	*	*	*	*^	*	*
+!	!	!	!	!	!	!LO:SIC:s=4.eeen/:v	!
 2r	2ryy	2b-/	2c\	4r	4ryy	4.eee-/	2een\
 .	.	.	.	4r	4ryy	.	.
 .	.	.	.	.	.	8ddd-/	.
@@ -108,6 +112,7 @@
 =12	=12	=12	=12	=12	=12	=12	=12
 4c/]	4E-\	4a/	4f\	8an/L	4f\	4ccc/	4ff\
 .	.	.	.	8cc/J	.	.	.
+!	!	!	!	!LO:SIC:s=4.een/:v	!	!LO:SIC:s=4.eeen/:v	!
 2r	2ryy	2b-/	2c\	4.ee-/	4r	4.eee-/	2een\
 .	.	.	.	.	4r	.	.
 .	.	.	.	8dd-/	.	8ddd-/	.
@@ -123,18 +128,19 @@
 *^	*	*	*	*	*	*
 4F\]	4ryy	4r	4f\]	8cc/L	4r	8aa-/L	8ee-\L
 .	.	.	.	8b-/	.	8gg-/	8dd-\
+!	!	!LO:SIC:s=8rgg:v	!	!	!	!	!
 2F/	2FF\	8r	8f\L	8a-/	8r	8ff/J	8cc\J
 .	.	8gg-/L	8g-\	8ee-/	8b-\L	8r	8r
 .	.	8ff/	8f\	8dd-/	8a-\	4ff/	4r
-.	.	8cc/J 8ee-	8c\J 8e-	8cc/J	8an\J	.	.
+.	.	8ee-J 8cc/	8e-J 8c\	8cc/J	8an\J	.	.
 !!LO:LB:g=original
 =15	=15	=15	=15	=15	=15	=15	=15
-2.F/	2.BB-\	2ff/	2c\ 2d-	4dd-/	4b-\	8ff/L	8ff\L
+2.F/	2.BB-\	2ff/	2d- 2c\	4dd-/	4b-\	8ff/L	8ff\L
 .	.	.	.	.	.	8aan/	8aan\
 .	.	.	.	4r	4ryy	8bb-/	8bb-\
 .	.	.	.	.	.	8ccc/J	8ccc\J
 !	!	!	!	!LO:TX:t=P:problem=cross-measure beam	!	!	!
-.	.	4dd-/ 4ff	4d-\ 4f	8f/L	4ryy	4ddd-/	4ddd-\
+.	.	4ff 4dd-/	4f 4d-\	8f/L	4ryy	4ddd-/	4ddd-\
 .	.	.	.	8an/	.	.	.
 =16	=16	=16	=16	=16	=16	=16	=16
 .	.	.	.	.	.	16qqddd-/LL	.
@@ -184,15 +190,26 @@
 4D-\	4a-/	2f\	8ee-/L	8cc\L	8eee-/L	8ccc\L
 .	.	.	8ff/	8dd-\	8fff/	8ddd-\
 4d-\	4r	.	8dd-/	8b-\	8ddd-/	8bb-\
+!	!	!	!	!LO:SIC:s=8an\J:v	!	!
 .	.	.	8cc/J	8a-\J	8ccc/J	8aan\J
 4G-\	4g-/	4f\	4dd-/	4b-\	4ddd-/	4bb-\
 =22	=22	=22	=22	=22	=22	=22
+!!LO:MO:ori
 2C\	2g-/	2e-\	8dd-/L	8b-\L	8ddd-/L	8bb-\L
 .	.	.	8ff/	8dd-\	8fff/	8ccc\
 .	.	.	8ee-/	8cc\	8eee-/	8ccc\
 .	.	.	8dd-/J	8b-\J	8ddd-/	8bb-\J
 4F\	4a/	4f\	8cc/L	8a-\L	8ccc/	4aan\
 .	.	.	8dd-/J	8ff\J	8ddd-/J	.
+!!LO:MO:end
+!!LO:MO:mod
+!! 2C\	2g-/	2e-\	8dd-/L	8b-\L	8ddd-/L	8bb-\L
+!! .	.	.	8ff/	8dd-\	8fff/	8ccc\
+!! .	.	.	8ee-/	8cc\	8eee-/	8ccc\
+!! .	.	.	8dd-/J	8b-\J	8ddd-/J	8bb-\J
+!! 4F\	4a/	4f\	8cc/L	8an\L	8ccc/L	4aan\
+!! .	.	.	8dd-/J	8ff\J	8ddd-/J	.
+!!LO:MO:end
 =23	=23	=23	=23	=23	=23	=23
 *^	*	*	*	*	*	*
 4F/	4BB-\	4b-/	4d-\	4ff/	4dd-\	4bb-/	4bb-\
@@ -235,6 +252,7 @@
 .	.	4e-/	8e-\	4ee-/	4b-\	4bb-/	4gg-\
 .	.	.	8B-\J	.	.	.	.
 =29	=29	=29	=29	=29	=29	=29	=29
+!	!	!LO:MO:mod=!null:null	!	!LO:MO:mod=!null:null	!LO:MO:mod=!null:null	!	!
 !	!	!LO:N:vis=1	!	!LO:N:vis=2	!LO:N:vis=2	!	!
 2.F/	2.BB-\	2.f/	8B-\L	[>2.dd-/	[<2.b-\	[>2.bb-/	[<2.ff\
 .	.	.	8A\	.	.	.	.
@@ -244,6 +262,7 @@
 *	*	*v	*v	*	*	*	*
 =30	=30	=30	=30	=30	=30	=30
 .	.	16qqd-/LL	.	.	.	.
+!LO:MO:mod=!null:null	!	!	!	!	!	!
 !LO:N:vis=2	!	!	!	!	!	!
 .	.	16qqe-/JJ	.	.	.	.
 2.F/	2.BB-\	4d-\	2.dd-/]	2.b-\]	2.bb-/]	2.ff\]
@@ -253,11 +272,15 @@
 ==	==	==	==
 *-	*-	*-	*-
 !!!system-decoration: {(s1,s2)}{(s3,s4)}
+!!!system-decoration-mod: [(s1,s2)][(s3,s4)]
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g"
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-14
 !!!ENC: Marta Chmielewska
 !!!END: 2021-11-17
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-09-06
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

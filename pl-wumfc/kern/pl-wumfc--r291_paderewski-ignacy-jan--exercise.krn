@@ -13,6 +13,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 1001159474
+!!!NIFC-rismChildID: 1001159474
 !!!NIFC-islandoraID: pl-wumfc:471
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A471/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4711 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
@@ -23,6 +24,8 @@
 *part5	*part5	*part4	*part3	*part2	*part1
 *staff5	*	*staff4	*staff3	*staff2	*staff1
 *I"2 Corni in F.	*	*I"2 Fagotti	*I"2 Clarinetti in B.	*I"2 Oboi	*I"2 Flauti
+*mI"2 Corni in F	*	*	*mI"2 Clarinetti in B	*	*
+*I'cor	*	*I'fag	*I'cl	*I'ob	*I'fl
 *Icor	*	*Ifagot	*Iclars	*Ioboe	*Iflt
 *ICbras	*	*ICww	*ICww	*ICww	*ICww
 *clefG2	*	*clefF4	*clefG2	*clefG2	*clefG2
@@ -63,7 +66,7 @@
 8e/	8G\	.	.	.	.	.
 8d/J	8F#\J	.	.	.	.	.
 *v	*v	*	*	*	*	*
-!!linebreak:original
+!!LO:LB:g=original
 =8	=8	=8	=8	=8	=8
 4.d 4.F#/	.	4.DD\	8cc/L]	4.r	4.r
 .	.	.	8b/	.	.
@@ -103,7 +106,7 @@
 4.r	.	[4.B\	8a/L]	[4.ccc/	[4.dd#X\	4.r
 .	.	.	8g/	.	.	.
 .	.	.	8f#/J	.	.	.
-!!linebreak:original
+!!LO:LB:g=original
 =16	=16	=16	=16	=16	=16	=16
 4.r	.	4.B\]	4.f#/	8ccc/L]	4.dd#\]	8r
 .	.	.	.	8bb/	.	4ryy
@@ -150,9 +153,10 @@
 [4.d/	[4.D\	.	4.r	4.r	8raa	4r	8r	8ryy
 .	.	.	.	.	(16ff#/LL	.	(16ddd/LL	16aa\LL
 .	.	.	.	.	16ee/J	.	16ccc#X/J	16gg\J
+!	!	!	!	!	!	!LO:SIC:s=8rg:v	!	!
 .	.	.	.	.	8ff#/J)	8r	8ddd/J)	8aa\J
 *	*	*	*	*	*v	*v	*	*
-!!pagebreak:original
+!!LO:LB:g=original
 =24	=24	=24	=24	=24	=24	=24	=24
 4.d/_	4.D\_	.	4.r	4.r	16ee/LL	16cccn/LL	16gg\LL
 .	.	.	.	.	16ff#/	16ddd/	16aa\
@@ -169,6 +173,7 @@
 .	.	.	.	.	16e/JJ	16cc/JJ	16g\JJ
 =26	=26	=26	=26	=26	=26	=26	=26
 *	*	*	*^	*	*	*	*
+!	!	!	!LO:SIC:s=4.rc:v	!	!	!	!	!
 4.d/]	4.D\]	.	4.rF	8r	4.r	8d/L	8b/L	8f#\L
 .	.	.	.	8D\L	.	16e/L	16cc/L	16g\L
 .	.	.	.	.	.	16f#/	16dd/	16a\
@@ -184,8 +189,11 @@
 .	.	.	.	8b/J)	8gg/J)	8dd\J	8raa	8r
 *	*	*	*	*	*	*	*v	*v
 =28	=28	=28	=28	=28	=28	=28	=28
+!	!	!	!	!	!	!LO:SIC:s=8b'\L:v	!
 4.d/]	4.D\]	.	4.GG\_	8g'>/L	8ee'/L	8b\L	4.r
+!	!	!	!	!	!	!LO:SIC:s=8dd'\:v	!
 .	.	.	.	8b'>/	8gg'/	8dd\	.
+!	!	!	!	!	!	!LO:SIC:s=8cc'\J:v	!
 .	.	.	.	8a'>/J	8ff#'/J	8cc\J	.
 =29	=29	=29	=29	=29	=29	=29	=29
 [4.d/	[4.D\	.	4.GG\_	8f#'>/L	8dd'/L	8a'\L	4.r
@@ -193,6 +201,7 @@
 .	.	.	.	16f#/J	16dd/J	16a\J	.
 .	.	.	.	8g/J)	8ee/J)	8b\J)	.
 =30	=30	=30	=30	=30	=30	=30	=30
+!	!	!	!LO:MO:mod=!null:null	!	!	!	!
 !	!	!	!LO:N:vis=4	!	!	!	!
 4.d/]	4.D\]	.	4.GG\]	8e/L	8cc/L	8g\L	4.r
 .	.	.	.	8g/	8ee/	8b\	.
@@ -203,10 +212,11 @@
 4e/	4c\	.	4C\	16a/L	.	.
 .	.	.	.	16g/J	.	.
 .	.	.	.	8a^>/J	.	.
-!!linebreak:original
+!!LO:LB:g=original
 =32	=32	=32	=32	=32	=32	=32
 *	*	*	*	*^	*	*
 8d/	8G\	.	8GG\	8b/L	4r	4.r	4.r
+!LO:MO:mod=!null:null	!LO:MO:mod=!null:null	!	!	!	!	!	!
 !LO:N:vis=4.	!LO:N:vis=4.	!	!	!	!	!	!
 4e/	4c\	.	4C\	16a/L	.	.	.
 .	.	.	.	16g/J	.	.	.
@@ -256,7 +266,7 @@
 .	.	.	.	.	16dd/L	16bb/L	16ff#\L
 .	.	.	.	.	16cc#/J	16aa/J	16ee\J
 .	.	.	.	.	8dd/J)	8bb/J	8ff#\J
-!!linebreak:original
+!!LO:LB:g=original
 =40	=40	=40	=40	=40	=40	=40	=40
 !	!	!	!	!LO:TX:t=P:problem=wykreślona 4b i 1r	!	!	!
 4.a/]	4.A\]	.	4.D\]	4.r	8b'/L	8gg/L	8dd\L
@@ -282,10 +292,12 @@
 .	.	8G\)	8b/)	8g\	8ee/)	16ddd\
 .	.	.	.	.	.	16eee\JJ
 =44	=44	=44	=44	=44	=44	=44
+!	!	!	!LO:SIC:s=(4a/:v	!	!LO:SIC:s=(4ff#/:v	!
 4.r	.	(4D\	4a/	4d\	4ff#/	16fff#\LL
 .	.	.	.	.	.	16ggg\
 .	.	.	.	.	.	16fff#\
 .	.	.	.	.	.	16eee\
+!	!	!	!LO:SIC:s=8b/):v	!	!LO:SIC:s=8ee/):v	!
 .	.	8G\)	8b/	8g\	8ee/	16ddd\
 .	.	.	.	.	.	16eee\JJ
 =45	=45	=45	=45	=45	=45	=45
@@ -310,7 +322,7 @@
 .	.	.	16ee\	.	.
 .	.	.	16dd\	.	.
 .	.	.	16b\JJ	.	.
-!!pagebreak:original
+!!LO:LB:g=original
 =48	=48	=48	=48	=48	=48
 4.r	.	4.r	(16a\LL	4.r	4.r
 .	.	.	16b\	.	.
@@ -371,7 +383,7 @@
 *	*	*	*Xrep	*	*	*
 =55	=55	=55	=55	=55	=55	=55
 *	*	*	*rep	*	*	*
-!	!	!	!	!	!LO:SIC:v:s=4cc#\	!
+!	!	!	!	!	!LO:SIC:s=4.cc#\:v	!
 [>4.F#/	.	[4.A#X\	(16f#/LL	[4.ff#/	4.cc\	(4fff#\
 .	.	.	16g/	.	.	.
 .	.	.	16f#/	.	.	.
@@ -379,7 +391,7 @@
 .	.	.	16f#/	.	.	8eee\)
 .	.	.	16g/JJ)	.	.	.
 *	*	*	*Xrep	*	*	*
-!!linebreak:original
+!!LO:LB:g=original
 =56	=56	=56	=56	=56	=56	=56
 *	*	*	*rep	*	*	*
 !LO:TX:t=P:problem=koniec łuku na dole	!	!	!	!	!	!
@@ -400,6 +412,7 @@
 .	.	.	16c#X/JJ	.	.	.
 =58	=58	=58	=58	=58	=58	=58
 *	*	*	*^	*	*	*
+!	!	!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!	!	!LO:N:vis=4	!	!
 ((4BB/]	.	4.D\	4.r	16B\LL	4.ff#/]	8dd\L	4.bb^\
 .	.	.	.	16c#X\	.	.	.
@@ -410,6 +423,7 @@
 *	*	*	*	*	*v	*v	*
 =59	=59	=59	=59	=59	=59	=59
 *	*	*	*	*	*	*^
+!	!	!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!	!	!	!LO:N:vis=4
 4B/	.	4.D#X\	4.r	16B\LL	[4.b/	[4.bb/	4.aa\
 .	.	.	.	16cn\	.	.	.
@@ -431,8 +445,10 @@
 *	*	*	*	*rep	*rep	*	*	*
 (8f#/L	.	4.A/	4.BB\	4.ryy	16B\LL	4.b/_	4.bb/_	4.aa\
 .	.	.	.	.	16c\	.	.	.
+!LO:SIC:s=8g/:v	!	!	!	!	!	!	!	!
 8g/)	.	.	.	.	16B\	.	.	.
 .	.	.	.	.	16c\	.	.	.
+!LO:SIC:s=8d#X/J):v	!	!	!	!	!	!	!	!
 8d#X/J	.	.	.	.	16B\	.	.	.
 .	.	.	.	.	16c\JJ	.	.	.
 *	*	*	*	*Xrep	*Xrep	*	*	*
@@ -456,9 +472,10 @@
 .	.	.	.	.	16c\JJ	.	.	.	.
 *	*	*	*	*Xrep	*Xrep	*	*	*	*
 *	*	*	*	*	*	*	*	*v	*v
-!!linebreak:original
+!!LO:LB:g=original
 =64	=64	=64	=64	=64	=64	=64	=64	=64
 *	*	*	*	*rep	*rep	*	*	*
+!	!	!	!	!	!	!	!LO:MO:mod=!null:null	!
 !	!	!	!	!	!	!	!LO:N:vis=4	!LO:TX:t=P:problem=brak zakończenia ligatury
 (8a/L	.	4.F#/]	4.BB\]	4.ryy	16B\LL	4.dd#/]	4.b\]	4.bb/_
 .	.	.	.	.	16c\	.	.	.
@@ -501,6 +518,7 @@
 8D#X/	.	.	.	.	.
 8E/J	.	.	.	.	.
 =70	=70	=70	=70	=70	=70
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=cl II	!	!
 !	!	!	!LO:TX:a:t=Cla II°.	!	!
 [4.E/	.	(16G\LL	(>16B/LL	4.r	4.r
 .	.	16A\	16c/	.	.
@@ -512,31 +530,42 @@
 4.E/]	.	8G\L]	8r	8B\L	4.r	4.r
 .	.	8G'\	8e/L	8B\	.	.
 .	.	8B'\J	8g/J	8e\J	.	.
-!!pagebreak:original
+!!LO:PB:g=original
 =72	=72	=72	=72	=72	=72	=72
 *	*	*	*	*	*^	*
 [4.E/	.	[4.e\	8b/	8g\	8r	8ryy	4.r
 !	!	!	!LO:TX:t=P:problem=chorągiewki poprawione na belkę	!	!	!	!
+!	!	!	!	!	!	!LO:SIC:s=8b'\L:v	!
 .	.	.	8g'/L	8r	8ee'/L	8b\L	.
+!	!	!	!	!	!	!LO:SIC:s=8ee'\J:v	!
 .	.	.	8b'/J	8r	8gg'/J	8ee\J	.
 =73	=73	=73	=73	=73	=73	=73	=73
 *	*	*	*	*	*	*	*^
 4.E/_	.	4.e\]	8ee/	8rf	8bb/	8gg\	8r	8ryy
+!	!	!	!	!	!	!	!	!LO:SIC:s=8bb'\L:v
 .	.	.	8raa	8r	8gg'/L	8r	8eee'/L	8bb\L
+!	!	!	!	!	!	!	!	!LO:SIC:s=8eee'\J:v
 .	.	.	8raa	8r	8bb'/J	8r	8ggg'/J	8eee\J
 *	*	*	*v	*v	*	*	*	*
 =74	=74	=74	=74	=74	=74	=74	=74
 *	*	*^	*	*	*	*	*
+!	!	!	!	!	!	!	!	!LO:SIC:s=8bb'\L:v
 4.E/]	.	[4.e/	4.r	4.r	8gg'/L	4.r	8eee'/L	8bb\L
+!	!	!	!	!	!	!	!	!LO:SIC:s=8eee'\:v
 .	.	.	.	.	8bb'/	.	8ggg'/	8eee\
+!	!	!	!	!	!	!	!	!LO:SIC:s=8bb'\J:v
 .	.	.	.	.	8gg'/J	.	8eee'/J	8bb\J
 =75	=75	=75	=75	=75	=75	=75	=75	=75
 *^	*	*	*	*	*	*	*	*
+!	!	!	!	!	!	!	!	!	!LO:SIC:s=8eee'\L:v
 [4.c#X/	[4.F#X\	.	4.e/_	4.r	4.r	8bb'/L	4.r	8ggg'/L	8eee\L
+!	!	!	!	!	!	!	!	!	!LO:SIC:s=8bb'\:v
 .	.	.	.	.	.	8gg'/	.	8eee'/	8bb\
+!	!	!	!	!	!	!	!	!	!LO:SIC:s=8eee'\J:v
 .	.	.	.	.	.	8bb'/J	.	8ggg'/J	8eee\J
 =76	=76	=76	=76	=76	=76	=76	=76	=76	=76
 *	*	*	*	*	*^	*	*	*	*
+!	!	!	!	!	!	!LO:SIC:s=8rB:v	!	!	!	!
 4.c#/]	4.F#\]	.	4.e/]	8r	16r	8ryy	4.aa#X/	4.r	4.fff#^/	4.ccc#X\
 .	.	.	.	.	(<16f#^/LL	.	.	.	.	.
 .	.	.	.	8F#'>\L	16a#X^/	8ryy	.	.	.	.
@@ -544,26 +573,32 @@
 .	.	.	.	8FF#'>\J	8ff#^>/J)	8ryy	.	.	.	.
 *	*	*	*	*	*v	*v	*	*	*	*
 =77	=77	=77	=77	=77	=77	=77	=77	=77	=77
+!	!	!	!	!	!	!LO:SIC:s=8bb'/L:v	!	!	!LO:SIC:s=8eee'\L:v
 [4.c#X/	[4.F#X\	.	[4.e/	4.r	4.r	8bb/L	4.r	8ggg'/L	8eee\L
+!	!	!	!	!	!	!LO:SIC:s=8gg'/:v	!	!	!LO:SIC:s=8bb'\:v
 .	.	.	.	.	.	8gg/	.	8eee'/	8bb\
+!	!	!	!	!	!	!LO:SIC:s=8bb'/J:v	!	!	!LO:SIC:s=8eee'\J:v
 .	.	.	.	.	.	8bb/J	.	8ggg'/J	8eee\J
 =78	=78	=78	=78	=78	=78	=78	=78	=78	=78
 *	*	*	*	*	*^	*	*	*	*
+!	!	!	!	!	!	!LO:SIC:s=8rB:v	!	!	!	!
 4.c#/]	4.F#\]	.	4.e/]	8r	16r	8ryy	4.aa#X/	4.ff#\	4.fff#/	4.ccc#X\
+!	!	!	!	!	!LO:SIC:s=(16f#^/LL:v	!	!	!	!	!
 .	.	.	.	.	(16f#/LL	.	.	.	.	.
 .	.	.	.	8F#'>\L	16a#X^/	8ryy	.	.	.	.
 .	.	.	.	.	16cc#X^/J	.	.	.	.	.
 .	.	.	.	8FF#'>\J	8ff#^>/J)	8ryy	.	.	.	.
 *	*	*	*v	*v	*	*	*	*	*	*
 =79	=79	=79	=79	=79	=79	=79	=79	=79	=79
-!	!	!	!	!	!	!LO:TX:t=P:problem=4.dd poprawione na 4ff#	!	!	!
+!	!	!	!	!	!LO:SIC:s=8rB:v	!LO:TX:t=P:problem=4.dd poprawione na 4ff#	!	!	!
 4.c#X/	4.F#X\	.	4.e/	16r	8ryy	4.aa#X/	4.ff#\	4.fff#/	4.ccc#X\
 .	.	.	.	(16f#^/LL	.	.	.	.	.
+!	!	!	!	!LO:SIC:s=16a#X^/:v	!	!	!	!	!
 .	.	.	.	16a#X/	8ryy	.	.	.	.
 .	.	.	.	16cc#X^/J	.	.	.	.	.
 .	.	.	.	8ff#^/J)	8ryy	.	.	.	.
 *	*	*	*	*v	*v	*	*	*	*
-!!linebreak:original
+!!LO:LB:g=original
 =80	=80	=80	=80	=80	=80	=80	=80	=80
 4.c#X/	4.F#X\	.	4.e\	16r	4.aa#X/	4.ff#\	4.fff#/	4.ccc#X\
 .	.	.	.	(16f#/LL	.	.	.	.
@@ -591,11 +626,13 @@
 .	.	.	.	8a#X/)	.	.	.
 .	.	8d#X/)	.	(8a#/J	8f##X\	.	.
 =85	=85	=85	=85	=85	=85	=85	=85
+!	!	!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!	!	!LO:N:acc=n#	!	!
 4.r	.	(4B#X/	4.r	8dd#X/L	4f#X\	4.r	4.r
 .	.	.	.	8g#X/J)	.	.	.
 .	.	8c#X/)	.	8g#'/	8e#X\	.	.
 =86	=86	=86	=86	=86	=86	=86	=86
+!	!	!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!	!	!LO:N:acc=n#	!	!
 4.r	.	[<4.F#/	4.r	(8g#X/L	[4.eX\	4.r	4.r
 .	.	.	.	8dd#X/	.	.	.
@@ -604,7 +641,7 @@
 4.r	.	4.F#/]	4.r	8dd#X/L	4.e\_	4.r	4.r
 .	.	.	.	8g#X/	.	.	.
 .	.	.	.	8dd#/J)	.	.	.
-!!linebreak:original
+!!LO:LB:g=original
 =88	=88	=88	=88	=88	=88	=88	=88
 !	!	!LO:S:s=1:note:problem=note-level slur	!	!	!	!	!
 4.r	.	(4.F#/	4.r	(8g#X/L	4.e\]	4.r	4.r
@@ -616,17 +653,31 @@
 !	!LO:TX:t=P:problem=# poprawiony na 8r	!	!	!	!	!	!	!
 8re	8ree	.	[4.B 4.BB/)	[4.BB\	[4.f#/)	[4.d#X\	4.r	4.r
 !	!	!LO:DY:a	!	!	!	!	!	!
-16f#X'/LL	16F#X\LL	p	.	.	.	.	.	.
+*	*	*^	*	*	*	*	*	*
+!	!	!	!LO:MO:mod=!LO&colon;DY&colon;a	!	!	!	!	!	!
+!	!	!	!LO:DY:t= :mod=%s	!	!	!	!	!	!
+!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!
+!	!	!	!null	!	!	!	!	!	!
+!	!LO:SIC:s=16F#X'\LL:v	!	!	!	!	!	!	!	!
+16f#X'/LL	16F#X\LL	p	p	.	.	.	.	.	.
+*	*	*v	*v	*	*	*	*	*	*
+!	!LO:SIC:s=16F#'\J:v	!	!	!	!	!	!	!
 16f#'/J	16F#\J	.	.	.	.	.	.	.
+!	!LO:SIC:s=[8F#'\J:v	!	!	!	!	!	!	!
 [8f#'/J	[8F#\J	.	.	.	.	.	.	.
 =90	=90	=90	=90	=90	=90	=90	=90	=90
 8f#/L]	8F#\L]	.	4.B] 4.BB/	4.BB\]	4.f#/]	4.d#\]	4.r	4.r
+!	!LO:SIC:s=8F#X'\:v	!	!	!	!	!	!	!
 8f#X'/	8F#X\	.	.	.	.	.	.	.
+!	!LO:SIC:s=8F#'\J:v	!	!	!	!	!	!	!
 8f#'/J	8F#\J	.	.	.	.	.	.	.
 =91	=91	=91	=91	=91	=91	=91	=91	=91
 8re	8ree	.	[4.B/	[4.BB\	[4.f#/	[4.d#X\	4.r	4.r
+!	!LO:SIC:s=16F#X'\LL:v	!	!	!	!	!	!	!
 16f#X'</LL	16F#X\LL	.	.	.	.	.	.	.
+!	!LO:SIC:s=16F#'\J:v	!	!	!	!	!	!	!
 16f#'</J	16F#\J	.	.	.	.	.	.	.
+!	!LO:SIC:s=[8F#^\J:v	!	!	!	!	!	!	!
 [<8f#^/J	[8F#\J	.	.	.	.	.	.	.
 =92	=92	=92	=92	=92	=92	=92	=92	=92
 8f#/L]	8F#\L]	.	4.B/]	4.BB\]	4.f#/]	4.d#\]	4.r	4.r
@@ -639,8 +690,11 @@
 16f#/J	16F#\J	.	.	.	.	.	16cc#X/J	16aa#X/J	16ee\J
 [<8f#/J	[8F#\J	.	.	.	8rff	8r	8dd#/J)	8bb/J)	8ff#\J
 =94	=94	=94	=94	=94	=94	=94	=94	=94	=94
+!	!	!	!	!	!	!	!	!	!LO:SIC:s=8dd#X'\L:v
 8f#/L]	8F#\L]	.	4.F#/]	4.BB\]	8rff	4r	8b'>/L	8gg#X'/L	8dd#X\L
+!	!	!	!	!	!	!	!	!	!LO:SIC:s=8ff#'\:v
 8f#X/	8F#X\	.	.	.	8rff	.	8dd#X'>/	8bb'/	8ff#\
+!	!	!	!	!	!	!	!	!	!LO:SIC:s=8ee'\J:v
 8f#/J	8F#\J	.	.	.	8rff	8r	8cc#X'>/J	8aa#X'/J	8ee\J
 =95	=95	=95	=95	=95	=95	=95	=95	=95	=95
 8re	8ree	.	[4.F#/	[4.BB\	8rff	4r	8a#X/	8ff#/	8cc#X\
@@ -649,7 +703,7 @@
 !LO:TX:t=P:problem=brak początku ligatur	!	!	!	!	!	!	!	!	!
 [8f#/J	[8F#\J	.	.	.	8rff	8r	8b/J)	8gg#/J)	8dd#\J)
 *	*	*	*	*	*v	*v	*	*	*
-!!pagebreak:original
+!!LO:PB:g=original
 =96	=96	=96	=96	=96	=96	=96	=96	=96
 8f#/L]	8F#\L]	.	4.F#/]	4.BB\]	4.r	8g#X/L	8ee/L	8b\L
 8f#X/	8F#X\	.	.	.	.	8b/	8gg#X/	8dd#X\
@@ -669,40 +723,42 @@
 *	*	*	*	*	*v	*v	*	*
 =99	=99	=99	=99	=99	=99	=99	=99
 *	*	*	*	*	*	*^	*
+!	!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=cl II	!	!	!
 !	!	!	!	!	!LO:TX:b:t=II	!	!	!
 8e-X/	8e-\	.	4.r	8rGG	4.b-\	8gg/L	8ee-X\L	4.r
-!LO:SIC:v:s=4B-/	!LO:SIC:v:s=B-\	!	!	!	!	!	!	!
+!LO:SIC:s=4B-/:v	!LO:SIC:s=4B-\:v	!	!	!	!	!	!	!
 4B/	4B\	.	.	8rGG	.	(16ffn^/L	16dd^\L	.
 .	.	.	.	.	.	16ee-/J	16cc\J	.
 .	.	.	.	8rGG	.	8ff/J)	8dd\J	.
 *	*	*	*v	*v	*	*	*	*
 =100	=100	=100	=100	=100	=100	=100	=100
-!LO:SIC:v:s=4.b-/	!	!	!	!	!	!	!
+!LO:SIC:s=4.b-/:v	!	!	!	!	!	!	!
 4.b^/	8e-X\	.	4.r	(8g\	8gg/L	8ee-X\L	4.r
-!	!LO:SIC:v:s=[4B-\	!	!	!	!	!	!
+!	!LO:SIC:s=[4B-\:v	!	!	!	!	!	!
 .	[4B\	.	.	4a-X\	(16ffn^/L	16dd^\L	.
 .	.	.	.	.	16ee-/J	16cc\J	.
 .	.	.	.	.	8ff/J)	8dd\J	.
 =101	=101	=101	=101	=101	=101	=101	=101
-!LO:SIC:v:s=(8b-/L	!LO:SIC:v:s=4.B-\_	!	!	!	!	!	!
+!LO:SIC:s=(8b-/L:v	!LO:SIC:s=4.B-\_:v	!	!	!	!	!	!
 (8b/L	4.B\_	.	[4.E-X\	8g\)	[4.gg/	[4.ee-X\	4.r
 8g/	.	.	.	8r	.	.	.
 8f#/J	.	.	.	8r	.	.	.
 =102	=102	=102	=102	=102	=102	=102	=102
-!	!LO:SIC:v:s=8B-\]	!	!	!	!	!	!
+!	!LO:SIC:s=8B-\]:v	!	!	!	!	!	!
 8e-X/L	8B\]	.	4.E-\_	4.r	4.gg/_	4.ee-\_	4.r
 8c/	8r	.	.	.	.	.	.
-!LO:SIC:v:s=8B-/J	!	!	!	!	!	!	!
+!LO:SIC:s=8B-/J:v	!	!	!	!	!	!	!
 8B/J)	8r	.	.	.	.	.	.
 *v	*v	*	*	*	*	*	*
 =103	=103	=103	=103	=103	=103	=103
+!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=cor I	!	!	!	!	!	!
 !LO:TX:a:t=1°	!	!	!	!	!	!
 8G/L	.	4.E-\_	4.r	8gg/]	8ee-\]	4.r
 8A/	.	.	.	8rff	8r	.
-!LO:SIC:v:s=8fn/J	!	!	!	!	!	!
+!LO:SIC:s=8fn/J:v	!	!	!	!	!	!
 8B/J	.	.	.	8rff	8r	.
 *	*	*	*	*v	*v	*
-!!linebreak:original
+!!LO:LB:g=original
 =104	=104	=104	=104	=104	=104
 *^	*	*	*	*	*
 4c/	8rc	.	4.E-X\]	4.r	4.r	4.r
@@ -710,6 +766,8 @@
 8c#X/	8rc	.	.	.	.	.
 =105	=105	=105	=105	=105	=105	=105
 *	*	*	*	*	*^	*^
+!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=cl I	!	!	!	!
+!	!	!	!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!	!	!LO:TX:a:t=Cltt 1°	!LO:TX:a:t=Ohne 1°	!	!	!
 [4.d/	8rc	.	[4.D\	(8g/	[4.dd/	(>8g\	8bb/L	8gg\L
 .	8rc	.	.	4d^>/)	.	4dd^>\)	16aa/L	16ff#\L
@@ -724,6 +782,7 @@
 8d/L]	8r	.	[4.D\	(8g/	[4.dd/	8g\	8bb/L	8gg\L
 16d'/L	16D'>\LL	.	.	[4d/)	.	[4dd^>\	16aa/L	16ff#\L
 16d'/J	16D'>\J	.	.	.	.	.	16gg/	16ee\
+!LO:SIC:s=[8d/J:v	!	!	!	!	!	!	!	!
 [8d'/J	[8D\J	.	.	.	.	.	16aa/	16ff#\
 .	.	.	.	.	.	.	16bb/JJ	16gg\JJ
 =108	=108	=108	=108	=108	=108	=108	=108	=108
@@ -741,17 +800,22 @@
 [8d/J	[8D\J	.	.	.	8dd/J	8re	8gg/J)	8b\J)	.	8r
 *	*	*	*	*	*	*	*	*	*v	*v
 =110	=110	=110	=110	=110	=110	=110	=110	=110	=110
+!	!	!	!	!	!	!	!	!LO:SIC:s=8g'\L:v	!
 8d/L]	8D\L]	.	4.D/]	4.GG\]	8b/L	8re	8ee'/L	8g\L	4.dddTTT/_
+!	!	!	!	!	!	!	!	!LO:SIC:s=8b'\:v	!
 8d/	8D\	.	.	.	8dd/	8re	8gg'/	8b\	.
+!	!	!	!	!	!	!	!LO:SIC:s=8ff#'/J:v	!	!
+!	!	!	!	!	!	!	!	!LO:SIC:s=8a'\J:v	!
 8d/J	8D\J	.	.	.	8cc/J	8re	8ff#/J	8a\J	.
 =111	=111	=111	=111	=111	=111	=111	=111	=111	=111
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!	!	!	!	!	!LO:N:vis=4
 8r	8rc	.	[4.D/	[4.GG\	8a/L	8r	8dd/L	8f#\L	4.dddTTT/_
 16d/LL	16D\LL	.	.	.	16b/L	8r	(16ee/L	(>16g\L	.
 16d/J	16D\J	.	.	.	16a/J	.	16cc/J	16f#\J	.
 [8d/J	[8D\J	.	.	.	8b/J	8r	8ee/J)	8g\J)	.
 *	*	*	*	*	*v	*v	*	*	*
-!!linebreak:original
+!!LO:LB:g=original
 =112	=112	=112	=112	=112	=112	=112	=112	=112
 !	!	!	!	!	!	!	!	!LO:TX:t=P:problem=koniec łuku na górze
 8d/L]	8D\L]	.	4.D/]	4.GG\]	8g/L	8cc/L	8e\L	(4.dddTTT/_
@@ -762,6 +826,7 @@
 *	*	*	*	*	*	*	*8va
 !	!	!	!	!	!	!	!LO:TUP:b:problem=klamra łukowa
 !	!	!	!	!	!	!	!LO:TX:t=P:problem=triole (nie 9)
+!	!	!	!LO:SIC:s=4.rd:v	!	!	!	!
 (8d/	(>8G\	.	4.r	(>8GG\	8b/L	4.r	24ddd/LL]
 .	.	.	.	.	.	.	24eee/
 .	.	.	.	.	.	.	24ddd/J
@@ -798,6 +863,7 @@
 8e/)	8c\)	.	.	8a/)	.	16gg\
 .	.	.	.	.	.	16aa\JJ
 =116	=116	=116	=116	=116	=116	=116
+!LO:SIC:s=(4d^/:v	!	!	!	!	!	!
 (4d/	(4G\	.	4.r	(4b/	4.r	16bb\LL
 .	.	.	.	.	.	16ccc\
 .	.	.	.	.	.	16bb\
@@ -828,7 +894,7 @@
 .	.	.	16a/	.	.
 .	.	.	16g/	.	.
 .	.	.	16e/JJ)	.	.
-!!pagebreak:original
+!!LO:PB:g=original
 =120	=120	=120	=120	=120	=120
 *	*	*	*^	*	*
 4.r	.	4.r	4.r	16d\LL	4.r	4.r
@@ -855,6 +921,7 @@
 =123	=123	=123	=123	=123	=123	=123
 *	*	*^	*	*	*^	*
 *	*	*	*	*	*rep	*	*	*
+!	!	!	!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!	!	!	!	!LO:N:vis=4
 4.r	.	4.F#/	4.D#X\	(>4.a/	16B\LL	[4b/	[4.b\	[4.bb\
 .	.	.	.	.	16c\	.	.	.
@@ -865,6 +932,7 @@
 *	*	*	*	*	*Xrep	*	*	*
 =124	=124	=124	=124	=124	=124	=124	=124	=124
 *	*	*	*	*	*rep	*	*	*
+!	!	!	!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!	!	!	!	!LO:N:vis=4
 4.r	.	4.G/	4.E\	4.g/)	16B\LL	(8b/L	4.b\_	4.bb\_
 .	.	.	.	.	16c\	.	.	.
@@ -875,16 +943,18 @@
 *	*	*	*	*	*Xrep	*	*	*
 *	*	*	*	*v	*v	*	*	*
 =125	=125	=125	=125	=125	=125	=125	=125
+!	!	!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!	!	!	!LO:N:vis=4
 4.r	.	4.F#/	4.BB\	(>4.a/	(8ff#/L	4.b\_	4.bb\_
 .	.	.	.	.	8gg/	.	.
 .	.	.	.	.	8dd#X/J	.	.
 =126	=126	=126	=126	=126	=126	=126	=126
+!	!	!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!	!	!LO:N:vis=4	!	!	!
 4.r	.	4.E/	4.E\	4.g/)	8ee/L	4.b\]	4.bb\]
 .	.	.	.	.	8ff#/	.	.
 .	.	.	.	.	8gg/J)	.	.
-!!linebreak:original
+!!LO:LB:g=original
 =127	=127	=127	=127	=127	=127	=127	=127
 *	*	*	*	*^	*	*	*
 *	*	*	*	*	*rep	*	*	*
@@ -897,6 +967,7 @@
 *	*	*	*	*	*Xrep	*	*	*
 =128	=128	=128	=128	=128	=128	=128	=128	=128
 *	*	*	*	*	*rep	*	*	*
+!	!	!	!	!LO:MO:mod=!null:null	!	!	!	!
 !	!	!	!	!LO:N:vis=4	!	!	!	!
 4.r	.	4.D#X/]	4.BB\	4.f#/]	16B\LL	8aa/L	4.b\]	4.bb\_
 .	.	.	.	.	16c\	.	.	.
@@ -907,6 +978,7 @@
 *	*	*	*	*	*Xrep	*	*	*
 =129	=129	=129	=129	=129	=129	=129	=129	=129
 *	*	*	*	*	*rep	*	*	*
+!	!	!	!LO:MO:mod=!null:null	!LO:MO:mod=!null:null	!	!	!	!
 !	!	!	!LO:N:vis=4	!LO:N:vis=4	!	!	!	!
 4.r	.	4.E/	4.EE\	4.g/	16B\LL	8ee/L	4.b\	4.bb\_
 .	.	.	.	.	16c\	.	.	.
@@ -952,7 +1024,7 @@
 8G#X/J)	.	8rB	.	8b/	16ee/	.	.
 .	.	.	.	.	16ff/JJ	.	.
 *	*	*	*	*	*Xrep	*	*
-!!linebreak:original
+!!LO:LB:g=original
 =134	=134	=134	=134	=134	=134	=134	=134
 !	!	!	!	!LO:TX:t=P:problem=brak zakończenia łuku	!	!	!
 4.r	.	(8A/L	4.AA\	4.a/)	16ee/LL	4.eee/	4.ccc\
@@ -989,10 +1061,10 @@
 *	*	*v	*v	*	*	*	*
 =138	=138	=138	=138	=138	=138	=138
 4.A^/	.	4.r	4.r	(16aa\LL	16eee/LL	(16ccc\LL
-!	!	!	!	!	!LO:SIC:v:s=16fffn/	!
+!	!	!	!	!	!LO:SIC:s=16fffn/:v	!
 .	.	.	.	16gg#X\	16fff#/	16ddd\
 .	.	.	.	16aa\	16eee/	16ccc\
-!	!	!	!	!	!LO:SIC:v:s=16fffn/JJ	!
+!	!	!	!	!	!LO:SIC:s=16fffn/JJ:v	!
 .	.	.	.	16gg#\J	16fff#/JJ	16ddd\JJ
 .	.	.	.	8aa\J)	8eee/	8ccc\)
 *	*	*	*	*	*v	*v
@@ -1006,17 +1078,22 @@
 .	.	.	16g#X/	16ffn/	16dd\	.
 .	.	.	16a/	16ee/	16cc\	.
 .	.	.	16g#/J	16ff/J	16dd\J	.
+!	!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!	!LO:N:vis=16	!	!	!
 .	.	.	8a/J)	8ee/J	8cc\J	.
 *	*	*	*	*v	*v	*
 =	=	=	=	=	=
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: s1,s2,s3,s4,s5
+!!!system-decoration-mod: [(s1,s2,s3,s4,s5)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L"
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-12-29
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-11-20
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-09-06
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

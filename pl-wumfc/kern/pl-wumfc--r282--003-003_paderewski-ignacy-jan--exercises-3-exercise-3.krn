@@ -15,6 +15,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 1001158933
+!!!NIFC-rismChildID: 1001158933
 !!!NIFC-islandoraID: pl-wumfc:419
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A419/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4702 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
@@ -32,7 +33,12 @@
 *clefF4	*clefG2
 *k[b-]	*k[b-]
 *F:	*F:
+!!LO:MO:ori
 *M	*M
+!!LO:MO:end
+!!LO:MO:mod
+!! *M6/4	*M6/4
+!!LO:MO:end
 *>[A,A,B]	*>[A,A,B]
 *>A	*>A
 4F\	2.cc/
@@ -67,6 +73,7 @@
 4d\	.
 4e\	.
 =5	=5
+*LO:MO:mod=!null:null	*
 !LO:N:vis=2	!
 2.f;\	2.f;/
 4A\	2.a/
@@ -80,7 +87,7 @@
 4e\]	2.f/
 4d\	.
 [4B-\	.
-!!linebreak:original
+!!LO:LB:g=original
 =7	=7
 !	!LO:TX:t=P:problem:t. 7-8 – dopiski ołówkiem
 4B-\]	2.g/
@@ -100,6 +107,7 @@
 4f\]	1.g;
 4e\	.
 4d\	.
+!LO:SIC:s=2.c\;:v	!
 2.c\	.
 =10:|!	=10:|!
 *>B	*>B
@@ -124,11 +132,12 @@
 4d\	.
 4Bn\	.
 =13	=13
+!LO:SIC:s=2.A\;:v	!
 2.A\	2.cc;/
 4A\	2.cc/
 4Bn\	.
 [4c\	.
-!!linebreak:original
+!!LO:LB:g=original
 =14	=14
 4c\]	2.a/
 4a\	.
@@ -155,9 +164,12 @@
 ==	==
 *-	*-
 !!!system-decoration: [(g1)]
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-11-16
 !!!ENC: Filip Voros
 !!!END: 2021-11-13
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-09-05
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

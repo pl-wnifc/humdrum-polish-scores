@@ -13,6 +13,7 @@
 !!!SMS-variant: Partytura PL-Wtm R 123/N 5-7
 !!!SMS-altvar: Clarinetto in A PL-Wtm R 123a/N 9-12 ; Corno in D 13-16 ; Fagott 17-20 ; Violino Imo e IIdo 21-42 ; Violino 3te 43-46 ; Viola 1mo 47-48,51-52 ; Viola 2do 49-50,53-54 ; Cello 55-58 ; Basso 59-61
 !!!NIFC-rismSourceID: 1001148293
+!!!NIFC-rismChildID: 1001148293
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
 !!!URL-scan:
@@ -727,4 +728,4 @@
 !!!END-modern: 2022-08-20
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -13,7 +13,8 @@
 !!!SMS-shelfwork: 003 G
 !!!SMS-variant:
 !!!SMS-altvar:
-!!!NIFC-rismSourceID: 1001155978
+!!!NIFC-rismSourceID: 1001155973
+!!!NIFC-rismChildID: 1001155978
 !!!NIFC-islandoraID: pl-wumfc:213
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A213/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4672 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
@@ -1020,5 +1021,5 @@ N[>4d\	.	.	.
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-09-02
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m

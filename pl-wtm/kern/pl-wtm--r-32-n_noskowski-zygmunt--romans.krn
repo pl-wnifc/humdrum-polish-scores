@@ -13,6 +13,7 @@
 !!!SMS-variant: Violino 1o PL-WTM R 32/N:2; Violino 2do PL-WTM R 32/N:8; Viola PL-WTM R 32/N:12; Cello PL-WTM R 32/N:16
 !!!SMS-altvar: Violino 1o PL-WTM R 32/N: 4, 6; Violino 2do PL-WTM R 32/N:10; Viola PL-WTM R 32/N:14; Cello PL-WTM R 32/N:18
 !!!NIFC-rismSourceID: 1001138462
+!!!NIFC-rismChildID: 1001138462
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
 !!!URL-scan:
@@ -480,10 +481,12 @@
 !!!system-decoration: [(s1,s2)][(s3,s4)][(s5,s6,s7,s8,s9)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
 !!!ENC: Marcin Jachim
 !!!END: 2021-05-31
 !!!ENC: Kamil Watkowski
 !!!END: 2021-06-09
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-09-02
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

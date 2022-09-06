@@ -14,6 +14,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 1001084175
+!!!NIFC-rismChildID: 1001084175
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
 !!!URL-scan:
@@ -1300,4 +1301,4 @@
 !!!END-modern: 2022-08-18
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -15,6 +15,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 301050705
+!!!NIFC-rismChildID: 301050705
 !!!NIFC-islandoraID: pl-stab:3750
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-stab%3A3750/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4473 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
@@ -688,10 +689,12 @@
 !!!system-decoration: [(g1)][(g2)][(g3)][(g4)]g5
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-24
 !!!ENC: Marta Chmielewska
 !!!END: 2021-12-01
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-08-25
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

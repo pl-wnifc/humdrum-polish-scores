@@ -15,6 +15,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 1001158933
+!!!NIFC-rismChildID: 1001158933
 !!!NIFC-islandoraID: pl-wumfc:419
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A419/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4702 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
@@ -22,16 +23,22 @@
 !!!OMD:
 !!!AIN: 1 piano
 !!!key: G
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part1	*part1
 *staff2	*staff1
-*I"Fortepian	*I"Fortepian
+*I"[Pianoforte]	*I"[Pianoforte]
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[f#]	*k[f#]
 *G:	*G:
-*M4/4	*M4/4
+!LO:MO:mod=*M4/4	!LO:MO:mod=*M4/4
+*M	*M
 *^	*^
 !	!	!LO:TX:t=P:problem=brak metrum	!
 !	!	!LO:TX:t=P:problem=znak przykluczowy z exr. 16	!
@@ -44,6 +51,7 @@
 =2	=2	=2	=2
 4B/]	4E\	4ee/	4g\
 4c/	4AA\	4cc/	4a\
+!	!LO:SIC:s=4GG	!	!
 4d;>/	4GG;>\	4b;>/	4b\
 4g/	4G\	4dd/	4b\
 =3	=3	=3	=3
@@ -55,6 +63,7 @@
 =4	=4	=4	=4
 4c/	4AA\	4ee/]	4cc\
 [>4d/	4BB\	4gg/	4b\
+!	!LO:SIC:s=4D	!LO:SIC:s=4a	!
 4d;>/]	4D;>\	4ff#;>/	4a;>\
 4B/	4E\	4gg/	4g\
 =5	=5	=5	=5
@@ -65,6 +74,7 @@
 =6	=6	=6	=6
 4c/	4C\	4ee/	4e\
 4B/	4D\	4dd/	4f#\
+!	!	!	!LO:SIC:s=4g
 4G;>/	4E\	4b;>/	4g;<\
 4A/	4D\	4dd/	4dd\
 =7	=7	=7	=7
@@ -78,19 +88,22 @@
 4B;>/	4GG\	4gg;>/	4g\
 =9||	=9||	=9||	=9||
 4d/	4D\	4dd/	4b\
-!	!	!LO:TX:b:t=fr.	!
+!	!	!LO:TX:b:t=fr.:mod=	!
 4c/	4A\	4ff#/	4a\
+!	!LO:SIC:s=4B;>	!	!
 4B/	4B\	4gg;>/	4g\
 *v	*v	*	*
 *	*v	*v
 ==	==
 *-	*-
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
 !!!ENC: Filip Voros
 !!!END: 2021-11-13
 !!!ENC: Marta Chmielewska
 !!!END: 2021-11-16
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

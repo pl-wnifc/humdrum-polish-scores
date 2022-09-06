@@ -13,6 +13,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID:
+!!!NIFC-rismChildID:
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
 !!!URL-scan: https://polona.pl/item/2de-mazurka-kuyawiak-danse-nationale-polonaise-pour-violon-avec-accompagnement-de,Mzk2NDY2NzA/2 @EN{Scan on Polona} @PL{Skany w portalu Polona}
@@ -699,12 +700,14 @@
 !!!RDF**kern: < = below
 !!!RDF**kern: + = l.h. pizz.
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | tie -s
+!!!IIIF: https://polona.pl/iiif/item/Mzk2NDY2NzA/manifest.json
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-16
 !!!ENC: Andrzej Borzym
 !!!END: 2022-05-23
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-20
-!!!IIIF: https://polona.pl/iiif/item/Mzk2NDY2NzA/manifest.json
 !!!ENC-iiif: Olaf Gawdzik
 !!!END-iiif: 2022-09-02
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

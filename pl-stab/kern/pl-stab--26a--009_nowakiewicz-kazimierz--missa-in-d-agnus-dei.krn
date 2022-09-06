@@ -15,6 +15,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 301050704
+!!!NIFC-rismChildID: 301050704
 !!!NIFC-islandoraID: pl-stab:3636
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-stab%3A3636/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4469 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
@@ -444,4 +445,4 @@
 !!!END-modern: 2022-08-24
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(X?)rep$/$1REP/I" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

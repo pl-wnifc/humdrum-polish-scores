@@ -13,6 +13,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 1001159462
+!!!NIFC-rismChildID: 1001159462
 !!!NIFC-islandoraID: pl-wumfc:8528
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A8528/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4706 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
@@ -23,6 +24,8 @@
 *part2	*part2	*part1	*part1
 *staff2	*	*staff1	*
 *I"2 Clarinetti in A.	*	*I"2 Flauti	*
+*mI"2 Clarinetti in A	*	*	*
+*I'cl in A	*	*I'fl	*
 *Iclars	*	*Iflt	*
 *ICww	*	*ICww	*
 *clefG2	*	*clefG2	*
@@ -68,6 +71,7 @@
 .	.	16dd/	.
 .	.	16cc#/	.
 .	.	16b/JJ)	.
+!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=1º	!	!	!
 !LO:TX:a:t=1o.	!	!	!
 (16a/LL	.	4r	.
 16b/	.	.	.
@@ -97,15 +101,17 @@
 !!LO:LB:g=original
 =6	=6	=6	=6
 *^	*	*	*
+!LO:MO:mod=!null:null	!	!	!	!
 !LO:N:vis=1	!	!	!	!
-4a/@	4r	.	1r	.
+4a/@	4ryyyy	.	1r	.
+!LO:MO:mod=!LO&colon;TX&colon;a&colon;t=IIº	!	!	!	!
 !LO:TX:b:t=IIº	!	!	!	!
-4r	(4a\	.	.	.
-2r	4g#\	.	.	.
+4ryyyy	(4a\	.	.	.
+2ryyyy	4g#\	.	.	.
 .	4gX\	.	.	.
 =7	=7	=7	=7	=7
 *	*	*	*^	*
-2a/	2f#\)	.	1r	4r	.
+2a/	2f#\)	.	1ryyyy	4r	.
 .	.	.	.	(>4aa\	.
 4b/	4e\	.	.	4gg\	.
 4cc#/	4a\	.	.	4ee\	.
@@ -118,7 +124,7 @@
 8g/J	.	.	.	.
 =9	=9	=9	=9	=9
 *	*	*	*^	*
-1f#	4d\	.	4r	1dd	.
+1f#	4d\	.	4ryyyy	1dd	.
 .	4c#\	.	(4dd/	.	.
 .	4B\	.	4ddd/	.	.
 .	4A\	.	4ccc#/	.	.
@@ -142,12 +148,12 @@
 8g#/J)	.	.	.	.	.
 !!LO:LB:g=original
 =13	=13	=13	=13	=13	=13
-1a	4r	.	4r	2cc#\	.
-.	4r	.	(4ee/	.	.
+1a	4ryyyy	.	4r	2cc#\	.
+.	4ryyyy	.	(4ee/	.	.
 .	.	.	8qff#/	.	.
-.	4r	.	8ee/L	2ccn\	.
+.	4ryyyy	.	8ee/L	2ccn\	.
 .	.	.	8dd#X/	.	.
-.	4r	.	8ee/	.	.
+.	4ryyyy	.	8ee/	.	.
 .	.	.	8ff#/J)	.	.
 =14	=14	=14	=14	=14	=14
 .	.	.	(>8qaa/	.	.
@@ -166,6 +172,7 @@
 8c#/	8A#X\	.	.	.	.
 8d#/	8B\	.	.	.	.
 8e/J	8c#\J	.	.	.	.
+!	!LO:MO:mod=!null:null	!	!	!	!
 !	!LO:ACC:color=grey	!	!	!	!
 8f#/L	8d#X\L	.	.	.	.
 8g/	8e\	[	.	.	.
@@ -179,10 +186,10 @@
 2b/)	.	.	4r	4gg\	.
 .	4r	.	4r	4ff#\	.
 =17	=17	=17	=17	=17	=17
-(1ccX	2r	.	4r	2ee\	.
+(1ccX	2ryyyy	.	4r	2ee\	.
 .	.	.	4gg/	.	.
 .	.	.	(>(<8qaa/	.	.
-.	2r	.	8gg/L)	2ee-X\	.
+.	2ryyyy	.	8gg/L)	2ee-X\	.
 .	.	.	8ff#/	.	.
 .	.	.	8gg/	.	.
 .	.	.	8aa/J)	.	.
@@ -258,6 +265,7 @@
 16gX/LL	.	.	16cccn/LL	16ee\LL	.
 16g#/	.	.	16ddd-/	16ff\	.
 16gX/	.	.	16ccc/	16ee\	.
+!LO:MO:mod=!null:null	!	!	!LO:MO:mod=!null:null	!	!
 !LO:ACC:color=grey	!	!	!LO:ACC:color=grey	!	!
 16f#X/JJ)	.	.	16bbn/JJ)	16dd#X\JJ)	.
 !!LO:LB:g=original
@@ -269,6 +277,7 @@
 16d/LL@	.	.	16gg#X/LL	16b#X\LL	.
 16en/	.	.	16aa/	16cc#\	.
 16d/@	.	.	16gg#/	16b#\	.
+!LO:MO:mod=!null:null	!	!	!	!	!
 !LO:ACC:color=grey	!	!	!	!	!
 16dn/JJ	.	.	16ggn/JJ	16bn\JJ	.
 16c#/LL	.	.	16ff#/LL	16a#X\LL	.
@@ -312,9 +321,11 @@
 8g/J	.	.	.	.	.
 !!LO:LB:g=original
 =29	=29	=29	=29	=29	=29
+!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:S:color=grey	!	!
 1f#	4d\	.	(2aa/]	[1dd	.
 .	4c#\	.	.	.	.
+!	!	!	!LO:MO:mod=*null:null	!	!
 *	*	*	*Xtuplet	*	*
 .	4B\	.	12ddd/L)	.	.
 .	.	.	12eee/	.	.
@@ -351,10 +362,15 @@
 *-	*-	*-	*-
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
+!!LO:MO:ori
 !!!RDF**kern: @ = marked note, color=grey
+!!LO:MO:end
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Filip Voros
 !!!END: 2021-11-13
 !!!ENC: Marta Lawrence
 !!!END: 2021-11-15
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-09-05
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -15,13 +15,13 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 301050704
+!!!NIFC-rismChildID: 301050704
 !!!NIFC-islandoraID: pl-stab:3636
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-stab%3A3636/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4469 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: części Mszy: 1. Kyrie, 2. Gloria, 3. Credo, 4. Et incarnatus, 5. Et resurrexit, 6. Sanctus, 7. Benedictus, 8. Osanna, 9. Agnus Dei, 10. Dona nobis
 !!!AIN: 1 alto 1 bass 2 cor 2 oboe 1 organ 1 soprn 1 tenor 1 viola 1 violn
 !!!key: D
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/LO:HP:(a|b|rj|t)/LO:hp:$1/L" | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:(a|b|rj|t|)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *	*	*	*group4	*	*group4	*	*group3	*	*	*group3	*	*	*group3	*	*	*group3	*	*	*group2	*	*group2	*	*group1	*	*group1	*
 *part11	*part11	*part11	*part10	*	*part9	*part9	*part8	*part8	*	*part7	*part7	*	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
@@ -311,9 +311,12 @@
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2)][(s3,s4)][(s5,s6,s7,s8)][(s9,s10)]{(s11,s12)}
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/LO:HP:(a|b|rj|t)/LO:hp:$1/L" | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:(a|b|rj|t|)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
 !!!ENC: Filip Voros
 !!!END: 2021-12-08
 !!!ENC: Kamil Watkowski
 !!!END: 2021-12-10
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-25
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -15,6 +15,7 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 1001158933
+!!!NIFC-rismChildID: 1001158933
 !!!NIFC-islandoraID: pl-wumfc:419
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A419/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4702 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
@@ -24,7 +25,7 @@
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
-*I"Fortepian	*I"Fortepian
+*I"[Pianoforte]	*I"[Pianoforte]
 *Ipiano	*Ipiano
 *ICklav	*ICklav
 *IGsolo	*IGsolo
@@ -36,6 +37,7 @@
 =1	=1
 *^	*^
 *	*	*	*^
+!LO:MO:mod=!LO&colon;TX&colon;b&colon;t=c.f.	!	!	!	!
 !LO:TX:b:t=C.f	!	!	!	!
 1A	1FF	4a/	1f	1c
 .	.	4b-/	.	.
@@ -111,6 +113,7 @@
 .	.	4ee/	.	.
 !!LO:LB:g=original
 =16	=16	=16	=16	=16
+!	!LO:SIC:s=1FF:v	!	!	!
 1c;	1FF;	1ff;	1a	1a
 =17	=17	=17	=17	=17
 1B-	1GG	4gg/	1dd	1d
@@ -149,6 +152,7 @@
 .	.	4gg/	.	.
 .	.	4ff/	.	.
 =24	=24	=24	=24	=24
+!	!LO:SIC:s=1C:v	!	!	!
 1E;	1C;	1ee;	1g	1c
 =25	=25	=25	=25	=25
 1F	1AA	4ff/	1f	1c
@@ -187,15 +191,19 @@
 .	.	4cc/	.	.
 .	.	4b-/	.	.
 =32	=32	=32	=32	=32
+!LO:SIC:s=1F;:v	!LO:SIC:s=1FF:v	!	!	!
 1F	1FF;	1a;	1a	1c
 *v	*v	*	*	*
 *	*v	*v	*v
 ==	==
 *-	*-
 !!!system-decoration: [(s1,s2)]
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Filip Voros
 !!!END: 2021-11-13
 !!!ENC: Marta Lawrence
 !!!END: 2021-11-15
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-09-05
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
