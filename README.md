@@ -48,7 +48,7 @@ People and Sponsors
 | Anastazja Marusiak | 558 | 724,094 | 2 |  |  |
 | Solarz Mateusz | 26 | 33,765 |  |  |  |
 | Anna Matuszewska | 194 | 321,092 | 170 |  |  |
-| Mateusz Mrugas | 1 | 2,963 | 237 |  | 64 |
+| Mateusz Mrugas | 1 | 2,963 | 237 |  | 67 |
 | Jędrzej Mróz | 21 | 3,957 | 242 |  |  |
 | Zofia Niedbalska | 1 | 425 | 74 |  |  |
 | Marta Opryszak | 165 | 247,879 | 1 |  | 39 |
@@ -66,7 +66,7 @@ People and Sponsors
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 75 |
 | Urszula Świątek | 3 | 3,016 | 201 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 2 |
-| TOTALS | 7,037 | 10,349,381 | 6,411 | 564 | 731 |
+| TOTALS | 7,037 | 10,349,381 | 6,411 | 564 | 734 |
 
 </details>
 
