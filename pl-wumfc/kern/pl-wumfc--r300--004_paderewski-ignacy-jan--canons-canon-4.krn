@@ -21,10 +21,14 @@
 !!!ONB-nifc: UWAGA: skan 0003 z dopiskiem „II”
 !!!AIN: 2 piano
 !!!key: a
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
 *I"[Fortepian]	*I"[Fortepian]
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
 *IGsolo	*IGsolo
@@ -34,15 +38,19 @@
 *M4/4	*M4/4
 =1	=1
 *^	*^
-!	!	!LO:TX:a:rj:t=II	!
+!	!	!LO:TX:a:rj:t=II:mod=	!
+!LO:MO:mod=4rc	!	!	!LO:MO:mod=2ryy
 4r	2r	1rg	2r
+!LO:MO:mod=8rc	!	!	!
 8r	.	.	.
 8c/	.	.	.
+!	!	!	!LO:MO:mod=2ryy
 8B/L	4r	.	2r
 8A/	.	.	.
 8B/	8r	.	.
 8G/J	8G\	.	.
 =2	=2	=2	=2
+!	!	!LO:MO:mod=1ryy	!
 8A/L	8F\L	1rg	2r
 16B/L	8E\	.	.
 16c/JJ	.	.	.
@@ -84,16 +92,22 @@
 !!LO:LB:g=original
 =6	=6	=6	=6
 !	!LO:TX:b:t=P:problem=brak zakończenia ligatury	!	!
+!	!LO:SIC:s=2C];	!	!LO:SIC:s=2e;
 2G;/	2C\]	2cc;/]	2e\
+!LO:MO:mod=2r	!	!LO:MO:mod=2rcc	!
 4r	2r	4ra	4rd
+!LO:MO:null:mod=.	!	!LO:MO:null:mod=.	!
 4r	.	4r	8rd
 .	.	.	8cc\
 =7	=7	=7	=7
+!LO:MO:mod=4rc	!	!	!
 4r	2r	1r	8cc\L
 .	.	.	8g\
+!LO:MO:mod=8rc	!	!	!
 8r	.	.	8g\
 8c/	.	.	16e\L
 .	.	.	16f\JJ
+!LO:SIC:s=8GL	!	!	!
 8cL 8G/	4r	.	[>8g\L
 8G/	.	.	16g\L]
 .	.	.	16f\JJ
@@ -128,14 +142,19 @@
 4A/	8Cn\	.	4c\
 .	8AA\J	.	.
 =11	=11	=11	=11
+!	!LO:SIC:s=2EE;	!	!LO:SIC:s=2B;
 2G#X;/	2EE\	2e;/]	2B\
+!LO:MO:mod=2r	!	!	!LO:MO:mod=4rc
 4r	2r	2r	4r
+!LO:MO:null:mod=.	!	!	!
 4r	.	.	8r
 .	.	.	8e\
 !!LO:LB:g=original
 =12	=12	=12	=12
+!LO:SIC:s=4rc	!	!LO:SIC:s=1rgg	!
 4r	2r	1r	8a\L
 .	.	.	8a\
+!LO:SIC:s=8rc	!	!	!
 8r	.	.	8g\
 8G/	.	.	8b\J
 8e/L	4r	.	8cc\L
@@ -144,11 +163,14 @@
 8d/	8r	.	8b\
 8f#X/J	8D\	.	8a\J
 =13	=13	=13	=13
+!	!	!LO:MO:mod=!null:null	!
 !	!	!LO:N:vis=1	!
+!	!	!LO:MO:mod=2r	!
 8g/L	8G\L	2.r	4g\
 8B/J	8G\	.	.
 4A/	8F\	.	8a\L
 .	8A\J	.	8f\J
+!	!	!LO:MO:null:mod=4rcc	!
 8B/L	8G\L	.	8e\L
 8A/	8F\	.	8d\
 8G/	8E\	4e/	8c\
@@ -173,12 +195,16 @@
 8G/	.	.	8e\
 8F/J	.	.	8d\J
 =16	=16	=16	=16
+!	!LO:SIC:s=2CC];	!	!LO:SIC:s=2c;
 2E;/	2CC\]	2g;/]	2c\
+!LO:MO:mod=2r	!LO:SIC:s=4rc	!	!LO:MO:mod=2r
 4r	4r	2r	4r
+!LO:MO:null:mod=.	!LO:SIC:s=8rc	!	!LO:MO:null:mod=.
 4r	8r	.	4r
 .	8c\	.	.
 !!LO:LB:g=original
 =17	=17	=17	=17
+!	!	!LO:MO:mod=1ryy	!
 4r	8B\L	1r	2r
 .	8A\	.	.
 8r	8G\	.	.
@@ -230,6 +256,7 @@
 8BB/J	.	.	.
 !!LO:LB:g=original
 =22	=22	=22	=22
+!	!LO:SIC:s=1CC];	!	!
 8AA/L	1CC]	1c;]	2F\
 8GG/	.	.	.
 8AA/	.	.	.
@@ -245,5 +272,7 @@
 !!!END: 2021-11-13
 !!!ENC: Marta Lawrence
 !!!END: 2021-11-17
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

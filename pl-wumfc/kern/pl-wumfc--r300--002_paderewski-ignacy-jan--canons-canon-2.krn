@@ -19,31 +19,38 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A624/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4721 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: skan 0002, lewa strona
-!!!AIN: 2 forte
-!!!key:
+!!!AIN: 2 piano
+!!!key: F
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
-*Iforte	*Iforte
 *I"[fortepian]	*I"[fortepian]
 *I'pf	*I'pf
+*mI"Pianoforte	*mI"Pianoforte
+*Ipiano	*Ipiano
+*ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[b-]	*k[b-]
-*g:	*g:
+*F:	*F:
 *M4/4	*M4/4
 *>[A,A,B]	*
 =1	=1
-*>A	*
+*>A	*>A
 *^	*^
+!	!	!	!LO:MO:mod=2ryy
 8F/L	2r	1r	2r
 8G/	.	.	.
 8A/	.	.	.
 8A/J	.	.	.
+!	!	!	!LO:MO:mod=2ryy
 4B-/	8D\L	.	2r
 .	8E\	.	.
 4A/	8F\	.	.
 .	8F\J	.	.
 =2	=2	=2	=2
+!	!	!LO:MO:mod=1ryy	!
 4B-/	4G\	1r	8d\L
 .	.	.	8e\
 4A/	4F\	.	8f\
@@ -73,16 +80,19 @@
 .	.	.	16d\JJ
 .	.	.	4c;>\
 =5	=5	=5	=5
+!	!	!	!LO:MO:mod=2ryy
 8A/L	2r	1r	2r
 8G/	.	.	.
 8A/	.	.	.
 8B-/J	.	.	.
+!	!	!	!LO:MO:mod=2ryy
 8c/	8E\L	.	2r
 4B-/	8D\	.	.
 .	8E\	.	.
 8A/	8F\J	.	.
 !!LO:LB:g=original
 =6	=6	=6	=6
+!	!	!LO:MO:mod=1ryy	!
 8G/L	8E\	1r	8g\L
 8A/	4D\	.	8f\
 8B-/	.	.	8g\
@@ -108,10 +118,13 @@
 .	.	.	8e\J
 2A;/	2FF;\	2a;/	2f;\
 =9	=9	=9	=9
+!LO:MO:mod=2rc	!	!	!LO:MO:mod=2ryy
 4re	8r	1rcc	2rb
 .	8A\L	.	.
+!LO:MO:null:mod=.	!	!	!
 4r	8G\	.	.
 .	8F\J	.	.
+!	!	!	!LO:MO:mod=2ryy
 8r	8E\L	.	2rb
 8c/L	8C\	.	.
 8B-/	16D\L	.	.
@@ -142,13 +155,16 @@
 .	.	.	8e-X\
 4D/	4FF#X\	.	8d\
 .	.	.	8c\J
+!	!LO:MO:mod=2GG;	!	!LO:MO:mod=2B-;
 2D;/	2GG\	2g;/	2B-\
 =13:|!	=13:|!	=13:|!	=13:|!
-*>B	*	*	*
+*>B	*>B	*	*
+!	!	!	!LO:MO:mod=2ryy
 8F/L	2r	1r	2r
 8G/	.	.	.
 8A/	.	.	.
 8B-/J	.	.	.
+!	!	!	!LO:MO:mod=2ryy
 8d/L	8F\L	.	2r
 16e/L	8G\	.	.
 16d/J	.	.	.
@@ -168,9 +184,13 @@
 16G/JJ	.	.
 =15	=15	=15
 *	*	*^
+!	!	!	!LO:SIC:s=8d
 4F/	4D\	4f/	8d\L
+!	!	!	!LO:MO:mod=4f
 .	.	.	[8f\
+!	!	!	!LO:MO:null:mod=.
 4B-/	4C\	4g/	8f\]
+!	!	!	!LO:SIC:s=16e-LL
 .	.	.	16e-X\L
 .	.	.	16d\JJ
 8A/L	8F\L	4a/	8c\L
@@ -193,17 +213,24 @@
 8E-X/	.	.	8c\
 8D/	.	.	8B-\
 8F#X/J	.	.	8A\J
+!LO:SIC:s=2G;	!	!	!
 2G/	.	.	2B-;>\
 *v	*v	*	*
 *	*v	*v
 ==	==
 *-	*-
+!!LO:MO:ori
 !!!system-decoration: [(s1,s2)]
+!!LO:MO:mod
+!! !!!system-decoration: {(s1,s2)}
+!!LO:MO:end
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-13
 !!!ENC: Leszek Kubiak
 !!!END: 2021-11-17
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

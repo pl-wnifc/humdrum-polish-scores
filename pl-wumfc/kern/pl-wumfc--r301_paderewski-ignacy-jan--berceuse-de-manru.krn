@@ -19,11 +19,13 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4722 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
 !!!AIN: 1 vox
-!!!key:
+!!!key: A-
+!!!filter-modern: sic -sq | autostem -r | modori -m | humtr -p
 **kern	**text
 *Ivox	*
 *I"[Voce]	*
 *I'V	*
+*mI"Voce	*
 *clefG2	*
 *k[b-e-a-d-]	*
 *A-:	*
@@ -49,7 +51,7 @@
 4cc\	Dorſ!
 (16b-/LL	o
 16cc/JJ)	.
-!LO:TX:a:t=1 cet aviet oui est par <......> chercherai antre chore	!
+!LO:TX:a:t=1 cet aviet oui est par <......> chercherai antre chore:mod=	!
 4ee-\	cher
 =4	=4
 (16a-/LL	pe-
@@ -84,10 +86,12 @@
 16ff\	-gef,
 4aa-\	Dorſ,
 8ee-\	en-
-!LO:TX:a:t=etc	!
+!LO:TX:a:t=etc:mod=	!
+!LO:SIC:s=4aa-	!
 (4aa-\	-cor!
 !!LO:LB:g=original
 =9	=9
+!LO:SIC:s=4cc	!
 4cc\)	Tieuſ,
 8ee-\	voi
 16b-/	ci
@@ -117,7 +121,7 @@
 8b-\	-ge
 16b-/	gar-
 16g/	-di-
-!LO:TX:a:t=la rime d-ange gardien vient afrei <....> bien.	!
+!LO:TX:a:t=la rime d-ange gardien vient afrei <....> bien.:mod=	!
 8e-/	-en
 8r	.
 !!LO:LB:g=original
@@ -155,5 +159,7 @@
 !!!END: 2021-11-14
 !!!ENC: Leszek Kubiak
 !!!END: 2021-11-18
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

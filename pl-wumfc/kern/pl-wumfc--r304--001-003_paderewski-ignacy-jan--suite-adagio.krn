@@ -21,8 +21,10 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4725 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: obsada vl (2), vla, vlc, cb. Od skanu 0009
 !!!OMD: Adagio.
+!!!OMD-mod: Adagio
 !!!AIN: 1 cbass 1 cello 1 viola 2 violn
 !!!key: G
+!!!filter-modern: sic -sq | shed -e "s/yy//" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | | autostem -r | modori -m
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
@@ -57,7 +59,10 @@
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5
 *	*	*	*	*	*	*	*	*^	*
 1D_>	.	1D_>	.	4r	.	4r	.	4r	4ryy	.
-.	.	.	.	(4b\	.	(4dd/	.	N(<(>4gg/	4gg\	.
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack
+!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=p	!	!LO:MO:null:mod=p	!	!	!LO:MO:null:mod=p
+.	.	.	.	(4b\	.	(4dd/	.	N(<<(>4gg/	4gg\	.
 .	.	.	.	4a\	.	4cc/	.	[2ddd/	4ff#\	.
 .	.	.	.	4g\	.	4b/	.	.	4ee\	.
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
@@ -106,6 +111,7 @@
 =13	=13	=13	=13	=13	=13	=13	=13	=13	=13
 *	*	*	*	*	*	*	*	*^	*
 1BB_>	.	1BB_>	.	4r	.	4r	.	4r	4ryy	.
+!	!	!	!	!	!	!	!	!LO:SIC:s=(4ee	!LO:SIC:s=(4ee	!
 .	.	.	.	(>4g\	.	(>4b\	.	4ee/	4ee\	.
 .	.	.	.	4f#\	.	4a\	.	[>2bb/	4dd#X\	.
 .	.	.	.	4e\	.	4g/	.	.	4cc\	.
@@ -115,6 +121,7 @@
 .	.	.	.	4c\	.	2.e/)	.	8eee/	4a\	.
 .	.	.	.	.	.	.	.	8bb/J	.	.
 .	.	.	.	4B\	.	.	.	4eee/	4g\	.
+!	!	!	!	!	!	!	!	!LO:SIC:s=4ccc)	!LO:SIC:s=4a)	!
 .	.	.	.	4A\)	.	.	.	4ccc/	4a\	.
 !!LO:PB:g=original
 =15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15
@@ -133,6 +140,7 @@
 1r	.	1r	.	(>2d\	.	[>2dd/	(2b\	.	(>2bb/	(<2gg\	.
 .	.	.	.	4d\)	.	4dd/]	4a\)	.	8aa/L	4ff#\)	.
 .	.	.	.	.	.	.	.	.	8ddd/	.	.
+!	!	!	!	!	!	!LO:MO:mod=4ryyyy	!	!	!	!	!
 .	.	.	.	4r	.	4rff	4r	.	8fff#/	4r	.
 .	.	.	.	.	.	.	.	.	8aaa/J)	.	.
 =19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19	=19
@@ -148,7 +156,9 @@
 .	.	.	.	2b/)	2c#X\)	.	.	2ee\)	.	2ggg/)	2bb\]	.
 !!LO:LB:g=original
 =22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22
+!	!	!	!	!	!	!	!	!	!	!LO:SIC:s=(4ccc#	!	!
 1r	.	1r	.	2a#X/	2e\	.	1ff#;>	2ee\	.	4ccc#X/	2aa#X\	.
+!	!	!	!	!	!	!	!	!	!	!LO:SIC:s=4ddd)	!	!
 .	.	.	.	.	.	.	.	.	.	4ddd/	.	.
 .	.	.	.	2b;>/	2B\	.	.	2dd;>\	.	2ddd;>/	2bb\	.
 *	*	*	*	*	*	*	*v	*v	*	*	*	*
@@ -173,14 +183,25 @@
 2D\	.	2A/	2D\	.	[>2f#/	[<2d\	.	2a/	.	.	.
 =28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28
 2BB\	.	2B/	2BB\	.	2f#/]	2d\]	.	2b/	.	1ryy	.
+!	!	!	!	!	!	!LO:SIC:s=(4e	!	!	!	!	!
 2AA\)	.	2c/)	2AA\	.	2a/	4e\	.	2cc/)	.	.	.
+!	!	!	!	!	!	!LO:SIC:s=4e-)	!	!	!	!	!
 .	.	.	.	.	.	4e-X\	.	.	.	.	.
 !!LO:LB:g=original
 =29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
 1D	.	(>2.B/	1D	.	1f#	(<2d\	.	(>2.b/	.	1ryy	.
+!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!	!	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=<	!	!	!	!	!	!LO:MO:null:mod=<[	!	!	!	!
 .	.	.	.	.	.	2c\	.	.	.	.	.
+!	!	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=[[	!	!	!LO:MO:null:mod=<[	!	!	!	!	!	!	!
 .	.	4A/)	.	.	.	.	.	4a/	<[	.	.
 =30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30
+!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=>]	!	!	!LO:MO:null:mod=>]	!	!	!LO:MO:null:mod=>]	!	!	!	!
 1GG	.	1G	1GG 1D	.	1d	1B)	.	1g)	>]	1ryy	.
 *	*	*v	*v	*	*	*	*	*	*	*	*
 *	*	*	*	*v	*v	*	*	*	*	*
@@ -217,17 +238,23 @@
 !!LO:LB:g=original
 =37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37
 2F#\	.	(>2A#X/	2F#\	.	2f#\	.	(<4a#X/	.	(>4aa#X/	(<4ff#\	.
+!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=>	!	!	!LO:MO:null:mod=>	!	!LO:MO:null:mod=>	!	!LO:MO:null:mod=>	!	!	!
 .	.	.	.	.	.	.	4g/	.	4gg/	4ee\	>
 2AA#X\	.	2F#/	2AA#X\	.	(>4f#\	.	4f#/	.	4ff#/	4dd\	.
 .	.	.	.	.	4e\	.	4e/)	.	4ee/	4cc#X\	.
 =38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38
 1BB	.	2.F#/)	2.BB\	.	4d#X\	.	(<4d#X/	.	4dd#X/	4b\	.
+!	!LO:MO:null:mod=]	!	!	!LO:MO:null:mod=]	!	!LO:MO:null:mod=]	!	!LO:MO:null:mod=]	!	!	!
 .	.	.	.	.	4c#X\)	.	4e/	.	4ee/	4cc#X\	]
 .	.	.	.	.	2B\ 2d#X	.	2f#/)	.	2ff#/)	2dd#\)	.
 .	.	4B\	4ryy	.	.	.	.	.	.	.	.
 *	*	*v	*v	*	*	*	*	*	*v	*v	*
 =39	=39	=39	=39	=39	=39	=39	=39	=39	=39
-!	!	!	!	!	!	!	!	!	!LO:DY:a:t=piano
+!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!
+!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:MO:null:mod=p	!	!LO:MO:null:mod=p	!	!LO:MO:null:mod=p	!	!LO:DY:a:t=piano
 1r	.	(>2e\	.	(>2b/	.	(>2ee\	.	(>2gg/	p
 .	.	2A\)	.	4a/	.	2cc\	.	4ff#/	.
 .	.	.	.	4g/)	.	.	.	4ee/)	.
@@ -246,12 +273,15 @@
 .	.	.	.	.	.	.	.	4gg/)	.
 =43	=43	=43	=43	=43	=43	=43	=43	=43	=43
 *	*	*^	*	*	*	*	*	*^	*
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=p	!	!	!	!	!	!	!	!	!	!
 2C\	.	(>2G/	2C\	.	(>2e\	.	(>2ee\	.	(>2ggg/	2gg\	.
 2C#X\	.	4A/	2C#X\	.	4a\	.	4ffn\	.	4fffn/	2aa\	.
 .	.	4G/)	.	.	4g\)	.	4ee\)	.	4eee/)	.	.
 !!LO:LB:g=original
 =44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44
-!	!	!LO:SIC:v:s=(>4Fn/	!	!	!	!	!	!	!	!	!
+!	!	!LO:SIC:v:s=(>4F	!	!	!	!	!	!	!	!	!
 2D\	.	(>4F#/	2D\	.	2fn\	.	(>4dd/	.	(>4ddd/	2ffn\	.
 .	.	4c/	.	.	.	.	4cc/	.	4ccc/	.	.
 2D#X\	.	4B/	2D#X\	.	2f#X\	.	4b/	.	4bb/)	2ff#X\	.
@@ -262,9 +292,11 @@
 2GG#X\	.	2E/	2GG#X\	.	4e\)	.	4e/	.	4ee/	4cc\	.
 .	.	.	.	.	4d\	.	4d/)	.	4dd/)	4b\	.
 =46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46
+!	!	!	!LO:SIC:v:s=2.AA	!	!	!	!	!	!	!	!
 2.AA\	.	2.E/	2.GG\	.	4c#X\	.	(>4c#X/	.	(>4cc#X/	4a\	.
 .	.	.	.	.	4B\	.	4d/	.	4dd/	4b\	.
 .	.	.	.	.	4c#X\	.	4e/)	.	4ee/)	4cc#\)	.
+!	!	!LO:SIC:s=4r;	!LO:MO:mod=4ryyyy	!	!	!	!	!	!LO:SIC:s=4r;	!LO:MO:mod=4ryyyy	!
 4r;>	.	4rA;>	4r	.	4r;>	.	4r;>	.	4rff;>	4r	.
 *	*	*v	*v	*	*	*	*	*	*v	*v	*
 =47	=47	=47	=47	=47	=47	=47	=47	=47	=47
@@ -318,7 +350,7 @@
 1r	.	1r	.	1r	.	(>(<1b 1dd#X	.	1ggg)	1gg	.
 *	*	*	*	*	*	*	*	*v	*v	*
 =56	=56	=56	=56	=56	=56	=56	=56	=56	=56
-1r	.	1r	.	(<1c [>1g	.	1cc)) 1ee	.	1r	.
+1r	.	1r	.	(<<1c [>1g	.	1cc)) 1ee	.	1r	.
 =57	=57	=57	=57	=57	=57	=57	=57	=57	=57
 *	*	*^	*	*	*	*	*	*	*
 (>1AA	.	(>[>1G	(<1AA	.	1c#X) 1g]	.	1r	.	1r	.
@@ -338,11 +370,13 @@
 2BB\)	.	2BB\)	.	4d/	2F#\	.	2dd/)	2b\	.	4ddd/	2ff#\	.
 .	.	.	.	4B/)	.	.	.	.	.	4bb/)	.	.
 =61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61
-!	!	!	!	!	!	!LO:HP:a	!	!	!	!	!	!LO:HP:a
+!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!	!	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;ed=brack	!	!	!
+!	!	!	!	!	!	!LO:MO:mod=!null:null	!	!	!	!	!	!LO:MO:mod=!null:null
+!	!LO:MO:null:mod=<	!	!LO:MO:null:mod=<	!	!	!LO:HP:a	!	!	!LO:MO:null:mod=<	!	!	!LO:HP:a
 2E\	.	2E\	.	(>2B/	2G\	<	1ee	(<2b\	.	(>2bb/	2gg\	<
-!	!	!	!	!	!	!	!	!LO:SIC:v:s=4dd\	!	!	!	!
+!	!	!	!	!	!	!LO:MO:null:mod=.	!	!LO:SIC:v:s=4dd\	!	!	!	!
 2AA\	.	2AA\	.	4d/	2A\	[	.	4cc\	.	4ddd/	2aa\	.
-!	!	!	!	!	!	!	!	!LO:SIC:v:s=4cc\)	!	!	!	!
+!	!LO:MO:null:mod=[	!	!LO:MO:null:mod=[	!	!	!LO:MO:null:mod=[	!	!LO:SIC:v:s=4cc\)	!LO:MO:null:mod=[	!	!	!
 .	.	.	.	4c/)	.	.	.	4b\)	.	4ccc/)	.	[
 =62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62
 2.D\	.	2.D\	.	(>2g/	(<2B\	.	(>2dd/	(<2b\	.	(>2bb/	2gg\	.
@@ -382,5 +416,7 @@
 !!!END: 2021-12-03
 !!!ENC: Marta Chmielewska
 !!!END: 2021-12-17
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
