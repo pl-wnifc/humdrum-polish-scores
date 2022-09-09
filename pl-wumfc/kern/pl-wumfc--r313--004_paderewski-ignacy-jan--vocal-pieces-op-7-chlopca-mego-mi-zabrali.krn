@@ -20,21 +20,24 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4734 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
 !!!AIN: 1 piano 1 vox
-!!!key:
+!!!key: g
+!!!OMD: Andantino
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m | humtr -p
 **kern	**kern	**dynam	**kern	**text	**text	**dynam
 *part2	*part2	*part2	*part1	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1	*staff1	*
 *Ipiano	*Iempty	*	*Ivox	*	*	*
 *I"Piano	*	*	*I"Voce	*	*	*
 *I'pf	*	*	*I'V	*	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*	*	*
 *ICklav	*	*	*ICvox	*	*	*
+*IGacmp	*IGacmp	*	*IGsolo	*	*	*
 *clefF4	*clefG2	*	*clefG2	*	*	*
 *k[b-e-]	*k[b-e-]	*	*k[b-e-]	*	*	*
 *g:	*g:	*	*g:	*	*	*
-*M2/4	*M2/4	*	*M2/4	*	*	*
+!LO:MO:mod=*M2/4	!LO:MO:mod=*M2/4	!	!LO:MO:mod=*M2/4	!	!	!
+*M	*M	*	*M	*	*	*
 =1	=1	=1	=1	=1	=1	=1
-!	!	!	!LO:TX:a:B:t=Andantino	!	!	!
-!	!	!	!LO:TX:t=P:problem=brak podanego metrum	!	!	!
 2GG\	4d/ 4B-</ 4G</ 4D</	.	8g/	Chło-	Nah-	.
 .	.	.	8g/	-pca	-men	.
 .	4c/ 4G</ 4E-</	.	8a/	me-	ihn	.
@@ -54,7 +57,7 @@
 2GG\ 2GGG\	2g/ 2d/ 2B-</ 2G</	.	4.g/	-lu!	-chen!	.
 .	.	.	8r	.	.	.
 =5	=5	=5	=5	=5	=5	=5
-4D\ 4GG\	4d/ 4B-</ 4G</	.	8g/	Wświat	Ha-	.
+4D\ 4GG\	4d/ 4B-</ 4G</	.	8g/	W świat	Ha-	.
 .	.	.	8g/	da-	-ben	.
 4F\ 4FF\	4f/ 4c</ 4A</	.	8a/	-le-	ihn	.
 .	.	.	8cc\	-ki	weit	.
@@ -95,6 +98,7 @@
 .	.	.	8e-X/	na	Trost	.
 .	.	.	8g/	mszę	ist	.
 =12	=12	=12	=12	=12	=12	=12
+!LO:SIC:s=8DL	!LO:SIC:s=8dL	!	!	!	!	!
 8D\vL	8d/vL	.	8f#X/	sznur	nur	.
 (8D\	(8d/	<	8f#/	ko-	geb-	.
 8E-X\	8e-X/	.	8g/	-ra-	-lie-	.
@@ -129,6 +133,7 @@
 16B-\L	16b-\L	.	.	.	.	.
 16G\JJ)	16g/JJ)	.	.	.	.	.
 =18	=18	=18	=18	=18	=18	=18
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;t=animato	!	!	!
 !	!	!	!LO:TX:a:t=animato.	!	!	!
 8E-\	8g/L 8B-/ 8G/	.	8b-\	Do	Ein	.
 (32EE-/LLL	8g/J 8B-/ 8G/	<	8b-\	sze-	ge-	.
@@ -157,13 +162,13 @@
 32G\	.	.	.	.	.	.
 32GG/	.	.	.	.	.	.
 (32G\JJJ	.	.	.	.	.	.
-4G\ 4D\))	(8ee-/ 8a-/ [8f/	.	(4g/	Bo-	Zeim-	.
+4G\ 4D\))	(8ee-/ 8a-/ [[8f/	.	(4g/	Bo-	Zeim-	.
 .	16dd\L	.	.	.	.	.
 .	16bn\JJ	.	.	.	.	.
 !!LO:PB:g=original
 =21	=21	=21	=21	=21	=21	=21
 *	*^	*	*	*	*	*
-(8GGG/	8dd/	8a\ 8f\])	.	4g/)	.	.	.
+(8GGG/	8dd/	8a\ 8f\]])	.	4g/)	.	.	.
 32GG/LLL	8dd/	8a-X\ 8f\	.	.	.	.	.
 32G\	.	.	.	.	.	.	.
 32GG/	.	.	.	.	.	.	.
@@ -173,6 +178,7 @@
 .	16bn/JJ)	.	.	.	.	.	.
 *	*v	*v	*	*	*	*	*
 =22	=22	=22	=22	=22	=22	=22
+!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;t=marcato	!	!	!	!	!
 !	!LO:TX:a:t=marcato	!	!	!	!	!
 (8C/ 8EE-/	16r	.	8gg\	Tam	was	.
 .	16gg\ 16ee-\ 16g\	.	.	.	.	.
@@ -210,13 +216,16 @@
 .	16gg-/ 16ee-/ 16b-/	.	.	.	.	.	.	.
 !	!	!	!	!LO:TX:a:t=ritar.	!LO:N:vis=8.	!	!	!
 .	4gg-/ 4ee-/ 4b-/	.	.	.	8b-/	mo-	gefüm-	.
-.	.	.	.	8c\	8e-/	-że	-mel,	.
+.	.	.	.	8c\\	8e-//	-że	-mel,	.
 *	*	*	*	*v	*v	*	*	*
 *	*v	*v	*	*	*	*	*
 !!LO:LB:g=original
 =26	=26	=26	=26	=26	=26	=26
-!	!LO:TX:a:t=Piu lento	!	!	!	!	!LO:DY:a
+!!!OMD:
+!!!OMD-mod: Più lento
+!	!LO:TX:a:t=Piu lento:mod=	!	!	!	!	!LO:DY:a
 4E-X\	4g-X/ 4e-/ 4B-/ 4G-X</	.	8g-X/	a-	mei-	p
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;t=doloroso	!	!	!
 !	!	!	!LO:TX:a:t=doloroso.	!	!	!
 .	.	.	8g-/	-ni	-ne	.
 4D-X\	4g-/ 4f-X/ 4B-</ 4G-</	.	8a-X/	łzy	Thra-	.
@@ -268,7 +277,10 @@
 =35	=35	=35	=35	=35	=35	=35
 2D\ 2AA\ 2DD\	2a/ 2f#X/ 2d/ 2A</	pp	2r	.	.	.
 =36	=36	=36	=36	=36	=36	=36
-!	!	!LO:DY:a	!LO:TX:a:t=Tempo I	!	!	!
+!!!OMD:
+!!!OMD-mod: Tempo I
+!	!	!LO:DY:a	!LO:TX:a:t=Tempo I:mod=	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!	!
 8GG/'L	4g/ 4B-/ 4G/	pp	8g/	Nie	Schwer-	.
 8G\'	.	.	8g/	py-	-lich	.
 8F\'	4c/ 4A/	.	8a/	-ta-	wird	.
@@ -445,7 +457,9 @@
 *	*v	*v	*	*	*	*	*
 !!LO:PB:g=original
 =61	=61	=61	=61	=61	=61	=61
-!	!	!	!LO:TX:a:B:t=Piu lento	!	!	!
+!!!OMD:
+!!!OMD-mod: Più lento
+!	!	!	!LO:TX:a:B:t=Piu lento:mod=	!	!	!
 4E-X\	4g-X/ 4f-X/ 4e-/ 4B-/ 4G-X</	.	8g-X/	By	Daſs	.
 .	.	.	8g-/	sa-	er	.
 4D-X\	4g-/ 4f-X/ 4B-/ 4G-</	.	8a-X/	-mot-	nicht	.
@@ -453,13 +467,14 @@
 =62	=62	=62	=62	=62	=62	=62
 4C-X\	4g-X/ 4e--/ 4c-X</ 4G-X</	.	8cc-X\	gi-	Blut	.
 .	.	.	8ee--\	-nął	und	.
-4BB--\	4g-/ 4d-X/ 4G-</	.	8dd-X\	z	Nöt-	.
-.	.	.	8g-X/	rany	-hen	.
+4BB--\	4g-/ 4d-X/ 4G-</	.	8dd-X\	z ra-	Nöt-	.
+.	.	.	8g-X/	-ny	-hen	.
 =63	=63	=63	=63	=63	=63	=63
-!	!LO:TX:a:i:t=ril	!	!	!	!	!
-2AA-X\	2g-X/ 2cn</ 2G-X</	.	8g-X/	Zda-	Eins	.
+!	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;t=rit.	!	!	!
+!	!LO:TX:a:i:t=ril:mod=rit.	!	!	!	!	!
+2AA-X\	2g-X/ 2cn</ 2G-X</	.	8g-X/	Z da-	Eins	.
 .	.	.	8g-/	-la	am	.
-!	!	!	!LO:TX:a:t=ril.	!	!	!
+!	!	!	!LO:TX:a:t=ril.:mod=	!	!	!
 .	.	.	8ee-\	two-	sterb'	.
 .	.	.	8ee-\	-ich	auf	.
 =64	=64	=64	=64	=64	=64	=64
@@ -495,7 +510,7 @@
 .	8g/ 8e/ 8G/	.	8a/	na	Kannst	.
 .	8g/J 8e/ 8G/	.	8cc\	nas	uns	.
 =70	=70	=70	=70	=70	=70	=70
-!	!	!	!LO:SIC:o:s:v:t=  kasownik dopisany ołówkiem	!	!	!
+!	!	!	!LO:ACC:color=grey	!	!	!
 4GG/ 4GGG/	8B-/L 8G/	.	8bn\	Ty	Hil-	.
 .	8d/J 8B-/ 8G/	.	8a/	Pa-	-fe	.
 4GG/ 4CC/	8en/L 8c/ 8G/	.	8g/	-nien-	sen-	.
@@ -522,21 +537,23 @@
 .	8dd/ 8g/ 8d/	.	8g/	mę-	wen-	.
 .	8dd/J 8b-/ 8g/ 8e-/	.	8b-/	-ką	-den,	.
 =75	=75	=75	=75	=75	=75	=75
-!	!LO:SIC:o:s:v:t= dodatkowa nuta ołówkiem	!	!	!	!	!
+!	!LO:TX:t=P:problem=dodatkowa nuta ołówkiem	!	!	!	!	!
 4GG\ 4GGG\yy	8dd/L 8b-/ 8g/ 8en/	.	8dd\	Ty	Mitt-	.
 .	8dd/J 8b-/ 8g/ 8e/	.	8dd\	się	-lein,	.
+!	!	!	!	!LO:MO:mod=zli-	!	!
 4en\	8gg\L 8dd\ 8b-\	.	8en/	sli-	du	.
 .	8gg\J 8dd\ 8b-\	.	8e/	-tuj	in	.
 !!LO:LB:g=original
 =76	=76	=76	=76	=76	=76	=76
-!	!LO:SIC:o:s:v:t= dodatkowa nuta ołówkiem	!	!	!	!	!
+!	!LO:TX:t=P:problem=dodatkowa nuta ołówkiem	!	!	!	!	!
 4GG\ 4GGG\yy	8dd/L 8b-/ 8g/ 8en/	.	8dd\	o	Glo-	.
+!	!	!	!	!LO:MO:mod=Gwieź-	!	!
 .	8dd/J 8b-/ 8g/ 8e/	.	8dd\	gwieź-	-rien-	.
 4en\	8gg\L 8dd\ 8b-\	.	8en/	-dzi-	-schei-	.
 .	8gg\J 8dd\ 8b-\	.	8e/	-sta	-ne,	.
 =77	=77	=77	=77	=77	=77	=77
-!	!LO:SIC:o:s:v:t=  znak Ped. ołówkiem	!	!	!	!	!
-!	!LO:SIC:o:s:v:t= dodatkowa nuta ołówkiem	!	!	!	!	!
+!	!LO:TX:t=P:problem= znak Ped. ołówkiem	!	!	!	!	!
+!	!LO:TX:t=P:problem=dodatkowa nuta ołówkiem	!	!	!	!	!
 [<2G\ 2GG\yy	8ff\L 8cc#X\ 8a\	.	8a/	nie-	Kün-	.
 .	8ff\J 8cc#\ 8g\	.	8a/	-bie-	-de-	.
 .	8een\L 8cc#\ 8g\	.	8a/	-skie-	-rin	.
@@ -547,15 +564,17 @@
 .	8cc/L 8a-X/ 8f/	.	8cc\	-trze-	spen-	.
 .	8cc/J 8a-/ 8f/	.	8cc\	-nko	-den,	.
 =79	=79	=79	=79	=79	=79	=79
-!	!LO:SIC:o:s:v:t= dodatkowa nutu ołówkiem	!	!	!	!	!
+!	!LO:TX:t=P:problem=dodatkowa nutu ołówkiem	!	!	!	!	!
 4GG\ 4GGG\yy	8cc/L 8a-X/ 8f/ 8d/	.	8cc\	Ty	Mit-	.
 .	8cc/J 8a-/ 8f/ 8d/	.	8cc\	się	-leid,	.
 4d^\	8ff\L 8cc\ 8a-\	.	8d/	zli-	du	.
 .	8ff\J 8cc\ 8a-\	.	8d/	-tuj	in	.
 =80	=80	=80	=80	=80	=80	=80
-!	!LO:SIC:o:s:v:t= dodatkowa nuta ołówkiem	!	!	!	!	!
+!	!LO:TX:t=P:problem=dodatkowa nuta ołówkiem	!	!	!	!	!
 4GG\ 4GGG\yy	8cc/L 8a-X/ 8f/ 8d/	.	8cc\	o	Glo-	.
+!	!	!	!	!LO:MO:mod=Gwieź-	!	!
 .	8cc/J 8a-/ 8f/ 8d/	.	8cc\	gwie-	-rien-	.
+!	!	!	!	!LO:MO:mod=-dzi-	!	!
 4d\	8ff\L 8cc\ 8a-\	.	8d/	-ździ-	-sche-	.
 .	8ff\J 8cc\ 8a-\	.	8d/	-sta	-ine	.
 !!LO:PB:g=original
@@ -565,21 +584,24 @@
 .	8dd/L 8b/ 8f/	.	8g/	-skie-	-rin	.
 .	8dd/J 8b/ 8f/	.	8g/	-go	der	.
 =82	=82	=82	=82	=82	=82	=82
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;t=rallent.	!	!	!
 !	!	!	!LO:TX:a:t=rallent.	!	!	!
 2G\]	8cc/L 8g/ 8e-/	.	8cc\	dnia	Him-	.
 .	8cc/J 8g/ 8e-/	.	8cc\	ju-	-mels	.
 .	8b-/L 8g/ 8d/	.	8b-/	-tzre-	spen-	.
 .	8e-/J 8c/	.	8a/	-nko	-den!	.
 =83	=83	=83	=83	=83	=83	=83
+!!!OMD:
+!!!OMD-mod: Più lento
 *^	*	*	*	*	*	*
-!LO:N:vis=x	!	!	!	!LO:TX:a:B:t=Piu lento.	!	!	!
+!LO:N:vis=x	!	!	!	!LO:TX:a:B:t=Piu lento.:mod=	!	!	!
 4G/ 4D/	2GG\	4d/ 4B-/	.	8g/	O-	Schü-	.
 .	.	.	.	8g/	-słoń	-tze	.
-!LO:N:vis=x	!	!	!	!	!	!	!
+!LO:N:vis=x	!	!	!	!	!LO:MO:mod=Je-	!	!
 4E-\	.	4c/ 4G</	.	8a/	je-	ihn	.
 .	.	.	.	8cc\	-go	mit	.
 =84	=84	=84	=84	=84	=84	=84	=84
-!LO:N:vis=x	!	!	!	!	!	!	!
+!LO:N:vis=x	!	!	!	!	!LO:MO:mod=Two-	!	!
 4G/ 4E-/	2GG\	4d/ 4B-</	.	8b-\	two-	dei-	.
 .	.	.	.	8a/	-ją	-nen	.
 !LO:N:vis=x	!	!	!	!	!	!	!
@@ -592,6 +614,7 @@
 .	.	.	8f#X/J)	.	.	.
 !!LO:LB:g=original
 =86	=86	=86	=86	=86	=86	=86
+!LO:SIC:s=8qqGGG	!	!	!	!	!	!
 4qqGGG/	.	.	.	.	.	.
 *2\right	*	*	*	*	*	*
 2G:\ 2D:\ 2GG:\	2bn/: 2g/: 2d/: 2Bn;:/	.	4.g;/	-sta	-ne!	.
@@ -601,10 +624,14 @@
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!LO:MO:ori
 !!!RDF**dynam: < = cres
+!!LO:MO:end
 !!!ENC: Marta Opryszak
 !!!END: 2021-12-03
 !!!ENC: Leszek Kubiak
 !!!END: 2022-01-04
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

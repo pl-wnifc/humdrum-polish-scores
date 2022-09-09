@@ -18,18 +18,23 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A730/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4734 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: od skanu 0008, pieśń nienumerowana
-!!!AIN: 2 piano 1 soprn
+!!!AIN: 1 piano 1 soprn
 !!!key: A
 !!!OMD: allegretto giacoso.
+!!!OMD: Allegretto giocoso
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | humtr -p
 **kern	**kern	**dynam	**fing	**kern	**text	**text	**text	**text
-*	*	*	*	*	*	*	*v:1	*:2
+*	*	*	*	*	*	*	*v:1	*v:2
 *group2	*group2	*	*	*group1	*	*	*	*
-*part3	*part2	*part2	*	*part1	*part1	*part1	*part1	*part1
+*part2	*part2	*part2	*	*part1	*part1	*part1	*part1	*part1
 *staff3	*staff2	*	*	*staff1	*staff1	*staff1	*staff1	*staff1
 *I"[Piano]	*I"[Piano]	*	*	*I"[Soprano]	*	*	*	*
+*I'	*I'	*	*	*I'	*	*	*	*
 *Ipiano	*Ipiano	*	*	*Isoprn	*	*	*	*
 *ICklav	*ICklav	*	*	*ICvox	*	*	*	*
 *IGacmp	*IGacmp	*	*	*IGsolo	*	*	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*	*mI"Voce	*	*	*	*
+*mI'pf	*mI'pf	*	*	*mI'V	*	*	*	*
 *clefF4	*clefG2	*	*	*clefG2	*	*	*	*
 *k[f#c#g#]	*k[f#c#g#]	*	*	*k[f#c#g#]	*	*	*	*
 *A:	*A:	*	*	*A:	*	*	*	*
@@ -38,20 +43,21 @@
 =1	=1	=1	=1	=1	=1	=1	=1	=1
 *>A	*>A	*	*	*>A	*	*	*	*
 8r	4aa~>\	.	.	2r	.	.	.	.
-!LO:TX:t=P:problem=all\right&colon; global	!	!	!	!	!	!	!	!
+!LO:SIC:s=4AA 4E/	!	!	!	!	!	!	!	!
 4AA\ 4E\	.	.	.	.	.	.	.	.
 .	4gg#~>\	.	.	.	.	.	.	.
 8E\ 8B\ 8e\	.	.	.	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2
 8r	(>16ee\LL	.	.	2r	.	.	.	.
 .	16gg#\	.	.	.	.	.	.	.
-!LO:TX:t=P:problem=all\middle&colon; global	!	!	!	!	!	!	!	!
+!LO:SIC:s=8AA 8E/	!	!	!	!	!	!	!	!
 8AA\ 8E\	16ff#\	.	.	.	.	.	.	.
 .	16dd\JJ	.	.	.	.	.	.	.
 8r	4cc#\)	.	.	.	.	.	.	.
 8E\ 8A\ 8e\	.	.	.	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3
 8r	4ee~>\	.	.	2r	.	.	.	.
+!LO:SIC:s=8AA 8E/	!	!	!	!	!	!	!	!
 8AA\ 8E\	.	.	.	.	.	.	.	.
 8r	4dd~>\	.	.	.	.	.	.	.
 8F#\ 8A\ 8d\	.	.	.	.	.	.	.	.
@@ -64,7 +70,7 @@
 8E\ 8A\ 8c#\	.	.	.	.	.	.	.	.
 =5!|:	=5!|:	=5!|:	=5!|:	=5!|:	=5!|:	=5!|:	=5!|:	=5!|:
 *>B	*>B	*	*	*>B	*	*	*	*
-!	!	!	!	!LO:TX:a:t=Paderewski	!	!	!	!
+!	!	!	!	!LO:TX:a:t=Paderewski:mod=	!	!	!	!
 [<2AAA\ [>2AA\	8E</L 8c#</ 8e/	.	.	8cc#\	Nie	Pó-	Wer-	ſeit
 .	8E</ 8c#</ 8e/	.	.	8cc#\	bę-	-kąd	-de	er
 .	8E</ 8d</ 8e/	.	.	8b\	-dę	mi	dich	fern
@@ -73,64 +79,57 @@
 =6	=6	=6	=6	=6	=6	=6	=6	=6
 4AAA\] 4AA]	8E</L 8c#/ 8e/	.	.	4.ee\	rwa-	-je-	pflü-	-blie-
 .	8E</ 8c#/ 8e/	.	.	.	.	.	.	.
-!LO:TX:t=P:4\right:problem	!	!	!	!	!	!	!	!
 4EE\	8E</ 8B/ 8e/	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!LO:MO:mod=-cken	!
 .	8E</J 8B/ 8e/	.	.	8dd\	-ła	-dzie	-cKen,	-ben,
 =7	=7	=7	=7	=7	=7	=7	=7	=7
-!LO:TX:t=P:4\left:problem	!	!	!	!	!	!	!	!
 4AA\	8E</L 8c#/ 8e/	.	.	8cc#\	Kon-	Nic	mich	muſs
 .	8E</ 8c#/ 8e/	.	.	8cc#\	-wa-	mi	mit	ich
-!LO:TX:t=P:problem=4\right&colon; global	!	!	!	!	!	!	!	!
 4EE\	8G#</ 8B/ 8e/	.	.	8b\	-lij-	się	dòr	mich
 .	8G#</J 8B/ 8e/	.	.	8b\	-ko	nie	nicht	be-
 =8	=8	=8	=8	=8	=8	=8	=8	=8
 4BB\	8F#</L 8B/ 8d/	.	.	8dd\	bia-	wie-	schmüc-	-trü-
+!	!	!	!	!	!	!	!LO:MO:mod=-ken,	!
 .	8F#</ 8B/ 8d/	.	.	8cc#,>\	-ła.	-dzie	-Ken,	-ben,
-4BBB\ 4BB\	8F#</ 8d/ 8f#/	.	.	8b/	Bo-	Bo	,weiſ-	wir
+4BBB\ 4BB\	8F#</ 8d/ 8f#/	.	.	8b/	Bo-	Bo	weiſ-	wir
 .	8F#</J 8d/ 8f#/	.	.	8a/	-byś	wziąć	-se	ich
 =9	=9	=9	=9	=9	=9	=9	=9	=9
-!	!	!	!	!LO:SIC:l:v:s:t=tyl-	!	!	!	!
+!	!	!	!	!LO:SIC:l:v:t=tyl-	!	!	!	!
 4EE\	8G#</L 8d/ 8e/	.	.	8g#/	ty	ty-	Me-	denk
 .	8G#</ 8d/ 8e/	.	.	8f#/	na	-lko	-ien	bes-
-!	!	!	!	!LO:SIC:l:v:s:t=myś-	!	!	!	!
-4E^<\	8A</ 8c#/ 8e/	.	.	8e/	mo-	my-	blu-	-lein-
+!	!	!	!	!LO:SIC:l:v:t=myś-	!	!	!	!
+4E^<<\	8A</ 8c#/ 8e/	.	.	8e/	mo-	my-	blu-	-lein-
 .	8A</J 8c#/ 8e/	.	.	8a/	-ję,	-ślę	-me,	-dig
 !!LO:PB:g=original
 =10	=10	=10	=10	=10	=10	=10	=10	=10
 4EE\	8G#</L 8d/ 8e/	.	.	8g#/	Pło-	O	duf-	an
 .	8G#</J 8d/ 8e/	.	.	8f#/	-chość	mło-	-tig	den
-!LO:TX:t=P:4\left:problem	!	!	!	!	!	!	!	!
 4E\	8A</L 8c#/ 8e/	.	.	8e/	na-	-dym	zum	lieb-
 .	8c#</J 8e/ 8a/	.	.	8cc#\	-rze-	są-	Ent-	-sten
 =11	=11	=11	=11	=11	=11	=11	=11	=11
 *^	*	*	*	*	*	*	*	*
-!	!LO:TX:t=P:problem=all\middle&colon; global	!	!	!	!	!	!	!	!
 2E/	(>8BB\L	(<4.g#/ (>4.dd/	<	.	4.dd\	-ka-	-sie-	-zü-	Lie-
 .	8EE\	.	.	.	.	.	.	.	.
 .	8BB\	.	[	.	.	.	.	.	.
 .	8AA#X\J)	8f##X/) 8cc#/)	.	.	8cc#\	.	.	.	.
 =12	=12	=12	=12	=12	=12	=12	=12	=12	=12
-!	!LO:TX:t=P:problem=8\right	!	!	!	!	!	!	!	!
 [>2E/	(>8BB\L	4.g#/ 4.dd/	.	.	(>4.dd\	.	.	.	.
 .	8EE\	.	<	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=[[	!	!	!	!	!	!
 .	8BB\	.	[	.	.	.	.	.	.
 .	8AA#X\J)	8f##X/ 8cc#/	.	.	8cc#\	.	.	.	.
 =13	=13	=13	=13	=13	=13	=13	=13	=13	=13
 8E/]	8BB\	4.g#/ 4.dd/	.	.	4.dd\)	.	.	.	.
-!LO:TX:t=P:problem=8\right	!	!	!	!	!	!	!	!	!
 (8E\L	4.ryy	.	<	.	.	.	.	.	.
-!LO:TX:t=P:problem=all\left&colon; global	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:MO:mod=[[	!	!	!	!	!	!
 8B\	.	.	[	.	.	.	.	.	.
 8A#X\J)	.	8f##X/ 8cc#/	.	.	8e/	-ła.	-dzie	-cken!	-ben.
 *v	*v	*	*	*	*	*	*	*	*
 !!LO:LB:g=original
 =14	=14	=14	=14	=14	=14	=14	=14	=14
-!	!LO:TX:t=P:problem=all\right&colon; global	!	!	!	!	!	!	!
 8B\L	4.g#\ 4.dd\	<	.	2r	.	.	.	.
-!LO:TX:t=P:problem=8\right	!	!	!	!	!	!	!	!
 (>8E\	.	.	.	.	.	.	.	.
 8B\	.	.	.	.	.	.	.	.
-!	!LO:TX:t=P:problem=8\left	!	!	!	!	!	!	!
 8B#X\J)	8a\ 8dd#X\	[[	.	.	.	.	.	.
 =15	=15	=15	=15	=15	=15	=15	=15	=15
 (>8c#\L	(>8a\L 8ee\	.	.	2r	.	.	.	.
@@ -138,7 +137,6 @@
 8F#\	8d/L 8a/	.	.	.	.	.	.	.
 8BB\J)	8A/J) 8f#/ 8a/	>	.	.	.	.	.	.
 =16	=16	=16	=16	=16	=16	=16	=16	=16
-!LO:TX:t=P:4\right:problem	!	!	!	!	!	!	!	!
 4E\	8G#</L 8d/ 8e/	.	.	2r	.	.	.	.
 .	8G#</ 8d/ 8e/	.	.	.	.	.	.	.
 4EE\	8G#</ 8d/ 8g#/	]	.	.	.	.	.	.
@@ -150,15 +148,14 @@
 .	8E</J 8d/ 8e/	.	.	8b\	-byś	mnie	In	voll
 !!LO:LB:g=original
 =18	=18	=18	=18	=18	=18	=18	=18	=18
-!LO:TX:t=P:problem=4\right&colon; global	!	!	!	!	!	!	!	!
 4AAA\] 4AA\]	8E</L 8c#/ 8e/	.	.	4.ee\	so-	nu-	klei-	Ban-
 .	8E< 8c#/ 8e/	.	.	.	.	.	.	.
 4EE\	8E</ 8B/ 8e/	.	.	.	.	.	.	.
 .	8E</J 8B/ 8e/	.	.	8dd\	-bie,	-dzi	-ne,	-gen
 =19	=19	=19	=19	=19	=19	=19	=19	=19
-!LO:TX:t=P:problem=all\left&colon; global	!	!	!	!	!	!	!	!
 4AA\	8E</L 8c#/ 8e/	.	.	8cc#\	Że	U-	veiss	ein-
 .	8E</ 8c#/ 8e/	.	.	8cc#\	to	-cie-	ich	-sam
+!	!	!	!	!	!	!	!	!LO:MO:mod=hein-
 4EE\	8G#</ 8B/ 8e/	.	.	8b\	na	-kam	pflü-	he(i)n-
 .	8G#</J 8B/ 8e/	.	.	8b\	złość	od	-ckend	-ge-
 =20	=20	=20	=20	=20	=20	=20	=20	=20
@@ -169,6 +166,7 @@
 =21	=21	=21	=21	=21	=21	=21	=21	=21
 4C#\	8G#</L 8c#/ 8e#X/	.	.	8g#/	więc	zry-	Trotz	Blu-
 .	8G#</J 8c#/ 8e#/	.	.	8e#X/	szczę-	-wać	und	-men
+!	!	!	!	!	!	!LO:MO:mod=kwiaLO:MO:mod=-	!	!
 4FF#\	8A</L 8c#/ 8f#/	.	.	8f#/	-śli-	Kwia-	zeich-	pflü-
 .	8A</J 8c#/ 8f#/	.	.	8a/	-wie	-ty	-tsinn ;	-cken
 !!LO:LB:g=original
@@ -179,7 +177,6 @@
 .	8d/J 8f#/ 8a/	.	.	8a/	o-	nie	im	Ver-
 =23	=23	=23	=23	=23	=23	=23	=23	=23
 *^	*	*	*	*	*	*	*	*
-!	!LO:TX:t=P:problem=8\middle&colon; global	!	!	!	!	!	!	!	!
 2AA/	8AA\L	(<4.e^>/ (>4.cc#/	.	.	(>4.cc#\	-zdo-	bu-	Hai-	-tan-
 .	8AAA\	.	.	.	.	.	.	.	.
 .	8EE\	.	.	.	.	.	.	.	.
@@ -187,19 +184,21 @@
 =24	=24	=24	=24	=24	=24	=24	=24	=24	=24
 4AA/	8AAA\L 8AA\	(<4.e^>/ (>4.cc#/	.	.	4.cc#\	.	.	.	.
 .	8EE\	.	<	.	.	.	.	.	.
-!	!LO:TX:t=P:problem=8\left	!	!	!	!	!	!	!	!
+!	!	!	!LO:MO:mod=[[	!	!	!	!	!	!
 4AA/	8AA\	.	[	.	.	.	.	.	.
 .	8DD\J	8fn/) 8b/)	.	.	8b\	.	.	.	.
 *v	*v	*	*	*	*	*	*	*	*
 =25	=25	=25	=25	=25	=25	=25	=25	=25
-!LO:TX:t=P:problem=8\right&colon; global	!	!	!	!	!	!	!	!
+!LO:SIC:s=8AAA/L	!	!	!	!	!	!	!	!
 8AAA\L	[<2e/ [>2cc#/	.	.	4.cc#\)	.	.	.	.
+!LO:SIC:s=(>8EE/	!	!	!	!	!	!	!	!
 (>8EE\	.	.	.	.	.	.	.	.
+!LO:SIC:s=8AA/)	!	!	!	!	!	!	!	!
 8AA\)	.	.	.	.	.	.	.	.
+!LO:SIC:s=8AA/J	!	!	!	!	!	!	!	!
 8AA\J	.	.	.	8a/	-bie.	-dzi	-ne	-gen
 !!LO:PB:g=original
 =26	=26	=26	=26	=26	=26	=26	=26	=26
-!LO:TX:t=P:problem=all\middle&colon; global`	!	!	!	!	!	!	!	!
 8C#\L	4e/] 4cc#/]	.	.	2r	.	.	.	.
 8E\	.	.	.	.	.	.	.	.
 8A\	4r	.	.	.	.	.	.	.
@@ -210,34 +209,31 @@
 .	8a/	.	.	.	.	.	.	.
 .	8b#X/J	.	.	.	.	.	.	.
 =28	=28	=28	=28	=28	=28	=28	=28	=28
-!	!LO:TX:t=P:problem=8\left	!	!	!	!	!	!	!
 2r	8cc#\L	.	.	2r	.	.	.	.
-!	!LO:TX:t=P:problem=all\middle&colon; global	!	!	!	!	!	!	!
 .	8dd#X\J	.	.	.	.	.	.	.
 .	(<8qff#/	.	.	.	.	.	.	.
-!	!LO:TX:t=P:problem=16\left	!	!	!	!	!	!	!
 .	16ee\LL)	.	.	.	.	.	.	.
 .	(>16dd#\	.	.	.	.	.	.	.
-!	!LO:TX:t=P:problem=16\left	!	!	!	!	!	!	!
 .	16ee\	.	.	.	.	.	.	.
 .	16ff#\JJ)	.	.	.	.	.	.	.
 =29	=29	=29	=29	=29	=29	=29	=29	=29
 8r	4gg#~>\	.	.	8r	.	.	.	.
-!LO:TX:t=P:problem=all\right&colon; global	!	!	!	!LO:TX:t=P:problem=od taktu 29 niemiecki tekst drugiej zwrotki zapisany poniżej górnego planu akompaniamentu	!	!	!	!
+!LO:SIC:s=4CC# 4GG#/	!	!	!	!LO:TX:t=P:problem=od taktu 29 niemiecki tekst drugiej zwrotki zapisany poniżej górnego planu akompaniamentu	!	!	!	!
 4CC#\ 4GG#\	.	.	.	4g#/	Nie	mo-	Wer	Blu-
 .	4ff#~>\	.	.	.	.	.	.	.
+!LO:SIC:s=8CC# 8GG#/	!	!	!	!	!	!	!	!
 8CC#\ 8GG#\	.	.	.	8g#/	mam	-żesz	ist,	-me,
 !!LO:LB:g=original
 =30	=30	=30	=30	=30	=30	=30	=30	=30
 8r	(>16dd#X\LL	.	.	8a/	ja	więc	ver	sei
 .	16ff#\	.	.	.	.	.	.	.
+!LO:SIC:s=4CC# 4GG#/	!	!	!	!	!	!	!	!
 4CC#'>\ 4GG#	16eeM>\	.	.	8g#/	dziś	w spo-	sich	ge-
 .	16b\JJ	.	.	.	.	.	.	.
 .	4cc#\)	.	.	8cc#/	ko-	-ko-	heu-	-mie-
 8G#\	.	.	.	(>16b/LL	-mu	-ju	-te	-den,
 .	.	.	.	16a/JJ)	.	.	.	.
 =31	=31	=31	=31	=31	=31	=31	=31	=31
-!LO:TX:t=P:problem=8\right	!	!	!	!	!	!	!	!
 8G#\L 8f#\	16a/LL 16cc#/ 16dd#X/	.	.	8g#/	kwia-	Ros-	sol-	bleib
 .	16ee/	.	.	.	.	.	.	.
 8G#\J 8f#\	16a/ 16cc#/ 16dd#/	.	.	8g#/	-ty,	-nąć	-chen	am
@@ -251,28 +247,31 @@
 .	16ee/	.	.	.	.	.	.	.
 8G#\J 8f#\	16a/ 16cc#/ 16dd#/	.	.	8g#/	-mu	-ju	-de,	-den,
 .	16ee/JJ	.	.	.	.	.	.	.
-!LO:TX:t=P:problem=8\right	!	!	!	!	!	!	!	!
 8G#\L 8e\	16g#/LL 16cc#/	.	.	4r	.	.	.	.
 .	16gg#/	.	.	.	.	.	.	.
 8G#\J 8e\	16g#/ 16cc#/	.	.	.	.	.	.	.
 .	16gg#/JJ	.	.	.	.	.	.	.
 =33	=33	=33	=33	=33	=33	=33	=33	=33
 8r	4ff#^>\	.	.	8r	.	.	.	.
-!LO:TX:t=P:problem=all\right&colon; global	!	!	!	!	!	!	!	!
+!LO:SIC:s=4BBB/ 4GG#	!	!	!	!	!	!	!	!
 4BBB\ 4GG#\	.	.	.	4f#/	Nikt,	Dziś	der`s	Nim-
 .	4ee^>\	.	.	.	.	.	.	.
+!LO:SIC:s=8BBB/ 8FF#	!	!	!	!	!	!	!	!
 8BBB\ 8FF#\	.	.	.	8f#/	mi	mi	mir	-mer
 !!LO:LB:g=original
 =34	=34	=34	=34	=34	=34	=34	=34	=34
 8r	(16cc#\LL	.	.	8gn/	ich	mie	ans	ist
 .	16ee\	.	.	.	.	.	.	.
+!LO:SIC:s=4BBB/ 4FF#	!	!	!	!	!	!	!	!
 4BBB\ 4FF#\	16ddw\	.	.	8f#/	nie	nie	dem	mir
 .	16f#\JJ	.	.	.	.	.	.	.
+!	!LO:SIC:s=4b)	!	!	!	!	!	!	!
 .	4b/)	.	.	8b/	wyj-	przyj-	Hau-	heu-
-!LO:TX:t=P:problem=all\middle&colon; global	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!
 8F#\	.	.	.	(>16a/LL	-mie	-dzie	-re	-te
 .	.	.	.	16g/JJ)	.	.	.	.
 =35	=35	=35	=35	=35	=35	=35	=35	=35
+!	!	!	!	!	!LO:MO:mod=z wło-	!LO:MO:mod=z kwie-	!	!
 8F#\L 8e\	16gn/LL 16a#X/ 16cc#/	.	.	8f#/	Z Wło-	z Kwie-	hein-	Blu-
 .	16dd/	.	.	.	.	.	.	.
 8F#\J 8e\	16g/ 16a#/ 16cc#/	.	.	8f#/	-sów	-ci-	-lich	-mens
@@ -292,8 +291,8 @@
 .	16ff#/JJ	.	.	.	.	.	.	.
 =37	=37	=37	=37	=37	=37	=37	=37	=37
 *	*	*	*^	*	*	*	*	*
+!LO:MO:null:mod=*ped	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!
 *	*ped	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem=all\left&colon; global	!	!	!	!	!	!	!	!	!
 N(>16BB\LL	8.ryy	.	.	.	4r	.	.	.	.
 16F#\	.	.	.	.	.	.	.	.	.
 16B\JJ	.	.	.	.	.	.	.	.	.
@@ -305,7 +304,6 @@ N(>16BB\LL	8.ryy	.	.	.	4r	.	.	.	.
 *	*	*	*v	*v	*	*	*	*	*
 !!LO:LB:g=original
 =38	=38	=38	=38	=38	=38	=38	=38	=38
-!	!LO:TX:t=P:problem=16\left&colon; global	!	!	!	!	!	!	!
 2r	(>16bb\LL	.	.	8f#/]	.	.	.	.
 .	16ff#\	.	.	.	.	.	.	.
 .	16dd\	.	.	8b\	ma	gdy	vers	komt
@@ -313,14 +311,12 @@ N(>16BB\LL	8.ryy	.	.	.	4r	.	.	.	.
 .	16dd\LL	.	.	8cc#\	już	wró-	ſohn	er,
 .	16ff#\	.	.	.	.	.	.	.
 .	16bb\	.	.	8dd\	są-	-ci	ist	mein
-!	!LO:TX:t=P:problem=16\right&colon; global	!	!	!	!	!	!	!
 .	16ddd\JJ)	.	.	.	.	.	.	.
 =39	=39	=39	=39	=39	=39	=39	=39	=39
 2r	16ggg#\LL	.	.	[2cc#\	-sia-	lu-	fer-	Le-
 .	(>16fff#\	.	.	.	.	.	.	.
 .	16ddd\	.	.	.	.	.	.	.
 .	16bb\JJ	.	.	.	.	.	.	.
-!	!LO:TX:t=P:problem=16\left&colon; global	!	!	!	!	!	!	!
 .	16gg#\LL	.	.	.	.	.	.	.
 .	16ff#\	.	.	.	.	.	.	.
 .	16dd\	.	.	.	.	.	.	.
@@ -333,10 +329,12 @@ N(>16BB\LL	8.ryy	.	.	.	4r	.	.	.	.
 .	16g#/LL	.	.	4b\	-da	-by	-ne,	-ben,
 .	16f#/	.	.	.	.	.	.	.
 .	16d/	.	.	.	.	.	.	.
+!LO:MO:null:mod=*Xped	!LO:MO:null:mod=.	!	!	!	!	!	!	!
 *	*Xped	*	*	*	*	*	*	*
 .	16B/JJ)	.	.	.	.	.	.	.
 =41	=41	=41	=41	=41	=41	=41	=41	=41
 N(>16AA\LL	8.ryy	.	.	4r	.	.	.	.
+!LO:MO:null:mod=*ped	!LO:MO:null:mod=.	!	!	!	!	!	!	!
 *	*ped	*	*	*	*	*	*	*
 16F#\	.	.	.	.	.	.	.	.
 16B\JJ	.	.	.	.	.	.	.	.
@@ -347,14 +345,13 @@ N(>16AA\LL	8.ryy	.	.	4r	.	.	.	.
 .	16ff#/JJN)	.	.	.	.	.	.	.
 !!LO:PB:g=original
 =42	=42	=42	=42	=42	=42	=42	=42	=42
-!	!LO:TX:t=P:problem=16\left	!	!	!	!	!	!	!
 2r	16bb\LL	.	.	8f#/]	.	.	.	.
 .	(>16ff#\	.	.	.	.	.	.	.
+!	!	!	!	!	!LO:MO:mod=kwia-	!	!	!
 .	16dd\	.	.	8b\	Kwia-	mną	stahl	die
 .	16b\JJ	.	.	.	.	.	.	.
 .	16dd\LL	.	.	8cc#\	-ty	za-	Blu-	Hanz
 .	16ff#\	.	.	.	.	.	.	.
-!	!LO:TX:t=P:problem=16\middle&colon; global	!	!	!	!	!	!	!
 .	16bb\	.	.	8dd\	wy-	-wrzeć	-men	zu
 .	16ddd\JJ	.	.	.	.	.	.	.
 =43	=43	=43	=43	=43	=43	=43	=43	=43
@@ -362,7 +359,6 @@ N(>16AA\LL	8.ryy	.	.	4r	.	.	.	.
 .	16fff#\	.	.	.	.	.	.	.
 .	16ddd\	.	.	.	.	.	.	.
 .	16bb\JJ	.	.	.	.	.	.	.
-!	!LO:TX:t=P:problem=16\left&colon; global	!	!	!	!	!	!	!
 .	16gg#\LL	.	.	.	.	.	.	.
 .	16ff#\	.	.	.	.	.	.	.
 .	16dd\	.	.	.	.	.	.	.
@@ -378,7 +374,7 @@ N(>16AA\LL	8.ryy	.	.	4r	.	.	.	.
 .	16B/JJ	.	.	.	.	.	.	.
 =45	=45	=45	=45	=45	=45	=45	=45	=45
 *>B1	*>B1	*	*	*>B1	*	*	*	*
-!!LO:TX:a:t=1a
+!!LO:TX:a:t=1a:mod=
 2r	16g#/LL	.	.	2r	.	.	.	.
 .	16f#/	.	.	.	.	.	.	.
 .	16d/	.	.	.	.	.	.	.
@@ -389,74 +385,81 @@ N(>16AA\LL	8.ryy	.	.	4r	.	.	.	.
 .	16B/JJ)	.	.	.	.	.	.	.
 !!LO:LB:g=original
 =46	=46	=46	=46	=46	=46	=46	=46	=46
-!LO:TX:t=P:problem=all\left&colon; global	!	!	!	!LO:TX:t=P:problem=8\middle	!	!	!	!
+!LO:SIC:s=8GG#'>L	!	!	!	!	!	!	!	!
 8GG#'>\L	8B'>/L 8d/ 8f#/	.	.	8dd\	Zdra-	1) Ich,	.	.
-!	!	!	!	!LO:TX:t=P:problem=8\right	!	!	!	!
+!LO:SIC:s=8GG#'>	!	!	!	!	!	!	!	!
 8GG#'>\	8B'>/ 8d/ 8f#/	.	.	8cc#\	-dziec-	den	.	.
-!	!	!	!	!LO:TX:t=P:problem=all\left&colon; global	!	!	!	!
+!LO:SIC:s=8GG#'>	!	!	!	!	!	!	!	!
 8GG#'>\	8B'>/ 8d/ 8f#/	.	.	8b\	-ki	bä-	.	.
+!LO:SIC:s=8GG#'>J	!	!	!	!	!	!	!	!
 8GG#'>\J	8B'>/J 8d/ 8f#/	.	.	8a/	to	-sen	.	.
 =47	=47	=47	=47	=47	=47	=47	=47	=47
+!LO:SIC:s=8C#L	!	!	!	!	!	!	!	!
 8C#\L	8B/L 8d/ 8e#X/	.	.	8g#/	chło-	Jun-	.	.
-!LO:TX:t=P:problem=8\middle	!	!	!	!	!	!	!	!
+!LO:SIC:s=8C#	!	!	!	!	!	!	!	!
 8C#\	8B/ 8d/ 8e#/	.	.	8e#X/	-piec	-gen	.	.
-!!LO:TX:t=volta:dur=9q:ext=ud:problem:text with extention lines
+!!LO:TX:t=volta:dur=9q:ext=ud:problem:text with extention lines:mod=
+!LO:SIC:s=8FF#	!	!	!	!	!	!	!	!
 8FF#\	8A/ 8c#/ 8f#/	.	.	8f#/	a-	hab	.	.
+!LO:SIC:s=8FF#J	!	!	!	!	!	!	!	!
 8FF#\J	8A/J 8c#/ 8f#/	.	.	8a/	-le	ich	.	.
 =48	=48	=48	=48	=48	=48	=48	=48	=48
+!LO:SIC:s=8C#L	!	!	!	!	!	!	!	!
 8C#\L	8B/L 8d/ 8e#X/	.	.	8g#/	słod-	herz-	.	.
+!LO:SIC:s=8C#	!	!	!	!	!	!	!	!
 8C#\	8B/ 8d/ 8e#/	.	.	8e#X/	-ka	-lich	.	.
+!LO:SIC:s=8FF#	!	!	!	!	!	!	!	!
 8FF#\	8A/ 8c#/ 8f#/	.	.	8f#/	zdra-	ger-	.	.
+!LO:SIC:s=8FF#J	!	!	!	!	!	!	!	!
 8FF#\J	8A/J 8c#/ 8f#/	.	.	8a/	-da	-ne,	.	.
 =49	=49	=49	=49	=49	=49	=49	=49	=49
 *^	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem=8\right	!	!	!	!	!	!	!	!	!
 8CC#'>\L	4ryy	4.G#<^>/ 4.c#/ 4.e#X/	.	.	4.cc#\	słod-	herz-	.	.
-!LO:TX:t=P:problem=8\middle	!	!	!	!	!	!	!	!	!
 8GG#\	.	.	.	.	.	.	.	.	.
 8C#\	4C#/	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!LO:MO:mod=-ka	!	!	!
 8AA\J	.	8F#</ 8d#X/ 8f#/	.	.	8b#X\	-Ka	-lich	.	.
 !!LO:LB:g=original
 =50	=50	=50	=50	=50	=50	=50	=50	=50	=50
-!LO:TX:t=P:problem=8\right	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!
 8CC#\L	4ryy	4.E#X</ 4.c#/ 4.e#X/	.	.	4.cc#\	zdra-	her-	.	.
 8GG#\	.	.	.	.	.	.	.	.	.
 8C#\	4C#/	.	.	.	.	.	.	.	.
 8AA\J	.	8F#</ 8d#X/ 8f#/	.	.	8b#X\	.	.	.	.
 *v	*v	*	*	*	*	*	*	*	*
 =51	=51	=51	=51	=51	=51	=51	=51	=51
-!LO:TX:t=P:problem=8\right	!	!	!	!	!	!	!	!
 (>8CC#\L	2E#X</ 2c#/ 2e#X/	.	.	4.cc#\	.	.	.	.
 8GG#\J	.	.	.	.	.	.	.	.
 4C#\)	.	.	.	.	.	.	.	.
 .	.	.	.	8b#X\	-da	-ne.	.	.
 =52:|!	=52:|!	=52:|!	=52:|!	=52:|!	=52:|!	=52:|!	=52:|!	=52:|!
 *>B2	*>B2	*	*	*>B2	*	*	*	*
-!	!	!	!	!LO:TX:t=P:problem=brak oznaczeia drugiej volty	!	!	!	!
+!LO:SIC:s=8GG#L	!	!	!	!LO:TX:t=P:problem=brak oznaczeia drugiej volty	!	!	!	!
 8GG#\L	8B/L 8d/	.	.	8dd\	Wte-	2) Dann,	.	.
+!LO:SIC:s=8GG#	!	!	!	!	!	!	!	!
 8GG#\	8B/ 8d/	.	.	8cc#\	-dy	du	.	.
+!LO:SIC:s=8GG#	!	!	!	!	!	!	!	!
 8GG#\	8B/ 8d/	.	.	8b\	kon-	Mai-	.	.
+!LO:SIC:s=8FF#J	!	!	!	!	!	!	!	!
 8FF#\J	8A/J 8d/	.	.	(<8a/	.	.	.	.
 =53	=53	=53	=53	=53	=53	=53	=53	=53
-!LO:TX:t=P:4\right:problem	!	!	!	!	!	!	!	!
+!LO:SIC:s=4EE	!	!	!	!	!	!	!	!
 4EE\	8G#/L 8d/ 8e/	.	.	8g#/	.	.	.	.
 .	8G#/ 8d/ 8e/	.	.	8f#/)	-wa-	-en	.	.
 4E\	8A/ 8c#/ 8e/	.	.	8e/	-lij-	blu-	.	.
 .	8A/J 8c#/ 8e/	.	.	8a/	-ko	-me,	.	.
 !!LO:LB:g=original
 =54	=54	=54	=54	=54	=54	=54	=54	=54
-!LO:TX:t=P:problem=all\middle&colon; global	!	!	!	!	!	!	!	!
+!LO:SIC:s=4EE	!	!	!	!	!	!	!	!
 4EE\	8G#/L 8d/ 8e/	.	.	8g#/	Już	musst	.	.
 .	8G#/J 8d/ 8e/	.	.	8f#/	nie	du	.	.
 4E\	8A/L 8c#/ 8e/	.	.	8e/	uj-	dich	.	.
 .	8c#/J 8e/ 8a/	.	.	8a/	-dziesz	er-	.	.
 =55	=55	=55	=55	=55	=55	=55	=55	=55
 *^	*	*	*	*	*	*	*	*
-!	!	!LO:TX:t=P:problem=all\left&colon; global	!	!	!LO:TX:t=P:problem=all\left&colon; global	!	!	!	!
 2E/	8BB\L	4.g#\ 4.dd\	.	.	4.dd\	zgu-	-ge-	.	.
 .	8EE\	.	.	.	.	.	.	.	.
 .	8BB\	.	.	.	.	.	.	.	.
-!	!	!LO:TX:t=P:problem=8\right	!	!	!	!	!	!	!
 .	8AA#X\J	8f##X\ 8cc#\	.	.	(>8cc#\	.	.	.	.
 =56	=56	=56	=56	=56	=56	=56	=56	=56	=56
 [2E/	8BB\L	4.g#\ 4.dd\	.	.	4.dd\	.	.	.	.
@@ -465,21 +468,18 @@ N(>16AA\LL	8.ryy	.	.	4r	.	.	.	.
 .	8AA#X\J	8f##X\ 8cc#\	.	.	8cc#\	.	.	.	.
 =57	=57	=57	=57	=57	=57	=57	=57	=57	=57
 8E/]	8BB\	4.g#\ 4.dd\	.	.	4.dd\)	.	.	.	.
-!LO:TX:t=P:problem=8\left&colon; global	!	!	!	!	!	!	!	!	!
 8E\L	4.ryy	.	.	.	.	.	.	.	.
 8B\	.	.	.	.	.	.	.	.	.
-!	!	!LO:TX:t=P:problem=8\right	!	!	!	!	!	!	!
 8A#X\J	.	8f##X\ 8cc#\	.	.	8cc#\	-by	-ben!	.	.
 *v	*v	*	*	*	*	*	*	*	*
 !!LO:PB:g=original
 =58	=58	=58	=58	=58	=58	=58	=58	=58
 *>C	*>C	*	*	*>C	*	*	*	*
 !!!OMD: un poco piu lento
-!LO:TX:t=P:problem=all\middle&colon; global	!	!	!	!	!	!	!	!
+!!!OMD-mod: Un poco più lento
 4BB\ 4F#\ 4B\	4d/ 4f#/ 4dd/	.	.	8dd\	Wte-	2) dann	.	.
 .	.	.	.	8cc#\	-dy	du	.	.
 4AA\ 4F#\ 4A\	4d/ 4f#/ 4dd/	.	.	8b\	kon-	Ma-	.	.
-!	!	!	!	!LO:TX:t=P:problem=all\middle&colon; global	!	!	!	!
 .	.	.	.	8ff#\	-wa-	-ien	.	.
 =59	=59	=59	=59	=59	=59	=59	=59	=59
 *2\left	*	*	*	*	*	*	*	*
@@ -505,15 +505,12 @@ N(>16AA\LL	8.ryy	.	.	4r	.	.	.	.
 2BB\ 2B\	4d/ 4f#/ 4cc#/	.	.	[>2cc#\	zgu-	ge-	.	.
 .	4d/ 4fn/ 4a/	.	.	.	.	.	.	.
 =63	=63	=63	=63	=63	=63	=63	=63	=63
-!LO:TX:t=P:problem=4\left&colon; global	!	!	!	!	!	!	!	!
 4E\	4d/ 4e/ 4g#/	.	.	2cc#\]	.	.	.	.
-!	!LO:TX:t=P:problem=4\right&colon; global	!	!	!	!	!	!	!
 4E\ 4d\	4e\ 4g#\ 4ee\	.	.	.	.	.	.	.
 =64	=64	=64	=64	=64	=64	=64	=64	=64
-!LO:TX:t=P:problem=8\right&colon; global	!	!	!	!	!	!	!	!
 8A\ 8c#\	4a~>\ 4cc#\ 4aa\	.	.	4a/	-by	-ben!	.	.
 4AA\ 4E\	.	.	.	.	.	.	.	.
-!	!LO:TX:t=P:problem=all\left&colon; global	!	!	!LO:TX:b:t=S.Windalewski\n(0.3ajg.85r.)	!	!	!	!
+!	!	!	!	!LO:TX:b:t=S.Windalewski\n(0.3ajg.85r.):mod=	!	!	!	!
 .	4gg#~>\	.	.	4r	.	.	.	.
 8E\ 8B\ 8e\	.	.	.	.	.	.	.	.
 =65	=65	=65	=65	=65	=65	=65	=65	=65
@@ -526,7 +523,6 @@ N(>16AA\LL	8.ryy	.	.	4r	.	.	.	.
 !!LO:LB:g=original
 =66	=66	=66	=66	=66	=66	=66	=66	=66
 8r	4ee~>\	.	.	2r	.	.	.	.
-!LO:TX:t=P:problem=all\right&colon; global	!	!	!	!	!	!	!	!
 4AA\ 4E\	.	.	.	.	.	.	.	.
 .	4dd~>\	.	.	.	.	.	.	.
 8F#\ 8A\ 8d\	.	.	.	.	.	.	.	.
@@ -555,11 +551,16 @@ N(>16AA\LL	8.ryy	.	.	4r	.	.	.	.
 =71	=71	=71	=71	=71	=71	=71	=71	=71
 .	(>16qqa/LL	.	.	.	.	.	.	.
 .	16qqb/JJ	.	.	.	.	.	.	.
+!	!	!LO:MO:mod=!null:null	!	!	!	!	!	!
 !	!	!LO:DY:t=pp.	!	!	!	!	!	!
 2AA\ 2E\	2e/) 2cc#/	pp	.	2r	.	.	.	.
 ==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-
+!!LO:MO:ori
 !!!system-decoration: g1[(g2)]
+!!LO:MO:mod
+!! !!!system-decoration: g1{(g2)}
+!!LO:MO:end
 !!!RDF**kern: N = linked
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
@@ -567,5 +568,7 @@ N(>16AA\LL	8.ryy	.	.	4r	.	.	.	.
 !!!END: 2021-12-09
 !!!EED: Jędrzej Mróz
 !!!EEV: 2021-12-20
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

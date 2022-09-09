@@ -26,6 +26,7 @@
 *part2	*part1	*part1
 *staff2	*staff1	*
 *I"[Piano]	*I"[Piano]	*
+*mI"[Pianoforte]	*mI"[Pianoforte]	*
 *Ipiano	*Ipiano	*
 *ICklav	*ICklav	*
 *clefG2	*clefG2	*
@@ -119,7 +120,7 @@
 .	16ee\L	16aa\ 16ccc	.
 .	16dd\	16gg#\	.
 .	16cc\JJ	16aa\ 16ccc	.
-4.ryy	4cc\	16gg#\	.
+4.ryyyy	4cc\	16gg#\	.
 .	.	16aa\ 16ccc	.
 .	.	16gg#\	.
 .	.	16aa\JJ 16ccc	.
@@ -161,6 +162,7 @@
 !!LO:LB:g=original
 =9	=9	=9
 *M3/4	*M3/4	*
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;B&colon;t=Walc	!
 !	!LO:TX:a:t=Valc \nI:rj	!
 4FF\	[>2.cc:\ [>2.ff:\ [>2.aa:\ [>2.ccc:\	.
 4C\ 4F\ 4A\	.	.
@@ -241,6 +243,7 @@
 =24	=24	=24
 4FF\ 4F\	2a\ 2cc\ 2ff\	.
 4ryy	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;B&colon;t=Fine	!
 !	!LO:TX:b:i:t=fine	!
 4ryy	4r	.
 !!LO:LB:g=original
@@ -341,6 +344,7 @@
 8CC\ 8C\	8cc\ 8ee\ 8gg\ 8ccc\	.
 4CC\ 4C\	4cc\ 4ee\ 4gg\ 4ccc\	.
 =40	=40	=40
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;B&colon;t=Walc da capo \nal fine	!
 !	!LO:TX:b:i:t=D. C. V.\nal fine	!
 4CC\ 4C\	4cc\ 4ee\ 4gg\ 4ccc\	.
 4ryy	4r	.
@@ -349,6 +353,7 @@
 =41||	=41||	=41||
 *k[]	*k[]	*
 *C:	*C:	*
+!	!LO:MO:mod=!null:null	!
 !	!LO:TX:a:i:t=II\na:rj	!
 2.GG\ 2.G\	2g\ 2dd\ 2ff\	.
 .	4g/	.
@@ -420,8 +425,13 @@
 4G\ 4c\	4ee\ 4gg\ 4ccc\	.
 *Xrep	*	*
 =53	=53	=53
-*>B1	*>B1	*
+!!LO:MO:ori
 !!LO:TX:a:t=1a volta
+!!LO:MO:end
+!!LO:MO:mod
+!! !!LO:TX:a:t=I volta
+!!LO:MO:end
+*>B1	*>B1	*
 4GG/	8ccc\L$>	.
 .	8bb\J	.
 4G\ 4B\ 4\d 4f\	4.ff\ 4.fff\	.
@@ -476,8 +486,13 @@
 4G\ 4B\	4gg\	.
 *Xrep	*	*
 =61	=61	=61
-*>B2	*>B2	*
+!!LO:MO:ori
 !!LO:TX:a:t=2a volta
+!!LO:MO:end
+!!LO:MO:mod
+!! !!LO:TX:a:t=II volta
+!!LO:MO:end
+*>B2	*>B2	*
 4FF/	8bb\L$>	.
 .	8aa\J	.
 4F\ 4A\ 4d\	4gg\ 4fff\	.
@@ -526,9 +541,11 @@
 *>C	*>C	*
 *k[b-]	*k[b-]	*
 *F:	*F:	*
+!	!LO:MO:mod=!null:null	!
 !	!LO:TX:a:i:t=II\nb:rj	!
 4FF/	2cc\ 2ff\ 2aa\ 2ccc\	.
 4F\ 4A\ 4c\	.	.
+!	!LO:MO:mod=*null:null	!
 *	*Xtuplet	*
 4F\ 4A\ 4c\	12aa\L	.
 .	12ff\	.
@@ -640,6 +657,7 @@
 *rep	*	*
 4F\	4cc\ 4ccc\	.
 4A\ 4c\	4r	.
+!	!LO:SIC:s=4cc#X\ 4ccc#\:v	!
 4A\ 4c\	4cc#X\ 4ccc\	.
 *Xrep	*	*
 =91	=91	=91
@@ -693,6 +711,7 @@
 !LO:TX:t=P:4\left:problem	!	!
 !LO:TX:t=P:problem=wstęp do 3iej częsci. zanotowany na dole prawej strony zdjęcia 0005	!	!
 4.F\ 4.A\ 4.c\ 4.e-X\	4r	.
+!	!LO:MO:mod=!null:null	!
 !	!LO:TX:a:i:t=wstęp do 3iej cześci.	!
 .	4a/	.
 8r	.	.
@@ -710,6 +729,7 @@
 =105||	=105||	=105||
 *k[b-e-]	*k[b-e-]	*
 *B-:	*B-:	*
+!	!LO:MO:mod=!null:null	!
 !	!LO:TX:a:i:t=III a	!
 .	8qdd/	.
 4BB-/	4.ff\	.
@@ -794,6 +814,7 @@
 !!LO:LB:g=original
 =121!|:	=121!|:	=121!|:
 *>D	*>D	*
+!	!LO:MO:mod=!null:null	!
 !	!LO:TX:a:i:t=III b:rj	!
 2.ryy	8ryy	.
 .	8dd\	.
@@ -828,8 +849,13 @@
 !LO:TX:t=P:problem=ten znak repetycji i oznaczenie volty jest za wcześnie, powinny być trzy takty później	!	!
 4F\ 4c\ 4e-\	4ee-\ 4aa\ 4ccc\	.
 =127:|!	=127:|!	=127:|!
-*>D1	*>D1	*
+!!LO:MO:ori
 !!LO:TX:a:t=1a Volta
+!!LO:MO:end
+!!LO:MO:mod
+!! !!LO:TX:a:t=I volta
+!!LO:MO:end
+*>D1	*>D1	*
 4F\	8r	.
 !	!LO:TX:t=P:problem=jest oznaczenie pierwszej volty, brak drugiej	!
 .	8ee-\	.
@@ -847,6 +873,12 @@
 4r	.	.
 !!LO:LB:g=original
 =130	=130	=130
+!!LO:MO:ori
+!!LO:TX:a:t=2
+!!LO:MO:end
+!!LO:MO:mod
+!! !!LO:TX:a:t=II volta
+!!LO:MO:end
 *>D2	*>D2	*
 4F\	8r	.
 .	8ee-\	.
@@ -864,6 +896,7 @@
 *>E	*>E	*
 *k[f#]	*k[f#]	*
 *G:	*G:	*
+!	!LO:MO:mod=!null:null	!
 !	!LO:TX:a:i:t=IV a:rj	!
 .	8qff#/	.
 2GG\ 2G\	2gg\	.
@@ -911,6 +944,7 @@
 !!LO:PB:g=original
 =141	=141	=141
 *>F	*>F	*
+!	!LO:MO:mod=!null:null	!
 !	!LO:TX:a:i:t=IV b:rj	!
 4GG/	4.cc\	.
 4B\ 4d\ 4f\	.	.
@@ -1019,9 +1053,14 @@
 *Xrep	*	*
 !!LO:LB:g=original
 =160	=160	=160
+!!LO:MO:ori
+!!LO:TX:a:t=1a Volta
+!!LO:MO:end
+!!LO:MO:mod
+!! !!LO:TX:a:t=I volta
+!!LO:MO:end
 *>F1	*>F1	*
 *rep	*	*
-!!LO:TX:a:t=1a Volta
 4E\	4r	.
 4G\ 4c\	4dd\ 4ddd\	.
 4A\ 4c\	4cc\ 4ccc\	.
@@ -1070,13 +1109,21 @@
 4r	.	.
 .	8g#X\ 8gg#X\	.
 =169||	=169||	=169||
+!!LO:MO:ori
+!!LO:TX:a:t=2
+!!LO:MO:end
+!!LO:MO:mod
+!! !!LO:TX:a:t=II volta
+!!LO:MO:end
 *>F2	*>F2	*
 4E\	4r	.
 *	*8va	*
 4G\ 4c\	4ff\ 4fff\	.
 4G\ 4c\	4ee\ 4eee\	.
 =170	=170	=170
+!!LO:MO:ori
 !!LO:TX:a:t=2 volta
+!!LO:MO:end
 4FF/	2dd\ 2ddd\	.
 4F\ 4A\ 4c\	.	.
 4F\ 4A\ 4c\	4cc\ 4ccc\	.
@@ -1113,12 +1160,14 @@
 *>G	*>G	*
 *k[b-]	*k[b-]	*
 *F:	*F:	*
+!	!LO:MO:mod=!null:null	!
 !LO:TX:t=P:problem=wstęp d. 5ej cześci. zanotowany na dole prawej strony zdjęcia 0005	!LO:TX:a:i:t=wstep d. 5ej czesci.	!
 2.G\ 2.B-\	4cc\	.
 .	4bn\	.
 .	4cc\	.
 =179	=179	=179
 2.F\ 2.A\	4cc\	.
+!	!LO:SIC:s=4bn\:v	!
 .	4b-\	.
 .	4cc\	.
 =180	=180	=180
@@ -1130,6 +1179,7 @@
 4r	4r	.
 =182||	=182||	=182||
 *>H	*>H	*
+!	!LO:MO:mod=!null:null	!
 !	!LO:TX:a:i:t=5 a:rj	!
 4FF/	4f/ 4a/	.
 4C\ 4F\ 4A\	4r	.
@@ -1291,6 +1341,7 @@
 .	8cc-X\J	.
 *clefF4	*	*
 =213||	=213||	=213||
+!!LO:MO:ori
 *>H2	*>H2	*
 !!LO:TX:a:t=2 volta
 !LO:TX:t=P:problem=oznaczenia volt poprzestawiane?	!	!
@@ -1399,10 +1450,121 @@
 .	8b-X\J	.
 !!LO:PB:g=original
 =234:|	=234:|	=234:|
+!!LO:MO:end
+!!LO:MO:mod
+!! !!LO:TX:a:t=I volta
+!! *>H1	*>H1	*
+!! 4F\	8r	.
+!! .	8dd\	.
+!! 4A\ 4d\	4a\ 4aa\	.
+!! 4A\ 4d\	4b-\ 4bb-\	.
+!! =214	=214	=214
+!! 4G\	2.b-\ 2.dd\ 2.gg\	.
+!! 4B-\ 4d\	.	.
+!! 4B-\ 4d\	.	.
+!! =215	=215	=215
+!! *rep	*	*
+!! 4G\	2.b-\ 2.dd\ 2.gg\	.
+!! 4B-\ 4d\	.	.
+!! 4B-\ 4d\	.	.
+!! *Xrep	*	*
+!! =216	=216	=216
+!! 4BB-/	4dd\: 4gg:\ 4bb-\ 4eee\	.
+!! 4G\ 4B-\ 4d\	4r	.
+!! 4G\ 4B-\ 4d\	4dd\ 4gg\ 4bb-\ 4ddd\	.
+!! =217	=217	=217
+!! 4G\	4dd\ 4gg\ 4bb-\	.
+!! 4B-\ 4d\	4r	.
+!! 4B-\ 4d\	4dd\ 4gg\ 4bb-\	.
+!! =218	=218	=218
+!! 4CC/	4cc\ 4ff\ 4bb-\	.
+!! 4F\ 4A\ 4c\	4r	.
+!! 4F\ 4A\ 4c\	4cc\ 4ff\ 4aa\	.
+!! =219	=219	=219
+!! 4D\	4a\ 4dd\ 4gg\	.
+!! 4F\ 4A\ 4d\	4r	.
+!! 4F\ 4A\ 4d\	4a\ 4dd\ 4ff\	.
+!! !!LO:LB:g=original
+!! =220	=220	=220
+!! .	8qgg/	.
+!! 4GG/	4.bn\ 4ff\	.
+!! 4G\ 4d\ 4f\	.	.
+!! .	8ee\	.
+!! 4G\ 4d\ 4d\	4ff\	.
+!! =221	=221	=221
+!! 4G\	4bn\ 8ff\ 8aa\	.
+!! 4d\ 4f\	4r	.
+!! 4d\ 4f\	4bn\ 4gg\	.
+!! =222	=222	=222
+!! 4c/ 4f/ 4a/ 4b-/	8ff\L	.
+!! .	8ee\	.
+!! 4r	8dd\	.
+!! .	8cc\	.
+!! 4r	8bn\	.
+!! .	8b-X\J	.
+!! !!LO:PB:g=original
+!! =223:|	=223:|	=223:|
+!! !!LO:TX:a:t=II volta
+!! *>H2	*>H2	*
+!! 4F\	8r	.
+!! .	8dd\	.
+!! 4A\ 4d\	4a\ 4aa\	.
+!! 4B-\ 4d\	4a\ 4cc\	.
+!! !!LO:LB:g=original
+!! =224	=224	=224
+!! .	8qa/	.
+!! *	*2\right	*
+!! 4G\	2.cc\	.
+!! 4B-\ 4d\	.	.
+!! 4B-\ 4d\	.	.
+!! =225	=225	=225
+!! *rep	*2\left	*
+!! 4G\	2.g\ 2.b-\	.
+!! 4B-\ 4d\	.	.
+!! 4B-\ 4d\	.	.
+!! *Xrep	*	*
+!! =226	=226	=226
+!! 4BB-/	4d:/ 4g:/ 4b-:/	.
+!! 4D\ 4G\ 4B-\	4r	.
+!! 4D\ 4G\ 4B-\	4d/ 4b-	.
+!! =227	=227	=227
+!! 4D\	4d/ 4a/	.
+!! 4G\ 4B-\ 4c\	4r	.
+!! 4G\ 4B-\	4d/ 4g/	.
+!! =228	=228	=228
+!! 4CC/	4c/ 4g/	.
+!! 4C\ 4F\ 4A\	4r	.
+!! 4C\ 4F\ 4A\	4c/ 4f/	.
+!! =229	=229	=229
+!! 4C/	4f\ 4dd\	.
+!! 4F\ 4A\	4r	.
+!! 4F\ 4A\	4f\ 4cc\	.
+!! =230	=230	=230
+!! 4C/	4e/ 4cc/	.
+!! 4E\ 4G\ 4B-\	4r	.
+!! 4E\ 4G\ 4B-\	4e/ 4b-/	.
+!! =231	=231	=231
+!! 4C/	4c/ 4e/	.
+!! 4E\ 4G\ 4B-\	4r	.
+!! 4E\ 4G\ 4B-\	4c/ 4e/	.
+!! !!LO:LB:g=original
+!! =232	=232	=232
+!! 8CC/L 8C/	8c/L 8f/ 8a/	.
+!! 8CC/J 8C/	8c/J 8e/ 8g/	.
+!! 4EE/ 4E/	4c/ 4f/ 4a/	.
+!! 4CC/ 4C/	4c/ 4e/ 4g/	.
+!! =233	=233	=233
+!! 2FF\ 2F\	2A/ 2c/ 2f/	.
+!! 4r	4r	.
+!! =234||	=234||	=234||
+!!LO:MO:end
 *>I	*>I	*
+!!LO:MO:ori
 !LO:CL:ed	!	!
 *clefF4	*	*
+!!LO:MO:end
 4DD/	8r	.
+!	!LO:MO:mod=!null:null	!
 !	!LO:TX:a:i:t=5 b	!
 .	8a/	.
 4E\ 4F\ 4A\ 4d\	4.ff\ 4.aa\	.
@@ -1453,8 +1615,13 @@
 .	8a/	.
 4A\ 4c\	4ff\ 4aa\	.
 =244	=244	=244
-*>I1	*>I1	*
+!!LO:MO:ori
 !!LO:TX:a:t=1a volta
+!!LO:MO:end
+!!LO:MO:mod
+!! !!LO:TX:a:t=I volta
+!!LO:MO:end
+*>I1	*>I1	*
 4GGG/ 4GG/	4cc\ 4ee\ 4gg\ 4ccc\	.
 4G\ 4c\ 4e\	4.cc\ 4.ee\ 4.gg\	.
 4G\ 4c\ 4e\	.	.
@@ -1482,8 +1649,13 @@
 4CC\ 4C\	4e\ 4g\ 4b-\	.
 4r	4r	.
 =250:|!	=250:|!	=250:|!
-*>I2	*>I2	*
+!!LO:MO:ori
 !!LO:TX:a:t=2 volta
+!!LO:MO:end
+!!LO:MO:mod
+!! !!LO:TX:a:t=I volta
+!!LO:MO:end
+*>I2	*>I2	*
 4AA\ 4G\	4cc\ 4ee\ 4aa\	.
 4G\ 4c\ 4e\	4.cc\ 4.ee\ 4.gg\	.
 4G\ 4c\ 4e\	.	.
@@ -1516,9 +1688,12 @@
 !!!system-decoration: {(g1)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Mateusz Solarz
 !!!END: 2021-12-07
 !!!EED: Jędrzej Mróz
 !!!EEV: 2021-12-17
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-09-07
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

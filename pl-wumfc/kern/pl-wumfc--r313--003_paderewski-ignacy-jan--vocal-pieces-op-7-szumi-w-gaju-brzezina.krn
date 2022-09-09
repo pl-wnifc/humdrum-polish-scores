@@ -20,15 +20,20 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4734 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
 !!!OMD: Allego non troppo.
+!!!OMD-mod: Allego non troppo
 !!!AIN: 1 piano 1 vox
 !!!key: F
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m | humtr -p
 **kern	**kern	**fing	**dynam	**kern	**text	**text	**dynam
 *part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1
 *staff3	*staff2	*staff2	*	*staff1	*staff1	*staff1	*
-*I"[Piano]	*	*	*	*I"[Voice]	*	*	*
-*Ipiano	*	*	*	*Ivox	*	*	*
-*ICklav	*	*	*	*ICvox	*	*	*
-*IGacmp	*	*	*	*IGsolo	*	*	*
+*I"[Piano]	*I"[Piano]	*	*	*I"[Voice]	*	*	*
+*I'	*I'	*	*	*I'	*	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*	*mI"Voce	*	*	*
+*mI'pf	*mI'pf	*	*	*mI'V	*	*	*
+*Ipiano	*Ipiano	*	*	*Ivox	*	*	*
+*ICklav	*ICklav	*	*	*ICvox	*	*	*
+*IGacmp	*IGacmp	*	*	*IGsolo	*	*	*
 *clefF4	*clefG2	*	*	*clefG2	*	*	*
 *k[b-]	*k[b-]	*	*	*k[b-]	*	*	*
 *F:	*F:	*	*	*F:	*	*	*
@@ -108,7 +113,7 @@
 4F\	12A/L	.	.	4a/	-na-	nim-	.
 .	12d/	.	.	.	.	.	.
 .	12A/J	.	.	.	.	.	.
-!	!LO:TUP:b	!	!	!	!	!	!
+!	!LO:TUP:b	!	!	!	!	!LO:MO:mod=-mer	!
 4C\)	12G/L	.	.	8g/	-czej	-(m)er	.
 .	12e/	.	.	.	.	.	.
 .	.	.	.	8b-/	nie	ver-	.
@@ -309,11 +314,13 @@
 4BB- 4BBB-\	4B-< 4G< 4D-y</	.	.	.	.	.	.
 !!LO:LB:g=original
 =21	=21	=21	=21	=21	=21	=21	=21
+!LO:MO:mod=1r	!LO:MO:mod=1r	!	!	!	!	!	!
 1ryy	1ryy	.	.	4a-X/	co	Zag	.
 .	.	.	.	4g/	jest	weit	.
 .	.	.	.	4f/	od	weg	.
 .	.	.	.	4a-/	niej	aus	.
 =22	=22	=22	=22	=22	=22	=22	=22
+!LO:MO:mod=1r	!LO:MO:mod=1r	!	!	!	!	!	!
 1ryy	1ryy	.	.	4g/	da-	der	.
 .	.	.	.	2cc\	-le-	Nä-	.
 .	.	.	.	8b-\L	.	.	.
@@ -356,6 +363,7 @@
 .	12F</J	.	.	.	.	.	.
 =26	=26	=26	=26	=26	=26	=26	=26
 2CC\	12E</L	.	.	1r	.	.	.
+!	!LO:SIC:v:s=12c<	!	!	!	!	!	!
 .	12c< 12F</	.	.	.	.	.	.
 .	12E</J	.	.	.	.	.	.
 .	12F</L	.	.	.	.	.	.
@@ -371,6 +379,7 @@
 (4FF\	12A/L	.	.	4r	.	.	.
 .	12f/	.	.	.	.	.	.
 .	12A/J	.	.	.	.	.	.
+!	!	!	!	!	!	!LO:MO:mod=Kommt	!
 4C\	12G/L	.	.	8g/	Gdy	Kom(m)t	.
 .	12e/	.	.	.	.	.	.
 .	.	.	.	8b-/	na-	der	.
@@ -380,6 +389,7 @@
 .	12A/J	.	.	.	.	.	.
 4C\)	12G/L	.	.	8g/	-dzie	-ter	.
 .	12e/	.	.	.	.	.	.
+!	!	!	!	!	!LO:MO:mod=już	!	!
 .	.	.	.	8b-/	juž	ge-	.
 .	12G/J	.	.	.	.	.	.
 =28	=28	=28	=28	=28	=28	=28	=28
@@ -467,7 +477,7 @@
 .	16f/	.	.	.	.	.	.
 .	16e-X/	.	.	.	.	.	.
 .	16A/JJ	.	.	.	.	.	.
-!LO:TUP:a	!	!	!	!	!	!	!
+!LO:TUP:a	!	!	!	!	!LO:MO:mod=już	!	!
 12G\L	4ryy	.	.	4cc\	juž	-ke	.
 12C\	.	.	.	.	.	.	.
 12FF\JN)	.	.	.	.	.	.	.
@@ -534,11 +544,12 @@
 .	8f/	.	.	.	.	.	.
 .	8ff/J)	.	.	.	.	.	.
 =39	=39	=39	=39	=39	=39	=39	=39
-!	!	!	!	!	!	!	!LO:DY:a:t=m.p.
+!	!	!	!	!	!	!LO:MO:mod=Kommt	!LO:DY:a:t=m.p.
 4f 4c 4A-X\	4ff 4cc 4a-X/	.	.	4cc\	Gdy	Kom(m)t	mp
 4FF 4FFF\	4f 4c< 4A-y</	.	.	4ff\	na-	der	.
 4e-X 4B- 4G\	4ee-X 4b- 4g/	.	.	4ee-X\	-dej-	Win-	.
 4FF 4FFF\	4e-X 4B-< 4G</	.	.	8b-\	-dzie	-ter	.
+!	!	!	!	!	!LO:MO:mod=już	!	!
 .	.	.	.	8ee-\	juž	ge-	.
 =40	=40	=40	=40	=40	=40	=40	=40
 4d-X 4A-X 4F\	4dd-X 4a-X 4f/	.	.	2dd-X\	zi-	-gan-	.
@@ -572,9 +583,10 @@
 !!LO:LB:g=original
 =45	=45	=45	=45	=45	=45	=45	=45
 !!!OMD: Vivo.
+!!!OMD-mod: Vivo
 *	*	*	*^	*	*	*	*
-!	!LO:TX:a:B:t=Vivo.	!	!LO:DY:a	!LO:DY:a=2	!	!	!	!LO:DY:b
-!	!LO:TUP:b	!	!	!	!	!	!	!
+!	!LO:TX:a:B:t=Vivo.:mod=	!	!LO:DY:a	!LO:DY:b=2	!	!	!	!LO:DY:b
+!	!LO:TUP:b	!	!	!LO:MO:null:mod=.	!	!	!	!
 4CC\	12B-/L	.	pp	pp	4r	.	.	p
 .	12c/	.	.	.	.	.	.	.
 .	12B-/J	.	.	.	.	.	.	.
@@ -636,6 +648,7 @@
 .	12ee/	.	.	.	.	.	.
 .	.	.	.	8cc/J)	.	.	.
 .	12b-/J	.	[	.	.	.	.
+!	!	!	!LO:MO:mod=!null:null	!	!	!	!
 !	!LO:TUP:b	!	!LO:HP:t=cres	!	!	!	!
 2c\	12g/L	.	<	[2.cc\	.	.	.
 .	12cc/	.	.	.	.	.	.
@@ -656,7 +669,7 @@
 .	12a/J	.	.	.	.	.	.
 !	!LO:TUP:b	!	!	!	!	!	!
 4c\	12g/L	.	.	4r	.	.	.
-!	!LO:TX:a:i:t=(d. 15/9. 85 r.)	!	!	!	!	!	!
+!	!LO:TX:a:i:t=(d. 15/9. 85 r.):mod=	!	!	!	!	!	!
 .	12ee/	.	.	.	.	.	.
 .	12g/J	.	.	.	.	.	.
 !	!LO:TUP:b	!	!	!	!	!	!
@@ -725,5 +738,7 @@
 !!!END: 2021-12-09
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-12-17
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

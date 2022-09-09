@@ -13,39 +13,48 @@
 !!!SMS-variant:
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 1001156112
-!!!NIFC-rismChildID: 1001156103
 !!!NIFC-islandoraID: pl-wumfc:229
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-wumfc%3A229/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/4674 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: w zbiorze: 1. Tobie (skan 0001-0002), 2. Krakowiak I (skan 0002-0003), 3. Krakowiak II (skan 0003, prawa strona)
-!!!AIN: 1 empty 1 piano
-!!!key:
+!!!AIN: 2 piano
+!!!OMD:
+!!!OMD-mod: Andante cantabile
+!!!key: b-
 **kern	**kern	**dynam
 *part2	*part1	*part1
 *staff2	*staff1	*
-*Iempty	*Ipiano	*
-*	*I"Piano	*
-*	*I'P-no	*
+*Ipiano	*Ipiano	*
+*ICklav	*ICklav	*
+*IGsolo	*IGsolo	*
+*I"[Pianoforte]	*I"[Pianoforte]	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*	*I'	*
 *clefF4	*clefG2	*
 *k[b-e-a-d-g-]	*k[b-e-a-d-g-]	*
 *b-:	*b-:	*
 *M4/4	*M4/4	*
 *met(c)	*met(c)	*
+*mmet(c)	*mmet(c)	*
 =1	=1	=1
-!	!LO:TX:a:t=[[Moderato.]]\nAndante Cantabile	!
-1r	2r	.
-!	!LO:TX:b:t=sempre piano	!LO:DY:a
-.	[2ff^;\	p
+*	*	*^
+!LO:SIC:s=1r;	!LO:TX:a:B:t=[[Moderato.]]\nAndante. Cantabile:mod=	!	!
+1r	2r	.	.
+!	!	!LO:DY:a	!LO:DY:b:t=sempre piano
+.	[2ff^;\	p	p
+*	*	*v	*v
 =2	=2	=2
+!LO:SIC:s=1r;	!	!
 1r	2ff\]	.
 !	!	!LO:DY:a
 .	[2ff;\	pp
 =3	=3	=3
+!LO:SIC:s=1r;	!	!
 1r	2ff\]	.
-!	!	!LO:DY:a
-.	(2ff;\	ppp
+!	!	!LO:DY:a:t=ppp.
+.	(<2ff;\	ppp
 =4	=4	=4
-!LO:TX:b:t=due pedale	!	!
+!LO:TX:b:i:t=due pedale:mod=due Pedale	!	!
 (4F\	(>4f/)	.
 4En\	4en/	.
 4F\	4f/	.
@@ -56,19 +65,23 @@
 2GG-/	2G-/)	.
 =6	=6	=6
 *	*^	*
-1CC/)	2r;	[2g-/ [2e-/ [2B-/	p
 *ped	*	*	*
-.	2ff^/	2g-/] 2e-/] 2B-/]	.
+!LO:SIC:s=1CC/);	!	!LO:SIC:s=[>2g-/ [2e-/ [2B-/;	!LO:DY:b:t=p.
+1CC/)	2raa;	[>2g-/ [2e-/ [2B-/	p
+!	!LO:TX:a:i:t=m.d.	!	!
+.	2ff^/	2g-/] 2e-/] 2B-/],>	.
 *Xped	*	*	*
 =7	=7	=7	=7
-1FF/	2r	[2g-/ [2e-/ [2An/	.
 *ped	*	*	*
+1FF/	2raa	[>2g-/ [2e-/ [2An/	.
+!	!LO:TX:a:i:t=m.d.	!	!
 .	[2ff/	2g-/] 2e-/] 2A/]	.
+*Xped	*	*	*
 *	*v	*v	*
 =8	=8	=8
 *^	*	*
-*	*ped	*	*
-2r	1BBB-\	4ff\]	.
+!	!	!LO:MO:mod=4ff/]	!
+2r	1BBB-\	4ff/]	.
 .	.	4r	.
 2g-\ 2d-\ 2G-^\	.	(2ff^\	.
 =9	=9	=9	=9
@@ -83,18 +96,18 @@
 .	.	4dd-\	.
 !LO:SIC:o:v:t=łuk pionowy	!	!	!
 2en\ 2d-\ 2B-\ 2G-^\	.	4en/	.
-.	.	4e/	.
+.	.	4e^>/	.
+=11	=11	=11	=11
+2r	1BBB-\	[>1f/)	.
+2e-X\ 2c\ 2A-\ 2F\	.	.	.
 *v	*v	*	*
 !!LO:LB:g=original
-=11	=11	=11
-2r	[1f/)	.
-2e-X\ 2c\ 2A-\ 2F\	.	.
 =12	=12	=12
 *^	*	*
 *	*^	*	*
-2d-\	1BB-\	1rGG	(4f/]	<
+2d-\	1BB-\	2r	(4f/]	<
 .	.	.	4g-/	.
-[<2F/	.	.	4an/	.
+[<2F/	.	2ryy	4an/	.
 .	.	.	4b-/	[[
 *	*v	*v	*	*
 =13	=13	=13	=13
@@ -103,25 +116,29 @@
 2c/] 2F/	.	[2ff\)	.
 =14	=14	=14	=14
 *	*^	*	*
-2B-/	1GG-\	1rEE	(4ff\]	<
+2B-/	1GG-\	2r	(4ff\]	<
 .	.	.	4ddn\	.
-2g-\ 2e-\ 2B-\	.	.	4ee-\	.
+2g-\ 2e-\ 2B-\	.	2ryy	4ee-\	.
 .	.	.	4ccc-X\	.
 *	*v	*v	*	*
 =15	=15	=15	=15
-!	!	!LO:TX:b:t=rit.	!
-2rEE	1DDn\	1bb-\;)	[[
-2b-\ 2f\ 2B-\	.	.	.
+!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=rit.	!
+!	!	!LO:TX:b:i:t=rit.	!
+2r	1DDn\	1bb-\;),	[sf
+2b->\ 2f\ 2B-\	.	.	.
 =16	=16	=16	=16
 *ped	*	*	*
-2rEE	1EE-\	2r	.
-!	!	!LO:TX:a:t=longa pausa?	!
+!	!LO:SIC:s=1EE-\;	!	!
+2r	1EE-\	2r	.
+!	!	!LO:TX:a:i:t=lunga pausa	!
+.	.	.	.
+!	!	!	!LO:DY:b:t=m.f
 [2b-\ 2e-\ 2B-;\	.	[2bb-;\	mf
 *v	*v	*	*
 =17	=17	=17
 *Xped	*	*
 (4b-\]	(4bb-\]	.
-!	!	!LO:DY:t=piano
+!	!	!LO:DY:b:t=piano
 4an\	4aan\	p
 4b-\	4bb-\	.
 4g-\	4gg-\	.
@@ -133,6 +150,7 @@
 =19	=19	=19
 [1B-\)	[1b-\)	.
 =20	=20	=20
+!	!	!LO:DY:b:t=pp.
 (4B-\]	(4b-/]	pp
 4An\	4an/	.
 4B-\	4b-/	.
@@ -143,16 +161,21 @@
 2C-X/)	2c-X/)	.
 =22||	=22||	=22||
 *	*^	*
-1EE-/	2r	[2b--/ [2g-/ [2d-/	mf
 *ped	*	*	*
-!	!LO:TX:a:t=m.d.	!	!
+!LO:SIC:s=1EE-/;	!	!	!LO:DY:b:t=m.f
+1EE-/	2raa	[>2b--/ [2g-/ [2d-/	mf
+!	!LO:TX:a:i:t=m.d.	!	!
+!	!	!LO:SIC:s=2b--/] 2g-/] 2d-/];	!
 .	2aa-;/	2b--/] 2g-/] 2d-/]	.
 *Xped	*	*	*
 !!LO:LB:g=original
 =23	=23	=23	=23
 *ped	*	*	*
-1AAA-/	2r	[2b--/ [2g-/ [>2c/	.
+!LO:SIC:s=1AAA-/;	!	!	!
+1AAA-/	2raa	[2b--/ [2g-/ [>2c/	.
+!	!	!LO:SIC:s=2b--/] 2g-/] 2c/];	!
 .	[2aa-;/	2b--/] 2g-/] 2c/]	.
+*Xped	*	*	*
 *	*v	*v	*
 =24	=24	=24
 *^	*	*
@@ -162,47 +185,55 @@
 =25	=25	=25	=25
 2r	(1DD-\	4gg-\	<
 .	.	4ee-\	.
-2a-\ 2g-\ 2e-\ 2A-\)	.	4ff\	.
-.	.	4cc\	[[
+2a-\ 2g-\ 2e-\ 2A-\)	.	4ff\	[
+.	.	4cc\	.
 =26	=26	=26	=26
 2r	(1DD-\	4dd-\	>
 .	.	4ff\	.
 2f\ 2d-\ 2A-\)	.	4gn/	.
 .	.	4a-/	]]
 =27	=27	=27	=27
-2r	(>1CC\	1an/)	f
+!	!	!	!LO:DY:b:t=p.
+2r	(>1CC\	1an/)	p
 2g-\ 2e-\ 2G-\)	.	.	.
 =28	=28	=28	=28
-*	*ped	*	*
-2r	(>1BBB-\	(2b-\	<
-2g-\ 2d-\ 2G-\)	.	2ff\	.
-=29	=29	=29	=29
-*	*ped	*	*
-2r	(>1BBB--\	4ee-\	.
-.	.	4cc\	.
-2gn\ 2d-\ 2Gn\)	.	4dd-\	.
-.	.	[>4en/	[[
+*	*	*	*^
+*	*ped	*	*	*
+!	!	!	!	!LO:MO:mod=!LO&colon;HP&colon;b&colon;i&colon;t=più cresc.
+!	!	!	!	!LO:HP:t=piu cres.
+2r	(>1BBB-\	(2b-\	<	<
+2g-\ 2d-\ 2G-\)	.	2ff\	[[	.
+=29	=29	=29	=29	=29
+*	*ped	*	*	*
+2r	(>1BBB--\	4ee-\	.	.
+.	.	4cc\	.	.
+2gn\ 2d-\ 2Gn\)	.	4dd-\	.	.
+.	.	[>4en/	.	.
+*	*	*	*v	*v
 =30	=30	=30	=30
 2r	1AAA-\	4e/]	<
 *	*ped	*	*
 .	.	4f/	.
-2f\ 2d-\ 2A-\	.	2b-/)	[[
+2f\ 2d-\ 2A-\	.	2b-/)	[
 =31	=31	=31	=31
 2ryy	[1AA-\	(>4a-/	.
 .	.	4f/	.
 2c-X\ 2F\	.	4g-/	<
 .	.	4dn/)	.
 =32	=32	=32	=32
-2B-\ 2G-\	1AA-\_	6e-/	.
+*	*	*Xbrackettup	*
+2B-\ 2G-\	1AA-\_	(6e-/	.
 .	.	6g-/	.
 .	.	6b-/	.
-2e-/ 2G-/ 2E-/	.	[2dd-\	[[
+2e-/ 2G-/ 2E-/	.	[2dd-\)	[[
 !!LO:LB:g=original
 =33	=33	=33	=33
 2G-/ 2En/	1AA-\]	4dd-\]	.
 .	.	4bn\	.
-!	!	!	!LO:DY:t=forte
+!	!	!	!LO:DY:b:t=forte
 2en/ 2G-/	.	4cc\	f
+!	!	!LO:MO:mod=!null:null	!
+!	!	!LO:ACC:color=grey	!
 .	.	[>4gn/	.
 =34	=34	=34	=34
 2F/	1AA-\	4g/]	.
@@ -223,14 +254,15 @@
 .	.	4ff\	[[
 =37	=37	=37	=37
 *	*^	*	*
-4r	2ryy	1CC/	2ggn\	f>
+4r	2ryy	1CC/	2ggn\	sf>
 (4g-\	.	.	.	.
 4f\	2An\ 2F\	.	2an/)	]]
 4e-\)	.	.	.	.
 *	*v	*v	*	*
 =38	=38	=38	=38
-2r	1DD-\	(2b-/	mf
-2f\ 2d-\ 2B-\ 2F\	.	2ff\	<
+!	!	!	!LO:DY:b:t=m.f.
+2r	&(>1DD-\	(2b-/	mf
+2f\ 2d-\ 2B-\ 2F\&)	.	2ff\	<
 =39	=39	=39	=39
 2r	1CC\	4ee-\	.
 .	.	4cc\	.
@@ -239,46 +271,53 @@
 =40	=40	=40	=40
 2r	1BBB-\	4b-\	.
 .	.	4dd-\	.
-2d-\ 2B-\ 2G-\	.	4en'/)	]
-.	.	(>4e'/	.
+2d-\ 2B-\ 2G-\	.	4en'>/)	]
+.	.	(>4e'>/	.
 =41	=41	=41	=41
 *	*	*	*^
-!	!	!	!LO:DY:rj	!LO:DY:a
+!	!	!	!	!LO:MO:mod=!LO&colon;DY&colon;a
+!	!	!	!LO:DY:rj:t=p.	!LO:DY:a
 2r	1FFF\	2.f/	p	sf >
 *	*	*	*v	*v
 2An/ 2E-/	.	.	.
 .	.	4d-/	]]
 =42	=42	=42	=42
-2ryy	[>1D-\ 1BBB-\	[>1B-/)	pp
+!LO:MO:mod=(<2BBB-\	!LO:MO:mod=[>1D-\	!	!LO:DY:b:t=pp.
+2BBB-\	[>1D-\	[>1B-/)	pp
+!LO:MO:mod=2BB-\)	!	!	!
 2BB-\	.	.	.
 !!LO:LB:g=original
 =43	=43	=43	=43
-!LO:TX:a:t=morendo	!	!LO:TX:b:t=morendo	!
-1D-/]	(2BBB-\	1B-/]	>
+!LO:TX:a:i:t=morendo	!	!	!
+1D-/]	(>2BBB-\	1B-/]	>
 .	2BB-\)	.	.
 =44	=44	=44	=44
-1r	(>2BBB-\	1r	.
+1rG	(>2BBB-\	1r	.
 .	2BB-\)	.	.
 =45	=45	=45	=45
-1r	(>2BBB-\	1r	]]
+!	!	!LO:TX:t=P:problem:nie wyświetla się "oddech"	!
+1rG	(>2BBB-\	1r,	]]
 .	2BB-\)	.	.
 *v	*v	*	*
-=46	=46	=46
-!LO:TX:b:t=quasi orgue.	!LO:TX:a:t=con anima	!
+=46;<	=46	=46
+!LO:TX:b:i:t=quasi orgue.	!LO:TX:a:i:t=Con anima:mod=con anima	!LO:DY:b:t=p.
 (2D-\ (2GG-\	(2b-/ (2d-/	p
 2G-\ 2C-X\))	2e-/ 2c-X/))	.
 =47	=47	=47
 (2D-\ (2GG-\	(2b-/ (2d-/	.
 2G-\ 2C-X\))	2e-/ 2c-X/))	.
 =48	=48	=48
+!	!LO:MO:mod=(>2a-/ (>2c-X/	!
 2E-\ 2AA-\	(>2a-/ (>2c-X/	.
 2DD-\	2f/ 2d-/ 2A-/	.
 =49	=49	=49
 (4GG-\	[2g-/ [2d-/ [2B-/)	<
 4D-\	.	.
 4G-\	4g-/] 4d-/] 4B-/])	.
-4c\)	4r	[[
+4B-\)	4r	[[
 =50	=50	=50
+!	!	!LO:MO:mod=!null:null
+!	!	!LO:HP:t=cres
 (2F\ (2BB-\	(2dd-/ (2f/	<
 2B-\ 2E-\))	2g-/ 2e-/))	.
 =51	=51	=51
@@ -289,58 +328,75 @@
 2c-X\ 2AA-\	2ee-/ 2a-/ 2e-/	.
 =53	=53	=53
 *^	*	*
-[2e-/ [<2B-/ [<2G-/	1EE-\	[2gg-/ [2ee-/ [2b-/ [2g-/	f
+[2e-/ [<2B-/ [<2G-/	1EE-\	[2gg-/ [2ee-/ [2b-/ [2g-/;	f
 2e-/] 2B-/] 2G-/]	.	2gg-/] 2ee-/] 2b-/] 2g-/]	.
 *v	*v	*	*
 =54	=54	=54
+!	!	!LO:DY:b:t=mf.
 2e-\ 2G-\ [2C-X\	2gg-/ 2cc-X/ 2g-/	mf
 2c-X\ 2G-\ 2C-\]	2ee-/ 2g-/ 2e-/ 2d-/	.
 !!LO:LB:g=original
 =55	=55	=55
 *	*^	*
+!LO:MO:mod=2B-\ [<2BB-\	!LO:MO:mod=(>2dd-/ 2g-/ 2d-/	!	!
 2B-\ [<2BB-\	(>2dd-/ 2g-/ 2d-/	2ryy	>
 *^	*	*	*
+!LO:MO:mod=2BB-\]	!	!	!	!
 2BB-\]	2d-\ 2G-\	4gg-/	2b-\ 2g-\	.
 .	.	4dd-/)	.	]
 *	*	*v	*v	*
 =56	=56	=56	=56
-!	!	!	!LO:HP:t=diminuend
-2c-X/	1AA-\	(2ee-/ 2a-/ 2e-/	>
-2A-/	.	2cc-X/ 2a-/ 2e-/ 2c-X/	.
-=57	=57	=57	=57
-*	*	*^	*
-2G-/	[2EE-\	2b-/	2e-\ 2B-\	.
-2B-/ 2E-/	2EE-\]	4ee-/	2g-\ 2e-\	.
-.	.	4b-/)	.	.
-*	*	*v	*v	*
-*v	*v	*	*
-=58	=58	=58
-1FF/	2a-/ 2e-/ 2A-/	>
-.	((4e-</ [<4A-</ 4E-</	.
-.	4dn</ 4A-</] 4Dn</))	.
-=59	=59	=59
-*^	*	*
-!	!	!	!LO:HP:b
-(2D-\	[<1BBB-\	8Dn</	]<sf
-.	.	[<8F</L	.
-.	.	[<8B-</	]
-.	.	[<8d-</J	[
-2ryy	.	2f</_ 2d-</_ 2B-</_< 2F</)]	.
-*v	*v	*	*
+*	*	*	*^
+!	!	!	!LO:MO:mod=!LO&colon;HP&colon;b&colon;t=dim.	!
+!	!	!LO:MO:mod=(>2ee-/ 2a-/ 2e-/	!LO:HP:t=diminuendo	!
+2c-X/	1AA-\	(>2ee-/ 2a-/ 2e-/	>	.
+2A-/	.	2cc-X/ 2a-/ 2e-/ 2c-X/	.	.
+=57	=57	=57	=57	=57
+*	*	*^	*	*
+2G-/	[2EE-\	2b-/	2e-\ 2B-\	.	.
+2B-/ 2E-/	2EE-\]	4ee-/	2g-\ 2e-\	.	.
+.	.	4b-/)	.	.	.
+*	*	*v	*v	*	*
+*v	*v	*	*	*
+=58	=58	=58	=58
+!	!LO:MO:mod=&(>2a-/ 2e-/ 2A-/	!	!
+1FF/	&(>2a-/ 2e-/ 2A-/	>	.
+.	((4e-</ [<4A-</ 4E-<^/	.	.
+.	4dn</ 4A-</] 4Dn</))	.	.
+=59	=59	=59	=59
+*^	*	*	*^
+!	!	!	!	!LO:MO:mod=!null:null	!LO:MO:mod=!LO&colon;DY&colon;b=2
+!	!	!LO:TX:a:i:t=rallentando:mod=rall.	!LO:HP:b	!LO:HP:t=cres	!LO:DY:b=2
+[[2D\	[<1BBB-\	8Dn</	.	<	sf
+!	!	!	!	!LO:MO:mod=!LO&colon;HP&colon;b=2	!
+!	!	!	!	!LO:HP:b=2	!
+.	.	[[<8F</L	.	<	.
+.	.	[[<8B-</	.	.	.
+!	!	!LO:SIC:v:s=[>8dn</J	!	!	!
+.	.	[>8d-</J	]	.	.
+!	!	!LO:SIC:v:s=[2f</ 2d</_ 2B-</_< [<2F</)]]	!	!	!
+2ryy	.	[2f</ 2d-</_ 2B-</_< [<2F</)]]	.	[[	.
+*v	*v	*	*v	*v	*v
 =60	=60	=60
-1D-/_ 1BBB-/]	1f</_ 1d-</_ 1B-</_ [1F</	[
+!	!LO:SIC:v:s=1f</_ 1d</_ 1B-</_ [<1F</_	!LO:HP:b=2
+[1D/]] 1BBB-/]	1f</_ 1d-</_ 1B-</_ [<1F</_	>
 =61	=61	=61
-2D-\] 2BBB-\	2f</]; 2d-</] 2B-</]	.
+!LO:MO:mod=2D\] 2BBB-\;<	!LO:SIC:v:s=2f</]; 2d</] 2B-</] 2F<]&)	!
+2D\] 2BBB-\	2f</]; 2d-</] 2B-</] 2F<]&)	]]
 2r	2r	.
 =62	=62	=62
-!	!LO:TX:a:t=grandioso	!
-(2G-\ 2D-\ 2GG-\	(>2b-/ 2g-/ 2d-/ 2B-/	<
-2C-X\ 2GG-\ 2CC-X\)	2e-</ 2c-X</ 2G-</ 2E-</)	ff [[
+!	!LO:TX:a:i:t=grandioso	!LO:MO:mod=!null:nulll
+!LO:MO:mod=(<2G-\ 2D-\ 2GG-\	!LO:MO:mod=(>2b-/ 2g-/ 2d-/ 2B-/	!LO:HP:t=cres.
+(<2G-\ 2D-\ 2GG-\	(>2b-/ 2g-/ 2d-/ 2B-/	<
+2C-X\ 2GG-\ 2CC-X\)	2e-</ 2c-X</ 2G-</ 2E-</)	ff
 =63	=63	=63
-(2G-\ 2D-\ 2GG-\	(>2b-/ 2g-/ 2d-/ 2B-/	.
+!LO:MO:mod=(<2G-\ 2D-\ 2GG-\	!LO:MO:mod=(>2b-/ 2g-/ 2d-/ 2B-/	!
+(<2G-\ 2D-\ 2GG-\	(>2b-/ 2g-/ 2d-/ 2B-/	.
+!	!LO:SIC:v:s=2e-</ 2c-</ 2G-</ 2E-</)	!
 2C-X\ 2GG-\ 2CC-X\)	2e-</ 2c</ 2G-</ 2E-</)	.
 =64	=64	=64
 *ped	*	*
+!LO:MO:mod=2AA-\ 2AAA-\	!LO:MO:mod=(>2a-/ 2e-/ 2c-X</ 2A-</	!
 2AA-\ 2AAA-\	(>2a-/ 2e-/ 2c-X</ 2A-</	.
 *Xped	*	*
 *ped	*	*
@@ -349,39 +405,45 @@
 =65	=65	=65
 *^	*	*
 *ped	*	*	*
+!	!	!	!LO:HP:b=2
 (<4GG-/	1GGG-\	[2g-/ [<2d-</ [<2B-</ 2G-</)	<
 4D-\	.	.	.
 4G-\	.	4g-/] 4d-</] 4B-</])	.
 4B-\)	.	4r	[
 *v	*v	*	*
 =66	=66	=66
-!	!	!LO:DY:a
-(<2B-/ 2F/ 2BB-/	(2dd-/ 2b-/ 2f/ 2d-/	>
-.	.	ff
-2E-\ 2BB-\ 2EE-\)	2g-/ 2e-/ 2B-/ 2G-/)	]
-=67	=67	=67
-(<2B-\ 2F\ 2BB-\	(2dd-/ 2b-/ 2f/ 2d-/	.
-2E-\ 2BB-\ 2EE-\)	2g-/ 2e-/ 2B-/ 2G-/)	.
+*	*	*^
+!	!	!LO:DY:a	!LO:DY:a
+(<2B-\ 2F\ 2BB-\	(>2dd-/ 2b-/ 2f/ 2d-/	.	sf
+!	!	!	!LO:MO:mod=!LO&colon;HP&colon;a&colon;t=poco cresc.
+!	!	!LO:MO:mod=.	!LO:HP:a:t=poco crescendo
+.	.	sf	<
+!	!	!	!LO:MO:null:mod=sf
+2E-\ 2BB-\ 2EE-\)	2g-/ 2e-/ 2B-/ 2G-/)	.	.
+=67	=67	=67	=67
+(<2B-\ 2F\ 2BB-\	(>2dd-/ 2b-/ 2f/ 2d-/	.	.
+2E-\ 2BB-\ 2EE-\)	2g-/ 2e-/ 2B-/ 2G-/)	.	.
 !!LO:PB:g=original
-=68	=68	=68
-!	!	!LO:HP:a
-2A-\ 2AA-\	(1cc-X/ 1f/ 1e-/ (1c-X/	>
-*8ba	*	*
-2FF\ 2FFF\	.	.
-*X8ba	*	*
-=69	=69	=69
-2BB-\	1b-/ 1f/ 1dn/ 1B-/))	]
-2BB-\ 2BBB-;\	.	.
-=70	=70	=70
+=68	=68	=68	=68
+!	!	!LO:HP:a	!
+2A-\ 2AA-\	(1cc-X/ 1f/ 1e-/ ((1c-X/	>	mf>
+*8ba	*	*	*
+2FF\ 2FFF\	.	.	.
+*X8ba	*	*	*
+=69	=69	=69	=69
+2BB-\	1b-/ 1f/ 1dn/ 1B-/)))	.	.
+2BB-\ 2BBB-;\	.	]	]
+*	*	*v	*v
+=70	=70;	=70
 *^	*	*
-!	!	!LO:TX:a:t=piano il accompagnamento	!
 (2BB-^/	[1EE-\	4r	.
 .	.	4b-/ 4g-/ 4e-/ 4B-/	.
-!LO:TX:a:t=marcato bene la melodia?	!	!	!
+!LO:TX:a:i:t=marcato bene la melodia	!	!	!
 2B-/	.	4r	.
 .	.	4g-/ 4e-/ 4B-/	.
 =71	=71	=71	=71
-4A-/	1EE-\_	4r	.
+!	!	!	!LO:DY:a:t=piano il accompagnamento
+4A-/	1EE-\_	4r	p
 4F/	.	4a-/ 4e-/ 4c-X/	.
 4G-/	.	4r	.
 4Dn/)	.	4g-/ 4B-/ 4A-/	.
@@ -407,32 +469,39 @@
 4G-/	.	4b-/ 4dn/ 4A-/	.
 =76	=76	=76	=76
 (4E-/)	2EE-\]	4r	.
-!	!	!LO:TX:a:t=ritenuto poco	!
+!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=poco rit.	!
+!	!	!LO:TX:a:i:t=ritenuto poco	!
 4E-/	.	4b-/ 4e-/ 4G-/	.
 4G-:/	2CC:\	4r	.
 4G-/	.	4cc/ 4e-/ 4B-/	.
 =77	=77	=77	=77
 2F/)	1FF\;	2an/ 2f/ 2An/	.
+!LO:SIC:s=2F/;	!	!LO:SIC:s=2f/;	!
 2F/	.	2f/	.
 *v	*v	*	*
 !!LO:PB:g=original
-=78	=78	=78
+!LO:MO:mod==78||	!LO:MO:mod==78||	!LO:MO:mod==78||
+=78;	=78;	=78
 *k[b-e-]	*k[b-e-]	*
 *ped	*	*
-!	!LO:TX:a:t=grave.	!
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;B&colon;t=Grave	!
+!	!LO:TX:a:t=grave.	!LO:DY:b:t=mf.
 (<2B-\ 2F\ 2BB-\	(2dd/ 2b-/ 2f/ 2d/	mf
-2E-\ 2BB-\ 2EE-\)	2g/ 2e-/ 2B-/ 2G/)	.
 *ped	*	*
+2E-\ 2BB-\ 2EE-\)	2g/ 2e-/ 2B-/ 2G/)	.
 =79	=79	=79
 *ped	*	*
-(<2B-\ 2F\ 2BB-\	(2dd/ 2b-/ 2f/ 2d/	.
+(<2B-\ 2F\ 2BB-\	(>2dd/ 2b-/ 2f/ 2d/	.
 *ped	*	*
 2E-\ 2BB-\ 2EE-\)	2g/ 2e-/ 2B-/ 2G/)	.
 =80	=80	=80
-(<2C\ 2CC\	(2cc/ 2g/ 2e-/ (2c/	.
-2F\ 2FF\)	(2an/ 2f/ 2c/ 2An/)	.
+!	!LO:MO:mod=(>2cc/ 2g/ 2e-/ (2c/	!
+(<2C\ 2CC\	(>2cc/ 2g/ 2e-/ (>2c/	.
+!	!LO:MO:mod=(2an/ 2f/ 2c/ 2An/)	!
+2F\ 2FF\)	(>2an/ 2f/ 2c/ 2An/)	.
 =81	=81	=81
 *^	*	*
+!	!	!	!LO:HP:b=2
 (4BB-/	1BBB-\	1b-/ 1f/ 1d/ 1B-/))	<
 4F/	.	.	.
 4B-/	.	.	.
@@ -445,14 +514,16 @@
 2d\ 2A\ 2D\	(>2ff/ 2dd/ 2a/ 2f/	.
 2G\ 2D\ 2GG\	2b-/ 2g/ 2d/ 2B-/)	[[
 =84	=84	=84
+!	!	!LO:HP:b=2
 (2d\ 2D\	(<2ff/ 2dd/ 2a/ 2f/	<
-2e-\ 2C\	2gg/ 2ee-/ 2cc/ 2g/	.
+2e-\ 2C\	2gg/ 2ee-/ 2cc/ 2g/	[[
 =85	=85	=85
 *^	*	*
-1g/ 1d/) 1B-/ 1G/;	1GGG\	1bb-\ 1gg\ 1dd\ 1b-\;)	[ff
+1g/ 1d/) 1B-/ 1G/;	1GGG\	1bb-\ 1gg\ 1dd\ 1b-\;)	ff
 =86	=86	=86	=86
+!	!	!	!LO:DY:b:t=f.
 (2g\ 2e-\ 2G\	1EE-\	(2bb-\ 2ee-\ 2b-\	f
-!	!	!	!LO:DY:b=2
+!	!	!	!LO:DY:b=2:t=f.
 2e-\ 2B-\ 2E-\	.	2gg\ 2ee-\ 2g\	f
 *v	*v	*	*
 =87	=87	=87
@@ -465,70 +536,84 @@
 *^	*	*
 *	*	*	*^
 *	*	*	*	*^
-!	!	!	!LO:HP:t=diminuendo	!	!
-2e-\ 2c\ 2E-\	1CC\	(2gg/ 2cc/ 2g/	ff >	>	>
-2c\ 2G\ 2C\	.	2ee-/ 2cc/ 2e-/	.	.	.
+!	!	!	!LO:HP:a	!	!
+2e-\ 2c\ 2E-\	2CC\	(>2gg/ 2cc/ 2g/	>	ff	>
+!	!	!	!	!LO:MO:mod=!LO&colon;HP&colon;b&colon;t=dim.	!
+!	!	!	!	!LO:HP:b=2:t=diminuendo	!
+2c\ 2G\ 2C\	2ryy	2ee-/ 2cc/ 2e-/	.	>	.
 *v	*v	*	*	*	*
 =89	=89	=89	=89	=89
 *	*^	*	*	*
 2B-\ 2G\ 2BB-\	2dd/ 2g/ 2d/	2ryy	.	.	.
 2B-\ 2D\ 2GG\	4gg/	2b-\ 2g\	.	.	.
-.	4dd/)	.	.	]	]
+.	4dd/)	.	]	.	]
 *	*	*	*	*v	*v
 *	*	*	*v	*v
 *	*v	*v	*
 !!LO:LB:g=original
 =90	=90	=90
-2G\ 2EE-\	2cc/ 2g/ 2c^/	]
-(2AA^\	(>4g/ 4c/ 4G/	f
+2G\ 2EE-\	2cc/ 2g/ 2c^>/	.
+!	!	!LO:DY:b:t=f.
+(<2AA^\	(>4g/ 4c/ 4G/	f
 .	4f#X/ 4c/ 4F#X/	.
 =91	=91	=91
-!	!	!LO:HP:b=2
 *ped	*	*
-[1F#X/: [1DD/:)	[1a/: [1f#X/: [1d/: [1A/:)	>
+!	!	!LO:DY:b=2
+[1F#X/: [1DD/::)	[1a/:: [1f#X/: [1d/: [1A/:)	sf
 =92	=92	=92
-1F#/_ 1DD/_	1a/_ 1f#/_ 1d/_ 1A/_	.
+!	!	!LO:HP:b=2
+1F#/_ 1DD/_	1a/_ 1f#/_ 1d/_ 1A/_	>
 =93	=93	=93
 2F#/] 2DD/]	2a/] 2f#/] 2d/] 2A/]	]
 *Xped	*	*
 2r	2r	.
 =94	=94	=94
-!	!LO:TX:b:t=piu piano e piu lento	!
-2B-\ 2F\ 2BB-\	(2dd/ 2b-/ 2f/ 2d/	.
+*ped	*	*
+!	!	!LO:MO:mod=!LO&colon;DY&colon;b&colon;t=più p
+!	!	!LO:DY:t=piu piano
+2B-\ 2F\ 2BB-\	(>2dd/ 2b-/ 2f/ 2d/	p
 2E-\ 2BB-\ 2EE-\	2g/ 2e-/ 2B-/ 2G/)	.
+!	!LO:TX:b:i:t=e piu lento:mod=e più lento	!
 =95	=95	=95
-2B-\ 2F\ 2BB-\	(2dd/ 2b-/ 2f/ 2d/	.
+2B-\ 2F\ 2BB-\	(>2dd/ 2b-/ 2f/ 2d/	.
 2E-\ 2BB-\ 2EE-\	2g/ 2e-/ 2B-/ 2G/)	.
 =96	=96	=96
-2C\ 2CC\	(2cc/ 2g/ 2e-/ 2c/	>
-!	!LO:TX:b:t=ritenuto	!
+(2C\ 2CC\	(>2cc/ 2g/ 2e-/ 2c/	>
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=rit.	!
+!	!LO:TX:b:i:t=ritenuto	!
 *ped	*	*
 2F\ 2FF\	2a/ 2f/ 2c/ 2A/	.
 =97	=97	=97
-2F;\	2f;/)	.
-2F;\	2f;/	.
+2F;\)	2f;/)	.
+2F;\	2f;/	]]
 *Xped	*	*
 =98||	=98||	=98||
 *k[b-e-a-d-g-]	*k[b-e-a-d-g-]	*
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;B&colon;t=Tempo I	!
 !	!LO:TX:a:t=Tempo 1o.	!
-1r	2r	]
+1r	2r	.
+!	!	!LO:DY:b:t=p.
 .	[2ff\	p
 =99	=99	=99
 1r	2ff\]	.
+!	!	!LO:DY:b:t=pp.
 .	[2ff\	pp
 =100	=100	=100
 1r	2ff\]	.
+!	!	!LO:DY:b:t=ppp.
 .	[2ff\	ppp
 =101	=101	=101
 *^	*	*
 (4FF/	1BBB-\	4ff\]	.
 4F/	.	4r	.
+!	!	!	!LO:MO:mod=!LO&colon;DY&colon;b=2
 !	!	!	!LO:DY:b=2
 4d-/ 4BB-/	.	(2ff^\	pp
+!	!	!LO:TX:a:i:t=do-:mod=dolore	!LO:DY:b:t=pp.
 4g-^/)	.	.	pp
 !!LO:LB:g=original
 =102	=102	=102	=102
-!	!	!LO:TX:a:t=dolore	!
+!	!	!LO:TX:a:i:t=-lore:mod=	!
 (4FF/	1BBB-\	4ee-\	.
 4F/	.	4cc\	.
 4An/ 4BB-/	.	4dd-\	.
@@ -537,7 +622,8 @@
 *	*^	*	*
 (4FF/	1BBB-\	2ryy	(4b-\	.
 4F/	.	.	4dd-\	.
-4d-:/	.	2G-\: 2BB-:\	4en/	.
+!	!	!LO:MO:mod=2G-\: 2BB-:\	!	!LO:DY:b=2:t=sf.
+4d-:/	.	2G-\: 2BB-:\	4en/	sf
 8c/L	.	.	4e/	.
 8B-/J)	.	.	.	.
 =104	=104	=104	=104	=104
@@ -552,13 +638,13 @@
 !	!	!	!	!	!LO:HP:b=2
 4F/	.	4ryy	.	4ryy	<
 4d-/	.	2ryy	2ff\	2ryy	.
-4g-/)	.	.	.	.	[
+4g-^/)	.	.	.	.	[
 *	*v	*v	*	*	*
 *	*	*v	*v	*
 =106	=106	=106	=106
 !	!	!	!LO:HP:a
 (4FF/	1BBB-\	4ee-\	<
-4F/	.	4cc\	.
+4F\	.	4cc\	.
 !	!	!	!LO:HP:a
 4An\ 4BB-\	.	4ff\	[ >
 4f^\)	.	4dd-\	.
@@ -572,80 +658,89 @@
 *	*v	*v	*	*
 =108	=108	=108	=108
 *	*	*^	*
+!	!	!	!	!LO:DY:b:t=p.
 4r	1AAA-\	4cc/	2c\	p
 4C/	.	4a-/	.	.
-2A-/	.	[<2f/	4dn^\	.
+2A-\	.	[<2f/	4dn^\	.
 .	.	.	4c\	.
 =109	=109	=109	=109	=109
 *	*	*^	*	*
-4r	1GGGn\	(4f/])	4ryy	[2Bn\	>
-(<4Dn/	.	2a-/	2.f\	.	.
-2Gn/)	.	.	.	2B\]	.
+!	!	!	!	!LO:MO:mod=[<2Bn\	!
+4r	1GGGn\	(4f/_<)	4ryy	[<2Bn\	>
+(<4Dn/	.	2a-/	2.f\]	.	.
+!	!	!	!	!LO:MO:mod=2B\]	!
+2Gn\)	.	.	.	2B\]	.
 .	.	4gn/	.	.	.
 *	*	*v	*v	*	*
 *	*	*v	*v	*
 =110	=110	=110	=110
-4r	1CC\	(2gn/ 2en/ [2B-/)	]
+!	!	!LO:MO:mod=(>2gn/ 2en/ [2B-/)	!
+4r	1CC\	(>2gn/ 2en/ [2B-/)	]
 *ped	*	*	*
 !	!	!	!LO:HP:b=2
-(2D-X/	.	.	<
+(2D-X^/	.	.	<
 .	.	2en/ 2B-/] 2G-/)	.
 4C/)	.	.	[[
 =111	=111	=111	=111
-*	*ped	*	*
-!	!	!	!LO:HP:a
-2r	1FFF\	(4e-/ 4B-/ 4G-X/	<
-!	!	!	!LO:HP:a
-.	.	2g-/ 2e-/ 2B-/	[sf>
-2C/	.	.	.
-!	!	!	!LO:HP:a
-.	.	4f/ 4e-/ 4An/)	]]
-*v	*v	*	*
+*	*	*^	*
+*ped	*	*	*	*
+!	!	!	!	!LO:HP:a
+2r	1FFF\	(>4e-/	4B-\ 4G-X\	<
+!	!	!	!	!LO:DY:a
+!	!	!	!	!LO:HP:a
+.	.	2g-/	[<2e-\ 2B-\	[sf>
+2C/	.	.	.	.
+!	!	!	!	!LO:HP:a
+.	.	4f/	4e-\] 4An\)	]]
+*v	*v	*	*	*
 !!LO:LB:g=original
-=112	=112	=112
-!LO:TX:b:t=sempre legato	!	!
-(4F\ 4FF\	4f/ 4e-/ 4An/	<
-4E-\	4r	.
-4D-\	2r	[[
-4C\	.	.
+=112	=112	=112	=112
+&(<4F\ 4FF\	4f/ 4e-/ 4An/	1r	<
+4E-\	4r	.	.
+4D-\	2r	.	.
+4C\	.	.	[[
+*	*v	*v	*
 =113	=113	=113
 *^	*^	*
+!LO:TX:b:i:t=sempre legato	!	!	!	!
 (4d-/	4BB-\	2r	2f\	.
 4c/	4AAn\	.	.	.
-4c-X/	4AA-X\	(2ff/	2d-\	.
-4B-/	4GG-\	.	.	.
+4c-X/	4AA-X\	((2ff/	2dn\	.
+[4B-/	4GG-\	.	.	.
 =114	=114	=114	=114	=114
-4B-/	4GG-X\	4ee-/	2e-\	>
+4B-/]	4GG-X\	4ee-/	2e-\	>
 4An/	4FF\	4cc/	.	.
-!	!	!LO:TX:a:t=largo	!	!
-4Gn/	4EEn\	4dd-/	4d-\	.
+!LO:SIC:v:s=4Gn/	!	!LO:TX:a:i:t=largo	!	!
+4G-/	4EEn\	4dd-/	4d-\	.
 4G-X/)	4EE-X\	(4an/)	4c\	.
 =115	=115	=115	=115	=115
 (2F/	4DDn\	4b-/	4B-\	.
 .	4DD-X\	4dd-/ 4f/	4B-\	.
-2Gn/)	2CC\	4en/	2B-\	.
-.	.	4e/)	.	.
+2Gn/	2CC\&)	4en/	2d-\ 2B-\	]
+.	.	4e/))	.	.
 *	*	*v	*v	*
 =116	=116	=116	=116
-!	!	!LO:TX:b:t=ritenut	!
-(4F/)	1FF\	(>2f/ 2c/ 2An/	]
-(<4G-X^/	.	.	.
+!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=rit.	!
+!	!	!LO:TX:b:i:t=ritenut	!
+4F/)	1FF\	(>2f/ 2c/ 2An/	.
+(4G-X^/	.	.	.
 4C/	.	(2an/ (2e-/	.
 [<4F/	.	.	.
 =117	=117	=117	=117
 (4F/]))	[1BB-\	4b-/ 4d-/)))	.
 2F'/	.	4r	.
-!	!	!LO:TX:a:t=poco.piu.lento.	!
-.	.	(2ff\	pp
+!	!	!LO:TX:a:i:t=poco piu lento:mod=poco più lento	!LO:DY:b:t=pp.
+.	.	(2ff'\	pp
 [4F'/	.	.	.
 =118	=118	=118	=118
-4F/]	1BB-\]	2ff\	>
+4F/]	1BB-\]	2ff'\	>
 2F'/	.	.	.
-.	.	2ff\)	]]
+.	.	2ff'\),	]]
 4F'/)	.	.	.
 *v	*v	*	*
-=119	=119	=119
+=119	=119;	=119
 *ped	*	*
+!	!	!LO:DY:b:t=ppp.
 (2BB-\	(2d-</ 2B-</ (>2F</	ppp
 *ped	*	*
 2EE-\)	2G-</ 2E-</ 2BB-</)	.
@@ -656,20 +751,22 @@
 2EE-\)	2G-</ 2E-</ 2BB-</)	.
 =121	=121	=121
 *ped	*	*
-2BBB-\	2d-</ 2B-</ 2F<,/)	.
+2BBB-\	2d-</ 2B-</ 2F</),	.
+!	!	!LO:DY:b:t=p.
 2r	[2ff^\	p
 !LO:LB:g=original	!	!
 =122	=122	=122
 1r	2ff\]	.
+!	!	!LO:DY:b:t=pp.
 .	[2ff\	pp
 =123	=123	=123
 1r	2ff\]	.
+!LO:TX:b:i:t=Pianisſimo et lento posſibile.:mod=pianissimo et lento possibile	!	!LO:DY:b:t=ppp.
 .	(2ff\	ppp
 =124	=124	=124
-!LO:TX:b:t=Pianisſimo et lento posſibile.	!	!
 (4F\	4f/)	.
-!	!	!LO:DY:t=pianissi
-4En\	(4en/	pp
+!	!	!LO:DY:b:t=pianisſi
+4En\	(>4en/	pp
 4F\	4f/	.
 4D-\	4d-/	.
 =125	=125	=125
@@ -677,30 +774,33 @@
 4FF/	4F/	.
 2GG-;/)	2G-;/)	.
 =126	=126	=126
-([2GG-\	([2B-/ [2G-/	.
+([2GG-\	(>[2B-/ [2G-/	.
 2GG-\]	2B-/] 2G-/]	.
 =127	=127	=127
 1FF/	[2c/ [2A-/	.
 .	2c/] 2A-/])	.
 =128	=128	=128
-!LO:TX:b:t=Une pedale.	!	!
+!LO:TX:b:i:t=due pedale.:mod=due Pedale	!	!
 (1BBB-/)	(1dn/ (1F/	.
 =129	=129	=129
-1BBB-/'	1dn/ 1F/'	.
+1BBB-'>	1dn 1F'>	.
 =130	=130	=130
-2BBB-'/)	2dn/ 2F'/))	.
+2BBB-'\)	2dn/ 2F'>/))	.
 2r	2r	.
 =131	=131	=131
-!	!LO:TX:a:t=Grudzień 1880 Roku	!
 1r;	1r;	.
+!LO:TX:b:t=Grudzień 1880 Roku:mod=	!	!
 ==	==	==
 *-	*-	*-
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-06
 !!!ENC: Leszek Kubiak
 !!!END: 2021-11-09
+!!!ENC-modern: Katarzyna Serwa
+!!!END-modern: 2022-09-08
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m

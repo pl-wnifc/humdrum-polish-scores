@@ -25,6 +25,7 @@
 *part2	*part1	*part1
 *staff2	*staff1	*
 *I"[Piano]	*I"[Piano]	*
+*mI"[Pianoforte]	*mI"[Pianoforte]	*
 *Ipiano	*Ipiano	*
 *ICklav	*ICklav	*
 *clefF4	*clefG2	*
@@ -41,58 +42,58 @@
 .	4cc\	.
 *clefG2	*	*
 =2	=2	=2
-4g/ 4b-/	4cc\	.
-4f/ 4a/	4cc\	.
-4c/ 4g/	4cc\	.
+4b-/ 4g/	4cc\	.
+4a/ 4f/	4cc\	.
+4g/ 4c/	4cc\	.
+*clefF4	*	*
 =3!|:	=3!|:	=3!|:
 *>B	*>B	*
-*clefF4	*	*
 4CC/	4cc\	.
-4E\ 4G\ 4B-\ 4c\	8cc\L	.
+4c\ 4B-\ 4G\ 4E\	8cc\L	.
 .	8ee\J	.
-4E\ 4G\ 4B-\ 4c\	8b-\L	.
+4c\ 4B-\ 4G\ 4E\	8b-\L	.
 .	8dd\J	.
 =4	=4	=4
 4E\	8a\L	.
 .	8cc\J	.
-4G\ 4B-\ 4c\	4g/	.
-4G\ 4B-\ 4c\	8g/L	.
+4c\ 4B-\ 4G\	4g/	.
+4c\ 4B-\ 4G\	8g/L	.
 .	8b-/J	.
 =5	=5	=5
 4FF/	8a/L	.
 .	8a/J	.
-4F\ 4A\ 4c\	4f/	.
+4c\ 4A\ 4F\	4f/	.
 !	!LO:TX:t=P:4\left:problem	!
-4F\ 4A\ 4c\	4dd\	.
+4c\ 4A\ 4F\	4dd\	.
 !!LO:LB:g=original
 =6	=6	=6
 !LO:TX:t=P:4\left:problem	!	!
-4AA\ 4F\	4cc\	.
-4A\ 4c	8f/L	.
+4F\ 4AA\	4cc\	.
+4c 4A\	8f/L	.
 .	8a/J	.
-4B-\ 4c	8g/L	.
+4c 4B-\	8g/L	.
 .	8f/J	.
 =7	=7	=7
-4GG\ 4E\	8fM>/L	.
+4E\ 4GG\	8fM>/L	.
 .	8f/J	.
-4G\ 4B-\ 4c\	4e/	.
-4G\ 4B-\ 4c\	4dd/	.
+4c\ 4B-\ 4G\	4e/	.
+4c\ 4B-\ 4G\	4dd/	.
 =8	=8	=8
 *rep	*	*
-4GG\ 4E\	4cc\	.
-4G\ 4B-\ 4c\	8g/L	.
+4E\ 4GG\	4cc\	.
+4c\ 4B-\ 4G\	8g/L	.
 .	8b-/J	.
-4G\ 4B-\ 4c\	8a/L	.
+4c\ 4B-\ 4G\	8a/L	.
 .	8g/J	.
 *Xrep	*	*
 =9	=9	=9
 4F\	8fM>/L	.
 .	8f/J	.
-4A\ 4c\	4e/	.
-4A\ 4c\	4dd/	.
+4c\ 4A\	4e/	.
+4c\ 4A\	4dd/	.
 =10	=10	=10
 *2\left	*	*
-2.F\ 2.A\ 2.c\	4cc\	.
+2.c\ 2.A\ 2.F\	4cc\	.
 .	8cc\L	.
 .	8cc\	.
 .	8cc\	.
@@ -100,85 +101,104 @@
 !!LO:LB:g=original
 =11	=11	=11
 *8ba	*	*
-4CCC/ 4CC/	4cc\	fp
+4CC/ 4CCC/	4cc\	fp
 *X8ba	*	*
-4E\ 4G\ 4B-\ 4c\	8cc\L	.
+4c\ 4B-\ 4G\ 4E\	8cc\L	.
 .	8ee\J	.
-4E\ 4G\ 4B-\ 4c\	8b-\L	.
+4c\ 4B-\ 4G\ 4E\	8b-\L	.
 .	8dd\J	.
 =12	=12	=12
 4E\	8a\L	.
 .	8cc\J	.
-4G\ 4B-\ 4c\	4g/	.
-4G\ 4B-\ 4c\	8g/L	.
+4c\ 4B-\ 4G\	4g/	.
+4c\ 4B-\ 4G\	8g/L	.
 .	8b-/J	.
 =13	=13	=13
 4F\	8a/L	.
 .	8a/J	.
-4A\ 4c\	4f/	.
-4A\ 4c\	4dd/	.
+4c\ 4A\	4f/	.
+4c\ 4A\	4dd/	.
 =14	=14	=14
 *2\right	*	*
-2.F\ 2.A\ 2.c\	4cc\	.
+2.c\ 2.A\ 2.F\	4cc\	.
 .	8cc\L	.
 .	8cc\	.
 .	8cc\	.
 .	8cc\J	.
 =15||	=15||	=15||
-*>B1	*>B1	*
+!!LO:MO:ori
 !!LO:TX:a:t=1a Valta
+!!LO:MO:end
+!!LO:MO:mod
+!! !!LO:TX:a:t=I volta
+!!LO:MO:end
+*>B1	*>B1	*
 4GG/	8bnM\L	.
 .	8b\J	.
-4G\ 4Bn\ 4d\ 4f\	4g\	.
-4G\ 4B\ 4d\ 4f\	4gg\	.
+4f\ 4d\ 4Bn\ 4G\	4g\	.
+4f\ 4d\ 4B\ 4G\	4gg\	.
 !!LO:LB:g=original
 =16	=16	=16
 4G\	4gg\	.
-4Bn\ 4d\ 4f\	8dd\L	.
+4f\ 4d\ 4Bn\	8dd\L	.
 .	8ff\	.
-4B\ 4d\ 4f\	8ee\	.
+4f\ 4d\ 4B\	8ee\	.
 .	8dd\J	.
 =17	=17	=17
 *2\left	*	*
-2.G\ 2.c\ 2.e\	8cc\L	.
+2.e\ 2.c\ 2.G\	8cc\L	.
 .	8cc\J	.
 .	4cc\	.
 .	4cc\	.
 *clefG2	*	*
 =18	=18	=18
-4g/ 4b-/	4cc\	.
-4f/ 4a/	4cc\	.
-4c/ 4g/	4cc\	.
+4b-/ 4g/	4cc\	.
+4a/ 4f/	4cc\	.
+4g/ 4c/	4cc\	.
 *clefF4	*	*
 =19:|!	=19:|!	=19:|!
+!!LO:MO:mod
+!! !!LO:TX:a:t=II volta
+!!LO:MO:end
 *>B2	*>B2	*
-4DD/ 4D/	8a\L 8cc\ 8dd\ 8ff#X\	.
-.	8a\J 8cc\ 8dd\ 8ff#\	f
-4D\ 4F#X\ 4A\ 4c\	4a\ 4cc\ 4dd\ 4ff#\	.
-4D\ 4F#\ 4A\ 4c\	4a\ 4cc\ 4dd\ 4ff#\	.
+!	!	!LO:DY:t= :mod=%s
+!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!	!null
+4D/ 4DD/	8ff#X\L 8dd\ 8cc\ 8a\	f
+!	!	!LO:MO:mod=.
+.	8ff#\J 8dd\ 8cc\ 8a\	f
+4c\ 4A\ 4F#X\ 4D\	4ff#\ 4dd\ 4cc\ 4a\	.
+4c\ 4A\ 4F#\ 4D\	4ff#\ 4dd\ 4cc\ 4a\	.
 =20	=20	=20
+!!LO:MO:ori
 !!LO:TX:a:t=2a Valta
-4GGG/ 4GG/	8b-:\L 8dd:\ 8gg:\	f
+!!LO:MO:end
+!	!	!LO:MO:mod=.
+4GG/ 4GGG/	8gg:\L 8dd:\ 8b-:\	f
 .	8aa\J	.
-4G\ 4B-\ 4d\	4bb-\	.
-4G\ 4B-\ 4d\	8bb-\L	.
+4d\ 4B-\ 4G\	4bb-\	.
+4d\ 4B-\ 4G\	8bb-\L	.
 .	8ddd\J	.
 !!LO:LB:g=original
 =21	=21	=21
 4CC/	4ccc\	.
-4E\ 4G\ 4B-\ 4c\	4bb-M>\	.
-4E\ 4G\ 4B-\ 4c\	8aa\L	.
+4c\ 4B-\ 4G\ 4E\	4bb-M>\	.
+4c\ 4B-\ 4G\ 4E\	8aa\L	.
 .	8gg\J	.
 =22	=22	=22
 4F\	4ff\	.
-4F\ 4A\ 4c\	4ff\ 4aa\ 4ccc\ 4fff\	.
+4c\ 4A\ 4F\	4fff\ 4ccc\ 4aa\ 4ff\	.
 4r	4r	.
 ==	==	==
 *-	*-	*-
 !!!system-decoration: [(g1)]
+!!!system-decoration-mod: {(g1)}
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Filip Voros
 !!!END: 2021-12-07
 !!!EED: Jędrzej Mróz
 !!!EEV: 2021-12-17
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-09-07
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
