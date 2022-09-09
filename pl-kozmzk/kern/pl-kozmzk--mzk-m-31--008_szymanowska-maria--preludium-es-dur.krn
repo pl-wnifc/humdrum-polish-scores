@@ -21,26 +21,34 @@
 !!!ONB-nifc:
 !!!AIN: 1 piano
 !!!key:
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" |  shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B"  | autostem -r | modori -m
 **kern	**fing	**kern	**fing	**dynam
 *part1	*	*part1	*	*part1
 *staff2	*	*staff1	*	*
-*Ipiano	*	*Iempty	*	*
-*I"Piano	*	*	*	*
-*I'Pno.	*	*	*	*
+*I"Piano	*	*I"Piano	*	*
+*I'P-no	*	*I'P-no	*	*
+*mI"Pianoforte	*	*mI"Pianoforte	*	*
+*mI'pf	*	*mI'pf	*	*
+*Ipiano	*	*Ipiano	*	*
+*ICklav	*	*ICklav	*	*
+*IGsolo	*	*IGsolo	*	*
 *clefF4	*	*clefG2	*	*
 *k[b-e-a-]	*	*k[b-e-a-]	*	*
 *E-:	*	*E-:	*	*
 *M4/4	*	*M4/4	*	*
 =1	=1	=1	=1	=1
+!!!OMD:
+!!!OMD-mod: Con brio
 *^	*	*	*	*
-!	!	!	!LO:TX:a:t=problem:3 pod klamrą łukową	!	!
-!	!	!	!LO:TX:a:t=Con brio	!	!
+!	!	!	!LO:TX:t=P:problem=3 pod klamrą łukową	!	!
+!	!	!	!LO:TX:a:t=Con brio:mod=	!	!
 !	!	!	!LO:TUP:b	!	!
 4r	1E-	5	12e-/L	2	p
 .	.	.	12g/	1	.
 .	.	.	12b-/J	2	.
+!	!	!	!LO:MO:mod=*null:null	!	!
 *	*	*	*Xtuplet	*	*
-!	!	!	!LO:TX:a:t=problem&colon; brak oznaczeń trioli &colon; global	!	!
+!	!	!	!LO:TX:t=P:problem=brak oznaczeń trioli &colon; global	!	!
 8.G/L	.	3	12bb-\L	5	.
 .	.	.	12g\	1	.
 .	.	.	12gg\J	5	.
@@ -88,6 +96,7 @@
 4G/ 4B- 4e-	.	.	12bb-\L	5	sf
 .	.	.	12g\	1	.
 .	.	.	12gg\J	5	.
+!	!LO:SIC:v:s=2E	!	!	!	!
 4r	2E-\	.	12en/L	.	.
 .	.	.	12g/	.	.
 .	.	.	12b-/J	.	.
@@ -125,13 +134,14 @@
 *v	*v	*	*	*	*
 =7	=7	=7	=7	=7
 *	*	*tuplet	*	*
-!	!	!LO:TX:a:t=problem:3 pod klamrą łukową	!	!
+!	!	!LO:TX:t=P:problem=3 pod klamrą łukową	!	!
 8qF/	.	.	.	.
 !	!	!LO:TUP:a	!	!
 4f\	.	12ff\L 12aa-	.	.
 .	.	12cc\	.	.
 .	.	12ccc\J	.	.
 8qC/	.	.	.	.
+!	!	!LO:MO:mod=*null:null	!	!
 *	*	*Xtuplet	*	*
 4en\	.	12gg\L 12bb-	.	.
 .	.	12cc\	.	.
@@ -181,9 +191,10 @@
 .	.	12cc/J	.	.
 =10	=10	=10	=10	=10
 *^	*	*	*	*
+!LO:MO:mod=*null:null	!	!	!	!	!
 *Xtuplet	*	*	*tuplet	*	*
 !	!	!	!LO:TUP:b	!	!
-!	!	!	!LO:TX:a:t=problem: 3 pod klamrą łukową	!	!
+!	!	!	!LO:TX:t=P:problem= 3 pod klamrą łukową	!	!
 4r	2FF\	.	12B-/L	.	.
 .	.	.	12d/	.	.
 .	.	.	12f/J	.	.
@@ -191,7 +202,8 @@
 12G-X^</L	.	2	.	.	.
 12F/J	.	1	.	.	.
 !	!	!	!LO:TUP:b	!	!
-!	!	!	!LO:TX:a:t=problem: 3 pod klamrą łukową	!	!
+!	!	!	!LO:TX:t=P:problem= 3 pod klamrą łukową	!	!
+!	!	!	!LO:SIC:v:s=12AL	!	!
 4r	2FF\	.	12A-/L	.	.
 .	.	.	12c/	.	.
 .	.	.	12e-/J	.	.
@@ -199,11 +211,12 @@
 12G-X^</L	.	.	.	.	.
 12F/J	.	.	.	.	.
 =11	=11	=11	=11	=11	=11
+!	!	!	!LO:MO:mod=*null:null	!	!
 *	*	*	*Xtuplet	*	*
 4r	1BB-	.	12B-/L	.	.
 .	.	.	12d/	.	.
 .	.	.	12f/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.D/L	.	.	12ff\L	.	.
 .	.	.	12d/	.	.
 .	.	.	12dd\J	.	.
@@ -218,7 +231,7 @@
 4r	1BB-	.	12B-/L	.	.
 .	.	.	12d/	.	.
 .	.	.	12f/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.D/L	.	.	12ff\L	.	.
 .	.	.	12d/	.	.
 .	.	.	12dd\J	.	.
@@ -249,14 +262,14 @@
 4r	2BB-\	.	12B-/L	.	.
 .	.	.	12d/	.	.
 .	.	.	12f/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 4D/ 4F 4B-	.	.	12ff\L	.	.
 .	.	.	12d/	.	.
 .	.	.	12ff\J	.	.
 4r	2GG\	.	12Bn/L	.	f
 .	.	.	12d/	.	.
 .	.	.	12f/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 4D/ 4G 4Bn	.	.	12gg\L	.	.
 .	.	.	12f/	.	.
 .	.	.	12gg\J	.	.
@@ -264,7 +277,7 @@
 4r	1C	.	12e-/L	.	.
 .	.	.	12g/	.	.
 .	.	.	12cc/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.E-/L	.	.	12gg\L	.	.
 .	.	.	12e-/	.	.
 .	.	.	12ee-\J	.	.
@@ -279,7 +292,7 @@
 4r	1C	.	12e-/L	.	.
 .	.	.	12g/	.	.
 .	.	.	12cc/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.E-/L	.	.	12gg\L	.	.
 .	.	.	12e-/	.	.
 .	.	.	12ee-\J	.	.
@@ -287,7 +300,7 @@
 4c/	.	.	12g/L	.	.
 .	.	.	12e-/	.	.
 .	.	.	12g/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 4Bn/	.	.	12f/L	.	.
 .	.	.	12d/	.	.
 .	.	.	12gg\J	.	.
@@ -319,8 +332,8 @@
 4c\	.	12cc\L 12ee-	.	.
 .	.	12f\	.	.
 .	.	12ff\J	.	.
-!	!	!LO:TX:b:i:t=cresc.	!	!
-!	!	!LO:TX:b:i:t=crescendo	!	!
+!	!	!LO:TX:b:i:t=cresc.:mod=	!	!
+!	!	!LO:TX:b:i:t=crescendo:mod=	!	!LO:MO:null:mod=<
 8qBB-/	.	.	.	.
 4B-X\	.	12b-\L 12dd	.	.
 .	.	12f\	.	.
@@ -352,8 +365,9 @@
 .	.	.	12an/	1	.
 .	.	.	12cc/J	2	.
 8.AAn/L	.	.	12ccc\L	5	.
+!	!	!	!LO:SIC:s=12a	!	!
 .	.	.	12an\	1	.
-!	!	!	!LO:TX:a:t=sic:s=8aan	!	!
+!	!	!	!LO:SIC:v:s=12aaJ	!	!
 .	.	.	12aa-\J	5	.
 16C/Jk	.	.	.	.	.
 4F/	.	.	12cc/L	2	.
@@ -368,7 +382,7 @@
 .	.	.	12cc/J	.	.
 8.AAn/L	.	.	12ccc\L	.	.
 .	.	.	12a\	.	.
-!	!	!	!LO:TX:a:t=sic:s=8aan	!	!
+!	!	!	!LO:SIC:v:s=12aaJ	!	!
 .	.	.	12aa-\J	.	.
 16C/Jk	.	.	.	.	.
 4F/	.	.	12cc/L	.	.
@@ -398,6 +412,7 @@
 .	.	12cc/J	.	.
 =23	=23	=23	=23	=23
 8qCC/	.	.	.	.
+!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!LO:HP:t=dim
 4F\	.	12f/L 12a-X	.	>
 .	.	12c/	.	.
@@ -429,15 +444,19 @@
 .	.	12dd-/J	.	[
 =25	=25	=25	=25	=25
 2GG-X/	.	12g-X/L 12b-	.	>
+!	!	!LO:SIC:v:s=12d-	!	!
 .	.	12d/	.	.
 .	.	12dd-X/J	.	.
 .	.	12g-/L 12b-	.	.
+!	!	!LO:SIC:v:s=12d-	!	!
 .	.	12d/	.	.
 .	.	12dd-/J	.	.
 2GGn/	.	12en/L 12b-	.	.
+!	!	!LO:SIC:v:s=12d-	!	!
 .	.	12d/	.	.
 .	.	12dd-/J	.	.
 .	.	12e/L 12b-	.	.
+!	!	!LO:SIC:v:s=12d-	!	!
 .	.	12d/	.	.
 .	.	12dd-/J	.	]
 !!LO:PB:g=original
@@ -459,7 +478,7 @@
 4r	1D-X	.	12d-X/L	.	f
 .	.	.	12f/	.	.
 .	.	.	12a-/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.F/L	.	.	12aa-\L	.	.
 .	.	.	12f/	.	.
 .	.	.	12ff\J	.	.
@@ -474,7 +493,7 @@
 4r	1D-X	.	12d-X/L	.	.
 .	.	.	12f/	.	.
 .	.	.	12a-/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.F/L	.	.	12aa-\L	.	.
 .	.	.	12f/	.	.
 .	.	.	12ff\J	.	.
@@ -505,14 +524,14 @@
 4r	2D-X\	.	12d-X/L	2	.
 .	.	.	12f/	1	.
 .	.	.	12a-/J	2	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 4F/ 4A- 4d-X	.	.	12aa-\L	5	.
 .	.	.	12f/	.	.
 .	.	.	12aa-\J	.	.
 4r	2BB-\	.	12dn/L	.	.
 .	.	.	12f/	.	.
 .	.	.	12a-/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 4F/ 4A- 4dn	.	.	12bb-\L	.	.
 .	.	.	12a-/	.	.
 .	.	.	12bb-\J	.	.
@@ -521,7 +540,7 @@
 4E-\	.	12e-/L	2	p
 .	.	12g-X/	1	.
 .	.	12b-/J	2	.
-!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.G-X\L	.	12bb-\L	5	.
 .	.	12g-X\	1	.
 .	.	12gg-X\J	5	.
@@ -546,6 +565,7 @@
 .	.	12ff\	1	.
 8r	.	.	.	.
 .	.	12ddd-\J	4	.
+!LO:SIC:v:s=4G/ 4d 4f	!	!	!	!
 4G/ 4d- 4f	.	12bbn\L	2	f
 .	.	12gg\	1	.
 .	.	12ggg\J	5	.
@@ -562,10 +582,10 @@
 8r	.	.	.	.
 .	.	12ggg\J	.	.
 *	*	*8va	*	*
-!	!	!LO:TX:a:t=8va	!	!
+!	!	!LO:TX:a:t=8va:mod=	!	!
 4b-\ 4ff 4aa-	.	12ddd\L	.	f
 .	.	12bb-\	.	.
-!	!	!LO:TX:a:t=problem:zygzakowata linia	!	!
+!	!	!LO:TX:t=P:problem=zygzakowata linia	!	!
 .	.	12bbb-\J	.	.
 =34	=34	=34	=34	=34
 8ee-\ 8gg	.	12eee-\L 12ggg	.	.
@@ -623,7 +643,7 @@
 4r	1E-	.	12e-/L	.	p
 .	.	.	12g/	.	.
 .	.	.	12b-/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.G/L	.	.	12bb-\L	.	.
 .	.	.	12g/	.	.
 .	.	.	12gg\J	.	.
@@ -638,7 +658,7 @@
 4r	1E-	.	12e-/L	.	.
 .	.	.	12g/	.	.
 .	.	.	12b-/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.G/L	.	.	12bb-\L	.	.
 .	.	.	12g/	.	.
 .	.	.	12gg\J	.	.
@@ -669,7 +689,7 @@
 4r	2E-\	.	12e-/L	.	<
 .	.	.	12g/	.	.
 .	.	.	12b-/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 4G/ 4B- 4e-	.	.	12bb-\L	.	.
 .	.	.	12g/	.	.
 .	.	.	12bb-\J	.	.
@@ -683,7 +703,7 @@
 4r	1F	.	12a-/L	.	.
 .	.	.	12cc/	.	.
 .	.	.	12ff/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.A-/L	.	.	12ccc\L	.	.
 .	.	.	12a-/	.	.
 .	.	.	12aa-\J	.	.
@@ -698,7 +718,7 @@
 4r	1F	.	12a-/L	.	.
 .	.	.	12cc/	.	.
 .	.	.	12ff/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.A-/L	.	.	12ccc\L	.	.
 .	.	.	12a-/	.	.
 .	.	.	12aa-\J	.	.
@@ -706,7 +726,7 @@
 4f/	.	.	12cc/L	.	.
 .	.	.	12a-/	.	.
 .	.	.	12cc/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 4en/	.	.	12b-/L	.	.
 .	.	.	12g/	.	.
 .	.	.	12ccc\J	.	.
@@ -764,7 +784,7 @@
 4r	1E-	.	12e-/L	.	.
 .	.	.	12g/	.	.
 .	.	.	12b-/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.G/L	.	.	12bb-\L	.	p
 .	.	.	12g/	.	.
 .	.	.	12gg\J	.	.
@@ -779,7 +799,7 @@
 4r	1E-	.	12e-/L	.	.
 .	.	.	12g/	.	.
 .	.	.	12b-/J	.	.
-!	!	!	!LO:TX:a:t=problem:mixed beam	!	!
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!
 8.G/L	.	.	12bb-\L	.	.
 .	.	.	12g/	.	.
 .	.	.	12gg\J	.	.
@@ -790,17 +810,15 @@
 4d/	.	.	12a-/L	.	.
 .	.	.	12f/	.	.
 .	.	.	12b-/J	4	.
-!!LO:LB:g=original
 =48	=48	=48	=48	=48	=48
 4r	2E-\	.	12g/L	2	.
 .	.	.	12e-/	1	.
 .	.	.	12b-/J	4	.
-!	!	!	!LO:TX:b:i:t=per---------------den------------------------do--------------si.	!	!
+!	!	!	!LO:TX:b:i:t=per---------------den------------------------do--------------si.:mod=perdendosi	!	!
 8.c-X/L	.	.	12a-/L	3	.
 .	.	.	12f/	1	.
-!	!	!	!LO:TX:a:t=problem&colon; łamanie w takcie	!	!
 .	.	.	12b-/J	4	.
-!	!	!	!LO:TX:a:t=problem&colon; łamanie w takcie	!	!
+!!LO:LB:g=original
 16B-/Jk	.	.	.	.	.
 4r	2E-\	.	12g/L	.	.
 .	.	.	12e-/	.	.
@@ -834,10 +852,12 @@
 (12AAn/	.	.	.	.
 12BB-/J)	.	.	.	.
 12FF#X^^</L	.	4ryy	.	.
+!LO:SIC:s=(<12GG/	!	!	!	!
 (<12GG/J	.	.	.	.
+!LO:SIC:s=12DD\)J	!	!	!	!
 12DD\)	.	.	.	.
 =51	=51	=51	=51	=51
-!LO:TX:b:t=3 0 4 3	!	!	!	!
+!LO:TX:b:t=3 0 4 3:mod=	!	!	!	!
 1EE-;<	.	1r;	.	.
 ==	==	==	==	==
 *-	*-	*-	*-	*-
@@ -846,5 +866,7 @@
 !!!RDF**kern: <= below
 !!!ENC: Anna Matuszewska
 !!!END: 2020-07-20
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

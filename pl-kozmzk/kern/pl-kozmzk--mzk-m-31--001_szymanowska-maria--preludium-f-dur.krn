@@ -20,29 +20,36 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/462 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
 !!!AIN: 1 piano
-!!!key:
+!!!key: F
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**fing	**kern	**fing	**dynam
 *part1	*	*part1	*	*part1
 *staff2	*	*staff1	*	*
-*Ipiano	*	*Iempty	*	*
-*I"Piano	*	*	*	*
-*I'P-no	*	*	*	*
+*I"Piano	*	*I"Piano	*	*
+*I'P-no	*	*I'P-no	*	*
+*mI"Pianoforte	*	*mI"Pianoforte	*	*
+*mI'pf	*	*mI'pf	*	*
+*Ipiano	*	*Ipiano	*	*
+*ICklav	*	*ICklav	*	*
+*IGsolo	*	*IGsolo	*	*
 *clefF4	*	*clefG2	*	*
 *k[b-]	*	*k[b-]	*	*
 *F:	*	*F:	*	*
 *M6/8	*	*M6/8	*	*
 *	*	*8va	*	*
+*>[A,A,B,B]	*	*>[A,A,B,B]	*	*
 !	!	!LO:TX:a:B:t=Vivace.	!	!
 8r	.	8ccc\	.	f
 =1	=1	=1	=1	=1
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+*>A	*	*>A	*	*
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 [2.FF:\ [2.C\: [2.A\:	.	16cccc^<\LL	5	.
 .	.	16aaa\	4	.
 .	.	16fff\	2	.
 .	.	16ccc\	1	.
 .	.	16bbb-\	5	.
 .	.	16ggg\JJ	4	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 .	.	16aaa^\LL	.	.
 .	.	16fff\	.	.
 .	.	16ccc\	.	.
@@ -65,14 +72,14 @@
 .	.	16dd\	.	.
 .	.	16b-\JJ	.	.
 =3	=3	=3	=3	=3
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 4FF:\ 4C\: 4A\:	.	16cc^/LL	5	.
 .	.	16a/	4	.
 .	.	16f/	2	.
 .	.	16c/	1	.
 8r	.	16dd/	5	.
 .	.	16cc/JJ	4	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 4EE:\ 4C\: 4G\:	.	16cc^/LL	4	.
 .	.	16b-/	3	.
 .	.	16g/	2	.
@@ -80,7 +87,7 @@
 8r	.	16dd/	5	.
 .	.	16cc/JJ	4	.
 =4	=4	=4	=4	=4
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 4FF:\ 4C\: 4A\:	.	16cc^/LL	5	.
 .	.	16a/	4	.
 .	.	16f/	2	.
@@ -91,13 +98,14 @@
 .	.	16b-/	3	.
 .	.	16g/	2	.
 .	.	16e/	1	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 .	.	8qd/	.	.
 8r	.	16c^/	3	.
 .	.	16B-/JJ	2	.
 !!LO:LB:g=original
 =5	=5	=5	=5	=5
 *	*	*8va	*	*
+!	!	!	!	!LO:MO:null:mod=.
 [2.FF:\ [2.C\: [2.A\:	.	16cccc\LL	.	f
 .	.	16aaa\	.	.
 .	.	16fff\	.	.
@@ -139,7 +147,7 @@
 8r	.	16dd/	.	.
 .	.	16cc/JJ	.	.
 =8	=8	=8	=8	=8
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 .	.	8qf/	.	.
 4FF:\ 4C\: 4A\:	.	16ff^\LL	.	.
 .	.	16cc\	.	.
@@ -149,6 +157,7 @@
 .	.	16A\JJ	.	.
 4FFF\ 4FF\	.	4F</	.	.
 =:|!|:	=:|!|:	=:|!|:	=:|!|:	=:|!|:
+*>B	*	*>B	*	*
 *	*	*8va	*	*
 8r	.	8aaa\	.	p
 =9	=9	=9	=9	=9
@@ -159,7 +168,7 @@
 .	.	16ccc#X\	1	.
 .	.	16aaa\	5	.
 .	.	16fff\JJ	3	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 .	.	16ggg^\LL	.	.
 .	.	16eee\	.	.
 .	.	16ccc#X\	.	.
@@ -285,6 +294,7 @@
 8c#X\	2	8aa\	.	.
 8A\J	1	8a\J 8aa\	.	.
 =18	=18	=18	=18	=18
+!	!	!	!	!LO:MO:null:mod=.
 4.AA/	5	(16A/LL	.	f
 .	.	16d/	.	.
 .	.	16f/	.	.
@@ -341,14 +351,14 @@
 *clefG2	*	*	*	*
 =22	=22	=22	=22	=22
 8r	.	8a/	.	.
-!	!	!LO:SIC:o=:v:diminuendo rozpisane na sylaby	!	!
-!	!	!LO:TX:b:t=di-	!	!
+!	!	!LO:TX:t=P:problem=diminuendo rozpisane na sylaby	!LO:HP:ed=brack	!
+!	!	!LO:TX:b:t=di-:mod=	!	!LO:MO:null:mod=>
 (16A/LL	.	4r	.	.
 16cn/	.	.	.	.
 16e/	.	.	.	.
 16a/JJ)	.	.	.	.
 8a/	.	8r	.	.
-!	!	!LO:TX:b:t=mi-	!	!
+!	!	!LO:TX:b:t=mi-:mod=	!	!
 4r	.	(16a\LL	.	.
 .	.	16cc\	.	.
 .	.	16ee\	.	.
@@ -356,15 +366,16 @@
 !!LO:LB:g=original
 =23	=23	=23	=23	=23
 8r	.	8aa\	.	.
-!	!	!LO:TX:b:t=nu-	!	!
+!	!	!LO:TX:b:t=nu-:mod=	!	!
 16a\LL	.	4r	.	.
 16cc\	.	.	.	.
 16ee\	.	.	.	.
 16aa\JJ	.	.	.	.
 *	*	*8va	*	*
-!	!	!LO:TX:b:t=endo	!	!
+!	!	!LO:TX:b:t=endo:mod=	!	!
 (8ccc`\L	.	8ccc\L 8cccc\	.	.
 8bbn`\	.	8ddd\ 8cccc\	.	.
+!	!	!	!	!LO:MO:null:mod=]
 8bb-X`\J)	.	8eee\J 8cccc\	.	.
 =24	=24	=24	=24	=24
 4aa\	.	16fff\LL 16cccc\	.	f
@@ -399,14 +410,14 @@
 4FF:\ 4C\: 4A\:	.	16cc/LL	.	.
 .	.	16a/	.	.
 .	.	16f/	.	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 .	.	16c^>/	.	.
 8r	.	16dd/	.	.
 .	.	16cc/JJ	.	.
 4EE:\ 4C\: 4G\:	.	16cc/LL	.	.
 .	.	16b-/	.	.
 .	.	16g/	.	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 .	.	16c^>/	.	.
 8r	.	16dd/	.	.
 .	.	16cc/JJ	.	.
@@ -452,14 +463,15 @@
 .	.	16bn/	.	.	.
 .	.	16f/	.	.	.
 .	.	16en/	.	.	.
-!	!	!LO:TX:b:t=cre-	!	!	!
+!	!	!	!	!	!LO:HP:ed=brack
+!	!	!LO:TX:b:t=cre-:mod=	!	!	!LO:MO:null:mod=<
 8r	.	16bbn\	.	5	.
 .	.	16dd\JJ	.	1	.
 *	*	*	*v	*v	*
 =30	=30	=30	=30	=30
 !	!	!LO:TX:a:t=P:problem=mixed beam	!	!
 4AA:\ 4E\: 4c\:	.	16dd/LL	4	.
-!	!	!LO:TX:b:t=scen- -	!	!
+!	!	!LO:TX:b:t=scen- -:mod=	!	!
 .	.	16cc/	.	.
 .	.	16a/	.	.
 .	.	16e/	.	.
@@ -468,9 +480,10 @@
 4BBn:\ 4G\: 4d\:	.	16ee\LL	4	.
 .	.	16dd\	.	.
 .	.	16bn\	.	.
-!	!	!LO:TX:b:t=do	!	!
+!	!	!LO:TX:b:t=do:mod=	!	!
 .	.	16f\	.	.
 8r	.	16ddd\	.	.
+!	!	!	!	!LO:MO:null:mod=[[
 .	.	16ff\JJ	.	.
 !!LO:LB:g=original
 =31	=31	=31	=31	=31
@@ -610,7 +623,7 @@
 .	.	16g/	.	.
 .	.	16e/	.	.
 .	.	8qd/	.	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 8r	.	16c^/	.	.
 .	.	16B-/JJ	.	.
 =41	=41	=41	=41	=41
@@ -660,84 +673,86 @@
 .	.	16a/	.	.
 .	.	16f/	.	.
 .	.	16c/	.	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
-*	*	*	*^	*
-8r	.	16dd-X^>/	.	5	.
-!	!	!LO:TX:b:t=-	!	!	!
-.	.	16cc/JJ	.	-	.
-4CC:/ 4GG/: 4C/:	.	16b-/LL	.	4	.
-.	.	16g/	.	2	.
-.	.	16e/	.	1	.
-.	.	16d-X/	.	4	.
-8r	.	16c/	.	3	.
-.	.	16B-/JJ	.	2	.
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
+!	!	!	!LO:MO:mod=*null:null	!
+*	*	*	*below	*
+8r	.	16dd-X^>/	5	.
+!	!	!LO:TX:b:t=-:mod=	!	!
+.	.	16cc/JJ	.	.
+4CC:/ 4GG/: 4C/:	.	16b-/LL	4	.
+.	.	16g/	2	.
+.	.	16e/	1	.
+.	.	16d-X/	4	.
+8r	.	16c/	3	.
+.	.	16B-/JJ	2	.
 !!LO:LB:g=original
-=45	=45	=45	=45	=45	=45
-2.FF\ 2.C\ 2.F\	.	16A/LL	.	1	.
-.	.	16c/	.	2	.
-.	.	16f/	.	4	.
-.	.	16a/	.	5	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!	!
-.	.	16e^/	.	2	.
-.	.	16f/JJ	.	3	.
-*	*	*	*v	*v	*
+=45	=45	=45	=45	=45
+2.FF\ 2.C\ 2.F\	.	16A/LL	.	1
+.	.	16c/	.	2
+.	.	16f/	.	4
+.	.	16a/	.	5
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
+.	.	16e^/	.	2
+.	.	16f/JJ	.	3
 .	.	16c/LL	.	.
 .	.	16f/	.	.
 .	.	16a/	.	.
 .	.	16cc/	.	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 .	.	16g#X^/	.	.
 .	.	16a/JJ	.	.
 =46	=46	=46	=46	=46
 [2.FF\ [2.C\ [2.A\	.	16f/LL	.	.
 .	.	16a/	.	.
-!	!	!LO:TX:b:t=poco	!	!
+!	!	!	!	!LO:HP:ed=brack
+!	!	!LO:TX:b:t=poco:mod=	!	!LO:MO:null:mod=<
 .	.	16cc/	.	.
 .	.	16ff/	.	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 .	.	16bn^/	.	.
 .	.	16cc/JJ	.	.
 .	.	16a\LL	.	.
 .	.	16cc\	.	.
 .	.	16ff\	.	.
 .	.	16aa\	.	.
-!	!	!LO:TX:b:t=a	!	!
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:b:t=a:mod=	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 .	.	16ee^\	.	.
 .	.	16ff\JJ	.	.
 =47	=47	=47	=47	=47
 2.FF\_ 2.C\_ 2.A\_	.	16cc\LL	.	.
 .	.	16ff\	.	.
-!	!	!LO:TX:b:t=poco	!	!
+!	!	!LO:TX:b:t=poco:mod=	!	!
 .	.	16aa\	.	.
 .	.	16ccc\	.	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 .	.	16gg#X^\	.	.
 .	.	16aa\JJ	.	.
 .	.	16ff\LL	.	.
 .	.	16aa\	.	.
 .	.	16ccc\	.	.
-!	!	!LO:TX:b:t=cre-	!	!
+!	!	!LO:TX:b:t=cre-:mod=	!	!
 .	.	16fff\	.	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 .	.	16bbn^\	.	.
 .	.	16ccc\JJ	.	.
 =48	=48	=48	=48	=48
 *	*	*8va	*	*
-!	!	!LO:TX:b:t=scen-	!	!
+!	!	!LO:TX:b:t=scen-:mod=	!	!
 2.FF\] 2.C\] 2.A\]	.	16aa\LL	.	.
 .	.	16ccc\	.	.
 .	.	16fff\	.	.
 .	.	16aaa\	.	.
-!	!	!LO:SIC:o=:v:diminuendo like accent	!	!
+!	!	!LO:TX:t=P:problem=diminuendo like accent	!	!
 .	.	16eee^\	.	.
 .	.	16fff\JJ	.	.
 .	.	16ccc\LL	.	.
-!	!	!LO:TX:b:t=do	!	!
+!	!	!LO:TX:b:t=do:mod=	!	!
 .	.	16fff\	.	.
 .	.	16aaa\	.	.
 .	.	16cccc\	.	.
 .	.	16ggg#X\	.	.
+!	!	!	!	!LO:MO:null:mod=[[
 .	.	16aaa\JJ	.	.
 !!LO:LB:g=original
 =49	=49	=49	=49	=49
@@ -790,7 +805,7 @@
 .	.	16AA</JJ	.	.
 .	.	8FF<`/L	.	.
 8ryy	.	8FFF<;</J	.	.
-!LO:TX:b:t=3043	!	!	!	!
+!LO:TX:b:t=3043:mod=	!	!	!	!
 =:|!	=:|!	=:|!	=:|!	=:|!
 *-	*-	*-	*-	*-
 !!!system-decoration: {(s1,s2)}
@@ -800,5 +815,7 @@
 !!!EEV: 2020-07-17
 !!!ENC: Marcin Jachim
 !!!END: 2020-06-15
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

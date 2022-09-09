@@ -20,20 +20,27 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/462 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
 !!!AIN: 1 piano
-!!!key:
+!!!key: C
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam
 *part1	*part1	*part1
 *staff2	*staff1	*
-*Ipiano	*Iempty	*
-*I"Piano	*	*
-*I'P-no	*	*
+*I"Piano	*I"Piano	*
+*I'P-no	*I'P-no	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
+*Ipiano	*Ipiano	*
+*ICklav	*ICklav	*
+*IGsolo	*IGsolo	*
 *clefF4	*clefG2	*
 *k[]	*k[]	*
 *C:	*C:	*
 *M4/4	*M4/4	*
 *met(c)	*met(c)	*
 =1	=1	=1
-!LO:TX:a:t=piano ma ben marcato.	!LO:TX:a:B:t=Moderato.	!
+!!!OMD:
+!!!OMD-mod: Moderato
+!LO:TX:a:t=piano ma ben marcato.:mod=ma ben marcato	!LO:TX:a:B:t=Moderato.:mod=	!LO:MO:null:mod=p
 16CC/	1r	.
 16C\LL 16E\ 16G\	.	.
 16C\ 16E\ 16A\	.	.
@@ -198,6 +205,7 @@
 4CC/ 4C/	16G/ 16e/ 16g/	.
 .	(32e/LLL 32g/	.
 .	32f/J) 32a/	.
+!	!	!LO:MO:null:mod=.
 .	16e/ 16g/	p
 .	16e/JJ 16g/	.
 16r	16e/ 16g/	<
@@ -309,7 +317,7 @@
 =16	=16	=16
 4BBB\ 4BB\	16F#X/ 16B/ 16d#X/	.
 .	32B/LLL 32b/	.
-!	!LO:TX:b:t=sempre piu forte.	!
+!	!LO:TX:b:t=sempre piu forte.:mod=sempre più forte	!
 .	32B/J 32b/	.
 .	16B/ 16b/	.
 .	16B/JJ 16b/	.
@@ -327,13 +335,13 @@
 16G\LL 16d\	16f/LL 16b/	.
 16G\ 16d\	16f/ 16b/	.
 16G\ 16d\	16f/ 16b/	.
-!	!LO:SIC:o:s=:v:dn	!
+!	!LO:SIC:v:s=16d/JJ 16f/ 16b/	!
 16GG/JJ	16d#/JJ 16f/ 16b/	.
 =17	=17	=17
 *^	*	*
 16r	1CC\	16c/ 16e/ 16cc/	.
 16GG/LL 16C/	.	16c/LL 16e/ 16g/	.
-!	!	!LO:TX:b:t=dol	!
+!	!	!LO:TX:b:t=dol:mod=dolce	!
 16GG/ 16C/	.	16c/ 16e/ 16a/	.
 16GG/JJ 16C/	.	16c/JJ 16e/ 16b/	.
 16GG/LL 16C/	.	16c/LL 16e/ 16cc/	.
@@ -367,7 +375,9 @@
 16D/ 16G/	.	32bb`\ 32ddd\	.
 .	.	(32aa\ 32ccc\	.
 16D/JJ 16G/	.	32gg\) 32bb\	.
+!	!	!LO:SIC:s=32ff`\ 32aa\JJJ	!
 .	.	32ff`\ 32aa\	.
+!	!	!LO:SIC:s=(32ee\ 32gg\LLL	!
 16D/LL 16G/	.	(32ee\ 32gg\	.
 .	.	32dd\) 32ff\	.
 16D/ 16G/	.	32cc`\ 32ee\	.
@@ -441,10 +451,11 @@
 .	32gn/J 32b/	.
 .	16f/ 16a/	.
 16FF#X/Jk 16F#X/	16c/JJ 16e-X/ 16a/	.
-!LO:TX:t=P:problem=mixed beam	!LO:SIC:o:s=:v:Gn	!
+!LO:TX:t=P:problem=mixed beam	!	!
+!LO:SIC:v:s=8G\L	!	!
 8G#\L	16en/LL 16g/	.
 .	16c/ 16e/	.
-!	!LO:SIC:o:s=:v:GGn	!
+!LO:SIC:v:s=8GG/J	!	!
 8GG#/J	16d/ 16f/	.
 .	16B/JJ 16d/	.
 =22	=22	=22
@@ -468,11 +479,11 @@
 .	16f/ 16a/	.
 !	!	!LO:DY:b
 16FF#X/Jk 16F#X/	16c/JJ 16e-X/ 16a/	rfz
-!	!LO:SIC:o:s=:v:Gn	!
-!LO:TX:t=P:problem=mixed beam	!LO:SIC:o:s=:v:gn	!
+!LO:TX:t=P:problem=mixed beam	!	!
+!LO:SIC:v:s=8GL	!	!
 8G#\L	16en`/LL 16g#/	.
 .	16c`/ 16e/	.
-!	!LO:SIC:o:s=:v:GGn	!
+!LO:SIC:v:s=8GGJ	!	!
 8GG#/J	16d`/ 16f/	.
 .	16B`/JJ 16d/	.
 !!LO:LB:g=original
@@ -498,6 +509,7 @@
 .	32gg/JJJ	.	.
 !LO:TX:t=P:problem=mixed beam	!	!	!
 16cn\LL	16ee/LL	16ee\LL	.
+!	!LO:MO:mod=!null:null	!	!
 !	!LO:TUP:a:problem=klamra łukowa	!	!
 16F\	48gg/L	16a\JJ	.
 .	48ff/	.	.
@@ -578,7 +590,7 @@
 16f#X^\JJ)	16dd\JJ 16aa\ 16ddd\	.
 16g\	16ee\ 16ccc\	.
 16r	16r	.
-!	!LO:SIC:o:s=:v:Gn	!
+!LO:SIC:v:s=16G	!	!
 16G#\	16dd\ 16bb\	.
 16r	16r	.
 =28	=28	=28
@@ -603,7 +615,9 @@
 .	32ddn\ 32ffn\	.
 .	32cc\JJJ) 32ee\	.
 *	*8va	*
+!	!	!LO:MO:null:mod=ff
 8GG\L 8G\	32b/LLL 32dd/ 32bb/	.
+!	!	!LO:MO:null:mod=.
 .	32cc/ 32ee/ 32ccc/	ff
 .	32dd/ 32ff/ 32ddd/	.
 .	32ee/ 32gg/ 32eee/	.
@@ -615,16 +629,20 @@
 2CC/ 2C/	2ccc;\ 2eee\ 2cccc\	.
 *	*X8va	*
 2r;	2r;	.
-!LO:TX:b:t=3043	!	!
+!LO:TX:b:t=3043:mod=	!	!
 ==	==	==
 *-	*-	*-
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!LO:MO:ori
 !!!RDF**dynam: > = dim
+!!LO:MO:end
 !!!EED: Leszek Kubiak
 !!!EEV: 2020-07-20
 !!!ENC: Marcin Jachim
 !!!END: 2020-06-16
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

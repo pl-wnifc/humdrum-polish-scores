@@ -19,21 +19,29 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-kozmzk%3A6325/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/462 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
-!!!AIN: 2 piano
-!!!key:
+!!!AIN: 1 piano
+!!!key: B-
+!!!filter-modern: sic -sq | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" |  shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B"  | autostem -r | modori -m
 **kern	**fing	**kern	**fing	**dynam
-*part2	*	*part1	*	*part1
+*part1	*	*part1	*	*part1
 *staff2	*	*staff1	*	*
-*Ipiano	*	*Ipiano	*	*
 *I"Piano	*	*I"Piano	*	*
+*I'P-no	*	*I'P-no	*	*
+*mI"Pianoforte	*	*mI"Pianoforte	*	*
+*mI'pf	*	*mI'pf	*	*
+*Ipiano	*	*Ipiano	*	*
+*ICklav	*	*ICklav	*	*
+*IGsolo	*	*IGsolo	*	*
 *clefF4	*	*clefG2	*	*
 *k[b-e-]	*	*k[b-e-]	*	*
 *B-:	*	*B-:	*	*
 *M2/4	*	*M2/4	*	*
-*>[A,A,B]	*	*>[A,A,B]	*	*
+*>[A,A,B,B1,B,B2]	*	*>[A,A,B,B1,B,B2]	*	*
 =1	=1	=1	=1	=1
+*>A	*	*>A	*	*
+!	!	!LO:MO:mod=*null:null	!	!
 *	*	*Xtuplet	*	*
-!LO:TX:a:t=P:problem=mixed beam	!	!LO:TX:a:t=Scherzo	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!LO:TX:a:t=Scherzo:mod=	!	!
 8BB-`/L	.	(24f\LL	1	.
 .	.	24dd\	4	.
 .	.	24dd\	3	.
@@ -50,6 +58,7 @@
 .	.	24dd\	4	.
 .	.	24cc\JJ)	3	.
 =2	=2	=2	=2	=2
+!	!	!LO:MO:mod=*null:null	!	!
 *	*	*Xtuplet	*	*
 8D\L	.	24b-\LL	.	.
 .	.	24ff\	.	.
@@ -137,6 +146,7 @@
 .	.	24ee-\	.	.
 .	.	24cc\JJ	.	.
 =8	=8	=8	=8	=8
+!LO:MO:mod=*null:null	!	!	!	!
 *Xtuplet	*	*	*	*
 24d\	.	24b-/LL	.	.
 24F\LL	4	24f/	.	f
@@ -146,8 +156,8 @@
 24C\JJ	.	24c/JJ	.	.
 8BB-/L	.	8B-/	.	.
 8BBB-/J	.	8r	.	.
-*>B	*	*>B	*	*
 =9:|!|:	=9:|!|:	=9:|!|:	=9:|!|:	=9:|!|:
+*>B	*	*>B	*	*
 *clefG2	*	*	*	*
 8F/L	.	24ff\LL	4	p
 .	.	24ff\	3	.
@@ -292,23 +302,30 @@
 8AA-/	.	4ff^<\	.	.
 *clefG2	*	*	*	*
 8A-/ 8d-X/ 8f/	.	.	.	.
+!LO:MO:null:mod=*clefF4	!	!	!	!
+*	*	*	*	*
 =19	=19	=19	=19	=19
-!LO:SIC:o:s=:v:brak klucza F4	!	!	!	!
+!LO:TX:t=P:problem=brak klucza F4	!	!	!	!
 !LO:TX:a:t=P:problem=mixed beam	!	!	!	!
+!LO:SIC:v:s=8GG-L	!	!	!	!
 8e-X/L	.	(24ee-`\LL	.	rfz
 .	.	24ee-`\	.	.
 .	.	24ee-`\	.	.
 .	.	8qff/	.	.
+!LO:SIC:v:s=8B- 8e-J	!	!	!	!
 8gg\J 8ccc\	.	24ee-`\	.	.
 .	.	24dd-X`\	.	.
 .	.	24ee-`\JJ)	.	.
 !LO:TX:a:t=P:problem=mixed beam	!	!	!	!
+!!LO:SIC:v:s=8FF-L	!	!	!	!
 8d/L	.	(24ff`\LL	.	.
 .	.	24ff`\	.	.
 .	.	24ff`\J	.	.
+!LO:SIC:s=8A 8fJ	!	!	!	!
 8ff\J 8ddd\	.	8ff^\J)	.	.
 !!LO:LB:g=original
 =20	=20	=20	=20	=20
+!LO:MO:mod=*null:null	!	!	!	!
 *clefF4	*	*	*	*
 8GG-X/L	.	24en/LL	.	p
 .	.	24e/	.	.
@@ -417,7 +434,8 @@
 24e-\	.	24ee-\	.	.
 24A\JJ	.	24cc\JJ	.	.
 =28	=28	=28	=28	=28
-!	!	!LO:TX:a:t=1.Vol.	!	!
+*>B1	*	*>B1	*	*
+!	!	!LO:TX:a:t=1.Vol.:mod=	!	!
 24B-\ 24d\	.	24b-/LL	.	f
 24F\LL	.	24f/	.	.
 24F\	.	24f/	.	.
@@ -428,7 +446,8 @@
 8BBB-/J	.	8r	.	.
 !!LO:LB:g=original
 =29:|!	=29:|!	=29:|!	=29:|!	=29:|!
-!	!	!LO:TX:a:t=2.Vol.	!	!
+*>B2	*	*>B2	*	*
+!	!	!LO:TX:a:t=2.Vol.:mod=	!	!
 24B-\ 24d\	.	4b-\ 4dd\ 4ff\	.	<
 *clefG2	*	*	*	*
 24f/LL	4	.	.	.
@@ -470,15 +489,17 @@
 =32	=32	=32	=32	=32
 4BBB-/ 4BB-/	.	4b-\ 4dd\ 4bb-\	.	.
 4r;	.	4r;	.	.
-!LO:TX:b:t=3043	!	!	!	!
+!LO:TX:b:t=3043:mod=	!	!	!	!
 ==	==	==	==	==
 *-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!EED: Leszek Kubiak
 !!!EEV: 2020-07-22
 !!!ENC: Berenika Jozajtis
 !!!END: 2020-06-16
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

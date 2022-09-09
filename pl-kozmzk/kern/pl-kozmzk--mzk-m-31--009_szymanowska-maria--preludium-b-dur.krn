@@ -20,13 +20,18 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/462 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
 !!!AIN: 1 piano
-!!!key:
+!!!key: B-
+!!!filter-modern: sic -sq | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" |  shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B"  | autostem -r | modori -m
 **kern	**fing	**kern	**fing	**dynam
 *part1	*	*part1	*	*part1
 *staff2	*	*staff1	*	*
-*Ipiano	*	*Iempty	*	*
-*I"Pianoforte	*	*	*	*
-*I'P-no	*	*	*	*
+*I"Piano	*	*I"Piano	*	*
+*I'P-no	*	*I'P-no	*	*
+*mI"Pianoforte	*	*mI"Pianoforte	*	*
+*mI'pf	*	*mI'pf	*	*
+*Ipiano	*	*Ipiano	*	*
+*ICklav	*	*ICklav	*	*
+*IGsolo	*	*IGsolo	*	*
 *clefF4	*	*clefG2	*	*
 *k[b-e-]	*	*k[b-e-]	*	*
 *B-:	*	*B-:	*	*
@@ -34,8 +39,10 @@
 *>[AA1AA2BB1BB2C]	*>[AA1AA2BB1BB2C]	*>[AA1AA2BB1BB2C]	*>[AA1AA2BB1BB2C]	*>[AA1AA2BB1BB2C]
 =1	=1	=1	=1	=1
 *>A	*>A	*>A	*>A	*>A
-!	!	!LO:TX:a:Bi:t=Moderato	!	!
-!	!	!LO:TX:b:i:t=piano e legato	!	!
+!!!OMD:
+!!!OMD-mod: Moderato
+!	!	!LO:TX:a:Bi:t=Moderato:mod=	!	!LO:DY:t=p e legato
+!	!	!LO:TX:b:i:t=piano e legato:mod=	!	!LO:MO:null:mod=p
 16BB-\LL	4	2.d\ 2.f 2.dd	.	.
 16C\	3	.	.	.
 16C#X\	2	.	.	.
@@ -68,6 +75,7 @@
 16A\	3	.	.	.
 16c\	1	.	.	.
 16B-\JJ	3	.	.	.
+!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!LO:HP:a
 16d\LL	4	8b-\LsS	.	<
 16B-\	3	.	.	.
@@ -228,32 +236,38 @@
 16AA/JJ	1	.	.	.
 =15	=15	=15	=15	=15
 16BB-\	2	16dd/ 16ff 16bb-	.	.
-!	!	!LO:TX:b:t=m.d	!	!
+!LO:TX:a:t=m.d	!	!	!	!
 (16D/LL	.	16ryy	.	.
 16F/	.	8ryy	.	.
 16A/	.	.	.	.
 16B-/JJ)	.	16ryy	.	.
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=m.g.	!	!
+!	!	!	!	!
 16ryy	.	(16d\LL	.	.
-!	!	!LO:TX:a:t=m.g	!	!
+!	!	!LO:TX:a:t=m.g:mod=	!	!
 8ryy	.	16f\	.	.
 .	.	16a\	.	.
 4ryy	.	16b-\JJ)	.	.
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;t=m.d.	!	!
+!	!	!	!	!
 .	.	(16dd/LL	.	.
-!	!	!LO:TX:b:t=m.d	!	!
+!	!	!LO:TX:b:t=m.d:mod=	!	!
 .	.	16ff/	.	.
 .	.	16aa/JJ)	.	.
 =16	=16	=16	=16	=16
 *>A1	*>A1	*>A1	*>A1	*>A1
 *	*	*^	*	*
-!	!	!LO:TX:b:t=m.g	!	!	!
+!	!	!LO:TX:b:t=m.g:mod=	!	!	!
 4ryy	.	(16bb-\	16ryy	.	.
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=m.g.	!	!	!
+!	!	!	!	!	!
 .	.	16ff/LL	16r	5	.
 .	.	16een/	8r	4	.
 .	.	16ee-X/	.	3	.
 !	!	!LO:TX:b:t=m.d	!	!	!
 8ryy	.	16dd/	2ryy	2	.
-!	!	!LO:TX:a:t=problem:1 pod łukiem	!	!	!
-!	!	!LO:TX:a:t=1	!	!	!
+!	!	!LO:TX:t=P:problem=1 pod łukiem	!	!	!
+!	!	!LO:TX:a:t=1:mod=	!	!	!
 .	.	16cc/JJ	.	1	.
 4r	.	16b-/LL	.	3	.
 .	.	16a/	.	2	.
@@ -264,16 +278,20 @@
 !!LO:LB:g=original
 =17:|!	=17:|!	=17:|!	=17:|!	=17:|!	=17:|!
 *>A2	*>A2	*>A2	*>A2	*>A2	*>A1
-!	!	!LO:TX:a:t=m.g	!	!	!
+!	!	!LO:TX:a:t=m.g:mod=	!	!	!
 4ryy	.	(<16bb-\	16ryy	.	.
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=m.g.	!	!	!
+!	!	!	!	!	!
 .	.	16ccc#X/LL	16r	4	.
 .	.	16ddd/	8r	5	.
 .	.	16aa/	.	2	.
-!	!	!LO:TX:b:t=m.d	!	!	!
+!	!	!LO:TX:b:t=m.d:mod=	!	!	!
 8ryy	.	16cccn/	2ryy	5	.
 .	.	16bb-/JJ	.	4	.
-!	!	!LO:TX:a:t=problem:2 nad łukiem	!	!	!
-!	!	!LO:TX:b:t=2	!	!	!
+!	!	!LO:TX:t=P:problem=2 nad łukiem	!	!	!
+!	!	!LO:TX:b:t=2:mod=	!	!	!
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;t=m.d.	!	!	!
+!	!	!	!	!	!
 4r	.	16ff#X/LL	.	2	.
 .	.	16aa/	.	5	.
 .	.	16gg/	.	4	.
@@ -325,16 +343,22 @@
 .	.	16eee-\JJ	4	[
 !!LO:LB:g=original
 =21	=21	=21	=21	=21
+!LO:MO:mod=4DD/ 4D	!	!	!	!
 8DD/ 8D	.	16ddd\LL	3	>
 .	.	16ccc#X\	2	.
+!LO:MO:null:mod=.	!	!	!	!
 8r	.	16cccn\	1	.
 .	.	16bb-\	3	.
+!LO:MO:mod=8r	!	!	!	!
 4D\ 4An 4c	.	16aan\	2	.
 .	.	16gg\JJ	1	.
+!LO:MO:null:mod=4D\ 4An 4c	!	!	!	!
 .	.	16ff#X\LL	4	.
 .	.	16ee-\	3	.
+!LO:MO:null:mod=.	!	!	!	!
 4r	.	16dd\	2	.
 .	.	16cc\	1	.
+!LO:MO:null:mod=8r	!	!	!	!
 .	.	16b-\	3	.
 .	.	16a\JJ	2	]
 =22	=22	=22	=22	=22
@@ -365,18 +389,22 @@
 16a-X/	.	.	.	.
 16g/JJ	.	.	.	.
 =24	=24	=24	=24	=24
+!	!	!LO:MO:mod=4.cc\ 4.ff	!	!
 16A-X/LL	.	4cc\ 4ff	.	.
 16c/	.	.	.	.
 16f/	.	.	.	.
 16en/	.	.	.	.
+!	!	!LO:MO:null:mod=.	!	!
 16g/	.	8r	.	.
 16f/JJ	.	.	.	.
-!	!	!LO:TX:a:t=problem:takt niemiarowy, kropki przedłużające nuty	!	!
+!	!	!LO:TX:t=P:problem=takt niemiarowy, kropki przedłużające nuty	!	!
 !	!	!LO:N:vis=4.	!	!
+!	!	!LO:MO:mod=4.dd-X^<\ 4.een	!	!
 16B-/LL	.	4dd-X^<\ 4een	.	.
 16d-X/	.	.	.	.
 16en/	.	.	.	.
 16g/	.	.	.	.
+!	!	!LO:MO:null:mod=.	!	!
 16f/	.	8r	.	.
 16e/JJ	.	.	.	.
 !!LO:PB:g=original
@@ -666,33 +694,42 @@
 16AA/JJ	.	.	.	.
 =46	=46	=46	=46	=46
 16BB-\	.	16dd\ 16ff 16bb-	.	.
+!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=m.d.	!	!	!	!
 !LO:TX:b:t=m.d	!	!	!	!
 16D/LL	.	16ryy	.	.
 16F/	.	8ryy	.	.
 16A/	.	.	.	.
 16B-/JJ	.	16ryy	.	.
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=m.g.	!	!
+!	!	!	!	!
 16ryy	.	16d\LL	.	.
-!	!	!LO:TX:a:t=m.g	!	!
+!	!	!LO:TX:a:t=m.g:mod=	!	!
 8ryy	.	16f\	.	.
 .	.	16a\	.	.
 4ryy	.	16b-\JJ	.	.
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;t=m.d.	!	!
+!	!	!	!	!
 .	.	16dd/LL	.	.
-!	!	!LO:TX:b:t=m.d	!	!
+!	!	!LO:TX:b:t=m.d:mod=	!	!
 .	.	16ff/	.	.
 .	.	16aa/JJ	.	.
 =47	=47	=47	=47	=47
 *>B1	*>B1	*>B1	*>B1	*>B1
 *	*	*^	*	*
-!	!	!LO:TX:a:t=m.g	!	!	!
+!	!	!LO:TX:a:t=m.g:mod=	!	!	!
 4ryy	.	(<16bb-\	16ryy	.	.
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=m.g.	!	!	!
+!	!	!	!	!	!
 .	.	16ccc#X/LL	16r	.	.
 .	.	16ddd/	8r	.	.
 .	.	16aa/	.	.	.
-!	!	!LO:TX:b:t=m.d	!	!	!
+!	!	!LO:TX:b:t=m.d:mod=	!	!	!
 8ryy	.	16cccn/	2ryy	.	.
 .	.	16bb-/JJ	.	.	.
-!	!	!LO:TX:a:t=problem:1 pod łukiem	!	!	!
-!	!	!LO:TX:b:t=1	!	!	!
+!	!	!LO:TX:t=P:problem=1 pod łukiem	!	!	!
+!	!	!LO:TX:b:t=1:mod=	!	!	!
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;t=m.d.	!	!	!
+!	!	!	!	!	!
 4r	.	16ff#X/LL	.	.	.
 .	.	16aa/	.	.	.
 .	.	16gg/	.	.	.
@@ -701,23 +738,27 @@
 .	.	16dd/JJ)	.	.	.
 =48:|!	=48:|!	=48:|!	=48:|!	=48:|!	=48:|!
 *>B2	*>B2	*>B2	*>B2	*>B2	*>B2
-!	!	!LO:TX:b:t=m.g	!	!	!
+!	!	!LO:TX:b:t=m.g:mod=	!	!	!
 4ryy	.	(16bb-\	16ryy	.	.
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;a&colon;t=m.g.	!	!	!
+!	!	!	!	!	!
 .	.	16ff/LL	16r	.	.
 .	.	16een/	8r	.	.
 .	.	16ee-X/	.	.	.
-!	!	!LO:TX:b:t=m.d	!	!	!
+!	!	!LO:TX:b:t=m.d:mod=	!	!	!
 8ryy	.	16dd/	2ryy	.	.
-!	!	!LO:TX:a:t=problem:2 pod łukiem	!	!	!
-!	!	!LO:TX:a:t=2	!	!	!
+!	!	!LO:TX:t=P:problem=2 pod łukiem	!	!	!
+!	!	!LO:TX:a:t=2:mod=	!	!	!
 .	.	16cc/JJ	.	.	.
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;t=m.d.	!	!	!
+!	!	!	!	!	!
 4r	.	16b-/LL	.	.	.
 .	.	16a/	.	.	.
 .	.	16g/	.	.	.
 .	.	16f/	.	.	.
-!LO:TX:v:t=3 0 4 3	!	!	!	!	!
+!LO:TX:v:t=3 0 4 3:mod=	!	!	!	!	!
 8r	.	16en/	.	.	.
-!	!	!LO:TX:b:i:t=V.S	!	!	!
+!	!	!LO:TX:b:i:t=V.S:mod=	!	!	!
 .	.	16f/JJ)	.	.	.
 *	*	*v	*v	*	*
 !!LO:LB:g=original
@@ -956,6 +997,7 @@
 .	.	24gg#X\	.	.
 .	.	24aa\JJ)	.	.
 =66	=66	=66	=66	=66
+!	!	!LO:SIC:s=(32bb-\LLL	!	!
 4c\ 4e- 4f	.	32bb-\LLL	.	.
 .	.	32bbn\	.	.
 .	.	32ccc\	.	.
@@ -967,6 +1009,7 @@
 8F\	.	32fff#X\	.	.
 .	.	32ggg\	.	.
 .	.	32ggg#X\	.	.
+!	!	!LO:SIC:s=32aaa\JJJ)	!	!
 .	.	32aaa\JJJ	.	.
 4B-\ 4d	.	4bbb-\	.	.
 8r	.	8r	.	.
@@ -981,5 +1024,7 @@
 !!!RDF**kern: >= above
 !!!ENC: Anna Matuszewska
 !!!END: 2020-07-19
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
