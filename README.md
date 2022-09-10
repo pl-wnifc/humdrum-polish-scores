@@ -26,7 +26,7 @@ People and Sponsors
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
 | 2022-09-08 |  |  | 1 |  |  |
 | Jan Barakat |  |  | 220 |  | 99 |
-| Lidia Bialucha |  |  |  |  | 28 |
+| Lidia Bialucha |  |  |  |  | 30 |
 | Andrzej Borzym | 373 | 606,570 | 428 | 210 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 12 |
 | Elżbieta Cabała |  |  |  |  | 59 |
@@ -52,7 +52,7 @@ People and Sponsors
 | Mateusz Mrugas | 1 | 2,963 | 237 |  | 80 |
 | Jędrzej Mróz | 21 | 3,957 | 242 |  |  |
 | Zofia Niedbalska | 1 | 425 | 74 |  |  |
-| Marta Opryszak | 166 | 251,022 | 1 |  | 50 |
+| Marta Opryszak | 166 | 251,022 | 1 |  | 51 |
 | Julita Ruszuk | 2 | 1,517 | 136 |  |  |
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
 | Katarzyna Serwa | 312 | 535,966 | 249 | 52 |  |
@@ -66,7 +66,7 @@ People and Sponsors
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 78 |
 | Urszula Świątek | 3 | 3,016 | 201 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 2 |
-| TOTALS | 7,056 | 10,376,464 | 6,430 | 590 | 791 |
+| TOTALS | 7,056 | 10,376,464 | 6,430 | 590 | 794 |
 
 </details>
 
