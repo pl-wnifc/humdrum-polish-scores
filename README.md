@@ -29,7 +29,7 @@ People and Sponsors
 | Lidia Bialucha |  |  |  |  | 28 |
 | Andrzej Borzym | 373 | 606,570 | 428 | 210 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 12 |
-| Elżbieta Cabała |  |  |  |  | 56 |
+| Elżbieta Cabała |  |  |  |  | 59 |
 | Marta Chmielewska | 153 | 191,995 | 461 |  |  |
 | Zuzanna Daniec |  |  |  |  | 4 |
 | Olaf Gawdzik |  |  |  |  | 11 |
@@ -67,7 +67,7 @@ People and Sponsors
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 78 |
 | Urszula Świątek | 3 | 3,016 | 201 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 2 |
-| TOTALS | 7,056 | 10,376,462 | 6,430 | 589 | 788 |
+| TOTALS | 7,056 | 10,376,462 | 6,430 | 589 | 791 |
 
 </details>
 
