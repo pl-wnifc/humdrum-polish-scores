@@ -38,7 +38,7 @@ People and Sponsors
 | Jacek Iwaszko | 1 | 219 | 2 | 1 |  |
 | Marcin Jachim | 570 | 880,723 | 1 |  |  |
 | Wojciech Jakubiak-Danek |  |  | 378 |  |  |
-| Berenika Jozajtis | 699 | 1,079,867 | 3 |  |  |
+| Berenika Jozajtis | 699 | 1,079,869 | 3 |  |  |
 | Marcin Konik | 5 | 192 | 5 |  |  |
 | Magdalena Agnieszka Krok |  |  |  |  | 5 |
 | Leszek Kubiak | 40 | 9,344 | 805 | 113 |  |
@@ -53,10 +53,9 @@ People and Sponsors
 | Jędrzej Mróz | 21 | 3,957 | 242 |  |  |
 | Zofia Niedbalska | 1 | 425 | 74 |  |  |
 | Marta Opryszak | 166 | 251,022 | 1 |  | 50 |
-| Julita Ruszuk | 2 | 1,517 | 135 |  |  |
-| Juita Ruszuk |  |  | 1 |  |  |
+| Julita Ruszuk | 2 | 1,517 | 136 |  |  |
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
-| Katarzyna Serwa | 312 | 535,966 | 249 | 51 |  |
+| Katarzyna Serwa | 312 | 535,966 | 249 | 52 |  |
 | Mateusz Solarz | 596 | 888,336 | 10 |  |  |
 | Krzysztof Stępień | 476 | 692,241 | 122 | 4 |  |
 | Antoni Szymański |  |  | 543 |  | 60 |
@@ -67,7 +66,7 @@ People and Sponsors
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 78 |
 | Urszula Świątek | 3 | 3,016 | 201 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 2 |
-| TOTALS | 7,056 | 10,376,462 | 6,430 | 589 | 791 |
+| TOTALS | 7,056 | 10,376,464 | 6,430 | 590 | 791 |
 
 </details>
 
@@ -104,7 +103,7 @@ to visit its webpage.
 The `Scores` column lists the number of digital transcriptions within
 each archive directory, and the `Notes` column gives the number of
 musical notes contained within those scores.   Currently there are
-7,058 scores containing a total of 10,376,818 notes.
+7,058 scores containing a total of 10,376,820 notes.
 
 <details><summary>Archives represented in repository</summary>
 
@@ -121,7 +120,7 @@ musical notes contained within those scores.   Currently there are
 | <a target="_blank" href="https://polishscores.org?s=pl-wn"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wn.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wn](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wn/kern)</span></span> | [Polish National Library](https://www.bn.org.pl/en) | 493 | 6.9 | 750,176 | 7.2 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wnifc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wnifc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wnifc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wnifc/kern)</span></span> | [Chopin Institute, Warsaw](https://nifc.pl/en) | 344 | 4.8 | 271,303 | 2.6 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wtm"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wtm.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern)</span></span> | [Warsaw Music Society](http://warszawskietowarzystwomuzyczne.pl/biblioteka/) | 1,162 | 16.4 | 2,232,114 | 21.5 |
-| <a target="_blank" href="https://polishscores.org?s=pl-wumfc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wumfc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern)</span></span> | [Chopin University of Music](http://www.biblioteka.chopin.edu.pl/pl) | 100 | 1.4 | 81,585 | 0.7 |
+| <a target="_blank" href="https://polishscores.org?s=pl-wumfc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wumfc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern)</span></span> | [Chopin University of Music](http://www.biblioteka.chopin.edu.pl/pl) | 100 | 1.4 | 81,587 | 0.7 |
 
 </details>
 
@@ -392,7 +391,7 @@ Composers
 | Osmański, Wojciech | 4 | 4,087 |
 | Ostrowski, Jan | 1 | 1,063 |
 | Pacelli, Asprilio | 9 | 9,933 |
-| Paderewski, Ignacy Jan | 100 | 81,585 |
+| Paderewski, Ignacy Jan | 100 | 81,587 |
 | Palestrina, Giovanni Pierluigi da | 46 | 20,717 |
 | Paszkiewicz, Andrzej | 3 | 1,031 |
 | Pausch, Eugen | 7 | 11,805 |
@@ -533,7 +532,7 @@ Composers
 | Volckmer, Augustin | 119 | 414,631 |
 | Zieleński, Mikołaj | 108 | 73,359 |
 | Walczyński, Franciszek | 106 | 20,219 |
-| Paderewski, Ignacy Jan | 100 | 81,585 |
+| Paderewski, Ignacy Jan | 100 | 81,587 |
 | Luna, Georgius | 92 | 251,534 |
 | Noskowski, Zygmunt | 88 | 141,733 |
 | Sowiński, Wojciech | 79 | 222,160 |
@@ -906,7 +905,7 @@ Composers
 | Zeidler, Józef | 32 | 101,424 |
 | Wieniawski, Henryk | 36 | 89,137 |
 | Dobrzyński, Ignacy Feliks | 30 | 88,081 |
-| Paderewski, Ignacy Jan | 100 | 81,585 |
+| Paderewski, Ignacy Jan | 100 | 81,587 |
 | Koperski, Maksymilian | 24 | 78,938 |
 | Engel, Jan | 29 | 78,428 |
 | Kątski, Apolinary | 20 | 78,035 |
