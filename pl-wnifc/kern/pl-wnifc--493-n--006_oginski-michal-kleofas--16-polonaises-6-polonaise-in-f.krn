@@ -18,22 +18,29 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/nifc%3A212371/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/16843 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: w zbiorze znajduje się 14 Polonezów z Triami, pliki są numerowane jak w źródle.
-!!!OMD: Moderato.
 !!!AIN: 1 piano
 !!!key: F
+!!!OMD: Moderato.
+!!!OMD-mod: Moderato
+!!!filter-modern: sic -s | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L"  | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam
 *part1	*part1	*part1
 *staff2	*staff1	*
 *>[A,A,B,B,C,C1,C,C2,D,D,A]	*>[A,A,B,B,C,C1,C,C2,D,D,A]	*
-*>A	*>A	*
-*Ipiano	*Ipiano	*
 *I"Piano.	*I"Piano.	*
 *I'	*I'	*
+*Ipiano	*Ipiano	*
+*ICklav	*ICklav	*
+*IGsolo	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
 *clefF4	*clefG2	*
 *k[b-]	*k[b-]	*
 *F:	*F:	*
 *M3/4	*M3/4	*
 =1	=1	=1
+*>A	*>A	*
+!	!	!LO:MO:null:mod=!LO&colon;DY&colon;t=%s dolce
 !	!	!LO:DY:t=%s dolce.
 (8AL 8F\	(2cc\	p
 8c\	.	.
@@ -162,17 +169,20 @@
 .	16bb-X\	.
 (>8b- 8g 8c/	16gg\	.
 .	16ee\JJ)	[
-!LO:TX:b:Bi:t=Fine.	!	!
+!LO:TX:b:Bi:t=Fine.:mod=	!	!
 4a 4f/)	4ff\	.
 *clefF4	*	*
+!!LO:TX:a:B:rj:t=:mod=Fine
 !!LO:PB:g=original
 =13:|!|:	=13:|!|:	=13:|!|:
 *>B	*>B	*
 *	*	*^
-!	!	!LO:DY:t=p dol.	!LO:DY:t=%s dol.
+!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;t=%s dolce
+!	!	!LO:MO:null:mod=.	!LO:DY:t=%s dol.
 (8CL 8CC\	([4gg\	<	p
 8G\	.	.	.
 8E\	8gg\L]	.	.
+!	!	!LO:MO:null:mod=<	!
 8G\	8eee\	.	.
 8C\	8ddd\	.	.
 8G\J)	8ccc\J)	[	.
@@ -242,6 +252,7 @@
 .	16aa\JJ)	[
 *clefG2	*	*
 =21	=21	=21
+!	!	!LO:MO:null:mod=!LO&colon;DY&colon;t=%s scherzando
 !	!	!LO:DY:t=%s scherzando.
 8g 8c/	8bb-X'\L	p
 8r	(16bn\L	.
@@ -282,7 +293,7 @@
 .	8cc'\J)	.
 *clefF4	*	*
 =25	=25	=25
-!	!LO:TX:b:i:t=dolce.	!
+!	!LO:TX:b:i:t=dolce.:mod=dolce	!
 (8AL 8F\	(2cc\	.
 8c\	.	.
 8A 8F\	.	.
@@ -412,8 +423,10 @@
 4a 4f/)	4ff\	.
 *clefF4	*	*
 !!LO:PB:g=original
+!LO:MO:mod==37:|!|:	!LO:MO:mod==37:|!|:	!LO:MO:mod==37:|!|:
 =37:|!	=37:|!	=37:|!
 *>C	*>C	*
+!	!	!LO:MO:null:mod=!LO&colon;DY&colon;t=%s scherzando
 !	!LO:TX:a:t=Trio.	!LO:DY:t=%s scherzando.
 (8AL 8F\	(16bn\LL	p
 .	16cc\	.
@@ -576,7 +589,7 @@
 8B-X 8G\	.	.
 8GJ 8C\	.	[
 =54	=54	=54
-!	!LO:TX:a:i:t=scherzando.	!
+!	!LO:TX:a:i:t=scherzando.:mod=scherzando	!
 (8AL 8F\	(16bn\LL	>
 .	16cc\	.
 8c\	16dd\	.
@@ -653,7 +666,9 @@
 .	(8cc'\L	p
 4r	8cc'\	.
 .	8cc'\J)	.
-!LO:TX:b:i:t=Da Capo\nal Fine.	!	!
+!LO:TX:b:i:t=Da Capo\nal Fine.:mod=	!	!
+!!LO:TX:a:B:t=:mod=Da Capo al Fine
+!LO:MO:mod==:|!	!LO:MO:mod==:|!	!LO:MO:mod==:|!
 ==	==	==
 *-	*-	*-
 !!!system-decoration: {(*)}
@@ -663,5 +678,7 @@
 !!!END: 2022-07-25
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-08-22
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

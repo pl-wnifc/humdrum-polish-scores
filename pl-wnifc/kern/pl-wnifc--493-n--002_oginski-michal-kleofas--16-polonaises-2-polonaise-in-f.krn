@@ -19,8 +19,10 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/16843 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: w zbiorze znajduje się 14 Polonezów z Triami, pliki są numerowane jak w źródle.
 !!!OMD: Poco Adagio.
+!!!OMD-mod: Poco adagio
 !!!AIN: 1 piano
 !!!key: f
+!!!filter-modern: sic -s | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam
 *part1	*part1	*part1
 *staff2	*staff1	*
@@ -30,6 +32,9 @@
 *I'	*I'	*
 *Ipiano	*Ipiano	*
 *ICklav	*ICklav	*
+*IGsolo	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
 *clefF4	*clefG2	*
 *k[b-e-a-d-]	*k[b-e-a-d-]	*
 *f:	*f:	*
@@ -106,12 +111,14 @@
 8d-J 8D-\	8bJ 8g 8f/	.
 =8	=8	=8
 4c 4C\	4cc: 4g: 4en:/	.
+!	!	!LO:MO:null:mod=p
 4r	8ccL 8c/	.
+!	!	!LO:MO:null:mod=.
 .	8dd- 8d-/	p
 4r	8ddn 8dn/	.
 .	8ee-J 8e-X/	.
 =9	=9	=9
-!	!LO:TX:b:i:t=dolce.	!
+!	!LO:TX:b:i:t=dolce.:mod=dolce	!
 8A-L 8AA-\	[>4a-/	.
 8e-J 8c 8A-\	.	.
 8e-L 8c 8A-\	8a-\L]	.
@@ -174,7 +181,9 @@
 =15	=15	=15
 [4d- [4D-\	[4b- [4f/	f
 8d-]L 8D-\]	8b-]L 8f/]	.
+!	!LO:SIC:s=8bn 8a- 8f/	!
 8d- 8D-\	8bnJ 8a- 8f/	p
+!	!LO:SIC:s=8cc 8a- 8f/	!
 8c 8C\	8ccL 8a- 8f/	.
 8cJ 8C\	8ccJ 8a- 8f/	.
 =16	=16	=16
@@ -185,15 +194,18 @@
 .	(4g 4en 4B-/	.
 8C/	.	.
 8F\	8f 8A-/)	.
-!	!LO:TX:b:Bi:t=Fine.	!
+!	!LO:TX:b:Bi:t=Fine.:mod=	!
 8r	8r	.
+!!LO:TX:a:B:rj:t=:mod=Fine
 !!LO:PB:g=original
 =17||	=17||	=17||
 *>B	*>B	*
 8.CL 8.CC/	8.ccL 8.c/	f
 16D-Jk 16DD-/	16dd-Jk 16d-/	.
 [2C [2CC/	8cc 8c/	.
+!	!	!LO:MO:null:mod=p
 .	(8cccL 8cc\	.
+!	!	!LO:MO:null:mod=.
 .	8bbn 8ddn\	p
 .	8bb-XJ 8een\	.
 =18	=18	=18
@@ -242,7 +254,9 @@
 !!LO:LB:g=original
 =24	=24	=24
 8FF 8FFF/	8f 8F/	f
+!	!	!LO:MO:null:mod=p
 8cL 8A-'\	8r	.
+!	!	!LO:MO:null:mod=.
 8d- 8B-'\	4r	p
 8c 8A-'\	.	.
 8B- 8G'\	4r	.
@@ -301,14 +315,18 @@
 8F\	8f 8A-/))	.
 8r	8r	.
 !!LO:LB:g=original
+!LO:MO:mod==30!|:	!LO:MO:mod==30!|:	!LO:MO:mod==30!|:
 =30||	=30||	=30||
 !!!OMD: Maggiore.
+!!!OMD-mod: Maggiore
 *>C	*>C	*
 *k[b-]	*k[b-]	*
 *M3/4	*M3/4	*
 *^	*	*
+!	!	!	!LO:MO:mod=!null:null
 !	!	!LO:TX:a:t=Trio.	!LO:DY:t=p dolce.
 8FL 8FF/	2F\	4.a/	p
+!LO:TX:i:t=dolce	!	!	!
 8c 8A/	.	.	.
 8c 8A/	.	.	.
 8cJ 8A/	.	8asSsS/	.
@@ -400,9 +418,9 @@
 =38:|!|:	=38:|!|:	=38:|!|:
 *>D	*>D	*
 8bb->/	(>16gLL 16e\	f
-!	!LO:TX:b:t=M.G.	!
+!	!LO:TX:b:t=M.G.:mod=m.g.	!
 .	16cc\	.
-!LO:TX:b:t=M.D.	!	!
+!LO:TX:b:t=M.D.:mod=m.d.	!	!
 8B-'\L	16g 16e\	.
 .	16cc\JJ	.
 8G'\	16gLL 16e\	.
@@ -455,7 +473,7 @@
 .	16cc/JJ)	.
 *clefG2	*	*
 =42	=42	=42
-!LO:TX:b:t=M.G.	!LO:TX:a:t=M.D.	!
+!LO:TX:b:t=M.G.:mod=m.g.	!LO:TX:a:t=M.D.:mod=m.d.	!
 8c/L	4ee\	.
 8cc/	.	.
 8d/	8.ffT\L	<
@@ -466,17 +484,19 @@
 8b-X/J	.	[
 !!LO:LB:g=original
 =43	=43	=43
+!	!	!LO:MO:mod=!null:null
 !	!	!LO:HP:t=dimin.
 8f/L	(4aa\	>
 8a/	.	.
 8B-/	4ddd\	.
 8g/	.	.
+!	!	!LO:MO:mod=!null:null
 !	!	!LO:HP:b=2
 8Bn/	4ff^\)	>
 8a-X/J	.	]]
 =44	=44	=44
 *^	*	*
-!	!	!LO:TX:b:B:t=a tempo.	!
+!	!	!LO:TX:b:B:t=a tempo.:mod=	!
 8c/L	2c\	(4.cc^\	.
 8an 8f/	.	.	.
 8a 8f/	.	.	.
@@ -495,7 +515,8 @@
 8b-L 8e 8c/	.	.
 8aJ 8f/	8ff\)	.
 8r	8r	.
-!LO:TX:b:i:t=Da Capo al Fine.	!	!
+!LO:TX:b:i:t=Da Capo al Fine.:mod=	!	!
+!!LO:TX:a:B:t=:mod=Da Capo al Fine
 =:|!	=:|!	=:|!
 *-	*-	*-
 !!!system-decoration: {(*)}
@@ -505,5 +526,7 @@
 !!!END: 2022-07-24
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-08-22
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

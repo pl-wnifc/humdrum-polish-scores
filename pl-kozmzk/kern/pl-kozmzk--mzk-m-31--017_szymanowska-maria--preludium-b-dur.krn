@@ -20,18 +20,25 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/462 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
 !!!AIN: 1 piano
-!!!key:
+!!!key: B-
+!!!OMD:
+!!!OMD-mod: Con fuoco
+!!!filter-modern: sic -sq | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B"  | autostem -r | modori -m
 **kern	**kern	**dynam
 *part1	*part1	*part1
 *staff2	*staff1	*
-*Ipiano	*Iempty	*
-*I"Piano	*	*
-*I'P-no	*	*
+*I"Piano	*I"Piano	*
+*I'P-no	*I'P-no	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
+*Ipiano	*Ipiano	*
+*ICklav	*ICklav	*
+*IGsolo	*IGsolo	*
 *clefF4	*clefG2	*
 *k[b-e-]	*k[b-e-]	*
 *B-:	*B-:	*
 *M6/8	*M6/8	*
-!	!LO:TX:a:B:t=Con fuoco	!
+!	!LO:TX:a:B:t=Con fuoco:mod=	!
 8r	8ffs$\	.
 =1	=1	=1
 !LO:TX:a:t=P:problem=mixed beam	!	!
@@ -97,6 +104,8 @@
 16d\	16ff\L 16ddd\	.
 16B-\	16een\ 16ccc#X\	.
 16F\JJ)	16ff\JJ 16ddd\	.
+!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;t=[simile]	!	!
+!	!	!
 16BB-\LL	(16een\LL 16ccc#X\	.
 16F\	16ff\) 16ddd\	.
 16B-\	(16ee\ 16ccc#\	.
@@ -149,13 +158,21 @@
 16D\	.	.
 16F\	.	.
 16B-\	.	.
+!	!LO:SIC:s=16en/LL 16cc#X/(	!
 16F\	16en/LL 16cc#X/	.
+!	!LO:SIC:s=16f/JJ 16dd/)	!
 16D\JJ	16f/JJ 16dd/	.
+!	!LO:SIC:s=16e/LL 16cc#/(	!
 16BB-\LL	16e/LL 16cc#/	.
+!	!LO:SIC:s=16f/ 16dd/)	!
 16D\	16f/ 16dd/	.
+!	!LO:SIC:s=16e/ 16cc#/(	!
 16F\	16e/ 16cc#/	.
+!	!LO:SIC:s=16f/ 16dd/)	!
 16B-\	16f/ 16dd/	.
+!	!LO:SIC:s=16e/ 16cc#/(	!
 16F\	16e/ 16cc#/	.
+!	!LO:SIC:s=16f/JJ 16dd/)	!
 16D\JJ	16f/JJ 16dd/	.
 !!LO:LB:g=original
 =10	=10	=10
@@ -178,13 +195,21 @@
 16EE-/	.	.
 16C/	.	.
 16EE-/	.	.
+!	!LO:SIC:s=16d/LL 16bn/(	!
 16GGG/	16d/LL 16bn/	.
+!	!LO:SIC:s=16e-/JJ 16cc/)	!
 16EE-/JJ	16e-/JJ 16cc/	.
+!	!LO:SIC:s=16d/LL 16b/(	!
 16GGG/LL	16d/LL 16b/	.
+!	!LO:SIC:s=16e-/ 16cc/)	!
 16DD/	16e-/ 16cc/	.
+!	!LO:SIC:s=16d/ 16b/(	!
 16BBn/	16d/ 16b/	.
+!	!LO:SIC:s=16e-/ 16cc)/	!
 16DD/	16e-/ 16cc/	.
+!	!LO:SIC:s=16d/ 16b/(	!
 16GGG/	16d/ 16b/	.
+!	!LO:SIC:s=16e-/JJ 16cc/)	!
 16DD/JJ	16e-/JJ 16cc/	.
 =12	=12	=12
 4CC/	16e-`/ 16cc/	.
@@ -288,7 +313,7 @@
 .	16g/ 16een/	.
 .	16a/ 16cc/	.
 .	16f/ 16dd/	.
-!	!LO:TX:b:t=per - dendosi	!
+!	!LO:TX:b:t=per - dendosi:mod=perdendosi	!
 .	16g/ 16bn/	.
 .	16en/JJ 16cc/	.
 .	16f/LL 16a/	.
@@ -376,17 +401,17 @@
 =26	=26	=26
 4EE/ 4E/	4b\ 4ee\ 4gg\ 4bb\	.
 16E\LL 16G\	16e/LL 16g/	p
-!	!LO:SIC:o:s=:v:f#	!
+!LO:SIC:v:s=16F#\JJ 16A\	!	!
 16F\JJ 16A\	16f#X/JJ 16a/	.
 16G\LL 16B\	16g/LL 16b/	.
 16A\ 16c\	16a/ 16cc/	.
 16G\ 16B\	16g/ 16b/	.
-!	!LO:SIC:o:s=:v:f#	!
+!LO:SIC:v:s=16F#\ 16A\	!	!
 16F\ 16A\	16f#/ 16a/	.
 16E#X\ 16G#X\	16e#X/ 16g#X/	.
 16C#X\JJ 16c#X\	16cc#X/JJ 16ee#X/ 16gg#X/ 16ccc#X/	.
 =27	=27	=27
-!	!LO:SIC:o:s=:v:cc#	!
+!	!LO:SIC:v:s=16cc#\ 16ff#X\ 16aa#X\ 16ccc#X\	!
 4FF#X/ 4F#X/	16cc\ 16ff#X\ 16aa#X\ 16ccc#X\	f
 .	16ff#\LL 16fff#X\	.
 .	16bb\ 16ddd\	.
@@ -427,7 +452,7 @@
 .	16ff#\ 16aa\	.
 .	16dd#X\JJ 16bb\	.
 =30	=30	=30
-!	!LO:TX:b:t=man-can-do	!
+!	!LO:TX:b:t=man-can-do:mod=mancando	!
 2.r	16ff#X\LL 16aa\	.
 .	16ee\ 16ccc\	.
 .	16ff#\ 16aa\	.
@@ -440,7 +465,7 @@
 .	16ee\ 16ccc\	.
 .	16ff#\ 16aa\	.
 .	16dd#\JJ 16bb\	.
-!LO:TX:b:t=3043	!	!
+!LO:TX:b:t=3043:mod=	!	!
 !!LO:PB:g=original
 =31||	=31||	=31||
 *k[f#c#g#d#]	*k[f#c#g#d#]	*
@@ -598,8 +623,9 @@
 16CC/	(16F#/ 16d#/	.
 16AA#/JJ	16G/JJ) 16e/	.
 *Xrep	*	*
+*kcancel	*kcancel	*
 =42||	=42||	=42||
-*k[fncngndnb-e-]	*k[fncngndnb-e-]	*
+*k[b-e-]	*k[b-e-]	*
 16CC/LL	4B-/ 4g/	.
 16GG/	.	.
 16En/	.	.
@@ -621,8 +647,9 @@
 16C/	.	.
 16FF/	(16G#X/LL 16en/	.
 16C/JJ	16A/JJ) 16f/	.
-!	!LO:TX:b:t=poco a poco	!
 *rep	*	*
+!	!LO:TX:b:t=poco a poco:mod=	!LO:HP:ed=brack
+!	!	!LO:MO:null:mod=<
 16FF/LL	(16G#/LL 16e/	.
 16C/	16A/) 16f/	.
 16F/	(16G#/ 16e/	.
@@ -636,14 +663,22 @@
 16E-/	.	.
 16A/	.	.
 16E-/	.	.
+!	!LO:SIC:s=16Bn/LL 16g#X/(	!
 16FF/	16Bn/LL 16g#X/	.
+!	!LO:SIC:s=16c/JJ 16a/)	!
 16E-/JJ	16c/JJ 16a/	.
 *rep	*	*
+!	!LO:SIC:s=16B/LL 16g#/(	!
 16FF/LL	16B/LL 16g#/	.
+!	!LO:SIC:s=16c/ 16a/)	!LO:MO:null:mod=.
 16E-/	16c/ 16a/	<
+!	!LO:SIC:s=16B/ 16g#/(	!
 16A/	16B/ 16g#/	.
+!	!LO:SIC:s=16c/ 16a/)	!
 16E-/	16c/ 16a/	.
+!	!LO:SIC:s=16B/ 16g#/(	!
 16FF/	16B/ 16g#/	.
+!	!LO:SIC:s=16c/JJ 16a/)	!LO:MO:null:mod=[
 16E-/JJ	16c/JJ 16a/	.
 *Xrep	*	*
 =45	=45	=45
@@ -764,7 +799,7 @@
 16FFF/	16d/ 16f/	.
 16FF/JJ	16B-/JJ 16g/	.
 16FFF/LL	16c/LL 16e-/	.
-!	!LO:TX:b:t=per-den-do-si	!
+!	!LO:TX:b:t=per-den-do-si:mod=perdendosi	!
 16FF/	16A/ 16f/	.
 16FFF/	16c/ 16e-/	.
 16FF/	16A/ 16g-X/	.
@@ -804,11 +839,15 @@
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!LO:MO:ori
 !!!RDF**dynam: > = dim
 !!!RDF**dynam: < = cres
+!!LO:MO:end
 !!!EED: Leszek Kubiak
 !!!EEV: 2020-07-21
 !!!ENC: Marcin Jachim
 !!!END: 2020-06-16
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

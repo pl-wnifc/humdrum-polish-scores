@@ -21,20 +21,26 @@
 !!!ONB-nifc:
 !!!AIN: 2 piano
 !!!key: E-
+!!!OMD:
+!!!OMD-mod: Vivace
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam
 *part2	*part1	*part1
 *staff2	*staff1	*
-*I"Piano	*I"Piano	*
-*I'pf	*I'pf	*
-*ICklav	*ICklav	*
+*I"Pianoforte	*I"Pianoforte	*
+*I'	*I'	*
 *Ipiano	*Ipiano	*
+*ICklav	*ICklav	*
+*IGsolo	*IGsolo	*
+*mI'pf	*mI'pf	*
 *clefF4	*clefG2	*
 *k[b-e-a-]	*k[b-e-a-]	*
 *E-:	*E-:	*
 *M4/4	*M4/4	*
 *met(c)	*met(c)	*
+*mmet(c)	*mmet(c)	*
 =1	=1	=1
-!	!LO:TX:a:B:t=Vivace	!
+!	!LO:TX:a:B:t=Vivace:mod=	!
 1DD; 1D	2r	.
 .	2a-^<;\ 2b- 2ff#X	.
 =2	=2	=2
@@ -215,7 +221,7 @@
 8BB-/ 8F	8f\ 8b-	.
 8DD/	8ff\	.
 8BB-/J 8F	8f\J 8b-	.
-!	!LO:TX:b:t=cre-scen-do:dur=14e:ext=c:problem:text with extention lines 	!
+!	!LO:TX:b:t=cre-scen-do:dur=14e:ext=c:problem:text with extention lines:mod=	!
 8EE-/L	8aan^\L	<
 8E-/ 8G	8g\ 8ee-	.
 8EE-/	8gg\	.
@@ -245,8 +251,10 @@
 8C\	8aaan\	.
 8A\J 8f	8ccc\J 8eee-	.
 8D\L	8cccc\L	.
+!LO:SIC:v:s=8B-\ 8f	!	!
 8B-\ 8g	8ddd\ 8fff	.
 8D\	8bbb-\	.
+!LO:SIC:v:s=8B-\ 8fJ	!	!
 8B-\J 8g	8ddd\J 8fff	.
 =25	=25	=25
 8E-\L	8aaan\L	.
@@ -416,6 +424,7 @@
 8En\L	8aan\L	.
 8B-\ 8c#X	8b-\ 8een	.
 8E\	8gg\	.
+!LO:SIC:v:s=8B-\ 8c#J	!	!
 8B-\J 8d	8b-\J 8ee	.
 8C#X\L	8bb-^\L	.
 8An\ 8en	8an\ 8ee	.
@@ -442,8 +451,10 @@
 8G\J 8f	8g\J 8b	.
 =46	=46	=46
 8C\L	8ccc\L	.
+!LO:SIC:v:s=8G\ 8e	!	!
 8G\ 8e-X	8g\ 8cc	.
 8C\	8gg\	.
+!LO:SIC:v:s=8G\ 8eJ	!	!
 8G\J 8e-	8g\J 8cc	.
 8C\L	8aan\L	.
 8G\ 8f	8g\ 8bn	.
@@ -451,8 +462,10 @@
 8G\J 8f	8g\J 8b	.
 =47	=47	=47
 8C\L	8ee-X\L	pp
+!LO:SIC:v:s=8G\ 8e-	!	!
 8G\ 8en	8g\ 8cc	.
 8C\	8gg\	.
+!LO:SIC:v:s=8G\ 8e-J	!	!
 8G\J 8e	8g\J 8cc	.
 8C\L	8aa-X^\L	.
 8G\ 8f	8g\ 8bn	.
@@ -592,6 +605,7 @@
 =62	=62	=62
 8BB-\L	8bb-\L	.
 8E-\ 8G-X 8B-	8b-\ 8ee- 8gg-X	.
+!	!	!LO:MO:mod=!null:null
 !	!	!LO:HP:b:t=dim
 8BB-\	8bb-\	>
 8E-\J 8G- 8B-	8cc\J 8ee- 8gg-	.
@@ -656,7 +670,7 @@
 8E\	8bb/	.
 8B\J 8d#	8a/J 8b	[[
 =69	=69	=69
-!	!LO:TX:b:i:t=espres	!
+!	!LO:TX:b:i:t=espres:mod=espress.	!
 8E\L	8gg#/L	.
 8B\ 8e	8g#/ 8b	.
 8E\	8ff#/	.
@@ -805,8 +819,7 @@
 8D/ 8F	8aa-\ 8bb-	.
 8EE-/J	8bbb-\J	.
 =85	=85	=85
-!	!	!
-!	!LO:TX:b:t=per-den-do-si:dur=16e:ext=u:problem:text with extention lines 	!
+!	!LO:TX:b:t=per-den-do-si:dur=16e:ext=u:problem:text with extention lines:mod=perdendosi	!
 8E-/L 8G	8gg\L 8bb-	.
 8EE-/	8bbb-\	.
 8D/ 8F	8aa-\ 8bb-	.
@@ -842,5 +855,7 @@
 !!!END: 2022-07-18
 !!!ENC: Natalia Wrzos
 !!!END: 2022-08-19
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

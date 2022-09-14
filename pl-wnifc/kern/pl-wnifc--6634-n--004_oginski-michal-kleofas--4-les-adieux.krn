@@ -22,6 +22,7 @@
 !!!key: a
 **kern	**fing	**dynam
 *I"Violon.	*	*
+*mI"Violino	*	*
 *I'vl	*	*
 *ICstr	*	*
 *Ivioln	*	*
@@ -143,7 +144,7 @@
 16e/JJ	.	.
 16g#\LL	.	<
 16b\	.	.
-16dd\	.	.
+16ddn\	.	.
 16cc\JJ	.	.
 16b\LL	.	.
 16dd\	.	.
@@ -177,6 +178,7 @@
 8ee\J	.	.
 !LO:LB:g=original	!	!
 =19	=19	=19
+!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=a tempo	!	!
 !LO:TX:a:B:t=a tempo	!	!
 4.eeu\	.	p
 16dd#X\LL	.	.
@@ -231,7 +233,7 @@
 16ee\	.	.
 16aa\JJ)	.	.
 4.ccc^<\	4	.
-8av/	.	.
+8a/	.	.
 =27	=27	=27
 (16b\LL	.	.
 16cc\	.	.
@@ -256,11 +258,14 @@
 !LO:LB:g=original	!	!
 =29:|!	=29:|!	=29:|!
 *M3/4	*	*
-!LO:TX:a:B:t=Trio.	!	!
+!!!OMD:
+!!!OMD-mod: Trio
+!LO:TX:a:B:t=Trio.:mod=	!	!
 [4au/	.	f
 16a/]	.	.
 (16e/LL	.	.
 16f#X/	.	.
+!LO:SIC:s=16g#/JJ:v	!	!
 16g/JJ	.	.
 16a/LL	.	.
 16b/	.	.
@@ -298,8 +303,12 @@
 16dd\JJ)	.	.
 !LO:LB:g=original	!	!
 =33	=33	=33
+!	!	!LO:MO:mod=!null:null
 (8qff/	.	f
-8.ee\L)	.	.
+!	!	!LO:DY:t= :mod=%s
+!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!	!null
+8.ee\L)	.	f
 16dd#X\K	.	.
 8ee\	.	.
 8ff\	.	.
@@ -373,6 +382,7 @@
 8ee\L	.	.
 16ee\L	.	.
 16ee\JJ	.	.
+!	!	!LO:MO:mod=!null:null
 !	!	!LO:HP:b:t=dim.
 8ee\L	.	>
 8ee\J	.	.
@@ -398,7 +408,7 @@
 =45	=45	=45
 [4a/	.	f
 16a/]	.	.
-!LO:TX:a:B:i:t=a tempo	!	!
+!LO:TX:a:i:t=a tempo	!	!
 (16e/LL	.	.
 16f#X/	.	.
 16g#X/JJ	.	.
@@ -438,8 +448,12 @@
 16ff\	.	.
 16dd\JJ)	.	.
 =49	=49	=49
+!	!	!LO:MO:mod=!null:null
 (8qff/	.	f
-8.ee\L)	.	.
+!	!	!LO:DY:t= :mod=%s
+!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=
+!	!	!null
+8.ee\L)	.	f
 16dd#X\K	.	.
 8ee\	.	.
 8ff\	.	.
@@ -489,9 +503,12 @@
 *-	*-	*-
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | modori -m | autostem -r | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/[<>]//g"
 !!!ENC: Filip Voros
 !!!END: 2022-07-31
 !!!ENC: Jan Barakat
 !!!END: 2022-08-27
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-09-13
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

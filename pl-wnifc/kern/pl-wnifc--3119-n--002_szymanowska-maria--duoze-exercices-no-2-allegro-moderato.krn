@@ -19,21 +19,27 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/nifc%3A212170/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/16830 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
-!!!AIN: 2 piano
+!!!AIN: 1 piano
 !!!key: E-
+!!!OMD:
+!!!OMD-mod: Allegro moderato
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**fing	**dynam
-*part2	*part1	*part1	*part1
+*part1	*part1	*part 1	*part1
 *staff2	*staff1	*	*
-*I"Piano	*I"Piano	*	*
+*I"Pianoforte	*I"Pianoforte	*	*
+*I'	*I'	*	*
 *Ipiano	*Ipiano	*	*
 *ICklav	*ICklav	*	*
+*IGsolo	*IGsolo	*	*
+*mI'pf	*mI'pf	*	*
 *clefF4	*clefG2	*	*
 *k[b-e-a-]	*k[b-e-a-]	*	*
 *E-:	*E-:	*	*
 *M4/4	*M4/4	*	*
 *met(c)	*met(c)	*	*
 =1	=1	=1	=1
-!	!LO:TX:a:i:t=Allegro moderato	!	!
+!	!LO:TX:a:i:t=Allegro moderato:mod=	!	!
 8EE-/ 8E-	8r	.	f
 *clefG2	*	*	*
 *8va	*8va	*	*
@@ -73,9 +79,11 @@
 16FF#X/JJ	16AAn</JJ	.	.
 =3	=3	=3	=3
 8GG\	8BB-</	.	.
+!	!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;b&colon;t=dolce	!	!
+!	!	!	!
 8r	(16g\LL	1	.
 .	16a-X\JJ	2	.
-!	!LO:TX:b:i:t=dol	!	!
+!	!LO:TX:b:i:t=dol:mod=	!	!
 4r	16b-\LL	3	.
 .	16cc\	1	.
 .	16dd\	2	.
@@ -101,7 +109,7 @@
 (16An\	16f#X/JJ 16cc	.	>
 8B-\)	8gn/ 8b-	.	]
 8r	8r	.	.
-8BB-;</	8A-<;/ 8d<	.	.
+8BB-;<</	8A-<;/ 8d<	.	.
 8r	8r	.	.
 =5	=5	=5	=5
 !LO:TX:a:t=P:problem:mixed beam	!	!	!
@@ -178,7 +186,6 @@
 .	16b-/JJ	.	.
 =9	=9	=9	=9
 !LO:TX:a:t=P:problem:mixed beam	!	!	!
-!LO:TX:a:t=P:problem:mixed beam	!	!	!
 8EE-/L	16gt/LL	.	>
 .	16f/	.	.
 8E-\J 8G	16e-/	.	]
@@ -220,7 +227,7 @@
 8A-\J 8d-X	16f/	.	.
 .	16dd-X/JJ	.	.
 =11	=11	=11	=11
-!LO:TX:a:t=P:problem:mixed beam	!LO:TX:b:t=cre_scen_do:problem:dynamics with line extensions	!	!LO:HP:b:t=cre-scen-do:ext=cd
+!LO:TX:a:t=P:problem:mixed beam	!LO:TX:b:t=cre_scen_do:problem:dynamics with line extensions:mod=	!	!LO:HP:b:t=cre-scen-do:ext=cd
 8GG/L	16b-T\LL	.	<
 .	16a-\	.	.
 8B-\J 8e-	16g\	.	.
@@ -286,7 +293,7 @@
 .	16ee-\	.	.
 8A-\J 8c	16dd-XT\	.	p
 .	16cc\JJ	.	.
-!	!LO:TX:b:i:t=Le_gier_men_te:dur=2q1s:ext=cd	!	!
+!	!LO:TX:b:i:t=Le_gier_men_te:dur=2q1s:ext=cd:mod=leggiermente	!	!
 8E-\L	16dd-X\LL	.	.
 .	16ee-\	.	.
 8A-\J 8c	16ff\	.	.
@@ -653,7 +660,8 @@
 .	16b-/	.	.
 8B-\J 8f	16a-/ 16dd	.	.
 .	16b-/JJ	.	.
-!	!LO:TX:a:i:t=di-mi-nu-en-do:problem:dynamics with line extensions	!	!LO:HP:a:t=di-mi-nu-en-do:ext=cd
+!	!	!	!LO:MO:mod=!null:null
+!	!LO:TX:a:i:t=di-mi-nu-en-do:problem:dynamics with line extensions:mod=	!	!LO:HP:a:t=di-mi-nu-en-do:ext=cd
 16e-\	16g\ 16ee-	.	>
 16r	16B-</LL	.	.
 8r	16A-</	.	.
@@ -689,10 +697,12 @@
 *-	*-	*-	*-
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-07-14
 !!!ENC: Urszula Świątek
 !!!END: 2022-08-18
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

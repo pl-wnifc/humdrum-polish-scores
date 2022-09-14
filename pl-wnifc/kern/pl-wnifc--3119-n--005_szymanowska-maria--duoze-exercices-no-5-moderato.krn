@@ -19,593 +19,610 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/nifc%3A212170/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/16830 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
-!!!AIN: 1 piano
+!!!AIN: 2 piano
 !!!key: C
-**kern	**fing	**dynam	**kern	**fing	**dynam
-*part2	*	*	*part1	*	*part1
-*staff2	*	*	*staff1	*	*
-*I"Piano	*	*	*I"Piano	*	*
-*I'P-no	*	*	*I'P-no	*	*
-*ICklav	*	*	*	*	*
-*Ipiano	*	*	*	*	*
-*clefF4	*	*	*clefG2	*	*
-*k[]	*	*	*k[]	*	*
-*C:	*	*	*C:	*	*
-*M4/4	*	*	*M4/4	*	*
-*met(c)	*	*	*met(c)	*	*
-=1	=1	=1	=1	=1	=1
-!	!	!	!LO:TX:b:t=piano ma ben marcato	!	!
-!	!	!	!LO:TX:a:t=Moderato	!	!
-16CC/	.	.	1r	.	.
-16GLL 16E 16C\	.	.	.	.	.
-16A 16E 16C\	.	.	.	.	.
-16BJJ 16E 16C\	.	.	.	.	.
-16cLL 16E 16C\	.	.	.	.	.
-16d 16E 16C\	.	.	.	.	.
-16e 16E 16C\	.	.	.	.	.
-16dJJ 16E 16C\	.	.	.	.	.
-16cLL 16E 16C\	.	.	.	.	.
-16B 16E 16C\	.	.	.	.	.
-16A 16E 16C\	.	.	.	.	.
-16GJJ 16E 16C\	.	.	.	.	.
-16F#XLL 16E 16C\	.	.	.	.	.
-16G 16E 16C\	.	.	.	.	.
-16A 16E 16C\	.	.	.	.	.
-16GJJ 16E 16C\	.	.	.	.	.
-=2	=2	=2	=2	=2	=2
-4G 4Fn 4D 4C\	.	.	16r	.	.
-.	.	.	16gLL 16f 16d/	.	.
-.	.	.	16a 16f 16d/	.	.
-.	.	.	16bJJ 16f 16d/	.	.
-4r	.	.	16ccLL 16f 16d/	.	.
-.	.	.	16dd 16f 16d/	.	.
-.	.	.	16ee 16f 16d/	.	.
-.	.	.	16ffJJ 16f 16d/	.	.
-2r	.	.	16eeLL 16f 16d/	.	.
-.	.	.	16dd 16f 16d/	.	.
-.	.	.	16cc 16f 16d/	.	.
-.	.	.	16bJJ 16f 16d/	.	.
-.	.	.	16aLL 16f 16d/	.	.
-.	.	.	16g 16f 16d/	.	.
-.	.	.	16a 16f 16d/	.	.
-.	.	.	16bJJ 16f 16d/	.	.
-=3	=3	=3	=3	=3	=3
-*^	*	*	*	*	*
-16r	2CC\	.	.	16ccLL 16e 16c/	.	rf <
-16CLL 16GG/	.	.	.	16g 16e 16c/	.	.
-16C 16GG/	.	.	.	16a 16e 16c/	.	.
-16CJJ 16GG/	.	.	.	16bJJ 16e 16c/	.	.
-16CLL 16GG/	.	.	.	16ccLL 16e 16c/	.	.
-16C 16GG/	.	.	.	16dd 16e 16c/	.	.
-16C 16GG/	.	.	.	16ee 16e 16c/	.	.
-16CJJ 16GG/	.	.	.	16ddJJ 16e 16c/	.	.
-16r	2CC\	.	.	16ccLL 16e 16c/	.	.
-16CLL 16GG/	.	.	.	16b 16e 16c/	.	.
-16C 16GG/	.	.	.	16a 16e 16c/	.	.
-16CJJ 16GG/	.	.	.	16gJJ 16e 16c/	.	.
-16CLL 16GG/	.	.	.	16f#XLL 16e 16c/	.	.
-16C 16GG/	.	.	.	16g 16e 16c/	.	.
-16C 16GG/	.	.	.	16a 16e 16c/	.	.
-16CJJ 16GG/	.	.	.	16gJJ 16e 16c/	.	[[
+!!!OMD:
+!!!OMD-mod: Moderato
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
+**kern	**fing	**kern	**fing	**dynam
+*part2	*part 2	*part1	*part 1	*part1
+*staff2	*	*staff1	*	*
+*I"Pianoforte	*	*I"Pianoforte	*	*
+*I'	*	*I'	*	*
+*Ipiano	*	*Ipiano	*	*
+*ICklav	*	*ICklav	*	*
+*IGsolo	*	*IGsolo	*	*
+*mI'pf	*	*mI'pf	*	*
+*clefF4	*	*clefG2	*	*
+*k[]	*	*k[]	*	*
+*C:	*	*C:	*	*
+*M4/4	*	*M4/4	*	*
+*met(c)	*	*met(c)	*	*
+*mmet(c)	*	*mmet(c)	*	*
+=1	=1	=1	=1	=1
+!	!	!LO:TX:b:t=piano ma ben marcato:mod=	!	!LO:DY:t=p ma ben marcato
+!	!	!LO:TX:a:t=Moderato:mod=	!	!LO:MO:null:mod=p
+16CC/	.	1r	.	.
+16GLL 16E 16C\	.	.	.	.
+16A 16E 16C\	.	.	.	.
+16BJJ 16E 16C\	.	.	.	.
+16cLL 16E 16C\	.	.	.	.
+16d 16E 16C\	.	.	.	.
+16e 16E 16C\	.	.	.	.
+16dJJ 16E 16C\	.	.	.	.
+16cLL 16E 16C\	.	.	.	.
+16B 16E 16C\	.	.	.	.
+16A 16E 16C\	.	.	.	.
+16GJJ 16E 16C\	.	.	.	.
+16F#XLL 16E 16C\	.	.	.	.
+16G 16E 16C\	.	.	.	.
+16A 16E 16C\	.	.	.	.
+16GJJ 16E 16C\	.	.	.	.
+=2	=2	=2	=2	=2
+4G 4Fn 4D 4C\	.	16r	.	.
+.	.	16gLL 16f 16d/	.	.
+.	.	16a 16f 16d/	.	.
+.	.	16bJJ 16f 16d/	.	.
+4r	.	16ccLL 16f 16d/	.	.
+.	.	16dd 16f 16d/	.	.
+.	.	16ee 16f 16d/	.	.
+.	.	16ffJJ 16f 16d/	.	.
+2r	.	16eeLL 16f 16d/	.	.
+.	.	16dd 16f 16d/	.	.
+.	.	16cc 16f 16d/	.	.
+.	.	16bJJ 16f 16d/	.	.
+.	.	16aLL 16f 16d/	.	.
+.	.	16g 16f 16d/	.	.
+.	.	16a 16f 16d/	.	.
+.	.	16bJJ 16f 16d/	.	.
+=3	=3	=3	=3	=3
+*^	*	*	*	*
+16r	2CC\	.	16ccLL 16e 16c/	.	rf <
+16CLL 16GG/	.	.	16g 16e 16c/	.	.
+16C 16GG/	.	.	16a 16e 16c/	.	.
+16CJJ 16GG/	.	.	16bJJ 16e 16c/	.	.
+16CLL 16GG/	.	.	16ccLL 16e 16c/	.	.
+16C 16GG/	.	.	16dd 16e 16c/	.	.
+16C 16GG/	.	.	16ee 16e 16c/	.	.
+16CJJ 16GG/	.	.	16ddJJ 16e 16c/	.	.
+16r	2CC\	.	16ccLL 16e 16c/	.	.
+16CLL 16GG/	.	.	16b 16e 16c/	.	.
+16C 16GG/	.	.	16a 16e 16c/	.	.
+16CJJ 16GG/	.	.	16gJJ 16e 16c/	.	.
+16CLL 16GG/	.	.	16f#XLL 16e 16c/	.	.
+16C 16GG/	.	.	16g 16e 16c/	.	.
+16C 16GG/	.	.	16a 16e 16c/	.	.
+16CJJ 16GG/	.	.	16gJJ 16e 16c/	.	[[
 !!LO:LB:g=original
-=4	=4	=4	=4	=4	=4	=4
-16r	2GG\	.	.	16r	.	.
-16BLL 16D/	.	.	.	16gLL 16f 16d/	.	.
-16B 16D/	.	.	.	16a 16f 16d/	.	.
-16BJJ 16D/	.	.	.	16bJJ 16f 16d/	.	.
-16BLL 16D/	.	.	.	16ccLL 16f 16d/	.	.
-16B 16D/	.	.	.	16dd 16f 16d/	.	.
-16B 16D/	.	.	.	16ee 16f 16d/	.	.
-16BJJ 16D/	.	.	.	16ffJJ 16f 16d/	.	.
-16r	2GG\	.	.	16eeLL 16f 16d/	.	.
-16GLL 16D/	.	.	.	16dd 16f 16d/	.	.
-16G 16D/	.	.	.	16cc 16f 16d/	.	.
-16GJJ 16D/	.	.	.	16bJJ 16f 16d/	.	.
-16GLL 16D/	.	.	.	16aLL 16f 16d/	.	.
-16G 16D/	.	.	.	16g 16f 16d/	.	.
-16G 16D/	.	.	.	16a 16f 16d/	.	.
-16GJJ 16D/	.	.	.	16bJJ 16f 16d/	.	.
-*v	*v	*	*	*	*	*
-=5	=5	=5	=5	=5	=5
-(16GLL 16E-X 16C'\	.	.	4cc 4e-X 4c/	.	<
-16G 16E- 16C'\	.	.	.	.	.
-16A 16E- 16C'\	.	.	.	.	.
-16BJJ 16E- 16C'\)	.	.	.	.	.
-16cLL 16E- 16C\	.	.	4r	.	.
-16d 16E- 16C\	.	.	.	.	.
-16e-X 16E- 16C\	.	.	.	.	.
-16dJJ 16E- 16C\	.	.	.	.	.
-4c 4E- 4C\	.	.	16r	.	[
-.	.	.	(16gLL 16e-X 16c'/	.	.
-.	.	.	16a 16e- 16c'/	.	.
-.	.	.	16bJJ 16e- 16c'/)	.	.
-4r	.	.	16ccLL 16e- 16c/	.	<
-.	.	.	16dd 16e- 16c/	.	.
-.	.	.	16ee-X 16e- 16c/	.	.
-.	.	.	16ddJJ 16e- 16c/	.	[[
-=6	=6	=6	=6	=6	=6
-16r	.	.	4cc 4e-X 4c/	.	<
-16GLL 16E-X 16C\	.	.	.	.	.
-16A-X 16E- 16C\	.	.	.	.	.
-16B-XJJ 16E- 16C\	.	.	.	.	.
-16cLL 16E- 16C\	.	.	4r	.	.
-16B- 16E- 16C\	.	.	.	.	.
-16A- 16E- 16C\	.	.	.	.	.
-16GJJ 16E- 16C\	.	.	.	.	.
-2A-X 2AA-X\	.	.	16r	.	[
-.	.	.	16f#XLL 16c/	.	>
-.	.	.	16f# 16d/	.	.
-.	.	.	16f#JJ 16c/	.	.
-.	.	.	16f#LL 16e-/	.	.
-.	.	.	16f# 16e-/	.	.
-.	.	.	16f# 16d/	.	.
-.	.	.	16f#JJ 16c/	.	]]
-=7	=7	=7	=7	=7	=7
-16GLL 16D 16GG\	.	.	8g 8B/	.	.
-16G 16D 16GG\	.	.	.	.	.
-16G 16D 16GG\	.	.	16aa-XLL 16b 16g\	.	.
-16GJJ 16D 16GG\	.	.	16ggJJ 16b 16g\	.	.
-16GLL 16E-X 16GG\	.	.	16ffLL 16cc 16g\	.	.
-16G 16E- 16GG\	.	.	16ee-X 16cc 16g\	.	.
-16G 16E- 16GG\	.	.	16dd 16g 16e-X\	.	.
-16GJJ 16E- 16GG\	.	.	16ccJJ 16g 16e-\	.	.
-16GLL 16D 16GG\	.	.	16bLL 16f 16d 16c/	.	.
-16G 16D 16GG\	.	.	16g 16f 16d/	.	.
-16G 16D 16GG\	.	.	16a-X 16f 16d/	.	.
-16GJJ 16D 16GG\	.	.	16gJJ 16f 16d/	.	.
-16GLL 16E- 16GG\	.	.	16ccLL 16e- 16c/	.	.
-16G 16E- 16GG\	.	.	16g 16e- 16c/	.	.
-16G 16E- 16GG\	.	.	16ee- 16g 16e-/	.	.
-16GJJ 16E- 16GG\	.	.	16ccJJ 16g 16e-/	.	.
+=4	=4	=4	=4	=4	=4
+16r	2GG\	.	16r	.	.
+16BLL 16D/	.	.	16gLL 16f 16d/	.	.
+16B 16D/	.	.	16a 16f 16d/	.	.
+16BJJ 16D/	.	.	16bJJ 16f 16d/	.	.
+16BLL 16D/	.	.	16ccLL 16f 16d/	.	.
+16B 16D/	.	.	16dd 16f 16d/	.	.
+16B 16D/	.	.	16ee 16f 16d/	.	.
+16BJJ 16D/	.	.	16ffJJ 16f 16d/	.	.
+16r	2GG\	.	16eeLL 16f 16d/	.	.
+16GLL 16D/	.	.	16dd 16f 16d/	.	.
+16G 16D/	.	.	16cc 16f 16d/	.	.
+16GJJ 16D/	.	.	16bJJ 16f 16d/	.	.
+16GLL 16D/	.	.	16aLL 16f 16d/	.	.
+16G 16D/	.	.	16g 16f 16d/	.	.
+16G 16D/	.	.	16a 16f 16d/	.	.
+16GJJ 16D/	.	.	16bJJ 16f 16d/	.	.
+*v	*v	*	*	*	*
+=5	=5	=5	=5	=5
+(16GLL 16E-X 16C'\	.	4cc 4e-X 4c/	.	<
+16G 16E- 16C'\	.	.	.	.
+16A 16E- 16C'\	.	.	.	.
+16BJJ 16E- 16C'\)	.	.	.	.
+16cLL 16E- 16C\	.	4r	.	.
+16d 16E- 16C\	.	.	.	.
+16e-X 16E- 16C\	.	.	.	.
+16dJJ 16E- 16C\	.	.	.	.
+4c 4E- 4C\	.	16r	.	[
+.	.	(16gLL 16e-X 16c'/	.	.
+.	.	16a 16e- 16c'/	.	.
+.	.	16bJJ 16e- 16c'/)	.	.
+4r	.	16ccLL 16e- 16c/	.	<
+.	.	16dd 16e- 16c/	.	.
+.	.	16ee-X 16e- 16c/	.	.
+.	.	16ddJJ 16e- 16c/	.	[[
+=6	=6	=6	=6	=6
+16r	.	4cc 4e-X 4c/	.	<
+16GLL 16E-X 16C\	.	.	.	.
+16A-X 16E- 16C\	.	.	.	.
+16B-XJJ 16E- 16C\	.	.	.	.
+16cLL 16E- 16C\	.	4r	.	.
+16B- 16E- 16C\	.	.	.	.
+16A- 16E- 16C\	.	.	.	.
+16GJJ 16E- 16C\	.	.	.	.
+2A-X 2AA-X\	.	16r	.	[
+.	.	16f#XLL 16c/	.	>
+.	.	16f# 16d/	.	.
+.	.	16f#JJ 16c/	.	.
+.	.	16f#LL 16e-/	.	.
+.	.	16f# 16e-/	.	.
+.	.	16f# 16d/	.	.
+.	.	16f#JJ 16c/	.	]]
+=7	=7	=7	=7	=7
+16GLL 16D 16GG\	.	8g 8B/	.	.
+16G 16D 16GG\	.	.	.	.
+16G 16D 16GG\	.	16aa-XLL 16b 16g\	.	.
+16GJJ 16D 16GG\	.	16ggJJ 16b 16g\	.	.
+16GLL 16E-X 16GG\	.	16ffLL 16cc 16g\	.	.
+16G 16E- 16GG\	.	16ee-X 16cc 16g\	.	.
+16G 16E- 16GG\	.	16dd 16g 16e-X\	.	.
+16GJJ 16E- 16GG\	.	16ccJJ 16g 16e-\	.	.
+16GLL 16D 16GG\	.	16bLL 16f 16d 16c/	.	.
+16G 16D 16GG\	.	16g 16f 16d/	.	.
+16G 16D 16GG\	.	16a-X 16f 16d/	.	.
+16GJJ 16D 16GG\	.	16gJJ 16f 16d/	.	.
+16GLL 16E- 16GG\	.	16ccLL 16e- 16c/	.	.
+16G 16E- 16GG\	.	16g 16e- 16c/	.	.
+16G 16E- 16GG\	.	16ee- 16g 16e-/	.	.
+16GJJ 16E- 16GG\	.	16ccJJ 16g 16e-/	.	.
 !!LO:LB:g=original
-=8	=8	=8	=8	=8	=8
-16G 16D 16GG\	.	.	16cc 16g 16d/	.	.
-16GGLL 16GGG/	.	.	16gLL 16B 16G/	.	.
-16GG 16GGG/	.	.	16a-X 16B 16G/	.	.
-16GGJJ 16GGG/	.	.	16gJJ 16B 16G/	.	.
-16GGLL 16GGG\	.	.	16fLL 16c< 16G</	.	.
-16GG 16GGG\	.	.	16e-X 16c< 16G</	.	.
-16GG 16GGG\	.	.	16d 16G< 16E-X</	.	.
-16GGJJ 16GGG\	.	.	16cJJ 16G< 16E<-/	.	.
-16GGLL 16GGG\	.	.	16B<LL 16F< 16D</	.	.
-16GG 16GGG\	.	.	16G< 16F< 16D</	.	.
-16GG 16GGG\	.	.	16A-<X 16F< 16D</	.	.
-16GGJJ 16GGG\	.	.	16G<JJ 16F< 16D</	.	.
-16GGLL 16GGG\	.	.	16c<LL 16E-< 16C</	.	.
-16GG 16GGG\	.	.	16G< 16E-< 16C</	.	.
-16GG 16GGG\	.	.	16e-<X 16G< 16E-</	.	.
-16GGJJ 16GGG\	.	.	16c<JJ 16G< 16E-</	.	.
-=9	=9	=9	=9	=9	=9
-16GG 16GGG\	.	.	16B< 16G< 16D</	.	.
-16F#XLL 16FF#X\	.	.	16r	.	.
-16G 16GG\	.	.	8r	.	.
-16AJJ 16AA\	.	.	.	.	.
-16GLL 16GG\	.	.	4r	.	.
-16Fn 16FFn\	.	.	.	.	.
-16E 16EE\	.	.	.	.	.
-16DJJ 16DD\	.	.	.	.	.
-4C 4CC/	.	.	16r	.	.
-.	.	.	(32gLLL 32e/	.	p
-.	.	.	32aJ 32f/)	.	.
-.	.	.	16g 16e/	.	.
-.	.	.	16gJJ 16e/	.	.
-16r	.	.	16g 16e/	.	.
-(16GGLL 16GGG'/	.	.	16gLL 16B 16G/	.	.
-16AA 16AAA'/	.	.	16g 16c 16G/	.	.
-16BBJJ 16BBB'/)	.	.	16gJJ 16d 16G/	.	.
-=10	=10	=10	=10	=10	=10
-4C 4CC/	.	.	16g 16e 16G/	.	.
-.	.	.	(32gLLL 32e/	.	.
-.	.	.	32aJ 32f/)	.	.
-.	.	.	16g 16e/	.	p
-.	.	.	16gJJ 16e/	.	.
-16r	.	.	16g 16e/	.	.
-16GGLL 16GGG/	.	.	16gLL 16B 16G/	.	<
-16AA 16AAA/	.	.	16g 16c 16G/	.	.
-16BBJJ 16BBB/	.	.	16gJJ 16d 16G/	.	.
-16CLL 16CC/	.	.	16gLL 16e 16G/	.	[
-16BB 16BBB/	.	.	16g 16d 16G/	.	.
-16C 16CC/	.	.	16g 16e 16G/	.	.
-16BB-XJJ 16BBB-X/	.	.	16gJJ 16d 16G/	.	.
-16AALL 16AAA/	.	.	16gLL 16c#X 16G/	.	.
-16AA 16AAA/	.	.	16b-X 16c# 16G/	.	.
-16AA 16AAA/	.	.	16a 16c# 16A/	.	.
-16C#XJJ 16CC#X/	.	.	16gJJ 16e 16A/	.	.
+=8	=8	=8	=8	=8
+16G 16D 16GG\	.	16cc 16g 16d/	.	.
+16GGLL 16GGG/	.	16gLL 16B 16G/	.	.
+16GG 16GGG/	.	16a-X 16B 16G/	.	.
+16GGJJ 16GGG/	.	16gJJ 16B 16G/	.	.
+16GGLL 16GGG\	.	16fLL 16c< 16G</	.	.
+16GG 16GGG\	.	16e-X 16c< 16G</	.	.
+16GG 16GGG\	.	16d 16G< 16E-X</	.	.
+16GGJJ 16GGG\	.	16cJJ 16G< 16E<-/	.	.
+16GGLL 16GGG\	.	16B<LL 16F< 16D</	.	.
+16GG 16GGG\	.	16G< 16F< 16D</	.	.
+16GG 16GGG\	.	16A-<X 16F< 16D</	.	.
+16GGJJ 16GGG\	.	16G<JJ 16F< 16D</	.	.
+16GGLL 16GGG\	.	16c<LL 16E-< 16C</	.	.
+16GG 16GGG\	.	16G< 16E-< 16C</	.	.
+16GG 16GGG\	.	16e-<X 16G< 16E-</	.	.
+16GGJJ 16GGG\	.	16c<JJ 16G< 16E-</	.	.
+=9	=9	=9	=9	=9
+16GG 16GGG\	.	16B< 16G< 16D</	.	.
+16F#XLL 16FF#X\	.	16r	.	.
+16G 16GG\	.	8r	.	.
+16AJJ 16AA\	.	.	.	.
+16GLL 16GG\	.	4r	.	.
+16Fn 16FFn\	.	.	.	.
+16E 16EE\	.	.	.	.
+16DJJ 16DD\	.	.	.	.
+4C 4CC/	.	16r	.	.
+.	.	(32gLLL 32e/	.	p
+.	.	32aJ 32f/)	.	.
+.	.	16g 16e/	.	.
+.	.	16gJJ 16e/	.	.
+16r	.	16g 16e/	.	.
+(16GGLL 16GGG'/	.	16gLL 16B 16G/	.	.
+16AA 16AAA'/	.	16g 16c 16G/	.	.
+16BBJJ 16BBB'/)	.	16gJJ 16d 16G/	.	.
+=10	=10	=10	=10	=10
+4C 4CC/	.	16g 16e 16G/	.	.
+.	.	(32gLLL 32e/	.	.
+.	.	32aJ 32f/)	.	.
+.	.	16g 16e/	.	p
+.	.	16gJJ 16e/	.	.
+16r	.	16g 16e/	.	.
+16GGLL 16GGG/	.	16gLL 16B 16G/	.	<
+16AA 16AAA/	.	16g 16c 16G/	.	.
+16BBJJ 16BBB/	.	16gJJ 16d 16G/	.	.
+16CLL 16CC/	.	16gLL 16e 16G/	.	[
+16BB 16BBB/	.	16g 16d 16G/	.	.
+16C 16CC/	.	16g 16e 16G/	.	.
+16BB-XJJ 16BBB-X/	.	16gJJ 16d 16G/	.	.
+16AALL 16AAA/	.	16gLL 16c#X 16G/	.	.
+16AA 16AAA/	.	16b-X 16c# 16G/	.	.
+16AA 16AAA/	.	16a 16c# 16A/	.	.
+16C#XJJ 16CC#X/	.	16gJJ 16e 16A/	.	.
 !!LO:LB:g=original
-=11	=11	=11	=11	=11	=11
-4D 4DD/	.	.	16f 16d 16A/	.	.
-.	.	.	(32aLLL 32f/	.	.
-.	.	.	32b-XJ 32g/)	.	.
-.	.	.	16a 16f/	.	p
-.	.	.	16aJJ 16f/	.	.
-16r	.	.	16a 16f/	.	<
-16AALL 16AAA/	.	.	16aLL 16c#X 16A/	.	.
-16BB 16BBB/	.	.	16a 16d 16A/	.	.
-16C#XJJ 16CC#X/	.	.	16aJJ 16e 16A/	.	.
-4D 4DD/	.	.	16a 16f 16A/	.	[
-.	.	.	(32aLLL 32f/	.	.
-.	.	.	32b-XJ 32g/)	.	.
-.	.	.	16a 16f/	.	.
-.	.	.	16aJJ 16f/	.	.
-16r	.	.	16a 16f/	.	.
-16AALL 16AAA/	.	.	16aLL 16c#X 16A/	.	.
-16BB 16BBB/	.	.	16a 16d 16A/	.	.
-16C#XJJ 16CC#X/	.	.	16aJJ 16e 16A/	.	.
+=11	=11	=11	=11	=11
+4D 4DD/	.	16f 16d 16A/	.	.
+.	.	(32aLLL 32f/	.	.
+.	.	32b-XJ 32g/)	.	.
+.	.	16a 16f/	.	p
+.	.	16aJJ 16f/	.	.
+16r	.	16a 16f/	.	<
+16AALL 16AAA/	.	16aLL 16c#X 16A/	.	.
+16BB 16BBB/	.	16a 16d 16A/	.	.
+16C#XJJ 16CC#X/	.	16aJJ 16e 16A/	.	.
+4D 4DD/	.	16a 16f 16A/	.	[
+.	.	(32aLLL 32f/	.	.
+.	.	32b-XJ 32g/)	.	.
+.	.	16a 16f/	.	.
+.	.	16aJJ 16f/	.	.
+16r	.	16a 16f/	.	.
+16AALL 16AAA/	.	16aLL 16c#X 16A/	.	.
+16BB 16BBB/	.	16a 16d 16A/	.	.
+16C#XJJ 16CC#X/	.	16aJJ 16e 16A/	.	.
 !!LO:LB:g=original
-=12	=12	=12	=12	=12	=12
-16DLL 16DD/	.	.	16aLL 16f 16A/	.	.
-16C#X 16CC#X/	.	.	16a 16e 16A/	.	.
-16D 16DD/	.	.	16a 16f 16A/	.	.
-16CnJJ 16CCn/	.	.	16aJJ 16e 16A/	.	.
-16BB 16BBB/	.	.	16a 16d#X 16A/	.	.
-16BBLL 16BBB/	.	.	16ccLL 16d# 16A/	.	.
-16BB 16BBB/	.	.	16b 16d# 16A/	.	.
-16D#XJJ 16DD#X/	.	.	16aJJ 16f#X 16B/	.	.
-4E 4EE/	.	.	16g 16e 16G/	.	.
-.	.	.	(32bLLL 32g/	.	.
-.	.	.	32ccJ 32a/)	.	.
-.	.	.	16b 16g/	.	p <
-.	.	.	16bJJ 16g/	.	.
-16r	.	.	16b 16g/	.	.
-16BBLL 16BBB/	.	.	16bLL 16d# 16B/	.	.
-16C#X 16CC#X/	.	.	16b 16e 16B/	.	.
-16D#XJJ 16DD#X/	.	.	16bJJ 16f#X 16B/	.	[[
-=13	=13	=13	=13	=13	=13
-4E 4EE/	.	.	16b 16g 16B/	.	.
-.	.	.	(32bLLL 32g/	.	.
-.	.	.	32ccJ 32a/)	.	.
-.	.	.	16b 16g/	.	p
-.	.	.	16bJJ 16g/	.	.
-16r	.	.	16b 16g/	.	.
-16BBLL 16BBB/	.	.	16bLL 16d#X 16B/	.	<
-16C#X 16CC#X/	.	.	16b 16e 16B/	.	.
-16D#XJJ 16DD#X/	.	.	16bJJ 16f#X 16B/	.	.
-16ELL 16EE/	.	.	16bLL 16g 16B/	.	.
-16D# 16DD#/	.	.	16b 16f# 16B/	.	.
-16E 16EE/	.	.	16b 16g 16B/	.	.
-16DnJJ 16DDn/	.	.	16bJJ 16f# 16B/	.	.
-16CnLL 16CCn/	.	.	16bLL 16e/	.	.
-16C 16CC/	.	.	16b 16e/	.	.
-16C 16CC/	.	.	16a#X 16f#/	.	.
-16CJJ 16CC/	.	.	16a#JJ 16e/	.	[[
+=12	=12	=12	=12	=12
+16DLL 16DD/	.	16aLL 16f 16A/	.	.
+16C#X 16CC#X/	.	16a 16e 16A/	.	.
+16D 16DD/	.	16a 16f 16A/	.	.
+16CnJJ 16CCn/	.	16aJJ 16e 16A/	.	.
+16BB 16BBB/	.	16a 16d#X 16A/	.	.
+16BBLL 16BBB/	.	16ccLL 16d# 16A/	.	.
+16BB 16BBB/	.	16b 16d# 16A/	.	.
+16D#XJJ 16DD#X/	.	16aJJ 16f#X 16B/	.	.
+4E 4EE/	.	16g 16e 16G/	.	.
+.	.	(32bLLL 32g/	.	.
+.	.	32ccJ 32a/)	.	.
+.	.	16b 16g/	.	p <
+.	.	16bJJ 16g/	.	.
+16r	.	16b 16g/	.	.
+16BBLL 16BBB/	.	16bLL 16d# 16B/	.	.
+16C#X 16CC#X/	.	16b 16e 16B/	.	.
+16D#XJJ 16DD#X/	.	16bJJ 16f#X 16B/	.	[[
+=13	=13	=13	=13	=13
+4E 4EE/	.	16b 16g 16B/	.	.
+.	.	(32bLLL 32g/	.	.
+.	.	32ccJ 32a/)	.	.
+.	.	16b 16g/	.	p
+.	.	16bJJ 16g/	.	.
+16r	.	16b 16g/	.	.
+16BBLL 16BBB/	.	16bLL 16d#X 16B/	.	<
+16C#X 16CC#X/	.	16b 16e 16B/	.	.
+16D#XJJ 16DD#X/	.	16bJJ 16f#X 16B/	.	.
+16ELL 16EE/	.	16bLL 16g 16B/	.	.
+16D# 16DD#/	.	16b 16f# 16B/	.	.
+16E 16EE/	.	16b 16g 16B/	.	.
+16DnJJ 16DDn/	.	16bJJ 16f# 16B/	.	.
+16CnLL 16CCn/	.	16bLL 16e/	.	.
+16C 16CC/	.	16b 16e/	.	.
+16C 16CC/	.	16a#X 16f#/	.	.
+16CJJ 16CC/	.	16a#JJ 16e/	.	[[
 !!LO:LB:g=original
-=14	=14	=14	=14	=14	=14
-*tremolo	*	*	*	*	*
-16BBLL 16BBB/	.	.	8b 8d#X/	.	.
-16BB 16BBB/	.	.	.	.	.
-16BB 16BBB/	.	.	16cccLL 16dd#X 16b\	.	ff
-16BB 16BBB/	.	.	16bbJJ 16dd# 16b\	.	.
-16BB 16BBB/	.	.	16aaLL 16ee 16b\	.	.
-16BB 16BBB/	.	.	16gg 16ee 16b\	.	.
-16BB 16BBB/	.	.	16ff#X 16b 16g\	.	.
-16BBJJ 16BBB/	.	.	16eeJJ 16b 16g\	.	.
-16BBLL 16BBB/	.	.	16dd#LL 16a 16f#X\	.	.
-16BB 16BBB/	.	.	16b 16a 16f#\	.	.
-16BB 16BBB/	.	.	16cc 16a 16f#\	.	.
-16BB 16BBB/	.	.	16bJJ 16a 16f#\	.	.
-16BB 16BBB/	.	.	16eeLL 16b 16e\	.	.
-16BB 16BBB/	.	.	16b 16g 16e\	.	.
-16BB 16BBB/	.	.	16gg 16b 16g\	.	.
-16BBJJ 16BBB/	.	.	16eeJJ 16b 16g\	.	.
-=15	=15	=15	=15	=15	=15
-16BBLL 16BBB/	.	.	16dd#X 16b 16f#X/	.	.
-16BB 16BBB/	.	.	16bLL 16d#X 16B/	.	>
-16BB 16BBB/	.	.	16cc 16d# 16B/	.	.
-16BB 16BBB/	.	.	16bJJ 16d# 16B/	.	.
-16BB 16BBB/	.	.	16aLL 16e 16B/	.	.
-16BB 16BBB/	.	.	16g 16e 16B/	.	.
-16BB 16BBB/	.	.	16f#X 16B< 16G</	.	.
-16BBJJ 16BBB/	.	.	16eJJ 16B< 16G</	.	.
-16BBLL 16BBB/	.	.	16d#XLL 16A< 16F</	.	.
-16BB 16BBB/	.	.	16B 16A< 16F</	.	.
-16BB 16BBB/	.	.	16c 16A< 16F</	.	.
-16BB 16BBB/	.	.	16BJJ 16A< 16F</	.	.
-16BB 16BBB/	.	.	16eLL 16G< 16E</	.	.
-16BB 16BBB/	.	.	16B 16G< 16E</	.	.
-16BB 16BBB/	.	.	16g 16B< 16G</	.	.
-16BBJJ 16BBB/	.	.	16eJJ 16B< 16G</	.	.
-*Xtremolo	*	*	*	*	*
-=16	=16	=16	=16	=16	=16
-4BB 4BBB/	.	.	16d#X 16B< 16F#X</	.	.
-!	!	!	!LO:TX:b:t=sempre piu forte	!	!
-.	.	.	32bLLL 32B/	.	.
-.	.	.	32bJ 32B/	.	.
-.	.	.	16b 16B/	.	.
-.	.	.	16bJJ 16B/	.	.
-4r	.	.	16b 16B/	.	.
-.	.	.	32bbLLL 32b\	.	.
-.	.	.	32bbJ 32b\	.	.
-.	.	.	16bb 16b\	.	.
-.	.	.	16bbJJ 16b\	.	.
-16G 16GG\	.	.	16bb 16b\	.	.
-32dLLL 32G\	.	.	32bLLL 32fn/	.	ff
-32dJ 32G\	.	.	32bJ 32f/	.	.
-16d 16G\	.	.	16b 16f/	.	.
-16dJJ 16G\	.	.	16bJJ 16f/	.	.
-!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!
-16dLL 16G\	.	.	16bLL 16f/	.	.
-16d 16G\	.	.	16b 16f/	.	.
-16d 16G\	.	.	16b 16f/	.	.
-16GG/JJ	.	.	16bJJ 16f 16d#/	.	.
+=14	=14	=14	=14	=14
+*tremolo	*	*	*	*
+16BBLL 16BBB/	.	8b 8d#X/	.	.
+16BB 16BBB/	.	.	.	.
+16BB 16BBB/	.	16cccLL 16dd#X 16b\	.	ff
+16BB 16BBB/	.	16bbJJ 16dd# 16b\	.	.
+16BB 16BBB/	.	16aaLL 16ee 16b\	.	.
+16BB 16BBB/	.	16gg 16ee 16b\	.	.
+16BB 16BBB/	.	16ff#X 16b 16g\	.	.
+16BBJJ 16BBB/	.	16eeJJ 16b 16g\	.	.
+16BBLL 16BBB/	.	16dd#LL 16a 16f#X\	.	.
+16BB 16BBB/	.	16b 16a 16f#\	.	.
+16BB 16BBB/	.	16cc 16a 16f#\	.	.
+16BB 16BBB/	.	16bJJ 16a 16f#\	.	.
+16BB 16BBB/	.	16eeLL 16b 16e\	.	.
+16BB 16BBB/	.	16b 16g 16e\	.	.
+16BB 16BBB/	.	16gg 16b 16g\	.	.
+16BBJJ 16BBB/	.	16eeJJ 16b 16g\	.	.
+=15	=15	=15	=15	=15
+16BBLL 16BBB/	.	16dd#X 16b 16f#X/	.	.
+16BB 16BBB/	.	16bLL 16d#X 16B/	.	>
+16BB 16BBB/	.	16cc 16d# 16B/	.	.
+16BB 16BBB/	.	16bJJ 16d# 16B/	.	.
+16BB 16BBB/	.	16aLL 16e 16B/	.	.
+16BB 16BBB/	.	16g 16e 16B/	.	.
+16BB 16BBB/	.	16f#X 16B< 16G</	.	.
+16BBJJ 16BBB/	.	16eJJ 16B< 16G</	.	.
+!	!	!LO:SIC:v:s=16d#XLL 16A< 16F#</	!	!
+16BBLL 16BBB/	.	16d#XLL 16A< 16F</	.	.
+!	!	!LO:SIC:v:s=16B 16A< 16F#</	!	!
+16BB 16BBB/	.	16B 16A< 16F</	.	.
+!	!	!LO:SIC:v:s=16c 16A< 16F#</	!	!
+16BB 16BBB/	.	16c 16A< 16F</	.	.
+!	!	!LO:SIC:v:s=16BJJ 16A< 16F#</	!	!
+16BB 16BBB/	.	16BJJ 16A< 16F</	.	.
+16BB 16BBB/	.	16eLL 16G< 16E</	.	.
+16BB 16BBB/	.	16B 16G< 16E</	.	.
+16BB 16BBB/	.	16g 16B< 16G</	.	.
+16BBJJ 16BBB/	.	16eJJ 16B< 16G</	.	.
+*Xtremolo	*	*	*	*
+=16	=16	=16	=16	=16
+4BB 4BBB/	.	16d#X 16B< 16F#X</	.	.
+!	!	!LO:TX:b:t=sempre piu forte	!	!
+.	.	32bLLL 32B/	.	.
+.	.	32bJ 32B/	.	.
+.	.	16b 16B/	.	.
+.	.	16bJJ 16B/	.	.
+4r	.	16b 16B/	.	.
+.	.	32bbLLL 32b\	.	.
+.	.	32bbJ 32b\	.	.
+.	.	16bb 16b\	.	.
+.	.	16bbJJ 16b\	.	.
+16G 16GG\	.	16bb 16b\	.	.
+32dLLL 32G\	.	32bLLL 32fn/	.	ff
+32dJ 32G\	.	32bJ 32f/	.	.
+16d 16G\	.	16b 16f/	.	.
+16dJJ 16G\	.	16bJJ 16f/	.	.
+!LO:TX:a:t=P:problem:mixed beam	!	!	!	!
+16dLL 16G\	.	16bLL 16f/	.	.
+16d 16G\	.	16b 16f/	.	.
+16d 16G\	.	16b 16f/	.	.
+16GG/JJ	.	16bJJ 16f 16d#/	.	.
 !!LO:PB:g=original
-=17	=17	=17	=17	=17	=17
-*^	*	*	*	*	*
-16r	1CC	.	.	16cc 16e 16c/	.	.
-!	!	!	!	!LO:TX:b:t=dol	!	!
-16CLL 16GG/	.	.	.	16gLL 16e 16c/	.	.
-16C 16GG/	.	.	.	16a 16e 16c/	.	.
-16CJJ 16GG/	.	.	.	16bJJ 16e 16c/	.	.
-16CLL 16GG/	.	.	.	16ccLL 16e 16c/	.	.
-16C 16GG/	.	.	.	16dd 16e 16c/	.	.
-16C 16GG/	.	.	.	16ee 16e 16c/	.	.
-16CJJ 16GG/	.	.	.	16ddJJ 16e 16c/	.	.
-16CLL 16GG/	.	.	.	16ccLL 16e 16c/	.	.
-16C 16GG/	.	.	.	16b 16e 16c/	.	.
-16C 16GG/	.	.	.	16a 16e 16c/	.	.
-16CJJ 16GG/	.	.	.	16gJJ 16e 16c/	.	.
-16CLL 16GG/	.	.	.	16f#XLL 16e 16c/	.	.
-16C 16GG/	.	.	.	16g 16e 16c/	.	.
-16C 16GG/	.	.	.	16a 16e 16c/	.	.
-16CJJ 16GG/	.	.	.	16gJJ 16e 16c/	.	.
-=18	=18	=18	=18	=18	=18	=18
-16r	2GG\	.	.	16gLL 16fn 16d/	.	.
-16BLL 16D/	.	.	.	32gL 32f 32d/	.	.
-.	.	.	.	32aJ 32f 32d/	.	.
-16B 16D/	.	.	.	16g 16d/	.	.
-16BJJ 16D/	.	.	.	16gJJ 16f 16d/	.	.
-16BLL 16D/	.	.	.	16g 16f 16d/	.	.
-16B 16D/	.	.	.	(32fffLLL 32ddd\	.	.
-.	.	.	.	32eeeJJJ 32ccc\)	.	.
-16B 16D/	.	.	.	16dddLL 16bb`\	.	.
-16BJJ 16D/	.	.	.	(32dddL 32bb\	.	.
-.	.	.	.	32cccJJJ 32aa\)	.	.
-16r	2GG\	.	.	16bbLL 16gg`\	.	.
-16GLL 16D/	.	.	.	(32fffL 32ddd\	.	.
-.	.	.	.	32eee 32ccc\)	.	.
-16G 16D/	.	.	.	32ddd 32bb`\	.	.
-.	.	.	.	(32ccc 32aa\	.	.
-16GJJ 16D/	.	.	.	32bb 32gg\)	.	.
-.	.	.	.	32aa 32ff`\	.	.
-16GLL 16D/	.	.	.	(32gg 32ee\	.	.
-.	.	.	.	32ff 32dd\)	.	.
-16G 16D/	.	.	.	32ee 32cc`\	.	.
-.	.	.	.	(32dd 32b\	.	.
-16G 16D/	.	.	.	32cc 32a\)	.	.
-.	.	.	.	32b 32g`\	.	.
-16GJJ 16D/	.	.	.	(32a 32f\	.	.
-.	.	.	.	32bJJJ 32d\)	.	.
-=19	=19	=19	=19	=19	=19	=19
-16r	1CC	.	.	16cc 16e 16c/	.	.
-16CLL 16GG/	.	.	.	16gLL 16e 16c/	.	.
-16C 16GG/	.	.	.	16a 16e 16c/	.	.
-16CJJ 16GG/	.	.	.	16bJJ 16e 16c/	.	.
-16CLL 16GG/	.	.	.	16ccLL 16e 16c/	.	.
-16C 16GG/	.	.	.	16dd 16e 16c/	.	.
-16C 16GG/	.	.	.	16ee 16e 16c/	.	.
-16CJJ 16GG/	.	.	.	16ddJJ 16e 16c/	.	.
-16CLL 16GG/	.	.	.	16ccLL 16e 16c/	.	.
-16C 16GG/	.	.	.	16b 16e 16c/	.	.
-16C 16GG/	.	.	.	16a 16e 16c/	.	.
-16CJJ 16GG/	.	.	.	16gJJ 16e 16c/	.	.
-16CLL 16GG/	.	.	.	16f#XLL 16e 16c/	.	.
-16C 16GG/	.	.	.	16g 16e 16c/	.	.
-16C 16GG/	.	.	.	16a 16e 16c/	.	.
-16CJJ 16GG/	.	.	.	16gJJ 16e 16c/	.	.
+=17	=17	=17	=17	=17
+*^	*	*	*	*
+16r	1CC	.	16cc 16e 16c/	.	.
+!	!	!	!LO:TX:b:t=dol:mod=	!	!
+16CLL 16GG/	.	.	16gLL 16e 16c/	.	.
+16C 16GG/	.	.	16a 16e 16c/	.	.
+16CJJ 16GG/	.	.	16bJJ 16e 16c/	.	.
+16CLL 16GG/	.	.	16ccLL 16e 16c/	.	.
+16C 16GG/	.	.	16dd 16e 16c/	.	.
+16C 16GG/	.	.	16ee 16e 16c/	.	.
+16CJJ 16GG/	.	.	16ddJJ 16e 16c/	.	.
+16CLL 16GG/	.	.	16ccLL 16e 16c/	.	.
+16C 16GG/	.	.	16b 16e 16c/	.	.
+16C 16GG/	.	.	16a 16e 16c/	.	.
+16CJJ 16GG/	.	.	16gJJ 16e 16c/	.	.
+16CLL 16GG/	.	.	16f#XLL 16e 16c/	.	.
+16C 16GG/	.	.	16g 16e 16c/	.	.
+16C 16GG/	.	.	16a 16e 16c/	.	.
+16CJJ 16GG/	.	.	16gJJ 16e 16c/	.	.
+=18	=18	=18	=18	=18	=18
+16r	2GG\	.	16gLL 16fn 16d/	.	.
+16BLL 16D/	.	.	32gL 32f 32d/	.	.
+.	.	.	32aJ 32f 32d/	.	.
+16B 16D/	.	.	16g 16d/	.	.
+16BJJ 16D/	.	.	16gJJ 16f 16d/	.	.
+16BLL 16D/	.	.	16g 16f 16d/	.	.
+16B 16D/	.	.	(32fffLLL 32ddd\	.	.
+.	.	.	32eeeJJJ 32ccc\)	.	.
+16B 16D/	.	.	16dddLL 16bb`\	.	.
+16BJJ 16D/	.	.	(32dddL 32bb\	.	.
+.	.	.	32cccJJJ 32aa\)	.	.
+16r	2GG\	.	16bbLL 16gg`\	.	.
+16GLL 16D/	.	.	(32fffL 32ddd\	.	.
+.	.	.	32eee 32ccc\)	.	.
+16G 16D/	.	.	32ddd 32bb`\	.	.
+.	.	.	(32ccc 32aa\	.	.
+16GJJ 16D/	.	.	32bb 32gg\)	.	.
+.	.	.	32aa 32ff`\	.	.
+16GLL 16D/	.	.	(32gg 32ee\	.	.
+.	.	.	32ff 32dd\)	.	.
+16G 16D/	.	.	32ee 32cc`\	.	.
+.	.	.	(32dd 32b\	.	.
+16G 16D/	.	.	32cc 32a\)	.	.
+.	.	.	32b 32g`\	.	.
+16GJJ 16D/	.	.	(32a 32f\	.	.
+.	.	.	32bJJJ 32d\)	.	.
+=19	=19	=19	=19	=19	=19
+16r	1CC	.	16cc 16e 16c/	.	.
+16CLL 16GG/	.	.	16gLL 16e 16c/	.	.
+16C 16GG/	.	.	16a 16e 16c/	.	.
+16CJJ 16GG/	.	.	16bJJ 16e 16c/	.	.
+16CLL 16GG/	.	.	16ccLL 16e 16c/	.	.
+16C 16GG/	.	.	16dd 16e 16c/	.	.
+16C 16GG/	.	.	16ee 16e 16c/	.	.
+16CJJ 16GG/	.	.	16ddJJ 16e 16c/	.	.
+16CLL 16GG/	.	.	16ccLL 16e 16c/	.	.
+16C 16GG/	.	.	16b 16e 16c/	.	.
+16C 16GG/	.	.	16a 16e 16c/	.	.
+16CJJ 16GG/	.	.	16gJJ 16e 16c/	.	.
+16CLL 16GG/	.	.	16f#XLL 16e 16c/	.	.
+16C 16GG/	.	.	16g 16e 16c/	.	.
+16C 16GG/	.	.	16a 16e 16c/	.	.
+16CJJ 16GG/	.	.	16gJJ 16e 16c/	.	.
 !!LO:LB:g=original
-=20	=20	=20	=20	=20	=20	=20
-16r	2GG\	.	.	16gLL 16f 16d/	.	.
-16BLL 16D/	.	.	.	32gL 32f 32d/	.	.
-.	.	.	.	32aJ 32f 32d/	.	.
-16B 16D/	.	.	.	16g 16f 16d/	.	.
-16BJJ 16D/	.	.	.	16gJJ 16f 16d/	.	.
-16BLL 16D/	.	.	.	16g 16f 16d/	.	.
-16B 16D/	.	.	.	(32fffLLL 32ddd\	.	.
-.	.	.	.	32eeeJJJ 32ccc\)	.	.
-16B 16D/	.	.	.	16dddLL 16bb\	.	.
-16BJJ 16D/	.	.	.	32dddL 32bb\	.	.
-.	.	.	.	32cccJJJ 32aa\	.	.
-16r	2GG\	.	.	16bbLL 16gg`\	.	.
-16BLL 16D/	.	.	.	(32fffL 32ddd\	.	.
-.	.	.	.	32eee 32ccc\)	.	.
-16B 16D/	.	.	.	32ddd 32bb`\	.	.
-.	.	.	.	(32eee 32ccc\	.	.
-16BJJ 16D/	.	.	.	32ddd 32bb\)	.	.
-.	.	.	.	32cccJJJ 32aa\	.	.
-16BLL 16D/	.	.	.	32bbLLL 32gg\	.	.
-.	.	.	.	(32ccc 32aa\	.	.
-16B 16D/	.	.	.	32bb 32gg\	.	.
-.	.	.	.	32aa 32ff\)	.	.
-16B 16D/	.	.	.	32gg 32ee\	.	.
-.	.	.	.	(32aa 32ff\	.	.
-16BJJ 16D/	.	.	.	32gg 32ee\	.	.
-.	.	.	.	32ffJJJ 32dd\)	.	.
-*v	*v	*	*	*	*	*
-=21	=21	=21	=21	=21	=21
-8.cL 8.C\	.	.	16eeLL 16cc\	.	.
-.	.	.	32eeL 32cc\	.	.
-.	.	.	32ffJ 32dd\	.	.
-.	.	.	16ee 16cc\	.	.
-16G#XJk 16GG#X\	.	.	16ddJJ 16b 16f\	.	rf
-8.AL 8.AA/	.	.	16ccLL 16a 16e/	.	.
-.	.	.	32ccL 32a/	.	.
-.	.	.	32ddJ 32b/	.	.
-.	.	.	16cc 16a/	.	.
-16EJk 16EE/	.	.	16bJJ 16g#X 16d/	.	rf
-8.FL 8.FF/	.	.	16aLL 16f 16c/	.	.
-.	.	.	32aL 32f/	.	.
-.	.	.	32bJ 32gn/	.	.
-.	.	.	16a 16f/	.	.
-16F#XJk 16FF#X/	.	.	16aJJ 16e-X 16c/	.	.
-!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!
-8G#\L	.	.	16gLL 16en/	.	.
-.	.	.	16e 16c/	.	.
-8GG#/J	.	.	16f 16d/	.	.
-.	.	.	16dJJ 16B/	.	.
+=20	=20	=20	=20	=20	=20
+16r	2GG\	.	16gLL 16f 16d/	.	.
+16BLL 16D/	.	.	32gL 32f 32d/	.	.
+.	.	.	32aJ 32f 32d/	.	.
+16B 16D/	.	.	16g 16f 16d/	.	.
+16BJJ 16D/	.	.	16gJJ 16f 16d/	.	.
+16BLL 16D/	.	.	16g 16f 16d/	.	.
+16B 16D/	.	.	(32fffLLL 32ddd\	.	.
+.	.	.	32eeeJJJ 32ccc\)	.	.
+16B 16D/	.	.	16dddLL 16bb\	.	.
+16BJJ 16D/	.	.	32dddL 32bb\	.	.
+.	.	.	32cccJJJ 32aa\	.	.
+16r	2GG\	.	16bbLL 16gg`\	.	.
+16BLL 16D/	.	.	(32fffL 32ddd\	.	.
+.	.	.	32eee 32ccc\)	.	.
+16B 16D/	.	.	32ddd 32bb`\	.	.
+.	.	.	(32eee 32ccc\	.	.
+16BJJ 16D/	.	.	32ddd 32bb\)	.	.
+.	.	.	32cccJJJ 32aa\	.	.
+16BLL 16D/	.	.	32bbLLL 32gg\	.	.
+.	.	.	(32ccc 32aa\	.	.
+16B 16D/	.	.	32bb 32gg\	.	.
+.	.	.	32aa 32ff\)	.	.
+16B 16D/	.	.	32gg 32ee\	.	.
+.	.	.	(32aa 32ff\	.	.
+16BJJ 16D/	.	.	32gg 32ee\	.	.
+.	.	.	32ffJJJ 32dd\)	.	.
+*v	*v	*	*	*	*
+=21	=21	=21	=21	=21
+8.cL 8.C\	.	16eeLL 16cc\	.	.
+.	.	32eeL 32cc\	.	.
+.	.	32ffJ 32dd\	.	.
+.	.	16ee 16cc\	.	.
+16G#XJk 16GG#X\	.	16ddJJ 16b 16f\	.	rf
+8.AL 8.AA/	.	16ccLL 16a 16e/	.	.
+.	.	32ccL 32a/	.	.
+.	.	32ddJ 32b/	.	.
+.	.	16cc 16a/	.	.
+16EJk 16EE/	.	16bJJ 16g#X 16d/	.	rf
+8.FL 8.FF/	.	16aLL 16f 16c/	.	.
+.	.	32aL 32f/	.	.
+.	.	32bJ 32gn/	.	.
+.	.	16a 16f/	.	.
+16F#XJk 16FF#X/	.	16aJJ 16e-X 16c/	.	.
+!LO:TX:a:t=P:problem:mixed beam	!	!	!	!
+!LO:SIC:v:s=8G\L	!	!	!	!
+8G#\L	.	16gLL 16en/	.	.
+.	.	16e 16c/	.	.
+!LO:SIC:v:s=8GG/J	!	!	!	!
+8GG#/J	.	16f 16d/	.	.
+.	.	16dJJ 16B/	.	.
 !!LO:LB:g=original
-=22	=22	=22	=22	=22	=22
-8.cL 8.C\	.	.	16eLL 16c/	.	.
-.	.	.	32eeL 32cc/	.	.
-.	.	.	32ffJ 32dd/	.	.
-.	.	.	16ee 16cc/	.	.
-16G#XJk 16GG#X\	.	.	32eeL 32b 32f/	.	rf
-.	.	.	32dd/JJJ	.	.
-8.AL 8.AA/	.	.	16ccLL 16a 16e/	.	.
-.	.	.	32ccL 32a/	.	.
-.	.	.	32ddJ 32b/	.	.
-.	.	.	16cc 16a/	.	.
-16EJk 16EE/	.	.	32ccL 32g#X 32d/	.	rf
-.	.	.	32b/JJJ	.	.
-8.FL 8.FF/	.	.	16aLL 16f 16c/	.	.
-.	.	.	32aL 32f/	.	.
-.	.	.	32bJ 32g#/	.	.
-.	.	.	16a 16f/	.	.
-16F#XJk 16FF#X/	.	.	16aJJ 16e-X 16c/	.	rf
-!LO:TX:a:t=P:problem:mixed beam	!	!	!	!	!
-8G#\L	.	.	16g#LL 16en/	.	.
-.	.	.	16e 16c/	.	.
-8GG#/J	.	.	16f 16d/	.	.
-.	.	.	16dJJ 16B/	.	.
-=23	=23	=23	=23	=23	=23
-*	*	*	*^	*	*
-16C/	.	.	16e 16c/	16ryy	.	.
-16c#XLL 16C#X^\	.	.	32aa/LLL	16eeLL 16b\	.	.
-.	.	.	32gg/J	.	.	.
-16d 16D\	.	.	16ff/	16ff\	.	.
-16BJJ 16BB^\	.	.	32gg/L	16ddJJ 16g\	.	.
-.	.	.	32ff/JJJ	.	.	.
-16cnLL 16Cn\	.	.	16ee/LL	16ee\LL	.	.
-16F\	.	.	32ee/L	16a 16f\	.	.
-.	.	.	32dd/J	.	.	.
-16G\	.	.	16cc/	16g 16e\	.	.
-16GG\JJ	.	.	16b/JJ	16fJJ 16d\	.	.
-16C/	.	.	16cc 16e/	16c\	.	.
-16c#XLL 16C#X^\	.	.	32bb-X/LLL	16eeLL 16a\	.	.
-.	.	.	32aa/J	.	.	.
-16d 16D\	.	.	16ff/	16ff\	.	.
-16BJJ 16BB^\	.	.	32aa/L	16ddJJ 16g\	.	.
-.	.	.	32gg/JJJ	.	.	.
-16cnLL 16Cn\	.	.	16ee/LL	16ee\LL	.	.
-16F\	.	.	48gg/L	16a\JJ	.	.
-.	.	.	48ff/	.	.	.
-.	.	.	48dd/JJJ	.	.	.
-16G\	.	.	16cc/LL	16e\LL	.	.
-16GG\JJ	.	.	16bn/JJ	16fJJ 16d\	.	.
-*	*	*	*v	*v	*	*
+=22	=22	=22	=22	=22
+8.cL 8.C\	.	16eLL 16c/	.	.
+.	.	32eeL 32cc/	.	.
+.	.	32ffJ 32dd/	.	.
+.	.	16ee 16cc/	.	.
+16G#XJk 16GG#X\	.	32eeL 32b 32f/	.	rf
+.	.	32dd/JJJ	.	.
+8.AL 8.AA/	.	16ccLL 16a 16e/	.	.
+.	.	32ccL 32a/	.	.
+.	.	32ddJ 32b/	.	.
+.	.	16cc 16a/	.	.
+16EJk 16EE/	.	32ccL 32g#X 32d/	.	rf
+.	.	32b/JJJ	.	.
+8.FL 8.FF/	.	16aLL 16f 16c/	.	.
+.	.	32aL 32f/	.	.
+.	.	32bJ 32g#/	.	.
+.	.	16a 16f/	.	.
+16F#XJk 16FF#X/	.	16aJJ 16e-X 16c/	.	rf
+!LO:TX:a:t=P:problem:mixed beam	!	!	!	!
+!LO:SIC:v:s=8G\L	!	!	!	!
+8G#\L	.	16g#LL 16en/	.	.
+.	.	16e 16c/	.	.
+!LO:SIC:v:s=8GG/J	!	!	!	!
+8GG#/J	.	16f 16d/	.	.
+.	.	16dJJ 16B/	.	.
+=23	=23	=23	=23	=23
+*	*	*^	*	*
+16C/	.	16e 16c/	16ryy	.	.
+16c#XLL 16C#X^\	.	32aa/LLL	16eeLL 16b\	.	.
+.	.	32gg/J	.	.	.
+16d 16D\	.	16ff/	16ff\	.	.
+16BJJ 16BB^\	.	32gg/L	16ddJJ 16g\	.	.
+.	.	32ff/JJJ	.	.	.
+16cnLL 16Cn\	.	16ee/LL	16ee\LL	.	.
+16F\	.	32ee/L	16a 16f\	.	.
+.	.	32dd/J	.	.	.
+16G\	.	16cc/	16g 16e\	.	.
+16GG\JJ	.	16b/JJ	16fJJ 16d\	.	.
+16C/	.	16cc 16e/	16c\	.	.
+16c#XLL 16C#X^\	.	32bb-X/LLL	16eeLL 16a\	.	.
+.	.	32aa/J	.	.	.
+16d 16D\	.	16ff/	16ff\	.	.
+16BJJ 16BB^\	.	32aa/L	16ddJJ 16g\	.	.
+.	.	32gg/JJJ	.	.	.
+16cnLL 16Cn\	.	16ee/LL	16ee\LL	.	.
+16F\	.	48gg/L	16a\JJ	.	.
+.	.	48ff/	.	.	.
+.	.	48dd/JJJ	.	.	.
+16G\	.	16cc/LL	16e\LL	.	.
+16GG\JJ	.	16bn/JJ	16fJJ 16d\	.	.
+*	*	*v	*v	*	*
 !!LO:LB:g=original
-=24	=24	=24	=24	=24	=24
-16C/	.	.	4cc 4e 4c/	.	p
-16GLL 16E 16C\	.	.	.	.	.
-16A 16E 16C\	.	.	.	.	.
-16BJJ 16E 16C\	.	.	.	.	.
-16cLL 16E 16C\	.	.	4r	.	.
-16d 16E 16C\	.	.	.	.	.
-16e 16E 16C\	.	.	.	.	.
-16dJJ 16E 16C\	.	.	.	.	.
-16cLL 16E 16C\	.	.	2r	.	.
-16B 16E 16C\	.	.	.	.	.
-16A 16E 16C\	.	.	.	.	.
-16GJJ 16E 16C\	.	.	.	.	.
-16F#XLL 16E 16C\	.	.	.	.	.
-16G 16E 16C\	.	.	.	.	.
-16A 16E 16C\	.	.	.	.	.
-16GJJ 16E 16C\	.	.	.	.	.
-=25	=25	=25	=25	=25	=25
-16G 16GG`\	.	.	16r	.	.
-(16GLL 16GG\	.	.	16ggLL 16b 16g\	.	f
-16A 16AA\	.	.	16ff#X 16cc\	.	.
-16BJJ 16BB\)	.	.	16ffnJJ 16dd 16g\	.	.
-16c 16C`\	.	.	16eeLL 16cc 16g\	.	.
-(16cLL 16C\	.	.	16ccc 16ee 16cc\	.	.
-16d 16D\	.	.	16bb 16gg 16ff\	.	.
-16eJJ 16E\)	.	.	16bb-XJJ 16gg 16cc\	.	.
-16f 16F\	.	.	16aa 16ff\	.	<
-16D\LL	.	.	16fffLL 16aa\	.	.
-.	.	.	8qfff/	.	.
-16E\	.	.	16eee 16gg\	.	.
-.	.	.	8qeee/	.	.
-16F\JJ	.	.	16dddJJ 16ff\	.	.
-16G\	.	.	16ccc 16ee\	.	[
-16r	.	.	16r	.	.
-16GG/	.	.	16bbn 16dd\	.	.
-16r	.	.	16r	.	.
-=26	=26	=26	=26	=26	=26
-4C/	.	.	16ccc 16ee 16cc\	.	.
-.	.	.	16gLL 16e 16c/	.	p
-.	.	.	16a 16e 16c/	.	.
-.	.	.	16bJJ 16e 16c/	.	.
-4r	.	.	16ccLL 16e 16c/	.	.
-.	.	.	16dd 16e 16c/	.	.
-.	.	.	16ee 16e 16c/	.	.
-.	.	.	16ddJJ 16e 16c/	.	.
-2r	.	.	16ccLL 16e 16c/	.	.
-.	.	.	16cc 16e 16c/	.	.
-.	.	.	16b 16e 16c/	.	.
-.	.	.	16aJJ 16e 16c/	.	.
-.	.	.	16g#XLL 16e 16c/	.	.
-.	.	.	16a 16e 16c/	.	.
-.	.	.	16b 16e 16c/	.	.
-.	.	.	16aJJ 16e 16c/	.	.
+=24	=24	=24	=24	=24
+16C/	.	4cc 4e 4c/	.	p
+16GLL 16E 16C\	.	.	.	.
+16A 16E 16C\	.	.	.	.
+16BJJ 16E 16C\	.	.	.	.
+16cLL 16E 16C\	.	4r	.	.
+16d 16E 16C\	.	.	.	.
+16e 16E 16C\	.	.	.	.
+16dJJ 16E 16C\	.	.	.	.
+16cLL 16E 16C\	.	2r	.	.
+16B 16E 16C\	.	.	.	.
+16A 16E 16C\	.	.	.	.
+16GJJ 16E 16C\	.	.	.	.
+16F#XLL 16E 16C\	.	.	.	.
+16G 16E 16C\	.	.	.	.
+16A 16E 16C\	.	.	.	.
+16GJJ 16E 16C\	.	.	.	.
+=25	=25	=25	=25	=25
+16G 16GG`\	.	16r	.	.
+(16GLL 16GG\	.	16ggLL 16b 16g\	.	f
+16A 16AA\	.	16ff#X 16cc\	.	.
+16BJJ 16BB\)	.	16ffnJJ 16dd 16g\	.	.
+16c 16C`\	.	16eeLL 16cc 16g\	.	.
+(16cLL 16C\	.	16ccc 16ee 16cc\	.	.
+16d 16D\	.	16bb 16gg 16ff\	.	.
+16eJJ 16E\)	.	16bb-XJJ 16gg 16cc\	.	.
+16f 16F\	.	16aa 16ff\	.	<
+16D\LL	.	16fffLL 16aa\	.	.
+.	.	8qfff/	.	.
+16E\	.	16eee 16gg\	.	.
+.	.	8qeee/	.	.
+16F\JJ	.	16dddJJ 16ff\	.	.
+16G\	.	16ccc 16ee\	.	[
+16r	.	16r	.	.
+16GG/	.	16bbn 16dd\	.	.
+16r	.	16r	.	.
+=26	=26	=26	=26	=26
+4C/	.	16ccc 16ee 16cc\	.	.
+.	.	16gLL 16e 16c/	.	p
+.	.	16a 16e 16c/	.	.
+.	.	16bJJ 16e 16c/	.	.
+4r	.	16ccLL 16e 16c/	.	.
+.	.	16dd 16e 16c/	.	.
+.	.	16ee 16e 16c/	.	.
+.	.	16ddJJ 16e 16c/	.	.
+2r	.	16ccLL 16e 16c/	.	.
+.	.	16cc 16e 16c/	.	.
+.	.	16b 16e 16c/	.	.
+.	.	16aJJ 16e 16c/	.	.
+.	.	16g#XLL 16e 16c/	.	.
+.	.	16a 16e 16c/	.	.
+.	.	16b 16e 16c/	.	.
+.	.	16aJJ 16e 16c/	.	.
 !!LO:LB:g=original
-=27	=27	=27	=27	=27	=27
-16EE/	.	.	16g#X 16e 16B/	.	<
-16E\LL	.	.	16eeLL 16g# 16e/	.	.
-16F#X\	.	.	16dd#X 16b 16a/	.	.
-16G#X\JJ	.	.	16ddnJJ 16b [16e/	.	.
-16A`\LL	.	.	16cc 16a 16e/]	.	.
-(16AA\	.	.	16ffLL 16cc 16fn\	.	[
-16BB\)	.	.	16ddn 16b\	.	.
-(16B\JJ	.	.	16ggJJ 16dd 16gn\	.	.
-16c\LL)	.	.	16eeLL 16cc\	.	.
-16e^\	.	.	16ccc 16gg 16cc\	.	.
-(16f\	.	.	16aa 16ff\	.	.
-.	.	.	8qeee/	.	.
-16f#X\JJ)	.	.	16dddJJ 16aa 16dd\	.	.
-16g^\	.	.	16ccc 16ee\	.	.
-16r	.	.	16r	.	.
-16G#\	.	.	16bb 16dd\	.	.
-16r	.	.	16r	.	.
-=28	=28	=28	=28	=28	=28
-16c 16C\	.	.	16ccc 16ee 16cc\	.	.
-16r	.	.	(32gLLL 32e/	.	.
-.	.	.	32aJ 32f/	.	.
-16r	.	.	16g 16e/)	.	.
-16G 16GG\	.	.	16bJJ 16f 16d/	.	.
-8C\L	.	.	32ccLLL 32e 32c`/	.	.
-.	.	.	32dd 32f 32d`/	.	.
-.	.	.	32ee 32g 32e`/	.	.
-.	.	.	32ffJJJ 32a 32f`/	.	.
-8GJ 8GG\	.	.	32ggLLL 32b 32g`\	.	.
-.	.	.	32aa 32cc 32a`\	.	.
-.	.	.	32bb 32dd 32b`\	.	.
-.	.	.	32ggJJJ 32b 32g`\	.	.
-16C/	.	.	16ccc 16ee 16cc\	.	.
-8.r	.	.	(32ggLLL 32ee\	.	.
-.	.	.	32aa 32ff\	.	.
-.	.	.	32gg 32ee\	.	.
-.	.	.	32ff#X 32dd#X\	.	.
-.	.	.	32ffn 32ddn\	.	.
-.	.	.	32eeJJJ 32cc\)	.	.
-*	*	*	*8va	*	*
-8GL 8GG\	.	.	32bbLLL 32dd 32b/	.	ff
-.	.	.	32ccc 32ee 32cc/	.	.
-.	.	.	32ddd 32ff 32dd/	.	.
-.	.	.	32eee 32gg 32ee/	.	.
-8GJ 8GG\	.	.	32fff 32aa 32ff/	.	.
-.	.	.	32ggg 32bb 32gg/	.	.
-.	.	.	32aaa 32ccc 32aa/	.	.
-.	.	.	32bbbJJJ 32ddd 32bb/	.	.
-=29	=29	=29	=29	=29	=29
-2C 2CC;/	.	.	2cccc 2eee 2ccc;\	.	.
-*	*	*	*X8va	*	*
-2r;	.	.	2r;	.	.
-==	==	==	==	==	==
-*-	*-	*-	*-	*-	*-
+=27	=27	=27	=27	=27
+16EE/	.	16g#X 16e 16B/	.	<
+16E\LL	.	16eeLL 16g# 16e/	.	.
+16F#X\	.	16dd#X 16b 16a/	.	.
+16G#X\JJ	.	16ddnJJ 16b [16e/	.	.
+16A`\LL	.	16cc 16a 16e/]	.	.
+(16AA\	.	16ffLL 16cc 16fn\	.	[
+16BB\)	.	16ddn 16b\	.	.
+(16B\JJ	.	16ggJJ 16dd 16gn\	.	.
+16c\LL)	.	16eeLL 16cc\	.	.
+16e^\	.	16ccc 16gg 16cc\	.	.
+(16f\	.	16aa 16ff\	.	.
+.	.	8qeee/	.	.
+16f#X\JJ)	.	16dddJJ 16aa 16dd\	.	.
+16g^\	.	16ccc 16ee\	.	.
+16r	.	16r	.	.
+!LO:SIC:v:s=16G	!	!	!	!
+16G#\	.	16bb 16dd\	.	.
+16r	.	16r	.	.
+=28	=28	=28	=28	=28
+16c 16C\	.	16ccc 16ee 16cc\	.	.
+16r	.	(32gLLL 32e/	.	.
+.	.	32aJ 32f/	.	.
+16r	.	16g 16e/)	.	.
+16G 16GG\	.	16bJJ 16f 16d/	.	.
+8C\L	.	32ccLLL 32e 32c`/	.	.
+.	.	32dd 32f 32d`/	.	.
+.	.	32ee 32g 32e`/	.	.
+.	.	32ffJJJ 32a 32f`/	.	.
+8GJ 8GG\	.	32ggLLL 32b 32g`\	.	.
+.	.	32aa 32cc 32a`\	.	.
+.	.	32bb 32dd 32b`\	.	.
+.	.	32ggJJJ 32b 32g`\	.	.
+16C/	.	16ccc 16ee 16cc\	.	.
+8.r	.	(32ggLLL 32ee\	.	.
+.	.	32aa 32ff\	.	.
+.	.	32gg 32ee\	.	.
+.	.	32ff#X 32dd#X\	.	.
+.	.	32ffn 32ddn\	.	.
+.	.	32eeJJJ 32cc\)	.	.
+*	*	*8va	*	*
+8GL 8GG\	.	32bbLLL 32dd 32b/	.	ff
+.	.	32ccc 32ee 32cc/	.	.
+.	.	32ddd 32ff 32dd/	.	.
+.	.	32eee 32gg 32ee/	.	.
+8GJ 8GG\	.	32fff 32aa 32ff/	.	.
+.	.	32ggg 32bb 32gg/	.	.
+.	.	32aaa 32ccc 32aa/	.	.
+.	.	32bbbJJJ 32ddd 32bb/	.	.
+=29	=29	=29	=29	=29
+2C 2CC;/	.	2cccc 2eee 2ccc;\	.	.
+*	*	*X8va	*	*
+2r;	.	2r;	.	.
+==	==	==	==	==
+*-	*-	*-	*-	*-
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-07-17
 !!!ENC: Urszula Świątek
 !!!END: 2022-08-18
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

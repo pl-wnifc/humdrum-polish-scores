@@ -19,13 +19,19 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/klocki-introligatorskie/380 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: „Six Romances” M. Szymanowskiej na str. 63-70
 !!!OMD: Plainlif
-!!!AIN: 1 empty 1 piano 1 vox
-!!!key:
+!!!AIN: 1 piano 1 vox
+!!!key: f
+!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam	**kern	**text
-*part3	*part2	*part2	*part1	*part1
+*part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1
-*Iempty	*Ipiano	*	*Ivox	*
-*	*I"Pianoforte	*	*I"Chant	*
+*I"Pianoforte	*I"Pianoforte	*	*I"Chant	*
+*I'	*I'	*	*I'	*
+*Ipiano	*Ipiano	*	*Ivox	*
+*ICklav	*ICklav	*	*ICvox	*
+*IGacmp	*IGacmp	*	*IGacmp	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*
+*mI'pf	*mI'pf	*	*mI'V	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[b-e-a-d-]	*k[b-e-a-d-]	*	*k[b-e-a-d-]	*
 *f:	*f:	*	*f:	*
@@ -33,8 +39,9 @@
 *>[A,A1,A,A1,A,A2]	*>[A,A1,A,A1,A,A2]	*	*>[A,A1,A,A1,A,A2]	*
 =1	=1	=1	=1	=1
 *>A	*>A	*	*>A	*
-!LO:TX:a:t=[segno]	!LO:TX:a:t=[segno]	!	!	!
-!LO:TX:t=P:problem=mixed beam	!LO:TX:b:t=sempre	!	!LO:TX:a:t=[segno]	!
+!LO:TX:a:t=[segno]:mod=	!LO:TX:a:t=[segno]:mod=	!	!	!
+!	!	!LO:DY:t=sempre p	!	!
+!LO:TX:t=P:problem=mixed beam	!LO:TX:b:t=sempre:mod=	!LO:MO:null:mod=p	!LO:TX:a:t=[segno]:mod=	!
 8.FF/L	16r	.	4f/	Ah!
 .	16A-/KL	.	.	.
 .	8f/J	.	.	.
@@ -42,6 +49,7 @@
 !LO:TX:t=P:problem=mixed beam	!	!	!	!
 8.FF/L	16r	.	4a-/	si
 .	16A-/KL	.	.	.
+!	!	!LO:MO:null:mod=.	!	!
 .	8f/J	p	.	.
 16F\Jk	.	.	.	.
 !LO:TX:t=P:problem=mixed beam	!	!	!	!
@@ -343,9 +351,9 @@
 .	8a-/J	.	.	.
 16F\Jk	.	.	.	.
 =21	=21	=21	=21	=21
-!LO:TX:t=pour le 2 Couplet	!	!	!	!
+!LO:TX:t=pour le 2 Couplet:mod=1. 2.	!	!	!	!
 *>A1	*>A1	*	*>A1	*
-!	!	!	!LO:TX:t=[segno]	!
+!	!	!	!LO:TX:t=[segno]:mod=	!
 !LO:TX:t=P:problem=mixed beam	!	!	!LO:TX:t=P:problem=znak segno na kresce taktowej	!
 !	!	!	!	!
 8.FF/L	16r	.	2.r	.
@@ -360,14 +368,15 @@
 !LO:TX:t=P:problem=mixed beam	!	!	!	!
 8.FF/L	16r	.	.	.
 .	16A-/KL	pp	.	.
-!	!LO:TX:t=[segno]	!	!	!
+!	!LO:TX:t=[segno]:mod=	!	!	!
 !	!LO:TX:t=P:problem=znak segno na kresce taktowej	!	!	!
 .	8f/J	.	.	.
-!LO:TX:t=[segno]	!	!	!	!
+!LO:TX:t=[segno]:mod=	!	!	!	!
 !LO:TX:t=P:problem=znak segno na kresce taktowej	!	!	!	!
 16F\Jk	.	.	.	.
+!LO:MO:mod==22:|!	!LO:MO:mod==22:|!	!LO:MO:mod==22:|!	!LO:MO:mod==22:|!	!LO:MO:mod==22:|!
 =22||	=22||	=22||	=22||	=22||
-!LO:TX:t=pour finir	!	!	!	!
+!LO:TX:t=pour finir:mod=3.	!	!	!	!
 *>A2	*>A2	*	*>A2	*
 !	!	!	!	!
 4FF;/	4f/ 4A-;/	.	2.r;	.
@@ -380,5 +389,7 @@
 !!!RDF**kern: < = below
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-07-28
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

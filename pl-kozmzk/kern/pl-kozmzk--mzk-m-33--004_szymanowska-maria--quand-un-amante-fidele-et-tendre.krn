@@ -18,24 +18,33 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-kozmzk%3A6878/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/klocki-introligatorskie/380 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: „Six Romances” M. Szymanowskiej na str. 63-70
-!!!AIN: 1 empty 1 piano 1 vox
-!!!key:
+!!!AIN: 1 piano 1 vox
+!!!key: F
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam	**kern	**text
-*part3	*part2	*part2	*part1	*part1
+*part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1
-*Iempty	*Ipiano	*	*Ivox	*
-*	*I"Pianof.	*	*I"Chant	*
+*I"Pianof.	*I"Pianof.	*	*I"Chant	*
+*I'	*I'	*	*I'	*
+*Ipiano	*Ipiano	*	*Ivox	*
+*ICklav	*ICklav	*	*ICvox	*
+*IGacmp	*IGacmp	*	*IGacmp	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*
+*mI'pf	*mI'pf	*	*mI'V	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[b-]	*k[b-]	*	*k[b-]	*
 *F:	*F:	*	*F:	*
 *M3/4	*M3/4	*	*M3/4	*
 *>[A,B,B1,B,B1,B,B2,C]	*>[A,B,B1,B,B1,B,B2,C]	*	*>[A,B,B1,B,B1,B,B2,C]	*
 =1	=1	=1	=1	=1
+!!!OMD:
+!!!OMD-mod: Ballade
 *>A	*>A	*	*>A	*
-!	!	!	!LO:TX:a:t=Paroles de Mme Saint-Onge	!
-!	!	!	!LO:TX:a:i:t=Ballade	!
+!	!	!	!LO:TX:a:t=Paroles de Mme Saint-Onge:mod=	!
+!	!	!LO:MO:null:mod=p	!LO:TX:a:i:t=Ballade:mod=	!
 8FF\L	8f/L	.	2.r	.
 !	!	!LO:DY:rj	!	!
+!	!	!LO:MO:null:mod=.	!	!
 16F\L	16c/L 16A/	p	.	.
 16F\JJ	16c/JJ 16A/	.	.	.
 8F'\L	8c/L 8A/	.	.	.
@@ -65,7 +74,7 @@
 8F\	8a/	.	.	.
 8F\J	8c/J 8A/	.	.	.
 =4	=4	=4	=4	=4
-!	!	!	!LO:TX:a:t=[segno]	!
+!	!	!	!LO:TX:a:t=[segno]:mod=	!
 !	!	!	!LO:TX:t=P:problem=znak segno na kresce taktowej	!
 8FF\L	8f/L	.	2.r	.
 16F\L	16c/L 16A/	.	.	.
@@ -73,9 +82,10 @@
 8F\L	8c/L 8A/	.	.	.
 8F\	8c/ 8A/	.	.	.
 8F\	8c/ 8A/	.	.	.
-!LO:TX:a:t=[segno]	!LO:TX:a:t=[segno]	!	!	!
+!LO:TX:a:t=[segno]:mod=	!LO:TX:a:t=[segno]:mod=	!	!	!
 !LO:TX:t=P:problem=znak segno na kresce taktowej	!LO:TX:t=P:problem=znak segno na kresce taktowej	!	!	!
 8F\J	8c/J 8A/	.	.	.
+!LO:MO:mod==5!|:	!LO:MO:mod==5!|:	!LO:MO:mod==5!|:	!LO:MO:mod==5!|:	!LO:MO:mod==5!|:
 =5||	=5||	=5||	=5||	=5||
 *>B	*>B	*	*>B	*
 !LO:TX:t=P:problem=mixed beam	!	!	!	!
@@ -87,6 +97,7 @@
 .	.	.	12b-/	.
 8F\	8c/ 8A/	.	.	.
 .	.	.	12a/J	.
+!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*Xtuplet	*
 8F\	8d/ 8B-/	.	12g/L	un
 .	.	.	12a/J	.
@@ -173,7 +184,7 @@
 8F\	8f/ 8c/ 8A/	.	4r	.
 8F\J	8f/J 8c/ 8A/	.	.	.
 =14	=14	=14	=14	=14
-!	!LO:TX:b:t=crescen_do:ext2=ud:problem=dynamics with extension lines	!LO:HP:t=crescen_do	!	!
+!	!LO:TX:b:t=crescen_do:ext2=ud:problem=dynamics with extension lines:mod=	!LO:HP:t=crescen_do	!	!
 4GG\	8r	<	2g/	qu'on
 .	8f/ 8Bn</ 8G</	.	.	.
 4BBn\	8r	.	.	.
@@ -240,7 +251,7 @@
 8c\	8g/ 8e/	.	8g/	quand
 8c\J	8g/J 8e/	.	8g/	on
 =21	=21	=21	=21	=21
-!	!LO:TX:b:i:t=espres	!	!	!
+!	!LO:TX:b:i:t=espres:mod=espress.	!	!	!
 8C\L	8a-X/L 8f/	.	4.a-X/	voit
 16c\L	16a-/L 16f/	.	.	.
 16c\JJ	16a-/JJ 16f/	.	.	.
@@ -360,7 +371,7 @@
 8F\J	16e/ 16d-X/ 16B-/	.	.	.
 .	16g/JJ	.	.	.
 =33	=33	=33	=33	=33
-!	!LO:TX:b:t=per_den do si:dur=6qs:ext2=ud:ext3=s:problem=text with extension lines	!	!	!
+!	!LO:TX:b:t=per_den do si:dur=6qs:ext2=ud:ext3=s:problem=text with extension lines:mod=perdendosi	!	!	!
 8FF\L	8f/L 8A/	.	2.f/_>	.
 16F\L	16c/L 16A/	.	.	.
 16F\JJ	16c/JJ 16A/	.	.	.
@@ -380,7 +391,7 @@
 8F\	8a/	.	4r	.
 8F\J	8c/J 8A/	.	.	.
 =35	=35	=35	=35	=35
-!LO:TX:t=pour recommencer	!	!	!LO:TX:a:t=[segno]	!
+!LO:TX:t=pour recommencer:mod=1. 2.	!	!	!LO:TX:a:t=[segno]:mod=	!
 *>B1	*>B1	*	*>B1	*
 !	!	!	!LO:TX:t=P:problem=znak segno na kresce taktowej	!
 8FF\L	8f/L	.	2.r	.
@@ -389,11 +400,12 @@
 8F\L	8c/L 8A/	.	.	.
 8F\	8c/ 8A/	.	.	.
 8F\	8c/ 8A/	.	.	.
-!LO:TX:a:t=[segno]	!LO:TX:a:t=[segno]	!	!	!
+!LO:TX:a:t=[segno]:mod=	!LO:TX:a:t=[segno]:mod=	!	!	!
 !LO:TX:t=P:problem=znak segno na kresce taktowej	!LO:TX:t=P:problem=znak segno na kresce taktowej	!	!	!
 8F\J	8c/J 8A/	.	.	.
+!LO:MO:mod==36:|!	!LO:MO:mod==36:|!	!LO:MO:mod==36:|!	!LO:MO:mod==36:|!	!LO:MO:mod==36:|!
 =36||	=36||	=36||	=36||	=36||
-!LO:TX:t=pour finir	!	!	!	!
+!LO:TX:t=pour finir:mod=3.	!	!	!	!
 *>B2	*>B2	*	*>B2	*
 !LO:N:vis=2	!	!	!	!
 2.F\ 2.FF\	8f/L	pp	2.r	.
@@ -404,7 +416,7 @@
 .	8a/	.	.	.
 .	8c/J 8A/	.	.	.
 =37	=37	=37	=37	=37
-*>C	*>B	*	*>B	*
+*>C	*>C	*	*>B	*
 !LO:TX:t=P:problem=pod pięciolinią dodatkowe 2 zwrotki	!	!	!	!
 !LO:N:vis=2	!	!	!	!
 2.F\ 2.FF;\	2.f/ 2.c/ 2.A;/	.	2.r;	.
@@ -417,5 +429,7 @@
 !!!EEV: 2021-08-08
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-07-28
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

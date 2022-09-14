@@ -19,13 +19,19 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/klocki-introligatorskie/380 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: str. 59-62
 !!!OMD: Risoluto ed agitato
-!!!AIN: 1 empty 2 piano
-!!!key:
+!!!AIN: 1 piano 1 vox
+!!!key: a
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam	**kern	**text	**dynam
-*part3	*part2	*part2	*part1	*part1	*part1
+*part2	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1	*
-*Ipiano	*Ipiano	*	*Iempty	*	*
 *I"Pianoforte.	*I"Pianoforte.	*	*I"Chant.	*	*
+*I'	*I'	*	*I'	*	*
+*Ipiano	*Ipiano	*	*Ivox	*	*
+*ICklav	*ICklav	*	*ICvox	*	*
+*IGacmp	*IGacmp	*	*IGacmp	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*	*
+*mI'pf	*mI'pf	*	*mI'V	*	*
 *clefF4	*clefG2	*	*clefG2	*	*
 *k[]	*k[]	*	*k[]	*	*
 *a:	*a:	*	*a:	*	*
@@ -335,11 +341,12 @@
 .	.	32c/	.	.	.	.
 .	.	32e/	.	.	.	.
 .	.	32g#/JJJ	.	.	.	.
+!	!	!	!LO:MO:null:mod=.	!	!	!
 .	.	4a/ 4A/	<	.	.	.
 8C/	.	.	.	.	.	.
 !!LO:LB:g=original
 =21	=21	=21	=21	=21	=21	=21
-!	!	!LO:TX:b:t=cres_cen_do:ext2=ud:problem=dynamics with extension lines	!LO:HP:t=cres_cen_do	!	!	!
+!	!	!LO:TX:b:t=cres_cen_do:ext2=ud:problem=dynamics with extension lines:mod=	!LO:HP:t=cres_cen_do	!	!	!
 4.D#X/	2DD#X\	8r	<	2a/	on	.
 .	.	32A/LLL	.	.	.	.
 .	.	32c/	.	.	.	.
@@ -392,7 +399,7 @@
 .	.	32g#X/JJJ	.	.	.	.
 .	.	4a/ 4A/	.	.	.	.
 8C/	.	.	.	.	.	.
-!	!	!LO:TX:i:b:t=manc	!	!	!	!
+!	!	!LO:TX:i:b:t=manc:mod=	!	!	!	!
 4.E/	2EE\	8r	.	8cc/	que	.
 .	.	32B/LLL	.	8bn/	l'on	.
 .	.	32d/	.	.	.	.
@@ -434,7 +441,7 @@
 =27	=27	=27	=27	=27	=27	=27
 4.G#X/	2EE\	8r	.	1r	.	.
 .	.	32B/LLL	.	.	.	.
-!	!	!LO:TX:b:t=per_den_dosi:dur=2qes:ext2=ud:problem=text with extension lines	!	!	!	!
+!	!	!LO:TX:b:t=per_den_dosi:dur=2qes:ext2=ud:problem=text with extension lines:mod=perdendosi	!	!	!	!
 .	.	32e/	.	.	.	.
 .	.	32g#X/	.	.	.	.
 .	.	32a#X/JJJ	.	.	.	.
@@ -450,7 +457,7 @@
 *v	*v	*	*	*	*	*
 =28	=28	=28	=28	=28	=28
 !!!OMD: Molto agitato
-!	!	!	!LO:TX:b:t=2me Couplet	!	!
+!LO:SIC:s=2.E\ 2.EE;	!	!	!LO:TX:b:t=2me Couplet:mod=	!	!
 2.E\ 2.EE;;\	2.e/ 2.B/ 2.G#X;/	.	2r	.	.
 .	.	.	4r;	.	.
 4r	4r	.	8e/	Je	.
@@ -684,7 +691,7 @@
 8D-/	8r	.	8g/	-is-	.
 =42	=42	=42	=42	=42	=42
 8qqFF/	.	.	.	.	.
-!	!	!	!LO:SIC:v:l:s=-ten-	!	!
+!	!	!	!LO:SIC:v:l:t=-ten-	!	!
 4F\	8r	.	4a/	-sten-	.
 .	32A/LLL	.	.	.	.
 .	32c/	.	.	.	.
@@ -701,7 +708,7 @@
 8r	8a/ 8A/	.	4f/	que	.
 8C/	8r	.	.	.	.
 =43	=43	=43	=43	=43	=43
-!	!LO:TX:b:t=ac_ce_le_ran_do:dur=4q:ext2=u:problem=text with extension lines	!	!	!	!
+!	!LO:TX:b:t=ac_ce_le_ran_do:dur=4q:ext2=u:problem=text with extension lines:mod=accelerando	!	!	!	!
 8qqFF/	.	.	.	.	.
 4D-X^\	8r	.	2e/	ces	.
 .	32G/LLL	.	.	.	.
@@ -842,7 +849,7 @@
 !!LO:LB:g=original
 =51	=51	=51	=51	=51	=51
 8qqEE/	.	.	.	.	.
-!	!LO:TX:b:t=di_mi_nuen-do:ext2=u:problem=dynamics with extension lines	!LO:HP:t=di_mi_nuen-do	!	!	!
+!	!LO:TX:b:t=di_mi_nuen-do:ext2=u:problem=dynamics with extension lines:mod=	!LO:HP:t=di_mi_nuen-do	!	!	!
 4G#X/	8r	>	1r	.	.
 .	32B/LLL	.	.	.	.
 .	32e/	.	.	.	.
@@ -851,7 +858,7 @@
 8r	8b/ 8B/	.	.	.	.
 8BB/	8r	.	.	.	.
 8qqEE/	.	.	.	.	.
-!	!	!	!LO:TX:b:t=3me Couplet	!	!
+!	!	!	!LO:TX:b:t=3me Couplet:mod=	!	!
 4E/	8r	.	.	.	.
 .	32G#X/LLL	.	.	.	.
 .	32B/	.	.	.	.
@@ -863,6 +870,8 @@
 !LO:N:vis=2	!	!	!	!	!
 2.E\ 2.EE;<\	2.e/ 2.B/ 2.G#X;/	.	2r	.	.
 .	.	.	4r	.	.
+!!!OMD:
+!!!OMD-mod: Più lento ed espressivo
 !	!	!	!LO:TX:a:i:t=Più lento ed espressivo	!	!
 4r	4r	.	4e/	Re-	.
 =53	=53	=53	=53	=53	=53
@@ -929,7 +938,9 @@
 .	.	4b/ 4B/	.	.	.	.
 8E/	.	.	.	.	.	.
 =57	=57	=57	=57	=57	=57	=57
-!	!	!LO:TX:b:i:t=trem	!	!	!	!
+!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!
+!	!	!LO:TX:b:i:t=trem:mod=tremolo	!	!	!	!
+!	!	!	!LO:MO:null:mod=rf	!	!	!
 32C/LLL	[4EE\	32f#X/LLL 32d#X/ 32c/	.	8.f#X/	trem-	.
 32D#X/	.	32A/	.	.	.	.
 32C/	.	32f#/ 32d#/ 32c/	.	.	.	.
@@ -1172,7 +1183,7 @@
 .	.	32d/	.	.	.	.
 .	.	32f/	.	.	.	.
 .	.	32a/JJJ	.	.	.	.
-!	!	!LO:TX:b:t=mo_ren_do:dur=4q:ext2=u:problem=text with extension lines	!	!	!	!
+!	!	!LO:TX:b:t=mo_ren_do:dur=4q:ext2=u:problem=text with extension lines:mod=morendo	!	!	!	!
 .	.	4b-X/ 4B-/	.	4b-X/	je	.
 8BB-X/	.	.	.	.	.	.
 =72	=72	=72	=72	=72	=72	=72
@@ -1243,7 +1254,9 @@
 2.E\ 2.EE;\	2.e/ 2.B/ 2.G#X;/	.	1r;	.	.
 4r	4r	.	.	.	.
 =77	=77	=77	=77	=77	=77
-!	!LO:TX:a:i:t=più presto.	!	!	!	!
+!!!OMD:
+!!!OMD-mod: Più presto
+!	!LO:TX:a:i:t=più presto.:mod=	!	!	!	!
 4B\ 4G#X\ 4F\ 4D\	4r	.	1r	.	.
 4r	32r	.	.	.	.
 !	!	!LO:DY:rj	!	!	!
@@ -1303,7 +1316,7 @@
 4E/ 4EE/	4eee\ 4gg#X\ 4ee\	.	.	.	.
 4r	4r	.	.	.	.
 =81	=81	=81	=81	=81	=81
-8qqAA\ 8qqAAA\	8qqA</ 8qqE</ 8qqC</	ff	.	.	.
+8qqAA\\ 8qqAAA\\	8qqA</ 8qqE</ 8qqC</	ff	.	.	.
 1AA/ 1AAA/	1A</ 1E</ 1C</;	.	1r;	.	.
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
@@ -1315,5 +1328,7 @@
 !!!END: 2021-07-27
 !!!EED: Andrzej Borzym
 !!!EEV: 2021-09-22
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

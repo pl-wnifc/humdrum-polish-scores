@@ -18,20 +18,29 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/nifc%3A212371/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/16843 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: w zbiorze znajduje się 14 Polonezów z Triami, pliki są numerowane jak w źródle.
-!!!AIN: 2 piano
+!!!AIN: 1 piano
 !!!key: B-
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
+!!!OMD:
+!!!OMD-mod: Moderato
 **kern	**kern	**dynam
-*part2	*part1	*part1
+*part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano.	*I"Piano.	*
+*I'	*I'	*
 *Ipiano	*Ipiano	*
 *ICklav	*ICklav	*
+*IGsolo	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
+*>[A,B,A,B,C,A,B,D,D,E,E,A,B,A,B]	*>[A,B,A,B,C,A,B,D,D,E,E,A,B,A,B]	*
 *clefF4	*clefG2	*
 *k[b-e-]	*k[b-e-]	*
 *B-:	*B-:	*
 *M3/4	*M3/4	*
 =1	=1	=1
-!	!LO:TX:a:t=Moderato.	!
+*>A	*>A	*
+!	!LO:TX:a:t=Moderato.:mod=	!
 8.B-\L	8.f/L 8.dd	p
 (16B-\Jk	(16f/Jk 16dd	.
 4A\)	4f/) 4cc	.
@@ -65,6 +74,7 @@
 8A\J) 8c	8ee-X\J)	.
 !LO:TX:t=[segno]	!LO:TX:t=[segno]	!
 =5||	=5||	=5||
+*>B	*>B	*
 8.B-\L 8.d	8.f/L 8.dd	f
 16B-\Jk 16d	16f/Jk 16dd	.
 4A\ 4c	(16f\LL 16cc	<
@@ -110,9 +120,11 @@
 8r	(4e-/ 4cc	.
 8FF/L	.	.
 8BB-/J	8d/) 8b-	.
-!	!LO:TX:b:i:t=Fine.	!
+!	!LO:TX:b:i:t=Fine.:mod=	!
 8r	8r	.
+!!LO:TX:a:B:rj:t=:mod=Fine
 =9:|!	=9:|!	=9:|!
+*>C	*>C	*
 (8c\L 8e-	8ff'\L	p
 8F\J)	(32gg\LL	.
 .	32ff\	.
@@ -151,7 +163,7 @@
 .	16f/	.	.
 .	16g/	.	.
 .	16a/JJ	.	.
-!LO:TX:a:i:t=Dal Segno \n al Fine.	!	!	!
+!LO:TX:a:i:t=Dal Segno \n al Fine.:mod=	!	!	!
 4r	16b-\LL	.	.
 .	16bn\	.	.
 .	16cc\	.	.
@@ -159,7 +171,10 @@
 *	*v	*v	*
 !!LO:PB:g=original
 !LO:TX:b:t=[segno]	!LO:TX:a:t=[segno]	!
+!LO:MO:mod==13!|:	!LO:MO:mod==13!|:	!LO:MO:mod==13!|:
+!!LO:TX:a:B:rj:t=:mod=Dal Segno al Fine
 =13||	=13||	=13||
+*>D	*>D	*
 !	!LO:TX:a:t=Trio.	!
 (8B-\L 8d	8f/L	p
 8F\J)	(32g/LL	.
@@ -206,6 +221,7 @@
 8B-\J 8d	8b-\)	.
 8r	8r	.
 =17:|!|:	=17:|!|:	=17:|!|:
+*>E	*>E	*
 4F^\ 4c	8f\L 8ff	f
 .	16f'\L 16ff	.
 .	16f'\JJ 16ff	.
@@ -292,19 +308,22 @@
 .	16a\)	.
 8F\J 8A 8e-	16dd'\	.
 .	16cc'\JJ	.
-!LO:TX:b:i:t=Da Capo al Fine.	!	!
+!LO:TX:b:i:t=Da Capo al Fine.:mod=	!	!
 8r	(4cc\	]
 8F\L 8A 8e-	.	.
 8B-\J 8d	8b-\)	.
 8r	8r	.
+!!LO:TX:a:B:t=:mod=Da Capo al Fine
 =:|!	=:|!	=:|!
 *-	*-	*-
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-07-24
 !!!ENC: Urszula Świątek
 !!!END: 2022-08-22
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

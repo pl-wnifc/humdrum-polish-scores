@@ -21,19 +21,27 @@
 !!!ONB-nifc:
 !!!AIN: 2 piano
 !!!key: F
+!!!OMD:
+!!!OMD-mod: Vivace
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**fing	**kern	**fing	**dynam
 *part2	*part 2	*part1	*part 1	*part1
 *staff2	*	*staff1	*	*
 *I"Pianoforte	*	*I"Pianoforte	*	*
+*I'	*	*I'	*	*
 *Ipiano	*	*Ipiano	*	*
 *ICklav	*	*ICklav	*	*
+*IGsolo	*	*IGsolo	*	*
+*mI'pf	*	*mI'pf	*	*
 *clefF4	*	*clefG2	*	*
 *k[b-]	*	*k[b-]	*	*
 *F:	*	*F:	*	*
 *M6/8	*	*M6/8	*	*
 *	*	*8va	*	*
-!	!	!LO:TX:b:B:t=No. 1.	!	!
-!	!	!LO:TX:a:Bi:t=Vivace	!	!
+*>[A,A,B,B]	*	*>[A,A,B,B]	*	*
+*>A	*	*>A	*	*
+!	!	!LO:TX:b:B:t=No. 1.:mod=	!	!
+!	!	!LO:TX:a:Bi:t=Vivace:mod=	!	!
 8r	.	8ccc\	.	f
 =1	=1	=1	=1	=1
 [2.FF:/ [>2.C: [2.A:	.	16cccc^<\LL	5	.
@@ -121,12 +129,13 @@
 .	.	16b-\JJ	.	.
 !!LO:LB:g=original
 =7	=7	=7	=7	=7
-4FF:/ 4C: 4A:	.	16cc/LL	.	.
+4FF/ 4C 4A:	.	16cc/LL	.	.
 .	.	16a/	.	.
 .	.	16f/	.	.
 .	.	16c/	.	.
 8r	.	16dd/	.	.
 .	.	16cc/JJ	.	.
+!LO:SIC:s=4EE 4C 4G:	!	!	!	!
 4EE/ 4C 4G	.	16cc/LL	.	.
 .	.	16b-/	.	.
 .	.	16g/	.	.
@@ -135,6 +144,7 @@
 .	.	16cc/JJ	.	.
 =	=	=	=	=
 .	.	8qf/	.	f
+!LO:SIC:s=4FF/ 4C 4A:	!	!	!	!
 4FF/ 4C 4A	.	16ff/LL	.	.
 .	.	16cc/	.	.
 .	.	16a/	.	.
@@ -143,6 +153,7 @@
 .	.	16A/JJ	.	.
 4FFF\ 4FF	.	4F</	.	.
 =8:|!|:	=8:|!|:	=8:|!|:	=8:|!|:	=8:|!|:
+*>B	*	*>B	*	*
 *	*	*8va	*	*
 8r	.	8aaa\	.	p
 =9	=9	=9	=9	=9
@@ -336,7 +347,7 @@
 *clefG2	*	*	*	*
 =22	=22	=22	=22	=22
 8r	.	8a/	.	.
-!	!	!LO:TX:b:t=di_mi_nu_en_do:problem:dynamics with line extensions	!	!LO:HP:b:t=di-mi-nu-en-do:ext=cd
+!	!	!LO:TX:b:t=di_mi_nu_en_do:problem:dynamics with line extensions:mod=	!	!LO:HP:b:t=di-mi-nu-en-do:ext=cd
 (16A/LL	.	8r	.	>
 16cn/	.	.	.	.
 16e/	.	8r	.	.
@@ -392,6 +403,7 @@
 .	.	16c^>/	.	.
 8r	.	16dd/	.	.
 .	.	16cc/JJ	.	.
+!LO:SIC:s=4EE 4C 4G:	!	!	!	!
 4EE/ 4C 4G	.	16cc/LL	.	.
 .	.	16b-/	.	.
 .	.	16g/	.	.
@@ -433,11 +445,12 @@
 .	.	16d/	.	.
 8r	.	16ee-X/	5	.
 .	.	16dd/JJ	-	.
+!LO:SIC:s=4GG#X\ 4E 4Bn:	!	!	!	!
 4GG#X\ 4E 4Bn	.	16dd/LL	5	.
 .	.	16bn/	.	.
 .	.	16f/	.	.
 .	.	16en/	.	.
-!	!	!LO:TX:b:t=cre_scen_do:problem:dynamics with line extensions	!	!LO:HP:b:t=cre-scen-do:ext=cd
+!	!	!LO:TX:b:t=cre_scen_do:problem:dynamics with line extensions:mod=	!	!LO:HP:b:t=cre-scen-do:ext=cd
 8r	.	16bbn/	5	<
 .	.	16dd/JJ	1	.
 =30	=30	=30	=30	=30
@@ -455,6 +468,7 @@
 .	.	16ff/JJ	.	.
 =31	=31	=31	=31	=31
 *	*	*8va	*	*
+!LO:SIC:s=[2.C\ [2.G [2.e:	!	!	!	!
 [2.C\ [2.G [2.e	.	16fff\LL	.	ff
 .	.	16eee\	.	.
 .	.	16ccc\	.	.
@@ -571,6 +585,7 @@
 .	.	16c/	.	.
 8r	.	16dd/	.	.
 .	.	16cc/JJ	.	.
+!LO:SIC:s=4EE 4C 4G:	!	!	!	!
 4EE/ 4C 4G	.	16cc/LL	.	.
 .	.	16b-/	.	.
 .	.	16g/	.	.
@@ -585,6 +600,7 @@
 .	.	16c/	.	.
 8r	.	16dd/	.	.
 .	.	16cc/JJ	.	.
+!LO:SIC:s=4CC/ 4GG 4E:	!	!	!	!
 4CC/ 4GG 4E	.	16cc/LL	.	.
 .	.	16b-/	.	.
 .	.	16g/	.	.
@@ -594,6 +610,7 @@
 .	.	16B-/JJ	.	.
 =41	=41	=41	=41	=41
 *	*	*8va	*	*
+!LO:SIC:s=[2.FF/ [>2.C [2.A:	!	!	!	!
 [2.FF/ [>2.C [2.A	.	16cccc\LL	.	.
 .	.	16aaa\	.	.
 .	.	16fff\	.	.
@@ -648,6 +665,7 @@
 8r	.	16c/	3	.
 .	.	16B-/JJ	2	.
 =45	=45	=45	=45	=45
+!LO:SIC:s=2.FF/ 2.C 2.F:	!	!	!	!
 2.FF/ 2.C 2.F	.	16A/LL	1	.
 .	.	16c/	2	.
 .	.	16f/	4	.
@@ -662,8 +680,9 @@
 .	.	16a/JJ	.	.
 !!LO:LB:g=original
 =46	=46	=46	=46	=46
+!LO:SIC:s=[2.FF/ [>2.C [2.A:	!	!	!	!
 [2.FF/ [>2.C [2.A	.	16f\LL	.	.
-!	!	!LO:TX:b:i:t=poco a poco cre_scen_do:problem:dynamics with line extensions	!	!LO:HP:b:t=poco a poco cre-scen-do:ext=cd
+!	!	!LO:TX:b:i:t=poco a poco cre_scen_do:problem:dynamics with line extensions:mod=	!	!LO:HP:b:t=poco a poco cre-scen-do:ext=cd
 .	.	16a\	.	.
 .	.	16cc\	.	<
 .	.	16ff\	.	.
@@ -703,6 +722,7 @@
 .	.	16ggg#X\	.	[
 .	.	16aaa^\JJ	.	.
 =49	=49	=49	=49	=49
+!LO:SIC:s=[2.FF/ [>2.C [2.A:	!	!	!	!
 [2.FF/ [>2.C [2.A	.	16cccc\LL	.	f
 .	.	16aaa\	.	.
 .	.	16fff\	.	.
@@ -757,10 +777,12 @@
 *-	*-	*-	*-	*-
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(s1,s2)}
 !!!ENC: Solarz Mateusz
 !!!END: 2022-07-15
 !!!ENC: Urszula Świątek
 !!!END: 2022-08-18
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -19,12 +19,20 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/klocki-introligatorskie/380 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: „Six Romances” M. Szymanowskiej na str. 63-70
 !!!AIN: 2 piano 1 vox
-!!!key:
+!!!key: G
+!!!OMD:
+!!!OMD-mod: Allegretto grazioso
+!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m
 **kern	**kern	**dynam	**kern	**text
 *part3	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1
-*Ipiano	*Ipiano	*	*Ivox	*
 *I"Pianof.	*I"Pianof.	*	*I"Chant	*
+*I'	*I'	*	*I'	*
+*Ipiano	*Ipiano	*	*Ivox	*
+*ICklav	*ICklav	*	*ICvox	*
+*IGacmp	*IGacmp	*	*IGacmp	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*
+*mI'pf	*mI'pf	*	*mI'V	*
 *>[A,A1,A,A1,A,A2,B]	*>[A,A1,A,A1,A,A2,B]	*	*>[A,A1,A,A1,A,A2,B]	*
 *>A	*>A	*	*>A	*
 *clefF4	*clefG2	*	*clefG2	*
@@ -32,15 +40,17 @@
 *G:	*G:	*	*G:	*
 *M2/4	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1
-!!LO:TX:a:B:i:t=Allegretto grazioso
-*ped	*	*	*	*
-!LO:TX:t=P:problem=oznaczenie ped pomiędzy dwoma systemami pf	!	!	!LO:TX:a:t=[segno]	!
-!LO:TX:a:t=[segno]	!LO:TX:a:t=[segno]	!	!	!
+!!LO:TX:a:B:i:t=Allegretto grazioso:mod=
+!LO:MO:null:mod=*ped	!LO:MO:null:mod=.	!	!	!
+*	*ped	*	*	*
+!	!	!	!LO:TX:a:t=[segno]:mod=	!
+!LO:TX:a:t=[segno]:mod=	!LO:TX:a:t=[segno]:mod=	!	!	!
 8G 8GG/	16r	.	2r	.
 .	16B\LL	.	.	.
 8r	16d\	.	.	.
 .	16g\JJ	.	.	.
-!LO:TX:a:t=m.g.	!	!	!	!
+!	!	!	!	!
+!.	!LO:TX:a:t=m.g	!	!	!
 8dd>/ 8b>/	16r	.	.	.
 .	16B\LL	.	.	.
 8r	16d\	.	.	.
@@ -73,7 +83,7 @@
 8r	16e\	.	.	.
 .	16g\JJ	.	.	.
 =5	=5	=5	=5	=5
-!	!	!	!LO:TX:a:t=Paroles de Mr. de Bernis.	!
+!	!	!	!LO:TX:a:t=Paroles de Mr. de Bernis.:mod=	!
 8D 8DD/	16r	.	2r	.
 .	16Bn\LL	.	.	.
 8r	16d\	.	.	.
@@ -122,10 +132,13 @@
 =10	=10	=10	=10	=10
 8D 8DD/	16r	.	8f#/	chere
 .	16c\LL	.	.	.
+!	!	!	!LO:SIC:s=8dd	!
 8r	16d\	.	8dd/	E-
 .	16f#\JJ	.	.	.
+!	!	!	!LO:SIC:s=8cc	!
 8dd> 8cc>/	16r	.	8cc/	-le-
 .	16c\LL	.	.	.
+!	!	!	!LO:SIC:s=8a	!
 8r	16d\	.	8a/	-o-
 .	16f#\JJ	.	.	.
 =11	=11	=11	=11	=11
@@ -160,8 +173,10 @@
 =14	=14	=14	=14	=14
 8BB 8BBB/	16r	.	8f#/	te
 .	16A\LL	.	.	.
+!	!	!	!LO:SIC:s=8cc	!
 8r	16B\	.	8cc/	suit
 .	16f#\JJ	.	.	.
+!	!	!	!LO:SIC:s=8b	!
 8b> 8a>/	16r	.	8b/	en
 .	16A\LL	.	.	.
 8r	16B\	.	8d#X/	tout
@@ -176,6 +191,7 @@
 8r	16B\	.	.	.
 .	16e\JJ	.	.	.
 =16	=16	=16	=16	=16
+!	!	!LO:MO:mod=!null:null	!	!
 !	!	!LO:HP:a	!	!
 8AA 8AAA/	16r	<	8r	.
 .	16G\LL	.	.	.
@@ -256,8 +272,10 @@
 .	16F#\LL	.	.	.
 8r	16A\	.	8a/	si
 .	16d\JJ	.	.	.
+!	!	!	!LO:SIC:s=8b	!
 8cc> 8a>/	16r	.	8b/	tes
 .	16F#\LL	.	.	.
+!	!	!	!LO:SIC:s=8cc	!
 8r	16A\	.	8cc/	re-
 .	16d\JJ	.	.	.
 =25	=25	=25	=25	=25
@@ -274,17 +292,21 @@
 .	16c\LL	.	.	.
 8r	16d\	.	8a/	si
 .	16a\JJ	.	.	.
+!	!	!	!LO:SIC:s=8b	!
 8dd> 8cc>/	16r	.	8b/	tes
 .	16c\LL	.	.	.
+!	!	!	!LO:SIC:s=8cc	!
 8r	16d\	.	8cc/	re-
 .	16a\JJ	.	.	.
 =27	=27	=27	=27	=27
 !!LO:PB:g=original
+!	!	!	!LO:SIC:s=8b	!
 8G 8GG/	8g 8d 8B/	.	8b/	-gards
 8r	8r	.	8r	.
 [4E-X [4EE-X/	[4gg [4cc#X [4b-X [4g\	f	[4gg^\	n'en
 =28	=28	=28	=28	=28
 2E-] 2EE-/]	2gg] 2cc#] 2b-] 2g\]	.	8gg\L]	.
+!	!	!LO:MO:mod=!null:null	!	!
 !	!	!LO:HP:a	!	!
 .	.	>	8ee-X\J	.
 .	.	.	8dd\	a-
@@ -299,12 +321,16 @@
 8r	16d\	.	.	.
 .	16g\JJ	.	.	.
 =30	=30	=30	=30	=30
+!	!	!	!LO:SIC:s=8ddL]	!
 8D 8DD/	16r	.	8dd/L]	.
 .	16c\LL	.	.	.
+!	!	!	!LO:SIC:s=8cc	!
 8r	16d\	.	8cc/	.
 .	16f#\JJ	.	.	.
+!	!	!	!LO:SIC:s=8aJ	!
 8dd> 8cc>/	16r	.	8a/J	.
 .	16c\LL	.	.	.
+!	!	!	!LO:SIC:s=8b)	!
 8r	16d\	.	8b/)	un
 .	16f#\JJ	.	.	.
 =31	=31	=31	=31	=31
@@ -312,9 +338,13 @@
 .	16G/LL	.	.	.
 .	16B/	.	.	.
 .	16d/JJ	.	.	.
+!	!LO:SIC:s=16gLL	!	!	!
 8r	16g/LL	.	4r	.
+!	!LO:SIC:s=16b	!	!	!
 .	16b/	.	.	.
+!	!LO:SIC:s=16dd	!	!	!
 8B 8BB^\	16dd/	.	.	.
+!	!LO:SIC:s=16ggJJ	!	!	!
 .	16gg/JJ	.	.	.
 =32	=32	=32	=32	=32
 8r	16dd#X\LL	.	2r	.
@@ -345,8 +375,10 @@
 8e-XJ 8E-X\	16ccc#X\	.	.	.
 .	16ggg\JJ	[[	.	.
 =35	=35	=35	=35	=35
+!LO:MO:null:mod=!LO&colon;TX&colon;t=[1. 2.]	!	!	!	!
+!	!	!	!	!
 *>A1	*>A1	*	*>A1	*
-!	!LO:TX:a:t=pour les autres\nCouplets	!	!	!
+!	!LO:TX:a:t=pour les autres\nCouplets:mod=	!	!	!
 2d 2D\	16r	.	2r	.
 .	16ggg\LL	f	.	.
 .	16ddd\	.	.	.
@@ -364,17 +396,24 @@
 16c\	.	.	.	.
 16A\	.	.	.	.
 16B\JJ)	.	.	.	.
-!LO:TX:a:t=[segno]	!LO:TX:a:t=[segno]	!	!LO:TX:a:t=[segno]	!
+!LO:TX:a:t=[segno]:mod=	!LO:TX:a:t=[segno]:mod=	!	!LO:TX:a:t=[segno]:mod=	!
+!LO:MO:mod==37:|!	!LO:MO:mod==37:|!	!LO:MO:mod==37:|!	!LO:MO:mod==37:|!	!LO:MO:mod==37:|!
 =37||	=37||	=37||	=37||	=37||
+!LO:MO:null:mod=!LO&colon;TX&colon;t=[3.]	!	!	!	!
+!	!	!	!	!
 *>A2	*>A2	*	*>A2	*
-!	!LO:TX:a:t=pour finis	!	!	!
+!	!LO:TX:a:t=pour finir:mod=	!	!	!
 4G\	16r	.	2r	.
 .	16G/LL	.	.	.
 .	16B/	.	.	.
 .	16d/JJ	.	.	.
+!	!LO:SIC:s=16gLL	!	!	!
 8r	16g/LL	.	.	.
+!	!LO:SIC:s=16b	!	!	!
 .	16b/	.	.	.
+!	!LO:SIC:s=16dd	!	!	!
 8B 8BB^\	16dd/	.	.	.
+!	!LO:SIC:s=16ggJJ	!	!	!
 .	16gg/JJ	.	.	.
 =38	=38	=38	=38	=38
 8r	16dd#X\LL	.	2r	.
@@ -428,11 +467,16 @@
 .	16G/LL	.	.	.
 8r	16B/	.	.	.
 .	16d/JJ	.	.	.
+!	!LO:SIC:s=16gLL	!	!	!
 4r	16g/LL	.	.	.
+!	!LO:SIC:s=16b	!	!	!
 .	16b/	.	.	.
+!	!LO:SIC:s=16dd	!	!	!
 .	16dd/	.	.	.
+!	!LO:SIC:s=16ff#JJ	!	!	!
 .	16ff#/JJ	.	.	.
 =44	=44	=44	=44	=44
+!	!LO:SIC:s=4gg\	!	!	!
 2r;	4gg/	.	2r;	.
 .	4r;	.	.	.
 ==	==	==	==	==
@@ -442,5 +486,7 @@
 !!!RDF**kern: < = below
 !!!ENC: Kamil Watkowski
 !!!END: 2021-08-09
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

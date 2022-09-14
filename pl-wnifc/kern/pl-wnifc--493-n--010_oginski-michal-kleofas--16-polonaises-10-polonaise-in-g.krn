@@ -18,21 +18,29 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/nifc%3A212371/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/16843 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: w zbiorze znajduje się 14 Polonezów z Triami, pliki są numerowane jak w źródle.
-!!!AIN: 2 piano
-!!!key:
+!!!AIN: 1 piano
+!!!key: G
+!!!OMD: Moderato.
+!!!OMD-mod: Moderato
+!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L"  | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam
-*part2	*part1	*part1
+*part1	*part1	*part1
 *staff2	*staff1	*
-*I"Piano	*I"Piano	*
+*I"Piano.	*I"Piano.	*
+*I'	*I'	*
 *Ipiano	*Ipiano	*
 *ICklav	*ICklav	*
+*IGsolo	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
 *clefF4	*clefG2	*
 *k[f#]	*k[f#]	*
 *G:	*G:	*
 *M3/4	*M3/4	*
+*>[A,A,B,A,C,C,D,C,A]	*>[A,A,B,A,C,C,D,C,A]	*
 =1	=1	=1
-!	!LO:TX:b:i:t=dolce.	!
-!	!LO:TX:a:B:t=Moderato.	!
+*>A	*>A	*
+!	!LO:TX:b:i:t=dolce.:mod=dolce	!
 .	(8qccc#X/	p
 (8G\L 8B	8ddd\L)	.
 .	(8qccc#/	.
@@ -118,11 +126,13 @@
 4rcyy	8rA	((4cc\ 4aa	.
 .	8DD/L	.	.
 4rcyy	8GG/J	8b\)) 8gg	.
-!	!	!LO:TX:b:i:t=Fine.	!
+!	!	!LO:TX:b:i:t=Fine.:mod=	!
 .	8rA	8r	.
 *v	*v	*	*
 *clefG2	*	*
+!!LO:TX:a:B:rj:t=:mod=Fine
 =9:|!	=9:|!	=9:|!
+*>B	*>B	*
 4d/ 4a	(16gg#X\LL	fp
 .	16aa\	.
 .	16bb\	.
@@ -218,17 +228,19 @@
 .	16cc\	.
 8C#X/J	16b\	.
 .	16a\JJ)	.
-!LO:TX:b:i:t=Da Capo al Fine.	!	!
+!LO:TX:b:i:t=Da Capo al Fine.:mod=	!	!
 8D\	(8g/L	]
 8r	8f#/J)	.
-!!LO:LB:g=original
 *clefG2	*clefF4	*
+!!LO:TX:a:B:rj:t=:mod=Da Capo al Fine
+!!LO:LB:g=original
 ==17	==17	==17
+*>C	*>C	*
 .	(32qqD/LLL	p
 .	32qqE/	.
 !	!LO:TX:a:B:t=Trio.	!
-!	!LO:TX:a:t=M.D.	!
-!LO:TX:a:t=M.G.	!LO:TX:b:i:t=dolce espressivo.	!
+!	!LO:TX:a:t=M.D.:mod=m.d.	!
+!LO:TX:a:t=M.G.:mod=m.g.	!LO:TX:b:i:t=dolce espressivo.:mod=dolce espressivo	!
 .	32qqF#/JJJ	.
 (16b\LL	4.G\)	.
 16dd\	.	.
@@ -279,10 +291,12 @@
 16cc\	(16A\L	.
 16dd\JJ)	16B\JJ)	.
 8b\	8G'\	.
-!	!LO:TX:b:i:t=Fine.	!
+!	!LO:TX:b:i:t=Fine.:mod=	!
 8r	8r	.
 *	*clefG2	*
+!!LO:TX:a:B:rj:t=:mod=Fine
 =21:|!	=21:|!	=21:|!
+*>D	*>D	*
 16f#\LL	8aa'\L	mf
 16dd\	.	.
 16g\	8bb'\	.
@@ -327,7 +341,7 @@
 .	(16ddd\	.
 .	16ccc\	.
 .	16aa\JJ	.
-!LO:TX:b:i:t=Trio Da Capo al Fine.	!	!
+!LO:TX:b:i:t=Trio Da Capo al Fine.:mod=	!	!
 4r	16ff#\LL	.
 .	16dd\	.
 .	16cc\	.
@@ -336,14 +350,17 @@
 .	16d/	.
 .	16c/	.
 .	16A/JJ)	]]
+!!LO:TX:a:B:t=:mod=Trio da Capo al Fine
 ==	==	==
 *-	*-	*-
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(*)}
 !!!ENC: Solarz Mateusz
 !!!END: 2022-07-25
 !!!ENC: Urszula Świątek
 !!!END: 2022-08-22
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

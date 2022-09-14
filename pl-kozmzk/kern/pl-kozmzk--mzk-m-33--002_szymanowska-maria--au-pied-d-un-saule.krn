@@ -19,21 +19,30 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/klocki-introligatorskie/380 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: „Six Romances” M. Szymanowskiej na str. 63-70
 !!!OMD: Lento ed espressivo
-!!!AIN: 1 empty 1 piano 1 vox
-!!!key:
+!!!AIN: 2 piano 1 vox
+!!!key: a
+!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam	**kern	**text
 *part3	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1
-*Iempty	*Ipiano	*	*Ivox	*
-*	*I"Pianoforte	*	*I"Chant	*
+*I"Pianoforte	*I"Pianoforte	*	*I"Chant	*
+*I'	*I'	*	*I'	*
+*Ipiano	*Ipiano	*	*Ivox	*
+*ICklav	*ICklav	*	*ICvox	*
+*IGacmp	*IGacmp	*	*IGacmp	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Voce	*
+*mI'pf	*mI'pf	*	*mI'V	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[]	*k[]	*	*k[]	*
 *a:	*a:	*	*a:	*
 *M4/4	*M4/4	*	*M4/4	*
 *met(c)	*met(c)	*	*met(c)	*
+*mmet(c)	*mmet(c)	*	*mmet(c)	*
+!	!	!LO:MO:null:mod=ff	!	!
 16AA/ 16AAA/	16ee/ 16cc/ 16a/ 16e/	.	16r	.
 =1	=1	=1	=1	=1
 !	!	!LO:DY:rj	!	!
+!	!	!LO:MO:null:mod=.	!	!
 4..AA/ 4..AAA/	4..ee/ 4..cc/ 4..a/ 4..e/	ff	1r	.
 16AA/ 16AAA/	16cc/ 16a/ 16e/ 16c/	.	.	.
 4..AA/ 4..AAA/	4..cc/ 4..a/ 4..e/ 4..c/	.	.	.
@@ -55,7 +64,7 @@
 8D#\	8A/	.	8a/	les
 =6	=6	=6	=6	=6
 2E\	2G#<X/	.	2g#X/	jours
-!	!LO:TX:b:t=cre_scen_do:ext2=ud:problem=dynamics with extension lines	!LO:HP:b:t=cre_scen_do	!	!
+!	!LO:TX:b:t=cre_scen_do:ext2=ud:problem=dynamics with extension lines:mod=	!LO:HP:b:t=cre_scen_do	!	!
 2D\	2G#</ 2E</	<	2r	.
 !!LO:LB:g=original
 =7	=7	=7	=7	=7
@@ -157,7 +166,7 @@
 4D/ 4DD/	4r	.	(4cc^\	et
 4r	4b-X/ 4f/ 4d/	.	4b-X\)	.
 =25	=25	=25	=25	=25
-!	!LO:TX:t=per_den_dosi:dur=4q:ext2=ud:problem=text with extension lines	!	!	!
+!	!LO:TX:t=per_den_dosi:dur=4q:ext2=ud:problem=text with extension lines:mod=perdendosi	!	!	!
 4E\	4r	.	2a/	sa
 4r	4a/ 4e/ 4c/	.	.	.
 4EE/	4r	.	(8cc/L	dou-
@@ -179,5 +188,7 @@
 !!!EEV: 2021-08-08
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-07-27
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

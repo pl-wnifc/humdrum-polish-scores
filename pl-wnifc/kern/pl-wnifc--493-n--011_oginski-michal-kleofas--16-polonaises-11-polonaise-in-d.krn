@@ -18,20 +18,29 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/nifc%3A212371/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/16843 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: w zbiorze znajduje się 14 Polonezów z Triami, pliki są numerowane jak w źródle.
-!!!AIN: 2 piano
+!!!AIN: 1 piano
 !!!key: d
+!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L"  | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
+!!!OMD:
+!!!OMD-mod: Patetico
 **kern	**kern	**dynam
-*part2	*part1	*part1
+*part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano.	*I"Piano.	*
+*I'	*I'	*
 *Ipiano	*Ipiano	*
 *ICklav	*ICklav	*
+*IGsolo	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
 *clefF4	*clefG2	*
 *k[b-]	*k[b-]	*
 *d:	*d:	*
 *M3/4	*M3/4	*
+*>[A,B,A,B,C,C,B,D,D,A,B]	*>[A,B,A,B,C,C,B,D,D,A,B]	*
 =1	=1	=1
-!	!LO:TX:a:t=Patet co.	!
+*>A	*>A	*
+!	!LO:TX:a:t=Patet co.:mod=	!
 8.D\L	8.d/L	f
 16D\Jk	16d/Jk	.
 8.FF/L 8.F	8.f/L	.
@@ -93,6 +102,7 @@
 !!LO:LB:g=original
 !LO:TX:b:t=[segno]	!LO:TX:t=[segno]	!
 =7||	=7||	=7||
+*>B	*>B	*
 *^	*	*
 !	!LO:N:vis=2	!LO:TX:b:i:t=espress.	!
 2.D/	8D\L	4.a/	p
@@ -179,11 +189,13 @@
 8r	(>4G</ 4c# 4e	.
 8AA\L	.	.
 8D\J	8F</) 8d	.
-!	!LO:TX:b:i:t=Fine.	!
+!	!LO:TX:b:i:t=Fine.:mod=	!
 8r	8r	.
+!!LO:TX:a:B:rj:t=:mod=Fine
 !!LO:PB:g=original
 =15:|!|:	=15:|!|:	=15:|!|:
-!	!LO:TX:b:i:t=espress.	!
+*>C	*>C	*
+!	!LO:TX:b:i:t=espress.:mod=espress.	!
 (8AA\L	(4.ee\	.
 8A\J	.	.
 8c#X\L 8g	.	.
@@ -255,16 +267,19 @@
 .	16dd\	.
 .	16cc#\	.
 .	16b-\JJ	.
-!LO:TX:b:i:t=Dal Segno.\nal Fine.	!	!
+!LO:TX:b:i:t=Dal Segno.\nal Fine.:mod=	!	!
 4r	16a/LL	.
 .	16b-/	.
 .	16a/	]
 .	16g#X/JJ)	.
 !LO:TX:b:t=[segno]	!LO:TX:t=[segno]	!
+!!LO:TX:a:B:rj:t=:mod=Dal Segno al Fine
 !!LO:LB:g=original
+!LO:MO:mod==23:|!|:	!LO:MO:mod==23:|!|:	!LO:MO:mod==23:|!|:
 ==23	==23	==23
+*>D	*>D	*
 *^	*	*
-!	!	!LO:TX:b:i:t=dolce.	!
+!	!	!LO:TX:b:i:t=dolce.:mod=dolce	!
 2.F/	8F\L	(4.cc\	p
 .	8A\J 8c	.	.
 .	8A\L 8c	.	.
@@ -348,19 +363,22 @@
 8F\L 8A	8f/L	.
 8C\J 8E 8B-	(16a/L	.
 .	16g/JJ)	.
-!LO:TX:b:i:t=Da Capo al Fine.	!	!
+!LO:TX:b:i:t=Da Capo al Fine.:mod=	!	!
 8r	(4g/	.
 (8C\L 8E 8B-	.	.
 8F\J) 8A	8f/)	.
 8r	8r	.
+!!LO:TX:a:B:t=:mod=Da Capo al Fine
 =:|!	=:|!	=:|!
 *-	*-	*-
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(*)}
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-07-25
 !!!ENC: Urszula Świątek
 !!!END: 2022-08-22
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -19,14 +19,16 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/klocki-introligatorskie/380 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: „Six Romances” M. Szymanowskiej na str. 63-70
 !!!OMD: Grazioso
-!!!AIN: 1 empty 1 piano 1 vox
+!!!AIN: 2 piano 1 vox
 !!!key:
 **kern	**kern	**dynam	**kern	**text	**dynam
 *part3	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*	*staff1	*staff1	*
-*Iempty	*Ipiano	*	*Ivox	*	*
-*	*I"Pianoforte	*	*I"Chant	*	*
-*	*I'pf	*	*I'vox humana	*	*
+*Ipiano	*Ipiano	*	*Ivox	*	*
+*I"Pianoforte	*I"Pianoforte	*	*I"Chant	*	*
+*	*	*	*mI"Voce	*	*
+*I'pf	*I'pf	*	*I'vox humana	*	*
+*	*	*	*mI'V	*	*
 *clefF4	*clefG2	*	*clefG2	*	*
 *k[b-]	*k[b-]	*	*k[b-]	*	*
 *F:	*F:	*	*F:	*	*
@@ -35,6 +37,7 @@
 4.F\	16r	p	8a/	Peine	.
 .	16A/LL	.	.	.	.
 .	16c/	.	8g/	et	.
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=distinctement	!	!	!	!
 !	!LO:TX:t=dis_tin_cte_ment:dur=2qs:ext2=ud:problem=text with extention lines	!	!	!	!
 .	16f/	.	.	.	.
 .	16A/	.	8f/	plai-	.
@@ -62,10 +65,13 @@
 .	16c/JJ	.	.	.	.
 !!LO:LB:g=original
 =3	=3	=3	=3	=3	=3
+!	!	!LO:MO:mod=!null:null	!	!	!
 4.AA-X/	16r	p	8ff\	tu	.
+!	!LO:SIC:s=16A-/LL:v	!	!	!	!
 .	16A/LL	.	.	.	.
 .	16c/	.	8ee\	me	.
 .	16f/	.	.	.	.
+!	!LO:SIC:s=16A-/:v	!	!	!	!
 .	16A/	.	8ee-X\	l`as	.
 .	16c/JJ	.	.	.	.
 .	.	.	(8qqcc#X/	.	.
@@ -76,6 +82,7 @@
 .	16B-/	.	8r	.	.
 .	16d/JJ	.	.	.	.
 =4	=4	=4	=4	=4	=4
+!	!	!	!LO:SIC:s=8dd\:v	!	!
 4.C/	16r	.	8dd'\	je	.
 .	16G/LL	.	.	.	.
 .	16B-/	.	8cc\	veux	.
@@ -89,8 +96,9 @@
 8r	16A/	.	8r	.	.
 .	16c/JJ	.	.	.	.
 =5	=5	=5	=5	=5	=5
-4.GG/	16r	sf	8g/	mon	.
-.	16G/LL	.	.	.	.
+4.GG/	16r	.	8g/	mon	.
+!	!	!LO:DY:b:rj	!	!	!
+.	16G/LL	sf	.	.	.
 .	16Bn/	.	8f#X/	âme	.
 .	16f/	.	.	.	.
 .	16G/	.	8fn/	un	.
@@ -103,8 +111,9 @@
 8r	16G/	.	8r	.	.
 .	16c/JJ	.	.	.	.
 =6	=6	=6	=6	=6	=6
-4.AA/	16r	sf	8a/	sur	.
-.	16A/LL	.	.	.	.
+4.AA/	16r	.	8a/	sur	.
+!	!	!LO:DY:b:rj	!	!	!
+.	16A/LL	sf	.	.	.
 .	16c#X/	.	8g#X/	l`on-	.
 .	16g/	.	.	.	.
 .	16A/	.	8gn/	-de	.
@@ -136,11 +145,13 @@
 .	16dd/	.	.	.	.
 8GG/	16d/	.	8bn\	-que-	.
 .	16bn/JJ	.	.	.	.
+!	!	!	!	!LO:MO:mod=-ra,	!
 4C/	16e/LL	.	(4gg^\	-ra	.
 .	16g/	.	.	.	.
 .	16cc/	.	.	.	.
 .	16d/	.	.	.	.
-8GG^<\ 8G	16f/	.	8ff\)	.	.
+8G 8GG^<\	16f/	.	8ff\)	.	.
+!	!LO:SIC:s=16bny/JJ:v	!	!	!	!
 .	16bn/JJ	[[	.	.	.
 =9	=9	=9	=9	=9	=9
 4C/	16e/LL	.	8ee\	s`em-	.
@@ -161,11 +172,13 @@
 .	16A/LL	.	.	.	.
 .	16c/	.	8g/	lors	.
 .	16f/	.	.	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=stiracchiato	!	!	!	!
 !	!LO:TX:t=sti_rac_chia_to:dur=2qe:ext2=ud:problem=text with extention lines	!	!	!	!
 .	16A/	.	8f/	peut	.
 .	16c/JJ	.	.	.	.
 4BB-/	16r	.	16e/	êt-	.
 .	16B-/LL	.	16d/	-re	.
+!	!	!	!LO:SIC:s=([>4b-^/:v	!	!
 .	16d/	.	[>4b-^/	Se-	.
 .	16g/	.	.	.	.
 8r	16B-/	.	.	.	.
@@ -173,11 +186,14 @@
 =11	=11	=11	=11	=11	=11
 4.GG/	16r	.	8b-/L]	.	.
 .	16B-/LL	.	.	.	.
+!	!	!	!LO:SIC:s=8a/J):v	!	!
 .	16d/	.	8a/J	.	.
 .	16g/	.	.	.	.
 .	16B-/	.	8g/	-di-	.
 .	16d/JJ	.	.	.	.
+!	!	!	!LO:SIC:s=(16f/LL:v	!	!
 4C/	16r	.	16f/LL	-ra	.
+!	!	!	!LO:SIC:s=16e/JJ):v	!	!
 .	16c/LL	.	16e/JJ	.	.
 .	16e/	.	[>4cc/	pei-	.
 .	16g/	.	.	.	.
@@ -190,8 +206,11 @@
 .	16a/	.	.	.	.
 .	16c/	.	8a/	plai-	.
 .	16e/JJ	.	.	.	.
+!	!	!	!LO:SIC:s=(16g/LL:v	!	!
 4D/	16r	.	16g/LL	-sir	.
+!	!	!	!LO:SIC:s=16f/JJ):v	!	!
 .	16d/LL	.	16f/JJ	.	.
+!	!	!	!LO:SIC:s=([4dd^\:v	!	!
 .	16f/	.	[4dd^\	tout	.
 .	16a/	.	.	.	.
 8r	16d/	.	.	.	.
@@ -199,43 +218,55 @@
 !!LO:PB:g=original
 =13	=13	=13	=13	=13	=13
 4E/	16b-/LL	.	16dd\LL]	.	.
+!	!	!	!LO:SIC:s=16cc\JJ):v	!	!
 .	16c/	.	16cc\JJ	.	.
-.	16g/ 16b-	.	(16bn\LL	fi-	.
+.	16b- 16g/	.	(16bn\LL	fi-	.
 .	16c/	.	16cc\	.	.
-8C/	16g/ 16b-	.	16b-X\JJ)	.	.
+8C/	16b- 16g/	.	16b-X\JJ)	.	.
 .	16c/JJ	.	16cc\	-ni-	.
+!	!	!	!	!LO:MO:mod=-ra,	!
 4F\	16r	.	(16a\LL	-ra	.
 .	16c/LL	.	16cc\	.	.
-.	16f/ 16a	.	16ff\	.	.
+.	16a 16f/	.	16ff\	.	.
 .	16c/	.	16ee\	.	.
-8C/	16f/ 16a	.	16dd\	.	.
+8C/	16a 16f/	.	16dd\	.	.
 .	16c/JJ	.	16cc\JJ)	.	.
 =14	=14	=14	=14	=14	=14
+!	!	!	!LO:SIC:s=(16cc\LL:v	!	!
 4G\	16r	.	16cc\LL	tout	.
+!	!	!	!LO:SIC:s=16b-\JJ):v	!	!
 .	16c/LL	.	16b-\JJ	.	.
-.	16e/ 16b-	.	16a\LL	fi-	.
+!	!	!	!LO:SIC:s=(16a\LL:v	!	!
+.	16b- 16e/	.	16a\LL	fi-	.
 .	16c/	.	16b-\	.	.
-8C/	16e/ 16b-	.	16cc\JJ	.	.
+!	!	!	!LO:SIC:s=16cc\JJ):v	!	!
+8C/	16b- 16e/	.	16cc\JJ	.	.
 .	16c/JJ	.	16b-\	-ni-	.
 4F\	16r	.	4a/	-ra	.
 .	16c/LL	.	.	.	.
-.	16f/ 16a	.	.	.	.
+.	16a 16f/	.	.	.	.
 .	16c/	.	.	.	.
-8r	16f/ 16a	.	8r	.	.
+8r	16a 16f/	.	8r	.	.
 .	16c/JJ	.	.	.	.
 =15	=15	=15	=15	=15	=15
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=rall.	!	!	!	!
 !	!LO:TX:a:i:t=rall	!	!	!	!
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=rall.	!	!
+!	!	!	!null	!	!
 4BB-/	16r	.	8.g/	peine	.
 .	16B-/LL	.	.	.	.
 .	16d/	.	.	.	.
 .	16g/	.	16d/	et	.
 8r	16B-/	.	16b-^>/	.	.
 .	16d/JJ	.	16a/	plai-	.
-4BB-;/	4B-;/ 4d 4g	.	16g;/	-sir,	.
+4BB-;/	4g 4d 4B-;/	.	16g;/	-sir,	.
 .	.	.	16cc#X^>/	peine	.
 .	.	.	16dd/	et	.
 .	.	.	16a/	plai-	.
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;B&colon;t=a tempo	!	!	!	!
 !	!LO:TX:a:i:t=a tempo	!	!	!	!
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;B&colon;t=a tempo	!	!
+!	!	!	!null	!	!
 8r	8r	.	16b-/	-sir	.
 .	.	.	16g/	tout	.
 =16	=16	=16	=16	=16	=16
@@ -245,6 +276,7 @@
 .	16b-/	.	.	.	.
 8CC/	16G/	.	8g/	-ni-	.
 .	16g/JJ	.	.	.	.
+!	!	!	!	!LO:MO:mod=-ra,	!
 4AA^>/	16A/LL	.	(4cc^\	-ra	.
 .	16c/	.	.	.	.
 .	16f/	.	.	.	.
@@ -259,6 +291,7 @@
 .	16g/	.	.	.	.
 8CC/	16G/	.	8g/	-ni-	.
 .	16e/JJ	.	.	.	.
+!	!	!	!	!LO:MO:mod=-ra,	!
 4AA^>/	16A/LL	.	(4cc^\	-ra	.
 .	16c/	.	.	.	.
 .	16f/	.	.	.	.
@@ -267,10 +300,10 @@
 .	16g/JJ	.	.	.	.
 =18	=18	=18	=18	=18	=18
 !	!	!LO:DY:rj	!	!	!
-8C/L	8A/L 8f	f	8a/	tout	.
-8CC/ 8C	8B-/ 8g	.	8b-/	fi-	.
-8CC/J 8C	8G/J 8e	.	8g/	-ni-	.
-16FF/LL	4A/ 4f	.	4f/	-ra.	.
+8C/L	8fL 8A/	f	8a/	tout	.
+8C 8CC/	8g 8B-/	.	8b-/	fi-	.
+8CJ 8CC/	8eJ 8G/	.	8g/	-ni-	.
+16FF/LL	4f 4A/	.	4f/	-ra.	.
 16AA/	.	.	.	.	.
 16C/	.	.	.	.	.
 16F/	.	.	.	.	.
@@ -283,6 +316,7 @@
 16e\	.	.	.	.	.
 16B-\	8b-\	.	.	.	.
 16G\JJ	.	.	.	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=espress.	!	!	!	!
 !	!LO:TX:b:i:t=espres	!	!	!	!
 16C\LL	8g/LsSSS<	.	.	.	.
 16G\	.	.	.	.	.
@@ -328,10 +362,12 @@
 8r;	8r;	.	.	.	.
 !!LO:LB:g=original
 =|!23	=|!23	=|!23	=|!23	=|!23	=|!23
+!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:TX:a:i:t=2me Couplet	!	!
 4.F\yy	16ryy	py	(8a/L	Mais	.
 .	16A/LLyy	.	.	.	.
 .	16c/yy	.	8g/J)	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=distinctement	!	!	!	!
 !	!LO:TX:a:i:t=dis-tin-cte--ment	!	!	!	!
 .	16f/yy	.	.	.	.
 .	16A/yy	.	8f/	tant	.
@@ -357,9 +393,11 @@
 .	16c/JJyy	.	.	.	.
 =25	=25	=25	=25	=25	=25
 4.AA-X/yy	16ryy	py	8ff^\	mes	.
+!	!LO:SIC:s=16A-/LLyy:v	!	!	!	!
 .	16A/LLyy	.	.	.	.
 .	16c/yy	.	8ee\	tris-	.
 .	16f/yy	.	.	.	.
+!	!LO:SIC:s=16A-/yy:v	!	!	!	!
 .	16A/yy	.	8ee-X\	-tes	.
 .	16c/JJyy	.	.	.	.
 .	.	.	(>8qcc#X/	.	.
@@ -416,8 +454,10 @@
 .	16b-/yy	.	.	.	.
 .	16c/yy	.	8b-X\	plai-	.
 .	16e/JJyy	.	.	.	.
+!	!	!	!LO:SIC:s=(8a\L:v	!	!
 4F\yy	16ryy	.	8a\L	-sir	.
 .	16c/LLyy	.	.	.	.
+!	!	!	!LO:SIC:s=8cc\J):v	!	!
 .	16f/yy	.	8cc\J	.	.
 .	16a/yy	.	.	.	.
 8F#X\yy	16e-X/yy	.	8r	.	.
@@ -433,7 +473,8 @@
 .	16g/yy	.	.	.	.
 .	16cc/yy	.	.	.	.
 .	16d/yy	.	.	.	.
-8GG^<yy\ 8Gyy	16f/yy	.	8ff\)	.	.
+8Gyy 8GG^<yy\	16f/yy	.	8ff\)	.	.
+!	!LO:SIC:s=16bny/JJyy:v	!	!	!	!
 .	16bn/JJyy	[[	.	.	.
 =31	=31	=31	=31	=31	=31
 4C/yy	16e/LLyy	.	8ee\	tout	.
@@ -456,7 +497,9 @@
 !	!LO:TX:a:i:t=sti-rac chia-to	!	!	!	!
 .	16A/yy	.	16g/	dès	.
 .	16c/JJyy	.	16f/	l`in-	.
+!	!	!	!LO:SIC:s=(16e/LL:v	!	!
 4BB-/yy	16ryy	.	16e/LL	-stant	.
+!	!	!	!LO:SIC:s=16d/JJ):v	!	!
 .	16B-/LLyy	.	16d/JJ	.	.
 .	16d/yy	.	[>4b-^>/	ma	.
 .	16g/yy	.	.	.	.
@@ -483,52 +526,62 @@
 .	16a/yy	.	.	.	.
 .	16c/yy	.	16b-/	le	.
 .	16e/JJyy	.	16a/	des-	.
+!	!	!	!LO:SIC:s=(16g/LL:v	!	!
 4D/yy	16ryy	.	16g/LL	-tin	.
+!	!	!	!LO:SIC:s=16f/JJ):v	!	!
 .	16d/LLyy	.	16f/JJ	.	.
+!	!	!	!LO:SIC:s=([4dd^\:v	!	!
 .	16f/yy	.	[4dd^\	nous	.
 .	16a/yy	.	.	.	.
 8ryy	16d/yy	.	.	.	.
 .	16b-/JJyy	.	.	.	.
 =35	=35	=35	=35	=35	=35
 4E/yy	16b-/LLyy	.	16dd\LL]	.	.
+!	!	!	!LO:SIC:s=16cc\JJ):v	!	!
 .	16c/yy	.	16cc\JJ	.	.
-.	16g/yy 16b-yy	.	(16bn\LL	sé-	.
+.	16b-yy 16g/yy	.	(16bn\LL	sé-	.
 .	16c/yy	.	16cc\	.	.
-8C/yy	16g/yy 16b-yy	.	16b-X\JJ)	.	.
+8C/yy	16b-yy 16g/yy	.	16b-X\JJ)	.	.
 .	16c/JJyy	.	16cc\	-pa-	.
+!	!	!	!	!LO:MO:mod=-ra,	!
 4F\yy	16ryy	.	(16a\LL	-ra	.
 .	16c/LLyy	.	16cc\	.	.
-.	16f/yy 16ayy	.	16ff\	.	.
+.	16ayy 16f/yy	.	16ff\	.	.
 .	16c/yy	.	16ee\	.	.
-8C/yy	16f/yy 16ayy	.	16dd\	.	.
+8C/yy	16ayy 16f/yy	.	16dd\	.	.
 .	16c/JJyy	.	16cc\JJ)	.	.
 =36	=36	=36	=36	=36	=36
 4G\yy	16ryy	.	(16cc\LL	nous	.
 .	16c/LLyy	.	16b-\JJ)	.	.
-.	16e/yy 16b-yy	.	(16a\LL	sé-	.
+.	16b-yy 16e/yy	.	(16a\LL	sé-	.
 .	16c/yy	.	16b-\	.	.
-8C/yy	16e/yy 16b-yy	.	16cc\JJ)	.	.
+8C/yy	16b-yy 16e/yy	.	16cc\JJ)	.	.
 .	16c/JJyy	.	16b-\	pa-	.
 4F\yy	16ryy	.	4a/	-ra	.
 .	16c/LLyy	.	.	.	.
-.	16f/yy 16ayy	.	.	.	.
+.	16ayy 16f/yy	.	.	.	.
 .	16c/yy	.	.	.	.
-8ryy	16f/yy 16ayy	.	8r	.	.
+8ryy	16ayy 16f/yy	.	8r	.	.
 .	16c/JJyy	.	.	.	.
 !!LO:LB:g=original
 =37	=37	=37	=37	=37	=37
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=rall.	!	!	!	!
 !	!LO:TX:a:i:t=rall	!	!	!	!
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=rall.	!	!
+!	!	!	!null	!	!
 4BB-/yy	16ryy	.	(>8.g/	pei-	.
 .	16B-/LLyy	.	.	.	.
 .	16d/yy	.	.	.	.
 .	16g/yy	.	16d/)	.	.
+!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:TX:b:i:t=rall	!	!
 8ryy	16B-/yy	.	16b-/	-ne	.
 .	16d/JJyy	.	16a/	ja-	.
-4BB-;/yy	4B-;/yy 4dyy 4gyy	.	16g;/	-mais,	.
+4BB-;/yy	4gyy 4dyy 4B-;/yy	.	16g;/	-mais,	.
 .	.	.	16cc#X^/	pei-	.
 .	.	.	16dd/	-ne	.
 .	.	.	16a/	ja-	.
+!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;B&colon;t=a tempo	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;B&colon;t=a tempo	!	!
 !	!LO:TX:a:i:t=a tempo	!	!LO:TX:a:i:t=a tempo	!	!
 8ryy	8ryy	.	16b-/	-mais	.
 .	.	.	16g/	ne	.
@@ -539,10 +592,12 @@
 .	16b-/yy	.	.	.	.
 8CC/yy	16G/yy	.	8g/	-ni-	.
 .	16g/JJyy	.	.	.	.
+!	!	!	!LO:SIC:s=(4cc^>/:v	!	!
 4AA^>/yy	16A/LLyy	.	((4cc^>/	-ra,	.
 .	16c/yy	.	.	.	.
 .	16f/yy	.	.	.	.
 .	16A/yy	.	.	.	.
+!	!	!	!LO:SIC:s=8b-/):v	!	!
 8BB-/yy	16B-/yy	.	8b-/))	.	.
 .	16g/JJyy	.	.	.	.
 =39	=39	=39	=39	=39	=39
@@ -560,17 +615,19 @@
 .	16g/JJyy	.	.	.	.
 =40	=40	=40	=40	=40	=40
 !	!	!	!	!	!LO:DY:b
-8C/Lyy	8A/Lyy 8fyy	fy	8a/	ne	f
-8CC/yy 8Cyy	8B-/yy 8gyy	.	8b-/	fi-	.
-8CC/Jyy 8Cyy	8G/Jyy 8eyy	.	8g/	-ni-	.
-16FF/LLyy	4A/yy 4fyy	.	4f/	-ra.	.
+8C/Lyy	8fyyL 8A/yy	fy	8a/	ne	f
+8Cyy 8CC/yy	8gyy 8B-/yy	.	8b-/	fi-	.
+8CyyJ 8CC/yy	8eyyJ 8G/yy	.	8g/	-ni-	.
+16FF/LLyy	4fyy 4A/yy	.	4f/	-ra.	.
 16AA/yy	.	.	.	.	.
 16C/yy	.	.	.	.	.
 16F/yy	.	.	.	.	.
 16A/yy	16ryy	.	8r	.	.
 16c/JJyy	16a/yy	.	.	.	.
 =41	=41	=41	=41	=41	=41
+!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:TX:b:t=4.	!	!
+!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:N:vis=00	!	!
 16C\LLyy	4cc\yy	py	0.r	.	.
 16G\yy	.	.	.	.	.
@@ -578,6 +635,7 @@
 16e\yy	.	.	.	.	.
 16B-\yy	8b-\yy	.	.	.	.
 16G\JJyy	.	.	.	.	.
+!	!LO:MO:mod=!LO&colon;TX&colon;b&colon;i&colon;t=espress.	!	!	!	!
 !	!LO:TX:b:i:t=espres	!	!	!	!
 16C\LLyy	8g/LsSSS<yy	.	.	.	.
 16G\yy	.	.	.	.	.
@@ -625,7 +683,10 @@
 !!!system-decoration: s1 {(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g"
 !!!ENC: Tomasz Grochalski
 !!!END: 2021-07-28
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-09-11
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

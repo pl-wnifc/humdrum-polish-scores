@@ -19,14 +19,20 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/nifc%3A212170/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/16830 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
-!!!AIN: 2 piano
+!!!AIN: 1 piano
 !!!key: A-
+!!!OMD:
+!!!OMD-mod: Con spirito
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**fing	**kern	**fing	**dynam
-*part1	*part1	*part2	*part2	*part2
+*part1	*part 1	*part1	*part 1	*part1
 *staff2	*	*staff1	*	*
-*I"Piano	*	*I"Piano	*	*
+*I"Pianoforte	*	*I"Pianoforte	*	*
+*I'	*	*I'	*	*
 *Ipiano	*	*Ipiano	*	*
 *ICklav	*	*ICklav	*	*
+*IGsolo	*	*IGsolo	*	*
+*mI'pf	*	*mI'pf	*	*
 *clefF4	*	*clefG2	*	*
 *k[b-e-a-d-]	*	*k[b-e-a-d-]	*	*
 *A-:	*	*A-:	*	*
@@ -34,7 +40,7 @@
 *>[A,A1,A2,B]	*	*>[A,A1,A2,B]	*	*
 *>A	*	*>A	*	*
 =1	=1	=1	=1	=1
-!	!	!LO:TX:a:i:t=Con spirito	!	!
+!	!	!LO:TX:a:i:t=Con spirito:mod=	!	!
 8AA-/L	3	4c/ 4e- 4a-	.	.
 16qqBB-/LL	.	.	.	.
 16qqAA-/	.	.	.	.
@@ -75,6 +81,7 @@
 16qqee-/	.	.	.	.
 16qqddn/JJ	.	.	.	.
 16ee-\L	2	.	.	.
+!LO:SIC:v:s=16dd-	!	!	!	!
 16cc\	3	.	.	.
 16b-\	4	.	.	.
 16g\JJ	1	.	.	.
@@ -196,6 +203,7 @@
 16A-\L	.	.	.	.
 16c\	.	.	.	.
 16e->\	.	.	.	.
+!LO:SIC:v:s=16g>\JJ	!	!	!	!
 16f>\JJ	.	.	.	.
 !!LO:LB:g=original
 =19	=19	=19	=19	=19
@@ -278,7 +286,9 @@
 16F\JJ	.	.	.	.	.
 !!LO:LB:g=original
 =28	=28	=28	=28	=28	=28
+!	!	!	!	!	!LO:MO:null:mod=f
 4BB-/	.	8ff/ 8gg	4dd-\	.	.
+!	!	!	!	!	!LO:MO:null:mod=.
 .	.	16qqaa-/LL	.	.	f
 .	.	16qqgg/	.	.	.
 .	.	16qqff/JJ	.	.	.
@@ -344,7 +354,7 @@
 16qqC/JJ	.	.	.	.
 16D-\L	.	.	.	.
 16F\	.	.	.	.
-!	!	!LO:TX:b:t=cre-scen-do:problem:dynamics with extension lines	!	!LO:HP:b:t=cre-scen-do:ext=cd
+!	!	!LO:TX:b:t=cre-scen-do:problem:dynamics with extension lines:mod=	!	!LO:HP:b:t=cre-scen-do:ext=cd
 16A-\	.	8r	.	<
 16c\JJ	.	.	.	.
 *clefG2	*	*	*	*
@@ -362,9 +372,11 @@
 .	.	16qqee-/LL	.	.
 .	.	16qqdd-/	.	.
 .	.	16qqcc/JJ	.	.
+!	!	!	!	!LO:MO:null:mod=.
 4r	.	16dd-\LL	.	[
 .	.	16ff\	.	.
 .	.	16aa-\	.	.
+!	!	!	!	!LO:MO:null:mod=[
 .	.	16ccc\JJ	.	.
 *clefF4	*	*	*	*
 !!LO:LB:g=original
@@ -455,6 +467,7 @@
 !!LO:PB:g=original
 =46	=46	=46	=46	=46
 *	*	*^	*	*
+!	!	!LO:SIC:v:s=8c/ 8b-	!	!	!
 8AA-\ 8A-	.	8c/ 8g	(>4.e-\	.	sf
 16qqB-/LL	.	.	.	.	.
 16qqA-/	.	.	.	.	.
@@ -495,6 +508,7 @@
 .	.	16c/JJ	.	.
 =50	=50	=50	=50	=50
 8FF/ 8F	.	8A-/ 8g	.	.
+!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!LO:HP:a
 16qqG/LL	.	.	.	<
 16qqF/	.	.	.	.
@@ -582,7 +596,7 @@
 =59	=59	=59	=59	=59
 *	*	*^	*	*
 4d-X\	.	4cc/	16f\LL	.	.
-!	!	!LO:TX:b:i:t=ra_len_tan_do:dur=1w6s:ext=ud	!	!	!
+!	!	!LO:TX:b:i:t=ra_len_tan_do:dur=1w6s:ext=ud:mod=rallentando	!	!	!
 .	.	.	8qg/	.	.
 .	.	.	16f\	.	.
 .	.	.	16en\	.	.
@@ -785,7 +799,7 @@
 16FF/	.	.	.	.
 16EE-/JJ	.	.	.	.
 =83	=83	=83	=83	=83
-!	!	!LO:TX:b:t=di_mi_nu_en_do:problem:dynamics with extension lines	!	!LO:HP:b:t=di_mi_nu_en_do
+!	!	!LO:TX:b:t=di_mi_nu_en_do:problem:dynamics with extension lines:mod=	!	!LO:HP:b:t=di_mi_nu_en_do
 16AAA-/	.	4.B-/ 4.d-X 4.g	.	>
 8qFF-X/	.	.	.	.
 16EE-/LL	.	.	.	.
@@ -819,7 +833,7 @@
 8A-\	.	8r	.	.
 16qqB-/LL	.	.	.	.
 16qqA-/	.	.	.	.
-!	!	!LO:TX:a:i:t=M.D.	!	!
+!	!	!LO:TX:a:i:t=M.D.:mod=m.d.	!	!
 16qqG/JJ	.	.	.	.
 4r	.	16A-/LL	.	.
 .	.	16c/	.	.
@@ -829,7 +843,7 @@
 8r	.	8a-/	.	.
 .	.	16qqb-/LL	.	.
 .	.	16qqa-/	.	.
-!	!	!LO:TX:b:i:t=M.G.	!	!
+!	!	!LO:TX:b:i:t=M.G.:mod=m.g.	!	!
 .	.	16qqg/JJ	.	.
 4ryy	.	16a-\LL	.	.
 .	.	16cc\	.	.
@@ -839,6 +853,7 @@
 4.ryy	.	8aa-^\	.	.
 .	.	16qqbb-/LL	.	.
 .	.	16qqaa-/	.	.
+!	!	!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;t=m.d.	!	!
 !	!	!LO:TX:b:i:t=M.D.	!	!
 .	.	16qqgg/JJ	.	.
 *	*	*8va	*	*
@@ -867,5 +882,7 @@
 !!!END: 2022-07-18
 !!!ENC: Urszula Świątek
 !!!END: 2022-08-19
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -21,628 +21,732 @@
 !!!ONB-nifc: Nr VI
 !!!AIN: 1 piano 1 soprn
 !!!key: G
-**kern	**kern	**dynam	**kern
-*group2	*group2	*	*group1
-*part3	*part2	*part2	*part1
-*staff3	*staff2	*	*staff1
-*	*I"[Piano]	*	*I"[Sopran]
-*	*Ipiano	*	*Isoprn
-*	*ICklav	*	*ICvox
-*	*IGacmp	*	*IGsolo
-*clefF4	*clefG2	*	*clefG2
-*k[f#]	*k[f#]	*	*k[f#]
-*G:	*G:	*	*G:
-*M2/4	*M2/4	*	*M2/4
-=1	=1	=1	=1
-!LO:TX:t=P:4\right:problem	!	!	!
-4GGG\	(>16D<^/LL	.	2r
-.	16E</	.	.
-.	16G</	.	.
-.	16B</JJ)	.	.
-[<4D\	4r	.	.
-=2	=2	=2	=2
-2D\]	2G</ 2B</ 2d</	.	2r
-=3	=3	=3	=3
-!LO:TX:t=P:4\right:problem	!	!	!
-4GGG\	(>16D<^>/LL	.	2r
-.	16E</	.	.
-.	16G</	.	.
-.	16B</JJ)	.	.
-[<4D\	4r	.	.
-=4	=4	=4	=4
-2D\]	2G</ 2B</ 2d</	.	2r
-=5	=5	=5	=5
-!LO:TX:t=P:4\right:problem	!LO:TX:a:t=mi:color=gray	!	!
-4GGG\	(>16D</LL	.	4d/
-.	16E</	.	.
-.	16A</	.	.
-.	16c</JJ)	.	.
-[<4D\	4r	.	8a/
-.	.	.	8b/
-=6	=6	=6	=6
-2D\] 2A\ 2c\	2e/ 2a 2cc 2ee	.	(>4cc\
-.	.	.	8b\)
-.	.	.	8a/
+**kern	**kern	**dynam	**kern	**text	**mod-text
+*group2	*group2	*	*group1	*	*
+*part3	*part2	*part2	*part1	*	*
+*staff3	*staff2	*	*staff1	*	*
+*I"[Piano]	*I"[Piano]	*	*I"[Sopran]	*	*
+*mI"[Pianoforte]	*mI"[Pianoforte]	*	*mI"[Soprano]	*	*
+*I'[pf]	*I'[pf]	*	*I'[S]	*	*
+*	*Ipiano	*	*Isoprn	*	*
+*	*ICklav	*	*ICvox	*	*
+*	*IGacmp	*	*IGsolo	*	*
+*clefF4	*clefG2	*	*clefG2	*	*
+*k[f#]	*k[f#]	*	*k[f#]	*	*
+*G:	*G:	*	*G:	*	*
+*M2/4	*M2/4	*	*M2/4	*	*
+=1	=1	=1	=1	=1	=1
+!LO:TX:t=P:4\right:problem	!	!	!	!	!
+4GGG\	(>16D<^/LL	.	2r	.	.
+.	16E</	.	.	.	.
+.	16G</	.	.	.	.
+.	16B</JJ)	.	.	.	.
+[<4D\	4r	.	.	.	.
+=2	=2	=2	=2	=2	=2
+2D\]	2d</ 2B</ 2G</	.	2r	.	.
+=3	=3	=3	=3	=3	=3
+!LO:TX:t=P:4\right:problem	!	!	!	!	!
+4GGG\	(>16D<^>/LL	.	2r	.	.
+.	16E</	.	.	.	.
+.	16G</	.	.	.	.
+.	16B</JJ)	.	.	.	.
+[<4D\	4r	.	.	.	.
+=4	=4	=4	=4	=4	=4
+2D\]	2d</ 2B</ 2G</	.	2r	.	.
+=5	=5	=5	=5	=5	=5
+!	!LO:MO:mod=!null:null	!	!	!	!
+!LO:TX:t=P:4\right:problem	!LO:TX:a:t=mi:color=gray	!	!	!	!
+!	!LO:SIC:s=(>16D<^/LL:v	!	!	!	!
+4GGG\	(>16D</LL	.	4d/	.	Könnt'
+.	16E</	.	.	.	.
+.	16A</	.	.	.	.
+.	16c</JJ)	.	.	.	.
+[<4D\	4r	.	8a/	.	ich
+.	.	.	8b/	.	das
+=6	=6	=6	=6	=6	=6
+!	!	!	!LO:SIC:s=4cc\:v	!	!
+2c\ 2A\ 2D\]	2ee 2cc 2a 2e/	.	(>4cc\	.	Stirn-
+!	!	!	!LO:SIC:s=8b\:v	!	!
+.	.	.	8b\)	.	-band,
+.	.	.	8a/	.	das
 !!LO:LB:g=original
-=7	=7	=7	=7
-!LO:TX:t=P:4\right:problem	!	!	!
-4GGG\	(>16D<^>/LL	.	4g/
-.	16E</	.	.
-.	16A</	.	.
-.	16c</JJ)	.	.
-[<4D\	4r	.	8f#/
-.	.	.	8e/
-=8	=8	=8	=8
-2D\] 2F#\ 2c\	2d/ 2a/ 2cc/ 2dd/	.	4d/
-.	.	.	8d/
-.	.	.	8r
-=9	=9	=9	=9
-!LO:TX:t=P:4\right:problem	!	!	!
-4GGG\	(>16D<^>/LL	.	4d/
-.	16E</	.	.
-.	16G</	.	.
-.	16B</JJ)	.	.
-[<4D\	4r	.	8a#X/
-.	.	.	8an/
-=10	=10	=10	=10
-2D\] 2G\ 2B\	2d/ 2f#/ 2b/ 2dd/	.	[>2dd\
-=11	=11	=11	=11
-4r	4r	.	8dd\]
-.	.	.	8b\
-4C#X\	(>4g/ [>/4a	.	8a/
-.	.	.	8g/
-=12	=12	=12	=12
-2D\	4f#/ 4a/]	.	4d/
-.	4fn/) 4b/	.	8d/
-.	.	.	8r
+=7	=7	=7	=7	=7	=7
+!LO:TX:t=P:4\right:problem	!	!	!	!	!
+4GGG\	(>16D<^>/LL	.	4g/	.	duf-
+.	16E</	.	.	.	.
+.	16A</	.	.	.	.
+.	16c</JJ)	.	.	.	.
+[<4D\	4r	.	8f#/	.	-ti-
+.	.	.	8e/	.	-ge
+=8	=8	=8	=8	=8	=8
+2c\ 2F#\ 2D\]	2dd/ 2cc/ 2a/ 2d/	.	4d/	.	wer-
+.	.	.	8d/	.	-den,
+.	.	.	8r	.	.
+=9	=9	=9	=9	=9	=9
+!LO:TX:t=P:4\right:problem	!	!	!	!	!
+4GGG\	(>16D<^>/LL	.	4d/	.	Um
+.	16E</	.	.	.	.
+.	16G</	.	.	.	.
+.	16B</JJ)	.	.	.	.
+[<4D\	4r	.	8a#X/	.	dei-
+!	!	!	!LO:SIC:s=8b/:v	!	!
+.	.	.	8an/	.	-ne
+=10	=10	=10	=10	=10	=10
+!	!	!	!LO:SIC:s=([>2dd\:v	!	!
+!	!LO:SIC:s=2dd/ 2b/ 2g/ 2d/:v	!	!	!	!
+2B\ 2G\ 2D\]	2dd/ 2b/ 2f#/ 2d/	.	[>2dd\	.	Haa-
+=11	=11	=11	=11	=11	=11
+4r	4r	.	8dd\]	.	.
+!	!	!	!LO:SIC:s=8b\):v	!	!
+.	.	.	8b\	.	.
+!	!LO:SIC:s=([/4a 4g/:v	!	!	!	!
+4C#X\	(>[>/4a 4g/	.	8a/	.	-re
+.	.	.	8g/	.	zu
+=12	=12	=12	=12	=12	=12
+2D\	4a/] 4f#/	.	4d/	.	küs-
+.	4b/ 4fn/)	.	8d/	.	-sen,
+.	.	.	8r	.	.
 !!LO:LB:g=original
-=13	=13	=13	=13
-!	!LO:TUP:b:problem=klamra łukowa	!	!
-4Cn\	12e/L	.	8r
-.	12a/	.	.
-.	.	.	8e/
-.	12ee/J	.	.
-[<4A\	4r	.	8a/
-.	.	.	8b/
-=14	=14	=14	=14
-*	*2\right	*	*
-2A\] 2c\ 2e\ 2a\	2ee\ 2aa\ 2eee\	.	4cc\
-.	.	.	8b\
-.	.	.	8a/
-=15	=15	=15	=15
-4BB\	8r	.	4g/
-*	*Xtuplet	*	*
-!	!LO:TUP:a:problem=klamra łukowa	!	!
-.	24A/LL	.	.
-.	24d#X/	.	.
-.	24b/JJ	.	.
-[<4A\	4r	.	8f#/
-.	.	.	8e/
-=16	=16	=16	=16
-*2\right	*	*	*
-2A\] 2B\ 2d#X\ 2f#\	2a\ 2dd#X\ 2bb\	.	4d#X/
-.	.	.	4d#/
-=17	=17	=17	=17
-!LO:TX:t=P:4\right:problem	!	!	!
-4EE\	(>16D<^>/LL	.	4e/
-.	16E</	.	.
-.	16G</	.	.
-.	16B</JJ)	.	.
-[<4BB\	4r	.	8f#/
-.	.	.	8g/
-=18	=18	=18	=18
-*2\left	*	*	*
-2BB\] 2F#\ 2A\	2B/ 2d#X/ 2b/	.	[>2b/
+=13	=13	=13	=13	=13	=13
+!	!LO:TUP:b:problem=klamra łukowa	!	!	!	!
+4Cn\	12e/L	.	8r	.	.
+.	12a/	.	.	.	.
+.	.	.	8e/	.	könnt'
+.	12ee/J	.	.	.	.
+!LO:SIC:s=[4A\:v	!	!	!	!	!
+[<4A\	4r	.	8a/	.	ich
+.	.	.	8b/	.	das
+=14	=14	=14	=14	=14	=14
+*	*2\right	*	*	*	*
+2a\ 2e\ 2c\ 2A\]	2eee\ 2aa\ 2ee\	.	4cc\	.	Tüch-
+.	.	.	8b\	.	-lein,
+.	.	.	8a/	.	das
+=15	=15	=15	=15	=15	=15
+4BB\	8r	.	4g/	.	luf-
+!	!LO:MO:mod=!null:null	!	!	!	!
+*	*Xtuplet	*	*	*	*
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+!	!LO:SIC:s=(24A^/LL:v	!	!	!	!
+.	24A/LL	.	.	.	.
+.	24d#X/	.	.	.	.
+!	!LO:SIC:s=24b/JJ):v	!	!	!	!
+.	24b/JJ	.	.	.	.
+!LO:SIC:s=[4A\:v	!	!	!	!	!
+[<4A\	4r	.	8f#/	.	-ti-
+.	.	.	8e/	.	-ge,
+=16	=16	=16	=16	=16	=16
+*2\right	*	*	*	*	*
+2f#\ 2d#X\ 2B\ 2A\]	2bb\ 2dd#X\ 2a\	.	4d#X/	.	wer-
+.	.	.	4d#/	.	-den,
+=17	=17	=17	=17	=17	=17
+!LO:TX:t=P:4\right:problem	!	!	!	!	!
+4EE\	(>16BB<^>/LL	.	4e/	.	Und
+.	16C</	.	.	.	.
+.	16E</	.	.	.	.
+.	16G</JJ)	.	.	.	.
+[<4BB\	4r	.	8f#/	.	dei-
+.	.	.	8g/	.	-nen
+=18	=18	=18	=18	=18	=18
+*2\left	*	*	*	*	*
+!	!	!	!LO:SIC:s=([>2b/:v	!	!
+2A\ 2F#\ 2BB\]	2b/ 2d#X/ 2B/	.	[>2b/	.	Bu-
 !!LO:PB:g=original
-=19	=19	=19	=19
-!	!	!	!LO:TX:t=P:problem=brak zakończenia ligatury
-4EE\	(>16BB<^>/LL	.	8b/]
-.	16C</	.	.
-.	16E</	.	8g/
-.	16G</JJ)	.	.
-[<4BB\	4r	.	8f#/
-.	.	.	8e/
-=20	=20	=20	=20
-2BB\] 2F#X\ 2A\	2B/ 2d#X/ 2b/	.	4b\
-.	.	.	8b\
-.	.	.	8r
-=21	=21	=21	=21
-4AAA\	(>16E</LL	.	4cc\
-.	16A</	.	.
-.	16c</	.	.
-.	16e</JJ)	.	.
-4E\	8r	.	8b\
-.	8c/ 8e/	.	8a/
-=22	=22	=22	=22
-!LO:TX:t=P:4\right:problem	!	!	!
-4AA\ 4Fn\	8r	.	4cc\
-.	8c/ 8fn/ 8cc/	.	.
-!LO:TX:t=P:problem=4\middle	!	!	!
-4AAA\	8r	.	8b\
-.	8C</ 8F#X</	.	8a/
-=23	=23	=23	=23
-!LO:TX:t=P:4\right:problem	!	!	!LO:TX:t=P:problem=4\middle
-4BBB\	8r	.	[>4dd\
-.	(>24D</LL	.	.
-.	24F#</	.	.
-.	24d</JJ)	.	.
-4F#\	8r	.	8dd\]
-.	8d/	.	8g/
-=24	=24	=24	=24
-2BB\ 2G\	2d/ 2g/ 2dd/	.	4g/
-.	.	.	8g/
-.	.	.	8r
+=19	=19	=19	=19	=19	=19
+!	!	!	!LO:TX:t=P:problem=brak zakończenia ligatury	!	!
+!	!	!	!LO:SIC:s=8b/L]:v	!	!
+4EE\	(>16BB<^>/LL	.	8b/]	.	.
+.	16C</	.	.	.	.
+!	!	!	!LO:SIC:s=8g/J):v	!	!
+.	16E</	.	8g/	.	.
+.	16G</JJ)	.	.	.	.
+[<4BB\	4r	.	8f#/	.	-sen
+.	.	.	8e/	.	um-
+=20	=20	=20	=20	=20	=20
+2A\ 2F#X\ 2BB\]	2b/ 2d#X/ 2B/	.	4b\	.	flie-
+.	.	.	8b\	.	-ssen,
+.	.	.	8r	.	.
+=21	=21	=21	=21	=21	=21
+!	!LO:SIC:s=(>16E<^/LL:v	!	!	!	!
+4AAA\	(>16E</LL	.	4cc\	.	An
+.	16A</	.	.	.	.
+.	16c</	.	.	.	.
+.	16e</JJ)	.	.	.	.
+4E\	8r	.	8b\	.	dei-
+.	8e/ 8c/	.	8a/	.	-nem
+=22	=22	=22	=22	=22	=22
+!LO:TX:t=P:4\right:problem	!	!	!	!	!
+4Fn\ 4AA\	8r	.	4cc\	.	Her-
+.	8cc/ 8fn/ 8c/	.	.	.	.
+!LO:TX:t=P:problem=4\middle	!	!	!	!	!
+4AAA\	8r	.	8b\	.	-zen
+.	8F#X</ 8C</	.	8a/	.	ach!
+=23	=23	=23	=23	=23	=23
+!LO:TX:t=P:4\right:problem	!	!	!LO:TX:t=P:problem=4\middle	!	!
+4BBB\	8r	.	[>4dd\	.	möcht'
+!	!LO:SIC:s=(>24D<^/LL:v	!	!	!	!
+.	(>24D</LL	.	.	.	.
+.	24F#</	.	.	.	.
+.	24d</JJ)	.	.	.	.
+4F#\	8r	.	8dd\]	.	.
+.	8d/	.	8g/	.	ich
+=24	=24	=24	=24	=24	=24
+2G\ 2BB\	2dd/ 2g/ 2d/	.	4g/	.	hor-
+.	.	.	8g/	.	-chen,
+.	.	.	8r	.	.
 !!LO:PB:g=original
-=25	=25	=25	=25
-!LO:TX:t=P:problem=4\right&colon; global	!	!	!
-4BBB\	8r	.	4dd\
-.	(>24D<^>/LL	.	.
-.	24G</	.	.
-.	24d</JJ)	.	.
-!LO:TX:t=P:problem=4\middle	!	!	!
-4G\	8r	.	8cc\
-.	8d/ 8g/	.	8b\
-=26	=26	=26	=26
-4BB\ 4G#X\	8r	.	4dd\
-.	8d/ 8g#X/ 8dd/	.	.
-4BBB\	8r	.	8cc\
-.	8D</ 8G</	.	8b\
-=27	=27	=27	=27
-4CC\	8r	.	(>4.ee\
-.	(>24E<^>/LL	.	.
-.	24G#X</	.	.
-.	24e/JJ)	.	.
-!LO:TX:t=P:4\left:problem	!	!	!
-4G\	8r	.	.
-.	8e/	.	8a/)
-=28	=28	=28	=28
-2C\ 2A\	2e/ 2a/ 2ee/	.	4a/
-.	.	.	4r
-=29	=29	=29	=29
-4CC\	(>12E<^>/L	.	8r
-.	12A</	.	.
-.	.	.	8a/
-.	12e</J)	.	.
-!LO:TX:t=P:problem=4\middle	!	!	!
-[<4A\	8r	.	8ee\
-.	8a/	.	8ee\
-=30	=30	=30	=30
-!	!	!	!LO:TX:a:t=rit
-4A\] 4e\ 4g\	(>4a/ 4ee/ 4gg/	.	(>4gg\
-!	!	!LO:DY:rj	!
-4c\ 4d\ 4f#\	4a/) 4dd/ 4ff#/	f	8ff#\)
-.	.	.	8ee\
+=25	=25	=25	=25	=25	=25
+!LO:TX:t=P:problem=4\right&colon; global	!	!	!	!	!
+4BBB\	8r	.	4dd\	.	Wer
+.	(>24D<^>/LL	.	.	.	.
+.	24G</	.	.	.	.
+.	24d</JJ)	.	.	.	.
+!LO:TX:t=P:problem=4\middle	!	!	!	!	!
+4G\	8r	.	8cc\	.	ihm
+.	8g/ 8d/	.	8b\	.	von
+=26	=26	=26	=26	=26	=26
+4G#X\ 4BB\	8r	.	4dd\	.	Al-
+.	8dd/ 8g#X/ 8d/	.	.	.	.
+4BBB\	8r	.	8cc\	.	-len
+.	8G</ 8D</	.	8b\	.	ge-
+=27	=27	=27	=27	=27	=27
+4CC\	8r	.	(>4.ee\	.	-fal-
+.	(>24E<^>/LL	.	.	.	.
+.	24G#X</	.	.	.	.
+.	24e/JJ)	.	.	.	.
+!LO:TX:t=P:4\left:problem	!	!	!	!	!
+4G\	8r	.	.	.	.
+.	8e/	.	8a/)	.	.
+=28	=28	=28	=28	=28	=28
+2A\ 2C\	2ee/ 2a/ 2e/	.	4a/	.	-len,
+.	.	.	4r	.	.
+=29	=29	=29	=29	=29	=29
+4CC\	(>12E<^>/L	.	8r	.	.
+.	12A</	.	.	.	.
+.	.	.	8a/	.	Und
+.	12e</J)	.	.	.	.
+!LO:TX:t=P:problem=4\middle	!	!	!	!	!
+[<4A\	8r	.	8ee\	.	dei-
+.	8a/	.	8ee\	.	-nem
+=30	=30	=30	=30	=30	=30
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=rit.	!	!
+!	!	!	!LO:TX:a:t=rit	!	!
+!	!	!LO:DY:t= :mod=%s	!	!	!
+!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=	!	!	!
+!	!	!null	!	!	!
+4g\ 4e\ 4A\]	(>4gg/ 4ee/ 4a/	f	(>4gg\	.	A-
+!	!	!LO:DY:rj	!	!	!
+!	!	!LO:MO:mod=!null:null	!	!	!
+4f#\ 4d\ 4c\	4ff#/ 4dd/ 4a/)	f	8ff#\)	.	.
+.	.	.	8ee\	.	-them
 !!LO:LB:g=original
-=31	=31	=31	=31
-!LO:TX:t=P:problem=4\left&colon; global	!	!	!
-4BBB\	(>12D<^>/L	.	4dd\
-.	12G</	.	.
-.	12d</J)	.	.
-[<4D\	8r	.	8cc\
-.	8d/	.	8b\
-=32	=32	=32	=32
-!	!	!	!LO:TX:t=P:problem=4\middle
-2D\] 2B\	2d/ 2g/ 2dd/	.	(>4dd\
-.	.	.	8cc\)
-.	.	.	8b\
-=33	=33	=33	=33
-!LO:TX:t=P:problem=4\middle	!	!	!
-4AAA\	(>12E<^>/L	.	8r
-.	12B</	.	.
-.	.	.	8a/
-.	12f#</J)	.	.
-4E\	8r	.	8g/
-.	[<8B/ [>/8g	.	8a/
-=34	=34	=34	=34
-2AA\ 2G\	4B/] 4g/] 4b/	.	(>4b/
-.	4c#X/	.	8g/)
-.	.	.	8e/
-=35	=35	=35	=35
-!LO:TX:t=P:4\right:problem	!	!	!
-4DD\	4F#/ 4d/	.	4r
-*	*tuplet	*	*
-!	!LO:TUP:a:problem=klamra łukowa	!	!
-4F#\	12r	.	4d/
-.	12d/L	.	.
-.	12dd/J	.	.
-=36	=36	=36	=36
-!LO:TX:t=P:4\right:problem	!LO:TX:b:i:t=cres_cen_do.:problem=dynamics with extention lines	!LO:HP:i:t=cres-cen-do:ext=ud	!
-4DD\	8r	<	[>2dd\
-.	8G</ 8e-X/	.	.
-!	!LO:TUP:a:problem=klamra łukowa	!	!
-4G\	12r	.	.
-.	12e-/L	.	.
-.	12dd/J	.	.
+=31	=31	=31	=31	=31	=31
+!LO:TX:t=P:problem=4\left&colon; global	!	!	!	!	!
+4BBB\	(>12D<^>/L	.	4dd\	.	möcht'
+.	12G</	.	.	.	.
+.	12d</J)	.	.	.	.
+[<4D\	8r	.	8cc\	.	ich
+.	8d/	.	8b\	.	ge-
+=32	=32	=32	=32	=32	=32
+!	!	!	!LO:TX:t=P:problem=4\middle	!	!
+2B\ 2D\]	2dd/ 2g/ 2d/	.	(>4dd\	.	-hor-
+.	.	.	8cc\)	.	.
+.	.	.	8b\	.	-chen,
+=33	=33	=33	=33	=33	=33
+!LO:TX:t=P:problem=4\middle	!	!	!	!	!
+4AAA\	(>12E<^>/L	.	8r	.	.
+.	12B</	.	.	.	.
+.	.	.	8a/	.	Mit
+!	!LO:SIC:s=12e</J):v	!	!	!	!
+.	12f#</J)	.	.	.	.
+4E\	8r	.	8g/	.	ihm,
+!	!LO:SIC:s=[/8g [8B/:v	!	!	!	!
+.	[>/8g [<8B/	.	8a/	.	ach,
+=34	=34	=34	=34	=34	=34
+2G\ 2AA\	4b/ 4g/] 4B/]	.	(>4b/	.	wal-
+.	4c#X/	.	8g/)	.	.
+.	.	.	8e/	.	-len
+=35	=35	=35	=35	=35	=35
+!LO:TX:t=P:4\right:problem	!	!	!	!	!
+4DD\	4d/ 4F#/	.	4r	.	.
+*	*tuplet	*	*	*	*
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4F#\	12r	.	4d/	.	und
+.	12d/L	.	.	.	.
+.	12dd/J	.	.	.	.
+=36	=36	=36	=36	=36	=36
+!	!LO:MO:mod=!null:null	!LO:MO:mod=!null:null	!	!	!
+!LO:TX:t=P:4\right:problem	!LO:TX:b:i:t=cres_cen_do.:problem=dynamics with extention lines	!LO:HP:i:t=cres-cen-do:ext=ud	!	!	!
+!	!	!	!LO:SIC:s=([>2dd\:v	!	!
+4DD\	8r	<	[>2dd\	.	fal-
+!	!LO:SIC:s=8e-X/ 8G/:v	!	!	!	!
+.	8e-X/ 8G</	.	.	.	.
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4G\	12r	.	.	.	.
+.	12e-/L	.	.	.	.
+.	12dd/J	.	.	.	.
 !!LO:LB:g=original
-=37	=37	=37	=37
-!LO:TX:t=P:4\right:problem	!	!	!
-4DD\	8r	.	2dd\_>
-.	8G#X/ 8e/	.	.
-!	!LO:TUP:a:problem=klamra łukowa	!	!
-4G#X\	12r	.	.
-.	12e/L	.	.
-.	12dd/J	.	.
-=38	=38	=38	=38
-!LO:TX:t=P:4\right:problem	!	!	!LO:TX:t=P:4\right:problem
-4DD\	8r	.	4.dd\]
-.	8A/ 8fn/	.	.
-!	!LO:TUP:a:problem=klamra łukowa	!	!
-[4A\	12r	[	.
-.	12f/L	.	.
-.	.	.	8d/
-.	12dd/J	.	.
-=39	=39	=39	=39
-*^	*	*	*
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4A/]	[<2D\	12r	.	[<2d/
-.	.	12f#/L	.	.
-.	.	12dd/J	f	.
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4B-X/	.	12r	.	.
-.	.	12g/L	.	.
-.	.	12dd/J	.	.
-=40	=40	=40	=40	=40
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4Bn/	2D\]	12r	.	4d/]
-.	.	12g#X/L	.	.
-.	.	12dd/J	.	.
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4c/	.	12r	.	4r
-.	.	12a/L	.	.
-.	.	12dd/J	.	.
-=41	=41	=41	=41	=41
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4c#X/	[<2D\	12r	.	2r
-.	.	12a#X/L	.	.
-.	.	12dd/J	.	.
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4d/	.	12r	.	.
-.	.	12b/L	>	.
-.	.	12dd/J	.	.
-=42	=42	=42	=42	=42
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4e-X/	2D\]	12r	.	2r
-.	.	12cc/L	.	.
-.	.	12dd/J	.	.
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4en/	.	12r	.	.
-.	.	12g#X/L	]	.
-.	.	12dd/J	.	.
+=37	=37	=37	=37	=37	=37
+!LO:TX:t=P:4\right:problem	!	!	!	!	!
+4DD\	8r	.	2dd\_>	.	.
+.	8e/ 8G#X/	.	.	.	.
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4G#X\	12r	.	.	.	.
+.	12e/L	.	.	.	.
+.	12dd/J	.	.	.	.
+=38	=38	=38	=38	=38	=38
+!LO:TX:t=P:4\right:problem	!	!	!LO:TX:t=P:4\right:problem	!	!
+4DD\	8r	.	4.dd\]	.	.
+.	8fn/ 8A/	.	.	.	.
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+!	!	!LO:MO:null:mod=.	!	!	!
+[4A\	12r	[	.	.	.
+.	12f/L	.	.	.	.
+!	!	!	!LO:SIC:s=8d/):v	!	!
+.	.	.	8d/	.	.
+.	12dd/J	.	.	.	.
+=39	=39	=39	=39	=39	=39
+*^	*	*	*	*	*
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4A/]	[<2D\	12r	.	[<2d/	.	-len.
+!	!	!	!LO:DY:t= :mod=%s	!	!	!
+!	!	!	!LO:MO:mod=!LO&colon;DY&colon;ed=	!	!	!
+!	!	!	!null	!	!	!
+.	.	12f#/L	f	.	.	.
+!	!	!	!LO:MO:mod=!null:null	!	!	!
+.	.	12dd/J	f	.	.	.
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4B-X/	.	12r	.	.	.	.
+.	.	12g/L	.	.	.	.
+.	.	12dd/J	.	.	.	.
+=40	=40	=40	=40	=40	=40	=40
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+!	!LO:SIC:s=[2D\]:v	!	!	!	!	!
+4Bn/	2D\]	12r	.	4d/]	.	.
+.	.	12g#X/L	.	.	.	.
+.	.	12dd/J	.	.	.	.
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4c/	.	12r	.	4r	.	.
+.	.	12a/L	.	.	.	.
+.	.	12dd/J	.	.	.	.
+=41	=41	=41	=41	=41	=41	=41
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+!	!LO:SIC:s=[<2D\]:v	!	!	!	!	!
+4c#X/	[<2D\	12r	.	2r	.	.
+.	.	12a#X/L	.	.	.	.
+.	.	12dd/J	.	.	.	.
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4d/	.	12r	.	.	.	.
+.	.	12b/L	>	.	.	.
+.	.	12dd/J	.	.	.	.
+=42	=42	=42	=42	=42	=42	=42
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4e-X/	2D\]	12r	.	2r	.	.
+.	.	12cc/L	.	.	.	.
+.	.	12dd/J	.	.	.	.
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4en/	.	12r	.	.	.	.
+!	!	!	!LO:MO:null:mod=.	!	!	!
+.	.	12g#X/L	]	.	.	.
+!	!	!	!LO:MO:null:mod=]	!	!	!
+.	.	12dd/J	.	.	.	.
 !!LO:LB:g=original
-=43	=43	=43	=43	=43
-*	*	*Xtuplet	*	*
-!	!	!LO:TUP:a:problem=klamra łukowa	!LO:DY:rj	!
-(>4g#X/	2c\ 2d	12r	p	4d/
-.	.	12g#X/L	.	.
-.	.	12dd/J	.	.
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4f#/)	.	12r	.	8a/
-.	.	12a/L	.	.
-.	.	.	.	8b/
-.	.	12dd/J	.	.
-*v	*v	*	*	*
-=44	=44	=44	=44
-!LO:TX:t=P:4\right:problem	!	!	!LO:TX:t=P:problem=4\middle
-4.d::>\ 4.f#>::\ 4.cc>::\	4.dd::/ 4.aa::/ 4.fff#::/	.	4cc\
-.	.	.	8b\
-8r	8r	.	8a/
-=45	=45	=45	=45
-*^	*	*	*
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-(>4c#X/	[<4B\	12r	.	4g/
-.	.	12g/L	.	.
-.	.	12dd/J	.	.
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4d/)	4B\]	12r	.	8f#/
-.	.	12g/L	.	.
-.	.	.	.	8e/
-.	.	12dd/J	.	.
-*v	*v	*	*	*
-=46	=46	=46	=46
-4A>::\ 4e>::\ 4g>::\	4cc::/ 4ee::/ 4ccc::/	.	4a/
-4r	4r	.	8f#/
-.	.	.	8e/
-=47	=47	=47	=47
-*^	*	*	*
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4A/	2D\	12r	.	4d/
-.	.	12d/L 12f#/	.	.
-.	.	12dd/J	.	.
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4A#X/	.	12r	.	8f#/
-.	.	12d/L 12f#/	.	.
-.	.	.	.	8g/
-.	.	12dd/J	.	.
-*v	*v	*	*	*
-=48	=48	=48	=48
-*	*ped	*	*
-!LO:TX:t=P:4\right:problem	!LO:TUP:a:problem=klamra łukowa	!	!LO:TX:t=P:problem=brak początku łuku
-4GG\ 4D\ 4B\	12r	.	(>[>2dd\
-.	12g/L 12dd/	.	.
-.	12gg/J	.	.
-4r	4r	.	.
+=43	=43	=43	=43	=43	=43	=43
+!	!	!LO:MO:mod=!null:null	!	!	!	!
+*	*	*Xtuplet	*	*	*	*
+!	!	!LO:TUP:a:problem=klamra łukowa	!LO:DY:rj	!	!	!
+(>4g#X/	2d 2c\	12r	p	4d/	.	Könnt'
+.	.	12g#X/L	.	.	.	.
+.	.	12dd/J	.	.	.	.
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4f#/)	.	12r	.	8a/	.	ich
+.	.	12a/L	.	.	.	.
+.	.	.	.	8b/	.	zum
+.	.	12dd/J	.	.	.	.
+*v	*v	*	*	*	*	*
+=44	=44	=44	=44	=44	=44
+!LO:TX:t=P:4\right:problem	!	!	!LO:TX:t=P:problem=4\middle	!	!
+4.cc>::\ 4.f#>::\ 4.d>::\	4.fff#::/ 4.aa::/ 4.dd::/	.	4cc\	.	Luft-
+.	.	.	8b\	.	-hauch,
+8r	8r	.	8a/	.	zum
+=45	=45	=45	=45	=45	=45
+*^	*	*	*	*	*
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+(>4c#X/	[<4B\	12r	.	4g/	.	flüch-
+.	.	12g/L	.	.	.	.
+.	.	12dd/J	.	.	.	.
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4d/)	4B\]	12r	.	8f#/	.	-ti-
+.	.	12g/L	.	.	.	.
+.	.	.	.	8e/	.	-gen,
+.	.	12dd/J	.	.	.	.
+*v	*v	*	*	*	*	*
+=46	=46	=46	=46	=46	=46
+!	!	!	!LO:SIC:s=(4a/:v	!	!
+4g>::\ 4e>::\ 4A>::\	4ccc::/ 4ee::/ 4cc::/	.	4a/	.	wer-
+!	!	!	!LO:SIC:s=8f#/):v	!	!
+4r	4r	.	8f#/	.	.
+.	.	.	8e/	.	-den,
+=47	=47	=47	=47	=47	=47
+*^	*	*	*	*	*
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4A/	2D\	12r	.	4d/	.	Und
+.	.	12f#/L 12d/	.	.	.	.
+.	.	12dd/J	.	.	.	.
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4A#X/	.	12r	.	8f#/	.	in
+.	.	12f#/L 12d/	.	.	.	.
+.	.	.	.	8g/	.	der
+.	.	12dd/J	.	.	.	.
+*v	*v	*	*	*	*	*
+=48	=48	=48	=48	=48	=48
+!LO:MO:mod=*ped:null	!	!	!	!	!
+*null	*	*	*	*	*
+!	!LO:MO:mod=*null:null	!	!	!	!
+*	*ped	*	*	*	*
+!LO:TX:t=P:4\right:problem	!LO:TUP:a:problem=klamra łukowa	!	!LO:TX:t=P:problem=brak początku łuku	!	!
+4B\ 4D\ 4GG\	12r	.	(>[>2dd\	.	Son-
+.	12dd/L 12g/	.	.	.	.
+.	12gg/J	.	.	.	.
+!LO:MO:mod=*Xped:null	!	!	!	!	!
+*null	*	*	*	*	*
+4r	4r	.	.	.	.
 !!LO:PB:g=original
-=49	=49	=49	=49
-*	*^	*	*
-4r	4r	4ryy	.	8ddL\]
-.	.	.	.	8b\
-4C#X\	[>4a/	4g\	.	8aJ/)
-.	.	.	.	8g/
-=50	=50	=50	=50	=50
-!	!	!LO:TX:t=P:4\right:problem	!	!
-2D\	4a/]	4f#\	.	4f#/
-!	!	!LO:TX:t=P:4\right:problem	!	!
-.	4b/	4fn\	.	8fn/
-.	.	.	.	8r
-*	*v	*v	*	*
-=51	=51	=51	=51
-*^	*	*	*
-*	*	*tuplet	*	*
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-(>4G#X/	2C\	12r	.	8r
-.	.	12e/L 12g#X/	.	.
-.	.	.	.	8e/
-.	.	12ee/J	.	.
-*	*	*Xtuplet	*	*
-4A/)	.	12r	.	8a/
-.	.	12e/L 12a/	.	.
-.	.	.	.	8b/
-.	.	12ee/J	.	.
-*v	*v	*	*	*
-=52	=52	=52	=52
-!	!	!	!LO:TX:t=P:4\right:problem
-4A>::\ 4e>::\ 4g>::\ 4cc>::\ 4ee>::\	4ccc::/	.	4cc\
-4r	4r	.	8b/
-.	.	.	8a/
-=53	=53	=53	=53
-*^	*	*	*
-*	*	*tuplet	*	*
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-(>4E#X/	[<2BB\	12r	.	4g/
-.	.	12d#X/L	.	.
-.	.	12g/J	.	.
-!	!	!LO:TUP:a:problem=klamra łukowa	!	!
-4F#/	.	12r	.	4f#/
-.	.	12d#/L	.	.
-.	.	12f#/J	.	.
-=54	=54	=54	=54	=54
-!LO:TX:t=P:problem=4\middle	!LO:TX:t=P:4\right:problem	!	!	!
-4G/	4BB\]	8r	.	4b/
-.	.	8d#X/ 8b/	.	.
-!LO:TX:t=P:4\right:problem	!LO:TX:t=P:4\right:problem	!	!	!
-4G#X/)	4E\	8r	.	4e/
-.	.	8dn/ 8e/	.	.
-*v	*v	*	*	*
+=49	=49	=49	=49	=49	=49
+*	*^	*	*	*	*
+4r	4r	4ryy	.	8ddL\]	.	.
+!	!	!	!	!LO:SIC:s=8b\)J:v	!	!
+.	.	.	.	8b\	.	.
+!	!	!	!	!LO:SIC:s=8a/:v	!	!
+4C#X\	[>4a/	4g\	.	8aJ/)	.	-ne
+.	.	.	.	8g/	.	mich
+=50	=50	=50	=50	=50	=50	=50
+!	!	!LO:TX:t=P:4\right:problem	!	!	!	!
+2D\	4a/]	4f#\	.	4f#/	.	wie-
+!	!	!LO:TX:t=P:4\right:problem	!	!	!	!
+.	4b/	4fn\	.	8fn/	.	-gen,
+.	.	.	.	8r	.	.
+*	*v	*v	*	*	*	*
+=51	=51	=51	=51	=51	=51
+*^	*	*	*	*	*
+*	*	*tuplet	*	*	*	*
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+(>4G#X/	2C\	12r	.	8r	.	.
+.	.	12g#X/L 12e/	.	.	.	.
+.	.	.	.	8e/	.	Rührt'
+.	.	12ee/J	.	.	.	.
+!	!	!LO:MO:mod=!null:null	!	!	!	!
+*	*	*Xtuplet	*	*	*	*
+4A/)	.	12r	.	8a/	.	kei-
+.	.	12a/L 12e/	.	.	.	.
+.	.	.	.	8b/	.	-ne
+.	.	12ee/J	.	.	.	.
+*v	*v	*	*	*	*	*
+=52	=52	=52	=52	=52	=52
+!	!	!	!LO:TX:t=P:4\right:problem	!	!
+4ee>::\ 4cc>::\ 4g>::\ 4e>::\ 4A>::\	4ccc::/	.	4cc\	.	Blum'
+4r	4r	.	8b/	.	auf
+.	.	.	8a/	.	der
+=53	=53	=53	=53	=53	=53
+*^	*	*	*	*	*
+*	*	*tuplet	*	*	*	*
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+(>4E#X/	[<2BB\	12r	.	4g/	.	nicht'-
+.	.	12d#X/L	.	.	.	.
+.	.	12g/J	.	.	.	.
+!	!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4F#/	.	12r	.	4f#/	.	-gen
+.	.	12d#/L	.	.	.	.
+.	.	12f#/J	.	.	.	.
+=54	=54	=54	=54	=54	=54	=54
+!LO:TX:t=P:problem=4\middle	!LO:TX:t=P:4\right:problem	!	!	!	!	!
+4G/	4BB\]	8r	.	4b/	.	Er-
+.	.	8b/ 8d#X/	.	.	.	.
+!LO:TX:t=P:4\right:problem	!LO:TX:t=P:4\right:problem	!	!	!	!	!
+4G#X/)	4E\	8r	.	4e/	.	-den,
+.	.	8e/ 8dn/	.	.	.	.
+*v	*v	*	*	*	*	*
 !!LO:LB:g=original
-=55	=55	=55	=55
-!LO:TX:t=P:problem=4\middle&colon; global	!	!	!
-4AAA\	(>16E<^>/LL	.	4f#/
-.	16A</	.	.
-.	16c</	.	.
-.	16e</JJ)	.	.
-[>4E\	4r	.	8cc\
-.	.	.	8b\
-=56	=56	=56	=56
-!LO:TX:t=P:4\left:problem	!	!	!
-4E\] 4A\	4c/ 4e/ 4cc/	.	4cc\
-4DD\ 4A\	4c/ 4f#/	.	8a/
-.	.	.	8f#/
-=57	=57	=57	=57
-*ped	*Xtuplet	*	*
-!	!LO:TUP:a:problem=klamra łukowa	!	!
-4GGG\	(>12G<^>/L	.	[<2g/
-.	[<12B</	.	.
-.	[<12g/J 12B</_>	.	.
-[<4D\	4B</_) 4g/_>	.	.
-=58	=58	=58	=58
-4D\] 4G\	4B</] 4g/]	.	4g/]
-4r	4r	.	8g/
-.	.	.	8r
-=59	=59	=59	=59
-!LO:TX:t=P:4\right:problem	!	!	!
-4GGG\	(>16E-<X^>/LL	.	4cc\
-.	16G</	.	.
-.	16A</	.	.
-.	16c</JJ)	.	.
-!LO:TX:t=P:4\left:problem	!	!	!
-[<4E^>\	4r	.	8b\
-.	.	.	8a/
-=60	=60	=60	=60
-2E\] 2G\ 2A\ 2c\	2e-X/ 2g/ 2a/ 2cc/	.	4.cc\
-.	.	.	8b\
+=55	=55	=55	=55	=55	=55
+!LO:TX:t=P:problem=4\middle&colon; global	!	!	!	!	!
+!	!	!	!LO:SIC:s=4e/:v	!	!
+4AAA\	(>16E<^>/LL	.	4f#/	.	Möcht'
+.	16A</	.	.	.	.
+.	16c</	.	.	.	.
+.	16e</JJ)	.	.	.	.
+[>4E\	4r	.	8cc\	.	dich
+.	.	.	8b\	.	nur
+=56	=56	=56	=56	=56	=56
+!LO:TX:t=P:4\left:problem	!	!	!	!	!
+4A\ 4E\]	4cc/ 4e/ 4c/	.	4cc\	.	won-
+!LO:SIC:s=4DD\:v	!LO:SIC:s=4f#/ 4c/ 4A:v	!	!	!	!
+4A\ 4DD\	4f#/ 4c/	.	8a/	.	-nig
+.	.	.	8f#/	.	um-
+=57	=57	=57	=57	=57	=57
+!	!LO:MO:mod=!null:null	!	!	!	!
+*ped	*Xtuplet	*	*	*	*
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+4GGG\	(>12G<^>/L	.	[<2g/	.	-schmie-
+!	!LO:SIC:s=[12B</:v	!	!	!	!
+.	[<12B</	.	.	.	.
+!	!LO:SIC:s=[12g/J 12B</_:v	!	!	!	!
+.	[<12g/J 12B</_>	.	.	.	.
+[<4D\	4g/_> 4B</_)	.	.	.	.
+=58	=58	=58	=58	=58	=58
+4G\ 4D\]	4g/] 4B</]	.	4g/]	.	.
+!LO:MO:mod=*Xped:null	!	!	!	!	!
+*null	*	*	*	*	*
+4r	4r	.	8g/	.	-gen.
+.	.	.	8r	.	.
+=59	=59	=59	=59	=59	=59
+!LO:TX:t=P:4\right:problem	!	!	!	!	!
+4GGG\	(>16E-<X^>/LL	.	4cc\	.	Dann
+.	16G</	.	.	.	.
+.	16A</	.	.	.	.
+.	16c</JJ)	.	.	.	.
+!LO:TX:t=P:4\left:problem	!	!	!	!	!
+[<4E^>\	4r	.	8b\	.	fühlt
+.	.	.	8a/	.	ein
+!!LO:MO:ori
+=60	=60	=60	=60	=60	=60
+2c\ 2A\ 2G\ 2E\]	2cc/ 2a/ 2g/ 2e-X/	.	4.cc\	.	Gott,
+.	.	.	8b\	.	der
+!!LO:MO:end
+!!LO:MO:mod
+!! =60	=60	=60	=60	=60	=60
+!! 2c\ 2A\ 2G\ 2E\]	2cc/ 2a/ 2g/ 2e-X/	.	4cc\	.	Gott,
+!! .	.	.	8b\	.	der
+!! .	.	.	8a/	.	mein
+!!LO:MO:end
 !!LO:LB:g=original
-=61	=61	=61	=61
-!	!	!	!LO:TX:t=P:problem=all\middle&colon; global
-4GGG\	(>16D<^>/LL	.	4dd\
-.	16G</	.	.
-.	16B</	.	.
-.	16d</JJ)	.	.
-[<4D^>\	4r	.	8b\
-.	.	.	8a/
-=62	=62	=62	=62
-2D\] 2G\ 2B\	2d/ 2g/ 2b/ 2dd/	.	4g/
-.	.	.	8g/
-.	.	.	8r
-=63	=63	=63	=63
-4GGG\	(>16Fn<^>/LL	.	4dd\
-.	16G#X</	.	.
-.	16B</	.	.
-.	16d</JJ)	.	.
-!	!	!	!LO:TX:t=P:problem=8\left
-[<4F#^>\	4r	.	8cc\
-!	!	!	!LO:TX:t=P:problem=8\left
-.	.	.	8b\
-=64	=64	=64	=64
-2F#\] 2G#X\ 2B\ 2d\	2fn/ 2g#X/ 2b/ 2dd/	.	4dd\
-!	!	!	!LO:TX:t=P:problem=8\right
-.	.	.	8cc\
-.	.	.	8b\
-=65	=65	=65	=65
-!LO:TX:t=P:4\right:problem	!	!	!
-4GGG\	(>16E<^>/LL	.	4.ee\
-.	16A</	.	.
-.	16c#X</	.	.
-.	16e</JJ)	.	.
-!LO:TX:t=P:4\left:problem	!	!	!
-[<4E^>\	4r	.	.
-.	.	.	8a/
-=66	=66	=66	=66
-2E\] 2A\ 2c#X\	2e/ 2a/ 2cc#X/ 2ee/	.	4a/
-.	.	.	4r
+=61	=61	=61	=61	=61	=61
+!	!	!	!LO:TX:t=P:problem=all\middle&colon; global	!	!
+4GGG\	(>16D<^>/LL	.	4dd\	.	Lie-
+.	16G</	.	.	.	.
+.	16B</	.	.	.	.
+.	16d</JJ)	.	.	.	.
+[<4D^>\	4r	.	8b\	.	-ben
+.	.	.	8a/	.	ge-
+=62	=62	=62	=62	=62	=62
+2B\ 2G\ 2D\]	2dd/ 2b/ 2g/ 2d/	.	4g/	.	-se-
+.	.	.	8g/	.	-hen,
+.	.	.	8r	.	.
+=63	=63	=63	=63	=63	=63
+4GGG\	(>16Fn<^>/LL	.	4dd\	.	Wohl
+.	16G#X</	.	.	.	.
+.	16B</	.	.	.	.
+.	16d</JJ)	.	.	.	.
+!	!	!	!LO:TX:t=P:problem=8\left	!	!
+[<4F#^>\	4r	.	8cc\	.	mit
+!	!	!	!LO:TX:t=P:problem=8\left	!	!
+.	.	.	8b\	.	mir
+=64	=64	=64	=64	=64	=64
+2d\ 2B\ 2G#X\ 2F#\]	2dd/ 2b/ 2g#X/ 2fn/	.	4dd\	.	Ar-
+!	!	!	!LO:TX:t=P:problem=8\right	!	!
+.	.	.	8cc\	.	-men
+.	.	.	8b\	.	Er-
+=65	=65	=65	=65	=65	=65
+!LO:TX:t=P:4\right:problem	!	!	!	!	!
+!	!	!	!LO:SIC:s=(4.ee\:v	!	!
+4GGG\	(>16E<^>/LL	.	4.ee\	.	bar-
+.	16A</	.	.	.	.
+.	16c#X</	.	.	.	.
+.	16e</JJ)	.	.	.	.
+!LO:TX:t=P:4\left:problem	!	!	!	!	!
+!LO:SIC:s=[4E^>\:v	!	!	!	!	!
+[<4E^>\	4r	.	.	.	.
+!	!	!	!LO:SIC:s=8a/):v	!	!
+.	.	.	8a/	.	.
+=66	=66	=66	=66	=66	=66
+2c#X\ 2A\ 2E\]	2ee/ 2cc#X/ 2a/ 2e/	.	4a/	.	-men,
+.	.	.	4r	.	.
 !!LO:LB:g=original
-=67	=67	=67	=67
-*	*^	*	*
-!LO:TX:t=P:4\right:problem	!	!	!	!
-4GGG\ 4DD\	(>16A/LL^>	4A\	.	8r
-.	16cn/	.	.	.
-.	16e/	.	.	8a/
-.	16g/JJ)	.	.	.
-!LO:TX:t=P:4\left:problem	!	!	!	!LO:TX:t=P:problem=all\left&colon; global
-[<4A^>\	4r	4ryy	.	8ee\
-.	.	.	.	8ee\
-*	*v	*v	*	*
-=68	=68	=68	=68
-!LO:TX:t=P:4\right:problem	!LO:TX:t=P:problem=4\left&colon; global	!	!LO:TX:a:t=rit
-4A\] 4d\ 4g\	4a\ 4cc\ 4gg\	.	(>4gg\
-4r	4A#X^>/	.	8ff#\)
-.	.	.	8ee\
-=69	=69	=69	=69
-*	*^	*	*
-!LO:TX:t=P:problem=4\middle	!	!	!	!LO:TX:t=P:problem=4\middle
-4GGG\	(>16B/^>LL	4B\	.	4dd\
-.	16d/	.	.	.
-.	16g/	.	.	.
-.	16b/JJ)	.	.	.
-!LO:TX:t=P:4\left:problem	!	!	!	!
-4B^>\	4r	4ryy	.	8cc\
-.	.	.	.	8b\
-*	*v	*v	*	*
-=70	=70	=70	=70
-!	!	!	!LO:TX:t=P:problem=4\middle
-2fn^>\	4r	.	4dd\
-.	4g#X/ 4b/ 4dd/	.	8g#X/
-.	.	.	8r
-=71	=71	=71	=71
-*	*^	*	*
-!LO:TX:t=P:problem=4\middle&colon; global	!	!LO:TX:t=P:problem=4\middle&colon; global	!	!
-4GG\	(>16e^>/LL	4e\	.	8r
-.	16gn/	.	.	.
-.	16a/	.	.	8b/
-.	16cc#X/JJ)	.	.	.
-4e^\	4r	4ryy	.	8a/
-.	.	.	.	8b/
-=72	=72	=72	=72	=72
-!	!	!	!	!LO:TX:t=P:problem=4\middle
-4r	16e-X^>/LL	4e-\	.	4cc\
-.	16g/	.	.	.
-.	16a/	.	.	.
-.	16ccn/JJ	.	.	.
-4e-X^>\	4r	4ryy	.	8b\
-.	.	.	.	8b\
+=67	=67	=67	=67	=67	=67
+*	*^	*	*	*	*
+!LO:TX:t=P:4\right:problem	!	!	!	!	!	!
+4DD\ 4GGG\	(>16A/LL^>	4A\	.	8r	.	.
+.	16cn/	.	.	.	.	.
+.	16e/	.	.	8a/	.	Lässt
+.	16g/JJ)	.	.	.	.	.
+!LO:TX:t=P:4\left:problem	!	!	!	!LO:TX:t=P:problem=all\left&colon; global	!	!
+!LO:SIC:s=[4A^>\:v	!	!	!	!	!	!
+[<4A^>\	4r	4ryy	.	8ee\	.	mich
+.	.	.	.	8ee\	.	ver-
+*	*v	*v	*	*	*	*
+=68	=68	=68	=68	=68	=68
+!	!	!	!LO:MO:mod=!LO&colon;TX&colon;a&colon;i&colon;t=rit.	!	!
+!LO:TX:t=P:4\right:problem	!LO:TX:t=P:problem=4\left&colon; global	!	!LO:TX:a:t=rit	!	!
+!	!	!	!LO:SIC:s=4gg\:v	!	!
+4g\ 4d\ 4A\]	4gg\ 4cc\ 4a\	.	(>4gg\	.	-geh-
+!	!	!	!LO:SIC:s=8ff#\:v	!	!
+4r	4A#X^>/	.	8ff#\)	.	-en
+.	.	.	8ee\	.	und
+=69	=69	=69	=69	=69	=69
+*	*^	*	*	*	*
+!LO:TX:t=P:problem=4\middle	!	!	!	!LO:TX:t=P:problem=4\middle	!	!
+!	!	!	!	!LO:SIC:s=(4dd\:v	!	!
+4GGG\	(>16B/^>LL	4B\	.	4dd\	.	auf-
+.	16d/	.	.	.	.	.
+.	16g/	.	.	.	.	.
+.	16b/JJ)	.	.	.	.	.
+!LO:TX:t=P:4\left:problem	!	!	!	!	!	!
+!	!	!	!	!LO:SIC:s=8cc\):v	!	!
+4B^>\	4r	4ryy	.	8cc\	.	.
+.	.	.	.	8b\	.	-er-
+*	*v	*v	*	*	*	*
+=70	=70	=70	=70	=70	=70
+!	!	!	!LO:TX:t=P:problem=4\middle	!	!
+2fn^>\	4r	.	4dd\	.	-steh-
+.	4dd/ 4b/ 4g#X/	.	8g#X/	.	-en
+.	.	.	8r	.	.
+=71	=71	=71	=71	=71	=71
+*	*^	*	*	*	*
+!LO:TX:t=P:problem=4\middle&colon; global	!	!LO:TX:t=P:problem=4\middle&colon; global	!	!	!	!
+4GG\	(>16e^>/LL	4e\	.	8r	.	.
+.	16gn/	.	.	.	.	.
+.	16a/	.	.	8b/	.	In
+.	16cc#X/JJ)	.	.	.	.	.
+4e^\	4r	4ryy	.	8a/	.	dei-
+.	.	.	.	8b/	.	-nem
+=72	=72	=72	=72	=72	=72	=72
+!	!	!	!	!LO:TX:t=P:problem=4\middle	!	!
+!	!LO:SIC:s=(16e-X^>/LL:v	!	!	!	!	!
+4r	16e-X^>/LL	4e-\	.	4cc\	.	Her-
+.	16g/	.	.	.	.	.
+.	16a/	.	.	.	.	.
+!	!LO:SIC:s=16ccn/JJ):v	!	!	!	!	!
+.	16ccn/JJ	.	.	.	.	.
+4e-X^>\	4r	4ryy	.	8b\	.	-zen,
+.	.	.	.	8b\	.	dem
 !!LO:PB:g=original
-=73	=73	=73	=73	=73
-!LO:TX:t=P:problem=4\middle	!	!LO:TX:t=P:4\right:problem	!	!LO:TX:t=P:problem=all\left&colon; global
-4GG\	(>16d^</LL	4d\	.	[>2dd\
-.	16g/	.	.	.
-.	16b/	.	.	.
-.	16dd/JJ)	.	.	.
-!LO:TX:t=P:problem=4\right&colon; global	!	!	!	!
-(>4d\	4r	4ryy	.	.
-*	*v	*v	*	*
-=74	=74	=74	=74
-!	!LO:TX:a:t=m.d.	!	!LO:TX:t=P:4\right:problem
-2Fn^>/)	4ryy	.	4dd\]
-.	4G#X/ 4B/ 4d/	.	8g#X/
-.	.	.	8r
-=75	=75	=75	=75
-4GGG\	(>16E<^>/LL	.	8r
-.	16Gn</	.	.
-.	16A</	.	8b/
-.	16c#X</JJ)	.	.
-!LO:TX:t=P:problem=4\middle	!	!	!
-4E^>\	4r	.	8a/
-.	.	.	8b/
-=76	=76	=76	=76
-4r	(>16E-X<^>/LL	.	[>2cc\
-.	16G</	.	.
-.	16A</	.	.
-.	16cn</JJ)	.	.
-!LO:TX:t=P:4\left:problem	!	!	!
-4E\	4r	.	.
-=77	=77	=77	=77
-4GGG\	(>16D<^>/LL	.	2cc\_>
-.	16F#</	.	.
-.	16A</	.	.
-.	16c</JJ)	.	.
-!LO:TX:t=P:problem=4\middle	!	!	!
-[<4D\	4r	.	.
-=78	=78	=78	=78
-2D\] 2F#\	2c</ 2d</	.	4cc\]
-.	.	.	8b\
-.	.	.	8b\
+=73	=73	=73	=73	=73	=73	=73
+!LO:TX:t=P:problem=4\middle	!	!LO:TX:t=P:4\right:problem	!	!LO:TX:t=P:problem=all\left&colon; global	!	!
+!	!LO:SIC:s=(>16d^/LL:v	!	!	!	!	!
+4GG\	(>16d^</LL	4d\	.	[>2dd\	.	war-
+.	16g/	.	.	.	.	.
+.	16b/	.	.	.	.	.
+.	16dd/JJ)	.	.	.	.	.
+!LO:TX:t=P:problem=4\right&colon; global	!	!	!	!	!	!
+(>4d\	4r	4ryy	.	.	.	.
+*	*v	*v	*	*	*	*
+=74	=74	=74	=74	=74	=74
+!	!LO:MO:mod=!null:null	!	!	!	!
+!	!LO:TX:a:t=m.d.	!	!LO:TX:t=P:4\right:problem	!	!
+2Fn^>/)	4ryy	.	4dd\]	.	.
+.	4d/ 4B/ 4G#X/	.	8g#X/	.	-men,
+.	.	.	8r	.	.
+=75	=75	=75	=75	=75	=75
+4GGG\	(>16E<^>/LL	.	8r	.	.
+.	16Gn</	.	.	.	.
+.	16A</	.	8b/	.	In
+.	16c#X</JJ)	.	.	.	.
+!LO:TX:t=P:problem=4\middle	!	!	!	!	!
+4E^>\	4r	.	8a/	.	dei-
+.	.	.	8b/	.	-nem
+=76	=76	=76	=76	=76	=76
+!	!	!	!LO:SIC:s=([>2cc\:v	!	!
+!LO:SIC:s=4rEE:v	!	!	!	!	!
+4r	(>16E-X<^>/LL	.	[>2cc\	.	Her-
+.	16G</	.	.	.	.
+.	16A</	.	.	.	.
+.	16cn</JJ)	.	.	.	.
+!LO:TX:t=P:4\left:problem	!	!	!	!	!
+4E\	4r	.	.	.	.
+=77	=77	=77	=77	=77	=77
+4GGG\	(>16D<^>/LL	.	2cc\_>	.	.
+.	16F#</	.	.	.	.
+.	16A</	.	.	.	.
+.	16c</JJ)	.	.	.	.
+!LO:TX:t=P:problem=4\middle	!	!	!	!	!
+!LO:SIC:s=[4D\:v	!	!	!	!	!
+[<4D\	4r	.	.	.	.
+=78	=78	=78	=78	=78	=78
+!	!	!	!LO:SIC:s=4cc\]):v	!	!
+!	!LO:SIC:s=2d/ 2c/:v	!	!	!	!
+2F#\ 2D\]	2d</ 2c</	.	4cc\]	.	.
+.	.	.	8b\	.	-zen,
+.	.	.	8b\	.	dem
 !!LO:LB:g=original
-=79	=79	=79	=79
-!LO:TX:t=P:4\right:problem	!	!	!
-4GGG\	(>16D<^>/LL	.	[>2dd\
-.	16E</	.	.
-.	16G</	.	.
-.	16B</JJ)	.	.
-!LO:TX:t=P:problem=4\middle	!	!	!
-[<4D\	4r	.	.
-=80	=80	=80	=80
-2D\]	2G</ 2B</ 2d</	.	2dd\_>
-=81	=81	=81	=81
-4GGG\	(>16D<^>/LL	.	2dd\_>
-.	16E</	.	.
-.	16G</	.	.
-.	16B</JJ)	.	.
-!LO:TX:t=P:4\left:problem	!	!	!
-[<4D\	4r	.	.
-=82	=82	=82	=82
-2D\] 2G	2G</ 2B</ 2d</	.	4.dd\]
-.	.	.	8g/
-=83	=83	=83	=83
-*	*ped	*	*
-4GGG\	(>16D</LL	.	2g/
-.	16E</	.	.
-.	16G</	.	.
-.	16B</JJ)	.	.
-!LO:TX:t=P:problem=4\middle	!	!	!
-[<4D\	4r	.	.
-=84	=84	=84	=84
-!LO:TX:t=P:4\left:problem	!	!	!
-4D\] 4G\ 4B\	(>16d^>/LL	.	2ryy
-.	16e/	.	.
-.	16g/	.	.
-.	16b/JJ)	.	.
-[<4d>\	4rff	.	.
+=79	=79	=79	=79	=79	=79
+!LO:TX:t=P:4\right:problem	!	!	!	!	!
+!	!	!	!LO:SIC:s=([>2dd\:v	!	!
+4GGG\	(>16D<^>/LL	.	[>2dd\	.	war-
+.	16E</	.	.	.	.
+.	16G</	.	.	.	.
+.	16B</JJ)	.	.	.	.
+!LO:TX:t=P:problem=4\middle	!	!	!	!	!
+!LO:SIC:s=[4D\:v	!	!	!	!	!
+[<4D\	4r	.	.	.	.
+=80	=80	=80	=80	=80	=80
+2D\]	2d</ 2B</ 2G</	.	2dd\_>	.	.
+=81	=81	=81	=81	=81	=81
+4GGG\	(>16D<^>/LL	.	2dd\_>	.	.
+.	16E</	.	.	.	.
+.	16G</	.	.	.	.
+.	16B</JJ)	.	.	.	.
+!LO:TX:t=P:4\left:problem	!	!	!	!	!
+!LO:SIC:s=[4D\:v	!	!	!	!	!
+[<4D\	4r	.	.	.	.
+=82	=82	=82	=82	=82	=82
+!LO:SIC:s=2D\]:v	!	!	!	!	!
+2G 2D\]	2d</ 2B</ 2G</	.	4.dd\]	.	.
+!	!	!	!LO:SIC:s=8g/):v	!	!
+.	.	.	8g/	.	.
+=83	=83	=83	=83	=83	=83
+!LO:MO:mod=*ped:null	!	!	!	!	!
+*null	*	*	*	*	*
+!	!LO:MO:mod=*null:null	!	!	!	!
+*	*ped	*	*	*	*
+4GGG\	(>16D</LL	.	2g/	.	-men!
+.	16E</	.	.	.	.
+.	16G</	.	.	.	.
+.	16B</JJ)	.	.	.	.
+!LO:TX:t=P:problem=4\middle	!	!	!	!	!
+!LO:SIC:s=[4D\:v	!	!	!	!	!
+[<4D\	4r	.	.	.	.
+=84	=84	=84	=84	=84	=84
+!LO:TX:t=P:4\left:problem	!	!	!	!	!
+4B\ 4G\ 4D\]	(>16d^>/LL	.	2ryy	.	.
+.	16e/	.	.	.	.
+.	16g/	.	.	.	.
+.	16b/JJ)	.	.	.	.
+[<4d>\	4rff	.	.	.	.
 !!LO:LB:g=original
-=85	=85	=85	=85
-!LO:TX:t=P:problem=4\left&colon; global	!LO:N:vis=16	!	!
-4d>\] 4g>\ 4b>\	8dd/LL	.	2ryy
-*	*tuplet	*	*
-!	!LO:TUP:a:problem=klamra łukowa	!	!
-.	24ee/	.	.
-.	24gg/	.	.
-.	24bb/JJ	.	.
-[<4dd>\	4raa	.	.
-=86	=86	=86	=86
-4dd>\]	4ddd/	.	2ryy
-4r	4r	.	.
-=87	=87	=87	=87
-*2\right	*	*	*
-2DD\	2D</ 2F#X</ 2c</	.	2ryy
-=88	=88	=88	=88
-*2\left	*	*	*
-2GGG\ 2GG\	2D</ 2F#</ 2B</	.	2ryy
-==	==	==	==
-*-	*-	*-	*-
+=85	=85	=85	=85	=85	=85
+!	!LO:MO:mod=!null:null	!	!	!	!
+!LO:TX:t=P:problem=4\left&colon; global	!LO:N:vis=16	!	!	!	!
+!	!LO:SIC:s=(8dd/LL:v	!	!	!	!
+4b>\ 4g>\ 4d>\]	8dd/LL	.	2ryy	.	.
+*	*tuplet	*	*	*	*
+!	!LO:TUP:a:problem=klamra łukowa	!	!	!	!
+.	24ee/	.	.	.	.
+.	24gg/	.	.	.	.
+!	!LO:SIC:s=24bb/JJ):v	!	!	!	!
+.	24bb/JJ	.	.	.	.
+!	!LO:SIC:s=4rbb:v	!	!	!	!
+[<4dd>\	4raa	.	.	.	.
+=86	=86	=86	=86	=86	=86
+4dd>\]	4ddd/	.	2ryy	.	.
+!LO:MO:mod=*Xped:null	!	!	!	!	!
+*null	*	*	*	*	*
+4r	4r	.	.	.	.
+=87	=87	=87	=87	=87	=87
+*2\right	*	*	*	*	*
+2DD\	2c</ 2F#X</ 2D</	.	2ryy	.	.
+=88	=88	=88	=88	=88	=88
+*2\left	*	*	*	*	*
+!	!LO:SIC:s=2B</ 2G</ 2D</:v	!	!	!	!
+2GG\ 2GGG\	2B</ 2F#</ 2D</	.	2ryy	.	.
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
 !!!system-decoration: g1[{g2}]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -k -e "s/:TUP:/:tup:/L"
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-05
 !!!EED: Jędrzej Mróz
 !!!ESR: 2021-11-08
+!!!EED-modern: Antoni Szymański
+!!!END-modern: 2022-09-12
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

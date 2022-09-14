@@ -19,22 +19,28 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/16843 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: w zbiorze znajduje się 14 Polonezów z Triami, pliki są numerowane jak w źródle.
 !!!AIN: 2 piano
-!!!key: f
+!!!key: F
+!!!OMD: Moderato
+!!!filter-modern: sic -s | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam
 *part2	*part1	*part1
 *staff2	*staff1	*
-*I"Piano	*I"Piano.	*
+*I"Piano.	*I"Piano.	*
 *I'pf	*I'pf	*
-*ICklav	*ICklav	*
 *Ipiano	*Ipiano	*
+*ICklav	*ICklav	*
+*IGsolo	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
 *clefF4	*clefG2	*
 *k[b-]	*k[b-]	*
-*f:	*f:	*
+*F:	*F:	*
 *M3/4	*M3/4	*
+*>[A,A,B,A,A,C,A,A,B,A,A]	*>[A,A,B,A,A,C,A,A,B,A,A]	*
 =1	=1	=1
-!	!LO:TX:a:B:t=Moderato	!
+*>A	*>A	*
 (<8f>\L 8a>	16rdd	.
-!	!LO:TX:b:i:t=dolce ed amoroso.	!
+!	!LO:TX:b:i:t=dolce ed amoroso.:mod=dolce ed amoroso	!
 .	16cc/KL	.
 8c>\J)	8cc$/J	.
 (8f>\L 8a>	4.ff/	.
@@ -73,14 +79,14 @@
 (8f>\L 8a>	16rdd	.
 .	16cc/KL	.
 !	!LO:TX:a:t=P:problem:♮ above	!
-8c>\J)	8cc$/J	.
+8c>\J)	8cc$sS/J	.
 =5	=5	=5
 (8fn>\L 8a>	8ff^/L	.
 8c>\J)	8cc/J	.
 (8f>\L 8a>	16rdd	.
 .	16cc/KL	.
 !	!LO:TX:a:t=P:problem:♮ above	!
-8c>\J)	8cc$/J	.
+8c>\J)	8cc$sS/J	.
 (8g>\L 8b->	8.ee/L	.
 8c>\J)	.	.
 .	16cc/Jk	.
@@ -112,11 +118,13 @@
 .	16gg\JJ)	.
 8r	4b-\ 4gg	.
 8C\L	.	.
-!	!LO:TX:b:t=Finè.	!
+!	!LO:TX:b:t=Finè.:mod=	!
 8F\J	8a\ 8ff	.
 8r	8r	.
+!!LO:TX:a:B:rj:t=:mod=Fine
 !!LO:LB:g=original	!	!
 =9:|!	=9:|!	=9:|!
+*>B	*>B	*
 4re>	(16aa/LL	p
 .	16gg/)	.
 .	16ff'/	.
@@ -151,11 +159,13 @@
 .	(>8ccc/	.
 4re>	8bbn/	.
 .	8bb-X/	.
-!LO:TX:i:b:t=Da Capo\nal Fine.	!	!
+!LO:TX:i:b:t=Da Capo\nal Fine.:mod=	!	!
 4re>	8gg/	.
 .	8ee/J)	]]
+!!LO:TX:a:B:rj:t=:mod=Da Capo al Fine
 !!LO:PB:g=original	!	!
 ==13	==13	==13
+*>C	*>C	*
 *k[b-e-a-d-]	*k[b-e-a-d-]	*
 *M3/4	*M3/4	*
 .	(>8qcc/	p
@@ -330,9 +340,10 @@
 =28	=28	=28
 4F\	((2b-\ [>2cc 2een 2gg	.
 4C/	.	.
-!	!LO:TX:b:i:t=Da Capo.	!
+!	!LO:TX:b:i:t=Da Capo.:mod=	!
 8FF/	8a-\)) 8cc] 8ff	.
 8r	8r	.
+!!LO:TX:a:B:t=:mod=Da Capo
 ==	==	==
 *-	*-	*-
 !!!system-decoration: {(s1,s2)}
@@ -342,5 +353,7 @@
 !!!END: 2022-07-25
 !!!ENC: Jan Barakat
 !!!END: 2022-08-22
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

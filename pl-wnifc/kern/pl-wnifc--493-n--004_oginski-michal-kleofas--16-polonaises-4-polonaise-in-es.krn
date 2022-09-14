@@ -18,21 +18,30 @@
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/nifc%3A212371/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/16843 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: w zbiorze znajduje się 14 Polonezów z Triami, pliki są numerowane jak w źródle.
-!!!AIN: 2 piano
+!!!AIN: 1 piano
 !!!key: E-
+!!!OMD:
+!!!OMD-mod: Moderato assai
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam
-*part2	*part1	*part1
+*part1	*part1	*part1
 *staff2	*staff1	*
 *I"Piano.	*I"Piano.	*
+*I'	*I'	*
 *Ipiano	*Ipiano	*
 *ICklav	*ICklav	*
+*IGsolo	*IGsolo	*
+*mI"Pianoforte	*mI"Pianoforte	*
+*mI'pf	*mI'pf	*
+*>[A,A,B,B,A,A,C,C,D,D,C,C]	*>[A,A,B,B,A,A,C,C,D,D,C,C]	*
 *clefF4	*clefG2	*
 *k[b-e-a-]	*k[b-e-a-]	*
 *E-:	*E-:	*
 *M3/4	*M3/4	*
 =1	=1	=1
-!	!LO:TX:a:t=Moderato assai.	!
-!LO:TX:a:t=P:problem:mixed beam	!LO:TX:b:i:t=dol.	!
+*>A	*>A	*
+!	!LO:TX:a:t=Moderato assai.:mod=	!
+!LO:TX:a:t=P:problem:mixed beam	!LO:TX:b:i:t=dol.:mod=dolce	!
 .	8qff#X/	p
 (<8e->\L 8g>	4gg/	.
 8B-/J)	.	.
@@ -40,7 +49,7 @@
 (<8e->\L 8g>	4ee-/	.
 8B-/J)	.	.
 !LO:TX:a:t=P:problem:mixed beam	!	!
-(<8e->\L 8g>	8.r	.
+(<8e->\L 8g>	8.rcc	.
 8B-/J)	.	.
 .	16gg/	.
 =2	=2	=2
@@ -79,7 +88,7 @@
 (<8d>\L 8a->	4ff/	.
 8B-/J)	.	.
 !LO:TX:a:t=P:problem:mixed beam	!	!
-(<8d>\L 8a->	4r	.
+(<8d>\L 8a->	4rcc	.
 8B-/J)	.	.
 =5	=5	=5
 !LO:TX:a:t=P:problem:mixed beam	!	!
@@ -104,7 +113,7 @@
 (<8e->\L 8g>	4ee-/	.
 8B-/J)	.	.
 !LO:TX:a:t=P:problem:mixed beam	!	!
-(<8e->\L 8g>	8r	.
+(<8e->\L 8g>	8rcc	.
 8B-/J)	8dd/	.
 =7	=7	=7
 8A-\L	8cc/L	<
@@ -122,9 +131,11 @@
 8e->\L 8g>	8ee-sS/L	.
 8B->\J 8d> 8a->	16.gg/L	.
 .	32ff/JJk	.
-!	!LO:TX:b:i:t=Fine.	!
+!	!LO:TX:b:i:t=Fine.:mod=	!
 4e->\ 4g>	4ee->/	.
+!!LO:TX:a:B:rj:t=:mod=Fine
 =9:|!|:	=9:|!|:	=9:|!|:
+*>B	*>B	*
 (8B-\L 8d	4ff/	p
 8f>\J)	.	.
 (8B-\L 8d	4dd/	.
@@ -189,13 +200,16 @@
 .	16dd/	.
 .	16aa-/	.
 .	16ee-/JJ)	.
-!LO:TX:b:i:t=Da Capo\n al Fine.	!	!
+!LO:TX:b:i:t=Da Capo\n al Fine.:mod=	!	!
 4r	(>16aa-/LL	.
 .	16een/	.
 .	16ff/	.
 .	16ff#X/JJ)	]]
 !!LO:PB:g=original
+!LO:MO:mod==17:|!|:	!LO:MO:mod==17:|!|:	!LO:MO:mod==17:|!|:
+!!LO:TX:a:B:rj:t=:mod=Da Capo al Fine
 =17||	=17||	=17||
+*>C	*>C	*
 !LO:TX:a:t=P:problem:mixed beam	!LO:TX:a:t=Trio.	!
 (<8e->\L 8g>	8gg/L 8bb-	p
 8B-/J)	16.gg/L 16.bb-	.
@@ -240,14 +254,18 @@
 (<8d>\L 8a->	4r	.
 8B-/J)	.	.
 =21	=21	=21
-(4Bn\ (((4d> (4f> (4a->	(((4dd^>/ 4ff 4aa-	fp
-4c>\)))) 4e-> 4g>	8ee->/L))) 8gg	.
+!LO:SIC:s=(4Bn\ 4d> 4f> 4a->	!LO:SIC:s=(((4dd^>/ 4ff 4aa-	!
+(4Bn\ (((4d> (4f> (4a->	(4dd^>/ 4ff 4aa-	fp
+!LO:SIC:s=4c>\ 4e-> 4g>)	!LO:SIC:s=8ee->/L))) 8gg	!
+4c>\)))) 4e-> 4g>	8ee->/L) 8gg	.
 .	8ccc'/	.
 4r	8ccc'>/	.
 .	8ccc'>/J	.
 =22	=22	=22
-((((4B-X\ 4d> 4f> 4a->	(([4b-X/ 4dd 4ff 4aa-^>	fp
-8e->\L)))) 8g>	8b-/L])) 8ee- 8gg	.
+!LO:SIC:s=((((4B-X\ 4d> 4f> 4a->	!LO:SIC:s=([4b-X/ 4dd 4ff 4aa-^>	!
+(4B-X\ 4d> 4f> 4a->	(([4b-X/ 4dd 4ff 4aa-^>	fp
+!LO:SIC:s=8e->\L)))) 8g>	!LO:SIC:s=8b-/L]) 8ee- 8gg	!
+8e->\L) 8g>	8b-/L])) 8ee- 8gg	.
 8g>'\ 8b->	8ee-'/	.
 8g>'\ 8b->	8ee-'/	.
 8g>'\J 8b->	8ee-'/J	.
@@ -264,12 +282,16 @@
 .	16aa-X/)	.
 .	16ff'/	.
 .	16dd'/JJ	.
+!	!LO:SIC:s=(>4a-/ 4ff	!
 8r	((>4a-/ 4ff	]
 8B-\L	.	.
+!	!LO:SIC:s=8g/) 8ee-	!
 8e->\J	8g/)) 8ee-	.
-!LO:TX:a:i:t=Fine	!	!
+!LO:TX:a:i:t=Fine:mod=	!	!
 8r	8r	.
+!!LO:TX:a:B:rj:t=:mod=Fine
 =25:|!|:	=25:|!|:	=25:|!|:
+*>D	*>D	*
 8BB-/L 8B-	8d'\L 8f 8b-	p <
 8AAn'/ 8An	8e-'\ 8f 8cc	.
 8AA-X'/ 8A-X	8f'\ 8b- 8dd	.
@@ -305,17 +327,21 @@
 .	16bb-/JJ	.
 8f>\L 8a->	16b-/LL	.
 .	16bb-/	.
-!LO:TX:b:i:t=Trio Da Capo \nal Fine.	!	!
+!LO:TX:b:i:t=Trio Da Capo \nal Fine.:mod=	!	!
 8B->\J 8f>	16b-/	.
 .	16bb-/JJ	]]
+!LO:MO:mod==:|!	!LO:MO:mod==:|!	!LO:MO:mod==:|!
+!!LO:TX:a:B:t=:mod=Trio Da Capo al Fine
 ==	==	==
 *-	*-	*-
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!system-decoration: [(s1,s2)]
+!!!system-decoration: {(*)}
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-07-24
 !!!ENC: Urszula Świątek
 !!!END: 2022-08-22
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
