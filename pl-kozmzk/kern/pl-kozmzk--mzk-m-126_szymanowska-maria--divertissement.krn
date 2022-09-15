@@ -19,21 +19,26 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/7375 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc:
 !!!AIN: 1 piano 1 violn
-!!!key:
+!!!OMD:
+!!!OMD-mod: Allegretto moderatissimo
+!!!key: B-
 **kern	**kern	**dynam	**kern	**dynam
 *part2	*part2	*part2	*part1	*part1
 *staff3	*staff2	*	*staff1	*
 *Ipiano	*Ipiano	*	*Ivioln	*
+*ICklav	*ICklav	*	*ICstr	*
+*IGacmp	*IGacmp	*	*IGsolo	*
 *I"Pianoforte	*I"Pianoforte	*	*I"Violino.	*
-*I'pf	*I'pf	*	*I'vl	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*
+*I'	*I'	*	*I'	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[b-e-]	*k[b-e-]	*	*k[b-e-]	*
 *B-:	*B-:	*	*B-:	*
 *M2/4	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1
-!!LO:TX:a:t=Allegretto. \nmoderatissimo.
-!	!	!	!LO:TX:a:t=8	!
-!	!	!	!LO:N:vis=00	!
+!	!	!	!LO:TX:a:i:t=Allegretto. \nmoderatissimo.:mod=	!
+!	!	!	!LO:TX:a:t=8:mod=	!
+!	!LO:TX:a:i:t=Allegretto. \nmoderatissimo.:mod=	!	!LO:N:vis=00	!
 8BB-\L	16.d/LL	p	0r	.
 .	32f/K	.	.	.
 8dJ 8B- 8F\	16.b-/	.	.	.
@@ -41,7 +46,7 @@
 8BB-\L	8dd^\L	.	.	.
 8dJ 8B- 8F\	16cc\L	.	.	.
 .	16b-\JJ	.	.	.
-=2	=2	=2	=2-	=2
+=2	=2	=2	=2	=2
 8C\L	16.a\LL	.	.	.
 .	32cc\K	.	.	.
 8e-J 8A 8F\	16.ee-\	.	.	.
@@ -51,7 +56,7 @@
 8FF/L	8gg^\L	.	.	.
 8AJ 8E- 8C/	16ff\L	.	.	.
 .	16ee-\JJ	.	.	.
-=3	=3	=3	=3-	=3
+=3	=3	=3	=3	=3
 8BB-\L	16.dd\LL	.	.	.
 .	32ff\K	.	.	.
 8dJ 8B- 8F\	16.bb-\	.	.	.
@@ -61,17 +66,16 @@
 .	8qddd/	.	.	.
 8dJ 8B- 8F\	16.ccc\	.	.	.
 .	32bb-\JJk	.	.	.
-=4	=4	=4	=4-	=4
-!	!LO:TX:t=P:global:problem=klamra łukowa i numer	!	!	!
-!	!LO:LB:g=original	!	!	!
-!	!LO:TUP:a	!	!	!
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
+=4	=4	=4	=4	=4
+!	!LO:TUP:a:problem:klamra łukowa	!	!	!
 8cL 8A 8C\	24aa\LL	<	.	.
 .	24ccc\	.	.	.
 .	24fff\	.	.	.
 8B-J 8G 8C\	24aaa\	.	.	.
 .	24ggg\	.	.	.
 .	24eeen\JJ	[	.	.
-!	!LO:TUP:a	!	!	!
+!	!LO:TUP:a:problem:klamra łukowa	!	!	!
 4A 4F\	24fff\LL	>	.	.
 .	24eee-X\	.	.	.
 .	24ccc\	.	.	.
@@ -88,7 +92,7 @@
 8dJ 8B- 8F\	16ccc\L	.	.	.
 .	16bb-\JJ	.	.	.
 =6	=6	=6	=6	=6
-!	!LO:TUP:a	!	!	!
+!	!LO:TUP:a:problem:klamra łukowa	!	!	!
 8C\L	24aa\LL	.	.	.
 .	24bb-\	.	.	.
 .	24ccc\	.	.	.
@@ -102,15 +106,14 @@
 .	32fff\LL	.	.	.
 .	32eee-\JJJ	.	.	.
 =7	=7	=7	=7	=7
-!	!LO:TUP:a	!	!	!
+!	!LO:TUP:a:problem:klamra łukowa	!	!	!
 8BB-\L	24ddd\LL	.	.	.
 .	24fff\	.	.	.
 .	24aa\	.	.	.
 8dJ 8B- 8F\	24bb-\	.	.	.
 .	24dd\	.	.	.
 .	24gg\JJ	.	.	.
-!LO:TX:t=P:problem=mixed beam	!	!	!	!
-!	!LO:TUP:a	!	!	!
+!LO:TX:t=P:problem=mixed beam	!LO:TUP:a:problem:klamra łukowa	!	!	!
 8FF/L	24ff\LL	.	.	.
 .	24ee-\	.	.	.
 .	24cc\	.	.	.
@@ -118,7 +121,7 @@
 .	24a\	.	.	.
 .	24f\JJ	.	.	.
 =8	=8	=8	=8	=8
-!	!LO:TUP:b	!	!	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!	!
 8BB-'/L	24b-/LL	.	.	.
 .	24dd/	.	.	.
 .	24f/	.	.	.
@@ -126,10 +129,11 @@
 .	24d/	.	.	.
 .	24f/JJ	.	.	.
 4BBB-/	4B-/	.	.	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =9	=9	=9	=9	=9
-!	!LO:LB:g=original	!	!	!
+!	!	!	!LO:TX:b:i:t= :mod=con espress.	!
 8FL 8FF'/	8aL 8f 8c'/	.	8cc\L	.
-!	!	!	!LO:TX:b:i:t=con espres	!
+!	!	!	!LO:TX:b:i:t=con espres:mod=	!
 8F 8FF'/	8a 8f 8c'/	.	16ff\L	.
 .	.	.	16aa\JJ	.
 .	.	.	8qaa/	.
@@ -139,8 +143,7 @@
 .	.	.	32een\JJk	.
 =10	=10	=10	=10	=10
 8FL 8FF'/	8aL 8f 8c'/	.	8ffn^\L	.
-!	!	!	!LO:TX:t=P:global:problem=klamra łukowa i numer	!
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8F 8FF'/	8a 8f 8c'/	.	24ff\L	.
 .	.	.	24een\	.
 .	.	.	24dd\JJ	.
@@ -155,10 +158,9 @@
 .	.	.	32ff#X\K	.
 8FJ 8FF/	8eJ 8c 8B-/	.	16.gg\	.
 .	.	.	32een\JJk	.
-=12	=12	=12	=12	=12
-!	!	!	!LO:TX:t=P:global:problem=klamra łukowa i numer	!
 !	!	!	!LO:LB:g=original	!
-!	!	!	!LO:TUP:a	!
+=12	=12	=12	=12	=12
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8F 8FF/	8f 8A/	.	24ffn\LL	>
 .	.	.	24gg\	.
 .	.	.	24ff\	.
@@ -166,7 +168,7 @@
 (8c\L	8e-X/L	.	24ee-X\	.
 .	.	.	24ff\	.
 .	.	.	24ee-\JJ	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8B-\	8d/	.	24dd\LL	.
 .	.	.	24ee-\	.
 .	.	.	24dd\	.
@@ -184,14 +186,14 @@
 8dJ 8B- 8F\	16cc\L	.	.	.
 .	16b-\JJ	.	.	.
 =14	=14	=14	=14	=14
-!	!LO:TUP:a	!	!LO:TX:a:t=1	!
+!	!LO:TUP:a:problem:klamra łukowa	!	!LO:TX:a:t=1:mod=	!
 8C\L	48a|\LLL	.	2r	.
 .	48cc\	.	.	.
 .	48dd\	.	.	.
 .	48ee-\	.	.	.
 .	48ff\	.	.	.
 .	48gg\JJJ	.	.	.
-!	!LO:TUP:a	!	!	!
+!	!LO:TUP:a:problem:klamra łukowa	!	!	!
 8e-J 8A 8F\	48aa|\LLL	.	.	.
 .	48ccc\	.	.	.
 .	48ddd\	.	.	.
@@ -200,23 +202,21 @@
 .	48ggg\JJJ	.	.	.
 8F#XL 8FF#X/	8aaaL 8eee-\	.	.	.
 8GJ 8GG/	8bbb-J 8ddd\	.	.	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =15	=15	=15	=15	=15
-!	!LO:LB:g=original	!	!	!
 8E-\	8r	.	8.ccc^\L	.
 8r	8cc 8g 8e-/	.	.	.
 .	.	.	16bb-\Jk	.
 *	*	*	*Xtuplet	*
-!	!	!	!LO:TX:t=P:problem=brak oznaczenia trioli	!
 8E-\	8r	.	24bb-^\LL	.
 .	.	.	24aa\	.
 .	.	.	[24aa-X\JJ	.
-!	!	!	!LO:TX:t=P:problem=brak oznaczenia trioli	!
 8r	8cc 8g 8e-/	.	24aa-\LL]	.
 .	.	.	24gg\	.
 .	.	.	24ff#X\JJ	.
 =16	=16	=16	=16	=16
 *	*	*	*tuplet	*
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 4E-\	8r	.	24ff#X\LL	.
 .	.	.	24gg\	.
 .	.	.	24b-\	.
@@ -228,60 +228,54 @@
 8FF/J	8aJ 8e- 8c/	.	8at\J	.
 .	.	.	16qqg/LL	.
 .	.	.	16qqa/JJ	.
+!	!	!	!LO:LB:g=original	!
 =17	=17	=17	=17	=17
-!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!
 8qBB-/	.	.	.	.
 *Xtuplet	*	*	*	*
-!	!LO:TUP:b	!	!LO:LB:g=original	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!	!
 24B-\LL	24b-/LL	p	8b-\L	.
 24B-\	24f 24d/	.	.	.
 24B-\	24f 24d/	.	.	.
-!	!	!	!LO:TX:b:i:t=scher                -                    zan                 -                           do	!
+!	!	!	!LO:TX:b:i:t=scher-zan-do:dur=7e:ext=ud:problem:text with extention lines	!
 .	.	.	8qcc/	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 24B-\	24f 24d/	.	24b-\L	.
 24B-\	24f 24d/	.	24a\	.
 24B-\JJ	24fJJ 24d/	.	24b-\JJ	.
-!LO:TX:t=P:problem=brak oznaczenia sekstoli	!LO:TX:t=P:problem=brak oznaczenia trioli	!	!	!
 8qBB-/	.	.	.	.
 *	*Xtuplet	*	*	*
 24B-\LL	24gLL 24e-/	.	16cc\LL	.
 24B-\	24g 24e-/	.	.	.
 .	.	.	16dd\JJ	.
 24B-\	24gJJ 24e-/	.	.	.
-!	!LO:TX:t=P:problem=brak oznaczenia trioli	!	!	!
-!	!	!	!	!LO:TUP:a
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 24B-\	24aLL 24f 24e-/	.	24ee-\LL	.
 24B-\	24a 24f 24e-/	.	24dd\	.
 24B-\JJ	24aJJ 24f 24e-/	.	24cc\JJ	.
 =18	=18	=18	=18	=18
-!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!
 8qBB-/	.	.	.	.
-!	!	!LO:HP:t=cres-cen-do:ext2=cd	!	!
+!	!	!LO:HP:t=cres-cen-do:ext=ud:problem:text with extention lines	!	!
 24B-\LL	24b-LL 24f 24d/	<	16ff\LL	.
 24B-\	24b- 24f 24d/	.	.	.
 .	.	.	16dd\JJ	.
 24B-\	24b- 24f 24d/	.	.	.
-!	!	!	!	!LO:TUP:b
+!	!	!	!LO:TUP:b:problem:klamra łukowa	!
 24B-\	24b- 24f 24d/	.	24b-/LL	.
 24B-\	24b- 24f 24d/	.	24a/	.
 24B-\JJ	24b-JJ 24f 24d/	.	24b-/JJ	.
-!LO:TX:t=P:problem=brak oznaczenia trioli	!LO:TX:t=P:problem=brak oznaczenia trioli	!	!	!
 8qBB-/	.	.	.	.
 24B-\LL	24gLL 24e-/	.	16g/LL	.
 24B-\	24g 24e-/	.	.	.
 .	.	.	16cc/JJ	.
 24B-\JJ	24gJJ 24e-/	.	.	.
-!LO:TX:t=P:problem=brak oznaczenia trioli	!LO:TX:t=P:problem=brak oznaczenia trioli	!	!	!
 8qBB-/	.	.	.	.
-!	!	!	!	!LO:TUP:b
+!	!	!	!LO:TUP:b:problem:klamra łukowa	!
 24B-\LL	24aLL 24f 24e-/	.	24a/LL	.
 24B-\	24a 24f 24e-/	.	24g/	.
 24B-\JJ	24aJJ 24f 24e-/	[	24a/JJ	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =19	=19	=19	=19	=19
 *^	*	*	*	*
-!LO:TX:t=P:problem=brak oznaczenia trioli w taktach 19-21	!	!LO:TX:t=P:problem=brak oznaczenia trioli i sekstoli w taktach 19-24	!	!	!
-!	!	!LO:LB:g=original	!	!	!
 8BB-/	24BB-\LL	48b-^>/LLL	.	8b-\L	.
 .	.	48d/	.	.	.
 .	24B-\	48f/	.	.	.
@@ -290,7 +284,7 @@
 .	.	48d/JJJ	.	.	.
 .	.	.	.	8qcc/	.
 *rep	*rep	*rep	*	*	*
-!	!	!	!	!LO:TUP:a	!
+!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8BB-/	24BB-\LL	48b-^>/LLL	.	24b-\L	.
 .	.	48d/	.	.	.
 .	24B-\	48f/	.	24a\	.
@@ -305,7 +299,7 @@
 .	24B-\JJ	48g-/	.	.	.
 .	.	48e-/JJJ	.	.	.
 *rep	*rep	*rep	*	*	*
-!	!	!	!	!LO:TUP:a	!
+!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8BB-/	24BB-\LL	48cc^>/LLL	.	24ff^\LL	.
 .	.	48e-/	.	.	.
 .	24B-\	48g-/	.	24ee-\	.
@@ -321,7 +315,7 @@
 .	24B-\JJ	48f/	.	.	.
 .	.	48d/JJJ	.	.	.
 *rep	*rep	*	*	*	*
-!	!	!	!	!LO:TUP:b	!
+!	!	!	!	!LO:TUP:b:problem:klamra łukowa	!
 8BB-/	24BB-\LL	48b-^>/LLL	.	24b-^>/LL	.
 .	.	48d/	.	.	.
 .	24B-\	48f/	.	24a/	.
@@ -338,7 +332,7 @@
 .	.	48e-/JJJ	.	.	.
 *Xrep	*Xrep	*	*	*	*
 *rep	*rep	*	*	*	*
-!	!	!	!	!LO:TUP:b	!
+!	!	!	!	!LO:TUP:b:problem:klamra łukowa	!
 8BB-/	24BB-\LL	48a^>/LLL	.	24a/LL	.
 .	.	48e-/	.	.	.
 .	24B-\	48f/	.	24g/	.
@@ -346,10 +340,11 @@
 .	24B-\JJ	48f/	.	24a/JJ	.
 .	.	48e-/JJJ	.	.	.
 *Xrep	*Xrep	*	*	*	*
-=21	=21	=21	=21	=21	=21
-!	!	!	!	!LO:TX:b:i:t=più	!
 !	!	!	!	!LO:LB:g=original	!
-8BB-/	24BB-\LL	48b-/LLL	.	8b-\	.
+=21	=21	=21	=21	=21	=21
+!	!	!	!	!	!LO:TX:t=P:problem:dynamika rozbita na kilka taktów
+!	!	!	!	!	!LO:DY:t=più f
+8BB-/	24BB-\LL	48b-/LLL	.	8b-\	f
 .	.	48d/	.	.	.
 .	24B-\	48f/	.	.	.
 .	.	48d/	.	.	.
@@ -366,25 +361,25 @@
 8B-L 8BB-\	4ryy	24r	.	[8cc\L	.
 .	.	24ccLL 24en 24c/	.	.	.
 .	.	24ccJJ 24e 24c/	.	.	.
-!	!	!	!	!LO:TUP:a	!
-8B-J 8BB-\	.	24r	.	24cc\L]	f
+!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!
+8B-J 8BB-\	.	24r	.	24cc\L]	.
 .	.	24ccLL 24e 24c/	.	24dd-X\	.
-!	!	!	!	!LO:TX:b:i:t=ed	!
+!	!	!	!	!LO:TX:b:i:t=ed agi-ta-to:dur=8s:ext=ud:problem:text with extention lines	!
 .	.	24ccJJ 24e 24c/	.	24cc\JJ	.
 *v	*v	*	*	*	*
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =22	=22	=22	=22	=22
-!	!LO:LB:g=original	!	!LO:TX:b:i:t=agi-        -        ta     -      to	!
 (8A-XL 8AA-X'/	24r	.	8ff\L	.
 .	24ccLL 24f 24c/	.	.	.
 .	24ccJJ 24f 24c/	.	.	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8FJ 8FF'/)	24r	.	24ff\L	.
 .	24a-XLL 24f 24c/	.	24een\	.
 .	24a-JJ 24f 24c/	.	24ff\JJ	.
 (8EnL 8EEn'/	24r	.	8gg\L	.
 .	24b-LL 24g 24c/	.	.	.
 .	24b-JJ 24g 24c/	.	.	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8CJ 8CC'/)	24r	.	24bb-\L	.
 .	24b-LL 24en 24c/	.	24aa-X\	.
 .	24b-JJ 24e 24c/	.	24gg\JJ	.
@@ -403,24 +398,23 @@
 .	24gLL 24e- 24c/	.	.	.
 .	24gJJ 24e- 24c/	.	.	.
 .	.	.	8qdd-/	.
-!	!	!	!LO:TUP:a	!
-8GJ 8GG/	24r	f	24cc\L	.
-.	24gLL 24e- 24c/	.	24bn\	.
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
+8GJ 8GG/	24r	.	24cc\L	.
+.	24gLL 24e- 24c/	f	24bn\	.
 .	24gJJ 24e- 24c/	.	24cc\JJ	.
 =24	=24	=24	=24	=24
 8GL 8GG/	24r	.	[8gg^\L	.
 .	24ccLL 24g 24e-/	.	.	.
 .	24ccJJ 24g 24e-/	.	.	.
 *	*	*	*Xtuplet	*
-!	!	!	!LO:TX:t=P:problem=brak oznaczenia trioli	!
 8GJ 8GG/	24r	.	24gg\L]	.
 .	24ccLL 24g 24e-/	.	24ff\	.
 .	24ccJJ 24g 24e-/	.	24ee-\JJ	.
-!	!	!	!LO:TX:b:i:t=rall	!
-!	!	!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!
 .	.	.	8qee-/	.
+!!LO:TX:a:i:t= :mod=rall.
+!	!	!	!LO:TX:b:i:t=rall:mod=	!
 8GL 8GG/	24r	.	(24dd'\LL	.
-!	!LO:TX:b:i:t=rallen	!	!	!
+!	!LO:TX:b:i:t=rallen:mod=	!	!	!
 .	24bnLL 24f 24d/	.	24cc'\	.
 .	24bJJ 24f 24d/	.	24dd'\	.
 8GJ 8GG/	24r	.	24ff'\	.
@@ -429,16 +423,20 @@
 =25	=25	=25	=25	=25
 *	*^	*	*	*
 4C;/	4cc 4e- 4c;/	4ryy	.	4cc;\	.
-4D 4DD/	8.b-/L	4f [4B-\	.	8.b-^>/L	.
-.	16a/Jk	.	>]	16a-X/Jk	.
+4D 4DD/	8.b-/L	4f [4B-X\	.	8.b-^>/L	.
+!	!LO:SIC:v:s=16a-^</Jk	!	!	!	!
+.	16a^</Jk	.	.	16a-X/Jk	.
 *	*v	*v	*	*	*
+!LO:PB:g=original	!LO:PB:g=original	!	!LO:LB:g=original	!
 =26||	=26||	=26||	=26||	=26||
 *M6/8	*M6/8	*	*M6/8	*
 *	*^	*	*	*
-!	!LO:TX:a:t=Più Presto.	!	!	!LO:TX:a:t=più Presto.	!
-!	!	!LO:PB:g=original	!	!LO:LB:g=original	!
+!!LO:TX:a:B:t= :mod=Più presto
+!	!LO:TX:a:i:t=più Presto.:mod=	!	!	!LO:TX:a:i:t=più Presto.:mod=	!
 4E- 4EE-/	4g 4e-/	4B-\]	f	4g/	.
+!	!LO:SIC:s=(16G</LL	!	!	!	!
 8r	16G</LL	2ryy	.	8r	.
+!	!LO:SIC:s=16B-</JJ	!	!	!	!
 .	(16B-</JJ	.	.	.	.
 4r	16e-\LL	.	.	4r	.
 .	16g\	.	.	.	.
@@ -449,7 +447,7 @@
 *	*v	*v	*	*	*
 *clefG2	*	*	*	*
 =27	=27	=27	=27	=27
-!	!	!	!LO:TX:a:t=1	!
+!	!	!	!LO:TX:a:t=1:mod=	!
 4g 4e-/	16eee-^\LL	.	2.r	.
 .	16ddd\	.	.	.
 .	16ccc\	.	.	.
@@ -484,6 +482,7 @@
 8GG'/J)	(16G/	.	8r	.
 .	16B-/JJ)	.	.	.
 4E- 4EE-/	4ryy	.	4r	.
+!	!LO:MO:mod=8r	!	!	!
 8r	8rBB	.	8r	.
 =30	=30	=30	=30	=30
 4BB- 4BBB-/	4bb- 4ff 4dd 4b-\	f	4bb-: 4dd: 4b-:\	.
@@ -496,9 +495,10 @@
 8r	16ddd\	.	8r	.
 .	16fff\JJ	.	.	.
 *clefG2	*	*	*	*
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =31	=31	=31	=31	=31
 *	*8va	*	*	*
-!	!LO:LB:g=original	!	!LO:TX:a:t=1	!
+!	!LO:TX:t=P:problem:8va	!	!LO:TX:a:t=1:mod=	!
 4dd 4b-\	16bbb-\LL	.	2.r	.
 .	16aaa\	.	.	.
 .	16ggg\	.	.	.
@@ -526,9 +526,9 @@
 .	.	.	16cc\	.
 8c 8F\	8r	.	16b-T\	.
 .	.	.	16a\JJ	.
-=33	=33	=33	=33	=33
-!	!LO:TX:a:t=loco	!	!	!
 !	!	!	!LO:LB:g=original	!
+=33	=33	=33	=33	=33
+!	!LO:TX:a:i:t=loco	!	!	!
 8B-L 8D\	(16b-/LL	.	4b-\	.
 .	16dd/)	.	.	.
 8F\	(16f/	.	.	.
@@ -540,31 +540,30 @@
 .	16f/	.	.	.
 .	16b-/	.	.	.
 8r	16dd/	.	8r	.
-.	16ff#X/JJ	[	.	.
+.	16ff#X/JJ	[[	.	.
 =34	=34	=34	=34	=34
 4G 4D 4BBn 4GG\	4gg 4dd 4bn 4g\	f	4gg 4bn 4g\	.
 16GG\LL	16G</LL	.	8r	.
 16BB\JJ	16Bn</JJ	.	.	.
 16D\LL	16d/LL	.	4r	.
 16G\	16g/	.	.	.
-16Bn\	16b/	.	.	.
+16Bny\	16b/	.	.	.
 16d\	16dd/	.	.	.
 16g\	16gg/	.	8r	.
 16f#X\JJ	16ff#X/JJ	.	.	.
 =35	=35	=35	=35	=35
-!	!	!	!LO:TX:a:t=1	!
+!	!	!	!LO:TX:a:t=1:mod=	!
 16g\LL	16gg\LL	.	2.r	.
 16fn\	16ffnX\	.	.	.
 16g\	16gg\	.	.	.
 16e-\	16ee-\	.	.	.
 16g\	16gg\	.	.	.
-!LO:TX:t=P:problem=łamanie linii w takcie	!LO:TX:t=P:problem=łamanie linii w takcie	!	!	!
-!LO:LB:g=original	!LO:LB:g=original	!	!	!
 16d\JJ	16dd\JJ	.	.	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 16g\LL	16gg\LL	.	.	.
 16c\	16cc\	.	.	.
 16g\	16gg\	.	.	.
-[16Bn\J	16bn\	.	.	.
+[<16Bn\J	16bn\	.	.	.
 8gJ 8B\]	16gg 16dd^\	.	.	.
 .	16ff\JJ	.	.	.
 =36	=36	=36	=36	=36
@@ -579,7 +578,7 @@
 16cc/	16ccc\	.	8r	.
 16bn/JJ	16bbn\JJ	[	.	.
 =37	=37	=37	=37	=37
-!	!	!	!LO:TX:a:t=1	!
+!	!	!	!LO:TX:a:t=1:mod=	!
 16cc\LL	16ccc\LL	>	2.r	.
 16b-X\	16bb-X\	.	.	.
 16cc\	16ccc\	.	.	.
@@ -591,7 +590,7 @@
 16cc/	16ccc\	.	.	.
 16d/JJ	[16dd\	.	.	.
 *clefF4	*	*	*	*
-8f#X 8F#X\	16ddd 16aa- 16dd\]	.	.	.
+8f#X 8F#X\	16ddd 16aa- 16dd\]	sf	.	.
 .	16ccc\JJ	.	.	.
 =38	=38	=38	=38	=38
 4g 4G\	4bb- 4gg 4dd\	.	4r	.
@@ -601,13 +600,12 @@
 16G\	16g/	.	.	.
 16B-\	16b-/	.	.	.
 16d\	16dd/	.	.	.
-!	!	!	!LO:TX:t=P:problem=belkowanie przez kreskę	!
-16g\	16gg/	.	(8Bn^>/	.
+16g\	16gg/	.	(8Bn^>/L	.
 16f\JJ	16ff/JJ	.	.	.
-=39	=39	=39	=39	=39
 !	!LO:LB:g=original	!	!	!
+=39	=39	=39	=39	=39
 !	!LO:TX:t=P:problem=mixed beam	!	!	!
-8e-\	8ee-\L	.	8c/)	.
+8e-\	8ee-\L	.	8c/)J	.
 *	*clefF4	*	*	*
 8r	8CC/J	f	8r	.
 16C\LL	8r	.	16c/LL	.
@@ -633,8 +631,8 @@
 16c\	16cc/	.	.	.
 16f\	16ff/	.	(8An/	.
 16e-\JJ	16ee-/JJ	.	.	.
-=41	=41	=41	=41	=41
 !	!	!	!LO:LB:g=original	!
+=41	=41	=41	=41	=41
 8d\	8dd'\L	.	8B-/)	.
 *	*clefF4	*	*	*
 8r	8BB-\J	sf	8r	.
@@ -645,14 +643,14 @@
 16B-/	.	.	16b-\	.
 16d/	.	.	16dd\	.
 16f/	.	.	16ff\	.
+!	!LO:MO:mod=!null:null	!	!	!
 !	!LO:CL:ed	!	!	!
 *	*clefG2	*	*	*
-!	!LO:TX:t=P:problem=belkowanie przez kreskę	!	!	!
-16b-/	8ddd 8dd^\	.	16bb-\	.
+16b-/	8ddd 8dd^\L	.	16bb-\	.
 16a-X/JJ	.	.	16aa-X\JJ	.
 =42	=42	=42	=42	=42
 !	!	!	!LO:TX:t=P:problem=mixed beam	!
-8g/	8eee- 8ee-\	.	8gg\L	.
+8g/	8eee- 8ee-\J	.	8gg\L	.
 8r	8r	.	8e-/J	.
 *clefF4	*	*	*	*
 16GG\LL	16G</L	.	8r	.
@@ -663,13 +661,13 @@
 16e-\	16ee-/	.	.	.
 16g>\	16gg/	.	8r	.
 16an>\JJ	16aan/JJ	.	.	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =43	=43	=43	=43	=43
-!	!LO:LB:g=original	!	!	!
 8b->\	8bb-/	.	4r	.
 8r	8r	.	.	.
 16GG\LL	(16G<'</LL	.	(16G'/LL	.
 16C\JJ	16c<'</JJ	.	16c'/JJ	.
-!	!LO:TX:b:i:t=slentando	!	!	!
+!	!LO:TX:b:i:t=slentando.:mod=slentando	!	!	!
 16E-\LL	16e-'/LL	.	16e-'/LL	.
 16F#X\	16f#X'/	.	16f#X'/	.
 16A\	16a'/	.	16a'/	.
@@ -709,16 +707,16 @@
 16F#\	16d/	.	.	.
 16GG/	16c 16A/	.	8a\J	.
 16F#\JJ	16d/JJ	[	.	.
+!	!	!	!LO:LB:g=original	!
 =46	=46	=46	=46	=46
 !LO:TX:t=P:problem=mixed beam	!	!	!	!
-!	!	!	!LO:LB:g=original	!
 16GG/LL	16dLL 16Bn/	p	4g/	.
 16G\	16g/	.	.	.
 16GG/	16d 16B/	.	.	.
 16G\	16g/	.	.	.
 16GG/	16d 16B/	.	8gg\	.
 16G\JJ	16g/JJ	.	.	.
-!LO:TX:t=P:problem=mixed beam	!	!	!LO:TX:b:i:t=sti        -                rac                      -            cia -                   to.	!
+!LO:TX:t=P:problem=mixed beam	!	!	!LO:TX:b:i:t=sti-rac-cia-to.:dur=12e:ext=ud:problem:text with extention lines	!
 16GG/LL	16f#XLL 16e- 16c/	sf	(8ff#X'\L	.
 16G\	16a/	.	.	.
 16GG/	16f# 16e- 16c/	.	8gg'\	.
@@ -757,9 +755,9 @@
 16G\	16f#X/	.	.	.
 16GG/	16d 16c/	.	8bn\J)	.
 16G\JJ	16f#X/JJ	.	.	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =49	=49	=49	=49	=49
 !LO:TX:t=P:problem=mixed beam	!	!	!	!
-!	!LO:LB:g=original	!	!	!
 16GG/LL	16dLL 16Bn/	.	(8g\L	.
 16G\	16g/	.	.	.
 16GG/	16d 16B/	.	8een\	.
@@ -781,41 +779,39 @@
 8r	8r	.	16bn/	.
 .	.	.	16a/JJ)	.
 4r	8r	.	4g/	.
-.	16bbnLL 16gg\	.	.	.
+.	(16bbnLL 16gg\	.	.	.
 .	16ccc 16aa\	.	.	.
 8r	16ddd 16bb\	.	8r	.
-.	16cccJJ 16aa\	.	.	.
+.	16cccJJ 16aa\)	.	.	.
 =51	=51	=51	=51	=51
-!	!LO:TX:b:i:t=poco	!	!	!
+!	!LO:TX:b:i:t=poco a poco ri-tar-dan-do.:dur=18e:ext=ud:problem:text with extention lines	!	!	!
 4G 4GG\	4bbn 4gg\	.	8r	.
 .	.	.	(16bn\LL	.
 .	.	.	16cc\	.
 8r	8r	.	16dd\	.
-.	.	.	16cc\JJ	.
-4r	8r	.	4b\)	.
+.	.	.	16cc\JJ)	.
+4r	8r	.	4b\	.
 *	*8va	*	*	*
+!	!LO:TX:a:t=P:problem:8va	!	!	!
 .	16dddLL 16bbn\	.	.	.
 .	16eee- 16ccc\	.	.	.
-!	!LO:TX:b:i:t=a	!	!	!
 8r	16fff 16ddd\	.	8r	.
 .	16eee-JJ 16ccc\	.	.	.
-=52	=52	=52	=52	=52
 !	!	!	!LO:LB:g=original	!
+=52	=52	=52	=52	=52
 4G 4GG\	4ddd 4bbn\	.	8r	.
 .	.	.	(16dd\LL	.
 .	.	.	16een\	.
 8r	8r	.	16ff\	.
 .	.	.	16ee\JJ)	.
 4r	8r	.	4dd\	.
-!	!LO:TX:b:i:t=poco	!	!	!
 .	16fffLL 16ddd\	.	.	.
 .	16eeen 16ccc\	.	.	.
 8r	16ddd 16bb\	.	8r	.
-!	!LO:TX:b:i:t=ri      -       tar       -  dan  -     do.	!	!	!
 .	16cccJJ 16aa\	.	.	.
 *	*X8va	*	*	*
 =53	=53	=53	=53	=53
-!	!LO:TX:a:t=loco.	!	!LO:TX:a:t=1	!
+!	!LO:TX:a:i:t=loco.:mod=loco	!	!LO:TX:a:t=1:mod=	!
 2.r	16bbnLL 16gg\	.	2.r	.
 .	16aa 16ff\	.	.	.
 .	16gg 16een\	.	.	.
@@ -828,10 +824,11 @@
 .	16g 16en/	.	.	.
 .	16a 16f/	.	.	.
 .	16bJJ 16d/	.	.	.
+!LO:PB:g=original	!LO:PB:g=original	!	!	!
 =54||	=54||	=54||	=54||	=54||
 *M2/4	*M2/4	*	*M2/4	*
-!LO:N:vis=8	!LO:TX:a:t=Tempo primo.	!	!LO:TX:a:t=tempo 1mo.	!
-!	!LO:PB:g=original	!	!	!
+!!LO:TX:a:B:t= :mod=Tempo I
+!LO:N:vis=8	!LO:TX:a:i:t=Tempo primo.:mod=	!	!LO:TX:a:i:t=tempo 1mo.:mod=	!
 4c 4C\	8r	.	16.en/LL	.
 .	.	.	32g/K	.
 .	8cc 8g 8en/	.	16.cc/	.
@@ -857,11 +854,13 @@
 .	.	.	16qqccc/LL	.
 .	.	.	16qqddd/JJ	.
 .	8een 8g 8e/	.	8eeen\L	.
-8F#X 8FF#X/	8ddJ 8a 8d/	rfz	16ddd\L	.
+8F#X 8FF#X/	8ddJ 8a 8d/	rf	16ddd\L	.
 .	.	.	16ccc\JJ	.
+!	!	!	!LO:LB:g=original	!
 =57	=57	=57	=57	=57
 8qGG/	.	.	.	.
-!	!	!LO:HP:t=cres	!LO:LB:g=original	!
+!	!	!LO:MO:mod=!null:null	!	!
+!	!	!LO:HP:t=cres	!	!
 8G\L	8bnL 8g 8d/	<	16.bbn\LL	.
 .	.	.	32ddd\K	.
 8D\J	8aJ 8f#X 8c/	.	16.ccc\	.
@@ -871,7 +870,6 @@
 .	[16fn 16d 16A-X/	.	8r	.
 .	16f]JJ 16Bn 16G/)	]	.	.
 =58	=58	=58	=58	=58
-!	!	!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!
 8qCC/	.	.	.	.
 8C/L	8enL 8c 8G'/	.	24d#X'/LL	.
 .	.	.	(24en/	.
@@ -883,8 +881,8 @@
 8C/J	8eJ 8c 8G'/	.	24ee\L]	.
 .	.	.	24ddn\	.
 .	.	.	24cc\JJ	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =59	=59	=59	=59	=59
-!	!LO:LB:g=original	!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!
 8D\L	8fL 8Bn 8G'/	.	24bn'\LL	.
 .	.	.	(24cc#X\	.
 .	.	.	24dd\)	.
@@ -897,35 +895,37 @@
 .	.	.	24ff\JJ	.
 =60	=60	=60	=60	=60
 *	*	*	*tuplet	*
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8C/L	8enL 8c 8G/	.	24een\LL	.
 .	.	.	24gg\	.
 .	.	.	24cc\	.
 8C/J	8eJ 8c 8G/	.	24ee\	.
 .	.	.	24g\	.
 .	.	.	24cc\JJ	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8GG/L	8fL 8Bn 8G/	.	24bn\LL	.
 .	.	.	24dd\	.
 .	.	.	24ff\	.
 8GG/J	8fJ 8B 8G/	.	24aa\	.
 .	.	.	24gg\	.
 .	.	.	24b\JJ	.
-=61	=61	=61	=61	=61
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!
 !	!	!	!LO:LB:g=original	!
+=61	=61	=61	=61	=61
 8C/L	24c/LL	.	8cc'\L	.
 .	24G/	.	.	.
 .	24en/	.	.	.
 8C/J	24c/	.	8een'\J	.
 .	24G/	.	.	.
-.	24e-X/JJ	.	.	.
+.	24e/JJ	.	.	.
 8C/	8c/	.	8cc\	.
 8r	8r	.	8r	.
 =62	=62	=62	=62	=62
-!	!LO:TX:b:i:t=ped e espres	!	!	!
+!LO:MO:null:mod=*ped	!LO:MO:mod=*null:null	!	!	!
+*	*ped	*	*	*
+!	!LO:TX:b:i:t= :mod=espress.	!	!	!
 8D\	8dd\L	.	[2d/	.
 *clefG2	*	*	*	*
+!	!LO:TX:b:i:t=e espres:mod=	!	!	!
 8bnL 8g 8d/	16gg\L	.	.	.
 .	16bbn\JJ	.	.	.
 .	8qbb	.	.	.
@@ -934,23 +934,23 @@
 8ccJ 8a 8d/	16.aa\	.	.	.
 .	32ff#X\JJk	.	.	.
 =63	=63	=63	=63	=63
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!
+!	!LO:TUP:a:problem:klamra łukowa	!	!	!
 8bnL 8g 8d/	24gg\LL	.	2d/]	.
 .	24ff#X\	.	.	.
 .	24gg\	.	.	.
-!LO:TX:t=P:problem=łamanie linii w takcie	!	!	!	!
 8bJ 8g 8d/	24aa^\	.	.	.
 .	24gg\	.	.	.
-!	!LO:TX:t=P:problem=łamanie linii w takcie	!	!	!
 .	24een\JJ	.	.	.
-!	!LO:LB:g=original	!	!	!
-!	!LO:TX:t=[coda]	!	!	!
+!LO:MO:null:mod=*Xped	!LO:MO:mod=*null:null	!	!	!
+*	*Xped	*	*	*
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 8aL 8f#X 8d/	(8.een\L	.	.	.
 8aJ 8f# 8d/	.	.	.	.
 .	16ee-X^\Jk)	.	.	.
 *clefF4	*	*	*	*
 =64	=64	=64	=64	=64
-!	!LO:TX:b:i:t=ped	!	!	!
+!LO:MO:null:mod=*ped	!LO:MO:mod=*null:null	!	!	!
+*	*ped	*	*	*
 8G\	8dd\L	.	2d/	.
 *clefG2	*	*	*	*
 8bnL 8g 8d/	16gg\L	.	.	.
@@ -959,11 +959,12 @@
 .	32bbn\L	.	.	.
 .	32ccc\J	.	.	.
 8ccJ 8f# 8d/	16bbn\	.	.	.
+!LO:MO:null:mod=*Xped	!LO:MO:mod=*null:null	!	!	!
+*	*Xped	*	*	*
 .	16aa\JJ	.	.	.
-!	!LO:TX:t=[coda]	!	!	!
 =65	=65	=65	=65	=65
 *	*^	*	*	*
-!	!	!LO:TX:b:i:t=ben mar-cato.	!	!	!
+!	!	!LO:TX:b:i:t=ben mar-cato.:dur=3e:ext=ud:problem:text with extention lines	!	!	!
 8bn 8g/	24gg/LL	8gg\L	.	8g/	.
 .	24aa/	.	.	.	.
 .	24gg/JJ	.	.	.	.
@@ -985,35 +986,41 @@
 .	16ff#X/	.	.	.	.
 8gJ 8c#X/	16gg/	.	.	8c#X/J	.
 .	16een/JJ	.	.	.	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!	!
 =67	=67	=67	=67	=67	=67
 *	*tuplet	*	*	*	*
-!	!LO:TUP:b	!LO:LB:g=original	!	!	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!	!	!
 8fL 8d/	24ff/LL	4a\	.	8d/L	.
 .	24een/	.	.	.	.
 .	24ff/	.	.	.	.
 8f 8d/	24gg/	.	.	8d/J	.
 .	24ff/	.	.	.	.
 .	24dd/JJ	.	.	.	.
-8en 8A/	8.dd/L	4g\	rfz	8A/L	.
+8en 8A/	8.dd/L	4g\	rf	8A/L	.
 8eJ 8A/	.	.	.	8A/J	.
 .	16cc#X/Jk	.	.	.	.
 =68	=68	=68	=68	=68	=68
 8dL 8B-/	16dd/LL	8f\L	.	8B-/L	.
 .	16een/	.	.	.	.
+!	!LO:MO:mod=*null:null	!	!	!	!
+*	*Xbrackettup	*	*	*	*
+!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!
 8dJ 8Bn^>/	24gg/	8a-X\J	.	8Bn/J	.
 .	24ff/	.	.	.	.
 .	24dd/JJ	.	.	.	.
-!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
-!	!LO:TX:t=P:problem=dwie triole zamiast sekstoli	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!LO:TUP:a:problem:klamra łukowa	!	!	!	!
+!	!LO:TUP:a:r=8:num=3	!	!	!	!
 8c^>/L	24dd^/LL	8f\L	.	8c/L	.
 .	24cc/	.	.	.	.
 .	24an/	.	.	.	.
 *clefF4	*	*	*	*	*
+!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!
 8C^>\J	24cc/	8en\J	.	8en/J	.
 .	24b-X/	.	.	.	.
 .	24g/JJ	.	.	.	.
 =69	=69	=69	=69	=69	=69
-!	!	!LO:TX:a:i:t=ten	!	!	!
+!	!	!LO:TX:a:i:t=ten:mod=ten.	!	!	!
+!	!	!LO:MO:mod=8gyyL 8B-\	!	!	!
 8F\L	4g/	8gL 8B-\	.	(4en/	.
 !	!	!	!LO:DY:a	!	!
 8C\J	.	16c\L	p	.	.
@@ -1021,9 +1028,10 @@
 4FF/	4f/	4A\	.	8f/)	.
 .	.	.	.	8r	.
 *	*v	*v	*	*	*
+!LO:LB:g=original	!LO:LB:g=original	!	!LO:PB:g=original	!
 =70||	=70||	=70||	=70||	=70||
-!	!LO:TX:a:t=più Vivace	!	!LO:TX:a:t=Più Vivace	!
-!	!LO:LB:g=original	!	!	!LO:PB:g=original
+!!LO:TX:a:B:t= :mod=Più vivace
+!	!LO:TX:a:i:t=più Vivace:mod=	!	!LO:TX:a:i:t=Più Vivace:mod=	!
 32BB-\LLL	32ddLLL 32b-\	f	8.ff\L	.
 32d 32B-\	32ff 32f\	.	.	.
 32BB-\	32dd 32b-\	.	.	.
@@ -1045,7 +1053,7 @@
 !	!	!	!LO:HP:a	!	!
 16BB-/	32ddLLL 32b-\	4ryy	<	16ff'\LL	.
 .	32ff 32f\	.	.	.	.
-!	!	!	!	!LO:TUP:a	!
+!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 16e-LL 16c 16F\	32ee- 32cc\	.	.	48ff\L	.
 .	.	.	.	48gg\	.
 .	32ff 32f\JJJ	.	.	.	.
@@ -1053,7 +1061,7 @@
 *	*rep	*	*	*	*
 16d 16B-\	32dd 32b-\LLL	.	.	16bb-\LL	.
 .	32ff 32f\	.	.	.	.
-!	!	!	!	!LO:TUP:a	!
+!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 16e-JJ 16c 16F\	32ee- 32cc\	.	.	48ff\L	.
 .	.	.	.	48gg\	.
 .	32ffJJJ 32f\	.	[	.	.
@@ -1068,8 +1076,8 @@
 .	32bb- 32gg\	.	.	.	.
 .	32cccJJJ 32een^\)	.	]	.	.
 *	*v	*v	*	*	*
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =72	=72	=72	=72	=72
-!	!LO:LB:g=original	!	!	!
 32ALLL 32F\	32aaLLL 32ff\	.	8.cc\L	.
 32c 32C\	32ccc 32cc\	p	.	.
 32A 32F\	32aa 32ff\	.	.	.
@@ -1079,21 +1087,29 @@
 32B- 32G\	32bb- 32gg\	.	32cc\LL	.
 32cJJJ 32C\	32cccJJJ 32cc\	.	32cc\JJJ	.
 *rep	*rep	*	*tremolo	*
-32ALLL 32F\	32aaLLL 32ff\	.	32cc\LL	.
-32c 32C\	32ccc 32cc\	.	32cc\	.
-32A 32F\	32aa 32ff\	.	32cc\	.
-32cJJJ 32C\	32cccJJJ 32cc\	.	32cc\JJ	.
+32ALLL 32F\	32aaLLL 32ff\	.	64cc\LLLL	.
+.	.	.	64cc	.
+32c 32C\	32ccc 32cc\	.	64cc\	.
+.	.	.	64cc\	.
+32A 32F\	32aa 32ff\	.	64cc\	.
+.	.	.	64cc\	.
+32cJJJ 32C\	32cccJJJ 32cc\	.	64cc\	.
+.	.	.	64cc\JJJJ	.
 *Xrep	*Xrep	*	*	*
 *rep	*rep	*	*	*
-32ALLL 32F\	32aaLLL 32ff\	.	32cc\LL	.
-32c 32C\	32ccc 32cc\	.	32cc\	.
-32B- 32G\	32bb- 32gg\	.	32cc\	.
-32cJJJ 32C\	32cccJJJ 32cc\	.	32cc\JJ	.
+32ALLL 32F\	32aaLLL 32ff\	.	64cc\LLLL	.
+.	.	.	64cc\	.
+32c 32C\	32ccc 32cc\	.	64cc\	.
+.	.	.	64cc\	.
+32B- 32G\	32bb- 32gg\	.	64cc\	.
+.	.	.	64cc\	.
+32cJJJ 32C\	32cccJJJ 32cc\	.	64cc\	.
+.	.	.	64cc\JJJJ	.
 *Xrep	*Xrep	*	*Xtremolo	*
 =73	=73	=73	=73	=73
 16A 16F\	32aaLLL 32ff\	<	16cc'\LL	.
 .	32ccc 32cc\	.	.	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 16B-LL 16G 16C\	32bb- 32gg\	.	48cc\L	.
 .	.	.	48dd\	.
 .	32cccJJJ 32cc\	.	.	.
@@ -1101,7 +1117,7 @@
 *	*rep	*	*	*
 16A 16F\	32aaLLL 32ff\	.	16ff\LL	.
 .	32ccc 32cc\	.	.	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 16B-JJ 16C\	32bb- 32gg\	.	48cc\L	.
 .	.	.	48dd\	.
 .	32cccJJJ 32cc\	[	.	.
@@ -1115,11 +1131,11 @@
 .	32gg 32b-^\	.	.	.
 .	32ee- 32cc\	.	.	.
 .	32ffJJJ 32a^\)	]	.	.
-=74	=74	=74	=74	=74
 !	!	!	!LO:LB:g=original	!
+=74	=74	=74	=74	=74
 16BB-/	32ddLLL 32b-\	.	[8ff\L	.
 .	32ff 32f\	.	.	.
-8d 8B- 8F\	32ee- 32cc\	.	.	.
+8d 8B- 8F\	32dd 32b-\	.	.	.
 .	32ffJJJ 32f\	.	.	.
 .	32ddLLL 32b-\	.	32ff\LL]	.
 .	32ff 32f\	.	32ff\	.
@@ -1141,8 +1157,8 @@
 16e-JJ 16c 16F^\	32ee- 32cc\	.	16ff\JJ	.
 .	32ffJJJ 32f\	.	.	.
 *	*Xrep	*	*	*
+!LO:PB:g=original	!LO:PB:g=original	!	!	!
 =75	=75	=75	=75	=75
-!	!LO:PB:g=original	!	!	!
 16d 16B-\	16dd 16b-\	.	[8dd\L	.
 8B- 8G 8D^\	32b-LLL 32g/	.	.	.
 .	32ddJJJ 32d/	.	.	.
@@ -1161,15 +1177,18 @@
 .	32ddJJJ 32d/	.	32dd\JJJ	.
 *	*Xrep	*	*	*
 =76	=76	=76	=76	=76
-16B- 16G\	16b- 16g/	f	[8b-\L	.
-8A-X 8F 8BB-\	32a-XLLL 32f/	.	.	.
-.	32b- 32B-/	.	.	.
-.	32a- 32f/	.	32b-\LL]	.
+!	!	!	!LO:MO:mod=!null:null	!
+!	!	!	!LO:N:vis=8	!
+16B- 16G\	16b- 16g/	f	[16b-\L	.
+8A-X 8F 8BB-\	32a-XLLL 32f/	.	32b-\LL]	.
+.	32b- 32B-/	.	32b-\	.
+.	32a- 32f/	.	32b-\	.
 .	32b- 32B-/	.	32b-\	.
 16A- 16F 16BB-\	32a- 32f/	.	32b-\	.
-!	!	!	!LO:TX:t=P:problem=w druku dwie nadliczbowe 32b-	!
 .	32b-JJJ 32B-/	.	32b-\JJJ	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:MO:mod=*null:null	!
+*	*	*	*Xbrackettup	*
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8E-\L	16gLL 16e-/	.	24b-\	.
 .	.	.	24bb-\LL	.
 .	16g 16e-/	.	.	.
@@ -1178,9 +1197,9 @@
 .	.	.	24bb-\	.
 .	16ccJJ 16g 16e-/	.	.	.
 .	.	.	24gg\JJ	.
-=77	=77	=77	=77	=77
-!	!LO:TX:b:i:t=per   -   den  -   do   -   si.	!	!LO:TX:b:i:t=per   -   den   -  do      -   si	!
 !	!	!	!LO:LB:g=original	!
+=77	=77	=77	=77	=77
+!	!LO:TX:b:i:t=per-den-do-si:dur=4e:ext=ud:problem:text with extention lines	!	!LO:TX:b:i:t=per-den-do-si:dur=4e:ext=ud:problem:text with extention lines	!
 8F\L	16r	.	(32gg\LLL	.
 .	.	.	32ff\)	.
 .	16b- 16f 16d/	.	32r	.
@@ -1196,9 +1215,11 @@
 8En^\J	8g] 8d-X 8B-/	.	16dd-X^\LL	.
 .	.	.	32cc\L	.
 .	.	.	32b-\JJJ	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =78	=78	=78	=78	=78
-!	!LO:TX:a:t=a tempo.	!	!LO:TX:b:i:t=a        tempo scher_zando.	!
-!	!LO:LB:g=original	!	!	!
+!!LO:TX:a:i:t= :mod=a tempo
+!	!LO:TX:a:i:t=a tempo.:mod=	!	!LO:TX:b:i:t=a tempo scher-zando.:problem:tekst rozpisany na przestrzeni taktu:mod=	!
+!	!	!	!LO:TX:a:i:t= :mod=scherzando	!
 32F\LLL	8f 8c 8A/	.	32a'\LLL	.
 32A\	.	.	32cc'\J	.
 32c\	.	.	16ff'\JJ	.
@@ -1216,14 +1237,14 @@
 32c\	.	.	32b-\	.
 32C\JJJ	.	.	32g\JJJ)	.
 =79	=79	=79	=79	=79
-!	!LO:TUP:b	!	!	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!	!
 32F\LLL	48f/LLL	.	8f/	.
 .	48a/	.	.	.
 32A\	.	.	.	.
 .	48cc/J	.	.	.
 32c\	16ff^/JJ	.	.	.
 32C\JJJ	.	.	.	.
-!	!LO:TUP:a	!	!	!
+!	!LO:TUP:a:problem:klamra łukowa	!	!	!
 32G\LLL	48een\LLL	.	8r	.
 .	48gg\	.	.	.
 32B-\	.	.	.	.
@@ -1231,8 +1252,8 @@
 32c\	48ccc\	.	.	.
 .	48eeen\	.	.	.
 32C\JJJ	.	.	.	.
-.	48fff\JJJ	.	.	.
-!	!LO:TUP:a	!	!	!
+.	48ddd\JJJ	.	.	.
+!	!LO:TUP:a:problem:klamra łukowa	!	!	!
 32F\LLL	48ccc\LLL	.	4r	.
 .	48gg#X\	.	.	.
 32A\	.	.	.	.
@@ -1241,7 +1262,7 @@
 .	48ff\	.	.	.
 32C\JJJ	.	.	.	.
 .	48bn\JJJ	.	.	.
-!	!LO:TUP:b	!	!	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!	!
 32En\LLL	48dd/LLL	.	.	.
 .	48cc/	.	.	.
 32G\	.	.	.	.
@@ -1250,47 +1271,51 @@
 .	48d/	.	.	.
 32C\JJJ	.	.	.	.
 .	48en/JJJ	.	.	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =80	=80	=80	=80	=80
 *^	*	*	*	*
-*	*	*	*	*Xtuplet	*
-!	!	!LO:LB:g=original	!	!	!
+*	*	*	*	*tuplet	*
+!	!	!	!	!LO:TUP:b:problem:klamra łukowa	!
 8F/	32F\LLL	16f/	.	48f/LLL	.
 .	.	.	.	48a/	.
 .	32A\	.	.	.	.
 .	.	.	.	48cc/J	.
 .	32c\	16r	.	16ff/JJ	.
 .	32A\JJJ	.	.	.	.
-!	!	!LO:TUP:a	!	!	!
+!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!
 8E-^/	32E-\LLL	48ff\LLL	.	8r	.
 .	.	48aa\	.	.	.
 .	32A\	.	.	.	.
 .	.	48ccc\J	.	.	.
 .	32c\	16fff\JJ	.	.	.
 .	32A\JJJ	.	.	.	.
-!	!	!	!	!LO:TX:b:i:t=man    -          can     -  do	!
+!!LO:TX:a:i:t= :mod=mancando
+!	!	!	!	!LO:TX:b:i:t=man-can-do:dur=6e:ext=ud:problem:text with extention lines:mod=	!
+!	!	!	!	!LO:TUP:b:problem:klamra łukowa	!
 8D/	32D\LLL	8r	.	48f/LLL	.
 .	.	.	.	48b-/	.
 .	32F\	.	.	.	.
 .	.	.	.	48dd/J	.
 .	32B-\	.	.	16ff/JJ	.
 .	32F\JJJ	.	.	.	.
-!	!	!LO:TUP:a	!	!	!
+!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!
 8C^/	32C\LLL	48ff\LLL	.	8r	.
-!	!	!LO:TX:b:i:t=manc	!	!	!
+!	!	!LO:TX:b:i:t=manc:mod=	!	!	!
 .	.	48aa\	.	.	.
 .	32E-\	.	.	.	.
 .	.	48ccc\J	.	.	.
 .	32A\	16fff\JJ	.	.	.
 .	32E-\JJJ	.	.	.	.
-=81	=81	=81	=81	=81	=81
 !	!	!	!	!LO:LB:g=original	!
+=81	=81	=81	=81	=81	=81
+*	*	*	*	*Xtuplet	*
 8BB-/	32BB-\LLL	8r	.	48d/LLL	.
 .	.	.	.	48b-/	.
 .	32D\	.	.	.	.
 .	.	.	.	48dd/J	.
 .	32B-\	.	.	16ff/JJ	.
 .	32D\JJJ	.	.	.	.
-!	!	!LO:TUP:a	!	!	!
+!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!
 8EE-\	32EE-/LLL	48ee-\LLL	.	8r	.
 .	.	48bb-\	.	.	.
 .	32G/	.	.	.	.
@@ -1302,8 +1327,8 @@
 .	32D/	.	.	.	.
 .	.	.	.	48dd/J	.
 .	32B-/	.	.	16ff/JJ	.
-.	32F/JJJ	.	.	.	.
-!	!	!LO:TUP:a	!	!	!
+.	32D/JJJ	.	.	.	.
+!	!	!LO:TUP:a:problem:klamra łukowa	!	!	!
 8FF\	32FF/LLL	48ee-\LLL	.	8r;	.
 .	.	48aa\	.	.	.
 .	32E-/	.	.	.	.
@@ -1311,10 +1336,11 @@
 .	32A/	16fff;\JJ	.	.	.
 .	32E-;/JJJ	.	.	.	.
 *v	*v	*	*	*	*
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =82	=82	=82	=82	=82
 *	*Xtuplet	*	*	*
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!LO:TX:b:i:t=tempo 1mo	!
-!	!LO:LB:g=original	!	!	!
+!!LO:TX:a:B:t= :mod=Tempo I
+!	!	!	!LO:TX:b:i:t=tempo 1mo:mod=	!
 8BB-/	24d'/LL	p	16.d/LL	.
 .	24f'/	.	.	.
 !	!LO:TX:b:i:t=e staccato	!	!	!
@@ -1324,20 +1350,19 @@
 .	24dd'/	.	.	.
 .	24ff'/JJ	.	.	.
 .	.	.	32cc/JJk	.
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!
 8dJ 8B- 8F\	24aa\LL	.	8dd\L	.
 .	24bb-\	.	.	.
 .	24ddd\	.	.	.
 *	*8va	*	*	*
+!	!LO:TX:t=P:problem:8va	!	!	!
 8r	24fff\	.	16cc\L	.
 .	24aaa\	.	.	.
 .	.	.	16b-\JJ	.
 .	24bbb-\JJ	.	.	.
 *	*X8va	*	*	*
 =83	=83	=83	=83	=83
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!
 8FF/	24r	.	16.a\LL	.
-!	!LO:TX:a:t=loco.	!	!	!
+!	!LO:TX:a:i:t=loco.:mod=loco	!	!	!
 .	24c'/LL	.	.	.
 .	24e-'/	.	.	.
 .	.	.	32cc\K	.
@@ -1345,7 +1370,6 @@
 .	24a'/	.	.	.
 .	24cc'/JJ	.	.	.
 .	.	.	32ff\JJk	.
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!
 8AJ 8E- 8C\	24ee-'\LL	.	8gg\L	.
 .	24ff'\	.	.	.
 .	24aa'\	.	.	.
@@ -1355,7 +1379,6 @@
 .	24fff'\JJ	.	.	.
 =84	=84	=84	=84	=84
 *	*^	*	*	*
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!
 8BB-'\L	8b-^/L	24f\LL	.	16.dd\LL	.
 .	.	24c#X\	.	.	.
 .	.	24d\	.	.	.
@@ -1364,18 +1387,17 @@
 .	.	24en\	.	.	.
 .	.	24f\JJ	.	.	.
 .	.	.	.	32ccc\JJk	.
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!
 8F'\	8ff^/L	24dd\LL	.	8ddd\L	.
 .	.	24a\	.	.	.
 .	.	24b-\	.	.	.
 *	*	*	*	*tuplet	*
-!	!	!	!	!LO:TUP:a	!
+!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8B-'\J	8bb-^/J	24ff\	.	24ddd\L	.
 .	.	24cc#X\	.	24ccc\	.
 .	.	24dd\JJ	.	24bb-\JJ	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!LO:LB:g=original	!
 =85	=85	=85	=85	=85	=85
-!LO:TX:t=P:problem=mixed beam	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!
-!	!LO:LB:g=original	!	!	!LO:LB:g=original	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
 8c\L	8aa/L	24ff\LL	.	16aa\LL	.
 .	.	24bn\	.	.	.
 .	.	.	.	16ccc\	.
@@ -1384,10 +1406,8 @@
 .	.	24a\	.	.	.
 .	.	.	.	16gg\JJ	.
 .	.	24b-X\JJ	.	.	.
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!
 8F\	24ff/LL	24f\LL	.	8ff\	.
-.	24ee/	24g\	.	.	.
+.	24een/	24g\	.	.	.
 .	24ee-X/	24a\	.	.	.
 8r	24dd/	24b-\	.	8r	.
 .	24ee-/	24g\	.	.	.
@@ -1395,7 +1415,7 @@
 *	*v	*v	*	*	*
 =86	=86	=86	=86	=86
 *tuplet	*	*	*	*
-!LO:TUP:b	!	!	!	!
+!LO:TUP:b:problem:klamra łukowa	!	!	!	!
 24BBB-'/LL	16.b-LL 16.d/	p	2b- 2d/	.
 24FF'/	.	.	.	.
 24DD'/	.	.	.	.
@@ -1404,7 +1424,7 @@
 24FF'/	.	.	.	.
 24D'/JJ	.	.	.	.
 .	32ccJJk 32f/	.	.	.
-!LO:TUP:a	!	!	!	!
+!LO:TUP:a:problem:klamra łukowa	!	!	!	!
 24BB-'\LL	8ddL 8b-/	.	.	.
 24F'\	.	.	.	.
 24D'\	.	.	.	.
@@ -1412,10 +1432,9 @@
 24F'\	.	.	.	.
 24d'\JJ	.	.	.	.
 .	32b-/JJk	.	.	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =87	=87	=87	=87	=87
 *Xtuplet	*	*	*	*
-!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!
-!LO:LB:g=original	!	!	!	!
 24e-\LL	16.aLL 16.f/	.	2a 2e-/	.
 24c\	.	.	.	.
 24A\	.	.	.	.
@@ -1432,7 +1451,6 @@
 24GG-X/JJ	24ee-\JJ	.	.	.
 =88	=88	=88	=88	=88
 *	*^	*	*	*
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!
 4FF/	8ff/L	24ddLL 24f\	.	4b- 4d/	.
 .	.	24een 24cc#X\	.	.	.
 .	.	24ee-X 24ccn\	.	.	.
@@ -1446,45 +1464,53 @@
 .	.	24ee- 24cc\	.	.	.
 .	.	24ccJJ 24a\	.	.	.
 =89	=89	=89	=89	=89	=89
-!LO:TX:t=P:problem=brak oznaczenia sekstoli	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!
 24FF\LL	8ee-/L	24ccLL 24a\	.	4cc 4e-/	.
 24AA\	.	24g-X\	.	.	.
 24C\	.	24f\	.	.	.
-24E-\	8cc/J	24g-\	.	.	.
+24E-\	8cc 8a/J	24g-\	.	.	.
 24F\	.	24f\	.	.	.
 24A\JJ	.	24e-\JJ	.	.	.
 8B-\	8b-/	8f 8d\	.	8b- 8d/	.
 8r	8r	8ryy	.	8r	.
 *	*v	*v	*	*	*
+!LO:PB:g=original	!LO:PB:g=original	!	!	!
 =90	=90	=90	=90	=90
-!LO:TX:i:t=ped	!	!	!	!
+!LO:MO:null:mod=*ped	!LO:MO:mod=*null:null	!	!	!
+*	*ped	*	*	*
+*	*tuplet	*	*	*
+!	!LO:TUP:b:problem:klamra łukowa	!	!	!
 8F 8FF/	24f/LL	.	8cc\L	.
 .	24c/	.	.	.
 .	24a/JJ	.	.	.
 *	*rep	*	*	*
-!LO:TX:a:t=m.g	!	!	!	!
-!	!LO:TX:t=[coda]	!	!	!
+!LO:TX:t=P:problem:wyświtlenie m.g. nie w tym systemie	!	!	!	!
+!LO:TX:a:i:t=m.g:problem:m.g. powinno wyświetlać się nad górnym systemem	!LO:TUP:b:problem:klamra łukowa	!	!	!
 8aa> 8ff>/	24f/LL	.	16ff\L	.
 .	24c/	.	.	.
 .	.	.	16aa\JJ	.
+!LO:MO:null:mod=*Xped	!LO:MO:mod=*null:null	!	!	!
+*	*Xped	*	*	*
 .	24a/JJ	.	.	.
 *	*Xrep	*	*	*
 .	.	.	8qaa/	.
-!	!LO:TX:b:i:t=ped	!	!	!
+*	*Xtuplet	*	*	*
+!LO:MO:null:mod=*ped	!LO:MO:mod=*null:null	!	!	!
+*	*ped	*	*	*
 8C 8CC/	24en/LL	.	16.gg\LL	.
 .	24c/	.	.	.
 .	24g/JJ	.	.	.
 .	.	.	32ff#X\K	.
 *	*rep	*	*	*
-!	!LO:TX:t=[coda]	!	!	!
 8bb-> 8gg>/	24e/LL	.	16.gg\	.
 .	24c/	.	.	.
+!LO:MO:null:mod=*Xped	!LO:MO:mod=*null:null	!	!	!
+*	*Xped	*	*	*
 .	24g/JJ	.	.	.
 *	*Xrep	*	*	*
 .	.	.	32een\JJk	.
-=91	=91	=91	=91	=91
 !	!	!	!LO:LB:g=original	!
-!	!	!	!LO:TUP:a	!
+=91	=91	=91	=91	=91
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8F 8FF/	24f/LL	.	24ff\LL	.
 .	24c/	.	24een\	.
 .	24a/JJ	.	24ff\	.
@@ -1524,7 +1550,8 @@
 .	24b-/JJ	.	.	.
 *	*Xrep	*	*	*
 =93	=93	=93	=93	=93
-!	!	!	!LO:TX:b:i:t=mancando.	!
+!!LO:TX:a:i:t= :mod=mancando
+!	!	!	!LO:TX:b:i:t=mancando.:mod=	!
 24f>\LL	8aa'/L	.	(8ff'\L	.
 24A>\	.	.	.	.
 24a>\JJ	.	.	.	.
@@ -1537,44 +1564,41 @@
 24c#X>\LL	8een'/J	.	8cc#X'\J)	.
 24A>\	.	.	.	.
 24e>\JJ	.	.	.	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =94	=94	=94	=94	=94
 *	*tuplet	*	*	*
-!	!LO:LB:g=original	!	!	!
-!	!LO:TUP:b	!	!	!
+!	!LO:TUP:b:problem:klamra łukowa	!	!	!
 4BB- 4BBB-/	24dLL 24F/	.	4dd\	.
 .	24f 24B-/	.	.	.
 .	24b- 24d/	f	.	.
 .	24dd 24f/	.	.	.
 .	24ff 24b-/	.	.	.
 .	24bb-JJ 24dd/	.	.	.
-!	!LO:TUP:b	!	!	!
-4BBn 4BBBn/	24dLL 24F/	.	8ff\L	>
+!	!LO:TUP:b:problem:klamra łukowa	!	!	!
+4BBn 4BBBn/	24dLL 24F/	.	8ff^<\L	.
 .	24f 24A-X/	.	.	.
 .	24a-X 24Bn/	.	.	.
-.	24bn 24d/	.	16een\L	]
+.	24bn 24d/	.	16een\L	.
 .	24dd 24f/	.	.	.
 .	.	.	16dd\JJ	.
 .	24ffJJ 24a-/	.	.	.
 =95	=95	=95	=95	=95
 *	*Xtuplet	*	*	*
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!
-4C 4CC/	24enLL 24G/	<	8ccS\	.
+4C 4CC/	24enLL 24G/	<	8ccSSS\	.
 .	24g 24B-/	.	.	.
 .	24b- 24e/	.	.	.
 .	24een 24g/	.	4bb-^\	.
 .	24gg 24b-/	.	.	.
 .	24bb-JJ 24ee/	[	.	.
-!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!
 8C#XL 8CC#X/	24eeenLL 24gg\	rf	.	.
 .	24bb- 24ee\	.	.	.
 .	24eee 24gg\	.	.	.
 8DJ 8DD/	24fff 24aa\	.	8aa\	.
 .	24ddd 24ff\	.	.	.
 .	24fffJJ 24aa\	.	.	.
-=96	=96	=96	=96	=96
-!	!LO:TX:t=P:problem=brak oznaczenia trioli	!	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!
 !	!	!	!LO:LB:g=original	!
-!	!	!	!LO:TUP:a	!
+=96	=96	=96	=96	=96
+*	*	*	*Xtuplet	*
 4BB-/	24dddLL 24gg\	.	(24gg\LL	.
 .	24bb- 24dd\	.	24ff#X\	.
 .	24ggJJ 24b-\	.	24gg\	.
@@ -1589,29 +1613,30 @@
 .	24eJJ 24G/	.	.	.
 .	.	.	16qqdd/LL	.
 .	.	.	16qqee/JJ	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =97	=97	=97	=97	=97
-!	!LO:TX:t=P:problem=brak oznaczenia trili i sekstoliw aktach 97-101	!	!LO:TX:b:i:t=rit.	!
-!	!LO:LB:g=original	!	!	!
+!	!	!	!LO:TX:b:i:t=rit&colon;:mod=	!
 8FF/	24f 24F/	.	(8ff'\L	.
 !	!LO:TX:t=P:problem=mixed beam	!	!	!
 .	24f/LL	.	.	.
 .	24ff\JJ	.	.	.
-!	!LO:TX:b:i:t=ritard&colon;	!	!	!
+!!LO:TX:a:i:t= :mod=ritard.
+!	!LO:TX:b:i:t=ritard&colon;:mod=	!	!	!
 4F 4FF/	24ee-XLL 24cc\	.	8ee-X'\	.
 .	24f\	.	.	.
 .	24ff\JJ	.	.	.
 .	24ddLL 24b-\	.	8dd'\	.
 .	24f\	.	.	.
 .	24ff\JJ	.	.	.
-!	!	!	!LO:TX:b:i:t=un poco piu lent&colon;	!
+!	!	!	!LO:TX:b:i:t=un poco più lent&colon;:mod=	!
 8FF 8FFF/	24ccLL 24a\	.	8cc'\J)	.
 .	24f\	.	.	.
 .	24ff\JJ	.	.	.
 =98	=98	=98	=98	=98
 *	*^	*	*	*
 *tuplet	*	*	*	*	*
-!	!LO:TX:b:i:t=un poco piu lento	!	!	!	!LO:DY:a
-!LO:TUP:b	!	!	!	!	!
+!!LO:TX:a:i:t= :mod=un poco più lento
+!LO:TUP:b:problem:klamra łukowa	!LO:TX:b:i:t=un poco più lento:mod=	!	!	!	!LO:DY:a
 48BBB-/LLL	4b- 4d/	4ryy	.	16.b-/LL	p
 48CC/	.	.	.	.	.
 48DD-X/	.	.	.	.	.
@@ -1619,7 +1644,7 @@
 48EE-/	.	.	.	.	.
 .	.	.	.	32f/K	.
 48EEn/JJJ	.	.	.	.	.
-!LO:TUP:b	!	!	!	!	!
+!LO:TUP:b:problem:klamra łukowa	!	!	!	!	!
 48FF/LLL	.	.	.	16.b-/	.
 48FF#X/	.	.	.	.	.
 48GG/	.	.	.	.	.
@@ -1628,15 +1653,16 @@
 .	.	.	.	32cc/JJk	.
 48BB-/JJJ	.	.	.	.	.
 *Xtuplet	*	*	*	*	*
-!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!	!
-!	!	!	!LO:HP:t=cres	!	!
-48BBn/LLL	[8dd/L	4f\	<	[8dd\L	.
+48BBn/LLL	[8dd/L	4f\	.	[8dd\L	.
 48C/	.	.	.	.	.
 48C#X/	.	.	.	.	.
-48D/	.	.	.	.	.
+!	!	!	!LO:MO:mod=!null:null	!	!
+!	!	!	!LO:HP:t=cres	!	!
+48D/	.	.	<	.	.
 48E-/	.	.	.	.	.
 48En/JJJ	.	.	.	.	.
-!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!LO:TUP:a	!
+*	*	*	*	*tuplet	*
+!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 48F\LLL	24dd/L]	.	.	24dd\L]	.
 48F#X\	.	.	.	.	.
 48G\	24cc/	.	.	24cc\	.
@@ -1644,9 +1670,9 @@
 48A\	24b-/JJ	.	.	24b-\JJ	.
 48B-\JJJ	.	.	.	.	.
 *	*v	*v	*	*	*
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =99	=99	=99	=99	=99
-!	!LO:LB:g=original	!	!	!
-8c\	(48a\LLL	[	16.a\LL	.
+8c\	(48a\LLL	.	16.a\LL	.
 .	48cc\	.	.	.
 .	48b-\	.	.	.
 .	48a\	.	.	.
@@ -1673,8 +1699,8 @@
 .	48gg\	.	.	.
 .	.	.	32ee-\JJk	.
 .	48ee-X\JJJ	.	.	.
-=100	=100	=100	=100	=100
 !	!	!	!LO:LB:g=original	!
+=100	=100	=100	=100	=100
 4d: 4B-: 4F: 4BB-:\	48dd\LLL	.	16.dd\LL	.
 .	48a\	.	.	.
 .	48b-\	.	.	.
@@ -1702,9 +1728,9 @@
 .	(48ccn\	.	.	.
 .	.	.	32bb-\JJk	.
 .	48b-\JJJ)	.	.	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =101	=101	=101	=101	=101
 8qC/	.	.	.	.
-!	!LO:LB:g=original	!	!	!
 48c'\LLL	8aL 8f/	.	8aa\L	.
 (48G#X\	.	.	.	.
 48A\)	.	.	.	.
@@ -1718,22 +1744,22 @@
 48AA/	.	.	.	.
 48GG/JJJ	.	.	.	.
 .	.	.	16qqff/LL	.
-!	!LO:TX:b:i:t=stirrac.	!	!	!
+!	!LO:TX:b:i:t=stirrac.:mod=stiracchiato	!	!	!
 .	.	.	16qqgg/JJ	.
 48FF/	48f 48A/	.	8ff\	.
 48FFF/LLL	48ff\LLL	>	.	.
-48GGG/	48een\	]	.	.
+48GGG/	48een\	.	.	.
 48AAA/	48ee-X\	.	.	.
 48BBB-/	48dd\	.	.	.
-(48CC/JJJ	48cc\JJJ	.	.	.
-48DD'/LLL	(48b-'/LLL	.	8r	.
+48CC/JJJ	48cc\JJJ	.	.	.
+(48DD'/LLL	(48b-'/LLL	.	8r	.
 48EE-'/	48a'/	.	.	.
 48EEn'/	48g'/	.	.	.
 48FF'/	48f'/	.	.	.
 48GG'/	48en'/	.	.	.
-48AA'/JJJ)	48e-X'/JJJ)	.	.	.
+48AA'/JJJ)	48e-X'/JJJ)	]]	.	.
 =102	=102	=102	=102	=102
-!	!	!	!LO:TX:a:t=1	!
+!	!	!	!LO:TX:a:t=1:mod=	!
 24BB-\LL	16.d/LL	.	2r	.
 24F\	.	.	.	.
 24B-\	.	.	.	.
@@ -1751,66 +1777,68 @@
 24B-\	.	.	.	.
 .	16b-\JJ	.	.	.
 24F\JJ	.	.	.	.
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =103	=103	=103	=103	=103
-!	!LO:TX:b:i:t=                  a piacere	!	!	!
-!	!LO:LB:g=original	!	!	!
+!LO:SIC:s=4e- 4A 4F 4C\;	!	!	!	!
 4e- 4A 4F 4C\	4a;/	.	2r;	.
-!	!LO:TX:t=P:problem=nuty w pasażu zgrupowane w nieoznaczone sekstole (tylko pierwsza z klamrą łukową i numerem)	!	!	!
-.	16qqcc\LL	.	.	.
-.	16qqb-\	.	.	.
-.	16qqa\	.	.	.
-.	16qqb-\	.	.	.
-.	16qqcc\	.	.	.
-.	16qqdd\JJ	.	.	.
-.	16qqee-\LL	.	.	.
-.	16qqdd\	.	.	.
-.	16qqcc\	.	.	.
-.	16qqdd\	.	.	.
-.	16qqee-\	.	.	.
-.	16qqff\JJ	.	.	.
-.	16qqaa\LL	.	.	.
-.	16qqgg\	.	.	.
-.	16qqff\	.	.	.
-.	16qqgg\	.	.	.
-.	16qqaa\	.	.	.
-.	16qqbb-\JJ	.	.	.
-.	16qqccc\LL	.	.	.
-.	16qqbb-\	.	.	.
-.	16qqaa\	.	.	.
-.	16qqbb-\	.	.	.
-.	16qqccc\	.	.	.
-.	16qqddd\JJ	.	.	.
-.	16qqeee-\LL	.	.	.
-.	16qqddd\	.	.	.
-.	16qqccc\	.	.	.
-.	16qqddd\	.	.	.
-.	16qqeee-\	.	.	.
-.	16qqfff\	.	.	.
-.	16qqggg\JJ	.	.	.
+*	*	*	*	*
+!	!LO:TX:t=P:problem:sekstola	!	!	!
+.	32qqcc\LL	.	.	.
+.	32qqb-\	.	.	.
+.	32qqa\	.	.	.
+.	32qqb-\	.	.	.
+.	32qqcc\	.	.	.
+.	32qqdd\JJ	.	.	.
+!	!LO:TX:b:i:t=a piacere	!	!	!
+.	32qqee-\LL	.	.	.
+.	32qqdd\	.	.	.
+.	32qqcc\	.	.	.
+.	32qqdd\	.	.	.
+.	32qqee-\	.	.	.
+.	32qqff\JJ	.	.	.
+.	32qqaa\LL	.	.	.
+.	32qqgg\	.	.	.
+.	32qqff\	.	.	.
+.	32qqgg\	.	.	.
+.	32qqaa\	.	.	.
+.	32qqbb-\JJ	.	.	.
+.	32qqccc\LL	.	.	.
+.	32qqbb-\	.	.	.
+.	32qqaa\	.	.	.
+.	32qqbb-\	.	.	.
+.	32qqccc\	.	.	.
+.	32qqddd\JJ	.	.	.
+.	32qqeee-\LL	.	.	.
+.	32qqddd\	.	.	.
+.	32qqccc\	.	.	.
+.	32qqddd\	.	.	.
+.	32qqeee-\	.	.	.
+.	32qqfff\	.	.	.
+.	32qqggg\JJ	.	.	.
 8F#XL 8FF#X/	8aaaL 8eee-\	.	.	.
 8GJ 8GG/	8bbb-J 8ddd\	.	.	.
 =104	=104	=104	=104	=104
 8E-\	8r	.	8.ccc^\L	.
 8r	8cc 8g 8e-/	.	.	.
 .	.	.	16bb-\Jk	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8E-\	8r	.	24bb-^\LL	.
 .	.	.	24aa\	.
 .	.	.	[24aa-X\JJ	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8r	8cc 8g 8e-/	.	24aa-\LL]	.
 .	.	.	24gg\	.
 .	.	.	24ff#X\JJ	.
-=105	=105	=105	=105	=105
 !	!	!	!LO:LB:g=original	!
-!	!	!	!LO:TUP:a	!
+=105	=105	=105	=105	=105
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 4E-\	8r	.	48ff#X\LLL	.
 .	.	.	48gg\	.
 .	.	.	48aan\	.
 .	.	.	48gg\	.
 .	.	.	48dd\	.
 .	.	.	48ee-\JJJ	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 .	8cc 8g 8e-/	.	48ffn\LLL	.
 .	.	.	48ee-\	.
 .	.	.	48dd\	.
@@ -1822,63 +1850,58 @@
 8FF/J	8aJ 8e- 8c/	.	8at</J	.
 .	.	.	16qqg/LL	.
 .	.	.	16qqa/JJ	.
+!LO:PB:g=original	!LO:PB:g=original	!	!	!
 =106	=106	=106	=106	=106
 *tuplet	*tuplet	*	*	*
-!	!LO:PB:g=original	!	!	!
 8qBB-/	.	.	.	.
-!LO:TUP:a	!LO:TUP:b	!	!	!
+!LO:TUP:a:problem:klamra łukowa	!LO:TUP:b:problem:klamra łukowa	!	!	!
 24B-\LL	24b-/LL	.	8b-\L	.
 24B-\	24f 24d/	.	.	.
 24B-\	24f 24d/	.	.	.
-!	!	!	!LO:TX:b:i:t=ac            -        ce         -              le                   -                ran    -      do	!
 .	.	.	8qcc/	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TX:b:i:t=ac-ce-le-ran-do:dur=8e:ext=ud:problem:text with extention lines	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 24B-\	24f 24d/	.	24b-\L	.
 24B-\	24f 24d/	.	24a\	.
 24B-\JJ	24fJJ 24d/	.	24b-\JJ	.
 *Xtuplet	*Xtuplet	*	*	*
-!LO:TX:t=P:problem=brak oznaczenia sekstoli	!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!
 8qBB-/	.	.	.	.
 24B-\LL	24gLL 24e-/	.	16cc\LL	.
 24B-\	24g 24e-/	.	.	.
 .	.	.	16dd\JJ	.
 24B-\	24g 24e-/	.	.	.
-!	!	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 24B-\	24a 24f 24e-/	.	24ee-\LL	.
 24B-\	24a 24f 24e-/	.	24dd\	.
 24B-\JJ	24aJJ 24f 24e-/	.	24cc\JJ	.
 =107	=107	=107	=107	=107
 8qBB-/	.	.	.	.
 *tuplet	*tuplet	*	*	*
-!LO:TUP:a	!LO:TUP:b	!	!	!
+!LO:TUP:a:problem:klamra łukowa	!LO:TUP:b:problem:klamra łukowa	!	!	!
 24B-\LL	24b-LL 24f 24d/	.	16ff\LL	.
 24B-\	24b- 24f 24d/	.	.	.
 .	.	.	16dd\JJ	.
 24B-\	24b- 24f 24d/	.	.	.
-!	!	!	!LO:TUP:b	!
-!	!	!	!LO:TUP:problem=brak klamry, sam numer	!
+!	!	!	!LO:TUP:b:problem:klamra łukowa	!
 24B-\	24b- 24f 24d/	.	24b-/LL	.
 24B-\	24b- 24f 24d/	.	24a/	.
 24B-\JJ	24b-JJ 24f 24d/	.	24b-/JJ	.
 *	*Xtuplet	*	*	*
-!	!LO:TX:t=P:problem=brak oznaczenia trioli	!	!	!
 8qBB-/	.	.	.	.
-!LO:TUP:a	!	!	!	!
+!LO:TUP:a:problem:klamra łukowa	!	!	!	!
 24B-\LL	24gLL 24e-/	.	16g/LL	.
 24B-\	24g 24e-/	.	.	.
 .	.	.	16cc/JJ	.
 24B-\JJ	24gJJ 24e-/	.	.	.
-!	!LO:TX:t=P:problem=brak oznaczenia trioli	!	!	!
 8qBB-/	.	.	.	.
-!LO:TUP:a	!	!	!LO:TUP:b	!
+!LO:TUP:a:problem:klamra łukowa	!	!	!LO:TUP:b:problem:klamra łukowa	!
 24B-\LL	24aLL 24f 24e-/	.	24a/LL	.
 24B-\	24a 24f 24e-/	.	24g/	.
 24B-\JJ	24aJJ 24f 24e-/	.	24a/JJ	.
+!LO:LB:g=original	!LO:LB:g=original	!	!LO:LB:g=original	!
 =108	=108	=108	=108	=108
 *^	*	*	*	*
 *Xtuplet	*	*	*	*	*
-!LO:TX:t=P:problem=brak oznaczenia trioli w taktach 108-111	!	!	!	!	!
-!	!LO:LB:g=original	!	!	!LO:LB:g=original	!
 8BB-/	24BB-\LL	48b-/LLL	.	8b-\L	.
 .	.	48d/	.	.	.
 .	24B-\	48f/	.	.	.
@@ -1895,18 +1918,18 @@
 .	.	48d/JJJ	.	.	.
 *Xrep	*Xrep	*Xrep	*	*	*
 8BB-/	24BB-\LL	48cc/LLL	.	16cc\LL	.
-.	.	48d/	.	.	.
+.	.	48e-/	.	.	.
 .	24B-\	48g-X/	.	.	.
-.	.	48d/	.	16dd\JJ	.
+.	.	48e-/	.	16dd\JJ	.
 .	24B-\JJ	48g-/	.	.	.
-.	.	48d/JJJ	.	.	.
+.	.	48e-/JJJ	.	.	.
 *rep	*rep	*rep	*	*	*
 8BB-/	24BB-\LL	48cc/LLL	.	24ff\LL	.
-.	.	48d/	.	.	.
+.	.	48e-/	.	.	.
 .	24B-\	48g-/	.	24ee-\	.
-.	.	48d/	.	.	.
+.	.	48e-/	.	.	.
 .	24B-\JJ	48g-/	.	24cc\JJ	.
-.	.	48d/JJJ	.	.	.
+.	.	48e-/JJJ	.	.	.
 *Xrep	*Xrep	*Xrep	*	*	*
 =109	=109	=109	=109	=109	=109
 8BB-/	24BB-\LL	48dd/LLL	.	16ff\LL	.
@@ -1934,9 +1957,10 @@
 .	24B-\JJ	48f/	.	24a/JJ	.
 .	.	48e-/JJJ	.	.	.
 *v	*v	*	*	*	*
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =110	=110	=110	=110	=110
 *tuplet	*	*	*	*
-!LO:TUP:a	!LO:LB:g=original	!	!	!
+!LO:TUP:a:problem:klamra łukowa	!	!	!	!
 24BB-\LL	48b-/LLL	.	8b-\L	.
 .	48d/	.	.	.
 24B-\	48f/	.	.	.
@@ -1951,7 +1975,6 @@
 24B-\JJ	48f/	.	.	.
 .	48d/JJJ	.	.	.
 *Xtuplet	*Xrep	*	*	*
-!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!
 24BB-\LL	48b-/LLL	.	24bb-\LL]	.
 .	48e-/	.	.	.
 24B-\	48g/	.	24aa\	.
@@ -1965,33 +1988,33 @@
 24B-\JJ	48e/	.	24een\JJ	.
 .	48c#/JJJ	.	.	.
 =111	=111	=111	=111	=111
-!LO:TX:t=P:problem=brak oznaczenia sekstoli	!	!	!	!
-24BB-/LL	48f/LLL	.	16.ff\LL	.
+24BB-\LL	48f/LLL	.	16.ff\LL	.
 .	48d/	.	.	.
-24B-/	48f/	.	.	.
+24B-\	48f/	.	.	.
 .	48d/	.	.	.
-24B-/	48f/	.	.	.
+24B-\	48f/	.	.	.
 .	.	.	32dd\JJk	.
 .	48d/JJJ	.	.	.
 *	*rep	*	*	*
-24B-/	48f/LLL	.	16b-\LL	.
+24B-\	48f/LLL	.	16b-\LL	.
 .	48d/	.	.	.
-24B-/	48f/	.	.	.
+24B-\	48f/	.	.	.
 .	48d/	.	[16bb-\JJ	.
-24B-/JJ	48f/	.	.	.
+24B-\JJ	48f/	.	.	.
 .	48d/JJJ	.	.	.
 *^	*	*	*	*
 *	*	*Xrep	*	*tuplet	*
-!	!	!	!	!LO:TUP:a	!
+!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8BB-/	24BB-\LL	48b-/LLL	.	24bb-\LL]	.
 .	.	48e-/	.	.	.
 .	24B-\	48g/	.	24aa\	.
 .	.	48e-/	.	.	.
 .	24B-\JJ	48g/	.	24gg\JJ	.
-!	!	!LO:TX:b:i:t=rall	!	!	!
+!	!	!LO:TX:b:i:t=rall:mod=	!	!	!
 .	.	48e-/JJJ	.	.	.
-!	!	!	!	!LO:TX:b:i:t=rall	!
-!	!	!	!	!LO:TUP:a	!
+!!LO:TX:a:i:t= :mod=rall.
+!	!	!	!	!LO:TX:b:i:t=rall:mod=	!
+!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 8BB-/	24BB-\LL	48g/LLL	.	24gg\LL	.
 .	.	48c#X/	sf	.	.
 .	24B-\	48en/	.	24ff\	.
@@ -1999,18 +2022,20 @@
 .	24B-\JJ	48e/	.	24een\JJ	.
 .	.	48c#/JJJ	.	.	.
 *v	*v	*	*	*	*
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
 =112	=112	=112	=112	=112
 .	.	.	16qqeen/LL	.
 .	.	.	16qqff/	.
 .	.	.	16qqgg/JJ	.
-!	!LO:LB:g=original	!	!	!
 2BB-;/	2f 2d;/	.	2ff;\	.
 =113	=113	=113	=113	=113
 *clefG2	*8va	*	*	*
 *tuplet	*tuplet	*	*	*
-!LO:TUP:a	!LO:TUP:a	!	!LO:TX:a:t=1	!
-!	!LO:TX:b:i:t=Vivace.	!	!LO:TX:b:i:t=Vivace.	!
-48bb-\LLL	48bbb-'\LLL	.	2r	.
+!!LO:TX:a:B:t= :mod=Vivace
+!	!LO:TX:t=P:problem:8va	!	!LO:TX:b:i:t=Vivace.:mod=	!
+!LO:TUP:a:problem:klamra łukowa	!LO:TUP:a:problem:klamra łukowa	!	!LO:TX:a:t=1:mod=	!
+!	!LO:TX:b:i:t=Vivace:mod=	!	!	!
+48bb-\LLL	48bbb-\LLL	.	2r	.
 48aa\	48aaa\	.	.	.
 48gg\	48ggg\	.	.	.
 48ff\	48fff\	.	.	.
@@ -2018,8 +2043,7 @@
 48dd\JJJ	48ddd\JJJ	.	.	.
 *	*X8va	*	*	*
 *Xtuplet	*Xtuplet	*	*	*
-!	!LO:TX:a:t=loco.	!	!	!
-!LO:TX:t=P:problem=brak oznaczenia sekstoli do końca utworu	!LO:TX:t=P:problem=brak oznaczenia sekstoli do końca utworu	!	!	!
+!	!LO:TX:a:i:t=loco.:mod=loco	!	!	!
 48cc/LLL	48ccc\LLL	.	.	.
 48b-/	48bb-\	.	.	.
 48a/	48aa\	.	.	.
@@ -2039,9 +2063,9 @@
 48En\	48en/	.	.	.
 48G\	48g/	.	.	.
 48F\JJJ	48f/JJJ	.	.	.
+!LO:LB:g=original	!LO:LB:g=original	!	!LO:LB:g=original	!
 =114	=114	=114	=114	=114
-!	!	!	!LO:LB:g=original	!
-!	!LO:LB:g=original	!	!LO:TUP:a	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 48B-\LLL	48b-^/LLL	.	48bb-\LLL	.
 48A\	48a/	.	48aa\	.
 48G\	48g/	.	48gg\	.
@@ -2049,7 +2073,6 @@
 48E-\	48e-/	.	48ee-\	.
 48D\JJJ	48d/JJJ	.	48dd\JJJ	.
 *	*	*	*Xtuplet	*
-!	!	!	!LO:TX:t=P:problem=brak oznaczenia sekstoli do końca utworu	!
 48C\LLL	48c</LLL	.	48cc/LLL	.
 48BB-\	48B-</	.	48b-/	.
 48AA\	48A</	.	48a/	.
@@ -2070,7 +2093,7 @@
 48AAA\JJJ	48AA</JJJ	.	48A/JJJ	.
 =115	=115	=115	=115	=115
 *	*	*	*tuplet	*
-!	!	!	!LO:TUP:b	!
+!	!	!	!LO:TUP:b:problem:klamra łukowa	!
 48BBB-\LLL	48BB-</LLL	.	24B-'/LL	.
 48FF\	48F</	.	.	.
 48DD\	48D</	.	24d'/	.
@@ -2082,10 +2105,10 @@
 48D\	48d/	.	24dd'/	.
 48B-\	48b-/	.	.	.
 48F\	48f/	.	24ff'/JJ	.
-!LO:TX:t=P:problem=łamanie linii w takcie	!LO:TX:t=P:problem=łamanie linii w takcie	!	!	!
 48d\JJJ	48dd/JJJ	.	.	.
 *clefG2	*	*	*Xtuplet	*
-!	!LO:LB:g=original	!	!	!
+!LO:LB:g=original	!LO:LB:g=original	!	!	!
+!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 48B-/LLL	48b-\LLL	.	24bb-'\LL	.
 48f/	48ff\	.	.	.
 48d/	48dd\	.	24ff'\	.
@@ -2095,13 +2118,14 @@
 48b-\LLL	48bb-\LLL	.	24b-'\	.
 48ff\	48fff\	.	.	.
 *	*8va	*	*	*
+!	!LO:TX:t=P:problem:8va	!	!	!
 48dd\	48ddd\	.	24f'\	.
 48bb-\	48bbb-\	.	.	.
 48ff\	48fff\	.	24d'\JJ	.
 48dd\JJJ	48ddd\JJJ	.	.	.
 *	*X8va	*	*	*
 =116	=116	=116	=116	=116
-!	!LO:TX:a:t=loco	!	!	!
+!	!LO:TX:a:i:t=loco	!	!LO:TUP:b:problem:klamra łukowa	!
 48b-\LLL	48bb-\LLL	.	24B-'/LL	.
 48f\	48ff\	.	.	.
 48d\	48dd\	.	24d'/	.
@@ -2113,19 +2137,23 @@
 48F\	48f/	.	.	.
 48D\	48d/	.	24f'/	.
 48BB-\	48B-/	.	.	.
-48FF\	48F/	.	24d'/JJ	.
-48DD\JJJ	48D/JJJ	.	.	.
-8BBB-\	8BB-/	.	8B-/	.
+48FF\	48F</	.	24d'/JJ	.
+48DD\JJJ	48D</JJJ	.	.	.
+8BBB-\	8BB-</	.	8B-/	.
 8F 8FF\	8aa: 8ee-: 8cc: 8a:\	.	8ff 8a\	.
 =117	=117	=117	=117	=117
 2BB- 2BBB-;/	2bb- 2ff 2dd 2b-;\	f	2ff 2b- 2d;</	f
 ==	==	==	==	==
 *-	*-	*-	*-	*-
-!!!system-decoration: s1{(s2,s3)}
+!!!system-decoration: s1{s2,s3}
+!!!system-decoration-mod: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: | = vertical stroke
 !!!ENC: Kamil Watkowski
 !!!END: 2021-08-08
+!!!ENC-modern: Katarzyna Serwa
+!!!END-modern: 2022-09-14
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
