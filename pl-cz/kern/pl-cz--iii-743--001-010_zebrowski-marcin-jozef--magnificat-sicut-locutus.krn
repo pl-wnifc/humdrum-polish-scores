@@ -22,6 +22,9 @@
 !!!ONB-nifc: UWAGA: części Magnificatu: 1. Magnificat, 2. Et exultavit, 3. Quia respexit, 4. Quia fecit, 5. Et misericordia, 6. Fecit potentiam, 7. Deposuit potentes, 8. Esurientes implevit bonis, 9. Suscepit Israel, 10. Sicut locutus, 11. Gloria patri (razem z Sicut erat i Amen)
 !!!AIN: 1 alto 1 bass 2 cor 1 organ 1 soprn 1 tenor 1 viola 2 violn
 !!!key: G
+!!!OMD:
+!!!OMD-mod: Allegro
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s| autostem -r | humtr -p
 **kern	**dynam	**fba	**kern	**kern	**kern	**kern	**kern	**text	**kern	**kern	**kern	**kern
 *part10	*part10	*part10	*part9	*part8	*part7	*part6	*part5	*part5	*part4	*part3	*part2	*part1
 *staff10	*	*	*staff9	*staff8	*staff7	*staff6	*staff5	*staff5	*staff4	*staff3	*staff2	*staff1
@@ -29,13 +32,17 @@
 *I'org	*	*	*I'vla	*I'vl II	*I'vl I	*I'B	*I'T	*	*I'A	*I'S	*I'cor in G	*I'cor in G
 *Iorgan	*	*	*Iviola	*Ivioln	*Ivioln	*Ibass	*Itenor	*	*Ialto	*Isoprn	*Icor	*Icor
 *ICklav	*	*	*ICstr	*ICstr	*ICstr	*ICvox	*ICvox	*	*ICvox	*ICvox	*ICbras	*ICbras
+*IGcont	*	*	*	*	*	*	*IGsolo	*	*	*	*	*
+*mI"Organo	*	*	*mI"Viola	*mI"Violino II	*mI"Violino I	*	*	*	*	*mI"Soprano	*mI"Corno II in G	*mI"Corno I in G
 *clefF4	*	*	*clefC3	*clefG2	*clefG2	*clefF4	*clefC4	*	*clefG2	*clefG2	*clefG2	*clefG2
+*	*	*	*	*	*	*	*mclefGv2	*	*	*	*	*
 *	*	*	*	*	*	*	*	*	*	*	*ITrd3c5	*ITrd3c5
 *k[f#c#]	*	*	*k[f#c#]	*k[f#c#]	*k[f#c#]	*k[f#c#]	*k[f#c#]	*	*k[f#c#]	*k[f#c#]	*k[f#c#]	*k[f#c#]
 *G:	*	*	*G:	*G:	*G:	*G:	*G:	*	*G:	*G:	*G:	*G:
 *M2/4	*	*	*M2/4	*M2/4	*M2/4	*M2/4	*M2/4	*	*M2/4	*M2/4	*M2/4	*M2/4
+*	*	*	*tacet	*tacet	*tacet	*tacet	*	*	*tacet	*tacet	*tacet	*tacet
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:b:t=Sicut locutus. allegro tutti.	!	!	!LO:TX:a:b:t=Sicut Locut(us) Tacet	!LO:TX:a:t=Sicut Locutus est Tacet	!LO:TX:a:t=Sicut Locutus est Tacet	!LO:TX:a:t=Sicut Locutus est 2/4 Tacet	!LO:TX:a:t=All(egro) Solo.	!	!	!LO:TX:b:t=Sicut locutus tacet.	!LO:TX:a:t=Sicut locutus est tacet 2/4	!LO:TX:a:t=Sicut locutus est tacet 2/4
+!LO:TX:b:t=Sicut locutus. allegro tutti.:mod=	!	!	!LO:TX:a:b:t=Sicut Locut(us) Tacet:mod=	!LO:TX:a:t=Sicut Locutus est Tacet:mod=	!LO:TX:a:t=Sicut Locutus est Tacet:mod=	!LO:TX:a:t=Sicut Locutus est 2/4 Tacet:mod=	!LO:TX:a:t=All(egro) Solo.:mod=	!	!	!LO:TX:b:t=Sicut locutus tacet.:mod=	!LO:TX:a:t=Sicut locutus est tacet 2/4:mod=	!LO:TX:a:t=Sicut locutus est tacet 2/4:mod=
 8r	.	.	2ryy	2ryy	2ryy	2ryy	2r	.	2ryy	2ryy	2ryy	2ryy
 16B\LL	.	.	.	.	.	.	.	.	.	.	.	.
 16A#X\JJ	.	.	.	.	.	.	.	.	.	.	.	.
@@ -123,10 +130,11 @@
 4BB/	.	.	2ryy	2ryy	2ryy	2ryy	8r	.	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8F#/	Si-	.	.	.	.
 8r	.	.	.	.	.	.	8B\	-cut	.	.	.	.
-!LO:TX:b:t=solo	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=solo:mod=solo	!LO:MO:null:mod=p	!	!	!	!	!	!	!	!	!	!	!
 8F#\	.	#	.	.	.	.	8c#\	lo-	.	.	.	.
 =13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13
 !LO:TX:t=P:problem=mixed beam	!LO:DY:b:t=pia&colon;	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!
 8B\L	p	.	2ryy	2ryy	2ryy	2ryy	8.d\	-cu-	2ryy	2ryy	2ryy	2ryy
 8BB/J	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16d\	-tus	.	.	.	.
@@ -142,14 +150,16 @@
 =15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15
 8.F#\L	.	#	2ryy	2ryy	2ryy	2ryy	8A#X/	nos-	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8F#/	-tros	.	.	.	.
+!	!LO:MO:null:mod=f	!	!	!	!	!	!	!	!	!	!	!
 16G\Jk	.	.	.	.	.	.	.	.	.	.	.	.
 !	!LO:DY:b:t=for	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!
 16F#\LL	f	.	.	.	.	.	4r	.	.	.	.	.
 16E\	.	.	.	.	.	.	.	.	.	.	.	.
 16D\	.	.	.	.	.	.	.	.	.	.	.	.
 16C#\JJ	.	.	.	.	.	.	.	.	.	.	.	.
 =16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
-!LO:TX:b:t=tutti.	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=tutti.:mod=tutti	!	!	!	!	!	!	!	!	!	!	!	!
 8D\L	.	6	2ryy	2ryy	2ryy	2ryy	2r	.	2ryy	2ryy	2ryy	2ryy
 16B\L	.	.	.	.	.	.	.	.	.	.	.	.
 16A#X\JJ	.	.	.	.	.	.	.	.	.	.	.	.
@@ -209,7 +219,7 @@
 16AA/JJ	.	.	.	.	.	.	.	.	.	.	.	.
 =24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24
 16GG/LL	.	6	2ryy	2ryy	2ryy	2ryy	2r	.	2ryy	2ryy	2ryy	2ryy
-!LO:TX:a:t=tutti.	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=tutti.:mod=	!	!	!	!	!	!	!	!	!	!	!	!
 16E/	.	.	.	.	.	.	.	.	.	.	.	.
 16D/	.	.	.	.	.	.	.	.	.	.	.	.
 16E/JJ	.	.	.	.	.	.	.	.	.	.	.	.
@@ -237,7 +247,7 @@
 4BB/	.	.	2ryy	2ryy	2ryy	2ryy	8r	.	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8F#/	Si-	.	.	.	.
 8r	.	.	.	.	.	.	8B\	-cut	.	.	.	.
-!LO:TX:b:t=solo.	!LO:DY:b:t=pia&colon;	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=solo.:mod=solo	!LO:DY:b:t=pia&colon;	!	!	!	!	!	!	!	!	!	!	!
 8F#\	p	#	.	.	.	.	8c#\	lo-	.	.	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
 =28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28
@@ -259,11 +269,13 @@
 4F#\	.	#	2ryy	2ryy	2ryy	2ryy	8A#X/	noſ-	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8F#/	-tros	.	.	.	.
 4r	.	.	.	.	.	.	8r	.	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=A-	!	!	!	!
 .	.	.	.	.	.	.	16c#\	a-	.	.	.	.
 .	.	.	.	.	.	.	16c#\	-bra-	.	.	.	.
 =31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31
 4r	.	.	2ryy	2ryy	2ryy	2ryy	8d\	-ham	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8c#\	et	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=se-	!	!	!	!
 8r	.	.	.	.	.	.	16d\	Se-	.	.	.	.
 .	.	.	.	.	.	.	16A#X\	-mi-	.	.	.	.
 8F#\	.	#	.	.	.	.	8A#\	-ni	.	.	.	.
@@ -280,6 +292,7 @@
 8E#X\J	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
 =34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34
+!	!	!	!	!	!	!	!	!LO:MO:mod=sae-	!	!	!	!
 8F#\L	.	#	2ryy	2ryy	2ryy	2ryy	8A\L	Sae-	2ryy	2ryy	2ryy	2ryy
 8A#X\J	.	.	.	.	.	.	16f#\L	.	.	.	.	.
 .	.	.	.	.	.	.	16e\JJ	.	.	.	.	.
@@ -360,10 +373,11 @@
 8D\L	.	.	2ryy	2ryy	2ryy	2ryy	4D/	-la	2ryy	2ryy	2ryy	2ryy
 16d\L	.	.	.	.	.	.	.	.	.	.	.	.
 16c#\JJ	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:b:t=tutti	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=tutti:mod=	!	!	!	!	!	!	!	!	!	!	!	!
 8d\L	.	.	.	.	.	.	4r	.	.	.	.	.
 8d\J	.	.	.	.	.	.	.	.	.	.	.	.
 =45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45
+!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;t=tutti	!	!	!	!	!	!	!	!	!	!	!	!
 !	!LO:DY:b:t=for&colon;	!	!	!	!	!	!	!	!	!	!	!
 8B\L	f	6	2ryy	2ryy	2ryy	2ryy	2r	.	2ryy	2ryy	2ryy	2ryy
 16d\L	.	.	.	.	.	.	.	.	.	.	.	.
@@ -472,9 +486,10 @@
 8AA/J	.	3	.	.	.	.	.	.	.	.	.	.
 =59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59
 4D/	.	.	2ryy	2ryy	2ryy	2ryy	8r	.	2ryy	2ryy	2ryy	2ryy
+!	!	!	!	!	!	!	!	!LO:MO:mod=Si-	!	!	!	!
 .	.	.	.	.	.	.	8A\	si-	.	.	.	.
 8r	.	.	.	.	.	.	8d\	-cut	.	.	.	.
-!LO:TX:b:t=Solo	!LO:DY:b:t=pia&colon;	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=Solo:mod=solo	!LO:DY:b:t=pia&colon;	!	!	!	!	!	!	!	!	!	!	!
 8A\	p	.	.	.	.	.	8e\	lo-	.	.	.	.
 =60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!
@@ -493,19 +508,22 @@
 =62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62
 8.A\L	.	.	2ryy	2ryy	2ryy	2ryy	8c#\	nos-	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8A\	-tros	.	.	.	.
+!	!LO:MO:null:mod=f	!	!	!	!	!	!	!	!	!	!	!
 16B\Jk	.	.	.	.	.	.	.	.	.	.	.	.
 16A\LL	.	.	.	.	.	.	4r	.	.	.	.	.
 !	!LO:DY:b:t=for	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!
 16Gn\	f	.	.	.	.	.	.	.	.	.	.	.
 16F#\	.	.	.	.	.	.	.	.	.	.	.	.
 !LO:SIC:v:t=F#	!	!	!	!	!	!	!	!	!	!	!	!
 16E\JJ	.	.	.	.	.	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!
 =63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63
-!	!	!	!	!	!	!	!LO:TX:a:t=25.	!	!	!	!	!
+!LO:MO:null:mod=!LO&colon;TX&colon;b&colon;t=tutti	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TX:a:t=25.:mod=	!	!	!	!	!
 8F#\L	.	6	2ryy	2ryy	2ryy	2ryy	2r	.	2ryy	2ryy	2ryy	2ryy
 16d\L	.	.	.	.	.	.	.	.	.	.	.	.
-!LO:TX:b:t=Tutti.	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=Tutti.:mod=	!	!	!	!	!	!	!	!	!	!	!	!
 16c#\JJ	.	.	.	.	.	.	.	.	.	.	.	.
 8d\L	.	.	.	.	.	.	.	.	.	.	.	.
 8d\J	.	.	.	.	.	.	.	.	.	.	.	.
@@ -619,7 +637,7 @@
 4D\	.	.	2ryy	2ryy	2ryy	2ryy	8r	.	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8A\	Si-	.	.	.	.
 8r	.	.	.	.	.	.	8d\	-cut	.	.	.	.
-!LO:TX:b:t=piano solo.	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=piano solo.:mod=solo	!LO:MO:null:mod=p	!	!	!	!	!	!	!	!	!	!	!
 8AA/	.	.	.	.	.	.	8e\	lo-	.	.	.	.
 =79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79	=79
 8D\L	.	.	2ryy	2ryy	2ryy	2ryy	8.f#\	-cu-	2ryy	2ryy	2ryy	2ryy
@@ -668,6 +686,7 @@
 =86	=86	=86	=86	=86	=86	=86	=86	=86	=86	=86	=86	=86
 4.F#\	.	#	2ryy	2ryy	2ryy	2ryy	8f#\	-ham	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8e#X\	et	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=se-	!	!	!	!
 .	.	.	.	.	.	.	16f#\	Se-	.	.	.	.
 .	.	.	.	.	.	.	16c#\	-mi-	.	.	.	.
 8F#\	.	.	.	.	.	.	8c#\	-ni	.	.	.	.
@@ -739,14 +758,15 @@
 .	.	.	.	.	.	.	16E/	-cu-	.	.	.	.
 =95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95
 8E\L	.	.	2ryy	2ryy	2ryy	2ryy	4E/	-la	2ryy	2ryy	2ryy	2ryy
-!LO:TX:b:t=Tutti	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=Tutti:mod=tutti	!LO:MO:null:mod=f	!	!	!	!	!	!	!	!	!	!	!
 16e\L	.	.	.	.	.	.	.	.	.	.	.	.
 16d#X\JJ	.	.	.	.	.	.	.	.	.	.	.	.
 !	!LO:DY:b:t=for	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!
 8e\L	f	.	.	.	.	.	4r	.	.	.	.	.
 8e\J	.	.	.	.	.	.	.	.	.	.	.	.
 =96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96
-!	!	!	!	!	!	!	!LO:TX:a:t=10.	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:TX:a:t=10.:mod=	!	!	!	!	!
 8cn\L	.	6	2ryy	2ryy	2ryy	2ryy	2r	.	2ryy	2ryy	2ryy	2ryy
 16e\L	.	.	.	.	.	.	.	.	.	.	.	.
 16d\JJ	.	.	.	.	.	.	.	.	.	.	.	.
@@ -827,10 +847,11 @@
 4E\	.	.	2ryy	2ryy	2ryy	2ryy	8r	.	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8B\	Si-	.	.	.	.
 8r	.	.	.	.	.	.	8e\	-cut	.	.	.	.
-!LO:TX:b:t=Solo	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=Solo:mod=solo	!LO:MO:null:mod=p	!	!	!	!	!	!	!	!	!	!	!
 8BB/	.	#	.	.	.	.	8f#\	lo-	.	.	.	.
 =107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107
 !	!LO:DY:b:t=piano.	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!
 8E\L	p	.	2ryy	2ryy	2ryy	2ryy	8.g\	-cu-	2ryy	2ryy	2ryy	2ryy
 8B\J	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16g\	-tus	.	.	.	.
@@ -846,14 +867,16 @@
 =109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109	=109
 8.B\L	.	#	2ryy	2ryy	2ryy	2ryy	8d#X\	nos-	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8B\	-tros	.	.	.	.
+!	!LO:MO:null:mod=f	!	!	!	!	!	!	!	!	!	!	!
 16cn\Jk	.	.	.	.	.	.	.	.	.	.	.	.
 !	!LO:DY:b:t=for	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!
 16B\LL	f	.	.	.	.	.	4r	.	.	.	.	.
 16A\	.	.	.	.	.	.	.	.	.	.	.	.
 16G\	.	.	.	.	.	.	.	.	.	.	.	.
 16F#\JJ	.	.	.	.	.	.	.	.	.	.	.	.
 =110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110	=110
-!LO:TX:b:t=Tutti.	!	!	!	!	!	!	!LO:TX:a:t=11.	!	!	!	!	!
+!LO:TX:b:t=Tutti.:mod=tutti	!	!	!	!	!	!	!LO:TX:a:t=11.:mod=	!	!	!	!	!
 8E\L	.	6	2ryy	2ryy	2ryy	2ryy	2r	.	2ryy	2ryy	2ryy	2ryy
 16e\L	.	.	.	.	.	.	.	.	.	.	.	.
 16d#X\JJ	.	.	.	.	.	.	.	.	.	.	.	.
@@ -964,6 +987,7 @@
 =125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125	=125
 4r	.	.	2ryy	2ryy	2ryy	2ryy	8g\	-ham	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8f#\	et	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=se-	!	!	!	!
 8r	.	.	.	.	.	.	16g\	Se-	.	.	.	.
 .	.	.	.	.	.	.	16d#X\	-mi-	.	.	.	.
 8B\	.	#	.	.	.	.	8d#\	-ni	.	.	.	.
@@ -977,6 +1001,7 @@
 8B\L	.	#	2ryy	2ryy	2ryy	2ryy	8d#X\	-jus	2ryy	2ryy	2ryy	2ryy
 8G\	.	6	.	.	.	.	(16d#\LL	in	.	.	.	.
 .	.	.	.	.	.	.	16e\JJ)	.	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=sae-	!	!	!	!
 8A\	.	6 5	.	.	.	.	8.f#t\	Sae-	.	.	.	.
 8B\J	.	#	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16e\	-cu-	.	.	.	.
@@ -988,6 +1013,7 @@
 =129	=129	=129	=129	=129	=129	=129	=129	=129	=129	=129	=129	=129
 4r	.	.	2ryy	2ryy	2ryy	2ryy	8f#\	-ham	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8e\	et	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=se-	!	!	!	!
 8r	.	.	.	.	.	.	16f#\	de-	.	.	.	.
 .	.	.	.	.	.	.	16c#X\	-mi-	.	.	.	.
 8A\	.	#	.	.	.	.	8c#\	-ni	.	.	.	.
@@ -1001,6 +1027,7 @@
 8A\L	.	.	2ryy	2ryy	2ryy	2ryy	8c#\	-jus	2ryy	2ryy	2ryy	2ryy
 8F#\	.	6	.	.	.	.	(16d\LL	in	.	.	.	.
 .	.	.	.	.	.	.	16e\JJ)	.	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=sae-	!	!	!	!
 8G\	.	6 5	.	.	.	.	8.e\	Sae-	.	.	.	.
 8A\J	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16d\	-cu-	.	.	.	.
@@ -1037,6 +1064,7 @@
 =137	=137	=137	=137	=137	=137	=137	=137	=137	=137	=137	=137	=137
 8GG#X/L	.	6 5	2ryy	2ryy	2ryy	2ryy	4d\	ad	2ryy	2ryy	2ryy	2ryy
 8GG#/	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=Pa-	!	!	!	!
 8GG#/	.	.	.	.	.	.	8E/	pa-	.	.	.	.
 8GG#/J	.	.	.	.	.	.	8d\	-tres	.	.	.	.
 =138	=138	=138	=138	=138	=138	=138	=138	=138	=138	=138	=138	=138
@@ -1050,6 +1078,7 @@
 =139	=139	=139	=139	=139	=139	=139	=139	=139	=139	=139	=139	=139
 8FF#/L	.	6 5-r	2ryy	2ryy	2ryy	2ryy	4c#\	ad	2ryy	2ryy	2ryy	2ryy
 8FF#/	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=Pa-	!	!	!	!
 8FF#/	.	.	.	.	.	.	8D/	pa-	.	.	.	.
 8FF#/J	.	.	.	.	.	.	8cn\	-tres	.	.	.	.
 =140	=140	=140	=140	=140	=140	=140	=140	=140	=140	=140	=140	=140
@@ -1077,6 +1106,7 @@
 =143	=143	=143	=143	=143	=143	=143	=143	=143	=143	=143	=143	=143
 4r	.	.	2ryy	2ryy	2ryy	2ryy	8d\	-ham	2ryy	2ryy	2ryy	2ryy
 .	.	.	.	.	.	.	8c#\	et	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=se-	!	!	!	!
 8r	.	.	.	.	.	.	16d\	Se-	.	.	.	.
 .	.	.	.	.	.	.	16A#X\	-mi-	.	.	.	.
 8F#\	.	#	.	.	.	.	8A#\	-ni	.	.	.	.
@@ -1094,6 +1124,7 @@
 8E#X\	.	6 5	.	.	.	.	4B\	in	.	.	.	.
 8E#\J	.	.	.	.	.	.	.	.	.	.	.	.
 =146	=146	=146	=146	=146	=146	=146	=146	=146	=146	=146	=146	=146
+!	!	!	!	!	!	!	!	!LO:MO:mod=sae-	!	!	!	!
 8F#\L	.	.	2ryy	2ryy	2ryy	2ryy	8A#X\L	Sae-	2ryy	2ryy	2ryy	2ryy
 8A#X\	.	.	.	.	.	.	16f#\L	.	.	.	.	.
 .	.	.	.	.	.	.	16e\JJ	.	.	.	.	.
@@ -1185,6 +1216,7 @@
 .	.	.	.	.	.	.	8B\	-jus	.	.	.	.
 8E\	.	.	.	.	.	.	8c#\	in	.	.	.	.
 =159	=159	=159	=159	=159	=159	=159	=159	=159	=159	=159	=159	=159
+!	!	!	!	!	!	!	!	!LO:MO:mod=sae-	!	!	!	!
 16F#\LL	.	6 4	2ryy	2ryy	2ryy	2ryy	4d\	Sae-	2ryy	2ryy	2ryy	2ryy
 16E\	.	.	.	.	.	.	.	.	.	.	.	.
 16D\	.	.	.	.	.	.	.	.	.	.	.	.
@@ -1194,12 +1226,13 @@
 8FF#/J	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16B\	.	.	.	.	.
 =160	=160	=160	=160	=160	=160	=160	=160	=160	=160	=160	=160	=160
-!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!LO:MO:null:mod=f	!	!	!	!	!	!	!	!	!	!	!
 8BB/L	.	.	2ryy	2ryy	2ryy	2ryy	4B\	-la	2ryy	2ryy	2ryy	2ryy
-!LO:TX:b:t=Tutti	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:t=Tutti:mod=tutti	!	!	!	!	!	!	!	!	!	!	!	!
 16B\L	.	.	.	.	.	.	.	.	.	.	.	.
 16A#X\JJ	.	.	.	.	.	.	.	.	.	.	.	.
 !	!LO:DY:b:t=for	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!
 8B\L	f	.	.	.	.	.	4r	.	.	.	.	.
 8B\J	.	.	.	.	.	.	.	.	.	.	.	.
 =161	=161	=161	=161	=161	=161	=161	=161	=161	=161	=161	=161	=161
@@ -1288,5 +1321,7 @@
 !!!END: 2022-03-29
 !!!ENC: Urszula Świątek
 !!!END: 2022-03-30
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-08-31
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
