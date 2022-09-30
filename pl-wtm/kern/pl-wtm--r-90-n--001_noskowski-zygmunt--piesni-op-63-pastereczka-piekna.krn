@@ -21,7 +21,7 @@
 !!!ONB-nifc: UWAGA: w zbiorze 10 krótkich pieśni
 !!!OMD: Allegretto moderato
 !!!AIN: 1 empty
-!!!key:
+!!!key: G
 **kern	**kern	**text
 *part1	*part1	*part1
 *staff2	*staff1	*staff1
@@ -31,8 +31,10 @@
 *k[f#]	*k[f#]	*
 *G:	*G:	*
 *M2/4	*M2/4	*
+!LO:MO:mod=*null:null	!LO:MO:mod=*null:null	!
+*all\right	*all\right	*
 =1	=1	=1
-!	!LO:TX:a:i:t=Zaczęte w Sobotę 29/4 99\no G. 89 rano.	!
+!	!LO:TX:a:i:t=Zaczęte w Sobotę 29/4 99\no G. 89 rano.:mod=	!
 (16BLL 16G\	8.g/	Pas-
 16d\J	.	.
 8BJ 8G\)	.	.
@@ -46,6 +48,7 @@
 8cL 8G\	8e/	mi-
 8cJ 8G\	8d/	-ła,
 =3	=3	=3
+!	!	!LO:MO:mod=ca-
 (16BLL 16G\	8.g/	Ca-
 16d\J	.	.
 8BJ 8G\)	.	.
@@ -57,6 +60,7 @@
 16d\J	.	.
 8BJ 8G\)	8a/	tań-
 8BL 8G\	8b/	-czy-
+!	!	!LO:MO:mod=-ła.
 8BJ 8G\	8g/	-ła
 =5	=5	=5
 16GLL 16E\	8.a/	Nie
@@ -73,6 +77,7 @@
 8AL 8D\	8dd\	-ran-
 8AJ 8D\	8f#/	-ki,
 =7	=7	=7
+!	!	!LO:MO:mod=co
 4B 4G\	8e/	Co
 .	8b\	się
 4c#X 4A\	8a/	pa-
@@ -81,11 +86,14 @@
 4d\	8.f#/	śród
 .	16g/	po-
 4cn 4D\	8a/	-lan-
+!	!	!LO:MO:mod=-ki.
 .	8f#/	-ki
 =9	=9	=9
 4B 4G\	4g/	Me,
+!	!	!LO:MO:mod=me,
 4c 4A\	4f#/	me
 =10	=10	=10
+!	!	!LO:MO:mod=me!
 8.B\L	2d/	me
 16F#\Jk	.	.
 8G\L	.	.
@@ -93,6 +101,7 @@
 =11	=11	=11
 4G 4C\	8e/L	Me,
 .	8b/J	.
+!	!	!LO:MO:mod=me,
 8F#L 8D\	4a/	me
 8c\J	.	.
 =12	=12	=12
@@ -105,5 +114,22 @@
 !!!END: 2021-06-02
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-11
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!ENC-modern: Krzysztof Stępień
+!!!END-modern: 2022-09-26
+!!!filter-modern: shed -e "s/:t=P:/:T=P:/L"
+!!!filter-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I"
+!!!filter-modern: humtr -p
+!!!filter-modern: shed -e "s/yy//"
+!!!filter-modern: shed -k -e "s/\(y(?!y)/(/"
+!!!filter-modern: shed -k -e "s/([\(\)\[\]])[><]/$1/g"
+!!!filter-modern: shed -k -e “s/([()[]_])[><]/$1/g”
+!!!filter-modern: tie -s
+!!!filter-modern: shed -e "s/^(X?)rep$/$1REP/I"
+!!!filter-modern: shed -k -e "s/^(X?)tuplet/$1TUPLET/I"
+!!!filter-modern: shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L"
+!!!filter-modern: shed -e "s/LO:HP:(a|b)/LO:hp:$1/L"
+!!!filter-modern: shed -k -e "s/r[a-gA-G]+/r/D"
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#-])[<>]/$1/g"
+!!!filter-modern: sic -sq
+!!!filter-modern: autostem -r
+!!!filter-modern: modori -m

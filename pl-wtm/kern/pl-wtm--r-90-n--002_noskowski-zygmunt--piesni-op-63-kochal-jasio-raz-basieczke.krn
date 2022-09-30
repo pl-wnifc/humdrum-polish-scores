@@ -31,6 +31,8 @@
 *k[b-e-a-]	*k[b-e-a-]	*
 *E-:	*E-:	*
 *M6/8	*M6/8	*
+!LO:MO:mod=*null:null	!LO:MO:mod=*null:null	!
+*all\right	*all\right	*
 =1	=1	=1
 8E-\L	4r	.
 8B-\	.	.
@@ -48,6 +50,7 @@
 =3	=3	=3
 8E-\L	4g/	-siecz-
 8B-\	.	.
+!	!	!LO:MO:mod=-kę,
 8G\J	8e-/	-kę
 8E-\L	8r	.
 8B-\	8g/	Ba-
@@ -63,6 +66,7 @@
 8A-\L	4.cc\	-szecz-
 8c\	.	.
 8A-\J	.	.
+!	!	!LO:MO:mod=-kę.
 8C\L	4a-\	-kę
 8E-\	.	.
 8A-\J	8r	.
@@ -82,11 +86,13 @@
 8G\	8cc/J)	.
 8B-\J	8b-/	-bie
 =8	=8	=8
+!	!	!LO:MO:mod=i
 8D\L	4g/	I
 8A-\	.	.
 8B-\J	8f/	ze
 8BB-\L	4b-\	so-
 8F\	.	.
+!	!	!LO:MO:mod=-bą,
 8B-\J	8d/	-bą
 =9	=9	=9
 8E-\L	4e-/	i
@@ -94,8 +100,10 @@
 8B-\J	8f/	przy
 4E-\	(8g/L	so-
 .	8a-/J)	.
+!	!	!LO:MO:mod=-bie.
 8r	8b-\	-bie
 =10	=10	=10
+!	!	!LO:MO:mod=Oj,
 8A-\L	(4.cc\	Oj!
 8f\	.	.
 8e-\J	.	.
@@ -104,6 +112,7 @@
 8A-\J	.	.
 !!LO:LB:g=original
 =11	=11	=11
+!	!	!LO:MO:mod=tak!
 8G\L	2.b-\	tak
 8B-\	.	.
 8c\J	.	.
@@ -111,6 +120,7 @@
 8G\	.	.
 8E-\J	.	.
 =12	=12	=12
+!	!	!LO:MO:mod=Oj,
 8A-\L	(4.cc\	Oj
 8G\	.	.
 8A-\J	.	.
@@ -130,5 +140,22 @@
 !!!END: 2021-06-02
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-11
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!ENC-modern: Krzysztof Stępień
+!!!END-modern: 2022-09-28
+!!!filter-modern-modern: shed -e "s/:t=P:/:T=P:/L"
+!!!filter-modern-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I"
+!!!filter-modern-modern: humtr -p
+!!!filter-modern-modern: shed -e "s/yy//"
+!!!filter-modern-modern: shed -k -e "s/\(y(?!y)/(/"
+!!!filter-modern-modern: shed -k -e "s/([\(\)\[\]])[><]/$1/g"
+!!!filter-modern-modern: shed -k -e “s/([()[]_])[><]/$1/g”
+!!!filter-modern-modern: tie -s
+!!!filter-modern-modern: shed -e "s/^(X?)rep$/$1REP/I"
+!!!filter-modern-modern: shed -k -e "s/^(X?)tuplet/$1TUPLET/I"
+!!!filter-modern-modern: shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L"
+!!!filter-modern-modern: shed -e "s/LO:HP:(a|b)/LO:hp:$1/L"
+!!!filter-modern-modern: shed -k -e "s/r[a-gA-G]+/r/D"
+!!!filter-modern-modern: shed -k -e "s/([^a-gA-Gn#-])[<>]/$1/g"
+!!!filter-modern-modern: sic -sq
+!!!filter-modern-modern: autostem -r
+!!!filter-modern-modern: modori -m

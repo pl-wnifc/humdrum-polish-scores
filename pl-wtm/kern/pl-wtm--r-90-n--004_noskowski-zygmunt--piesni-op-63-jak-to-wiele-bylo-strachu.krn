@@ -42,6 +42,7 @@
 4A\	4a/	stra-
 2d\	2dd\	-chu,
 =3	=3	=3
+!	!	!LO:MO:mod=kie-
 8.c\	8.cc\	Kie-
 16A\	16a/	-dy
 8B-\	8b-\	pa-
@@ -50,9 +51,11 @@
 8E\	8e/	-padł
 =4	=4	=4
 4A\	4a/	z da-
+!	!	!LO:MO:mod=-chu.
 2D\	2d/	-chu
 =5	=5	=5
 *	*^	*
+!	!	!	!LO:MO:mod=Zła-
 4A 4AA\	8e/	4c\	zła-
 .	8e/	.	-mał
 2A 2D\	4.f/	2Bn\	so-
@@ -62,8 +65,10 @@
 4A 4AA\	8f/	4c\	no-
 .	8e/	.	-gę
 2E 2AA/	4a/	2c\	w sta-
+!	!	!	!LO:MO:mod=-wie,
 .	4g/	.	-wie
 =7	=7	=7	=7
+!	!	!	!LO:MO:mod=wszys-
 4F 4D\	8f/	4d\	Wszys-
 .	8a/	.	-tkie
 4d 4A 4F\	4.dd/	4.dd\	koś-
@@ -78,7 +83,7 @@
 4c#X 4A\	(4e/	pra-
 4G 4AA\	4c#X/)	.
 =9	=9	=9
-!	!LO:N:vis=2	!
+!	!LO:N:vis=2	!LO:MO:mod=-wie.
 4F 4D\	[2.d/	-wie
 4cn 4A 4D\	.	.
 4B- 4E 4D\	.	.
@@ -93,5 +98,22 @@
 !!!END: 2021-06-02
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-11
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!ENC-modern: Krzysztof Stępień
+!!!END-modern: 2022-09-28
+!!!filter-modern: shed -e "s/:t=P:/:T=P:/L"
+!!!filter-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I"
+!!!filter-modern: humtr -p
+!!!filter-modern: shed -e "s/yy//"
+!!!filter-modern: shed -k -e "s/\(y(?!y)/(/"
+!!!filter-modern: shed -k -e "s/([\(\)\[\]])[><]/$1/g"
+!!!filter-modern: shed -k -e “s/([()[]_])[><]/$1/g”
+!!!filter-modern: tie -s
+!!!filter-modern: shed -e "s/^(X?)rep$/$1REP/I"
+!!!filter-modern: shed -k -e "s/^(X?)tuplet/$1TUPLET/I"
+!!!filter-modern: shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L"
+!!!filter-modern: shed -e "s/LO:HP:(a|b)/LO:hp:$1/L"
+!!!filter-modern: shed -k -e "s/r[a-gA-G]+/r/D"
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#-])[<>]/$1/g"
+!!!filter-modern: sic -sq
+!!!filter-modern: autostem -r
+!!!filter-modern: modori -m
