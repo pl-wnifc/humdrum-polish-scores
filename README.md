@@ -1,6 +1,6 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7118990.svg)](https://doi.org/10.5281/zenodo.7118990)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7118989.svg)](https://doi.org/10.5281/zenodo.7118989)
 
 Digital scores from the Polish Heritage in Open Access project
 ==============================================================
@@ -47,8 +47,8 @@ People and Sponsors
 | Andrzej Kubiczek | 533 | 852,475 | 738 | 147 |  |
 | Andrzej Kubiczek> |  |  | 1 |  |  |
 | Marta Lawrence | 92 | 32,446 | 1,072 | 70 |  |
-| Arkadiusz Malec | 41 | 69,147 |  |  |  |
 | Arek Malec  | 1 | 804 |  |  |  |
+| Arkadiusz Malec | 41 | 69,147 |  |  |  |
 | Arek Malec | 3 | 1,774 |  |  |  |
 | Anastazja Marusiak | 560 | 751,293 | 2 |  |  |
 | Solarz Mateusz | 37 | 52,916 |  |  |  |
