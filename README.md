@@ -29,7 +29,7 @@ People and Sponsors
 | 2022-09-08 |  |  | 1 |  |  |
 | Jan Barakat |  |  | 232 |  | 99 |
 | Lidia Bialucha |  |  |  |  | 93 |
-| Andrzej Borzym | 372 | 604,978 | 428 | 262 |  |
+| Andrzej Borzym | 371 | 603,871 | 428 | 261 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 73 |
 | Elżbieta Cabała |  |  |  |  | 59 |
 | Marta Chmielewska | 153 | 191,995 | 461 |  |  |
@@ -45,13 +45,13 @@ People and Sponsors
 | Magdalena Agnieszka Krok |  |  |  |  | 7 |
 | Leszek Kubiak | 40 | 9,344 | 806 | 113 |  |
 | Andrzej Kubiczek | 533 | 852,475 | 739 | 147 |  |
-| Marta Lawrence | 92 | 32,446 | 1,072 | 70 |  |
+| Marta Lawrence | 92 | 32,446 | 1,071 | 70 |  |
 | Arkadiusz Malec | 45 | 71,725 | 1 |  |  |
-| Anastazja Marusiak | 560 | 751,293 | 2 |  |  |
+| Anastazja Marusiak | 559 | 750,875 | 2 |  |  |
 | Solarz Mateusz | 37 | 52,916 |  |  |  |
 | Anna Matuszewska | 194 | 321,091 | 170 |  |  |
 | Mateusz Mrugas | 1 | 2,963 | 237 |  | 80 |
-| Jędrzej Mróz | 21 | 3,957 | 241 |  |  |
+| Jędrzej Mróz | 21 | 3,957 | 240 |  |  |
 | Zofia Niedbalska | 1 | 425 | 75 |  |  |
 | Marta Opryszak | 168 | 261,790 | 1 |  | 51 |
 | Julita Ruszuk | 2 | 1,517 | 164 |  |  |
@@ -67,7 +67,7 @@ People and Sponsors
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 79 |
 | Urszula Świątek | 3 | 3,016 | 201 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 2 |
-| TOTALS | 7,191 | 10,632,398 | 6,561 | 664 | 944 |
+| TOTALS | 7,189 | 10,630,873 | 6,559 | 663 | 944 |
 
 </details>
 
@@ -104,13 +104,13 @@ to visit its webpage.
 The `Scores` column lists the number of digital transcriptions within
 each archive directory, and the `Notes` column gives the number of
 musical notes contained within those scores.   Currently there are
-7,193 scores containing a total of 10,632,754 notes.
+7,191 scores containing a total of 10,631,229 notes.
 
 <details><summary>Archives represented in repository</summary>
 
 | Siglum | Library | Scores |    % | Notes |    % |
 | ------ | ------- | -----: | ---: | ----: | ---: |
-| <a target="_blank" href="https://polishscores.org?s=pl-cz"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-cz.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern)</span></span> | [Jasna Góra Monastery](https://jasnagora.pl/en/o-sanktuarium/biblioteki/biblioteka-jasnogorska) | 1,295 | 18.0 | 3,347,583 | 31.4 |
+| <a target="_blank" href="https://polishscores.org?s=pl-cz"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-cz.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern)</span></span> | [Jasna Góra Monastery](https://jasnagora.pl/en/o-sanktuarium/biblioteki/biblioteka-jasnogorska) | 1,293 | 17.9 | 3,346,058 | 31.4 |
 | <a target="_blank" href="https://polishscores.org?s=pl-gd"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-gd.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-gd](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-gd/kern)</span></span> | [Gdańsk Library PAoS](https://bgpan.gda.pl/?lang=en) | 244 | 3.3 | 190,214 | 1.7 |
 | <a target="_blank" href="https://polishscores.org?s=pl-kc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kc/kern)</span></span> | [Czartoryski Library, Cracow](https://mnk.pl/branch/the-princes-czartoyski-library) | 108 | 1.5 | 73,359 | 0.6 |
 | <a target="_blank" href="https://polishscores.org?s=pl-kj"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kj.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kj](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kj/kern)</span></span> | [Jagiellonian Library, Cracow](https://bj.uj.edu.pl/en_GB/start-en) | 29 | 0.4 | 80,110 | 0.7 |
@@ -261,7 +261,7 @@ Composers
 | Grim, Józef | 15 | 3,934 |
 | Grose, Michael Ehregott | 1 | 1,092 |
 | Grossmann, Ludwik | 2 | 1,807 |
-| Gruberski, Eugenjusz | 2 | 2,214 |
+| Gruberski, Eugenjusz | 1 | 1,107 |
 | Guami, Gioseffo | 4 | 606 |
 | Guglielmi, Pietro Alessandro | 3 | 5,706 |
 | Habermann, Jan Piotr | 3 | 4,270 |
@@ -298,7 +298,7 @@ Composers
 | Kamiński, F. | 2 | 4,936 |
 | Kamiński, P. | 1 | 3,165 |
 | Kaspar | 6 | 4,653 |
-| Kasprzykowski, Ignacy | 13 | 8,407 |
+| Kasprzykowski, Ignacy | 12 | 7,989 |
 | Kellerer, Christophorus | 1 | 2,292 |
 | Kietliński, Albert | 1 | 555 |
 | Klakowski | 9 | 22,154 |
@@ -606,8 +606,8 @@ Composers
 | Pleyel, Ignace | 14 | 24,157 |
 | Bułakowski, Stefan | 13 | 15,440 |
 | Damse, Józef | 13 | 63,231 |
-| Kasprzykowski, Ignacy | 13 | 8,407 |
 | Singenberger, Johann Baptist | 13 | 2,366 |
+| Kasprzykowski, Ignacy | 12 | 7,989 |
 | Mrozowski, Tadeusz | 12 | 14,227 |
 | Pergolesi, Giovanni Battista | 12 | 15,351 |
 | Rzepko, Adolf | 12 | 23,735 |
@@ -758,7 +758,6 @@ Composers
 | Gabussi, Giulio Cesare | 2 | 237 |
 | Gostowski | 2 | 1,795 |
 | Grossmann, Ludwik | 2 | 1,807 |
-| Gruberski, Eugenjusz | 2 | 2,214 |
 | Hey-Stawicki, Michał | 2 | 576 |
 | Hlonowski, J. | 2 | 294 |
 | Hoffmeister, Franz Anton | 2 | 755 |
@@ -813,6 +812,7 @@ Composers
 | Grabowski, Stanisław | 1 | 5,485 |
 | Grem, Tomasz | 1 | 2,374 |
 | Grose, Michael Ehregott | 1 | 1,092 |
+| Gruberski, Eugenjusz | 1 | 1,107 |
 | Händel, Georg Friedrich | 1 | 298 |
 | Ingegneri, Marc'Antonio | 1 | 192 |
 | Isaac, Heinrich | 1 | 530 |
@@ -1021,8 +1021,8 @@ Composers
 | Łodwigowski, Edward Stefan | 50 | 9,154 |
 | Naumann, Johann Gottlieb | 4 | 8,629 |
 | Bądarzewska, Tekla | 7 | 8,598 |
-| Kasprzykowski, Ignacy | 13 | 8,407 |
 | Häser, August Ferdinand | 20 | 8,284 |
+| Kasprzykowski, Ignacy | 12 | 7,989 |
 | Dittersdorf, Carl Ditters von | 4 | 7,906 |
 | Constanzi | 9 | 7,842 |
 | Neumann | 4 | 7,842 |
@@ -1133,7 +1133,6 @@ Composers
 | Giżycka-Zamoyska, Ludmiła | 3 | 2,234 |
 | Figulenti | 1 | 2,221 |
 | Lachner, Ignaz | 3 | 2,218 |
-| Gruberski, Eugenjusz | 2 | 2,214 |
 | Zarzycki, Aleksander | 1 | 2,054 |
 | Mouton, Jean | 1 | 2,032 |
 | Potocka, Emilia | 1 | 2,017 |
@@ -1176,6 +1175,7 @@ Composers
 | Biandrà, Giovanni Pietro | 2 | 1,140 |
 | Caldara, Antonio | 1 | 1,138 |
 | Lhéritier, Jean | 1 | 1,127 |
+| Gruberski, Eugenjusz | 1 | 1,107 |
 | Scholenberger | 1 | 1,103 |
 | Grose, Michael Ehregott | 1 | 1,092 |
 | Schöpf | 2 | 1,076 |
