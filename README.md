@@ -44,7 +44,7 @@ People and Sponsors
 | Marcin Konik | 5 | 192 | 5 |  |  |
 | Magdalena Agnieszka Krok |  |  |  |  | 7 |
 | Leszek Kubiak | 40 | 9,344 | 806 | 113 |  |
-| Andrzej Kubiczek | 533 | 852,475 | 739 | 147 |  |
+| Andrzej Kubiczek | 533 | 852,475 | 739 | 149 |  |
 | Marta Lawrence | 92 | 32,446 | 1,071 | 70 |  |
 | Arkadiusz Malec | 45 | 71,725 | 1 |  |  |
 | Anastazja Marusiak | 559 | 750,875 | 2 |  |  |
@@ -56,7 +56,7 @@ People and Sponsors
 | Marta Opryszak | 168 | 261,790 | 1 |  | 51 |
 | Julita Ruszuk | 2 | 1,517 | 164 |  |  |
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
-| Katarzyna Serwa | 312 | 535,966 | 249 | 62 |  |
+| Katarzyna Serwa | 312 | 535,966 | 249 | 63 |  |
 | Mateusz Solarz | 597 | 890,507 | 10 |  |  |
 | Krzysztof Stępień | 476 | 692,238 | 122 | 9 |  |
 | Antoni Szymański |  |  | 543 |  | 60 |
@@ -67,7 +67,7 @@ People and Sponsors
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 79 |
 | Urszula Świątek | 3 | 3,016 | 201 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 2 |
-| TOTALS | 7,189 | 10,630,873 | 6,559 | 663 | 944 |
+| TOTALS | 7,189 | 10,630,873 | 6,559 | 666 | 944 |
 
 </details>
 
