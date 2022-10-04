@@ -1235,21 +1235,22 @@
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(g1)][(g2)][(g3)][(g4)]
-!!!RDF**kern: > = above
-!!!RDF**kern: < = below
-!!!RDF**kern: | = vertical stroke
+!!!system-decoration-mod: <s9>[(g1)][(g2)][(g3)]<s10>
 !!LO:MO:ori
 !!!RDF**dynam: f = "for"
 !!!RDF**dynam: p = "pian"
 !!LO:MO:mod
 !! !!!RDF**kern: @ = marked note, color=grey
 !!LO:MO:end
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
+!!!RDF**kern: | = vertical stroke
 !!!ENC: Marta Opryszak
 !!!END: 2022-04-07
 !!!ENC: Andrzej Borzym
 !!!END: 2022-04-27
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-09-26
-!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/:rj/:RJ/L" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L"| sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | extract -k 1,3-$,2 | shed -e "s/:rj/:RJ/L" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L"| sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
