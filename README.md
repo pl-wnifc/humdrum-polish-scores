@@ -42,15 +42,14 @@ People and Sponsors
 | Wojciech Jakubiak-Danek |  |  | 382 |  |  |
 | Berenika Jozajtis | 752 | 1,178,593 | 3 |  |  |
 | Marcin Konik | 5 | 192 | 5 |  |  |
-| Magdalena Agnieszka Krok |  |  |  |  | 14 |
-| Magdalena Agnieska Krok |  |  |  |  | 1 |
+| Magdalena Agnieszka Krok |  |  |  |  | 15 |
 | Leszek Kubiak | 40 | 9,344 | 806 | 113 |  |
 | Andrzej Kubiczek | 533 | 852,475 | 739 | 149 |  |
 | Marta Lawrence | 92 | 32,446 | 1,071 | 70 |  |
 | Arkadiusz Malec | 47 | 76,399 | 1 |  |  |
 | Anastazja Marusiak | 559 | 750,875 | 2 |  |  |
 | Solarz Mateusz | 37 | 52,916 |  |  |  |
-| Anna Matuszewska | 194 | 321,092 | 170 |  |  |
+| Anna Matuszewska | 194 | 321,101 | 170 |  |  |
 | Mateusz Mrugas | 1 | 2,963 | 237 |  | 80 |
 | Jędrzej Mróz | 21 | 3,957 | 240 |  |  |
 | Zofia Niedbalska | 1 | 425 | 75 |  |  |
@@ -59,7 +58,7 @@ People and Sponsors
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
 | Katarzyna Serwa | 312 | 535,966 | 249 | 65 |  |
 | Mateusz Solarz | 597 | 890,507 | 10 |  |  |
-| Krzysztof Stępień | 476 | 692,238 | 122 | 14 |  |
+| Krzysztof Stępień | 476 | 692,238 | 122 | 15 |  |
 | Antoni Szymański |  |  | 543 | 1 | 60 |
 | Konrad Tyszka |  |  |  |  | 75 |
 | Filip Voros | 431 | 562,712 | 1 |  |  |
@@ -68,7 +67,7 @@ People and Sponsors
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 79 |
 | Urszula Świątek | 3 | 3,016 | 201 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 2 |
-| TOTALS | 7,195 | 10,650,921 | 6,565 | 674 | 952 |
+| TOTALS | 7,195 | 10,650,930 | 6,565 | 675 | 952 |
 
 </details>
 
@@ -105,13 +104,13 @@ to visit its webpage.
 The `Scores` column lists the number of digital transcriptions within
 each archive directory, and the `Notes` column gives the number of
 musical notes contained within those scores.   Currently there are
-7,197 scores containing a total of 10,651,277 notes.
+7,197 scores containing a total of 10,651,286 notes.
 
 <details><summary>Archives represented in repository</summary>
 
 | Siglum | Library | Scores |    % | Notes |    % |
 | ------ | ------- | -----: | ---: | ----: | ---: |
-| <a target="_blank" href="https://polishscores.org?s=pl-cz"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-cz.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern)</span></span> | [Jasna Góra Monastery](https://jasnagora.pl/en/o-sanktuarium/biblioteki/biblioteka-jasnogorska) | 1,294 | 17.9 | 3,352,369 | 31.4 |
+| <a target="_blank" href="https://polishscores.org?s=pl-cz"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-cz.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern)</span></span> | [Jasna Góra Monastery](https://jasnagora.pl/en/o-sanktuarium/biblioteki/biblioteka-jasnogorska) | 1,294 | 17.9 | 3,352,378 | 31.4 |
 | <a target="_blank" href="https://polishscores.org?s=pl-gd"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-gd.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-gd](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-gd/kern)</span></span> | [Gdańsk Library PAoS](https://bgpan.gda.pl/?lang=en) | 244 | 3.3 | 190,214 | 1.7 |
 | <a target="_blank" href="https://polishscores.org?s=pl-kc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kc/kern)</span></span> | [Czartoryski Library, Cracow](https://mnk.pl/branch/the-princes-czartoyski-library) | 108 | 1.5 | 73,359 | 0.6 |
 | <a target="_blank" href="https://polishscores.org?s=pl-kj"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kj.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kj](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kj/kern)</span></span> | [Jagiellonian Library, Cracow](https://bj.uj.edu.pl/en_GB/start-en) | 29 | 0.4 | 80,110 | 0.7 |
@@ -510,7 +509,7 @@ Composers
 | Zangl, Johann Baptist | 6 | 3,045 |
 | Zarzycki, Aleksander | 1 | 2,054 |
 | Zarębski, Juliusz | 19 | 69,528 |
-| Zeidler, Józef | 32 | 101,425 |
+| Zeidler, Józef | 32 | 101,434 |
 | Ziegler | 3 | 4,902 |
 | Zieleniewicz, Mathias | 10 | 6,192 |
 | Zieleński, Mikołaj | 108 | 73,359 |
@@ -569,7 +568,7 @@ Composers
 | Troschel, Wilhelm | 34 | 45,123 |
 | Gotschalk, Filip | 33 | 65,232 |
 | Lasso, Orlando di | 33 | 6,612 |
-| Zeidler, Józef | 32 | 101,425 |
+| Zeidler, Józef | 32 | 101,434 |
 | Kozłowski, Józef | 31 | 117,875 |
 | Engel, Jan | 29 | 78,428 |
 | Brykner, Jerzy | 26 | 37,624 |
@@ -925,7 +924,7 @@ Composers
 | Maader, Ludwik | 46 | 116,004 |
 | Marenzio, Luca | 170 | 111,976 |
 | Hertz, Michał | 71 | 102,866 |
-| Zeidler, Józef | 32 | 101,425 |
+| Zeidler, Józef | 32 | 101,434 |
 | Wieniawski, Henryk | 36 | 89,137 |
 | Paderewski, Ignacy Jan | 101 | 84,575 |
 | Koperski, Maksymilian | 24 | 78,938 |
