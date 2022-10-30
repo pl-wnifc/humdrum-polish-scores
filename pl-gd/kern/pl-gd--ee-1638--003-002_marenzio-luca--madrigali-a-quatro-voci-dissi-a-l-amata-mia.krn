@@ -21,35 +21,39 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/klocki-introligatorskie/655 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: zbiór na stronach: Canto: s. 637-653, Alto: s. do 486-501, Tenore: s. do 334-349, Bassus: s. do 182-197. Uwaga: utwory podzielone wg tytułów w spisach treści dostępnych na końcu każdej księgi głosowej.
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
-!!!key:
+!!!key: F
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
 *I"BASSO	*	*I"TENORE	*	*I"ALTO	*	*I"CANTO	*
-*I'B.	*	*I'T.	*	*I'A.	*	*I'C.	*
+*mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*
+*I'B	*	*I'T	*	*I'A	*	*I'S	*
 *Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
 *ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*
 *clefF4	*	*clefC4	*	*clefC3	*	*clefC1	*
+*	*	*mclefGv2	*	*mclefG2	*	*mclefG2	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*
 *F:	*	*F:	*	*F:	*	*F:	*
-*M4/2	*	*M4/2	*	*M4/2	*	*M4/2	*
+*M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
 *met(C)	*	*met(C)	*	*met(C)	*	*met(C)	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
 *xywh-#183:1048,589,3528,817	*	*	*	*	*	*	*
 *	*	*xywh-#335:1054,492,3450,852	*	*	*	*	*
 *	*	*	*	*xywh-#487:1012,478,3526,901	*	*	*
 *	*	*	*	*	*	*xywh-#639:1050,442,3478,939	*
-!	!	!LO:TX:b:t=DIſſi	!	!	!	!	!
-0r	.	0r	.	2r	.	1f	Diſ-
-.	.	.	.	1f	Diſ-	.	.
+!	!	!LO:TX:b:t=DIſſi:mod=	!	!	!	!	!LO:MO:mod=Dis-
+00r	.	0r	.	2r	.	1f	DIſ-
+!	!	!	!	!	!LO:MO:mod=Dis-	!	!
+.	.	.	.	1f	DIſ-	.	.
 .	.	.	.	.	.	1g	-ſi
 .	.	.	.	2e\	-ſi	.	.
 =2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-
-0r	.	4r	.	4r	.	4r	.
+.	.	4r	.	4r	.	4r	.
 .	.	2F/	A	2f\	à	2a\	à
 .	.	4A/	l'a-	4c/	l'a-	4cc\	l'a-
 .	.	4G/	-ma-	4d\	-ma-	4b-\	-ma-
 .	.	4F/	-ta	4f\	-ta	4a\	-ta
+!	!	!	!LO:MO:mod=mia,	!	!LO:MO:mod=mia,	!	!LO:MO:mod=mia,
 .	.	2c\	mia	2e\	mia	4g/	mia
 .	.	.	.	.	.	4.a\	lu-
 =3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-
@@ -64,30 +68,34 @@
 .	.	.	.	4.f\	.	8a\	.
 .	.	.	.	.	.	16g/	.
 .	.	.	.	.	.	16f/	.
-!	!	!	!	!	!	!LO:SIC:v:t=custos a	!
 .	.	.	.	.	.	2g/	.
+!	!	!	!	!	!	!LO:MO:mod=*null:null	!
+*	*	*	*	*	*	*custos:a	*
 *	*	*	*	*	*	*xywh-#639:1042,1149,3462,753	*
 !	!	!	!	!	!	!LO:LB:g=original	!
 .	.	.	.	16e\	.	.	.
 .	.	.	.	16d\	.	.	.
-!	!	!	!	!LO:SIC:v:t=custos f	!	!	!
 .	.	.	.	4e\	.	.	.
+!	!	!	!	!LO:MO:mod=*null:null	!	!	!
+*	*	*	*	*custos:f	*	*	*
 *	*	*	*	*xywh-#487:1130,1167,3393,768	*	*	*
 !	!	!	!	!LO:LB:g=original	!	!	!
 =4-	=4-	=4-	=4-	=4-	=4-	=4-	=4-
 1r	.	1F	-la	2f\	-la	2a\	-la
 .	.	.	.	2a\	Che	2cc\	Che
-1F	Diſ-	2r	.	4a\	piu	4cc\	più
+!	!LO:MO:mod=Dis-	!	!	!	!	!	!
+1F	DIſ-	2r	.	4a\	piu	4cc\	più
 .	.	.	.	4g\	d'ogn'	4b-\	d'ogn'
 .	.	1c\	Diſ-	4f\	al-	4a\	al-
 .	.	.	.	4e\	-tra	4a\	-tra
 =5-	=5-	=5-	=5-	=5-	=5-	=5-	=5-
 1G	-ſi	.	.	1d	lu-	1g	lu-
-!	!	!LO:SIC:v:t=custos c	!	!	!	!	!
 !	!	!LO:N:acc=#	!	!	!	!	!
 .	.	2Bn\	-ſi	.	.	.	.
+!	!	!LO:MO:mod=*null:null	!	!	!	!	!
+*	*	*custos:c	*	*	*	*	*
 *	*	*xywh-#335:1093,1130,3411,760	*	*	*	*	*
-!	!	!LO:LB:g=original	!	!	!	!	!
+!	!	!LO:LB:g=original	!	!	!LO:MO:mod=-ce,	!	!LO:MO:mod=-ce,
 4r	.	4r	.	1e	-ce	1g	-ce
 2C/	à	2c\	à	.	.	.	.
 4E\	l'a-	4G/	l'a-	.	.	.	.
@@ -118,21 +126,24 @@
 .	.	.	.	.	.	2a\	à
 .	.	.	.	4.e\	-la	.	.
 .	.	.	.	.	.	4cc\	l'a-
-!	!	!	!	!LO:SIC:v:t=custos g	!	!	!
 .	.	.	.	8f\	.	.	.
+!	!	!	!	!LO:MO:mod=*null:null	!	!	!
+*	*	*	*	*custos:g	*	*	*
 *	*	*	*	*xywh-#487:1059,1661,3456,815	*	*	*
 !	!	!	!	!LO:LB:g=original	!	!	!
 =8-	=8-	=8-	=8-	=8-	=8-	=8-	=8-
 4r	.	4r	.	4g\	.	4b-\	-ma-
 2F\	à	2A/	à	2c/	à	4a\	-ta
+!	!	!	!	!	!	!	!LO:MO:mod=mia,
 .	.	.	.	.	.	2cc\	mia
-!LO:SIC:v:t=custos D	!	!LO:SIC:v:t=custos b-	!	!	!	!	!
 4C/	l'a-	4c\	l'a-	4e\	l'a-	.	.
-*	*	*xywh-#335:1077,1667,3465,760	*	*	*	*	*
-*xywh-#183:1127,1257,3458,691	*	*	*	*	*	*	*
+!LO:MO:mod=*null:null	!	!LO:MO:mod=*null:null	!	!	!	!	!
+*custos:D	*	*custos:B-	*	*	*	*	*
+*xywh-#183:1127,1257,3458,691	*	*xywh-#335:1077,1667,3465,760	*	*	*	*	*
 !LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!	!
 4D/	-ma-	4B-\	-ma-	4d\	-ma-	1r	.
 4F\	-ta	4A/	-ta	4c/	-ta	.	.
+!	!LO:MO:mod=mia,	!	!	!	!LO:MO:mod=mia	!	!
 2E\	mia	4G/	mia	2g\	imia	.	.
 .	.	4.c\	lu-	.	.	.	.
 =9-	=9-	=9-	=9-	=9-	=9-	=9-	=9-
@@ -156,8 +167,9 @@
 .	.	4Bn\	.	.	.	.	.
 =10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-
 2C/	-la	1c	-la	2e\	-la	2g/	-la
-!	!	!	!	!	!	!LO:SIC:v:t=custos a	!
 2F\	Che	.	.	2r	.	2a\	Che
+!	!	!	!	!	!	!LO:MO:mod=*null:null	!
+*	*	*	*	*	*	*custos:a	*
 *	*	*	*	*	*	*xywh-#639:1112,1669,3423,737	*
 !	!	!	!	!	!	!LO:LB:g=original	!
 4F\	più	2r	.	2r	.	4a\	piu
@@ -170,8 +182,9 @@
 .	.	4c\	d'ogn'	4e\	d'ogn'	4e/	.
 .	.	4B-y\	al-	4d\	al-	2.f/	.
 .	.	4A/	-tra	4d\	-tra	.	.
-!	!	!	!	!LO:SIC:v:t=custos A	!	!	!
 1C	.	1G	lu-	1c	lu-	.	.
+!	!	!	!	!LO:MO:mod=*null:null	!	!	!
+*	*	*	*	*custos:A	*	*	*
 *	*	*	*	*xywh-#487:1106,2233,3425,744	*	*	*
 !	!	!	!	!LO:LB:g=original	!	!	!
 .	.	.	.	.	.	8e/	.
@@ -179,8 +192,11 @@
 .	.	.	.	.	.	2e/	.
 *Xlig	*	*	*	*	*	*	*
 =12-	=12-	=12-	=12-	=12-	=12-	=12-	=12-
+!	!	!	!LO:MO:mod=-ce,	!	!LO:MO:mod=-ce,	!	!LO:MO:mod=-ce,
 2FF/	-ce	1F	-ce	4A/	-ce	2f/	-ce
+!	!	!	!	!	!LO:MO:mod=Ed	!	!
 .	.	.	.	2c/	Et	.	.
+!	!LO:MO:mod=Ed	!	!	!	!	!	!LO:MO:mod=Ed
 2F\	Et	.	.	.	.	2a\	Et
 .	.	.	.	2d\	al	.	.
 2G\	al	1r	.	.	.	2b-\	al
@@ -190,12 +206,15 @@
 =13-	=13-	=13-	=13-	=13-	=13-	=13-	=13-
 2B-\	cor	1r	.	.	.	2dd\	cor
 .	.	.	.	2g\	ad-	.	.
-!LO:SIC:v:t=custos G	!	!	!	!	!	!	!
 2A\	ad-	.	.	.	.	2cc\	ad-
 .	.	.	.	2f\	-du-	.	.
+!LO:MO:mod=*null:null	!	!	!	!	!	!	!
+*custos:G	*	*	*	*	*	*	*
 *xywh-#183:1143,1784,3465,691	*	*	*	*	*	*	*
-!LO:LB:g=original	!	!LO:SIC:v:t=custos A	!	!	!	!	!
+!LO:LB:g=original	!	!	!	!	!	!	!
 1G	-du-	1r	.	.	.	1b-	-du-
+!	!	!LO:MO:mod=*null:null	!	!	!	!	!
+*	*	*custos:A	*	*	*	*	*
 *	*	*xywh-#335:1046,2267,3511,714	*	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!	!	!
 .	.	.	.	8e\	.	.	.
@@ -204,14 +223,17 @@
 =14-	=14-	=14-	=14-	=14-	=14-	=14-	=14-
 4F\	-ce	2r	.	1f	-ce	4a\	-ce
 4.F\	Fiam-	.	.	.	.	4.a\	Fiam-
+!	!	!	!LO:MO:mod=Ed	!	!	!	!
 .	.	2A/	Et	.	.	.	.
 8E\	.	.	.	.	.	8g/	.
 8D/	.	.	.	.	.	8f/	.
-!	!	!	!	!	!	!LO:SIC:v:t=custos d	!
 8C/	.	.	.	.	.	8e/	.
+!	!	!	!	!	!	!LO:MO:mod=*null:null	!
+*	*	*	*	*	*	*custos:d	*
 *	*	*	*	*	*	*xywh-#639:1034,2204,3501,768	*
 !	!	!	!	!	!	!LO:LB:g=original	!
 4BB-/	.	2B-\	al	1r	.	4d/	.
+!	!LO:MO:mod=-me,	!	!	!	!	!	!LO:MO:mod=-me,
 4B-\	-me	.	.	.	.	4dd\	-me
 8A\	ſtra-	2c\	mio	.	.	8cc\	ſtra-
 8G\	.	.	.	.	.	8b-\	.
@@ -221,12 +243,14 @@
 4D/	.	2d\	cor	1r	.	4f/	.
 4G\	-li	.	.	.	.	4b-\	li e
 4r	.	2c\	ad-	.	.	4g/	ca-
+!	!LO:MO:mod=Ed	!	!	!	!	!	!
 4C/	Et	.	.	.	.	2a\	-te-
 2D/	al	1B-	-du-	1r	.	.	.
 .	.	.	.	.	.	8g/	.
 .	.	.	.	.	.	8f/	.
 2E\	mio	.	.	.	.	2g/	.
 =16-	=16-	=16-	=16-	=16-	=16-	=16-	=16-
+!	!	!	!	!	!LO:MO:mod=Ed	!	!LO:MO:mod=-ne,
 2F\	cor	1A	-ce	1c	Et	4a\	-ne
 .	.	.	.	.	.	8g/	.
 .	.	.	.	.	.	8f/	.
@@ -243,13 +267,19 @@
 .	.	4.c\	Fiam-	.	.	.	.
 4r	.	.	.	2e\	ad	4r	.
 .	.	8B-\	.	.	.	.	.
-!LO:SIC:v:t=custos BB-	!	!	!	!	!	!LO:SIC:v:t=custos d	!
+!	!LO:MO:mod=Ed	!	!	!	!	!	!LO:MO:mod=Ed
 4AA/	Et	8A/	.	.	.	4c/	Et
+!	!	!	!	!	!	!LO:MO:mod=*null:null	!
+*	*	*	*	*	*	*custos:d	*
 *	*	*	*	*	*	*xywh-#639:1057,2756,3470,753	*
-*xywh-#183:1119,2295,3473,730	*	*	*	*	*	*	*
-!LO:LB:g=original	!	!	!	!	!	!LO:LB:g=original	!
+!	!	!	!	!	!	!LO:LB:g=original	!
 .	.	8G/	.	.	.	.	.
+!LO:MO:mod=*null:null	!	!	!	!	!	!	!
+*custos:BB-	*	*	*	*	*	*	*
+*xywh-#183:1119,2295,3473,730	*	*	*	*	*	*	*
+!LO:LB:g=original	!	!	!	!	!	!	!
 2BB-/	al	4F/	.	2d\	du-	2d/	al
+!	!	!	!LO:MO:mod=-me,	!	!	!	!
 .	.	4f\	-me	.	.	.	.
 2C/	mio	8e\	ſtra-	2g\	-ce	2e/	mio
 .	.	8d\	.	.	.	.	.
@@ -265,28 +295,34 @@
 .	.	8F/	.	.	.	.	.
 .	.	2G/	.	.	.	.	.
 =19-	=19-	=19-	=19-	=19-	=19-	=19-	=19-
-!	!	!LO:SIC:v:t=custos c	!	!	!	!	!
+!	!	!	!LO:MO:mod=-ne,	!	!	!	!
 4AA/	-ce	1A	-ne	4r	.	2c/	-ce
+!	!	!LO:MO:mod=*null:null	!	!	!	!	!
+*	*	*custos:c	*	*	*	*	*
 *	*	*xywh-#335:1046,2766,3465,737	*	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!	!	!
 4.A\	Fiam-	.	.	4.c/	Fiam-	.	.
 .	.	.	.	.	.	4r	.
 8G\	.	.	.	8B-/	.	.	.
 8F\	.	.	.	8A/	.	4.f/	Fiam-
-!	!	!	!	!LO:SIC:v:t=custos F	!	!	!
 8E\	.	.	.	8G/	.	.	.
+!	!	!	!	!LO:MO:mod=*null:null	!	!	!
+*	*	*	*	*custos:F	*	*	*
 *	*	*	*	*xywh-#487:1130,2782,3393,775	*	*	*
 !	!	!	!	!LO:LB:g=original	!	!	!
 4D/	.	1r	.	4F/	.	.	.
 .	.	.	.	.	.	8g/	.
+!	!LO:MO:mod=-me,	!	!	!	!LO:MO:mod=-me,	!	!
 4d\	-me	.	.	4f\	-me	8a\	.
 .	.	.	.	.	.	8b-\	.
 8c\	ſtra-	.	.	8e\	ſtra-	4cc\	.
 8B-\	.	.	.	8d\	.	.	.
+!	!	!	!	!	!	!	!LO:MO:mod=-me,
 8A\	.	.	.	8c/	.	4cc\	-me
 8G\	.	.	.	8B-/	.	.	.
 =20-	=20-	=20-	=20-	=20-	=20-	=20-	=20-
 2F\	.	4r	.	4.A/	.	4r	.
+!	!	!	!	!	!	!	!LO:MO:mod=fiam-
 .	.	4.c\	Fiam-	.	.	4.a\	Fiam-
 .	.	.	.	8B-/	.	.	.
 2FF/	li e	.	.	2c/	.	.	.
@@ -294,12 +330,14 @@
 .	.	8A/	.	.	.	8f/	.
 .	.	8G/	.	.	.	8e/	.
 2BB-/	ca-	4F/	.	2B-/	-li	4d/	.
+!	!	!	!LO:MO:mod=-me,	!	!	!	!LO:MO:mod=-me,
 .	.	4f\	-me	.	.	4dd\	-me
 2C/	-te-	8e\	ſtra-	2r	.	8cc\	ſtra-
 .	.	8d\	.	.	.	8b-\	.
 .	.	8c\	.	.	.	8a\	.
-!	!	!	!	!	!	!LO:SIC:v:t=custos f	!
 .	.	8B-\	.	.	.	8g\	.
+!	!	!	!	!	!	!LO:MO:mod=*null:null	!
+*	*	*	*	*	*	*custos:f	*
 *	*	*	*	*	*	*xywh-#639:1050,3299,3462,745	*
 !	!	!	!	!	!	!LO:LB:g=original	!
 =21-	=21-	=21-	=21-	=21-	=21-	=21-	=21-
@@ -307,8 +345,9 @@
 .	.	2d\	li e	.	.	4b-\	li e
 2r	.	.	.	2f\	e	4a\	ca-
 .	.	4B-\	ca-	.	.	4.b-\	-te-
-!LO:SIC:v:t=custos F	!	!	!	!	!	!	!
 1r	.	1c	-te-	4e\	ca-	.	.
+!LO:MO:mod=*null:null	!	!	!	!	!	!	!
+*custos:F	*	*	*	*	*	*	*
 *xywh-#183:1127,2853,3465,723	*	*	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!	!	!
 .	.	.	.	.	.	8a\	.
@@ -320,20 +359,24 @@
 .	.	.	.	16d\	.	.	.
 .	.	.	.	4e\	.	.	.
 =22-	=22-	=22-	=22-	=22-	=22-	=22-	=22-
+!	!	!	!	!	!	!	!LO:MO:mod=-ne,
 2r	.	2F/	-ne	4.f\	.	1a	-ne
 .	.	.	.	16e\	.	.	.
 .	.	.	.	16d\	.	.	.
+!	!	!	!	!	!LO:MO:mod=-ne,	!	!
 2F\	Ch'ogn'	2A/	Ch'ogn'	2c/	-ne	.	.
 1F	hor	1c	hor	2r	.	2r	.
 .	.	.	.	2f\	Ch'ogn'	2a\	Ch'ogn'
 =23-	=23-	=23-	=23-	=23-	=23-	=23-	=23-
-!	!	!	!	!LO:SIC:v:t=custos e	!	!	!
 2r	.	2r	.	1a	hor	1cc	hor
+!	!	!	!	!LO:MO:mod=*null:null	!	!	!
+*	*	*	*	*custos:e	*	*	*
 *	*	*	*	*xywh-#487:1098,3346,3448,721	*	*	*
-!	!	!	!	!LO:LB:g=original	!	!	!
+!	!LO:MO:mod=*null:null	!	!LO:MO:mod=*null:null	!LO:LB:g=original	!	!	!
 *	*ij	*	*ij	*	*	*	*
 2F\	Ch'ogn'	2A/	Ch'ogn'	.	.	.	.
 1A	hor	1c	hor	4r	.	2r	.
+!	!LO:MO:mod=*null:null	!	!LO:MO:mod=*null:null	!	!	!	!
 *	*Xij	*	*Xij	*	*	*	*
 .	.	.	.	4e\	mi	.	.
 .	.	.	.	2f\	dan-	4r	.
@@ -341,8 +384,9 @@
 =24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-
 1r	.	2r	.	2g\	-no	2b-\	dan-
 .	.	4r	.	2a\	pe-	2cc\	-no
-!	!	!LO:SIC:v:t=custos B-	!	!	!	!	!
 .	.	4A/	mi	.	.	.	.
+!	!	!LO:MO:mod=*null:null	!	!	!	!	!
+*	*	*custos:B-	*	*	*	*	*
 *	*	*xywh-#335:1069,3312,3450,760	*	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!	!	!
 2r	.	2B-\	dan-	1g	-ne	2dd\	pe-
@@ -350,142 +394,184 @@
 4E\	mi	.	.	.	.	.	.
 =25-	=25-	=25-	=25-	=25-	=25-	=25-	=25-
 2F\	dan-	1d	pe-	1r	.	.	.
+!	!	!	!	!	!	!LO:SIC:v:s=8bn\	!
 .	.	.	.	.	.	8b-\	.
 .	.	.	.	.	.	8a\	.
 !	!	!	!	!	!	!LO:N:acc=#	!
 2G\	-no	.	.	.	.	2bn\	.
+!	!	!	!	!	!	!LO:MO:mod=*null:null	!
+*	*	*	*	*	*	*custos:cc	*
 *	*	*	*	*	*	*xywh-#639:1065,3850,3478,729	*
+!	!	!	!	!	!	!	!LO:MO:mod=-ne,
 0A	pe-	4c\	-ne	2r	.	2cc\	-ne
 .	.	4A/	Ch'ogn'	.	.	.	.
 .	.	2c\	hor	1e\	mi	4r	.
 .	.	.	.	.	.	4a\	Ch'ogn'
 =26-	=26-	=26-	=26-	=26-	=26-	=26-	=26-
 .	.	4r	.	.	.	2cc\	hor
+!	!	!	!LO:MO:mod=*null:null	!	!	!	!
 *	*	*	*ij	*	*	*	*
 .	.	4A/	Ch'ogn'	.	.	.	.
 .	.	4c\	hor	1f	dan-	2a\	mi
+!	!	!	!LO:MO:mod=*null:null	!	!	!	!
 *	*	*	*Xij	*	*	*	*
 .	.	4A/	mi	.	.	.	.
-!	!	!LO:N:acc=#	!	!	!	!	!
+!	!	!LO:N:acc=#	!	!	!	!	!LO:MO:mod=dan-
 0G	-ne:	2Bn\	dan-	.	.	2dd\	da(n)-
 .	.	1c\	-no	2e\	-no	2g/	-no
 =27-	=27-	=27-	=27-	=27-	=27-	=27-	=27-
 .	.	.	.	1d	pe-	1g	pe-
 !	!	!LO:N:acc=#	!	!	!	!	!
 .	.	2Bn\	pe-	.	.	.	.
+!	!	!	!LO:MO:mod=-ne&colon;	!	!LO:MO:mod=-ne&colon;	!	!LO:MO:mod=-ne&colon;
 1r	.	1c	-ne	1e	-ne	1g	-ne
 =28-	=28-	=28-	=28-	=28-	=28-	=28-	=28-
+!	!LO:MO:mod="Deh!	!	!LO:MO:mod="Deh!	!	!LO:MO:mod="Deh!	!	!LO:MO:mod="Deh!
 1.F	Deh	1.c	Deh	1.f	Deh	1a	Deh
 .	.	.	.	.	.	4r	.
 .	.	.	.	.	.	8a\	mo-
 .	.	.	.	.	.	8b-\	-ri-
+!	!	!	!	!	!	!	!LO:MO:mod=-rò,
 2r	.	2r	.	4r	.	2cc\	-rò
 .	.	.	.	8f\	mo-	.	.
 .	.	.	.	8g\	-ri-	.	.
 =29-	=29-	=29-	=29-	=29-	=29-	=29-	=29-
-1r	.	1r	.	2a\	-rò	4r	.
+0r	.	0r	.	2a\	-rò	4r	.
 .	.	.	.	.	.	8a\	mo-
 .	.	.	.	.	.	8b-\	-ri-
+!	!	!	!	!	!	!	!LO:MO:mod=-rò,
 .	.	.	.	4r	.	2.cc\	-rò
 .	.	.	.	8f\	mo-	.	.
 .	.	.	.	8g\	-ri-	.	.
-1r	.	1r	.	4a\	-rò	.	.
+.	.	.	.	4a\	-rò	.	.
 .	.	.	.	4f\	cor	4a\	cor
 .	.	.	.	2e\	mi-	2g/	mi-
 =30-	=30-	=30-	=30-	=30-	=30-	=30-	=30-
-!	!	!	!	!LO:SIC:v:t=custos f	!	!	!
+!	!	!	!	!	!LO:MO:mod=-o.	!	!LO:MO:mod=-o.
 2r	.	2r	.	2f\	-o	2f/	-o
+!	!	!	!	!LO:MO:mod=*null:null	!	!	!
+*	*	*	*	*custos:f	*	*	*
 *	*	*	*	*xywh-#487:1075,3848,3456,768	*	*	*
-!	!	!	!	!LO:LB:g=original	!	!	!
+!	!LO:MO:mod=Si,	!	!LO:MO:mod=Si,	!LO:LB:g=original	!	!	!
 2F\	ſi	2A/	ſi	2r	.	2r	.
-!	!	!	!	!	!	!LO:SIC:v:t=custos e	!
+!	!	!	!	!	!LO:MO:mod=Si,	!	!LO:MO:mod=Si,
 4r	.	4r	.	2f\	ſi	2a\	ſi
+!	!	!	!	!	!	!LO:MO:mod=*null:null	!
+*	*	*	*	*	*	*custos:e	*
 *	*	*	*	*	*	*xywh-#639:1034,4417,3493,753	*
-!	!	!	!	!	!	!LO:LB:g=original	!
+!	!LO:MO:mod=si,	!	!LO:MO:mod=si,	!	!	!LO:LB:g=original	!
 4F\	ſi	4c\	ſi	.	.	.	.
 4E\	mo-	4c\	mo-	2r	.	2r	.
 !	!	!LO:N:acc=#	!	!	!	!	!
-!	!	!LO:SIC:v:t=custos c	!	!	!	!	!
 4D/	-ri-	4Bn\	-ri-	.	.	.	.
+!	!	!LO:MO:mod=*null:null	!	!	!	!	!
+*	*	*custos:c	*	*	*	*	*
 *	*	*xywh-#335:1016,3865,3503,760	*	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!	!	!
 =31-	=31-	=31-	=31-	=31-	=31-	=31-	=31-
-!LO:SIC:v:t=custos C	!	!	!	!	!	!	!
+!	!LO:MO:mod=-rai,	!	!LO:MO:mod=-rai,	!	!	!	!
 1C	-rai	1c	-rai	2r	.	4r	.
+!LO:MO:mod=*null:null	!	!	!	!	!	!	!
+*custos:C	*	*	*	*	*	*	*
 *xywh-#183:1174,3427,3434,675	*	*	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!	!	!
 .	.	.	.	.	.	8e/	mo-
 .	.	.	.	.	.	8f/	-ri-
+!	!	!	!	!	!	!	!LO:MO:mod=-rò,
 .	.	.	.	4r	.	2g/	-rò
 .	.	.	.	8c/	mo-	.	.
 .	.	.	.	8d\	-ri-	.	.
+!	!	!	!	!	!LO:MO:mod=-rò,	!	!
 4r	.	4r	.	2e\	-rò	1r	.
+!	!LO:MO:mod=si,	!	!LO:MO:mod=si,	!	!	!	!
 4C/	ſi	4G/	ſi	.	.	.	.
 4BB-/	mo-	4G/	mo-	2r	.	.	.
 4AA/	-ri-	4F#X/	-ri-	.	.	.	.
 =32-	=32-	=32-	=32-	=32-	=32-	=32-	=32-
+!	!LO:MO:mod=-rai,	!	!LO:MO:mod=-rai,	!	!	!	!
 2GG/	-rai	4G/	-rai	2r	.	4r	.
 .	.	8G/	mo-	.	.	8b-\	mo-
 .	.	8A/	-ri-	.	.	8cc\	-ri-
+!	!	!	!LO:MO:mod=-rò,	!	!	!	!LO:MO:mod=-rò,
 4r	.	2B-y\	-rò	4r	.	2dd\	-rò
 8G\	mo-	.	.	8B-/	mo-	.	.
 8A\	-ri-	.	.	8c/	-ri-	.	.
+!	!LO:MO:mod=-rò,	!	!	!	!LO:MO:mod=-rò,	!	!
 1B-	-rò	4r	.	2d\	-rò	4r	.
 .	.	8d\	mo-	.	.	8b-\	mo-
 .	.	8e\	-ri-	.	.	8cc\	-ri-
+!	!	!	!LO:MO:mod=-rò,	!	!	!	!LO:MO:mod=-rò,
 .	.	2f\	-rò	4r	.	2.dd\	-rò
 .	.	.	.	8d\	mo-	.	.
 .	.	.	.	8e\	-ri-	.	.
 =33-	=33-	=33-	=33-	=33-	=33-	=33-	=33-
+!	!	!	!	!	!LO:MO:mod=-rò,	!	!
 1r	.	1r	.	4f\	-rò	.	.
 .	.	.	.	4d\	cor	4b-\	cor
 .	.	.	.	2c/	mi-	2a\	mi-
+!	!	!	!	!	!LO:MO:mod=-o.	!	!LO:MO:mod=-o.
 4r	.	4r	.	2B-/	-o	2b-\	-o
+!	!LO:MO:mod=si,	!	!LO:MO:mod=si,	!	!	!	!
 4B-\	ſi	4d\	ſi	.	.	.	.
 4A\	mo-	4c\	mo-	2r	.	2r	.
 !	!	!LO:N:acc=#	!	!	!	!	!
 4G\	-ri-	4Bn\	-ri-	.	.	.	.
 =34-	=34-	=34-	=34-	=34-	=34-	=34-	=34-
+!	!LO:MO:mod=-rai,	!	!LO:MO:mod=-rai,	!	!	!	!
 2F\	-rai	2c\	-rai	2r	.	2r	.
+!	!	!	!	!	!LO:MO:mod=Si,	!	!LO:MO:mod=Si,
 2r	.	2r	.	2f\	ſi	2a\	ſi
+!	!LO:MO:mod=si,	!	!LO:MO:mod=si,	!	!	!	!
 2F\	ſi	2A/	ſi	4r	.	4r	.
+!	!	!	!	!	!LO:MO:mod=si,	!	!LO:MO:mod=si,
 .	.	.	.	4f\	ſi	4cc\	ſi
 2r	.	2r	.	4e\	mo-	4cc\	mo-
-!	!	!	!	!LO:SIC:v:t=custos c	!	!LO:N:acc=#	!
+!	!	!	!	!	!	!LO:N:acc=#	!
 .	.	.	.	4d\	-ri-	4bn\	-ri-
+!	!	!	!	!LO:MO:mod=*null:null	!	!	!
+*	*	*	*	*custos:c	*	*	*
 *	*	*	*	*xywh-#487:1083,4443,3425,775	*	*	*
 !	!	!	!	!LO:LB:g=original	!	!	!
 =35-	=35-	=35-	=35-	=35-	=35-	=35-	=35-
+!	!	!	!	!	!LO:MO:mod=-rai,	!	!LO:MO:mod=-rai,
 2r	.	2r	.	2c/	-rai	2cc\	-rai
-!	!	!	!	!	!	!LO:SIC:v:t=custos g	!
 2C/	ma	2c\	ma	2e\	ma	2g/	ma
+!	!	!	!	!	!	!LO:MO:mod=*null:null	!
+*	*	*	*	*	*	*custos:g	*
 *	*	*	*	*	*	*xywh-#639:4582,512,3439,861	*
 !	!	!	!	!	!	!LO:LB:g=original	!
 2.C/	non	2.c\	non	2.e\	non	2.g/	non
-!	!	!LO:SIC:v:t=custos B-	!	!	!	!	!
 4AA/	per	4c\	per	4f\	per	4a\	per
+!	!	!LO:MO:mod=*null:null	!	!	!	!	!
+*	*	*custos:B-	*	*	*	*	*
 *	*	*xywh-#335:1031,4395,3457,837	*	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!	!	!
 =36-	=36-	=36-	=36-	=36-	=36-	=36-	=36-
 2BB-/	mio	2B-\	mio	2f\	mio	4d/	mio
 .	.	.	.	.	.	4e/	de-
 2D/	de-	2A/	de-	2F/	de-	2.f/	-ſi-
-!LO:SIC:v:t=custos FF	!	!	!	!	!	!	!
 1C	-ſi-	1c	-ſi-	1G	-ſi-	.	.
+!LO:MO:mod=*null:null	!	!	!	!	!	!	!
+*custos:FF	*	*	*	*	*	*	*
 *xywh-#183:1158,3930,3442,691	*	*	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!	!	!
 .	.	.	.	.	.	8e/	.
 .	.	.	.	.	.	8d/	.
 .	.	.	.	.	.	2e/	.
 =37-	=37-	=37-	=37-	=37-	=37-	=37-	=37-
+!	!	!	!LO:MO:mod=-o.	!	!LO:MO:mod=-o.	!	!LO:MO:mod=-o.
 2FF/	-o	2c\	-o	2A/	-o	2f/	-o
+!	!	!	!	!	!LO:MO:mod=Si,	!	!LO:MO:mod=Si,
 2r	.	2r	.	2f\	ſi	2a\	ſi
+!	!LO:MO:mod=Si,	!	!LO:MO:mod=Si,	!	!	!	!
 2F\	ſi	2A/	ſi	4r	.	4r	.
+!	!	!	!	!	!LO:MO:mod=si,	!	!LO:MO:mod=si,
 .	.	.	.	4f\	ſi	4cc\	ſi
 2r	.	2r	.	4e\	mo-	4cc\	mo-
 !	!	!	!	!	!	!LO:N:acc=#	!
 .	.	.	.	4d\	-ri-	4bn\	-ri-
 =38-	=38-	=38-	=38-	=38-	=38-	=38-	=38-
+!	!	!	!	!	!LO:MO:mod=-rai,	!	!LO:MO:mod=-rai,
 2r	.	2r	.	2c/	-rai	2cc\	-rai
 2C/	ma	2c\	ma	2e\	ma	2g/	ma
 2.C/	non	2.c\	non	2.e\	non	2.g/	non
@@ -499,10 +585,12 @@
 .	.	.	.	.	.	8d/	.
 .	.	.	.	.	.	2e/	.
 =40-	=40-	=40-	=40-	=40-	=40-	=40-	=40-
-0FF	-o.	0c	-o.	0A	-o.	0f	-o.
+!	!LO:MO:mod=-o."	!	!LO:MO:mod=-o."	!	!LO:MO:mod=-o."	!	!LO:MO:mod=-o."
+0FF/l	-o.	0c\l	-o.	0A/l	-o.	0f/l	-o.
 =-	=-	=-	=-	=-	=-	=-	=-
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+!!!RDF**kern: l = terminal long
 !!!ENC: Mateusz Solarz
 !!!END: 2022-06-25
 !!!ENC: Julita Ruszuk
@@ -512,3 +600,23 @@
 !!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-gd%3A57883/datastream/IIIF/view
 !!!ENC-iiif: Lidia Bialucha
 !!!END-iiif: 2022-09-13
+!!!ENC-modern: Krzysztof Stępień
+!!!END-modern: 2022-10-26
+!!!filter-modern: shed -e "s/:t=P:/:T=P:/L"
+!!!filter-modern: shed -e "s/-//B"
+!!!filter-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I"
+!!!filter-modern: humtr -p
+!!!filter-modern: shed -e "s/yy//"
+!!!filter-modern: shed -k -e "s/\(y(?!y)/(/"
+!!!filter-modern: shed -k -e "s/([\(\)\[\]])[><]/$1/g"
+!!!filter-modern: shed -k -e “s/([()[]_])[><]/$1/g”
+!!!filter-modern: tie -s
+!!!filter-modern: shed -e "s/^(X?)rep$/$1REP/I"
+!!!filter-modern: shed -k -e "s/^(X?)tuplet/$1TUPLET/I"
+!!!filter-modern: shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L"
+!!!filter-modern: shed -e "s/LO:HP:(a|b)/LO:hp:$1/L"
+!!!filter-modern: shed -k -e "s/r[a-gA-G]+/r/D"
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#-])[<>]/$1/g"
+!!!filter-modern: sic -sq
+!!!filter-modern: autostem -r
+!!!filter-modern: modori -m

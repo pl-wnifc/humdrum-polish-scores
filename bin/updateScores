@@ -82,7 +82,7 @@ exit(0);
 #	my @oldfiles = sort keys %ExistingFiles;
 #	foreach my $file (@oldfiles) {
 #		next if $ExistingFiles{$file};
-#		next if $file !~ /^((?:pl|s)-[a-z]+)-/;
+#		next if $file !~ /^((?:pl|s|d|f)-[a-z]+)-/;
 #		my $siglum = $1;
 #		print STDERR "Deleting file: $targdir/$siglum/kern/$file\n";
 #		unlink("$targdir/$siglum/kern/$file");
@@ -101,7 +101,7 @@ sub copyFiles {
 	foreach my $file (@SourceFiles) {
 		my $base = $file;
 		$base =~ s/.*\///;
-		next if $base !~ /^((?:pl|s)-[a-z]+)-/;
+		next if $base !~ /^((?:pl|s|d|f)-[a-z]+)-/;
 		my $siglum = $1;
 		die "Strange problem" if !-d "$targdir/$siglum/kern";
 		if (!-r "$targdir/$siglum/kern/$base") {
@@ -126,8 +126,12 @@ sub getExistingFiles {
 	my ($targdir) = @_;
 	my @files_pl = glob("$targdir/pl-*/kern/*.krn");
 	my @files_s = glob("$targdir/s-*/kern/*.krn");
+	my @files_d = glob("$targdir/d-*/kern/*.krn");
+	my @files_f = glob("$targdir/f-*/kern/*.krn");
 	my @files = @files_pl;
 	push(@files, @files_s);
+	push(@files, @files_d);
+	push(@files, @files_f);
 	my %output;
 	foreach my $file (@files) {
 		my $base = $file;
@@ -147,7 +151,7 @@ sub getExistingFiles {
 sub prepareDirectories {
 	my %libraries = @_;
 	foreach my $library (sort keys %libraries) {
-		if ($library !~ /^(pl|s)-/) {
+		if ($library !~ /^(pl|s|d|f)-/) {
 			print STDERR "WARNING: Poorly formatted siglum being ignored: $library\n";
 			next;
 		}
@@ -178,8 +182,8 @@ sub validateFilenames {
 		}
 		my $base = $file;
 		$base =~ s/.*\///;
-		if ($base !~ /^(?:pl|s)-(?:[a-z]+)--/) {
-			print STDERR "ERROR: Filename must start siglum '(pl|s)- in file base $base'\n";
+		if ($base !~ /^(?:pl|s|d|f)-(?:[a-z]+)--/) {
+			print STDERR "ERROR: Filename must start siglum '(pl|s|d|f)- in file base $base'\n";
 			$error++;
 		}
 	}
@@ -199,7 +203,7 @@ sub getLibraryInfo {
 	foreach my $file (@files) {
 		my $base = $file;
 		$base =~ s/.*\///;
-		if ($base =~ /^((?:pl|s)-[a-z]+)-/) {
+		if ($base =~ /^((?:pl|s|d|f)-[a-z]+)-/) {
 			my $siglum = $1;
 			$output{$siglum}++;
 		} else {
