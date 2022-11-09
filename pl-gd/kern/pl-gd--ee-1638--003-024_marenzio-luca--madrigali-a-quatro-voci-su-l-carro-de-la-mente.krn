@@ -22,22 +22,26 @@
 !!!ONB-nifc: UWAGA: zbiór na stronach: Canto: s. 637-653, Alto: s. do 486-501, Tenore: s. do 334-349, Bassus: s. do 182-197. Uwaga: utwory podzielone wg tytułów w spisach treści dostępnych na końcu każdej księgi głosowej.
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: F
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r | tie -s  | humtr -p | modori -m
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
 *I"BASSO	*	*I"TENORE	*	*I"ALTO	*	*I"CANTO	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
+*mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*
 *ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*
 *Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
 *clefF3	*	*clefC3	*	*clefC2	*	*clefG2	*
+*mclefF4	*	*mclefGv2	*	*mclefG2	*	*	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*
 *F:	*	*F:	*	*F:	*	*F:	*
 *M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
 *met(C)	*	*met(C)	*	*met(C)	*	*met(C)	*
+*mmet(c)	*	*mmet(c)	*	*mmet(c)	*	*mmet(c)	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
 *xywh-#194:1081,569,3442,846	*	*xywh-#346:1227,567,3390,844	*	*xywh-#498:1131,531,3413,848	*	*xywh-#650:1094,499,3499,869	*
 !LO:TX:t=P:problem: podwójnie zapisany bemol: BB- B-	!	!	!	!LO:TX:t=P:problem: podwójnie zapisany bemol: B- b-	!	!	!
-!LO:TX:a:t=Prima parta.	!	!LO:TX:a:t=Prima parta.	!	!LO:TX:a:t=Prima parta.	!	!LO:TX:a:t=Prima parta.	!
+!LO:TX:a:t=Prima parta.:mod=	!	!LO:TX:a:t=Prima parta.:mod=	!	!LO:TX:a:t=Prima parta.:mod=	!LO:MO:mod=Su'l	!LO:TX:a:t=Prima parta.:mod=	!LO:MO:mod=Su'l
 00r	.	00r	.	1c	SV`l	1cc	SV`l
 .	.	.	.	4c/	car-	1cc	car-
 .	.	.	.	4d/	-ro	.	.
@@ -49,13 +53,14 @@
 .	.	.	.	4g\	-te au-	.	.
 .	.	.	.	4a\	-ri-	.	.
 .	.	.	.	4b-\	-ga	.	.
-.	.	.	.	2.cc\	fie-	2a/	-la men-
+.	.	.	.	2.cc\	ſie-	2a/	-la men-
 =3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-
 1r	.	1r	.	.	.	1dd	-te
 .	.	.	.	8b-\	.	.	.
 .	.	.	.	8a\	.	.	.
 !	!	!	!	!LO:N:acc=#	!	!	!
 .	.	.	.	2bn\	.	.	.
+!	!LO:MO:mod=Su'l	!	!LO:MO:mod=Su'l	!	!	!	!
 1C	SV`l	1c	SV`l	2cc\	-di	1ee	au-
 !	!	!	!	!LO:SIC:v:t=custos g	!	!	!
 .	.	.	.	2g\	O	.	.
@@ -66,7 +71,7 @@
 4D/	-ro	.	.	.	.	.	.
 4E/	del-	.	.	2g\	-la	2gg\	-ga
 4C/	-la	.	.	.	.	.	.
-2.F/	men-	2c/	-ro	0a	don-	1ff	fie-
+2.F/	men-	2c/	-ro	0a	don-	1ff	ſie-
 .	.	1c\	del-	.	.	.	.
 4G\	-te	.	.	.	.	.	.
 =5-	=5-	=5-	=5-	=5-	=5-	=5-	=5-
@@ -74,7 +79,7 @@
 4B-\	-ri-	.	.	.	.	.	.
 2.c\	-ga	2A/	-la	.	.	.	.
 .	.	1d	men-	0g	-na	1r	.
-8B-\	fie-	.	.	.	.	.	.
+8B-\	ſie-	.	.	.	.	.	.
 8A\	.	.	.	.	.	.	.
 !LO:N:acc=#	!	!	!	!	!	!	!
 2Bn\	.	.	.	.	.	.	.
@@ -94,6 +99,7 @@
 .	.	.	.	.	.	8f/	.
 !	!	!	!	!	!	!LO:LB:g=original	!
 *	*	*	*	*	*	*xywh-#650:1159,1151,3433,749	*
+!	!	!	!	!	!LO:MO:mod=pren-	!	!
 1C	-na	2e\	-di	2.cc\	pre(n)-	1g	.
 .	.	2c/	O	.	.	.	.
 .	.	.	.	4b-y\	-di il	.	.
@@ -101,6 +107,7 @@
 2r	.	2c/	bel-	2a\	fre-	1e	-na
 2C/	e	2c/	-la	4g\	-no	.	.
 .	.	.	.	2cc\	al-	.	.
+!	!LO:MO:mod=pren-	!	!	!	!	!	!
 2.G\	pre(n)-	1d	don-	.	.	1r	.
 .	.	.	.	8b-\	-te-	.	.
 .	.	.	.	8a\	.	.	.
@@ -110,11 +117,13 @@
 =9-	=9-	=9-	=9-	=9-	=9-	=9-	=9-
 !	!	!LO:SIC:v:t=custos c	!	!	!	!	!
 2A\	fre-	1c	-na	4cc\	-ro e	2r	.
+!	!	!	!	!	!LO:MO:mod=pren-	!	!
 .	.	.	.	4c/	pre(n)-	.	.
 2A\	-no al-	.	.	4e/	-di	2cc\	e
 .	.	.	.	4c/	il	.	.
 !	!	!LO:LB:g=original	!	!	!	!	!
 *	*	*xywh-#346:1135,1123,3482,793	*	*	*	*	*
+!	!	!	!	!	!	!	!LO:MO:mod=pren-
 2G\	-te-	2r	.	4d/	fre-	2.gg\	pre(n)-
 .	.	.	.	4g\	-no al-	.	.
 2C/	-ro	2c/	e	2.cc\	-te-	.	.
@@ -157,6 +166,7 @@
 !LO:LB:g=original	!	!	!	!	!	!LO:LB:g=original	!
 *xywh-#194:1081,1814,3489,705	*	*	*	*	*	*xywh-#650:1202,1695,3379,728	*
 2d\	-ro	1f	reg-	2r	.	2r	.
+!LO:SIC:v:s=2.B-	!	!	!	!	!	!	!
 2.B\	On-	.	.	2.b-\	On-	2.dd\	On-
 =13-	=13-	=13-	=13-	=13-	=13-	=13-	=13-
 .	.	1f	-ga	.	.	.	.
@@ -186,7 +196,9 @@
 !	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!
 =15-	=15-	=15-	=15-	=15-	=15-	=15-	=15-
 *	*	*xywh-#346:1248,1721,3359,741	*	*xywh-#498:1070,2218,3454,756	*	*	*
+!	!LO:MO:mod=bian-	!	!	!	!LO:MO:mod=bian-	!	!
 1cny	biã(n)-	2a\	.	1.cc	biã(n)-	.	.
+!	!	!	!	!	!	!	!LO:MO:mod=bian-
 .	.	2g\	-co	.	.	1ee	biã(n)-
 1G	-co e`l	2r	.	.	.	.	.
 .	.	2g\	e`l	2b-y\	-co e`l	2dd\	-co e`l
@@ -256,18 +268,22 @@
 *	*	*	*	*	*	*xywh-#650:1224,2803,3346,706	*
 .	.	8e\	-di	8g\	-di	4.ee\	man
 .	.	8e\	per-	8g\	per-	.	.
+!	!	!	!LO:MO:mod=-co-	!	!LO:MO:mod=-co-	!	!
 .	.	4.g\	-coti-	4.cc\	-coti-	.	.
 .	.	.	.	.	.	8dd\	pet-
+!	!	!	!	!	!	!	!LO:MO:mod=-co-
 .	.	.	.	.	.	4.ee\	-coti-
-!	!	!	!	!LO:N:acc=#	!	!	!
+!	!	!	!LO:MO:mod=-ti_e	!LO:N:acc=#	!LO:MO:mod=-ti_e	!	!
 .	.	8g#X\	-e	8bn\	-e	.	.
 .	.	4a\	fie-	4cc\	fie-	.	.
+!	!	!	!	!	!	!	!LO:MO:mod=-ti_e
 .	.	.	.	.	.	8ff\	-e
 .	.	8f#X\	-di	8a\	-di	4.dd\	fie-
 .	.	8f#\	per-	8a\	per-	.	.
 .	.	4.g#\	-co-	4.b\	-co-	.	.
 .	.	.	.	.	.	8cc\	.
 .	.	.	.	.	.	2dd\	.
+!	!	!	!	!LO:SIC:v:s=8a	!	!	!
 .	.	8f#\	-ti e	8g\	-ti e	.	.
 !	!	!LO:SIC:v:t=custos c	!	!LO:SIC:v:t=custos cc	!	!	!
 !	!	!	!	!LO:N:acc=#	!	!	!
@@ -277,15 +293,22 @@
 *	*	*xywh-#346:1093,2823,3575,731	*	*xywh-#498:1162,3342,3352,746	*	*	*
 00r	.	2c/	-di	2cc\	-di	2ee\	-di
 .	.	1fny	Se	1a	Se	1cc	Se
+!	!	!	!	!	!LO:MO:mod=ri-	!	!LO:MO:mod=ri-
 .	.	4.B-/	ri-	4.b-y\	ribel-	4.dd\	ribel-
+!	!	!	!	!	!LO:MO:mod=-bel-	!	!LO:MO:mod=-bel-
 .	.	8F/	-bel-	8a\	-lan-	8cc\	-lan-
 =23-	=23-	=23-	=23-	=23-	=23-	=23-	=23-
+!	!	!	!	!	!LO:MO:mod=-lan-	!	!LO:MO:mod=-lan-
 .	.	4G/	-lan-	2.g\	-te	2.b-/	-te
 .	.	4A/	-te	.	.	.	.
 .	.	4B-/	tra-	.	.	.	.
+!	!	!	!LO:MO:mod=-vi-	!	!LO:MO:null:mod=-te	!	!LO:MO:null:mod=-te
 .	.	4c/	-u-	4e/	.	4a/	.
+!	!	!	!LO:MO:mod=-ar	!	!	!	!LO:MO:mod=tra-
 .	.	4d\	-iar	4f\	tra-	4b-/	trau-
+!	!	!	!	!	!LO:MO:mod=-vi-	!	!LO:MO:mod=-vi-
 .	.	4e\	dal	4g\	-u-	4cc\	-iar
+!	!	!	!	!	!LO:MO:mod=-ar	!	!LO:MO:null:mod=-ar
 .	.	2f\	ve-	4a\	-iar	4dd\	.
 .	.	.	.	2cc\	dal	4a/	dal
 =24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-
@@ -315,9 +338,11 @@
 .	.	.	.	4c/	ſo-	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!
 *	*	*	*	*xywh-#498:1039,3904,3454,725	*	*	*
+!	!LO:MO:mod=-a-	!	!LO:MO:mod=-a-	!	!LO:MO:mod=-a-	!	!LO:MO:mod=-a-
 1.E-X	-aue	1.g	-aue	1.e-X	-aue	1.b-	-aue
 =27-	=27-	=27-	=27-	=27-	=27-	=27-	=27-
 .	.	.	.	.	.	.	.
+!	!LO:MO:mod=ve_im-	!	!LO:MO:mod=ve_im-	!	!LO:MO:mod=ve_im-	!	!LO:MO:mod=ve_im-
 2E-yX/	im-	2g\	im-	2e-yX/	im-	2b-/	im-
 1F	-pe-	1f	-pe-	1c	-pe-	1a	-pe-
 =28-	=28-	=28-	=28-	=28-	=28-	=28-	=28-
@@ -389,22 +414,23 @@
 .	.	2g\	ve-	2bn\	-di	.	.
 !LO:LB:g=original	!	!	!	!	!	!LO:N:vis=00	!
 *xywh-#194:1128,3436,3384,658	*	*	*	*	*	*	*
-4F/	ſe	2a\	-di	2r	.	1%5cc	-di.
+4F/	ſe	2a\	-di	2r	.	[1cc	-di.
 4G\	gir	.	.	.	.	.	.
 4A\	drit-	2a\	il	4c/	ſe	.	.
 4B-y\	-to il	.	.	4d/	gir	.	.
 =36-	=36-	=36-	=36-	=36-	=36-	=36-	=36-
-1c	ue-	4g\	ue-	4e/	drit-	.	.
+!	!LO:MO:mod=ve-	!	!LO:MO:mod=ve-	!	!	!	!
+1c	ue-	4g\	ue-	4e/	drit-	0cc]l	.
 .	.	2f\	.	4f\	-to il	.	.
+!	!	!	!	!	!LO:MO:mod=ve-	!	!
 .	.	.	.	2g\	ue-	.	.
 .	.	4e\	.	.	.	.	.
 !LO:N:vis=00	!	!LO:N:vis=00	!	!LO:N:vis=00	!	!	!
-0.F	-di.	0.f	-di.	0.a	-di.	.	.
-=37-	=37-	=37-	=37-	=37-	=37-	=37-	=37-
-.	.	.	.	.	.	.	.
+1Fl	-di.	1fl	-di.	1al	-di.	.	.
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+!!!RDF**kern: l = terminal long
 !!!ENC: Filip Voros
 !!!END: 2022-06-27
 !!!ENC: Jan Barakat
@@ -414,3 +440,5 @@
 !!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-gd%3A57883/datastream/IIIF/view
 !!!ENC-IIIF: Zuzanna Daniec
 !!!END-IIIF: 2022-09-17
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-11-05

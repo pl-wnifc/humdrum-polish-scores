@@ -22,23 +22,28 @@
 !!!ONB-nifc: UWAGA: zbiór na stronach: Canto: s. 637-653, Alto: s. do 486-501, Tenore: s. do 334-349, Bassus: s. do 182-197. Uwaga: utwory podzielone wg tytułów w spisach treści dostępnych na końcu każdej księgi głosowej.
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: g:dor
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r | tie -s  | humtr -p | modori -m
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
 *I"BASSO	*	*I"TENORE	*	*I"ALTO	*	*I"CANTO	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
+*mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*
 *Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
 *ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*
 *clefF3	*	*clefC3	*	*clefC2	*	*clefG2	*
+*	*	*mclefGv2	*	*mclefG2	*	*	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*
 *g:dor	*	*g:dor	*	*g:dor	*	*g:dor	*
 *M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
 *met(C)	*	*met(C)	*	*met(C)	*	*met(C)	*
+*mmet(c)	*	*mmet(c)	*	*mmet(c)	*	*mmet(c)	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
 *xywh-#193:4520,569,3569,910	*	*xywh-#345:4710,1247,3400,731	*	*xywh-#497:4526,1124,3417,814	*	*xywh-#649:4619,1151,3403,781	*
 !LO:TX:t=P:problem=przy kluczu BB- B-	!	!	!	!	!	!	!
-!LO:TX:a:t=Seconda parte.	!	!	!	!	!	!	!
+!LO:TX:a:t=Seconda parte.:mod=	!LO:MO:mod=Ma	!	!LO:MO:mod=Ma	!	!	!	!
 1.d	MA	1.f	MA	1r	.	00r	.
+!	!	!	!	!	!LO:MO:mod=Ma	!	!
 .	.	.	.	1.a	MA	.	.
 2c\	per	2e\	per	.	.	.	.
 =2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-
@@ -50,6 +55,7 @@
 0B-	laſ-	0d	laſ-	.	.	1r	.
 .	.	.	.	4g\	.	.	.
 .	.	.	.	4f\	.	.	.
+!	!	!	!	!	!	!	!LO:MO:mod=Ma
 .	.	.	.	1g	.	1.dd	MA
 =4-	=4-	=4-	=4-	=4-	=4-	=4-	=4-
 0A	ſo	0e	ſo	0a	ſo	.	.
@@ -59,9 +65,11 @@
 2.G\	tor-	2.g\	tor-	2.d/	tor-	0b-	laſ-
 4G\	-na-	4g\	-na-	4d/	-na-	.	.
 2G\	-no_i	2g\	-no_i	2d/	-no_i	.	.
+!	!LO:MO:mod=più	!	!LO:MO:mod=più	!	!LO:MO:mod=più	!	!
 2G\	piu	2g\	piu	2e/	piu	.	.
 =6-	=6-	=6-	=6-	=6-	=6-	=6-	=6-
 1F	gra-	1c	gra-	1f	gra-	1a	-ſo
+!	!LO:MO:mod=-vi	!	!LO:MO:mod=-vi	!	!LO:MO:mod=-vi	!	!
 2D/	-ui	2B-/	-ui	1f	-ui	2.dd\	tor-
 2D/	So-	2A/	So-	.	.	.	.
 .	.	.	.	.	.	4dd\	-na-
@@ -70,6 +78,7 @@
 =7-	=7-	=7-	=7-	=7-	=7-	=7-	=7-
 *	*	*	*	*xywh-#497:4516,1745,3342,707	*	*	*
 1G	ſpi-	2.B-/	ſpi-	2r	.	2dd\	-no_i
+!	!	!	!	!	!	!	!LO:MO:mod=più
 .	.	.	.	1b-\	So-	2ee\	piu
 .	.	4c/	.	.	.	.	.
 0.F	ri	2d\	.	.	.	1ff	gra-
@@ -79,6 +88,7 @@
 !	!	!LO:LB:g=original	!	!	!	!	!
 =8-	=8-	=8-	=8-	=8-	=8-	=8-	=8-
 *	*	*xywh-#345:4690,1793,3400,690	*	*	*	*	*
+!	!	!	!	!	!	!	!LO:MO:mod=-vi
 .	.	4c/	.	2a\	.	2ff\	-ui
 .	.	4F/	.	.	.	.	.
 .	.	2.f\	.	1b-\	ſpi-	2dd\	So-
@@ -104,7 +114,7 @@
 =10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-
 2d\	cor	.	.	1a	pro-	2ff\	cor
 2D/	pro-	2d\	pro-	.	.	2f/	pro-
-2AA/	-ſon-	2c#X/	-ſon-	2a\	-ſon-	2e/	-ſon-
+2AA/	-fon-	2c#X/	-fon-	2a\	-fon-	2e/	-fon-
 2AA/	-do	2c#/	-do	1A/	-do	2e/	-do
 =11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-
 4D/	trag-	2d\	trag-	.	.	4f/	trag-
@@ -138,6 +148,7 @@
 !	!	!	!	!	!	!LO:LB:g=original	!
 =14-	=14-	=14-	=14-	=14-	=14-	=14-	=14-
 *	*	*	*	*	*	*xywh-#649:4639,2292,3362,668	*
+!	!	!	!	!	!LO:MO:mod=-vi	!	!
 2A\	-tò	2e\	ui	1a	ui	4cc\	-tò
 .	.	.	.	.	.	4b-/	le
 2F/	le	4r	.	.	.	2.a/	chia-
@@ -152,6 +163,7 @@
 .	.	.	.	.	.	8f/	.
 .	.	.	.	.	.	8e/	.
 .	.	.	.	.	.	2f#X/	.
+!	!LO:MO:mod=-vi	!	!LO:MO:mod=-vi	!	!	!	!LO:MO:mod=-vi
 0G	ui	1.d	-ui	.	.	1g	-ui
 =16-	=16-	=16-	=16-	=16-	=16-	=16-	=16-
 .	.	.	.	4b-\	E	4gg\	E
@@ -166,6 +178,7 @@
 8B-\	-gel-	8d\	-gel-	.	.	.	.
 =17-	=17-	=17-	=17-	=17-	=17-	=17-	=17-
 4c\	-let-	4e\	-let-	4g\	E	4ee\	E
+!	!	!	!	!	!LO:MO:mod=can-	!	!
 4c\	-ti	4e\	-ti	4g\	ca(n)-	4ee\	can-
 2r	.	2r	.	4cc\	-tar	4ee\	-tar
 .	.	.	.	8b-\	au-	8dd\	au-
@@ -174,6 +187,7 @@
 !	!	!	!	!	!	!LO:LB:g=original	!
 *	*	*	*	*	*	*xywh-#649:4619,2837,3516,658	*
 4B-\	E	4f\	E	4b-\	-let-	4dd\	-let-
+!	!	!	!LO:MO:mod=can-	!	!	!	!
 4B-\	can-	4d\	ca(n)-	4f\	-ti	4dd\	-ti
 4B-\	-tar	4d\	-tar	2r	.	2r	.
 8A\	au-	8c/	au-	.	.	.	.
@@ -183,6 +197,7 @@
 =18-	=18-	=18-	=18-	=18-	=18-	=18-	=18-
 *xywh-#193:4541,2338,3341,672	*	*xywh-#345:4659,2906,3441,628	*	*	*	*	*
 4A\	-let-	4c/	-let-	4e/	E	4cc\	E
+!	!	!	!	!	!LO:MO:mod=can-	!	!
 4A\	-ti	4c/	-ti	4e/	ca(n)-	4cc\	can-
 2r	.	2r	.	4a\	-tar	4cc\	-tar
 .	.	.	.	8g\	au-	8b-/	au-
@@ -269,6 +284,7 @@
 .	.	1c\	-a-	1e\	-a-	1g/	-a-
 =25-	=25-	=25-	=25-	=25-	=25-	=25-	=25-
 1r	.	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=-vi	!	!LO:MO:mod=-vi	!	!LO:MO:mod=-vi
 .	.	2c/	-ui	2e/	-ui	4g/	-ui
 .	.	.	.	.	.	2gg\	So-
 2c\	So-	4r	.	4r	.	.	.
@@ -312,12 +328,16 @@
 =29-	=29-	=29-	=29-	=29-	=29-	=29-	=29-
 1.F	-ſpre_e	.	.	2a\	-ſpre_e	.	.
 .	.	1d\	-re_a-	2b-\	ſel-	1b-\	ſel-
+!	!	!	!	!	!LO:MO:mod=-vag-	!	!
 .	.	.	.	2.cc\	-uag-	.	.
 2Eny/	ſel-	1c\	-ſpre_e	.	.	4a/	.
 .	.	.	.	4c/	.	4g/	.
 =30-	=30-	=30-	=30-	=30-	=30-	=30-	=30-
+!	!LO:MO:mod=-vag-	!	!	!	!	!	!
 1D	-uag-	.	.	0d	.	2f#X/	.
+!	!	!	!	!	!	!	!LO:MO:mod=-vag-
 .	.	2B-/	ſel-	.	.	1g/	-uag-
+!	!	!	!LO:MO:mod=-vag-	!	!	!	!
 1D	-ge	1A	-uag-	.	.	.	.
 .	.	.	.	.	.	2f#X/	.
 =31-	=31-	=31-	=31-	=31-	=31-	=31-	=31-
@@ -335,6 +355,7 @@
 =32-	=32-	=32-	=32-	=32-	=32-	=32-	=32-
 *	*	*	*	*	*	*xywh-#649:4629,4441,3382,771	*
 2C/	-to	2g\	So-	.	.	4r	.
+!	!	!	!	!	!	!	!LO:MO:mod=So-
 .	.	.	.	2e/	-no_un	2gg\	[s]o-
 2c\	So-	2eny\	no_un	.	.	.	.
 .	.	.	.	2c/	de-	2ee\	no_un
@@ -355,21 +376,25 @@
 1E-X	-re_a-	1.e-X	fe-	1g	-re_a-	.	.
 .	.	.	.	.	.	1cc\	-ſpre_e
 1.F	-ſpre_e	.	.	2a\	-ſpre_e	.	.
-.	.	1d\	-re_a-	2b-\	fel-	1b-\	fel-
+.	.	1d\	-re_a-	2b-\	sel-	1b-\	sel-
 =35-	=35-	=35-	=35-	=35-	=35-	=35-	=35-
 *	*	*	*	*xywh-#497:4537,4402,3514,728	*	*	*
+!	!	!	!	!	!LO:MO:mod=-vag-	!	!
 .	.	.	.	2.cc\	-uag-	.	.
 *	*	*	*	*	*	*	*
-2Eny/	fel-	1c\	-ſpre_e	.	.	4a/	.
+2Eny/	sel-	1c\	-ſpre_e	.	.	4a/	.
 .	.	.	.	4c/	.	4g/	.
+!	!LO:MO:mod=-vag-	!	!	!	!	!	!
 0D	-uag-	.	.	0d	.	2f#X/	.
-.	.	2B-/	fel-	.	.	1g/	-uag-
+!	!	!	!	!	!	!	!LO:MO:mod=-vag-
+.	.	2B-/	sel-	.	.	1g/	-uag-
 =36-	=36-	=36-	=36-	=36-	=36-	=36-	=36-
+!	!	!	!LO:MO:mod=-vag-	!	!	!	!
 .	.	1A	-uag-	.	.	.	.
 .	.	.	.	.	.	2f#X/	.
 !	!	!	!	!LO:N:acc=#	!	!	!
 1Gl	ge.	1Gl	ge.	1Bnl	-ge.	1gl	-ge.
-!LO:TX:b:t=Madrigali di Luca Marenzio. Lib. I. a 4. Q finis.	!	!LO:TX:b:t=Madrigali di Luca Marenzio. Lib. 1. a 4. H	!	!LO:TX:b:t=Madrigali di Luca Marenzio. Lib. 1. a 4.	!	!LO:TX:b:t=Madrigali di Luca Marenzio. Lib. 1. a 4. D	!
+!LO:TX:b:t=Madrigali di Luca Marenzio. Lib. I. a 4. Q finis.:mod=	!	!LO:TX:b:t=Madrigali di Luca Marenzio. Lib. 1. a 4. H:mod=	!	!LO:TX:b:t=Madrigali di Luca Marenzio. Lib. 1. a 4.:mod=	!	!LO:TX:b:t=Madrigali di Luca Marenzio. Lib. 1. a 4. D:mod=	!
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(*)]
@@ -383,3 +408,5 @@
 !!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-gd%3A57883/datastream/IIIF/view
 !!!ENC-IIIF: Zuzanna Daniec
 !!!END-IIIF: 2022-09-17
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-11-05

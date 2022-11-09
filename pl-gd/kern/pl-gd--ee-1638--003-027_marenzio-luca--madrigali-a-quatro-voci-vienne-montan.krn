@@ -21,33 +21,42 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/klocki-introligatorskie/655 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!ONB-nifc: UWAGA: zbiór na stronach: Canto: s. 637-653, Alto: s. do 486-501, Tenore: s. do 334-349, Bassus: s. do 182-197. Uwaga: utwory podzielone wg tytułów w spisach treści dostępnych na końcu każdej księgi głosowej.
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
-!!!key:
+!!!key: F
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r | tie -s  | humtr -p | modori -m
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
 *I"BASSO	*	*I"TENORE	*	*I"ALTO	*	*I"CANTO	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
+*mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*
 *ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*
 *Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
 *clefF4	*	*clefC4	*	*clefC3	*	*clefC1	*
+*	*	*mclefGv2	*	*mclefG2	*	*	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*
-*C:	*	*C:	*	*C:	*	*C:	*
+*F:	*	*F:	*	*F:	*	*F:	*
 *M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
 *met(C)	*	*met(C)	*	*met(C)	*	*met(C)	*
+*mmet(c)	*	*mmet(c)	*	*mmet(c)	*	*mmet(c)	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
 *xywh-#195:4592,571,3391,844	*	*xywh-#347:4669,608,3390,772	*	*xywh-#499:4565,531,3444,889	*	*xywh-#651:4636,532,3444,869	*
-!LO:TX:a:t=Prima parte.	!	!LO:TX:a:t=Prima parte.	!	!LO:TX:a:t=Prima parte.	!	!LO:TX:a:t=Prima parte.	!
+!LO:TX:a:t=Prima parte.:mod=	!	!LO:TX:a:t=Prima parte.:mod=	!	!LO:TX:a:t=Prima parte.:mod=	!LO:MO:mod=Vien-	!LO:TX:a:t=Prima parte.:mod=	!LO:MO:mod=Vien-
 0r	.	0r	.	1f	VIen-	1cc	VIen-
 .	.	.	.	2f\	-ne	2a\	-ne
+!	!	!	!	!	!LO:MO:mod=Mon-	!	!LO:MO:mod=Mon-
 .	.	.	.	2e\	Mõ(n)-	2g/	Mõ(n)-
 =2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-
+!	!LO:MO:mod=Vien-	!	!LO:MO:mod=Vien-	!	!	!	!
 1F	VIen-	1c	VIen-	1f	-tan	1f	-tan
 2F\	-ne	2A/	-ne	1r	.	1r	.
+!	!	!	!LO:MO:mod=Mon-	!	!	!	!
 2E\	Mon-	2G/	Mõ(n)-	.	.	.	.
 =3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-
 1F	-tan	1F	-tan	1r	.	1r	.
+!	!	!	!LO:MO:mod=Vien-	!	!LO:MO:mod=Vien-	!	!
 2F\	Vien-	2A/	Vie(n)-	2f\	Vie(n)-	2cc\	Vien-
 4F\	-ne	4c\	-ne	4f\	-ne	4a\	-ne
+!	!	!	!	!	!LO:MO:mod=Mon-	!	!
 4BB-/	Mon-	4B-\	Mon-	4f\	Mõ(n)-	4dd\	Mon-
 =4-	=4-	=4-	=4-	=4-	=4-	=4-	=4-
 2F\	-tan	2A/	-tan	2f\	-tan	2cc\	-tan
@@ -82,7 +91,7 @@
 2C/	-be	2c\	-be	2e\	-be	2g/	-be e
 =7-	=7-	=7-	=7-	=7-	=7-	=7-	=7-
 2r	.	2r	.	4r	.	4.cc\	i cac-
-.	.	.	.	4c/	ei	.	.
+.	.	.	.	4c/	e i	.	.
 .	.	.	.	.	.	8b-\	-cia-
 4r	.	4r	.	4.f\	cac-	2a\	-tor
 4D/	s`im-	4A/	s`im-	.	.	.	.
@@ -181,7 +190,7 @@
 2E-X\	-ta-	2B-\	-ta-	2g\	-ta-	2ee-X\	-ta-
 2BB-/	-te ac-	2B-\	-te ac-	2f\	-te ac-	2dd\	-te ac-
 =16-	=16-	=16-	=16-	=16-	=16-	=16-	=16-
-2.F\	-ciò 	2.A/	-ciò 	2.f\	-ciò 	2.cc\	-ciò
+2.F\	-ciò	2.A/	-ciò	2.f\	-ciò	2.cc\	-ciò
 4G\	che i	4G/	che i	4d\	che i	4b-\	che i
 2.F\	mon-	2.A/	mon-	2.f\	mon-	2.cc\	mon-
 =17-	=17-	=17-	=17-	=17-	=17-	=17-	=17-
@@ -194,25 +203,31 @@
 *	*	*	*	*	*	*xywh-#651:4636,2749,3390,804	*
 *M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
 *met(C)	*	*met(C)	*	*met(C)	*	*met(C)	*
+*mmet(c)	*	*mmet(c)	*	*mmet(c)	*	*mmet(c)	*
 4.BB-/	noſ-	4.B-\	noſ-	4.d\	noſ-	4.f/	noſ-
 8BB-/	-ca-	8B-\	-ca-	8d\	-ca-	8f/	-ca-
 !LO:SIC:v:t=custos F	!	!LO:SIC:v:t=custos c	!	!LO:SIC:v:t=custos f	!	!	!
 2BB-/	-no	2B-\	-no	2d\	-no	2f/	-no
 !LO:LB:g=original	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!
 *xywh-#195:4614,2820,3379,696	*	*xywh-#347:4659,2823,3390,690	*	*xywh-#499:4626,2862,3423,643	*	*	*
+!	!	!	!LO:MO:mod=Quan-	!	!LO:MO:mod=Quan-	!	!
 4F\	Quan-	4c\	Quã(n)-	4f\	Quã(n)-	4a\	Quan-
 4D/	-to`l	4d\	-to`l	4f#X\	-to`l	4a\	-to`l
 !	!	!	!	!	!	!LO:N:acc=#	!
 2G\	ſe-	2d\	ſe-	2g\	ſe-	2bn\	ſe-
 =19-	=19-	=19-	=19-	=19-	=19-	=19-	=19-
-!	!	!	!	!	!	!	!
 4G\	-col	4d\	-col	4g\	-col	4bny\	-col
 4C/	per-	4e\	per-	4g\	per-	4cc\	per-
 4.F\	-du-	4.c\	-du-	4.fny\	-du-	4.a\	-du-
-8Eny\	-to 	8c\	-to 	8g\	-to 	8g/	-to
+!	!LO:MO:mod=to in	!	!LO:MO:mod=to in	!	!LO:MO:mod=to in	!	!LO:MO:mod=to in
+8Eny\	-to	8c\	-to	8g\	-to	8g/	-to
+!	!LO:MO:mod=voi	!	!LO:MO:mod=voi	!	!LO:MO:mod=voi	!	!LO:MO:mod=voi
 4F\	in	4c\	in	4f\	in	4a\	in
+!	!LO:MO:mod=ri-	!	!LO:MO:mod=ri-	!	!LO:MO:mod=ri-	!	!LO:MO:mod=ri-
 4G\	uoi	4B-\	uoi	4d\	uoi	4g/	uoi
+!	!LO:MO:mod=-no-	!	!LO:MO:mod=-no-	!	!LO:MO:mod=-no-	!	!LO:MO:mod=-no-
 4.D/	ri-	4.A/	ri-	4.d\	ri-	4.f#X/	ri-
+!	!LO:MO:mod=-va-	!	!LO:MO:mod=-va-	!	!LO:MO:mod=-va-	!	!LO:MO:mod=-va-
 8D/	-noua-	8A/	-noua-	8d\	-noua-	8f#/	-noua-
 =20-	=20-	=20-	=20-	=20-	=20-	=20-	=20-
 1GG	-ſi	1G	-ſi	2d\	-ſi	2g/	-ſi
@@ -255,7 +270,7 @@
 1r	.	0r	.	4g\	che i	4b-\	che i
 .	.	.	.	4.a\	cam-	4.cc\	cam-
 .	.	.	.	8g\	-pi	8b-\	-pi
-.	.	.	.	2f\	fi	2a\	fi
+.	.	.	.	2f\	ſi	2a\	ſi
 =23-	=23-	=23-	=23-	=23-	=23-	=23-	=23-
 2F\	fin	.	.	.	.	.	.
 .	.	.	.	4e\	rin-	4cc\	rin-
@@ -266,9 +281,9 @@
 .	.	4A/	fin	.	.	.	.
 2G\	-pi	2B-\	che i	2r	.	2r	.
 =24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-
-2.F\	fi	4.c\	cam-	1r	.	1r	.
+2.F\	ſi	4.c\	cam-	1r	.	1r	.
 .	.	8B-\	-pi	.	.	.	.
-.	.	4A/	fi	.	.	.	.
+.	.	4A/	ſi	.	.	.	.
 4E\	rin-	4c\	rin-	.	.	.	.
 !	!	!LO:N:acc=#	!	!	!	!	!
 4.D/	-foſ-	4.Bn\	-foſ-	1r	.	1r	.
@@ -293,12 +308,14 @@
 .	.	.	.	.	.	4a\	-co a
 .	.	.	.	8f\	che	.	.
 .	.	.	.	4e\	me-	4g/	can-
-.	.	.	.	4d\	-co a-	4fny/	-tar
-!LO:TX:t=P:problem: wpisana pauza graficznie nie wyświetla się	!	!	!	!	!	!	!
-1r	.	1r	.	4c/	-cã(n)-	4.g/	pro-
+.	.	.	.	4d\	-co a	4fny/	-tar
+!LO:TX:t=P:problem: wpisana pauza graficznie nie wyświetla się	!	!	!	!	!LO:MO:mod=can-	!	!
+1r	.	1r	.	4c/	cã(n)-	4.g/	pro-
 .	.	.	.	4B-/	-tar	.	.
+!	!	!	!	!	!	!	!LO:MO:mod=-va-
 .	.	.	.	.	.	8g/	-ua-
 .	.	.	.	4.c/	pro-	1g\	-ſi
+!	!	!	!	!	!LO:MO:mod=-va-	!	!
 .	.	.	.	8c/	-ua-	.	.
 =27-	=27-	=27-	=27-	=27-	=27-	=27-	=27-
 4C/	Guar-	2r	.	1c	-ſi	.	.
@@ -368,13 +385,16 @@
 .	.	4A/	.	.	.	.	.
 !	!	!LO:N:acc=#	!	!	!	!	!
 .	.	2.Bn\	.	.	.	.	.
+!	!LO:MO:mod=-va-	!	!	!	!LO:MO:mod=-va-	!	!LO:MO:mod=-va-
 2GG/	-ua-	.	.	2d\	ua-	2g/	ua-
-.	.	4B\	ua-	.	.	.	.
+!	!	!	!LO:MO:mod=-va-	!	!	!	!
+.	.	4B\	-ua-	.	.	.	.
 =34-	=34-	=34-	=34-	=34-	=34-	=34-	=34-
-00C	-ſi.	00c	-ſi.	00e	-ſi.	00g	-ſi.
+0Cl	-ſi.	0cl	-ſi.	0el	-ſi.	0gl	-ſi.
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
+!!!RDF**kern: l = terminal long
 !!!ENC: Filip Voros
 !!!END: 2022-06-29
 !!!ENC: Natalia Wrzos

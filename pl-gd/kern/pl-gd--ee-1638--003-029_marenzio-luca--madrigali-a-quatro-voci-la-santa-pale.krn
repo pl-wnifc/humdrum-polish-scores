@@ -22,24 +22,28 @@
 !!!ONB-nifc: UWAGA: zbiór na stronach: Canto: s. 637-653, Alto: s. do 486-501, Tenore: s. do 334-349, Bassus: s. do 182-197. Uwaga: utwory podzielone wg tytułów w spisach treści dostępnych na końcu każdej księgi głosowej.
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: F
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r | tie -s  | humtr -p | modori -m
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
 *I"BASSO	*	*I"TENORE	*	*I"ALTO	*	*I"CANTO	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
+*mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*
 *ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*
 *Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
 *clefF4	*	*clefC4	*	*clefC3	*	*clefC1	*
+*	*	*mclefGv2	*	*mclefG2	*	*mclefG2	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*
 *F:	*	*F:	*	*F:	*	*F:	*
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 *met(C)	*	*met(C)	*	*met(C)	*	*met(C)	*
+*mmet(c)	*	*mmet(c)	*	*mmet(c)	*	*mmet(c)	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
 *xywh-#196:4624,521,3314,898	*	*xywh-#348:4690,536,3462,803	*	*xywh-#500:4575,501,3403,899	*	*xywh-#652:4625,478,3379,858	*
-!LO:TX:b:t=LA ſanta Pale.	!	!LO:TX:b:t=LA ſanta Pale.	!	!	!	!	!
-!LO:TX:a:t=Terza, & ultima parte.	!	!LO:TX:a:t=Terza, & ultima parte.	!	!LO:TX:a:t=Terza, & ultima parte.	!	!	!
+!LO:TX:b:t=LA ſanta Pale.:mod=	!	!LO:TX:b:t=LA ſanta Pale.:mod=	!	!	!	!	!
+!LO:TX:a:t=Terza, & ultima parte.:mod=	!	!LO:TX:a:t=Terza, & ultima parte.:mod=	!	!LO:TX:a:t=Terza, & ultima parte.:mod=	!LO:MO:mod=La	!	!
 00r	.	00r	.	1f	LA	2r	.
-!	!	!	!	!	!	!LO:TX:a:t=Terza, & ultima parte.	!
+!	!	!	!	!	!	!LO:TX:a:t=Terza, & ultima parte.:mod=	!LO:MO:mod=La
 .	.	.	.	.	.	2f/	LA
 =2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-
 .	.	.	.	2f\	ſan-	2a\	ſan-
@@ -52,12 +56,12 @@
 .	.	.	.	4f\	in-	4a\	in-
 =5-	=5-	=5-	=5-	=5-	=5-	=5-	=5-
 00r	.	00r	.	4g\	-ten-	4b-\	-ten-
-.	.	.	.	4.a\	-ta	4.cc\	-ta
-.	.	.	.	8a\	ode	8cc\	ode
-.	.	.	.	4g\	il	4b-\	il
+.	.	.	.	4.a\	-ta o-	4.cc\	-ta o-
+.	.	.	.	8a\	-de il	8cc\	-de il
+.	.	.	.	4g\	mio	4b-\	mio
 =6-	=6-	=6-	=6-	=6-	=6-	=6-	=6-
-.	.	.	.	4.f\	mio	4.a\	mio
-.	.	.	.	8e\	can-	8g\	can-
+.	.	.	.	4.f\	can-	4.a\	can-
+.	.	.	.	8e\	.	8g\	.
 .	.	.	.	8f\	.	8a\	.
 .	.	.	.	8e\	.	8g\	.
 !	!	!	!	!LO:SIC:v:t=custos e	!	!	!
@@ -79,9 +83,9 @@
 00r	.	00r	.	4.g\	le	4.b-\	le
 .	.	.	.	8g\	mie	8b-\	mie
 .	.	.	.	4g\	chio-	4b-\	chio-
-.	.	.	.	4f\	-me	4cc\	-me
+.	.	.	.	4f\	-me a-	4cc\	-me a-
 =10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-
-.	.	.	.	2e\	ador-	2g/	ador-
+.	.	.	.	2e\	-dor-	2g/	-dor-
 .	.	.	.	2e\	-na	2g/	-na
 =11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-
 .	.	.	.	2a\	Che	2cc\	Che
@@ -141,11 +145,14 @@
 =24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-
 2F\	Et	2A/	Et	.	.	.	.
 4A\	cor-	4c\	co-	.	.	.	.
+!	!	!	!LO:MO:mod=-re e	!	!	!	!
 4G\	-re e	4B-\	-re &	.	.	.	.
 =25-	=25-	=25-	=25-	=25-	=25-	=25-	=25-
 4.F\	ſal-	4.A/	ſal-	.	.	.	.
+!	!	!	!LO:MO:mod=-ta e	!	!	!	!
 8E\	-ta e	8G/	-ta &	.	.	.	.
 4.D/	fug-	4.F/	fug-	.	.	.	.
+!	!	!	!LO:MO:mod=-ge e	!	!	!	!
 8E\	-ge e	8G/	-ge &	.	.	.	.
 =26-	=26-	=26-	=26-	=26-	=26-	=26-	=26-
 4.F\	poi	4.A/	poi	.	.	.	.
@@ -161,10 +168,11 @@
 =29-	=29-	=29-	=29-	=29-	=29-	=29-	=29-
 00r	.	00r	.	4.f\	-do	4.a\	-do
 .	.	.	.	8e\	tal-	8g/	tal-
-.	.	.	.	2f\	-hora	2f/	-hora
+.	.	.	.	2f\	-hor-	2f/	-hor-
 =30-	=30-	=30-	=30-	=30-	=30-	=30-	=30-
-.	.	.	.	2f\	à	2f/	à
+.	.	.	.	2f\	-a à	2f/	-a à
 .	.	.	.	2.a\	la	2.cc\	la
+.	.	.	.	.	.	.	.
 =31-	=31-	=31-	=31-	=31-	=31-	=31-	=31-
 .	.	.	.	.	.	.	.
 .	.	.	.	4f\	ſtag-	4cc\	ſtag-
@@ -182,17 +190,19 @@
 .	.	.	.	4e\	ca-	4g/	ca-
 .	.	.	.	4f\	-pre	4a\	-pre
 .	.	.	.	2.g\	mie	2.b-y\	mie
+.	.	.	.	.	.	.	.
 =35-	=35-	=35-	=35-	=35-	=35-	=35-	=35-
 .	.	.	.	.	.	.	.
 .	.	.	.	4f\	mi	4a\	mi
 .	.	.	.	4.a\	ſcher-	4.cc\	ſcher-
 !	!	!	!	!LO:SIC:v:t=custos f	!	!LO:SIC:v:t=custos a	!
-.	.	.	.	8g\	-ne	8b-\	-ne
+!	!	!	!	!	!LO:MO:mod=-ne e	!	!LO:MO:mod=-ne e
+.	.	.	.	8g\	-ne &	8b-\	-ne &
 !	!	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!
 =36-	=36-	=36-	=36-	=36-	=36-	=36-	=36-
 *	*	*	*	*xywh-#500:4575,2340,3341,664	*	*xywh-#652:4625,2292,3379,652	*
-.	.	.	.	4.f\	&	4.a\	&
-.	.	.	.	8e\	ri-	8g\	ri-
+.	.	.	.	4.f\	ri-	4.a\	ri-
+.	.	.	.	8e\	.	8g\	.
 .	.	.	.	8d\	.	8a\	.
 .	.	.	.	8e\	.	8g\	.
 .	.	.	.	8f\	.	8a\	.
@@ -205,8 +215,9 @@
 .	.	.	.	4a\	mia	4cc\	mia
 .	.	.	.	4g\	ſo-	4b-\	ſo-
 =39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-
-.	.	.	.	4.f\	-aue	4.a\	-aue
-.	.	.	.	8a\	e	8cc\	e
+.	.	.	.	4.f\	-a-	4.a\	-a-
+!	!	!	!	!	!LO:MO:mod=-ve e	!	!LO:MO:mod=-ve e
+.	.	.	.	8a\	-ue e	8cc\	-ue e
 .	.	.	.	4g\	dol-	4b-\	dol-
 .	.	.	.	4f\	-ce	4a\	-ce
 =40-	=40-	=40-	=40-	=40-	=40-	=40-	=40-
@@ -230,6 +241,7 @@
 4F\	ſoſ-	4A/	ſoſ-	.	.	.	.
 4E\	-pi-	4G/	-pi-	.	.	.	.
 2.F\	-rar	2.A/	-rar	.	.	.	.
+.	.	.	.	.	.	.	.
 =46-	=46-	=46-	=46-	=46-	=46-	=46-	=46-
 .	.	.	.	.	.	.	.
 4E\	m'uc-	4G/	m'uc-	.	.	.	.
@@ -237,6 +249,7 @@
 =47-	=47-	=47-	=47-	=47-	=47-	=47-	=47-
 1C	-de	1G	-de	.	.	.	.
 =48-	=48-	=48-	=48-	=48-	=48-	=48-	=48-
+!	!	!	!LO:MO:mod=Quan-	!	!	!	!
 2E\	Quan-	2G/	Quã(n)-	00r	.	00r	.
 2E\	-do	2G/	-do	.	.	.	.
 =49-	=49-	=49-	=49-	=49-	=49-	=49-	=49-
@@ -245,10 +258,12 @@
 4F\	ver	4A/	cer	.	.	.	.
 =50-	=50-	=50-	=50-	=50-	=50-	=50-	=50-
 4.E\	me	4.G/	me	.	.	.	.
+!	!LO:MO:mod=con	!	!LO:MO:mod=con	!	!	!	!
 8F\	cõ[n]	8A/	cõ(n)	.	.	.	.
-4G\	gli	4B-\	gli	.	.	.	.
+!	!	!	!	!	!	!	!
+4G\	gli oc-	4B-\	gli oc-	.	.	.	.
 !LO:SIC:v:t=custos E	!	!LO:SIC:v:t=custos G	!	!	!	!	!
-4F\	occhi	4c\	occhi	.	.	.	.
+4F\	-chi	4c\	-chi	.	.	.	.
 !LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!	!
 =51-	=51-	=51-	=51-	=51-	=51-	=51-	=51-
 *xywh-#196:4613,2359,3365,640	*	*xywh-#348:4648,2298,3369,680	*	*	*	*	*
@@ -259,17 +274,20 @@
 4.A\	dal	4.c\	dal	.	.	.	.
 8G\	mio	8B-\	mio	.	.	.	.
 =53-	=53-	=53-	=53-	=53-	=53-	=53-	=53-
-4F\	fido	4A/	fido	.	.	.	.
-4E\	ama-	4G/	amã-	.	.	.	.
-4.D/	-te	4.A/	-te	.	.	.	.
-8C/	hor	8c\	hor	.	.	.	.
+4F\	fi-	4A/	fi-	.	.	.	.
+4E\	-do a-	4G/	-do a-	.	.	.	.
+!	!LO:MO:mod=-man-	!	!LO:MO:mod=-man-	!	!	!	!
+4.D/	-ma(n)-	4.A/	-mã(n)-	.	.	.	.
+8C/	-te hor	8c\	-te hor	.	.	.	.
 =54-	=54-	=54-	=54-	=54-	=54-	=54-	=54-
 4D/	mi	4B-\	mi	.	.	.	.
 4F\	di-	4A/	di-	.	.	.	.
+!	!	!	!LO:MO:mod=-vi-	!	!	!	!
 2E\	-vi-	2G/	-ui-	.	.	.	.
 =55-	=55-	=55-	=55-	=55-	=55-	=55-	=55-
 1F	-de	1F	-de	.	.	.	.
 =56-	=56-	=56-	=56-	=56-	=56-	=56-	=56-
+!	!	!	!	!	!LO:MO:mod=Un	!	!LO:MO:mod=Un
 0r	.	0r	.	1f	Vn	1cc	Vn
 =57-	=57-	=57-	=57-	=57-	=57-	=57-	=57-
 .	.	.	.	2f\	bel	2a\	bel
@@ -291,14 +309,14 @@
 !	!	!	!	!	!	!	!
 2F\	-ſco	2A/	-ſco	4r	.	4r	.
 .	.	.	.	4c/	in	4cc\	in
-!	!	!	!	!	!	!	!
-2r	.	2r	.	4.f\	vna	4.a\	vna
-.	.	.	.	8f\	quer-	8a\	quer-
+!	!	!	!	!	!LO:MO:mod=u-	!	!LO:MO:mod=u-
+2r	.	2r	.	4.f\	v-	4.a\	v-
+.	.	.	.	8f\	-na	8a\	-na
 =63-	=63-	=63-	=63-	=63-	=63-	=63-	=63-
 !LO:SIC:v:t=custos C 	!	!LO:SIC:v:t=custos c	!	!	!	!	!
 *xywh-#196:4551,2927,3396,588	*	*	*	*	*	*	*
-1r	.	1r	.	4e\	-cia	4g/	-cia
-.	.	.	.	4e\	an-	4cc\	an-
+1r	.	1r	.	4e\	quer-	4g/	quer-
+.	.	.	.	4e\	-cia an-	4cc\	-cia an-
 !	!	!	!	!	!	!LO:N:acc=#	!
 .	.	.	.	2d\	-ti-	2bn\	-ti-
 !LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!	!
@@ -310,27 +328,27 @@
 8F\	gio-	8A/	gio-	.	.	.	.
 =65-	=65-	=65-	=65-	=65-	=65-	=65-	=65-
 4E\	-ven-	4G/	-ven-	1r	.	1r	.
-4E\	-co	4c\	-co	.	.	.	.
+4E\	-co a-	4c\	-co a-	.	.	.	.
 !	!	!LO:N:acc=#	!	!	!	!	!
-2D/	ader-	2Bn\	ader-	.	.	.	.
+2D/	-der-	2Bn\	-der-	.	.	.	.
 =66-	=66-	=66-	=66-	=66-	=66-	=66-	=66-
 1C	-bo	1c	-bo	2r	.	2r	.
 .	.	.	.	2e\	Vi-	2g/	Vi-
 =67-	=67-	=67-	=67-	=67-	=67-	=67-	=67-
-1r	.	1r	.	4e\	-di	4g/	-di
-.	.	.	.	4d\	an-	4f/	an-
-.	.	.	.	4.e\	-ni-	4.g/	-ni-
-.	.	.	.	8d\	-dar	8f/	-dar
+1r	.	1r	.	4e\	-di an-	4g/	-di an-
+.	.	.	.	4d\	-ni	4f/	-ni
+.	.	.	.	4.e\	dar	4.g/	dar
+.	.	.	.	8d\	poi	8f/	poi
 =68-	=68-	=68-	=68-	=68-	=68-	=68-	=68-
-1r	.	1r	.	4e\	poc'	4g/	poi
-.	.	.	.	4f\	anzi	4a\	anzi
-.	.	.	.	4g\	(il)	4b-y\	il
+1r	.	1r	.	4e\	an-	4g/	an-
+.	.	.	.	4f\	-zi [il]	4a\	-zi il
+.	.	.	.	4g\	qual	4b-y\	qual
 !	!	!	!	!LO:SIC:v:t=custos e	!	!	!
-.	.	.	.	4f\	qual	4cc\	qual
+.	.	.	.	4f\	ri-	4cc\	ri-
 !	!	!	!	!LO:LB:g=original	!	!	!
 =69-	=69-	=69-	=69-	=69-	=69-	=69-	=69-
 *	*	*	*	*xywh-#500:4586,3352,3331,664	*	*	*
-2r	.	2r	.	2e\	riſer-	2g/	riſer-
+2r	.	2r	.	2e\	-ſer-	2g/	-ſer-
 !	!	!	!	!	!	!LO:SIC:v:t=custos cc	!
 4r	.	4r	.	2c/	bo	2g/	bo
 4C/	Per	4G/	Per	.	.	.	.
@@ -339,8 +357,9 @@
 *	*	*	*	*	*	*xywh-#652:4571,3336,3499,684	*
 4E\	la	4G/	la	0r	.	0r	.
 4D/	mia	4F/	mia	.	.	.	.
-4.E\	dõ[n]na	4.G/	dõ(n)na	.	.	.	.
-8D/	il	8F/	il	.	.	.	.
+!	!LO:MO:mod=don-	!	!LO:MO:mod=don-	!	!	!	!
+4.E\	dõ(n)-	4.G/	dõ(n)-	.	.	.	.
+8D/	-na il	8F/	-na il	.	.	.	.
 =71-	=71-	=71-	=71-	=71-	=71-	=71-	=71-
 4E\	qual	4G/	qual	.	.	.	.
 4F\	fra	4A/	fra	.	.	.	.
@@ -359,6 +378,7 @@
 =74-	=74-	=74-	=74-	=74-	=74-	=74-	=74-
 !	!	!LO:SIC:v:t=custos c	!	!	!	!	!
 0r	.	0r	.	4f\	-del	4a\	-del
+!	!	!	!	!	!LO:MO:mod=e	!	!LO:MO:mod=e
 .	.	.	.	4f\	&	4a\	&
 .	.	.	.	4.B-/	aſ-	4.dd\	aſ-
 .	.	.	.	8c/	-pra	8cc\	-pra
@@ -377,11 +397,11 @@
 4F\	con	4A/	con	1r	.	1r	.
 4F\	le	4A/	le	.	.	.	.
 4.BB-/	cor-	4.d\	cor-	.	.	.	.
-8C/	-na	8c\	-na	.	.	.	.
+8C/	-na al-	8c\	-na al-	.	.	.	.
 =78-	=78-	=78-	=78-	=78-	=78-	=78-	=78-
-4D/	al-	4B-\	al-	0r	.	0r	.
-4F\	-to e	4A/	-to e	.	.	.	.
-2E\	ſuper-	2G/	ſuper-	.	.	.	.
+4D/	-to e	4B-\	-to e	0r	.	0r	.
+4F\	ſu-	4A/	ſu-	.	.	.	.
+2E\	per-	2G/	-per-	.	.	.	.
 =79-	=79-	=79-	=79-	=79-	=79-	=79-	=79-
 1F	-bo	1F	-bo	.	.	.	.
 =80-	=80-	=80-	=80-	=80-	=80-	=80-	=80-
@@ -397,35 +417,39 @@
 2.BB-/	-lan-	2.B-\	-lan-	2.f\	-lan-	2.dd\	-lan-
 4AA/	-de	4c\	-de	4f\	-de	4cc\	-de
 2.BB-/	di	2.d\	di	2.f\	di	2.b-\	di
+.	.	.	.	.	.	.	.
 =82-	=82-	=82-	=82-	=82-	=82-	=82-	=82-
 .	.	.	.	.	.	.	.
-4AA/	-nouel-	4c\	-nouel-	4f\	-nouel-	4cc\	-nouel-
-2GG/	-li	2d\	-li	2g\	-li	2b-\	-li
+4AA/	no-	4c\	no-	4f\	no-	4cc\	no-
+!	!LO:MO:mod=-vel-	!	!LO:MO:mod=-vel-	!	!LO:MO:mod=-vel-	!	!LO:MO:mod=-vel-
+2GG/	-uel-	2d\	-uel-	2g\	-uel-	2b-\	-uel-
 !LO:SIC:v:t=custos FF	!	!LO:SIC:v:t=custos c	!	!	!	!LO:SIC:v:t=custos a	!
-2C/	fio-	2c\	fio-	2e\	fio-	2g/	fio-
+2C/	-li	2c\	-li	2e\	-li	2g/	-li
 !LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!LO:LB:g=original	!
 =83-	=83-	=83-	=83-	=83-	=83-	=83-	=83-
 *xywh-#196:4593,3939,3365,671	*	*xywh-#348:4700,3885,3431,710	*	*	*	*xywh-#652:4615,3868,3455,695	*
-1FF	-ri	1c	-ri	1f	-ri	1a	-ri
-2FF/	I	2c\	I	2f\	I	2a\	I
+1FF	fio-	1c	fio-	1f	fio-	1a	fio-
+2FF/	-ri	2c\	-ri	2f\	-ri	2a\	ri
 =84-	=84-	=84-	=84-	=84-	=84-	=84-	=84-
+2F\	I	2c\	I	2f\	I	2a\	I
 2F\	voſ-	2c\	voſ-	2f\	voſ-	2a\	voſ-
-2F\	-tri	2c\	-tri	2f\	-tri	2a\	-tri
 !	!	!LO:N:acc=#	!	!	!	!	!
-2G\	al-	2Bn\	al-	2d\	al-	2g/	al-
+2G\	-tri al-	2Bn\	-tri al-	2d\	-tri al-	2g/	-tri al-
 =85-	=85-	=85-	=85-	=85-	=85-	=85-	=85-
 2.C/	-ta-	2.c\	-ta-	2.e\	-ta-	2.g/	-ta-
 4C/	-ti o	4c\	-ti o	4e\	-ti o	4g/	-ti o
 2.F\	ſa-	2.c\	ſa-	2.f\	ſa-	2.a\	ſa-
+.	.	.	.	.	.	.	.
 =86-	=86-	=86-	=86-	=86-	=86-	=86-	=86-
 .	.	.	.	.	.	.	.
 4A\	-cre	4c\	-cre	4e\	-cre	4cc\	-cre
 !	!	!	!	!	!	!LO:N:acc=#	!
-2.G\	Ninfe	2.d\	Ninfe	2.g\	Ninfe	2.bn\	Ninfe
-4G\	hau	4d\	hau	4g\	hau	4b\	hau
+2.G\	Nin-	2.d\	Nin-	2.g\	Nin-	2.bn\	Nin-
+4G\	-fe hau	4d\	-fe hau	4g\	-fe hau	4b\	-fe hau
 =87-	=87-	=87-	=87-	=87-	=87-	=87-	=87-
 *M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*
 *met(C)	*	*met(C)	*	*met(C)	*	*met(C)	*
+*mmet(c)	*	*mmet(c)	*	*mmet(c)	*	*mmet(c)	*
 2C/	ran-	2c\	ran-	2e\	ran-	2cc\	ran-
 !	!	!	!	!LO:SIC:v:t=custos f	!	!	!
 2C/	-no	2c\	-no	2e\	-no	2g/	-no
@@ -440,9 +464,9 @@
 4Eny\	-ſe	4eny\	-ſe	4g\	-ſe	4b-\	-ſe
 4F\	ſa-	4c\	ſa-	4f\	ſa-	4a\	ſa-
 =90-	=90-	=90-	=90-	=90-	=90-	=90-	=90-
-4.C/	-rete	4.c\	-rete	4.e\	-rete	4.g/	-rete
+4.C/	-re-	4.c\	-re-	4.e\	-re-	4.g/	-re-
 !LO:SIC:v:t=custos BB-	!	!	!	!	!	!	!
-8AA/	a	8c\	ai	8f\	ai	8a\	ai
+8AA/	-te ai	8c\	-te ai	8f\	-te ai	8a\	-te ai
 !LO:LB:g=original	!	!	!	!	!	!	!
 *xywh-#196:4624,4476,3396,722	*	*	*	*	*	*	*
 4BB-/	noſ-	4B-y\	noſ-	4d\	noſ-	4f/	noſ-
@@ -455,33 +479,28 @@
 2FF/	-ri	2F/	-ri	2c/	-ri	2f/	-ri
 =92-	=92-	=92-	=92-	=92-	=92-	=92-	=92-
 4F\	Se	4c\	Se	4f\	Se	4a\	Se
-4F\	ple-	4c\	ple-	4f\	ple-	4a\	ple-
+4F\	pie-	4c\	pie-	4f\	pie-	4a\	pie-
 1E-X\	-to-	1e-X\	-to-	1g\	-to-	1b-\	-to-
 =93-	=93-	=93-	=93-	=93-	=93-	=93-	=93-
 .	.	.	.	.	.	.	.
 4Eny\	-ſe	4eny\	-ſe	4g\	-ſe	4b-\	-ſe
 4F\	ſa-	4c\	ſa-	4f\	ſa-	4a\	ſa-
 =94-	=94-	=94-	=94-	=94-	=94-	=94-	=94-
-4.C/	-re-	4.c\	-re-	4.e\	-re-	4.g/	-ra-
-8AA/	-te	8c\	-te	8f\	-te	8a\	-te
-4BB-/	a i	4B-\	a i	4d\	a i	4f/	a i
-4FF/	noſtri	4A/	noſtri	4c/	noſtri	2f/	noſ-
+4.C/	-re-	4.c\	-re-	4.e\	-re-	4.g/	-re-
+8AA/	-te a i	8c\	-te a i	8f\	-te a i	8a\	-te
+4BB-/	noſ-	4B-\	noſ-	4d\	noſ-	4f/	a i
+4FF/	tri a-	4A/	tri a-	4c/	tri a-	2f/	noſ-
 =95-	=95-	=95-	=95-	=95-	=95-	=95-	=95-
-1C	amo-	1G	amo-	1c	amo-	.	.
+1C	-mo-	1G	-mo-	1c	-mo-	.	.
 .	.	.	.	.	.	8e/	-tri
 .	.	.	.	.	.	8d/	a
 .	.	.	.	.	.	2e/	mo-
 =96-	=96-	=96-	=96-	=96-	=96-	=96-	=96-
-00FF	-ri.	00F	-ri.	00c	-ri.	00f	-ri.
-=97-	=97-	=97-	=97-	=97-	=97-	=97-	=97-
-.	.	.	.	.	.	.	.
-=98-	=98-	=98-	=98-	=98-	=98-	=98-	=98-
-.	.	.	.	.	.	.	.
-=99-	=99-	=99-	=99-	=99-	=99-	=99-	=99-
-.	.	.	.	.	.	.	.
+1FFl	-ri.	1Fl	-ri.	1cl	-ri.	1fl	-ri.
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2,s3,s4)]
+!!!system-decoration: [(*)]
+!!!RDF**kern: l = terminal long
 !!!ENC: Marta Opryszak
 !!!END: 2022-06-28
 !!!ENC: Jan Barakat
@@ -491,3 +510,5 @@
 !!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-gd%3A57883/datastream/IIIF/view
 !!!ENC-IIIF: Zuzanna Daniec
 !!!END-IIIF: 2022-09-30
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-11-05
