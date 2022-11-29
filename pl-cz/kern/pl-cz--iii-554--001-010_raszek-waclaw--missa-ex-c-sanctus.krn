@@ -23,14 +23,19 @@
 !!!OMD: adagio
 !!!AIN: 1 alto 1 bass 2 oboe 1 soprn 1 tenor 2 tromp 1 viola 1 violb 2 violn
 !!!key: C
+!!!OMD:
+!!!OMD-mod: Adagio
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/Xtuplet/tuplet/I" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part8	*part7	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff8	*	*staff7	*staff7	*	*staff6	*staff6	*	*staff5	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violone	*	*I"Viola di alto. oblig.	*	*I"Violino 2do.	*	*I"Violino I	*	*I"Basſo.	*	*	*I"Tenore.	*	*	*I"Alto.	*	*	*I"Canto.	*	*	*I"Clarino 2do. Ex C	*	*I"Clarino 1mo. Ex C.	*	*I"Oboe Secundo.	*	*I"Oboe Primo.	*
+*	*	*mI"Viola obligato	*	*mI"Violino II	*	*	*	*mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*	*mI"Clarino II in C	*	*mI"Clarino I in C	*	*mI"Oboe II	*	*mI"Oboe I	*
 *I'vlne	*	*I'vla obl	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'clno 2	*	*I'clno 1	*	*I'ob 2	*	*I'ob 1	*
 *Iviolb	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Isoprn	*	*	*Itromp	*	*Itromp	*	*Ioboe	*	*Ioboe	*
 *ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICvox	*	*	*ICvox	*	*	*ICvox	*	*	*ICvox	*	*	*ICbras	*	*ICbras	*	*ICww	*	*ICww	*
 *clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*	*clefF4	*	*	*clefC4	*	*	*clefC3	*	*	*clefC1	*	*	*clefG2	*	*clefG2	*	*clefG2	*	*clefG2	*
+*	*	*	*	*	*	*	*	*	*	*	*mclefGv2	*	*	*mclefG2	*	*	*mclefG2	*	*	*	*	*	*	*	*	*	*
 *ITrd0c0	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*	*k[]	*	*	*k[]	*	*	*k[]	*	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*	*C:	*	*	*C:	*	*	*C:	*	*	*C:	*	*	*C:	*	*C:	*	*C:	*	*C:	*
@@ -38,8 +43,9 @@
 *all\right	*	*all\right	*	*all\right	*	*all\right	*	*all\right	*	*	*all\right	*	*	*all\right	*	*	*all\right	*	*	*all\right	*	*all\right	*	*all\right	*	*all\right	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *	*	*	*	*2\right	*	*2\right	*	*2\right	*	*	*2\right	*	*	*2\right	*	*	*2\right	*	*	*2\right	*	*2\right	*	*2\right	*	*2\right	*
-!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=T.	!	!	!LO:TX:a:t=T.	!	!	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:a:t=ada&colon;	!	!LO:TX:a:t=adagio.	!	!	!	!LO:TX:a:t=ada&colon;	!	!LO:TX:a:t=ada&colon;	!	!	!LO:TX:a:t=ada.	!	!	!LO:TX:a:t=ada&colon;	!	!	!	!	!LO:DY:a	!LO:TX:a:t=ada&colon;	!	!LO:TX:a:t=adag.	!	!LO:TX:a:t=ada.	!	!LO:TX:a:t=ada&colon;	!
+!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;t=Tutti	!	!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;t=Tutti	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;t=[Tutti]	!	!	!LO:TX:a:t=T.	!	!	!LO:TX:a:t=T.	!	!	!LO:MO:null:mod=!LO&colon;TX&colon;i&colon;t=[Tutti]	!	!LO:DY:a	!	!	!	!	!	!	!	!
+!LO:TX:a:t=ada&colon;:mod=	!	!LO:TX:a:t=adagio.:mod=	!	!	!	!LO:TX:a:t=ada&colon;:mod=	!	!LO:TX:a:t=ada&colon;:mod=	!	!	!LO:TX:a:t=ada.:mod=	!	!	!LO:TX:a:t=ada&colon;:mod=	!	!	!	!	!LO:MO:null:mod=.	!LO:TX:a:t=ada&colon;:mod=	!	!LO:TX:a:t=adag.:mod=	!	!LO:TX:a:t=ada.:mod=	!	!LO:TX:a:t=ada&colon;:mod=	!
 8C/L	.	8c\L	.	2.ee\	.	2.ccc\	.	2.c\	San-	.	2.c\	Sanc-	.	2.g\	San-	.	2.ee\	Sanc-	p	2cc\	.	2ee\	.	2.ee\	.	2.ccc\	.
 8c\	.	8cc\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8G\	.	8g\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -48,14 +54,16 @@
 8G\J	.	8g\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
 !	!	!	!	!	!LO:DY:a:t=pia&colon;	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4C/	.	4c/	.	4ee\	p	4ccc\	.	4C/	-ctus	.	4c\	-tus	.	4g\	-ctus	.	4ee\	-tus	.	4cc\	.	4ee\	.	4ee\	.	4ccc\	.
+!	!	!	!	!	!LO:MO:null:mod=p	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4r	.	4r	.	4c/	.	8r	.	4r	.	.	4r	.	.	4r	.	.	4r	.	.	4r	.	4r	.	4r	.	4r	.
 !	!	!	!	!	!	!	!LO:DY:a:t=p&colon;	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	.	.	.	8gg\L	p	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 4r	.	4r	.	4e/	.	8ee\	.	4r	.	.	4r	.	.	4r	.	.	4r	.	.	4r	.	4r	.	4r	.	4r	.
 .	.	.	.	.	.	8cc\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
-!	!	!LO:TX:a:t=2	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=2	!	!	!	!	!	!	!	!LO:TX:a:t=2	!	!LO:TX:a:t=2	!	!	!
+!	!	!LO:TX:a:t=2:mod=	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=2:mod=	!	!	!	!	!	!	!	!LO:TX:a:t=2:mod=	!	!LO:TX:a:t=2:mod=	!	!	!
 1.r	.	1.r	.	4f/	.	8a\L	.	1.r	.	.	1.r	.	.	1.r	.	.	1.r	.	.	1.r	.	1.r	.	1.r	.	1.r	.
 .	.	.	.	.	.	8cc#X\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	4r	.	8dd\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -72,18 +80,22 @@
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
 *	*	*2\right	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *	*	*tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-!LO:TX:t=P:problem=mixed beam	!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!LO:DY:a:t=for&colon;	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!LO:MO:null:mod=f	!	!LO:MO:null:mod=f	!LO:TX:t=P:problem=mixed beam	!LO:MO:null:mod=f	!	!LO:DY:a:t=for&colon;	!	!LO:MO:mod=Sanc-	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8C/L	.	8g\L	.	8c/L	.	8ee\L	f	2.c\	San-	.	2.c\	Sanc-	.	2.g\	Sanc-	.	2.ee\	Sanc-	.	2cc\	.	2ee\	.	2g/	.	2ee\	.
 8c\J	.	8g\	.	8cc\J	.	8ee\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *2\right	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 !	!	!	!	!	!LO:DY:a:t=f&colon;	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8c\L	.	8g\	.	8cc\L	f	8ee\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8c\	.	8g\	.	8cc\	.	8ee\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8c\	.	8g\	.	8cc\	.	8ee\	.	.	.	.	.	.	.	.	.	.	.	.	.	4cc\	.	4ee\	.	4g/	.	4ee\	.
 8c\J	.	8g\J	.	8cc\J	.	8ee\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
 *	*	*	*	*	*	*tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*tremolo	*	*tremolo	*	*	*	*	*
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=-tus	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8B-X\L	.	8g\L	.	8cc\L	.	8ee\L	.	2.B-X\	-ctus	.	2.c\	-tus	.	2.g\	-tus	.	2.ee\	-tus	.	8cc\L	.	8ee\L	.	2cc\	.	2ee\	.
 8B-X\	.	8g\	.	8cc\	.	8ee\	.	.	.	.	.	.	.	.	.	.	.	.	.	8cc\	.	8ee\	.	.	.	.	.
 8B-X\	.	8g\	.	8cc\	.	8ee\	.	.	.	.	.	.	.	.	.	.	.	.	.	8cc\	.	8ee\	.	.	.	.	.
@@ -138,8 +150,10 @@
 *tremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 8E\L	.	8e\L	.	8cc\L	.	8gg\L	.	4E\	-oth	.	4e\	-oth	.	4g\	-oth	.	4cc\	-oth	.	4cc\	.	4ee\	.	2cc\	.	2gg\	.
 8E\	.	8e\	.	8cc\	.	8gg\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=sanc-	!	!	!	!	!	!LO:MO:mod=sanc-	!	!	!	!	!	!	!	!	!
 8E\	.	8e\	.	8gg\	.	8ccc\	.	4E\	De-	.	4e\	sa(nc)-	.	4cc\	sanc-	.	4ee\	sa(nc)-	.	4cc\	.	4ee\	.	.	.	.	.
 8E\	.	8e\	.	8gg\	.	8ccc\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=-tus	!	!	!	!	!	!	!	!	!	!	!	!
 8E\	.	8e\	.	8gg\	.	8ccc\	.	4E\	-us	.	4e\	-tus	.	4cc\	-t[us]	.	4ee\	-tus	.	4cc\	.	4ee\	.	4cc\	.	4gg\	.
 8E\J	.	8e\J	.	8gg\J	.	8ccc\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
@@ -201,8 +215,8 @@
 4r	.	4r	.	4r	.	8ddd\	.	4r	.	.	4r	.	.	4r	.	.	4r	.	.	4r	.	4r	.	4r	.	4r	.
 .	.	.	.	.	.	8bb\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
-!	!LO:DY:a:t=p&colon;	!	!LO:DY:a:t=pia&colon;	!	!LO:DY:a:t=pia&colon;	!	!	!LO:TX:a:t=2	!	!	!	!	!	!LO:TX:a:t=2	!	!	!	!	!	!	!	!LO:TX:a:t=2	!	!	!	!	!
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=Pleni	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:DY:a:t=p&colon;	!	!LO:DY:a:t=pia&colon;	!	!LO:DY:a:t=pia&colon;	!	!	!LO:TX:a:t=2:mod=	!	!	!	!	!	!LO:TX:a:t=2:mod=	!	!	!	!	!	!	!	!LO:TX:a:t=2:mod=	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=1.r	!	!	!LO:TX:b:i:t=Pleni:mod=	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=1.r	!
 4GG/	p	4d\	p	4B/	p	8gg\L	.	1.r	.	.	1.r;>	.	.	1.r	.	.	1.r	.	.	1.r	.	1.r	.	1.r	.	1.r;>	.
 .	.	.	.	.	.	8dd\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 4GG/	.	4d\	.	4B/	.	8b\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -210,19 +224,25 @@
 4GG/	.	4d\	.	4B/	.	8d/L	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	8B/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18
+!	!	!	!	!LO:MO:mod=2B;	!	!LO:MO:mod=2G;	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 2GG;>/	.	2d;>\	.	4B;>/	.	2.G;/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	.	4r	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!LO:MO:null:mod=4r	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4r	.	4r	.	4r	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!	!	!LO:PB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!
 =19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||	=19||
-!LO:TX:t=Pleni:rj	!	!LO:TX:t=Pleni:rj	!	!LO:TX:t=Pleni:rj	!	!LO:TX:t=Pleni:rj	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=Pleni.	!	!LO:TX:b:t=Pleni.	!	!LO:TX:b:t=Pleni.	!	!LO:TX:b:t=Pleni	!
-!LO:TX:a:t=allo.	!LO:DY:a:t=f&colon;	!LO:TX:a:t=allo.	!LO:DY:a:t=for&colon;	!LO:TX:a:t=allo.	!LO:DY:a:t=for&colon;	!LO:TX:a:t=allo.	!LO:DY:a:t=for.	!LO:TX:a:t=allo.	!	!	!LO:TX:a:t=allo.	!	!	!LO:TX:a:t=allo.	!	!	!LO:TX:a:t=allo.	!	!	!LO:TX:a:t=allo.	!	!LO:TX:a:t=allo.	!	!LO:TX:a:t=allo.	!	!LO:TX:a:t=allo.	!
+!!!OMD:
+!!!OMD-mod: Allegro
+!LO:TX:t=Pleni:rj:mod=	!	!LO:TX:t=Pleni:rj:mod=	!	!LO:TX:t=Pleni:rj:mod=	!	!LO:TX:t=Pleni:rj:mod=	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=Pleni.:mod=	!	!LO:TX:b:t=Pleni.:mod=	!	!LO:TX:b:t=Pleni.:mod=	!	!LO:TX:b:t=Pleni:mod=	!
+!LO:TX:a:t=allo.:mod=	!LO:DY:a:t=f&colon;	!LO:TX:a:t=allo.:mod=	!LO:DY:a:t=for&colon;	!LO:TX:a:t=allo.:mod=	!LO:DY:a:t=for&colon;	!LO:TX:a:t=allo.:mod=	!LO:DY:a:t=for.	!LO:TX:a:t=allo.:mod=	!	!	!LO:TX:a:t=allo.:mod=	!	!	!LO:TX:a:t=allo.:mod=	!	!	!LO:TX:a:t=allo.:mod=	!	!	!LO:TX:a:t=allo.:mod=	!	!LO:TX:a:t=allo.:mod=	!	!LO:TX:a:t=allo.:mod=	!	!LO:TX:a:t=allo.:mod=	!
 4c\	f	4g\	f	4G/ 4e	f	4e/ 4cc	f	4C/	Ple-	.	4e\	Ple-	.	4g\	Ple-	.	4cc\	Ple-	.	8e/L	.	8cc\L	.	4e/	.	4cc\	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16e/L	.	16cc\L	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16e/JJ	.	16cc\JJ	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*tremolo	*	*tremolo	*	*	*	*	*
 4c\	.	4g\	.	4G/ 4e	.	4e/ 4cc	.	4C/	-ni	.	4e\	-ni	.	4g\	-ni	.	4cc\	-ni	.	8e/L	.	8cc\L	.	4e/	.	4cc\	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8e/	.	8cc\	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=sunt	!	!	!	!	!	!	!	!	!
 4c\	.	4g\	.	4G/ 4e	.	4e/ 4cc	.	4C/	ſunt	.	4e\	ſunt	.	4g\	ſunt	.	4cc\	s(u)nt	.	8e/	.	8cc\	.	4e/	.	4cc\	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8e/J	.	8cc\J	.	.	.	.	.
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*Xtremolo	*	*Xtremolo	*	*	*	*	*
@@ -267,6 +287,7 @@
 .	.	.	.	.	.	8ee\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
 =24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=cae-	!	!	!LO:MO:mod=cae-	!	!	!	!	!	!LO:MO:mod=cae-	!	!	!	!	!	!	!	!	!
 8E\L	.	8g\L	.	16c/LL	.	4cc\	.	4E\	Cae-	.	4c\	Cae-	.	4g\	cae-	.	4b-X\	Cae-	.	8c/L	.	8cc\L	.	2b-X/	.	2gg\	.
 .	.	.	.	16c/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8C\	.	8e\	.	16c/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16c/L	.	16cc\L	.	.	.	.	.
@@ -303,12 +324,12 @@
 !	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 =26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26
 *	*	*	*	*	*	*	*	*	*ij	*	*	*ij	*	*	*ij	*	*	*	*	*	*	*	*	*	*	*	*
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=cae-	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F#X\L	.	8a\L	.	16d/LL	.	4aa\	.	4F#X\	cae-	.	4d\	Cae-	.	4a\	cae-	.	4cc\	cae-	.	8dd\L	.	8dd\L	.	2cc/	.	2aa\	.
 .	.	.	.	16d/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8D\	.	8f#X\	.	16d/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16dd\L	.	16dd\L	.	.	.	.	.
 .	.	.	.	16d/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16dd\JJ	.	16dd\JJ	.	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*tremolo	*	*tremolo	*	*	*	*	*
 8F#\	.	8a\	.	16d/	.	12aa\L	.	4F#X\	-li	.	4d\	-li	.	4a\	-li	.	4cc\	-li	.	8dd\L	.	8dd\L	.	.	.	.	.
 .	.	.	.	16d/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -374,15 +395,18 @@
 4F\	.	4a\	.	4cc\	.	8aa\L	.	4F\	tu-	.	2c\	tu-	.	4a\	tu-	.	(4ff\	tu-	.	4dd\	.	4ff\	.	4cc\	.	8aa\L	.
 .	.	.	.	.	.	16gg\L	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8ff\J	.
 .	.	.	.	.	.	16ff\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4G\	.	4g\	.	4cc\	.	4ee\	.	2G\	-[[a]]-	.	.	.	.	2g\	.	.	4ee\	.	.	4cc\	.	4ee\	.	4cc\	.	4ee\	.
 4GG/	.	4g\	.	4b\	.	4dd\	.	.	.	.	4B\	.	.	.	.	.	4dd\)	.	.	4g/	.	4dd\	.	4b\	.	4dd\	.
 =31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31
 4C/	.	4g\	.	4cc\	.	4cc\	.	4C/	-a	.	4c\	-a	.	4g\	-a	.	4cc\	-a	.	4e/	.	4cc\	.	4cc\	.	4cc\	.
 4C/	.	4r	.	4r	.	4r	.	4r	.	.	4r	.	.	4r	.	.	4r	.	.	4r	.	4r	.	4r	.	4r	.
-!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:a:t=p&colon;	!LO:TX:a:t=c	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:DY:a:t=p&colon;	!LO:TX:a:t=c:mod=	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=p	!	!	!	!LO:SIC:v:s=4c	!	!LO:MO:null:mod=p	!	!	!LO:MO:null:mod=p	!	!	!	!	!	!	!	!
 4r	.	4r	.	4r	.	4r	.	4C/	O-	.	4c\	O-	p	4c#X/	O-	.	4cc\	O-	.	4r	.	4r	.	4r	.	4r	.
 =32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32	=32
 !	!LO:DY:a:t=p.	!	!LO:DY:a:t=pia&colon;	!	!LO:DY:a:t=pia&colon;	!	!LO:DY:a:t=p&colon;:rj	!	!	!LO:DY:a:t=p&colon;:rj	!	!	!	!	!	!LO:DY:a:t=p&colon;:rj	!	!	!LO:DY:a:t=p&colon;:rj	!	!LO:DY:a:t=pia&colon;	!	!LO:DY:a:t=p&colon;	!	!LO:DY:a:t=p&colon;:rj	!	!LO:DY:a:t=pia&colon;
+!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=.	!	!	!	!	!	!LO:MO:null:mod=.	!	!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!
 4E\	p	8g\	p	8c/	p	8b-X/	p	2.E\	-ſan-	p	2.c\	-ſan-	.	2.g\	-ſan-	p	2.b-X\	-san-	p	4c/	p	4cc\	p	4g/	p	4b-X/	p
 .	.	4g\	.	4c/	.	4b-/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 4r	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	4r	.	4r	.	4r	.	4r	.
@@ -394,6 +418,7 @@
 .	.	4f\	.	4c/	.	4a/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 4r	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	4r	.	4r	.	4r	.	4r	.
 .	.	4f\	.	4c/	.	4a/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=O-	!	!	!	!	!	!	!	!	!
 4F\	.	.	.	.	.	.	.	4F\	O-	.	4c\	O-	.	4f\	O-	.	4a\	o-	.	4r	.	4r	.	4f/	.	4a/	.
 .	.	8f\	.	[8c/	.	8a/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!
@@ -412,7 +437,9 @@
 4F\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	4r	.	4r	.	4f/	.	4a/	.
 .	.	8f\	.	8c/	.	8a/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36
-!	!LO:HP:a:t=creſ.	!	!LO:HP:a:t=creſ.	!	!	!	!LO:HP:a:t=creſ.	!	!	!	!	!	!	!	!	!	!	!	!LO:HP:a:t=Creſ.	!	!	!LO:TX:a:t=g	!	!	!	!	!LO:HP:a:t=creſ.
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;t=[cresc]	!	!	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;t=[cresc]	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;t=[cresc]	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;t=[cresc]	!	!	!	!	!LO:MO:null:mod=!LO&colon;HP&colon;t=[cresc]	!	!LO:MO:null:mod=!LO&colon;HP&colon;t=[cresc]	!	!LO:MO:null:mod=!LO&colon;HP&colon;t=[cresc]	!	!
+!	!LO:MO:mod=!null:null	!	!LO:MO:mod=!null:null	!	!	!	!LO:MO:mod=!null:null	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=!null:null	!	!	!	!	!	!	!	!LO:MO:mod=!null:null
+!	!LO:HP:a:t=creſ.	!	!LO:HP:a:t=creſ.	!	!LO:MO:null:mod=<	!	!LO:HP:a:t=creſ.	!	!	!LO:MO:null:mod=<	!	!	!LO:MO:null:mod=<	!	!	!LO:MO:null:mod=<	!LO:SIC:s=2.b	!	!LO:HP:a:t=Creſ.	!	!LO:MO:null:mod=<	!LO:TX:a:t=g:mod=	!LO:MO:null:mod=<	!	!LO:MO:null:mod=<	!	!LO:HP:a:t=creſ.
 4G\	<	8d\	<	8f/	.	8bn\	<	2.G\	in	.	2.G/	in	.	2.f\	in	.	2.bn\	in	<	4G/	.	4g/	.	4f/	.	4bn/	<
 .	.	4d\	.	4f/	.	4b\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 4r	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	4r	.	4r	.	4r	.	4r	.
@@ -436,7 +463,9 @@
 .	.	8G/	.	8g/	.	8dd\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 =39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39
-!	!LO:DY:a:t=f&colon;	!	!LO:DY:a:t=for&colon;	!	!	!	!LO:DY:a:t=f&colon;	!	!	!LO:DY:a:t=f&colon;:rj	!	!	!LO:DY:a:t=for&colon;	!	!	!LO:DY:a	!	!	!LO:DY:a:t=f&colon;	!	!LO:DY:a:t=f&colon;:rj	!	!LO:DY:a:t=f&colon;:rj	!	!LO:DY:a:t=for&colon;	!	!LO:DY:a:t=for&colon;
+!	!	!	!	!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:DY:a:t=f&colon;	!	!LO:DY:a:t=for&colon;	!	!LO:MO:null:mod=f	!	!LO:DY:a:t=f&colon;	!	!	!LO:DY:a:t=f&colon;:rj	!	!	!LO:DY:a:t=for&colon;	!	!	!LO:DY:a	!	!	!LO:DY:a:t=f&colon;	!	!LO:DY:a:t=f&colon;:rj	!	!LO:DY:a:t=f&colon;:rj	!	!LO:DY:a:t=for&colon;	!	!LO:DY:a:t=for&colon;
 4c\	f	8G/	f	8g/	.	8ee\	f	2c\	-ſis	f	2c\	-ſis	f	2g\	-ſis	f	2ee\	-sis	f	4cc\	f	4cc\	f	4g/	f	4ee\	f
 .	.	4g\	.	4ee\	.	4ccc\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 4c\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	4cc\	.	4ee\	.	4ee\	.	4ccc\	.
@@ -480,7 +509,7 @@
 =44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44
 4c\	.	4g\	.	4ee\	.	4ccc\	.	4c\	-cel-	.	4c\	-cel-	.	4g\	-cel-	.	4ee\	-cel-	.	4cc\	.	4ee\	.	4ee\	.	4ccc\	.
 4C/	.	4g\	.	4ee\	.	4ccc\	.	4C/	-ſis.	.	4c\	-ſis	.	4g\	-ſiſ	.	4ee\	-sis	.	4cc\	.	4ee\	.	4ee\	.	4ccc\	.
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=Sequitur Benedict(us)	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=Sequitur Benedict(us):mod=	!	!	!	!	!	!	!	!	!	!
 4r	.	4r	.	4r	.	4r	.	4r	.	.	4r	.	.	4r	.	.	4r	.	.	4r	.	4r	.	4r	.	4r	.
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
@@ -493,3 +522,5 @@
 !!!END: 2022-02-03
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-11-23

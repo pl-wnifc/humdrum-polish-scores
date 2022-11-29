@@ -26,6 +26,7 @@
 *part7	*part6	*part6	*part6	*part6	*part5	*part5	*part5	*part5	*part4	*part4	*part4	*part4	*part3	*part3	*part3	*part3	*part2	*part1
 *staff7	*staff6	*staff6	*staff6	*staff6	*staff5	*staff5	*staff5	*staff5	*staff4	*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff3	*staff2	*staff1
 *I"Baſso.	*I"Baſso	*	*	*	*I"Tenore	*	*	*	*I"Canto Secondo	*	*	*	*I"Canto Primo	*	*	*	*I"Clarinetto Secondo.	*I"Clarinetto Primo
+*mI"Basso	*mI"Basso	*	*	*	*	*	*	*	*mI"Soprano II	*	*	*	*mI"Soprano I	*	*	*	*mI"Clarinetto II in B	*mI"Clarinetto I in B
 *I'org	*I'B	*	*	*	*I'T	*	*	*	*I'S 2	*	*	*	*I'S 1	*	*	*	*I'cl 2	*I'cl 1
 *Iorgan	*Ibass	*	*	*	*Itenor	*	*	*	*Isoprn	*	*	*	*Isoprn	*	*	*	*Iclarb	*Iclarb
 *ICklav	*ICvox	*	*	*	*ICvox	*	*	*	*ICvox	*	*	*	*ICvox	*	*	*	*ICww	*ICww
@@ -33,6 +34,7 @@
 *>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]	*>[A,A,A]
 *>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A
 *clefF4	*clefF4	*	*	*	*clefC4	*	*	*	*clefC1	*	*	*	*clefC1	*	*	*	*clefG2	*clefG2
+*	*	*	*	*	*mclefGv2	*	*	*	*mclefG2	*	*	*	*mclefG2	*	*	*	*	*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*ITrd1c2	*ITrd1c2
 *k[b-]	*k[b-]	*	*	*	*k[b-]	*	*	*	*k[b-]	*	*	*	*k[b-]	*	*	*	*k[b-]	*k[b-]
 *F:	*F:	*	*	*	*F:	*	*	*	*F:	*	*	*	*F:	*	*	*	*F:	*F:
@@ -40,8 +42,10 @@
 *met(c|)	*met(c|)	*	*	*	*met(c|)	*	*	*	*met(c|)	*	*	*	*met(c|)	*	*	*	*met(c|)	*met(c|)
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *	*2\right	*	*	*	*2\right	*	*	*	*	*	*	*	*2\right	*	*	*	*	*
-!LO:TX:a:t=Largo \nin Exitu	!LO:TX:a:t=Largo in \nExitu	!	!	!	!LO:TX:a:t=Largo in \nExitu	!	!	!	!LO:TX:a:t=Largo Psalm 113.\nin Exitu	!	!	!	!LO:TX:a:t=Largo Psalm 113.\nin Exitu	!	!	!	!LO:TX:a:t=Largo\nin Exitu	!LO:TX:a:t=Largo\nin Exitu
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=in B.
+!!!OMD:
+!!!OMD-mod: Largo in Exitu
+!LO:TX:a:t=Largo \nin Exitu:mod=	!LO:TX:a:t=Largo in \nExitu:mod=	!	!	!	!LO:TX:a:t=Largo in \nExitu:mod=	!	!	!	!LO:TX:a:t=Largo Psalm 113.\nin Exitu:mod=	!	!	!	!LO:TX:a:t=Largo Psalm 113.\nin Exitu:mod=	!	!	!	!LO:TX:a:t=Largo\nin Exitu:mod=	!LO:TX:a:t=Largo\nin Exitu:mod=
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=in B.:mod=
 4FF/	2F\	Kie-	Pęd	Cóż	2c\	Kie-	Pęd	Cóż	2f/	Kie-	Pęd	Cóż	2a\	Kie-	Pęd	Cóż	4ff\	4aa\
 4F\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8.ff\L	8.aa\L
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	16ff\Jk	16aa\Jk
@@ -133,6 +137,7 @@
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8cc\	8ff#X\
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 =11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11
+!	!	!	!LO:MO:mod=jak	!LO:MO:mod=jak	!	!	!LO:MO:mod=jak	!LO:MO:mod=jak	!	!	!LO:MO:mod=jak	!LO:MO:mod=jak	!	!	!LO:MO:mod=jak	!LO:MO:mod=jak	!	!
 4G\	4G\	ła-	iak	iak	4d\	ła-	iak	iak	4g/	ła-	iak	iak	4b-\	ła-	iak	iak	8r	8r
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8b-\L	8gg\L
 4GG/	4G\	-ska	ca-	ca-	4d\	-ska	ca-	ca-	4g/	-ska	ca-	ca-	4b-\	-ska	ca-	ca-	8dd\	8bb-\
@@ -172,12 +177,16 @@
 4D/	4d\	-bna	-łe	-go,	4B-\	-bna	-łe	-go,	4f/	-bna	-łe	-go	4b-\	-bna	-łe	-go	8ff\	8bb-\
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8ff\J	8bb-\J
 =15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15
-4C/	4c\	ku	ia-	iak	4c\	ku	ia-	iak	4f/	ku	ia-	iak	4a\	ku	ia-	iak	8r	8r
+!	!	!	!LO:MO:mod=ja-	!LO:MO:mod=jak	!	!	!LO:MO:mod=ja-	!LO:MO:mod=jak	!	!	!LO:MO:mod=ja-	!LO:MO:mod=jak	!	!	!LO:MO:mod=ja-	!LO:MO:mod=jak	!	!
+4C/	4c\	ku	ia-	iak	4c\	ku	ia-	iak	4f/	ku	ia-	iak	4a\	ku	ia	iak	8r	8r
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8ff\L	8aa\L
+!	!	!	!	!LO:MO:mod=ja-	!	!	!	!LO:MO:mod=ja-	!	!	!	!LO:MO:mod=ja-	!	!LO:MO:mod=wier-	!	!LO:MO:mod=ja-	!	!
 4CC/	4C/	wier-	-gnię-	ia-	4A\	wier-	-gnię-	ia-	4a/	wier-	-gnię-	ia-	4cc\	wie-	-gnię-	ia-	8aa\	8ccc\
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8aa\J	8ccc\J
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=-no-	!	!	!	!
 4CC/	4C/	-no-	-ta	-gnię-	4G\	-no-	-ta	-gnię-	4b-/	-no-	-ta	-gnię-	4dd\	-rze-	-ta	-gnię-	8r	8r
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8gg\L	8bb-\L
+!	!	!LO:MO:mod=-ści	!	!	!	!LO:MO:mod=-ści	!	!	!	!LO:MO:mod=-ści	!	!	!	!LO:MO:mod=-ści	!	!	!	!
 4CC/	4C/	-śći	ska-	-ta,	4B-\	-śći	ska-	-ta;	4g/	-śći	ska-	-ta	4ee\	-niu	ska-	-ta	8ee\	8gg\
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8ee\J	8gg\J
 =16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
@@ -186,7 +195,9 @@
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8ee\	8gg\
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	8ee\J	8gg\J
 4FF/	4F\	-ła.	-ły	-ły.	4A\	-ła.	-ły	-ły	4a\	-ła.	-ły	-ły.	4ff\	-ła.	-ły	-ły	4ff\	4ff\
-!LO:TX:b:i:t=Da Capo	!	!	!	!	!LO:TX:b:i:t=Da Capo	!	!	!	!LO:TX:b:i:t=Da \nCapo	!	!	!	!	!	!	!	!LO:TX:b:i:t=D Capo.	!LO:TX:b:i:t=Da \nCapo
+!!!OMD:
+!!!OMD-mod: Da Capo
+!LO:TX:b:i:t=Da Capo:mod=	!	!	!	!	!LO:TX:b:i:t=Da Capo:mod=	!	!	!	!LO:TX:b:i:t=Da \nCapo:mod=	!	!	!	!	!	!	!	!LO:TX:b:i:t=D Capo.:mod=	!LO:TX:b:i:t=Da \nCapo:mod=
 4r	4r	.	.	.	4r	.	.	.	4r	.	.	.	4r	.	.	.	4r	4r
 ==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!	==:|!
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
@@ -196,5 +207,8 @@
 !!!END: 2020-10-01
 !!!ENC: Marta Lawrence
 !!!END: 2021-11-19
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-11-28
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m |

@@ -1,3 +1,4 @@
+!!!!SEGMENT: d-b--slg-bohn-ms-mus-111--002_jarzebski-adam--canzoni-e-concerti-2-concerto-secundo.krn
 !!!cenid: 16xx:1775
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
@@ -20,22 +21,27 @@
 !!!ONB-nifc: UWAGA: Prima vox: s. 5, Seconda vox: s. 65, Basso continuo: s. 165. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 1 soprn 1 tenor
 !!!key: a
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/i//" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 **kern	**kern	**kern
+*	*group1	*group1
 *part3	*part2	*part1
 *staff3	*staff2	*staff1
 *I"Baſso Continuo	*I"Tenor.	*I"Sopr:
+*mI"Basso continuo	*mI"Tenore	*mI"Soprano
 *I'bc	*I'T	*I'S
 *	*ICvox	*ICvox
 *	*Itenor	*Isoprn
 *IGcont	*	*
 *clefF4	*clefC4	*clefG2
+*	*mclefGv2	*
 *k[]	*k[]	*k[]
 *a:	*a:	*a:
 *M2/2	*M2/2	*M2/2
 *met(C|)	*met(C|)	*met(C|)
+*mmet(c|)	*mmet(c|)	*mmet(c|)
 =1-	=1-	=1-
 !!LO:TX:t=P:problem:all\right or left	!LO:TX:t=P:problem:all\right or middle	!!LO:TX:t=P:problem:all\right or middle
-!	!	!LO:TX:b:i:t=8
+!	!	!LO:TX:b:i:t=8:mod=
 2D/	2D/	00r
 4D/	4D/	.
 4D/	4D/	.
@@ -158,9 +164,10 @@
 0D	1D	0dd
 .	1d\	.
 =19-	=19-	=19-
+.	.	.
 1C#X	1c#Xi	1ee
 =20-	=20-	=20-
-0D	1.d	0ff#X
+0D	1.d	0ff#
 =21-	=21-	=21-
 .	2cny\	.
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!LO:TX:t=P:problem:kreska pseudotaktowa
@@ -175,7 +182,10 @@
 =24-	=24-	=24-
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 0.AA	0A	0.aa
+.	.	.
+.	.	.
 =25-	=25-	=25-
+.	.	.
 .	1r	.
 *	*custos:D	*
 !	!LO:LB:g=original	!
@@ -183,11 +193,12 @@
 0D	1D	0dd
 .	1d\	.
 =27-	=27-	=27-
+.	.	.
 1C#X	1c#X	1ee
 *custos:D	*	*
 !LO:LB:g=original	!	!
 =28-	=28-	=28-
-0D	1.d	0ff#X
+0D	1.d	0ff#
 =29-	=29-	=29-
 .	2cny\	.
 !LO:TX:t=P:problem:kreska pseudotaktowa	!LO:TX:t=P:problem:kreska pseudotaktowa	!LO:TX:t=P:problem:kreska pseudotaktowa
@@ -202,6 +213,7 @@
 =32-	=32-	=32-
 *M2/2	*M2/2	*M2/2
 *met(C|)	*met(C|)	*met(C|)
+*mmet(c|)	*mmet(c|)	*mmet(c|)
 2AA/	2A/	8aa\L
 .	.	8bb\J
 .	.	8ggny\L
@@ -236,6 +248,7 @@
 =36-	=36-	=36-
 2D/	4D/	1dd
 *	*clefC4	*
+*	*mclefGv2	*
 .	4d\	.
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!
 2D/	4d\	.
@@ -244,7 +257,7 @@
 *	*	*custos:dd
 !	!	!LO:LB:g=original
 =37-	=37-	=37-
-!	!	!LO:TX:b:i:t=2.
+!	!	!LO:TX:b:i:t=2.:mod=
 2.F\	4A/	0r
 .	4.c\	.
 .	8d\L	.
@@ -366,32 +379,40 @@
 *	*	*custos:g
 !	!	!LO:LB:g=original
 .	4C/	4g/
-!LO:TX:t=P:problem:kreska pseudotaktowa	!	!
+!LO:TX:t=P:problem:kreska pseudotaktowa	!LO:MO:mod=[4c	!
 4C/	4.c\	8cc\L
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	8dd\J
 =55-	=55-	=55-
+!	!LO:MO:null:mod=8c]L	!
 4.C/	.	8ee\L
+!	!LO:SIC:s=8d	!
 .	8d\L	8ff\J
 .	8e\	4gg\
 8D/L	8f\J	.
 8E/	4g\	4.g/
 8F/J	.	.
+!	!LO:MO:mod=[4G	!
 4G\	4.G/	.
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	8a/
 =56-	=56-	=56-
+!	!LO:MO:null:mod=8G]L	!
 4.GG/	.	8b/L
+!	!LO:MO:mod=8A	!
 .	8A/L	8cc/J
 .	8B/	4dd\
 8AA/L	8c/J	.
 8BBny/	4d\	4.d/
 8C/J	.	.
+!	!LO:MO:mod=[4D	!
 2D/	4.D/	.
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	8e/
 =57-	=57-	=57-
+!	!LO:MO:null:mod=8D]L	!
 .	.	8f/L
+!	!LO:MO:mod=8E	!
 .	8E/L	8g/
 4D/	8F/	8a/
 .	8G/J	8b/J
@@ -399,6 +420,7 @@
 2A\	2A/	8cc#X\L
 .	.	8dd\
 .	.	8ee\
+!	!	!LO:SIC:s=8cc#J
 .	.	8cc#Xi\J
 =58-	=58-	=58-
 2D/	4D/	1dd
@@ -453,9 +475,11 @@
 .	2AA/	.
 .	.	4gg\
 =64-	=64-	=64-
+!LO:SIC:s=0Dl;	!LO:SIC:s=0Dl;	!LO:SIC:s=0ff#l;
 0Dl;;	0Dl;;	0ff#Xl;;
 ==	==	==
 *-	*-	*-
+!!!system-decoration: [(g1)]s3
 !!!system-decoration: s1,s2,s3
 !!!RDF**kern: i = editorial accidental
 !!!RDF**kern: l = terminal long
@@ -465,3 +489,5 @@
 !!!END: 2022-11-09
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-11-28

@@ -1,4 +1,4 @@
-!!!!SEGMENT: d-b--slg-bohn-ms-mus-111--001_jarzebski-adam--canzoni-e-concerti-1-concerto-primo
+!!!!SEGMENT: d-b--slg-bohn-ms-mus-111--001_jarzebski-adam--canzoni-e-concerti-1-concerto-primo.krn
 !!!cenid: 16xx:1774
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
@@ -21,18 +21,22 @@
 !!!ONB-nifc: UWAGA: Prima vox: s. 5, Seconda vox: s. 65, Basso continuo: s. 165. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 2 empty 1 tenor
 !!!key: d
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/i//" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 **kern	**fba	**kern	**kern
 *part3	*	*part2	*part1
 *	*	*group1	*group1
 *staff3	*	*staff2	*staff1
 *Iempty	*	*Itenor	*Iempty
 *I"Baſſo Continuo.	*	*I"Tenore.	*I"Sopr:
+*mI"Basso continuo	*	*mI"Tenore	*mI"Soprano
 *I'bc	*	*I'T	*I'S
 *clefF4	*	*clefC4	*clefG2
+*	*	*mclefGv2	*
 *k[]	*	*k[]	*k[]
 *d:	*	*d:	*d:
 *M2/2	*	*M2/2	*M2/2
 *met(c|)	*	*met(c|)	*met(c|)
+*mmet(c|)	*	*mmet(c|)	*mmet(c|)
 =1-	=1-	=1-	=1-
 !!LO:TX:t=P:problem:nie wprowadzamy kodów instrumentów, nie zostały jeszcze ustalone [konsultacja z E.Z.]
 !!LO:TX:t=P:problem:4,8,16\right, 2\middle:global
@@ -40,7 +44,7 @@
 =2-	=2-	=2-	=2-
 2G\	.	.	2g/
 !LO:TX:t=P:problem:korekta wartości	!	!	!
-1B-X	.	.	[2d/
+1B-	.	.	[2d/
 =3-	=3-	=3-	=3-
 .	.	.	8d/L]
 .	.	.	8e/
@@ -54,6 +58,7 @@
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 1G	-	.	4.b-X/
 .	.	.	8a/
+!	!	!	!LO:SIC:s=8b-L
 .	.	.	8b-X/L
 .	.	.	8a/
 .	.	.	8b-/
@@ -67,7 +72,7 @@
 =7-	=7-	=7-	=7-
 2G\	.	2G/	.
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
-1B-X	.	[2D/	.
+1B-	.	[2D/	.
 =8-	=8-	=8-	=8-
 .	.	8D/L]	.
 .	.	8E/	.
@@ -82,6 +87,7 @@
 =9-	=9-	=9-	=9-
 1G	-	4.B-X\	.
 .	.	8A/	.
+!	!	!LO:SIC:s=8B-L	!
 .	.	8B-X\L	.
 .	.	8A\	.
 .	.	8B-\	.
@@ -167,7 +173,9 @@
 !	!	!	!LO:TX:b:t=P:problem:# below
 .	.	.	16cc#X/
 .	.	.	16dd/JJ
+!	!	!	!LO:SIC:s=8eeL
 .	.	.	8ee\
+!	!	!	!LO:SIC:s=8aJ
 .	.	.	8a/
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	16A\LL	2r
@@ -330,6 +338,7 @@
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 1GG	-	4.B-X\	.
 .	.	8A/	.
+!	!	!LO:SIC:s=8B-L	!
 .	.	8B-Xi\L	.
 .	.	8A\	.
 .	.	8B-\	.
@@ -568,10 +577,12 @@
 .	.	4A/	4dd\
 .	.	1d	2ff\
 =64-	=64-	=64-	=64-
+!LO:SIC:s=[1AA	!	!	!LO:SIC:s=[1ee
 [1AAl;;	.	.	[1eel;;
 .	.	4c#X\	.
 .	.	4B\	.
 =65-	=65-	=65-	=65-
+!LO:SIC:s=1AA];	!	!LO:SIC:s=1c#;	!LO:SIC:s=1ee];
 1AA]	.	1c#Xl;;	1ee]
 ==	==	==	==
 *-	*-	*-	*-
@@ -579,10 +590,14 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: i = editorial accidental
+!!LO:MO:ori
 !!!RDF**kern: l = terminal long
+!!LO:MO:end
 !!!ENC: Anastazja Marusiak
 !!!END: 2022-10-29
 !!!ENC: Katarzyna Serwa
 !!!END: 2022-11-09
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-11-28

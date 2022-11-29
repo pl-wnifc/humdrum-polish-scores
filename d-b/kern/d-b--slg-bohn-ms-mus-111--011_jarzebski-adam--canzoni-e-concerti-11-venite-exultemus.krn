@@ -1,3 +1,4 @@
+!!!!SEGMENT: d-b--slg-bohn-ms-mus-111--011_jarzebski-adam--canzoni-e-concerti-11-venite-exultemus.krn
 !!!cenid: 16xx:1784
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
@@ -18,23 +19,29 @@
 !!!URL-pdf-islandora:
 !!!URL-scan: https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1049147219
 !!!ONB-nifc: UWAGA: Prima vox: s. 20-21, Seconda vox: s. 80-81, Basso continuo: s. 171. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" |shed -k -e "s/-X/-/g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | tie -s | autostem -r  | modori -m
 !!!AIN: 1 soprn 1 viola
 !!!key:
 **kern	**fba	**kern	**kern
+*	*	*group1	*group1
 *part3	*part3	*part2	*part1
 *staff3	*	*staff2	*staff1
-*I"Baſso Continuo	*	*I"Baſtarda	*I"Canto
+*I"Baſso Continúo.	*	*I"Baſtarda	*I"Canto
+*mI"Basso continuo	*	*mI"Bastarda	*mI"Soprano
 *I'bc	*	*I'vla bastarda	*I'S
 *	*	*ICstr	*ICvox
 *	*	*Iviola	*Isoprn
+*IGcont	*	*	*
 *clefC4	*	*clefF4	*clefG2
+*	*	*	*mclefG2
 *k[]	*	*k[]	*k[]
 *d:	*	*d:	*d:
 *M2/2	*	*M2/2	*M2/2
 *met(C|)	*	*met(C|)	*met(C|)
+*mmet(c|)	*	*mmet(c|)	*mmet(c|)
 =1-	=1-	=1-	=1-
 !!LO:TX:t=P:problem:all/right or middle	!	!
-!LO:TX:a:t=Venite Exultem(us).	!	!LO:TX:a:t=Venite Exultem(us).	!LO:TX:a:t=Venite Exultemus.
+!LO:TX:a:t=Venite Exultem(us).:mod=	!	!LO:TX:a:t=Venite Exultem(us).:mod=	!LO:TX:a:t=Venite Exultemus.:mod=
 1e	.	1E	00r
 =2-	=2-	=2-	=2-
 *2\right	*	*2\right	*
@@ -78,7 +85,11 @@
 .	.	.	8ee\
 .	.	.	8ff\
 .	.	.	8gg\J
+!	!	!	!
+*	*	*	*
 =9-	=9-	=9-	=9-
+!LO:MO:null:mod=*clefF4	!	!	!
+*	*	*	*
 1A	.	2r	1ee
 .	.	2A\	.
 =10-	=10-	=10-	=10-
@@ -111,7 +122,9 @@
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	2r	16ee\LL
 .	.	.	16ff\
+!	!	!	!LO:SIC:v:s=16dd
 .	.	.	16ee\
+!	!	!	!LO:SIC:v:s=16eeJJ
 .	.	.	16ff\JJ
 .	.	.	16cc\LL
 .	.	.	16dd\
@@ -146,18 +159,21 @@
 .	.	16D\LL	.
 .	.	16E\	.
 .	.	16F\JJ	.
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefC4	*
 .	.	16G\LL	.
 .	.	16A\	.
 .	.	16B\	.
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
-.	.	16c#Xi\JJ	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16c#X\JJ	.
 =16-	=16-	=16-	=16-
 2d\	.	[2d\	8.aa\]
-.	.	.	16bb-Xi\Jk
+!	!	!	!LO:TX:a:t=P:problem:♭ above
+.	.	.	16bb-X\Jk
 .	.	.	8.gg\L
 .	.	.	16aa\Jk
-2D/	.	8.d\]	4.ff\
+2D/	.	8.d\]L	4.ff\
 .	.	16e\Jk	.
 .	.	8.d\L	.
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
@@ -185,6 +201,7 @@
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 2G#X/	.	2G#X/	4.b/
 .	.	.	8cc\
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefF4	*
 =19-	=19-	=19-	=19-
 2.A/	.	4A\	1a
@@ -209,6 +226,7 @@
 .	.	.	8gg\
 .	.	.	8ff\J
 .	.	.	2ee\
+!	!	!LO:MO:null:mod=*clefC4	!
 *	*	*clefC3	*
 =22-	=22-	=22-	=22-
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
@@ -224,6 +242,7 @@
 2A/	.	2e\	8dd\L
 .	.	.	16cc\L
 .	.	.	16b\JJ
+!	!	!	!LO:SIC:v:s=8aL
 .	.	.	8g/L
 .	.	.	8b/J
 2.A/	.	2A/	4.cc\
@@ -258,14 +277,18 @@
 !	!	!LO:TX:t=P:problem:# below	!
 .	.	16c#X/JJ	.
 2c#\	.	16d\LL	2r
-.	.	16c#Xi\	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16c#X\	.
 .	.	16d\	.
-.	.	16c#Xi\JJ	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16c#X\JJ	.
 .	.	16d\LL	.
-.	.	16c#Xi\	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16c#X\	.
 .	.	16B\	.
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
-.	.	16c#Xi\JJ	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16c#X\JJ	.
 *	*	*custos:d	*
 !	!	!LO:LB:g=original	!
 =26-	=26-	=26-	=26-
@@ -277,16 +300,21 @@
 .	.	.	16aa\LL
 .	.	.	16dd\
 .	.	.	16ee\
-.	.	.	16ff#Xi\JJ
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16ff#X\JJ
 .	.	2r	16gg\LL
-.	.	.	16ff#Xi\
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16ff#X\
 .	.	.	16gg\
-.	.	.	16ff#Xi\JJ
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16ff#X\JJ
 .	.	.	16gg\LL
-.	.	.	16ff#Xi\
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16ff#X\
 .	.	.	16ee\
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
-.	.	.	16ff#Xi\JJ
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16ff#X\JJ
 =27-	=27-	=27-	=27-
 1Gny	.	16Gny/LL	2.gg\
 .	.	16A/	.
@@ -316,7 +344,8 @@
 *	*	*clefF4	*
 =29-	=29-	=29-	=29-
 2F/	.	4.F\	4aa\]
-.	.	.	16bb-Xi\LL
+!	!	!	!LO:TX:a:t=P:problem:♭ above
+.	.	.	16bb-X\LL
 .	.	.	16aa\
 .	.	8D/	16gg\
 .	.	.	16ff\JJ
@@ -325,9 +354,11 @@
 .	.	4A\	.
 =30-	=30-	=30-	=30-
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
-1B-X	.	1B-Xi	8.gg\L
+!	!	!LO:TX:a:t=P:problem:♭ above	!
+1B-X	.	1B-X	8.gg\L
 .	.	.	16aa\Jk
-.	.	.	16bb-Xi\LL
+!	!	!	!LO:TX:a:t=P:problem:♭ above
+.	.	.	16bb-X\LL
 .	.	.	16aa\
 .	.	.	16gg\
 .	.	.	16ff\JJ
@@ -337,6 +368,7 @@
 .	.	.	16ff\JJ
 .	.	.	16ee\LL
 .	.	.	16dd\
+!	!	!	!LO:SIC:v:s=16cc#
 .	.	.	16cc\
 .	.	.	16b\JJ
 =31-	=31-	=31-	=31-
@@ -357,21 +389,26 @@
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 1D	.	16D\LL	2dd\
 .	.	16E\	.
-.	.	16F#Xi\	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16F#X\	.
 .	.	16G\JJ	.
 .	.	16A\LL	.
 .	.	16D\	.
 .	.	16E\	.
-.	.	16F#Xi\JJ	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16F#X\JJ	.
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	16G\LL	2r
-.	.	16F#Xi\	.
+.	.	16F#X\	.
 .	.	16G\	.
-.	.	16F#Xi\	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16F#X\	.
 .	.	16G\	.
-.	.	16F#Xi\	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16F#X\	.
 .	.	16E\	.
-.	.	16F#Xi\JJ	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16F#X\JJ	.
 *	*	*custos:G	*
 !	!	!LO:LB:g=original	!
 =33-	=33-	=33-	=33-
@@ -432,8 +469,10 @@
 2A/	.	8.C/L	[4e/
 .	.	16BB/Jk	.
 .	.	8AA/L	16e/LL]
-.	.	.	16f#Xi/
-.	.	16GG/L	16g#Xi/
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16f#X/
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	16GG/L	16g#X/
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	16FF/JJ	16a/JJ
 *	*	*custos:EE	*custos:b
@@ -493,7 +532,8 @@
 .	.	.	16ff\LL
 .	.	.	16ee\
 .	.	.	16dd\
-.	.	.	16cc#Xi\JJ
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16cc#X\JJ
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 2Bny\	.	16r	2dd\
@@ -513,6 +553,7 @@
 .	.	.	16dd\
 .	.	.	16ccny\
 .	.	.	16b\JJ
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefC4	*
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	16r	2cc\
@@ -531,7 +572,8 @@
 .	.	.	16cc/LL
 .	.	.	16b/
 .	.	.	16a/
-.	.	.	16g#Xi/JJ
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16g#X/JJ
 .	.	16r	2a/
 .	.	8c\	.
 .	.	16B\	.
@@ -552,7 +594,7 @@
 .	.	.	8.b/L
 .	.	.	16a/Jk
 =48-	=48-	=48-	=48-
-!	!	!	!LO:TX:a:t=2
+!	!	!	!LO:TX:a:t=2:mod=
 2f\	.	2F/	0a
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 2A/	.	4r	.
@@ -619,6 +661,7 @@
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	4A/	8a/
 .	.	.	8ee\
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefF4	*
 =56-	=56-	=56-	=56-
 .	.	8C/L	8ee\L
@@ -642,6 +685,7 @@
 .	.	8F\	8a/L
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	8G\J	8b/J
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefC4	*custos:cc
 !	!	!	!LO:LB:g=original
 =59-	=59-	=59-	=59-
@@ -694,9 +738,11 @@
 .	.	.	4ee\
 2e\	.	.	4ee\
 .	.	.	4ee\
+!LO:MO:mod=*null:null	!	!	!
 *clefC3	*	*	*
 =64-	=64-	=64-	=64-
-!	!	!	!LO:TX:t=P:problem:mixed beam
+!LO:MO:null:mod=*clefC4	!	!	!LO:TX:t=P:problem:mixed beam
+*	*	*	*
 1a	.	4r	8ff\L
 .	.	.	8a\
 .	.	4A/	8a\
@@ -731,6 +777,7 @@
 .	.	.	8gg\L
 .	.	.	8ff\
 .	.	.	8ee\J
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefF4	*
 =67-	=67-	=67-	=67-
 2f\	.	8r	2dd\
@@ -756,6 +803,8 @@
 .	.	4D/	.
 .	.	.	8b/
 =69-	=69-	=69-	=69-
+!LO:MO:null:mod=*clefF4	!	!	!
+*	*	*	*
 1c	.	2C/	8cc\L
 .	.	.	16gg\L
 .	.	.	16ff\JJ
@@ -771,6 +820,7 @@
 .	.	16F\	.
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	16E\JJ	.
+!LO:MO:mod=*null:null	!	!	!
 *clefC4	*	*	*
 =70-	=70-	=70-	=70-
 1F	.	2F\	8r
@@ -854,7 +904,8 @@
 1G	.	8G\L	8b\L
 .	.	8A\	8cc\
 !	!	!LO:N:acc=#	!
-.	.	8Bni\	8dd\
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	8Bn\	8dd\
 .	.	8A\J	8cc\J
 .	.	8G\L	8b\L
 .	.	16A\L	16cc\L
@@ -921,8 +972,10 @@
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 1E	.	1E	4b/
 .	.	.	16e/LL
-.	.	.	16f#Xi/
-.	.	.	16g#Xi/
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16f#X/
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16g#X/
 .	.	.	16a/JJ
 .	.	.	8b/L
 .	.	.	8e/J
@@ -950,7 +1003,8 @@
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 2c#X\	.	8A\L	[2ee\
 .	.	8B\	.
-.	.	8c#Xi\	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	8c#X\	.
 .	.	8A\J	.
 *	*	*custos:d	*
 !	!	!LO:LB:g=original	!
@@ -960,13 +1014,18 @@
 .	.	.	8ee\
 .	.	.	8dd\J
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
+!LO:MO:null:mod=*clefC4	!	!	!
+*	*	*	*
 2g\	.	8r	4dd\
 .	.	8A\L	.
+!	!	!	!LO:MO:mod=[4gg
 .	.	8G\	4.gg\
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	8F\J	.
 =88-	=88-	=88-	=88-
+!	!	!	!LO:MO:mod=8gg]L
 1e	.	8E\L	.
+!	!	!	!LO:MO:null:mod=8ffJ
 .	.	8D\J	8ff\
 .	.	8G\L	8ee\L
 .	.	8F\J	8dd\J
@@ -974,9 +1033,11 @@
 .	.	8D\J	4dd\
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	4E\	.
-.	.	.	8cc#Xi\
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	8cc#X\
 =89-	=89-	=89-	=89-
 2d\	.	2D/	2dd\
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefC4	*
 2d\	.	4r	4r
 .	.	4d\	4ff\
@@ -998,11 +1059,14 @@
 *custos:A	*	*	*
 !LO:LB:g=original	!	!	!
 =92-	=92-	=92-	=92-
+!LO:MO:null:mod=*clefF4	!	!	!
+*	*	*	*
 2A/	.	8.A\L	2ccny\
 .	.	16B\Jk	.
 .	.	8c\L	.
 .	.	16B\L	.
 .	.	16A\JJ	.
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefF4	*
 2G/	.	8.G\L	2b/
 .	.	16F\Jk	.
@@ -1038,6 +1102,7 @@
 1F	.	1F	2a/
 .	.	.	4r
 .	.	.	4ee\
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefC4	*
 =96-	=96-	=96-	=96-
 2D/	.	4r	2ff\
@@ -1078,6 +1143,7 @@
 .	.	.	8dd/
 .	.	.	8cc/J
 .	.	.	2b/
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefF4	*
 =101-	=101-	=101-	=101-
 0D	.	2r	8a/L
@@ -1088,51 +1154,61 @@
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	8AA/L	2r
 .	.	8D/J	.
-.	.	8F#Xi\L	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	8F#X\L	.
 .	.	8A\J	.
 =102-	=102-	=102-	=102-
 .	.	2r	16dd\LL
 .	.	.	16ee\
-.	.	.	16ff#Xi\
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16ff#X\
 .	.	.	16gg\JJ
 .	.	.	8aa\L
 .	.	.	8dd\J
 .	.	16D\LL	2r
 .	.	16E\	.
-.	.	16F#Xi\	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16F#X\	.
 .	.	16G\JJ	.
 .	.	8A\L	.
 .	.	8D\J	.
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefC4	*
 =103-	=103-	=103-	=103-
 0A	.	2r	8a\L
-.	.	.	8cc#Xi\
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	8cc#X\
 .	.	.	8ee\
 .	.	.	8a\J
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	8A\L	2r
-.	.	8c#Xi\	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	8c#X\	.
 .	.	8e\	.
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	8A\J	.
 =104-	=104-	=104-	=104-
 .	.	2r	16a/LL
 .	.	.	16b/
-.	.	.	16cc#Xi/
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16cc#X/
 .	.	.	16dd/JJ
 .	.	.	8ee\L
 .	.	.	8a\J
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	16A\LL	2r
 .	.	16B\	.
-.	.	16c#Xi\	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16c#X\	.
 .	.	16d\JJ	.
 .	.	8e\L	.
 .	.	8A\J	.
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefF4	*
 =105-	=105-	=105-	=105-
 0E	.	2r	8ee\L
-.	.	.	8gg#Xi\
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	8gg#X\
 .	.	.	8bbny\
 .	.	.	8ee\J
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
@@ -1143,15 +1219,19 @@
 .	.	8E\J	.
 =106-	=106-	=106-	=106-
 .	.	2r	16ee\LL
-.	.	.	16ff#Xi\
-.	.	.	16gg#Xi\
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16ff#X\
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16gg#X\
 .	.	.	16aa\JJ
 .	.	.	8bb\L
 .	.	.	8ee\J
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	16E\LL	2r
-.	.	16F#Xi\	.
-.	.	16G#Xi\	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16F#X\	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	16G#X\	.
 .	.	16A\JJ	.
 .	.	8B\L	.
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
@@ -1160,12 +1240,14 @@
 !	!	!LO:LB:g=original	!
 =107-	=107-	=107-	=107-
 2A/	.	2r	8a\L
-.	.	.	8cc#Xi\
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	8cc#X\
 .	.	.	8ee\
 .	.	.	8a\J
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 2A/	.	8AA/L	2r
-.	.	8C#Xi/	.
+!	!	!LO:TX:a:t=P:problem:# above	!
+.	.	8C#X/	.
 .	.	8E/	.
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	8AA/J	.
@@ -1240,9 +1322,11 @@
 =113-	=113-	=113-	=113-
 1e	.	2E\	8r
 .	.	.	16ee\LL
-.	.	.	16ff#Xi\JJ
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16ff#X\JJ
 .	.	.	8ggny\L
-.	.	.	8ff#Xi\J
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	8ff#X\J
 *	*	*custos:F	*
 !	!	!LO:LB:g=original	!
 .	.	2r	8ee\L
@@ -1268,9 +1352,11 @@
 !	!	!LO:TX:t=P:problem:mixed beam	!LO:TX:t=P:problem:mixed beam
 0B-X	.	8BB-X/L	8d/L
 .	.	16B-X\L	16dd\L
-.	.	16cny\JJ	16ee-Xi\JJ
+!	!	!	!LO:TX:a:t=P:problem:♭ above
+.	.	16cny\JJ	16ee-X\JJ
 .	.	8d\L	8ffny\L
-.	.	8c\J	8ee-Xi\
+!	!	!	!LO:TX:a:t=P:problem:♭ above
+.	.	8c\J	8ee-X\
 .	.	8B-X\L	8dd\
 .	.	8A\	8cc\J
 .	.	8G\	8b-X/L
@@ -1281,13 +1367,16 @@
 .	.	2BB-X/	8b-X/L
 .	.	.	16gg\L
 .	.	.	16aa\JJ
+!	!	!	!
 .	.	.	8bb-X\L
 .	.	.	8aa\J
 .	.	2r	8gg\L
 .	.	.	8ff\
-.	.	.	8ee-Xi\
+!	!	!	!LO:TX:a:t=P:problem:♭ above
+.	.	.	8ee-X\
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	.	8dd\J
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefC4	*
 =117-	=117-	=117-	=117-
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
@@ -1341,7 +1430,8 @@
 !	!	!LO:TX:t=P:problem:♭ below	!
 1B-X	.	4.B-X\	.
 .	.	8A/	.
-.	.	8B-Xi\L	.
+!	!	!LO:TX:a:t=P:problem:♭ above	!
+.	.	8B-X\L	.
 .	.	8A\	.
 .	.	8B-\	.
 .	.	8c\J	.
@@ -1448,7 +1538,8 @@
 .	.	8A/	16aa\
 .	.	.	16ff\JJ
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
-2B-\	.	8B-Xi\L	8gg\L
+!	!	!LO:TX:a:t=P:problem:♭ above	!
+2B-\	.	8B-X\L	8gg\L
 .	.	8A\	16ee\L
 .	.	.	16ff\
 .	.	8B-\	16gg\
@@ -1508,6 +1599,7 @@
 .	.	8c\L	8ee\L
 .	.	8e\J	8gg\J
 2A/	.	8A/	8aa\L
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefF4	*
 .	.	16AA/LL	16cc\L
 .	.	16GG/JJ	16bny\JJ
@@ -1525,6 +1617,7 @@
 .	.	8F\J	8aa\J
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 2e\	.	8C/	8ee\L
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefC4	*
 .	.	16e\LL	16gg\L
 .	.	16d\JJ	16ff\J
@@ -1551,6 +1644,7 @@
 .	.	8Bny\J	8dd\J
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 2A/	.	8e\	8ee\
+!	!	!LO:MO:mod=*null:null	!
 *	*	*clefF4	*
 .	.	16E\LL	16g/LL
 .	.	16D\JJ	16f/J
@@ -1605,7 +1699,8 @@
 .	.	.	16dd\JJ
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 2C#X/	.	2C#X/	8ee\L
-.	.	.	16cc#Xi\L
+!	!	!	!LO:TX:a:t=P:problem:# above
+.	.	.	16cc#X\L
 .	.	.	16dd\
 .	.	.	16ee\
 .	.	.	16ff\
@@ -1630,7 +1725,8 @@
 .	.	8A\J	.
 =145-	=145-	=145-	=145-
 00D	.	8F\L	8aa\]
-.	.	8G\J	8bb-Xi\J
+!	!	!	!LO:TX:a:t=P:problem:♭ above
+.	.	8G\J	8bb-X\J
 .	.	8E\L	8gg\L
 .	.	8F\J	8aa\J
 .	.	4D/	8ff\L
@@ -1658,7 +1754,7 @@
 .	.	.	16g/
 .	.	.	16a/
 .	.	.	16b/
-.	.	.	16cci/
+.	.	.	16ccny/
 .	.	.	16a/JJ
 =147-	=147-	=147-	=147-
 .	.	16r	2dd\
@@ -1686,15 +1782,17 @@
 .	.	.	8ff\
 .	.	.	8gg\J
 =149-	=149-	=149-	=149-
+!LO:MO:mod=1A;	!	!LO:MO:mod=1AA;	!LO:MO:mod=1ee;
 0Al;;	.	0AAl;;	0eel;;
 ==	==	==	==
 *-	*-	*-	*-
-!!!system-decoration: s1,s2,s3
-!!!RDF**kern: i = editorial accidental
+!!!system-decoration: [(g1)]s3
 !!!RDF**kern: l = terminal long
 !!!ENC: Anastazja Marusiak
 !!!END: 2022-11-04
 !!!ENC: Natalia Wrzos
 !!!END: 2022-11-12
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2022-11-29
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
