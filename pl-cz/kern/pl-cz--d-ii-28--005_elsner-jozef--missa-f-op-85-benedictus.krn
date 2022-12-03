@@ -25,15 +25,20 @@
 *staff4	*staff3	*	*staff2	*staff2	*staff1	*staff1
 *Iorgan	*Iempty	*	*Ibass	*	*Itenor	*
 *I"Organo	*	*	*I"Basso	*	*I"Tenori	*
+*	*	*	*	*	*mI"Tenore	*
 *I'Org	*	*	*I'B	*	*I'T	*
 *clefF4	*clefG2	*	*clefF4	*	*clefC4	*
+*	*	*	*	*	*mclefGv2	*
 *k[b-e-]	*k[b-e-]	*	*k[b-e-]	*	*k[b-e-]	*
 *B-:	*B-:	*	*B-:	*	*B-:	*
 *M3/4	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1
-!	!	!	!	!	!LO:TX:a:B:t=Andantino	!
+!!!OMD:
+!!!OMD-mod: Andantino
+!	!	!	!	!	!LO:TX:a:B:t=Andantino:mod=	!
 2.BBB-/ 2.BB-	4r	p	2.r	.	[4d\	Be-
-!	!	!	!	!	!LO:TX:a:t=problem:triole bez numeru w t. 1	!
+*	*	*	*	*	*Xtuplet	*
+!	!	!	!	!	!	!
 .	4d/ 4f	.	.	.	12d\L]	.
 .	.	.	.	.	(12c\	.
 .	.	.	.	.	12d\J	.
@@ -47,10 +52,11 @@
 4BBB-/ 4BB-	4e-/ 4f 4cc	.	.	.	4d\	qui
 =3	=3	=3	=3	=3	=3	=3
 4CC/ 4C	4f/ 4a 4ee-	.	2.r	.	[4e-\	ve-
-!	!	!	!	!	!LO:TX:a:t=problem:triole bez numeru i łuku w t. 3	!
+!	!	!	!	!	!	!
 4r	4r	.	.	.	12e-\L]	.
 .	.	.	.	.	12d\	.
 .	.	.	.	.	12c\J	.
+!	!	!	!	!	!LO:TUP:a:problem:klamra łukowa	!
 4BBB-/ 4BB-	4f/ 4b- 4dd	.	.	.	12d\L	.
 .	.	.	.	.	12f\	.
 .	.	.	.	.	12d\J	.
@@ -76,9 +82,10 @@
 .	4B-/ 4en 4g	.	.	.	8G\L	-mi-
 .	.	.	.	.	8A\J	.
 =8	=8	=8	=8	=8	=8	=8
-!	!	!	!	!	!LO:TX:a:t=problem:nieprecyzyjny zapis wysokości dźwięku	!
+!	!	!	!	!	!LO:TX:t=P:problem:nieprecyzyjny zapis wysokości dźwięku	!
 2.FF/ 2.F	4r	.	4A\	Be-	2F/	-ni
-!	!	!	!LO:TX:a:t=problem:triole bez numeru i łuku w t. 8	!	!	!
+*	*	*	*Xtuplet	*	*	*
+!	!	!	!	!	!	!
 .	4A/ 4c	.	12A\L	.	.	.
 .	.	.	12G\	.	.	.
 .	.	.	12A\J	.	.	.
@@ -89,12 +96,12 @@
 !!LO:LB:g=original
 =9	=9	=9	=9	=9	=9	=9
 4FF/ 4F	4A/ 4c 4f	.	4F\	-dic-	2.r	.
-!	!LO:TX:a:t=problem:nieprecyzyjny zapis wysokości dźwięku (B-?)	!	!	!	!	!
+!	!LO:TX:t=P:problem:nieprecyzyjny zapis wysokości dźwięku (B-?)	!	!	!	!	!
 4EEn/ 4En	4B-/ 4c 4g	.	4G\	-tus	.	.
 4FF/ 4F	4A/ 4c 4a	.	4A\	qui	.	.
 =10	=10	=10	=10	=10	=10	=10
 4GG/ 4G	4c/ 4en 4g 4b-	.	4B-\	ve-	2.r	.
-!	!	!	!LO:TX:a:t=problem:triole bez numeru i łuku w t. 10	!	!	!
+!	!	!	!	!	!	!
 4r	4r	.	12B-\L	.	.	.
 .	.	.	12A\	.	.	.
 .	.	.	12G\J	.	.	.
@@ -123,7 +130,7 @@
 .	4e-\ 4a 4cc	.	8C/L	-mi-	.	.
 .	.	.	8D/J	.	.	.
 =15	=15	=15	=15	=15	=15	=15
-!	!	!	!LO:TX:a:t=problem:nieprecyzyjny zapis wysokości dźwięku	!	!	!
+!	!	!	!LO:TX:t=P:problem:nieprecyzyjny zapis wysokości dźwięku	!	!	!
 2.BBB-/ 2.BB-	4d/ 4f 4b-	.	2BB-/	-ni	4r	.
 .	4r	.	.	.	4d\	Be-
 .	4f/ 4b- 4dd	.	4r	.	4f\	-ne-
@@ -179,7 +186,7 @@
 !!LO:PB:g=original
 =27	=27	=27	=27	=27	=27	=27
 *	*^	*	*	*	*	*
-!	!	!	!	!	!	!LO:TX:a:t=problem:niejednoznaczny zapis łuku	!
+!	!	!	!	!	!	!LO:TX:t=P:problem:niejednoznaczny zapis łuku	!
 2.EE-/ 2.E-	4.dd/	2g\	.	2E-\	no-	(4.d\	no-
 .	8cc/	.	.	.	.	8c\)	.
 .	8ee-/L	8g\L	.	8G\	-mi-	8e-\	-mi-
@@ -232,7 +239,7 @@
 4GG-X\ 4G-X	4e-\ 4a 4cc 4ee-	.	4G-X\	-ne	4e-\	-ne
 =36	=36	=36	=36	=36	=36	=36
 4FF\ 4F	4f\ 4b- 4dd	.	4F\	Do-	4d\	Do-
-!	!	!	!LO:TX:a:t=problem:triole bez numeru i łuku w t. 36	!	!LO:TX:a:t=problem:triole bez numeru i łuku w t. 36	!
+!	!	!	!	!	!	!
 4r	4r	.	12B-\L	.	12d\L	.
 .	.	.	12c\	.	12e-\	.
 .	.	.	12B-\J	.	12d\J	.
@@ -254,7 +261,7 @@
 *	*v	*v	*	*	*	*	*
 =40	=40	=40	=40	=40	=40	=40
 4FF\ 4F	4f\ 4b- 4dd	.	4F\	Do-	4d\	Do-
-!	!	!	!LO:TX:a:t=problem:triole bez numeru i łuku w t. 40	!	!LO:TX:a:t=problem:triole bez numeru i łuku w t. 40	!
+!	!	!	!	!	!	!
 4r	4r	.	12B-\L	.	12d\L	.
 .	.	.	12c\	.	12e-\	.
 .	.	.	12B-\J	.	12d\J	.
@@ -263,7 +270,7 @@
 .	.	.	12A\J	.	12e-\J	.
 =41	=41	=41	=41	=41	=41	=41
 4GG\ 4G	4b-\ 4dd	.	4B-\	-ni	4d\	-ni
-!	!	!	!LO:TX:a:t=problem:triole bez numeru i łuku w t. 41	!	!LO:TX:a:t=problem:triole bez numeru i łuku w t. 41	!
+!	!	!	!	!	!	!
 4EE-\ 4E-	4b-\ 4ee- 4gg	.	12B-\L	Be-	12g\L	.
 .	.	.	12A\	.	12f\	Be-
 .	.	.	12G\J	.	12e-\J	.
@@ -272,7 +279,7 @@
 .	.	.	12E-\J	.	12c\J	.
 !!LO:LB:g=original
 =42	=42	=42	=42	=42	=42	=42
-!	!	!	!LO:TX:a:t=problem:triole bez numeru i łuku w t. 42	!	!LO:TX:a:t=problem:triole bez numeru i łuku w t. 42	!
+!	!	!	!	!	!	!
 4FF\ 4F	4f\ 4b- 4dd	.	12D\L	.	12f\L	.
 .	.	.	12C\	.	12e-\	.
 .	.	.	12BB-\J	.	12d\J	.
@@ -288,7 +295,7 @@
 4r	4r	.	8E-\L	.	8c\L	.
 .	.	.	8F\J	.	8A\J	.
 =44	=44	=44	=44	=44	=44	=44
-!	!LO:TX:a:t=problem:triole bez numeru i łuku w t. 44-49	!	!	!	!	!
+!	!LO:TX:t=P:problem:triole bez numeru i łuku w t. 44-49	!	!	!	!	!
 2.BB-/ 2.B-	12d/L	.	2D\	-tus	2B-\	-tus
 .	12f/	.	.	.	.	.
 .	12b-/J	.	.	.	.	.
@@ -321,7 +328,7 @@
 .	12f/	.	.	.	.	.
 .	12b-/J	.	.	.	.	.
 =47	=47	=47	=47	=47	=47	=47
-!LO:TX:a:t=problem:1 półnuta	!	!	!	!	!	!
+!LO:SIC:v:t=górna półnuta bez kropki	!	!	!	!	!	!
 2.EE-/ 2.E-	12g\L	.	2.B-\	Do-	2.c\	Do-
 .	12b-\	.	.	.	.	.
 .	12cc\J	.	.	.	.	.
@@ -342,16 +349,24 @@
 .	12a\	.	.	.	.	.
 .	12cc\J)	.	.	.	.	.
 =49	=49	=49	=49	=49	=49	=49
-!	!LO:TX:b:t=Ossanna Da. Capo.	!	!	!	!	!
-2DD/ 2D	(12d/L	.	2B-\	-ni	2B-\	-ni
-.	[12f/	.	.	.	.	.
-.	[12b-/J)	.	.	.	.	.
-.	4d/ 4f] 4b-]	.	.	.	.	.
+!	!LO:TX:b:t=Ossanna Da. Capo.:mod=	!	!	!	!	!
+!	!LO:TUP:a:problem:klamra łukowa	!	!	!	!	!
+2DD/ 2D	12d/L	.	2B-\	-ni	2B-\	-ni
+.	[[12f/	.	.	.	.	.
+.	[>12b-/J	.	.	.	.	.
+.	4d/ 4f]] 4b-]	.	.	.	.	.
+!!!OMD:
+!!!OMD-mod: Osanna da capo
 4ryy	4ryy	.	4ryy	.	4ryy	.
+!!!OMD: [segno]
 ==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: s1,s2{(s3,s4)}
+!!!system-decoration: [(s1,s2)],{(s3,s4)}
+!!!RDF**kern: > = above
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | modori -m
 !!!ENC: Anna Matuszewska
 !!!END: 2020-04-01
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-12-01
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

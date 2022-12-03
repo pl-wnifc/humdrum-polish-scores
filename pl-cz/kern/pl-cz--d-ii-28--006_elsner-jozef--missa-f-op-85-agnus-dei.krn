@@ -24,15 +24,20 @@
 *part3	*part3	*part2	*part2	*part1	*part1	*part1	*part1
 *staff5	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
 *Iorgan	*Iempty	*Ibass	*	*Itenor	*	*Iempty	*
-*I"Organo	*	*I"Basso	*	*I"Tenori	*	*	*
-*I'Org	*	*I'B	*	*I'T	*	*	*
+*I"Organo	*	*I"Basso	*	*I"Tenori	*	*I"	*
+*	*	*	*	*mI"Tenore II	*	*mI"Tenore I	*
+*I'Org	*	*I'B	*	*I'T	*	*I'	*
+*	*	*	*	*	*	*mI'T	*
 *clefF4	*clefG2	*clefF4	*	*clefC4	*	*clefC4	*
+*	*	*	*	*mclefGv2	*	*mclefGv2	*
 *k[b-]	*k[b-]	*k[b-]	*	*k[b-]	*	*k[b-]	*
 *d:	*d:	*d:	*	*d:	*	*d:	*
 *M3/4	*M3/4	*M3/4	*	*M3/4	*	*M3/4	*
 =1	=1	=1	=1	=1	=1	=1	=1
 *	*	*	*	*^	*	*	*
-!	!	!	!	!	!	!	!LO:TX:a:B:t=Andante	!
+!!!OMD:
+!!!OMD-mod: Andante
+!	!	!	!	!	!	!	!LO:TX:a:B:t=Andante:mod=	!
 2DD/ 2D	2d/ 2f	2D\	A-	2F/	2F\	A-	2F/	A-
 4CC/ 4C	4e/ 4g	4C\	-gnus	4E/	4E\	-gnus	4G/	-gnus
 =2	=2	=2	=2	=2	=2	=2	=2	=2
@@ -45,16 +50,16 @@
 4AAA/ 4AA	8a/L	4f\	4AA/	tol-	8F/L	8F\L	tol-	8A/L	tol-
 .	8dd/J	.	.	.	8A/J	8A\J	.	8d/J	.
 4AAA/ 4AA	4a/	4f\	4AA/	-lis	4F/	4F\	-lis	4A/	-lis
-!	!	!	!	!	!	!	!	!LO:TX:a:t=problem: niekompletne tt. 3-5 uzupełnione na podstawie identycznego druku sygn. D II-30	!
+!	!	!	!	!	!	!	!	!LO:TX:t=P:problem: niekompletne tt. 3-5 uzupełnione na podstawie identycznego druku sygn. D II-30	!
 4AAA/ 4AA	4g/	4e\	4AA/	qui	4E/	4E\	qui	4G/	qui
 *	*v	*v	*	*	*v	*v	*	*	*
 =4	=4	=4	=4	=4	=4	=4	=4
-!	!	!	!	!	!	!LO:TX:a:t=problem: niekompletny t. 4 uzupełniony na podstawie identycznego druku sygn. D II-30	!
+!	!	!	!	!	!	!LO:TX:t=P:problem: niekompletny t. 4 uzupełniony na podstawie identycznego druku sygn. D II-30	!
 4AAA/ 4AA	8d/L 8f	4AA/	tol-	8D/L	tol-	8F/L	tol-
 .	8f/J 8a	.	.	8F/J	.	8A/J	.
 4AAA/ 4AA	4d/ 4f	4AA/	-lis	4D/	-lis	4F/	-lis
 4AAA/ 4AA	8c#X/L 8e	4AA/	pec-	8C#X/L	pec-	8E/L	pec-
-!	!	!	!	!	!	!LO:TX:a:t=problem:niejednoznaczny zapis łuku	!
+!	!	!	!	!	!	!LO:TX:t=P:problem:niejednoznaczny zapis łuku	!
 .	8a/J	.	.	8F/J	.	(8A/J	.
 =5	=5	=5	=5	=5	=5	=5	=5
 2.AAA/ 2.AA	4f/ 4a	2AA/	-ca-	4F/	-ca-	4A/	-ca-
@@ -89,21 +94,21 @@
 *	*	*	*	*v	*v	*	*	*
 !!LO:LB:g=original
 =10	=10	=10	=10	=10	=10	=10	=10
-!	!LO:TX:a:t=problem:brak t. 10	!	!	!	!	!	!
-!	!LO:TX:a:t=problem:brak t. 10	!LO:TX:a:t=problem:brak połowy t. 10	!	!	!	!LO:TX:a:t=problem: niekompletny t. 10 uzupełniony na podstawie identycznego druku sygn. D II-30	!
+!	!LO:TX:t=P:problem:brak t. 10	!	!	!	!	!	!
+!	!LO:TX:t=P:problem:brak t. 10	!LO:TX:t=P:problem:brak połowy t. 10	!	!	!	!LO:TX:t=P:problem: niekompletny t. 10 uzupełniony na podstawie identycznego druku sygn. D II-30	!
 2.r	2.r	2ryy	.	2A\	-bis	2A\	-bis
 .	.	4r	.	4r	.	4r	.
 =11	=11	=11	=11	=11	=11	=11	=11
 *	*^	*	*	*^	*	*	*
-!	!LO:TX:a:t=problem:brak połowy t. 11	!	!	!	!	!	!	!	!
+!	!LO:TX:t=P:problem:brak połowy t. 11	!	!	!	!	!	!	!	!
 2AA/ 2A	2ryy	2ryy	2A\	A-	2A/	2A\	A-	2c\	A-
 4GG/ 4G	4dd/	4bn\	4G\	-gnus	4Bn/	4ryy	-gnus	4d\	-gnus
 *	*v	*v	*	*	*v	*v	*	*	*
 =12	=12	=12	=12	=12	=12	=12	=12
 8FF/L 8F	8a/L 8dd	8F\L	De-	8A/L	De-	8d\L	De-
-!	!LO:TX:a:t=SIC:s=8b	!	!	!	!	!	!
+!	!LO:SIC:v:s=8g#J 8bn 8ee	!	!	!	!	!	!
 8EE/J 8E	8g#X/J 8b- 8ee	8E\J	-i	8G#X/J	-i	8e\J	-i
-!	!LO:TX:a:t=SIC:s=8b	!	!	!	!	!	!
+!	!LO:SIC:v:s=4g# 4bn 4ee	!	!	!	!	!	!
 4EE/ 4E	4g#/ 4b- 4ee	4E\	qui	4G#/	qui	4e\	qui
 4DD/ 4D	4a/ 4ff	4D\	.	4A/	.	4f\	.
 =13	=13	=13	=13	=13	=13	=13	=13
@@ -151,8 +156,8 @@
 .	8e/J 8g 8cc	.	.	8E/J	.	.	8c\J	.
 !!LO:LB:g=original
 =20	=20	=20	=20	=20	=20	=20	=20	=20
-!	!	!	!	!	!	!	!LO:TX:a:t=problem: niekompletne tt. 20-22 uzupełnione na podstawie identycznego druku sygn. D II-30	!
-!	!	!	!	!	!	!	!LO:TX:a:t=problem:brak t. 20	!
+!	!	!	!	!	!	!	!LO:TX:t=P:problem: niekompletne tt. 20-22 uzupełnione na podstawie identycznego druku sygn. D II-30	!
+!	!	!	!	!	!	!	!LO:TX:t=P:problem:brak t. 20	!
 2FF/ 2F	4.f/ 4.a	2F\	-bis	2F/	2F\	-bis	2.r	.
 .	8g/L	.	.	.	.	.	.	.
 4r	8f/ 8a	4r	.	4r	4ryy	.	.	.
@@ -199,18 +204,23 @@
 .	8g\L 8cc 8ee	8C/	no-	8c\	no-	8e\	no-
 .	8f\J 8b 8dd	8C/	-bis	8B\	-bis	8d\	-bis
 =28	=28	=28	=28	=28	=28	=28	=28
-!	!LO:TX:a:t=problem:1 półnuta	!	!	!	!	!	!
+!	!LO:TX:t=P:problem:1 półnuta	!	!	!	!	!	!
 2.CC/_ 2.C_	(>2e/ 2g 2cc	2.C/	pa-	2.c\	pa-	2.c\	pa-
 .	8f/L) 8a 8cc	.	.	.	.	.	.
 .	(>8e/J 8g	.	.	.	.	.	.
 =29	=29	=29	=29	=29	=29	=29	=29
-!	!LO:TX:b:t=Dona ut Kirie al Segno.	!	!	!	!	!	!
+!	!LO:TX:b:t=Dona ut Kirie al Segno.:mod=	!	!	!	!	!	!
+!!!OMD:
+!!!OMD-mod: Dona ut Kyrie al Segno
 2CC/] 2C]	2e/) 2g 2cc	2C/	-cem	2c\	-cem.	2c\	-cem.
 4r	4r	4r	.	4r	.	4r	.
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: {(s1,s2)}s3{(s4,s5)}
+!!!system-decoration: [(s1,s2,s3)],{(s4,s5)}
 !!!ENC: Anna Matuszewska
 !!!END: 2020-04-01
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-12-01
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |

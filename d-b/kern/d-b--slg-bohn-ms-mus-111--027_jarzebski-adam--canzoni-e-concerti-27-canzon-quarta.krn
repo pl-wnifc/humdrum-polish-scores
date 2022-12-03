@@ -1,3 +1,4 @@
+!!!!SEGMENT: d-b--slg-bohn-ms-mus-111--027_jarzebski-adam--canzoni-e-concerti-27-canzon-quarta.krn
 !!!cenid: 16xx:1800
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
@@ -20,7 +21,7 @@
 !!!ONB-nifc: UWAGA: Prima vox: s. 41, Seconda vox: s. 101, Bassus sive Vox Tertia: s. 140, Basso: s. 185, Basso continuo: s. 216. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 1 bass 3 vox
 !!!key: G
-**kern	**fing	**kern	**kern	**kern	**kern
+**kern	**fba	**kern	**kern	**kern	**kern
 *part5	*part5	*part4	*part3	*part2	*part1
 *staff5	*	*staff4	*staff3	*staff2	*staff1
 *I"Basso continuo	*	*I"Basso	*I"Tertia Vox	*I"Seconda Vox	*I"Prima Vox
@@ -29,10 +30,12 @@
 *	*	*Ibass	*Ivox	*Ivox	*Ivox
 *IGcont	*	*	*	*	*
 *clefF4	*	*clefF4	*clefC4	*clefC4	*clefG2
+*	*	*	*mclefGv2	*mclefG2	*
 *k[]	*	*k[]	*k[]	*k[]	*k[]
 *G:	*	*G:	*G:	*G:	*G:
 *M2/1	*	*M2/1	*M2/1	*M2/1	*M2/1
 *met(C|)	*	*met(C|)	*met(C|)	*met(C|)	*met(C|)
+*mmet(C)	*	*mmet(C)	*mmet(C)	*mmet(C)	*mmet(C)
 =1-	=1-	=1-	=1-	=1-	=1-
 !!LO:TX:t=P:problem:all\right or middle	!	!	!	!
 *2\right	*	*	*	*	*
@@ -437,6 +440,7 @@
 =29-	=29-	=29-	=29-	=29-	=29-
 *M2/1	*	*M2/1	*M2/1	*M2/1	*M2/1
 *met(C|)	*	*met(C|)	*met(C|)	*met(C|)	*met(C|)
+*mmet(C)	*	*mmet(C)	*mmet(C)	*mmet(C)	*mmet(C)
 1GG	.	1GG	1G	4.B\	1g
 .	.	.	.	8G/	.
 .	.	.	.	4G/	.
@@ -594,6 +598,7 @@
 1C]	.	1C	.	.	.
 .	.	.	.	4d\	4b/
 .	.	.	.	4c\	4a/
+!LO:MO:mod=0.GG;	!	!LO:MO:mod=0.GG;	!LO:MO:mod=0.G;	!LO:MO:mod=0.d;	!LO:MO:mod=0.b;
 0.GGl;;	.	0.GGl;;	0.Gl;;	0.dl;;	0.bl;;
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
@@ -606,5 +611,6 @@
 !!!END: 2022-11-07
 !!!ENC: Jan Barakat
 !!!END: 2022-11-28
+!!!filter-modern: sic -sq | autostem -r | tie -si | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

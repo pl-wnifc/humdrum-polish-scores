@@ -1,3 +1,4 @@
+!!!!SEGMENT: d-b--slg-bohn-ms-mus-111--024_jarzebski-adam--canzoni-e-concerti-24-canzon-prima.krn
 !!!cenid: 16xx:1797
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
@@ -29,6 +30,7 @@
 *	*	*Ibass	*Ivox	*Ivox	*Ivox
 *IGcont	*	*	*	*	*
 *clefC1	*	*clefC4	*clefC3	*clefG2	*clefG2
+*mclefG2	*	*mclefF4	*mclefGv2	*	*
 *k[]	*	*k[]	*k[]	*k[]	*k[]
 *a:	*	*a:	*a:	*a:	*a:
 *M2/2	*	*M2/2	*M2/2	*M2/2	*M2/2
@@ -764,6 +766,7 @@
 .	.	.	.	4cc#X\	.
 .	.	.	.	4b/	.
 =85-	=85-	=85-	=85-	=85-	=85-
+!LO:MO:mod=0A;	!	!LO:MO:mod=0A;	!LO:MO:mod=0a;	!LO:MO:mod=0cc#;	!LO:MO:mod=0ee;
 0Al;;	.	0Al;;	0al;;	0cc#Xl;;	0eel;;
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
@@ -776,3 +779,4 @@
 !!!END: 2022-11-18
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!filter-modern: sic -sq | autostem -r | tie -si | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |

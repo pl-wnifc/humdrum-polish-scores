@@ -1,3 +1,4 @@
+!!!!SEGMENT: d-b--slg-bohn-ms-mus-111--025_jarzebski-adam--canzoni-e-concerti-25-canzon-secunda.krn
 !!!cenid: 16xx:1798
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
@@ -29,13 +30,15 @@
 *	*	*Ibass	*Ivox	*Isoprn	*Isoprn
 *IGcont	*	*	*	*	*
 *clefC1	*	*clefC4	*clefC3	*clefC1	*clefG2
+*	*	*mclefF4	*mclefGv2	*mclefG2	*
 *k[]	*	*k[]	*k[]	*k[]	*k[]
 *a:	*	*a:	*a:	*a:	*a:
 *M2/1	*	*M2/1	*M2/1	*M2/1	*M2/1
 *met(C|)	*	*met(C|)	*met(C|)	*met(C|)	*met(C|)
+*mmet(C)	*	*mmet(C)	*mmet(C)	*mmet(C)	*mmet(C)
 =1-	=1-	=1-	=1-	=1-	=1-
 !!LO:TX:t=P:problem: all\right or middle	!	!	!	!
-!	!	!LO:TX:a:t=A. 4.	!LO:TX:a:t=A. 4.	!	!
+!	!	!LO:TX:a:t=A. 4.:mod=	!LO:TX:a:t=A. 4.:mod=	!	!
 4a\	.	0r	1r	0r	4a/
 8a\L	.	.	.	.	8a/L
 8a\J	.	.	.	.	8a/J
@@ -482,6 +485,7 @@
 =46-	=46-	=46-	=46-	=46-	=46-
 *M2/1	*	*M2/1	*M2/1	*M2/1	*M2/1
 *met(C|)	*	*met(C|)	*met(C|)	*met(C|)	*met(C|)
+*mmet(C)	*	*mmet(C)mmet(C)	*mmet(C)	*mmet(C)	*mmet(C)
 4.F/	.	4.F/	4c/	2a\	4.a/
 .	.	.	4f\	.	.
 8G/	.	8G/	.	.	8b/
@@ -659,6 +663,7 @@
 .	.	.	.	.	2b/
 .	.	.	4g#X\	4dd\	.
 !LO:TX:t=P:problem: # od góry i od dołu	!	!	!	!	!
+!LO:MO:mod=0.A;	!	!LO:MO:mod=0.A;	!LO:MO:mod=0.a;	!LO:MO:mod=0.cc#;	!LO:MO:mod=0.a;
 0.Al;;	#	0.Al;;	0.al;;	0.cc#Xl;;	0.al;;
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
@@ -671,3 +676,4 @@
 !!!END: 2022-11-25
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!filter-modern: sic -sq | autostem -r | tie -si | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |

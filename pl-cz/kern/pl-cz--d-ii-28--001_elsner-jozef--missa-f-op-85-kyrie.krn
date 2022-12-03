@@ -31,7 +31,9 @@
 *F:	*F:	*F:	*	*F:	*	*F:	*
 *M2/4	*M2/4	*M2/4	*	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1	=1	=1	=1
-!	!LO:TX:a:t=dolce	!	!	!	!	!LO:TX:a:t=Missa brevis\nAndantino	!
+!!!OMD:
+!!!OMD-mod: Andantino
+!	!LO:TX:a:t=dolce	!	!	!	!	!LO:TX:a:t=Missa brevis\nAndantino:mod=	!
 ((2FF/ 2F	4a\ 4cc	2r	.	2r	.	2r	.
 .	(8.g#X\L 8.bn	.	.	.	.	.	.
 .	16a\Jk) 16cc	.	.	.	.	.	.
@@ -57,6 +59,7 @@
 *	*v	*v	*	*	*	*	*	*
 =5!|:	=5!|:	=5!|:	=5!|:	=5!|:	=5!|:	=5!|:	=5!|:
 *	*	*	*	*^	*	*	*
+!	!	!	!LO:MO:mod=Ky-	!	!	!LO:MO:mod=Ky-	!	!LO:MO:mod=Ky-
 ((2FF/ 2F	4a/ 4cc	4F\	Ki-	4A/	4A\	Ki-	4c\	Ki-
 .	8.g#X/L 8.bn	4F\	-ri-	8.G#X/L	8.G#\L	-ri-	8.Bn\L	-ri-
 .	16a/Jk 16cc	.	.	16A/Jk	16A\Jk	.	16c\Jk	.
@@ -81,6 +84,7 @@
 .	16g\ 16ee	.	.	.	.	.	.	.	.
 .	16a\JJ 16ff	.	.	.	.	.	.	.	.
 =9	=9	=9	=9	=9	=9	=9	=9	=9	=9
+!	!	!	!	!LO:MO:mod=Ky-	!	!	!LO:MO:mod=Ky-	!	!LO:MO:mod=Ky-
 (2C\ 2G 2B-	16g\LL 16ee	2ryy	8.C/	Ki-	8.B-/	8.G\	Ki-	8.e\	Ki-
 .	16bb-\	.	.	.	.	.	.	.	.
 .	16gg\	.	.	.	.	.	.	.	.
@@ -101,6 +105,7 @@
 8A\J 8c	16aa\	8r	.	8r	8r	.	8r	.
 .	16ff\JJ	.	.	.	.	.	.	.
 =11	=11	=11	=11	=11	=11	=11	=11	=11
+!	!	!	!LO:MO:mod=Ky-	!	!	!LO:MO:mod=Ky-	!	!LO:MO:mod=Ky-
 (2C\ 2G 2B-	16ee\LL	8.C/	Ki-	8.B-/	8.G\	Ki-	8.e\	Ki-
 .	16bb-\	.	.	.	.	.	.	.
 .	16gg\	.	.	.	.	.	.	.
@@ -119,6 +124,7 @@
 8A\J 8c	16aa\	8r	.	8r	8r	.	8r	.
 .	16gg\JJ	.	.	.	.	.	.	.
 =13	=13	=13	=13	=13	=13	=13	=13	=13
+!	!	!	!LO:MO:mod=Ky-	!	!	!LO:MO:mod=Ky-	!	!LO:MO:mod=Ky-
 8D\L 8F	16ff\LL	8.D\	Ki-	8.A/	8.A\	Ki-	8.f\	Ki-
 .	16dd\	.	.	.	.	.	.	.
 8F\ 8A	16aa\	.	.	.	.	.	.	.
@@ -176,8 +182,9 @@
 .	16c/	.	.	.	.	.	.	.
 .	16e/ 16g 16cc	.	.	.	.	.	.	.
 .	16b-/JJ	.	.	.	.	.	.	.
-=20||	=20||	=20||	=20||	=20||	=20||	=20||	=20||;	=20||;
 !!LO:LB:g=original
+!	!	!	!	!	!	!	!LO:MO:mod==20||	!LO:MO:mod==20||
+=20||	=20||	=20||	=20||	=20||	=20||	=20||	=20||;	=20||;
 4FF/ 4F	16f/LL 16a	4F\	-son	4F/	4F\	-son	4F/	-son
 .	16g/ 16b-	.	.	.	.	.	.	.
 .	16a/ 16cc	.	.	.	.	.	.	.
@@ -197,6 +204,7 @@
 .	16dd\	.	.	.	.	.	.
 .	16ee\JJ)	.	.	.	.	.	.
 =22	=22	=22	=22	=22	=22	=22	=22
+!	!LO:MO:mod=!null:null	!	!	!	!	!	!
 !	!LO:N:vis=4	!	!	!	!	!	!
 8D\L) 8F\ 8\	8g\ 8ff	2r	.	2r	.	2r	.
 8G\ 8B-\	8g\L 8b- 8ee	.	.	.	.	.	.
@@ -205,7 +213,8 @@
 =23	=23	=23	=23	=23	=23	=23	=23
 *	*^	*	*	*^	*	*	*
 *	*	*^	*	*	*	*	*	*	*
-!	!LO:TX:a:t=Problem&colon; półnuta na raz	!	!	!	!	!	!	!	!	!
+!	!LO:MO:mod=!null:null	!	!	!	!	!	!	!	!	!
+!	!LO:N:vis=2	!	!	!	!	!	!	!	!	!
 4D\	4f\ 4dd	2a/	4ryy	4D\	Chri-	4F/	4F\	Chri-	2r	.
 8.E\L	8.cc#X/L	.	8.g\L	8.E\L	.	8.G/L	8.G\L	.	.	.
 16D\Jk	16dd/Jk	.	16f\Jk	16D\Jk	-ste	16F/Jk	16F\Jk	-ste	.	.
@@ -250,8 +259,8 @@
 .	8a\ 8ff	.	.	8A/	8A\	.	8f\	-lei-
 .	8g\ 8ee	.	.	8G/	8G\	.	8e\	.
 .	8f\J 8dd	.	.	8F/J	8F\J	.	8d\J	.
-=32	=32	=32	=32	=32	=32	=32	=32	=32
 !!LO:PB:g=original
+=32	=32	=32	=32	=32	=32	=32	=32	=32
 4AA/	4e\ 4cc#X	4AA/	-son	4E/	4E\	-son	4c#X\	-son
 4G\	4a\ 4cc# 4ee	4G\	Chri-	4A/	4A\	Chri-	4c#\	Chri-
 *	*	*	*	*v	*v	*	*	*
@@ -292,11 +301,15 @@
 =40	=40	=40	=40	=40	=40	=40	=40
 4FF/ 4F	8f/ 8a	2r	.	2r	.	2r	.
 .	8f/L 8a	.	.	.	.	.	.
-!	!LO:TX:a:t=Dal Segno al Coda	!	!	!	!	!	!
+!	!LO:TX:a:t=Dal Segno al Coda:mod=	!	!	!	!	!	!
 4r	8g/ 8b-	.	.	.	.	.	.
 .	8g#X;/J 8b-X	.	.	.	.	.	.
+!!!OMD:
+!!!OMD-mod: Dal Segno al Coda
 =41:|!	=41:|!	=41:|!	=41:|!	=41:|!	=41:|!	=41:|!	=41:|!
-!	!	!	!	!	!	!LO:TX:a:t=Coda	!
+!!!OMD:
+!!!OMD-mod: Coda
+!	!	!	!	!	!	!LO:TX:a:t=Coda:mod=	!
 4FF/ 4F	(16f\LL 16a	4F\	son	4F/	son	4A\	son
 .	16g\ 16b-	.	.	.	.	.	.
 .	16a\ 16cc	.	.	.	.	.	.
@@ -307,13 +320,14 @@
 .	16a\JJ) 16ff	.	.	.	.	.	.
 =42	=42	=42	=42	=42	=42	=42	=42
 *	*^	*	*	*	*	*	*
+!	!	!	!	!LO:MO:mod=Ky-	!	!LO:MO:mod=Ky-	!	!LO:MO:mod=Ky-
 4BBB-/ 4BB-	2f\ 2b-	4dd/	8.BB-/	Ki-	8.F/	Ki-	8.d\	Ki-
 .	.	.	16BB-/	-ri-	16F/	-ri-	16d\	-ri-
 8.DD/L 8.D	.	8.ff/L	8.D/	-e	8.F/	-e-	8.f\	-e
 16BBB-/Jk 16BB-	.	16dd/Jk	16BB-/	e-	16F/	e-	16d\	e-
 *	*v	*v	*	*	*	*	*	*
-=43	=43	=43	=43	=43	=43	=43	=43
 !!LO:LB:g=original
+=43	=43	=43	=43	=43	=43	=43	=43
 *	*	*	*	*^	*	*	*
 4FF/ 4F	16f\LL 16a	4F\	-lei-	4A/	4A\	-lei-	4c\	-lei-
 .	16g\ 16b-	.	.	.	.	.	.	.
@@ -326,6 +340,7 @@
 *	*	*	*	*v	*v	*	*	*
 =44	=44	=44	=44	=44	=44	=44	=44
 *	*^	*	*	*	*	*	*
+!	!	!	!	!LO:MO:mod=Ky-	!	!LO:MO:mod=Ky-	!	!LO:MO:mod=Ky-
 4BBB-/ 4BB-	2f\ 2b-	4dd/	8.BB-/	Ki-	8.F/	Ki-	8.d\	Ki-
 .	.	.	16BB-/	-ri-	16F/	-ri-	16d\	-ri-
 8.DD/L 8.D	.	8.ff/L	8.BB-/	-e	8.F/	-e	8.f\	-e
@@ -339,7 +354,7 @@
 .	4c/ 4f 4a	.	.	(4F/	.	4A\	.
 =47	=47	=47	=47	=47	=47	=47	=47
 *	*^	*	*	*	*	*	*
-!	!LO:TX:a:t=Problem&colon; laseczki w obie strony	!	!	!	!	!	!	!
+!	!LO:TX:t=P:problem: laseczki w obie strony	!	!	!	!	!	!	!
 2CC/ 2C	2c\ 2g	4f/	2C/	.	4F/)	.	(2G/	.
 .	.	4e/	.	.	4E/	.	.	.
 *	*v	*v	*	*	*	*	*	*
@@ -356,5 +371,8 @@
 !!!system-decoration: [(s1,s2,s3){(s4,s5)}]
 !!!ENC: Anna Matuszewska
 !!!END: 2020-01-04
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-11-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |

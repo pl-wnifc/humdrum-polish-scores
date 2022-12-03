@@ -19,21 +19,25 @@
 !!!URL-pdf-islandora:
 !!!URL-scan: https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1049147219
 !!!ONB-nifc: UWAGA: Prima vox: s. 34, Seconda vox: s. 94, Bassus sive Vox Tertia: s. 132, Basso continuo: s. 178-179. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
-!!!AIN: 1 cemba 2 viola 1 violn
+!!!AIN: 2 viola
 !!!key: G
 **kern	**fba	**kern	**kern	**kern
 *part4	*part4	*part3	*part2	*part1
 *staff4	*	*staff3	*staff2	*staff1
 *I"Baſso Continúo.	*	*I"Tertia Vox.	*I"Seconda Vox.	*I"1 Vox.
+*mI"Basso continuo	*	*mI"Bastarda II	*mI"Bastarda I	*mI"Soprano
 *I'bc	*	*I'V 3	*I'V 2	*I'V 1
-*Icemba	*	*Iviola	*Iviola	*Ivioln
-*ICklav	*	*ICstr	*ICstr	*ICstr
+*	*	*mI'vla bastarda	*mI'vla bastarda	*
+*	*	*Iviola	*Iviola	*
+*ICklav	*	*ICstr	*ICstr	*
 *IGcont	*	*	*	*
+!	!	!LO:MO:mod=*clefC3	!	!
 *clefG2	*	*clefC4	*clefC3	*clefG2
 *k[]	*	*k[]	*k[]	*k[]
 *G:	*	*G:	*G:	*G:
 *M2/2	*	*M2/2	*M2/2	*M2/2
 *met(C|)	*	*met(C|)	*met(C|)	*met(C|)
+*mmet(c|)	*	*mmet(c|)	*mmet(c|)	*mmet(c|)
 *all\right	*	*all\right	*all\right	*all\right
 =1-	=1-	=1-	=1-	=1-
 8dd\L	.	00r	0r	8dd\L
@@ -46,6 +50,7 @@
 16dd\JJ	.	.	.	16dd\JJ
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa
 4dd\	.	.	.	4dd\
+!LO:MO:mod=*clefF4	!	!	!	!
 *clefC4	*	*	*	*
 =2-	=2-	=2-	=2-	=2-
 4c\	.	.	.	8ee\L
@@ -78,9 +83,11 @@
 8F/J	.	.	8f\J	8a\J
 4G/	.	.	4g\	4b/
 4A/	.	.	4.a\	4.cc\
+!LO:MO:mod=*null:null	!	!	!	!
 *clefF4	*	*	*	*
 =5-	=5-	=5-	=5-	=5-
 8D/L	.	8d\L	.	.
+!	!	!	!	!LO:SIC:s=8bJ
 16D/L	.	16d\L	8g\J	8b/
 16D/JJ	.	16d\JJ	.	.
 8D/L	.	8d\L	2g\	8b/L
@@ -108,8 +115,11 @@
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa
 .	.	.	.	8dd\J
 =7-	=7-	=7-	=7-	=7-
+!	!	!	!LO:SIC:s=8gL	!
 8GG/L	.	8G\L	8g\	4dd\
+!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*clefF4	*
+!	!	!	!LO:SIC:s=16GL	!
 16GG/L	.	16B\L	16G\LL	.
 16GG/J	.	16B\JJ	16G\JJ	.
 *	*	*	*custos:G	*
@@ -153,9 +163,12 @@
 !	!	!LO:TX:t=P:problem:# above	!	!
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa
 .	.	8F#X/J	.	8a/J
+!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*clefC4	*
 =10-	=10-	=10-	=10-	=10-
+!	!	!	!LO:SIC:s=8GL	!
 8G\L	.	8G/L	8G/	2g/
+!	!	!	!LO:SIC:s=16BL	!
 16G\L	.	16G/L	16B\LL	.
 16G\J	.	16G/J	16B\JJ	.
 8G\	.	8G/	8B\L	.
@@ -250,7 +263,9 @@
 .	.	.	8d\J	8ee\J
 =16-	=16-	=16-	=16-	=16-
 *	*	*2\right	*	*
+!	!	!	!LO:SIC:s=8AL	!
 .	.	2A\	8A/	8cc#X\L
+!	!	!	!LO:SIC:s=16eL	!
 .	.	.	16e\LL	16cc#\L
 .	.	.	16d\JJ	16b\J
 .	.	.	8e\L	8cc#\
@@ -268,9 +283,10 @@
 .	.	.	8e\J	8cc#X\J
 =17-	=17-	=17-	=17-	=17-
 *	*	*	*	*2\right
-!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!
+!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!LO:SIC:s=8dL	!
 4D/	.	1D	8d\	2dd\
 *	*	*	*clefF4	*
+!	!	!	!LO:SIC:s=16DL	!
 .	.	.	16D/LL	.
 .	.	.	16D/JJ	.
 4D/	.	.	8D/L	.
@@ -283,6 +299,7 @@
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa
 .	.	.	.	8dd\J
 *	*	*custos:A	*	*
+!	!	!LO:MO:mod=*clefC3	!	!
 *	*	*clefC4	*	*
 !	!	!LO:LB:g=original	!LO:LB:g=original	!
 =18-	=18-	=18-	=18-	=18-
@@ -344,6 +361,7 @@
 .	.	8A/	.	8ff#X\
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa
 .	.	8A/J	.	8ff#\J
+!	!	!	!LO:MO:mod=*clefC3	!
 *custos:GG	*	*	*clefC4	*
 !LO:LB:g=original	!	!	!	!
 =22-	=22-	=22-	=22-	=22-
@@ -486,6 +504,7 @@
 8G\J	.	.	8g\J	.
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa
 .	.	.	.	16cc\Jk
+!	!	!LO:MO:mod=*clefC3	!	!
 *	*	*clefC4	*	*
 =33-	=33-	=33-	=33-	=33-
 8G\L	.	1r	8g\L	8b\L
@@ -628,6 +647,7 @@
 .	.	.	8f\L	8aa\
 !	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!LO:TX:t=P:problem=kreska pseudotaktowa
 .	.	.	8e\J	8gg\J
+!	!	!LO:MO:mod=*null:null	!	!
 *	*	*clefF4	*	*
 *	*	*custos:FF	*	*
 !	!	!LO:LB:g=original	!	!
@@ -647,6 +667,8 @@
 !	!	!	!	!LO:LB:g=original
 =46-	=46-	=46-	=46-	=46-
 4AA/	.	4r	4c#X/	4ee\
+!	!	!LO:MO:mod=*clefF4	!	!
+*	*	*null	*	*
 4FF/	.	4FF/	2d\	4ff\
 4GG/	.	4GG/	.	2ee\
 !	!	!	!LO:TX:b:t=P:problem:# below	!
@@ -681,6 +703,7 @@
 !	!	!	!LO:LB:g=original	!
 .	.	.	8f\L	8aa\
 .	.	.	8e\J	8gg\J
+!	!	!LO:MO:mod=*null:null	!	!
 *	*	*clefC4	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!
 2D/	.	8r	2d\	4ff#X\
@@ -690,6 +713,7 @@
 .	.	8d\	.	4ff#\
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!
 .	.	8cny\J	.	.
+!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*clefF4	*
 =50-	=50-	=50-	=50-	=50-
 !LO:TX:t=P:problem=mixed beam	!	!	!	!
@@ -719,6 +743,7 @@
 .	.	.	.	8dd\
 .	.	.	.	8dd\
 .	.	.	.	8dd\J
+!	!	!	!LO:MO:mod=*null:null	!
 *	*	*	*clefC3	*
 .	.	.	8r	8dd\L
 .	.	.	8g\L	16dd\L
@@ -824,6 +849,7 @@
 .	.	8F#/J	.	8a/J
 =60-	=60-	=60-	=60-	=60-
 8G\L	.	8G/L	8GG/	2g/
+!	!	!	!LO:MO:mod=*clefC3	!
 *	*	*	*clefC4	*
 8G\	.	16G/L	16B\LL	.
 .	.	16G/JJ	16B\JJ	.
@@ -855,13 +881,17 @@
 =62-	=62-	=62-	=62-	=62-
 8C/L	.	8e\L	8cny\L	4r
 16C/L	.	16e\L	16c\L	.
+!	!	!	!LO:SIC:s=16BJ	!
 16BB/J	.	16d\J	16B\JJ	.
 8C/	.	8e\	8c\	4gg\
+!	!	!	!LO:SIC:s=8gJ	!
 8GG/J	.	8d\J	8G/	.
+!	!	!	!LO:SIC:s=8cL	!
 8C/L	.	8e\L	8c\	4gg\
 8GG/	.	8d\	8G/	.
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa
 8C/	.	8e\	8c\	4gg\
+!	!	!	!LO:SIC:s=8GJ	!
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!
 8GG/J	.	8d\J	8G/	.
 *	*	*	*custos:c	*
@@ -894,6 +924,7 @@
 =66-	=66-	=66-	=66-	=66-
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 1GG	.	1G	1B	1dd
+!	!	!LO:MO:mod=*null:null	!	!
 *	*	*clefF4	*	*
 =67-	=67-	=67-	=67-	=67-
 4G\	.	4G\	4B\	4dd\
@@ -932,14 +963,20 @@
 .	.	.	1A	2g/
 .	.	.	.	2f#X/
 =74-	=74-	=74-	=74-	=74-
+!LO:SIC:s=1GG;	!	!LO:SIC:s=1GG;	!LO:SIC:s=1B;	!LO:SIC:s=1g;
 1GGl;;	.	1GGl;;	1Bl;;	1gl;;
 ==	==	==	==	==
 *-	*-	*-	*-	*-
-!!!system-decoration: [(str)]<klav>
+!!!system-decoration: [(s1,s2,s3)]<s4>
+!!LO:MO:ori
 !!!RDF**kern: l = terminal long
+!!LO:MO:end
 !!!ENC: Andrzej Gręziak
 !!!END: 2022-11-07
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-11-26
+!!!ENC-modern: Andrzej Kubiczek
+!!!END-modern: 2022-11-30
+!!!filter-modern: shed -k -e "s/[ny]/$1/g; s/#X/#/g" | shed -e "s/^custos:/Xcustos:/I; s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m  | autostem -r | tie -s | shed -e "s/-//B"
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

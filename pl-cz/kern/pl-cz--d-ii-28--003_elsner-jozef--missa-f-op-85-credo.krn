@@ -27,17 +27,21 @@
 *	*	*	*	*	*	*group1	*	*	*group1	*	*
 *part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
 *staff5	*staff4	*	*staff3	*staff3	*	*staff2	*staff2	*	*staff1	*staff1	*
-*I"Organo	*I"Organo	*	*I"Basso	*	*	*I""Tenori	*	*	*I""Tenore.	*	*
+*I"Organo	*I"Organo	*	*I"Basso	*	*	*I"Tenori	*	*	*I""Tenore.	*	*
+*	*	*	*	*	*	*mI"Tenore II	*	*	*mI"Tenore I	*	*
+*I'	*	*	*I'	*	*	*I'	*	*	*I'	*	*
+*mI'org	*	*	*mI'B	*	*	*mI'T II	*	*	*mI'T I	*	*
 *Iorgan	*Iorgan	*	*Ibass	*	*	*Itenor	*	*	*Itenor	*	*
 *ICklav	*ICklav	*	*ICvox	*	*	*ICvox	*	*	*ICvox	*	*
 *clefF4	*clefG2	*	*clefF4	*	*	*clefC4	*	*	*clefC4	*	*
+*	*	*	*	*	*	*mclefGv2	*	*	*mclefGv2	*	*
 *k[b-]	*k[b-]	*	*k[b-]	*	*	*k[b-]	*	*	*k[b-]	*	*
 *d:	*d:	*	*d:	*	*	*d:	*	*	*d:	*	*
 *M4/4	*M4/4	*	*M4/4	*	*	*M4/4	*	*	*M4/4	*	*
 *met(c)	*met(c)	*	*met(c)	*	*	*met(c)	*	*	*met(c)	*	*
 *8ba	*	*	*	*	*	*	*	*	*	*	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:a:Bi:t=Allegro.	!LO:TX:a:i:t=minore:rj	!	!	!	!	!	!	!	!LO:TX:a:i:t=minore	!	!
+!LO:TX:a:Bi:t=Allegro.:mod=	!LO:TX:a:i:t=minore:rj:mod=	!	!	!	!	!	!	!	!LO:TX:a:i:t=minore:mod=	!	!
 4DD\	4dd 4d/	.	4D\	Cre-	.	4D/	Cre-	.	4D/	Cre-	.
 8CC#X\L	8cc#XL 8c#X/	.	8C#X\	-do	.	8C#X/	-do	.	8C#X/	-do	.
 8DD\J	8ddJ 8d/	.	8D\	in	.	8D/	in	.	8D/	in	.
@@ -291,10 +295,11 @@
 4r	4r	4ryy	.	4r	.	.	4r	.	.	4r	.	.
 4BB- 4BBB-/	4gg 4dd/	4g\	.	4BB-/	de	.	4D/	de	.	4G/	de	.
 =46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46
-!LO:SIC:v:n=2:s=1AAA	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:SIC:v:s=1AAA 1CC	!	!	!	!	!	!	!	!	!	!	!	!
 1AA 1CC	2ff/	2dd 2a\	.	1AA	coe-	.	2D/	coe-	.	2F/	coe-	.
 .	2ee/	8dd\L	.	.	.	.	8D/L	.	.	2E/	.	.
 .	.	8cc#X\	.	.	.	.	8C#X/	.	.	.	.	.
+!	!	!	!	!	!	!	!LO:MO:mod=!null:null	!	!	!	!	!
 !	!	!	!	!	!	!	!LO:N:acc=#	!	!	!	!	!
 .	.	8bn\	.	.	.	.	8BBn/	.	.	.	.	.
 .	.	8cc#\J	.	.	.	.	8C#/J	.	.	.	.	.
@@ -428,6 +433,7 @@
 (2D 2DD/	(<2d/	.	2.r	.	.	2.r	.	.	2.r	.	.
 4r	4r	.	.	.	.	.	.	.	.	.	.
 =75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75
+!LO:MO:mod=!null:null	!	!	!	!	!	!	!	!	!	!	!
 !LO:N:n=1:vis=2	!	!	!	!	!	!	!	!	!	!	!
 2.D 2.DD/	2.d/	.	2.r	.	.	2.r	.	.	2.r	.	.
 =76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76
@@ -506,7 +512,7 @@
 =88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88
 *	*	*	*	*	*	*^	*	*	*	*	*
 2FF#\	2ff# 2f#\	.	2F#\	est	.	2f#\	2ryy	est	.	2f#\	est	.
-!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:s=cum	!	!
+!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:s=cum	!
 2DD/	2ff# 2dd 2a\	.	2D\	cum	.	2d/	2A\	cum	.	2f#\	com	.
 =89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89
 2CC#/	2gg 2ee 2g\	.	4.C#/	glo-	.	4.e/	4.A\	glo-	.	4.g\	glo-	.
@@ -520,6 +526,7 @@
 2BBB/	2ff#/	2dd 2b\	.	2BB/	-a	.	2d/	2F#\	-a	.	2f#\	-a	.
 *	*	*	*	*	*	*	*v	*v	*	*	*	*	*
 =91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91
+!	!	!LO:MO:mod=!null:null	!	!	!	!	!	!	!	!	!	!
 !	!	!LO:N:vis=2	!	!	!	!	!	!	!	!	!	!
 4GG\	4ee/	2.b\	.	4G\	ju-	.	2B\	judi-	.	4e\	ju-	.
 4DD#X\	4ff#/	.	.	4D\	-di-	.	.	.	.	4f#\	-di-	.
@@ -573,7 +580,7 @@
 !!!key: d
 *k[b-]	*k[b-]	*	*k[b-]	*	*	*k[b-]	*	*	*k[b-]	*	*
 *d:	*d:	*	*d:	*	*	*d:	*	*	*d:	*	*
-!	!	!	!	!	!	!	!	!	!LO:TX:a:Bi:t=minore.	!	!
+!	!	!	!	!	!	!	!	!	!LO:TX:a:Bi:t=minore.:mod=	!	!
 4DD\	4dd 4d\	.	4D\	Et	.	4D/	Et	.	4D/	Et	.
 8CC#X\L	8cc#XL 8c#X\	.	8C#X\L	in	.	8C#X/L	in	.	8C#X/L	in	.
 8DD\J	8ddJ 8d\	.	8D\J	.	.	8D/J	.	.	8D/J	.	.
@@ -593,11 +600,11 @@
 8FF\J	8ffJ 8f\	.	8F\J	.	.	8F/J	.	.	8F/J	.	.
 =104	=104	=104	=104	=104	=104	=104	=104	=104	=104	=104	=104
 2GG\	2gg 2g/	.	2A\	-vi-	.	2G/	-vi-	.	2G/	-vi-	.
-!	!	!	!LO:SIC:v:l:s=-fi-	!	!	!LO:SIC:v:l:s=-fi-	!	!	!LO:SIC:v:l:s=-fi-	!	!
+!	!	!	!	!LO:SIC:v:l:s=-fi-	!	!	!LO:SIC:v:l:s=-fi-	!	!	!LO:SIC:v:l:s=-fi-	!
 2EE\	2ee 2e/	.	2E\	-vi-	.	2E/	-vi-	.	2E/	-vi-	.
 =105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105
 4FF\	4ff 4f\	.	4F\	-can-	.	4F/	-can-	.	4F/	-can-	.
-!	!	!	!LO:SIC:v:l:s=-tem	!	!	!LO:SIC:v:l:s=-tem	!	!	!LO:SIC:v:l:s=-tem	!	!
+!	!	!	!	!LO:SIC:v:l:s=-tem	!	!	!LO:SIC:v:l:s=-tem	!	!	!LO:SIC:v:l:s=-tem	!
 8EE\L	8eeL 8e\	.	8E\L	-ten	.	8E/L	-ten	.	8E/L	-ten	.
 8FF\J	8ffJ 8f\	.	8F\J	.	.	8F/J	.	.	8F/J	.	.
 4GG\	4gg 4g\	.	4G\	qui	.	4G/	qui	.	4G/	qui	.
@@ -661,7 +668,7 @@
 [>1C [<1CC	4gg/	2ee 2cc\	.	4G\	qui	.	4G/	qui	.	4G/	qui	.
 .	8ff/L	.	.	8F\L	lo-	.	8F/L	lo-	.	8F/L	lo-	.
 .	8gg/J	.	.	8G\J	.	.	8G/J	.	.	8G/J	.	.
-!	!	!	!	!LO:SIC:v:l:s=-cu-	!	!	!LO:SIC:v:l:s=-cu-	!	!	!LO:SIC:v:l:s=-cu-	!	!
+!	!	!	!	!	!LO:SIC:v:l:s=-cu-	!	!	!LO:SIC:v:l:s=-cu-	!	!	!LO:SIC:v:l:s=-cu-	!
 .	4aa/	2ff 2cc\	.	4A\	-cul-	.	4A/	-cul-	.	4A/	-cul-	.
 .	8gg/L	.	.	8G\L	-tus	.	8G/L	-tus	.	8G/L	-tus	.
 .	8aa/J	.	.	8A\J	.	.	8A/J	.	.	8A/J	.	.
@@ -698,6 +705,7 @@
 =121	=121	=121	=121	=121	=121	=121	=121	=121	=121	=121	=121
 *	*^	*	*	*	*	*	*	*	*	*	*
 *	*	*^	*	*	*	*	*	*	*	*	*	*
+!	!	!LO:MO:mod=!null:null	!	!	!	!	!	!	!	!	!	!	!
 !	!	!LO:N:n=1:vis=2	!	!	!	!	!	!	!	!	!	!	!
 1C 1CC	2aa/	2.ff 2.cc\	2ryy	.	4C/	-cam	.	4F/	-cam	.	4A/	-cam	.
 .	.	.	.	.	4C/	Ex-	.	4F/	Ex-	.	4A/	Ex-	.
@@ -758,6 +766,7 @@
 2.F 2.FF/	4.aa 4.ff 4.cc\	.	2.F\	-o-	.	(4.A/	-o-	.	(4.c\	-o-	.
 .	8gg 8ee 8b-\	.	.	.	.	8G/)	.	.	8B-\)	.	.
 .	4ff 4cc 4a\	.	.	.	.	(4F/	-nem	.	(4A\	-nem	.
+!LO:MO:mod=!null:null	!	!	!	!	!	!	!	!	!	!	!
 !LO:N:vis=8	!	!	!	!	!	!	!	!	!	!	!
 4E-X 4EE-X/	4aa 4ff 4cc\	.	4E-X\	-nem	.	4A\)	.	.	4f\)	.	.
 =134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134	=134
@@ -815,7 +824,7 @@
 *	*	*^	*	*	*	*	*	*	*	*	*	*	*
 4.DD/	4.dd/	2a/	4.f\	.	(<4.D/	vi-	.	(2A/	4.F\	vi-	.	(4.d\	vi-	.
 8EE/	8cc#X/	.	8g\	.	8E/	.	.	.	8G\	.	.	8c#X\	.	.
-!	!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:s=-tam	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:l:s=-tam	!
 4DD/	4dd 4a/	2ryy	4f\	.	4D/	-tam	.	4A/	4F\	-tam	.	4d\	-tan	.
 4CC#X/	4ee 4a/	.	4g\	.	4C#X/)	ven-	.	4A/)	4G\	ven-	.	4e\)	ven-	.
 =144	=144	=144	=144	=144	=144	=144	=144	=144	=144	=144	=144	=144	=144	=144
@@ -885,12 +894,15 @@
 *	*v	*v	*	*	*	*	*	*	*	*	*	*
 ==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: <g1><s3>{(p4)}
+!!!system-decoration: [(s1,s2,s3)],[(s4,s5)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Mateusz Solarz
 !!!END: 2021-07-07
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-01-07
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-11-30
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m |

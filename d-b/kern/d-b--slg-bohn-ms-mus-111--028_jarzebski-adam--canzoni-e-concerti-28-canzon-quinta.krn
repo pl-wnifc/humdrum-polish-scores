@@ -1,3 +1,4 @@
+!!!!SEGMENT: d-b--slg-bohn-ms-mus-111--028_jarzebski-adam--canzoni-e-concerti-28-canzon-quinta.krn
 !!!cenid: 16xx:1801
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
@@ -29,6 +30,7 @@
 *	*	*Ibass	*Ivox	*Ivox	*Ivox
 *IGcont	*	*	*	*	*
 *clefC3	*	*clefC4	*clefC4	*clefC3	*clefG2
+*	*	*mclefF4	*mclefGv2	*mclefG2	*
 *k[]	*	*k[]	*k[]	*k[]	*k[]
 *G:	*	*G:	*G:	*G:	*G:
 *M2/2	*	*M2/2	*M2/2	*M2/2	*M2/2
@@ -101,9 +103,9 @@
 *	*	*2\right	*	*	*
 2A\	.	2e\	8r	1c	2ee\
 .	.	.	8A\L	.	.
-!	!	!	!LO:TX:a:t=c	!	!
+!	!	!	!LO:TX:a:t=c:mod=	!	!
 .	.	.	8c\	.	.
-!	!	!	!LO:TX:a:t=d	!	!
+!	!	!	!LO:TX:a:t=d:mod=	!	!
 .	.	.	8d\J	.	.
 *	*	*custos:G	*2\right	*	*
 !	!	!LO:LB:g=original	!	!	!
@@ -202,7 +204,7 @@
 .	.	.	8A\L	8c\L	.
 .	.	.	8c\	8e\	.
 .	.	.	8d\J	8f\J	.
-!LO:TX:b:t=C	!	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
+!LO:TX:b:t=C:mod=	!	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 4C/	.	8r	4.e\	2g\	2r
 .	.	8G\L	.	.	.
 8E\L	6	8B\	.	.	.
@@ -846,10 +848,11 @@
 1DD	4#r	1AA	1A	1d	.
 .	.	.	.	.	2f#X/
 =78-	=78-	=78-	=78-	=78-	=78-
-!LO:TX:b:i:t=Finis.	!	!LO:TX:b:i:t=Finis.	!LO:TX:b:i:t=Finis.	!LO:TX:b:i:t=Finis.	!LO:TX:b:i:t=Finis.
-[1GGl;;	.	[1Dl;;	[1Gl;;	[1Bl;;	[1gl;;
-=79-	=79-	=79-	=79-	=79-	=79-
-1GG]	.	1D]	1G]	1B]	1g]
+!!!OMD:
+!!!OMD-mod: Finis
+!LO:TX:b:i:t=Finis.:mod=	!	!LO:TX:b:i:t=Finis.:mod=	!LO:TX:b:i:t=Finis.:mod=	!LO:TX:b:i:t=Finis.:mod=	!LO:TX:b:i:t=Finis.:mod=
+!LO:MO:mod=0GG;	!	!LO:MO:mod=0D;	!LO:MO:mod=0G;	!LO:MO:mod=0B;	!LO:MO:mod=0g;
+0GGl;;	.	0Dl;;	0Gl;;	0Bl;;	0gl;;
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]s5
@@ -863,3 +866,4 @@
 !!!END: 2022-11-25
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!filter-modern: sic -sq | autostem -r | tie -si | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |

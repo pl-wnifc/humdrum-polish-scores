@@ -1,3 +1,4 @@
+!!!!SEGMENT: d-b--slg-bohn-ms-mus-111--026_jarzebski-adam--canzoni-e-concerti-26-canzon-terta.krn
 !!!cenid: 16xx:1799
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
@@ -29,6 +30,7 @@
 *	*	*Ibass	*Ivox	*Isoprn	*Isoprn
 *IGcont	*	*	*	*	*
 *clefG2	*	*clefC4	*clefC3	*clefC1	*clefG2
+*	*	*mclefGv2	*mclefG2	*mclefG2	*
 *k[]	*	*k[]	*k[]	*k[]	*k[]
 *a:	*	*a:	*a:	*a:	*a:
 *M2/2	*	*M2/2	*M2/2	*M2/2	*M2/2
@@ -962,6 +964,7 @@
 .	.	.	.	.	4cc#X\
 .	.	.	.	.	4b/
 =113-	=113-	=113-	=113-	=113-	=113-
+!LO:MO:mod=0A;	!	!LO:MO:mod=0A;	!LO:MO:mod=0e;	!LO:MO:mod=0a;	!LO:MO:mod=0cc#;
 0Al;;	.	0Al/;;	0el;;	0al;;	0cc#Xl;;
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
@@ -974,3 +977,4 @@
 !!!END: 2022-11-25
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!filter-modern: sic -sq | autostem -r | tie -si | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |

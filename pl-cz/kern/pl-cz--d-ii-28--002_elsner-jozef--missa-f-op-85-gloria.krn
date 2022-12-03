@@ -26,14 +26,19 @@
 *staff5	*staff4	*	*staff3	*staff3	*	*staff2	*staff2	*	*staff1	*staff1	*
 *Iorgan	*Iempty	*	*Ibass	*	*	*Iempty	*	*	*Iempty	*	*
 *I"Organo	*	*	*I"Basso	*	*	*I""Tenori	*	*	*I""Tenori	*	*
+*	*	*	*	*	*	*mI"Tenore II	*	*	*mI"Tenore I	*	*
 *I'Org	*	*	*I'B	*	*	*I''T	*	*	*I''T	*	*
+*	*	*	*	*	*	*mI'T II	*	*	*mI'T I	*	*
 *clefF4	*clefG2	*	*clefF4	*	*	*clefC4	*	*	*clefC4	*	*
+*	*	*	*	*	*	*mclefGv2	*	*	*mclefGv2	*	*
 *k[b-]	*k[b-]	*	*k[b-]	*	*	*k[b-]	*	*	*k[b-]	*	*
 *F:	*F:	*	*F:	*	*	*F:	*	*	*F:	*	*
 *M3/4	*M3/4	*	*M3/4	*	*	*M3/4	*	*	*M3/4	*	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *	*	*	*	*	*	*^	*	*	*	*	*
-!	!LO:TX:a:B:t=Allegro.	!LO:DY:b:rj:t=fr	!	!	!LO:DY:b:rj	!	!	!	!LO:DY:b:rj	!LO:TX:a:B:t=Allegro	!	!LO:DY:b:rj
+!!!OMD:
+!!!OMD-mod: Allegro
+!	!LO:TX:a:B:t=Allegro.:mod=	!LO:DY:b:rj:t=fr	!	!	!LO:DY:b:rj	!	!	!	!LO:DY:b:rj	!LO:TX:a:B:t=Allegro:mod=	!	!LO:DY:b:rj
 (2.FF/ 2.F	(2.f/ 2.a 2.cc 2.ff	f	4.F\	Glo-	f	4.A/	4.A\	Glo-	f	4.f\	Glo-	f
 .	.	.	8F\	-ri-	.	8A/	8A\	-ri-	.	8f\	-ri-	.
 .	.	.	4F\	-a	.	4A/	4A\	-a	.	4f\	-a	.
@@ -761,7 +766,7 @@
 4r	4r	.	4r	.	.	4r	.	.	4r	.	.
 ==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: g1,s3{(s4,s5)}
+!!!system-decoration: [(s1,s2,s3)],{(s4,s5)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Andrzej Kubiczek
@@ -770,3 +775,4 @@
 !!!END: 2020-04-02
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
