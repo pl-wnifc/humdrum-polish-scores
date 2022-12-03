@@ -26,7 +26,6 @@ People and Sponsors
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
-| 2022-09-08 |  |  | 1 |  |  |
 | Jan Barakat | 2 | 7,865 | 277 |  | 99 |
 | Lidia Bialucha |  |  |  |  | 93 |
 | Andrzej Borzym | 375 | 619,316 | 432 | 314 |  |
@@ -55,7 +54,7 @@ People and Sponsors
 | Jędrzej Mróz | 21 | 3,957 | 241 |  |  |
 | Zofia Niedbalska | 1 | 425 | 76 |  |  |
 | Marta Opryszak | 173 | 283,161 | 1 |  | 51 |
-| Julita Ruszuk | 2 | 1,517 | 169 |  |  |
+| Julita Ruszuk | 2 | 1,517 | 170 |  |  |
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
 | Katarzyna Serwa | 314 | 541,833 | 272 | 72 |  |
 | Mateusz Solarz | 609 | 935,720 | 10 |  |  |
