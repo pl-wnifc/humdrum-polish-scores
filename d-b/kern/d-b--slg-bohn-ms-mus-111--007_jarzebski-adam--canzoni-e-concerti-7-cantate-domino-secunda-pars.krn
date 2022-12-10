@@ -20,7 +20,7 @@
 !!!URL-scan: https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1049147219
 !!!ONB-nifc: UWAGA: Prima vox: s. 12-13, Seconda vox: s. 72-73, Basso continuo: s. 168-169. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 1 empty 1 tenor 1 vox
-!!!key: d-dor
+!!!key: d:dor
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/#X/#/g" | shed -k -e "s/-X/-/g" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 **kern	**fba	**kern	**dynam	**kern	**dynam
 *part3	*	*part2	*part2	*part1	*part1
@@ -35,7 +35,7 @@
 *clefC4	*	*clefC4	*	*clefG2	*
 *	*	*mclefGv2	*	*	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*
-*g:	*	*g:	*	*g:	*
+*d:dor	*	*d:dor	*	*d:dor	*
 *M2/2	*	*M2/2	*	*M2/2	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 *mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*
