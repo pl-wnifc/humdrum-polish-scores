@@ -34,20 +34,20 @@ People and Sponsors
 | Marta Chmielewska | 153 | 191,995 | 463 |  |  |
 | Zuzanna Daniec |  |  |  |  | 4 |
 | Olaf Gawdzik |  |  |  |  | 34 |
-| Tomasz Grochalski | 563 | 833,450 |  |  |  |
+| Tomasz Grochalski | 563 | 833,516 |  |  |  |
 | Andrzej Gręziak | 909 | 1,468,270 | 3 |  |  |
 | Jacek Iwaszko | 1 | 219 | 2 | 1 |  |
-| Marcin Jachim | 569 | 878,991 | 1 |  |  |
+| Marcin Jachim | 569 | 878,992 | 1 |  |  |
 | Wojciech Jakubiak-Danek |  |  | 380 |  |  |
 | Berenika Jozajtis | 796 | 1,292,845 | 3 |  |  |
 | Marcin Konik | 5 | 192 | 5 |  |  |
 | Magdalena Agnieszka Krok |  |  |  |  | 15 |
-| Leszek Kubiak | 40 | 9,344 | 810 | 146 |  |
+| Leszek Kubiak | 40 | 9,344 | 810 | 149 |  |
 | Andrzej Kubiczek | 537 | 863,509 | 779 | 185 |  |
-| Marta Lawrence | 92 | 32,446 | 1,077 | 71 |  |
+| Marta Lawrence | 92 | 32,446 | 1,078 | 71 |  |
 | Arkadiusz Malec | 55 | 101,192 | 1 |  |  |
 | Arek Malec | 6 | 13,818 | 1 |  |  |
-| Anastazja Marusiak | 605 | 823,677 | 5 |  |  |
+| Anastazja Marusiak | 607 | 842,897 | 4 |  |  |
 | Solarz Mateusz | 47 | 74,374 |  |  |  |
 | Anna Matuszewska | 192 | 315,319 | 171 |  |  |
 | Mateusz Mrugas | 1 | 2,963 | 237 |  | 80 |
@@ -56,18 +56,18 @@ People and Sponsors
 | Marta Opryszak | 173 | 283,161 | 1 |  | 51 |
 | Julita Ruszuk | 2 | 1,517 | 170 |  |  |
 | Craig Stuart Sapp |  |  | 1 |  | 151 |
-| Katarzyna Serwa | 314 | 541,817 | 282 | 75 |  |
+| Katarzyna Serwa | 314 | 541,817 | 282 | 77 |  |
 | Mateusz Solarz | 609 | 935,720 | 10 |  |  |
-| Krzysztof Stępień | 476 | 692,238 | 132 | 33 |  |
+| Krzysztof Stępień | 476 | 688,774 | 131 | 33 |  |
 | Antoni Szymański |  |  | 543 | 1 | 60 |
 | Konrad Tyszka |  |  |  |  | 75 |
 | Filip Voros | 479 | 672,278 | 1 |  |  |
 | Kamil Watkowski | 404 | 557,411 | 183 |  |  |
-| Natalia Wrzos | 2 | 2,581 | 304 |  | 77 |
+| Natalia Wrzos | 1 | 2,229 | 306 |  | 77 |
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 79 |
 | Urszula Świątek | 3 | 3,016 | 210 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 2 |
-| TOTALS | 7,444 | 11,226,048 | 6,816 | 836 | 952 |
+| TOTALS | 7,445 | 11,241,519 | 6,817 | 841 | 952 |
 
 </details>
 
@@ -104,7 +104,7 @@ to visit its webpage.
 The `Scores` column lists the number of digital transcriptions within
 each archive directory, and the `Notes` column gives the number of
 musical notes contained within those scores.   Currently there are
-7,447 scores containing a total of 11,227,558 notes.
+7,448 scores containing a total of 11,243,029 notes.
 
 <details><summary>Archives represented in repository</summary>
 
@@ -115,7 +115,7 @@ musical notes contained within those scores.   Currently there are
 | <a target="_blank" href="https://polishscores.org?s=d-dl"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/d-dl.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-dl](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-dl/kern)</span></span> | []() | 2 | 0.0 | 947 | 0.0 |
 | <a target="_blank" href="https://polishscores.org?s=d-hs"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/d-hs.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-hs](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-hs/kern)</span></span> | []() | 28 | 0.3 | 8,585 | 0.0 |
 | <a target="_blank" href="https://polishscores.org?s=d-mbs"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/d-mbs.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-mbs](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-mbs/kern)</span></span> | []() | 1 | 0.0 | 823 | 0.0 |
-| <a target="_blank" href="https://polishscores.org?s=pl-cz"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-cz.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern)</span></span> | []() | 1,296 | 17.4 | 3,361,768 | 29.9 |
+| <a target="_blank" href="https://polishscores.org?s=pl-cz"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-cz.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern)</span></span> | []() | 1,296 | 17.4 | 3,358,371 | 29.8 |
 | <a target="_blank" href="https://polishscores.org?s=pl-gd"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-gd.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-gd](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-gd/kern)</span></span> | []() | 244 | 3.2 | 190,174 | 1.6 |
 | <a target="_blank" href="https://polishscores.org?s=pl-kc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kc/kern)</span></span> | []() | 108 | 1.4 | 73,359 | 0.6 |
 | <a target="_blank" href="https://polishscores.org?s=pl-kj"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kj.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kj](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kj/kern)</span></span> | []() | 32 | 0.4 | 83,744 | 0.7 |
@@ -123,11 +123,11 @@ musical notes contained within those scores.   Currently there are
 | <a target="_blank" href="https://polishscores.org?s=pl-kozmzk"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kozmzk.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kozmzk](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kozmzk/kern)</span></span> | []() | 167 | 2.2 | 82,894 | 0.7 |
 | <a target="_blank" href="https://polishscores.org?s=pl-sa"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-sa.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-sa](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-sa/kern)</span></span> | []() | 1,243 | 16.6 | 1,574,926 | 14.0 |
 | <a target="_blank" href="https://polishscores.org?s=pl-stab"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-stab.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-stab](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-stab/kern)</span></span> | []() | 154 | 2.0 | 379,093 | 3.3 |
-| <a target="_blank" href="https://polishscores.org?s=pl-wn"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wn.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wn](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wn/kern)</span></span> | []() | 499 | 6.7 | 807,796 | 7.1 |
+| <a target="_blank" href="https://polishscores.org?s=pl-wn"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wn.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wn](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wn/kern)</span></span> | []() | 499 | 6.6 | 807,796 | 7.1 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wnifc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wnifc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wnifc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wnifc/kern)</span></span> | []() | 393 | 5.2 | 335,728 | 2.9 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wru"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wru.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wru](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wru/kern)</span></span> | []() | 24 | 0.3 | 43,392 | 0.3 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wtm"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wtm.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern)</span></span> | []() | 1,186 | 15.9 | 2,261,993 | 20.1 |
-| <a target="_blank" href="https://polishscores.org?s=pl-wumfc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wumfc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern)</span></span> | []() | 272 | 3.6 | 520,052 | 4.6 |
+| <a target="_blank" href="https://polishscores.org?s=pl-wumfc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wumfc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern)</span></span> | []() | 273 | 3.6 | 538,920 | 4.7 |
 | <a target="_blank" href="https://polishscores.org?s=s-uu"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/s-uu.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[s-uu](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/s-uu/kern)</span></span> | []() | 46 | 0.6 | 137,771 | 1.2 |
 
 </details>
@@ -154,12 +154,12 @@ websites for the scanned source editions that are currently available:
 | (https://digitale-sammlungen.ulb.uni-bonn.de)[https://digitale-sammlungen.ulb.uni-bonn.de] | 1 | 0.0 |
 | (https://digitalisate.sub.uni-hamburg.de)[https://digitalisate.sub.uni-hamburg.de] | 27 | 0.5 |
 | (https://jbc.bj.uj.edu.pl)[https://jbc.bj.uj.edu.pl] | 17 | 0.3 |
-| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 3,377 | 65.2 |
+| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 3,378 | 65.2 |
 | <a target="_blank" href="http://polona.pl">Polona</a> (<a target="_blank" href="https://www.bn.org.pl/en">Polish National Library</a>) | 529 | 10.2 |
 | (https://stimmbuecher.digitale-sammlungen.de)[https://stimmbuecher.digitale-sammlungen.de] | 1 | 0.0 |
 | (https://www.bibliotekacyfrowa.pl)[https://www.bibliotekacyfrowa.pl] | 24 | 0.4 |
 | (https://www2.musik.uu.se)[https://www2.musik.uu.se] | 46 | 0.8 |
-| TOTAL | 5179 |     |
+| TOTAL | 5180 |     |
 
 </details>
 
@@ -229,7 +229,7 @@ Composers
 | Cybulski, Izydor Józef | 10 | 6,608 |
 | Czajkowski, Konstanty | 1 | 1,873 |
 | Czerny, Carl | 1 | 561 |
-| Damse, Józef | 14 | 64,593 |
+| Damse, Józef | 14 | 64,594 |
 | Danielski, Florian | 2 | 2,417 |
 | Danik, Ján Ignác | 9 | 18,594 |
 | Danka | 9 | 20,241 |
@@ -240,7 +240,7 @@ Composers
 | Dietrich, Moritz | 2 | 3,463 |
 | Dittersdorf, Carl Ditters von | 4 | 7,906 |
 | Dobrzyński, Ignacy Feliks | 56 | 223,208 |
-| Elsner, Józef | 142 | 560,970 |
+| Elsner, Józef | 142 | 557,506 |
 | Engel, Jan | 29 | 78,428 |
 | Ett, Caspar | 1 | 129 |
 | Fertner, Karol | 4 | 18,728 |
@@ -315,7 +315,7 @@ Composers
 | Kalous, Václav | 8 | 34,621 |
 | Kamiński, F. | 2 | 4,936 |
 | Kamiński, P. | 1 | 3,165 |
-| Karłowicz, Mieczysław | 13 | 35,423 |
+| Karłowicz, Mieczysław | 14 | 54,291 |
 | Kaspar | 6 | 4,653 |
 | Kasprzykowski, Ignacy | 12 | 7,989 |
 | Każyński, Wiktor | 1 | 1,651 |
@@ -439,7 +439,7 @@ Composers
 | Pych, Leopold | 18 | 42,361 |
 | Pękiel, Bartłomiej | 56 | 57,971 |
 | Radziwiłł, Antoni Henryk | 3 | 1,269 |
-| Raszek, Wacław | 128 | 363,178 |
+| Raszek, Wacław | 128 | 363,244 |
 | Rathgeber, Johann Valentin | 6 | 12,747 |
 | Ratti, Lorenzo | 1 | 230 |
 | Renner, Josef | 7 | 6,551 |
@@ -561,8 +561,8 @@ Composers
 | Żeleński, Władysław | 155 | 323,533 |
 | Gomółka, Mikołaj | 151 | 27,689 |
 | Dankowski, Adalbert | 149 | 417,810 |
-| Elsner, Józef | 142 | 560,970 |
-| Raszek, Wacław | 128 | 363,178 |
+| Elsner, Józef | 142 | 557,506 |
+| Raszek, Wacław | 128 | 363,244 |
 | Volckmer, Augustin | 124 | 433,938 |
 | Zieleński, Mikołaj | 108 | 73,359 |
 | Noskowski, Zygmunt | 106 | 204,143 |
@@ -629,11 +629,11 @@ Composers
 | Hasse, Johann Adolf | 15 | 45,732 |
 | Just, Franciszek Kasper | 15 | 35,024 |
 | Pugnani, Gaetano | 15 | 10,742 |
-| Damse, Józef | 14 | 64,593 |
+| Damse, Józef | 14 | 64,594 |
+| Karłowicz, Mieczysław | 14 | 54,291 |
 | Kobierkowicz, Józef | 14 | 19,943 |
 | Pleyel, Ignace | 14 | 24,157 |
 | Bułakowski, Stefan | 13 | 15,440 |
-| Karłowicz, Mieczysław | 13 | 35,423 |
 | Singenberger, Johann Baptist | 13 | 2,366 |
 | Kasprzykowski, Ignacy | 12 | 7,989 |
 | Mrozowski, Tadeusz | 12 | 14,227 |
@@ -936,10 +936,10 @@ Composers
 | Anonymous | 1,959 | 1,156,873 |
 | Stefani, Józef | 457 | 869,361 |
 | Moniuszko, Stanisław | 412 | 825,844 |
-| Elsner, Józef | 142 | 560,970 |
+| Elsner, Józef | 142 | 557,506 |
 | Volckmer, Augustin | 124 | 433,938 |
 | Dankowski, Adalbert | 149 | 417,810 |
-| Raszek, Wacław | 128 | 363,178 |
+| Raszek, Wacław | 128 | 363,244 |
 | Żeleński, Władysław | 155 | 323,533 |
 | Sowiński, Wojciech | 96 | 267,798 |
 | Luna, Georgius | 92 | 251,534 |
@@ -968,10 +968,11 @@ Composers
 | Zarębski, Juliusz | 19 | 69,528 |
 | Krogulski, Józef Władysław | 41 | 65,327 |
 | Gotschalk, Filip | 33 | 65,232 |
-| Damse, Józef | 14 | 64,593 |
+| Damse, Józef | 14 | 64,594 |
 | Bolehovský, Josef | 21 | 60,992 |
 | Nowakiewicz, Kazimierz | 26 | 60,292 |
 | Pękiel, Bartłomiej | 56 | 57,971 |
+| Karłowicz, Mieczysław | 14 | 54,291 |
 | Kuci, Mateusz | 21 | 54,046 |
 | Szymanowska, Maria | 40 | 52,444 |
 | Rygall, Ignacy | 35 | 51,969 |
@@ -989,7 +990,6 @@ Composers
 | Jarzębski, Adam | 27 | 36,623 |
 | Janiewicz, Feliks | 17 | 36,586 |
 | Fleming, Jan | 9 | 36,561 |
-| Karłowicz, Mieczysław | 13 | 35,423 |
 | Staromiejski, J. | 8 | 35,213 |
 | Just, Franciszek Kasper | 15 | 35,024 |
 | Kalous, Václav | 8 | 34,621 |
