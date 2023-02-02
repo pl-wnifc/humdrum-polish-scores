@@ -15,9 +15,9 @@
 !!!SMS-altvar:
 !!!NIFC-rismSourceID: 1001062014
 !!!NIFC-rismChildID: 1001062014
-!!!NIFC-islandoraID:
+!!!NIFC-islandoraID: none
 !!!URL-pdf-islandora:
-!!!URL-scan: https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1049147219
+!!!URL-scan: https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1049147219 @EN{Scan on Staatsbibliothek zu Berlin Website} @PL{Skany w portalu Staatsbibliothek zu Berlin}
 !!!ONB-nifc: UWAGA: Prima vox: s. 14-15, Seconda vox: s. 74-75, Basso continuo: s. 169. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" |shed -k -e "s/-X/-/g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | tie -s | autostem -r  | modori -m
 !!!AIN: 1 viola
