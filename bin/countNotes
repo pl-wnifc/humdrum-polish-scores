@@ -45,7 +45,10 @@ sub getDataDirectories {
 	while (my $file = readdir(DIR)) {
 		next if $file =~ /^\./;
 		next if !-d "$dir/$file";
-		next if $file !~ /^pl-[a-z]+$/;
+		# PL = Poland
+		# D  = Deutschland
+		# S  = Sweden
+		next if $file !~ /^(pl|d|s)|-[a-z]+$/;
 		$output[@output] = $file;
 	}
 	closedir(DIR);
