@@ -232,6 +232,7 @@ sub buildLibraryTable {
 	my $urlen;
 	my $urlpl;
 	my $counter = 0;
+	my $siglow;
 	for (my $i=0; $i<@contents; $i++) {
 		my $line = $contents[$i];
 		if ($line =~ /^\@\@BEGIN:/) {
@@ -242,14 +243,14 @@ sub buildLibraryTable {
 			$urlpl = "";
 			next;
 		}
-		if ($line =~ /^\@Siglum:\s*(.*?)\s*$/) { $siglum = $1; }
+		if ($line =~ /^\@Siglum:\s*(.*?)\s*$/) { $siglum = $1; $siglow = lc($siglum); }
 		if ($line =~ /^\@RISM-ID:\s*(\d+)\s*$/) { $rism = $1; }
 		if ($line =~ /^\@Name-short-EN:\s*(.*?)\s*$/) { $name = $1; }
 		if ($line =~ /^\@Website-PL:\s*(.*?)\s*$/) { $urlpl = $1; }
 		if ($line =~ /^\@Website-EN:\s*(.*?)\s*$/) { $urlen = $1; }
 		if (($line =~ /^\@\@END:/) && ($siglum !~ /^\s*$/)) {
-			my $siglow = lc($siglum);
 			$signames{$siglow} = $name;
+			print STDERR "SIGNAME $siglow IS $name\n";
 			$sigrism{$siglow} = $rism;
 			$sigurls{$siglow}  = $urlen;
 			$sigurls{$siglow}  = $urlpl if $sigurls{$siglow} =~ /^\s*$/;
@@ -275,7 +276,7 @@ sub buildLibraryTable {
 	$output .= "| ------ | ------- | -----: | ---: | ----: | ---: |\n";
 	for (my $i=0; $i<@skeys; $i++) {
 		my $siglum = $skeys[$i];
-		my $lcsiglum = lc($siglum);
+		my $siglow = lc($siglum);
 		my $scorepercent  = int($sigfiles{$siglum}/$totalfiles * 1000.0)/10.0;
 		my $notepercent   = int($signotes{$siglum}/$totalnotes * 1000.0)/10.0;
 		$scorepercent .= ".0" if $scorepercent !~ /\./;
@@ -288,10 +289,20 @@ sub buildLibraryTable {
 		my $siglow = lc($siglum);
 		my $sigurl = $sigurls{$siglow};
 		my $signame = $signames{$siglow};
+
+		if ($signame =~ /^\s*$/) {
+			print STDERR "CANNOT FIND SIGNAME IN LIST:\n";
+			my @keys = sort keys %signames;
+			foreach my $key (@keys) {
+				print STDERR "\t$key\t$signames{$key}\n";
+			}
+			die;
+		}
+
 		if (-r "../website-polish-scores/img/siglum/$siglow.svg") {
-			$output .= "| <a target=\"_blank\" href=\"https://polishscores.org?s=$lcsiglum\"><img src=\"https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/$lcsiglum.svg\"></a>";
+			$output .= "| <a target=\"_blank\" href=\"https://polishscores.org?s=$siglow\"><img src=\"https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/$siglow.svg\"></a>";
 		} else {
-			$output .= "| <a target=\"_blank\" href=\"https://polishscores.org?s=$lcsiglum\"><img src=\"https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg\"></a>";
+			$output .= "| <a target=\"_blank\" href=\"https://polishscores.org?s=$siglow\"><img src=\"https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg\"></a>";
 		}
 		$output .= "<br/><span style=\"white-space:pre; text-align:center;\" class=\"nobr\">[$siglum]($datadir)</span></span> ";
 		$output .= "| [$signame]($sigurl) ";
