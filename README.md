@@ -21,7 +21,7 @@ People and Sponsors
 * **Metadata Manager**: Marcelina Chojecka
 * **Assistant Project Manager**: Emilia Ziętek
 
-<details>
+<details open>
 <summary>Digital score encoders and editors </summary>
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
@@ -45,8 +45,8 @@ People and Sponsors
 | Leszek Kubiak | 40 | 9,344 | 810 | 152 |  |
 | Andrzej Kubiczek | 537 | 863,509 | 779 | 185 |  |
 | Marta Lawrence | 92 | 32,446 | 1,078 | 72 |  |
-| Arkadiusz Malec | 55 | 101,192 | 1 |  |  |
 | Arek Malec | 6 | 13,818 | 1 |  |  |
+| Arkadiusz Malec | 55 | 101,192 | 1 |  |  |
 | Anastazja Marusiak | 607 | 842,944 | 4 |  |  |
 | Solarz Mateusz | 47 | 74,374 |  |  |  |
 | Anna Matuszewska | 192 | 315,319 | 171 |  |  |
@@ -110,11 +110,11 @@ musical notes contained within those scores.   Currently there are
 
 | Siglum | Library | Scores |    % | Notes |    % |
 | ------ | ------- | -----: | ---: | ----: | ---: |
-| <a target="_blank" href="https://polishscores.org?s=d-b"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/d-b.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-b](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-b/kern)</span></span> | []() | 31 | 0.4 | 43,899 | 0.3 |
-| <a target="_blank" href="https://polishscores.org?s=d-bnu"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/d-bnu.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-bnu](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-bnu/kern)</span></span> | []() | 1 | 0.0 | 322 | 0.0 |
-| <a target="_blank" href="https://polishscores.org?s=d-dl"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/d-dl.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-dl](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-dl/kern)</span></span> | []() | 2 | 0.0 | 947 | 0.0 |
-| <a target="_blank" href="https://polishscores.org?s=d-hs"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/d-hs.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-hs](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-hs/kern)</span></span> | []() | 28 | 0.3 | 8,585 | 0.0 |
-| <a target="_blank" href="https://polishscores.org?s=d-mbs"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/d-mbs.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-mbs](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-mbs/kern)</span></span> | []() | 1 | 0.0 | 823 | 0.0 |
+| <a target="_blank" href="https://polishscores.org?s=d-b"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-b](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-b/kern)</span></span> | []() | 31 | 0.4 | 43,899 | 0.3 |
+| <a target="_blank" href="https://polishscores.org?s=d-bnu"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-bnu](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-bnu/kern)</span></span> | []() | 1 | 0.0 | 322 | 0.0 |
+| <a target="_blank" href="https://polishscores.org?s=d-dl"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-dl](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-dl/kern)</span></span> | []() | 2 | 0.0 | 947 | 0.0 |
+| <a target="_blank" href="https://polishscores.org?s=d-hs"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-hs](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-hs/kern)</span></span> | []() | 28 | 0.3 | 8,585 | 0.0 |
+| <a target="_blank" href="https://polishscores.org?s=d-mbs"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-mbs](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-mbs/kern)</span></span> | []() | 1 | 0.0 | 823 | 0.0 |
 | <a target="_blank" href="https://polishscores.org?s=pl-cz"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-cz.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern)</span></span> | []() | 1,296 | 17.4 | 3,350,723 | 29.8 |
 | <a target="_blank" href="https://polishscores.org?s=pl-gd"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-gd.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-gd](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-gd/kern)</span></span> | []() | 244 | 3.2 | 190,174 | 1.6 |
 | <a target="_blank" href="https://polishscores.org?s=pl-kc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kc/kern)</span></span> | []() | 108 | 1.4 | 73,359 | 0.6 |
@@ -125,10 +125,10 @@ musical notes contained within those scores.   Currently there are
 | <a target="_blank" href="https://polishscores.org?s=pl-stab"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-stab.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-stab](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-stab/kern)</span></span> | []() | 154 | 2.0 | 379,093 | 3.3 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wn"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wn.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wn](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wn/kern)</span></span> | []() | 499 | 6.7 | 807,796 | 7.1 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wnifc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wnifc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wnifc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wnifc/kern)</span></span> | []() | 393 | 5.2 | 335,728 | 2.9 |
-| <a target="_blank" href="https://polishscores.org?s=pl-wru"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wru.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wru](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wru/kern)</span></span> | []() | 24 | 0.3 | 43,392 | 0.3 |
+| <a target="_blank" href="https://polishscores.org?s=pl-wru"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wru](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wru/kern)</span></span> | []() | 24 | 0.3 | 43,392 | 0.3 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wtm"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wtm.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern)</span></span> | []() | 1,186 | 15.9 | 2,261,993 | 20.1 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wumfc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wumfc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern)</span></span> | []() | 272 | 3.6 | 538,100 | 4.7 |
-| <a target="_blank" href="https://polishscores.org?s=s-uu"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/s-uu.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[s-uu](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/s-uu/kern)</span></span> | []() | 46 | 0.6 | 137,771 | 1.2 |
+| <a target="_blank" href="https://polishscores.org?s=s-uu"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[s-uu](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/s-uu/kern)</span></span> | []() | 46 | 0.6 | 137,771 | 1.2 |
 
 </details>
 

@@ -262,8 +262,9 @@ sub buildLibraryTable {
 	foreach my $file (@filelist) {
 		next if $file !~ /^([a-z]+-[a-z]+)\//;
 		my $siglum = $1;
-		$sigfiles{$siglum}++;
-		$signotes{$siglum} += $notecounts{$file};
+		my $siglow = lc($siglum);
+		$sigfiles{$siglow}++;
+		$signotes{$siglow} += $notecounts{$file};
 	}
 
 	my @skeys = sort keys %signotes;
@@ -284,9 +285,14 @@ sub buildLibraryTable {
 
 		my $rism = $sigrism{$siglum};
 		my $datadir = "$basedir/$siglum/kern";
-		my $sigurl = $sigurls{$siglum};
-		my $signame = $signames{$siglum};
-		$output .= "| <a target=\"_blank\" href=\"https://polishscores.org?s=$lcsiglum\"><img src=\"https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/$lcsiglum.svg\"></a>";
+		my $siglow = lc($siglum);
+		my $sigurl = $sigurls{$siglow};
+		my $signame = $signames{$siglow};
+		if (-r "../website-polish-scores/img/siglum/$siglow.svg") {
+			$output .= "| <a target=\"_blank\" href=\"https://polishscores.org?s=$lcsiglum\"><img src=\"https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/$lcsiglum.svg\"></a>";
+		} else {
+			$output .= "| <a target=\"_blank\" href=\"https://polishscores.org?s=$lcsiglum\"><img src=\"https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg\"></a>";
+		}
 		$output .= "<br/><span style=\"white-space:pre; text-align:center;\" class=\"nobr\">[$siglum]($datadir)</span></span> ";
 		$output .= "| [$signame]($sigurl) ";
 		$output .= "| $commascores ";
@@ -558,7 +564,7 @@ sub buildEncoderTable {
 
 	$output .= "| TOTALS | " . commify($totalEncodedScores) . " | " . commify($totalEncodedNotes) . " | " . commify($totalEditedScores) . " | " . commify($totalModernScores) . " | " . commify($totalIiifScores) . " |\n";
 
-	$output = "<details>\n<summary>Digital score encoders and editors </summary>\n\n$output\n</details>\n";
+	$output = "<details open>\n<summary>Digital score encoders and editors </summary>\n\n$output\n</details>\n";
 
 	return $output;
 }
