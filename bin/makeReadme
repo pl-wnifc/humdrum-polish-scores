@@ -268,7 +268,19 @@ sub buildLibraryTable {
 		$signotes{$siglow} += $notecounts{$file};
 	}
 
-	my @skeys = sort keys %signotes;
+	# Sort libraries by transcription count:
+	my @slines;
+	foreach my $key (keys %signotes) {
+ 		my $line = "$signotes{$key}\t$key";
+		$slines[@slines] = $line;
+	}
+	@slines = sort { $b <=> $a } @slines;
+	my @skeys;
+	foreach my $line (@slines) {
+		my @fields = split(/\t/, $line);
+		my $skey = $fields[1];
+		$skeys[@skeys] = $skey;
+	}
 
 	my $basedir = "https://github.com/pl-wnifc/humdrum-polish-scores/tree/main";
 	my $output = "";
