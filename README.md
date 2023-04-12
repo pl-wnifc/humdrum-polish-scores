@@ -26,13 +26,13 @@ People and Sponsors
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
-| Jan Barakat | 2 | 7,865 | 290 |  | 99 |
+| Jan Barakat | 2 | 7,865 | 292 |  | 99 |
 | Lidia Bialucha |  |  |  |  | 93 |
 | Andrzej Borzym | 375 | 619,316 | 432 | 324 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 73 |
 | Elżbieta Cabała |  |  |  |  | 59 |
 | Marta Chmielewska | 153 | 191,995 | 463 |  |  |
-| Zuzanna Daniec |  |  |  |  | 4 |
+| Zuzanna Daniec |  |  |  |  | 46 |
 | Olaf Gawdzik |  |  |  |  | 34 |
 | Tomasz Grochalski | 563 | 825,868 |  |  |  |
 | Andrzej Gręziak | 909 | 1,468,270 | 3 |  |  |
@@ -44,9 +44,9 @@ People and Sponsors
 | Magdalena Agnieszka Krok |  |  |  |  | 15 |
 | Leszek Kubiak | 40 | 9,344 | 810 | 152 |  |
 | Andrzej Kubiczek | 537 | 863,509 | 779 | 185 |  |
-| Marta Lawrence | 92 | 32,446 | 1,078 | 72 |  |
-| Arkadiusz Malec | 55 | 101,192 | 1 |  |  |
+| Marta Lawrence | 92 | 32,446 | 1,078 | 84 |  |
 | Arek Malec | 6 | 13,818 | 1 |  |  |
+| Arkadiusz Malec | 55 | 101,192 | 1 |  |  |
 | Anastazja Marusiak | 607 | 842,944 | 4 |  |  |
 | Solarz Mateusz | 47 | 74,374 |  |  |  |
 | Anna Matuszewska | 192 | 315,319 | 171 |  |  |
@@ -61,13 +61,13 @@ People and Sponsors
 | Krzysztof Stępień | 476 | 688,774 | 131 | 33 |  |
 | Antoni Szymański |  |  | 543 | 1 | 60 |
 | Konrad Tyszka |  |  |  |  | 75 |
-| Filip Voros | 478 | 671,458 | 1 |  |  |
+| Filip Voros | 479 | 672,612 | 1 |  |  |
 | Kamil Watkowski | 404 | 557,411 | 183 |  |  |
 | Natalia Wrzos | 1 | 2,229 | 306 |  | 77 |
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 79 |
 | Urszula Świątek | 3 | 3,016 | 210 |  |  |
-| Bartosz Żurakowski |  |  |  |  | 2 |
-| TOTALS | 7,445 | 11,233,466 | 6,817 | 845 | 952 |
+| Bartosz Żurakowski |  |  |  |  | 73 |
+| TOTALS | 7,446 | 11,234,620 | 6,819 | 857 | 1,065 |
 
 </details>
 
@@ -1354,7 +1354,6 @@ their meanings:
 
 | Reference&nbsp;key | Meaning |
 | ------------------ | ------- |
-| `)MD` | UNKNOWN |
 | `AGN` | Genre.  Multiple genres separated by semicolons (;). |
 | `AIN` | Instrumentation |
 | `AIN-mod` | Modern instrumentation |
@@ -1363,37 +1362,28 @@ their meanings:
 | `CNT` | Composer nationality |
 | `COM` | Composer's name |
 | `COM-rismID` | RISM Online ID of the composer |
-| `COM-rismid` | UNKNOWN |
 | `ENC` | Digital score encoder |
-| `ENC-IIIF` | UNKNOWN |
 | `ENC-iiif` | Encoder of IIIF bounding boxes |
-| `ENC-mod` | UNKNOWN |
 | `ENC-modern` | Encoder of modernization filter |
 | `END` | Encoding date |
-| `END-IIIF` | UNKNOWN |
 | `END-iiif` | Date that IIIF bounding boxes were added |
 | `END-mod` | UNKNOWN |
 | `END-modern` | Date that moderization filter added |
-| `ENG` | UNKNOWN |
 | `GTL` | Title of multiple works forming a group |
 | `IIIF` | IIIF manifest for source scan |
 | `NIFC-islandoraID` | NIFC Islandora ID |
-| `NIFC-rismChildID` | UNKNOWN |
+| `NIFC-rismChildID` | RISM Online ID of the particular piece in source edition/manuscript |
 | `NIFC-rismSourceID` | RISM Online ID for source edition/manuscript |
 | `OMD` | Movement designation |
 | `OMD-mod` | Modern movement designation |
-| `OMD=mod` | UNKNOWN |
 | `OMV` | Movement number |
 | `ONB` | General note |
-| `ONB-nfc` | UNKNOWN |
-| `ONB-nifG` | UNKNOWN |
 | `ONB-nifc` | NIFC-specific general note |
 | `OPR` | Title of work when there are multiple movements |
 | `OTL` | Title of single-movement work, or title of movement |
 | `PDT` | Publication date |
 | `RDF**dynam` | Signifier definition for dynam spines |
 | `RDF**kern` | Signifier definition for kern spines |
-| `RDF**kernyy` | UNKNOWN |
 | `SMS-shelfmark` | Shelfmark of score |
 | `SMS-shelfwork` | Enumeraion of work/movement within shelfmark |
 | `SMS-siglum` | RISM siglum of source archive |
@@ -1402,9 +1392,7 @@ their meanings:
 | `YEC` | Date and owner of electronic copyright |
 | `YEM` | Copyright message |
 | `cenid` | Century ID |
-| `filter-moder` | UNKNOWN |
 | `filter-modern` | Modernization filter |
-| `filter-modern-modern` | UNKNOWN |
 | `finalis` | Finalis note (early music) |
 | `key` | Human-assigned musical key |
 | `system-decoration` | Bracketing on left side of system |

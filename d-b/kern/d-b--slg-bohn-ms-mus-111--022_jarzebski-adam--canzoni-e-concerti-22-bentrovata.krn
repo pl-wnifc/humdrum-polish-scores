@@ -18,7 +18,7 @@
 !!!NIFC-islandoraID: none
 !!!URL-pdf-islandora:
 !!!URL-scan: https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1049147219 @EN{Scan on Staatsbibliothek zu Berlin Website} @PL{Skany w portalu Staatsbibliothek zu Berlin}
-!!!ONB-nifG: UWAGA: Prima vox: s. 35, Seconda vox: s. 95, Bassus sive Vox Tertia: s. 133, Basso continuo: s. 179. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
+!!!ONB-nifc: UWAGA: Prima vox: s. 35, Seconda vox: s. 95, Bassus sive Vox Tertia: s. 133, Basso continuo: s. 179. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 2 soprn 1 vox
 !!!key: G
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" | shed -k -e "s/-X/-/g" | shed -k -e "s/n//g" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
@@ -912,9 +912,9 @@
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(g1)]s4
 !!!RDF**kern: l = terminal long
-!!!ENG: Filip Voros
+!!!ENC: Filip Voros
 !!!END: 2022-11-05
-!!!ENG: Jan Barakat
+!!!ENC: Jan Barakat
 !!!END: 2022-11-17
 !!!EST: revision finished 2022-11-29
 !!!ENC-modern: Andrzej Borzym

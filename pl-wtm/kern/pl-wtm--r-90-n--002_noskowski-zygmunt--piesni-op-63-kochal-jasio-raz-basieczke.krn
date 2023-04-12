@@ -142,20 +142,20 @@
 !!!END: 2021-05-11
 !!!ENC-modern: Krzysztof Stępień
 !!!END-modern: 2022-09-28
-!!!filter-modern-modern: shed -e "s/:t=P:/:T=P:/L"
-!!!filter-modern-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I"
-!!!filter-modern-modern: humtr -p
-!!!filter-modern-modern: shed -e "s/yy//"
-!!!filter-modern-modern: shed -k -e "s/\(y(?!y)/(/"
-!!!filter-modern-modern: shed -k -e "s/([\(\)\[\]])[><]/$1/g"
-!!!filter-modern-modern: shed -k -e “s/([()[]_])[><]/$1/g”
-!!!filter-modern-modern: tie -s
-!!!filter-modern-modern: shed -e "s/^(X?)rep$/$1REP/I"
-!!!filter-modern-modern: shed -k -e "s/^(X?)tuplet/$1TUPLET/I"
-!!!filter-modern-modern: shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L"
-!!!filter-modern-modern: shed -e "s/LO:HP:(a|b)/LO:hp:$1/L"
-!!!filter-modern-modern: shed -k -e "s/r[a-gA-G]+/r/D"
-!!!filter-modern-modern: shed -k -e "s/([^a-gA-Gn#-])[<>]/$1/g"
-!!!filter-modern-modern: sic -sq
-!!!filter-modern-modern: autostem -r
-!!!filter-modern-modern: modori -m
+!!!filter-modern: shed -e "s/:t=P:/:T=P:/L"
+!!!filter-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I"
+!!!filter-modern: humtr -p
+!!!filter-modern: shed -e "s/yy//"
+!!!filter-modern: shed -k -e "s/\(y(?!y)/(/"
+!!!filter-modern: shed -k -e "s/([\(\)\[\]])[><]/$1/g"
+!!!filter-modern: shed -k -e “s/([()[]_])[><]/$1/g”
+!!!filter-modern: tie -s
+!!!filter-modern: shed -e "s/^(X?)rep$/$1REP/I"
+!!!filter-modern: shed -k -e "s/^(X?)tuplet/$1TUPLET/I"
+!!!filter-modern: shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L"
+!!!filter-modern: shed -e "s/LO:HP:(a|b)/LO:hp:$1/L"
+!!!filter-modern: shed -k -e "s/r[a-gA-G]+/r/D"
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#-])[<>]/$1/g"
+!!!filter-modern: sic -sq
+!!!filter-modern: autostem -r
+!!!filter-modern: modori -m
