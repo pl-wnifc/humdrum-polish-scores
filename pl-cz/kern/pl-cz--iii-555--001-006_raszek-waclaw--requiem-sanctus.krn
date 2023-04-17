@@ -236,7 +236,7 @@
 !!!EED: Marta Lawrence
 !!!EST: revision finished 2022-12-07
 !!!ENC-modern: Marta Lawrence
-!!!END-mod: 2022-12-07
+!!!END-modern: 2022-12-07
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!filter-modern: sic -sq | autostem -r | tie -s | shed -e "s/yy//" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m

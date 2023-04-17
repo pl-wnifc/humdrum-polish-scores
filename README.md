@@ -1367,7 +1367,6 @@ their meanings:
 | `ENC-modern` | Encoder of modernization filter |
 | `END` | Encoding date |
 | `END-iiif` | Date that IIIF bounding boxes were added |
-| `END-mod` | UNKNOWN |
 | `END-modern` | Date that moderization filter added |
 | `GTL` | Title of multiple works forming a group |
 | `IIIF` | IIIF manifest for source scan |

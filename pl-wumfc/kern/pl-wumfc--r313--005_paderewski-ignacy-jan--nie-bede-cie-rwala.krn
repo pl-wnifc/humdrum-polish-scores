@@ -22,7 +22,7 @@
 !!!key: A
 !!!OMD: allegretto giacoso.
 !!!OMD: Allegretto giocoso
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | humtr -p
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | humtr -p | autostem -r
 **kern	**kern	**dynam	**fing	**kern	**text	**text	**text	**text
 *	*	*	*	*	*	*	*v:1	*v:2
 *group2	*group2	*	*	*group1	*	*	*	*
@@ -43,21 +43,18 @@
 =1	=1	=1	=1	=1	=1	=1	=1	=1
 *>A	*>A	*	*	*>A	*	*	*	*
 8r	4aa~>\	.	.	2r	.	.	.	.
-!LO:SIC:s=4AA 4E/	!	!	!	!	!	!	!	!
 4AA\ 4E\	.	.	.	.	.	.	.	.
 .	4gg#~>\	.	.	.	.	.	.	.
 8E\ 8B\ 8e\	.	.	.	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2
 8r	(>16ee\LL	.	.	2r	.	.	.	.
 .	16gg#\	.	.	.	.	.	.	.
-!LO:SIC:s=8AA 8E/	!	!	!	!	!	!	!	!
 8AA\ 8E\	16ff#\	.	.	.	.	.	.	.
 .	16dd\JJ	.	.	.	.	.	.	.
 8r	4cc#\)	.	.	.	.	.	.	.
 8E\ 8A\ 8e\	.	.	.	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3
 8r	4ee~>\	.	.	2r	.	.	.	.
-!LO:SIC:s=8AA 8E/	!	!	!	!	!	!	!	!
 8AA\ 8E\	.	.	.	.	.	.	.	.
 8r	4dd~>\	.	.	.	.	.	.	.
 8F#\ 8A\ 8d\	.	.	.	.	.	.	.	.
@@ -189,13 +186,9 @@
 .	8DD\J	8fn/) 8b/)	.	.	8b\	.	.	.	.
 *v	*v	*	*	*	*	*	*	*	*
 =25	=25	=25	=25	=25	=25	=25	=25	=25
-!LO:SIC:s=8AAA/L	!	!	!	!	!	!	!	!
 8AAA\L	[<2e/ [>2cc#/	.	.	4.cc#\)	.	.	.	.
-!LO:SIC:s=(>8EE/	!	!	!	!	!	!	!	!
 (>8EE\	.	.	.	.	.	.	.	.
-!LO:SIC:s=8AA/)	!	!	!	!	!	!	!	!
 8AA\)	.	.	.	.	.	.	.	.
-!LO:SIC:s=8AA/J	!	!	!	!	!	!	!	!
 8AA\J	.	.	.	8a/	-bie.	-dzi	-ne	-gen
 !!LO:PB:g=original
 =26	=26	=26	=26	=26	=26	=26	=26	=26
@@ -218,16 +211,14 @@
 .	16ff#\JJ)	.	.	.	.	.	.	.
 =29	=29	=29	=29	=29	=29	=29	=29	=29
 8r	4gg#~>\	.	.	8r	.	.	.	.
-!LO:SIC:s=4CC# 4GG#/	!	!	!	!LO:TX:t=P:problem=od taktu 29 niemiecki tekst drugiej zwrotki zapisany poniżej górnego planu akompaniamentu	!	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=od taktu 29 niemiecki tekst drugiej zwrotki zapisany poniżej górnego planu akompaniamentu	!	!	!	!
 4CC#\ 4GG#\	.	.	.	4g#/	Nie	mo-	Wer	Blu-
 .	4ff#~>\	.	.	.	.	.	.	.
-!LO:SIC:s=8CC# 8GG#/	!	!	!	!	!	!	!	!
 8CC#\ 8GG#\	.	.	.	8g#/	mam	-żesz	ist,	-me,
 !!LO:LB:g=original
 =30	=30	=30	=30	=30	=30	=30	=30	=30
 8r	(>16dd#X\LL	.	.	8a/	ja	więc	ver	sei
 .	16ff#\	.	.	.	.	.	.	.
-!LO:SIC:s=4CC# 4GG#/	!	!	!	!	!	!	!	!
 4CC#'>\ 4GG#	16eeM>\	.	.	8g#/	dziś	w spo-	sich	ge-
 .	16b\JJ	.	.	.	.	.	.	.
 .	4cc#\)	.	.	8cc#/	ko-	-ko-	heu-	-mie-
@@ -253,16 +244,13 @@
 .	16gg#/JJ	.	.	.	.	.	.	.
 =33	=33	=33	=33	=33	=33	=33	=33	=33
 8r	4ff#^>\	.	.	8r	.	.	.	.
-!LO:SIC:s=4BBB/ 4GG#	!	!	!	!	!	!	!	!
 4BBB\ 4GG#\	.	.	.	4f#/	Nikt,	Dziś	der`s	Nim-
 .	4ee^>\	.	.	.	.	.	.	.
-!LO:SIC:s=8BBB/ 8FF#	!	!	!	!	!	!	!	!
 8BBB\ 8FF#\	.	.	.	8f#/	mi	mi	mir	-mer
 !!LO:LB:g=original
 =34	=34	=34	=34	=34	=34	=34	=34	=34
 8r	(16cc#\LL	.	.	8gn/	ich	mie	ans	ist
 .	16ee\	.	.	.	.	.	.	.
-!LO:SIC:s=4BBB/ 4FF#	!	!	!	!	!	!	!	!
 4BBB\ 4FF#\	16ddw\	.	.	8f#/	nie	nie	dem	mir
 .	16f#\JJ	.	.	.	.	.	.	.
 !	!LO:SIC:s=4b)	!	!	!	!	!	!	!
@@ -385,32 +373,20 @@ N(>16AA\LL	8.ryy	.	.	4r	.	.	.	.
 .	16B/JJ)	.	.	.	.	.	.	.
 !!LO:LB:g=original
 =46	=46	=46	=46	=46	=46	=46	=46	=46
-!LO:SIC:s=8GG#'>L	!	!	!	!	!	!	!	!
 8GG#'>\L	8B'>/L 8d/ 8f#/	.	.	8dd\	Zdra-	1) Ich,	.	.
-!LO:SIC:s=8GG#'>	!	!	!	!	!	!	!	!
 8GG#'>\	8B'>/ 8d/ 8f#/	.	.	8cc#\	-dziec-	den	.	.
-!LO:SIC:s=8GG#'>	!	!	!	!	!	!	!	!
 8GG#'>\	8B'>/ 8d/ 8f#/	.	.	8b\	-ki	bä-	.	.
-!LO:SIC:s=8GG#'>J	!	!	!	!	!	!	!	!
 8GG#'>\J	8B'>/J 8d/ 8f#/	.	.	8a/	to	-sen	.	.
 =47	=47	=47	=47	=47	=47	=47	=47	=47
-!LO:SIC:s=8C#L	!	!	!	!	!	!	!	!
 8C#\L	8B/L 8d/ 8e#X/	.	.	8g#/	chło-	Jun-	.	.
-!LO:SIC:s=8C#	!	!	!	!	!	!	!	!
 8C#\	8B/ 8d/ 8e#/	.	.	8e#X/	-piec	-gen	.	.
 !!LO:TX:t=volta:dur=9q:ext=ud:problem:text with extention lines:mod=
-!LO:SIC:s=8FF#	!	!	!	!	!	!	!	!
 8FF#\	8A/ 8c#/ 8f#/	.	.	8f#/	a-	hab	.	.
-!LO:SIC:s=8FF#J	!	!	!	!	!	!	!	!
 8FF#\J	8A/J 8c#/ 8f#/	.	.	8a/	-le	ich	.	.
 =48	=48	=48	=48	=48	=48	=48	=48	=48
-!LO:SIC:s=8C#L	!	!	!	!	!	!	!	!
 8C#\L	8B/L 8d/ 8e#X/	.	.	8g#/	słod-	herz-	.	.
-!LO:SIC:s=8C#	!	!	!	!	!	!	!	!
 8C#\	8B/ 8d/ 8e#/	.	.	8e#X/	-ka	-lich	.	.
-!LO:SIC:s=8FF#	!	!	!	!	!	!	!	!
 8FF#\	8A/ 8c#/ 8f#/	.	.	8f#/	zdra-	ger-	.	.
-!LO:SIC:s=8FF#J	!	!	!	!	!	!	!	!
 8FF#\J	8A/J 8c#/ 8f#/	.	.	8a/	-da	-ne,	.	.
 =49	=49	=49	=49	=49	=49	=49	=49	=49
 *^	*	*	*	*	*	*	*	*
@@ -434,23 +410,18 @@ N(>16AA\LL	8.ryy	.	.	4r	.	.	.	.
 .	.	.	.	8b#X\	-da	-ne.	.	.
 =52:|!	=52:|!	=52:|!	=52:|!	=52:|!	=52:|!	=52:|!	=52:|!	=52:|!
 *>B2	*>B2	*	*	*>B2	*	*	*	*
-!LO:SIC:s=8GG#L	!	!	!	!LO:TX:t=P:problem=brak oznaczeia drugiej volty	!	!	!	!
+!	!	!	!	!LO:TX:t=P:problem=brak oznaczeia drugiej volty	!	!	!	!
 8GG#\L	8B/L 8d/	.	.	8dd\	Wte-	2) Dann,	.	.
-!LO:SIC:s=8GG#	!	!	!	!	!	!	!	!
 8GG#\	8B/ 8d/	.	.	8cc#\	-dy	du	.	.
-!LO:SIC:s=8GG#	!	!	!	!	!	!	!	!
 8GG#\	8B/ 8d/	.	.	8b\	kon-	Mai-	.	.
-!LO:SIC:s=8FF#J	!	!	!	!	!	!	!	!
 8FF#\J	8A/J 8d/	.	.	(<8a/	.	.	.	.
 =53	=53	=53	=53	=53	=53	=53	=53	=53
-!LO:SIC:s=4EE	!	!	!	!	!	!	!	!
 4EE\	8G#/L 8d/ 8e/	.	.	8g#/	.	.	.	.
 .	8G#/ 8d/ 8e/	.	.	8f#/)	-wa-	-en	.	.
 4E\	8A/ 8c#/ 8e/	.	.	8e/	-lij-	blu-	.	.
 .	8A/J 8c#/ 8e/	.	.	8a/	-ko	-me,	.	.
 !!LO:LB:g=original
 =54	=54	=54	=54	=54	=54	=54	=54	=54
-!LO:SIC:s=4EE	!	!	!	!	!	!	!	!
 4EE\	8G#/L 8d/ 8e/	.	.	8g#/	Już	musst	.	.
 .	8G#/J 8d/ 8e/	.	.	8f#/	nie	du	.	.
 4E\	8A/L 8c#/ 8e/	.	.	8e/	uj-	dich	.	.

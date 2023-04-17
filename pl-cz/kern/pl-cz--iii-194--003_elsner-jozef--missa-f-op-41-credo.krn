@@ -3740,7 +3740,7 @@
 !!!ENC: Krzysztof Stępień
 !!!END: 2021-12-21
 !!!ENC-modern: Marta Lawrence
-!!!END-mod: 2022-11-23
+!!!END-modern: 2022-11-23
 !!!filter-modern: sic -sq | autostem -r | tie -s  | shed -e "s/-//B" | shed -e "s/yy//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/LO:N:/LO:n:$1/L" | humtr -p | modori -m
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
