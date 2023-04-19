@@ -19,6 +19,7 @@
 !!!NIFC-islandoraID: none
 !!!URL-pdf-islandora:
 !!!URL-scan: https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1049147219 @EN{Scan on Staatsbibliothek zu Berlin Website} @PL{Skany w portalu Staatsbibliothek zu Berlin}
+!!!IIIF:
 !!!ONB-nifc: UWAGA: Prima vox: s. 42, Seconda vox: s. 102, Bassus sive Vox Tertia: s. 141, Basso: s. 186, Basso continuo: s. 217. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 1 bass 3 vox
 !!!key: G
@@ -865,6 +866,6 @@
 !!!END: 2022-11-07
 !!!ENC: Jan Barakat
 !!!END: 2022-11-25
+!!!filter-modern: sic -sq | autostem -r | tie -si | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!filter-modern: sic -sq | autostem -r | tie -si | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |

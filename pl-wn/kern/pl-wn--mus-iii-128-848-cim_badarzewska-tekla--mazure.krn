@@ -18,6 +18,7 @@
 !!!NIFC-islandoraID: none
 !!!URL-pdf-islandora:
 !!!URL-scan: https://polona.pl/item/oeuvres-de-thecla-badarzewska-pour-le-pianoforte-3-douce-reverie,ODExMjU1MzU/2 @EN{Scan on Polona} @PL{Skany w portalu Polona}
+!!!IIIF: https://polona.pl/iiif/item/ODExMjU1MzU/manifest.json
 !!!ONB-nifc:
 **kern	**kern	**fing	**dynam
 *part1	*part1	*part1	*part1
@@ -574,7 +575,6 @@
 !!!system-decoration: [(s1,s2)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!IIIF: https://polona.pl/iiif/item/ODExMjU1MzU/manifest.json
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D" | rid -lid
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-02-07

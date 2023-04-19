@@ -19,6 +19,7 @@
 !!!NIFC-islandoraID: pl-kk:1956
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/6140 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
+!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/IIIF/view
 !!!ONB-nifc: UWAGA: C (skan 0031, s.56), A (0117, s.54-55), T (0192, s.48), B (0284, s.54-55). Części Mszy: 1. Kyrie, 2. Et in terra, 3. Patrem,. 4. Sanctus, 5. Benedictus, 6. Agnus Dei
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
 *part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
@@ -906,7 +907,6 @@
 !!LO:MO:end
 !!!RDF**kern: l = terminal long
 !!!filter-modern: sic -sq | tie -s | humtr -p  | extract -s 1,2,5,6,7,8,3,4 | autostem -r | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | modori -m
-!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/IIIF/view
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-02-24
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor

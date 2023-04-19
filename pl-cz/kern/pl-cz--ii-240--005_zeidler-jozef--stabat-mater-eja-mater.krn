@@ -17,6 +17,7 @@
 !!!NIFC-islandoraID: pl-cz:33216
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-cz%3A33216/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/6782/1 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
+!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-cz%3A33216/datastream/IIIF/view
 !!!ONB-nifc: UWAGA: części: Stabat Mater, Quae merebat, Quis est homo, Quis non posset, Eja Mater, Fac me vere, Virgo virginum praeclara, Inflammatus, Quando corpus morietur, Amen
 !!!AIN: 1 alto 1 bass 2 clars 2 cor 1 organ 1 soprn 1 tenor 1 viola 2 violn
 !!!OMD:
@@ -2355,9 +2356,8 @@
 !!!END: 2020-04-15
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-10-11
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-cz%3A33216/datastream/IIIF/view
 !!!ENC-iiif: Olaf Gawdzik
 !!!END-iiif: 2022-09-11
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -17,6 +17,7 @@
 !!!NIFC-islandoraID: pl-cz:33216
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-cz%3A33216/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/6782/1 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
+!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-cz%3A33216/datastream/IIIF/view
 !!!ONB-nifc: UWAGA: części: Stabat Mater, Quae merebat, Quis est homo, Quis non posset, Eja Mater, Fac me vere, Virgo virginum praeclara, Inflammatus, Quando corpus morietur, Amen
 !!!AIN: 1 alto 1 bass 2 clars 2 cor 1 organ 1 soprn 1 tenor 1 viola 2 violn
 !!!OMD:
@@ -1841,7 +1842,6 @@
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-10-29
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:N:/LO:n:$1/L" | shed -e "s/^(X?)tuplet$/$1TUPLET/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/(LO:HP.*):t=(.*$)/$1:T=$2/L; s/LO:HP(.*)(:a:)(.*)/LO:hp:$1$2$3/L" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
-!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-cz%3A33216/datastream/IIIF/view
 !!!ENC-iiif: Olaf Gawdzik
 !!!END-iiif: 2022-09-13
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)

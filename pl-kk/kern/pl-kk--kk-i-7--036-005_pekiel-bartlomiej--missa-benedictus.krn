@@ -19,6 +19,7 @@
 !!!NIFC-islandoraID: pl-kk:1956
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/6140 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
+!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/IIIF/view
 !!!ONB-nifc: UWAGA: C (skan 0027-0032, s.49-58), A (0114-0118, s.48-57), T(0188-0193, s.41-50), B(0280-0285, s.49-57). Części Mszy: 1. Kyrie, 2. Et in terra, 3. Patrem,. 4. Sanctus, 5. Benedictus, 6. Agnus Dei
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: d
@@ -580,7 +581,6 @@
 !!!RDF**kern: l = terminal long
 !!LO:MO:end
 !!!filter-modern: sic -sq | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -k -e "s/[<>]//g" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p | extract -k 1,3,4,2
-!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/IIIF/view
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-03-13
 !!!ENC: Andrzej Gręziak

@@ -45,8 +45,8 @@ People and Sponsors
 | Leszek Kubiak | 40 | 9,344 | 810 | 152 |  |
 | Andrzej Kubiczek | 537 | 863,509 | 779 | 185 |  |
 | Marta Lawrence | 92 | 32,446 | 1,078 | 84 |  |
-| Arkadiusz Malec | 55 | 101,192 | 1 |  |  |
 | Arek Malec | 6 | 13,818 | 1 |  |  |
+| Arkadiusz Malec | 55 | 101,192 | 1 |  |  |
 | Anastazja Marusiak | 607 | 842,944 | 4 |  |  |
 | Solarz Mateusz | 47 | 74,374 |  |  |  |
 | Anna Matuszewska | 192 | 315,319 | 171 |  |  |

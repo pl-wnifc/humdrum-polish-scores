@@ -19,6 +19,7 @@
 !!!NIFC-islandoraID: pl-gd:57883
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-gd%3A57883/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/klocki-introligatorskie/655 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
+!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-gd%3A57883/datastream/IIIF/view
 !!!ONB-nifc: UWAGA: zbiór na stronach: Canto: s. 637-653, Alto: s. do 486-501, Tenore: s. do 334-349, Bassus: s. do 182-197. Uwaga: utwory podzielone wg tytułów w spisach treści dostępnych na końcu każdej księgi głosowej.
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: d:dor
@@ -455,7 +456,6 @@
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-11-05
 !!!filter-modern: shed -e "s/^custos:/Xcustos:/I" | shed -e "s/LO:N:/LO:n:$1/L" | autobeam | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B"
-!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-gd%3A57883/datastream/IIIF/view
 !!!ENC-iiif: Zuzanna Daniec
 !!!END-iiif: 2022-09-14
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)

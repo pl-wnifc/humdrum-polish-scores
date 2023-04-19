@@ -17,6 +17,7 @@
 !!!NIFC-islandoraID: pl-kk:3524
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A3524/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/5760 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
+!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A3524/datastream/IIIF/viewhttps://repozytorium.nifc.pl/islandora/object/pl-kk%3A3524/datastream/IIIF/view
 !!!ONB-nifc: UWAGA: utwory w zbiorze: 1. Beata es virgo Maria, 2. Felix es sacra virgo Maria, 3. Benedicta et venerabilis
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: C:mix
@@ -965,8 +966,7 @@
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-08-18
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | humtr -p | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A3524/datastream/IIIF/viewhttps://repozytorium.nifc.pl/islandora/object/pl-kk%3A3524/datastream/IIIF/view
 !!!ENC-iiif: Marta Opryszak
 !!!END-iiif: 2022-09-09
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

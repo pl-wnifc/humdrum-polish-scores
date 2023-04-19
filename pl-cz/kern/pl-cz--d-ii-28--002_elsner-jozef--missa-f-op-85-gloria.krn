@@ -17,6 +17,7 @@
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
 !!!URL-scan:
+!!!IIIF:
 !!!ONB-nifc: UWAGA: części Mszy: Kyrie, Gloria, Sanctus, Benedictus, Agnus Dei
 !!!AIN: 1 bass 2 empty 1 organ
 !!!key:
@@ -773,6 +774,6 @@
 !!!END: 2020-02-29
 !!!ENC: Marta Lawrence
 !!!END: 2020-04-02
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |

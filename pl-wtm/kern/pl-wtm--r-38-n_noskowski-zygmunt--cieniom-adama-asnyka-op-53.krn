@@ -17,6 +17,7 @@
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
 !!!URL-scan:
+!!!IIIF:
 !!!ONB-nifc:
 !!!OMD: Andante grave.
 !!!AIN: 1 cello 2 cor 7 empty 1 fagot 1 gong 1 oboe 1 timpa 1 tromt 1 tuba 1 viola
@@ -1941,6 +1942,6 @@
 !!!ESR: 2021-10-20
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-11-24
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/y//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/y//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |

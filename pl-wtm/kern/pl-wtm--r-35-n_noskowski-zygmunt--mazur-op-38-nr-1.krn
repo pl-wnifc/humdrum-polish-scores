@@ -17,6 +17,7 @@
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
 !!!URL-scan:
+!!!IIIF:
 !!!ONB-nifc:
 !!!OMD: Poco allegro
 !!!AIN: 1 cello 1 clars 1 drumP 7 empty 1 fagot 1 oboe 1 timpa 1 trngl 1 tromp 2 tromt 1 viola
@@ -1999,6 +2000,6 @@
 !!!END: 2021-09-07
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-11-24
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/yy//" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m |
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/yy//" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m |

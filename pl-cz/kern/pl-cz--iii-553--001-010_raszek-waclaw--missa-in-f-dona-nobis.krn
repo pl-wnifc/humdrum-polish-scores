@@ -19,6 +19,7 @@
 !!!NIFC-islandoraID: pl-cz:38806
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-cz%3A38806/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/6943/1 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
+!!!IIIF:
 !!!ONB-nifc: UWAGA: części Mszy: Kyrie, Gloria, Credo, Et incarnatus, Et resurrexit, Sanctus, Pleni sunt, Benedictus, Agnus Dei, Dona nobis
 !!!AIN: 1 alto 1 bass 2 clarb 2 cor 1 organ 1 soprn 1 tenor 1 viola 2 violn
 !!!key: F
@@ -1296,6 +1297,6 @@
 !!!END: 2022-01-31
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-11-28
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"| shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g"| modori -m |
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"| shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g"| modori -m |

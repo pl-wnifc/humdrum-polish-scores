@@ -17,6 +17,7 @@
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
 !!!URL-scan:
+!!!IIIF:
 !!!ONB-nifc:
 !!!AIN: 2 bass 1 cello 1 clars 2 cor 1 fagot 2 flt 1 gong 1 oboe 1 picco 1 tenor 1 timpa 1 tromp 2 tromt 1 tuba 1 viola 2 violn
 !!!OMD: Maestoso
@@ -2360,3 +2361,5 @@
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-11-22
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/yy//" | modori -m
+!!!YEC: Copyright 2023 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

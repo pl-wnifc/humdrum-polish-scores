@@ -17,6 +17,7 @@
 !!!NIFC-islandoraID:
 !!!URL-pdf-islandora:
 !!!URL-scan:
+!!!IIIF:
 !!!ONB-nifc: UWAGA: części Mszy: Kyrie, Gloria, Sanctus, Benedictus, Agnus Dei
 !!!AIN: 1 alto 1 bass 1 organ 1 tenor
 !!!key:
@@ -373,6 +374,6 @@
 !!!END: 2020-01-04
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-11-30
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |

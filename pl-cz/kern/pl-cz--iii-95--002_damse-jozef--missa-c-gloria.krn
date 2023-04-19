@@ -19,6 +19,7 @@
 !!!NIFC-islandoraID: pl-cz:41682
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-cz%3A41682/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/7035/1 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
+!!!IIIF:
 !!!ONB-nifc: UWAGA: części Mszy: Kyrie, Gloria, Credo, Sanctus, Benedictus, Agnus Dei, Dona nobis
 !!!AIN: 1 alto 1 bass 1 cbass 1 cello 2 clars 2 cor 2 fagot 2 flt 2 oboe 1 soprn 1 tenor 1 timpa 2 tromp 1 tromt 1 viola 2 violn
 !!!OMD:
@@ -3053,6 +3054,6 @@
 !!!END: 2022-02-18
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-12-13
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/yy//" | modori -m
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/yy//" | modori -m

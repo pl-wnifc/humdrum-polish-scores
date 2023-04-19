@@ -17,6 +17,7 @@
 !!!NIFC-islandoraID: pl-kozmzk:1444
 !!!URL-pdf-islandora: https://repozytorium.nifc.pl/islandora/object/pl-kozmzk%3A1444/datastream/PDF/view
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/7373 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
+!!!IIIF:
 !!!ONB-nifc:
 !!!AIN: 1 piano
 !!!key: E
@@ -2395,6 +2396,6 @@
 !!!END: 2021-08-10
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-07-27
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | modori -m
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | modori -m
