@@ -1,0 +1,244 @@
+#!/usr/bin/env perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Wed Apr 19 03:46:56 PDT 2023
+# Last Modified: Wed Apr 19 03:46:59 PDT 2023
+# Filename:      humdrum-polish-scores/bin/getRefByCenid
+#                vim: ts=3
+# Syntax:        perl 5
+#
+# Description:   Extract reference record contents by cenid
+#                from Humdrum scores.
+#
+# Options:       -v == verify one-to-one mapping of cenids and filenames.
+#                -r == reference record key to extra values from.
+#                -u == text to print if the desired reference record was not
+#                      found in a file.
+#                -f == output filenames in first column rather than cenid.
+#                -P == (capital P) remove path from filenames (used with -f option).
+#                -p == prefix to prepend to cenid intput data.
+#                      Such as -p 16xx
+#
+# Usage:         
+#                Get reference record values for COM for all files:
+#                   getRefByCenid -r COM
+#                Get ref record values for COM for specific list of cenids:
+#                   getRefByCenid -r COM files-of-cenids
+#                   cat files-of-cenids | getRefByCenid -r COM
+#
+#                 Typical use would be to copy the cenid column from the
+#                 metadata spreadsheet.  If the coloumn is saved to cenid.txt
+#                 then the typical processing command will be for extrating
+#                 COM reference record values:
+#                     bin/getRefByCenid -r COM -p 16xx cenid.txt
+#                 To process cenids on the 1600's worksheet.  To list by
+#                 filename rather than cenid:
+#                     bin/getRefByCenid -r COM -p 16xx -fP cenid.txt
+#                 The -f option will display filenames instead of cenids
+#                 in the first column of the output data, and the -P option
+#                 will remove the pathname of the file (for cases where
+#                 the output data will be used in the POPC2 transcription
+#                 repository where files are organized differently from
+#                 this humdrum-polish-scores repository.
+#                 Getting a list of the IIIF entries for a century worksheet:
+#                    cat 15xx-cenids.txt | bin/getRefByCenid -r IIIF -p 15xx 
+#
+
+use strict;
+use Getopt::Long;
+
+my $refname = "";
+my $nopathQ = 0;
+my $filenameQ = 0;
+my $verifyQ = 0;
+my $undefined = "NOTPRESENT";
+my $prefix = "";
+
+Getopt::Long::Configure("bundling");
+GetOptions (
+   'r|reference|record=s'    => \$refname,
+   'p|prefix|cenid-prefix=s' => \$prefix,
+   'u|undefined=s'           => \$undefined,
+   'f|filename'              => \$filenameQ,
+   'P|no-path'               => \$nopathQ,
+   'v|verify'                => \$verifyQ
+);
+
+if ($prefix) {
+	if ($prefix !~ /:$/) {
+		$prefix .= ":";
+	}
+}
+
+my %CenidToFilename;
+my %FilenameToCenid;
+prepareCenidIndex();
+
+# The verify option stops processing at this point.  The purpose
+# of the verify option is to verify that there is a one-to-one mapping
+# between cenids and filenames.  In other words, only one cenid should
+# be in a file (this is not strictly checked), and each cenid should
+# represent one file.
+exit 0 if $verifyQ;
+
+my @InputCenids;
+if (!-t STDIN) {
+	while (my $line = <>) {
+		chomp $line;
+		if ($line =~ /^\s*$/) {
+			$InputCenids[@InputCenids] = "";  # preserve empty line for alignment on spreadsheet
+			next;
+		}
+		if ($line =~ /Lp/) { # cenid accession number header
+			$InputCenids[@InputCenids] = "";
+			next;
+		}
+		$line =~ s/^\s*$//;
+		$line =~ s/\s.*$//;
+		$InputCenids[@InputCenids] = "$prefix$line";
+	}
+} elsif (@ARGV > 0) {
+	foreach my $file (@ARGV) {
+		open (FILE, $file) or die "Cannot read $file for cenid input\n";
+		my @list = ();
+		while (my $line = <FILE>) {
+			chomp $line;
+			if ($line =~ /^\s*$/) {
+				$InputCenids[@InputCenids] = "";  # preserve empty line for alignment on spreadsheet
+				next;
+			}
+			if ($line =~ /Lp/) { # cenid accession number header
+				$InputCenids[@InputCenids] = "";
+				next;
+			}
+			$line =~ s/^\s*$//;
+			$line =~ s/\s.*$//;
+			$list[@list] = "$prefix$line";
+		}
+		if (@list > 0) {
+			push(@InputCenids, @list);
+		}
+	}
+} else {
+	@InputCenids = keys %CenidToFilename;
+}
+
+die "Usage: $0 -r reference-key\n" if !$refname;
+
+my %refs = extractReference($refname, @InputCenids);
+
+foreach my $key (@InputCenids) {
+	my $first = $key;
+	my $filename = $CenidToFilename{$key};
+	if ($filenameQ) {
+		$first = $filename;
+		if ($nopathQ) {
+			$first =~ s/.*\///;
+		}
+	}
+	my $output = "$first\t$refs{$key}";
+	if ($output =~ /^\s*$/) {
+		die "Problem with cenid $key and file $filename";
+	}
+	print "$output\n";
+}
+
+exit 0;
+
+###########################################################################
+
+
+##############################
+##
+## extractReference --
+##
+
+sub extractReference {
+	my ($refname, @cenids) = @_;
+	my @files = keys %FilenameToCenid;
+	my %output;
+	foreach my $cenid (@cenids) {
+		my $file = $CenidToFilename{$cenid};
+		if (!$file) {
+			# There is a filename associated with the cenid, 
+			# but there is no transcription yet for that cenid, so
+			# there is no file with that name.  In such cases, output
+			# only the cenid (or filename) with the label "NOFILE" in the
+			# second column.
+			my $first = $cenid;
+			if ($filenameQ) {
+				$first = $file;
+				if ($nopathQ) {
+					$first =~ s/.*\///;
+				}
+			}
+			$output{$cenid} = "NOFILE";
+			next;
+		}
+
+		open(FILE, $file) or die "Cannot read $file for extracting reference $refname\n";
+		my $value = $undefined;
+		while (my $line = <FILE>) {
+			next if $line !~ /^!/;
+			if ($line =~ /^!!!$refname:\s*(.*)\s*$/) {
+				$value = $1;
+				last;
+			}
+		}
+		my $cenid = $FilenameToCenid{$file};
+		$output{$cenid} = $value;
+	}
+	return %output;
+}
+
+
+##############################
+##
+## prepareCenidIndex -- Check for one-to-one mapping of cenid and filenames.
+##
+
+sub prepareCenidIndex {
+	my @files = glob("*-*/kern/*.krn");
+	foreach my $file (@files) {
+		open(FILE, $file) or die "Cannot read $file\n";
+		my $cenid = "";
+		while (my $line = <FILE>) {
+			if ($line =~ /^!!!cenid\s*:\s*(.*)\s*$/) {
+				$cenid = $1;
+				last;
+			}
+		}
+		close FILE;
+		next if $cenid =~ /^\s*$/;
+		if ($cenid !~ /^1[5678]xx:\d+[a-z]?$/) {
+			die "Strange cenid $cenid in file $file\n";
+		}
+
+		if ($CenidToFilename{$cenid}) {
+			my $file1 = $CenidToFilename{$cenid};
+			my $file2 = $file;
+			die "Duplicate cenid $cenid in two different files:\n$file1\n$file2\n";
+		} else {
+			$CenidToFilename{$cenid} = $file;
+		}
+
+		if ($FilenameToCenid{$file}) {
+			my $cenid1 = $FilenameToCenid{$file};
+			my $cenid2 = $cenid;
+			die "Multiple cenids $cenid1 and $cenid2 found in files $file\n";
+		} else {
+			$FilenameToCenid{$file} = $cenid;
+		}
+
+		my @keys1 = keys %CenidToFilename;
+		my @keys2 = keys %FilenameToCenid;
+		my $size1 = @keys1;
+		my $size2 = @keys2;
+		if ($size1 != $size2) {
+			die "Problem with sizes $size1 and $size2 not matching\n";
+		}
+	}
+}
+
+
+
