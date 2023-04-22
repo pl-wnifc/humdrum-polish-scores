@@ -14,6 +14,8 @@
 #                -r == reference record key to extra values from.
 #                -u == text to print if the desired reference record was not
 #                      found in a file.
+#                -F == set the string to display in output if there no file 
+#                      to extract reference record from.
 #                -f == output filenames in first column rather than cenid.
 #                -P == (capital P) remove path from filenames (used with -f option).
 #                -p == prefix to prepend to cenid intput data.
@@ -43,6 +45,10 @@
 #                 Getting a list of the IIIF entries for a century worksheet:
 #                    cat 15xx-cenids.txt | bin/getRefByCenid -r IIIF -p 15xx 
 #
+#                 To extract update IIIF column data in one step without any checks (NOFILE):
+#                    cat 15xx-cenids.txt | bin/getRefByCenid -r IIIF -p 15xx -F "" | \
+#                        cut -f 2 > new-iiif-column.txt
+#
 
 use strict;
 use Getopt::Long;
@@ -52,6 +58,7 @@ my $nopathQ = 0;
 my $filenameQ = 0;
 my $verifyQ = 0;
 my $undefined = "NOTPRESENT";
+my $nofile = "NOFILE";
 my $prefix = "";
 
 Getopt::Long::Configure("bundling");
@@ -60,6 +67,7 @@ GetOptions (
    'p|prefix|cenid-prefix=s' => \$prefix,
    'u|undefined=s'           => \$undefined,
    'f|filename'              => \$filenameQ,
+   'F|no-file|no-filename=s' => \$nofile,
    'P|no-path'               => \$nopathQ,
    'v|verify'                => \$verifyQ
 );
@@ -73,6 +81,8 @@ if ($prefix) {
 my %CenidToFilename;
 my %FilenameToCenid;
 prepareCenidIndex();
+$CenidToFilename{"Lp."} = "IIIF";
+$FilenameToCenid{"IIIF"} = "Lp.";
 
 # The verify option stops processing at this point.  The purpose
 # of the verify option is to verify that there is a one-to-one mapping
@@ -89,8 +99,8 @@ if (!-t STDIN) {
 			$InputCenids[@InputCenids] = "";  # preserve empty line for alignment on spreadsheet
 			next;
 		}
-		if ($line =~ /Lp/) { # cenid accession number header
-			$InputCenids[@InputCenids] = "";
+		if ($line eq "Lp.") { # cenid accession number header
+			$InputCenids[@InputCenids] = "Lp.";
 			next;
 		}
 		$line =~ s/^\s*$//;
@@ -107,7 +117,7 @@ if (!-t STDIN) {
 				$InputCenids[@InputCenids] = "";  # preserve empty line for alignment on spreadsheet
 				next;
 			}
-			if ($line =~ /Lp/) { # cenid accession number header
+			if ($line eq "Lp.") { # cenid accession number header
 				$InputCenids[@InputCenids] = "";
 				next;
 			}
@@ -137,7 +147,7 @@ foreach my $key (@InputCenids) {
 		}
 	}
 	my $output = "$first\t$refs{$key}";
-	if ($output =~ /^\s*$/) {
+	if (($nofile ne "") and ($output =~ /^\s*$/)) {
 		die "Problem with cenid $key and file $filename";
 	}
 	print "$output\n";
@@ -172,7 +182,12 @@ sub extractReference {
 					$first =~ s/.*\///;
 				}
 			}
-			$output{$cenid} = "NOFILE";
+			$output{$cenid} = $nofile;
+			next;
+		}
+
+		if ($file eq "IIIF") {
+			$output{"Lp."} = "IIIF";
 			next;
 		}
 
