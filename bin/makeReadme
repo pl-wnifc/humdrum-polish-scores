@@ -481,7 +481,7 @@ sub buildReferenceTable {
 	$refInfo{"SMS"} =                   "IGNORE";
 	$refInfo{"SMS-altvar"} =            "IGNORE";
 	$refInfo{"SMS-shelfmark"} =         "Shelfmark of score";
-	$refInfo{"SMS-shelfwork"} =         "Enumeraion of work/movement within shelfmark";
+	$refInfo{"SMS-shelfwork"} =         "Enumeration of work/movement within shelfmark";
 	$refInfo{"SMS-siglum"} =            "RISM siglum of source archive";
 	$refInfo{"SMS-variant"} =           "IGNORE";
 	$refInfo{"TXO"} =                   "IGNORE";
@@ -822,7 +822,9 @@ Digital scores from the Polish Heritage in Open Access project
 This repository contains transcriptions from the _Heritage of Polish
 Music in Open Access_ project at the [Chopin Institute](https://nifc.pl/en) in the
 Humdrum digital score format.   Files are organized by the RISM siglum ID of the
-source archive.
+source archive.  Here is a promotional booklet about the project 
+in [Polish](https://polishscores.org/info/booklet/popc-2022_pl.pdf)
+and [English](https://polishscores.org/info/booklet/popc-2022_en.pdf).
 
 
 
@@ -830,8 +832,8 @@ People and Sponsors
 -------------------
 
 * **Lead**: Marcin Konik
-* **Technical Lead**: Craig Stuart Sapp
-* **Project Manager**: Jacek Iwaszko
+* **Technical Lead**: Craig Stuart Sapp (digital scores, transcription website)
+* **Project Manager**: Jacek Iwaszko (digital scores, source edition scans)
 * **Metadata Manager**: Marcelina Chojecka
 * **Assistant Project Manager**: Emilia Ziętek
 
@@ -847,11 +849,18 @@ People and Sponsors
 
 
 
-Frontend
---------
+Associated websites
+-----------------
 
-The main user interface for these digital scores is at https://polishscores.org.
-All transcriptions include scans of the physical scores.
+The main user interface for these digital scores is https://polishscores.org.
+All transcriptions include links to scans of the physical scores, which are
+found on the sister website https://polish.musicsources.pl .
+
+The polishscores.org website files are located in the Github repository 
+https://github.com/craigsapp/webiste-polish-scores, as well as the backend
+data server files at https://github.com/craigsapp/nifc-digital-score-server . Instructions
+for installing and maintaining the server and digital scores can be
+found [here](https://docs.google.com/document/d/1GacdLcQktSHn2LL7uAoLlU5EelAKPKinbQK19JTCa5I).
 
 
 
@@ -883,8 +892,6 @@ files for a link to the scanned source editions.  Here is a list of the
 websites for the scanned source editions that are currently available:
 
 {{scan-table}}
-
-
 
 
 Composers

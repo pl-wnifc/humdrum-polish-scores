@@ -8,7 +8,9 @@ Digital scores from the Polish Heritage in Open Access project
 This repository contains transcriptions from the _Heritage of Polish
 Music in Open Access_ project at the [Chopin Institute](https://nifc.pl/en) in the
 Humdrum digital score format.   Files are organized by the RISM siglum ID of the
-source archive.
+source archive.  Here is a promotional booklet about the project 
+in [Polish](https://polishscores.org/info/booklet/popc-2022_pl.pdf)
+and [English](https://polishscores.org/info/booklet/popc-2022_en.pdf).
 
 
 
@@ -16,8 +18,8 @@ People and Sponsors
 -------------------
 
 * **Lead**: Marcin Konik
-* **Technical Lead**: Craig Stuart Sapp
-* **Project Manager**: Jacek Iwaszko
+* **Technical Lead**: Craig Stuart Sapp (digital scores, transcription website)
+* **Project Manager**: Jacek Iwaszko (digital scores, source edition scans)
 * **Metadata Manager**: Marcelina Chojecka
 * **Assistant Project Manager**: Emilia Ziętek
 
@@ -45,8 +47,8 @@ People and Sponsors
 | Leszek Kubiak | 40 | 9,344 | 810 | 152 |  |
 | Andrzej Kubiczek | 537 | 863,509 | 779 | 185 |  |
 | Marta Lawrence | 92 | 32,446 | 1,078 | 84 |  |
-| Arkadiusz Malec | 55 | 101,192 | 1 |  |  |
 | Arek Malec | 6 | 13,818 | 1 |  |  |
+| Arkadiusz Malec | 55 | 101,192 | 1 |  |  |
 | Anastazja Marusiak | 607 | 842,944 | 4 |  |  |
 | Solarz Mateusz | 47 | 74,374 |  |  |  |
 | Anna Matuszewska | 192 | 315,319 | 171 |  |  |
@@ -82,11 +84,18 @@ People and Sponsors
 
 
 
-Frontend
---------
+Associated websites
+-----------------
 
-The main user interface for these digital scores is at https://polishscores.org.
-All transcriptions include scans of the physical scores.
+The main user interface for these digital scores is https://polishscores.org.
+All transcriptions include links to scans of the physical scores, which are
+found on the sister website https://polish.musicsources.pl .
+
+The polishscores.org website files are located in the Github repository 
+https://github.com/craigsapp/webiste-polish-scores, as well as the backend
+data server files at https://github.com/craigsapp/nifc-digital-score-server . Instructions
+for installing and maintaining the server and digital scores can be
+found [here](https://docs.google.com/document/d/1GacdLcQktSHn2LL7uAoLlU5EelAKPKinbQK19JTCa5I).
 
 
 
@@ -162,8 +171,6 @@ websites for the scanned source editions that are currently available:
 | TOTAL | 6350 |     |
 
 </details>
-
-
 
 
 
@@ -1384,7 +1391,7 @@ their meanings:
 | `RDF**dynam` | Signifier definition for dynam spines |
 | `RDF**kern` | Signifier definition for kern spines |
 | `SMS-shelfmark` | Shelfmark of score |
-| `SMS-shelfwork` | Enumeraion of work/movement within shelfmark |
+| `SMS-shelfwork` | Enumeration of work/movement within shelfmark |
 | `SMS-siglum` | RISM siglum of source archive |
 | `URL-pdf-islandora` | PDF of scan from NIFC Islandora database |
 | `URL-scan` | URL for scan of source edition/manuscript |
