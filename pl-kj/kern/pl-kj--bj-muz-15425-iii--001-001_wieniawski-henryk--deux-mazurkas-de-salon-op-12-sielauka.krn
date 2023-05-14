@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kj
 !!!SMS-shelfmark: BJ Muz. 15425 III
 !!!SMS-shelfwork: 001-001 G
@@ -26,8 +28,7 @@
 !!!OMD: SIELAUKA\nla Champêtre.
 !!!OMD-mod: SIELANKA\nla Champêtre.
 **kern	**kern	**dynam	**kern	**dynam
-*	*	*	*scale:70%	*
-*part3	*part2	*part2	*part1	*part1
+*part3	*part2	*	*part1	*
 *staff3	*staff2	*	*staff1	*
 *I"PIANO.	*I"PIANO.	*	*I"VIOLINO.	*
 *I'	*I'	*	*I'	*
@@ -40,6 +41,7 @@
 *k[f#c#]	*k[f#c#]	*	*k[f#c#]	*
 *G:	*G:	*	*G:	*
 *M3/4	*M3/4	*	*M3/4	*
+*	*	*	*scale:70%	*
 =1	=1	=1	=1	=1
 !!LO:TX:t=:mod=Revue par Fr.Hermann.
 !	!LO:TX:a:rj:t=1.:mod=	!LO:DY:a=2	!LO:TX:a:t=Revue par Fr.Hermann.:mod=	!
@@ -1005,9 +1007,7 @@
 !!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-04
-!!!ENC: Marta Lawrence
-!!!END: 2022-05-14
+!!!EED: Marta Lawrence
+!!!EEV: 2022-05-14
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-07-15
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

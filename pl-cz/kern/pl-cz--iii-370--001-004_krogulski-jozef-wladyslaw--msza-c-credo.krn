@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-370
 !!!SMS-shelfwork: 001-004 M
@@ -24,9 +26,9 @@
 !!!AIN: 1 bass 1 organ 2 vox
 !!!key: F
 **kern	**kern	**dynam	**kern	**dynam	**text	**mod-text	**kern	**dynam	**text	**mod-text	**kern	**dynam	**text	**mod-text
-*part4	*part4	*part4	*part3	*part3	*part3	*part3	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1
-*staff5	*staff4	*	*staff3	*	*staff3	*staff3	*staff2	*	*staff2	*staff2	*staff1	*	*staff1	*staff1
 *	*	*	*group1	*	*	*	*group1	*	*	*	*group1	*	*	*
+*part4	*part4	*	*part3	*	*	*	*part2	*	*	*	*part1	*	*	*
+*staff5	*staff4	*	*staff3	*	*	*	*staff2	*	*	*	*staff1	*	*	*
 *I"Organ	*	*	*I"Bas	*	*	*	*I"Spiew Drugi	*	*	*	*I"Spiew Pierwszy	*	*	*
 *mI"Organo	*	*	*mI"Basso	*	*	*	*mI"Voce II	*	*	*	*mI"Voce I	*	*	*
 *I'org	*	*	*I'B	*	*	*	*I'V 2	*	*	*	*I'V 1	*	*	*
@@ -295,9 +297,7 @@
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | rid -lid
 !!!ENC: Tomasz Grochalski
 !!!END: 2020-08-29
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-11-08
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-11-08
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-07-05
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

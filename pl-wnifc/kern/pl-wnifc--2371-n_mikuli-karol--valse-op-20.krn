@@ -7,6 +7,8 @@
 !!!OTL: Valse op. 20
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wnifc
 !!!SMS-shelfmark: 2371/n
 !!!SMS-shelfwork: W
@@ -22,7 +24,7 @@
 !!!AIN: 2 piano
 !!!key: A
 **kern	**fing	**kern	**fing	**dynam
-*part2	*	*part1	*	*part1
+*part2	*	*part1	*	*
 *staff2	*	*staff1	*	*
 *I"Piano.	*	*I"Piano.	*	*
 *mI"Pianoforte	*	*mI"Pianoforte	*	*
@@ -1779,9 +1781,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | -k -e “s/([()[]_])[><]/$1/g”
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-07-23
-!!!ENC: Urszula Świątek
-!!!END: 2022-08-17
+!!!EED: Urszula Świątek
+!!!EEV: 2022-08-17
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-09
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

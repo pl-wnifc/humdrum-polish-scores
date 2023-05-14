@@ -9,6 +9,8 @@
 !!!OMV: 006
 !!!PDT: 1804
 !!!AGN: Sacred; Vespers
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-STAb
 !!!SMS-shelfmark: 3a
 !!!SMS-shelfwork: 001-006 M
@@ -27,8 +29,8 @@
 !!!key: d
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**kern	**kern	**text	**kern	**kern
 *	*	*	*group3	*	*group3	*	*group2	*group2	*group2	*group2	*	*group1	*group1
-*part9	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part5	*part4	*part3	*part3	*part2	*part1
-*staff9	*staff9	*	*staff8	*	*staff7	*	*staff6	*staff5	*staff4	*staff3	*staff3	*staff2	*staff1
+*part9	*	*	*part8	*	*part7	*	*part6	*part5	*part4	*part3	*	*part2	*part1
+*staff9	*	*	*staff8	*	*staff7	*	*staff6	*staff5	*staff4	*staff3	*	*staff2	*staff1
 *I"Organo	*	*	*I"Violino Secondo	*	*I"Violino Primo	*	*I"Baſso	*I"Tenor	*I"Alto	*I"Canto	*	*I"Cornu Secondo Ex D:	*I"Cornu Primo Ex D.
 *	*	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*mI"Tenore	*	*mI"Soprano	*	*mI"Corno II in D	*mI"Corno I in D
 *I'org	*	*	*I'vl 2	*	*I'vl 1	*	*I'B	*I'T	*I'A	*I'S	*	*I'cor 2 in D	*I'cor 1 in D
@@ -646,9 +648,7 @@
 !!!filter-modern: sic -sq | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | humtr -p | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2021-11-24
-!!!ENC: Marta Chmielewska
-!!!END: 2021-12-06
+!!!EED: Marta Chmielewska
+!!!EEV: 2021-12-06
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-07-26
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

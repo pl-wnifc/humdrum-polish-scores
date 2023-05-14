@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT: 1864
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wnifc
 !!!SMS-shelfmark: 493/n
 !!!SMS-shelfwork: 001-001 G
@@ -24,9 +26,8 @@
 !!!AIN: 2 piano
 !!!key: F
 !!!OMD: Moderato
-!!!filter-modern: sic -s | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam
-*part2	*part1	*part1
+*part2	*part1	*
 *staff2	*staff1	*
 *I"Piano.	*I"Piano.	*
 *I'pf	*I'pf	*
@@ -352,11 +353,10 @@
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -s | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 !!!ENC: Filip Voros
 !!!END: 2022-07-25
-!!!ENC: Jan Barakat
-!!!END: 2022-08-22
+!!!EED: Jan Barakat
+!!!EEV: 2022-08-22
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-30
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

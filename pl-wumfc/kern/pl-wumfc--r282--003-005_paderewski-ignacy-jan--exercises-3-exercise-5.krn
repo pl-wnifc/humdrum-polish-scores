@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R282
 !!!SMS-shelfwork: 003-005 G
@@ -162,9 +164,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Filip Voros
 !!!END: 2021-11-13
-!!!ENC: Marta Lawrence
-!!!END: 2021-11-15
+!!!EED: Marta Lawrence
+!!!EEV: 2021-11-15
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-05
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

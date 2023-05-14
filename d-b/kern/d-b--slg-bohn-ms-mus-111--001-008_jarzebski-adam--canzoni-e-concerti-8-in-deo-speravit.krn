@@ -2,13 +2,15 @@
 !!!cenid: 16xx:1781
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
-!!!CDT:
-!!!CNT:
+!!!CDT: 1590-1648
+!!!CNT: Polish
 !!!GTL: Canzoni e Concerti
 !!!OTL: 8. In Deo speravit
 !!!OMV: 008
 !!!PDT: 1627
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-B
 !!!SMS-shelfmark: Slg Bohn Ms.mus. 111
 !!!SMS-shelfwork: 001-008 G
@@ -21,7 +23,6 @@
 !!!URL-scan: https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1049147219 @EN{Scan on Staatsbibliothek zu Berlin Website} @PL{Skany w portalu Staatsbibliothek zu Berlin}
 !!!IIIF:
 !!!ONB-nifc: UWAGA: Prima vox: s. 14-15, Seconda vox: s. 74-75, Basso continuo: s. 169. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" |shed -k -e "s/-X/-/g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | tie -s | autostem -r  | modori -m
 !!!AIN: 1 viola
 !!!key:
 **kern	**kern	**kern
@@ -83,7 +84,7 @@
 4G\	8F\L	.
 !	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	8E\J	.
-!	!	!LO:MO:mod=*null:null
+!	!	!LO:MO:mod=*null
 *	*	*clefG2
 =8-	=8-	=8-
 4A\	8D\L	2r
@@ -1385,12 +1386,10 @@
 *-	*-	*-
 !!!system-decoration: [(g1)]s3
 !!!RDF**kern: l = terminal long
-!!!ENC: Filip Voros
-!!!END: 2022-11-02
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" |shed -k -e "s/-X/-/g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | tie -s | autostem -r  | modori -m
 !!!ENC: Natalia Wrzos
 !!!END: 2022-11-11
-!!!EST: revision finished 2022-11-29
+!!!EED: Filip Voros
+!!!EEV: 2022-11-29
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

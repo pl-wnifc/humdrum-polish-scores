@@ -9,6 +9,8 @@
 !!!OMV: 013
 !!!PDT: 1819
 !!!AGN: Secular; Prelude
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-KOZmzk
 !!!SMS-shelfmark: mzk/m/31
 !!!SMS-shelfwork: 001-013 G
@@ -23,9 +25,8 @@
 !!!ONB-nifc:
 !!!AIN: 1 piano
 !!!key: B-
-!!!filter-modern: sic -sq | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" |  shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B"  | autostem -r | modori -m
 **kern	**fing	**kern	**fing	**dynam
-*part1	*	*part1	*	*part1
+*part1	*	*part1	*	*
 *staff2	*	*staff1	*	*
 *I"Piano	*	*I"Piano	*	*
 *I'P-no	*	*I'P-no	*	*
@@ -499,9 +500,8 @@
 !!!RDF**kern: < = below
 !!!EED: Leszek Kubiak
 !!!EEV: 2020-07-22
+!!!filter-modern: sic -sq | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" |  shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B"  | autostem -r | modori -m
 !!!ENC: Berenika Jozajtis
 !!!END: 2020-06-16
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-30
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

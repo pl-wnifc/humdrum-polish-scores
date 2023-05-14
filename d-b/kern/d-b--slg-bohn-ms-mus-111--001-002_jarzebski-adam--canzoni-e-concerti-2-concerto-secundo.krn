@@ -2,13 +2,15 @@
 !!!cenid: 16xx:1775
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
-!!!CDT:
-!!!CNT:
+!!!CDT: 1590-1648
+!!!CNT: Polish
 !!!GTL: Canzoni e Concerti
 !!!OTL: 2. Concerto Secundo
 !!!OMV: 002
 !!!PDT: 1627
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-B
 !!!SMS-shelfmark: Slg Bohn Ms.mus. 111
 !!!SMS-shelfwork: 001-002 G
@@ -23,7 +25,6 @@
 !!!ONB-nifc: UWAGA: Prima vox: s. 5, Seconda vox: s. 65, Basso continuo: s. 165. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 1 soprn 1 tenor
 !!!key: a
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/i//" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 **kern	**kern	**kern
 *	*group1	*group1
 *part3	*part2	*part1
@@ -485,11 +486,10 @@
 !!!system-decoration: s1,s2,s3
 !!!RDF**kern: i = editorial accidental
 !!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/i//" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 !!!ENC: Anastazja Marusiak
-!!!END: 2022-10-29
-!!!ENC: Natalia Wrzos
-!!!END: 2022-11-09
+!!!EED: 2022-10-29
+!!!EED: Natalia Wrzos
+!!!EEV: 2022-11-09
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

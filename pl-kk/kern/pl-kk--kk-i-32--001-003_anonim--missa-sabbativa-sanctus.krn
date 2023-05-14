@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.32
 !!!SMS-shelfwork: 001-003 M
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 2 tenor
 !!!key: F
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *>[A,B,C,B]	*	*>[A,B,C,B]	*	*>[A,B,C,B]	*	*>[A,B,C,B]	*
 *>A	*	*>A	*	*>A	*	*>A	*
 *I"Baſso.	*	*I"Tenore in Chorali.	*	*I"Tenore 1mo.	*	*I"Alto	*
@@ -677,9 +679,7 @@
 !!!filter-modern: shed -e "s/,//gk" | shed -e "s/:TX:t=P:/:tx:t=p:/L" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/[<>]//g"
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-07-03
-!!!ENC: Wojciech Jakubiak-Danek
-!!!END: 2021-07-27
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2021-07-27
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-06-18
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

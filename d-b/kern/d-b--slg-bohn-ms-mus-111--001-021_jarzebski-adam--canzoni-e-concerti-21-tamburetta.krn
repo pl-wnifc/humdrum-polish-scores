@@ -2,13 +2,15 @@
 !!!cenid: 16xx:1794
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
-!!!CDT:
-!!!CNT:
+!!!CDT: 1590-1648
+!!!CNT: Polish
 !!!GTL: Canzoni e Concerti
 !!!OTL: 21. Tamburetta
 !!!OMV: 021
 !!!PDT: 1627
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-B
 !!!SMS-shelfmark: Slg Bohn Ms.mus. 111
 !!!SMS-shelfwork: 001-021 G
@@ -24,7 +26,7 @@
 !!!AIN: 2 viola
 !!!key: G
 **kern	**fba	**kern	**kern	**kern
-*part4	*part4	*part3	*part2	*part1
+*part4	*	*part3	*part2	*part1
 *staff4	*	*staff3	*staff2	*staff1
 *I"Baſso Continúo.	*	*I"Tertia Vox.	*I"Seconda Vox.	*I"1 Vox.
 *mI"Basso continuo	*	*mI"Bastarda II	*mI"Bastarda I	*mI"Soprano
@@ -85,7 +87,7 @@
 8F/J	.	.	8f\J	8a\J
 4G/	.	.	4g\	4b/
 4A/	.	.	4.a\	4.cc\
-!LO:MO:mod=*null:null	!	!	!	!
+!LO:MO:mod=*null	!	!	!	!
 *clefF4	*	*	*	*
 =5-	=5-	=5-	=5-	=5-
 8D/L	.	8d\L	.	.
@@ -119,7 +121,7 @@
 =7-	=7-	=7-	=7-	=7-
 !	!	!	!LO:SIC:s=8gL	!
 8GG/L	.	8G\L	8g\	4dd\
-!	!	!	!LO:MO:mod=*null:null	!
+!	!	!	!LO:MO:mod=*null	!
 *	*	*	*clefF4	*
 !	!	!	!LO:SIC:s=16GL	!
 16GG/L	.	16B\L	16G\LL	.
@@ -165,7 +167,7 @@
 !	!	!LO:TX:t=P:problem:# above	!	!
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa
 .	.	8F#X/J	.	8a/J
-!	!	!	!LO:MO:mod=*null:null	!
+!	!	!	!LO:MO:mod=*null	!
 *	*	*	*clefC4	*
 =10-	=10-	=10-	=10-	=10-
 !	!	!	!LO:SIC:s=8GL	!
@@ -649,7 +651,7 @@
 .	.	.	8f\L	8aa\
 !	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!LO:TX:t=P:problem=kreska pseudotaktowa
 .	.	.	8e\J	8gg\J
-!	!	!LO:MO:mod=*null:null	!	!
+!	!	!LO:MO:mod=*null	!	!
 *	*	*clefF4	*	*
 *	*	*custos:FF	*	*
 !	!	!LO:LB:g=original	!	!
@@ -705,7 +707,7 @@
 !	!	!	!LO:LB:g=original	!
 .	.	.	8f\L	8aa\
 .	.	.	8e\J	8gg\J
-!	!	!LO:MO:mod=*null:null	!	!
+!	!	!LO:MO:mod=*null	!	!
 *	*	*clefC4	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!
 2D/	.	8r	2d\	4ff#X\
@@ -715,7 +717,7 @@
 .	.	8d\	.	4ff#\
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!
 .	.	8cny\J	.	.
-!	!	!	!LO:MO:mod=*null:null	!
+!	!	!	!LO:MO:mod=*null	!
 *	*	*	*clefF4	*
 =50-	=50-	=50-	=50-	=50-
 !LO:TX:t=P:problem=mixed beam	!	!	!	!
@@ -745,7 +747,7 @@
 .	.	.	.	8dd\
 .	.	.	.	8dd\
 .	.	.	.	8dd\J
-!	!	!	!LO:MO:mod=*null:null	!
+!	!	!	!LO:MO:mod=*null	!
 *	*	*	*clefC3	*
 .	.	.	8r	8dd\L
 .	.	.	8g\L	16dd\L
@@ -926,7 +928,7 @@
 =66-	=66-	=66-	=66-	=66-
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 1GG	.	1G	1B	1dd
-!	!	!LO:MO:mod=*null:null	!	!
+!	!	!LO:MO:mod=*null	!	!
 *	*	*clefF4	*	*
 =67-	=67-	=67-	=67-	=67-
 4G\	.	4G\	4B\	4dd\
@@ -973,12 +975,10 @@
 !!LO:MO:ori
 !!!RDF**kern: l = terminal long
 !!LO:MO:end
+!!!filter-modern: shed -k -e "s/[ny]/$1/g; s/#X/#/g" | shed -e "s/^custos:/Xcustos:/I; s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m  | autostem -r | tie -s | shed -e "s/-//B"
 !!!ENC: Andrzej Gręziak
 !!!END: 2022-11-07
-!!!ENC: Andrzej Kubiczek
-!!!END: 2022-11-26
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2022-11-26
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-11-30
-!!!filter-modern: shed -k -e "s/[ny]/$1/g; s/#X/#/g" | shed -e "s/^custos:/Xcustos:/I; s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m  | autostem -r | tie -s | shed -e "s/-//B"
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

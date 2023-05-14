@@ -9,6 +9,8 @@
 !!!OMV: 008
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-564
 !!!SMS-shelfwork: 001-008 M
@@ -25,11 +27,10 @@
 !!!key: D
 !!!OMD:
 !!!OMD-mod: Adagio
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/yy//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *	*	*	*group4	*	*group4	*	*group3	*	*	*group3	*group3	*	*	*group3	*	*	*group2	*group2	*	*group2	*	*group1	*	*group1	*	*group1	*	*group1	*
-*part14	*part14	*part14	*part13	*part13	*part12	*part12	*part11	*part11	*part11	*part10	*part9	*part9	*part9	*part8	*part8	*part8	*part7	*part6	*part6	*part5	*part5	*part4	*	*part3	*part3	*part2	*part2	*part1	*part1
-*staff14	*	*	*staff13	*	*staff12	*	*staff11	*staff11	*	*staff10	*staff9	*staff9	*	*staff8	*staff8	*	*staff7	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part14	*	*	*part13	*	*part12	*	*part11	*	*	*part10	*part9	*	*	*part8	*	*	*part7	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff14	*	*	*staff13	*	*staff12	*	*staff11	*	*	*staff10	*staff9	*	*	*staff8	*	*	*staff7	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Iorgan	*	*	*Ivioln	*	*Ivioln	*	*Ibass	*	*	*Itenor	*Ialto	*	*	*Isoprn	*	*	*Iclrno	*Icor	*	*Icor	*	*Iclars|Ioboe	*	*Iclars|Ioboe	*	*Iflt	*	*Iflt	*
 *ICklav	*	*	*ICstr	*	*ICstr	*	*ICvox	*	*	*ICvox	*	*	*	*ICvox	*	*	*ICbras	*ICbras	*	*ICbras	*	*ICww	*	*ICww	*	*ICww	*	*ICww	*
 *IGcont	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -435,12 +436,11 @@
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(g1)][(g2)][(g3)][(g4)]s14
+!!!RDF**kern: | = vertical stroke
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/yy//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 !!!ENC: Berenika Jozajtis
 !!!END: 2020-09-28
-!!!ENC: Leszek Kubiak
-!!!END: 2022-02-03
-!!!RDF**kern: | = vertical stroke
+!!!EED: Leszek Kubiak
+!!!EEV: 2022-02-03
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-12-06
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

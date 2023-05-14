@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.83.273
 !!!SMS-variant:
@@ -26,9 +28,7 @@
 !!!AIN: 1 piano 1 violn
 !!!key: d
 **kern	**kern	**dynam	**kern	**dynam
-!	!	!	!LO:MO:mod=*null:null	!
-*	*	*	*scale:80%	*
-*part2	*part2	*part2	*part1	*part1
+*part2	*part2	*	*part1	*
 *staff3	*staff2	*	*staff1	*
 *I"PIANO.	*I"PIANO.	*	*I"VIOLON.	*
 *mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*
@@ -39,6 +39,8 @@
 *k[b-]	*k[b-]	*	*k[b-]	*
 *d:	*d:	*	*d:	*
 *M6/8	*M6/8	*	*M6/8	*
+!	!	!	!LO:MO:mod=*null	!
+*	*	*	*scale:80%	*
 =1	=1	=1	=1	=1
 *xywh-#7:158,714,2396,522	*xywh-#7:158,714,2396,522	*	*xywh-#7:94,255,2453,488	*
 !	!	!	!LO:TX:b:i:t=Andante non troppo.:mod=	!
@@ -966,11 +968,9 @@
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-05-15
-!!!ENC: Andrzej Borzym
-!!!END: 2022-07-14
+!!!EED: Andrzej Borzym
+!!!EEV: 2022-07-14
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-21
 !!!ENC-iiif: Olaf Gawdzik
 !!!END-iiif: 2022-09-14
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -7,6 +7,8 @@
 !!!OTL: Sonata
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: S-Uu
 !!!SMS-shelfmark: Instr. mus. i hs. 3:8
 !!!SMS-shelfwork: W
@@ -23,11 +25,10 @@
 !!!key: C
 !!!OMD:
 !!!OMD-mod: Allegro
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 **kern	**fba	**kern	**kern	**kern	**kern	**kern	**kern	**kern
 *group3	*	*group3	*group2	*group2	*group2	*group1	*group1	*group1
-*part8	*part8	*part7	*part6	*part5	*part4	*part3	*part2	*part1
-*staff8	*staff8	*staff7	*staff6	*staff5	*staff4	*staff3	*staff2	*staff1
+*part8	*	*part7	*part6	*part5	*part4	*part3	*part2	*part1
+*staff8	*	*staff7	*staff6	*staff5	*staff4	*staff3	*staff2	*staff1
 *I"[Continuo]	*	*I"Violono .	*I"Viola.	*I"Violino. 2do.	*I"Violino Imo.	*I"Fagotto .	*I"Cornettino. 2do.	*I"Cornettino. Imo
 *mI"Basso continuo	*	*mI"Violone	*mI"Viola	*mI"Violino II	*mI"Violino I	*mI"Fagotto	*mI"Cornetto II	*mI"Cornetto I
 *I'bc	*	*I'vlne	*I'vla	*I'vl 2	*I'vl 1	*I'fag	*I'cnto 2	*I'cnto 1
@@ -1211,12 +1212,11 @@
 *-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(g1)][(g2)]g3
 !!!RDF**kern: < = below
+!!!RDF**kern: @ = marked note, color=grey
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 !!!ENC: Andrzej Borzym
 !!!END: 2022-01-25
-!!!ENC: Urszula Świątek
-!!!END: 2022-01-29
+!!!EED: Urszula Świątek
+!!!EEV: 2022-01-29
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-06
-!!!RDF**kern: @ = marked note, color=grey
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

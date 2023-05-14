@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT: 1588
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-GD
 !!!SMS-shelfmark: Ee 1638
 !!!SMS-shelfwork: 005-003 G
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor 1 vox
 !!!key:
 **kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"QVINTO	*	*I"BASSO	*	*I"TENORE	*	*I"ALTO	*	*I"CANTO	*
 *I'V	*	*I'B	*	*I'T	*	*I'A	*	*I'S	*
 *ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*
@@ -334,12 +336,10 @@
 ==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4,s5)]
+!!!filter-modern: sic -sq | autostem -r | tie -s | humtr -p | shed -e "s/-//B" | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2022-06-28
-!!!ENC: Natalia Wrzos
-!!!END: 2022-07-14
+!!!EED: Natalia Wrzos
+!!!EEV: 2022-07-14
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-08-16
-!!!filter-modern: sic -sq | autostem -r | tie -s | humtr -p | shed -e "s/-//B" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

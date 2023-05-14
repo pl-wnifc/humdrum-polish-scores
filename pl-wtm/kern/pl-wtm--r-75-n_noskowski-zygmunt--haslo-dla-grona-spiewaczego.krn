@@ -7,6 +7,8 @@
 !!!OTL: Hasło dla grona śpiewaczego
 !!!PDT: 1893
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 75/N
 !!!SMS-shelfwork: W
@@ -23,8 +25,8 @@
 !!!AIN: 1 bass 1 tenor
 !!!key: D-
 **kern	**text	**dynam	**kern	**text	**dynam
-*part2	*part2	*part2	*part1	*part1	*part1
-*staff2	*staff2	*	*staff1	*staff1	*
+*part2	*	*	*part1	*	*
+*staff2	*	*	*staff1	*	*
 *I"	*	*	*I"	*	*
 *mI"Bassi	*	*	*mI"Tenori	*	*
 *I'	*	*	*I'	*	*
@@ -150,12 +152,10 @@
 !!LO:MO:end
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/LO:HP:(a|b|rj)/LO:hp:$1/L" | sic -sq | modori -m | autostem -r | humtr -p
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-05-11
-!!!ENC: Andrzej Borzym
-!!!END: 2021-06-11
+!!!EED: Andrzej Borzym
+!!!EEV: 2021-06-11
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-22
-!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/LO:HP:(a|b|rj)/LO:hp:$1/L" | sic -sq | modori -m | autostem -r | humtr -p
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

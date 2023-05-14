@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R313
 !!!SMS-shelfwork: 001-002 G
@@ -26,8 +28,8 @@
 !!!AIN: 2 piano 1 vox
 !!!key: G
 **kern	**kern	**dynam	**kern	**dynam	**text	**mod-text	**text	**mod-text
-*part3	*part2	*part2	*part1	*part1	*part1	*part1	*part1	*part1
-*staff3	*staff2	*	*staff1	*	*staff1	*staff1	*staff1	*staff1
+*part3	*part2	*	*part1	*	*	*	*	*
+*staff3	*staff2	*	*staff1	*	*	*	*	*
 *I"[Fortepian]	*I"[Fortepian]	*	*I"[Głos]	*	*	*	*	*
 *mI"[Pianoforte]	*mI"[Pianoforte]	*	*mI"[Voce]	*	*	*	*	*
 *I'pf	*I'pf	*	*I'V	*	*	*	*	*
@@ -403,9 +405,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L"
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-12-06
-!!!ENC: Marta Chmielewska
-!!!END: 2021-12-20
+!!!EED: Marta Chmielewska
+!!!EEV: 2021-12-20
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-07
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

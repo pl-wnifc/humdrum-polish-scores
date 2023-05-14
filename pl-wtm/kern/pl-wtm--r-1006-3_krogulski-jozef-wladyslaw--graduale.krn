@@ -7,6 +7,8 @@
 !!!OTL: Graduale
 !!!PDT:
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 1006/3
 !!!SMS-shelfwork: W
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: A-
 **kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam
-*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff4	*	*staff3	*staff3	*	*staff2	*staff2	*	*staff1	*staff1	*
+*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Isoprn	*	*
 *I"Basſo	*	*	*I"Tenore	*	*	*I"Alto	*	*	*I"Soprano	*	*
 *I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*
@@ -785,7 +787,7 @@
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | modori -m | humtr -p
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-04
+!!!EED: Mateusz Solarz
+!!!EEV: 2021-05-04
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-07-12
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

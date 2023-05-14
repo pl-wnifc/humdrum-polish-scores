@@ -7,6 +7,8 @@
 !!!OTL: Hymn żałobny
 !!!PDT: 1840
 !!!AGN: Sacred; Hymn
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 998/1
 !!!SMS-shelfwork: W
@@ -24,8 +26,8 @@
 !!!AIN: 2 bass 2 tenor
 !!!key: f
 **kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**dynam
-*part4	*part4	*part4	*part4	*part4	*part3	*part3	*part3	*part3	*part3	*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff4	*staff4	*	*	*staff3	*staff3	*staff3	*	*	*staff2	*staff2	*staff2	*	*	*staff1	*staff1	*
+*part4	*	*	*	*	*part3	*	*	*	*	*part2	*	*	*	*	*part1	*	*
+*staff4	*	*	*	*	*staff3	*	*	*	*	*staff2	*	*	*	*	*staff1	*	*
 *I"[Bass]	*	*	*	*	*I"[Bass]	*	*	*	*	*I"[Tenor]	*	*	*	*	*I"[Tenor]	*	*
 *mI"Basso II	*	*	*	*	*mI"Basso I	*	*	*	*	*mI"Tenore II	*	*	*	*	*mI"Tenore I	*	*
 *Ibass	*	*	*	*	*Ibass	*	*	*	*	*Itenor	*	*	*	*	*Itenor	*	*
@@ -360,9 +362,7 @@
 !!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -X dynam -e "s/:b/:B/LX" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//" | shed -k -e "s/[<>]//g"
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-05-25
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-06-06
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-06-06
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-11
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

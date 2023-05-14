@@ -7,6 +7,8 @@
 !!!OTL: Kancjonał Zamoyskich
 !!!PDT: 1558
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: SD XVI.O.249
 !!!SMS-shelfwork: W
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: d:dor
 **kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
-*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *I"BASSVS.	*	*	*I"TENOR.	*	*	*I"ALTVS.	*	*	*I"DISCANT.	*	*
 *I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*
 *Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Isoprn	*	*
@@ -185,11 +187,9 @@
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r | tie -s | humtr -p | modori -m
 !!!ENC: Katarzyna Serwa
 !!!END: 2022-05-07
-!!!ENC: Mateusz Solarz
-!!!END: 2022-04-25
+!!!EED: Mateusz Solarz
+!!!EEV: 2022-04-25
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-07-23
 !!!ENC-iiif: Emilia Ziętek
 !!!END-iiif: 2022-09-02
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

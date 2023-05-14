@@ -9,6 +9,8 @@
 !!!OMV: 007
 !!!PDT:
 !!!AGN: Sacred; Requiem
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-555
 !!!SMS-shelfwork: 001-007 M
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 2 clars 2 empty 1 fagot 1 tenor 1 vox
 !!!key:
 **kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**kern	**kern	**kern	**kern
-*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part4	*part3	*part2	*part1
-*staff9	*staff9	*staff8	*staff8	*staff7	*staff7	*staff6	*staff6	*staff5	*staff4	*staff3	*staff2	*staff1
+*part9	*	*part8	*	*part7	*	*part6	*	*part5	*part4	*part3	*part2	*part1
+*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*staff4	*staff3	*staff2	*staff1
 *Ibass	*	*Itenor	*	*Ialto	*	*Ivox	*	*Iempty	*Iempty	*Ifagot	*Iclars	*Iclars
 *I"Basso.	*	*I"Tenore.	*	*I"Alto.	*	*I"Canto.	*	*I"Corno in E♭	*I"Corno in E♭	*I"Fagotto	*I"Clarinetto in B♭	*I"Clarinetto in B♭
 *	*	*	*	*	*	*mI"Soprano.	*	*mI"Corno II in Eb	*mI"Corno I in Eb	*	*	*
@@ -309,12 +311,10 @@
 !!!RDF**kern: N = linked
 !!!RDF**kern: i = editorial accidental
 !!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | autostem -r | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2020-09-19
 !!!EED: Wojciech Jakubiak-Danek
 !!!EEV: 2022-01-31
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-12-08
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | autostem -r | modori -m |
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

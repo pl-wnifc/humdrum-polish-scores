@@ -7,6 +7,8 @@
 !!!OTL: Cahier op. 9
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R261
 !!!SMS-shelfwork: W
@@ -22,10 +24,9 @@
 !!!OMD: Allegro vivace
 !!!AIN: 1 piano
 !!!key: G
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r |  modori -m
 **kern	**fing	**kern	**fing	**dynam
-*part1	*part1	*part1	*part1	*part1
-*staff2	*staff2	*staff1	*staff1	*
+*part1	*	*part1	*	*
+*staff2	*	*staff1	*	*
 *I"[Pianoforte]	*	*I"[Pianoforte]	*	*
 *I'	*	*I'	*	*
 *mI"Pianoforte	*	*mI"Pianoforte	*	*
@@ -997,11 +998,10 @@
 !!LO:MO:ori
 !!!RDF**dynam: pp = "pp."
 !!LO:MO:end
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r |  modori -m
 !!!ENC: Filip Voros
 !!!END: 2021-11-07
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-11-13
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-11-13
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

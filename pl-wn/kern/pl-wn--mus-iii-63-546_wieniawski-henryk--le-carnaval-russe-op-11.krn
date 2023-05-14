@@ -7,6 +7,8 @@
 !!!OTL: Le Carnaval Russe op. 11
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.63.546
 !!!SMS-shelfwork: W
@@ -22,9 +24,7 @@
 !!!AIN: 1 piano 1 violn
 !!!key: G
 **kern	**kern	**dynam	**kern	**dynam
-!	!	!	!LO:MO:mod=*	!
-*	*	*	*scale:70%	*
-*part2	*part2	*part2	*part1	*part1
+*part2	*part2	*	*part1	*
 *staff3	*staff2	*	*staff1	*
 *I"PIANO.	*I"PIANO.	*	*I"VIOLON.	*
 *mI"Fortepiano	*mI"Fortepiano	*	*mI"Violino	*
@@ -37,8 +37,10 @@
 *k[f#]	*k[f#]	*	*k[f#]	*
 *G:	*G:	*	*G:	*
 *M2/4	*M2/4	*	*M2/4	*
-*xywh-3:68,296,2560,997	*xywh-3:68,296,2560,997	*	*xywh-3:68,296,2560,997	*
+!	!	!	!LO:MO:mod=*null	!
+*	*	*	*scale:70%	*
 =1	=1	=1	=1	=1
+*xywh-3:68,296,2560,997	*xywh-3:68,296,2560,997	*	*xywh-3:68,296,2560,997	*
 !!LO:TX:a:B:t=:mod=Allegro. \nTema.
 !	!	!	!LO:TX:a:B:t=Allegro.:mod=	!
 !	!	!	!LO:TX:a:B:t=Tema.:mod=	!
@@ -751,8 +753,7 @@
 .	.	.	[	(16d/JJ	[[
 !!LO:LB:g=original
 =64	=64	=64	=64	=64	=64
-*xywh-5:100,2675,2501,914	*xywh-5:100,2675,2501,914	*xywh-5:100,2675,2501,914	*xywh-5:100,2675,2501,914	*	*
-*	*	*	*	*xywh-5:100,2675,2501,914	*
+*xywh-5:100,2675,2501,914	*xywh-5:100,2675,2501,914	*xywh-5:100,2675,2501,914	*xywh-5:100,2675,2501,914	*xywh-5:100,2675,2501,914	*
 8G\	4dd/)	8b 8g^<\	.	16dd^/LL)	.
 .	.	.	.	(16d/	<
 8r	.	8r	.	16b/)	.
@@ -2770,7 +2771,6 @@
 64DDD/	.	64B\	.	.	.
 64DD/JJJJ	.	64d\JJJJ	.	.	.
 !!LO:LB:g=original
-*	*	*xywh-12:243,245,2457,886	*	*	*
 *xywh-12:243,1112,2438,861	*xywh-12:243,1112,2438,861	*xywh-12:243,1112,2438,861	*xywh-12:243,1112,2438,861	*xywh-12:243,1112,2438,861	*
 =209	=209	=209	=209	=209	=209
 *	*	*tremolo	*	*	*
@@ -3278,14 +3278,12 @@
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: autostem -r | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m 
+!!!filter-modern: autostem -r | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-16
-!!!ENC: Marta Lawrence
-!!!END: 2022-05-26
+!!!EED: Marta Lawrence
+!!!EEV: 2022-05-26
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-20
 !!!ENC-iiif: Konrad Tyszka
 !!!END-iiif: 2022-08-25
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

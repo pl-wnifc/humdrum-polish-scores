@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT: 1669
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.7
 !!!SMS-shelfwork: 036-001 M
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: d:dor
 **kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
-*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *I"BASSVS.	*	*	*I"TENOR.	*	*	*I"ALTVS.	*	*	*I"CANTVS.	*	*
 *mI"Basso	*	*	*mI"Soprano	*	*	*mI"Tenore	*	*	*mI"Alto	*	*
 *I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*
@@ -634,16 +636,14 @@
 0ryy	.	.	0dl	-ſon	-ſon.	0Dl;	-ſon.	-ſon.	0dl;	-ſon	-son.
 *	*	*	*	*	*	*	*	*	*	*Xij	*Xij
 !LO:PB:g=original	!	!	!LO:LB:g=original	!	!	!LO:LB:g=original	!	!	!LO:LB:g=original	!	!
-*	*	*	*	*	*	*	*	*	*xywh-#27:7203,3112,6462,872	*	*
-*	*	*	*xywh-#188:7123,3653,6131,993	*	*	*	*	*	*	*	*
+*	*	*	*xywh-#188:7123,3653,6131,993	*	*	*	*	*	*xywh-#27:7203,3112,6462,872	*	*
 =54||	=54||	=54||	=54||	=54||	=54||	=54||	=54||	=54||	=54||	=54||	=54||
 *M2/1	*	*	*M2/1	*	*	*M2/1	*	*	*M2/1	*	*
 *met(C|)	*	*	*met(C|)	*	*	*met(C|)	*	*	*met(C|)	*	*
 *mmet(c|)	*	*	*mmet(c|)	*	*	*mmet(c|)	*	*	*mmet(c|)	*	*
 !	!	!	!	!	!	!LO:TX:t=à 4.:mod=	!	!	!	!	!
 !LO:TX:a:t=de F. Ecce adſum. Vltimum.:mod=	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
-*	*	*	*	*	*	*xywh-#114:870,3161,6346,770	*	*	*	*	*
-*xywh-#281:7383,481,5321,987	*	*	*	*	*	*	*	*	*	*	*
+*xywh-#281:7383,481,5321,987	*	*	*	*	*	*xywh-#114:870,3161,6346,770	*	*	*	*	*
 2.D/	Ky-	Ky-	00r	.	.	1r	.	.	00r	.	.
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!	!	!	!	!
 4D/	-ri-	-ri-	.	.	.	.	.	.	.	.	.
@@ -1012,11 +1012,9 @@
 !!!filter-modern: extract -k 1,3,4,2 | shed -e "s/,//gk" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^custos:/Xcustos:/I" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B" | shed -e "s/yy//"
 !!!ENC: Marta Lawrence
 !!!END: 2021-03-11
-!!!ENC: Kamil Watkowski
-!!!END: 2021-02-27
+!!!EED: Kamil Watkowski
+!!!EEV: 2021-02-27
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-15
 !!!ENC-iiif: Konrad Tyszka
 !!!END-iiif: 2022-09-01
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

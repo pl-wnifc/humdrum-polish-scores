@@ -6,6 +6,8 @@
 !!!CNT: Polish
 !!!OTL: Patrem na Rotuły Wikaryjskie
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.2
 !!!SMS-shelfwork: 049 W
@@ -21,8 +23,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key:
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"BASVS	*	*I"TENOR	*	*I"ALTVS	*	*I"DISCANTVS	*
 *mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
@@ -1063,8 +1065,7 @@
 *M3/1	*	*M3/1	*	*M3/1	*	*M3/1	*
 !LO:MO:mod=*null:null	!	!	!	!LO:MO:mod=*null:null	!	!LO:MO:mod=*null:null	!
 *met(O|)	*	*	*	*met(O|)	*	*met(O|)	*
-*	*	*	*	*	*	*xywh-pl-kk--i-2--0085:2007,3643,5898,1038	*
-*xywh-pl-kk--i-2--0389:1569,2957,6008,1144	*	*	*	*	*	*	*
+*xywh-pl-kk--i-2--0389:1569,2957,6008,1144	*	*	*	*	*	*xywh-pl-kk--i-2--0085:2007,3643,5898,1038	*
 0F	Qui	0F	Qui	0A	Qui	0c	Qui
 !	!	!LO:SIC:v:t=custos A	!	!	!LO:MO:null:mod=cum	!	!
 1E	cum	1G	cum	1c	.	1e	cum
@@ -1136,8 +1137,7 @@
 =130-	=130-	=130-	=130-	=130-	=130-	=130-	=130-
 !LO:SIC:v:t=custos D	!	!	!	!	!	!LO:SIC:v:t=custos d	!
 0.FF	-tur	0.A	-tur	0.F	-tur	0.c	-tur
-*	*	*	*	*	*	*xywh-pl-kk--i-2--0085:8064,560,6334,995	*
-*xywh-pl-kk--i-2--0389:1615,3812,6027,1134	*	*	*	*	*	*	*
+*xywh-pl-kk--i-2--0389:1615,3812,6027,1134	*	*	*	*	*	*xywh-pl-kk--i-2--0085:8064,560,6334,995	*
 !LO:LB:g=original	!	!	!	!	!	!LO:PB:g=original	!
 =131-	=131-	=131-	=131-	=131-	=131-	=131-	=131-
 0D	qui	0F	qui	0A	qui	0d	qui
@@ -1445,11 +1445,9 @@
 !!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/[<>]//g"
 !!!ENC: Arkadiusz Malec
 !!!END: 2022-05-05
-!!!ENC: Andrzej Borzym
-!!!END: 2022-05-11
+!!!EED: Andrzej Borzym
+!!!EEV: 2022-05-11
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-07
 !!!ENC-iiif: Marta Opryszak
 !!!END-iiif: 2022-08-26
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

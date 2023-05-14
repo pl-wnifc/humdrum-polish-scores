@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT: 1839
 !!!AGN: Sacred; Vespers
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-116
 !!!SMS-shelfwork: 001-005 M
@@ -25,8 +27,8 @@
 !!!key: D
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *	*	*	*group3	*	*group3	*	*group2	*	*group2	*	*group2	*	*group2	*	*	*	*group1	*	*group1	*	*group1	*
-*part11	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*	*part1	*part1
-*staff11	*	*	*staff10	*	*staff9	*	*staff8	*staff8	*staff7	*staff7	*staff6	*staff6	*staff5	*staff5	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part11	*	*	*part10	*	*part9	*	*part8	*	*part7	*	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff11	*	*	*staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Organ	*	*	*I"Violino 2do	*	*I"Violino 1mo	*	*I"Baſso	*	*I"Tenor	*	*I"Alto.	*	*I"Cant	*	*I"Tympan	*	*I"Clarino Principalo. Ex D.	*	*I"Corno. 2do ex D.	*	*I"Corno Obligato 1mo ex D	*
 *mI"Organo	*	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*	*mI"Timpani	*	*mI"Clarino in D	*	*mI"Corno II in D	*	*mI"Corno I in D	*
 *I'org	*	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*I'T	*	*I'A	*	*I'S	*	*I'timp	*	*I'clno princ	*	*I'cor 2 in D	*	*I'cor 1 in D	*
@@ -2658,9 +2660,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m | tie -s | humtr -p | autostem -r | shed -e "s/yy//" | shed -e "s/-//B" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | rid -lid
 !!!ENC: Andrzej Borzym
 !!!END: 2020-07-19
-!!!ENC: Andrzej Kubiczek
-!!!END: 2022-01-15
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2022-01-15
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-06-23
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

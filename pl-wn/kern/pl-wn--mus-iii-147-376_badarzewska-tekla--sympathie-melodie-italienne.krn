@@ -7,6 +7,8 @@
 !!!OTL: Sympathie – mélodie italienne
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.147.376
 !!!SMS-shelfwork: W
@@ -23,7 +25,7 @@
 !!!AIN: 2 piano
 !!!key: E-
 **kern	**fing	**kern	**fing	**dynam
-*part2	*	*part1	*	*part1
+*part2	*	*part1	*	*
 *staff2	*	*staff1	*	*
 *I"PIANO.	*	*I"PIANO.	*	*
 *I"Pianoforte	*	*I"Pianoforte	*	*
@@ -1077,11 +1079,9 @@ N([4BBB-\	.	4r	.	.
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | rid -lid
 !!!ENC: Arkadiusz Malec
 !!!END: 2022-04-11
-!!!ENC: Katarzyna Serwa
-!!!END: 2022-05-04
+!!!EED: Katarzyna Serwa
+!!!EEV: 2022-05-04
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-08-07
 !!!ENC-iiif: Marta Opryszak
 !!!END-iiif: 2022-08-22
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

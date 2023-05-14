@@ -9,6 +9,8 @@
 !!!OMV: 007
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-560
 !!!SMS-shelfwork: 001-007 M
@@ -27,8 +29,8 @@
 !!!OMD-mod: Allegro
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern
 *	*	*group4	*	*group4	*	*group4	*	*group3	*	*	*group3	*	*	*group3	*	*	*group3	*	*	*group2	*	*group2	*	*group1	*	*group1	*	*group1
-*part13	*part13	*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part9	*part8	*part8	*part8	*part7	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*	*part1
-*staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*staff9	*	*staff8	*staff8	*	*staff7	*staff7	*	*staff6	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1
+*part13	*	*part12	*	*part11	*	*part10	*	*part9	*	*	*part8	*	*	*part7	*	*	*part6	*	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1
+*staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*	*staff8	*	*	*staff7	*	*	*staff6	*	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1
 *I"Organo.	*	*I"Alto Viola Obligat	*	*I"Violino Secundo	*	*I"Violino Primo.	*	*I"Baſſo.	*	*	*I"Tenore.	*	*	*I"Alto.	*	*	*I"Canto.	*	*	*I"Corno 2do in D#	*	*I"Corno 1mo in D#	*	*I"Oboe Secondo	*	*I"Oboe Primo	*	*I"Flauto Traverso
 *mI"Organo	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*	*mI"Corno II in D	*	*mI"Corno I in D	*	*mI"Oboe II	*	*mI"Oboe I	*	*mI"Flauto
 *I'org	*	*I'vla	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'cor 2 in D#	*	*I'cor 1 in D#	*	*I'ob 2	*	*I'ob 1	*	*I'fl
@@ -1154,9 +1156,7 @@
 !!!filter-modern: sic -sq | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/:t=P:/:T=P:/L" | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | humtr -p | modori -m
 !!!ENC: Andrzej Borzym
 !!!END: 2020-09-25
-!!!ENC: Kamil Watkowski
-!!!END: 2022-02-09
+!!!EED: Kamil Watkowski
+!!!EEV: 2022-02-09
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-07-07
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

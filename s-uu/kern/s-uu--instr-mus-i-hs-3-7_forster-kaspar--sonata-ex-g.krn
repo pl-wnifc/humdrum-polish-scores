@@ -7,6 +7,8 @@
 !!!OTL: Sonata ex G
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: S-Uu
 !!!SMS-shelfmark: Instr. mus. i hs. 3:7
 !!!SMS-shelfwork: W
@@ -24,7 +26,7 @@
 !!!OMD-mod: Adagio
 !!!key: G
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part4	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*part4	*	*	*part3	*	*part2	*	*part1	*
 *staff4	*	*	*staff3	*	*staff2	*	*staff1	*
 *I"Continuo	*	*	*I"Viola da Gamba	*	*I"Violino. 2 do	*	*I"Violino. 1	*
 *mI"Basso continuo	*	*	*mI"Viola da gamba	*	*mI"Violino II	*	*mI"Violino I	*
@@ -2047,12 +2049,10 @@
 !!LO:MO:ori
 !!!RDF**kern: l = terminal long
 !!LO:MO:end
+!!!filter-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:N:/LO:n:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r | tie -s | shed -e "s/-//B"
 !!!ENC: Andrzej Borzym
 !!!END: 2022-01-26
-!!!ENC: Leszek Kubiak
-!!!END: 2022-01-31
+!!!EED: Leszek Kubiak
+!!!EEV: 2022-01-31
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-11-21
-!!!filter-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:N:/LO:n:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r | tie -s | shed -e "s/-//B"
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

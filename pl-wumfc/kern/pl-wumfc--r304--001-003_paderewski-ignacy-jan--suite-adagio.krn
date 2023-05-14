@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R304
 !!!SMS-shelfwork: 001-003 M
@@ -25,9 +27,8 @@
 !!!OMD-mod: Adagio
 !!!AIN: 1 cbass 1 cello 1 viola 2 violn
 !!!key: G
-!!!filter-modern: sic -sq | shed -e "s/yy//" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | | autostem -r | modori -m
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
 *staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Contrabbasso	*	*I"Violoncello	*	*I"Viola	*	*I"Violino II	*	*I"Violino I	*
 *I'cb	*	*I'vlc	*	*I'vla	*	*I'vl 2	*	*I'vl 1	*
@@ -413,11 +414,10 @@
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
 !!!RDF**kern: N = linked
+!!!filter-modern: sic -sq | shed -e "s/yy//" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | | autostem -r | modori -m
 !!!ENC: Marta Opryszak
 !!!END: 2021-12-03
-!!!ENC: Marta Chmielewska
-!!!END: 2021-12-17
+!!!EED: Marta Chmielewska
+!!!EEV: 2021-12-17
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

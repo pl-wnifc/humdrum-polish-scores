@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT: 1880
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wnifc
 !!!SMS-shelfmark: 2374/n
 !!!SMS-shelfwork: 001-005 G
@@ -23,12 +25,11 @@
 !!!ONB-nifc:
 !!!AIN: 2 piano 1 soprn
 !!!key: E
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | tie -s  | modori -m | humtr -p
 !!!OMD:
 !!!OMD-mod: Mit Feuer [quarter] = 100
 **kern	**kern	**dynam	**kern	**text	**dynam
-*part3	*part2	*part2	*part1	*part1	*part1
-*staff3	*staff2	*	*staff1	*staff1	*
+*part3	*part2	*	*part1	*	*
+*staff3	*staff2	*	*staff1	*	*
 *I"Pianoforte.	*I"Pianoforte.	*	*I"Singstimme.	*	*
 *I'pf	*I'pf	*	*I'V	*	*
 *ICklav	*ICklav	*	*ICvox	*	*
@@ -617,11 +618,10 @@
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | tie -s  | modori -m | humtr -p
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-07-23
-!!!ENC: Jan Barakat
-!!!END: 2022-08-18
+!!!EED: Jan Barakat
+!!!EEV: 2022-08-18
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-27
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

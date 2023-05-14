@@ -9,6 +9,8 @@
 !!!OMV: 007
 !!!PDT: 1899
 !!!AGN: Secular; Song
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 90/N
 !!!SMS-shelfwork: 001-007 G
@@ -23,10 +25,9 @@
 !!!ONB-nifc: UWAGA: w zbiorze 10 krótkich pieśni
 !!!AIN: 1 piano
 !!!key: B-
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | tie -s  | modori -m
 **kern	**kern	**text
-*part1	*part1	*part1
-*staff2	*staff1	*staff1
+*part1	*part1	*
+*staff2	*staff1	*
 *Ipiano	*Iempty	*
 *I"[Piano]	*	*
 *mI"Pianoforte	*	*
@@ -137,11 +138,10 @@
 !!LO:MO:ori
 !!!RDF**kern: @ = marked note, color=grey
 !!LO:MO:end
-!!!EED: Antoni Szymański
-!!!EEV: 2021-06-05
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | tie -s  | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-11
+!!!EED: Antoni Szymański
+!!!EEV: 2021-06-05
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-22
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

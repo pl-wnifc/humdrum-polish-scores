@@ -7,6 +7,8 @@
 !!!OTL: Mazure
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.128.848 Cim.
 !!!SMS-shelfwork: W
@@ -21,7 +23,7 @@
 !!!IIIF: https://polona2.pl/iiif/item/ODExMjU1MzU/manifest.json
 !!!ONB-nifc:
 **kern	**kern	**fing	**dynam
-*part1	*part1	*part1	*part1
+*part1	*part1	*	*
 *staff2	*staff1	*	*
 *Ipiano	*Iempty	*	*
 *I"Piano	*	*	*
@@ -578,11 +580,9 @@
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D" | rid -lid
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-02-07
-!!!ENC: Leszek Kubiak
-!!!END: 2022-02-21
+!!!EED: Leszek Kubiak
+!!!EEV: 2022-02-21
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-07-29
 !!!ENC-iiif: Marta Opryszak
 !!!END-iiif: 2022-08-21
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

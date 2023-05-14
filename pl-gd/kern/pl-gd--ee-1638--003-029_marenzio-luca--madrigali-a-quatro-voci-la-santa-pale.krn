@@ -9,6 +9,8 @@
 !!!OMV: 029
 !!!PDT: 1587
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-GD
 !!!SMS-shelfmark: Ee 1638
 !!!SMS-shelfwork: 003-029 G
@@ -23,10 +25,9 @@
 !!!ONB-nifc: UWAGA: zbiór na stronach: Canto: s. 637-653, Alto: s. do 486-501, Tenore: s. do 334-349, Bassus: s. do 182-197. Uwaga: utwory podzielone wg tytułów w spisach treści dostępnych na końcu każdej księgi głosowej.
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: F
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r | tie -s  | humtr -p | modori -m
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"BASSO	*	*I"TENORE	*	*I"ALTO	*	*I"CANTO	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
 *mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*
@@ -502,13 +503,12 @@
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(*)]
 !!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r | tie -s  | humtr -p | modori -m
 !!!ENC: Marta Opryszak
 !!!END: 2022-06-28
-!!!ENC: Jan Barakat
-!!!END: 2022-07-15
+!!!EED: Jan Barakat
+!!!EEV: 2022-07-15
 !!!ENC-iiif: Zuzanna Daniec
 !!!END-iiif: 2022-09-30
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-05
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

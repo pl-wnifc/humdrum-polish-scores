@@ -3,12 +3,14 @@
 !!!COM: Janiewicz, Feliks
 !!!COM-rismID: pe30011012
 !!!CDT: 1762-1848
-!!!CNT:
+!!!CNT: Polish
 !!!OPR: IIIe Trio
 !!!OTL: Allegro
 !!!OMV: 001
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.601
 !!!SMS-shelfwork: 003-001 M
@@ -26,7 +28,7 @@
 !!!OMD-mod: Allegro
 !!!key: E
 **kern	**dynam	**kern	**dynam	**kern	**fing	**dynam
-*part3	*part3	*part2	*part2	*part1	*part1	*part1
+*part3	*	*part2	*	*part1	*	*
 *staff3	*	*staff2	*	*staff1	*	*
 *>[A,A,B]	*	*>[A,A,B]	*	*>[A,A,B]	*	*
 *>A	*	*>A	*	*>A	*	*
@@ -2202,14 +2204,12 @@
 !!LO:MO:ori
 !!!RDF**dynam: f = F
 !!LO:MO:end
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -X dynam -e "s/:a/:A/LX" | sic -sq | modori -m | autostem -r | tie -s
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-23
-!!!ENC: Urszula Świątek
-!!!END: 2022-06-30
+!!!EED: Urszula Świątek
+!!!EEV: 2022-06-30
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-19
-!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -X dynam -e "s/:a/:A/LX" | sic -sq | modori -m | autostem -r | tie -s
 !!!ENC-iiif: Konrad Tyszka
 !!!END-iiif: 2022-09-04
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

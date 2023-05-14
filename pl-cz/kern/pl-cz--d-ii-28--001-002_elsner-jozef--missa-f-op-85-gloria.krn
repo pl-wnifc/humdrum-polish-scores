@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT: 1847
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: D II-28
 !!!SMS-shelfwork: 001-002 M
@@ -23,8 +25,8 @@
 !!!key:
 **kern	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam
 *	*	*	*	*	*	*group1	*	*	*group1	*	*
-*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff5	*staff4	*	*staff3	*staff3	*	*staff2	*staff2	*	*staff1	*staff1	*
+*part4	*part4	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff5	*staff4	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *Iorgan	*Iempty	*	*Ibass	*	*	*Iempty	*	*	*Iempty	*	*
 *I"Organo	*	*	*I"Basso	*	*	*I""Tenori	*	*	*I""Tenori	*	*
 *	*	*	*	*	*	*mI"Tenore II	*	*	*mI"Tenore I	*	*
@@ -770,10 +772,8 @@
 !!!system-decoration: [(s1,s2,s3)],{(s4,s5)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Andrzej Kubiczek
 !!!END: 2020-02-29
-!!!ENC: Marta Lawrence
-!!!END: 2020-04-02
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Marta Lawrence
+!!!EEV: 2020-04-02

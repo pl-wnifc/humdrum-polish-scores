@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT:
 !!!AGN: Sacred; Requiem
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-555
 !!!SMS-shelfwork: 001-004 M
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 2 clars 1 cor 2 empty 1 tenor 1 vox
 !!!key:
 **kern	**text	**mod-text	**dynam	**kern	**text	**dynam	**mod-dynam	**kern	**text	**dyanm	**mod-dynam	**kern	**text	**dynam	**mod-dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**mod-dynam	**dynam	**kern	**dynam	**kern
-*part9	*part9	*part8	*part9	*part8	*part8	*part8	*part8	*part7	*part7	*part7	*part7	*part6	*part6	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part3	*part3	*part2	*part2	*part1
-*staff9	*staff9	*staff8	*	*staff8	*staff8	*	*	*staff7	*staff7	*	*	*staff6	*staff6	*	*	*staff5	*	*staff4	*	*staff3	*	*	*	*staff2	*	*staff1
+*part9	*	*	*	*part8	*	*	*	*part7	*	*part7	*	*part6	*	*	*	*part5	*	*part4	*	*part3	*	*	*	*part2	*	*part1
+*staff9	*	*	*	*staff8	*	*	*	*staff7	*	*	*	*staff6	*	*	*	*staff5	*	*staff4	*	*staff3	*	*	*	*staff2	*	*staff1
 *Ibass	*	*	*	*Itenor	*	*	*	*Ialto	*	*	*	*Ivox	*	*	*	*Icor	*	*Iempty	*	*Iempty	*	*	*	*Iclars	*	*Iclars
 *I"Basso.	*	*	*	*I"Tenore.	*	*	*	*I"Alto	*	*	*	*I"Canto	*	*	*	*I"Corno 2do in Dis	*	*I"Corno 1mo in dis	*	*I"Fagotto vel Violone	*	*	*	*I"Clarinetto 2do in B	*	*I"Clarinetto 1mo in B
 *mI"Basso	*	*	*	*mI"Tenore	*	*	*	*	*	*	*	*mI"Soprano	*	*	*	*mI"Corno II in Eb	*	*mI"Corno I in Eb	*	*mI"Fagoto vel Violone	*	*	*	*mI"Clarinetto II in Bb	*	*mI"Clarinetto I in Bb
@@ -641,12 +643,10 @@
 !!!RDF**kern: N = linked
 !!!RDF**kern: i = editorial accidental
 !!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | tie -si | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2020-09-19
 !!!EED: Wojciech Jakubiak-Danek
 !!!EEV: 2022-01-31
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-11-29
-!!!filter-modern: sic -sq | tie -si | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

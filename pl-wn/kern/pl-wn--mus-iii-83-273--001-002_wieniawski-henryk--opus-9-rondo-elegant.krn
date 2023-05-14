@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.83.273
 !!!SMS-shelfwork: 001-002 G
@@ -25,8 +27,7 @@
 !!!OMD: Rondo Elégant. \nAllegro giojoso.
 !!!key:
 **kern	**kern	**dynam	**kern	**dynam
-*	*	*	*scale:70%	*
-*part3	*part2	*part2	*part1	*part1
+*part3	*part2	*	*part1	*
 *staff3	*staff2	*	*staff1	*
 *Ipiano	*Ipiano	*	*Ivioln	*
 *I"PIANO.	*I"PIANO.	*	*I"VIOLON.	*
@@ -39,9 +40,10 @@
 *k[b-]	*k[b-]	*	*k[b-]	*
 *d:	*d:	*	*d:	*
 *M2/4	*M2/4	*	*M2/4	*
+*	*	*	*scale:70%	*
 !	!	!LO:DY:b	!	!
 16r	(>>16a/	mp	16r	.
-!LO:MO:mod=*null:null	!	!	!	!
+!LO:MO:mod=*null	!	!	!	!
 *clefF4	*	*	*	*
 =1	=1	=1	=1	=1
 *	*^	*	*	*
@@ -2433,12 +2435,10 @@
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-05-17
-!!!ENC: Marta Lawrence
-!!!END: 2022-12-01
+!!!EED: Marta Lawrence
+!!!EEV: 2022-12-01
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-12-06
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

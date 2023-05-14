@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-SA
 !!!SMS-shelfmark: 173/A V 3
 !!!SMS-shelfwork: 005-005 M
@@ -23,8 +25,8 @@
 !!!key: A
 **kern	**fba	**dynam	**kern	**kern	**dynam	**kern	**kern	**text	**kern	**kern
 *	*	*	*group3	*group3	*	*group2	*group2	*	*group1	*group1
-*part7	*part7	*part7	*part6	*part5	*part5	*part4	*part3	*part3	*part2	*part1
-*staff7	*	*	*staff6	*staff5	*	*staff4	*staff3	*staff3	*staff2	*staff1
+*part7	*	*	*part6	*part5	*	*part4	*part3	*	*part2	*part1
+*staff7	*	*	*staff6	*staff5	*	*staff4	*staff3	*	*staff2	*staff1
 *Iempty	*	*	*Ivioln	*Ivioln	*	*Iempty	*Ivox	*	*Iempty	*Iempty
 *I"Fundamento	*	*	*I"Violino. 2do.	*I"Violino 1mo.	*	*I"Baſso	*I"Canto	*	*I"Clarino 2do. ex D.	*I"Clarino. 1mo. Ex. D.
 *I'org	*	*	*I'vl 2	*I'vl 1	*	*I'B	*I'S	*	*I'clno 2	*I'clno 1
@@ -852,12 +854,10 @@
 !!!RDF**dynam: p = pia.
 !!!RDF**dynam: f = for.
 !!LO:MO:end
-!!!filter-modern: sic -sq | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/yy//" | modori -m | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | humtr -p
 !!!EED: Antoni Szymański
 !!!EEV: 2020-10-02
+!!!filter-modern: sic -sq | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/yy//" | modori -m | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | humtr -p
 !!!ENC: Tomasz Grochalski
 !!!END: 2020-04-17
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-07-01
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

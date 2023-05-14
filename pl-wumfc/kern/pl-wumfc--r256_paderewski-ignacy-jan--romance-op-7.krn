@@ -7,6 +7,8 @@
 !!!OTL: Romance op. 7
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R256
 !!!SMS-shelfwork: W
@@ -24,7 +26,7 @@
 !!!OMD: Andantino Cantabile.
 !!!OMD-mod: Andantino cantabile
 **kern	**kern	**dynam	**kern	**dynam
-*part3	*part2	*part2	*part1	*part1
+*part3	*part2	*	*part1	*
 *staff3	*staff2	*	*staff1	*
 *I"[Piano]	*I"[Piano]	*	*I"[Violino]	*
 *mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*
@@ -1323,12 +1325,10 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: N = linked
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/:TUP:/:tup:/L" | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-11-12
-!!!ENC: Marta Lawrence
-!!!END: 2021-11-14
+!!!EED: Marta Lawrence
+!!!EEV: 2021-11-14
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-09-13
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/:TUP:/:tup:/L" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

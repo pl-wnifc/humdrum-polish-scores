@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.1
 !!!SMS-shelfwork: 012-003 M
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 2 soprn 1 tenor
 !!!key: d:dor
 **kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern
-*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1
-*staff5	*staff5	*staff5	*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1
+*part5	*	*	*part4	*	*	*part3	*	*	*part2	*	*	*part1
+*staff5	*	*	*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1
 *I"BASSVS	*	*	*I"TENOR	*	*	*I"ALTVS	*	*	*I"CANTVS	*	*	*I"[QVINTVS]
 *mI"Basso	*	*	*mI"Tenore II	*	*	*mI"Tenore I	*	*	*mI"Alto	*	*	*
 *I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'[5]
@@ -601,8 +603,7 @@
 2E\	dex-	dex-	1c\	-ra(m)	-ram	2e\	-det	-det	2r	.	.	0ryy
 *	*	*	*	*	*	*custos:e	*	*	*	*	*	*
 2C/	-te-	-te-	.	.	.	2e\	ad	ad	2e\	ſe-	ſe-	.
-*	*	*	*	*	*	*	*	*	*xywh-#70:1684,640,4015,803	*	*	*
-*	*	*	*	*	*	*xywh-#262:5918,1397,4300,835	*	*	*	*	*	*
+*	*	*	*	*	*	*xywh-#262:5918,1397,4300,835	*	*	*xywh-#70:1684,640,4015,803	*	*	*
 !	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!
 1E\	-ra(m)	-ram	2.B\	pa-	Pa-	1e\	dex-	dex-	2g\	-det	-det	.
 .	.	.	.	.	.	.	.	.	2g\	ad	ad	.
@@ -988,11 +989,9 @@
 !!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I"
 !!!ENC: Mateusz Solarz
 !!!END: 2022-02-14
-!!!ENC: Leszek Kubiak
-!!!END: 2022-02-23
+!!!EED: Leszek Kubiak
+!!!EEV: 2022-02-23
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-17
 !!!ENC-iiif: Elżbieta Cabała
 !!!END-iiif: 2022-08-31
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

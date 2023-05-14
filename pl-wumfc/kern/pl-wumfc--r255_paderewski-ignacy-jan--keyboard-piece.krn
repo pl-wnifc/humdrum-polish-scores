@@ -7,6 +7,8 @@
 !!!OTL: [Keyboard piece]
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R255
 !!!SMS-shelfwork: W
@@ -22,10 +24,9 @@
 !!!OMD: Allegro con fuoco
 !!!AIN: 2 piano
 !!!key: F
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m |
 **kern	**kern	**dynam
 *group1	*group1	*
-*part2	*part1	*part1
+*part2	*part1	*
 *staff2	*staff1	*
 *I"[Piano]	*I"[Piano]	*
 *I'	*I'	*
@@ -2100,18 +2101,17 @@
 ==	==	==
 *-	*-	*-
 !!!system-decoration: {(g1)}
-!!!ENC: Filip Voros
-!!!END: 2021-11-10
-!!!EED: Jędrzej Mróz
-!!!ESR: 2021-11-12
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!RDF**kern: N = linked
+!!!RDF**kern: | = vertical stroke
 !!LO:MO:ori
 !!!RDF**dynam: < = "cres", fontstyle="italic"
 !!LO:MO:end
-!!!RDF**kern: N = linked
-!!!RDF**kern: | = vertical stroke
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m
+!!!ENC: Filip Voros
+!!!END: 2021-11-10
+!!!EED: Jędrzej Mróz
+!!!EEV: 2021-11-12
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-31
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT: 1836
 !!!AGN: Sacred; Vespers
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 996/1
 !!!SMS-shelfwork: 001-005 M
@@ -26,8 +28,8 @@
 !!!key:
 **kern	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam
 *group2	*group2	*	*group1	*	*	*group1	*	*	*group1	*	*	*group1	*	*
-*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff6	*staff5	*	*staff4	*staff4	*	*staff3	*staff3	*	*staff2	*staff2	*	*staff1	*staff1	*
+*part5	*part5	*	*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff6	*staff5	*	*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *Iorgan	*Iorgan	*	*Ibass	*	*	*Itenor	*	*	*Isoprn&Ialto	*	*	*Isoprn	*	*
 *I"Organo.	*I"Organo.	*	*I"Basſo.	*	*	*I"Tenori.	*	*	*I"Soprano 2. vel Alto.	*	*	*I"Soprano 1o	*	*
 *mI"Organo	*mI"Organo	*	*mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*
@@ -478,9 +480,7 @@
 !!!filter-modern: sic -sq | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/:t=P:/:T=P:/L" | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-24
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-06-08
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-06-08
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-07-11
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

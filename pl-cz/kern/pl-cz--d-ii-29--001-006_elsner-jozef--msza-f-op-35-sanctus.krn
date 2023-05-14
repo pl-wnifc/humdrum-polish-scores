@@ -9,6 +9,8 @@
 !!!OMV: 006
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: D II-29
 !!!SMS-shelfwork: 001-006 M
@@ -24,8 +26,8 @@
 !!!OMD-mod: Andante
 !!!key: F
 **kern	**kern	**kern	**text	**mod-text	**text	**mod-text	**text	**mod-text	**text	**mod-text	**kern	**text	**mod-text	**text	**mod-text	**text	**mod-text	**text	**mod-text	**kern	**text	**mod-text	**text	**mod-text	**text	**mod-text	**text	**mod-text	**kern	**text	**mod-text	**text	**mod-text	**text	**mod-text	**text	**mod-text
-*part5	*part5	*part4	*part4	*part4	*part4	*part4	*part4	*part4	*part4	*part4	*part3	*part3	*part3	*part3	*part3	*part3	*part3	*part3	*part3	*part2	*part2	*part2	*part2	*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1	*part1	*part1	*part1	*part1	*part1
-*staff6	*staff5	*staff4	*staff4	*staff4	*staff4	*staff4	*staff4	*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff3	*staff3	*staff3	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff2	*staff2	*staff2	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1	*staff1	*staff1	*staff1	*staff1	*staff1	*staff1
+*part5	*part5	*part4	*	*	*	*	*	*	*	*	*part3	*	*	*	*	*	*	*	*	*part2	*	*	*	*	*	*	*	*	*part1	*	*	*	*	*	*	*	*
+*staff6	*staff5	*staff4	*	*	*	*	*	*	*	*	*staff3	*	*	*	*	*	*	*	*	*staff2	*	*	*	*	*	*	*	*	*staff1	*	*	*	*	*	*	*	*
 *I"ORGANO	*I"ORGANO	*I"BASSO	*	*	*	*	*	*	*	*	*I"TENOR	*	*	*	*	*	*	*	*	*I"ALTO	*	*	*	*	*	*	*	*	*I"CANTO	*	*	*	*	*	*	*	*
 *mI"Organo	*mI"Organo	*mI"Basso	*	*	*	*	*	*	*	*	*mI"Tenore	*	*	*	*	*	*	*	*	*mI"Alto	*	*	*	*	*	*	*	*	*mI"Soprano	*	*	*	*	*	*	*	*
 *I'org	*I'org	*I'B	*	*	*	*	*	*	*	*	*I'T	*	*	*	*	*	*	*	*	*I'A	*	*	*	*	*	*	*	*	*I'S	*	*	*	*	*	*	*	*
@@ -159,12 +161,10 @@
 !!!system-decoration: [vox]{(klav)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: shed -e "s/LO:N:/LO:n:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r | shed -e "s/yy//
 !!!ENC: Andrzej Borzym
 !!!END: 2020-03-02
-!!!ENC: Marta Lawrence
-!!!END: 2020-04-02
+!!!EED: Marta Lawrence
+!!!EEV: 2020-04-02
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-12-04
-!!!filter-modern: shed -e "s/LO:N:/LO:n:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r | shed -e "s/yy//
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

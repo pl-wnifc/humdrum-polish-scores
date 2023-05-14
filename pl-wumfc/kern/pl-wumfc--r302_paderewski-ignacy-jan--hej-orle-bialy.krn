@@ -7,6 +7,8 @@
 !!!OTL: Hej orle Biały
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R302
 !!!SMS-shelfwork: W
@@ -21,11 +23,10 @@
 !!!ONB-nifc:
 !!!AIN: 2 clars 2 cor 2 fagot 1 flt 2 oboe 1 picco 1 sdrum 1 timpa 2 tromp 1 tromt 1 tuba 1 violn 2 vox
 !!!key:
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/yy//" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/[<>]//g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | humtr -p | extract -k 3,1-2,4-$
 **kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**dynam	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern
 *group4	*	*	*	*	*group4	*	*	*	*group3	*	*group3	*	*group2	*	*group2	*	*group2	*	*group2	*	*group2	*	*group2	*	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1
-*part19	*part19	*part19	*part19	*part19	*part18	*part18	*part18	*part17	*part16	*part16	*part15	*part15	*part14	*part14	*part13	*part13	*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part7	*part6	*part5	*part4	*part3	*part2	*part1
-*staff19	*staff19	*staff19	*	*	*staff18	*staff18	*	*staff17	*staff16	*	*staff15	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff7	*staff6	*staff5	*staff4	*staff3	*staff2	*staff1
+*part19	*	*	*	*	*part18	*	*	*part17	*part16	*	*part15	*	*part14	*	*part13	*	*part12	*	*part11	*	*part10	*	*part9	*	*part8	*part7	*part6	*part5	*part4	*part3	*part2	*part1
+*staff19	*	*	*	*	*staff18	*	*	*staff17	*staff16	*	*staff15	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff7	*staff6	*staff5	*staff4	*staff3	*staff2	*staff1
 *I"Basso	*	*	*	*	*I"Voce	*	*	*I"Violino I	*I"Werbel	*	*I"Kotły	*	*I"Tuba	*	*I"3 Puz	*	*I"Tromba in C	*	*I"4 Tręby	*	*I"Corno in F	*	*I"4 walt.	*	*I"I	*I"Fag	*I"Clarinetto in B♭	*I"Cl.b	*I"Oboe	*I"Ob.	*I"Flauto	*I"Picc.
 *I'B	*	*	*	*	*I'S	*	*	*I'	*I'werb	*	*I'kot	*	*I'tb	*	*I'trb	*	*I'tr 2	*	*I'tr	*	*I'cor 2	*	*I'cor	*	*I'fag 2	*I'fag	*I'cl in B 2	*I'cl in B	*I'ob 2	*I'ob	*I'fl	*I'fl.picc
 *Ivox	*	*	*	*	*Ivox	*	*	*Ivioln	*Isdrum	*	*Itimpa	*	*Ituba	*	*Itromt	*	*Itromp	*	*Itromp	*	*Icor	*	*Icor	*	*Ifagot	*Ifagot	*Iclars	*Iclars	*Ioboe	*Ioboe	*Iflt	*Ipicco
@@ -650,19 +651,18 @@
 *	*	*	*	*	*v	*v	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
+!!!RDF**kern: > = above
+!!!RDF**kern: < = below
 !!LO:MO:ori
 !!!system-decoration: [(s1,s2)][(s3,s4)][(s5,s6)][(s7,s8)][(s9,s10)][(s11,s12)][(s13,s14)]s15,s16,s17[(s18,s19)]
 !!LO:MO:end
 !!LO:MO:mod
 !! !!!system-decoration: [(g1)][(g2)][(g3)][(g4)],s17
 !!LO:MO:end
-!!!RDF**kern: > = above
-!!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/yy//" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/[<>]//g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | humtr -p | extract -k 3,1-2,4-$
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-11-14
-!!!ENC: Leszek Kubiak
-!!!END: 2021-11-17
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-11-17
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

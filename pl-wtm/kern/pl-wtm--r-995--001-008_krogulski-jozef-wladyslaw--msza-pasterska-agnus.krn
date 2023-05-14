@@ -9,6 +9,8 @@
 !!!OMV: 008
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 995
 !!!SMS-shelfwork: 001-008 M
@@ -24,8 +26,8 @@
 !!!AIN: 1 bass 1 organ 3 soprn 2 tenor
 !!!key:
 **kern	**kern	**dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**dynam	**kern	**mod-text	**text	**dynam	**mod-dynam	**kern	**text	**dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**dynam
-*part7	*part7	*part7	*part6	*	*	*part6	*part6	*part5	*part5	*part5	*part4	*	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*	*part2	*part2	*part1	*part1	*part1
-*staff8	*staff7	*	*staff6	*	*	*	*	*staff5	*staff5	*	*staff4	*	*staff4	*	*	*staff3	*staff3	*	*staff2	*staff2	*	*	*	*staff1	*staff1	*
+*part7	*part7	*	*part6	*	*	*	*	*part5	*	*	*part4	*	*	*	*	*part3	*	*	*part2	*	*	*	*	*part1	*	*
+*staff8	*staff7	*	*staff6	*	*	*	*	*staff5	*	*	*staff4	*	*	*	*	*staff3	*	*	*staff2	*	*	*	*	*staff1	*	*
 *Iorgan	*Iorgan	*	*Ibass	*	*	*	*	*Itenor	*	*	*Isoprn	*	*	*	*	*Isoprn	*	*	*Itenor	*	*	*	*	*Isoprn	*	*
 *I"Organ	*I"Organ	*	*I"Baſso Coro.	*	*	*	*	*I"Tenori Coro.	*	*	*I"Soprano 2. Coro.	*	*	*	*	*I"Soprano 1. Coro.	*	*	*I"Solo Tenor	*	*	*	*	*I"Solo Sopra	*	*
 *mI"Organo	*mI"Organo	*	*mI"Basso	*	*	*	*	*mI"Tenore	*	*	*mI"Soprano II	*	*	*	*	*mI"Soprano I	*	*	*mI"Tenore solo	*	*	*	*	*mI"Soprano solo	*	*
@@ -1414,12 +1416,10 @@
 !!LO:MO:mod
 !! !!!system-decoration: [s1],[s2],[(s3,s4,s5,s6)],[(s7,s8)]
 !!LO:MO:end
-!!!filter-modern: autostem -r | humtr -p | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
 !!!EED: Antoni Szymański
 !!!EEV: 2021-06-10
+!!!filter-modern: autostem -r | humtr -p | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
 !!!ENC: Marcin Jachim
 !!!END: 2021-05-17
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-18
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

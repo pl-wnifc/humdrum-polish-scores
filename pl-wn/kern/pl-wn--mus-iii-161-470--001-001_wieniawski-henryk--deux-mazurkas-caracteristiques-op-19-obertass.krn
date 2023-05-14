@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.161.470
 !!!SMS-shelfwork: 001-001 G
@@ -24,9 +26,7 @@
 !!!AIN: 1 piano 1 violn
 !!!key: G
 **kern	**kern	**dynam	**kern	**fing	**dynam
-!	!	!	!LO:MO:mod=*null:null	!	!
-*	*	*	*scale:80%	*	*
-*part2	*part2	*part2	*part1	*part1	*part1
+*part2	*part2	*	*part1	*	*
 *staff3	*staff2	*	*staff1	*	*
 *I"Piano.	*I"Piano.	*	*I"Violon.	*	*
 *mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*	*
@@ -37,6 +37,8 @@
 *k[f#]	*k[f#]	*	*k[f#]	*	*
 *G:	*G:	*	*G:	*	*
 *M3/4	*M3/4	*	*M3/4	*	*
+!	!	!	!LO:MO:mod=*null	!	!
+*	*	*	*scale:80%	*	*
 =1	=1	=1	=1	=1	=1
 *xywh-#2:588,1869,3439,726	*xywh-#2:588,1869,3439,726	*	*xywh-#2:592,418,3442,1458	*	*
 *	*	*	*Xtuplet	*	*
@@ -874,11 +876,9 @@
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/^(X?)tuplet$/$1TUPLET/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | tie -s
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-10
-!!!ENC: Marta Lawrence
-!!!END: 2022-05-20
+!!!EED: Marta Lawrence
+!!!EEV: 2022-05-20
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-20
 !!!ENC-iiif: Mateusz Mrugas
 !!!END-iiif: 2022-08-31
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

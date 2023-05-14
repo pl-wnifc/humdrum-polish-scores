@@ -2,13 +2,15 @@
 !!!cenid: 16xx:1787
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
-!!!CDT:
-!!!CNT:
+!!!CDT: 1590-1648
+!!!CNT: Polish
 !!!GTL: Canzoni e Concerti
 !!!OTL: 14. Nova Casa
 !!!OMV: 014
 !!!PDT: 1627
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-B
 !!!SMS-shelfmark: Slg Bohn Ms.mus. 111
 !!!SMS-shelfwork: 001-014 G
@@ -23,10 +25,9 @@
 !!!ONB-nifc: UWAGA: Prima vox: s. 27, Seconda vox: s. 87, Bassus sive Vox Tertia: s. 126, Basso continuo: s. 174. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 2 empty 1 soprn 1 vox
 !!!key: G:mix
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/-X/-/g" | shed -k -e "s/#X/#/g" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 **kern	**fba	**kern	**kern	**kern
-*part4	*	*part3	*part2	*part1
 *group2	*	*group1	*group1	*group1
+*part4	*	*part3	*part2	*part1
 *staff4	*	*staff3	*staff2	*staff1
 *Iempty	*	*Iempty	*Isoprn	*Ivox
 *I"Baſso Continúo.	*	*I"Tertia Vox.	*I"Soprani.	*I"Canto
@@ -853,11 +854,10 @@
 !!!RDF**kern: < = below
 !!!RDF**kern: i = editorial accidental
 !!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/-X/-/g" | shed -k -e "s/#X/#/g" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 !!!ENC: Filip Voros
 !!!END: 2022-11-04
-!!!ENC: Katarzyna Serwa
-!!!END: 2022-11-17
+!!!EED: Katarzyna Serwa
+!!!EEV: 2022-11-17
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

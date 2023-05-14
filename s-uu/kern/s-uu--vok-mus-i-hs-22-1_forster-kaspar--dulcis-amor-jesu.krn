@@ -7,6 +7,8 @@
 !!!OTL: Dulcis amor Jesu
 !!!PDT: 1665
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: S-Uu
 !!!SMS-shelfmark: Vok. mus. i hs. 22:1
 !!!SMS-shelfwork: W
@@ -23,11 +25,10 @@
 !!!key: g
 !!!OMD:
 !!!OMD-mod: Allegro
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/-X/-/g" | shed -k -e "s/#X/#/g" | shed -k -e "s/nX//g" | shed -ke "s/\[y(?!y)/[/g" | shed -e "s/yy//" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**fba	**kern	**dynam	**kern	**kern	**text	**mod-text	**kern	**text	**mod-text
-*part5	*	*part4	*part4	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*group3	*	*group2	*	*group2	*group1	*group1	*group1	*group1	*group1	*group1
-*staff5	*	*staff4	*	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*group3	*	*group2	*	*group2	*group1	*	*	*group1	*	*
+*part5	*	*part4	*	*part3	*part2	*	*	*part1	*	*
+*staff5	*	*staff4	*	*staff3	*staff2	*	*	*staff1	*	*
 *I"Baſſo Continuo.	*	*I"Violino 2do.	*	*I"Violino 1mo.	*I"Canto 2do	*	*	*I"Canto 1mo.	*	*
 *mI"Basso continuo	*	*mI"Violino II	*	*mI"Violino I	*mI"Soprano II	*	*	*mI"Soprano I	*	*
 *I'bc	*	*I'vl 2	*	*I'vl 1	*I'S 2	*	*	*I'S 1	*	*
@@ -1820,14 +1821,13 @@
 ==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(g1)][(g2)]g3
-!!!RDF**kern: l = terminal long
-!!!ENC: Katarzyna Serwa
-!!!END: 2022-02-18
-!!!ENC: Berenika Jozajtis
-!!!END: 2022-01-28
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/-X/-/g" | shed -k -e "s/#X/#/g" | shed -k -e "s/nX//g" | shed -ke "s/\[y(?!y)/[/g" | shed -e "s/yy//" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
+!!!ENC: Katarzyna Serwa
+!!!END: 2022-02-18
+!!!EED: Berenika Jozajtis
+!!!EEV: 2022-01-28
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-10
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

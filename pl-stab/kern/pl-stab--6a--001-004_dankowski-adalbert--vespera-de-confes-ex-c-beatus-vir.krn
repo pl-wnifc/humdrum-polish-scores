@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT:
 !!!AGN: Sacred; Vespers
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-STAb
 !!!SMS-shelfmark: 6a
 !!!SMS-shelfwork: 001-004 M
@@ -27,8 +29,8 @@
 !!!key: D
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**text	**dynam	**kern	**kern
 *	*	*	*group3	*	*group3	*	*group2	*	*	*group2	*	*	*group2	*	*	*group2	*	*	*	*group1	*group1
-*part9	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part3	*part2	*part1
-*staff9	*	*	*staff8	*	*staff7	*	*staff6	*staff6	*	*staff5	*staff5	*	*staff4	*staff4	*	*staff3	*staff3	*staff3	*	*staff2	*staff1
+*part9	*	*	*part8	*	*part7	*	*part6	*	*	*part5	*	*	*part4	*	*	*part3	*	*	*	*part2	*part1
+*staff9	*	*	*staff8	*	*staff7	*	*staff6	*	*	*staff5	*	*	*staff4	*	*	*staff3	*	*	*	*staff2	*staff1
 *I"Organo	*	*	*I"Violino Secundo	*	*I"Violino Primo	*	*I"Baſso	*	*	*I"Tenore	*	*	*I"Alto	*	*	*I"Canto	*	*	*	*I"Clarino Secundo in C	*I"Clarino Primo in C
 *	*	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*	*	*	*	*	*	*mI"Soprano	*	*	*	*mI"Clarino II in C	*mI"Clarino I in C
 *I'org	*	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*	*I'clno 2 in C	*I'clno 1 in C
@@ -829,9 +831,7 @@
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -X dynam -e "s/:a/:A/LX" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-29
-!!!ENC: Leszek Kubiak
-!!!END: 2021-12-13
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-12-13
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

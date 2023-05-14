@@ -7,6 +7,8 @@
 !!!OTL: Caprice sur la Romance de Joconde
 !!!PDT:
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-KOZmzk
 !!!SMS-shelfmark: mzk/m/124
 !!!SMS-shelfwork: W
@@ -22,7 +24,7 @@
 !!!AIN: 1 piano
 !!!key: E
 **kern	**kern	**dynam
-*part1	*part1	*part1
+*part1	*part1	*
 *staff2	*staff1	*
 *Ipiano	*Ipiano	*
 *ICklav	*ICklav	*
@@ -2390,12 +2392,10 @@
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
-!!!ENC-modern: Katarzyna Serwa
-!!!END-modern: 2022-09-14
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | modori -m
 !!!ENC: Marta Chmielewska
 !!!END: 2021-08-10
-!!!ENC: Anastazja Marusiak
-!!!END: 2021-07-27
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Anastazja Marusiak
+!!!EEV: 2021-07-27
+!!!ENC-modern: Katarzyna Serwa
+!!!END-modern: 2022-09-14

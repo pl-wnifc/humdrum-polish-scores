@@ -7,6 +7,8 @@
 !!!OTL: Gigue
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.63.545
 !!!SMS-shelfwork: 001 W
@@ -22,6 +24,8 @@
 !!!AIN: 1 violn
 !!!key: e
 **kern	**fing	**dynam
+*part1	*	*
+*staff1	*	*
 *I"Violon.	*	*
 *mI"Violino	*	*
 *Ivioln	*	*
@@ -1010,17 +1014,15 @@
 4r	.	.
 ==	==	==
 *-	*-	*-
-!!!ENC: Mateusz Solarz
-!!!END: 2022-05-12
+!!!filter-modern: autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**dynam: < = cresc.
-!!!filter-modern: autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
+!!!ENC: Mateusz Solarz
+!!!END: 2022-05-12
 !!!EED: Andrzej Borzym
 !!!EEV: 2022-05-22
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-20
 !!!ENC-iiif: Konrad Tyszka
 !!!END-iiif: 2022-08-24
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

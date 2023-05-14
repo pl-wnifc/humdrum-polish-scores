@@ -7,6 +7,8 @@
 !!!OTL: Légende op. 17
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.67.811
 !!!SMS-shelfwork: W
@@ -22,7 +24,7 @@
 !!!AIN: 1 piano
 !!!key: g
 **kern	**kern	**dynam
-*part1	*part1	*part1
+*part1	*part1	*
 *staff2	*staff1	*
 *I"Piano.	*I"Piano.	*
 *mI"Pianoforte	*mI"Pianoforte	*
@@ -35,8 +37,8 @@
 *g:	*g:	*
 *M3/4	*M3/4	*
 =1	=1	=1
+*xywh-#2:506,504,2323,847	*xywh-#2:506,504,2323,847	*
 *^	*	*
-*xywh-#2:506,504,2323,847	*xywh-#2:506,504,2323,847	*xywh-#2:506,504,2323,847	*
 !	!	!LO:TX:a:B:t=Andante.	!
 !	!	!LO:MO:mod=!LO&colon;TX&colon;t=H. WIENIAWSKI. Op. 17.	!
 !	!	!null	!
@@ -2210,12 +2212,10 @@
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: sic -sq | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e “s/([()[]_])[><]/$1/g” | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m |
+!!!filter-modern: sic -sq | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e “s/([()[]_])[><]/$1/g” | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-13
 !!!EED: Andrzej Borzym
 !!!EEV: 2022-05-22
 !!!ENC-iiif: Jolanta Bujas-Poniatowska
 !!!END-iiif: 2022-08-31
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -2,13 +2,15 @@
 !!!cenid: 16xx:1788
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
-!!!CDT:
-!!!CNT:
+!!!CDT: 1590-1648
+!!!CNT: Polish
 !!!GTL: Canzoni e Concerti
 !!!OTL: 15. Küstrinella
 !!!OMV: 015
 !!!PDT: 1627
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-B
 !!!SMS-shelfmark: Slg Bohn Ms.mus. 111
 !!!SMS-shelfwork: 001-015 G
@@ -23,7 +25,6 @@
 !!!ONB-nifc: UWAGA: Prima vox: s. 27, Seconda vox: s. 87, Bassus sive Vox Tertia: s. 126, Basso continuo: s. 174. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 2 empty 1 tenor 1 vox
 !!!key: G
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" | shed -k -e "s/-X/-/g" | shed -k -e "s/n//g" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r 
 **kern	**kern	**kern	**kern
 *	*group1	*group1	*group1
 *part4	*part3	*part2	*part1
@@ -79,7 +80,7 @@
 =5-	=5-	=5-	=5-
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 4e\	4e\	4g\	1g
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefF4	*
 4G/	8d\L	4G\	.
 .	8c\	.	.
@@ -114,7 +115,7 @@
 =8-	=8-	=8-	=8-
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 1D	4A/	4D/	4ff#X\
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefC4	*
 .	4B\	4d\	2gg\
 .	2A/	4d\	.
@@ -148,7 +149,7 @@
 .	.	.	8ff\
 .	.	.	8gg\
 .	.	.	8ee\J
-!LO:MO:mod=*null:null	!	!	!
+!LO:MO:mod=*null	!	!	!
 *clefF4	*	*	*
 =12-	=12-	=12-	=12-
 2D/	4r	4A/	4ff#X\
@@ -534,7 +535,7 @@
 .	.	.	16cc/JJ
 .	.	.	8.dd\L
 .	.	.	16cc\Jk
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*clefF4	*clefC4	*custos:b
 !	!	!	!LO:LB:g=original
 =48-	=48-	=48-	=48-
@@ -895,12 +896,11 @@
 *-	*-	*-	*-
 !!!system-decoration: [(g1)]s4
 !!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" | shed -k -e "s/-X/-/g" | shed -k -e "s/n//g" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 !!!ENC: Andrzej Gręziak
 !!!END: 2022-11-04
-!!!ENC: Jan Barakat
-!!!END: 2022-11-16
+!!!EED: Jan Barakat
+!!!EEV: 2022-11-16
 !!!EST: revision finished 2022-11-29
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

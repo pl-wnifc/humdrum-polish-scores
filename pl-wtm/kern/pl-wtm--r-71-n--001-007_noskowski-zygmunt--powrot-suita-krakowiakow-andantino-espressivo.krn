@@ -9,6 +9,8 @@
 !!!OMV: 007
 !!!PDT: 1894
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 71/N
 !!!SMS-shelfwork: 001-007 M
@@ -26,9 +28,9 @@
 !!!OMD-mod: Andantino espressivo
 !!!key: D-
 **kern	**kern	**dynam	**kern	**kern	**dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam
-*part6	*part6	*part6	*part5	*part5	*part5	*part4	*	*	*part4	*part4	*part3	*	*	*part3	*part3	*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1	*part1
-*staff8	*staff7	*	*staff6	*staff5	*	*staff4	*	*	*	*	*staff3	*	*	*	*	*staff2	*staff2	*staff2	*	*	*staff1	*staff1	*staff1	*	*
-*group	*group	*group	*group	*group	*group	*group1	*	*	*group1	*group1	*group1	*	*	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group	*group	*group	*group	*group
+*group	*group	*group	*group	*group	*group	*group1	*	*	*	*	*group1	*	*	*	*	*group1	*	*	*	*	*group	*group	*group	*group	*group
+*part6	*part6	*	*part5	*part5	*	*part4	*	*	*	*	*part3	*	*	*	*	*part2	*	*	*	*	*part1	*	*	*	*
+*staff8	*staff7	*	*staff6	*staff5	*	*staff4	*	*	*	*	*staff3	*	*	*	*	*staff2	*	*	*	*	*staff1	*	*	*	*
 *Ipiano	*Ipiano	*	*Ipiano	*Ipiano	*	*Ibass	*	*	*	*	*Itenor	*	*	*	*	*Isoprn&Ialto	*	*	*	*	*Isoprn&Itenor	*	*	*	*
 *ICklav	*ICklav	*	*ICklav	*ICklav	*	*ICvox	*	*	*	*	*ICvox	*	*	*	*	*ICvox	*	*	*	*	*	*ICvox	*ICvox	*	*
 *I"[Pianoforte 2do]	*I"[Pianoforte 2do]	*	*I"[Pianoforte Imo]	*I"[Pianoforte Imo]	*	*I"Chór B	*	*	*	*	*I"Chór T	*	*	*	*	*I"Chór S. A	*	*	*	*	*I"Tenor Solo	*	*	*	*
@@ -458,12 +460,10 @@
 !!LO:MO:end
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/:TUP:/:tup:/L" | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2021-05-11
-!!!ENC: Antoni Szymański
-!!!END: 2021-05-30
+!!!EED: Antoni Szymański
+!!!EEV: 2021-05-30
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-08-23
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/:TUP:/:tup:/L" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

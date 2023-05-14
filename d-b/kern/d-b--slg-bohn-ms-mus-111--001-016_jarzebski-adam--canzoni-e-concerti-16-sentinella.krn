@@ -2,13 +2,15 @@
 !!!cenid: 16xx:1789
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
-!!!CDT:
-!!!CNT:
+!!!CDT: 1590-1648
+!!!CNT: Polish
 !!!GTL: Canzoni e Concerti
 !!!OTL: 16. Sentinella
 !!!OMV: 016
 !!!PDT: 1627
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-B
 !!!SMS-shelfmark: Slg Bohn Ms.mus. 111
 !!!SMS-shelfwork: 001-016 G
@@ -23,7 +25,6 @@
 !!!ONB-nifc: UWAGA: Prima vox: s. 28-29, Seconda vox: s. 88-89, Bassus sive Vox Tertia: s. 126-127, Basso continuo: s. 175. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 2 soprn 1 vox
 !!!key: a
-!!!filter-modern: sic -sq | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" | shed -k -e "s/-X/-/g" | shed -k -e "s/n//g" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 **kern	**kern	**kern	**kern
 *part4	*part3	*part2	*part1
 *staff4	*staff3	*staff2	*staff1
@@ -137,7 +138,7 @@
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 !	!	!	!LO:TX:a:t=P:problem:# above
 .	.	8aa\J	8ff#X\J
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefG1	*
 =11-	=11-	=11-	=11-
 !	!	!	!LO:TX:t=P:problem:mixed beam
@@ -214,7 +215,7 @@
 !	!LO:TX:t=P:problem:kreska pseudotaktowa	!	!
 !	!LO:TX:a:t=P:problem:# above	!	!
 .	8ff#X\J	.	.
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefG2	*
 =14-	=14-	=14-	=14-
 !LO:TX:t=P:problem:kreska pseudotaktowa	!LO:SIC:v:s=8.gg#L	!	!
@@ -1255,7 +1256,7 @@
 .	.	8dd\	8ff\
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	8ee\J	8gg\J
-!LO:MO:mod=*null:null	!	!	!
+!LO:MO:mod=*null	!	!	!
 *clefC4	*	*	*
 *custos:d	*	*	*
 !LO:LB:g=original	!	!	!
@@ -1310,7 +1311,7 @@
 4D/	8.dd\L	4d/	8.ff\L
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	16cc#\Jk	.	16ee\Jk
-!LO:MO:mod=*null:null	!LO:MO:mod=*null:null	!	!
+!LO:MO:mod=*null	!LO:MO:mod=*null	!	!
 *clefF4	*clefC3	*	*
 =94-	=94-	=94-	=94-
 4G\	8g\L	8b-/L	8dd\L
@@ -1347,7 +1348,7 @@
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 !LO:TX:t=P:problem:kreska pseudotaktowa	!LO:TX:t=P:problem:kreska pseudotaktowa	!LO:TX:t=P:problem:kreska pseudotaktowa	!LO:N:acc=#
 4GG/	4G/	4gg\	4bn/
-!	!LO:MO:mod=*null:null	!	!
+!	!LO:MO:mod=*null	!	!
 *	*clefG2	*	*
 =96-	=96-	=96-	=96-
 4C/	8ee\L	8cc\L	8gg\L
@@ -1379,7 +1380,7 @@
 4C/	4cc\	4c/	8.ee\L
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	.	16dd\Jk
-!	!LO:MO:mod=*null:null	!	!
+!	!LO:MO:mod=*null	!	!
 *	*clefC3	*	*
 =98-	=98-	=98-	=98-
 4F\	8f\L	8aa\L	16cc\LL
@@ -1428,7 +1429,7 @@
 0AA	1a	1aa	2a/
 .	.	.	4r
 .	.	.	4a/
-!	!LO:MO:mod=*null:null	!	!
+!	!LO:MO:mod=*null	!	!
 *	*clefG2	*	*custos:cc
 !	!	!	!LO:LB:g=original
 =101-	=101-	=101-	=101-
@@ -1549,12 +1550,11 @@
 *-	*-	*-	*-
 !!!system-decoration: s1,s2,s3,s4
 !!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" | shed -k -e "s/-X/-/g" | shed -k -e "s/n//g" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 !!!ENC: Filip Voros
 !!!END: 2022-11-05
-!!!ENC: Jan Barakat
-!!!END: 2022-11-16
+!!!EED: Jan Barakat
+!!!EEV: 2022-11-16
 !!!EST: revision finished 2022-11-29
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-12-06
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

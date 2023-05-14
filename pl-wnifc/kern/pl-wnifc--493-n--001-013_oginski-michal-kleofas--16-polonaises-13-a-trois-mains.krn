@@ -9,6 +9,8 @@
 !!!OMV: 013
 !!!PDT: 1864
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wnifc
 !!!SMS-shelfmark: 493/n
 !!!SMS-shelfwork: 001-013 G
@@ -26,7 +28,7 @@
 !!!OMD:
 !!!OMD-mod: Moderato
 **kern	**kern	**dynam	**kern	**dynam
-*part3	*part2	*part2	*part1	*part1
+*part3	*part2	*	*part1	*
 *staff3	*staff2	*	*staff1	*
 *I"Piano.	*I"Piano.	*	*I"[Piano.]	*
 *mI"Pianoforte	*mI"Pianoforte	*	*mI"[Pianoforte]	*
@@ -746,9 +748,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/[<>]//g"
 !!!ENC: Filip Voros
 !!!END: 2022-07-25
-!!!ENC: Urszula Świątek
-!!!END: 2022-08-22
+!!!EED: Urszula Świątek
+!!!EEV: 2022-08-22
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-13
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

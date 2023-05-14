@@ -9,6 +9,8 @@
 !!!OMV: 008
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-845
 !!!SMS-shelfwork: 001-008 M
@@ -27,8 +29,8 @@
 !!!key: C
 **kern	**kern	**fing	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *group5	*group5	*	*	*group4	*	*group4	*	*group4	*	*group4	*	*group3	*	*	*	*	*group3	*	*	*	*	*group3	*	*	*	*	*group3	*	*	*	*	*group2	*	*group1	*	*group1	*	*group1	*	*group1	*
-*part14	*part14	*	*part14	*part13	*part13	*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part9	*part9	*part9	*part8	*part8	*part8	*part8	*part8	*part7	*part7	*part7	*part7	*part7	*part6	*part6	*part6	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff15	*staff14	*staff14	*	*staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*staff9	*staff9	*	*	*staff8	*staff8	*staff8	*	*	*staff7	*staff7	*staff7	*	*	*staff6	*staff6	*staff6	*	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part14	*part14	*	*	*part13	*	*part12	*	*part11	*	*part10	*	*part9	*	*	*	*	*part8	*	*	*	*	*part7	*	*	*	*	*part6	*	*	*	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff15	*staff14	*	*	*staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*	*	*	*staff8	*	*	*	*	*staff7	*	*	*	*	*staff6	*	*	*	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Organo.	*	*	*	*I"Violone.	*	*I"Violoncello	*	*I"Viola 2do	*	*I"Viola 1mo	*	*I"Baſso. Solo e Tutti	*	*	*	*	*I"Tenore. solo e Tutti	*	*	*	*	*I"Alto.	*	*	*	*	*I"Soprano.	*	*	*	*	*I"Tympano. D. A.	*	*I"Trompeto 2do in D.	*	*I"Trompeto 1mo in D.	*	*I"Corno 2do in D.	*	*I"Cornu 1mo. in D.	*
 *mI"Organo	*	*	*	*mI"Violone	*	*mI"Violoncelli	*	*mI"Viole II	*	*mI"Viole I	*	*mI"Bassi	*	*	*	*	*mI"Tenori	*	*	*	*	*mI"Alti	*	*	*	*	*mI"Soprani	*	*	*	*	*mI"Timpani	*	*mI"Tromba II in D	*	*mI"Tromba I in D	*	*mI"Corno II in D	*	*mI"Cornu I in D	*
 *I'org	*	*	*	*I'vlne	*	*I'vlc	*	*I'vla II	*	*I'vla I	*	*I'B	*	*	*	*	*I'T	*	*	*	*	*I'A	*	*	*	*	*I'S	*	*	*	*	*I'timp	*	*I'tr II in D	*	*I'tr I in D	*	*I'cor II in D	*	*I'cor I in D	*
@@ -924,12 +926,10 @@
 !!!system-decoration: [(g1)][(g2)][(g3)][(g4)]{(g5)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
 !!!ENC: Marcin Jachim
 !!!END: 2020-11-06
-!!!ENC: Jędrzej Mróz
-!!!END: 2022-01-28
+!!!EED: Jędrzej Mróz
+!!!EEV: 2022-01-28
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-12-10
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -7,6 +7,8 @@
 !!!OTL: Hej bracia czy śpicie
 !!!PDT: 1864
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-STAb
 !!!SMS-shelfmark: 24c
 !!!SMS-shelfwork: W
@@ -23,6 +25,7 @@
 !!!AIN: 1 violn 1 vox
 !!!key: G
 **kern	**text	**mod-text
+*staff1	*	*
 *I"Spiew oraz SKrzypce	*	*
 *mI"Violino and Voce	*	*
 *Ivox&Ivioln	*	*
@@ -798,9 +801,7 @@
 !!!filter-modern: tie -s | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Filip Voros
 !!!END: 2021-11-16
-!!!ENC: Marta Chmielewska
-!!!END: 2021-11-30
+!!!EED: Marta Chmielewska
+!!!EEV: 2021-11-30
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-08-23
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

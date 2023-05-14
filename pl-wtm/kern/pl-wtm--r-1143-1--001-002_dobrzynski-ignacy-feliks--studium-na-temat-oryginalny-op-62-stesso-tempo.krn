@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT: 1867
 !!!AGN: Secular; Variations
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 1143/1
 !!!SMS-shelfwork: 001-002 M
@@ -24,7 +26,7 @@
 !!!AIN: 1 cello 1 viola 2 violn
 !!!key:
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*part4	*	*part3	*	*part2	*	*part1	*
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Icello	*	*Iviola	*	*Ivioln	*	*Ivioln	*
 *I"Violoncello	*	*I"Viola.	*	*I"Violino 2do	*	*I"Violino 1o.	*
@@ -272,11 +274,9 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!filter-modern: | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/yy//" | modori -m
-!!!ENC-modern: Leszek Kubiak
-!!!END-modern: 2022-07-28
-!!!EED: Antoni Szymański
-!!!EEV: 2021-04-12
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-04-06
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Antoni Szymański
+!!!EEV: 2021-04-12
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-28

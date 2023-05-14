@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT: 1836
 !!!AGN: Sacred; Vespers
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 996/1
 !!!SMS-shelfwork: 001-004 M
@@ -25,8 +27,8 @@
 !!!AIN: 1 empty 1 organ 2 soprn 1 tenor
 !!!key:
 **kern	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**text	**dynam	**kern	**text	**dynam
-*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part2	*part1	*part1	*part1
-*staff6	*staff5	*	*staff4	*staff4	*	*staff3	*staff3	*	*staff2	*staff2	*staff2	*	*staff1	*staff1	*
+*part5	*part5	*	*part4	*	*	*part3	*	*	*part2	*	*	*	*part1	*	*
+*staff6	*staff5	*	*staff4	*	*	*staff3	*	*	*staff2	*	*	*	*staff1	*	*
 *Iorgan	*Iorgan	*	*Iempty	*	*	*Itenor	*	*	*Isoprn	*	*	*	*Isoprn	*	*
 *I"Organo.	*I"Organo.	*	*I"Basſo	*	*	*I"Tenori	*	*	*I"Soprano 2 vel Alto.	*	*	*	*I"Soprano	*	*
 *mI"Organo	*mI"Orano	*	*mI"Basso	*	*	*mI"Tenore	*	*	*mI"Soprano II vel Alto	*	*	*	*	*	*
@@ -591,9 +593,7 @@
 !!!filter-modern: sic -sq | autostem -r | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" "  shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
 !!!ENC: Marta Lawrence
 !!!END: 2021-06-06
-!!!ENC: Tomasz Grochalski
-!!!END: 2021-05-25
+!!!EED: Tomasz Grochalski
+!!!EEV: 2021-05-25
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-12
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -7,6 +7,8 @@
 !!!OTL: 2de Maurka/Kuyawiak
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.80.120
 !!!SMS-shelfwork: W
@@ -22,9 +24,7 @@
 !!!AIN: 1 piano 1 violn
 !!!key: a
 **kern	**kern	**dynam	**kern	**dynam
-!	!	!	!LO:MO:mod=*null:null	!
-*	*	*	*scale:80%	*
-*part2	*part2	*part2	*part1	*part1
+*part2	*part2	*	*part1	*
 *staff3	*staff2	*	*staff1	*
 *I"PIANO.	*I"PIANO.	*	*I"Violino.	*
 *mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*
@@ -35,6 +35,8 @@
 *k[]	*k[]	*	*k[]	*
 *a:	*a:	*	*a:	*
 *M3/4	*M3/4	*	*M3/4	*
+!	!	!	!LO:MO:mod=*null	!
+*	*	*	*scale:80%	*
 =1	=1	=1	=1	=1
 *xywh-#4:387,1055,2391,470	*xywh-#4:387,1055,2391,470	*	*	*
 !	!	!	!LO:TX:a:B:t=KUJAWIAK.:mod=	!
@@ -703,11 +705,9 @@
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | tie -s
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-16
-!!!ENC: Andrzej Borzym
-!!!END: 2022-05-23
+!!!EED: Andrzej Borzym
+!!!EEV: 2022-05-23
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-20
 !!!ENC-iiif: Olaf Gawdzik
 !!!END-iiif: 2022-09-02
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

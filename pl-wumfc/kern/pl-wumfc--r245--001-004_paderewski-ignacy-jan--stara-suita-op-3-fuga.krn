@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R245
 !!!SMS-shelfwork: 001-004 M
@@ -25,8 +27,8 @@
 !!!AIN: 1 piano
 !!!key: d
 **kern	**fing	**kern	**fing	**dynam
-*part1	*part1	*part1	*part1	*part1
-*staff2	*staff2	*staff1	*staff1	*
+*part1	*	*part1	*	*
+*staff2	*	*staff1	*	*
 *Ipiano	*	*Ipiano	*	*
 *ICklav	*	*ICklav	*	*
 *I"Fortepian	*	*I"Fortepian	*	*
@@ -1755,9 +1757,7 @@
 !!!filter-modern: tie -s | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g”
 !!!ENC: Filip Voros
 !!!END: 2021-11-04
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-11-06
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-11-06
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-08-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

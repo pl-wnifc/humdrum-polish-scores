@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R300
 !!!SMS-shelfwork: 001-002 G
@@ -23,7 +25,6 @@
 !!!ONB-nifc: UWAGA: skan 0002, lewa strona
 !!!AIN: 2 piano
 !!!key: F
-!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
@@ -228,11 +229,10 @@
 !!LO:MO:end
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/-//B" | autostem -r | modori -m
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-13
-!!!ENC: Leszek Kubiak
-!!!END: 2021-11-17
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-11-17
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

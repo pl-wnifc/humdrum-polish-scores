@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: D II-29
 !!!SMS-shelfwork: 001-005 M
@@ -24,8 +26,8 @@
 !!!OMD-mod: Andante
 !!!key: D
 **kern	**kern	**kern	**text	**mod-text	**text	**mod-text	**text	**mod-text	**kern	**text	**mod-text	**text	**mod-text	**text	**mod-text	**kern	**text	**mod-text	**text	**mod-text	**text	**mod-text	**kern	**text	**mod-text	**text	**mod-text	**text	**mod-text
-*part5	*part5	*part4	*part4	*part4	*part4	*part4	*part4	*part4	*part3	*part3	*part3	*part3	*part3	*part3	*part3	*part2	*part2	*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1	*part1	*part1	*part1
-*staff6	*staff5	*staff4	*staff4	*staff4	*staff4	*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff3	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff2	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1	*staff1	*staff1	*staff1	*staff1
+*part5	*part5	*part4	*	*	*	*	*	*	*part3	*	*	*	*	*	*	*part2	*	*	*	*	*	*	*part1	*	*	*	*	*	*
+*staff6	*staff5	*staff4	*	*	*	*	*	*	*staff3	*	*	*	*	*	*	*staff2	*	*	*	*	*	*	*staff1	*	*	*	*	*	*
 !LO:MO:mod=*>[A,A1,A,A1,A,A2]	!LO:MO:mod=*>[A,A1,A,A1,A,A2]	!LO:MO:mod=*>[A,A1,A,A1,A,A2]	!	!	!	!	!	!	!LO:MO:mod=*>[A,A1,A,A1,A,A2]	!	!	!	!	!	!	!LO:MO:mod=*>[A,A1,A,A1,A,A2]	!	!	!	!	!	!	!LO:MO:mod=*>[A,A1,A,A1,A,A2]	!	!	!	!	!	!
 *null	*null	*null	*	*	*	*	*	*	*null	*	*	*	*	*	*	*null	*	*	*	*	*	*	*null	*	*	*	*	*	*
 !LO:MO:mod=*>A	!LO:MO:mod=*>A	!LO:MO:mod=*>A	!	!	!	!	!	!	!LO:MO:mod=*>A	!	!	!	!	!	!	!LO:MO:mod=*>A	!	!	!	!	!	!	!LO:MO:mod=*>A	!	!	!	!	!	!
@@ -166,12 +168,10 @@
 !!LO:MO:mod
 !! !!!RDF**kern: @ = marked note, color=grey
 !!LO:MO:end
+!!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r | shed -e "s/yy//
 !!!ENC: Anna Matuszewska
 !!!END: 2020-04-01
 !!!EED: Andrzej Kubiczek
-!!!EST: revision finished 2022-12-01
+!!!EEV: 2022-12-01
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-12-01
-!!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r | shed -e "s/yy//
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

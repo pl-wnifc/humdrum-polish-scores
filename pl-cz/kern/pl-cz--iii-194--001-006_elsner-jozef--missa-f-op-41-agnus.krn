@@ -9,6 +9,8 @@
 !!!OMV: 006
 !!!PDT: 1836
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-194
 !!!SMS-shelfwork: 001-006 M
@@ -24,8 +26,8 @@
 !!!OMD-mod: Adagio
 !!!key: F
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern
-*part23	*part23	*part23	*part22	*part22	*part21	*part21	*part20	*part20	*part19	*part19	*part18	*part18	*part17	*part17	*part16	*part16	*part15	*part15	*part14	*part13	*part13	*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1
-*staff24	*staff23	*	*staff22	*	*staff21	*	*staff20	*	*staff19	*	*staff18	*staff18	*staff17	*staff17	*staff16	*staff16	*staff15	*staff15	*staff14	*staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1
+*part23	*part23	*	*part22	*	*part21	*	*part20	*	*part19	*	*part18	*	*part17	*	*part16	*	*part15	*	*part14	*part13	*	*part12	*	*part11	*	*part10	*	*part9	*	*part8	*	*part7	*	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1
+*staff24	*staff23	*	*staff22	*	*staff21	*	*staff20	*	*staff19	*	*staff18	*	*staff17	*	*staff16	*	*staff15	*	*staff14	*staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1
 *I"Organo.	*I"Organo.	*	*I"Violoncello et Baſso.	*	*I"Viola.	*	*I"Violino 2do	*	*I"Violino Imo	*	*I"Basso.	*	*I"Tenore.	*	*I"Alto.	*	*I"Canto	*	*I"Tympano in C. F.	*I"Trombono	*	*I"Clarino 2do in B.	*	*I"Clarino 1mo in B.	*	*I"Corno 2do in F.	*	*I"Corno 1mo in F.	*	*I"Fagotto 2do	*	*I"Fagotto Imo	*	*I"Clarinetto 2do in B.	*	*I"Clarinetto Imo in B.	*	*I"Oboe 2do	*	*I"Oboe 1mo	*	*I"Flauto 2do	*	*I"[Flauto I]
 *mI"Organo	*mI"Organo	*	*mI"Violoncello ed Contrabasso	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*	*mI"Timpani	*mI"Trombone	*	*mI"Clarino II in Bb	*	*mI"Clarino I in Bb	*	*mI"Corno II in F	*	*mI"Corno I in F	*	*mI"Fagotto II	*	*mI"Fagotto I	*	*mI"Clarinetto II in Bb	*	*mI"Clarinetto I in Bb	*	*mI"Oboe II	*	*mI"Oboe I	*	*mI"Flauto II	*	*mI"Flauto I
 *I'org	*I'org	*	*I'vlc|cb	*	*I'vla	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*I'T	*	*I'A	*	*I'S	*	*I'timp	*I'trb	*	*I'clno 2 in B|b	*	*I'clno 1 in B|b	*	*I'cor 2 in F	*	*I'cor 1 in F	*	*I'fag 2	*	*I'fag 1	*	*I'cl 2 in B|b	*	*I'cl 1 in B|b	*	*I'ob 2	*	*I'ob 1	*	*I'fl 2	*	*I'fl 1
@@ -710,12 +712,10 @@
 !!LO:MO:mod
 !! !!!RDF**kern: @ = marked note, color=grey
 !!LO:MO:end
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
 !!!ENC: Andrzej Borzym
 !!!END: 2020-04-06
-!!!ENC: Leszek Kubiak
-!!!END: 2020-06-08
+!!!EED: Leszek Kubiak
+!!!EEV: 2020-06-08
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-10
-!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

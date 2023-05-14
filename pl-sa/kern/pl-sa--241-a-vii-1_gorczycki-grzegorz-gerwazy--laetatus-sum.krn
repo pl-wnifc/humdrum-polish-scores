@@ -7,6 +7,8 @@
 !!!OTL: Laetatus sum
 !!!PDT: 1730
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-SA
 !!!SMS-shelfmark: 241/A VII 1
 !!!SMS-shelfwork: W
@@ -20,9 +22,9 @@
 !!!AIN: 1 alto 1 bass 2 empty 1 organ 1 tenor 2 violn 1 vox
 !!!key:
 **kern	**fba	**kern	**kern	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**kern
-*part9	*	*part8	*part7	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part1
 *	*	*group3	*group3	*group2	*	*	*group2	*	*	*group2	*	*	*group2	*	*	*group1	*group1
-*staff9	*	*staff8	*staff7	*staff6	*staff6	*staff6	*staff5	*staff5	*staff5	*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff1
+*part9	*	*part8	*part7	*part6	*	*	*part5	*	*	*part4	*	*	*part3	*	*	*part2	*part1
+*staff9	*	*staff8	*staff7	*staff6	*	*	*staff5	*	*	*staff4	*	*	*staff3	*	*	*staff2	*staff1
 *Iorgan	*	*Ivioln	*Ivioln	*Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Ivox	*	*	*Iempty	*Iempty
 *I"Organo	*	*I"Violino 2do.	*I"Violino 1mo.	*I"Basso	*	*	*I"Tenore	*	*	*I"Alto	*	*	*I"Canto	*	*	*I"Clarino 2 do	*I"Claro 1mo
 *	*	*mI"Violino II	*mI"Violino I	*	*	*	*	*	*	*	*	*	*mI"Soprano	*	*	*mI"Clarino II	*mI"Clarino I
@@ -1518,9 +1520,7 @@
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D" | rid -li
 !!!ENC: Tomasz Grochalski
 !!!END: 2020-04-19
-!!!ENC: Marta Lawrence
-!!!END: 2020-10-19
+!!!EED: Marta Lawrence
+!!!EEV: 2020-10-19
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-07-08
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

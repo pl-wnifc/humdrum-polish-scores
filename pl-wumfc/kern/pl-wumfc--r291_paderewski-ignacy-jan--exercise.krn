@@ -7,6 +7,8 @@
 !!!OTL: [Exercise]
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R291
 !!!SMS-shelfwork: W
@@ -22,7 +24,7 @@
 !!!AIN: 1 clars 1 cor 1 fagot 1 flt 1 oboe
 !!!key: e
 **kern	**dynam	**kern	**kern	**kern	**kern
-*part5	*part5	*part4	*part3	*part2	*part1
+*part5	*	*part4	*part3	*part2	*part1
 *staff5	*	*staff4	*staff3	*staff2	*staff1
 *I"2 Corni in F.	*	*I"2 Fagotti	*I"2 Clarinetti in B.	*I"2 Oboi	*I"2 Flauti
 *mI"2 Corni in F	*	*	*mI"2 Clarinetti in B	*	*
@@ -1092,9 +1094,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L"
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-12-29
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-11-20
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-11-20
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-06
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

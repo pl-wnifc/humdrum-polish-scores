@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-105
 !!!SMS-shelfwork: 001-001 M
@@ -25,8 +27,8 @@
 !!!key: D
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *	*	*	*group4	*	*group4	*	*group4	*	*group3	*	*	*group3	*	*	*group3	*	*	*group3	*	*	*	*	*group2	*	*group2	*	*group1	*	*group1	*	*group1	*	*group1	*
-*part15	*	*part15	*part14	*part14	*part13	*part13	*part12	*part12	*part11	*part11	*part11	*part10	*part10	*part10	*part9	*part9	*part9	*part8	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff15	*	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*staff11	*	*staff10	*staff10	*	*staff9	*staff9	*	*staff8	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part15	*	*	*part14	*	*part13	*	*part12	*	*part11	*	*	*part10	*	*	*part9	*	*	*part8	*	*	*part7	*	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff15	*	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*	*	*staff10	*	*	*staff9	*	*	*staff8	*	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Organo	*	*	*I"Viola Obligatto	*	*I"Violino Secundo	*	*I"Violino Primo	*	*I"Baſso	*	*	*I"Tenore	*	*	*I"Alto	*	*	*I"Canto	*	*	*I"Timpano do D.A.	*	*I"Cornu Secundo Ex D	*	*I"Cornu Primo Ex D	*	*I"Clarinetto Secundo Ex A:	*	*I"Clarinetto Primo Ex A:	*	*I"Oboe Secundo Oblig:	*	*I"Oboe Primo Oblig:	*
 *	*	*	*mI"Viola obligato	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*	*	*	*	*	*	*mI"Soprano	*	*	*mI"Timpani in D and A	*	*mI"Corno II in D	*	*mI"Corno I in D	*	*mI"Clarinetto II in A	*	*mI"Clarinetto I in A	*	*mI"Oboe II obligato	*	*mI"Oboe I obligato	*
 *I'org	*	*	*I'vla obl	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'timp	*	*I'cor 2 in D	*	*I'cor 1 in D	*	*I'cl 2 in A	*	*I'cl 1 in A	*	*I'ob 2	*	*I'ob 1	*
@@ -2413,9 +2415,7 @@
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D" | rid -lid
 !!!ENC: Marta Chmielewska
 !!!END: 2020-07-01
-!!!ENC: Marta Lawrence
-!!!END: 2021-11-27
+!!!EED: Marta Lawrence
+!!!EEV: 2021-11-27
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-07-23
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

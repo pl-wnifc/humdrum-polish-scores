@@ -7,6 +7,8 @@
 !!!OTL: Ego sum pastor bonus
 !!!PDT: 1564
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-Mbs
 !!!SMS-shelfmark: 4 Mus.pr. 11 Beibd.4
 !!!SMS-shelfwork: W
@@ -21,10 +23,9 @@
 !!!ONB-nifc: UWAGA: Discantus: s. 88-89, Altus: s. 94-95, Tenor: s. 94-95, Bassus: s. 84-85
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: G:mix
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"BASSVS.	*	*I"TENOR.	*	*I"ALTVS.	*	*I"DISCATVS.	*
 *mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
@@ -639,11 +640,10 @@
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(*)]
 !!!RDF**kern: l =terminal long
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 !!!ENC: Filip Voros
 !!!END: 2022-10-23
-!!!ENC: Jan Barakat
-!!!END: 2022-11-21
+!!!EED: Jan Barakat
+!!!EEV: 2022-11-21
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-22
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

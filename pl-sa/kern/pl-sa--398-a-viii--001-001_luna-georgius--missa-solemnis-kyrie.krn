@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-SA
 !!!SMS-shelfmark: 398/A VIII
 !!!SMS-shelfwork: 001-001 M
@@ -27,8 +29,8 @@
 !!!key: D
 **kern	**fba	**kern	**dynam	**kern	**dynam	**kern	**text	**mod-text	**kern	**text	**mod-text	**dynam	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**kern
 *	*	*group3	*	*group3	*	*group2	*	*	*group2	*	*	*	*group2	*	*	*group2	*	*	*group1	*group1
-*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part1
-*staff9	*staff9	*staff8	*	*staff7	*	*staff6	*staff6	*staff6	*staff5	*staff5	*staff5	*	*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff1
+*part9	*	*part8	*	*part7	*	*part6	*	*	*part5	*	*	*	*part4	*	*	*part3	*	*	*part2	*part1
+*staff9	*	*staff8	*	*staff7	*	*staff6	*	*	*staff5	*	*	*	*staff4	*	*	*staff3	*	*	*staff2	*staff1
 *I"Organo.	*	*I"Violino Secundo.	*	*I"Violino Primo.	*	*I"Baſso.	*	*	*I"Tenore	*	*	*	*I"Alto.	*	*	*I"Canto.	*	*	*I"Clarino 2do. ex D	*I"Clarino 1mo.
 *mI"Organo	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*	*	*	*	*mI"Alto	*	*	*mI"Soprano	*	*	*mI"Clarino II in D	*mI"Clarino I in D
 *I'org	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*I'T	*	*	*	*I'A	*	*	*I'S	*	*	*I'clno 2 in D	*I'clno 1 in D
@@ -1130,9 +1132,7 @@
 !!!filter-modern: shed -e "s/:TX:t=P:/:tx:t=p:/L" | shed -X dynam -e "s/:a/:A/LX" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(X?)tuplet$/$1TUPLET/I" | shed -k -e "s/:TUP:/:tup:/L" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I"
 !!!ENC: Andrzej Gręziak
 !!!END: 2020-05-25
-!!!ENC: Wojciech Jakubiak-Danek
-!!!END: 2020-11-18
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2020-11-18
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-06-21
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

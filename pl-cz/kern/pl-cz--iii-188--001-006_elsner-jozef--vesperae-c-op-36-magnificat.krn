@@ -11,6 +11,8 @@
 !!!OMD-mod: Allegro moderato
 !!!PDT: 1834
 !!!AGN: Sacred; Vespers
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-188
 !!!SMS-shelfwork: 001-006 M
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 1 cbass 1 cello 2 clars 3 cor 1 fagot 1 flt 1 organ 1 soprn 1 tenor 1 timpa 1 viola 2 violn
 !!!key: C
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part17	*part17	*part17	*part16	*part16	*part15	*part15	*part14	*part14	*part13	*part13	*part12	*part12	*part12	*part12	*part12	*part11	*part11	*part11	*part11	*part11	*part10	*part10	*part10	*part10	*part10	*part9	*part9	*part9	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff17	*	*	*staff16	*	*staff15	*	*staff14	*	*staff13	*	*staff12	*staff12	*staff12	*	*	*staff11	*staff11	*staff11	*	*	*staff10	*staff10	*staff10	*	*	*staff9	*staff9	*staff9	*	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part17	*	*	*part16	*	*part15	*	*part14	*	*part13	*	*part12	*	*	*	*	*part11	*	*	*	*	*part10	*	*	*	*	*part9	*	*	*	*	*part8	*	*part7	*	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff17	*	*	*staff16	*	*staff15	*	*staff14	*	*staff13	*	*staff12	*	*	*	*	*staff11	*	*	*	*	*staff10	*	*	*	*	*staff9	*	*	*	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Organo	*	*	*I"Baſso	*	*I"Viola	*	*I"Violino 2do	*	*I"Violino 1mo	*	*I"Baſso.	*	*	*	*	*I"Tenore.	*	*	*	*	*I"Alto.	*	*	*	*	*I"Canto.	*	*	*	*	*I"Tympani in C.G.	*	*I"Corno 2do	*	*I"Corno 1mo	*	*I"Corni in F.	*	*I"Fagotto 1.mo et Secundo	*	*I"Clarinetto 2do. in C.	*	*I"Clarinetto 1mo in C.	*	*I"Flauto	*
 *	*	*	*mI"Violoncello ed Contrabasso	*	*	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*	*	*mI"Tenore	*	*	*	*	*mI"Alto	*	*	*	*	*mI"Soprano	*	*	*	*	*mI"Timpani	*	*mI"Clarino II	*	*mI"Clarino I	*	*mI"Corni in F	*	*mI"Fagotti	*	*mI"Clarinetto II in C	*	*mI"Clarinetto I in C	*	*	*
 *I'org	*	*	*I'vlc|cb	*	*I'vla	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*	*	*I'T	*	*	*	*	*I'A	*	*	*	*	*I'S	*	*	*	*	*I'timp	*	*I'cor 2	*	*I'cor 1	*	*I'cor in F	*	*I'fag 1 & 2	*	*I'cl 2	*	*I'cl 1	*	*I'fl	*
@@ -2979,9 +2981,7 @@
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:N:/LO:n:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
 !!!ENC: Andrzej Borzym
 !!!END: 2020-03-27
-!!!ENC: Leszek Kubiak
-!!!END: 2020-05-29
+!!!EED: Leszek Kubiak
+!!!EEV: 2020-05-29
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-20
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

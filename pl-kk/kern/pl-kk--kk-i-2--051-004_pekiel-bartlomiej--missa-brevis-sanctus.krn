@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT: 1661
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.2
 !!!SMS-shelfwork: 051-004 M
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: g:dor
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"BASVS	*	*I"TENOR	*	*I"ALTVS	*	*I"DISCANTVS	*
 *mI"Basso	*	*mI"Tenore II	*	*mI"Tenore I	*	*mI"Alto	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
@@ -443,11 +445,9 @@
 !!!filter-modern: shed -k -e "s/,//D" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/[<>]//g"
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-05-04
-!!!ENC: Jan Barakat
-!!!END: 2022-06-03
+!!!EED: Jan Barakat
+!!!EEV: 2022-06-03
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-06-26
 !!!ENC-iiif: Marta Opryszak
 !!!END-iiif: 2022-09-08
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

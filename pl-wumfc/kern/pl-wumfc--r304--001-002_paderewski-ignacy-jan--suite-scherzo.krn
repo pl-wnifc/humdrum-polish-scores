@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R304
 !!!SMS-shelfwork: 001-002 M
@@ -23,9 +25,8 @@
 !!!ONB-nifc: UWAGA: obsada vl (2), vla, vlc, cb. Skany 0005-0008 (razem z Allegretto grazioso)
 !!!AIN: 1 cbass 1 cello 1 viola 2 violn
 !!!key: e
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**fing	**dynam
-*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*	*part1
+*part5	*	*part4	*	*part3	*	*part2	*	*part1	*	*
 *staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*	*
 *Icbass	*	*Icello	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*
 *I"Contrabbassi	*	*I"Violoncelli	*	*I"Viola	*	*I"Violino II	*	*I"Violino I	*	*
@@ -1786,11 +1787,10 @@
 !!!system-decoration: [(s1,s2,s3,s4,s5)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/-//B" | autostem -r | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-12-06
-!!!ENC: Leszek Kubiak
-!!!END: 2021-12-21
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-12-21
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

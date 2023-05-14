@@ -7,6 +7,8 @@
 !!!OTL: Ah peccatores graves
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: S-Uu
 !!!SMS-shelfmark: Vok. mus. i hs. 21:8
 !!!SMS-shelfwork: W
@@ -21,11 +23,10 @@
 !!!ONB-nifc: UWAGA: poszczególne partie dostępne po kliknięciu w „browse part”. Informacje nt stron tytułowych w opisie na stronie lub na RISM.
 !!!AIN: 1 alto 1 bass 1 cello 1 organ 2 soprn 2 tenor 2 viola 1 violb 2 violn
 !!!key: F
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/#X/#/g" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**fba	**kern	**fba	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
 *	*	*group3	*	*group3	*group2	*	*group2	*	*group2	*	*group2	*	*group1	*	*	*group1	*	*	*group1	*	*	*group1	*	*	*group1	*	*	*group1	*	*
-*part13	*part13	*part12	*part12	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff13	*	*staff12	*	*staff11	*staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*staff6	*staff6	*staff5	*staff5	*staff5	*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part13	*	*part12	*	*part11	*part10	*	*part9	*	*part8	*	*part7	*	*part6	*	*	*part5	*	*	*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff13	*	*staff12	*	*staff11	*staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*	*staff5	*	*	*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *I"Basso Continúo	*	*I"Spinetto óvero Viol di gamba	*	*I"Violon.	*I"Viola 2do	*	*I"Viola imo	*	*I"Violino 2do	*	*I"Violino jmo	*	*I"Baſſús	*	*	*I"Tenore 2do	*	*	*I"Tenore 1mo	*	*	*I"Altús	*	*	*I"Canto 2do	*	*	*I"Canto imo	*	*
 *mI"Basso continuo	*	*mI"Viola da gamba	*	*mI"Violone	*mI"Viola II	*	*mI" Viola I	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*mI"Tenore II	*	*	*mI"Tenore I	*	*	*mI"Alto	*	*	*mI"Soprano II	*	*	*mI"Soprano I	*	*
 *I'bc	*	*I'b-vla da gamba	*	*I'vlne	*I'vla 2	*	*I'vla 1	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*I'T 2	*	*	*I'T 1	*	*	*I'A	*	*	*I'S 2	*	*	*I'S 1	*	*
@@ -2013,11 +2014,10 @@
 !!!RDF**kern: @ = marked note, color=grey
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/#X/#/g" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | modori -m | tie -s | autostem -r | humtr -p
 !!!ENC: Filip Voros
 !!!END: 2022-01-23
-!!!ENC: Jan Barakat
-!!!END: 2022-02-16
+!!!EED: Jan Barakat
+!!!EEV: 2022-02-16
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-08
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

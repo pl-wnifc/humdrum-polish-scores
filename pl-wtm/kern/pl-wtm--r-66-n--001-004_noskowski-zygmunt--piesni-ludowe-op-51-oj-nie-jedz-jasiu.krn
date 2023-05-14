@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT:
 !!!AGN: Secular; Song
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 66/N
 !!!SMS-shelfwork: 001-004 G
@@ -25,8 +27,8 @@
 !!!AIN: 1 bass 1 tenor
 !!!key: A-
 **kern	**dynam	**kern	**text	**text	**text	**dynam
-*part2	*part2	*part1	*part1	*part1	*part1	*part1
-*staff2	*	*staff1	*staff1	*staff1	*staff1	*
+*part2	*	*part1	*	*	*	*
+*staff2	*	*staff1	*	*	*	*
 *>[A,A,A,B]	*	*>[A,A,A,B]	*	*	*	*
 *>A	*	*>A	*	*	*	*
 *	*	*	*v:1	*v:2	*v:3	*
@@ -113,12 +115,10 @@
 !!LO:MO:end
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | humtr -p
 !!!ENC: Marcin Jachim
 !!!END: 2021-05-31
-!!!ENC: Wojciech Jakubiak-Danek
-!!!END: 2021-06-09
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2021-06-09
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-20
-!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | humtr -p
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

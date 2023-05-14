@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT: 1830
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 1139
 !!!SMS-variant:
@@ -26,7 +28,7 @@
 !!!AIN: 1 cello 1 piano 1 violn
 !!!key: a
 **kern	**dynam	**kern	**dynam	**kern	**kern	**dynam
-*part3	*part3	*part2	*part2	*part1	*part1	*part1
+*part3	*	*part2	*	*part1	*part1	*
 *staff4	*	*staff3	*	*staff2	*staff1	*
 *>[A,B,B1,B,B2,C]	*	*>[A,B,B1,B,B2,C]	*	*>[A,B,B1,B,B2,C]	*>[A,B,B1,B,B2,C]	*
 *>A	*	*>A	*	*>A	*>A	*
@@ -5960,9 +5962,7 @@
 !!!filter-modern: extract -k 3-4,1-2 | shed -e "s/LO:HP:(a|b)/LO:hp:$1/L" | shed -e "s/LO:DY:a/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(X?)rep$/$1REP/I" | sic -sq | modori -m | autostem -r | shed -e "s/yy//"
 !!!ENC: Marcin Jachim
 !!!END: 2021-04-06
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-04-24
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-04-24
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-11
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

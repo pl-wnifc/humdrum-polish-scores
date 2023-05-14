@@ -7,6 +7,8 @@
 !!!OTL: Salve Regina
 !!!PDT:
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 247/N
 !!!SMS-shelfwork: 001 W
@@ -22,8 +24,8 @@
 !!!AIN: 1 bass 1 tenor
 !!!key:
 **kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**text	**dynam
-*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1
-*staff2	*staff2	*staff2	*	*	*staff1	*staff1	*staff1	*
+*part2	*	*	*	*	*part1	*	*	*
+*staff2	*	*	*	*	*staff1	*	*	*
 *Ibass	*	*	*	*	*Itenor	*	*	*
 *I"Basy 1. 2.	*	*	*	*	*I"Tenory 1. 2	*	*	*
 *I'B I, II	*	*	*	*	*I'T I, II	*	*	*
@@ -328,12 +330,10 @@
 !!!RDF**dynam: < = "cresc", 'fontstyle="italic"
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!ENC-modern: Leszek Kubiak
-!!!END-modern: 2022-08-17
-!!!EED: Antoni Szymański
-!!!EEV: 2021-06-01
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-05-23
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Antoni Szymański
+!!!EEV: 2021-06-01
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-08-17

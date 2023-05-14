@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R266
 !!!SMS-shelfwork: 001-001 G
@@ -24,9 +26,8 @@
 !!!OMD: Allegro con brio
 !!!AIN: 2 piano
 !!!key: D
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | | autostem -r | modori -m
 **kern	**kern	**dynam	**kern	**kern	**dynam
-*part2	*part2	*part2	*part1	*part1	*part1
+*part2	*part2	*	*part1	*part1	*
 *staff4	*staff3	*	*staff2	*staff1	*
 *Ipiano	*Ipiano	*	*Ipiano	*Ipiano	*
 *ICklav	*ICklav	*	*ICklav	*ICklav	*
@@ -1209,11 +1210,10 @@
 !!!RDF**dynam: mf = mf.
 !!!RDF**dynam: < = cres.
 !!LO:MO:end
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | | autostem -r | modori -m
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-07
-!!!ENC: Leszek Kubiak
-!!!END: 2021-11-15
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-11-15
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

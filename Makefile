@@ -30,7 +30,7 @@ all:
 
 ##############################
 ##
-## update -- List the library sigla and file counts for
+## update: List the library sigla and file counts for
 ##     incoming files from the production repository.  This
 ##     can be used to check for errors in sigla or data files
 ##     that are not prefixed with a siglum.
@@ -54,7 +54,7 @@ copyscores:
 
 ##############################
 ##
-## readme -- Generate a new README file based on updated scores.
+## readme: Generate a new README file based on updated scores.
 ##
 
 readme:
@@ -63,7 +63,7 @@ readme:
 
 ##############################
 ##
-## clear -- Remove old kern files in preparation for copying
+## clear: Remove old kern files in preparation for copying
 ##     updated files from production repository.
 ##
 
@@ -74,7 +74,7 @@ clear:
 
 ##############################
 ##
-## libraries -- List the library sigla and file counts for
+## libraries: List the library sigla and file counts for
 ##     incoming files from the production repository.  This
 ##     can be used to check for errors in sigla or data files
 ##     that are not prefixed with a siglum.
@@ -90,7 +90,7 @@ libraries:
 
 ##############################
 ##
-## source-files -- List the library sigla and file counts for
+## source-files: List the library sigla and file counts for
 ##     incoming files from the production repository.  This
 ##     can be used to check for errors in sigla or data files
 ##     that are not prefixed with a siglum.
@@ -103,7 +103,7 @@ source-files: libraries
 
 ##############################
 ##
-## note-count -- Count the number of notes by library.
+## note-count: Count the number of notes by library.
 ##
 
 n: note-count
@@ -124,7 +124,7 @@ note-count:
 
 ##############################
 ##
-## composers -- List the composers represented in the
+## composers: List the composers represented in the
 ##     repository along with a count of the number of
 ##     digital scores for each composer.
 ##
@@ -138,7 +138,7 @@ composers:
 
 ##############################
 ##
-## file-composers -- List the composers names found in files.
+## file-composers: List the composers names found in files.
 ##     Filenames should be structured:
 ##        id_composer--title.krn
 ##     So this command removes everything before the (last) underscore, and
@@ -155,13 +155,49 @@ file-composers:
 
 ##############################
 ##
-## reference-keys -- List all reference record keys in database.
+## reference-keys: List all reference record keys in database.
 ##
 
 rk: reference-keys
 reference-keys:
 	@grep -rh "^\!\!\![^\!:]*:" */kern | sed 's/:.*//; s/^\!*//' | sort | uniq
 
+
+
+##############################
+##
+## keyscapes: Create keyscapes for each score in [rismid]/keyscapes,
+##    with index in [rismid]/keyscapes/index.html.  These keyscapes
+##    are showing functional harmonic structure, where green is tonic,
+##    blue is dominant, yellow is subdominant, purple is submediant,
+##    red is mediant, supertonic is dark blue and subtonic is orange.
+##    These keyscapes can be used to check the key designation for each
+##    score, since keyscapes that do not have green as their primary color
+##    most likely have an incorrect key designation in the file.
+##
+
+keyscape:
+keyscapes:
+	bin/makeKeyscapes *-*/kern
+
+
+
+##############################
+##
+## clean-keyscapes: Delete [rismid]/keyscapes directories.
+##
+
+clean-keyscapes:
+	rm -rf *-*/keyscapes
+
+
+
+##############################
+##
+## clean: Remove derived files.
+##
+
+clean: clean-keyscapes
 
 
 

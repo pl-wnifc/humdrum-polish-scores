@@ -7,6 +7,8 @@
 !!!OTL: Divertissement à la polonaise op. 12 no. 1
 !!!PDT: 1883
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kj
 !!!SMS-shelfmark: BJ Muz. 10209 III 1
 !!!SMS-shelfwork: W
@@ -22,7 +24,7 @@
 !!!AIN: 2 empty
 !!!key: D
 **kern	**kern	**dynam	**mod-dynam	**kern	**fing	**kern	**fing	**dynam	**mod-dynam
-*part3	*part3	*part3	*part3	*part1	*part1	*part1	*part1	*part1	*part1
+*part3	*part3	*	*	*part1	*	*part1	*	*	*
 *staff4	*staff3	*	*	*staff2	*	*staff1	*	*	*
 *Iempty	*Iempty	*	*	*Iempty	*	*Iempty	*	*	*
 *I"Piano SECONDO.	*I"Piano SECONDO.	*	*	*I"Piano PRIMO.	*	*I"Piano PRIMO.	*	*	*
@@ -2612,9 +2614,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Anastazja Marusiak
 !!!END: 2022-01-31
-!!!ENC: Leszek Kubiak
-!!!END: 2022-02-09
+!!!EED: Leszek Kubiak
+!!!EEV: 2022-02-09
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

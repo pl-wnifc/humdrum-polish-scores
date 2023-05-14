@@ -7,6 +7,8 @@
 !!!OTL: Chant du départ op. 23 no. 1
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kj
 !!!SMS-shelfmark: BJ Muz. 10210 III 1
 !!!SMS-shelfwork: W
@@ -22,8 +24,8 @@
 !!!AIN: 3 piano
 !!!key:
 **kern	**kern	**dynam	**mod-dynam	**kern	**fing	**kern	**fing	**dynam	**mod-dynam
-*part4	*part3	*part3	*part3	*part1	*part1	*part1	*part1	*part1	*part1
-*staff4	*staff3	*	*	*staff2	*staff2	*staff1	*staff1	*staff1	*staff1
+*part4	*part3	*	*	*part1	*	*part1	*	*	*
+*staff4	*staff3	*	*	*staff2	*	*staff1	*	*	*
 *Ipiano	*Ipiano	*	*	*Ipiano	*	*Ipiano	*	*	*
 *I"Piano Secondo	*I"Piano Secondo	*	*	*I"Piano Primo.	*	*I"Piano Primo.	*	*	*
 *mI"Pianoforte II	*mI"Pianoforte II	*	*	*mI"Pianoforte I	*	*mI"Pianoforte I	*	*	*
@@ -1396,9 +1398,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Andrzej Gręziak
 !!!END: 2022-02-02
-!!!ENC: Leszek Kubiak
-!!!END: 2022-02-10
+!!!EED: Leszek Kubiak
+!!!EEV: 2022-02-10
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

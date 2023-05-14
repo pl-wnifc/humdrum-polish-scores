@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R266
 !!!SMS-shelfwork: 001-003 G
@@ -23,10 +25,9 @@
 !!!ONB-nifc: UWAGA: zbiór zawiera utwory na 4 ręce numerowane I-VI. Nr 003 od skanu 0008
 !!!AIN: 2 piano
 !!!key: A
-!!!filter-modern: sic -sq | shed -e "s/yy//" | shed -ke "s/\(y(?!y)/(/" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | shed -k -e "s/:TUP:/:tup:/L" | autostem -r | modori -m
 **kern	**kern	**dynam	**kern	**fing	**kern	**fing	**dynam
-*part2	*part2	*part2	*part1	*part1	*part1	*part1	*part1
-*staff4	*staff3	*	*staff2	*staff2	*staff1	*staff1	*
+*part2	*part2	*	*part1	*	*part1	*	*
+*staff4	*staff3	*	*staff2	*	*staff1	*	*
 *I"Clavier [four-hands]	*I"Clavier [four-hands]	*	*I"Clavier [four-hands]	*	*I"Clavier [four-hands]	*	*
 *I'	*I'	*	*I'	*	*I'	*	*
 *Ipiano	*Ipiano	*	*Ipiano	*	*Ipiano	*	*
@@ -1295,11 +1296,10 @@
 !!!RDF**dynam: p = "p."
 !!!RDF**dynam: pp = "pp."
 !!LO:MO:end
+!!!filter-modern: sic -sq | shed -e "s/yy//" | shed -ke "s/\(y(?!y)/(/" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | shed -k -e "s/:TUP:/:tup:/L" | autostem -r | modori -m
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-09
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-11-13
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-11-13
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

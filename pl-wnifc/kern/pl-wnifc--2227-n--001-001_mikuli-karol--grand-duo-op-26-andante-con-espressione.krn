@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wnifc
 !!!SMS-shelfmark: 2227/n
 !!!SMS-shelfwork: 001-001 M
@@ -25,9 +27,8 @@
 !!!key: A
 !!!OMD:
 !!!OMD-mod: Andante con espressione
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**fing	**kern	**fing	**dynam	**kern	**dynam
-*part2	*part2	*part2	*part2	*part2	*part1	*part1
+*part2	*	*part2	*	*	*part1	*
 *staff3	*	*staff2	*	*	*staff1	*
 *I"Piano	*	*I"Piano	*	*	*I"Violine.	*
 *I'pf	*	*I'pf	*	*	*I'vl	*
@@ -1189,11 +1190,10 @@ N(8CC#/L	5	8c#/) 8e#X	.	.	4ccc#\	.
 !!!RDF**kern: NN = linked
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-07-21
-!!!ENC: Jan Barakat
-!!!END: 2022-08-15
+!!!EED: Jan Barakat
+!!!EEV: 2022-08-15
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

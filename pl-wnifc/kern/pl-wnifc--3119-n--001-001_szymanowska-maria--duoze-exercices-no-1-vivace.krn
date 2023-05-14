@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT: 1825
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wnifc
 !!!SMS-shelfmark: 3119/n
 !!!SMS-shelfwork: 001-001 G
@@ -25,9 +27,8 @@
 !!!key: F
 !!!OMD:
 !!!OMD-mod: Vivace
-!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**fing	**kern	**fing	**dynam
-*part2	*part 2	*part1	*part 1	*part1
+*part2	*part 2	*part1	*part 1	*
 *staff2	*	*staff1	*	*
 *I"Pianoforte	*	*I"Pianoforte	*	*
 *I'	*	*I'	*	*
@@ -780,11 +781,10 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!system-decoration: {(s1,s2)}
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 !!!ENC: Solarz Mateusz
 !!!END: 2022-07-15
-!!!ENC: Urszula Świątek
-!!!END: 2022-08-18
+!!!EED: Urszula Świątek
+!!!EEV: 2022-08-18
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-30
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

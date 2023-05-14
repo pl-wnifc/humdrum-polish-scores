@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT: 1834
 !!!AGN: Sacred; Vespers
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-188
 !!!SMS-shelfwork: 001-002 M
@@ -23,8 +25,8 @@
 !!!key: G
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**fing	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**kern	**kern	**kern	**kern	**kern	**kern
 *	*	*	*group4	*	*group4	*	*group4	*	*group4	*	*	*group3	*	*	*group3	*	*	*group3	*	*	*group3	*	*	*	*group2	*group2	*group1	*group1	*group1	*group1
-*part16	*	*part16	*part15	*part15	*part14	*part14	*part13	*part13	*part12	*	*part12	*part11	*part11	*	*part10	*part10	*part10	*part9	*part9	*part9	*part8	*part8	*	*part7	*part6	*part5	*part4	*part3	*part2	*part1
-*staff16	*	*	*staff15	*	*staff14	*	*staff13	*	*staff12	*	*	*staff11	*staff11	*	*staff10	*staff10	*	*staff9	*staff9	*	*staff8	*staff8	*	*staff7	*staff6	*staff5	*staff4	*staff3	*staff2	*staff1
+*part16	*	*	*part15	*	*part14	*	*part13	*	*part12	*	*	*part11	*	*	*part10	*	*	*part9	*	*	*part8	*	*	*part7	*part6	*part5	*part4	*part3	*part2	*part1
+*staff16	*	*	*staff15	*	*staff14	*	*staff13	*	*staff12	*	*	*staff11	*	*	*staff10	*	*	*staff9	*	*	*staff8	*	*	*staff7	*staff6	*staff5	*staff4	*staff3	*staff2	*staff1
 *I"Organo	*	*	*I"Baſso	*	*I"Viola	*	*I"Violino 2do	*	*I"Violino 1mo	*	*	*I"Baſso.	*	*	*I"Tenore.	*	*	*I"Alto.	*	*	*I"Canto.	*	*	*I"Tympani in C.g.	*I"Corno 2do	*I"Corno 1mo	*I"Fagotti	*I"Clarinetto 2do in C.	*I"Clarinetto 1mo in C.	*I"Flauto.
 *I'org	*	*	*I'cb	*	*I'vla	*	*I'vl 2	*	*I'vl 1	*	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'timp	*I'cor 2	*I'cor 1	*I'fag	*I'cl 2 in C	*I'cl 1 in C	*I'fl
 *Iorgan	*	*	*Icbass	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*	*Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Isoprn	*	*	*Itimpa	*Icor	*Icor	*Ifagot	*Iclars	*Iclars	*Iflt
@@ -1535,9 +1537,7 @@
 !!!filter-modern: sic -qs | shed -e "s/:TX:t=P:/:tx:t=p:/L" | shed -ke "s/\(y(?!y)/(/" | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | modori -m | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | humtr -p
 !!!ENC: Tomasz Grochalski
 !!!END: 2020-03-30
-!!!ENC: Marta Lawrence
-!!!END: 2021-12-09
+!!!EED: Marta Lawrence
+!!!EEV: 2021-12-09
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-06-22
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

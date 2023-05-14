@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT: 1850
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 116/N
 !!!SMS-shelfwork: 001-001 G
@@ -26,7 +28,7 @@
 !!!key:
 !!!OMD-mod: Cantabile non troppo lento
 **kern	**fing	**kern	**dynam
-*part2	*	*part1	*part1
+*part2	*	*part1	*
 *staff2	*	*staff1	*
 *Ipiano	*	*Ipiano	*
 *I"Piano	*	*I"Piano	*
@@ -1423,9 +1425,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-05-04
-!!!ENC: Marta Lawrence
-!!!END: 2021-05-31
+!!!EED: Marta Lawrence
+!!!EEV: 2021-05-31
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-08-20
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -9,6 +9,8 @@
 !!!OMV: 009
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-370
 !!!SMS-shelfwork: 001-009 M
@@ -27,8 +29,8 @@
 !!!OMD-mod: Allegro Moderato
 **kern	**kern	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam
 *	*	*	*	*group1	*	*	*	*	*group1	*	*	*	*	*group1	*	*	*	*
-*part4	*part4	*part4	*part4	*part3	*part3	*part3	*part3	*part3	*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1	*part1
-*staff5	*staff4	*	*	*staff3	*staff3	*staff3	*	*	*staff2	*staff2	*staff2	*	*	*staff1	*staff1	*staff1	*	*
+*part4	*part4	*	*	*part3	*	*	*	*	*part2	*	*	*	*	*part1	*	*	*	*
+*staff5	*staff4	*	*	*staff3	*	*	*	*	*staff2	*	*	*	*	*staff1	*	*	*	*
 *I"Organ	*I"Organ	*	*	*I"Bas	*	*	*	*	*I"Spiew Drugi	*	*	*	*	*I"Spiew Pierwszy	*	*	*	*
 *I'org	*I'org	*	*	*I'B	*	*	*	*	*I'V 2	*	*	*	*	*I'V 1	*	*	*	*
 *Iorgan	*Iorgan	*	*	*Ibass	*	*	*	*	*Ivox	*	*	*	*	*Ivox	*	*	*	*
@@ -268,9 +270,7 @@
 !!!filter-modern: sic -sq | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | humtr -p | modori -m
 !!!ENC: Tomasz Grochalski
 !!!END: 2020-08-31
-!!!ENC: Marta Lawrence
-!!!END: 2021-11-08
+!!!EED: Marta Lawrence
+!!!EEV: 2021-11-08
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-07-07
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -9,6 +9,8 @@
 !!!OMV: 007
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-SA
 !!!SMS-shelfmark: 172/A V 2
 !!!SMS-shelfwork: 001-007 M
@@ -22,9 +24,9 @@
 !!!AIN: 2 cor 1 organ 2 soprn 2 violn
 !!!key: D
 **kern	**fba	**kern	**kern	**kern	**text	**kern	**text	**kern	**kern
-*part7	*	*part6	*part5	*part4	*part4	*part3	*part3	*part2	*part1
 *	*	*group3	*group3	*group2	*	*group2	*	*group1	*group1
-*staff7	*	*staff6	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff1
+*part7	*	*part6	*part5	*part4	*	*part3	*	*part2	*part1
+*staff7	*	*staff6	*staff5	*staff4	*	*staff3	*	*staff2	*staff1
 *Iorgan	*	*Ivioln	*Ivioln	*Isoprn	*	*Isoprn	*	*Icor	*Icor
 *I"Organo:	*	*I"Violino 2:d:	*I"Violino Primo	*I"Soprano 2:do:	*	*I"Soprano Primo.	*	*I"Corno 2.do Ex D:	*I"Corno Primo Ex D:
 *I'org	*	*I'vl 2	*I'vl 1	*I'S 2	*	*I'S 1	*	*I'cor 2	*I'cor 1
@@ -486,9 +488,7 @@
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | modori -m | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | humtr -p
 !!!ENC: Marta Lawrence
 !!!END: 2020-09-22
-!!!ENC: Andrzej Kubiczek
-!!!END: 2020-04-16
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2020-04-16
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-06-27
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

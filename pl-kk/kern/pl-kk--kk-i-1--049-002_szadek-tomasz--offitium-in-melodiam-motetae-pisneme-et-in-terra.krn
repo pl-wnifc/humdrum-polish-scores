@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.1
 !!!SMS-shelfwork: 049-002 M
@@ -23,8 +25,8 @@
 !!!ONB-nifc: UWAGA: Cantus (s. 152v-160r, skan 0155-0162), Altus (s. 148r-156r, skan 0341-0349), Tenor (s. 127v-136r, skan 0518-0526), Bassus (s. 139v-146v, skan 0702-0709). Części Mszy: 1. Kyrie, 2. Et in terra, 3. Patrem, 4. Sanctus, 5. Agnus Dei
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 **kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
-*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *I"BASSVS	*	*	*I"TENOR	*	*	*I"ALTVS	*	*	*I"CANTVS	*	*
 *mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*
 *I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*
@@ -1108,11 +1110,9 @@
 !!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I"
 !!!ENC: Mateusz Solarz
 !!!END: 2022-03-11
-!!!ENC: Leszek Kubiak
-!!!END: 2022-03-14
+!!!EED: Leszek Kubiak
+!!!EEV: 2022-03-14
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-19
 !!!ENC-iiif: Jan Barakat
 !!!END-iiif: 2022-08-31
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.2
 !!!SMS-shelfwork: 052-001 M
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: F:ion
 **kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
-*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *I"BASVS	*	*	*I"TENOR	*	*	*I"ALTVS	*	*	*I"DISCANTVS	*	*
 *mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*
 *I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*
@@ -141,8 +143,7 @@
 .	.	.	.	.	.	.	.	.	4e\	.	.
 *	*	*	*	*	*	*	*	*	*custos:f	*	*
 *	*	*	*custos:A	*	*	*	*	*	*	*	*
-*	*	*	*	*	*	*	*	*	*xywh-#91:7957,3437,6654,1539	*	*
-*	*	*	*xywh-#294:7560,464,7007,1140	*	*	*	*	*	*	*	*
+*	*	*	*xywh-#294:7560,464,7007,1140	*	*	*	*	*	*xywh-#91:7957,3437,6654,1539	*	*
 !	!	!	!LO:PB:g=original	!	!	!	!	!	!LO:LB:g=original	!	!
 1AA	.	.	2A\	-ri-	-ri-	1c	Ky-	Ky-	4f\	.	.
 .	.	.	.	.	.	.	.	.	4c/	.	.
@@ -511,11 +512,9 @@
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | rid -li
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-05-06
-!!!ENC: Marta Lawrence
-!!!END: 2022-05-17
+!!!EED: Marta Lawrence
+!!!EEV: 2022-05-17
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-06-26
 !!!ENC-iiif: Marta Opryszak
 !!!END-iiif: 2022-09-08
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

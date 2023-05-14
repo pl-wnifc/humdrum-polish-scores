@@ -7,6 +7,8 @@
 !!!OTL: O sola magnarum urbium
 !!!PDT:
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.345
 !!!SMS-shelfwork: W
@@ -22,9 +24,9 @@
 !!!AIN: 1 alto 1 empty 1 tenor 1 vox
 !!!key:
 **kern	**text	**text	**kern	**text	**text	**kern	**text	**text	**kern	**text	**text
-*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
 *group1	*	*	*group1	*	*	*group1	*	*	*group1	*	*
+*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *	*verse1	*verse2	*	*verse1	*verse2	*	*verse1	*verse2	*	*verse1	*verse2
 *Iempty	*	*	*Itenor	*	*	*Ialto	*	*	*Ivox	*	*
 *I"Baſso.	*	*	*I"Tenore.	*	*	*I"Alto.	*	*	*I"Canto.	*	*
@@ -702,11 +704,9 @@
 !!!filter-modern: sic -sq | humtr -p | autostem -r | tie -si |shed -e "s/-//B" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/[<>]//g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-04-10
-!!!ENC: Anastazja Marusiak
-!!!END: 2021-03-28
+!!!EED: Anastazja Marusiak
+!!!EEV: 2021-03-28
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-08
 !!!ENC-iiif: Mateusz Mrugas
 !!!END-iiif: 2022-09-03
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

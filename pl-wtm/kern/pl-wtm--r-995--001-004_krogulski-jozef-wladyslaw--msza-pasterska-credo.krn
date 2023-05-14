@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 995
 !!!SMS-shelfwork: 001-004 M
@@ -25,8 +27,8 @@
 !!!AIN: 1 empty 1 organ 2 soprn 1 tenor
 !!!key:
 **kern	**kern	**dynam	**kern	**dynam	**text	**mod-text	**kern	**dynam	**text	**mod-text	**kern	**dynam	**text	**mod-text	**kern	**dynam	**text	**mod-text
-*part5	*part5	*part5	*part4	*part4	*part4	*part1	*part3	*part3	*part3	*part1	*part2	*part2	*part2	*part1	*part1	*part1	*part1	*part1
-*staff6	*staff5	*staff5	*staff4	*staff4	*staff4	*staff1	*staff3	*staff3	*staff3	*staff1	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1	*staff1	*staff1
+*part5	*part5	*	*part4	*	*	*	*part3	*	*	*	*part2	*	*	*	*part1	*	*	*
+*staff6	*staff5	*	*staff4	*	*	*	*staff3	*	*	*	*staff2	*	*	*	*staff1	*	*	*
 *Iorgan	*Iorgan	*	*Iempty	*	*	*	*Itenor	*	*	*	*Isoprn	*	*	*	*Isoprn	*	*	*
 *I"Organ	*I"Organ	*	*I"Baſso	*	*	*	*I"Tenore	*	*	*	*I"[Sopra] 2	*	*	*	*I"Sopra 1.	*	*	*
 *mI"Organo	*mI"Organo	*	*mI"Basso	*	*	*	*mI"Tenore	*	*	*	*mI"Soprano 2	*	*	*	*mI"Soprano 1	*	*	*
@@ -593,9 +595,7 @@
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D" | rid -lid
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-05-15
-!!!ENC: Marta Lawrence
-!!!END: 2021-05-26
+!!!EED: Marta Lawrence
+!!!EEV: 2021-05-26
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-07-09
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

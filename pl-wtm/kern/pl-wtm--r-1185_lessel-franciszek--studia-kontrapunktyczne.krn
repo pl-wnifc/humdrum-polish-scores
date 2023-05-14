@@ -7,6 +7,8 @@
 !!!OTL: Studia kontrapunktyczne
 !!!PDT:
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 1185
 !!!SMS-shelfwork: W
@@ -22,7 +24,7 @@
 !!!AIN: 1 empty
 !!!key: C
 **kern	**fba	**kern	**kern	**fba
-*part1	*part1	*part1	*part1	*part1
+*part1	*	*part1	*part1	*
 *staff3	*	*staff2	*staff1	*
 *clefC4	*	*clefC3	*clefG2	*
 *mclefGv2	*	*mclefG2	*	*
@@ -908,9 +910,7 @@
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r
 !!!ENC: Marcin Jachim
 !!!END: 2021-03-28
-!!!ENC: Wojciech Jakubiak-Danek
-!!!END: 2021-04-14
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2021-04-14
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-30
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

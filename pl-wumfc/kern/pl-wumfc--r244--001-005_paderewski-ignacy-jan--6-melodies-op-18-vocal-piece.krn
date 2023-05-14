@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R244
 !!!SMS-shelfwork: 001-005 G
@@ -23,9 +25,8 @@
 !!!ONB-nifc: Nr V
 !!!AIN: 1 piano 1 vox
 !!!key: b
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m |  humtr -p
 **kern	**kern	**dynam	**kern	**dynam
-*part2	*part2	*part2	*part1	*part1
+*part2	*part2	*	*part1	*
 *staff3	*staff2	*	*staff1	*
 *I"[Pianoforte]	*I"[Pianoforte]	*	*I"[Voce]	*
 *I'	*I'	*	*I'	*
@@ -438,11 +439,10 @@
 !!!system-decoration: s1{(s2,s3)}
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m |  humtr -p
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-08
-!!!ENC: Marta Chmielewska
-!!!END: 2021-11-09
+!!!EED: Marta Chmielewska
+!!!EEV: 2021-11-09
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

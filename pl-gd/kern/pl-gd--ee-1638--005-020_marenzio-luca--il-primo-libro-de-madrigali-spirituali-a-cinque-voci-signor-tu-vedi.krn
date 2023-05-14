@@ -9,6 +9,8 @@
 !!!OMV: 020
 !!!PDT: 1588
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-GD
 !!!SMS-shelfmark: Ee 1638
 !!!SMS-shelfwork: 005-020 G
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 2 tenor
 !!!key: F
 **kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"BASSO	*	*I"TENORE	*	*I"QVINTO	*	*I"ALTO	*	*I"CANTO	*
 *mI"Basso	*	*mI"Tenore	*	*mI"Quinto	*	*mI"Alto	*	*mI"Soprano	*
 *I'B	*	*I'T	*	*I'V 5	*	*I'A	*	*I'S	*
@@ -513,11 +515,9 @@
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/r[a-gA-G]+/r/D" | rid -li
 !!!ENC: Filip Voros
 !!!END: 2022-06-29
-!!!ENC: Andrzej Borzym
-!!!END: 2022-07-16
+!!!EED: Andrzej Borzym
+!!!EEV: 2022-07-16
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-08-11
 !!!ENC-iiif: Zuzanna Daniec
 !!!END-iiif: 2022-10-12
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

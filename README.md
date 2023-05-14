@@ -28,48 +28,49 @@ People and Sponsors
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
+| 2022-01-31 |  |  | 1 |  |  |
 | Jan Barakat | 2 | 7,865 | 292 |  | 99 |
 | Lidia Bialucha |  |  |  |  | 93 |
-| Andrzej Borzym | 375 | 619,316 | 432 | 324 |  |
+| Andrzej Borzym | 374 | 612,347 | 433 | 324 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 73 |
 | Elżbieta Cabała |  |  |  |  | 59 |
-| Marta Chmielewska | 153 | 191,995 | 463 |  |  |
+| Marta Chmielewska | 159 | 208,663 | 457 |  |  |
 | Zuzanna Daniec |  |  |  |  | 46 |
 | Olaf Gawdzik |  |  |  |  | 34 |
-| Tomasz Grochalski | 563 | 825,868 |  |  |  |
-| Andrzej Gręziak | 909 | 1,468,270 | 3 |  |  |
+| Tomasz Grochalski | 558 | 820,047 | 7 |  |  |
+| Andrzej Gręziak | 902 | 1,458,709 | 10 |  |  |
 | Jacek Iwaszko | 2 | 587 | 3 | 1 |  |
-| Marcin Jachim | 569 | 878,992 | 1 |  |  |
+| Marcin Jachim | 563 | 870,024 | 9 |  |  |
 | Wojciech Jakubiak-Danek |  |  | 380 |  |  |
-| Berenika Jozajtis | 796 | 1,292,845 | 3 |  |  |
-| Marcin Konik | 5 | 192 | 5 |  |  |
+| Berenika Jozajtis | 782 | 1,278,261 | 18 |  |  |
+| Marcin Konik | 6 | 242 | 1 |  |  |
 | Magdalena Agnieszka Krok |  |  |  |  | 15 |
-| Leszek Kubiak | 40 | 9,344 | 810 | 152 |  |
-| Andrzej Kubiczek | 537 | 863,509 | 779 | 185 |  |
-| Marta Lawrence | 92 | 32,446 | 1,078 | 84 |  |
+| Leszek Kubiak | 41 | 11,799 | 813 | 152 |  |
+| Andrzej Kubiczek | 549 | 880,491 | 769 | 185 |  |
+| Marta Lawrence | 119 | 59,795 | 1,053 | 84 |  |
+| Arkadiusz Malec | 54 | 100,981 | 2 |  |  |
 | Arek Malec | 6 | 13,818 | 1 |  |  |
-| Arkadiusz Malec | 55 | 101,192 | 1 |  |  |
-| Anastazja Marusiak | 607 | 842,944 | 4 |  |  |
+| Anastazja Marusiak | 594 | 830,677 | 20 |  |  |
 | Solarz Mateusz | 47 | 74,374 |  |  |  |
-| Anna Matuszewska | 192 | 315,319 | 171 |  |  |
+| Anna Matuszewska | 191 | 315,269 | 198 |  |  |
 | Mateusz Mrugas | 1 | 2,963 | 237 |  | 80 |
 | Jędrzej Mróz | 21 | 3,957 | 241 |  |  |
 | Zofia Niedbalska | 1 | 425 | 76 |  |  |
-| Marta Opryszak | 173 | 283,161 | 1 |  | 51 |
+| Marta Opryszak | 172 | 282,200 | 2 |  | 51 |
 | Julita Ruszuk | 2 | 1,517 | 170 |  |  |
-| Craig Stuart Sapp |  |  | 1 |  | 151 |
-| Katarzyna Serwa | 314 | 541,817 | 282 | 77 |  |
-| Mateusz Solarz | 609 | 935,720 | 10 |  |  |
-| Krzysztof Stępień | 476 | 688,774 | 131 | 33 |  |
-| Antoni Szymański |  |  | 543 | 1 | 60 |
+| Craig Stuart Sapp |  |  | 2 |  | 151 |
+| Katarzyna Serwa | 345 | 559,144 | 252 | 77 |  |
+| Mateusz Solarz | 594 | 925,542 | 27 |  |  |
+| Krzysztof Stępień | 469 | 676,391 | 139 | 33 |  |
+| Antoni Szymański | 1 | 5,516 | 542 | 1 | 60 |
 | Konrad Tyszka |  |  |  |  | 75 |
-| Filip Voros | 479 | 672,612 | 1 |  |  |
-| Kamil Watkowski | 404 | 557,411 | 183 |  |  |
-| Natalia Wrzos | 1 | 2,229 | 306 |  | 77 |
+| Filip Voros | 473 | 670,660 | 7 |  |  |
+| Kamil Watkowski | 401 | 553,608 | 188 |  |  |
+| Natalia Wrzos | 2 | 3,590 | 304 |  | 77 |
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 79 |
 | Urszula Świątek | 3 | 3,016 | 210 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 73 |
-| TOTALS | 7,446 | 11,234,620 | 6,819 | 857 | 1,065 |
+| TOTALS | 7,446 | 11,234,620 | 6,865 | 857 | 1,065 |
 
 </details>
 
@@ -157,18 +158,18 @@ websites for the scanned source editions that are currently available:
 | ------- | -----: | ------: |
 | <a target="_blank" href="http://staniatki.studiokropka.pl/mbp">Music of the Polish Benedictine Sisters</a> | 8 | 0.1 |
 | <a target="_blank" href="https://bc.bdsandomierz.pl/dilibra">Digital Library of the Diocesan Library in Sandomierz</a> | 1,009 | 15.8 |
-| <a target="_blank" href="https://cyfrowe.mnk.pl">Polish National Museum in Krakow</a> | 108 | 1.7 |
+| <a target="_blank" href="https://cyfrowe.mnk.pl">Polish National Museum in Krakow</a> | 108 | 1.6 |
 | (https://digital.slub-dresden.de)[https://digital.slub-dresden.de] | 2 | 0.0 |
 | (https://digital.staatsbibliothek-berlin.de)[https://digital.staatsbibliothek-berlin.de] | 31 | 0.4 |
 | (https://digitale-sammlungen.ulb.uni-bonn.de)[https://digitale-sammlungen.ulb.uni-bonn.de] | 1 | 0.0 |
 | (https://digitalisate.sub.uni-hamburg.de)[https://digitalisate.sub.uni-hamburg.de] | 27 | 0.4 |
 | (https://jbc.bj.uj.edu.pl)[https://jbc.bj.uj.edu.pl] | 17 | 0.2 |
-| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 4,548 | 71.6 |
+| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 4,553 | 71.6 |
 | (https://polona2.pl)[https://polona2.pl] | 528 | 8.3 |
 | (https://stimmbuecher.digitale-sammlungen.de)[https://stimmbuecher.digitale-sammlungen.de] | 1 | 0.0 |
 | (https://www.bibliotekacyfrowa.pl)[https://www.bibliotekacyfrowa.pl] | 24 | 0.3 |
 | (https://www2.musik.uu.se)[https://www2.musik.uu.se] | 46 | 0.7 |
-| TOTAL | 6350 |     |
+| TOTAL | 6355 |     |
 
 </details>
 
@@ -1369,6 +1370,7 @@ their meanings:
 | `CNT` | Composer nationality |
 | `COM` | Composer's name |
 | `COM-rismID` | RISM Online ID of the composer |
+| `EEV-modern` | UNKNOWN |
 | `ENC` | Digital score encoder |
 | `ENC-iiif` | Encoder of IIIF bounding boxes |
 | `ENC-modern` | Encoder of modernization filter |

@@ -7,6 +7,8 @@
 !!!OTL: Dom melodja ludowa
 !!!PDT: 1880
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 241/N
 !!!SMS-shelfwork: W
@@ -23,8 +25,8 @@
 !!!AIN: 1 empty 1 tenor
 !!!key:
 **kern	**text	**mod-text	**mod-text	**dynam	**mod-dynam	**kern	**text	**text	**dynam
-*part2	*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1
-*staff2	*staff2	*staff2	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1	*
+*part2	*	*	*	*	*	*part1	*	*	*
+*staff2	*	*	*	*	*	*staff1	*	*	*
 *Iempty	*	*	*	*	*	*Itenor	*	*	*
 *I"[Basso]	*	*	*	*	*	*I"[Tenore]	*	*	*
 *mI"Basso	*	*	*	*	*	*mI"Tenore	*	*	*
@@ -205,12 +207,10 @@
 =:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: {(s1,s2)}
-!!!ENC-modern: Leszek Kubiak
-!!!END-modern: 2022-08-17
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:t=/LO:dy:t=/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-07-02
-!!!ENC: Krzysztof Stępień
-!!!END: 2021-05-10
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:t=/LO:dy:t=/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Krzysztof Stępień
+!!!EEV: 2021-05-10
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-08-17

@@ -7,6 +7,8 @@
 !!!OTL: Romance d’A. Rubinstein
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.153.388
 !!!SMS-shelfwork: W
@@ -22,8 +24,7 @@
 !!!AIN: 1 piano 1 violn
 !!!key: E-
 **kern	**kern	**dynam	**kern	**fing	**dynam
-*	*	*	*scale:70%	*	*
-*part2	*part2	*part2	*part1	*part1	*part1
+*part2	*part2	*	*part1	*	*
 *staff3	*staff2	*	*staff1	*	*
 *I"PIANO.	*I"PIANO.	*	*I"VIOLON.	*	*
 *mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*	*
@@ -35,6 +36,7 @@
 *E-:	*E-:	*	*E-:	*	*
 *M4/4	*M4/4	*	*M4/4	*	*
 *met(c)	*met(c)	*	*met(c)	*	*
+*	*	*	*scale:70%	*	*
 =1	=1	=1	=1	=1	=1
 *xywh-3:336,1798,3286,786	*xywh-3:336,1798,3286,786	*	*xywh-3:380,1424,3257,441	*	*
 !	!LO:TX:a:B:t=Andante con moto.	!	!LO:TX:a:B:t=Andante con moto.	!	!
@@ -1689,11 +1691,9 @@
 !!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-09
-!!!ENC: Marta Lawrence
-!!!END: 2022-05-20
+!!!EED: Marta Lawrence
+!!!EEV: 2022-05-20
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-07-19
 !!!ENC-iiif: Marta Opryszak
 !!!END-iiif: 2022-08-22
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

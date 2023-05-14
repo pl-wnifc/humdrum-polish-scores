@@ -9,6 +9,8 @@
 !!!OMV: 009
 !!!PDT: 1588
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-GD
 !!!SMS-shelfmark: Ee 1638
 !!!SMS-shelfwork: 005-009 G
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor 1 vox
 !!!key: e:phr
 **kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
-*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff5	*staff5	*staff5	*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part5	*	*	*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff5	*	*	*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *I"BASSO	*	*	*I"TENORE 	*	*	*I"QVINTO 	*	*	*I"ALTO	*	*	*I"CANTO	*	*
 *mI"Basso	*	*	*mI"Tenore 	*	*	*mI"Alto	*	*	*mI"Alto	*	*	*mI"Soprano	*	*
 *I'B	*	*	*I'T	*	*	*I'V	*	*	*I'A	*	*	*I'S	*	*
@@ -625,12 +627,10 @@
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4,s5)]
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | humtr -p | modori -m
 !!!ENC: Marta Opryszak
 !!!END: 2022-07-04
-!!!ENC: Natalia Wrzos
-!!!END: 2022-07-28
+!!!EED: Natalia Wrzos
+!!!EEV: 2022-07-28
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-08-12
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | humtr -p | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

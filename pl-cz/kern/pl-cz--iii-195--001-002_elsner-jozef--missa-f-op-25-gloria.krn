@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT: 1843
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-195
 !!!SMS-shelfwork: 001-002 M
@@ -25,8 +27,8 @@
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam
 !	!	!	!	!	!	!	!LO:MO:mod=*group2	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 *	*	*	*	*	*	*	*null	*	*group2	*	*group2	*	*group1	*	*	*	*	*group1	*	*	*	*	*group1	*	*	*	*	*group1	*	*	*	*
-*staff10	*	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*staff4	*staff4	*	*	*staff3	*staff3	*staff3	*	*	*staff2	*staff2	*staff2	*	*	*staff1	*staff1	*staff1	*	*
-*part10	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part4	*part4	*part4	*part3	*part3	*part3	*part3	*part3	*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1	*part1
+*staff10	*	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*	*	*	*staff3	*	*	*	*	*staff2	*	*	*	*	*staff1	*	*	*	*
+*part10	*	*	*part9	*	*part8	*	*part7	*	*part6	*	*part5	*	*part4	*	*	*	*	*part3	*	*	*	*	*part2	*	*	*	*	*part1	*	*	*	*
 *I"Organo et Baſso	*	*	*I"Corni in F.	*	*I"Clarinetti in B.	*	*I"Viole	*	*I""Violini	*	*I""Violini	*	*I"Baſso	*	*	*	*	*I"Tenore	*	*	*	*	*I"Alto	*	*	*	*	*I"Canto	*	*	*	*
 *mI"Organo ed Bassi	*	*	*mI"Corni in F	*	*mI"Clarinetti in Bb	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*mI"Soprano	*	*	*	*
 *I'10.	*	*	*I'9.	*	*I'8.	*	*I'7.	*	*I'6.	*	*I'5.	*	*I'4.	*	*	*	*	*I'3.	*	*	*	*	*I'2.	*	*	*	*	*I'1.	*	*	*	*
@@ -1607,14 +1609,12 @@
 !!LO:MO:mod
 !! !!!system-decoration: [(g1)][(g2)][(s8)][(s9)]<s10>
 !!LO:MO:end
-!!!filter-modern: extract -k 1,4-$,2-3 | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b)/LO:dy:$1/L" | shed -e "s/^(X?)tuplet$/$1TUPLET/I" | shed -e "s/LO:HP:(a|b)/LO:hp:$1/L" | shed -e "s/LO:N:vis[:=]/LO:n:vis=$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: extract -k 1,4-$,2-3 | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b)/LO:dy:$1/L" | shed -e "s/^(X?)tuplet$/$1TUPLET/I" | shed -e "s/LO:HP:(a|b)/LO:hp:$1/L" | shed -e "s/LO:N:vis[:=]/LO:n:vis=$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
 !!!ENC: Kamil Watkowski
 !!!END: 2020-04-08
-!!!ENC: Marta Lawrence
-!!!END: 2020-06-11
+!!!EED: Marta Lawrence
+!!!EEV: 2020-06-11
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-31
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

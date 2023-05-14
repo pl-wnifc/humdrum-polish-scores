@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-195
 !!!SMS-shelfwork: 001-005 M
@@ -22,9 +24,9 @@
 !!!AIN: 1 alto 1 clars 1 cor 3 empty 1 organ 1 tenor 1 viola 1 vox
 !!!key:
 **kern	**fba	**kern	**dynam	**kern	**dynam	**kern	**kern	**kern	**kern	**text	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text
-*part10	*	*part9	*part9	*part8	*part8	*part7	*part6	*part5	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1
 *	*	*	*	*	*	*	*group2	*group2	*group1	*	*group1	*	*	*group1	*	*	*group1	*
-*staff10	*	*staff9	*	*staff8	*	*staff7	*staff6	*staff5	*staff4	*staff4	*staff3	*staff3	*	*staff2	*staff2	*	*staff1	*staff1
+*part10	*	*part9	*	*part8	*	*part7	*part6	*part5	*part4	*	*part3	*	*	*part2	*	*	*part1	*
+*staff10	*	*staff9	*	*staff8	*	*staff7	*staff6	*staff5	*staff4	*	*staff3	*	*	*staff2	*	*	*staff1	*
 *Iorgan	*	*Icor	*	*Iclars	*	*Iviola	*Iempty	*Iempty	*Iempty	*	*Itenor	*	*	*Ialto	*	*	*Ivox	*
 *I"Organo et Baſso	*	*I"Corni in F.	*	*I"Clarinetti in B.	*	*I"Viole	*I""Violini	*I""Violini	*I"Baſso	*	*I"Tenore	*	*	*I"Alto	*	*	*I"Canto	*
 *	*	*	*	*	*	*mI"Viola	*mI"Violino II	*mI"Violino I	*mI"Basso	*	*	*	*	*	*	*	*mI"Soprano	*
@@ -796,9 +798,7 @@
 !!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/^(X?)rep$/$1REP/I"  | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Marta Lawrence
 !!!END: 2020-06-12
-!!!ENC: Berenika Jozajtis
-!!!END: 2020-04-06
+!!!EED: Berenika Jozajtis
+!!!EEV: 2020-04-06
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-08-16
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

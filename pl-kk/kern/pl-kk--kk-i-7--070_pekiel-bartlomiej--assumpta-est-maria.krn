@@ -7,6 +7,8 @@
 !!!OTL: Assumpta est Maria
 !!!PDT: 1663
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.7
 !!!SMS-shelfwork: 070 W
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: F
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
 *I"[Baſso]	*	*I"[Tenore]	*	*I"[Alto]	*	*I"[Canto]	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
@@ -38,10 +40,7 @@
 *met(C|)	*	*met(C|)	*	*met(C|)	*	*met(C|)	*
 *mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
-*	*	*	*	*	*	*xywh-#63:7315,3529,6346,1155	*
-*	*	*	*	*xywh-#150:1013,1197,6429,1027	*	*	*
-*	*	*xywh-#226:7074,3431,6626,1437	*	*	*	*	*
-*xywh-#313:7248,1643,6469,1012	*	*	*	*	*	*	*
+*xywh-#313:7248,1643,6469,1012	*	*xywh-#226:7074,3431,6626,1437	*	*xywh-#150:1013,1197,6429,1027	*	*xywh-#63:7315,3529,6346,1155	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 !LO:TX:t=P:problem=przed kluczem inicjał A	!	!	!	!LO:TX:t=P:problem=przed kluczem inicjał A	!	!LO:TX:t=P:problem=przed kluczem inicjał A	!
 !	!	!LO:TX:t=P:problem=przed kluczem inicjał A	!	!	!	!	!
@@ -164,8 +163,7 @@
 .	.	.	.	4f\	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!LO:PB:g=original	!
 =10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-
-*	*	*	*	*	*	*xywh-#64:1072,517,6039,950	*
-*xywh-#313:7338,2258,6131,982	*	*	*	*	*	*	*
+*xywh-#313:7338,2258,6131,982	*	*	*	*	*	*xywh-#64:1072,517,6039,950	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 0C/	cae-	1G/	-ri-	2.e-X\	.	2.c/	-ri-
 .	.	.	.	4d\	.	4d\	.
@@ -942,13 +940,11 @@
 !!!RDF**kern: l = terminal long
 !!LO:MO:end
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r | tie -s  | humtr -p | modori -m
-!!!EED: Leszek Kubiak
-!!!EEV: 2021-03-18
 !!!ENC: Andrzej Borzym
 !!!END: 2021-03-03
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-03-18
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-07-14
 !!!ENC-iiif: Bartosz Żurakowski
 !!!END-iiif: 2022-09-19
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

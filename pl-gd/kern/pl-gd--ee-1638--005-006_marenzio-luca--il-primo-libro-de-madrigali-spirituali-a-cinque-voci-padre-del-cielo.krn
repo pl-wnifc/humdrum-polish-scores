@@ -9,6 +9,8 @@
 !!!OMV: 006
 !!!PDT: 1588
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-GD
 !!!SMS-shelfmark: Ee 1638
 !!!SMS-shelfwork: 005-006 G
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 2 tenor
 !!!key:
 **kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part5	*part5	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff5	*staff5	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part5	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff5	*	*staff2	*	*staff1	*
 *I"BASSO	*	*I"TENORE	*	*I"QVINTO	*	*I"ALTO	*	*I"CANTO	*
 *mI"Basso	*	*mI"Tenore II	*	*mI"Tenore I	*	*mI"Alto	*	*mI"Soprano	*
 *I'B	*	*I'T	*	*I'Q	*	*I'A	*	*I'S	*
@@ -411,12 +413,10 @@
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(*)]
 !!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | autostem -r | tie -s | humtr -p | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"  | shed -e "s/-//B" | modori -m
 !!!ENC: Filip Voros
 !!!END: 2022-06-28
-!!!ENC: Andrzej Borzym
-!!!END: 2022-07-15
+!!!EED: Andrzej Borzym
+!!!EEV: 2022-07-15
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-08-16
-!!!filter-modern: sic -sq | autostem -r | tie -s | humtr -p | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"  | shed -e "s/-//B" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

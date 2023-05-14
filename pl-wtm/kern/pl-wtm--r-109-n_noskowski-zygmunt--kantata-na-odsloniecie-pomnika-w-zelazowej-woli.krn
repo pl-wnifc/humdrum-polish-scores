@@ -7,6 +7,8 @@
 !!!OTL: Kantata na odsłonięcie pomnika w Żelazowej Woli
 !!!PDT: 1894
 !!!AGN: Secular; Cantata
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 109/N
 !!!SMS-shelfwork: W
@@ -23,7 +25,7 @@
 !!!AIN: 1 bdrum 2 clars 1 cor 1 drumP 1 fagot 2 flt 1 oboe 1 piatt 2 tromp 1 tromt 1 tuba
 !!!key:
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part13	*part13	*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*part13	*	*part12	*	*part11	*	*part10	*	*part9	*	*part8	*	*part7	*	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
 *staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Ibdrum&Ipiatt	*	*IdrumP	*	*Ituba	*	*Itromt	*	*Itromp	*	*Itromp	*	*Icor	*	*Ifagot	*	*Iclars	*	*Iclars	*	*Ioboe	*	*Iflt	*	*Iflt	*
 *I"Gr. Casſa e Piatti	*	*I"Tamburro petit	*	*I"Trombone 3o e Tuba	*	*I"2 Tromboni	*	*I"Tromba 2da	*	*I"Tromba Ima in B	*	*I"2 Corni	*	*I"2 Fagotti	*	*I"Clarinetto 2do	*	*I"Clarinetto Io in B	*	*I"2 Oboi	*	*I"Flauto 2do	*	*I"Flauto Io	*
@@ -1825,12 +1827,10 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**dynam: < = cresc
-!!!ENC-modern: Leszek Kubiak
-!!!END-modern: 2022-08-15
-!!!EED: Andrzej Borzym
-!!!EEV: 2021-08-10
+!!!filter-modern: sic -sq | autostem -r | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -k -e "s/yy//" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:t=/LO:dy:t=/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-07-29
-!!!filter-modern: sic -sq | autostem -r | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -k -e "s/yy//" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:t=/LO:dy:t=/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Andrzej Borzym
+!!!EEV: 2021-08-10
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-08-15

@@ -7,6 +7,8 @@
 !!!OTL: O adoranda trinitas
 !!!PDT: 1663
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.7
 !!!SMS-shelfwork: 069 W
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: g:dor
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
 *I"[Baſso]	*	*I"[Tenore]	*	*I"[Alto]	*	*I"[Canto]	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
@@ -38,10 +40,7 @@
 *met(C|)	*	*met(C|)	*	*met(C|)	*	*met(C|)	*
 *mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
-*xywh-#313:1096,2302,6126,1066	*	*	*	*	*	*	*
-*	*	*xywh-#226:698,3515,6566,1346	*	*	*	*	*
-*	*	*	*	*xywh-#149:7379,1125,6433,1002	*	*	*
-*	*	*	*	*	*	*xywh-#63:1216,3648,5960,1013	*
+*xywh-#313:1096,2302,6126,1066	*	*xywh-#226:698,3515,6566,1346	*	*xywh-#149:7379,1125,6433,1002	*	*xywh-#63:1216,3648,5960,1013	*
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 !LO:TX:a:t=P:problem=przed kluczem inicjał O	!	!LO:TX:a:t=P:problem=przed kluczem inicjał O	!	!LO:TX:a:t=P:problem=przed kluczem inicjał O	!	!	!
 *	*	*	*	*lig	*	*	*
@@ -153,9 +152,7 @@
 *	*	*	*	*	*	*custos:a	*
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	.	.	.	.	8g\J	.
-*	*	*xywh-#226:7232,457,6200,1039	*	*	*	*	*
-*	*	*	*	*xywh-#149:7299,1716,6142,1072	*	*	*
-*	*	*	*	*	*	*xywh-#63:7234,525,6118,843	*
+*	*	*xywh-#226:7232,457,6200,1039	*	*xywh-#149:7299,1716,6142,1072	*	*xywh-#63:7234,525,6118,843	*
 !	!	!LO:PB:g=original	!	!LO:LB:g=original	!	!LO:PB:g=original	!
 .	.	4c\	Ve-	4A\	.	2a\	.
 .	.	4d\	-ne-	4B-\	.	.	.
@@ -272,8 +269,7 @@
 *	*	*custos:G	*	*	*	*	*
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 .	.	4A/	-ni-	.	.	.	.
-*	*	*xywh-#226:7300,1141,6021,871	*	*	*	*	*
-*	*	*	*	*	*	*xywh-#63:7239,1136,6138,833	*
+*	*	*xywh-#226:7300,1141,6021,871	*	*	*	*xywh-#63:7239,1136,6138,833	*
 !	!	!LO:LB:g=original	!	!	!	!LO:LB:g=original	!
 2G,\	-tas	2G,/	-tas,	4d\	ſu-	2r	.
 .	.	.	.	4c\	.	.	.
@@ -549,8 +545,7 @@
 !LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!	!
 =42-	=42-	=42-	=42-	=42-	=42-	=42-	=42-
 *	*	*	*	*custos:d	*	*	*
-*xywh-#313:7333,1077,6085,942	*	*	*	*	*	*	*
-*	*	*xywh-#226:7260,2884,6130,970	*	*	*	*	*
+*xywh-#313:7333,1077,6085,942	*	*xywh-#226:7260,2884,6130,970	*	*	*	*	*
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 4D\	-ni-	4A/	in-	1r	.	4f\	Sae-
 4E\	-ta	4G/	-fi-	.	.	4c#X/	.
@@ -615,11 +610,9 @@
 !!!RDF**kern: l = terminal long
 !!LO:MO:end
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r | tie -s  | humtr -p | modori -m
-!!!EED: Leszek Kubiak
-!!!EEV: 2021-03-18
 !!!ENC: Andrzej Borzym
 !!!END: 2021-03-03
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-03-18
 !!!ENC-iiif: Bartosz Żurakowski
 !!!END-iiif: 2022-09-19
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

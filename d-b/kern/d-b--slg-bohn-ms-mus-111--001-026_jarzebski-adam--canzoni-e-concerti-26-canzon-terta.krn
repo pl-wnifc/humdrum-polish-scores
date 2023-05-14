@@ -2,13 +2,15 @@
 !!!cenid: 16xx:1799
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
-!!!CDT:
-!!!CNT:
+!!!CDT: 1590-1648
+!!!CNT: Polish
 !!!GTL: Canzoni e Concerti
 !!!OTL: 26. Canzon Terta
 !!!OMV: 026
 !!!PDT: 1627
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-B
 !!!SMS-shelfmark: Slg Bohn Ms.mus. 111
 !!!SMS-shelfwork: 001-026 G
@@ -24,7 +26,7 @@
 !!!AIN: 1 bass 2 soprn 1 vox
 !!!key: a
 **kern	**fba	**kern	**kern	**kern	**kern
-*part5	*part5	*part4	*part3	*part2	*part1
+*part5	*	*part4	*part3	*part2	*part1
 *staff5	*	*staff4	*staff3	*staff2	*staff1
 *I"[Organo]	*	*I"Baſso.	*I"Tertia Vox.	*I"Secunda Vox.	*I"Prima Vox.
 *I'bc	*	*I'B	*I'V 3	*I'V 2	*I'V 1
@@ -973,10 +975,8 @@
 !!!system-decoration: [(s1,s2,s3,s4)]s5
 !!!RDF**kern: i = editorial accidental
 !!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | autostem -r | tie -si | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Anastazja Marusiak
 !!!END: 2022-11-07
-!!!ENC: Jan Barakat
-!!!END: 2022-11-25
-!!!filter-modern: sic -sq | autostem -r | tie -si | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Jan Barakat
+!!!EEV: 2022-11-25

@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-STAb
 !!!SMS-shelfmark: 10a
 !!!SMS-shelfwork: 001-005 M
@@ -26,9 +28,9 @@
 !!!AIN: 3 empty 1 organ 1 tenor 2 violn 1 vox
 !!!key: G
 **kern	**fba	**kern	**dynam	**kern	**dynam	**kern	**text	**kern	**text	**kern	**kern	**dynam	**kern	**dynam
-*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part2	*part2	*part1	*part1
-*group4	*	*group3	*	*group3	*	*group2	*group2	*group2	*group2	*group2	*group1	*	*group1	*
-*staff8	*	*staff7	*	*staff6	*	*staff5	*staff5	*staff4	*staff4	*staff3	*staff2	*	*staff1	*
+*group4	*	*group3	*	*group3	*	*group2	*	*group2	*	*group2	*group1	*	*group1	*
+*part8	*	*part7	*	*part6	*	*part5	*	*part4	*	*part3	*part2	*	*part1	*
+*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*staff2	*	*staff1	*
 *Iorgan	*	*Ivioln	*	*Ivioln	*	*Iempty	*	*Itenor	*	*Ivox	*Iempty	*	*Iempty	*
 *I"Organo	*	*I"Violino Secundo	*	*I"Violino Primo	*	*I"Baſso	*	*I"Tenore	*	*I"Canto	*I"Cornu Secundo in G.	*	*I"Cornu Primo in G.	*
 *	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*	*mI"Soprano	*mI"Corno II in G	*	*mI"Corno I in G	*
@@ -2129,9 +2131,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -e "s/yy//" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/:problem(:?)/:PROBLEM$1/L" | modori -m
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-19
-!!!ENC: Leszek Kubiak
-!!!END: 2021-11-29
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-11-29
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-06-23
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

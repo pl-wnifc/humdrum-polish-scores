@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-624
 !!!SMS-shelfwork: 001-004 M
@@ -25,11 +27,10 @@
 !!!key: F
 !!!OMD:
 !!!OMD-mod: Adagio
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -ke "s/\[y(?!y)/[/g" | shed -k -e "s/LO:N:xstem/LO:n:xstem/L" | shed -k -e "s/[<>]//g" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *	*	*	*group4	*	*group4	*	*group4	*	*group3	*	*	*group3	*	*	*group3	*	*	*group3	*	*	*group2	*	*group2	*	*group1	*	*group1	*
-*part12	*	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*	*part7	*part7	*part7	*part6	*part6	*	*part5	*part5	*	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff12	*	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*	*staff7	*	*	*staff6	*staff6	*	*staff5	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part12	*	*	*part11	*	*part10	*	*part9	*	*part8	*	*	*part7	*	*	*part6	*	*	*part5	*	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff12	*	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*	*staff7	*	*	*staff6	*	*	*staff5	*	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Organo.	*	*	*I"Alto Viola.	*	*I"Violino Secondo.	*	*I"Violino Primo	*	*I"Baſso.	*	*	*I"Tenore.	*	*	*I"Alto.	*	*	*I"Canto.	*	*	*I"Cornu 2.do in F.	*	*I"Cornu Primo. in F.	*	*I"Flauto 2do	*	*I"Flauto Primo.	*
 *mI"Organo	*	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*	*mI"Corno II in F	*	*mI"Corno I in F	*	*mI"Flauto II	*	*mI"Flauto I	*
 *I'org	*	*	*I'a-vla	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'cor 2	*	*I'cor 1	*	*I'fl 2	*	*I'fl 1	*
@@ -893,11 +894,10 @@
 !!!RDF**dynam: < = Creſ:
 !!LO:MO:end
 !!!RDF**kern: | = vertical stroke
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -ke "s/\[y(?!y)/[/g" | shed -k -e "s/LO:N:xstem/LO:n:xstem/L" | shed -k -e "s/[<>]//g" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 !!!ENC: Andrzej Borzym
 !!!END: 2020-10-01
 !!!EED: Andrzej Borzym
 !!!EEV: 2022-01-15
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

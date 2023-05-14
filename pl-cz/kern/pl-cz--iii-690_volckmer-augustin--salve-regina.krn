@@ -7,6 +7,8 @@
 !!!OTL: Salve Regina
 !!!PDT:
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-690
 !!!SMS-shelfwork: W
@@ -25,8 +27,8 @@
 !!!OMD-mod: Allegro
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *group4	*	*group4	*	*group4	*	*group4	*	*group3	*	*	*group3	*	*	*group2	*	*group2	*	*group1	*	*group1	*	*group1	*	*group1	*	*group1	*	*group1	*	*group1	*
-*part15	*part15	*part14	*part14	*part13	*part13	*part12	*part12	*part11	*part11	*part11	*part10	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff15	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*staff11	*staff11	*staff10	*staff10	*staff10	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part15	*	*part14	*	*part13	*	*part12	*	*part11	*	*	*part10	*	*	*part9	*	*part8	*	*part7	*	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff15	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*	*	*staff10	*	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Baſso	*	*I"Alto Viola	*	*I"Violino Secondo.	*	*I"Violino Primo.	*	*I"Alto Solo	*	*	*I"Canto	*	*	*I"Cornu Secondo in B.	*	*I"Cornu Primo in B.	*	*I"Fagotto Secondo	*	*I"Fagotto Primo.	*	*I"Clarinetto Secondo	*	*I"Clarinetto Primo	*	*I"Oboe Secondo	*	*I"Oboe Primo.	*	*I"Flauto	*
 *mI"Basso	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Alto	*	*	*mI"Soprano	*	*	*mI"Corno II in B	*	*mI"Corno I in B	*	*mI"Fagotto II	*	*mI"Fagotto I	*	*mI"Clarinetto II	*	*mI"Clarinetto I	*	*mI"Oboe II	*	*mI"Oboe I	*	*	*
 *I'cb	*	*I'a-vla	*	*I'vl 2	*	*I'vl 1	*	*I'A solo	*	*	*I'S	*	*	*I'cor 2	*	*I'cor 1	*	*I'fag 2	*	*I'fag 1	*	*I'cl 2	*	*I'cl 1	*	*I'ob 2	*	*I'ob 1	*	*I'fl	*
@@ -3758,9 +3760,7 @@
 !!!filter-modern: sic -sq | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/yy//" | humtr -p | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2020-11-13
-!!!ENC: Marta Lawrence
-!!!END: 2022-04-16
+!!!EED: Marta Lawrence
+!!!EEV: 2022-04-16
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-06-23
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

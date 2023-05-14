@@ -9,6 +9,8 @@
 !!!OMV: 011
 !!!PDT:
 !!!AGN: Secular; Song
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 66/N
 !!!SMS-shelfwork: 001-011 G
@@ -25,8 +27,8 @@
 !!!AIN: 1 bass 1 tenor
 !!!key:
 **kern	**dynam	**text	**mod-text	**mod-text	**kern	**dynam	**text	**text
-*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1
-*staff2	*	*staff2	*staff2	*staff2	*staff1	*	*staff1	*staff1
+*part2	*	*	*	*	*part1	*	*	*
+*staff2	*	*	*	*	*staff1	*	*	*
 *Ibass	*	*	*	*	*Itenor	*	*	*
 *I"Basy	*	*	*	*	*I"Tenory	*	*	*
 *mI"Bassi	*	*	*	*	*mI"Tenori	*	*	*
@@ -262,9 +264,7 @@
 !!!filter-modern: humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-06-09
-!!!ENC: Krzysztof Stępień
-!!!END: 2021-06-01
+!!!EED: Krzysztof Stępień
+!!!EEV: 2021-06-01
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-08-22
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

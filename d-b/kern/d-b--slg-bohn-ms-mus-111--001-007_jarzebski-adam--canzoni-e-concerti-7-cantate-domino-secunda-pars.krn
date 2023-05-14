@@ -2,13 +2,15 @@
 !!!cenid: 16xx:1780
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
-!!!CDT:
-!!!CNT:
+!!!CDT: 1590-1648
+!!!CNT: Polish
 !!!GTL: Canzoni e Concerti
 !!!OTL: 7. Cantate Domino – Secunda Pars
 !!!OMV: 007
 !!!PDT: 1627
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-B
 !!!SMS-shelfmark: Slg Bohn Ms.mus. 111
 !!!SMS-shelfwork: 001-007 G
@@ -23,10 +25,9 @@
 !!!ONB-nifc: UWAGA: Prima vox: s. 12-13, Seconda vox: s. 72-73, Basso continuo: s. 168-169. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 1 empty 1 tenor 1 vox
 !!!key: d:dor
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/#X/#/g" | shed -k -e "s/-X/-/g" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 **kern	**fba	**kern	**dynam	**kern	**dynam
-*part3	*	*part2	*part2	*part1	*part1
 *	*	*group1	*	*group1	*
+*part3	*	*part2	*	*part1	*
 *staff3	*	*staff2	*	*staff1	*
 *Iempty	*	*Itenor	*	*Ivox	*
 *I"Baſso Continúo.	*	*I"Tenore.	*	*I"Canto.	*
@@ -309,7 +310,7 @@
 1E	.	8E\	.	8r	.
 *	*	*custos:e	*	*	*
 !	!	!LO:LB:g=original	!	!	!
-!	!	!LO:MO:mod=*null:null	!	!	!
+!	!	!LO:MO:mod=*null	!	!	!
 *	*	*clefC4	*	*	*
 .	.	8.e\L	.	8.gg\L	.
 .	.	16d\L	.	16ff\L	.
@@ -340,7 +341,7 @@
 .	.	.	.	16f#X/	.
 !	!	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	.	.	16d/JJ	.
-!	!	!LO:MO:mod=*null:null	!	!	!
+!	!	!LO:MO:mod=*null	!	!	!
 *	*	*clefF4	*	*	*
 =25-	=25-	=25-	=25-	=25-	=25-
 !LO:N:xstem:cue	!	!	!	!	!
@@ -1476,11 +1477,10 @@
 !!!RDF**kern: < = below
 !!!RDF**kern: i = editorial accidental
 !!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/#X/#/g" | shed -k -e "s/-X/-/g" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 !!!ENC: Filip Voros
 !!!END: 2022-11-02
-!!!ENC: Katarzyna Serwa
+!!!EED: Katarzyna Serwa
+!!!EEV: 2022-11-17
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-29
-!!!END: 2022-11-17
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

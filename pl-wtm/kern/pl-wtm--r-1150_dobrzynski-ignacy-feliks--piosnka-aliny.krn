@@ -7,6 +7,8 @@
 !!!OTL: Piosnka Aliny
 !!!PDT: 1862
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 1150
 !!!SMS-shelfwork: W
@@ -22,8 +24,8 @@
 !!!AIN: 1 forte 1 vox
 !!!key:
 **kern	**fing	**kern	**dynam	**kern	**text	**text	**dynam
-*part2	*	*part2	*part2	*part1	*part1	*part1	*part1
-*staff3	*	*staff2	*	*staff1	*staff1	*staff1	*
+*part2	*	*part2	*	*part1	*	*	*
+*staff3	*	*staff2	*	*staff1	*	*	*
 *Iforte	*	*Iempty	*	*Ivox	*	*	*
 *I"Fortepian	*	*	*	*I"Głos	*	*	*
 *mI"Pianoforte	*	*	*	*mI"Voce	*	*	*
@@ -371,11 +373,9 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!filter-modern: sic -sq | autostem -r | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
-!!!ENC-modern: Leszek Kubiak
-!!!END-modern: 2022-07-19
 !!!ENC: Marta Lawrence
 !!!END: 2021-04-12
-!!!ENC: Anastazja Marusiak
-!!!END: 2021-04-06
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Anastazja Marusiak
+!!!EEV: 2021-04-06
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-19

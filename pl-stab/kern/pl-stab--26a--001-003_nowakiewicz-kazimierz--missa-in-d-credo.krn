@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT: 1810
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-STAb
 !!!SMS-shelfmark: 26a
 !!!SMS-shelfwork: 001-003 M
@@ -27,8 +29,8 @@
 !!!OMD-mod: Allegro
 **kern	**dynam	**kern	**dynam	**mod-dynam	**kern	**dynam	**kern	**kern	**text	**dynam	**mod-dynam	**kern	**text	**dynam	**mod-dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *	*	*group4	*	*	*group4	*	*group4	*group3	*	*	*	*group3	*	*	*	*group3	*	*	*group3	*	*	*group2	*	*group2	*	*group1	*	*group1	*
-*part12	*part12	*part11	*	*	*part10	*part10	*part9	*part8	*part8	*	*	*part7	*part7	*	*	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff12	*	*staff11	*	*	*staff10	*	*staff9	*staff8	*staff8	*	*	*staff7	*staff7	*	*	*staff6	*staff6	*	*staff5	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part12	*	*part11	*	*	*part10	*	*part9	*part8	*	*	*	*part7	*	*	*	*part6	*	*	*part5	*	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff12	*	*staff11	*	*	*staff10	*	*staff9	*staff8	*	*	*	*staff7	*	*	*	*staff6	*	*	*staff5	*	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Organo.	*	*I"Alto Viola	*	*	*I"Violino SecuNdo 1mo	*	*I"[Violino 1]	*I"Baſso	*	*	*	*I"Tenor	*	*	*	*I"Alto	*	*	*I"Canto	*	*	*I"Clarino Secundo et Cornu	*	*I"Clarino Primo et Cornu	*	*I"Oboe Secundo	*	*I"Oboe Primo	*
 *mI"Organo	*	*mI"Viola	*	*	*mI"Violino II	*	*mI"[Violino I]	*mI"Basso	*	*	*	*mI"Tenore	*	*	*	*	*	*	*mI"Soprano	*	*	*mI"Clarino II et Corno in D	*	*mI"Clarino I et Corno in D	*	*mI"Oboe II	*	*mI"Oboe I	*
 *I'org	*	*I'vla	*	*	*I'vl 2	*	*I'[vl 1]	*I'B	*	*	*	*I'T	*	*	*	*I'A	*	*	*I'S	*	*	*I'clno 2 and cor	*	*I'clno 1 and cor	*	*I'ob 2	*	*I'ob 1	*
@@ -958,9 +960,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Marta Opryszak
 !!!END: 2021-12-23
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-12-29
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-12-29
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-08-24
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

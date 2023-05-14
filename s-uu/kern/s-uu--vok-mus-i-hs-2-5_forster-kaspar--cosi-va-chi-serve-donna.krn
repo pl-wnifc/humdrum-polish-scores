@@ -7,6 +7,8 @@
 !!!OTL: Così va chi serve donna
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: S-Uu
 !!!SMS-shelfmark: Vok. mus. i hs. 2:5
 !!!SMS-shelfwork: W
@@ -21,11 +23,10 @@
 !!!ONB-nifc: UWAGA: poszczególne partie dostępne po kliknięciu w „browse part”. Informacje nt stron tytułowych w opisie na stronie lub na RISM.
 !!!AIN: 1 bass 2 soprn
 !!!key: g
-!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**fba	**dynam	**kern	**fba	**dynam	**text	**mod-text	**kern	**dynam	**text	**mod-text	**kern	**dynam	**text	**mod-text
 *	*	*	*group1	*	*	*	*	*group1	*	*	*	*group1	*	*	*
-*part4	*	*part4	*part3	*	*part3	*part3	*part3	*part2	*part2	*part2	*part2	*part1	*	*part1	*part1
-*staff4	*	*	*staff3	*	*	*staff3	*staff3	*staff2	*	*staff2	*staff2	*staff1	*	*staff1	*staff1
+*part4	*	*	*part3	*	*	*	*	*part2	*	*	*	*part1	*	*	*
+*staff4	*	*	*staff3	*	*	*	*	*staff2	*	*	*	*staff1	*	*	*
 *I"[bc]	*	*	*I"Basso.	*	*	*	*	*I"Sop. 2	*	*	*	*I"Sop. 1. Sop:	*	*	*
 *mI"Basso continuo	*	*	*mI"Basso	*	*	*	*	*mI"Soprano II	*	*	*	*mI"Soprano I	*	*	*
 *I'[bc]	*	*	*I'B	*	*	*	*	*I'S 2	*	*	*	*I'S 1	*	*	*
@@ -335,11 +336,10 @@
 =:|!-	=:|!-	=:|!-	=:|!-	=:|!-	=:|!-	=:|!-	=:|!-	=:|!-	=:|!-	=:|!-	=:|!-	=:|!-	=:|!-	=:|!-	=:|!-
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(g1)]s4
+!!!filter-modern: sic -sq | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-01-21
 !!!EED: Andrzej Borzym
 !!!EEV: 2022-01-29
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-06
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

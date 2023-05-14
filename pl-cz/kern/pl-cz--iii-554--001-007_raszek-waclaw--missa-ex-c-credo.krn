@@ -9,6 +9,8 @@
 !!!OMV: 007
 !!!PDT: 1780
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-554
 !!!SMS-shelfwork: 001-007 M
@@ -24,10 +26,9 @@
 !!!AIN: 1 alto 1 cello 6 empty 2 oboe 1 tenor 1 violn 1 vox
 !!!key: C
 !!!OMD: Allegro
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**kern	**kern	**kern
-*part13	*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part3	*part2	*part1
-*staff13	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff8	*staff7	*staff7	*staff6	*staff6	*staff5	*staff5	*staff4	*staff3	*staff2	*staff1
+*part13	*part12	*	*part11	*	*part10	*	*part9	*	*part8	*	*part7	*	*part6	*	*part5	*	*part4	*part3	*part2	*part1
+*staff13	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*staff3	*staff2	*staff1
 *Iempty	*Icello	*	*Iempty	*	*Ivioln	*	*Iempty	*	*Iempty	*	*Itenor	*	*Ialto	*	*Ivox	*	*Iempty	*Iempty	*Ioboe	*Ioboe
 *I"Organo Concertato	*I"Violone.	*	*I"Viola di Alto. oblig.	*	*I"Violino 2do.	*	*I"Violino I.mo	*	*I"Baſso.	*	*I"Tenore.	*	*I"Alto.	*	*I"Canto.	*	*I"Clarino 2.do Ex C.	*I"Clarino I.mo Ex C.	*I"Oboe Secundo.	*I"Oboe Primo.
 *mI"Organo	*mI"Violone	*	*mI"Viola obligato	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*	*mI"Clarino II in C	*mI"Clarino I in C	*mI"Oboe II	*mI"Oboe I
@@ -744,9 +745,8 @@
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2)],[(s3,s4)],[(s5,s6,s7,s8)],[(s9,s10,s11,s12)],s13
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 !!!ENC: Mateusz Solarz
 !!!END: 2020-09-21
-!!!ENC: Leszek Kubiak
-!!!END: 2022-02-01
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Leszek Kubiak
+!!!EEV: 2022-02-01

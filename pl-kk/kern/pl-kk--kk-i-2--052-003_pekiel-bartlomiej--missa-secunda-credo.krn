@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.2
 !!!SMS-shelfwork: 052-003 M
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: F:ion
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"BASVS	*	*I"TENOR	*	*I"ALTVS	*	*I"DISCANTVS	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
 *Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
@@ -650,8 +652,7 @@
 .	.	2.F/	.	2.d\	.	.	.
 !LO:SIC:v:t=custos BB	!	!	!	!	!	!LO:SIC:v:t=custos d	!
 4C/	.	.	.	.	.	4e\	.
-*	*	*	*	*	*	*xywh-#93:8103,3077,6060,1026	*
-*xywh-#398:8091,1657,6554,1167	*	*	*	*	*	*	*
+*xywh-#398:8091,1657,6554,1167	*	*	*	*	*	*xywh-#93:8103,3077,6060,1026	*
 !LO:LB:g=original	!	!	!	!	!	!LO:LB:g=original	!
 4BB-/	.	.	.	.	.	4d\	.
 4AA/	.	8G/L	.	4c\	.	8e\L	.
@@ -1262,8 +1263,7 @@
 1F	-t)um	.	.	2A/	.	2c/	-vi-
 !	!	!	!	!	!	!LO:SIC:v:t=custos e-	!
 .	.	.	.	2B-\	.	2d/	-fi-
-*	*	*	*	*	*	*xywh-#94:7989,618,6462,1149	*
-*	*	*xywh-#297:1465,1558,6253,1082	*	*	*	*	*
+*	*	*xywh-#297:1465,1558,6253,1082	*	*	*	*xywh-#94:7989,618,6462,1149	*
 !	!	!LO:LB:g=original	!	!	!	!LO:PB:g=original	!
 =128-	=128-	=128-	=128-	=128-	=128-	=128-	=128-
 0E-X	Sa(n)-	1r	.	0c	.	1.e-X	-can-
@@ -1593,8 +1593,7 @@
 .	.	.	.	8A\J	.	.	.
 !	!	!	!	!	!	!LO:SIC:v:t=custos f	!
 .	.	.	.	4B-\	.	4e\	.
-*	*	*	*	*	*	*xywh-#94:7979,3821,6663,1350	*
-*xywh-#399:8217,1724,6259,939	*	*	*	*	*	*	*
+*xywh-#399:8217,1724,6259,939	*	*	*	*	*	*xywh-#94:7979,3821,6663,1350	*
 !LO:LB:g=original	!	!	!	!	!	!LO:LB:g=original	!
 =163-	=163-	=163-	=163-	=163-	=163-	=163-	=163-
 2FFny/	-cto	4.c\	re-	2A/	-cto	2f\	-cto
@@ -1908,11 +1907,9 @@
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -k -e "s/[<>]//g" | humtr -p | shed -e "s/^custos:/Xcustos:/I" | modori -m
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-05-11
-!!!ENC: Andrzej Kubiczek
-!!!END: 2022-05-15
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2022-05-15
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-06-27
 !!!ENC-iiif: Marta Opryszak
 !!!END-iiif: 2022-09-08
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

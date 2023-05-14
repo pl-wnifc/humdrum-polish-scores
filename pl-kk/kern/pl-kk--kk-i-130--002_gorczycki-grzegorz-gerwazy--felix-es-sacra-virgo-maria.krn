@@ -7,6 +7,8 @@
 !!!OTL: Felix es sacra virgo Maria
 !!!PDT:
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.130
 !!!SMS-shelfwork: 002 W
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 2 empty 1 tenor 1 vox
 !!!key:
 **kern	**fba	**text	**mod-text	**kern	**dynam	**text	**mod-text	**kern	**dynam	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
-*part5	*	*part5	*part5	*part4	*part4	*part4	*part4	*part3	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff5	*	*staff5	*staff5	*staff4	*	*staff4	*staff4	*staff3	*	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part5	*	*	*	*part4	*	*	*	*part3	*	*	*	*part2	*	*	*part1	*	*
+*staff5	*	*	*	*staff4	*	*	*	*staff3	*	*	*	*staff2	*	*	*staff1	*	*
 *Iempty	*	*	*	*Iempty	*	*	*	*Itenor	*	*	*	*Ialto	*	*	*Ivox	*	*
 *I"Baſso Ripieno.	*	*	*	*I"Baſso.	*	*	*	*I"Tenore	*	*	*	*I"Alto.	*	*	*I"Canto.	*	*
 *mI"Basso ripieno	*	*	*	*mI"Basso	*	*	*	*	*	*	*	*mI"Alto	*	*	*mI"Soprano	*	*
@@ -181,8 +183,7 @@
 .	.	.	.	.	.	.	.	1G,<	.	Te	te	2.g\	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	2bn\	-a	-a
 .	.	.	.	.	.	.	.	.	.	.	.	4f\	.	.	.	.	.
-*	*	*	*	*	*	*	*	*	*	*	*	*xywh-pl-kk--i-130--0013:396,1605,5066,727	*	*	*	*	*
-*	*	*	*	*	*	*	*	*xywh-pl-kk--i-130--0015:412,1568,5104,786	*	*	*	*	*	*	*	*	*
+*	*	*	*	*	*	*	*	*xywh-pl-kk--i-130--0015:412,1568,5104,786	*	*	*	*xywh-pl-kk--i-130--0013:396,1605,5066,727	*	*	*	*	*
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!LO:LB:g=original	!	!	!	!	!
 =29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
 00r	.	.	.	00r	.	.	.	4C/	.	or-	or-	2.e-X\	.	.	1cc	ex	ex
@@ -332,8 +333,7 @@
 .	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 *	*	*	*	*	*	*	*	*custos:d	*	*	*	*custos:f	*	*	*	*	*
 2F\	x 3	-ti-	-ti-	2F\	.	-ti-	-ti-	2c\	.	-ti-	-ti-	2f\	-ti-	-ti-	2an\	-ti-	-ti-
-*	*	*	*	*	*	*	*	*	*	*	*	*xywh-pl-kk--i-130--0013:389,2559,5052,720	*	*	*	*	*
-*	*	*	*	*	*	*	*	*xywh-pl-kk--i-130--0015:433,2645,4983,730	*	*	*	*	*	*	*	*	*
+*	*	*	*	*	*	*	*	*xywh-pl-kk--i-130--0015:433,2645,4983,730	*	*	*	*xywh-pl-kk--i-130--0013:389,2559,5052,720	*	*	*	*	*
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!LO:LB:g=original	!	!	!	!	!
 =61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61
 2BB-,</	.	-ae	-ae,	2BB-,</	.	-ae	-ae,	2d,<\	.	-ae	-ae,	2f,<\	-ae	-ae,	2b-,<\	-ae	-ae,
@@ -709,11 +709,9 @@
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | rid -li
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-02-14
-!!!ENC: Marta Lawrence
-!!!END: 2021-02-17
+!!!EED: Marta Lawrence
+!!!EEV: 2021-02-17
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-07-06
 !!!ENC-iiif: Marta Opryszak
 !!!END-iiif: 2022-08-27
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

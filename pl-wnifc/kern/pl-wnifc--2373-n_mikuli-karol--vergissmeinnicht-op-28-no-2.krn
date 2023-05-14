@@ -7,6 +7,8 @@
 !!!OTL: Vergissmeinnicht op. 28 no. 2
 !!!PDT: 1880
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wnifc
 !!!SMS-shelfmark: 2373/n
 !!!SMS-shelfwork: W
@@ -21,12 +23,11 @@
 !!!ONB-nifc:
 !!!AIN: 2 piano 1 soprn 1 tenor
 !!!key: A-
-!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
 !!!OMD:
 !!!OMD-mod: Andantino. [quarter]. = 60
 **kern	**kern	**fing	**dynam	**kern	**text	**dynam	**kern	**text	**dynam
-*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff3	*	*	*staff2	*staff2	*	*staff1	*staff1	*
+*part4	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *I"Pianoforte.	*I"Pianoforte.	*	*	*I"Tenor.	*	*	*I"Sopran.	*	*
 *I'pf	*I'pf	*	*	*I'T	*	*	*I'S	*	*
 *ICklav	*ICklav	*	*	*ICvox	*	*	*ICvox	*	*
@@ -761,11 +762,10 @@
 !!!RDF**kern: N = linked
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-07-23
-!!!ENC: Natalia Wrzos
-!!!END: 2022-08-17
+!!!EED: Natalia Wrzos
+!!!EEV: 2022-08-17
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-27
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT: 1587
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-GD
 !!!SMS-shelfmark: Ee 1638
 !!!SMS-variant:
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: d
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"BASSO	*	*I"TENORE	*	*I"ALTO	*	*I"CANTO	*
 *mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
@@ -38,10 +40,7 @@
 *M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
 *met(C)	*	*met(C)	*	*met(C)	*	*met(C)	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
-*xywh-#183:4624,597,3513,793	*	*	*	*	*	*	*
-*	*	*xywh-#335:4497,523,3488,829	*	*	*	*	*
-*	*	*	*	*xywh-#487:4555,525,3526,854	*	*	*
-*	*	*	*	*	*	*xywh-#639:4605,1218,3439,675	*
+*xywh-#183:4624,597,3513,793	*	*xywh-#335:4497,523,3488,829	*	*xywh-#487:4555,525,3526,854	*	*xywh-#639:4605,1218,3439,675	*
 !	!LO:MO:mod=Veg-	!	!	!	!LO:MO:mod=Veg-	!	!
 1D	VEg-	2r	.	1f	VEg-	1r	.
 !	!	!	!LO:MO:mod=Veg-	!	!	!	!
@@ -420,14 +419,6 @@
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
 !!!RDF**kern: l = terminal long
-!!!ENC: Marta Opryszak
-!!!END: 2022-06-25
-!!!ENC: Julita Ruszuk
-!!!END: 2022-07-23
-!!!ENC-iiif: Lidia Bialucha
-!!!END-iiif: 2022-09-13
-!!!ENC-modern: Krzysztof Stępień
-!!!END-modern: 2022-10-26
 !!!filter-modern: shed -e "s/:t=P:/:T=P:/L"
 !!!filter-modern: shed -e "s/-//B"
 !!!filter-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I"
@@ -446,5 +437,11 @@
 !!!filter-modern: sic -sq
 !!!filter-modern: autostem -r
 !!!filter-modern: modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!ENC: Marta Opryszak
+!!!END: 2022-06-25
+!!!EED: Julita Ruszuk
+!!!EEV: 2022-07-23
+!!!ENC-iiif: Lidia Bialucha
+!!!END-iiif: 2022-09-13
+!!!ENC-modern: Krzysztof Stępień
+!!!END-modern: 2022-10-26

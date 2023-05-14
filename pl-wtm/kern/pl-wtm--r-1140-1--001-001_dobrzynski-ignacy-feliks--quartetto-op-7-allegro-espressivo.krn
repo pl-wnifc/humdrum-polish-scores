@@ -10,6 +10,8 @@
 !!!PDT:
 !!!AGN: Secular; String quartet
 !!!OMD: Allo espreſsivo e moderato.
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 1140/1
 !!!SMS-shelfwork: 001-001 M
@@ -25,8 +27,8 @@
 !!!AIN: 1 cello 2 empty 1 viola
 !!!key:
 **kern	**dynam	**mod-dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*	*	*	*	*	*group1	*group1	*group1	*group1
-*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part1	*part1
+*	*	*	*	*	*group1	*	*group1	*
+*part4	*	*	*part3	*	*part2	*	*part1	*
 *staff4	*	*	*staff3	*	*staff2	*	*staff1	*
 *Icello	*	*	*Iviola	*	*Iempty	*	*Iempty	*
 *I"Violoncello.	*	*	*I"Viola	*	*	*	*I""Violini.	*
@@ -2947,11 +2949,9 @@
 !!!RDF**kern: < = below
 !!!RDF**dynam: > = dimin
 !!!filter-modern: sic -sq | humtr -p |shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/LO:HP:(a|b|rj)/LO:dy:$1/L" | autostem -r | modori -m
-!!!EED: Andrzej Borzym
-!!!EEV: 2021-04-21
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-04-09
+!!!EED: Andrzej Borzym
+!!!EEV: 2021-04-21
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-06
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

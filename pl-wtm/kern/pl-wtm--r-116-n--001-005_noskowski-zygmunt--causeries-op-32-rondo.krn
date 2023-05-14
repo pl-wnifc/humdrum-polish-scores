@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT: 1850
 !!!AGN: Secular; Rondo
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 116/N
 !!!SMS-shelfwork: 001-005 G
@@ -26,7 +28,7 @@
 !!!OMD-mod: Allegretto moderato
 !!!key: A-
 **kern	**fing	**kern	**fing	**dynam
-*part2	*	*part1	*	*part1
+*part2	*	*part1	*	*
 *staff2	*	*staff1	*	*
 *Ipiano	*	*Ipiano	*	*
 *ICklav	*	*ICklav	*	*
@@ -1339,12 +1341,10 @@
 !!!RDF**dynam: > = diminuendo
 !!LO:MO:end
 !!!RDF**kern: | = vertical stroke
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s |  shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-05-02
-!!!ENC: Andrzej Borzym
-!!!END: 2021-05-30
+!!!EED: Andrzej Borzym
+!!!EEV: 2021-05-30
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-08-18
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s |  shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -2,13 +2,15 @@
 !!!cenid: 16xx:1783
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
-!!!CDT:
-!!!CNT:
+!!!CDT: 1590-1648
+!!!CNT: Polish
 !!!GTL: Canzoni e Concerti
 !!!OTL: 10. Susanna videns
 !!!OMV: 010
 !!!PDT: 1627
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-B
 !!!SMS-shelfmark: Slg Bohn Ms.mus. 111
 !!!SMS-shelfwork: 001-010 G
@@ -25,7 +27,7 @@
 !!!key: g
 **kern	**fba	**kern	**kern
 *	*	*group1	*group1
-*part3	*part3	*part2	*part1
+*part3	*	*part2	*part1
 *staff3	*	*staff2	*staff1
 *I"Baſso Continúo.	*	*I"Sopr: è Baſso. Bastarda.	*I"Soprano è Basso.
 *mI"Basso continuo	*	*mI"Soprano|e Basso | Bastarda	*mI"Soprano e Basso
@@ -170,7 +172,7 @@
 .	.	.	8g/J
 *	*	*	*custos:dd
 !	!	!	!LO:LB:g=original
-!	!	!	!LO:MO:mod=*null:null
+!	!	!	!LO:MO:mod=*null
 *	*	*	*clefC1
 *	*	*	*k[b-]
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
@@ -213,7 +215,7 @@
 4A\	.	8B-\	.
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	8A\J	.
-!	!	!	!LO:MO:mod=*null:null
+!	!	!	!LO:MO:mod=*null
 *	*	*	*clefG2
 =17-	=17-	=17-	=17-
 2.G\	.	2G\	8r
@@ -316,9 +318,9 @@
 .	.	8C/	.
 .	.	8BB-/	.
 .	.	8AA/J	.
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefF5	*custos:aa
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*k[b-]	*
 *	*	*custos:GG	*
 !	!	!LO:LB:g=original	!LO:LB:g=original
@@ -354,7 +356,7 @@
 2GG/	.	1GG	1gg
 !LO:MO:null:mod=*clefC4	!	!	!
 *clefC3	*	*	*
-!LO:MO:mod=*null:null	!	!	!
+!LO:MO:mod=*null	!	!	!
 *k[b-]	*	*	*
 1g\	.	.	.
 !	!	!LO:MO:mod=*clefC4	!
@@ -502,9 +504,9 @@
 .	.	.	8dd\J
 .	.	.	8b-/L
 .	.	.	8g/J
-!	!	!	!LO:MO:mod=*null:null
+!	!	!	!LO:MO:mod=*null
 *	*	*	*clefC1
-!	!	!	!LO:MO:mod=*null:null
+!	!	!	!LO:MO:mod=*null
 *	*	*	*k[b-]
 2F\	.	4r	8dd\L
 .	.	.	16cc\L
@@ -550,9 +552,9 @@
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	8A\J	.
 =44-	=44-	=44-	=44-
-!	!	!	!LO:MO:mod=*null:null
+!	!	!	!LO:MO:mod=*null
 *	*	*	*clefG2
-!	!	!	!LO:MO:mod=*null:null
+!	!	!	!LO:MO:mod=*null
 *	*	*	*k[b-]
 2.G\	.	2G\	8r
 .	.	.	8dd\L
@@ -642,7 +644,7 @@
 =51-	=51-	=51-	=51-
 2BB-/	.	2BB-/	2bb-\
 2GG/	.	8r	8r
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefF5	*
 .	.	8G\L	8bb-\L
 .	.	8F\	8aa\
@@ -688,7 +690,7 @@
 .	.	.	4dd\
 .	.	.	4dd\
 .	.	.	4dd\
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefF4	*
 =56-	=56-	=56-	=56-
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
@@ -734,7 +736,7 @@
 .	.	.	4aa\
 =59-	=59-	=59-	=59-
 *	*	*clefC4	*
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*k[b-]	*
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 .	.	4r	4ffny\
@@ -1705,10 +1707,8 @@
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" |shed -k -e "s/-X/-/g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | tie -s | autostem -r  | modori -m
 !!!ENC: Filip Voros
 !!!END: 2022-11-03
-!!!ENC: Natalia Wrzos
-!!!END: 2022-11-12
+!!!EED: Natalia Wrzos
+!!!EEV: 2022-11-12
 !!!EST: revision finshed 2022-11-29
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

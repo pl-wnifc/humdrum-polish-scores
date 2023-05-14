@@ -9,6 +9,8 @@
 !!!OMV: 008
 !!!PDT: 1894
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 71/N
 !!!SMS-shelfwork: 001-008 M
@@ -25,11 +27,10 @@
 !!!key: E
 !!!OMD:
 !!!OMD-mod: Allegro non troppo
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:HP:(a|b|rj)/LO:hp:$1/L" | shed -e "s/yy//" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
 **kern	**kern	**dynam	**kern	**kern	**dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**dynam
-*part7	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part5	*part5	*part5	*part4	*part4	*part4	*part4	*part4	*part3	*part3	*part3	*part3	*part3	*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1
-*staff9	*staff8	*	*staff7	*staff6	*	*staff5	*staff5	*staff5	*	*	*staff4	*staff4	*staff4	*	*	*staff3	*staff3	*staff3	*	*	*staff2	*staff2	*staff2	*	*	*staff1	*staff1	*
-*group	*group	*group	*group	*group	*group	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group1	*group	*group	*group
+*group	*group	*group	*group	*group	*group	*group1	*	*	*	*	*group1	*	*	*	*	*group1	*	*	*	*	*group1	*	*	*	*	*group	*group	*group
+*part7	*part7	*	*part6	*part6	*	*part5	*	*	*	*	*part4	*	*	*	*	*part3	*	*	*	*	*part2	*	*	*	*	*part1	*	*
+*staff9	*staff8	*	*staff7	*staff6	*	*staff5	*	*	*	*	*staff4	*	*	*	*	*staff3	*	*	*	*	*staff2	*	*	*	*	*staff1	*	*
 *Ipiano	*Ipiano	*	*Ipiano	*Ipiano	*	*Iempty	*	*	*	*	*Itenor	*	*	*	*	*Ialto	*	*	*	*	*Isoprn	*	*	*	*	*Itenor	*	*
 *I"[Pianoforte 2do]	*I"[Pianoforte 2do]	*	*I"[Pianoforte 1mo]	*I"[Pianoforte 1mo]	*	*I"Ba	*	*	*	*	*I"Ten	*	*	*	*	*I"Alt	*	*	*	*	*I"Sop	*	*	*	*	*I"Solo Tenor	*	*
 *clefF4	*clefF4	*	*clefG2	*clefG2	*	*clefF4	*	*	*	*	*clefG2	*	*	*	*	*clefG2	*	*	*	*	*clefG2	*	*	*	*	*clefG2	*	*
@@ -1319,11 +1320,10 @@
 !!LO:MO:end
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!EED: Antoni Szymański
-!!!EEV: 2021-05-31
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:HP:(a|b|rj)/LO:hp:$1/L" | shed -e "s/yy//" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
 !!!ENC: Marcin Jachim
 !!!END: 2021-05-13
+!!!EED: Antoni Szymański
+!!!EEV: 2021-05-31
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-21
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -7,6 +7,8 @@
 !!!OTL: Kantata
 !!!PDT:
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: II-147
 !!!SMS-shelfwork: W
@@ -23,8 +25,8 @@
 !!!key: E-
 **kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *group4	*	*group4	*	*group3	*	*	*group3	*	*	*group3	*	*	*group3	*	*	*	*	*	*group2	*	*group2	*	*group1	*	*group1	*
-*part11	*part11	*part10	*part10	*part9	*part9	*part9	*part8	*part8	*part8	*part7	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff11	*	*staff10	*	*staff9	*staff9	*	*staff8	*staff8	*	*staff7	*staff7	*	*staff6	*staff6	*	*staff5	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part11	*	*part10	*	*part9	*	*	*part8	*	*	*part7	*	*	*part6	*	*	*part5	*	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff11	*	*staff10	*	*staff9	*	*	*staff8	*	*	*staff7	*	*	*staff6	*	*	*staff5	*	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Baſsi e Organa.	*	*I"Violoncello obligato.	*	*I"Baſso.	*	*	*I"Tenore.	*	*	*I"Alto.	*	*	*I"Soprano.	*	*	*I"Tympany.	*	*	*I"Corno Secondo in Es.	*	*I"Corno Primo. in Es.	*	*I"Clarinetto Secondo in B.	*	*I"Clarinetto 1mo. in B.	*
 *mI"Contrabasso et Organo	*	*mI"Violoncello	*	*mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*	*mI"Timpani	*	*	*mI"Corno II in Eb	*	*mI"Corno I in Eb	*	*mI"Clarinetto II in Bb	*	*mI"Clarinetto I in Bb	*
 *I'B et org	*	*I'vlc	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'timp	*	*	*I'cor 2 in E|b	*	*I'cor 1 in E|b	*	*I'cl 2 in B|b	*	*I'cl 1 in B|b	*
@@ -2549,9 +2551,7 @@
 !!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -X dynam -e "s/:a/:A/LX" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(X?)tuplet$/$1TUPLET/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r | humtr -p | tie -s | shed -e "s/yy//"
 !!!ENC: Kamil Watkowski
 !!!END: 2020-03-18
-!!!ENC: Marta Lawrence
-!!!END: 2020-04-21
+!!!EED: Marta Lawrence
+!!!EEV: 2020-04-21
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-22
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

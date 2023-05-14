@@ -3,12 +3,14 @@
 !!!COM: Janiewicz, Feliks
 !!!COM-rismID: pe30011012
 !!!CDT: 1762-1848
-!!!CNT:
+!!!CNT: Polish
 !!!OPR: Ve Trio
 !!!OTL: Allegro
 !!!OMV: 001
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.601
 !!!SMS-shelfwork: 005-001 M
@@ -25,7 +27,7 @@
 !!!OMD: Allegro
 !!!key: e
 **kern	**dynam	**mod-dynam	**kern	**dynam	**mod-dynam	**kern	**dynam	**mod-dynam
-*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
+*part3	*	*	*part2	*	*	*part1	*	*
 *staff3	*	*	*staff2	*	*	*staff1	*	*
 *I"BASSO	*	*	*I"VIOLINO SECONDO	*	*	*I"VIOLINO PRIMO	*	*
 *mI"Violoncello	*	*	*mI"Violino II	*	*	*mI"Violino I	*	*
@@ -1786,14 +1788,12 @@
 !!!system-decoration: [(s1,s2,s3)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/t=P:/T=P:/L" | modori -m
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-28
-!!!ENC: Jan Barakat
-!!!END: 2022-07-04
+!!!EED: Jan Barakat
+!!!EEV: 2022-07-04
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-08-21
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/t=P:/T=P:/L" | modori -m
 !!!ENC-iiif: Konrad Tyszka
 !!!END-iiif: 2022-09-04
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

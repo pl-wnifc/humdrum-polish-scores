@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT: 1700
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-SA
 !!!SMS-shelfmark: 244/A VII 4
 !!!SMS-shelfwork: 001-001 M
@@ -24,8 +26,8 @@
 !!!AIN: 4 empty 2 vox
 !!!key:
 **kern	**fba	**kern	**kern	**kern	**kern	**kern	**kern
-*part7	*part7	*part6	*part5	*part4	*part1	*part3	*part1
-*staff7	*staff7	*staff6	*staff5	*staff4	*staff1	*staff3	*staff1
+*part7	*	*part6	*part5	*part4	*part1	*part3	*part1
+*staff7	*	*staff6	*staff5	*staff4	*staff1	*staff3	*staff1
 *Iempty	*	*Iempty	*Ivox	*Ivox	*Iempty	*Iempty	*Iempty
 *I"Baſso	*	*I"Baſso	*I"Canto Secundo	*I"Canto Primo	*I"Clarino 3tio	*I"Clarino 2do	*I"Clarino Primo
 *mI"Basso continuo	*	*mI"Basso	*mI"Soprano II	*mI"Soprano I	*mI"Clarino III inD	*mI"Clarino II inD	*mI"Clarino I inD
@@ -174,12 +176,10 @@
 !!!system-decoration: [(s1,s2,s3)][(s4,s5,s6)]s7
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m 
 !!!EED: Wojciech Jakubiak-Danek
 !!!EEV: 2020-10-14
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Krzysztof Stępień
 !!!END: 2020-04-18
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-27
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

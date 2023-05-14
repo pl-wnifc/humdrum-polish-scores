@@ -7,6 +7,8 @@
 !!!OTL: [Instrumental piece]
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R308
 !!!SMS-shelfwork: W
@@ -21,9 +23,8 @@
 !!!ONB-nifc:
 !!!AIN: 1 alto 1 cello 1 empty 1 violn
 !!!key:
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*part4	*	*part3	*	*part2	*	*part1	*
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Icello	*	*Ialto	*	*Iempty	*	*Ivioln	*
 *I"Cello.	*	*I"alto	*	*I"Violino IIo	*	*I"Violino Io	*
@@ -3036,11 +3037,10 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: | = vertical stroke
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 !!!ENC: Filip Voros
 !!!END: 2021-12-07
-!!!ENC: Leszek Kubiak
-!!!END: 2021-12-17
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-12-17
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

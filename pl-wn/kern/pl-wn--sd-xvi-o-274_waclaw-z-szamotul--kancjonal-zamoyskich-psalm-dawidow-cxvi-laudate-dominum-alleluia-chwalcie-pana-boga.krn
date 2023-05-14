@@ -7,6 +7,8 @@
 !!!OTL: Kancjonał Zamoyskich
 !!!PDT: 1558
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: SD XVI.O.274
 !!!SMS-shelfwork: W
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: d:dor
 **kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
-*part4	*part4	*part1	*part3	*part3	*part1	*part2	*part2	*part1	*part1	*part1	*part1
-*staff4	*staff4	*staff1	*staff3	*staff3	*staff1	*staff2	*staff2	*staff1	*staff1	*staff1	*staff1
+*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *I"BASS.	*	*	*I"TENOR.	*	*	*I"ALT.	*	*	*I"CANTVS	*	*
 *mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*
 *Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Isoprn	*	*
@@ -156,11 +158,9 @@
 !!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^custos:/Xcustos:/I" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B"
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-16
-!!!ENC: Marta Lawrence
-!!!END: 2022-05-29
+!!!EED: Marta Lawrence
+!!!EEV: 2022-05-29
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-25
 !!!ENC-iiif: Emilia Ziętek
 !!!END-iiif: 2022-09-03
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

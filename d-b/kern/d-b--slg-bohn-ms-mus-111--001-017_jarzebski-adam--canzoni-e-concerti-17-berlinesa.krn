@@ -2,13 +2,15 @@
 !!!cenid: 16xx:1790
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
-!!!CDT:
-!!!CNT:
+!!!CDT: 1590-1648
+!!!CNT: Polish
 !!!GTL: Canzoni e Concerti
 !!!OTL: 17. Berlinesa
 !!!OMV: 017
 !!!PDT: 1627
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-B
 !!!SMS-shelfmark: Slg Bohn Ms.mus. 111
 !!!SMS-shelfwork: 001-017 G
@@ -23,7 +25,6 @@
 !!!ONB-nifc: UWAGA: Prima vox: s. 29-30, Seconda vox: s. 89-90, Bassus sive Vox Tertia: s. 128, Basso continuo: s. 176. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 2 soprn 1 vox
 !!!key: a
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" | shed -k -e "s/-X/-/g" | shed -k -e "s/n//g" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 **kern	**kern	**kern	**kern
 *part4	*part3	*part2	*part1
 *staff4	*staff3	*staff2	*staff1
@@ -58,7 +59,7 @@
 =4-	=4-	=4-	=4-
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 1E	1E	1g#X	1b
-!LO:MO:mod=*null:null	!	!	!
+!LO:MO:mod=*null	!	!	!
 *clefF4	*	*	*
 =5-	=5-	=5-	=5-
 4r	4r	4r	4r
@@ -660,7 +661,7 @@
 .	16B/	16dd\	.
 .	16c/JJ	16ee\JJ	.
 2.D/	2.d\	2.ff\	.
-!	!	!	!LO:MO:mod=*null:null
+!	!	!	!LO:MO:mod=*null
 *	*	*	*clefG1
 =76-	=76-	=76-	=76-
 .	.	.	4r
@@ -695,7 +696,7 @@
 !	!	!LO:SIC:s=8cL	!
 .	.	8c/	.
 .	.	8cc\J	.
-!	!	!	!LO:MO:mod=*null:null
+!	!	!	!LO:MO:mod=*null
 *	*	*	*clefG2
 =79-	=79-	=79-	=79-
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
@@ -1086,12 +1087,11 @@
 *-	*-	*-	*-
 !!!system-decoration: s1,s2,s3,s4
 !!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" | shed -k -e "s/-X/-/g" | shed -k -e "s/n//g" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 !!!ENC: Andrzej Gręziak
 !!!END: 2022-11-05
-!!!ENC: Jan Barakat
-!!!END: 2022-11-16
+!!!EED: Jan Barakat
+!!!EEV: 2022-11-16
 !!!EST: revision finished 2022-11-29
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-12-06
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

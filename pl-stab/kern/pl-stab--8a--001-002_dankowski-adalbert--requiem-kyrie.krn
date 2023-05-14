@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-STAb
 !!!SMS-shelfmark: 8a
 !!!SMS-shelfwork: 001-002 M
@@ -27,8 +29,8 @@
 !!!OMD-mod: Andante
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *	*	*	*group4	*	*group4	*	*group3	*	*	*group3	*	*	*group3	*	*	*group3	*	*	*group2	*	*group2	*	*group1	*	*group1	*
-*part11	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part8	*part7	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*
-*staff11	*	*	*staff10	*	*staff9	*	*staff8	*staff8	*	*staff7	*staff7	*	*staff6	*staff6	*	*staff5	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part11	*	*	*part10	*	*part9	*	*part8	*	*	*part7	*	*	*part6	*	*	*part5	*	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff11	*	*	*staff10	*	*staff9	*	*staff8	*	*	*staff7	*	*	*staff6	*	*	*staff5	*	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Organo	*	*	*I"Violino Secundo	*	*I"Violino Primo	*	*I"Baſso	*	*	*I"Tenor	*	*	*I"Alto	*	*	*I"Canto	*	*	*I"Cornu Secundo in Dis	*	*I"Cornu Primo in Dis	*	*I"Clarinetto Secundo in Es!	*	*I"Clarinetto Primo in Es	*
 *	*	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*mI"Tenore	*	*	*	*	*	*mI"Soprano	*	*	*mI"Corno II in Eb	*	*mI"Corno I in Eb	*	*mI"Clarinetto II in Bb	*	*mI"Clarinetto I in Bb	*
 *I'org	*	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'cor 2 in Dis	*	*I'cor 1 in Dis	*	*I'cl 2 in E|b	*	*I'cl 1 in E|b	*
@@ -705,9 +707,7 @@
 !!!filter-modern: sic -sq | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/yy//" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-12-01
-!!!ENC: Jędrzej Mróz
-!!!END: 2021-12-15
+!!!EED: Jędrzej Mróz
+!!!EEV: 2021-12-15
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-07-26
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

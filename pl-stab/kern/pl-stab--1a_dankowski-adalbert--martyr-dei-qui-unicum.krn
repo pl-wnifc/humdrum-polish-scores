@@ -7,6 +7,8 @@
 !!!OTL: Martyr Dei qui unicum
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-STAb
 !!!SMS-shelfmark: 1a
 !!!SMS-shelfwork: W
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 2 cor 1 empty 2 oboe 1 organ 1 tenor 2 violn 1 vox
 !!!key:
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**mod-dynam	**kern	**text	**dynam	**kern	**text	**dynam	**mod-dynam	**kern	**text	**dynam	**mod-dynam	**kern	**dynam	**mod-dynam	**kern	**dynam	**mod-dynam	**kern	**dynam	**mod-dynam	**kern	**dynam
-*part11	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*	*	*part7	*part7	*part7	*part6	*part6	*	*	*part5	*part5	*	*	*part4	*	*	*part3	*	*	*part2	*	*	*part1	*part1
-*staff11	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff8	*	*	*staff7	*staff7	*	*staff6	*staff6	*	*	*staff5	*staff5	*	*	*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*
+*part11	*	*	*part10	*	*part9	*	*part8	*	*	*	*part7	*	*	*part6	*	*	*	*part5	*	*	*	*part4	*	*	*part3	*	*	*part2	*	*	*part1	*
+*staff11	*	*	*staff10	*	*staff9	*	*staff8	*	*	*	*staff7	*	*	*staff6	*	*	*	*staff5	*	*	*	*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*
 *Iorgan	*	*	*Ivioln	*	*Ivioln	*	*Iempty	*	*	*	*Itenor	*	*	*Ialto	*	*	*	*Ivox	*	*	*	*Icor	*	*	*Icor	*	*	*Ioboe	*	*	*Ioboe	*
 *I"Organo	*	*	*I"Violino Secundo	*	*I"Violino Primo	*	*I"Baſso	*	*	*	*I"Tenore	*	*	*I"Alto	*	*	*	*I"Canto	*	*	*	*I"Corno in D	*	*	*I"Corno in D	*	*	*I"Oboe	*	*	*I"Oboe	*
 *	*	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*	*	*	*	*	*	*	*	*mI"Soprano	*	*	*	*mI"Corno II in D	*	*	*mI"Corno I in D	*	*	*mI"Oboe II	*	*	*mI"Oboe I	*
@@ -3377,9 +3379,7 @@
 !!!filter-modern: sic -sq | tie -s | humtr -p | autostem -r | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e "s/yy//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-11-22
-!!!ENC: Leszek Kubiak
-!!!END: 2021-12-07
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-12-07
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-27
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

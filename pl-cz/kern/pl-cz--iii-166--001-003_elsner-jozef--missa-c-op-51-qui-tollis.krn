@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-166
 !!!SMS-shelfwork: 001-003 M
@@ -22,8 +24,8 @@
 !!!AIN: 2 alto 3 bass 2 clars 1 cor 5 empty 2 fagot 2 flt 1 oboe 1 organ 1 serp 2 soprn 2 tenor 1 timpa 1 tromb 1 viola 2 violn
 !!!key:
 **kern	**fba	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern	**kern
-*part29	*	*part28	*part27	*part27	*part26	*part26	*part25	*part25	*part24	*part24	*part23	*part23	*part23	*part22	*part22	*	*part21	*part21	*part21	*part20	*part20	*part20	*part19	*part19	*part19	*part18	*part18	*part18	*part17	*part16	*part15	*part14	*part13	*part12	*part11	*part10	*part9	*part8	*part7	*part6	*part5	*part4	*part3	*part2	*part1
-*staff29	*	*staff28	*staff27	*	*staff26	*	*staff25	*	*staff24	*	*staff23	*staff23	*	*staff22	*staff22	*	*staff21	*staff21	*	*staff20	*staff20	*	*staff19	*staff19	*	*staff18	*staff18	*	*staff17	*staff16	*staff15	*staff14	*staff13	*staff12	*staff11	*staff10	*staff9	*staff8	*staff7	*staff6	*staff5	*staff4	*staff3	*staff2	*staff1
+*part29	*	*part28	*part27	*	*part26	*	*part25	*	*part24	*	*part23	*	*	*part22	*	*	*part21	*	*	*part20	*	*	*part19	*	*	*part18	*	*	*part17	*part16	*part15	*part14	*part13	*part12	*part11	*part10	*part9	*part8	*part7	*part6	*part5	*part4	*part3	*part2	*part1
+*staff29	*	*staff28	*staff27	*	*staff26	*	*staff25	*	*staff24	*	*staff23	*	*	*staff22	*	*	*staff21	*	*	*staff20	*	*	*staff19	*	*	*staff18	*	*	*staff17	*staff16	*staff15	*staff14	*staff13	*staff12	*staff11	*staff10	*staff9	*staff8	*staff7	*staff6	*staff5	*staff4	*staff3	*staff2	*staff1
 *Iorgan	*	*Iempty	*Ibass	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*Ibass	*	*	*Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Isoprn	*	*	*Isoprn	*	*	*Itimpa	*Iserp	*Itromb	*Itenor	*Ialto	*Iempty	*Iempty	*Iempty	*Icor	*Iempty	*Ifagot	*Ifagot	*Iclars	*Iclars	*Ioboe	*Iflt	*Iflt
 *I"Organo	*	*	*I"Basso	*	*I"Viola.	*	*I"Violino. 2do	*	*I"Violino. 1mo	*	*I"Basso Tutti	*	*	*I"Basso Solo	*	*	*I"Tenore Solo	*	*	*I"Alto Solo	*	*	*I"Soprano. Tutti.	*	*	*I"Soprano Solo	*	*	*I"3. Timpano. C. G. F.	*I"Serpente	*I"Trąbone. Baſso.	*I"Trąbone Tenore Secundo	*I"Trąbone alto.	*I"Clarino Secundo in C.	*I"Clarino Primo in C	*I"Clarino. terzo Principalo	*I"Corno Secundo in Es.	*I"Cornu. Primo in Es	*I"Fagotto Secondo	*I"Fagotto Primo.	*I"Clarinetto Secondo in B.	*I"Clarinetto Primo in B.	*I"Oboe I i 2.	*I"Flauto Secondo	*I"Flauto Primo
 *	*	*	*	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*	*	*	*	*	*	*	*	*	*	*	*	*	*mI"Soprano tutti	*	*	*	*	*	*	*	*mI"Trombone III	*mI"Trombone II	*mI"Trombone I	*mI"Clarino II in C	*mI"Clarino I in C	*mI"Clarino III principale	*mI"Corno II in Eb	*mI"Corno I in Eb	*mI"Fagoto II	*mI"Fagoto I	*mI"Clarinetto II in Bb	*mI"Clarinetto I in Bb	*mI"Oboe I et II	*mI"Flauto II	*mI"Flauto I
@@ -1099,10 +1101,8 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: i = editorial accidental
+!!!filter-modern: sic -sq | tie -si | autostem -r | shed -k -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Krzysztof Stępień
 !!!END: 2020-03-20
-!!!ENC: Leszek Kubiak
-!!!END: 2020-05-21
-!!!filter-modern: sic -sq | tie -si | autostem -r | shed -k -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Leszek Kubiak
+!!!EEV: 2020-05-21

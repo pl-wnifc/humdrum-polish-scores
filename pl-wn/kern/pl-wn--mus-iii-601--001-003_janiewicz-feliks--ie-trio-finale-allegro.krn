@@ -3,12 +3,14 @@
 !!!COM: Janiewicz, Feliks
 !!!COM-rismID: pe30011012
 !!!CDT: 1762-1848
-!!!CNT:
+!!!CNT: Polish
 !!!OPR: Ie Trio
 !!!OTL: Finale/Allegro
 !!!OMV: 003
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.601
 !!!SMS-shelfwork: 001-003 M
@@ -24,7 +26,7 @@
 !!!AIN: 1 cello 2 violn
 !!!key: C
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**fing
-*part3	*part3	*part2	*part2	*part1	*part1	*
+*part3	*	*part2	*	*part1	*	*
 *staff3	*	*staff2	*	*staff1	*	*
 *I"BASSO	*	*I"VIOLINO SECONDO	*	*I"VIOLINO PRIMO	*	*
 *mI"Violoncello	*	*mI"Violino II	*	*mI"Violino I	*	*
@@ -1818,11 +1820,9 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-20
-!!!ENC: Urszula Świątek
-!!!END: 2022-06-15
+!!!EED: Urszula Świątek
+!!!EEV: 2022-06-15
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-08-12
 !!!ENC-iiif: Mateusz Mrugas
 !!!END-iiif: 2022-09-08
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

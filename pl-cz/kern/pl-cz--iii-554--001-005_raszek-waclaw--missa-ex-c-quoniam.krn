@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT: 1780
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-554
 !!!SMS-shelfwork: 001-005 M
@@ -25,10 +27,9 @@
 !!!key: G
 !!!OMD:
 !!!OMD-mod: Allegro non molto
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/Xtuplet/tuplet/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/yy//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**kern	**kern	**text	**kern	**dynam	**kern	**dynam	**kern	**dynam	**dynam	**kern	**dynam
-*part12	*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part7	*part6	*part5	*part5	*part4	*	*part3	*	*part2	*	*part2	*part1	*part1
-*staff12	*	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff7	*staff6	*staff5	*staff5	*staff4	*	*staff3	*	*staff2	*	*	*staff1	*
+*part12	*	*	*part11	*	*part10	*	*part9	*	*part8	*part7	*part6	*part5	*	*part4	*	*part3	*	*part2	*	*	*part1	*
+*staff12	*	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff7	*staff6	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*	*staff1	*
 *IGcont	*	*	*IGacmp	*	*IGacmp	*	*IGacmp	*	*IGcoro	*IGcoro	*IGcoro	*IGsolo	*	*IGacmp	*	*IGacmp	*	*IGacmp	*	*	*IGacmp	*
 *ICstr	*	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICvox	*ICvox	*ICvox	*ICvox	*	*ICbras	*	*ICbras	*	*ICww	*	*	*ICww	*
 *Icello	*	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*Ibass	*Itenor	*Ialto	*Isoprn	*	*Itromp	*	*Itromp	*	*Ioboe	*	*	*Ioboe	*
@@ -1276,12 +1277,11 @@
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2)][(s3,s4)][(s5,s6,s7,s8)][(s9,s10,s11,s12)]
+!!!RDF**kern: @ = marked note, color=grey
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/Xtuplet/tuplet/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/yy//" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 !!!ENC: Katarzyna Serwa
 !!!END: 2020-09-19
-!!!ENC: Krzysztof Stępień
-!!!END: 2022-01-31
-!!!RDF**kern: @ = marked note, color=grey
+!!!EED: Krzysztof Stępień
+!!!EEV: 2022-01-31
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

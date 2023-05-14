@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT: 1834
 !!!AGN: Sacred; Vespers
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-188
 !!!SMS-shelfwork: 001-003 M
@@ -24,9 +26,9 @@
 !!!OMD-mod: Andantino quasi allegro moderato
 !!!key: E
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part16	*	*part16	*part15	*part15	*part14	*part14	*part13	*part13	*part12	*part12	*part11	*part11	*part11	*part10	*part10	*	*part9	*part9	*part9	*part8	*part8	*	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*
-*group6	*	*	*group5	*	*group5	*	*group5	*	*group5	*	*group4	*group4	*	*group4	*group4	*	*group4	*group4	*	*group4	*	*	*group3	*group2	*	*group2	*	*group1	*	*group1	*	*group1	*	*group1	*
-*staff16	*	*	*staff15	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*staff11	*	*staff10	*staff10	*	*staff9	*staff9	*	*staff8	*staff8	*	*staff7	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*group6	*	*	*group5	*	*group5	*	*group5	*	*group5	*	*group4	*	*	*group4	*	*	*group4	*	*	*group4	*	*	*group3	*group2	*	*group2	*	*group1	*	*group1	*	*group1	*	*group1	*
+*part16	*	*	*part15	*	*part14	*	*part13	*	*part12	*	*part11	*	*	*part10	*	*	*part9	*	*	*part8	*	*	*part7	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff16	*	*	*staff15	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*	*	*staff10	*	*	*staff9	*	*	*staff8	*	*	*staff7	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Iorgan	*	*	*Iempty	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*Iempty	*	*	*Itenor	*	*	*Ialto	*	*	*Ivox	*	*	*	*Icor	*	*Icor	*	*Ifagot	*	*Iclars	*	*Iclars	*	*Iflt	*
 *I"Organo	*	*	*I"Baſso	*	*I"Viola	*	*I"Violino 2do	*	*I"Violino 1mo	*	*I"Baſso.	*	*	*I"Tenore.	*	*	*I"Alto.	*	*	*I"Canto.	*	*	*I"Tympani in C.G.	*I"Corno 2do	*	*I"Corno 1mo	*	*I"Fagotto	*	*I"Clarinetto 2do in C.	*	*I"Clarinetto 1mo in C.	*	*I"Flauto.	*
 *	*	*	*mI"Basso	*	*	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*	*mI"Timpani	*mI"Corno II in E	*	*mI"Corno I in E	*	*mI"Fagotti I, II	*	*mI"Clarinetto II in A	*	*mI"Clarinetto I in A	*	*mI"Flauto	*
@@ -1657,9 +1659,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/t=P:/T=P:/L" | shed -k -e "s/([\(\)\[\]])[><]/$1/g" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | humtr -p | shed -k -e "s/:TUP:/:tup:/L" | modori -m
 !!!ENC: Krzysztof Stępień
 !!!END: 2020-03-31
-!!!ENC: Leszek Kubiak
-!!!END: 2020-05-28
+!!!EED: Leszek Kubiak
+!!!EEV: 2020-05-28
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-07-07
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

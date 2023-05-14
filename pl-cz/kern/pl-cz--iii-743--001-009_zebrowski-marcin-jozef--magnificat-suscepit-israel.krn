@@ -9,6 +9,8 @@
 !!!OMV: 009
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-743
 !!!SMS-shelfwork: 001-009 M
@@ -25,11 +27,10 @@
 !!!key: g
 !!!OMD:
 !!!OMD-mod: Adagio
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**kern	**kern	**text	**kern	**kern
 *	*	*	*group3	*	*group3	*	*group3	*	*group2	*group2	*group2	*group2	*	*group1	*group1
-*part10	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part5	*part4	*part3	*part3	*part2	*part1
-*staff10	*	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*staff5	*staff4	*staff3	*staff3	*staff2	*staff1
+*part10	*	*	*part9	*	*part8	*	*part7	*	*part6	*part5	*part4	*part3	*	*part2	*part1
+*staff10	*	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*staff5	*staff4	*staff3	*	*staff2	*staff1
 *I"Baſso. pro Organo.	*	*	*I"Viola Oblig:	*	*I"Violino Secondo.	*	*I"Violino Primo	*	*I"Baſso.	*I"Tenore.	*I"Alto.	*I"Canto.	*	*I"Cornuo Secondo.	*I"Cornuo Primo.
 *I'org	*	*	*I'vla obl.	*	*I'vl 2	*	*I'vl 1	*	*I'B	*I'T	*I'A	*I'S	*	*I'cor 2	*I'cor 1
 *Iorgan	*	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*Ibass	*Itenor	*Ialto	*Isoprn	*	*Icor	*Icor
@@ -551,11 +552,10 @@
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(g1)][(g2)][(g3)]s10
 !!!RDF**kern: | = vertical stroke
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 !!!ENC: Anastazja Marusiak
 !!!END: 2022-03-28
-!!!ENC: Marta Lawrence
-!!!END: 2022-03-29
+!!!EED: Marta Lawrence
+!!!EEV: 2022-03-29
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-31
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

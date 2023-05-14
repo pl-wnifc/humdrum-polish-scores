@@ -9,6 +9,8 @@
 !!!OMV: 007
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-753
 !!!SMS-shelfwork: 001-007 M
@@ -26,8 +28,8 @@
 !!!OMD:
 !!!OMD-mod: Allegro
 **kern	**fba	**dynam	**kern	**dynam	**kern	**kern	**kern	**text	**kern	**kern	**text	**kern	**text	**kern	**kern
-*part10	*part10	*part10	*part9	*part9	*part8	*part7	*part6	*part6	*part5	*part4	*part4	*part3	*part3	*part2	*part1
-*staff10	*	*	*staff9	*	*staff8	*staff7	*staff6	*staff6	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff1
+*part10	*	*	*part9	*	*part8	*part7	*part6	*	*part5	*part4	*	*part3	*	*part2	*part1
+*staff10	*	*	*staff9	*	*staff8	*staff7	*staff6	*	*staff5	*staff4	*	*staff3	*	*staff2	*staff1
 *Iorgan	*	*	*Ifagot	*	*Ivioln	*Ivioln	*Ibass	*	*Itenor	*Ialto	*	*Isoprn	*	*Iclrno	*Iclrno
 *I"Organo.	*	*	*I"Baſsone.	*	*I"Violino Secondo.	*I"Violino Primo.	*I"Baſso.	*	*I"Tenore.	*I"Alto.	*	*I"Canto.	*	*I"Clarino Secondo ex D	*I"Clarino Primo ex D
 *mI"Organo	*	*	*mI"Fagoto	*	*mI"Violino II	*mI"Violino I	*mI"Basso	*	*mI"Tenore	*mI"Alto	*	*mI"Soprano	*	*mI"Clarino II in D	*mI"Clarino I in D
@@ -1328,9 +1330,7 @@
 !!!filter-modern: tie -s | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/[<>]//g"
 !!!ENC: Marta Opryszak
 !!!END: 2022-04-06
-!!!ENC: Leszek Kubiak
-!!!END: 2022-04-13
+!!!EED: Leszek Kubiak
+!!!EEV: 2022-04-13
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-27
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

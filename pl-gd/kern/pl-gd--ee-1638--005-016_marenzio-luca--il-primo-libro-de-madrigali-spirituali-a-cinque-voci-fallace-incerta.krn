@@ -9,6 +9,8 @@
 !!!OMV: 016
 !!!PDT: 1588
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-GD
 !!!SMS-shelfmark: Ee 1638
 !!!SMS-shelfwork: 005-016 G
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 2 tenor
 !!!key: d:aeo
 **kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"BASSO	*	*I"QVINTO	*	*I"TENORE	*	*I"ALTO	*	*I"CANTO	*
 *mI"Basso	*	*mI"Quinto	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*
 *I'B	*	*I'V 5	*	*I'T	*	*I'A	*	*I'S	*
@@ -710,14 +712,12 @@
 !!LO:MO:mod
 !! !!!RDF**kern: i = editorial accidental
 !!LO:MO:end
+!!!filter-modern: shed -e "s/^custos:/Xcustos:/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:N:/LO:n:$1/L" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B"
 !!!ENC: Mateusz Solarz
 !!!END: 2022-06-29
-!!!ENC: Jan Barakat
-!!!END: 2022-07-16
+!!!EED: Jan Barakat
+!!!EEV: 2022-07-16
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-10
-!!!filter-modern: shed -e "s/^custos:/Xcustos:/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:N:/LO:n:$1/L" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B"
 !!!ENC-iiif: Zuzanna Daniec
 !!!END-iiif: 2022-10-10
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

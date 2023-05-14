@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT: 1669
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.7
 !!!SMS-variant:
@@ -21,9 +23,11 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/6140 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/IIIF/view
 !!!ONB-nifc: UWAGA: C (skan 0031, s.56), A (0117, s.54-55), T (0192, s.48), B (0284, s.54-55). Części Mszy: 1. Kyrie, 2. Et in terra, 3. Patrem,. 4. Sanctus, 5. Benedictus, 6. Agnus Dei
+!!!AIN: 1 alto 1 bass 1 soprn 1 tenor
+!!!key:
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
 *I"BASSVS.	*	*I"TENOR.	*	*I"ALTVS.	*	*I"CANTVS.	*
 *mI"Basso	*	*mI"Soprano	*	*mI"Tenore	*	*mI"Alto	*
@@ -531,8 +535,7 @@
 .	.	2e/	-us	2c#X\	-nus	2g\	Do-
 !	!	!LO:LB:g=original	!	!	!	!LO:LB:g=original	!
 =38-	=38-	=38-	=38-	=38-	=38-	=38-	=38-
-*	*	*xywh-#192:1044,2705,5910,682	*	*	*	*	*
-*	*	*	*	*	*	*xywh-#31:1227,2618,5867,718	*
+*	*	*xywh-#192:1044,2705,5910,682	*	*	*	*xywh-#31:1227,2618,5867,718	*
 1D	.	2.a\	Sab-	2d\	De-	2g\	-mi-
 !	!	!	!	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 !	!	!	!	!	!	!LO:TX:a:t=P:problem:# above	!
@@ -909,12 +912,9 @@
 !!!filter-modern: sic -sq | tie -s | humtr -p  | extract -s 1,2,5,6,7,8,3,4 | autostem -r | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-02-24
-!!!AIN: 1 alto 1 bass 1 soprn 1 tenor
-!!!ENC: Marta Lawrence
-!!!END: 2021-03-12
+!!!EED: Marta Lawrence
+!!!EEV: 2021-03-12
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-22
 !!!ENC-iiif: Konrad Tyszka
 !!!END-iiif: 2022-09-01
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

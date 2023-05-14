@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-753
 !!!SMS-shelfwork: 001-001 M
@@ -23,13 +25,12 @@
 !!!ONB-nifc: UWAGA: części Nieszporów: 1. Dixit Dominus, 2. Confitebor, 3. Beatus vir, 4. Laudate pueri, 5. Laudate Dominum, 6. Credidi, 7. In convertendo, 8. Domine probasti me, 9. Laetatus sum, 10. Nisi Dominus, 11. Lauda Jerusalem, 12. Magnificat, 13. Quia respexit, 14. Deposuit potentes, 15. Gloria patri
 !!!AIN: 1 alto 1 bass 2 clrno 1 fagot 1 organ 1 soprn 1 tenor 2 violn
 !!!key: D
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 !!!OMD:
 !!!OMD-mod: Allegro
 **kern	**fba	**kern	**dynam	**kern	**dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**kern	**kern
 *	*	*group3	*	*group3	*	*group2	*	*	*	*	*group2	*	*	*	*	*group2	*	*	*	*	*group2	*	*	*	*	*group1	*group1	*
-*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part7	*	*	*part6	*part6	*part6	*	*	*part5	*part5	*part5	*part5	*part5	*part4	*part4	*part4	*part4	*part4	*part3	*part2	*part1
-*staff10	*	*staff9	*	*staff8	*	*staff7	*staff7	*staff7	*	*	*staff6	*staff6	*staff6	*	*	*staff5	*staff5	*staff5	*	*	*staff4	*staff4	*staff4	*	*	*staff3	*staff2	*staff1
+*part10	*	*part9	*	*part8	*	*part7	*	*	*	*	*part6	*	*	*	*	*part5	*	*	*	*	*part4	*	*	*	*	*part3	*part2	*part1
+*staff10	*	*staff9	*	*staff8	*	*staff7	*	*	*	*	*staff6	*	*	*	*	*staff5	*	*	*	*	*staff4	*	*	*	*	*staff3	*staff2	*staff1
 *I"Organo.	*	*I"Violino Secondo.	*	*I"Violino Primo.	*	*I"Baſso.	*	*	*	*	*I"Tenore.	*	*	*	*	*I"Alto.	*	*	*	*	*I"Canto.	*	*	*	*	*I"Clarino Secondo ex D.	*I"Clarino Primo ex D	*I"Baſsone.
 *I'org	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*	*	*I'T	*	*	*	*	*I'A	*	*	*	*	*I'S	*	*	*	*	*I'clno 2 in D	*I'clno 1 in D	*I'fag
 *Iorgan	*	*Ivioln	*	*Ivioln	*	*Ibass	*	*	*	*	*Itenor	*	*	*	*	*Ialto	*	*	*	*	*Isoprn	*	*	*	*	*Iclrno	*Iclrno	*Ifagot
@@ -2037,11 +2038,10 @@
 !!!RDF**dynam: p = "pia:"
 !!!RDF**dynam: f = "for"
 !!!RDF**kern: @ = marked note, color=grey
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-04-05
-!!!ENC: Andrzej Kubiczek
-!!!END: 2022-04-05
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2022-04-05
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-31
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

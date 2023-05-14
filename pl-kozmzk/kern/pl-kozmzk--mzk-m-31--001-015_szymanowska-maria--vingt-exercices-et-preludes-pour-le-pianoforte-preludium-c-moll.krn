@@ -9,6 +9,8 @@
 !!!OMV: 015
 !!!PDT: 1819
 !!!AGN: Secular; Prelude
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-KOZmzk
 !!!SMS-shelfmark: mzk/m/31
 !!!SMS-shelfwork: 001-015 G
@@ -26,7 +28,7 @@
 !!!OMD-mod: Vivace
 !!!key: C
 **kern	**fing	**kern	**fing	**dynam
-*part1	*	*part1	*	*part1
+*part1	*	*part1	*	*
 *staff2	*	*staff1	*	*
 *Ipiano	*	*Ipiano	*	*
 *ICklav	*	*ICklav	*	*
@@ -2138,12 +2140,10 @@
 !!!system-decoration-mod: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Marcin Jachim
 !!!END: 2020-06-16
-!!!ENC: Leszek Kubiak
-!!!END: 2020-07-21
+!!!EED: Leszek Kubiak
+!!!EEV: 2020-07-21
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-09-13
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -9,6 +9,8 @@
 !!!OMV: 015
 !!!PDT: 1587
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-GD
 !!!SMS-shelfmark: Ee 1638
 !!!SMS-shelfwork: 003-015 G
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: a:aeo
 **kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
-*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *I"BASSO	*	*	*I"TENORE	*	*	*I"ALTO	*	*	*I"CANTO	*	*
 *mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*
 *I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*
@@ -394,14 +396,6 @@
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
 !!!RDF**kern: l = terminal long
-!!!ENC: Marta Opryszak
-!!!END: 2022-06-27
-!!!ENC: Natalia Wrzos
-!!!END: 2022-07-12
-!!!ENC-iiif: Zuzanna Daniec
-!!!END-iiif: 2022-09-10
-!!!ENC-modern: Krzysztof Stępień
-!!!END-modern: 2022-11-07
 !!!filter-modern: shed -e "s/:t=P:/:T=P:/L"
 !!!filter-modern: shed -e "s/-//B"
 !!!filter-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I"
@@ -420,5 +414,11 @@
 !!!filter-modern: autostem -r
 !!!filter-modern: modori -m
 !!!filter-modern: humtr -p
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!ENC: Marta Opryszak
+!!!END: 2022-06-27
+!!!EED: Natalia Wrzos
+!!!EEV: 2022-07-12
+!!!ENC-iiif: Zuzanna Daniec
+!!!END-iiif: 2022-09-10
+!!!ENC-modern: Krzysztof Stępień
+!!!END-modern: 2022-11-07

@@ -2,13 +2,15 @@
 !!!cenid: 16xx:1774
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
-!!!CDT:
-!!!CNT:
+!!!CDT: 1590-1648
+!!!CNT: Polish
 !!!GTL: Canzoni e Concerti
 !!!OTL: 1. Concerto Primo
 !!!OMV: 001
 !!!PDT: 1627
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-B
 !!!SMS-shelfmark: Slg Bohn Ms.mus. 111
 !!!SMS-shelfwork: 001-001 G
@@ -23,10 +25,9 @@
 !!!ONB-nifc: UWAGA: Prima vox: s. 5, Seconda vox: s. 65, Basso continuo: s. 165. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
 !!!AIN: 2 empty 1 tenor
 !!!key: d
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/i//" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 **kern	**fba	**kern	**kern
-*part3	*	*part2	*part1
 *	*	*group1	*group1
+*part3	*	*part2	*part1
 *staff3	*	*staff2	*staff1
 *Iempty	*	*Itenor	*Iempty
 *I"Baſſo Continuo.	*	*I"Tenore.	*I"Sopr:
@@ -595,11 +596,10 @@
 !!LO:MO:ori
 !!!RDF**kern: l = terminal long
 !!LO:MO:end
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/i//" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 !!!ENC: Anastazja Marusiak
 !!!END: 2022-10-29
-!!!ENC: Katarzyna Serwa
-!!!END: 2022-11-09
+!!!EED: Katarzyna Serwa
+!!!EEV: 2022-11-09
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

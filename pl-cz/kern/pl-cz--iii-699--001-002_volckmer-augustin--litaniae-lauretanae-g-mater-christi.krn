@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-699
 !!!SMS-shelfwork: 001-002 M
@@ -25,11 +27,10 @@
 !!!key: D
 !!!OMD:
 !!!OMD-mod: Cantabile
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/yy//" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | autostem -r | tie -s| humtr -p
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**kern	**text	**kern	**kern	**kern	**kern	**kern
 *	*	*	*group4	*	*group4	*	*group4	*	*group3	*group3	*group3	*	*group3	*group2	*group2	*group1	*group1
-*part12	*	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part7	*part6	*part6	*part5	*part4	*part3	*part2	*part1
-*staff12	*	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff7	*staff6	*staff6	*staff5	*staff4	*staff3	*staff2	*staff1
+*part12	*	*	*part11	*	*part10	*	*part9	*	*part8	*part7	*part6	*	*part5	*part4	*part3	*part2	*part1
+*staff12	*	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff7	*staff6	*	*staff5	*staff4	*staff3	*staff2	*staff1
 *I"Organo.	*	*	*I"Viola. Solo	*	*I"Violino Secundo	*	*I"Violino Primo	*	*I"Baſso.	*I"Tenore.	*I"Alto	*	*I"Canto	*I"Cornu Secundo ex G	*I"Cornu. Primo. ex G	*I"Flauto. Secundo.	*I"Flauto. Primo.
 *I'org	*	*	*I'vla solo	*	*I'vl 2	*	*I'vl 1	*	*I'B	*I'T	*I'A	*	*I'S	*I'cor 2	*I'cor 1	*I'fl 2	*I'fl 1
 *Iorgan	*	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*Ibass	*Itenor	*Ialto	*	*Isoprn	*Icor	*Icor	*Iflt	*Iflt
@@ -2045,11 +2046,10 @@
 !!!system-decoration: [(g1)][(g2)][(g3)][(g4)]s12
 !!!RDF**kern: | = vertical stroke
 !!!RDF**kern: @ = marked note, color=grey
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/yy//" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | autostem -r | tie -s| humtr -p
 !!!ENC: Andrzej Gręziak
 !!!END: 2020-10-20
-!!!ENC: Marta Lawrence
-!!!END: 2022-04-06
+!!!EED: Marta Lawrence
+!!!EEV: 2022-04-06
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-30
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

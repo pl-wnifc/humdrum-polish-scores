@@ -3,12 +3,14 @@
 !!!COM: Janiewicz, Feliks
 !!!COM-rismID: pe30011012
 !!!CDT: 1762-1848
-!!!CNT:
+!!!CNT: Polish
 !!!OPR: IIIe Trio
 !!!OTL: Andante
 !!!OMV: 002
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.601
 !!!SMS-shelfwork: 003-002 M
@@ -26,7 +28,7 @@
 !!!OMD-mod: Andante
 !!!key: E
 **kern	**dynam	**kern	**dynam	**kern	**dynam
-*part3	*part3	*part2	*part2	*part1	*part1
+*part3	*	*part2	*	*part1	*
 *staff3	*	*staff2	*	*staff1	*
 *I"BASSO	*	*I"VIOLINO SECONDO	*	*I"VIOLINO PRIMO	*
 *mI"Violoncello	*	*mI"Violino II	*	*mI"Violino I	*
@@ -360,14 +362,12 @@
 !!!system-decoration: [(*)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | tie -s
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-21
-!!!ENC: Jan Barakat
-!!!END: 2022-07-01
+!!!EED: Jan Barakat
+!!!EEV: 2022-07-01
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-17
-!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | tie -s
 !!!ENC-iiif: Konrad Tyszka
 !!!END-iiif: 2022-09-04
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

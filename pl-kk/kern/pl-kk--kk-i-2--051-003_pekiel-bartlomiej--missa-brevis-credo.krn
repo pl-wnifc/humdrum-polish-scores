@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT: 1661
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.2
 !!!SMS-shelfwork: 051-003 M
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: g:dor
 **kern	**text	**kern	**text	**kern	**text	**kern	**text	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*	*
 *I"BASVS	*	*I"TENOR	*	*I"ALTVS	*	*I"DISCANTVS	*	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*	*
 *Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*	*
@@ -1375,8 +1377,7 @@
 4BBn/	.	4d\	non	8F/	-gni	.	.	.
 !	!	!	!	!	!LO:MO:mod=non	!	!	!
 .	.	.	.	8F/	n(on)	.	.	.
-*	*	*	*	*	*	*xywh-#89:8307,2305,6027,959	*	*
-*xywh-#393:8046,3058,6493,955	*	*	*	*	*	*	*	*
+*xywh-#393:8046,3058,6493,955	*	*	*	*	*	*xywh-#89:8307,2305,6027,959	*	*
 !LO:LB:g=original	!	!	!	!	!	!LO:LB:g=original	!	!
 4C/	-nis	4.c\	e-	4.E-X/	e-	0r	.	.
 *	*Xij	*	*	*	*	*	*	*
@@ -2234,11 +2235,9 @@
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -k -e "s/[<>]//g" | humtr -p | shed -e "s/^custos:/Xcustos:/I" | modori -m
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-06
-!!!ENC: Andrzej Borzym
-!!!END: 2022-05-12
+!!!EED: Andrzej Borzym
+!!!EEV: 2022-05-12
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-06-27
 !!!ENC-iiif: Marta Opryszak
 !!!END-iiif: 2022-09-07
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -9,6 +9,8 @@
 !!!OMV: 006
 !!!PDT: 1850
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-196
 !!!SMS-shelfwork: 001-006 M
@@ -24,9 +26,9 @@
 !!!OMD:
 !!!OMD-mod: Andante
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part22	*part22	*part21	*part21	*part20	*part20	*part19	*part19	*part18	*part18	*part18	*part17	*part17	*part17	*part16	*part16	*part16	*part15	*part15	*part15	*part14	*part13	*part13	*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *group4	*	*group4	*	*group4	*	*group4	*	*group3	*	*	*group3	*	*	*group3	*	*	*group3	*	*	*	*group2	*	*group2	*	*group2	*	*group2	*	*group2	*	*group1	*	*group1	*	*group1	*	*group1	*	*group1	*	*group1	*	*group1	*	*group1	*
-*staff22	*	*staff21	*	*staff20	*	*staff19	*	*staff18	*staff18	*	*staff17	*staff17	*	*staff16	*staff16	*	*staff15	*staff15	*	*staff14	*staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part22	*	*part21	*	*part20	*	*part19	*	*part18	*	*	*part17	*	*	*part16	*	*	*part15	*	*	*part14	*part13	*	*part12	*	*part11	*	*part10	*	*part9	*	*part8	*	*part7	*	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff22	*	*staff21	*	*staff20	*	*staff19	*	*staff18	*	*	*staff17	*	*	*staff16	*	*	*staff15	*	*	*staff14	*staff13	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Icbass	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Isoprn	*	*	*Itimpa	*Itromb	*	*Itromp	*	*Itromp	*	*Icor	*	*Icor	*	*Ifagot	*	*Ifagot	*	*Iclars	*	*Iclars	*	*Ioboe	*	*Ioboe	*	*Iflt	*	*Iflt	*
 *I"Baſso.	*	*I"Alto Viola.	*	*I"Violino IIdo	*	*I"Violino. 1mo	*	*I"Baſso.	*	*	*I"Tenore.	*	*	*I"Alto	*	*	*I"Canto	*	*	*I"Tympano.	*I"Trombone Baſso.	*	*I"Trompetto. 2do in A.	*	*I"Trompetto. 1mo in A.	*	*I"Corno. 2do. in D	*	*I"Corno. 1mo in D.	*	*I"Fagotto 2do	*	*I"Fagotto. 1mo	*	*I"Clarnetto. in A.	*	*I"Clarnetto 1mo in A.	*	*I"Oboi 2do	*	*I"Oboi 1mo	*	*I"Flauto. 2do	*	*I"Flauto. 1mo	*
 *mI"Contrabasso	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*mI"Tenore	*	*	*	*	*	*mI"Soprano	*	*	*mI"Timpani	*mI"Trombone Basso	*	*mI"Clarino II in A	*	*mI"Clarino 1 in A	*	*mI"Corno II in D	*	*mI"Corno I in D	*	*mI"Fagotto II	*	*mI"Fagotto I	*	*mI"Clarinetto II in A	*	*mI"Clarinetto I in A	*	*mI"Oboe II	*	*mI"Oboe I	*	*mI"Flauto II	*	*mI"Flauto I	*
@@ -882,12 +884,10 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**dynam: p = "p:"
+!!!filter-modern: sic -sq | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:N:/LO:n:$1/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/yy//" | humtr -p | modori -m
 !!!ENC: Andrzej Kubiczek
 !!!END: 2020-04-08
-!!!ENC: Marta Lawrence
-!!!END: 2020-06-14
+!!!EED: Marta Lawrence
+!!!EEV: 2020-06-14
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-10-31
-!!!filter-modern: sic -sq | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:N:/LO:n:$1/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/yy//" | humtr -p | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

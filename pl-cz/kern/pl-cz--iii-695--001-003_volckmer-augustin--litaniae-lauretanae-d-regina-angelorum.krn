@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-695
 !!!SMS-shelfwork: 001-003 M
@@ -26,9 +28,9 @@
 !!!OMD-mod: Allegro assai
 !!!key: D
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part15	*	*part15	*part14	*part14	*part13	*part13	*part12	*part12	*part11	*part11	*part11	*part11	*part11	*part10	*part10	*part10	*part10	*part10	*part9	*part9	*part9	*part9	*part9	*part8	*part8	*part8	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*group6	*	*	*group5	*	*group5	*	*group5	*	*group4	*group4	*group4	*	*	*group4	*group4	*group4	*	*	*group4	*group4	*group4	*	*	*group4	*group4	*group4	*	*	*group3	*	*group2	*	*group2	*	*group1	*	*group1	*	*group1	*	*group1	*
-*staff15	*	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*staff11	*staff11	*	*	*staff10	*staff10	*staff10	*	*	*staff9	*staff9	*staff9	*	*	*staff8	*staff8	*staff8	*	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*group6	*	*	*group5	*	*group5	*	*group5	*	*group4	*	*	*	*	*group4	*	*	*	*	*group4	*	*	*	*	*group4	*	*	*	*	*group3	*	*group2	*	*group2	*	*group1	*	*group1	*	*group1	*	*group1	*
+*part15	*	*	*part14	*	*part13	*	*part12	*	*part11	*	*	*	*	*part10	*	*	*	*	*part9	*	*	*	*	*part8	*	*	*	*	*part7	*	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff15	*	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*	*	*	*	*staff10	*	*	*	*	*staff9	*	*	*	*	*staff8	*	*	*	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Organo.	*	*	*I"Viola.	*	*I"Violino Secundo.	*	*I"Violino Primo	*	*I"Basſo.	*	*	*	*	*I"Tenore.	*	*	*	*	*I"Alto.	*	*	*	*	*I"Canto	*	*	*	*	*I"Timpano.	*	*I"Clarino ê Corno Secundo	*	*I"Clarino ê Corno Primo	*	*I"Clarinetto Secundo in A.	*	*I"Clarinetto Primo in A.	*	*I"Oboe Secundo,	*	*I"Oboe, Primo	*
 *I"Organo	*	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*	*	*mI"Tenore	*	*	*	*	*mI"Alto	*	*	*	*	*mI"Soprano	*	*	*	*	*mI"Timpani	*	*mI"Clarino II in D	*	*mI"Clarino e Corno I in D	*	*mI"Clarinetto II in A	*	*mI"Clarinetto I in A	*	*mI"Oboe II	*	*mI"Oboe I	*
 *I'org	*	*	*I'vla	*	*I'vl II	*	*I'vl I	*	*I'B	*	*	*	*	*I'T	*	*	*	*	*I'A	*	*	*	*	*I'S	*	*	*	*	*I'timp	*	*I'clno II in D	*	*I'clno e cor I in D	*	*I'cl II in A	*	*I'cl I in A	*	*I'ob II	*	*I'ob I	*
@@ -1584,12 +1586,10 @@
 !!!RDF**dynam: f = "forto"
 !!!RDF**dynam: p = "pia"
 !!LO:MO:end
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([\(\)\[\]])[><]/$1/g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
 !!!ENC: Andrzej Borzym
 !!!END: 2020-10-20
-!!!ENC: Urszula Świątek
-!!!END: 2022-06-27
+!!!EED: Urszula Świątek
+!!!EEV: 2022-06-27
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-09-19
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/([\(\)\[\]])[><]/$1/g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

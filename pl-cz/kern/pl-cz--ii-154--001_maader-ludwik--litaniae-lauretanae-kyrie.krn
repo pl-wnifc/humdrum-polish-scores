@@ -7,6 +7,8 @@
 !!!OTL: Litaniae Lauretanae - Kyrie
 !!!PDT: 1786
 !!!AGN: Sacred; Mass section
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: II-154
 !!!SMS-shelfwork: 001 W
@@ -25,8 +27,8 @@
 !!!key: C
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**kern
 *	*	*	*group3	*	*group3	*	*group2	*	*	*group2	*	*	*group2	*	*	*group2	*	*	*group1	*group1
-*part9	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part1
-*staff9	*	*	*staff8	*	*staff7	*	*staff6	*staff6	*staff6	*staff5	*staff5	*staff5	*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff1
+*part9	*	*	*part8	*	*part7	*	*part6	*	*	*part5	*	*	*part4	*	*	*part3	*	*	*part2	*part1
+*staff9	*	*	*staff8	*	*staff7	*	*staff6	*	*	*staff5	*	*	*staff4	*	*	*staff3	*	*	*staff2	*staff1
 *I"Organo	*	*	*I"Violino Secondo	*	*I"Violino Primo obl:	*	*I"Baſso	*	*	*I"Tenore	*	*	*I"Alto	*	*	*I"Canto	*	*	*I"Clarino Secundo	*I"Clarino Primo
 *mI"Organo	*	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*	*	*	*mI"Alto	*	*	*mI"Soprano	*	*	*mI"Clarino II	*mI"Clarino I
 *I'org	*	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'clno 2	*I'clno 1
@@ -1443,9 +1445,7 @@
 !!!filter-modern: shed -k -e "s/:TUP:/:tup:/L" | sic -sq | modori -m | tie -s | autostem -r | humtr -p | shed -k -e "s/([\(\)\[\]])[><]/$1/g"
 !!!ENC: Marcin Jachim
 !!!END: 2020-08-18
-!!!ENC: Kamil Watkowski
-!!!END: 2021-11-27
+!!!EED: Kamil Watkowski
+!!!EEV: 2021-11-27
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-06-10
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

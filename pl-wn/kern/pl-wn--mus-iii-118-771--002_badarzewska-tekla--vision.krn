@@ -7,6 +7,8 @@
 !!!OTL: Vision
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.118.771
 !!!SMS-shelfwork: 002 W
@@ -24,7 +26,7 @@
 !!!AIN: 1 piano
 !!!key: a
 **kern	**kern	**dynam
-*part1	*part1	*part1
+*part1	*part1	*
 *staff2	*staff1	*
 *I"PIANO.	*I"PIANO.	*
 *mI"Pianoforte	*mI"Pianoforte	*
@@ -36,8 +38,8 @@
 *a:	*a:	*
 *M6/8	*M6/8	*
 =1	=1	=1
+*xywh-5:55,64,2747,1498	*xywh-5:55,64,2747,1498	*
 *^	*	*
-*xywh-5:55,64,2747,1498	*xywh-5:55,64,2747,1498	*xywh-5:55,64,2747,1498	*
 !	!LO:N:vis=2	!	!
 2.AA/	8AA\L	4r	.
 .	8c 8A 8E\	.	.
@@ -1295,11 +1297,9 @@
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/^(X?)tuplet$/$1TUPLET/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-02-07
-!!!ENC: Andrzej Kubiczek
-!!!END: 2022-02-12
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2022-02-12
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-27
 !!!ENC-iiif: Natalia Wrzos
 !!!END-iiif: 2022-08-30
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

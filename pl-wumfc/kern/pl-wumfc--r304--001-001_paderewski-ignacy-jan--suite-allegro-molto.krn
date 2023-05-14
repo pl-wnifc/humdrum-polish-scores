@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R304
 !!!SMS-variant:
@@ -26,7 +28,7 @@
 !!!AIN: 1 cbass 1 cello 1 viola 2 violn
 !!!key: G
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*part5	*	*part4	*	*part3	*	*part2	*	*part1	*
 *staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"[Contrabasso]	*	*I"[Violoncello]	*	*I"[Viola]	*	*I"[Violino II]	*	*I"[Violino I]	*
 *mI"Contrabasso	*	*mI"Violoncello	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*
@@ -1352,9 +1354,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -e "s/t=P:/T=P:/L" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-15
-!!!ENC: Marta Chmielewska
-!!!END: 2021-11-18
-!!!ENC: Katarzyna Serwa
-!!!END: 2022-07-12
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Marta Chmielewska
+!!!EEV: 2021-11-18
+!!!EED: Katarzyna Serwa
+!!!EEV: 2022-07-12

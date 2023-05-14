@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT: 1899
 !!!AGN: Secular; Song
+!!!YEC: Copyright 2023 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 90/N
 !!!SMS-shelfwork: 001-004 G
@@ -25,8 +27,8 @@
 !!!AIN: 1 empty
 !!!key:
 **kern	**kern	**text
-*part1	*part1	*part1
-*staff2	*staff1	*staff1
+*part1	*part1	*
+*staff2	*staff1	*
 *Iempty	*Iempty	*
 *I"	*I"	*
 *clefF4	*clefG2	*
@@ -96,12 +98,6 @@
 ==	==	==
 *-	*-	*-
 !!!system-decoration: {(s1,s2)}
-!!!ENC: Marta Lawrence
-!!!END: 2021-06-02
-!!!ENC: Mateusz Solarz
-!!!END: 2021-05-11
-!!!ENC-modern: Krzysztof Stępień
-!!!END-modern: 2022-09-28
 !!!filter-modern: shed -e "s/:t=P:/:T=P:/L"
 !!!filter-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I"
 !!!filter-modern: humtr -p
@@ -119,5 +115,9 @@
 !!!filter-modern: sic -sq
 !!!filter-modern: autostem -r
 !!!filter-modern: modori -m
-!!!YEC: Copyright 2023 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!ENC: Marta Lawrence
+!!!END: 2021-06-02
+!!!EED: Mateusz Solarz
+!!!EEV: 2021-05-11
+!!!ENC-modern: Krzysztof Stępień
+!!!END-modern: 2022-09-28

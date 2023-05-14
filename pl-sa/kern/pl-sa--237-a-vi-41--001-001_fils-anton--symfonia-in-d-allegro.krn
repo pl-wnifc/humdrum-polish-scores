@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-SA
 !!!SMS-shelfmark: 237/A VI 41
 !!!SMS-shelfwork: 001-001 M
@@ -27,7 +29,7 @@
 !!!key: D
 **kern	**dynam	**kern	**kern	**dynam	**kern	**dynam	**kern	**kern	**kern	**dynam	**kern	**dynam
 *group3	*	*group3	*group3	*	*group3	*	*group2	*group2	*group1	*	*group1	*
-*part8	*part8	*part7	*part6	*part6	*part5	*part5	*part4	*part3	*part2	*part2	*part1	*part1
+*part8	*	*part7	*part6	*	*part5	*	*part4	*part3	*part2	*	*part1	*
 *staff8	*	*staff7	*staff6	*	*staff5	*	*staff4	*staff3	*staff2	*	*staff1	*
 *I"Baſso	*	*I"[Viola]	*I"Violino Secundo	*	*I"Violino Primo	*	*I"[Corno II]	*I"[Corno I]	*I"Flauto Secundo	*	*I"Flauto Primo	*
 *mI"Contrabasso	*	*mI"Viola	*mI"Violino II	*	*mI"Violino I	*	*mI"Corno II	*mI"Corno I	*mI"Flauto II	*	*mI"Flauto I	*
@@ -906,9 +908,7 @@
 !!!filter-modern: shed -e "s/:TX:t=P:/:tx:t=p:/L" | shed -X dynam -e "s/:a/:A/LX" | sic -sq | modori -m | autostem -r | tie -s | shed -e "s/yy//"
 !!!ENC: Mateusz Solarz
 !!!END: 2020-06-04
-!!!ENC: Leszek Kubiak
-!!!END: 2020-10-15
+!!!EED: Leszek Kubiak
+!!!EEV: 2020-10-15
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-06-19
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

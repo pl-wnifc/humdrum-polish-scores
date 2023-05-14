@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT:
 !!!AGN: Secular; Waltz
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: II-16
 !!!SMS-shelfwork: 001-004 G
@@ -25,7 +27,7 @@
 !!!key: D
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern
 *group3	*	*group3	*	*group3	*	*group2	*group2	*	*group2	*	*group1	*	*group1	*	*group1
-*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1
+*part9	*	*part8	*	*part7	*	*part6	*part5	*	*part4	*	*part3	*	*part2	*	*part1
 *staff9	*	*staff8	*	*staff7	*	*staff6	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1
 *>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]	*>[A,B,A]
 *>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A
@@ -271,9 +273,7 @@
 !!!filter-modern: shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | tie -s | autostem -r | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/([\(\)\[\]])[><]/$1/g" | shed -e "s/yy//"
 !!!ENC: Marcin Jachim
 !!!END: 2020-10-03
-!!!ENC: Marta Lawrence
-!!!END: 2021-11-02
+!!!EED: Marta Lawrence
+!!!EEV: 2021-11-02
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-06-08
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

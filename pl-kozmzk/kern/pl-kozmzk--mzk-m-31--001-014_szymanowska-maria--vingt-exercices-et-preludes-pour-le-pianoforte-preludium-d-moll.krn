@@ -9,6 +9,8 @@
 !!!OMV: 014
 !!!PDT: 1819
 !!!AGN: Secular; Prelude
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-KOZmzk
 !!!SMS-shelfmark: mzk/m/31
 !!!SMS-shelfwork: 001-014 G
@@ -26,7 +28,7 @@
 !!!OMD:
 !!!OMD-mod: Risoluto
 **kern	**kern	**dynam
-*part1	*part1	*part1
+*part1	*part1	*
 *staff2	*staff1	*
 *Ipiano	*Ipiano	*
 *I"Piano	*I"Piano	*
@@ -732,12 +734,10 @@ qq16B-\J	.	.	.
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!ENC: Anastazja Marusiak
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g”
+!!!ENC: Anastazja Marusiak
 !!!END: 2020-06-16
 !!!EED: Leszek Kubiak
 !!!EEV: 2020-07-20
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-10
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

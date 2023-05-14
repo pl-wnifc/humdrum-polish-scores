@@ -7,6 +7,8 @@
 !!!OTL: Szkice węglem op. 23
 !!!PDT:
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 144/N
 !!!SMS-shelfwork: W
@@ -23,7 +25,7 @@
 !!!AIN: 1 empty
 !!!key:
 **kern	**kern	**dynam
-*part1	*part1	*part1
+*part1	*part1	*
 *staff2	*staff1	*
 *Iempty	*Iforte	*
 *	*I"Fortepian	*
@@ -2008,12 +2010,10 @@
 !!!RDF**kern: | = vertical stroke
 !!!RDF**kern: N = linked
 !!!RDF**kern: i = editorial accidental
-!!!ENC-modern: Leszek Kubiak
-!!!END-modern: 2022-08-17
-!!!EED: Wojciech Jakubiak-Danek
-!!!EEV: 2021-06-02
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
 !!!ENC: Marcin Jachim
 !!!END: 2021-05-02
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2021-06-02
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-08-17

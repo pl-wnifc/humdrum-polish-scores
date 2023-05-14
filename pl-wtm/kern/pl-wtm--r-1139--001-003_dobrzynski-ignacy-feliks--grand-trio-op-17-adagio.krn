@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT: 1830
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 1139
 !!!SMS-shelfwork: 001-003 M
@@ -25,9 +27,9 @@
 !!!key: F
 !!!OMD: Adagio Fantastico
 **kern	**dynam	**kern	**dynam	**kern	**kern	**dynam
-*part3	*part3	*part2	*part2	*part1	*part1	*part1
-*mpart2	*mpart2	*mpart1	*mpart1	*mpart3	*mpart3	*mpart3
+*part3	*	*part2	*	*part1	*part1	*
 *staff4	*	*staff3	*	*staff2	*staff1	*
+*mpart2	*mpart2	*mpart1	*mpart1	*mpart3	*mpart3	*mpart3
 *mstaff2	*	*mstaff1	*	*mstaff4	*mstaff3	*
 *Icello	*	*Ivioln	*	*Iforte	*Iforte	*
 *I"Vcello	*	*I"Violino	*	*I"Piano forte	*I"Piano forte	*
@@ -3166,13 +3168,11 @@
 !!!system-decoration: {(s1,s2)}(s3,s4)
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: extract -k 3,4,1,2
 !!!filter-modern: sic -sq | shed -e "s/yy//" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/LO:N:/LO:n:$1/L" | humtr -p | modori -m
+!!!filter-modern: extract -k 3,4,1,2
 !!!ENC: Kamil Watkowski
 !!!END: 2021-05-01
-!!!ENC: Marta Lawrence
-!!!END: 2021-05-15
+!!!EED: Marta Lawrence
+!!!EEV: 2021-05-15
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-08-04
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

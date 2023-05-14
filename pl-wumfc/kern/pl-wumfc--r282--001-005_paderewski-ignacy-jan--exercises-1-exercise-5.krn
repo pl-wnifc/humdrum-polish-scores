@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R282
 !!!SMS-shelfwork: 001-005 G
@@ -23,7 +25,6 @@
 !!!ONB-nifc: UWAGA: pierwsza grupa ćwiczeń na skanach 0004-0007
 !!!AIN: 2 piano
 !!!key: a
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
@@ -215,11 +216,10 @@
 ==	==
 *-	*-
 !!!system-decoration: {(s1,s2)}
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m
 !!!ENC: Filip Voros
 !!!END: 2021-11-11
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-11-14
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-11-14
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

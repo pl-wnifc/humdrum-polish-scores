@@ -7,6 +7,8 @@
 !!!OTL: [Exercise]
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R289
 !!!SMS-shelfwork: W
@@ -23,7 +25,7 @@
 !!!AIN: 1 clars 1 fagot 1 flt 1 oboe
 !!!key: b-
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*part4	*part3	*	*part2	*	*part1	*
 *staff4	*staff3	*	*staff2	*	*staff1	*
 *I"2 Fagotti	*I"2 Clarinetti in B	*	*I"2 Oboi	*	*I"2 Flauti	*
 *mI"Fagotti	*mI"Clarinetti in B	*	*mI"Oboi	*	*mI"Flauti	*
@@ -258,14 +260,12 @@
 *-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: {(s1,s2)}{(s3,s4)}
 !!!system-decoration-mod: [(s1,s2)][(s3,s4)]
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-14
-!!!ENC: Marta Chmielewska
-!!!END: 2021-11-17
+!!!EED: Marta Chmielewska
+!!!EEV: 2021-11-17
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-05
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

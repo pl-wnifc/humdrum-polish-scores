@@ -7,6 +7,8 @@
 !!!OTL: Patrem omnipotentem
 !!!PDT: 1664
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.7
 !!!SMS-shelfwork: 034 W
@@ -23,8 +25,8 @@
 !!!AIN-mod: 1 alto 1 bass 2 tenor
 !!!key: F
 **kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
-*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Isoprn	*	*
 *	*	*	*	*	*	*mItenor	*	*	*mIalto	*	*
 *I"BASSVS.	*	*	*I"TENOR.	*	*	*I"ALTVS.	*	*	*I"CANTVS.	*	*
@@ -754,8 +756,7 @@
 !	!	!	!	!	!	!	!	!	!LO:MO:mod=*M2/2:null	!	!
 *met(C|)	*	*	*met(C|)	*	*	*met(C|)	*	*	*met(C|)	*	*
 *mmet(c|)	*	*	*mmet(c|)	*	*	*mmet(c|)	*	*	*mmet(c|)	*	*
-*	*	*	*	*	*	*xywh-#111:7277,700,6132,789	*	*	*xywh-#25:1094,653,5856,793	*	*
-*	*	*	*xywh-#186:1028,1923,6001,722	*	*	*	*	*	*	*	*
+*	*	*	*xywh-#186:1028,1923,6001,722	*	*	*xywh-#111:7277,700,6132,789	*	*	*xywh-#25:1094,653,5856,793	*	*
 2F\	ET	Et	2A/	ET	Et	2c\	Et	Et	2f\	Et	Et
 4B-\	in-	in-	4.B-\	in-	in-	4d\	in-	in-	4f\	in-	in-
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!
@@ -1699,11 +1700,9 @@
 !!!filter-modern: sic -sq | autostem -r | tie -s | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/LO:N:/LO:n:$1/L" | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2021-02-25
-!!!ENC: Andrzej Borzym
-!!!END: 2021-03-15
+!!!EED: Andrzej Borzym
+!!!EEV: 2021-03-15
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-08-01
 !!!ENC-iiif: Konrad Tyszka
 !!!END-iiif: 2022-08-31
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

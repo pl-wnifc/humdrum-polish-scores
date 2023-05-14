@@ -7,6 +7,8 @@
 !!!OTL: Peine et plaisir tout finira
 !!!PDT:
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-KOZmzk
 !!!SMS-shelfmark: mzk/m/33
 !!!SMS-shelfwork: 001 W
@@ -23,8 +25,8 @@
 !!!AIN: 2 piano 1 vox
 !!!key:
 **kern	**kern	**dynam	**kern	**text	**dynam
-*part3	*part2	*part2	*part1	*part1	*part1
-*staff3	*staff2	*	*staff1	*staff1	*
+*part3	*part2	*	*part1	*	*
+*staff3	*staff2	*	*staff1	*	*
 *Ipiano	*Ipiano	*	*Ivox	*	*
 *I"Pianoforte	*I"Pianoforte	*	*I"Chant	*	*
 *	*	*	*mI"Voce	*	*
@@ -687,7 +689,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g"
 !!!ENC: Tomasz Grochalski
 !!!END: 2021-07-28
+!!!EED: Tomasz Grochalski
+!!!EEV: 2021-07-28
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-11
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

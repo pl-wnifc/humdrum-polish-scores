@@ -7,6 +7,8 @@
 !!!OTL: Księżyc
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 105/N
 !!!SMS-shelfwork: W
@@ -24,8 +26,8 @@
 !!!OMD-mod: Andantino cantabile
 !!!key: c#
 **kern	**kern	**dynam	**kern	**text	**dynam
-*part2	*part2	*part2	*part1	*part1	*part1
-*staff3	*staff2	*	*staff1	*staff1	*
+*part2	*part2	*	*part1	*	*
+*staff3	*staff2	*	*staff1	*	*
 *Ipiano	*Ipiano	*	*Ivox	*	*
 *I"	*I"[Fortepian]	*	*I"[Głos]	*	*
 *mI"Pianoforte	*mI"Pianoforte	*	*mI"Voice	*	*
@@ -1172,12 +1174,10 @@ N(12CC#\L	4r	pp	1dd#	-le-	.
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: N = linked
+!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | humtr -p
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-05-31
-!!!ENC: Kamil Watkowski
-!!!END: 2021-06-10
+!!!EED: Kamil Watkowski
+!!!EEV: 2021-06-10
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-18
-!!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | humtr -p
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

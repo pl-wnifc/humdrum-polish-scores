@@ -7,6 +7,8 @@
 !!!OTL: Salve Regina
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-STAb
 !!!SMS-shelfmark: 18a
 !!!SMS-shelfwork: W
@@ -23,8 +25,8 @@
 !!!key: E-
 **kern	**fba	**dynam	**kern	**dynam	**mod-dynam	**kern	**dynam	**kern	**text	**dynam	**mod-dynam	**kern	**dynam	**mod-dynam	**kern	**dynam	**mod-dynam
 *	*	*	*group2	*	*	*group2	*	*	*	*	*	*group1	*	*	*group1	*	*
-*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part3	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff6	*staff6	*staff6	*staff5	*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*	*	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part6	*	*	*part5	*	*	*part4	*	*part3	*	*	*	*part2	*	*	*part1	*	*
+*staff6	*	*	*staff5	*	*	*staff4	*	*staff3	*	*	*	*staff2	*	*	*staff1	*	*
 *I"Baſso	*	*	*I"Violino Secundo	*	*	*I"Violino Primo	*	*I"Baſso Solo	*	*	*	*I"Clarinetto Secundo in Dis	*	*	*I"Clarinetto Primo in Dis	*	*
 *mI"Basso	*	*	*mI"Violino II	*	*	*mI"Violino I	*	*mI"Basso solo	*	*	*	*mI"Clarinetto II in B	*	*	*mI"Clarinetto I in B	*	*
 *I'b	*	*	*I'vl 2	*	*	*I'vl 1	*	*I'B Solo	*	*	*	*I'cl 2 in E♭	*	*	*I'cl 1 in E♭	*	*
@@ -1612,9 +1614,7 @@
 !!!filter-modern: sic -sq | autostem -r | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-21
-!!!ENC: Kamil Watkowski
-!!!END: 2021-12-05
+!!!EED: Kamil Watkowski
+!!!EEV: 2021-12-05
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-27
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

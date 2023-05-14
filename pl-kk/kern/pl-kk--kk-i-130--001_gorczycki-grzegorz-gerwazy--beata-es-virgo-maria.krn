@@ -7,6 +7,8 @@
 !!!OTL: Beata es virgo Maria
 !!!PDT:
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.130
 !!!SMS-shelfwork: 001 W
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 2 empty 1 tenor 1 vox
 !!!key:
 **kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
-*part5	*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff5	*staff5	*staff5	*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part5	*	*	*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff5	*	*	*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *Iempty	*	*	*Iempty	*	*	*Itenor	*	*	*Ialto	*	*	*Ivox	*	*
 *I"Baſso. Ripieno.	*	*	*I"Baſso.	*	*	*I"Tenore	*	*	*I"Alto.	*	*	*I"Canto.	*	*
 *mI"Basso ripieno	*	*	*mI"Basso	*	*	*	*	*	*mI"Alto	*	*	*mI"Soprano	*	*
@@ -173,8 +175,7 @@
 4D\	-ni-	-ni-	4D\	-ni-	-ni-	.	.	.	.	.	.	.	.	.
 =11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=kreska pseudotaktowa	!	!
-*	*	*	*	*	*	*xywh-pl-kk--i-130--0005:518,848,4920,788	*	*	*	*	*	*	*	*
-*xywh-pl-kk--i-130--0009:368,1053,4141,645	*	*	*xywh-pl-kk--i-130--0007:397,1001,5194,724	*	*	*	*	*	*	*	*	*	*	*
+*xywh-pl-kk--i-130--0009:368,1053,4141,645	*	*	*xywh-pl-kk--i-130--0007:397,1001,5194,724	*	*	*xywh-pl-kk--i-130--0005:518,848,4920,788	*	*	*	*	*	*	*	*
 !LO:LB:g=original	!	!	!LO:LB:g=original	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
 2E,<\	-um	-um	2En,<\	-um	-um	1re	.	.	(2g\	ri-	ri-	1cc,<	es	es.
 !LO:TX:a:t=P:problem=kreska pseudotaktowa	!	!	!LO:TX:a:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!LO:TX:a:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
@@ -722,8 +723,7 @@
 *M3/2	*	*	*M3/2	*	*	*M3/2	*	*	*M3/2	*	*	*M3/2	*	*
 *	*	*	*	*	*	*	*	*	*	*	*	*xywh-pl-kk--i-130--0002:441,579,5004,715	*	*
 !	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!LO:PB:g=original	!	!
-*	*	*	*	*	*	*	*	*	*xywh-pl-kk--i-130--0003:421,3225,5247,688	*	*	*	*	*
-*xywh-pl-kk--i-130--0010:430,947,4122,680	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+*xywh-pl-kk--i-130--0010:430,947,4122,680	*	*	*	*	*	*	*	*	*xywh-pl-kk--i-130--0003:421,3225,5247,688	*	*	*	*	*
 !	!	!	!	!	!	!LO:SIC:s=2B-\:v	!	!	!	!	!	!	!	!
 2B-\	A-	A-	2B-\	A-	A-	2B-X\	A-	A-	2f\	A-	A-	2dd\	A-	A-
 2B-\	-ve	-ve	2B-\	-ve	-ve	2B-\	-ve	-ve	2f\	-ve	-ve	2dd\	-ve	-ve
@@ -1138,11 +1138,9 @@
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | rid -li
 !!!ENC: Marcin Jachim
 !!!END: 2021-03-25
-!!!ENC: Marta Chmielewska
-!!!END: 2021-04-08
+!!!EED: Marta Chmielewska
+!!!EEV: 2021-04-08
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-07-06
 !!!ENC-iiif: Marta Opryszak
 !!!END-iiif: 2022-08-26
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

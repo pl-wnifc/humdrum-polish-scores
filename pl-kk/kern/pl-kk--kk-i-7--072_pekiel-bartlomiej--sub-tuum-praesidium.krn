@@ -7,6 +7,8 @@
 !!!OTL: Sub tuum praesidium
 !!!PDT:
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.7
 !!!SMS-variant:
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: d:dor
 **kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
-*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Isoprn	*	*
 *I"[BASSVS.]	*	*	*I"[TENOR.]	*	*	*I"[ALTVS.]	*	*	*I"[CANTVS.]	*	*
 *mI"Basso	*	*	*mI"Tenore II	*	*	*mI"Tenore I	*	*	*mI"Alto	*	*
@@ -39,10 +41,7 @@
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
 !!LO:TX:t=P:problem:all\right:global
 *	*	*	*	*	*	*	*	*	*2\right	*	*
-*	*	*	*	*	*	*	*	*	*xywh-#65:783,2205,6534,1181	*	*
-*	*	*	*	*	*	*xywh-#151:7298,452,6550,1093	*	*	*	*	*
-*	*	*	*xywh-#228:967,2329,6318,1030	*	*	*	*	*	*	*	*
-*xywh-#315:1051,1672,6191,982	*	*	*	*	*	*	*	*	*	*	*
+*xywh-#315:1051,1672,6191,982	*	*	*xywh-#228:967,2329,6318,1030	*	*	*xywh-#151:7298,452,6550,1093	*	*	*xywh-#65:783,2205,6534,1181	*	*
 !LO:TX:t=P:problem=przed kluczem inicjał S	!	!	!LO:TX:t=P:problem=przed kluczem inicjał S	!	!	!LO:TX:t=P:problem=przed kluczem inicjał S	!	!	!LO:TX:t=P:problem=przed kluczem inicjał S	!	!
 !LO:TX:a:t=4:mod=	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 00r	.	.	1D	Sub	Sub	1r	.	.	2.d\	Sub	Sub
@@ -512,11 +511,9 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | humtr -p | modori -m
 !!!ENC: Tomasz Grochalski
 !!!END: 2021-03-03
-!!!ENC: Marta Chmielewska
-!!!END: 2021-03-18
-!!!ENC: Katarzyna Serwa
-!!!END: 2022-08-14
+!!!EED: Marta Chmielewska
+!!!EEV: 2021-03-18
+!!!EED: Katarzyna Serwa
+!!!EEV: 2022-08-14
 !!!ENC-iiif: Bartosz Żurakowski
 !!!END-iiif: 2022-09-22
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

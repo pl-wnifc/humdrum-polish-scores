@@ -7,6 +7,8 @@
 !!!OTL: Rêverie op. 5 no. 1
 !!!PDT: 1881
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kj
 !!!SMS-shelfmark: BJ Muz. 10207 III 1
 !!!SMS-shelfwork: W
@@ -24,8 +26,8 @@
 !!!AIN: 2 piano
 !!!key: c
 **kern	**kern	**dynam	**kern	**fing	**kern	**dynam
-*part2	*part2	*part2	*part1	*part1	*part1	*part1
-*staff4	*staff3	*	*staff2	*staff2	*staff1	*
+*part2	*part2	*	*part1	*	*part1	*
+*staff4	*staff3	*	*staff2	*	*staff1	*
 *I"Piano	*I"Piano	*	*I"Piano	*	*I"Piano	*
 *mI"Pianoforte II	*mI"Pianoforte II	*	*mI"Pianoforte I	*	*mI"Pianoforte I	*
 *I'SECONDO.	*I'SECONDO.	*	*I'PRIMO.	*	*I'PRIMO.	*
@@ -1914,9 +1916,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Anastazja Marusiak
 !!!END: 2022-01-30
-!!!ENC: Marta Chmielewska
-!!!END: 2022-02-11
+!!!EED: Marta Chmielewska
+!!!EEV: 2022-02-11
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-27
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

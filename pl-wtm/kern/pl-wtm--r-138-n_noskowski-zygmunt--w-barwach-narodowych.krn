@@ -7,6 +7,8 @@
 !!!OTL: W barwach narodowych
 !!!PDT:
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 138/N
 !!!SMS-shelfwork: W
@@ -23,8 +25,8 @@
 !!!AIN: 1 bass 1 empty 1 tenor
 !!!key:
 **kern	**text	**mod-text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam
-*part3	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff3	*staff3	*	*	*staff2	*staff2	*	*staff1	*staff1	*
+*part3	*	*	*	*part2	*	*	*part1	*	*
+*staff3	*	*	*	*staff2	*	*	*staff1	*	*
 *Ibass	*	*	*	*Iempty	*	*	*Itenor	*	*
 *I"Basy	*	*	*	*I"	*	*	*I"Tenory	*	*
 *mI"Basso	*	*	*	*mI"Tenore II	*	*	*mI"Tenore I	*	*
@@ -1306,12 +1308,10 @@
 !!!RDF**kern: | = vertical stroke
 !!!RDF**kern: N = linked
 !!!RDF**kern: i = editorial accidental
-!!!ENC-modern: Leszek Kubiak
-!!!END-modern: 2022-08-17
-!!!EED: Wojciech Jakubiak-Danek
-!!!EEV: 2021-07-04
+!!!filter-modern: autostem -r | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-06-01
-!!!filter-modern: autostem -r | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2021-07-04
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-08-17

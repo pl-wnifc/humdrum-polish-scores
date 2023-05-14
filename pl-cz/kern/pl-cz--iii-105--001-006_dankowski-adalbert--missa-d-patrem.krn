@@ -9,6 +9,8 @@
 !!!OMV: 006
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-105
 !!!SMS-shelfwork: 001-006 M
@@ -26,9 +28,9 @@
 !!!OMD-mod: Allegro moderato
 !!!key: D
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**kern	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part15	*part15	*part15	*part14	*part14	*part13	*part13	*part12	*part12	*part11	*part11	*part11	*	*	*part10	*part10	*part10	*	*	*part9	*part9	*part9	*	*	*part8	*part8	*part8	*part8	*part8	*part7	*part6	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*group6	*	*	*group5	*	*group5	*	*group5	*	*group4	*group4	*group4	*	*	*group4	*group4	*group4	*	*	*group4	*group4	*group4	*	*	*group4	*group4	*group4	*	*	*group3	*group2	*group2	*group1	*	*group1	*	*group1	*	*group1	*
-*staff15	*	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*staff11	*staff11	*	*	*staff10	*staff10	*staff10	*	*	*staff9	*staff9	*staff9	*	*	*staff8	*staff8	*staff8	*	*	*staff7	*staff6	*staff5	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*group6	*	*	*group5	*	*group5	*	*group5	*	*group4	*	*	*	*	*group4	*	*	*	*	*group4	*	*	*	*	*group4	*	*	*	*	*group3	*group2	*group2	*group1	*	*group1	*	*group1	*	*group1	*
+*part15	*	*	*part14	*	*part13	*	*part12	*	*part11	*	*	*	*	*part10	*	*	*	*	*part9	*	*	*	*	*part8	*	*	*	*	*part7	*part6	*part5	*part4	*	*part3	*	*part2	*	*part1	*
+*staff15	*	*	*staff14	*	*staff13	*	*staff12	*	*staff11	*	*	*	*	*staff10	*	*	*	*	*staff9	*	*	*	*	*staff8	*	*	*	*	*staff7	*staff6	*staff5	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Iorgan	*	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*Ibass	*	*	*	*	*Itenor	*	*	*	*	*Ialto	*	*	*	*	*Isoprn	*	*	*	*	*Itimpa	*Icor	*Icor	*Iclars	*	*Iclars	*	*Ioboe	*	*Ioboe	*
 *ICklav	*	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICvox	*	*	*	*	*ICvox	*	*	*	*	*ICvox	*	*	*	*	*ICvox	*	*	*	*	*ICidio	*ICbras	*ICbras	*ICww	*	*ICww	*	*ICww	*	*ICww	*
 *IGcont	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -1495,9 +1497,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -e "s/N:vis=/N:VIS=/L" | shed -e "s/t=P:/T=P:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | humtr -p | modori -m
 !!!ENC: Marcin Jachim
 !!!END: 2020-06-30
-!!!ENC: Leszek Kubiak
-!!!END: 2021-11-22
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-11-22
 !!!ENC-modern: Katarzyna Serwa
 !!!END-modern: 2022-07-26
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

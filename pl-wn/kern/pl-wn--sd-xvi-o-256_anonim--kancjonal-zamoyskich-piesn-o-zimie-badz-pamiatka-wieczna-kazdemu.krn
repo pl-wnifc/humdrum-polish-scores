@@ -7,6 +7,8 @@
 !!!OTL: Kancjonał Zamoyskich
 !!!PDT: 1561
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: SD XVI.O.256
 !!!SMS-shelfwork: W
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: G:mix
 **kern	**text	**mod-text	**text	**mod-text	**kern	**text	**mod-text	**text	**mod-text	**kern	**text	**mod-text	**text	**mod-text	**kern	**text	**mod-text	**text	**mod-text
-*part4	*part4	*part1	*part4	*part1	*part3	*part3	*part1	*part3	*part1	*part2	*part2	*part1	*part2	*part1	*part1	*part1	*part1	*part1	*part1
-*staff4	*staff4	*staff1	*staff4	*staff1	*staff3	*staff3	*staff1	*staff3	*staff1	*staff2	*staff2	*staff1	*staff2	*staff1	*staff1	*staff1	*staff1	*staff1	*staff1
+*part4	*	*	*	*	*part3	*	*	*	*	*part2	*	*	*	*	*part1	*	*	*	*
+*staff4	*	*	*	*	*staff3	*	*	*	*	*staff2	*	*	*	*	*staff1	*	*	*	*
 *>[A,A,B,B]	*	*>[A,A,B,B]	*	*>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]	*	*>[A,A,B,B]	*	*>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]	*>[A,A,B,B]
 *>A	*	*>A	*	*>A	*>A	*>A	*>A	*>A	*>A	*>A	*	*>A	*	*>A	*>A	*>A	*>A	*>A	*>A
 *I"Baſſus.	*	*	*	*	*I"Tenor.	*	*	*	*	*I"Altus.	*	*	*	*	*I"Diſcantus.	*	*	*	*
@@ -123,11 +125,9 @@
 !!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^custos:/Xcustos:/I" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B"
 !!!ENC: Mateusz Solarz
 !!!END: 2022-04-26
-!!!ENC: Katarzyna Serwa
-!!!END: 2022-05-08
+!!!EED: Katarzyna Serwa
+!!!EEV: 2022-05-08
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-25
 !!!ENC-iiif: Emilia Ziętek
 !!!END-iiif: 2022-09-02
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

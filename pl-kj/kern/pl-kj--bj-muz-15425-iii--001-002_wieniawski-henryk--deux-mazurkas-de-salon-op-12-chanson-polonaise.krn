@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kj
 !!!SMS-shelfmark: BJ Muz. 15425 III
 !!!SMS-shelfwork: 001-002 G
@@ -26,8 +28,7 @@
 !!!OMD: Andantino.
 !!!OMD-mod: Andantino
 **kern	**kern	**dynam	**kern	**dynam
-*	*	*	*scale:70%	*
-*part3	*part2	*part2	*part1	*part1
+*part3	*part2	*	*part1	*
 *staff3	*staff2	*	*staff1	*
 *I"PIANO.	*I"PIANO.	*	*I"VIOLINO.	*
 *I'	*I'	*	*I'	*
@@ -40,6 +41,7 @@
 *k[b-e-]	*k[b-e-]	*	*k[b-e-]	*
 *g:	*g:	*	*g:	*
 *M3/4	*M3/4	*	*M3/4	*
+*	*	*	*scale:70%	*
 4r	4dd\	p	4r	.
 =1	=1	=1	=1	=1
 4C/	8.ee-\L	<	2.r	.
@@ -970,9 +972,7 @@
 !!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-02
-!!!ENC: Marta Lawrence
-!!!END: 2022-05-14
+!!!EED: Marta Lawrence
+!!!EEV: 2022-05-14
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-07-15
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

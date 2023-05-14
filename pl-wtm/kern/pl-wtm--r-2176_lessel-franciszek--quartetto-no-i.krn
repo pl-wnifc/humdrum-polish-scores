@@ -7,6 +7,8 @@
 !!!OTL: Quartetto. No I
 !!!PDT: 1800
 !!!AGN: Secular; String quartet
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 2176
 !!!SMS-shelfwork: W
@@ -24,7 +26,7 @@
 !!!OMD-mod: Allegro moderato
 !!!key: A
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*part4	*	*part3	*	*part2	*	*part1	*
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *>[A,A,B]	*	*>[A,A,B]	*	*>[A,A,B]	*	*>[A,A,B]	*
 *>A	*	*>A	*	*>A	*	*>A	*
@@ -1889,9 +1891,7 @@
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | shed -e "s/yy//"
 !!!ENC: Marcin Jachim
 !!!END: 2021-03-28
-!!!ENC: Leszek Kubiak
-!!!END: 2021-04-14
+!!!EED: Leszek Kubiak
+!!!EEV: 2021-04-14
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-25
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

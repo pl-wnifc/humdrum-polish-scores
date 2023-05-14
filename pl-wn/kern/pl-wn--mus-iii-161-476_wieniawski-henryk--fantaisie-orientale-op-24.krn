@@ -7,6 +7,8 @@
 !!!OTL: Fantaisie orientale op. 24
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.161.476
 !!!SMS-shelfwork: W
@@ -23,9 +25,7 @@
 !!!key: a
 !!!OMD: A MONSIEUR JENÖ HUBAY.\nFANTAISIE ORIENTALE.
 **kern	**kern	**dynam	**kern	**dynam
-!	!	!	!LO:MO:mod=*	!
-*	*	*	*scale:70%	*
-*part3	*part2	*part2	*part1	*part1
+*part3	*part2	*	*part1	*
 *staff3	*staff2	*	*staff1	*
 *I"PIANO.	*I"PIANO.	*	*I"Violon.	*
 *mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*
@@ -40,6 +40,8 @@
 *M4/4	*M4/4	*	*M4/4	*
 *met(c)	*met(c)	*	*met(c)	*
 *mmet(c)	*mmet(c)	*	*mmet(c)	*
+!	!	!	!LO:MO:mod=*null	!
+*	*	*	*scale:70%	*
 =1	=1	=1	=1	=1
 *xywh-#4:663,1401,3373,713	*xywh-#4:663,1401,3373,713	*	*xywh-#4:670,616,3418,862	*
 !	!LO:TX:a:B:t=Moderato.	!	!LO:TX:a:B:t=Moderato.	!
@@ -1365,11 +1367,9 @@
 !!!filter-modern: autostem -r | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-11
-!!!ENC: Marta Lawrence
-!!!END: 2022-05-22
+!!!EED: Marta Lawrence
+!!!EEV: 2022-05-22
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-20
 !!!ENC-iiif: Mateusz Mrugas
 !!!END-iiif: 2022-08-31
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

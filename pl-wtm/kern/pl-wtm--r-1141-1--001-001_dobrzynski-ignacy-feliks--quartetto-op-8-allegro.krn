@@ -10,6 +10,8 @@
 !!!OMD: Allegro
 !!!PDT: 1829
 !!!AGN: Secular; String quartet
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 1141/1
 !!!SMS-shelfwork: 001-001 M
@@ -26,7 +28,7 @@
 !!!AIN: 1 alto 3 cello
 !!!key: d
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*part4	*	*part3	*	*part2	*	*part1	*
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Icello	*	*Ialto	*	*Icello	*	*Icello	*
 *I"Violoncelle	*	*I"Alto	*	*I"Violono [II]	*	*I"Violono [I]	*
@@ -3096,11 +3098,9 @@
 !!!RDF**dynam: > = "dim", fontstyle= "bold-italic"
 !!LO:MO:end
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -ke "s/\(y(?!y)/(/" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/[<>]//g" | modori -m | autostem -r | tie -s
-!!!EED: Wojciech Jakubiak-Danek
-!!!EEV: 2021-04-12
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-04-11
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2021-04-12
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-07-03
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

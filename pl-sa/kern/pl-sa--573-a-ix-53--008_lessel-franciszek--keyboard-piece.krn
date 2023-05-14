@@ -7,6 +7,8 @@
 !!!OTL: [Keyboard piece]
 !!!PDT:
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-SA
 !!!SMS-shelfmark: 573/A IX 53
 !!!SMS-shelfwork: 008 W
@@ -233,11 +235,9 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!filter-modern: sic -sq | autostem -r | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -k -e “s/([()[]_])[><]/$1/g” | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
-!!!ENC-modern: Leszek Kubiak
-!!!END-modern: 2022-07-19
-!!!EED: Wojciech Jakubiak-Danek
-!!!EEV: 2020-12-10
 !!!ENC: Marcin Jachim
 !!!END: 2020-06-19
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2020-12-10
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-19

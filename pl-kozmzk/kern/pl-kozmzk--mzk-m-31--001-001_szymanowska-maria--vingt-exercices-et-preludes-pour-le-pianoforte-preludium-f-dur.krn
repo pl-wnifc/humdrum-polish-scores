@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT: 1819
 !!!AGN: Secular; Prelude
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-KOZmzk
 !!!SMS-shelfmark: mzk/m/31
 !!!SMS-shelfwork: 001-001 G
@@ -23,9 +25,8 @@
 !!!ONB-nifc:
 !!!AIN: 1 piano
 !!!key: F
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**fing	**kern	**fing	**dynam
-*part1	*	*part1	*	*part1
+*part1	*	*part1	*	*
 *staff2	*	*staff1	*	*
 *I"Piano	*	*I"Piano	*	*
 *I'P-no	*	*I'P-no	*	*
@@ -813,11 +814,10 @@
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!EED: Leszek Kubiak
-!!!EEV: 2020-07-17
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 !!!ENC: Marcin Jachim
 !!!END: 2020-06-15
+!!!EED: Leszek Kubiak
+!!!EEV: 2020-07-17
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-30
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

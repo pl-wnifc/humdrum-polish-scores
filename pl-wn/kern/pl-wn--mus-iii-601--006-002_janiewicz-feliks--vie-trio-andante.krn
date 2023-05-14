@@ -3,12 +3,14 @@
 !!!COM: Janiewicz, Feliks
 !!!COM-rismID: pe30011012
 !!!CDT: 1762-1848
-!!!CNT:
+!!!CNT: Polish
 !!!OPR: VIe Trio
 !!!OTL: Andante
 !!!OMV: 002
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.601
 !!!SMS-shelfwork: 006-002 M
@@ -26,7 +28,7 @@
 !!!OMD:
 !!!OMD-mod: Andante
 **kern	**dynam	**kern	**dynam	**kern	**dynam
-*part3	*part3	*part2	*part2	*part1	*part1
+*part3	*	*part2	*	*part1	*
 *staff3	*	*staff2	*	*staff1	*
 *I"BASSO	*	*I"VIOLINO SECONDO	*	*I"VIOLINO PRIMO	*
 *mI"Violoncello	*	*mI"Violino II	*	*mI"Violino I	*
@@ -499,15 +501,13 @@
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3)]
-!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!RDF**dynam: < = cres
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-25
-!!!ENC: Julita Ruszuk
-!!!END: 2022-07-03
+!!!EED: Julita Ruszuk
+!!!EEV: 2022-07-03
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-08-15
 !!!ENC-iiif: Konrad Tyszka
 !!!END-iiif: 2022-09-05
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

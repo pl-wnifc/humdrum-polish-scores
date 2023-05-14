@@ -9,6 +9,8 @@
 !!!OMV: 008
 !!!PDT: 1810
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-STAb
 !!!SMS-shelfmark: 26a
 !!!SMS-shelfwork: 001-008 M
@@ -25,8 +27,8 @@
 !!!key: D
 **kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *	*	*	*group4	*	*group4	*	*group3	*	*	*group3	*	*	*group3	*	*	*group3	*	*	*group2	*	*group2	*	*group1	*	*group1	*
-*part11	*part11	*part11	*part10	*	*part9	*part9	*part8	*part8	*	*part7	*part7	*	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff12	*staff11	*staff12	*staff10	*	*staff9	*	*staff8	*staff8	*	*staff7	*staff7	*	*staff6	*staff6	*	*staff5	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part11	*part11	*	*part10	*	*part9	*	*part8	*	*	*part7	*	*	*part6	*	*	*part5	*	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff12	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*	*staff7	*	*	*staff6	*	*	*staff5	*	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Organo.	*I"Organo.	*	*I"Alto Viola	*	*I"Violino SecuNdo 1mo	*	*I"Baſso	*	*	*I"Tenor	*	*	*I"Alto	*	*	*I"Canto	*	*	*I"Clarino Secundo et Cornu	*	*I"Clarino Primo et Cornu	*	*I"Oboe Secundo	*	*I"Oboe Primo	*
 *I'org	*I'org	*	*I'vla	*	*I'vl 1 & vl 2	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'cor 2 & clno 2 in D	*	*I'cor 1 & clno 1 in D	*	*I'ob 2	*	*I'ob 1	*
 *Iorgan	*Iorgan	*	*Iviola	*	*Ivioln	*	*Ibass	*	*	*Itenor	*	*	*Ialto	*	*	*Isoprn	*	*	*Icor	*	*Icor	*	*Ioboe	*	*Ioboe	*
@@ -315,9 +317,7 @@
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/LO:HP:(a|b|rj|t)/LO:hp:$1/L" | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:(a|b|rj|t|)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
 !!!ENC: Filip Voros
 !!!END: 2021-12-08
-!!!ENC: Kamil Watkowski
-!!!END: 2021-12-10
+!!!EED: Kamil Watkowski
+!!!EEV: 2021-12-10
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-25
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

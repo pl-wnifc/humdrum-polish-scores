@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R282
 !!!SMS-shelfwork: 003-001 G
@@ -24,7 +26,6 @@
 !!!OMD:
 !!!AIN: 2 piano
 !!!key: C
-!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
@@ -158,11 +159,10 @@
 !!LO:MO:mod
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
+!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m
 !!!ENC: Filip Voros
 !!!END: 2021-11-13
-!!!ENC: Marta Chmielewska
-!!!END: 2021-11-17
+!!!EED: Marta Chmielewska
+!!!EEV: 2021-11-17
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

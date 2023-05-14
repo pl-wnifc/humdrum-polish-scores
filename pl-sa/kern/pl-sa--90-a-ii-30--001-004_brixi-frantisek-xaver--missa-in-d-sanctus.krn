@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-SA
 !!!SMS-shelfmark: 90/A II 30
 !!!SMS-shelfwork: 001-004 M
@@ -24,8 +26,9 @@
 !!!AIN: 1 alto 4 empty 1 tenor 2 violn 1 vox
 !!!key: D
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**kern
-*part9	*	*part9	*part8	*	*part7	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part1
-*staff9	*	*	*staff8	*	*staff7	*	*staff6	*staff6	*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff1
+*group4	*	*	*group3	*	*group3	*	*group2	*	*group2	*	*group2	*	*group2	*	*group1	*group1
+*part9	*	*	*part8	*	*part7	*	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*part1
+*staff9	*	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*staff1
 *Iempty	*	*	*Ivioln	*	*Ivioln	*	*Iempty	*	*Itenor	*	*Ialto	*	*Ivox	*	*Iempty	*Iempty
 *I"Fundamento	*	*	*I"Violino 2do.	*	*I"Violino 1mo	*	*I"Baſso	*	*I"Tenore	*	*I"Alto	*	*I"Canto	*	*I"Cornu 2do. In D.	*I"Cornu 1mo In D.
 *I'b.c.	*	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*I'T	*	*I'A	*	*I'S	*	*I'cor 2	*I'cor 1
@@ -33,7 +36,6 @@
 *	*	*	*ICstr	*	*ICstr	*	*ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*	*ICbras	*ICbras
 *IGcont	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *mI"Continuo	*	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*	*	*	*mI"Soprano	*	*mI"Corno II in D	*mI"Corno I in D
-*group4	*	*	*group3	*	*group3	*	*group2	*	*group2	*	*group2	*	*group2	*	*group1	*group1
 *clefF4	*	*	*clefG2	*	*clefG2	*	*clefF4	*	*clefC4	*	*clefC3	*	*clefC1	*	*clefG2	*clefG2
 *	*	*	*	*	*	*	*	*	*mclefGv2	*	*mclefG2	*	*mclefG2	*	*	*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*ITrd-1c-2	*ITrd-1c-2
@@ -1144,9 +1146,7 @@
 !!!filter-modern: sic -sq | shed -e "s/:TX:a:t=P:/:tx:t=p:/L" | shed -e "s/:rj/:RJ/L" | modori -m | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | humtr -p | shed -e "s/yy//"
 !!!ENC: Anastazja Marusiak
 !!!END: 2020-05-30
-!!!ENC: Anna Matuszewska
-!!!END: 2020-12-15
+!!!EED: Anna Matuszewska
+!!!EEV: 2020-12-15
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-06-21
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

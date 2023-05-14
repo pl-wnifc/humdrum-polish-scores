@@ -7,6 +7,8 @@
 !!!OTL: Au pied d'un saule
 !!!PDT:
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-KOZmzk
 !!!SMS-shelfmark: mzk/m/33
 !!!SMS-shelfwork: 002 W
@@ -22,10 +24,9 @@
 !!!OMD: Lento ed espressivo
 !!!AIN: 2 piano 1 vox
 !!!key: a
-!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern	**dynam	**kern	**text
-*part3	*part2	*part2	*part1	*part1
-*staff3	*staff2	*	*staff1	*staff1
+*part3	*part2	*	*part1	*
+*staff3	*staff2	*	*staff1	*
 *I"Pianoforte	*I"Pianoforte	*	*I"Chant	*
 *I'	*I'	*	*I'	*
 *Ipiano	*Ipiano	*	*Ivox	*
@@ -187,9 +188,8 @@
 !!!RDF**kern: < = below
 !!!EED: Andrzej Borzym
 !!!EEV: 2021-08-08
+!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | modori -m
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-07-27
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-30
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

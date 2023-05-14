@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT: 1807
 !!!AGN: Secular; Polonaise
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 1183
 !!!SMS-shelfwork: 001-002 M
@@ -25,9 +27,8 @@
 !!!key: D
 !!!OMD:
 !!!OMD-mod: Moderato
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/LO:DY:(a|b|rj|t)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m
 **kern	**kern	**dynam	**kern	**dynam
-*part2	*part2	*part2	*part1	*part1
+*part2	*part2	*	*part1	*
 *staff3	*staff2	*	*staff1	*
 *Ipiano	*Ipiano	*	*Icello	*
 *I"[Piano]	*I"[Piano]	*	*I"[Violon]	*
@@ -1642,12 +1643,11 @@
 !!!system-decoration: s1[(s2,s3)]
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
+!!!RDF**kern: | = vertical stroke
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/LO:DY:(a|b|rj|t)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m
 !!!ENC: Marta Chmielewska
 !!!END: 2021-04-14
-!!!ENC: Kamil Watkowski
-!!!END: 2021-03-27
-!!!RDF**kern: | = vertical stroke
+!!!EED: Kamil Watkowski
+!!!EEV: 2021-03-27
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-20
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

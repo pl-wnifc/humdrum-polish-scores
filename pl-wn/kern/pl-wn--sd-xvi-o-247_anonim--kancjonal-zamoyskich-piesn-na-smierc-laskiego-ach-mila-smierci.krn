@@ -7,6 +7,8 @@
 !!!OTL: Kancjonał Zamoyskich
 !!!PDT: 1558
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: SD XVI.O.247
 !!!SMS-shelfwork: W
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: e:phr
 **kern	**text	**mod-text	**text	**mod-text	**text	**mod-text	**text	**mod-text	**text	**mod-text	**kern	**text	**mod-text	**text	**mod-text	**text	**mod-text	**text	**mod-text	**text	**mod-text	**kern	**text	**mod-text	**text	**mod-text	**text	**mod-text	**text	**mod-text	**text	**mod-text	**kern
-*part4	*part4	*part4	*	*	*	*	*	*	*	*	*part3	*part3	*part3	*	*	*	*	*	*	*	*	*part2	*part2	*part2	*	*	*	*	*	*	*	*	*part1
-*staff4	*staff4	*staff4	*	*	*	*	*	*	*	*	*staff3	*staff3	*staff3	*	*	*	*	*	*	*	*	*staff2	*staff2	*staff2	*	*	*	*	*	*	*	*	*staff1
+*part4	*	*	*	*	*	*	*	*	*	*	*part3	*	*	*	*	*	*	*	*	*	*	*part2	*	*	*	*	*	*	*	*	*	*	*part1
+*staff4	*	*	*	*	*	*	*	*	*	*	*staff3	*	*	*	*	*	*	*	*	*	*	*staff2	*	*	*	*	*	*	*	*	*	*	*staff1
 *I"BAS.	*	*	*	*	*	*	*	*	*	*	*I"TENOR.	*	*	*	*	*	*	*	*	*	*	*I"ALT.	*	*	*	*	*	*	*	*	*	*	*I"[CANTVS.]
 *mI"Basso	*	*	*	*	*	*	*	*	*	*	*mI"Tenore	*	*	*	*	*	*	*	*	*	*	*mI"Alto	*	*	*	*	*	*	*	*	*	*	*mI"[Soprano]
 *I'B	*	*	*	*	*	*	*	*	*	*	*I'T	*	*	*	*	*	*	*	*	*	*	*I'A	*	*	*	*	*	*	*	*	*	*	*I'S
@@ -170,11 +172,9 @@
 !!!filter-modern: tie -s | humtr -p | sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -k -e "s/[<>]//g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/:TUP:/:tup:/L" | shed -k -e "s/r[a-gA-G]+/r/D" | rid -li
 !!!ENC: Katarzyna Serwa
 !!!END: 2022-05-06
-!!!ENC: Mateusz Solarz
-!!!END: 2022-04-25
+!!!EED: Mateusz Solarz
+!!!EEV: 2022-04-25
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-07-24
 !!!ENC-iiif: Emilia Ziętek
 !!!END-iiif: 2022-09-02
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

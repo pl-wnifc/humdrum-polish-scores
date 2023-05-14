@@ -9,6 +9,8 @@
 !!!OMV: 007
 !!!PDT:
 !!!AGN: Secular; Song
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 66/N
 !!!SMS-shelfwork: 001-007 G
@@ -24,10 +26,9 @@
 !!!OMD: Andantino melancolico
 !!!AIN: 1 bass 1 tenor
 !!!key: a
-!!!filter-modern: sic -sq | shed -e "s/LO:HP:(a|b|rj)/LO:hp:$1/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | extract -s 1,4-6,3-$ | autostem -r | tie -s  | modori -m | humtr -p
 **kern	**dynam	**kern	**text	**text	**dynam
-*part2	*part2	*part1	*part1	*part1	*part1
-*staff2	*	*staff1	*staff1	*staff1	*
+*part2	*	*part1	*	*	*
+*staff2	*	*staff1	*	*	*
 *Ibass	*	*Itenor	*	*	*
 *ICvox	*	*ICvox	*	*	*
 *IGcoro	*	*IGcoro	*	*	*
@@ -176,11 +177,10 @@
 !!!RDF**kern: | = vertical stroke
 !!!RDF**kern: N = linked
 !!!RDF**kern: i = editorial accidental
-!!!EED: Wojciech Jakubiak-Danek
-!!!EEV: 2021-06-09
+!!!filter-modern: sic -sq | shed -e "s/LO:HP:(a|b|rj)/LO:hp:$1/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | extract -s 1,4-6,3-$ | autostem -r | tie -s  | modori -m | humtr -p
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-05-31
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2021-06-09
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-20
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

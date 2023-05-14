@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R282
 !!!SMS-shelfwork: 003-003 G
@@ -24,8 +26,8 @@
 !!!AIN: 2 piano
 !!!key: F
 **kern	**kern
-*part2	*part1
 *group1	*group1
+*part2	*part1
 *staff2	*staff1
 *I"[Pianoforte]	*I"[Pianoforte]
 *I'	*I'
@@ -168,9 +170,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Katarzyna Serwa
 !!!END: 2021-11-16
-!!!ENC: Filip Voros
-!!!END: 2021-11-13
+!!!EED: Filip Voros
+!!!EEV: 2021-11-13
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-05
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

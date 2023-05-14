@@ -9,6 +9,8 @@
 !!!OMV: 002
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.108.035
 !!!SMS-shelfwork: 001-002 M
@@ -24,9 +26,7 @@
 !!!AIN: 1 piano 1 violn
 !!!key: d
 **kern	**kern	**dynam	**kern	**fing	**dynam
-!	!	!	!LO:MO:mod=*	!	!
-*	*	*	*scale:75%	*	*
-*part2	*part2	*part2	*part1	*part1	*part1
+*part2	*part2	*	*part1	*	*
 *staff3	*staff2	*staff1/2	*staff1	*	*
 *I"PIANO.	*I"PIANO.	*	*I"VIOLON.	*	*
 *mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*	*
@@ -39,11 +39,13 @@
 *k[b-e-]	*k[b-e-]	*	*k[b-e-]	*	*
 *d:	*d:	*	*d:	*	*
 *M12/8	*M12/8	*	*M12/8	*	*
+!	!	!	!LO:MO:mod=*null	!	!
+*	*	*	*scale:75%	*	*
 =1	=1	=1	=1	=1	=1
+*xywh-17:114,908,3706,835	*xywh-17:114,908,3706,835	*	*xywh-17:102,201,3706,749	*	*
 *^	*	*	*	*	*
 !!!OMD:
 !!!OMD-mod: Andante non troppo
-*xywh-17:114,908,3706,835	*xywh-17:114,908,3706,835	*xywh-17:114,908,3706,835	*	*xywh-17:102,201,3706,749	*	*
 !	!	!LO:TX:a:B:t=Andante non troppo.:mod=	!	!LO:TX:a:B:t=Andante non troppo.:mod=	!	!LO:DY:rj
 2.ryy	[4.BB- [4.BBB-\	8rc<	p	2.b-\	.	p
 .	.	(8F</L	.	.	.	.
@@ -2041,11 +2043,9 @@ N(8BB-\L	4dd\	.	2.b-\	.	.
 !!!filter-modern: autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e “s/([()[]_])[><]/$1/g” | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-11
-!!!ENC: Marta Lawrence
-!!!END: 2022-05-29
+!!!EED: Marta Lawrence
+!!!EEV: 2022-05-29
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-19
 !!!ENC-iiif: Natalia Wrzos
 !!!END-iiif: 2022-08-30
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

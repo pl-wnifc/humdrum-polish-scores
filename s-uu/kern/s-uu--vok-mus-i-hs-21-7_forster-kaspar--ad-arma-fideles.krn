@@ -7,6 +7,8 @@
 !!!OTL: Ad arma fideles
 !!!PDT: 1690
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: S-Uu
 !!!SMS-shelfmark: Vok. mus. i hs. 21:7
 !!!SMS-shelfwork: W
@@ -21,11 +23,10 @@
 !!!ONB-nifc: UWAGA: poszczególne partie dostępne po kliknięciu w „browse part”. Informacje nt stron tytułowych w opisie na stronie lub na RISM.
 !!!AIN: 1 bass 1 organ 2 soprn
 !!!key: G
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -k -e "s/#X/#/g" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**fba	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
 *	*	*group1	*	*	*group1	*	*	*group1	*	*
-*part4	*	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part4	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *I"Organo.	*	*I"Baſso.	*	*	*I"Canto 2.	*	*	*I"Canto 1.	*	*
 *mI"Organo	*	*mI"Basso	*	*	*mI"Soprano II	*	*	*mI"Soprano I	*	*
 *I'org	*	*I'B	*	*	*I'S 2	*	*	*I'S 1	*	*
@@ -1077,11 +1078,10 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: @ = marked note, color=grey
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -k -e "s/#X/#/g" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 !!!ENC: Berenika Jozajtis
 !!!END: 2022-01-22
 !!!EED: Andrzej Borzym
-!!!EST: 2022-01-31
+!!!EEV: 2022-01-31
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-08
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

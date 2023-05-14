@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT: 1819
 !!!AGN: Secular; Prelude
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-KOZmzk
 !!!SMS-shelfmark: mzk/m/31
 !!!SMS-shelfwork: 001-004 G
@@ -26,7 +28,7 @@
 !!!OMD:
 !!!OMD-mod: Agitato
 **kern	**kern	**dynam
-*part1	*part1	*part1
+*part1	*part1	*
 *staff2	*staff1	*
 *Iorgan	*Iempty	*
 *I"Organo	*	*
@@ -433,7 +435,7 @@
 !!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | autostem -r | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -k -e "s/[<>]//g" | shed -k -e "s/r[a-gA-G]+/r/D"
 !!!ENC: Tomasz Grochalski
 !!!END: 2020-06-15
+!!!EED: Tomasz Grochalski
+!!!EEV: 2020-06-15
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-20
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -9,6 +9,8 @@
 !!!OMV: 008
 !!!PDT: 1829
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-553
 !!!SMS-shelfwork: 001-008 M
@@ -25,11 +27,9 @@
 !!!key: B-
 !!!OMD:
 !!!OMD-mod: Andante largo
-!!!filter-modern: sic -sq | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/yy//" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**kern	**kern	**text	**dynam	**kern	**kern	**kern	**kern	**dynam
-*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part7	*part6	*part5	*part5	*part5	*part4	*part3	*part2	*part1	*part1
-*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff7	*staff6	*staff5	*staff5	*	*staff4	*staff3	*staff2	*staff1	*
+*part12	*	*part11	*	*part10	*	*part9	*	*part8	*part7	*part6	*part5	*	*	*part4	*part3	*part2	*part1	*
+*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff7	*staff6	*staff5	*	*	*staff4	*staff3	*staff2	*staff1	*
 *IGcont	*	*IGacmp	*	*IGacmp	*	*IGacmp	*	*IGcoro	*IGcoro	*IGcoro	*IGcoro	*	*	*IGacmp	*IGacmp	*IGacmp	*IGacmp	*
 *ICklav	*	*ICstr	*	*ICstr	*	*ICstr	*	*ICvox	*ICvox	*ICvox	*ICvox	*	*	*ICbras	*ICbras	*ICww	*ICww	*
 *Iorgan	*	*Iviola	*	*Ivioln	*	*Ivioln	*	*Ibass	*Itenor	*Ialto	*Isoprn	*	*	*Icor	*Icor	*Iclars	*Iclars	*
@@ -1246,13 +1246,12 @@
 !!!RDF**kern: | = vertical stroke
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b:)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:[ab])$/LO:dy:$1$2/L; s/LO:DY(.*)(:rj:)(.*)/LO:dy:$1$2$3/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/yy//" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 !!!ENC: Andrzej Borzym
 !!!END: 2020-09-15
-!!!ENC: Krzysztof Stępień
-!!!END: 2022-01-31
+!!!EED: Krzysztof Stępień
+!!!EEV: 2022-01-31
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-22
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-22
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

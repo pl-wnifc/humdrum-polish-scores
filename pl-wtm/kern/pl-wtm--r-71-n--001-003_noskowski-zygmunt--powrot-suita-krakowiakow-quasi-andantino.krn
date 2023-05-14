@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT: 1894
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 71/N
 !!!SMS-shelfwork: 001-003 M
@@ -25,11 +27,10 @@
 !!!key: A
 !!!OMD:
 !!!OMD-mod: Quasi andantino
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
 **kern	**kern	**dynam	**kern	**kern	**dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam
 *group3	*group3	*	*group2	*group2	*	*group1	*	*	*	*	*group1	*	*	*	*	*group1	*	*	*	*	*group1	*	*	*	*
-*part6	*part6	*part6	*part5	*part5	*part5	*part4	*	*	*part4	*part4	*part3	*part3	*part3	*part3	*part3	*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1	*part1	*part1
-*staff8	*staff7	*	*staff6	*staff5	*	*staff4	*	*	*	*	*staff3	*staff3	*staff3	*	*	*staff2	*staff2	*staff2	*	*	*staff1	*staff1	*staff1	*	*
+*part6	*part6	*	*part5	*part5	*	*part4	*	*	*	*	*part3	*	*	*	*	*part2	*	*	*	*	*part1	*	*	*	*
+*staff8	*staff7	*	*staff6	*staff5	*	*staff4	*	*	*	*	*staff3	*	*	*	*	*staff2	*	*	*	*	*staff1	*	*	*	*
 *Ipiano	*Iempty	*	*Ipiano	*Ipiano	*	*Iempty	*	*	*	*	*Itenor	*	*	*	*	*Ialto	*	*	*	*	*Isoprn	*	*	*	*
 *I"Piano	*I"2do	*	*I"Piano	*I"1mo Pianoforte	*	*I"Bas	*	*	*	*	*I"Tenor	*	*	*	*	*I"Alt	*	*	*	*	*I"Sopran	*	*	*	*
 *I'2do	*I'2do	*	*	*I'1mo	*	*I'B	*	*	*	*	*I'T	*	*	*	*	*I'A	*	*	*	*	*I'S	*	*	*	*
@@ -312,9 +313,10 @@
 =:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: {{(s1,s2,s3,s4)}{(s5,s6)}{(s7,s8)}}
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
 !!!ENC: Marcin Jachim
 !!!END: 2021-05-11
+!!!EED: Marcin Jachim
+!!!EEV: 2021-05-11
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-22
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

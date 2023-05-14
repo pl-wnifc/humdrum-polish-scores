@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R300
 !!!SMS-shelfwork: 001-004 G
@@ -23,7 +25,6 @@
 !!!ONB-nifc: UWAGA: skan 0003 z dopiskiem „II”
 !!!AIN: 2 piano
 !!!key: a
-!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/-//B" | autostem -r | modori -m
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
@@ -270,11 +271,10 @@
 *-	*-
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/-//B" | autostem -r | modori -m
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-13
-!!!ENC: Marta Lawrence
-!!!END: 2021-11-17
+!!!EED: Marta Lawrence
+!!!EEV: 2021-11-17
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

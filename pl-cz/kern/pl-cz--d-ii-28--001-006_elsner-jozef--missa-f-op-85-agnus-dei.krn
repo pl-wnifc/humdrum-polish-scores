@@ -9,6 +9,8 @@
 !!!OMV: 006
 !!!PDT: 1847
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: D II-28
 !!!SMS-shelfwork: 001-006 M
@@ -22,8 +24,8 @@
 !!!AIN: 1 bass 1 organ 1 tenor
 !!!key:
 **kern	**kern	**kern	**text	**kern	**text	**kern	**text
-*part3	*part3	*part2	*part2	*part1	*part1	*part1	*part1
-*staff5	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part3	*part3	*part2	*	*part1	*	*part1	*
+*staff5	*staff4	*staff3	*	*staff2	*	*staff1	*
 *Iorgan	*Iempty	*Ibass	*	*Itenor	*	*Iempty	*
 *I"Organo	*	*I"Basso	*	*I"Tenori	*	*I"	*
 *	*	*	*	*mI"Tenore II	*	*mI"Tenore I	*
@@ -218,10 +220,10 @@
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3)],{(s4,s5)}
+!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Anna Matuszewska
 !!!END: 2020-04-01
+!!!EED: Anna Matuszewska
+!!!EEV: 2020-04-01
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-12-01
-!!!filter-modern: sic -sq | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m |
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

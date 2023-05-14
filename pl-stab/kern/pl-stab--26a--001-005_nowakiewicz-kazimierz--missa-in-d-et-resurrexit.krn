@@ -9,6 +9,8 @@
 !!!OMV: 005
 !!!PDT: 1810
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-STAb
 !!!SMS-shelfmark: 26a
 !!!SMS-shelfwork: 001-005 M
@@ -26,8 +28,8 @@
 !!!OMD:
 !!!OMD-mod: Allegro
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part12	*part12	*part11	*	*part10	*part10	*part8	*part8	*	*part7	*part7	*	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff12	*	*staff11	*	*staff10	*	*staff8	*staff8	*	*staff7	*staff7	*	*staff6	*staff6	*	*staff5	*staff5	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part12	*	*part11	*	*part10	*	*part8	*	*	*part7	*	*	*part6	*	*	*part5	*	*	*part4	*	*part3	*	*part2	*	*part1	*
+*staff12	*	*staff11	*	*staff10	*	*staff8	*	*	*staff7	*	*	*staff6	*	*	*staff5	*	*	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Organo.	*	*I"Alto Viola	*	*I"Violino SecuNdo 1 mo	*	*I"Baſso	*	*	*I"Tenor	*	*	*I"Alto	*	*	*I"Canto	*	*	*I"Clarino Secundo et Cornu	*	*I"Clarino Primo et Cornu	*	*I"Oboe Secundo	*	*I"Oboe Primo	*
 *I'org	*	*I'a-vla	*	*I'vl 2	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'clar 2 cor 2	*	*I'clar 1 cor 1	*	*I'ob 2	*	*I'ob 1	*
 *Iorgan	*	*Iviola	*	*Ivioln	*	*Ibass	*	*	*Itenor	*	*	*Icalto	*	*	*Isoprn	*	*	*Icor	*	*Icor	*	*Ioboe	*	*Ioboe	*
@@ -1488,9 +1490,7 @@
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:(a|b|rj|t|)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
 !!!ENC: Marta Opryszak
 !!!END: 2021-12-25
-!!!ENC: Andrzej Borzym
-!!!END: 2021-12-29
+!!!EED: Andrzej Borzym
+!!!EEV: 2021-12-29
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-25
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -3,12 +3,14 @@
 !!!COM: Janiewicz, Feliks
 !!!COM-rismID: pe30011012
 !!!CDT: 1762-1848
-!!!CNT:
+!!!CNT: Polish
 !!!OPR: IIe Trio
 !!!OTL: Andante
 !!!OMV: 002
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wn
 !!!SMS-shelfmark: Mus.III.601
 !!!SMS-shelfwork: 002-002 M
@@ -26,7 +28,7 @@
 !!!OMD-mod: Andante
 !!!key: a
 **kern	**dynam	**kern	**dynam	**kern	**dynam
-*part3	*part3	*part2	*part2	*part1	*part1
+*part3	*	*part2	*	*part1	*
 *staff3	*	*staff2	*	*staff1	*
 *I"BASSO	*	*I"VIOLINO SECONDO	*	*I"VIOLINO PRIMO	*
 *mI"Violoncello	*	*mI"Violino II	*	*mI"Violino I	*
@@ -367,9 +369,7 @@
 .	.	16f/JJ)	.	.	.
 !LO:LB:g=original	!	!LO:LB:g=original	!	!LO:LB:g=original	!
 =27	=27	=27	=27	=27	=27
-*xywh-#67:355,1429,3392,421	*	*	*	*	*
-*	*	*xywh-#45:537,3971,3413,401	*	*	*
-*	*	*	*	*xywh-#13:507,3119,3453,498	*
+*xywh-#67:355,1429,3392,421	*	*xywh-#45:537,3971,3413,401	*	*xywh-#13:507,3119,3453,498	*
 !LO:TX:b:i:t=dol:mod=	!	!	!	!	!
 8c\L)	.	(16e/LL	.	8r	.
 .	.	16f/	.	.	.
@@ -582,14 +582,12 @@
 !!LO:MO:ori
 !!!RDF**dynam: f = F
 !!LO:MO:end
+!!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -X dynam -e "s/:a/:A/LX" | sic -sq | modori -m | autostem -r | tie -s
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-20
-!!!ENC: Urszula Świątek
-!!!END: 2022-06-30
+!!!EED: Urszula Świątek
+!!!EEV: 2022-06-30
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-08-18
-!!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -X dynam -e "s/:a/:A/LX" | sic -sq | modori -m | autostem -r | tie -s
 !!!ENC-iiif: Mateusz Mrugas
 !!!END-iiif: 2022-09-07
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

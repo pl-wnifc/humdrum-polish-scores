@@ -9,6 +9,8 @@
 !!!OMV: 012
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R282
 !!!SMS-shelfwork: 001-012 G
@@ -23,10 +25,9 @@
 !!!ONB-nifc: UWAGA: pierwsza grupa ćwiczeń na skanach 0004-0007
 !!!AIN: 2 piano
 !!!key: C
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m |
 **kern	**kern
-*part2	*part1
 *group1	*group1
+*part2	*part1
 *staff2	*staff1
 *I"[Pianoforte]	*I"[Pianoforte]
 *I'	*I'
@@ -130,11 +131,10 @@
 !!!system-decoration: {(g1)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | autostem -r | modori -m
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-11
-!!!ENC: Katarzyna Serwa
+!!!EED: Katarzyna Serwa
+!!!EEV: 2021-11-16
 !!!ENC-modern: Andrzej Borzym
-!!!END-modern: 2022-08-29
-!!!END: 2021-11-16
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EEV-modern: 2022-08-29

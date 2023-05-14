@@ -7,6 +7,8 @@
 !!!OTL: Veni Sancte Spiritus et emitte
 !!!PDT: 1700
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-SA
 !!!SMS-shelfmark: 245/A VII 5
 !!!SMS-shelfwork: W
@@ -20,8 +22,8 @@
 !!!AIN: 9 empty 1 vox
 !!!key:
 **kern	**fba	**kern	**kern	**kern	**kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**kern
-*part10	*part10	*part9	*part8	*part7	*part6	*part6	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part1
-*staff10	*	*staff9	*staff8	*staff7	*staff6	*staff6	*staff5	*staff5	*staff4	*staff4	*staff3	*staff3	*staff2	*staff1
+*part10	*	*part9	*part8	*part7	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*part1
+*staff10	*	*staff9	*staff8	*staff7	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*staff1
 *Iempty	*	*Iempty	*Iempty	*Iempty	*Iempty	*	*Iempty	*	*Iempty	*	*Ivox	*	*Iempty	*Iempty
 *I"Baſso	*	*I"Viollone	*I"Viol[i]no 2do.	*I"Viol[i]no 1mo	*I"Baſso.	*	*I"	*	*I"Allitto	*	*I"Canto.	*	*I"Clarino 2do Gallico	*I"Clarino 1mo Gallico
 *mI"Basso [cont]	*	*mI"Violone	*mI"Violino II	*mI"Violino I	*mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*	*mI"Clarino II Gallico	*mI"Clarino I Gallico
@@ -1596,9 +1598,7 @@
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-27
 !!!filter-modern: sic -sq | tie -s | autostem -r | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/yy//" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | humtr -p
-!!!EED: Leszek Kubiak
-!!!EEV: 2020-10-15
 !!!ENC: Kamil Watkowski
 !!!END: 2020-04-20
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Leszek Kubiak
+!!!EEV: 2020-10-15

@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.1
 !!!SMS-shelfwork: 049-003 M
@@ -21,9 +23,11 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/5736 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1/datastream/IIIF/view
 !!!ONB-nifc: UWAGA: Cantus (s. 152v-160r, skan 0155-0162), Altus (s. 148r-156r, skan 0341-0349), Tenor (s. 127v-136r, skan 0518-0526), Bassus (s. 139v-146v, skan 0702-0709). Części Mszy: 1. Kyrie, 2. Et in terra, 3. Patrem, 4. Sanctus, 5. Agnus Dei
+!!!AIN: 3 empty 1 tenor
+!!!key:
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Iempty	*	*Itenor	*	*Iempty	*	*Iempty	*
 *I"BASSVS	*	*I"TENOR	*	*I"ALTVS	*	*I"CANTVS	*
 *mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*
@@ -90,8 +94,7 @@
 4BB-/	e(t)	4d/	.	4f\	-re(m)	4b-\	.
 !	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!
 =7	=7	=7	=7	=7	=7	=7	=7
-*	*	*xywh-#521:1442,1358,4322,814	*	*	*	*	*
-*	*	*	*	*xywh-#344:5983,1577,4280,842	*	*	*
+*	*	*xywh-#521:1442,1358,4322,814	*	*xywh-#344:5983,1577,4280,842	*	*	*
 2F\	ter-	2c/	-li	2f\	coe-	2a\	-ten-
 *	*	*	*	*	*	*custos:a	*
 !	!LO:MO:mod=-rae	!	!	!	!	!	!
@@ -1525,12 +1528,9 @@
 !!!filter-modern: sic -sq | humtr -p |autostem -r | tie -s | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-03-11
-!!!AIN: 3 empty 1 tenor
-!!!ENC: Leszek Kubiak
-!!!END: 2022-03-14
+!!!EED: Leszek Kubiak
+!!!EEV: 2022-03-14
 !!!ENC-iiif: Jan Barakat
 !!!END-iiif: 2022-08-31
 !!!ENC-modern: Leszek Kubiak
 !!!END-modern: 2022-07-23
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

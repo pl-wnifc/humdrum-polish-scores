@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT: 1664
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.7
 !!!SMS-shelfwork: 033-001 M
@@ -24,8 +26,8 @@
 !!!AIN: 1 alto 1 bass 2 tenor
 !!!key: G
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*part4	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *Ibass	*	*Itenor	*	*Itenor	*	*Ialto	*
 *I"[Bassus]	*	*I"[Tenor II]	*	*I"[Tenor I]	*	*I"[Altus]	*
 *mI"Basso	*	*mI"Tenore II	*	*mI"Tenore I	*	*mI"Alto	*
@@ -281,8 +283,7 @@
 *met(C|)	*	*met(C|)	*	*met(C|)	*	*met(C|)	*
 *mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!LO:MO:mod=Chri-	!LO:TX:t=P:problem=kreska pseudotaktowa	!
-*	*	*	*	*	*	*xywh-#20:7105,548,6339,876	*
-*xywh-#273:7237,1792,5794,800	*	*xywh-#181:7096,1882,6140,728	*	*xywh-#107:1258,579,5891,917	*	*	*
+*xywh-#273:7237,1792,5794,800	*	*xywh-#181:7096,1882,6140,728	*	*xywh-#107:1258,579,5891,917	*	*xywh-#20:7105,548,6339,876	*
 00r	.	0r	.	1d	CHri-	00r	.
 .	.	.	.	2e\	-ſte	.	.
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
@@ -741,11 +742,9 @@
 !!!filter-modern: sic -sq | autostem -r | tie -s | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/-//B" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/[<>]//g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | humtr -p | modori -m
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-02-24
-!!!ENC: Wojciech Jakubiak-Danek
-!!!END: 2021-03-10
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2021-03-10
 !!!ENC-modern: Marta Lawrence
 !!!END-modern: 2022-07-13
 !!!ENC-iiif: Konrad Tyszka
 !!!END-iiif: 2022-08-31
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

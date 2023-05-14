@@ -9,6 +9,8 @@
 !!!OMV: 006
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R266
 !!!SMS-shelfwork: 001-006 G
@@ -23,10 +25,9 @@
 !!!ONB-nifc: UWAGA: zbiór zawiera utwory na 4 ręce numerowane I-VI. Nr 006 od skanu 0020
 !!!AIN: 2 piano
 !!!key: C
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | autostem -r | modori -m
 **kern	**kern	**dynam	**kern	**kern	**dynam
 *group2	*group2	*	*group1	*group1	*
-*part2	*part2	*part2	*part1	*part1	*part1
+*part2	*part2	*	*part1	*part1	*
 *staff4	*staff3	*	*staff2	*staff1	*
 *I"Klavier [for hands]	*I"Klavier [for hands]	*	*I"Klavier [for hands]	*I"Klavier [for hands]	*
 *I'	*I'	*	*I'	*I'	*
@@ -1289,12 +1290,11 @@
 !!LO:MO:ori
 !!!RDF**kern: @ = marked note, color=grey
 !!LO:MO:end
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | autostem -r | modori -m
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-11-11
-!!!ENC: Marta Lawrence
-!!!END: 2021-11-13
+!!!EED: Marta Lawrence
+!!!EEV: 2021-11-13
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
 !!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

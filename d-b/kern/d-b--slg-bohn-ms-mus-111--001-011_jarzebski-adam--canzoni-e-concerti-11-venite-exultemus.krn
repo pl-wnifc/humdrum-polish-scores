@@ -2,13 +2,15 @@
 !!!cenid: 16xx:1784
 !!!COM: Jarzębski, Adam
 !!!COM-rismID: pe30017782
-!!!CDT:
-!!!CNT:
+!!!CDT: 1590-1648
+!!!CNT: Polish
 !!!GTL: Canzoni e Concerti
 !!!OTL: 11. Venite Exultemus
 !!!OMV: 011
 !!!PDT: 1627
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: D-B
 !!!SMS-shelfmark: Slg Bohn Ms.mus. 111
 !!!SMS-shelfwork: 001-011 G
@@ -21,12 +23,11 @@
 !!!URL-scan: https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1049147219 @EN{Scan on Staatsbibliothek zu Berlin Website} @PL{Skany w portalu Staatsbibliothek zu Berlin}
 !!!IIIF:
 !!!ONB-nifc: UWAGA: Prima vox: s. 20-21, Seconda vox: s. 80-81, Basso continuo: s. 171. Uwaga: proszę wpisywać partie tylko występujące w danym koncercie i nazywać partie wg określeń podawanych przy danym utworze. Kody instr. dla humdrumowców podane zostaną na forum.
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" |shed -k -e "s/-X/-/g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | tie -s | autostem -r  | modori -m
 !!!AIN: 1 soprn 1 viola
 !!!key:
 **kern	**fba	**kern	**kern
 *	*	*group1	*group1
-*part3	*part3	*part2	*part1
+*part3	*	*part2	*part1
 *staff3	*	*staff2	*staff1
 *I"Baſso Continúo.	*	*I"Baſtarda	*I"Canto
 *mI"Basso continuo	*	*mI"Bastarda	*mI"Soprano
@@ -161,7 +162,7 @@
 .	.	16D\LL	.
 .	.	16E\	.
 .	.	16F\JJ	.
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefC4	*
 .	.	16G\LL	.
 .	.	16A\	.
@@ -203,7 +204,7 @@
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 2G#X/	.	2G#X/	4.b/
 .	.	.	8cc\
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefF4	*
 =19-	=19-	=19-	=19-
 2.A/	.	4A\	1a
@@ -555,7 +556,7 @@
 .	.	.	16dd\
 .	.	.	16ccny\
 .	.	.	16b\JJ
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefC4	*
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	16r	2cc\
@@ -663,7 +664,7 @@
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	4A/	8a/
 .	.	.	8ee\
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefF4	*
 =56-	=56-	=56-	=56-
 .	.	8C/L	8ee\L
@@ -687,7 +688,7 @@
 .	.	8F\	8a/L
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	8G\J	8b/J
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefC4	*custos:cc
 !	!	!	!LO:LB:g=original
 =59-	=59-	=59-	=59-
@@ -740,7 +741,7 @@
 .	.	.	4ee\
 2e\	.	.	4ee\
 .	.	.	4ee\
-!LO:MO:mod=*null:null	!	!	!
+!LO:MO:mod=*null	!	!	!
 *clefC3	*	*	*
 =64-	=64-	=64-	=64-
 !LO:MO:null:mod=*clefC4	!	!	!LO:TX:t=P:problem:mixed beam
@@ -779,7 +780,7 @@
 .	.	.	8gg\L
 .	.	.	8ff\
 .	.	.	8ee\J
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefF4	*
 =67-	=67-	=67-	=67-
 2f\	.	8r	2dd\
@@ -822,7 +823,7 @@
 .	.	16F\	.
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	16E\JJ	.
-!LO:MO:mod=*null:null	!	!	!
+!LO:MO:mod=*null	!	!	!
 *clefC4	*	*	*
 =70-	=70-	=70-	=70-
 1F	.	2F\	8r
@@ -1039,7 +1040,7 @@
 .	.	.	8cc#X\
 =89-	=89-	=89-	=89-
 2d\	.	2D/	2dd\
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefC4	*
 2d\	.	4r	4r
 .	.	4d\	4ff\
@@ -1068,7 +1069,7 @@
 .	.	8c\L	.
 .	.	16B\L	.
 .	.	16A\JJ	.
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefF4	*
 2G/	.	8.G\L	2b/
 .	.	16F\Jk	.
@@ -1104,7 +1105,7 @@
 1F	.	1F	2a/
 .	.	.	4r
 .	.	.	4ee\
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefC4	*
 =96-	=96-	=96-	=96-
 2D/	.	4r	2ff\
@@ -1145,7 +1146,7 @@
 .	.	.	8dd/
 .	.	.	8cc/J
 .	.	.	2b/
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefF4	*
 =101-	=101-	=101-	=101-
 0D	.	2r	8a/L
@@ -1174,7 +1175,7 @@
 .	.	16G\JJ	.
 .	.	8A\L	.
 .	.	8D\J	.
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefC4	*
 =103-	=103-	=103-	=103-
 0A	.	2r	8a\L
@@ -1205,7 +1206,7 @@
 .	.	16d\JJ	.
 .	.	8e\L	.
 .	.	8A\J	.
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefF4	*
 =105-	=105-	=105-	=105-
 0E	.	2r	8ee\L
@@ -1378,7 +1379,7 @@
 .	.	.	8ee-X\
 !	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa
 .	.	.	8dd\J
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefC4	*
 =117-	=117-	=117-	=117-
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
@@ -1601,7 +1602,7 @@
 .	.	8c\L	8ee\L
 .	.	8e\J	8gg\J
 2A/	.	8A/	8aa\L
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefF4	*
 .	.	16AA/LL	16cc\L
 .	.	16GG/JJ	16bny\JJ
@@ -1619,7 +1620,7 @@
 .	.	8F\J	8aa\J
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 2e\	.	8C/	8ee\L
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefC4	*
 .	.	16e\LL	16gg\L
 .	.	16d\JJ	16ff\J
@@ -1646,7 +1647,7 @@
 .	.	8Bny\J	8dd\J
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 2A/	.	8e\	8ee\
-!	!	!LO:MO:mod=*null:null	!
+!	!	!LO:MO:mod=*null	!
 *	*	*clefF4	*
 .	.	16E\LL	16g/LL
 .	.	16D\JJ	16f/J
@@ -1790,11 +1791,10 @@
 *-	*-	*-	*-
 !!!system-decoration: [(g1)]s3
 !!!RDF**kern: l = terminal long
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/#X/#/g" |shed -k -e "s/-X/-/g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | tie -s | autostem -r  | modori -m
 !!!ENC: Anastazja Marusiak
 !!!END: 2022-11-04
-!!!ENC: Natalia Wrzos
-!!!END: 2022-11-12
+!!!EED: Natalia Wrzos
+!!!EEV: 2022-11-12
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-11-29
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

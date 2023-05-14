@@ -9,6 +9,8 @@
 !!!OMV: 008
 !!!PDT: 1780
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-554
 !!!SMS-shelfwork: 001-008 M
@@ -26,9 +28,9 @@
 !!!OMD-mod: Adagio
 !!!key: c
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**kern	**kern	**dynam	**kern	**dynam
-*group4	*group4	*group4	*group4	*group4	*group4	*group4	*group4	*group3	*group3	*group3	*group3	*group3	*group3	*group3	*group3	*group3	*group3	*group3	*group3	*group2	*group2	*group1	*group1	*group1	*group1
-*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part8	*part7	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part3	*part2	*part2	*part1	*part1
-*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff8	*	*staff7	*staff7	*	*staff6	*staff6	*	*staff5	*staff5	*	*staff4	*staff3	*staff2	*	*staff1	*
+*group4	*	*group4	*	*group4	*	*group4	*	*group3	*	*	*group3	*	*	*group3	*	*	*group3	*	*	*group2	*group2	*group1	*	*group1	*
+*part12	*	*part11	*	*part10	*	*part9	*	*part8	*	*	*part7	*	*	*part6	*	*	*part5	*	*	*part4	*part3	*part2	*	*part1	*
+*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*	*staff7	*	*	*staff6	*	*	*staff5	*	*	*staff4	*staff3	*staff2	*	*staff1	*
 *I"Violone.	*	*I"Viola di Alto. oblig.	*	*I"Violino 2do.	*	*I"Violino 1mo.	*	*I"Basſo.	*	*	*I"Tenore.	*	*	*I"Alto.	*	*	*I"Canto.	*	*	*I"Clarino 2do. Ex C.	*I"Clarino 1mo. Ex C.	*I"Oboe Secundo.	*	*I"Oboe Primo.	*
 *mI"Violone	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*	*mI"Clarino II in C	*mI"Clarino I in C	*mI"Oboe II	*	*mI"Oboe I	*
 *I'vlne	*	*I'a-vla	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'clno 2 in C	*I'clno 1 in C	*I'ob 2	*	*I'ob 1	*
@@ -405,12 +407,10 @@
 !!LO:MO:mod
 !! !!!RDF**kern: @ = marked note, color=grey
 !!LO:MO:end
+!!!filter-modern: shed -k -e "s/-X/-/g" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:N:/LO:n:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
 !!!ENC: Andrzej Borzym
 !!!END: 2020-09-22
-!!!ENC: Antoni Szymański
-!!!END: 2022-01-31
+!!!EED: Antoni Szymański
+!!!EEV: 2022-01-31
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-11-27
-!!!filter-modern: shed -k -e "s/-X/-/g" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:N:/LO:n:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

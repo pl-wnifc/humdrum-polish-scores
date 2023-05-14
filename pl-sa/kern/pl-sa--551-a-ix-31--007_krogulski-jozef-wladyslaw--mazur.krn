@@ -7,6 +7,8 @@
 !!!OTL: Mazur
 !!!PDT:
 !!!AGN: Secular; Mazurka
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-SA
 !!!SMS-shelfmark: 551/A IX 31
 !!!SMS-shelfwork: 007 W
@@ -229,11 +231,9 @@
 *-	*-
 !!!system-decoration: {(s1,s2)}
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | autostem -r | tie -s | shed -k -e "s/[<>]//g" | shed -e "s/^(X?)rep$/$1REP/I" | modori -m
-!!!EED: Leszek Kubiak
-!!!EEV: 2020-12-14
 !!!ENC: Anastazja Marusiak
 !!!END: 2020-06-17
+!!!EED: Leszek Kubiak
+!!!EEV: 2020-12-14
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-07-08
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

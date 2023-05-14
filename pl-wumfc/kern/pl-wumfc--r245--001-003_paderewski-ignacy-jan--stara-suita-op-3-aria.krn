@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R245
 !!!SMS-shelfwork: 001-003 M
@@ -23,9 +25,8 @@
 !!!ONB-nifc: UWAGA: części Suity: 1.Preludio, 2. Intermezzo, 3. Aria, 4. Fuga
 !!!AIN: 1 piano
 !!!key: F
-!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|rj)/LO:dy:$1/L" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | autostem -r |  modori -m
 **kern	**kern	**dynam
-*part1	*part1	*part1
+*part1	*part1	*
 *staff2	*staff1	*
 *I"Piano	*I"Piano	*
 *I'	*I'	*
@@ -304,11 +305,10 @@
 *-	*-	*-
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
+!!!filter-modern: sic -sq | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|rj)/LO:dy:$1/L" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | autostem -r |  modori -m
 !!!ENC: Anastazja Marusiak
 !!!END: 2021-11-04
-!!!ENC: Marta Lawrence
-!!!END: 2021-11-05
+!!!EED: Marta Lawrence
+!!!EEV: 2021-11-05
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

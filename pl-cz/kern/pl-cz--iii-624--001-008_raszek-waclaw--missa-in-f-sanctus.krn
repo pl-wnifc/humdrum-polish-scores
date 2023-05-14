@@ -9,6 +9,8 @@
 !!!OMV: 008
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-624
 !!!SMS-shelfwork: 001-008 M
@@ -27,8 +29,8 @@
 !!!key: F
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**text	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern
 *	*	*	*group4	*	*group4	*	*group4	*	*group3	*	*	*group3	*	*	*group3	*	*	*group3	*	*	*group2	*	*group2	*	*group1	*group1
-*part12	*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part8	*part7	*part7	*part7	*part6	*part6	*part6	*part5	*part5	*part5	*part4	*part4	*part3	*part3	*part2	*part1
-*staff12	*	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*staff8	*	*staff7	*staff7	*	*staff6	*staff6	*	*staff5	*staff5	*	*staff4	*	*staff3	*	*staff2	*staff1
+*part12	*	*	*part11	*	*part10	*	*part9	*	*part8	*	*	*part7	*	*	*part6	*	*	*part5	*	*	*part4	*	*part3	*	*part2	*part1
+*staff12	*	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*	*staff7	*	*	*staff6	*	*	*staff5	*	*	*staff4	*	*staff3	*	*staff2	*staff1
 *I"Organo.	*	*	*I"Alto Viola.	*	*I"Violino Secondo.	*	*I"Violino Primo.	*	*I"Baſso.	*	*	*I"Tenore.	*	*	*I"Alto.	*	*	*I"Canto.	*	*	*I"Cornu 2.do in F.	*	*I"Cornu Primo. in F.	*	*I"Flauto 2do	*I"Flauto Primo.
 *mI"Organo	*	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*mI"Tenore	*	*	*mI"Alto	*	*	*mI"Soprano	*	*	*mI"Corno II in F	*	*mI"Corno I in F	*	*mI"Flauto II	*mI"Flauto I
 *I'org	*	*	*I'a-vla	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*	*I'T	*	*	*I'A	*	*	*I'S	*	*	*I'cor 2 in F	*	*I'cor 1 in F	*	*I'fl 2	*I'fl 1
@@ -721,12 +723,10 @@
 !!LO:MO:mod
 !! !!!RDF**kern: @ = marked note, color=grey
 !!LO:MO:end
+!!!filter-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:rj)(.*)/LO:dy:$1$2$3/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:N:/LO:n:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
 !!!ENC: Krzysztof Stępień
 !!!END: 2020-10-03
-!!!ENC: Andrzej Kubiczek
-!!!END: 2022-01-16
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2022-01-16
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-11-30
-!!!filter-modern: shed -e "s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:rj)(.*)/LO:dy:$1$2$3/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:N:/LO:n:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

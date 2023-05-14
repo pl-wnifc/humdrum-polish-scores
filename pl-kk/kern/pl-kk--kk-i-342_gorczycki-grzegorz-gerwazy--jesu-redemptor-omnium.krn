@@ -7,6 +7,8 @@
 !!!OTL: Jesu redemptor omnium
 !!!PDT:
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.342
 !!!SMS-shelfwork: W
@@ -22,9 +24,9 @@
 !!!AIN: 1 alto 1 empty 1 tenor 1 vox
 !!!key:
 **kern	**text	**fba	**kern	**text	**kern	**text	**kern	**text
-*part4	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff4	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
 *group1	*	*	*group1	*	*group1	*	*group1	*
+*part4	*	*	*part3	*	*part2	*	*part1	*
+*staff4	*	*	*staff3	*	*staff2	*	*staff1	*
 *Iempty	*	*	*Itenor	*	*Ialto	*	*Ivox	*
 *I"Baſso.	*	*	*I"Tenore	*	*I"Alto.	*	*I"Canto.	*
 *mI"Basso	*	*	*	*	*mI"Alto	*	*mI"Soprano	*
@@ -1542,13 +1544,11 @@
 !!!RDF**kern: l = terminal long
 !!LO:MO:end
 !!!filter-modern: sic -sq | tie -s | autostem -r | humtr -p | shed -e "s/-//B" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/[<>]//g" | shed -k -e "s/([\(\)\[\]])[><]/$1/g" | shed -k -e "s/([\(\)\[\]])[><]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
-!!!ENC-modern: Leszek Kubiak
-!!!END-modern: 2022-07-07
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-03-28
-!!!ENC: Kamil Watkowski
-!!!END: 2021-03-17
+!!!EED: Kamil Watkowski
+!!!EEV: 2021-03-17
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-07-07
 !!!ENC-iiif: Mateusz Mrugas
 !!!END-iiif: 2022-09-01
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

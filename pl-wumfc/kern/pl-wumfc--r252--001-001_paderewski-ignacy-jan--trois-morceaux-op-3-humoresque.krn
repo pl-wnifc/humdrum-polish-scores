@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT:
 !!!AGN:
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wumfc
 !!!SMS-shelfmark: R252
 !!!SMS-shelfwork: 001-001 G
@@ -25,7 +27,7 @@
 !!!key: e
 !!!OMD: Allegro
 **kern	**fing	**kern	**dynam
-*part1	*	*part1	*part1
+*part1	*	*part1	*
 *staff2	*	*staff1	*
 *I"Piano	*	*I"Piano	*
 *mI"Pianoforte	*	*mI"Pianoforte	*
@@ -939,12 +941,10 @@ N(>4a>] 4d#X> 4B>\_	.	8ff#/L)	.
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: N = linked
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -k -e "s/:TUP:/:tup:/L"
 !!!ENC: Filip Voros
 !!!END: 2021-11-05
-!!!ENC: Marta Lawrence
-!!!END: 2021-11-09
+!!!EED: Marta Lawrence
+!!!EEV: 2021-11-09
 !!!EED-modern: Antoni Szymański
 !!!END-modern: 2022-09-10
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m | shed -e "s/yy//" | shed -k -e "s/\(y([^y])/($1/" | shed -e "s/-//B" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -k -e "s/:TUP:/:tup:/L"
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: Licence CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)

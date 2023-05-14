@@ -9,6 +9,8 @@
 !!!OMV: 001
 !!!PDT: 1867
 !!!AGN: Secular; Variations
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 1143/1
 !!!SMS-shelfwork: 001-001 M
@@ -26,7 +28,7 @@
 !!!OMD-mod: Moderato
 !!!key: A
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*part4	*	*part3	*	*part2	*	*part1	*
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Violoncello	*	*I"Viola.	*	*I"Violino 2do	*	*I"Violino 1o.	*
 *	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*
@@ -315,9 +317,7 @@
 !!!filter-modern: shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | sic -sq | modori -m | autostem -r | shed -e "s/yy//"
 !!!ENC: Kamil Watkowski
 !!!END: 2021-04-06
-!!!ENC: Wojciech Jakubiak-Danek
-!!!END: 2021-04-12
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2021-04-12
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-28
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

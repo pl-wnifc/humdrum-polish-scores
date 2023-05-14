@@ -9,6 +9,8 @@
 !!!OMV: 003
 !!!PDT:
 !!!AGN: Sacred; Mass
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-CZ
 !!!SMS-shelfmark: III-99
 !!!SMS-shelfwork: 001-003 M
@@ -27,8 +29,8 @@
 !!!key: b
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
 *	*	*	*group4	*	*group4	*	*group4	*	*group3	*	*group3	*	*group3	*	*group3	*	*	*group2	*	*group2	*	*group1	*	*group1	*
-*part13	*	*part13	*part12	*part12	*part11	*part11	*part10	*part10	*part9	*part9	*part8	*part8	*part7	*part7	*part6	*part6	*part5	*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
-*staff13	*	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*staff9	*staff8	*staff8	*staff7	*staff7	*staff6	*staff6	*staff5	*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part13	*	*	*part12	*	*part11	*	*part10	*	*part9	*	*part8	*	*part7	*	*part6	*	*part5	*part4	*	*part3	*	*part2	*	*part1	*
+*staff13	*	*	*staff12	*	*staff11	*	*staff10	*	*staff9	*	*staff8	*	*staff7	*	*staff6	*	*staff5	*staff4	*	*staff3	*	*staff2	*	*staff1	*
 *I"Organo	*	*	*I"Viola Obligatto	*	*I"Violino Secondo	*	*I"Violino Primo	*	*I"Baſso	*	*I"Tenore	*	*I"Alto	*	*I"Canto	*	*I"Timpano in D. A.	*I"Cornu Secondo ex D:	*	*I"Cornu Primo ex D:	*	*I"Oboe Secondo	*	*I"Oboe Primo	*
 *	*	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso	*	*	*	*	*	*mI"Soprano	*	*mI"Timpani	*mI"Corno II in D	*	*mI"Corno I in D	*	*mI"Oboe II	*	*mI"Oboe I	*
 *I'org	*	*	*I'vla	*	*I'vl 2	*	*I'vl 1	*	*I'B	*	*I'T	*	*I'A	*	*I'S	*	*I'timp	*I'cor 2 in D	*	*I'cor 1 in D	*	*I'ob 2	*	*I'ob 1	*
@@ -4355,9 +4357,7 @@
 !!!filter-modern: shed -X dynam -e "s/:a/:A/LX" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(X?)tuplet$/$1TUPLET/I" | shed -k -e "s/:TUP:/:tup:/L" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//" | shed -k -e "s/[<>]//g"
 !!!ENC: Andrzej Gręziak
 !!!END: 2020-07-20
-!!!ENC: Marta Lawrence
-!!!END: 2021-01-21
+!!!EED: Marta Lawrence
+!!!EEV: 2021-01-21
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-13
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

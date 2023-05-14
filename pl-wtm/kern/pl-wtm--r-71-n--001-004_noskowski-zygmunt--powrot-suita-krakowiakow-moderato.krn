@@ -9,6 +9,8 @@
 !!!OMV: 004
 !!!PDT: 1894
 !!!AGN: Secular
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 71/N
 !!!SMS-shelfwork: 001-004 M
@@ -25,11 +27,10 @@
 !!!key: F
 !!!OMD:
 !!!OMD-mod: Moderato
-!!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -e "s/yy//" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
 **kern	**kern	**dynam	**kern	**kern	**dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**mod-text	**dynam	**mod-dynam	**kern	**text	**dynam
-*part8	*part8	*part8	*part7	*part7	*part7	*part5	*	*part2	*part5	*part5	*part4	*	*part2	*part4	*part4	*part3	*part3	*part3	*part3	*part3	*part2	*part2	*part2	*part2	*part2	*part1	*part1	*part1
-*staff9	*staff8	*	*staff7	*staff6	*	*staff5	*	*staff2	*	*	*staff4	*	*staff2	*	*	*staff3	*staff3	*staff3	*	*	*staff2	*staff2	*staff2	*	*	*staff1	*staff1	*
 *	*	*	*	*	*	*group1	*	*	*	*	*group1	*	*	*	*	*group1	*	*	*	*	*group1	*	*	*	*	*	*	*
+*part8	*part8	*	*part7	*part7	*	*part5	*	*	*	*	*part4	*	*	*	*	*part3	*	*	*	*	*part2	*	*	*	*	*part1	*	*
+*staff9	*staff8	*	*staff7	*staff6	*	*staff5	*	*	*	*	*staff4	*	*	*	*	*staff3	*	*	*	*	*staff2	*	*	*	*	*staff1	*	*
 *Ipiano	*Ipiano	*	*Ipiano	*Ipiano	*	*Iempty	*	*	*	*	*Itenor	*	*	*	*	*Ialto	*	*	*	*	*Isoprn	*	*	*	*	*Itenor	*	*
 *I"Pianoforte 2do	*I"Pianoforte 2do	*	*I"Pianoforte 1mo	*I"Pianoforte 1mo	*	*I"Bas	*	*	*	*	*I"Ten	*	*	*	*	*I"Alt	*	*	*	*	*I"Sopran	*	*	*	*	*I"Solo Tenor	*	*
 *I'	*I'	*	*I'	*I'	*	*I'B.	*	*	*	*	*I'T.	*	*	*	*	*I'A.	*	*	*	*	*I'S.	*	*	*	*	*I'Solo	*	*
@@ -630,11 +631,10 @@
 !!!system-decoration: [<s1>{(g1)}{(p7)}{(p8)}]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | shed -e "s/yy//" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-06-04
-!!!ENC: Andrzej Gręziak
-!!!END: 2021-05-15
+!!!EED: Andrzej Gręziak
+!!!EEV: 2021-05-15
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-08-21
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

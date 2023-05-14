@@ -7,6 +7,8 @@
 !!!OTL: Ave Maria
 !!!PDT:
 !!!AGN: Sacred
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Kk
 !!!SMS-shelfmark: Kk.I.346
 !!!SMS-shelfwork: 004 W
@@ -22,8 +24,8 @@
 !!!AIN: 1 alto 1 bass 2 tenor
 !!!key:
 **kern	**text	**text	**kern	**text	**text	**kern	**text	**text	**kern	**text	**text
-*part4	*part4	*part4	*part3	*part3	*part3	*part2	*part2	*part2	*part1	*part1	*part1
-*staff4	*staff4	*staff4	*staff3	*staff3	*staff3	*staff2	*staff2	*staff2	*staff1	*staff1	*staff1
+*part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
+*staff4	*	*	*staff3	*	*	*staff2	*	*	*staff1	*	*
 *I"Baſsus.	*	*	*I"Tenor 2 d(us)	*	*	*I"Tenor Primus	*	*	*I"Altus	*	*
 *mI"Basso	*	*	*mI"Tenore II	*	*	*mI"Tenore I	*	*	*mI"Alto	*	*
 *I'B	*	*	*I'T 2	*	*	*I'T 1	*	*	*I'A	*	*
@@ -807,11 +809,9 @@
 !!!filter-modern: shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/[<>]//g"
 !!!ENC: Kamil Watkowski
 !!!END: 2021-03-23
-!!!ENC: Antoni Szymański
-!!!END: 2021-03-25
+!!!EED: Antoni Szymański
+!!!EEV: 2021-03-25
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2022-07-14
 !!!ENC-iiif: Mateusz Mrugas
 !!!END-iiif: 2022-09-02
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

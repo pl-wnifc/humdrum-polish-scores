@@ -7,6 +7,8 @@
 !!!OTL: Valse
 !!!PDT:
 !!!AGN: Secular; Waltz
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wtm
 !!!SMS-shelfmark: R 42/N
 !!!SMS-shelfwork: W
@@ -23,8 +25,8 @@
 !!!AIN: 1 empty
 !!!key:
 **kern	**kern	**fing	**dynam
-*part1	*part1	*part1	*part1
-*staff2	*staff1	*staff1	*
+*part1	*part1	*	*
+*staff2	*staff1	*	*
 *Iempty	*Ipiano	*	*
 *	*I"[Piano]	*	*
 *	*mI"Pianoforte	*	*
@@ -551,12 +553,10 @@
 !!!RDF**kern: | = vertical stroke
 !!!RDF**kern: N = linked
 !!!RDF**kern: i = editorial accidental
-!!!ENC-modern: Leszek Kubiak
-!!!END-modern: 2022-08-18
-!!!EED: Wojciech Jakubiak-Danek
-!!!EEV: 2021-06-08
+!!!filter-modern: sic -sq | autostem -r | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-05-31
-!!!filter-modern: sic -sq | autostem -r | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!EED: Wojciech Jakubiak-Danek
+!!!EEV: 2021-06-08
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2022-08-18
