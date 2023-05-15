@@ -1,0 +1,92 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Sun May 14 23:44:55 PDT 2023
+# Last Modified: Sun May 14 23:44:58 PDT 2023
+# Filename:      humdrum-polish-scores/bin/makeModern
+# Syntax:        perl 5
+#
+# Description:   Scores in this repository stored in [rismid]/kern/*.krn are
+#                diplomatically encoded.  Many will have a filter line starting
+#                with:
+#                   !!!filter-modern:
+#                These line(s) give instructions to convert the diplomatic score
+#                into a "modern" score.
+#
+#                Output files are placed in [rismid]/modern/*.krn.
+#
+#                To run this script, you need to install Humlib tools:
+#                    https://github.com/craigsapp/humlib
+#
+#                Then run with "make modern" or "bin/makeModern" when you are in the
+#                base directory of the repository.
+#
+
+use strict;
+use Getopt::Long;
+
+my $srcdir    = "kern";
+my $targetdir = "modern";
+my $verboseQ  = 0;
+
+Getopt::Long::Configure("bundling");
+GetOptions (
+   'v|verbose' => \$verboseQ,  # verbose mode (for debugging)
+   's|source' => \$srcdir,     # source input directory (in each [rismid] directory)
+   't|target' => \$targetdir   # target output directory (in each [rismid] directory)
+);
+
+
+# Check to see if software dependencies are set up:
+
+my $humfilter = `which humfilter`;
+chomp $humfilter;
+if ($humfilter =~ /^\s*$/) {
+	die "You need to install humfilter first (see https://github.com/craigsapp/humlib)\n";
+}
+
+
+my @dirs = glob("*-*/$srcdir");
+
+foreach my $dir (@dirs) {
+	processDirectory($dir);
+}
+
+
+###########################################################################
+
+##############################
+##
+## processDirectory --
+##
+
+sub processDirectory {
+	my ($dir) = @_;
+	if (!-d $dir) {
+		print STDERR "$dir is not a directory\n";
+		return;
+	}
+
+	my @files = sort glob("$dir/*.krn");
+	if (@files < 1) {
+		print STDERR "$dir does not have any Humdrum files\n";
+		return;
+	}
+
+	my $tdir = $dir;
+	$tdir =~  s/$srcdir/$targetdir/;
+	print STDERR "PREPARING DIRECTORY $tdir\n";
+	`mkdir -p "$tdir"`;
+
+	for my $file (@files) {
+		my $filebase = $file;
+		$filebase =~ s/.*\///;
+		my $tfile = "$tdir/$filebase";
+		my $command = "cat $file | $humfilter -v modern > $tfile";
+		print STDERR "$command\n" if $verboseQ;
+		`$command`;
+	}
+}
+
+
+

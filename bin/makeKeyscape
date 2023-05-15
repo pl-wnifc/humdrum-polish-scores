@@ -1,0 +1,349 @@
+#!/usr/bin/perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Sat May 13 08:01:59 PDT 2023
+# Last Modified: Sun May 14 12:06:09 PDT 2023
+# Filename:      humdrum-polish-scores/bin/makeKeyscape
+# Syntax:        perl 5
+#
+# Description:   This script creates keyscapes for files in each RISM
+#                archive directory, which are plots of the internal key
+#                structure of a score.  Scores are transposed to
+#                the tonic key so that the keyscapes represent
+#                relative functions rather than absolute keys.
+#                Ideally the keyscapes should have a green background,
+#                representing the tonic key. If there is no green,
+#                or not very much, then the key designation may
+#                be incorrect -- although modal pieces can have
+#                unusual behaviors, since they do not fit well
+#                into major/minor keys.
+#
+#                Input kern files are taken from [rismid]/kern/*.krn.
+#
+#                Output keyscapes are store in [rismid]/keyscape/*.png
+#
+#                To run this script, go to the base directory of the repository,
+#                and type "make keyscape" or "bin/makeKeyscape".
+#
+#                HTML index files are generate in [rismid]/keyscape/index.html
+#                These index files can be used to browse the keyscapes.
+#                You can click on the keyscapes in these index pages to view
+#                the graphical score on polishscores.org.  Shift-clicking
+#                on a keyscape in the index files will create a list of
+#                selected files in the clipboard which you can paste
+#                somewhere for some purpose, such as copying a selected
+#                list of scores for further processing or analysis (press
+#                the <esc> key to clear the selection list).
+#
+#                Keyscapes are generated after transposing to C, so
+#                the primary color of the keyscapes should be light
+#                green for C major and dark green for C minor.  The
+#                keyscapes can be used to search for errors in the
+#                key designations, such as *A-: for A-flat major,
+#                within the tandem interpretations.  These key designations
+#                are a mixture of automatic assignment as well as manual
+#                fixes (by looking at the keyscapes), as well as manual
+#                assignments of the key designations.  When there are manual
+#                assignments or confirmations of the key designation, these
+#                are stored in a !!!key: reference record within the file.
+#
+#                Basic meaning of colors (arranged by cicrle-of-fifths):
+#                   orange     = subtonic/leading tone key/chord
+#                   red        = mediant key/chord
+#                   yellow     = subdominant key/chord
+#                   green      = tonic key/chord
+#                   light blue = dominant key/chord
+#                   dark blue  = supertonic key/chord
+#                   purple     = submediant key/chord
+#
+#                Note that the key designations are typically only those
+#                of the starting key (typically the large-scale key of the
+#                work/movement), and modulations are not indicated.
+#
+#                To run this script, you need to install Humdrum Extras or
+#                Humdrum Tools:
+#                    https://github.com/humdrum-tools/humdrum-tools
+#                And you need to install ImageMagick tools.  On MacOS,
+#                this involves installing Homebrew (https://brew.sh) and
+#                then runniing the command "brew install imagemagick".  For
+#                Linux this would be something like "apt-get imagemagick".
+#
+
+use strict;
+use Getopt::Long;
+
+my $absoluteQ  = 0;          # -a option
+my $indexOnlyQ = 0;          # -i option
+my $size       = 150;        # --size option
+my $srcdir     = "kern";     # source directory
+my $targetdir  = "keyscape"; # target directory
+my $verboseQ   = 0;
+
+Getopt::Long::Configure("bundling");
+GetOptions (
+	'a|absolute'    => \$absoluteQ,
+   'i|index'       => \$indexOnlyQ,
+   's|srcdir=s'    => \$srcdir,
+   'size=s'        => \$size,
+   't|targetdir=s' => \$targetdir,
+   'v|verbose'     => \$verboseQ
+);
+
+
+# Check to see if software dependencies are set up:
+
+my $mkeyscape = `which mkeyscape`;
+chomp $mkeyscape;
+if ($mkeyscape =~ /^\s*$/) {
+	die "You need to install mkeyscape first (see https://github.com/humdrum-tools/humdrum-tools\n";
+}
+
+my $transpose = `which transpose`;
+chomp $transpose;
+if ($transpose =~ /^\s*$/) {
+	die "You need to install transpose first (see https://github.com/humdrum-tools/humdrum-tools\n";
+}
+
+my $convert = `which convert`;
+chomp $convert;
+if ($convert =~ /^\s*$/) {
+	die "You need to install convert first.\n";
+}
+
+
+my @dirs = glob("*-*/$srcdir");
+
+foreach my $dir (@dirs) {
+	processDirectory($dir);
+}
+
+
+###########################################################################
+
+##############################
+##
+## processDirectory --
+##
+
+sub processDirectory {
+	my ($dir) = @_;
+	if (!-d $dir) {
+		print STDERR "$dir is not a directory\n";
+		return;
+	}
+	my @files = sort glob("$dir/*.krn");
+	if (@files < 1) {
+		print STDERR "$dir does not have any Humdrum files\n";
+		return;
+	}
+
+	my $tdir = $dir;
+	$tdir =~  s/$srcdir/$targetdir/;
+	print STDERR "PREPARING DIRECTORY $tdir\n";
+	`mkdir -p "$tdir"`;
+
+	makeIndex($dir);
+
+	return if $indexOnlyQ;
+
+	for my $file (@files) {
+		my $filebase = $file;
+		$filebase =~ s/.*\///;
+		$filebase =~ s/\.krn$/.png/;
+		my $tfile = "$tdir/$filebase";
+		my $koptions = "-k c";
+		$koptions = "" if $absoluteQ;
+		my $command = "cat $file | $transpose $koptions | $mkeyscape -s $size | $convert - $tfile";
+		print STDERR "$command\n" if $verboseQ;
+		`$command`;
+	}
+}
+
+
+
+##############################
+##
+## makeIndex -- Create an index.html to show all keyscapes for a given
+##     archive.  These are stored in [rismid]/keyscape/index.html.
+##
+
+sub makeIndex {
+	my ($dir) = @_;
+
+	if (!-d $dir) {
+		print STDERR "$dir is not a directory\n";
+		return;
+	}
+
+	if ($dir !~ /([^\/]+)\/$srcdir/) {
+		print STDERR "Cannot find archive ID for $dir\n";
+		return;
+	}
+	my $archive = $1;
+
+	my @files = sort glob("$dir/*.krn");
+	if (@files < 1) {
+		print STDERR "No files in $dir to process\n";
+		return;
+	}
+
+	my $output = "";
+	$output .= "<html>\n";
+	$output .= "<head>\n";
+	$output .= "<title>Keyscapes for $archive</title>\n";
+	$output .= "</head>\n";
+	$output .= "<body>\n";
+	$output .= "<h1>Relative Keyscapes for $archive</h1>\n\n";
+
+	foreach my $file (@files) {
+		$output .= addEntry($file);
+	}
+
+	$output .= getScripts();
+
+	$output .= "\n</body>\n";
+	$output .= "</html>\n";
+
+	my $keydir = "$archive/$targetdir";
+	open (FILE, ">$keydir/index.html") or die "Cannot write $keydir/index.html\n";
+	print FILE $output;
+	close FILE;
+}
+
+
+
+##############################
+##
+## addEntry -- Add a keyscape entry in index.html for an archive.
+##
+
+sub addEntry {
+	my ($file) = @_;
+
+	print STDERR "Processing $file\n" if $verboseQ;
+
+	my $cenid;
+	my $COM;
+	my $GTL;
+	my $OPR;
+	my $OTL;
+	my $key;
+	my $ikey;
+
+	open (FILE, $file) or die "Cannot read $file\n";
+	my @contents = <FILE>;
+	close FILE;
+	chomp @contents;
+
+	for (my $i=0; $i<@contents; $i++) {
+		my $line = $contents[$i];
+		if ($line =~ /^!/) {
+			$key = $1 if $line =~ /^!!!key:\s*(.*)\s*/;
+			$OTL = $1 if $line =~ /^!!!OTL:\s*(.*)\s*/;
+			$OPR = $1 if $line =~ /^!!!OPR:\s*(.*)\s*/;
+			$GTL = $1 if $line =~ /^!!!GTL:\s*(.*)\s*/;
+			$COM = $1 if $line =~ /^!!!COM:\s*(.*)\s*/;
+			$cenid = $1 if $line =~ /^!!!cenid:\s*(.*)\s*/;
+		}
+	}
+
+	print STDERR "NO CENID FOR $file" if $cenid =~ /^\s*$/;
+
+	$COM =~ s/,.*//;
+
+	my $kfile = $file;
+	$kfile =~ s/.*\///;
+	$kfile =~ s/\.krn/.png/;
+	my $url = "https://polishscores.org/?id=$cenid";
+	my $width = $size * 2;
+	$width .= "px";
+
+	my $title = $OTL;
+	$title = "$OPR, $title" if $OPR !~ /^\s*$/;
+	$title = "$GTL, $title" if $GTL !~ /^\s*$/;
+	my $text = "$cenid: $COM; $OTL";
+	my $output = "";
+	$output .= "<table style=\"width:$width;vertical-align:top;display:inline-block\">\n";
+	$output .= "<tr><td style=\"width:$width\">\n";
+	$output .= "<a target=\"_blank\" ";
+	$output .= "data-filename=\"$file\" ";
+	$output .= "href=\"$url\">";
+	$output .= "<img src=\"$kfile\" title=\"$title\">";
+	$output .= "</a>";
+	$output .= "</td></tr>\n";
+	$output .= "<tr><td style=\"width:$width\">\n";
+	$output .= "$text\n";
+	$output .= "</td></tr>\n";
+	$output .= "</table>";
+
+	return $output;
+}
+
+
+##############################
+##
+## getScripts --
+##
+
+sub getScripts() {
+	my $output = <<EOS;
+
+<script>
+
+// Shift-clicking on
+let SELECT_LIST = {};
+document.addEventListener("click", function (event) {
+	if (!event.shiftKey) {
+		return;
+	}
+	event.preventDefault();
+	let target = event.target;
+	while (target) {
+		if (target.nodeName !== "TABLE") {
+			target = target.parentElement;
+			continue;
+		}
+		let table = target;
+		let link = table.querySelector("a");
+		let filename = link.dataset.filename;
+		SELECT_LIST[filename] = 1;
+		copyToClipboard(SELECT_LIST);
+		break;
+	}
+});
+
+
+document.addEventListener("keydown", function (event) {
+	if (event.keyCode === 27 || event.key === "Escape") {
+		SELECT_LIST = {};
+		copyToClipboard(SELECT_LIST);
+	}
+});
+
+function copyToClipboard(filelist) {
+	let value = "";
+	for (let prop in filelist) {
+		value += prop + "\\n";
+	}
+	let textarea = document.createElement("textarea");
+	textarea.value = value;
+	document.body.appendChild(textarea);
+	textarea.select();
+	document.execCommand("copy");
+	document.body.removeChild(textarea);
+}
+
+</script>
+
+
+EOS
+
+	return $output;
+
+}
+
+
+
+
+
+
