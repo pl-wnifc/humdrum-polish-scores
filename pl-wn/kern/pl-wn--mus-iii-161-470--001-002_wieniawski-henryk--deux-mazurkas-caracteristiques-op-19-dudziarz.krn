@@ -940,8 +940,8 @@
 (8.D\L	(8.f#X/L	.	8.ff#X\L)	.	.
 16En\Jk	16g/Jk	.	16een\Jk	.	.
 4F#X\	4a/	.	4dd\	.	.
-!	!	!	!LO:SIC:s=(8.b-L	!	!
-4G\)	4dd 4b-\)	.	(<8.b-\L	.	.
+!	!	!	!LO:SIC:o=(<8.b-\L	!	!
+4G\)	4dd 4b-\)	.	(8.b-L	.	.
 .	.	.	16g\Jk	.	.
 =102	=102	=102	=102	=102	=102
 .	(>8qqff#X/	.	.	.	.
@@ -954,8 +954,8 @@
 .	.	.	16a/Jk)	.	.
 =103	=103	=103	=103	=103	=103
 .	(>8qqff#X/	.	.	.	.
-!	!	!	!LO:SIC:s=(>12enL	!	!
-8A\	8een 8cc#X 8gn\)	.	(<12en/L	.	.
+!	!	!	!LO:SIC:o=(<12en/L	!	!
+8A\	8een 8cc#X 8gn\)	.	(>12enL	.	.
 .	.	.	12f#X/	.	.
 8r	8r	.	.	.	.
 .	.	.	12g/J	.	.
@@ -1284,13 +1284,13 @@
 32AA/JJJ	.	.	.	.	.
 *Xtremolo	*	*	*	*	*
 =139	=139	=139	=139	=139	=139
-!	!	!	!LO:SIC:s=8.ddL 8.dv	!	!
-4AA 4DD/	4dd 4a 4f# 4d/	.	(8.ddL 8.dv\	.	.
+!	!	!	!LO:SIC:o=(8.ddL 8.dv\	!	!
+4AA 4DD/	4dd 4a 4f# 4d/	.	8.ddL 8.dv	.	.
 .	.	.	(16dddJk 16dd\	.	.
-!	!	!	!LO:SIC:s=8d)	!	!
-8DD 8DDD/	8ddd 8aa 8ff# 8dd\	.	8d/) 8d	.	.
-!	!	!	!LO:SIC:s=8r	!	!
-8r	8r	.	8r)	.	.
+!	!	!	!LO:SIC:o=8d/) 8d	!	!
+8DD 8DDD/	8ddd 8aa 8ff# 8dd\	.	8d)	.	.
+!	!	!	!LO:SIC:o=8r)	!	!
+8r	8r	.	8r	.	.
 !	!LO:TX:b:i:t=Fine.:mod=	!	!	!	!
 4r;	4r;	.	4r;	.	.
 ==	==	==	==	==	==
@@ -1299,7 +1299,7 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: + = l.h. pizz
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | modori -m
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m
 !!!ENC: Marta Opryszak
 !!!END: 2022-05-11
 !!!EED: Marta Lawrence

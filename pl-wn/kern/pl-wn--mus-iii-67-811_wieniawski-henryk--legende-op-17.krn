@@ -60,8 +60,8 @@
 16D/	.	16B-/	.
 16C/JJ	.	16A/JJ	.
 16D/LL	.	16B-/LL	.
-!LO:SIC:v:s=16BB-/	!	!	!
-16C/	.	16G/	.
+!LO:SIC:v:o=16C/	!	!	!
+16BB-/	.	16G/	.
 16D/	.	16B-/	.
 16F/JJ	.	16d/JJ	.
 16En/LL	4GG'^\)	16c#X/LL	.
@@ -2212,7 +2212,7 @@
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: sic -sq | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e “s/([()[]_])[><]/$1/g” | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
+!!!filter-modern: sic -sq | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e "s/([()[]_])[><]/$1/g" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-13
 !!!EED: Andrzej Borzym

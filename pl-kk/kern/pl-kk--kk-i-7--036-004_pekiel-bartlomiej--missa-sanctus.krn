@@ -552,8 +552,8 @@
 *Xcol	*	*	*	*	*	*	*
 =39-	=39-	=39-	=39-	=39-	=39-	=39-	=39-
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!	!	!	!	!
-!LO:SIC:v:s=1BB	!	!	!	!	!	!	!
-1AA	-oth.	.	.	2.B\	.	.	.
+!LO:SIC:v:o=1AA	!	!	!	!	!	!	!
+1BB	-oth.	.	.	2.B\	.	.	.
 .	.	.	.	.	.	2g#X\	-ba-
 .	.	.	.	4B\	-ba-	.	.
 !LO:MO:mod=!null:null	!	!	!	!	!	!	!
@@ -642,8 +642,8 @@
 =47-	=47-	=47-	=47-	=47-	=47-	=47-	=47-
 !	!	!	!	!	!	!LO:N:acc=1fnX	!
 2AA/	-ni	1a	-li	.	.	1f-X	.
-!	!	!	!	!LO:SIC:s=2d	!	!	!
-2BB/	ſunt	.	.	2e\	ter-	.	.
+!	!	!	!	!LO:SIC:o=2e\	!	!	!
+2BB/	ſunt	.	.	2d	ter-	.	.
 !	!	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
 1.C	coe-	2r	.	1G	-ra	1.e	-li
 *	*	*	*ij	*	*	*	*
@@ -687,8 +687,8 @@
 4C/	et	.	.	.	.	.	.
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!	!	!	!	!
 1G	ter-	.	.	2.c\	.	1d	.
-!	!	!	!	!LO:SIC:s=4B	!	!	!
-.	.	.	.	4A/	.	.	.
+!	!	!	!	!LO:SIC:o=4A/	!	!	!
+.	.	.	.	4B	.	.	.
 *	*	*	*	*	*	*Xlig	*
 !	!	!LO:LB:g=original	!	!	!	!	!
 =51-	=51-	=51-	=51-	=51-	=51-	=51-	=51-
@@ -829,8 +829,8 @@
 2G\	.	1b	-na	2r	.	4d\	.
 .	.	.	.	.	.	4c/	.
 !LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!
-!	!	!	!	!LO:SIC:v:s=2G	!	!	!
-2GG/	-ſis	.	.	2A/	O-	4d\	.
+!	!	!	!	!LO:SIC:v:o=2A/	!	!	!
+2GG/	-ſis	.	.	2G	O-	4d\	.
 !	!	!	!	!	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!
 .	.	.	.	.	.	4e\	.
 =62-	=62-	=62-	=62-	=62-	=62-	=62-	=62-
@@ -895,8 +895,8 @@
 =67-	=67-	=67-	=67-	=67-	=67-	=67-	=67-
 .	.	.	.	.	.	1e	.
 !	!	!LO:TX:t=P:problem:kreska pseudotaktowa	!	!	!	!	!
-!	!	!LO:SIC:s=2c#	!	!	!	!	!
-.	.	2c/	.	.	.	.	.
+!	!	!LO:SIC:o=2c/	!	!	!	!	!
+.	.	2c#	.	.	.	.	.
 *	*	*	*	*	*	*Xlig	*
 !LO:TX:b:t=Benedict(us) a 3. \nVerte cito.:mod=	!	!	!	!	!	!	!
 0Dl	-ſis	0dl;	-ſis	0Al;;	-ſis	0f#Xl	-ſis
@@ -909,7 +909,7 @@
 !! !!!system-decoration: [s3,s1,s2,s4]
 !!LO:MO:end
 !!!RDF**kern: l = terminal long
-!!!filter-modern: sic -sq | tie -s | humtr -p  | extract -s 1,2,5,6,7,8,3,4 | autostem -r | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | modori -m
+!!!filter-modern: sic -sq | tie -s | humtr -p  | extract -s 1,2,5,6,7,8,3,4 | autostem -r | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-02-24
 !!!EED: Marta Lawrence

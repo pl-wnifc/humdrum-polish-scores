@@ -426,16 +426,16 @@
 !LO:MO:mod=*ped	!LO:MO:mod=*null:null
 *null	*ped
 4A- 4AA-\	8eee-L 8ee-\
-!	!LO:SIC:s=8ccc 8ccJ
-.	8ccc 8cc\
-!	!LO:SIC:s=8aaa- 8aa-L
-4a- 4e- 4c\	8aaa- 8aa-\
-!	!LO:SIC:s=8ggg 8ggJ
-.	8ggg 8gg\
-!	!LO:SIC:s=8.fff 8.ffL
+!	!LO:SIC:o=8ccc 8cc\
+.	8ccc 8ccJ
+!	!LO:SIC:o=8aaa- 8aa-\
+4a- 4e- 4c\	8aaa- 8aa-L
+!	!LO:SIC:o=8ggg 8gg\
+.	8ggg 8ggJ
+!	!LO:SIC:o=8.fff 8.ff\
 !	!LO:MO:mod=!null:null
 !	!LO:N:vis=8
-4a- 4e- 4c\	8.fff 8.ff\
+4a- 4e- 4c\	8.fff 8.ffL
 .	16eee-Jk 16ee-\
 !LO:MO:mod=*Xped	!LO:MO:mod=*null:null
 *null	*Xped
@@ -492,8 +492,8 @@
 .	40ggg\
 .	40fff\
 .	40eee-\
-!	!LO:SIC:v:s=40ddd-\
-.	40ddd\
+!	!LO:SIC:v:o=40ddd\
+.	40ddd-\
 .	40ccc\
 .	40bb-\JJJ)
 !LO:MO:mod=*Xped	!LO:MO:mod=*null:null
@@ -574,8 +574,8 @@
 .	40ggg\
 .	40fff\
 .	40eee-\
-!	!LO:SIC:v:s=40ddd-\
-.	40ddd\
+!	!LO:SIC:v:o=40ddd\
+.	40ddd-\
 .	40ccc\
 .	40bb-\
 .	40aa-\

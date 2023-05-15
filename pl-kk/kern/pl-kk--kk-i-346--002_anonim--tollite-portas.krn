@@ -683,7 +683,7 @@
 !!!RDF**kern: i = editorial accidental
 !!!EED: Leszek Kubiak
 !!!EEV: 2021-03-26
-!!!filter-modern: sic -sq | tie -si | autostem -r | shed -e "s/-//B" | shed -k -e "s/([\(\)\[\]])[><]/$1/g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g”  | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/([\(\)\[\]])[><]/$1/g"| shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
+!!!filter-modern: sic -sq | tie -si | autostem -r | shed -e "s/-//B" | shed -k -e "s/([\(\)\[\]])[><]/$1/g" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g"  | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/([\(\)\[\]])[><]/$1/g"| shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-03-23
 !!!ENC-iiif: Mateusz Mrugas

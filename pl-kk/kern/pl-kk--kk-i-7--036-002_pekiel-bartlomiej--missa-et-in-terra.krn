@@ -129,8 +129,8 @@
 *	*	*Xcol	*	*	*	*	*
 !	!LO:MO:mod=Et	!	!	!	!	!	!
 1D\	ET	4D/	pax	2.f\	-mi-	4dd\	pax
-!	!	!	!	!	!	!LO:SIC:s=4ccni	!
-.	.	4E/	.	.	.	4ccny\	.
+!	!	!	!	!	!	!LO:SIC:o=4ccny\	!
+.	.	4E/	.	.	.	4ccni	.
 .	.	4F/	.	.	.	4a\	.
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	4G/	.	4f\	-ni-	4b\	.
@@ -230,8 +230,8 @@
 2.G\	.	.	.	4d\	-da-	2.b\	.
 .	.	.	.	4c/	.	.	.
 .	.	.	.	4d\	.	.	.
-!LO:SIC:v:s=4G	!	!	!	!	!	!	!
-4F\	.	.	.	4e\	.	4b\	-mus
+!LO:SIC:v:o=4F\	!	!	!	!	!	!	!
+4G	.	.	.	4e\	.	4b\	-mus
 !	!	!	!	!	!	!LO:TX:t=P:global:problem=oddech jako rozdzielacz słów, przeważnie na wysokości dźwięku poprzedzającego	!
 4D/	.	1r	.	2.f\	.	2a,\	te
 4E\	.	.	.	.	.	.	.
@@ -346,8 +346,8 @@
 .	.	1A\	Glo-	4c/	.	2.a\	-ra-
 .	.	.	.	4B/	.	.	.
 .	.	.	.	1c\	.	.	.
-!	!	!	!	!	!	!LO:SIC:s=4gni	!
-.	.	.	.	.	.	4gny/	.
+!	!	!	!	!	!	!LO:SIC:o=4gny/	!
+.	.	.	.	.	.	4gni	.
 =25-	=25-	=25-	=25-	=25-	=25-	=25-	=25-
 .	.	2A/	-ri-	.	.	2.f/	.
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
@@ -369,8 +369,8 @@
 !LO:TX:t=P:problem=2D poprawione na 2E	!	!	!	!	!	!	!
 2E\	-fi-	4c\	.	1e\	-fi-	4a\	.
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
-!	!	!LO:SIC:v:s=4B-	!	!	!	!LO:TX:t=P:problem=+ między 4g i 1.a nad pięciolinią	!
-.	.	4B\	.	.	.	4g/	.
+!	!	!LO:SIC:v:o=4B\	!	!	!	!LO:TX:t=P:problem=+ między 4g i 1.a nad pięciolinią	!
+.	.	4B-	.	.	.	4g/	.
 2.F\	-ca-	1A\	.	.	.	1.a\	.
 .	.	.	.	4d\	-ca-	.	.
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
@@ -655,8 +655,8 @@
 .	.	8B-X\L	.	8d\L	.	.	.
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 .	.	8A\J	.	8c\J	.	.	.
-!	!	!LO:SIC:s=1B-	!	!	!	!	!
-.	.	1B-X\	.	1.d\	.	.	.
+!	!	!LO:SIC:o=1B-X\	!	!	!	!	!
+.	.	1B-	.	1.d\	.	.	.
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	.	.	.	.	2g/	.
 =50-	=50-	=50-	=50-	=50-	=50-	=50-	=50-
@@ -790,15 +790,15 @@
 .	.	.	.	.	.	8e/L	.
 .	.	.	.	.	.	8d/J	.
 !	!	!	!	!	!	!LO:TX:t=P:problem=# above	!
-!	!	!	!	!	!	!LO:SIC:v:s=1e	!
-.	.	.	.	.	.	1e#X/	.
+!	!	!	!	!	!	!LO:SIC:v:o=1e#X/	!
+.	.	.	.	.	.	1e	.
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 !	!	!	!	!LO:TX:t=P:problem=# below	!	!	!
 .	.	.	.	2c#X/	.	.	.
 =62-	=62-	=62-	=62-	=62-	=62-	=62-	=62-
 !	!	!LO:MO:mod=!null:null	!	!	!	!LO:TX:t=P:problem=brak kreski taktowej	!
-!	!	!LO:N:vis=1	!	!LO:SIC:s=0d;	!	!LO:TX:t=P:problem=# below	!
-0D\;<	-tris.	0A\;<	-tris	0d\	-tris	0f#X/;	-tris
+!	!	!LO:N:vis=1	!	!LO:SIC:o=0d\	!	!LO:TX:t=P:problem=# below	!
+0D\;<	-tris.	0A\;<	-tris	0d;	-tris	0f#X/;	-tris
 !	!	!	!	!LO:PB:g=original	!	!LO:LB:g=original	!
 =63||-	=63||-	=63||-	=63||-	=63||-	=63||-	=63||-	=63||-
 *M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
@@ -816,8 +816,8 @@
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	2c#X\	.	2e\	.	.	.
 .	.	4d\	.	1f\	-lis	.	.
-!	!	!LO:SIC:s=4cni	!	!	!	!	!
-.	.	4cny\	.	.	.	.	.
+!	!	!LO:SIC:o=4cny\	!	!	!	!	!
+.	.	4cni	.	.	.	.	.
 .	.	4B-X\	.	.	.	2d/	-lis
 .	.	4A/	.	.	.	.	.
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
@@ -999,8 +999,8 @@
 *	*	*xywh-#115:1342,1443,5779,742	*	*	*	*	*
 2r	.	1E/	no-	1G/	.	.	.
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
-!	!	!	!	!	!	!LO:SIC:v:s=2c#	!
-2G\	Qui	.	.	.	.	2c/	.
+!	!	!	!	!	!	!LO:SIC:v:o=2c/	!
+2G\	Qui	.	.	.	.	2c#	.
 =80-	=80-	=80-	=80-	=80-	=80-	=80-	=80-
 !	!	!	!LO:MO:mod=-stram	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 (<2G\	ſe-	2D,/	-ſtram.	1A/	.	1d/	-ſtram
@@ -1188,8 +1188,8 @@
 =96-	=96-	=96-	=96-	=96-	=96-	=96-	=96-
 !	!	!	!	!	!LO:MO:mod=-lus	!	!
 .	.	2G/	-lus	2e\	-l(us)	2g/	-lus
-!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:SIC:v:s=2cny	!	!	!
-.	.	2A/	Al-	2c#X/	Al-	2f/	Al-
+!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:SIC:v:o=2c#X/	!	!	!
+.	.	2A/	Al-	2cny	Al-	2f/	Al-
 .	.	2.B-X\	-tiſ-	2.d\	-tiſ-	2f/	-tiſ-
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	.	.	.	.	2g/	-si-
@@ -1673,11 +1673,11 @@
 .	.	.	.	4e\	-i	4cc\	.
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 *Xlig	*	*	*	*	*	*	*
-!LO:SIC:v:s=2D	!	!	!	!	!	!	!
+!LO:SIC:v:o=2D#X/	!	!	!	!	!	!	!
 !LO:TX:t=P:problem=# below	!	!	!	!	!	!LO:N:vis=1	!
-2D#X/	.	1A\	-tris.	2f\	Pa-	2dd\	.
-!LO:SIC:v:s=2C#	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
-2C/	.	.	.	2e\	-tris.	1ee\	-men
+2D	.	1A\	-tris.	2f\	Pa-	2dd\	.
+!LO:SIC:v:o=2C/	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
+2C#	.	.	.	2e\	-tris.	1ee\	-men
 =134-	=134-	=134-	=134-	=134-	=134-	=134-	=134-
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 0D\	.	0A\	A-	0f\	A-	.	.
@@ -1685,8 +1685,8 @@
 .	.	.	.	.	.	4cc\	.
 .	.	.	.	.	.	1dd\	.
 =135-	=135-	=135-	=135-	=135-	=135-	=135-	=135-
-!	!	!	!	!LO:SIC:s=0e;	!	!	!
-0AA/;	-men.	0A\;	-men.	0e\	-men.	0cc#X\;	-men.
+!	!	!	!	!LO:SIC:o=0e\	!	!	!
+0AA/;	-men.	0A\;	-men.	0e;	-men.	0cc#X\;	-men.
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]

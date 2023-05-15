@@ -394,8 +394,8 @@
 4E\	mi	.	.	.	.	.	.
 =25-	=25-	=25-	=25-	=25-	=25-	=25-	=25-
 2F\	dan-	1d	pe-	1r	.	.	.
-!	!	!	!	!	!	!LO:SIC:v:s=8bn\	!
-.	.	.	.	.	.	8b-\	.
+!	!	!	!	!	!	!LO:SIC:v:o=8b-\	!
+.	.	.	.	.	.	8bn\	.
 .	.	.	.	.	.	8a\	.
 !	!	!	!	!	!	!LO:N:acc=#	!
 2G\	-no	.	.	.	.	2bn\	.
@@ -598,7 +598,7 @@
 !!!filter-modern: shed -e "s/yy//"
 !!!filter-modern: shed -k -e "s/\(y(?!y)/(/"
 !!!filter-modern: shed -k -e "s/([\(\)\[\]])[><]/$1/g"
-!!!filter-modern: shed -k -e “s/([()[]_])[><]/$1/g”
+!!!filter-modern: shed -k -e "s/([()[]_])[><]/$1/g"
 !!!filter-modern: tie -s
 !!!filter-modern: shed -e "s/^(X?)rep$/$1REP/I"
 !!!filter-modern: shed -k -e "s/^(X?)tuplet/$1TUPLET/I"

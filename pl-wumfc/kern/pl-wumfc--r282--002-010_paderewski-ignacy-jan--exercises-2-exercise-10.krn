@@ -68,15 +68,15 @@
 .	4b/	.
 .	4cc/	.
 !	!	!LO:TX:t=P:problem:fermata nad główką nuty, na pięciolinii
-!	!	!LO:SIC:s=2.d
-2.B;\	2.dd;/	2.d;>\
+!	!	!LO:SIC:o=2.d;>\
+2.B;\	2.dd;/	2.d
 2.B\	4gg/	2.d\
 .	4ff/	.
 .	4ee/	.
 !!LO:LB:g=original
 =3	=3	=3
-!	!	!LO:SIC:s=[2.g
-2.B\	4dd/	[>2.g\
+!	!	!LO:SIC:o=[>2.g\
+2.B\	4dd/	[2.g
 .	4ee/	.
 .	4ff/	.
 2.B\	4gg/	2.g\]
@@ -85,8 +85,8 @@
 2.A\	4ff/	2.a\
 .	4cc#X/	.
 .	4dd#X/	.
-!	!	!LO:SIC:s=[2.e
-2.G\	4ee/	[>2.e\
+!	!	!LO:SIC:o=[>2.e\
+2.G\	4ee/	[2.e
 .	4dd#/	.
 .	4ee/	.
 =4	=4	=4
@@ -96,8 +96,8 @@
 2.B\	4b/	2.d\
 .	4cc/	.
 .	4ddn/	.
-!	!	!LO:SIC:s=2.e
-2.A;\	2.cc;/	2.e;\
+!	!	!LO:SIC:o=2.e;\
+2.A;\	2.cc;/	2.e
 2.G\	4ee/	2.gn\
 .	4dd/	.
 .	4ee/	.
@@ -121,8 +121,8 @@
 2.F\	4dd/	[2.d\
 .	4ee/	.
 .	4dd/	.
-!LO:N:vis=2	!	!LO:SIC:s=2.d]
-2.G;\	2.b;/	2.d;\]
+!LO:N:vis=2	!	!LO:SIC:o=2.d;\]
+2.G;\	2.b;/	2.d]
 !	!	!
 2.d\	4a/	2.f\
 .	4g/	.
@@ -131,8 +131,8 @@
 2.B\	4b/	2.g\
 .	4cc/	.
 .	4dd/	.
-!	!	!LO:SIC:s=[2.e
-2.G\	4ee/	[>2.e\
+!	!	!LO:SIC:o=[>2.e\
+2.G\	4ee/	[2.e
 .	4dd/	.
 .	4ee/	.
 2.A\	4cc/	2.e\]
@@ -150,8 +150,8 @@
 2.c/	2.A\	4a/
 .	.	4b/
 .	.	4cc/
-!LO:SIC:s=2.d	!LO:TX:t=P:problem:fermata nad główką nuty, na pięciolinii	!
-2.d;/	2.G;>\	2.b;/
+!LO:SIC:o=2.d;/	!LO:TX:t=P:problem:fermata nad główką nuty, na pięciolinii	!
+2.d	2.G;>\	2.b;/
 *v	*v	*
 ==	==
 *-	*-

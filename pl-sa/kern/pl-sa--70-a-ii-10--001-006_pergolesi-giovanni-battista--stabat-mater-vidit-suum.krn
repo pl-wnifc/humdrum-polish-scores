@@ -92,11 +92,11 @@
 .	.	.	.	.	16cc\JJ	16cc\JJ	.	.	.	.	.
 2D\	6	.	2f\	.	16ff\LL	16ff\LL	.	.	.	.	.
 .	.	.	.	.	16cc\	16cc\	.	.	.	.	.
-!	!	!	!	!	!LO:SIC:s=16b-:v	!	!	!	!	!	!
-.	.	.	.	.	16b\	16b-X\	.	.	.	.	.
+!	!	!	!	!	!LO:SIC:o=16b\:v	!	!	!	!	!	!
+.	.	.	.	.	16b-	16b-X\	.	.	.	.	.
 .	.	.	.	.	16a-\JJ	16a-\JJ	.	.	.	.	.
-!	!	!	!	!	!LO:SIC:s=4b-:v	!	!	!	!	!	!
-.	.	.	.	.	4b\	4b-\	.	.	.	.	.
+!	!	!	!	!	!LO:SIC:o=4b\:v	!	!	!	!	!	!
+.	.	.	.	.	4b-	4b-\	.	.	.	.	.
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
 2D-X\	6	.	4f\	.	16b-\LL	16b-\LL	.	1ryy	00r	.	.
 .	.	.	.	.	16dd-X\	16dd-X\	.	.	.	.	.
@@ -191,8 +191,8 @@
 2F\	6	.	2f\	.	2a-/	[2dd-X\	.	.	4dd-X\	mo-	.
 .	-	.	.	.	.	.	.	.	4dd-\	-ri-	.
 =12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
-!	!	!	!	!	!	!	!	!	!LO:SIC:s=8dd-:v	!	!
-2En\	7	.	2en\	.	2g/	8dd-\L]	.	1ryy	12dd\L	-en-	.
+!	!	!	!	!	!	!	!	!	!LO:SIC:o=12dd\L:v	!	!
+2En\	7	.	2en\	.	2g/	8dd-\L]	.	1ryy	8dd-	-en-	.
 .	6	.	.	.	.	.	.	.	12b-\	.	.
 .	.	.	.	.	.	8bn\J	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	12b-\J	.	.
@@ -223,10 +223,10 @@
 4E-\	6	.	4e-\	.	4r	4r	.	.	4dd-X\	dum	.
 4r	7	.	4r	.	4b-/	4dd-X\	.	.	4r	.	.
 =16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
-!	!	!	!	!	!	!	!	!	!LO:SIC:s=4dd-:v	!	!
-4G\	6 5-	.	4g\	.	4r	4r	.	1ryy	4dd\	e-	.
-!	!	!	!	!	!	!LO:SIC:s=4dd-:v	!	!	!	!	!
-4r	.	.	4r	.	4b-\	4dd\	.	.	4r	.	.
+!	!	!	!	!	!	!	!	!	!LO:SIC:o=4dd\:v	!	!
+4G\	6 5-	.	4g\	.	4r	4r	.	1ryy	4dd-	e-	.
+!	!	!	!	!	!	!LO:SIC:o=4dd\:v	!	!	!	!	!
+4r	.	.	4r	.	4b-\	4dd-	.	.	4r	.	.
 4A-\	.	.	4a-\	.	4r	4r	.	.	4cc\	-mi-	.
 4r	.	.	4r	.	4b-\	4cc\	.	.	4r	.	.
 =17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
@@ -288,8 +288,8 @@
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
 8BB-/L	4	.	8c\L	.	16ee-\LL	16ee-\LL	.	.	16ee-\LL	na-	.
 .	.	.	.	.	16cc\JJ	16cc\JJ	.	.	16cc\JJ	.	.
-!	!	!	!	!	!LO:SIC:s=4.ddn:v	!	!	!	!LO:TX:a:t=P:problem= niepełna miara taktu- brak jednej ósemkowej wartości	!	!
-8BB-/	3	.	8B-\	.	4.dd-X\	4.dd\	.	.	4dd\	-tum	.
+!	!	!	!	!	!LO:SIC:o=4.dd-X\:v	!	!	!	!LO:TX:a:t=P:problem= niepełna miara taktu- brak jednej ósemkowej wartości	!	!
+8BB-/	3	.	8B-\	.	4.ddn	4.dd\	.	.	4dd\	-tum	.
 8BB-/	.	.	8B-\	.	.	.	.	.	.	.	.
 8BB-/J	.	.	8B-\J	.	.	.	.	.	8ryy	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!
@@ -366,8 +366,8 @@
 4r	.	.	4r	.	.	4aa-X\	.	.	4aa-X\	dul-	.
 8BBn/L	7	.	8Bn/L	.	.	4aa-\	.	.	4aa-\	.	.
 8BB/	.	.	8B/	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!	!LO:SIC:s=32gg	!	!
-8BB/	.	.	8B/	.	.	16.gg\LL	.	.	32gg-y\KLL	-cem	.
+!	!	!	!	!	!	!	!	!	!LO:SIC:o=32gg-y\KLL	!	!
+8BB/	.	.	8B/	.	.	16.gg\LL	.	.	32gg	-cem	.
 .	.	.	.	.	.	.	.	.	16.ff\	.	.
 .	.	.	.	.	.	32ff\K	.	.	.	.	.
 8BB/J	.	.	8B/J	.	.	16.een\	.	.	32een\K	.	.

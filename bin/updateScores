@@ -2,7 +2,7 @@
 #
 # Programmer:    Craig Stuart Sapp <craig.stanford.edu>
 # Creation Date: Sat Aug 21 08:59:28 CEST 2021
-# Last Modified: Fri Aug 12 11:40:35 CEST 2022
+# Last Modified: Sun May 14 23:21:22 PDT 2023
 # Filename:      humdrum-polish-scores/bin/updateScores
 # Syntax:        perl 5
 #
@@ -27,6 +27,10 @@ GetOptions (
    'l|libraries' => \$libraryQ,
    't|threshold' => \$threshold
 );
+
+my $sic = `which sic`;
+chomp $sic;
+die "You need to have sic from humlib installed\n" if $sic =~ /^\s*$/;
 
 my $srcdir = $ARGV[0];
 my $targdir = $ARGV[1];
@@ -106,9 +110,11 @@ sub copyFiles {
 		die "Strange problem" if !-d "$targdir/$siglum/kern";
 		if (!-r "$targdir/$siglum/kern/$base") {
 			print "Creating $targdir/$siglum/kern/$base\n";
-			copy($file, "$targdir/$siglum/kern/$base") or die "Problem here";
+			#copy($file, "$targdir/$siglum/kern/$base") or die "Problem here";
+			`cat "$file" | sic -s > "$targdir/$siglum/kern/$base"`;
 		} else {
-			copy($file, "$targdir/$siglum/kern/$base") or die "Problem 2 here";
+			#copy($file, "$targdir/$siglum/kern/$base") or die "Problem 2 here";
+			`cat "$file" | sic -s > "$targdir/$siglum/kern/$base"`;
 			$ExistingFiles{$base}++;
 		}
 	}

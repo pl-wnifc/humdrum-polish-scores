@@ -688,40 +688,40 @@
 4r	4ddd\
 4B 4G\	4r
 =53	=53
-!LO:SIC:n=1:s=4c:v	!
-!LO:SIC:n=2:s=4A:v	!
-4B 4G\	4r
+!LO:SIC:n=1:o=4B 4G\:v	!
+!LO:SIC:n=2:o=4c:v	!
+4A	4r
 !	!LO:TX:a:t=d
-!LO:SIC:n=1:s=4c:v	!
-!LO:SIC:n=2:s=4A:v	!
-!	!LO:SIC:s=16ddd:v
-4B 4G\	16ccc\LL
-!	!LO:SIC:s=16ccc#:v
-.	16ccc\
+!LO:SIC:n=1:o=4B 4G\:v	!
+!LO:SIC:n=2:o=4c:v	!
+!	!LO:SIC:o=16ccc\LL:v
+4A	16ddd
+!	!LO:SIC:o=16ccc\:v
+.	16ccc#
 .	16ddd\
-!	!LO:SIC:s=16ccc#:v
-.	16ccc\JJ
+!	!LO:SIC:o=16ccc\JJ:v
+.	16ccc#
 4r	4ddd\
 8.cL 8.A\	4r
 16BJk 16G\	.
 =54	=54
 4A 4D\	4r
 4A 4D\	16ddd\LL
-!	!LO:SIC:s=16ccc#:v
-.	16ccc\
-!	!LO:SIC:s=16ccc#:v
-.	16ddd 16ccc\
+!	!LO:SIC:o=16ccc\:v
+.	16ccc#
+!	!LO:SIC:o=16ddd 16ccc\:v
+.	16ccc#
 .	16ccc\JJ
 4r	4ddd\
 4A 4D\	4r
 =55	=55
 4B 4G\	4r
 4r	16ddd\LL
-!	!LO:SIC:s=16ccc#:v
-.	16ccc\
+!	!LO:SIC:o=16ccc\:v
+.	16ccc#
 .	16ddd\
-!	!LO:SIC:s=16ccc#:v
-.	16ccc\JJ
+!	!LO:SIC:o=16ccc\JJ:v
+.	16ccc#
 4r	4ddd\
 8.BL 8.G\	4r
 16cJk 16A\	.
@@ -775,11 +775,11 @@
 =61	=61
 4B 4G\	4r
 4B 4G\	16ddd\LL
-!	!LO:SIC:s=16ccc#:v
-.	16ccc\
+!	!LO:SIC:o=16ccc\:v
+.	16ccc#
 .	16ddd\
-!	!LO:SIC:s=16ccc#:v
-.	16ccc\JJ
+!	!LO:SIC:o=16ccc\JJ:v
+.	16ccc#
 4r	4ddd\
 4B 4G\	4r
 =62	=62
@@ -818,8 +818,8 @@
 4d 4B 4G\	8.bL 8.g/
 .	16a#Jk 16f#/
 4d 4B 4G\	4b 4g/
-!	!LO:SIC:n=2:s=8.an:v
-4r	8.ccL 8.a#/
+!	!LO:SIC:n=2:o=8.ccL 8.a#/:v
+4r	8.an
 .	16bJk 16g/
 !!LO:LB:g=original
 =65	=65
@@ -918,8 +918,8 @@
 .	8r
 *Xrep	*
 4r	8.ddL 8.b\
-!	!LO:SIC:n=2:s=16an:v
-.	16ccJk 16a#\
+!	!LO:SIC:n=2:o=16ccJk 16a#\:v
+.	16an
 =74	=74
 4A 4F# 4D\	8.ccL 8.a\
 .	16dd\Jk

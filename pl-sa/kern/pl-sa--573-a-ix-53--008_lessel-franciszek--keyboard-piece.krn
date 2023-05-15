@@ -90,12 +90,12 @@
 8A\L	8f#XL 8c/
 8c\J	8f#J 8c/
 =10	=10
-!LO:SIC:s=4C#:v	!
-4AA#X/	8b-\L
+!LO:SIC:o=4AA#X/:v	!
+4C#	8b-\L
 .	(>16a\L
 .	16g\JJ)
-!LO:SIC:s=8D:v	!
-8BB-/	8f#X/L
+!LO:SIC:o=8BB-/:v	!
+8D	8f#X/L
 8r	8dd/J
 !!LO:LB:g=original
 =11	=11
@@ -234,7 +234,7 @@
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: sic -sq | autostem -r | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -k -e “s/([()[]_])[><]/$1/g” | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
+!!!filter-modern: sic -sq | autostem -r | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/([()[]_])[><]/$1/g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Marcin Jachim
 !!!END: 2020-06-19
 !!!EED: Wojciech Jakubiak-Danek

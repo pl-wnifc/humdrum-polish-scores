@@ -225,8 +225,8 @@
 !	!LO:TX:t=P:problem=takt zapisany powtórką	!	!	!	!	!	!	!	!	!	!
 16cc#\LL	16e/LLyy	.	(8A\L	De-	.	4.ryy	8a\L	De-	(8cc#\L	De-	.
 16cc#\	16ee\yy	.	.	.	.	.	.	.	.	.	.
-!	!	!	!LO:SIC:v:s=8G#\J)	!	!	!	!	!	!	!	!
-16b\	16ee\yy	.	8G\J)	.	.	.	8b\J	.	8b\J)	.	.
+!	!	!	!LO:SIC:v:o=8G\J)	!	!	!	!	!	!	!	!
+16b\	16ee\yy	.	8G#\J)	.	.	.	8b\J	.	8b\J)	.	.
 16b\	16ee\yy	.	.	.	.	.	.	.	.	.	.
 16cc#\	16ee\yy	.	8A\	-o	.	.	8a\	-o	8cc#\	-o	.
 16cc#\JJ	16ee\JJyy	.	.	.	.	.	.	.	.	.	.
@@ -244,8 +244,8 @@
 !	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
 16cc#\LL	16ee\LL	.	8A\	lu-	.	4.ryy	8a\L	lu-	8cc#\	lu-	.
 16cc#\	16e/	.	.	.	.	.	.	.	.	.	.
-!	!	!	!LO:SIC:v:s=8G#\	!	!	!	!	!	!	!	!
-16b\	16e/	.	8G\	-mi-	.	.	8b\J	mi-	8b\	-mi-	.
+!	!	!	!LO:SIC:v:o=8G\	!	!	!	!	!	!	!	!
+16b\	16e/	.	8G#\	-mi-	.	.	8b\J	mi-	8b\	-mi-	.
 16b\	16e/	.	.	.	.	.	.	.	.	.	.
 16cc#\	16e/	.	8A\	-ne	.	.	8a\	-ne	8cc#\	-ne	.
 16cc#\JJ	16e/JJ	.	.	.	.	.	.	.	.	.	.
@@ -595,8 +595,8 @@
 .	16dd\JJ	.	.	.	.	.	.	.	16ff#\JJ	.	.
 .	8b\L	.	.	.	.	.	8g#\	-am	8dd\	-a(m)	.
 .	8a\J	.	.	.	.	.	8a\	pro	8cc#\	pro	.
-!	!LO:SIC:v:s=8a/L	!	!	!	!	!	!	!	!	!	!
-8r	8g#/L	.	.	.	.	.	8a\	no-	8cc#\	no-	.
+!	!LO:SIC:v:o=8g#/L	!	!	!	!	!	!	!	!	!	!
+8r	8a/L	.	.	.	.	.	8a\	no-	8cc#\	no-	.
 8b\	8g#/J	.	.	.	.	.	8g#\	-bis	8b\	-bis	.
 16b\LL	16e/LL	.	.	.	.	.	8r	.	8r	.	.
 16g#\	16b/	.	.	.	.	.	.	.	.	.	.
@@ -1043,10 +1043,10 @@
 16dd\JJ	16ff#\JJ	.	.	.	.	.	.	.	.	.	.
 !	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
 =130	=130	=130	=130	=130	=130	=130	=130	=130	=130	=130	=130
-!LO:SIC:v:s=16a#\LL	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
-16a\LL	16ff#\LL	.	(8F#\L	-cam	.	4.ryy	8a#X\L	-cam	8a#X\L	-ca(m)	.
-!LO:SIC:v:s=16a#\	!	!	!	!	!	!	!	!	!	!	!
-16a\	16f#/	.	.	.	.	.	.	.	.	.	.
+!LO:SIC:v:o=16a\LL	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
+16a#\LL	16ff#\LL	.	(8F#\L	-cam	.	4.ryy	8a#X\L	-cam	8a#X\L	-ca(m)	.
+!LO:SIC:v:o=16a\	!	!	!	!	!	!	!	!	!	!	!
+16a#\	16f#/	.	.	.	.	.	.	.	.	.	.
 16b\	16f#/	.	8G#X\J)	.	.	.	8g#X\J	.	8b\J	.	.
 16b\	16f#/	.	.	.	.	.	.	.	.	.	.
 16cc#\	16f#/	.	8A#X\	Ec-	.	.	8f#\	Ec-	8cc#\	Ec-	.
@@ -1172,8 +1172,8 @@
 16b-/JJ	16gg\JJ	.	.	.	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!
 =149	=149	=149	=149	=149	=149	=149	=149	=149	=149	=149	=149
-!	!	!	!	!	!	!	!	!	!LO:SIC:v:s=4.b-\	!	!
-16b-X\LL	16ee\LL	.	4.C#/	-o-	.	4.ryy	4.e\	-o-	4.b\	-o-	.
+!	!	!	!	!	!	!	!	!	!LO:SIC:v:o=4.b\	!	!
+16b-X\LL	16ee\LL	.	4.C#/	-o-	.	4.ryy	4.e\	-o-	4.b-\	-o-	.
 16b-\	16ee\	.	.	.	.	.	.	.	.	.	.
 16b-\	16ee\	.	.	.	.	.	.	.	.	.	.
 16b-\	16ee\	.	.	.	.	.	.	.	.	.	.

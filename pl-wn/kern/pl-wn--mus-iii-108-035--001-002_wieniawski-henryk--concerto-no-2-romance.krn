@@ -2040,7 +2040,7 @@ N(8BB-\L	4dd\	.	2.b-\	.	.
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: N = linked
-!!!filter-modern: autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e “s/([()[]_])[><]/$1/g” | modori -m
+!!!filter-modern: autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([()[]_])[><]/$1/g" | modori -m
 !!!ENC: Mateusz Solarz
 !!!END: 2022-05-11
 !!!EED: Marta Lawrence

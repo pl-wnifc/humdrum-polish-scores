@@ -358,12 +358,12 @@
 *clefF4	*	*	*	*	*
 =49	=49	=49	=49	=49	=49
 16G-XLL 16GG-X\	16ee--LL 16cc\	(16b--\LL	.	(16ccc\LL	.
-!LO:SIC:v:s=16Fn 16FFn	!	!	!	!	!
-16F#JJ 16FF#\	16dd-X\JJ	16a-X\JJ)	.	16ddd-X\JJ)	.
-!LO:SIC:v:s=4Fn 4FFn	!	!	!	!	!
-4F# 4FF#\	4dd-\	4a-\	.	4ddd-^^\	.
-!LO:SIC:v:s=8Fn 8FFn	!	!LO:N:vis=8.	!	!	!
-8F# 8FF#\	8dd-\	8a-\	.	8ddd-\	.
+!LO:SIC:v:o=16F#JJ 16FF#\	!	!	!	!	!
+16Fn 16FFn	16dd-X\JJ	16a-X\JJ)	.	16ddd-X\JJ)	.
+!LO:SIC:v:o=4F# 4FF#\	!	!	!	!	!
+4Fn 4FFn	4dd-\	4a-\	.	4ddd-^^\	.
+!LO:SIC:v:o=8F# 8FF#\	!	!LO:N:vis=8.	!	!	!
+8Fn 8FFn	8dd-\	8a-\	.	8ddd-\	.
 *clefG2	*	*	*	*	*
 =50	=50	=50	=50	=50	=50
 16aa-X\LL	16aaa-X\LL	2r	.	2r	.
@@ -373,10 +373,10 @@
 *clefF4	*	*	*	*	*
 =51	=51	=51	=51	=51	=51
 16G-XLL 16GG-X\	16ee--LL 16cc\	(16b--\LL	.	(16ccc\LL	.
-!LO:SIC:v:s=16Fn 16FFn	!	!	!	!	!
-16F#JJ 16FF#\	16dd-X\JJ	16a-X\JJ)	.	16ddd-X\JJ)	.
-!LO:SIC:v:s=4Fn 4FFn	!	!	!	!	!
-4F# 4FF#\	4dd-\	4a-\	.	4ddd-^^\	.
+!LO:SIC:v:o=16F#JJ 16FF#\	!	!	!	!	!
+16Fn 16FFn	16dd-X\JJ	16a-X\JJ)	.	16ddd-X\JJ)	.
+!LO:SIC:v:o=4F# 4FF#\	!	!	!	!	!
+4Fn 4FFn	4dd-\	4a-\	.	4ddd-^^\	.
 8F#X 8FF#X\	8ddn 8cc\	8a-\	.	8ccc\	.
 !	!	!LO:PB:g=original	!	!	!
 =52	=52	=52	=52	=52	=52
@@ -605,8 +605,8 @@
 .	8ddd\	4r	.	.	.
 .	8eee#X\J	.	.	.	.
 =97	=97	=97	=97	=97	=97
-!LO:SIC:v:n=2:s=2cc#	!	!	!	!	!
-2ff# 2cc 2a#X 2f#;\	2fff# 2ccc#X 2aa#X;\	2r;	.	2r;	.
+!LO:SIC:v:n=2:o=2ff# 2cc 2a#X 2f#;\	!	!	!	!	!
+2cc#	2fff# 2ccc#X 2aa#X;\	2r;	.	2r;	.
 !LO:LB:g=original	!LO:LB:g=original	!	!	!	!
 =98	=98	=98	=98	=98	=98
 !	!	!LO:TX:a:t=4	!	!LO:TX:a:t=4	!
@@ -726,8 +726,8 @@
 .	.	.	.	16B/)	.
 8DJ 8BB\	8F#/J	.	.	16d'/	.
 .	.	.	.	16e#X'/JJ	.
-!LO:SIC:v:n=1:s=4C#	!	!	!	!	!
-4C 4AA#X\	4F#/	4r	.	(16f#/LL	.
+!LO:SIC:v:n=1:o=4C 4AA#X\	!	!	!	!	!
+4C#	4F#/	4r	.	(16f#/LL	.
 .	.	.	.	16c#X/J	.
 .	.	.	.	8A#/J)	.
 =116	=116	=116	=116	=116	=116
@@ -1022,11 +1022,11 @@
 16b/	16bb\	.	.	.	.
 16dd/	16ddd\	8b\	.	8ff#J 8dd\	.
 16ee#X/JJ	16eee#X\JJ	.	.	.	.
-!LO:SIC:v:s=16cc#	!	!	!	!	!
-16cc/LL	16ccc#X\LL	4a#X\	.	4ff# 4cc#X\	.
+!LO:SIC:v:o=16cc/LL	!	!	!	!	!
+16cc#	16ccc#X\LL	4a#X\	.	4ff# 4cc#X\	.
 16ff#/	16fff#\	.	.	.	.
-!LO:SIC:v:s=16cc#	!	!	!	!	!
-16cc/	16ccc#\	.	.	.	.
+!LO:SIC:v:o=16cc/	!	!	!	!	!
+16cc#	16ccc#\	.	.	.	.
 16f#/JJ	16ff#\JJ	.	.	.	.
 =156	=156	=156	=156	=156	=156
 16f#/LL	16ff#\LL	8r	.	8ddL 8b-X\	.
@@ -1051,11 +1051,11 @@
 16Bn/	16bn\	.	.	.	.
 16d/	16dd\	8B\	.	8f#J 8d/	.
 16e#X/JJ	16ee#X\JJ	.	.	.	.
-!LO:SIC:v:s=16c#	!LO:SIC:v:s=16cc#	!	!	!	!
-16c/LL	16cc\LL	8A#X\	.	4f# 4c#X/	.
+!LO:SIC:v:o=16c/LL	!LO:SIC:v:o=16cc\LL	!	!	!	!
+16c#	16cc#	8A#X\	.	4f# 4c#X/	.
 16f#/	16ff#\	.	.	.	.
-!LO:SIC:v:s=16c#	!LO:SIC:v:s=16cc#	!	!	!	!
-16c/	16cc\	8r	.	.	.
+!LO:SIC:v:o=16c/	!LO:SIC:v:o=16cc\	!	!	!	!
+16c#	16cc#	8r	.	.	.
 16F#/JJ	16f#\JJ	.	.	.	.
 =159	=159	=159	=159	=159	=159
 *	*	*clefF4	*	*	*
@@ -2098,8 +2098,8 @@
 16bb-X\J	16bbb-X\J	.	.	16b-X/J)	.
 8bb-\J	8bbb-\J	.	.	8b-/J	.
 =271	=271	=271	=271	=271	=271
-!LO:SIC:v:s=16bb-	!LO:SIC:v:s=16bbb-	!	!	!	!
-16bb\LL	16bbb\LL	2r	.	(16b-X/LL	.
+!LO:SIC:v:o=16bb\LL	!LO:SIC:v:o=16bbb\LL	!	!	!	!
+16bb-	16bbb-	2r	.	(16b-X/LL	.
 16bbn\J	16bbbn\J	.	.	16bn/J)	.
 8bb\J	8bbb\J	.	.	8b/J	.
 16bb\LL	16bbb\LL	.	.	(16b/LL	.
@@ -2393,8 +2393,8 @@
 16DDLL 16DDD\	16D</LL	4D\	.	4d/	.
 16EE-X\	16E-X</	.	.	.	.
 16EEn\	16En</	.	.	.	.
-!LO:SIC:v:s=16FF	!LO:SIC:v:s=16F	!	!	!	!
-16FF#\JJ	16F#</	.	.	.	.
+!LO:SIC:v:o=16FF#\JJ	!LO:SIC:v:o=16F#</	!	!	!	!
+16FF	16F	.	.	.	.
 16FF#X\LL	16F#X</	4r	.	4r	.
 16GG\	16G</	.	.	.	.
 16GG#X\	16G#X</	.	.	.	.

@@ -886,9 +886,9 @@
 2BB/	4:3	2d#X/	-ni-	-ni-	.	.	.
 .	.	.	.	.	4f#/	-ni-	-ni-
 =155-	=155-	=155-	=155-	=155-	=155-	=155-	=155-
-!LO:SIC:s=1El;	!	!LO:SIC:s=1el;	!	!	!LO:SIC:s=1g#l;	!	!
+!LO:SIC:o=1El;;	!	!LO:SIC:o=1el;;	!	!	!LO:SIC:o=1g#Xl;;	!	!
 !	!	!LO:TX:b:i:t=il fine:mod=	!	!	!	!	!
-1El;;	.	1el;;	-o	-o.	1g#Xl;;	-o	-o.
+1El;	.	1el;	-o	-o.	1g#l;	-o	-o.
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2)](s3)
@@ -909,7 +909,7 @@
 !!!filter-modern: shed -e "s/-y/-/D"
 !!!filter-modern: shed -e "s/-X/-/D"
 !!!filter-modern: shed -k -e "s/([\(\)\[\]])[><]/$1/g"
-!!!filter-modern: shed -k -e “s/([()[]_])[><]/$1/g”
+!!!filter-modern: shed -k -e "s/([()[]_])[><]/$1/g"
 !!!filter-modern: tie -s
 !!!filter-modern: shed -e "s/^(X?)rep$/$1REP/I"
 !!!filter-modern: shed -k -e "s/^(X?)tuplet/$1TUPLET/I"

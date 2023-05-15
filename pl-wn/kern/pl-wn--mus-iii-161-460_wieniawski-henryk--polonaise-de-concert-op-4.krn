@@ -2065,7 +2065,7 @@
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: N = linked
-!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | modori -m
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | modori -m
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-05-13
 !!!EED: Andrzej Kubiczek

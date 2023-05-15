@@ -761,7 +761,7 @@
 !!!system-decoration: {(*)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: | autostem -r | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g”  | modori -m
+!!!filter-modern: | autostem -r | shed -e "s/TUP/tup/L; s/^(X)?tuplet/$1TUPLET/I" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g"  | modori -m
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-02-07
 !!!EED: Andrzej Kubiczek

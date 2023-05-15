@@ -179,8 +179,8 @@
 !	!	!LO:N:acc=#	!	!	!	!	!
 1GG	-cez-	1Bn	-cez-	1d	-cez-	1g	-cez-
 =13-	=13-	=13-	=13-	=13-	=13-	=13-	=13-
-!	!	!LO:SIC:s=1Bn	!	!	!	!	!
-1GG	-za	1Bny	-za	1d	-za	1g	-za
+!	!	!LO:SIC:o=1Bny	!	!	!	!	!
+1GG	-za	1Bn	-za	1d	-za	1g	-za
 4r	.	4r	.	4r	.	4r	.
 4C/	e	4c\	e	4e\	e	4g/	e
 4F\	chieg-	4c\	chieg-	4f\	chieg-	4a\	chieg-
@@ -290,8 +290,8 @@
 .	.	.	.	2.d\	-i-	4g/	.
 .	.	.	.	.	.	4f/	.
 .	.	.	.	.	.	1e	-i-
-!	!	!	!	!LO:SIC:v:s=8c#/	!	!	!
-.	.	.	.	8c/	.	.	.
+!	!	!	!	!LO:SIC:v:o=8c/	!	!	!
+.	.	.	.	8c#/	.	.	.
 !	!	!	!	!LO:MO:mod=!null:null	!	!	!
 !	!	!	!	!LO:N:acc=#	!	!	!
 .	.	.	.	8Bn/	.	.	.
@@ -426,7 +426,7 @@
 !!!filter-modern: shed -e "s/yy//"
 !!!filter-modern: shed -k -e "s/\(y(?!y)/(/"
 !!!filter-modern: shed -k -e "s/([\(\)\[\]])[><]/$1/g"
-!!!filter-modern: shed -k -e “s/([()[]_])[><]/$1/g”
+!!!filter-modern: shed -k -e "s/([()[]_])[><]/$1/g"
 !!!filter-modern: tie -s
 !!!filter-modern: shed -e "s/^(X?)rep$/$1REP/I"
 !!!filter-modern: shed -k -e "s/^(X?)tuplet/$1TUPLET/I"

@@ -426,7 +426,7 @@
 !!!filter-modern: shed -e "s/yy//"
 !!!filter-modern: shed -k -e "s/\(y(?!y)/(/"
 !!!filter-modern: shed -k -e "s/([\(\)\[\]])[><]/$1/g"
-!!!filter-modern: shed -k -e “s/([()[]_])[><]/$1/g”
+!!!filter-modern: shed -k -e "s/([()[]_])[><]/$1/g"
 !!!filter-modern: tie -s
 !!!filter-modern: shed -e "s/^(X?)rep$/$1REP/I"
 !!!filter-modern: shed -k -e "s/^(X?)tuplet/$1TUPLET/I"

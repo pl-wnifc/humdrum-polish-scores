@@ -430,8 +430,8 @@
 =63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63
 *	*	*	*	*	*	*	*	*	*	*xywh-#5:1103,5078,4515,710	*	*	*
 2F\	sem-	2c\	sem-	.	.	2a\	sem-	.	.	2cc\	sem-	.	.
-!	!LO:MO:mod=-per.	!	!LO:MO:mod=-per.	!	!	!LO:SIC:v:s=4g	!	!	!	!	!	!	!
-4C/	-per,	4c\	-per,	.	.	4g#X\	-per.	.	.	4cc\	-per,	.	.
+!	!LO:MO:mod=-per.	!	!LO:MO:mod=-per.	!	!	!LO:SIC:v:o=4g#X\	!	!	!	!	!	!	!
+4C/	-per,	4c\	-per,	.	.	4g	-per.	.	.	4cc\	-per,	.	.
 =64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64
 !LO:TX:a:t=2:mod=	!	!	!	!	!	!LO:TX:a:t=1.:mod=	!	!	!	!	!	!	!
 !LO:MO:mod=!null:null	!	!	!	!	!	!	!	!	!	!	!	!	!
@@ -554,7 +554,7 @@
 !!!RDF**kern: < = below
 !!!EED: Mateusz Mrugas
 !!!EEV: 2021-01-17
-!!!filter-modern: sic -sq | autostem -r | tie -s | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g” | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
+!!!filter-modern: sic -sq | autostem -r | tie -s | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | modori -m
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-01-13
 !!!ENC-modern: Leszek Kubiak

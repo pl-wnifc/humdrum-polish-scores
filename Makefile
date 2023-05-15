@@ -163,32 +163,23 @@ reference-keys:
 	@grep -rh "^\!\!\![^\!:]*:" */kern | sed 's/:.*//; s/^\!*//' | sort | uniq
 
 
+###########################################################################
+##
+## Derivative files: Create variants of data in kern directories.
+##
+## */desic     == Apply sic corrections to data.
+## */keyscapes == Generate keyscapes for scores.
+## */modern    == Apply modernization filters to scores.
+##
+###########################################################################
 
 ##############################
 ##
-## keyscapes: Create keyscapes for each score in [rismid]/keyscapes,
-##    with index in [rismid]/keyscapes/index.html.  These keyscapes
-##    are showing functional harmonic structure, where green is tonic,
-##    blue is dominant, yellow is subdominant, purple is submediant,
-##    red is mediant, supertonic is dark blue and subtonic is orange.
-##    These keyscapes can be used to check the key designation for each
-##    score, since keyscapes that do not have green as their primary color
-##    most likely have an incorrect key designation in the file.
+## derivatives -- Create sic and keyscape data.
 ##
 
-keyscape:
-keyscapes:
-	bin/makeKeyscapes *-*/kern
-
-
-
-##############################
-##
-## clean-keyscapes: Delete [rismid]/keyscapes directories.
-##
-
-clean-keyscapes:
-	rm -rf *-*/keyscapes
+d: derivatives
+derivatives: desic keyscape modern
 
 
 
@@ -197,7 +188,84 @@ clean-keyscapes:
 ## clean: Remove derived files.
 ##
 
-clean: clean-keyscapes
+clean: clean-keyscape clean-desic clean-modern
+
+
+
+##############################
+##
+## desic: Data is encoded diplomatically, but in certain cases obvious
+##     errors in the source edition are fix using SIC layout parameters.
+##     The fully diplomatic scores can be reconstructed by running the
+##     humlib program "sic -o", where "-o" means restore the original 
+##     content to make the scores fully diplomatic.
+##
+
+desic:
+	bin/makeDesic
+
+
+
+##############################
+##
+## clean-desic: Delete [rismid]/desic directories.
+##
+
+clean-desic:
+	rm -rf *-*/desic
+
+
+
+##############################
+##
+## keyscape: Create keyscapes for each score in [rismid]/keyscape,
+##    with index in [rismid]/keyscape/index.html.  These keyscapes
+##    are showing functional harmonic structure, where green is tonic,
+##    blue is dominant, yellow is subdominant, purple is submediant,
+##    red is mediant, supertonic is dark blue and subtonic is orange.
+##    These keyscapes can be used to check the key designation for each
+##    score, since keyscapes that do not have green as their primary color
+##    most likely have an incorrect key designation in the file.
+##
+
+k: keyscape
+ks: keyscape
+keyscapes: keyscape
+keyscape:
+	bin/makeKeyscape
+
+
+
+##############################
+##
+## clean-keyscape: Delete [rismid]/keyscape directories.
+##
+
+clean-keyscapes: clean-keyscape
+clean-keyscape:
+	rm -rf *-*/keyscape
+
+
+
+##############################
+##
+## modern: Create modern scores for the data.
+##
+
+m: modern
+modernize: modern
+modern:
+	bin/makeModern
+
+
+
+##############################
+##
+## clean-modern: Delete [rismid]/modern directories.
+##
+
+clean-modern:
+	rm -rf *-*/modern
 
 
 

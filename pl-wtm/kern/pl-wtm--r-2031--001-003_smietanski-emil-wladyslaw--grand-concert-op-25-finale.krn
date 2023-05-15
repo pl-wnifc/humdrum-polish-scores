@@ -38,12 +38,12 @@
 =1	=1
 !LO:TX:t=P:problem=mixed beam	!
 8CC#L 8CCC#/	8r
-!LO:SIC:v:n=2:s=8E#	!
-8G# 8E 8C# 8GG#\	8cc#L 8e#X 8c#/
-!LO:SIC:v:n=2:s=8E#	!
-8G# 8E 8C# 8GG#\	8cc# 8e# 8c#/
-!LO:SIC:v:n=2:s=8E#	!
-8G#J 8E 8C# 8GG#\	8cc#J 8e# 8c#/
+!LO:SIC:v:n=2:o=8G# 8E 8C# 8GG#\	!
+8E#	8cc#L 8e#X 8c#/
+!LO:SIC:v:n=2:o=8G# 8E 8C# 8GG#\	!
+8E#	8cc# 8e# 8c#/
+!LO:SIC:v:n=2:o=8G#J 8E 8C# 8GG#\	!
+8E#	8cc#J 8e# 8c#/
 =2	=2
 8AL 8F# 8BB#X 8AA\	8b#XL 8f# 8B#X\
 8a 8f# 8B#X 8A\	8bb#X 8ff# 8b#\
@@ -91,8 +91,8 @@
 *	*X8va
 =10	=10
 *	*8va
-!LO:SIC:v:n=2:s=8ee#	!
-8gg# 8ee 8cc# 8g#\	8cccc# 8eee#X 8ccc#\
+!LO:SIC:v:n=2:o=8gg# 8ee 8cc# 8g#\	!
+8ee#	8cccc# 8eee#X 8ccc#\
 *	*X8va
 8r	8r
 4r	4r
@@ -132,8 +132,8 @@
 8c# 8F#\	8gg# 8g#\
 8AJ 8C#\	8ff#J 8f#\
 =17	=17
-!LO:TX:t=P:problem=mixed beam	!LO:SIC:v:n=1:s=8ee#XL
-8CC#/L	8ff#XL 8e#X\
+!LO:TX:t=P:problem=mixed beam	!LO:SIC:v:n=1:o=8ff#XL 8e#X\
+8CC#/L	8ee#XL
 8G# 8C#\	8gg# 8g#\
 8e#X 8G#\	8ddd 8dd\
 8cc#J 8e#\	8ccc#J 8cc#\
@@ -1091,8 +1091,8 @@
 .	16dddJJ 16dd'\
 !!LO:PB:g=original
 =130	=130
-!LO:SIC:v:s=8B-\L	!
-8B\L	16dddLL 16dd\
+!LO:SIC:v:o=8B\L	!
+8B-\L	16dddLL 16dd\
 .	16fffn 16dd\
 8b-XJ 8d\	16fff 16dd\
 .	16ddd 16dd\
@@ -1203,8 +1203,8 @@
 .	16cccn 16aa\)
 .	(16ccc 16aa\
 .	16ff 16a\)
-!LO:SIC:v:n=3:s=4BB-\	!
-4d-X 4Fn 4BB\	(16ff 16b-X\
+!LO:SIC:v:n=3:o=4d-X 4Fn 4BB\	!
+4BB-\	(16ff 16b-X\
 .	16ddd-X 16bb-X\)
 .	(16ddd- 16bb-\
 .	16ffJJ 16b-\)
@@ -1384,8 +1384,8 @@
 16a 16f#\	16bb 16dd#X 16b\
 16a-X 16fn\	16bb-X 16ddn 16b-X\
 16gn 16e\	16aa 16cc 16a\
-!LO:SIC:v:n=1:s=16f#	!
-16fn 16d#X\	16gg# 16b#X 16g#\
+!LO:SIC:v:n=1:o=16fn 16d#X\	!
+16f#	16gg# 16b#X 16g#\
 16fn 16dn\	16ggn 16bn 16gn\
 16e 16c#\	16ff# 16a#X 16f#\
 16e-XJJ 16cn\	16ffnJJ 16an 16fn\
@@ -1955,13 +1955,13 @@
 .	32aan\JJJ
 !!LO:LB:g=original
 8bL 8e\	32aaLLL 32ffn\
-!	!LO:SIC:v:s=32gg#
-.	32gg\
+!	!LO:SIC:v:o=32gg\
+.	32gg#
 .	32aa\
-!	!LO:SIC:v:s=32gg#
-.	32gg\
-!	!LO:SIC:v:n=1:s=32gg#
-8eJ 8G\	32gg 32ee\
+!	!LO:SIC:v:o=32gg\
+.	32gg#
+!	!LO:SIC:v:n=1:o=32gg 32ee\
+8eJ 8G\	32gg#
 .	32ggn\
 .	32gg#X\
 .	32ggn\JJJ
@@ -2030,13 +2030,13 @@
 .	32aa#X\
 .	32aan\
 8b 8e\	32aa 32ffn\
-!	!LO:SIC:v:s=32gg#
-.	32gg\
+!	!LO:SIC:v:o=32gg\
+.	32gg#
 .	32aa\
-!	!LO:SIC:v:s=32gg#
-.	32gg\
-!	!LO:SIC:v:n=1:s=32gg#
-8eJ 8G\	32gg 32ee\
+!	!LO:SIC:v:o=32gg\
+.	32gg#
+!	!LO:SIC:v:n=1:o=32gg 32ee\
+8eJ 8G\	32gg#
 .	32ggn\
 .	32gg#X\
 .	32ggn\JJJ
@@ -2138,8 +2138,8 @@
 24r>yy	24E<JJ 24EE</
 !	!LO:TX:t=P:problem=mixed beam
 !	!LO:TUP:a:problem=klamra łukowa
-!	!LO:SIC:v:n=2:s=24C#<
-24r>yy	24F#<LL 24C< 24FF#</
+!	!LO:SIC:v:n=2:o=24F#<LL 24C< 24FF#</
+24r>yy	24C#<
 !LO:TX:a:t=md	!
 24r>yy	24e<JJ 24A#X< 24E<\
 !	!LO:TX:a:t=ms
@@ -2223,11 +2223,11 @@
 =233	=233
 12dd#XL 12ccn 12b 12a\	12fffnL 12cccn 12bb\
 12ddn 12b 12g#\	12eee 12bb\
-!LO:SIC:v:n=1:s=12cc#	!
-12cc 12b 12a#X 12gn\	12ddd#X 12aa#X\
+!LO:SIC:v:n=1:o=12cc 12b 12a#X 12gn\	!
+12cc#	12ddd#X 12aa#X\
 12ccn 12b 12an 12f#\	12dddn 12aan\
-!LO:SIC:v:n=2:s=12g#	!LO:SIC:v:n=1:s=12ccc#
-12b 12g 12e#X\	12ccc 12gg#\
+!LO:SIC:v:n=2:o=12b 12g 12e#X\	!LO:SIC:v:n=1:o=12ccc 12gg#\
+12g#	12ccc#
 12bJ 12a# 12gn 12e#X\	12cccnJ 12ggn\
 *clefF4	*
 =234	=234
@@ -2240,11 +2240,11 @@
 =235	=235
 12d#XL 12cn 12B 12A\	12ffnL 12ccn 12b\
 12dn 12B 12G#\	12ee 12b\
-!LO:SIC:v:n=1:s=12c#	!
-12c 12B 12A# 12Gn\	12dd#X 12a#X\
+!LO:SIC:v:n=1:o=12c 12B 12A# 12Gn\	!
+12c#	12dd#X 12a#X\
 12cn 12B 12A 12F#\	12ddn 12an\
-!LO:SIC:v:n=2:s=12G#	!LO:SIC:v:n=1:s=12cc#
-12B 12G 12E#X\	12cc 12g#\
+!LO:SIC:v:n=2:o=12B 12G 12E#X\	!LO:SIC:v:n=1:o=12cc 12g#\
+12G#	12cc#
 12BJ 12A#X 12Gn 12En\	12ccnJ 12gn\
 =236	=236
 12BL 12A 12D#X 12BB\	12bL 12f# 12B\
@@ -2607,8 +2607,8 @@
 24e\	24bb 24ee'\
 24d#X\	24bb 24dd#X'\
 24dn\	24bb 24ddn'\
-!LO:SIC:v:s=24c#\	!
-24c\	24bb 24cc#X'\
+!LO:SIC:v:o=24c\	!
+24c#\	24bb 24cc#X'\
 24cn\JJ	24bbJJ 24ccn'\
 =277	=277
 24BLL 24BB\	24b'\LL
@@ -2967,8 +2967,8 @@
 24e\	24eee 24gg\
 24e-X\	24eee-X 24gg\
 24d\	24ddd 24gg\
-!	!LO:SIC:v:n=1:s=24ccc#
-24c#X\	24ccc 24gg\
+!	!LO:SIC:v:n=1:o=24ccc 24gg\
+24c#X\	24ccc#
 24cn\	24cccn 24gg\
 24B\	24bb 24gg\
 24B-X\	24bb-X 24gg\
@@ -2981,8 +2981,8 @@
 24E\	24ee 24g\
 24E-X\	24ee-X 24g\
 24D\	24dd 24g\
-!	!LO:SIC:v:n=1:s=24cc#
-24C#X\	24cc 24g\
+!	!LO:SIC:v:n=1:o=24cc 24g\
+24C#X\	24cc#
 24Cn\	24ccn 24g\
 24BB\	24b 24g\
 24BB-X\	24b-X 24g\
@@ -3049,8 +3049,8 @@
 .	24cc#X 24an\
 8B 8D\	24dd 24b-X\
 .	24dd#X 24bn\
-!	!LO:SIC:v:n=2:s=24ccn
-.	24ee 24cc#\
+!	!LO:SIC:v:n=2:o=24ee 24cc#\
+.	24ccn
 8g 8B\	24ee#X 24cc#X\
 .	24ff# 24dd#\
 .	24gg 24ee-X\
@@ -3075,13 +3075,13 @@
 .	16a#X 16f#\
 8dJ 8B 8G 8D\	16b 16g\
 .	16bJJ 16g\
-!	!LO:SIC:v:n=2:s=16an\
-8GG\L	16ccLL 16a#\
+!	!LO:SIC:v:n=2:o=16ccLL 16a#\
+8GG\L	16an\
 .	16b 16g#X\
-!	!LO:SIC:v:n=2:s=16an\
-8e-XJ 8c 8A 8G 8E-X\	16cc 16a#\
-!	!LO:SIC:v:n=2:s=16an\
-.	16ccJJ 16a#\
+!	!LO:SIC:v:n=2:o=16cc 16a#\
+8e-XJ 8c 8A 8G 8E-X\	16an\
+!	!LO:SIC:v:n=2:o=16ccJJ 16a#\
+.	16an\
 !!LO:LB:g=original
 =320	=320
 8GG\L	16cc#XLL 16a#X\
@@ -3124,8 +3124,8 @@
 *clefG2	*
 8gL 8B/	24ddd 24bb-X\
 .	24ddd#X 24bbn\
-!	!LO:SIC:v:n=2:s=24cccn
-.	24eee 24ccc#\
+!	!LO:SIC:v:n=2:o=24eee 24ccc#\
+.	24cccn
 8dd 8g/	24eee#X 24ccc#X\
 .	24fff# 24ddd#\
 .	24ggg 24eee-X\
@@ -3143,33 +3143,33 @@
 .	24eeen 24cccn\
 .	24ddd#X 24bb\
 8gJ 8c/	24dddn 24bb-X\
-!	!LO:SIC:v:n=1:s=24cccn
-.	24ccc 24aa\
+!	!LO:SIC:v:n=1:o=24ccc 24aa\
+.	24cccn
 .	24cccnXJJ 24aa-X\
 =327	=327
 8G/L	16bbLL 16gg\
 .	16aa#X 16ff#\
 8ddJ 8g 8d 8B/	16bb 16gg\
 .	16bbJJ 16gg\
-!	!LO:SIC:v:n=2:s=16aan\
-8G/L	16cccLL 16aa#\
+!	!LO:SIC:v:n=2:o=16cccLL 16aa#\
+8G/L	16aan\
 .	16bb 16gg#X\
-!	!LO:SIC:v:n=2:s=16aan\
-8ee-XJ 8g 8e-X 8c/	16ccc 16aa#\
-!	!LO:SIC:v:n=2:s=16aan\
-.	16cccJJ 16aa#\
+!	!LO:SIC:v:n=2:o=16ccc 16aa#\
+8ee-XJ 8g 8e-X 8c/	16aan\
+!	!LO:SIC:v:n=2:o=16cccJJ 16aa#\
+.	16aan\
 =328	=328
 8G/L	16ccc#XLL 16aa#X\
 .	16cccn 16aan\
 8eeJ 8a#X 8g 8e 8c#X/	16ccc#X 16aa#X\
 .	16ccc#JJ 16aa#\
-!	!LO:SIC:v:n=2:s=16aan\
-8G/L	16dddLL 16aa#\
+!	!LO:SIC:v:n=2:o=16dddLL 16aa#\
+8G/L	16aan\
 .	16ccc# 16gg#X\
-!	!LO:SIC:v:n=2:s=16aan\
-8ddJ 8an 8f# 8d 8cn/	16ddd 16aa#\
-!	!LO:SIC:v:n=2:s=16aan\
-.	16dddJJ 16aa#\
+!	!LO:SIC:v:n=2:o=16ddd 16aa#\
+8ddJ 8an 8f# 8d 8cn/	16aan\
+!	!LO:SIC:v:n=2:o=16dddJJ 16aa#\
+.	16aan\
 !!LO:LB:g=original
 =329	=329
 *clefF4	*
@@ -3268,8 +3268,8 @@
 .	24ff# 24a\
 .	24ff##X 24a#X\
 8F#J 8BB\	24gg#X 24b#\
-!	!LO:SIC:v:n=2:s=24ccn\
-.	24aa 24cc#\
+!	!LO:SIC:v:n=2:o=24aa 24cc#\
+.	24ccn\
 .	24aa#XJJ 24cc#\
 =340	=340
 !LO:TX:t=P:problem=mixed beam	!
@@ -3636,8 +3636,8 @@
 16EE#X\	16e#X 16E#X/
 16GG#X\	16g#XJJ 16G#X/
 16C#\	16cc#LL 16c#/
-!LO:SIC:v:s=16E#\	!
-16E\	16ee# 16e#/
+!LO:SIC:v:o=16E\	!
+16E#\	16ee# 16e#/
 16G#\	16gg# 16g#/
 16c#\JJ	16ccc#JJ 16cc#/
 =360	=360
@@ -3656,13 +3656,13 @@
 16EE#X\	16e#X 16E#X/
 16GG#X\	16g#X 16G#X/
 16C#\	16cc# 16c#/
-!LO:SIC:v:s=16E#\	!
-16E\	16ee# 16e#/
+!LO:SIC:v:o=16E\	!
+16E#\	16ee# 16e#/
 16G#\	16gg# 16g#/
 16c#\JJ	16ccc#JJ 16cc#/
 =362	=362
-!LO:SIC:v:s=4CC# 4CCC#/	!
-4CC 4CCC/	16bb#XLL 16b#X\
+!LO:SIC:v:o=4CC 4CCC/	!
+4CC# 4CCC#/	16bb#XLL 16b#X\
 .	16aaa 16fff# 16ddd 16bb#\
 .	16aaa 16fff# 16ddd 16bb#\
 .	16fff#JJ 16ddd 16bb# 16aa\
@@ -3678,8 +3678,8 @@
 16EE#X\	16e#X 16E#X/
 16GG#X\	16g#X 16G#X/
 16C#\	16cc# 16c#/
-!LO:SIC:v:s=16E#\	!
-16E\	16ee# 16e#/
+!LO:SIC:v:o=16E\	!
+16E#\	16ee# 16e#/
 16G#\	16gg# 16g#/
 16c#\JJ	16ccc#JJ 16cc#/
 =364	=364
@@ -3711,8 +3711,8 @@
 16CC#JJ 16CCC#\	16c#<JJ 16C#</
 !!LO:LB:g=original
 =367	=367
-!LO:SIC:v:s=8CC# 8CCC#	!LO:TX:t=P:problem=mixed beam
-8CC 8CCC\	8c#X<L 8C#X</
+!LO:SIC:v:o=8CC 8CCC\	!LO:TX:t=P:problem=mixed beam
+8CC# 8CCC#	8c#X<L 8C#X</
 8e#XL 8c#X 8G#X 8E#X\	8ccc#X 8gg#X 8cc#X\
 8e# 8c# 8G# 8E#\	8ccc# 8gg# 8cc#\
 8e#J 8c# 8G# 8E#\	8ccc#J 8gg# 8cc#\
@@ -3986,8 +3986,8 @@
 8B#X 8D\	8dd 8d\
 8F#J 8AA\	8b#XJ 8B#X\
 =399	=399
-!LO:TX:t=P:problem=mixed beam	!LO:SIC:v:s=8b#L 8B#\
-8CC#L 8CCC#/	8bL 8B\
+!LO:TX:t=P:problem=mixed beam	!LO:SIC:v:o=8bL 8B\
+8CC#L 8CCC#/	8b#L 8B#\
 8E#X 8BB\	8cc# 8c#\
 8c# 8C#\	8aa 8cc# 8a\
 8E#J 8BB\	8gg#J 8g#\
@@ -5107,8 +5107,8 @@
 12C# 12CC#\	12g# 12e#X 12c# 12G#/
 12C#J 12CC#\	12g#J 12e# 12c# 12G#/
 =500	=500
-!	!LO:SIC:v:n=2:s=12e#
-12C#L 12CC#\	12g#L 12e 12c# 12G#/
+!	!LO:SIC:v:n=2:o=12g#L 12e 12c# 12G#/
+12C#L 12CC#\	12e#
 12F# 12FF#\	12a 12f# 12c# 12A/
 12F#J 12FF#\	12aJ 12f# 12c# 12A/
 12F#L 12FF#\	12aL 12f# 12c# 12A/

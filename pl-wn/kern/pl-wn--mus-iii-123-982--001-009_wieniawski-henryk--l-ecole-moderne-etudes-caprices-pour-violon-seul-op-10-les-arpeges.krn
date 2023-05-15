@@ -563,8 +563,8 @@
 .	.	32eee/LLL	32eeeyy 32ree 32rayy\LLL	.	.
 !	!	!	!LO:N:n=2:vis=2	!	!
 .	.	32aaa/	32aaayy 32rdd 32rayy\	.	.
-!	!	!LO:SIC:v:s=32cccc#/	!LO:N:n=2:vis=2	!	!
-.	.	32cccc/	32cccc#yy 32rff# 32rcc#yy\	.	.
+!	!	!LO:SIC:v:o=32cccc/	!LO:N:n=2:vis=2	!	!
+.	.	32cccc#/	32cccc#yy 32rff# 32rcc#yy\	.	.
 !	!	!	!LO:N:n=2:vis=2	!	!
 .	.	32eeee/JJJ	32eeeeyy 32raa 32reeyy\JJJ	.	.
 !	!	!LO:TX:a:t=P:problem:mixed beam	!	!	!
@@ -2552,7 +2552,7 @@
 !!!system-decoration: {(s1,s2)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!filter-modern: sic -sq | filtr autostem -r | shed -k -e “s/([^a-gA-Gn#X-])[<>]/$1/g”  |shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
+!!!filter-modern: sic -sq | filtr autostem -r | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g"  |shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | modori -m
 !!!ENC: Katarzyna Serwa
 !!!END: 2022-05-19
 !!!EED: Berenika Jozajtis
