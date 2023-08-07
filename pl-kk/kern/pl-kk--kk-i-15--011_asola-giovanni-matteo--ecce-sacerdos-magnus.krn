@@ -21,20 +21,23 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/5777 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!IIIF:
 !!!ONB-nifc: UWAGA: C (skan 0008), A (skan 0025-0026), T (skan 0042-0043), B (skan 0060-0061). Następny motet: Beatus vir
-!!!AIN: 1 alto 1 empty 1 tenor 1 vox
+!!!AIN: 1 alto 1 bass 2 tenor
 !!!key:
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"| shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r |  humtr -p | modori -m | tie -s
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*group1	*	*group1	*	*group1	*	*group1	*
 *part4	*	*part3	*	*part2	*	*part1	*
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
-*Iempty	*	*Itenor	*	*Ialto	*	*Ivox	*
+*Ibass	*	*Itenor	*	*Itenor	*	*Ialto	*
+*ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*
 *I"Baſso	*	*I"Tenore.	*	*I"Alto	*	*I"Canto.	*
-*I'B	*	*I'T	*	*I'A	*	*I'S	*
+*mI"Basso	*	*mI"Tenore II	*	*mI"Tenore I	*	*mI"Alto	*
 *clefF3	*	*clefC3	*	*clefC3	*	*clefC2	*
+*mclefF4	*	*mclefGv2	*	*mclefGv2	*	*mclefG2	*
 *k[]	*	*k[]	*	*k[]	*	*k[]	*
 *C:	*	*C:	*	*C:	*	*C:	*
 *M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*	*met(C|)	*
+*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*
 *all\right	*	*all\right	*	*all\right	*	*all\right	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
@@ -69,8 +72,8 @@
 =5-	=5-	=5-	=5-	=5-	=5-	=5-	=5-
 *2\right	*	*	*	*	*	*	*
 *	*	*custos:e	*	*	*	*	*
-!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
-2Bn\	-ce	2d\	.	1r	.	0g	Ec-
+!LO:SIC:o=2Bn\	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
+2B	-ce	2d\	.	1r	.	0g	Ec-
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 !	!	!LO:LB:g=original	!	!	!	!	!
 2c\	Sa-	2e\	-dos	.	.	.	.
@@ -84,7 +87,8 @@
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 .	.	1G	-gnus	1d	-cer-	.	.
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
-2Bn\	.	.	.	.	.	.	.
+!LO:SIC:o=2Bn\	!	!	!	!	!	!	!
+2B	.	.	.	.	.	.	.
 =7-	=7-	=7-	=7-	=7-	=7-	=7-	=7-
 2c,<\	-gnus	2rA	.	2c,</	-dis	1e	Sa-
 *	*ij	*	*	*	*	*	*
@@ -99,13 +103,15 @@
 2.G\	-cer-	2.B/	-cer-	2e\	-cer-	0g	Ma-
 !	!	!	!	!LO:TX:t=P:problem=fragment nieczytelny, przyjęto zgodnie z custos	!	!	!
 !	!	!	!	!LO:PB:g=original	!	!	!
-.	.	.	.	2d.	.	.	.
+!	!	!	!	!LO:MO:mod=[2d	!	!	!
+.	.	.	.	2.d	.	.	.
 *custos:B	*	*	*	*	*	*	*
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 4A\	.	4c/	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!
 =9-	=9-	=9-	=9-	=9-	=9-	=9-	=9-
-2Bn\	-dos	2d\	.	.	.	.	.
+!LO:SIC:o=2Bn\	!	!	!	!LO:MO:null:mod=4d]	!	!	!
+2B	-dos	2d\	.	.	.	.	.
 .	.	.	.	4c/	-dos	.	.
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 2c\	Ma-	2e\	-dos	1c	Ma-	.	.
@@ -162,7 +168,7 @@
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 2c\	di-	2e\	di-	.	.	.	.
 2A\	-e-	2c/	-e-	1r	.	2r	.
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!LO:MO:mod=qui
 2B\	-bus	2d\	-bus	.	.	2g\	Qui
 =15-	=15-	=15-	=15-	=15-	=15-	=15-	=15-
 2.c\	su-	2.e\	Su-	2r	.	2g\	in
@@ -209,7 +215,7 @@
 *	*	*	*	*	*	*	*ij
 *	*	*	*	*	*	*custos:g	*
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!LO:MO:mod=qui
 2G\	-bus	2.e\	.	2B/	di-	2g\	Qui
 !	!	!	!	!	!	!LO:LB:g=original	!
 1A	su-	.	.	2c/	-e-	2g\	in
@@ -245,6 +251,7 @@
 .	.	2f\	-bus	.	.	.	.
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:PB:g=original	!	!	!	!	!
 1G	-is	2.g\	Su-	1d	Su-	2r	.
+!	!	!	!	!	!	!	!LO:MO:mod=qui
 .	.	.	.	.	.	2g\	Qui
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 .	.	4f\	.	.	.	.	.
@@ -279,6 +286,7 @@
 2B\	-bus	2.d\	di-	2f\	-bus	2d/	.
 2.c\	su-	.	.	1e	Su-	2e,</	-is
 .	.	4c/	-e-	.	.	.	.
+!	!	!	!	!	!	!	!LO:MO:mod=qui
 .	.	1c\	-bus	.	.	2g\	Qui
 8B\L	.	.	.	.	.	.	.
 8A\J	.	.	.	.	.	.	.
@@ -323,6 +331,7 @@
 =29-	=29-	=29-	=29-	=29-	=29-	=29-	=29-
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 1C	-it	1c	-it	1e	-it	1g	-it
+!	!LO:MO:mod=De-	!	!LO:MO:mod=De-	!	!LO:MO:mod=De-	!	!LO:MO:mod=De-
 1F	DE-	1c	DE-	1f	DE-	1a	DE-
 =30-	=30-	=30-	=30-	=30-	=30-	=30-	=30-
 *	*	*	*	*	*	*custos:d	*
@@ -565,7 +574,7 @@
 2B\	-tus	.	.	.	.	2d/	re-
 .	.	.	.	4d\	-ti-	.	.
 =51-	=51-	=51-	=51-	=51-	=51-	=51-	=51-
-!	!	!LO:TX:a:t=3	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
+!	!	!LO:TX:a:t=3:mod=	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 2c\	est	0r	.	1c	-o	2e/	-con-
 *	*	*	*	*	*	*custos:d	*
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
@@ -623,7 +632,7 @@
 =56-	=56-	=56-	=56-	=56-	=56-	=56-	=56-
 2A,<\	-o	2c/	-tus	2e\	re-	2a\	est
 *	*Xij	*	*	*	*	*	*
-!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
+!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!LO:MO:mod=re-
 2F/	fac-	2A/	est	2a\	-con-	2cc\	Re-
 2G\	-tus	2B/	re-	2g\	-ci-	2b\	-con-
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
@@ -644,19 +653,27 @@
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 2C/	-ti-	.	.	2e\	-ti-	.	.
 =59-	=59-	=59-	=59-	=59-	=59-	=59-	=59-
-[0Gl;;	-o	.	.	[0dl;;	-o	[0gl;;	-o
+!LO:SIC:o=[0Gl;;	!	!	!	!LO:SIC:o=[0dl;;	!	!LO:SIC:o=[0gl;;	!
+0G;	-o	.	.	0d;	-o	0g;	-o
 .	.	2B/	-ti-	.	.	.	.
-.	.	[1Bl;;	-o	.	.	.	.
+!	!	!LO:SIC:o=[1Bl;;	!	!	!	!	!
+.	.	1B;	-o	.	.	.	.
 *	*	*	*Xij	*	*	*	*
+!!LO:MO:ori
 =60-	=60-	=60-	=60-	=60-	=60-	=60-	=60-
 0G]	.	0B]	.	0d]	.	0g]	.
+!!LO:MO:end
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [g1]
+!!!system-decoration: [(*)]
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
+!!LO:MO:ori
 !!!RDF**kern: l = terminal long
+!!LO:MO:end
 !!!ENC: Andrzej Kubiczek
 !!!END: 2021-03-27
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-03-22
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2023-07-23

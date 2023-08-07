@@ -25,24 +25,30 @@
 !!!ONB-nifc: UWAGA: części Dixit Dominus: Dixit Dominus, Virgam virtutis tuae, Dominare in medio, Tecum principium, Juravit Dominus, Tu es sacerdos, Dominus a dextris, Judicabit in nationibus, De torrente, Gloria patri
 !!!AIN: 1 alto 1 bass 2 clrno 1 organ 1 soprn 1 tenor 2 violn
 !!!key: D
+!!!OMD:
+!!!OMD-mod: Tarde
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**fba	**kern	**kern	**kern	**text	**kern	**text	**kern	**text	**kern	**text	**kern	**kern
 *	*	*group3	*group3	*group2	*	*group2	*	*group2	*	*group2	*	*group1	*group1
 *part9	*	*part8	*part7	*part6	*	*part5	*	*part4	*	*part3	*	*part2	*part1
 *staff9	*	*staff8	*staff7	*staff6	*	*staff5	*	*staff4	*	*staff3	*	*staff2	*staff1
 *I"Fundamento	*	*I"Violino Secundo	*I"Violino Primo.	*I"Basso	*	*I"Tenore	*	*I"Alto	*	*I"Canto	*	*I"Clarino 2do.	*I"Clarino Primo ex D
+*mI"Basso continuo	*	*mI"Violino II	*mI"Violino I	*	*	*	*	*	*	*mI"Soprano	*	*mI"Clarino II in D	*mI"Clarino I in D
 *I'bc	*	*I'vl 2	*I'vl 1	*I'B	*	*I'T	*	*I'A	*	*I'S	*	*I'clno 2 in D	*I'clno 1 in D
 *Iorgan	*	*Ivioln	*Ivioln	*Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*	*Iclrno	*Iclrno
 *ICklav	*	*ICstr	*ICstr	*ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*	*ICbras	*ICbras
 *IGcont	*	*	*	*	*	*	*	*	*	*	*	*	*
 *clefF4	*	*clefG2	*clefG2	*clefF4	*	*clefC4	*	*clefC3	*	*clefC1	*	*clefG2	*clefG2
+*	*	*	*	*	*	*mclefGv2	*	*mclefG2	*	*mclefG2	*	*	*
 *	*	*	*	*	*	*	*	*	*	*	*	*ITrd-1c-2	*ITrd-1c-2
 *k[f#c#]	*	*k[f#c#]	*k[f#c#]	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*k[f#c#]
 *D:	*	*D:	*D:	*D:	*	*D:	*	*D:	*	*D:	*	*D:	*D:
 *M4/4	*	*M4/4	*M4/4	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*	*M4/4	*M4/4
 *met(c)	*	*met(c)	*met(c)	*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*	*met(c)	*met(c)
+*mmet(c)	*	*mmet(c)	*mmet(c)	*mmet(c)	*	*mmet(c)	*	*mmet(c)	*	*mmet(c)	*	*mmet(c)	*mmet(c)
 *2\right	*	*2\right	*2\right	*2\right	*	*2\right	*	*2\right	*	*2\right	*	*	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:i:a:t=Tarde	!	!LO:TX:i:a:t=Tardi T.	!	!LO:TX:i:a:t=Tarde	!	!LO:TX:a:t=T. Tarde	!	!LO:TX:i:a:t=Tarde T.	!	!LO:TX:i:a:t=Tarde	!	!LO:TX:i:a:t=Tarde	!LO:TX:i:a:t=Tarde
+!LO:TX:i:a:t=Tarde:mod=	!	!LO:TX:i:a:t=Tardi T.:mod=	!	!LO:TX:i:a:t=Tarde:mod=	!	!LO:TX:a:t=T. Tarde:mod=	!	!LO:TX:i:a:t=Tarde T.:mod=	!	!LO:TX:i:a:t=Tarde:mod=	!	!LO:TX:i:a:t=Tarde:mod=	!LO:TX:i:a:t=Tarde:mod=
 !	!	!	!	!	!	!LO:TX:t=P:problem=kolejność znaków&colon;c#F#	!	!	!	!LO:TX:t=P:problem=kolejność znaków&colon;cc#f#	!	!	!
 2B\	.	2b\	2ff#\	[2B\	Ju-	(2d\	Ju-	[2b\	Ju-	(2dd\	Ju-	1r	1r
 4B\	4 2	4b\	4ee\	4B\]	.	4c#\)	.	4b\]	.	4ee\)	.	.	.
@@ -57,9 +63,10 @@
 4.G\	6	4.b\	4.ee\	4.G\	-o-	4.e\	-o-	4.b\	-o-	4.ee\	-o-	.	.
 8G\	.	8b\	8ee\	8G\	-ni-	8e\	-ni-	8b\	-ni-	8ee\	-ni-	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-!	!	!LO:TX:i:b:t=Implebit	!	!	!	!	!	!	!	!	!	!	!
-!LO:TX:i:a:t=Presto	!	!LO:TX:i:a:t=Presto	!	!LO:TX:i:a:t=Presto	!	!LO:TX:i:a:t=Presto	!	!	!	!	!	!LO:TX:i:a:t=Presto	!
-!	!	!	!	!	!	!	!	!LO:TX:i:a:t=Allegro	!	!	!	!	!
+!!!OMD:
+!!!OMD-mod: Presto
+!	!	!LO:TX:i:b:t=Implebit:mod=	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:i:a:t=Presto:mod=	!	!LO:TX:i:a:t=Presto:mod=	!	!LO:TX:i:a:t=Presto:mod=	!	!LO:TX:i:a:t=Presto:mod=	!	!LO:TX:i:a:t=Allegro:mod=	!	!	!	!LO:TX:i:a:t=Presto:mod=	!
 8F#\L	#	16cc#\LL	16ff#\LL	8F#\	-bus,	8c#\	-bus	8a#X\	-bus	8ff#,\	-bus	8r	8r
 .	.	16a#X\	16cc#\	.	.	.	.	.	.	.	.	.	.
 16F#\L	.	16cc#\	16ff#\	8F#\	im-	8c#\	im-	8a#\	im-	8ff#\	im-	8f#/L	8f#/L
@@ -81,8 +88,8 @@
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
 8r	.	16ee\LL	16aa\LL	8r	.	8r	.	8r	.	8r	.	8r	8r
 .	.	16cc#\	16ee\	.	.	.	.	.	.	.	.	.	.
-!	!	!	!	!LO:TX:t=P:problem=kasownik przed pauzą	!	!	!	!	!	!	!	!	!
-8An\L	.	16ee\	16aa\	8An\	im-	8c#\	im-	8an\	im-	8ee\	im-	8a/L	8ee\
+!LO:SIC:o=8An\L	!	!	!	!LO:TX:t=P:problem=kasownik przed pauzą	!	!	!	!	!	!	!	!	!
+8AL	.	16ee\	16aa\	8An\	im-	8c#\	im-	8an\	im-	8ee\	im-	8a/L	8ee\
 .	.	16cc#\JJ	16ee\JJ	.	.	.	.	.	.	.	.	.	.
 8A\	.	16ee\LL	16aa\LL	8A\	-ple-	8c#\	-ple-	8a\	-ple-	8ee\	-ple-	8a/	8ee\L
 .	.	16cc#\	16ee\	.	.	.	.	.	.	.	.	.	.
@@ -90,16 +97,21 @@
 8A\J	.	16ee\	16aa\	16A\	-bit	16c#\	-bit	16a\	-bit	16ee,\	-vit	8a/J	16ee\L
 .	.	16cc#\JJ	16ee\JJ	16A\	ru-	16c#\	ru-	16a\	ru-	16ee\	ru-	.	16ee\JJ
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!
-!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
-8d\L	.	16ff#\LL	16aa\LL	8d\	-i-	8d\	-i-	8a\	-i-	8ee\	-i-	8dd\L	8ff#\L
+!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!LO:SIC:v:o=8ee\	!	!	!
+8d\L	.	16ff#\LL	16aa\LL	8d\	-i-	8d\	-i-	8a\	-i-	8ff#	-i-	8dd\L	8ff#\L
 .	.	16dd\	16ff#\	.	.	.	.	.	.	.	.	.	.
-8D/J	.	16ff#\	16aa\	8D/	-nas	8d\	-nas	8a\	-nas	8ee\	-nas	8dd\J	8ff#\J
+!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:o=8ee\	!	!	!
+8D/J	.	16ff#\	16aa\	8D/	-nas	8d\	-nas	8a\	-nas	8ff#	-nas	8dd\J	8ff#\J
 .	.	16dd\JJ	16ff#\JJ	.	.	.	.	.	.	.	.	.	.
-8r	.	16ee\LL	16aa\LL	8r	.	4r	.	4r	.	4r	.	4r	4r
-.	.	16cc#\	16ff#\	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:SIC:v:o=16ee\LL	!	!	!	!	!	!	!	!	!	!	!
+8r	.	16ff#LL	16aa\LL	8r	.	4r	.	4r	.	4r	.	4r	4r
+!	!	!LO:SIC:v:o=16cc#\	!	!	!	!	!	!	!	!	!	!	!
+.	.	16dd	16ff#\	.	.	.	.	.	.	.	.	.	.
 *	*	*	*	*custos:d	*	*	*	*	*	*	*	*	*
-8A\	.	16ee\	16aa\	8A\	ru-	.	.	.	.	.	.	.	.
-.	.	16cc#\JJ	16ff#\JJ	.	.	.	.	.	.	.	.	.	.
+!	!	!LO:SIC:v:o=16ee\	!	!	!	!	!	!	!	!	!	!	!
+8A\	.	16ff#	16aa\	8A\	ru-	.	.	.	.	.	.	.	.
+!	!	!LO:SIC:v:o=16cc#\JJ	!	!	!	!	!	!	!	!	!	!	!
+.	.	16ddJJ	16ff#\JJ	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
 8d\L	.	4ff# 4a 4d/	4ff# 4a 4d/	8d\L	i-	4r	.	4r	.	4r	.	8r	8r
@@ -147,12 +159,15 @@
 16D\	.	.	.	16D\	.	.	.	.	.	.	.	16a/J	.
 16C#\	.	8ee\	8ee\	16C#\	.	8e\	ru-	8a\	ru-	8ee\	ru-	8a/J	8ee\J
 16BB\JJ	.	.	.	16BB\JJ	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=-i-	!LO:MO:mod=4a	!
 8AA/L	.	8aa\L	8aa\L	8AA/	.	8e\	-i-	8a\	-i-	8aa\L	-[[i]]-	8a/	4ee\
-!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:o=16gg\L	!	!	!
+!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:o=16gg\L	!	!LO:MO:null:mod=.	!
 8AA/J	.	16gg#X\L	16gg#X\L	8AA/	-nas	8e\	-nas	8a\	-nas	16gg#\L	.	4a/	.
 .	.	16ff#\JJ	16ff#\JJ	.	.	.	.	.	.	16ff#\JJ	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=4r	!
 8r	.	16ee\LL	16ee\LL	8r	.	8r	.	8r	.	16ee\LL	.	.	4r
 .	.	16dd\	16dd\	.	.	.	.	.	.	16dd\	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=.	!
 8A\	.	16cc#\	16cc#\	8A\	im-	8e\	im-	8a\	im-	16cc#\	.	8r	.
 .	.	16b\JJ	16b\JJ	.	.	.	.	.	.	16b\JJ	.	.	.
 =9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
@@ -160,8 +175,8 @@
 8A\L	.	8a/L	8a/L	8A\	-ple-	8e\	-ple-	8a\	-ple-	8a\	-i-	8a/L	8ee\L
 8AA/J	.	16a/L	16a/L	16AA/	-bit	16e\	-bit	16a\	-bit	16a,\	-nas	16a/L	16ee\L
 .	.	16a/JJ	16a/JJ	16AA/	im-	16e\	im-	16a\	im-	16a\	im-	16a/JJ	16ee\JJ
-!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
-8A\L	.	8ee\L	8ggn\L	8A\	-ple-	8e\	-ple-	8a\	-ple-	8ee\	-ple-	8a/L	8ee\L
+!	!	!	!LO:SIC:o=8ggn\L	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
+8A\L	.	8ee\L	8ggL	8A\	-ple-	8e\	-ple-	8a\	-ple-	8ee\	-ple-	8a/L	8ee\L
 !	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=-bit	!	!
 16B\L	.	16ee\L	16gg\L	16B\	-bit	16e\	-bit	16a\	-bit	16ee,\	-vit	8a/J	8ee\J
 16c#\JJ	.	16ee\JJ	16gg\JJ	16c#\	ru-	16e\	ru-	16a\	ru-	16ee\	ru-	.	.
@@ -183,7 +198,8 @@
 16c#\L	.	16ff#\	16aa\	16c#\L	.	8d\	-bit	8a\	-bit	8ff#\	-vit	8dd\J	8ff#\J
 16B\JJ	.	16dd\JJ	16ff#\JJ	16B\JJ	.	.	.	.	.	.	.	.	.
 16A\LL	.	16ff#\LL	16aa\LL	16A\LL	.	8r	.	8r	.	8r	.	8r	8r
-16Gn\	.	16dd\	16ff#\	16G\	.	.	.	.	.	.	.	.	.
+!LO:SIC:o=16Gn\	!	!	!	!	!	!	!	!	!	!	!	!	!
+16G	.	16dd\	16ff#\	16G\	.	.	.	.	.	.	.	.	.
 16F#\	.	16ff#\	16aa\	16F#\	.	8c#\	im-	8a\	im-	8ee\	im-	8a/	8ee\
 16E\JJ	.	16dd\JJ	16ff#\JJ	16E\JJ	.	.	.	.	.	.	.	.	.
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!
@@ -193,7 +209,8 @@
 .	.	.	.	16G\	ru-	16d\	ru-	16b\	ru-	16ff#\	ru-	16dd\JJ	16ff#\JJ
 !	!	!LO:TX:t=P:problem=mixed beam	!LO:TX:t=P:problem=mixed beam	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8A\	.	8a/L	8a/L	8A\L	-i-	4c#\	-i-	4a\	-i-	4ee\	-i-	4a/	4ee\
-8AA/J	.	8ggn\J	8ccc#\J	8AA/J	.	.	.	.	.	.	.	.	.
+!	!	!LO:SIC:o=8ggn\J	!	!	!	!	!	!	!	!	!	!	!
+8AA/J	.	8ggJ	8ccc#\J	8AA/J	.	.	.	.	.	.	.	.	.
 =11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11
 4D/	.	8ff#\	8ddd\	8D/	-nas	8d\	-nas	8a\	-nas	8ff#,\	-nas	4dd\	4ff#\
 .	.	4ff#\	4dd\	8r	.	4d\	con-	8r	.	4dd\	con-	.	.
@@ -224,8 +241,8 @@
 *	*	*	*	*	*	*	*Xij	*	*	*	*	*	*
 .	.	16aa\JJ	16dd\JJ	.	.	.	.	.	.	.	.	.	.
 =13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13
-!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
-8A\L	.	16ee\LL	16aa\LL	8c#\L	-sa-	8c#|\L	con-	8a\L	-sa-	8ee\L	-sa-	8a/L	8ee\L
+!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!LO:SIC:o=8c#|\L	!	!	!	!	!	!	!
+8A\L	.	16ee\LL	16aa\LL	8c#\L	-sa-	8c#L	con-	8a\L	-sa-	8ee\L	-sa-	8a/L	8ee\L
 .	.	16cc#\	16a/	.	.	.	.	.	.	.	.	.	.
 8A\	.	16ee\	16aa\	8A\	.	(16A\L	-quaſ-	8cc#\	.	16cc#\L	.	8a/J	8ee\J
 .	.	16cc#\JJ	16a/JJ	.	.	16B\JJ	.	.	.	16dd\JJ	.	.	.
@@ -275,11 +292,12 @@
 8A\	.	.	.	.	.	.	.	16a\LL	.	.	.	8a/	8ee\
 .	.	.	.	.	.	.	.	16b\JJ	.	.	.	.	.
 8A\J	.	8ee\	8gg\	8A\	-bit	8e\	-bit	8a\	-bit	8gg,\	-bit	8a/J	8ee\J
-!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=mixed beam	!	!	!	!	!LO:MO:mod=ca-	!	!	!	!	!	!LO:MO:mod=ca-	!	!
 8d\L	.	16ff#\LL	16ff#\LL	16d\	Ca-	16d\	ca-	16a\	ca-	16ff#\	Ca-	8dd\L	8ff#\L
 .	.	16dd\	16dd\	16D/	-pi-	16d\	-pi-	16a\	-pi-	16ff#\	-pi-	.	.
 8D/	.	16ee\	16ee\	8D/	-ta	8d\	-ta	8a\	-ta	8ff#,\	-ta	8dd\	8ff#\
 .	.	16ff#\JJ	16ff#\JJ	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=con-	!	!
 8d\	.	16gg\LL	16gg\LL	8d\	con-	8d\	con-	8a\	con-	8ff#\	Con-	8dd\	8ff#\
 .	.	16aa\	16aa\	.	.	.	.	.	.	.	.	.	.
 8D/J	.	16bb\	16bb\	8D/	-quaſ-	8d\	-quaſ-	8a\	-quaſ-	8ff#\	-quaſ-	8dd\J	8ff#\J
@@ -298,7 +316,9 @@
 4r	.	4r	4r	.	.	.	.	.	.	.	.	.	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
 =17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
-!LO:TX:i:a:t=adagio	!	!LO:TX:i:a:t=adagio	!	!LO:TX:i:a:t=adagio	!	!LO:TX:i:a:t=adagio	!	!LO:TX:i:a:t=adagio	!	!LO:TX:i:b:t=adagio	!	!LO:TX:i:a:t=adagio	!LO:TX:i:a:t=adagio
+!!!OMD:
+!!!OMD-mod: Adagio
+!LO:TX:i:a:t=adagio:mod=	!	!LO:TX:i:a:t=adagio:mod=	!	!LO:TX:i:a:t=adagio:mod=	!	!LO:TX:i:a:t=adagio:mod=	!	!LO:TX:i:a:t=adagio:mod=	!	!LO:TX:i:b:t=adagio:mod=	!LO:MO:mod=in	!LO:TX:i:a:t=adagio:mod=	!LO:TX:i:a:t=adagio:mod=
 2G#X\	6 5	2ee\	2bb\	2G#X\	in	2d\	in	2b\	in	2ee\	In	2dd\	2ee\
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
 4A\	.	4ee\	4aa\	4A\	ter-	4c#\	ter-	4a\	ter-	4ee\	ter-	4a/	4ee\
@@ -318,3 +338,6 @@
 !!!END: 2020-08-03
 !!!ENC: Kamil Watkowski
 !!!END: 2022-03-06
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2023-07-21
+

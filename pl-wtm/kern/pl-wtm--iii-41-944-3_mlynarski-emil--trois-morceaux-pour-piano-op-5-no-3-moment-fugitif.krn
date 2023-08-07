@@ -23,13 +23,17 @@
 !!!IIIF:
 !!!ONB-nifc:
 !!!OMD: Allegro con brio.
+!!!OMD-mod: Allegro con brio
 !!!AIN: 1 piano
 !!!key: F
+!!!filter-modern: sic -sq | shed -e "s/Xtuplet/tuplet/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -k -e "s/:TUP:/:tup:/L" | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**fing	**kern	**fing	**dynam
 *part1	*	*part1	*	*
 *staff2	*	*staff1	*	*staff1/2
 *I"PIANO.	*	*I"PIANO.	*	*
 *I'	*	*I'	*	*
+*mI"Pianoforte	*	*mI"Pianoforte	*	*
+*mI'pf	*	*mI'pf	*	*
 *Ipiano	*	*Ipiano	*	*
 *ICklav	*	*ICklav	*	*
 *clefF4	*	*clefG2	*	*
@@ -92,7 +96,8 @@
 [8ddL [8g#X\	.	(16bbn/LL	[8ff\L	.	.
 .	.	16ccc/J	.	.	.
 =8	=8	=8	=8	=8	=8
-8dd]J 8g#\]	.	8bb-/J)	8ff\J]	.	.
+!	!	!LO:SIC:v:o=8bb-/J)	!	!	!
+8dd]J 8g#\]	.	8bbJ	8ff\J]	.	.
 *	*	*X8va	*	*	*
 4bn 4f/	.	(16gg#X/LL	4dd\	.	.
 .	.	16aa#X/J	.	.	.
@@ -353,6 +358,7 @@
 8r	.	8r	.	.
 !!LO:LB:g=original
 =51	=51	=51	=51	=51
+!LO:MO:mod=8A&colon; 8C&colon; 8FF&colon;'	!	!	!	!
 8A: 8C: 8FF:/	.	8cccL 8ff 8cc'\	.	.
 !	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8r	.	20ccc\L	.	.
@@ -693,6 +699,7 @@
 *clefF4	*	*	*	*
 =99	=99	=99	=99	=99
 8f 8Bn 8G'\	.	8r	.	.
+!	!	!	!	!LO:MO:mod=!null:null
 !	!	!LO:TUP:b:problem=klamra łukowa	!	!LO:HP:t=dimin.
 8r	.	20f/LL	.	>
 .	.	20g/	.	.
@@ -792,6 +799,7 @@
 8r	.	8r	.	.
 =115||	=115||	=115||	=115||	=115||
 !!!OMD: Meno mosso.
+!!!OMD-mod: Meno mosso
 *k[]	*	*k[]	*	*
 *	*	*^	*	*
 !	!	!	!	!	!LO:DY:t=mp tranquillo
@@ -1178,6 +1186,7 @@
 *clefF4	*	*	*	*
 =190||	=190||	=190||	=190||	=190||
 *k[b-]	*	*k[b-]	*	*
+!LO:MO:mod=8A&colon; 8C&colon; 8FF&colon;')	!	!	!	!
 8A 8C 8FF'\)	.	8cccL 8ff 8cc'\	.	p
 !	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8r	.	20ccc\L	.	.
@@ -1300,6 +1309,7 @@
 4c] 4C\]	.	4cc 4b- 4e/)	.	.
 8r	.	8r	.	.
 =208	=208	=208	=208	=208
+!LO:MO:mod=8A&colon; 8C&colon; 8FF&colon;'	!	!	!	!
 8A 8C 8FF'\	.	8cccL 8ff 8cc'\	.	p
 *	*	*tuplet	*	*
 !	!	!LO:TUP:a:problem=klamra łukowa	!	!
@@ -1643,6 +1653,7 @@
 *clefF4	*	*	*	*
 =256	=256	=256	=256	=256
 8f 8Bn 8G'\	.	8r	.	.
+!	!	!	!	!LO:MO:mod=!null:null
 !	!	!LO:TUP:a:problem=klamra łukowa	!	!LO:HP:t=dim.
 8r	.	20f/LL	.	>
 .	.	20g/	.	.
@@ -1813,6 +1824,7 @@
 8r	.	8f 8c 8A'/	.	.
 8C'/	.	8r	.	.
 =282	=282	=282	=282	=282
+!LO:MO:mod=8A&colon; 8C&colon; 8FF&colon;'	!	!	!	!
 8A 8C 8FF'\	.	8aaa: 8fff: 8ccc: 8aa':\	.	.
 !	!	!LO:TUP:a:problem=klamra łukowa	!	!
 8r	.	20aaa\LL	.	.
@@ -2048,3 +2060,5 @@
 !!!END: 2022-12-01
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-12-05
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2023-07-10

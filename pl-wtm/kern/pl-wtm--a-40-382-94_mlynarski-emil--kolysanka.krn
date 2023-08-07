@@ -23,12 +23,17 @@
 !!!ONB-nifc:
 !!!AIN: 2 piano 1 vox
 !!!key: A-
+!!!OMD:
+!!!OMD-mod: Moderato
+!!!filter-modern: sic -sq | shed -e "s/yy//"  | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"| shed -k -e "s/:TUP:/:tup:/L" | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**kern	**dynam	**kern	**text	**dynam
 *part3	*part2	*	*part1	*	*
 *staff3	*staff2	*	*staff1	*	*
 *I"Piano.	*I"Piano.	*	*I"Spiew.	*	*
+*mI"Pianoforte	*mI"Pianoforte	*	*I"Voce	*	*
 *I'pf	*I'pf	*	*I'V	*	*
-*ICklav	*ICklav	*	*ICox	*	*
+*ICklav	*ICklav	*	*ICvox	*	*
+*IGacmp	*IGacmp	*	*IGsolo	*	*
 *Ipiano	*Ipiano	*	*Ivox	*	*
 *clefF4	*clefG2	*	*clefG2	*	*
 *k[b-e-a-d-]	*k[b-e-a-d-]	*	*k[b-e-a-d-]	*	*
@@ -36,12 +41,14 @@
 *M2/4	*M2/4	*	*M2/4	*	*
 =1	=1	=1	=1	=1	=1
 *ped	*	*	*	*	*
-!	!	!	!LO:TX:a:B:t=Moderato.	!	!
+!	!	!LO:MO:null:mod=p	!LO:TX:a:B:t=Moderato.:mod=	!	!
 4AA-/ 4E-	32r	.	2ryy	.	.
+!	!	!LO:MO:mod=!null:null	!	!	!
 .	(32c/LLL	p	.	.	.
 .	32e-/	.	.	.	.
 .	32a-/JJJ	.	.	.	.
 .	32b-/LLL	.	.	.	.
+!	!LO:MO:mod=N[>32a-/	!	!	!	!
 .	N[32a-/	.	.	.	.
 .	N[>32e-/	.	.	.	.
 .	N[32c/JJJ)	.	.	.	.
@@ -57,9 +64,11 @@
 .	32e-/	.	.	.	.
 .	32a-/JJJ	.	.	.	.
 .	32b-/LLL	.	.	.	.
+!	!LO:MO:mod=N[>32a-/	!	!	!	!
 .	N[32a-/	.	.	.	.
 .	N[>32e-/	.	.	.	.
 .	N[32c/JJJ)	.	.	.	.
+!	!	!	!	!	!
 *clefG2	*	*	*	*	*
 8ee-\	4c/N] 4e-N] 4a-N]	.	8r	.	.
 !	!	!	!	!	!LO:DY:a
@@ -73,6 +82,7 @@
 .	32e-/	.	.	.	.
 .	32a-/JJJ	.	.	.	.
 .	32b-/LLL	.	.	.	.
+!	!LO:MO:mod=N[>32a-/	!	!	!	!
 .	N[32a-/	.	.	.	.
 .	N[>32e-/	.	16cc\	-mię	.
 .	N[32c/JJJ)	.	.	.	.
@@ -88,7 +98,9 @@
 .	(32d-/LLL	.	.	.	.
 .	32f/	.	.	.	.
 .	32b-/JJJ	.	.	.	.
+!	!	!	!	!LO:MO:mod=-ła	!
 .	32cc/LLL	.	8b-\	-la	.
+!	!LO:MO:mod=N[>32b-/	!	!	!	!
 .	N[32b-/	.	.	.	.
 .	N[>32f/	.	.	.	.
 .	N[32d-/JJJ)	.	.	.	.
@@ -104,6 +116,7 @@
 .	32e-/	.	.	.	.
 .	32g/JJJ	.	.	.	.
 .	32b-/LLL	.	8dd-\	-ne	.
+!	!LO:MO:mod=N[>32g/	!	!	!	!
 .	N[32g/	.	.	.	.
 .	N[>32e-/	.	.	.	.
 .	N[32d-/JJJ)	.	.	.	.
@@ -118,6 +131,7 @@
 .	32e-/	.	.	.	.
 .	32a-/JJJ	.	.	.	.
 .	32cc/LLL	.	8cc\J)	-ta	.
+!	!LO:MO:mod=N[>32a-/	!	!	!	!
 .	N[32a-/	.	.	.	.
 .	N[>32e-/	.	.	.	.
 .	N[32c/JJJ)	.	.	.	.
@@ -133,6 +147,7 @@
 .	32f/	.	.	.	.
 .	32a-/JJJ	.	.	.	.
 .	32cc/LLL	.	.	.	.
+!	!LO:MO:mod=N[>32a-/	!	!	!	!
 .	N[32a-/	.	.	.	.
 .	N[>32f/	.	16cc\	-kę	[
 .	N[32c/JJJ)	.	.	.	.
@@ -146,6 +161,7 @@
 .	32e-/	.	.	.	.
 .	32g/JJJ	.	.	.	.
 .	32cc/LLL	.	8cc\	nich	.
+!	!LO:MO:mod=N[>32g/	!	!	!	!
 .	N[32g/	.	.	.	.
 .	N[>32e-/	.	.	.	.
 .	N[32c/JJJ)	.	.	.	.
@@ -161,6 +177,7 @@
 .	32A-/	.	.	.	.
 .	32d-/JJJ	.	.	.	.
 .	32f/LLL	.	.	.	.
+!	!LO:MO:mod=N[>32d-/	!	!	!	!
 .	N[32d-/	.	.	.	.
 !	!	!	!	!	!LO:HP:a:t=dim.
 .	N[>32A-/	.	16f/	-ła	>
@@ -192,7 +209,7 @@
 *clefG2	*	*	*	*	*
 =11	=11	=11	=11	=11	=11
 *ped	*	*	*	*	*
-!	!LO:TX:b:i:t=string	!	!	!	!
+!	!LO:TX:b:i:t=string:mod=string.	!	!	!	!
 4c/ 4g	32r	.	2r	.	.
 .	(32een\LLL	.	.	.	.
 .	32gg\	.	.	.	.
@@ -261,8 +278,10 @@
 .	.	.	8g/	w swej	.
 !!LO:LB:g=original	!	!	!	!	!
 =19	=19	=19	=19	=19	=19
+!	!	!	!	!	!LO:MO:mod=!LO&colon;HP&colon;t=dim. e molto rit.
 !	!	!	!	!	!LO:HP:a:t=dim e molto rit.
 2FF/)) 2C	8r	.	4a-/	głę-	>
+
 .	(8A-'/ 8c 8f	.	.	.	.
 .	4c~/) 4f 4a-	.	8f/	-bi	.
 .	.	.	8f/	Spo-	.
@@ -315,6 +334,7 @@
 24c\ 24e-	24a-\ 24ee-	.	.	.	.
 24c\JJ 24e-	24a-\JJ 24ee-	.	.	.	.
 =24	=24	=24	=24	=24	=24
+!	!	!	!LO:MO:mod=!null:null	!	!
 !	!	!	!LO:TX:a:t=partia[?]\n>:color=grey	!	!
 !	!	!	!LO:TX:t=P:problem: notatka dopisana ołówkiem	!	!
 24EE-\LL 24E-	24r	.	8.ee-\	mo-	.
@@ -398,9 +418,10 @@
 24AA-\LL 24E-	24c/LL 24e- 24a-	.	8cc\	zo-	.
 24A-\	24c/ 24e-	.	.	.	.
 24A-\JJ	24c/JJ 24e-	.	.	.	.
-!	!	!LO:HP:t=dim.	!	!	!
-(24A-\LL	24c/LL 24e-	>	8cc\	-rzy	.
-24G\)	24Bn/ 24f	.	.	.	.
+!	!LO:SIC:o=24c/LL 24e-	!LO:HP:t=dim.	!	!	!
+(24A-\LL	(24c/LL 24e-	>	8cc\	-rzy	.
+!	!LO:SIC:o=24Bn/ 24f	!	!	!	!
+24G\)	24Bn/ 24f)	.	.	.	.
 24G\JJ	24B/JJ 24f	.	.	.	.
 24G\LL	24B/LL 24f	.	4r	.	.
 24A-\	24c/ 24e-	.	.	.	.
@@ -433,13 +454,14 @@
 8r	8r	8ryy	.	8cc\	Na	p
 !!LO:PB:g=original	!	!	!	!	!	!
 =33	=33	=33	=33	=33	=33	=33
-4AA-/ 4E-	32r	2r	.	8.cc\	ra-	.
+4AA-/ 4E-	32r	2ryyyy	.	8.cc\	ra-	.
 .	(<32c/LLL	.	pp	.	.	.
 .	32e-/	.	.	.	.	.
 .	32a-/JJJ	.	.	.	.	.
 .	32b-/LLL	.	.	.	.	.
 .	N[>32a-/	.	.	.	.	.
 .	N[>32e-/	.	.	16cc\	-mię	.
+!	!LO:MO:mod=[<32c/JJJ)	!	!	!	!	!
 .	N[32c/JJJ)	.	.	.	.	.
 *clefG2	*	*	*	*	*	*
 8ee-\	4c/N] 4e-N] 4a-N]	.	.	8ee-\	mi	.
@@ -525,8 +547,12 @@
 !	!	!	!LO:TX:a:i:t=rit.	!	!
 .	32A-/	.	16f/	-ła	.
 .	(32F/JJJ)	.	.	.	.
-4c;/ 4b-	4G;/) 4e-	.	8.b-;\	u-	.
+!LO:MO:null:mod=*clefF4	!	!	!	!	!
+*	*	*	*	*	*
+!LO:SIC:o=4c;/ 4b-:v	!	!	!	!	!
+4EE- 4D-;	4G;/) 4e-	.	8.b-;\	u-	.
 .	.	.	16a-/	-śmiech-	.
+!LO:MO:mod=!null:null	!	!	!	!	!
 *clefF4	*clefF4	*	*	*	*
 !!LO:LB:g=original	!	!	!	!	!
 =40	=40	=40	=40	=40	=40
@@ -587,3 +613,5 @@
 !!!END: 2022-11-29
 !!!ENC: Jan Barakat
 !!!END: 2022-12-05
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2023-07-10

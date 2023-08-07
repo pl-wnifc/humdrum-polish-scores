@@ -7,8 +7,6 @@
 !!!OTL: Mazurek
 !!!PDT: 1825
 !!!AGN:
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wnifc
 !!!SMS-shelfmark: 6435/n
 !!!SMS-shelfwork: 003 W
@@ -23,12 +21,17 @@
 !!!ONB-nifc: UWAGA: str. 5
 !!!AIN: 2 piano
 !!!key: F
+!!!filter-modern: sic -sq | shed -k -e "s/:TUP:/:tup:/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**kern
 *part2	*part1
 *staff2	*staff1
 *I"Piano	*I"Piano
+*I'	*I'
+*mI"Pianoforte	*mI"Pianoforte
+*mI'pf	*mI'pf
 *Ipiano	*Ipiano
 *ICklav	*ICklav
+*IGsolo	*IGsolo
 *clefF4	*clefG2
 *k[b-]	*k[b-]
 *F:	*F:
@@ -84,7 +87,8 @@
 *clefF4	*
 =7	=7
 *Xtremolo	*
-8AA\L	16ff\LL
+!LO:SIC:v:o=8AA\L	!
+8CL	16ff\LL
 .	16ee\
 8G\ 8B-	16gg\
 .	16cc\
@@ -154,6 +158,7 @@
 8d\ 8f	16ee\LL
 .	16dd\JJ
 4D\ 4A 4d	4f\ 4dd
+!LO:MO:mod==:|!	!LO:MO:mod==:|!
 ==	==
 *-	*-
 !!!RDF**kern: > = above
@@ -163,3 +168,7 @@
 !!!END: 2022-07-27
 !!!ENC: Urszula Świątek
 !!!END: 2022-08-24
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2023-07-10

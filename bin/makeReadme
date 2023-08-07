@@ -38,13 +38,13 @@ my $scanInfo      = buildScanTable();
 
 
 # Fill in template markers:
-$output =~ s/{{library-table}}/$siglaInfo/g;
-$output =~ s/{{composer-tables}}/$composerInfo/g;
-$output =~ s/{{reference-table}}/$referenceInfo/g;
-$output =~ s/{{encoder-table}}/$encoderInfo/g;
-$output =~ s/{{scan-table}}/$scanInfo/g;
-$output =~ s/{{notecount}}/$commanotes/g;
-$output =~ s/{{scorecount}}/$commafiles/g;
+$output =~ s/\{\{library-table\}\}/$siglaInfo/g;
+$output =~ s/\{\{composer-tables\}\}/$composerInfo/g;
+$output =~ s/\{\{reference-table\}\}/$referenceInfo/g;
+$output =~ s/\{\{encoder-table\}\}/$encoderInfo/g;
+$output =~ s/\{\{scan-table\}\}/$scanInfo/g;
+$output =~ s/\{\{notecount\}\}/$commanotes/g;
+$output =~ s/\{\{scorecount\}\}/$commafiles/g;
 
 print $output;
 

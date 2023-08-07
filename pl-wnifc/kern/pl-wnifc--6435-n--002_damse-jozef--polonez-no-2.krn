@@ -1,4 +1,4 @@
-!!!!SEGMENT: pl-wnifc--6435-n--002_stefani-jozef--polonez-no-2.krn
+!!!!SEGMENT: pl-wnifc--6435-n--002_damse-jozef--polonez-no-2.krn
 !!!cenid: 18xx:3940
 !!!COM: Damse, Józef
 !!!COM-rismID: pe30008765
@@ -7,8 +7,6 @@
 !!!OTL: Polonez No. 2
 !!!PDT: 1825
 !!!AGN:
-!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
-!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)
 !!!SMS-siglum: PL-Wnifc
 !!!SMS-shelfmark: 6435/n
 !!!SMS-shelfwork: 002 W
@@ -23,13 +21,16 @@
 !!!ONB-nifc: UWAGA: str. 4-5
 !!!AIN: 1 piano
 !!!key: B-
+!!!OMD: Polonez N.º 2.
 **kern	**kern	**dynam
-*part1	*part1	*
+*part1	*part1	*part1
 *staff2	*staff1	*
 *>[A,B,B,C,B,D,D,E,D]	*>[A,B,B,C,B,D,D,E,D]	*
-*>A	*>A	*
-*I"Piano-forte.	*I"Piano-forte.	*
+*>A	*>A	*>A
+*I"Piano=Forte.	*I"Piano=Forte.	*
+*mI"Pianoforte	*mI"Pianoforte	*
 *I'	*I'	*
+*mI'pf	*mI'pf	*
 *Ipiano	*Ipiano	*
 *ICklav	*ICklav	*
 *clefF4	*clefG2	*
@@ -46,28 +47,48 @@
 .	16d/)	.
 .	16d'/	.
 .	16d'/JJ	.
-4F 4FF/	16d/LL	.
-.	16f/	.
-.	16f/	.
-.	16f/JJ	.
+!	!LO:SIC:o=16d/LL	!
+4F 4FF/	(16dLL	.
+!	!LO:SIC:o=16f/	!
+.	16f)	.
+!	!LO:SIC:o=16f/	!
+.	16f'	.
+!	!LO:SIC:o=16f/JJ	!
+.	16f'JJ	.
 =2	=2	=2
-4B- 4BB-\	16f/LL	.
-.	16b-/	.
-.	16b-/	.
-.	16b-/JJ	.
-4d 4D\	16b-\LL	.
-.	16dd\	.
-.	16dd\	.
-.	16dd\JJ	.
-4f 4F\	16dd\LL	.
-.	16ff\	.
-.	16ff\	.
-.	16ff\JJ	.
+!	!LO:SIC:o=16f/LL	!
+4B- 4BB-\	(16fLL	.
+!	!LO:SIC:o=16b-/	!
+.	16b-)	.
+!	!LO:SIC:o=16b-/	!
+.	16b-'	.
+!	!LO:SIC:o=16b-/JJ	!
+.	16b-'JJ	.
+!	!LO:SIC:o=16b-\LL	!
+4d 4D\	(16b-LL	.
+!	!LO:SIC:o=16dd\	!
+.	16dd)	.
+!	!LO:SIC:o=16dd\	!
+.	16dd'	.
+!	!LO:SIC:o=16dd\JJ	!
+.	16dd'JJ	.
+!	!LO:SIC:o=16dd\LL	!
+4f 4F\	(16ddLL	.
+!	!LO:SIC:o=16ff\	!
+.	16ff)	.
+!	!LO:SIC:o=16ff\	!
+.	16ff'	.
+!	!LO:SIC:o=16ff\JJ	!
+.	16ff'JJ	.
 =3	=3	=3
-4b-> 4B-\	16ff/LL	.
-.	16bb-/	.
-.	16bb-/	.
-.	16bb-/JJ	.
+!	!LO:SIC:o=16ff/LL	!
+4b-> 4B-\	(>16ff/LL	.
+!	!LO:SIC:o=16bb-/	!
+.	16bb-/)	.
+!	!LO:SIC:o=16bb-/	!
+.	16bb-/'	.
+!	!LO:SIC:o=16bb-/JJ	!
+.	16bb-'/JJ	.
 16B-\LL	16bb-\LL	.
 16A\	16aa\	.
 16G\	16gg\	.
@@ -83,7 +104,7 @@
 8r	8ff\L	.
 8e-L 8E-\	8aa 8a\	.
 8d 8D\	8bb- 8b-\	.
-8B-J 8BB-\	8cccJ 8cc\	.
+8B-J 8BB-\	8dddJ 8dd\	.
 =5	=5	=5
 4F 4FF/	8fffL 8ff\	.
 .	16ff\L	.
@@ -99,12 +120,13 @@
 8FL 8C 8FF/	8ffL 8cc 8a\	.
 8FJ 8C 8FF/	8ffJ 8cc 8a\	.
 4F 4C 4FF/	4ff 4cc 4a\	.
-!LO:TX:a:t=[segno|larger]	!LO:TX:b:t=[segno|larger]	!
-!LO:TX:b:t=[segno|larger]	!LO:TX:a:t=[segno|larger]	!
+!LO:TX:a:t=[segno]	!LO:TX:b:t=[segno]	!
+!LO:TX:b:t=[segno]	!LO:TX:a:t=[segno]	!
 !!LO:LB:g=original
 =7||	=7||	=7||
-*>B	*>B	*
+*>B	*>B	*>B
 *tremolo	*	*
+!	!LO:MO:mod=!LO&colon;TX&colon;i&colon;t=dolce	!
 !	!LO:TX:a:i:t=dolce.	!
 8fL 8d 8B-\	4.ff\	p
 8f 8d 8B-\	.	.
@@ -323,7 +345,7 @@
 4d 4B-\	8b-\	.
 .	8r	.
 =23:|!|:	=23:|!|:	=23:|!|:
-*>C	*>C	*
+*>C	*>C	*>C
 *tremolo	*	*
 8AL 8F\	16ff\LL	.
 .	16aa\	.
@@ -478,15 +500,15 @@
 .	16b-\	.
 .	16b-\	.
 .	16a\JJ	.
-!	!LO:TX:a:t=[segno|larger]	!
-!LO:TX:b:t=[segno|larger]	!LO:TX:b:t=[segno|larger]	!
+!	!LO:TX:a:t=[segno]	!
+!LO:TX:b:t=[segno]	!LO:TX:b:t=[segno]	!
 !!LO:PB:g=original
 =35||	=35||	=35||
-*>D	*>D	*
+!!!OMD: Trio.
+*>D	*>D	*>D
 *k[b-e-a-]	*k[b-e-a-]	*
 *M3/4	*M3/4	*
 *tremolo	*	*
-!	!LO:TX:a:i:t=Trio.	!
 !	!LO:N:vis=4	!
 8A-L 8F\	4.bb-\	.
 8BB-\	.	.
@@ -579,7 +601,7 @@
 4G 4E-\	8ee-\	.
 .	8r	.
 =43:|!|:	=43:|!|:	=43:|!|:
-*>E	*>E	*
+*>E	*>E	*>E
 !	!	!LO:DY:rj
 16GG\LL	16gg\LL	f
 16G\	16bn\	.
@@ -733,3 +755,8 @@
 !!!END: 2022-07-27
 !!!ENC: Andrzej Kubiczek
 !!!END: 2022-08-24
+!!!ENC-mod: Marta Lawrence
+!!!END-mod: 2023-08-16
+!!!filter-modern: sic -sq | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(X?)rep$/$1REP/I" | | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"| modori -m
+!!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)
+!!!YEM: License CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0)

@@ -22,22 +22,30 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/17789/6 @EN{Scan on Polish Music Sources Website (Violin)} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie (Skrzypce)}
 !!!IIIF:
 !!!ONB-nifc: UWAGA: Partię skrzypiec należy wpisać na podstawie głosu skrzypiec, a nie linii pomocniczej w partii fortepianu. Fortepian: skany 0002-0003; Skrzypce skan 0006
-!!!AIN: 2 piano 1 violn
+!!!AIN: 1 piano 1 violn
 !!!key: F
+!!!OMD:
+!!!OMD-mod: Andantino
+!!!filter-modern: sic -sq | shed -k -e "s/[<>]//g"  | -shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**kern	**dynam	**kern	**dynam
-*part3	*part2	*	*part1	*
+*part2	*part2	*	*part1	*
 *staff3	*staff2	*	*staff1	*
 *I"Piano.	*I"Piano.	*	*I"Violon.\n(Violoncello.)	*
+*mI"Pianoforte	*mI"Pianoforte	*	*mI"Violino	*
 *I'pf.	*I'pf.	*	*I'vl	*
+*mI'pf	*mI'pf	*	*	*
 *ICklav	*ICklav	*	*ICstr	*
+*IGacmp	*IGacmp	*	*IGsolo	*
 *Ipiano	*Ipiano	*	*Ivioln	*
 *clefF4	*clefG2	*	*clefG2	*
 *k[b-]	*k[b-]	*	*k[b-]	*
 *F:	*F:	*	*F:	*
 *M4/4	*M4/4	*	*M4/4	*
 *met(c)	*met(c)	*	*met(c)	*
+*mmet(c)	*mmet(c)	*	*mmet(c)	*
 =1	=1	=1	=1	=1
 *ped	*	*	*	*
+!	!	!	!LO:MO:mod=!null:null	!
 !	!	!	!LO:TX:a:B:t=Andantino.	!
 (4F\ 4c	(4f/ 4a	pp	1r	.
 8F\L 8c	8f/L 8a	.	.	.
@@ -134,6 +142,7 @@
 8F\J)	8e-/J) 8f 8a	.	.	.
 !!LO:LB:g=original	!	!	!	!
 =13	=13	=13	=13	=13
+!	!	!	!	!LO:MO:mod=!null:null
 !	!	!LO:HP:t=poco cresc.	!	!LO:HP:t=cresc
 (4BB-\ 4G	(4e-X/ 4b-	<	(4..ee-X\	<
 8BB-\L 8G	8e-/L 8b-	.	.	.
@@ -173,8 +182,10 @@
 8D\J) 8G	8d/J) 8b-	]	.	.
 =18	=18	=18	=18	=18
 (4E-X\ 4G	(4g/	.	4cc\	.
-8E-\L 8G	8g/L	.	8cc\L	.
-8E-\J 8G	8g/J	.	8dd\J	.
+!	!	!	!LO:SIC:o=8cc\L	!
+8E-\L 8G	8g/L	.	8ccL(	.
+!	!	!	!LO:SIC:o=8dd\J	!
+8E-\J 8G	8g/J	.	8ddJ)	.
 4E-\ 4G	4g/	.	(4cc\	.
 8E-\L 8G	8g/L	.	8b-/L	.
 8E-\J) 8G	8g/J)	.	8a/J)	.
@@ -335,3 +346,5 @@
 !!!END: 2022-11-29
 !!!ENC: Jan Barakat
 !!!END: 2022-12-05
+!!!ENC-modern: Andrzej Borzym
+!!!END-modern: 2023-07-10

@@ -25,28 +25,35 @@
 !!!ONB-nifc: UWAGA: części Dixit Dominus: Dixit Dominus, Virgam virtutis tuae, Dominare in medio, Tecum principium, Juravit Dominus, Tu es sacerdos, Dominus a dextris, Judicabit in nationibus, De torrente, Gloria patri
 !!!AIN: 1 alto 2 bass 2 clrno 1 oboe 1 soprn 1 tenor 2 violn
 !!!key: G
+!!!OMD:
+!!!OMD-mod: Andante
+!!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r | humtr -p
 **kern	**dynam	**fb	**kern	**dynam	**kern	**dynam	**kern	**kern	**kern	**text	**kern	**kern	**kern	**kern	**kern
 *group	*group	*	*group3	*	*group3	*	*group2	*group2	*group2	*	*group2	*group2	*group1	*group1	*group
 *part11	*	*	*part10	*	*part9	*	*part8	*part7	*part6	*	*part5	*part4	*part3	*part2	*part1
 *staff11	*	*	*staff10	*	*staff9	*	*staff8	*staff7	*staff6	*	*staff5	*staff4	*staff3	*staff2	*staff1
 *I"Fundamento.	*	*	*I"Violino Secundo.	*	*I"Violino Primo.	*	*I"Basso Secundo.	*I"Basso.	*I"Tenore	*	*I"Alto.	*I"Canto.	*I"Clarino 2do.	*I"Clarino Primo ex D.	*I"Oboa Solo.
-*I'fund	*	*	*I'vl 2	*	*I'vl 1	*	*I'B 2	*I'B 1	*I'T	*	*I'A	*I'S	*I'clno 2	*I'clno 1	*I'ob
+*mI"Basso continuo	*	*	*mI"Violino II	*	*mI"Violino I	*	*mI"Basso II	*mI"Basso	*	*	*mI"Alto	*mI"Soprano	*mI"Clarino II in D	*mI"Clarino I in D	*mI"Oboe solo
+*I'bc	*	*	*I'vl 2	*	*I'vl 1	*	*I'B 2	*I'B 1	*I'T	*	*I'A	*I'S	*I'clno 2	*I'clno 1	*I'ob
 *	*	*	*Ivioln	*	*Ivioln	*	*Ibass	*Ibass	*Itenor	*	*Ialto	*Isoprn	*Iclrno	*Iclrno	*Ioboe
-*	*	*	*ICstr	*	*ICstr	*	*ICvox	*ICvox	*ICvox	*	*ICvox	*ICvox	*ICbras	*ICbras	*ICww
+*ICklav	*	*	*ICstr	*	*ICstr	*	*ICvox	*ICvox	*ICvox	*	*ICvox	*ICvox	*ICbras	*ICbras	*ICww
+*IGcont	*	*	*	*	*	*	*	*	*IGsolo	*	*	*	*	*	*
 *clefF4	*	*	*clefG2	*	*clefG2	*	*clefF4	*clefF4	*clefC4	*	*clefC3	*clefC1	*clefG2	*clefG2	*clefG2
+*	*	*	*	*	*	*	*	*	*mclefGv2	*	*mclefG2	*mclefG2	*	*	*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*ITrd-1c-2	*ITrd-1c-2	*
 *k[f#]	*	*	*k[f#]	*	*k[f#]	*	*k[f#]	*k[f#]	*k[f#]	*	*k[f#]	*k[f#]	*k[f#]	*k[f#]	*k[f#]
 *G:	*	*	*G:	*	*G:	*	*G:	*G:	*G:	*	*G:	*G:	*G:	*G:	*G:
 *M2/4	*	*	*M2/4	*	*M2/4	*	*M2/4	*M2/4	*M2/4	*	*M2/4	*M2/4	*M2/4	*M2/4	*M2/4
 *	*	*above	*	*	*	*	*	*	*	*	*	*	*	*	*
+*	*	*	*	*	*	*	*tacet	*tacet	*	*	*tacet	*tacet	*tacet	*tacet	*tacet
 !	!	!	!LO:TX:t=P:problem=przy kluczu jeszcze kasownik c odnoszący się do poprzedniej tonacji D	!	!LO:TX:t=P:problem=przy kluczu jeszcze kasownik c odnoszący się do poprzedniej tonacji D	!	!	!	!	!	!	!	!	!	!
 !LO:TX:t=P:problem=przy kluczu jeszcze kasownik c odnoszący się do poprzedniej tonacji D	!	!	!	!LO:DY:a	!	!LO:DY:a	!	!	!LO:TX:t=P:problem=przy kluczu jeszcze kasownik c odnoszący się do poprzedniej tonacji D	!	!	!	!LO:TX:a:i:t=Virg(inam) Virtutis \ntacet	!LO:TX:a:i:t=Virginam Virtutis \ntacet	!
-!LO:TX:a:i:t=andante	!	!	!LO:TX:a:i:t=andante	!	!LO:TX:b:i:t=Virginam virtutis	!	!	!LO:TX:a:i:t=Virg(inam) Virtutis \ntacet.	!	!	!LO:TX:a:i:t=Virginam Virtutis tacet	!LO:TX:a:i:t=Virginam Virtutis tacet	!	!	!
-!LO:TX:b:i:t=Virgam Virtutis	!	!	!LO:TX:b:i:t=Virgam	!LO:DY:a:t=f.:rj	!	!LO:DY:a:rj:t=f.	!	!	!	!	!	!	!	!	!
+!LO:TX:a:i:t=andante:mod=	!	!	!LO:TX:a:i:t=andante:mod=	!	!LO:TX:b:i:t=Virginam virtutis:mod=	!	!	!LO:TX:a:i:t=Virg(inam) Virtutis \ntacet.	!	!	!LO:TX:a:i:t=Virginam Virtutis tacet	!LO:TX:a:i:t=Virginam Virtutis tacet	!	!	!
+!LO:TX:b:i:t=Virgam Virtutis:mod=	!	!	!LO:TX:b:i:t=Virgam:mod=	!LO:DY:a:t=f.:rj	!	!LO:DY:a:rj:t=f.	!	!	!	!	!	!	!	!	!
 8r	.	.	8dd\	f	8dd\	f	8ryy	8ryy	8r	.	8ryy	8ryy	8ryy	8ryy	8ryy
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!	!	!	!	!	!LO:TX:a:i:t=Solo	!	!	!	!	!	!
-!	!	!	!	!	!	!	!	!	!LO:TX:b:t=19.	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!LO:TX:b:t=19.:mod=	!	!	!	!	!	!
 8G\L	.	.	4b\	.	4gg\	.	2ryy	2ryy	0r	.	2ryy	2ryy	2ryy	2ryy	2ryy
 8B\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8c\	.	.	16dd\LL	.	16bb\LL	.	.	.	.	.	.	.	.	.	.
@@ -63,11 +70,16 @@
 16e\LL	.	.	16ee\LL	.	16ee\LL	.	2ryy	2ryy	.	.	2ryy	2ryy	2ryy	2ryy	2ryy
 16c\JJ	.	.	16cc\JJ	.	16cc\JJ	.	.	.	.	.	.	.	.	.	.
 4A\	.	.	4a/	.	4a/	.	.	.	.	.	.	.	.	.	.
-8d\	.	.	8dd\	.	8cc\	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!LO:SIC:v:o=8cc\	!	!	!	!	!	!	!	!	!	!
+8d\	.	.	8dd\	.	8dd	.	.	.	.	.	.	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
+!	!	!	!LO:MO:mod=16bLL	!	!	!	!	!	!	!	!	!	!	!	!
 16B\LL	.	.	8b/L	.	16b/LL	.	2ryy	2ryy	.	.	2ryy	2ryy	2ryy	2ryy	2ryy
+!	!	!	!LO:MO:null:mod=16aJ	!	!	!	!	!	!	!	!	!	!	!	!
 16A\J	.	.	.	.	16a/J	.	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=8gJ	!	!	!	!	!	!	!	!	!	!	!	!
 8G\J	.	.	16a/L	.	8g/J	.	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!	!
 .	.	.	16g/JJ	.	.	.	.	.	.	.	.	.	.	.	.
 8BB/L	.	.	8r	.	8r	.	.	.	.	.	.	.	.	.	.
 8GG/J	.	.	8dd\	.	8dd\	.	.	.	.	.	.	.	.	.	.
@@ -111,8 +123,10 @@
 8C/	.	.	8ee\L	.	8ee\L	.	.	.	.	.	.	.	.	.	.
 8C/J	.	.	8e/J	.	8g\J	.	.	.	.	.	.	.	.	.	.
 =10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
-8D/L	.	.	(<16d/LL	.	16f#/LL	.	2ryy	2ryy	.	.	2ryy	2ryy	2ryy	2ryy	2ryy
-.	.	.	16c/J)	.	16e/J	.	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:SIC:o=(<16d/LL	!	!	!	!	!	!	!	!	!	!	!	!
+8D/L	.	.	16d/LL	.	16f#/LL	.	2ryy	2ryy	.	.	2ryy	2ryy	2ryy	2ryy	2ryy
+!	!	!	!LO:SIC:o=16c/J)	!	!	!	!	!	!	!	!	!	!	!	!
+.	.	.	16cJ	.	16e/J	.	.	.	.	.	.	.	.	.	.
 8D/	.	.	8d/J	.	8d/J	.	.	.	.	.	.	.	.	.	.
 8D/	.	.	16r	.	16r	.	.	.	.	.	.	.	.	.	.
 .	.	.	16d/LL	.	16d/LL	.	.	.	.	.	.	.	.	.	.
@@ -129,7 +143,8 @@
 .	.	X X	32b\LL	.	32b\LL	.	.	.	.	.	.	.	.	.	.
 .	.	.	32cc\JJJ	.	32cc\JJJ	.	.	.	.	.	.	.	.	.	.
 =12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
-8B\L	.	X 6_	8cc\L	.	8dd\L	.	2ryy	2ryy	.	.	2ryy	2ryy	2ryy	2ryy	2ryy
+!	!	!	!LO:SIC:v:o=8cc\L	!	!	!	!	!	!	!	!	!	!	!	!
+8B\L	.	X 6_	8ddL	.	8dd\L	.	2ryy	2ryy	.	.	2ryy	2ryy	2ryy	2ryy	2ryy
 8D\	.	.	8gg\	.	8gg\	.	.	.	.	.	.	.	.	.	.
 8A\	.	X X	8cc\	.	8cc\	.	.	.	.	.	.	.	.	.	.
 8D\J	.	.	8aa\J	.	8aa\J	.	.	.	.	.	.	.	.	.	.
@@ -178,7 +193,7 @@
 8D/J	.	.	8d/J	.	8d/J	.	.	.	.	.	.	.	.	.	.
 4GG/	.	.	4G/	.	4G/	.	.	.	.	.	.	.	.	.	.
 =20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20	=20
-!LO:TX:b:i:t=Tenor&colon;	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:b:i:t=Tenor&colon;:mod=	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 !	!LO:DY:a:t=piano	!	!	!LO:DY:a:t=piano	!	!LO:DY:a	!	!	!	!	!	!	!	!	!
 !	!	!	!	!	!	!LO:DY:a:t=p.:rj	!	!	!	!	!	!	!	!	!
 4G\	p	.	4b\	p	4gg\	p	2ryy	2ryy	4G/	Vir-	2ryy	2ryy	2ryy	2ryy	2ryy
@@ -206,24 +221,33 @@
 8G\J	.	.	.	.	.	.	.	.	8A/	e-	.	.	.	.	.
 =24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24
 8G\L	.	.	8r	.	8r	.	2ryy	2ryy	8B\	-mit-	2ryy	2ryy	2ryy	2ryy	2ryy
+!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=-tet	!	!	!	!	!
 8G\	.	.	8b/L	.	8dd\L	.	.	.	4B\	.	.	.	.	.	.
 8G\	.	.	8b/	.	8dd\	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=e-	!	!	!	!	!
 8G\J	.	.	8b/J	.	8dd\J	.	.	.	16c\LL	-tet	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	16d\JJ	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!
 =25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25
+!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=-mit-	!	!	!	!	!
 8r	.	.	8r	.	8r	.	2ryy	2ryy	8A\	e-	2ryy	2ryy	2ryy	2ryy	2ryy
+!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=-tet	!	!	!	!	!
 8F#\L	.	X 6	8a/L	.	8dd\L	.	.	.	4A\	-mit-	.	.	.	.	.
 8F#\	.	.	8a/	.	8dd\	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!LO:MO:null:mod=.	!	!	!	!	!
 8F#\J	.	.	8a/J	.	8dd\J	.	.	.	16c\LL	-tet	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	16d\JJ	.	.	.	.	.	.
 =26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26
 8r	.	.	8r	.	8r	.	2ryy	2ryy	8G/	Do-	2ryy	2ryy	2ryy	2ryy	2ryy
-8E\L	.	.	8g/L	.	8cc\L	.	.	.	16A\LL	-mi-	.	.	.	.	.
+!	!	!	!	!	!LO:SIC:v:o=8cc\L	!	!	!	!	!	!	!	!	!	!
+8E\L	.	.	8g/L	.	8cc#L	.	.	.	16A\LL	-mi-	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	16B\JJ	.	.	.	.	.	.
-8C#X\	.	.	8g/	.	8cc\	.	.	.	8A/	-nus	.	.	.	.	.
-8AA\J	.	.	8g/J	.	8cc\J	.	.	.	8G/	ex	.	.	.	.	.
+!	!	!	!	!	!LO:SIC:v:o=8cc\	!	!	!	!	!	!	!	!	!	!
+8C#X\	.	.	8g/	.	8cc#	.	.	.	8A/	-nus	.	.	.	.	.
+!	!	!	!	!	!LO:SIC:v:o=8cc\J	!	!	!	!	!	!	!	!	!	!
+8AA\J	.	.	8g/J	.	8cc#J 	.	.	.	8G/	ex	.	.	.	.	.
 =27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27
+!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=Si-	!	!	!	!	!
 16D\LL	.	.	4f#/	.	4dd\	.	2ryy	2ryy	16F#/LL	Sy-	2ryy	2ryy	2ryy	2ryy	2ryy
 16E\J	.	.	.	.	.	.	.	.	16G/JJ	.	.	.	.	.	.
 8F#\J	.	.	.	.	.	.	.	.	8A/	-on	.	.	.	.	.
@@ -231,19 +255,25 @@
 8AA/J	.	.	.	.	.	.	.	.	8e\	ex	.	.	.	.	.
 =28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!	!	!	!	!LO:DY:a:t=fort.	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:DY:a:t=fort.	!	!	!	!	!	!LO:MO:mod=Si-	!	!	!	!	!
+!	!	!	!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!	!	!
 8D\L	.	.	4r	f	4r	.	2ryy	2ryy	8f#\	Sy-	2ryy	2ryy	2ryy	2ryy	2ryy
 8G\	.	.	.	.	.	.	.	.	16e\	-on	.	.	.	.	.
 .	.	.	.	.	.	.	.	.	16d\	ex	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=Si-	!	!	!	!	!
 8A\	.	.	8r	.	8r	.	.	.	4c#X\	Sy-	.	.	.	.	.
-!	!	!	!	!	!	!LO:DY:a:t=f.	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=f	!	!	!LO:MO:null:mod=f	!	!LO:DY:a:t=f.	!	!	!	!	!	!	!	!	!
 8AA/J	.	.	8ee\	.	8ee\	f	.	.	.	.	.	.	.	.	.
 =29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
-8D/L	.	.	8.ff#t\L	.	8.ff#\L	.	2ryy	2ryy	4d\	-on	2ryy	2ryy	2ryy	2ryy	2ryy
+!	!	!	!	!	!LO:SIC:o=8.ff#\L	!	!	!	!	!	!	!	!	!	!
+8D/L	.	.	8.ff#t\L	.	8.ff#t\L	.	2ryy	2ryy	4d\	-on	2ryy	2ryy	2ryy	2ryy	2ryy
 8GG/	.	6 4	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	32ee\LL	.	32ee\LL	.	.	.	.	.	.	.	.	.	.
 .	.	.	32ff#\JJJ	.	32ff#\JJJ	.	.	.	.	.	.	.	.	.	.
-8E/	.	.	8.ggT\L	.	8.gg\L	.	.	.	4r	.	.	.	.	.	.
+!	!	!	!	!	!LO:SIC:o=8.gg\L	!	!	!	!	!	!	!	!	!	!
+8E/	.	.	8.ggT\L	.	8.ggT\L	.	.	.	4r	.	.	.	.	.	.
 8AA/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	32ff#\LL	.	32ff#\LL	.	.	.	.	.	.	.	.	.	.
 .	.	.	32gg\JJJ	.	32gg\JJJ	.	.	.	.	.	.	.	.	.	.
@@ -288,7 +318,11 @@
 =36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36
 *	*	*	*	*	*	*	*	*	*2\right	*	*	*	*	*	*
 !	!	!	!	!LO:DY:a:t=piano	!	!LO:DY:a:t=piano	!	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:MO:null:mod=.	!	!LO:MO:null:mod=.	!	!	!	!	!	!	!	!	!
 8r	.	.	8r	p	8r	p	2ryy	2ryy	2d\	Vir-	2ryy	2ryy	2ryy	2ryy	2ryy
+!	!LO:MO:null:mod=!LO&colon;DY&colon;ed=brack	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!LO:MO:null:mod=p	!	!	!LO:MO:null:mod=p	!	!LO:MO:null:mod=p	!	!	!	!	!	!	!	!	!
 8D/L	.	.	8a/L	.	8ff#\L	.	.	.	.	.	.	.	.	.	.
 8D/	.	.	8a/	.	8ff#\	.	.	.	.	.	.	.	.	.	.
 8D/J	.	.	8a/J	.	8ff#\J	.	.	.	.	.	.	.	.	.	.
@@ -328,12 +362,14 @@
 8G\	.	.	8b/	.	8gg\	.	.	.	.	.	.	.	.	.	.
 8G\J	.	.	8b/J	.	8gg\J	.	.	.	8B\	ex	.	.	.	.	.
 =43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43
+!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=Si-	!	!	!	!	!
 8d\L	.	6 4	8b/L	.	8gg\L	.	2ryy	2ryy	8B\	Sy-	2ryy	2ryy	2ryy	2ryy	2ryy
 8A\	.	6 3	8a/J	.	8ff#\J	.	.	.	8A\	-on	.	.	.	.	.
 8F#\	.	X 6	4r	.	4r	.	.	.	4r	.	.	.	.	.	.
 8D\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44
 4G\	.	.	4g/	.	4g/	.	2ryy	2ryy	4G/	Vir-	2ryy	2ryy	2ryy	2ryy	2ryy
+!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=-gam	!	!	!	!	!
 8BB/L	.	X 6	8b\L	.	8b\L	.	.	.	8B\	-ga(m)	.	.	.	.	.
 8D/J	.	.	8dd\J	.	8dd\J	.	.	.	8d\	vir-	.	.	.	.	.
 =45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45	=45
@@ -396,13 +432,14 @@
 .	.	.	32a\LL	.	32a\LL	.	.	.	32A\LL	.	.	.	.	.	.
 .	.	.	32b\JJJ	.	32b\JJJ	.	.	.	32B\JJJ	.	.	.	.	.	.
 8A\	.	8_ 3_	8.ccT\L	.	8.ccT\L	.	.	.	8.cT\L	.	.	.	.	.	.
-8C\J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+!LO:SIC:v:o=8C\J	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+8DJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	X X	32b\LL	.	32b\LL	.	.	.	32B\LL	.	.	.	.	.	.
 .	.	.	32cc\JJJ	.	32cc\JJJ	.	.	.	32c\JJJ	.	.	.	.	.	.
 =54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54
 8B\L	.	.	8dd\L	.	8dd\L	.	2ryy	2ryy	4d\	.	2ryy	2ryy	2ryy	2ryy	2ryy
 8D\	.	.	8gg\	.	8gg\	.	.	.	.	.	.	.	.	.	.
-!LO:TX:i:a:t=a	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:i:a:t=a:mod=	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8A\	.	.	8cc\	.	8cc\	.	.	.	4c\	-tet	.	.	.	.	.
 8D\J	.	.	8aa\J	.	8aa\J	.	.	.	.	.	.	.	.	.	.
 =55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55
@@ -414,6 +451,7 @@
 8BB/L	.	.	8b\	.	8gg\L	.	.	.	8B\	-nus	.	.	.	.	.
 8C/J	.	.	8g\J	.	8g/J	.	.	.	8G/	ex	.	.	.	.	.
 =56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56	=56
+!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=Si-	!	!	!	!	!
 4D/	.	X 4	4g/	.	4d/	.	2ryy	2ryy	4D/	Sy-	2ryy	2ryy	2ryy	2ryy	2ryy
 4DD/	.	X 3	4f#/	.	4a/	.	.	.	4A/	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!
@@ -426,6 +464,7 @@
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!
 8C\L	.	.	8e/L	.	8e/L	.	2ryy	2ryy	8E/L	ex	2ryy	2ryy	2ryy	2ryy	2ryy
 8E\	.	.	8a/J	.	8cc/J	.	.	.	8c\J	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=Si-	!	!	!	!	!
 8D\	.	.	4f#/	.	4a/	.	.	.	4A/	Sy-	.	.	.	.	.
 8DD/J	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
@@ -449,7 +488,8 @@
 8G\L	.	.	8b/L	.	8gg\	.	2ryy	2ryy	.	.	2ryy	2ryy	2ryy	2ryy	2ryy
 8G\	.	.	16g/L	.	4dd\	.	.	.	.	.	.	.	.	.	.
 .	.	.	16a/JJ	.	.	.	.	.	.	.	.	.	.	.	.
-8c\	.	.	8b\L	.	.	.	.	.	.	.	.	.	.	.	.
+!LO:SIC:v:o=8c\	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+8B	.	.	8b\L	.	.	.	.	.	.	.	.	.	.	.	.
 8d\J	.	.	8dd\J	.	8dd\	.	.	.	.	.	.	.	.	.	.
 =62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62
 16e\LL	.	X 6	16ee\LL	.	16ee\LL	.	2ryy	2ryy	.	.	2ryy	2ryy	2ryy	2ryy	2ryy
