@@ -1782,8 +1782,8 @@
 !!!filter-modern: shed -e "s/^custos:/Xcustos:/I" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I" | shed -e "s/(LO:DY.*):t=(.*$)/$1:T=$2/L; s/LO:DY(.*)(:a)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:b)(.*)/LO:dy:$1$2$3/L; s/LO:DY(.*)(:rj)(.*)/LO:dy:$1$2$3/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/LO:ACC:/LO:acc:$1/L"| shed -e "s/LO:N:/LO:n:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/yy//"
 !!!ENC: Krzysztof Stępień
 !!!END: 2020-09-18
-!!!EEV: Marta Lawrence
-!!!EED: 2022-02-02
+!!!EED: Marta Lawrence
+!!!EEV: 2022-02-02
 !!!ENC-modern: Andrzej Kubiczek
 !!!END-modern: 2023-07-23
 !!!YEC: Copyright 2022 Narodowy Instytut Fryderyka Chopina (https://polishscores.org)

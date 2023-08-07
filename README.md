@@ -28,15 +28,9 @@ People and Sponsors
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
-| 2022-01-31 |  |  | 1 |  |  |
-| 2022-02-02 |  |  | 1 |  |  |
-| 2022-03-09 |  |  | 1 |  |  |
-| 2023-07-18 |  |  | 1 |  |  |
-| 2023-07-21 |  |  | 1 |  |  |
-| 2023-08-01 |  |  | 1 |  |  |
 | Jan Barakat | 2 | 7,865 | 301 |  | 99 |
 | Lidia Bialucha |  |  |  |  | 93 |
-| Andrzej Borzym | 375 | 615,898 | 435 | 356 |  |
+| Andrzej Borzym | 375 | 615,898 | 438 | 356 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 73 |
 | Elżbieta Cabała |  |  |  |  | 59 |
 | Marta Chmielewska | 159 | 210,408 | 479 |  |  |
@@ -53,7 +47,7 @@ People and Sponsors
 | Magdalena Agnieszka Krok |  |  |  |  | 15 |
 | Leszek Kubiak | 41 | 11,796 | 813 | 152 |  |
 | Andrzej Kubiczek | 551 | 884,104 | 782 | 221 |  |
-| Marta Lawrence | 119 | 59,796 | 1,081 | 84 |  |
+| Marta Lawrence | 119 | 59,796 | 1,082 | 84 |  |
 | Arkadiusz Malec | 61 | 114,735 | 3 |  |  |
 | Anastazja Marusiak | 600 | 860,618 | 21 |  |  |
 | Solarz Mateusz | 47 | 74,374 |  |  |  |
@@ -66,11 +60,11 @@ People and Sponsors
 | Craig Stuart Sapp |  |  | 2 |  | 151 |
 | Katarzyna Serwa | 346 | 559,547 | 254 | 77 |  |
 | Mateusz Solarz | 594 | 925,510 | 27 |  |  |
-| Krzysztof Stępień | 469 | 676,148 | 137 | 33 |  |
+| Krzysztof Stępień | 469 | 676,148 | 138 | 33 |  |
 | Antoni Szymański | 1 | 5,516 | 542 | 1 | 60 |
 | Konrad Tyszka |  |  |  |  | 75 |
 | Filip Voros | 496 | 716,386 | 7 |  |  |
-| Kamil Watkowski | 401 | 553,515 | 186 |  |  |
+| Kamil Watkowski | 401 | 553,515 | 187 |  |  |
 | Natalia Wrzos | 2 | 3,590 | 304 |  | 77 |
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 79 |
 | Urszula Świątek | 3 | 3,016 | 206 |  |  |

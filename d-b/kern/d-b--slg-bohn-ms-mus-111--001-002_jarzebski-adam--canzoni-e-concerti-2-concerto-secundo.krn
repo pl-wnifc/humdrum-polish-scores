@@ -488,7 +488,7 @@
 !!!RDF**kern: l = terminal long
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/i//" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | modori -m | tie -s | autostem -r
 !!!ENC: Anastazja Marusiak
-!!!EED: 2022-10-29
+!!!END: 2022-10-29
 !!!EED: Natalia Wrzos
 !!!EEV: 2022-11-09
 !!!ENC-modern: Andrzej Borzym
