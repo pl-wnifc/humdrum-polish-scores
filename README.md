@@ -28,9 +28,10 @@ People and Sponsors
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
+| 2023-08-01 |  |  | 1 |  |  |
 | Jan Barakat | 2 | 7,865 | 301 |  | 99 |
 | Lidia Bialucha |  |  |  |  | 93 |
-| Andrzej Borzym | 375 | 615,898 | 438 | 356 |  |
+| Andrzej Borzym | 375 | 615,898 | 437 | 357 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 73 |
 | Elżbieta Cabała |  |  |  |  | 59 |
 | Marta Chmielewska | 159 | 210,408 | 479 |  |  |
@@ -46,10 +47,10 @@ People and Sponsors
 | Marcin Konik | 6 | 242 | 1 |  |  |
 | Magdalena Agnieszka Krok |  |  |  |  | 15 |
 | Leszek Kubiak | 41 | 11,796 | 813 | 152 |  |
-| Andrzej Kubiczek | 551 | 884,104 | 783 | 221 |  |
+| Andrzej Kubiczek | 551 | 884,104 | 783 | 222 |  |
 | Marta Lawrence | 119 | 59,796 | 1,082 | 87 |  |
 | Arkadiusz Malec | 61 | 114,735 | 3 |  |  |
-| Anastazja Marusiak | 601 | 878,492 | 21 |  |  |
+| Anastazja Marusiak | 601 | 878,488 | 21 |  |  |
 | Solarz Mateusz | 47 | 74,374 |  |  |  |
 | Anna Matuszewska | 191 | 315,271 | 198 |  |  |
 | Mateusz Mrugas | 1 | 2,963 | 237 |  | 80 |
@@ -63,13 +64,13 @@ People and Sponsors
 | Krzysztof Stępień | 469 | 676,148 | 138 | 33 |  |
 | Antoni Szymański | 1 | 5,516 | 542 | 1 | 60 |
 | Konrad Tyszka |  |  |  |  | 75 |
-| Filip Voros | 496 | 716,386 | 7 |  |  |
+| Filip Voros | 496 | 716,894 | 7 |  |  |
 | Kamil Watkowski | 401 | 553,515 | 187 |  |  |
 | Natalia Wrzos | 2 | 3,590 | 304 |  | 77 |
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 79 |
 | Urszula Świątek | 3 | 3,016 | 206 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 73 |
-| TOTALS | 7,519 | 11,431,927 | 6,938 | 928 | 1,065 |
+| TOTALS | 7,519 | 11,432,431 | 6,938 | 930 | 1,065 |
 
 </details>
 
@@ -113,7 +114,7 @@ to visit its webpage.
 The `Scores` column lists the number of digital transcriptions within
 each archive directory, and the `Notes` column gives the number of
 musical notes contained within those scores.   Currently there are
-7,521 scores containing a total of 11,432,283 notes.
+7,521 scores containing a total of 11,432,787 notes.
 
 <details><summary>Archives represented in repository</summary>
 
@@ -134,7 +135,7 @@ musical notes contained within those scores.   Currently there are
 | <a target="_blank" href="https://polishscores.org?s=pl-kc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kc/kern)</span></span> | [Czartoryski Library, Cracow](https://mnk.pl/branch/the-princes-czartoyski-library) | 108 | 1.4 | 73,359 | 0.6 |
 | <a target="_blank" href="https://polishscores.org?s=d-b"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-b](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-b/kern)</span></span> | [Berlin State Library](https://staatsbibliothek-berlin.de/en/) | 32 | 0.4 | 45,368 | 0.3 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wru"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wru](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wru/kern)</span></span> | [Wrocław University Library](https://www.bu.uni.wroc.pl/en) | 24 | 0.3 | 43,392 | 0.3 |
-| <a target="_blank" href="https://polishscores.org?s=ch-gmu"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[ch-gmu](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/ch-gmu/kern)</span></span> | [Geneva Music Library](http://institutions.ville-geneve.ch/fr/bge/services/salles-detude/la-musicale/) | 3 | 0.0 | 37,986 | 0.3 |
+| <a target="_blank" href="https://polishscores.org?s=ch-gmu"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[ch-gmu](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/ch-gmu/kern)</span></span> | [Geneva Music Library](http://institutions.ville-geneve.ch/fr/bge/services/salles-detude/la-musicale/) | 3 | 0.0 | 38,490 | 0.3 |
 | <a target="_blank" href="https://polishscores.org?s=d-hs"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-hs](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-hs/kern)</span></span> | [Hamburg University Library](https://www.sub.uni-hamburg.de/en/service/english.html) | 29 | 0.3 | 9,144 | 0.0 |
 | <a target="_blank" href="https://polishscores.org?s=d-dl"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-dl](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-dl/kern)</span></span> | [Dresden University Library](https://www.slub-dresden.de/en) | 2 | 0.0 | 947 | 0.0 |
 | <a target="_blank" href="https://polishscores.org?s=d-mbs"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[d-mbs](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/d-mbs/kern)</span></span> | [Bavarian State Library](https://www.bsb-muenchen.de/en/) | 1 | 0.0 | 823 | 0.0 |
@@ -231,7 +232,7 @@ Composers
 | Casali, Giovanni Battista | 17 | 16,203 |
 | Certon, Pierre | 18 | 17,610 |
 | Chodkiewicz, Zofia | 2 | 1,227 |
-| Chopin, Fryderyk | 3 | 37,986 |
+| Chopin, Fryderyk | 3 | 38,490 |
 | Chwalibóg, Izydor Konstanty | 6 | 2,476 |
 | Constanzi | 9 | 7,842 |
 | Conti | 2 | 4,378 |
@@ -772,7 +773,7 @@ Composers
 | Zajączkowski, Roman | 4 | 7,313 |
 | Boczkowski, Kazimierz | 3 | 7,182 |
 | Brzezińska, Filipina | 3 | 1,699 |
-| Chopin, Fryderyk | 3 | 37,986 |
+| Chopin, Fryderyk | 3 | 38,490 |
 | Gimeshoffer | 3 | 2,806 |
 | Giżycka-Zamoyska, Ludmiła | 3 | 2,234 |
 | Guglielmi, Pietro Alessandro | 3 | 5,706 |
@@ -1012,8 +1013,8 @@ Composers
 | Gorczycki, Grzegorz Gerwazy | 65 | 41,502 |
 | Boguński, Baltazar | 7 | 39,063 |
 | Righini, Vincenzo | 8 | 38,549 |
+| Chopin, Fryderyk | 3 | 38,490 |
 | Jarzębski, Adam | 28 | 38,092 |
-| Chopin, Fryderyk | 3 | 37,986 |
 | Brykner, Jerzy | 26 | 37,627 |
 | Just, Franciszek Kasper | 15 | 36,772 |
 | Janiewicz, Feliks | 17 | 36,591 |
@@ -1410,7 +1411,6 @@ their meanings:
 | `IIIF` | IIIF manifest for source scan |
 | `NIFC-islandoraID` | NIFC Islandora ID |
 | `NIFC-rismChildID` | RISM Online ID of the particular piece in source edition/manuscript |
-| `NIFC-rismID` | UNKNOWN |
 | `NIFC-rismSourceID` | RISM Online ID for source edition/manuscript |
 | `OMD` | Movement designation |
 | `OMD-mod` | Modern movement designation |
