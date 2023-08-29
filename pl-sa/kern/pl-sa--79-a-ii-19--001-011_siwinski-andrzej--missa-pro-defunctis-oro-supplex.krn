@@ -21,28 +21,35 @@
 !!!URL-scan: https://bc.bdsandomierz.pl/dlibra/publication/1356/edition/1324/content @EN{Scan in the Sandomierz Diocese Digital Library} @PL{Skany w portalu Cyfrowa Biblioteka Diecezjalna w Sandomierzu}
 !!!IIIF:
 !!!ONB-nifc: Uwaga: części Mszy: Requiem, Kyrie, Dies Irae,
-!!!AIN: 1 alto 3 empty 2 oboe 2 violn 1 vox
-!!!key:
+!!!AIN: 1 alto 1 bass 2 oboe 1 organ 1 soprn 1 tenor 2 violn
+!!!key: c
 **kern	**fba	**kern	**kern	**kern	**text	**kern	**text	**kern	**text	**kern	**kern	**kern
 *	*	*group3	*group3	*group2	*	*group2	*	*group2	*	*group2	*group1	*group1
 *part9	*	*part8	*part7	*part6	*	*part5	*	*part4	*	*part3	*part2	*part1
 *staff9	*	*staff8	*staff7	*staff6	*	*staff5	*	*staff4	*	*staff3	*staff2	*staff1
-*Iempty	*	*Ivioln	*Ivioln	*Iempty	*	*Iempty	*	*Ialto	*	*Ivox	*Ioboe	*Ioboe
-*I"P9	*	*I"Violino 2do	*I"Violino 1mo	*I"P6	*	*I"P5	*	*I"Alto.	*	*I"Canto.	*I"Hobois 2do.	*I"Hautbo. 1mo.
-*I'bc	*	*I'vl 2	*I'vl 1	*I'B	*	*I'T	*	*I'A	*	*I'S	*I'ob. 2	*I'ob. 1
+*I"Baſso pro Organo	*	*I"Violino 2do	*I"Violino 1mo	*I"Baſso vocali	*	*I"Tenore	*	*I"Alto.	*	*I"Canto.	*I"Hobois 2do.	*I"Hautbo. 1mo.
+*mI"Organo	*	*mI"Violino II	*mI"Violino I	*mI"Basso	*	*	*	*mI"Alto	*	*mI"Soprano	*mI"oboe II	*mI" Oboe I
+*I'org	*	*I'vl 2	*I'vl 1	*I'B	*	*I'T	*	*I'A	*	*I'S	*I'ob 2	*I'ob 1
+*Iorgan	*	*Ivioln	*Ivioln	*Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*Ioboe	*Ioboe
+*ICklav	*	*ICstr	*ICstr	*ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*ICww	*ICww
+*IGcont	*	*	*	*	*	*	*	*	*	*	*	*
+*	*	*	*	*	*	*	*	*	*	*tacet	*tacet	*tacet
 *clefF4	*	*clefG2	*clefG2	*clefF4	*	*clefC4	*	*clefC3	*	*clefC1	*clefG2	*clefG2
+*	*	*	*	*	*	*mclefGv2	*	*mclefG2	*	*mclefG2	*	*
 *k[b-e-]	*	*k[e-b-]	*k[b-e-]	*k[b-e-]	*	*k[b-e-]	*	*k[b-e-]	*	*k[b-e-]	*k[e-b-]	*k[b-e-]
-*c:dor	*	*c:dor	*c:dor	*c:dor	*	*c:dor	*	*c:dor	*	*c:dor	*c:dor	*c:dor
+*c:	*	*c:	*c:	*c:	*	*c:	*	*c:	*	*c:	*c:	*c:
+*mk[b-e-a-]	*	*mk[b-e-a-]	*mk[b-e-a-]	*mk[b-e-a-]	*	*mk[b-e-a-]	*	*mk[b-e-a-]	*	*mk[b-e-a-]	*mk[b-e-a-]	*mk[b-e-a-]
+*c	*	*c	*c	*c	*	*c	*	*c	*	*c	*c	*c
 *M12/8	*	*M12/8	*M12/8	*M12/8	*	*M12/8	*	*M12/8	*	*M12/8	*M12/8	*M12/8
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:a:t=P:problem=brak nazwy partii (na stronie tytułowej "Baſso pro Organo")	!	!	!	!LO:TX:a:t=P:problem=brak nazwy partii (na stronie tytułowej "Baſso vocali")	!	!LO:TX:a:t=P:problem=brak nazwy partii (na stronie tytułowej "Tenore")	!	!	!	!	!	!
-!LO:TX:b:i:t=Oro Suplex	!	!LO:TX:b:i:t=oro Suplex	!LO:TX:b:i:t=Oro Suplex	!	!	!	!	!	!	!LO:TX:a:t=Oro Supplex Tacet\n Alt. Ten. Bas.	!	!LO:TX:b:i:t=Oro Suptex
-!	!	!LO:TX:a:t=1	!LO:TX:a:t=1	!LO:TX:a:t=2.	!	!LO:TX:a:t=2	!	!LO:TX:a:t=Solo	!	!	!	!LO:TX:a:t=A.T.B
-!	!	!	!	!LO:N:vis=0	!	!O:N:vis=0	!	!	!	!	!LO:N:vis=00	!LO:N:vis=00
+!LO:TX:b:i:t=Oro Suplex:mod=	!	!LO:TX:b:i:t=oro Suplex:mod=	!LO:TX:b:i:t=Oro Suplex:mod=	!	!	!	!	!	!	!LO:TX:a:t=Oro Supplex Tacet\n Alt. Ten. Bas.:mod=	!	!LO:TX:b:i:t=Oro Suptex:mod=
+!	!	!LO:TX:a:t=1:mod=	!LO:TX:a:t=1:mod=	!LO:TX:a:t=2.:mod=	!	!LO:TX:a:t=2:mod=	!	!LO:TX:a:t=Solo	!	!	!	!LO:TX:a:t=A.T.B:mod=
+!	!	!LO:N:vis=1	!LO:N:vis=1	!LO:N:vis=0	!	!O:N:vis=0	!	!	!	!	!LO:N:vis=00	!LO:N:vis=00
 4.C/	.	1.r	1.r	0.r	.	0.r	.	(8c\L	O-	1.ryy	00.r	00.r
 .	.	.	.	.	.	.	.	8d\)J	.	.	.	.
 .	.	.	.	.	.	.	.	8e-\	-ro	.	.	.
-4.BBn/	6	.	.	.	.	.	.	(8d\L	Sup-	.	.	.
+!	!	!	!	!	!	!	!	!	!LO:SIC:o=Sup-	!	!	!
+4.BBn/	6	.	.	.	.	.	.	(8d\L	sup-	.	.	.
 .	.	.	.	.	.	.	.	8e-\)J	.	.	.	.
 .	.	.	.	.	.	.	.	8f\	-plex	.	.	.
 4C/	.	.	.	.	.	.	.	(8e-\L	et	.	.	.
@@ -51,7 +58,7 @@
 4G\	.	.	.	.	.	.	.	4d\	-cli-	.	.	.
 8GG/	.	.	.	.	.	.	.	8G/	-nis	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-!	!	!	!LO:TX:b:t=P:global:problem=fala nad nutami zinterpretowana jako staccato	!	!	!	!	!LO:TX:a:t=1.	!	!	!	!
+!	!	!	!LO:TX:b:t=P:global:problem=fala nad nutami zinterpretowana jako staccato	!	!	!	!	!LO:TX:a:t=1.:mod=	!	!	!	!
 4.C/	.	4e-/	8cc'\L	.	.	.	.	1.r	.	1.ryy	.	.
 .	.	.	8dd'\	.	.	.	.	.	.	.	.	.
 .	.	8e-/	8ee-'\J	.	.	.	.	.	.	.	.	.
@@ -66,13 +73,14 @@
 8GG/	.	8b\	8g/	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:PB:g=original	!	!	!	!
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
-!	!	!	!LO:TX:a:t=2	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:a:t=2:mod=	!	!	!	!	!	!	!	!	!
 !	!	!LO:N:vis=0	!LO:N:vis=0	!	!	!	!	!	!	!	!	!
 8C/L	.	0.r	0.r	4c\	O-	(8c\L	O-	(8e-\L	O-	1.ryy	.	.
 8D/	.	.	.	.	.	8d\)J	.	8f\)J	.	.	.	.
 !	!	!	!	!	!	!LO:N:vis=4	!	!	!	!	!	!
 8E-/J	.	.	.	8c\	-ro	8e-\	-ro	8g\	-ro	.	.	.
-8BBn/L	6	.	.	4Bn\	ſup-	4Bn\	Sup-	4d\	Sup-	.	.	.
+!	!	!	!	!	!	!	!LO:SIC:o=Sup-	!	!LO:SIC:o=Sup-	!	!	!
+8BBn/L	6	.	.	4Bn\	ſup-	4Bn\	sup-	4d\	sup-	.	.	.
 8AA/	.	.	.	.	.	.	.	.	.	.	.	.
 8GG/J	.	.	.	8G\	-plex	8B\	-plex	8d\	-plex	.	.	.
 8A-X\L	.	.	.	4A-X\	et	4c\	et	4e-\	et	.	.	.
@@ -81,17 +89,24 @@
 4G\	.	.	.	4G\	-cli-	4Bn\	-cli-	4d\	-cli-	.	.	.
 8GG/	.	.	.	8G\	-nis	8B\	-nis	8d\	-nis	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-8E-\L	.	.	.	(8E-\L	Cor	4e-\	Cor	4g\	Cor	1.ryy	.	.
+!	!	!	!	!	!LO:SIC:o=Cor	!	!LO:SIC:o=Cor	!	!LO:SIC:o=Cor	!	!	!
+8E-\L	.	.	.	(8E-\L	cor	4e-\	cor	4g\	cor	1.ryy	.	.
 8G\	.	.	.	8G\)J	.	.	.	.	.	.	.	.
-8A-X\J	.	.	.	8A-X\	Con-	8e-\	con-	8g\	con-	.	.	.
+!	!	!	!	!	!LO:SIC:o=Con-	!	!	!	!	!	!	!
+8A-X\J	.	.	.	8A-X\	con-	8e-\	con-	8g\	con-	.	.	.
 4B-\	.	.	.	4B-\	-tri-	4d\	-tri-	4f\	-tri-	.	.	.
-8r	.	.	.	8B-\	-tu(m)	8d\	-tu(m)	8f\	-tum	.	.	.
+!	!	!	!	!	!LO:SIC:o=-tu(m)	!	!LO:SIC:o=-tu(m)	!	!	!	!	!
+8r	.	.	.	8B-\	-tum	8d\	-tum	8f\	-tum	.	.	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=*null	!	!	!	!	!
 *	*	*	*	*	*	*	*ij	*	*	*	*	*
-8C\L	.	.	.	(8C\L	Cor	4c\	Cor	4e-\	Cor	.	.	.
+!	!	!	!	!	!LO:SIC:o=Cor	!	!LO:SIC:o=Cor	!	!LO:SIC:o=Cor	!	!	!
+8C\L	.	.	.	(8C\L	cor	4c\	cor	4e-\	cor	.	.	.
 8E-\	.	.	.	8E-\)J	.	.	.	.	.	.	.	.
-8F\J	.	.	.	8F\	Con-	8c\	con-	8e-\	con-	.	.	.
+!	!	!	!	!	!LO:SIC:o=Con-	!	!	!	!	!	!	!
+8F\J	.	.	.	8F\	con-	8c\	con-	8e-\	con-	.	.	.
 4G\	.	.	.	4G\	-tri-	4Bn\	-tri-	4d\	-tri-	.	.	.
-8r	.	.	.	8G\	-tu(m)	8B\	-tu(m)	8d\	-tu(m)	.	.	.
+!	!	!	!	!	!LO:SIC:o=-tu(m)	!	!LO:SIC:o=-tu(m)	!	!LO:SIC:o=-tu(m)	!	!	!
+8r	.	.	.	8G\	-tum	8B\	-tum	8d\	-tum	.	.	.
 *	*	*	*	*	*	*	*Xij	*	*	*	*	*
 =5	=5	=5-	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
 !	!	!LO:N:vis=2	!LO:N:vis=2	!	!	!	!	!	!	!	!LO:N:vis=00	!LO:N:vis=00
@@ -137,29 +152,35 @@
 .	3	.	.	.	.	.	.	.	.	.	.	.
 8C/	.	8cc\	8cc\	.	.	.	.	.	.	.	.	.
 =8	=8	=8	=8	=8-	=8	=8	=8	=8-	=8	=8	=8	=8
-!	!	!	!LO:TX:a:t=2	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:TX:a:t=2:mod=	!	!	!	!	!	!	!	!	!
 !	!	!LO:N:vis=0	!LO:N:vis=0	!	!	!	!	!	!	!	!	!
 8E-\L	.	0.r	0.r	(8E-\L	Cor	4e-\	Cor	4g\	Cor	1.ryy	.	.
 8G\	.	.	.	8G\)J	.	.	.	.	.	.	.	.
-8A-X\J	.	.	.	8A-X\	Con-	8e-\	con-	8g\	con-	.	.	.
+!	!	!	!	!	!LO:SIC:o=Con-	!	!	!	!	!	!	!
+8A-X\J	.	.	.	8A-X\	con	8e-\	con-	8g\	con-	.	.	.
 4B-\	.	.	.	4B-\	-tri-	4d\	-tri-	4f\	-tri-	.	.	.
-8r	.	.	.	8B-\	-tu(m)	8d\	-tu(m)	8f\	-tu(m)	.	.	.
-!	!	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!	!	!	!
+!	!	!	!	!	!LO:SIC:o=-tu(m)	!	!LO:SIC:o=-tu(m)	!	!LO:SIC:o=-tu(m)	!	!	!
+8r	.	.	.	8B-\	-tum	8d\	-tum	8f\	-tum	.	.	.
+!	!	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!LO:MO:null:mod=*null	!	!LO:MO:null:mod=*null	!	!	!
 *	*	*	*	*	*	*	*ij	*	*ij	*	*	*
-8C\L	.	.	.	(8C\L	Cor	4c\	Cor	4e-\	Cor	.	.	.
+!	!	!	!	!	!LO:SIC:o=Cor	!	!LO:SIC:o=Cor	!	!LO:SIC:o=Cor	!	!	!
+8C\L	.	.	.	(8C\L	cor	4c\	cor	4e-\	cor	.	.	.
 8E-\	.	.	.	8E-\)J	.	.	.	.	.	.	.	.
-8F\J	.	.	.	8F\	Con-	8c\	con-	8e-\	con-	.	.	.
+!	!	!	!	!	!LO:SIC:o=Con-	!	!	!	!	!	!	!
+8F\J	.	.	.	8F\	con-	8c\	con-	8e-\	con-	.	.	.
 4G\	.	.	.	4G\	-tri-	4Bn\	-tri-	4d\	-tri-	.	.	.
-8r	.	.	.	8G\	-tu(m)	8B\	-tu(m)	8d\	-tu(m)	.	.	.
+!	!	!	!	!	!LO:SIC:o=-tu(m)	!	!LO:SIC:o=-tu(m)	!	!LO:SIC:o=-tu(m)	!	!	!
+8r	.	.	.	8G\	-tum	8B\	-tum	8d\	-tum	.	.	.
 *	*	*	*	*	*	*	*Xij	*	*Xij	*	*	*
 =9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
 !	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=0	!LO:N:vis=0
 4A-X\	.	.	.	4A-X\	qua-	4c\	qua-	4e-\	qua-	1.ryy	0.r	0.r
 8F\	.	.	.	8F\	-si	8c\	-si	8f\	-si	.	.	.
-!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!
-4G\	4	.	.	4G\	Ci-	4Bn\	ci-	4d\	ci-	.	.	.
+!	!	!	!	!	!LO:SIC:o=Ci-	!	!	!LO:LB:g=original	!	!	!	!
+4G\	4	.	.	4G\	ci-	4Bn\	ci-	4d\	ci-	.	.	.
 .	3	.	.	.	.	.	.	.	.	.	.	.
 8C/	.	.	.	8C/	-nis	8c\	-nis	8c\	-nis	.	.	.
+!	!	!	!	!	!	!	!LO:MO:null:mod=*null	!	!	!	!	!
 *	*	*	*	*	*	*	*ij	*	*	*	*	*
 4A-X\	.	.	.	4A-X\	qua-	4c\	qua-	4e-\	qua-	.	.	.
 8F\	.	.	.	8F\	-si	8c\	-si	8f\	-si	.	.	.
@@ -167,7 +188,7 @@
 8C/	.	.	.	8C/	-nis	8c\	-nis	8c\	-nis	.	.	.
 *	*	*	*	*	*	*	*Xij	*	*	*	*	*
 =10	=10	=10-	=10	=10-	=10	=10	=10	=10	=10	=10	=10	=10
-!	!	!	!	!LO:TX:a:t=2	!	!	!	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=2:mod=	!	!	!	!	!	!	!	!
 !	!	!	!	!LO:N:vis=0	!	!LO:N:vis=0	!	!LO:N:vis=0	!	!	!	!
 8C'/L	.	8ee-'\L	8gg'\L	0.r	.	0.r	.	0.r	.	1.ryy	.	.
 8C'/	.	8ee-'\	8gg'\	.	.	.	.	.	.	.	.	.
@@ -189,17 +210,23 @@
 4G\	4	4bn\	4dd\	.	.	.	.	.	.	.	.	.
 .	3	.	.	.	.	.	.	.	.	.	.	.
 8C/	.	8cc\	8cc\	.	.	.	.	.	.	.	.	.
-4.F\	.	4g/	4aa-X\	.	.	.	.	.	.	.	.	.
+!	!	!LO:SIC:v:o=4g/	!	!	!	!	!	!	!	!	!	!
+4.F\	.	4a-/	4aa-X\	.	.	.	.	.	.	.	.	.
 .	.	8a-X/	8cc/	.	.	.	.	.	.	.	.	.
 4G\	.	8b\	4dd\	.	.	.	.	.	.	.	.	.
 .	4	4cc\	.	.	.	.	.	.	.	.	.	.
 !	!	!	!LO:LB:g=original	!LO:TX:a:t=P:problem=pojedyncza kreska taktowa	!	!	!	!	!	!	!	!
 8C/	3	.	8cc\	.	.	.	.	.	.	.	.	.
 =12||	=12||	=12||	=12||	=12||	=12||	=12||	=12||	=12||	=12||	=12||	=12||	=12||
+!!!key: g
+!!LO:TX:a:t= :mod=Tarde
+!LO:MO:null:mod=*k[b-e-]	!	!LO:MO:null:mod=*k[b-e-]	!LO:MO:null:mod=*k[b-e-]	!LO:MO:null:mod=*k[b-e-]	!	!LO:MO:null:mod=*k[b-e-]	!	!LO:MO:null:mod=*k[b-e-]	!	!	!LO:MO:null:mod=*k[b-e-]	!LO:MO:null:mod=*k[b-e-]
+*null	*	*null	*null	*null	*	*null	*	*null	*	*	*null	*null
 *M2/2	*	*M2/2	*M2/2	*M2/2	*	*M2/2	*	*M2/2	*	*	*M2/2	*M2/2
 *met(c)	*	*met(c|)	*met(c|)	*met(c|)	*	*met(c|)	*	*met(c|)	*	*	*met(c|)	*met(c|)
-!LO:TX:a:t=tarde	!	!	!LO:TX:a:t=tarde	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=Gere curam
-!LO:TX:b:i:t=Gere curam	!	!LO:TX:b:t=tarde	!LO:TX:a:t=gere\n Cura(m)	!LO:TX:a:t=tarde	!	!LO:TX:a:t=tarde	!	!LO:TX:a:t=tarde.	!	!	!	!LO:TX:a:t=Tarde
+*mmet(c|)	*	*mmet(c|)	*mmet(c|)	*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*	*mmet(c|)	*mmet(c|)
+!LO:TX:a:t=tarde:mod=	!	!	!LO:TX:a:t=tarde:mod=	!	!	!	!	!	!	!	!	!LO:TX:b:i:t=Gere curam:mod=
+!LO:TX:b:i:t=Gere curam:mod=	!	!LO:TX:b:t=tarde:mod=	!LO:TX:a:t=gere\n Cura(m):mod=	!LO:TX:a:t=tarde:mod=	!	!LO:TX:a:t=tarde:mod=	!	!LO:TX:a:t=tarde.:mod=	!	!	!	!LO:TX:a:t=Tarde:mod=
 8GG/L	.	4b-X\	4dd\	4G\	ge-	4B-\	Ge-	4d\	Ge-	1ryy	0r	0r
 8AA/	.	.	.	.	.	.	.	.	.	.	.	.
 8BB-/	.	4r	4r	4G\	-re	4B-\	-re	4d\	-re	.	.	.
@@ -227,8 +254,11 @@
 4r	.	4ryy	4r	4r	.	4r	.	4r	.	.	.	.
 ==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [g1][g2][g3]s9
-!!!ENC: Marta Lawrence
-!!!END: 2020-12-02
+!!!system-decoration: [(g1)][(g2)][(g3)]s9
 !!!ENC: Marcin Jachim
 !!!END: 2020-04-29
+!!!ENC: Marta Lawrence
+!!!END: 2020-12-02
+!!!ENC-mod: Marta Lawrence
+!!!END-mod: 2023-08-25
+!!!filter-modern: sic -sq | tie -s | autostem -r | shed -e "s/-//B" | humtr -p | shed -e "s/yy//" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/:rj/:RJ/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/LO:N:/LO:n:$1/L" | shed -k -e "s/([#-])[X]/$1/g; s/[n]/$1/g;" | modori -m

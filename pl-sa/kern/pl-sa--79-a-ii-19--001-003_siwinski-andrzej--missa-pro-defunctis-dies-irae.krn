@@ -21,39 +21,46 @@
 !!!URL-scan: https://bc.bdsandomierz.pl/dlibra/publication/1356/edition/1324/content @EN{Scan in the Sandomierz Diocese Digital Library} @PL{Skany w portalu Cyfrowa Biblioteka Diecezjalna w Sandomierzu}
 !!!IIIF:
 !!!ONB-nifc: Uwaga: części Mszy: Requiem, Kyrie, Dies Irae, Quantus tremor, Tuba mirrum, Mors, Quid sum miser, Rex tremende, Quaerens me, Iuste iudex, Oro supplex, Pie Iesu Domine, Domine Iesu Christe,Quam olim Abrahae, Hostias, Sanctus, Osanna, Benedictus, Agnus Dei
-!!!AIN: 1 alto 3 empty 2 oboe 2 violn 1 vox
-!!!key:
+!!!AIN: 1 alto 1 bass 2 oboe 1 organ 1 soprn 1 tenor 2 violn
+!!!key: c
 **kern	**fba	**kern	**kern	**kern	**kern	**kern	**kern	**text	**kern	**kern
+*	*	*group3	*group3	*group2	*group2	*group2	*group2	*	*group1	*group1
 *part9	*	*part8	*part7	*part6	*part5	*part4	*part3	*	*part2	*part1
 *staff9	*	*staff8	*staff7	*staff6	*staff5	*staff4	*staff3	*	*staff2	*staff1
-*Iempty	*	*Ivioln	*Ivioln	*Iempty	*Iempty	*Ialto	*Ivox	*	*Ioboe	*Ioboe
-*I"P9	*	*I"Violino. 2do	*I"Violino 1mo	*I"P6	*I"P5	*I"Alto.	*I"Canto.	*	*I"Hobois 2do	*I"Hautbo. 1mo.
-*I'Org.	*	*I'vn II	*I'vn I	*I'B	*I'T	*I'A	*I'C	*	*I'ob II	*I'ob I
+*I"Baſso pro Organo	*	*I"Violino. 2do	*I"Violino 1mo	*I"Baſso vocali	*I"Tenore	*I"Alto.	*I"Canto.	*	*I"Hobois 2do	*I"Hautbo. 1mo.
+*mI"Organo	*	*mI"Violino II	*mI"Violino I	*mI"Basso	*	*mI"Alto	*mI"Soprano	*	*mI"Oboe II	*mI"Oboe I
+*I'org	*	*I'vl 2	*I'vl 1	*I'B	*I'T	*I'A	*I'S	*	*I'ob 2	*I'ob 1
+*Iorgan	*	*Ivioln	*Ivioln	*Ibass	*Itenor	*Ialto	*Isoprn	*	*Ioboe	*Ioboe
+*ICklav	*	*ICstr	*ICstr	*ICvox	*ICvox	*ICvox	*ICvox	*	*ICww	*ICww
+*IGcont	*	*	*	*	*	*	*	*	*	*
 *clefF4	*	*clefG2	*clefG2	*clefF4	*clefC4	*clefC3	*clefC1	*	*clefG2	*clefG2
+*	*	*	*	*	*mclefGv2	*mclefG2	*mclefG2	*	*	*
 *k[b-e-]	*	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*	*k[b-e-]	*k[b-e-]
-*c:dor	*	*c:dor	*c:dor	*c:dor	*c:dor	*c:dor	*c:dor	*	*c:dor	*c:dor
+*c:	*	*c:	*c:	*c:	*c:	*c:	*c:	*	*c:	*c:
 *M2/2	*	*M2/2	*M2/2	*M2/2	*M2/2	*M2/2	*M2/2	*	*M2/2	*M2/2
 *met(c|)	*	*met(c|)	*met(c|)	*met(c|)	*met(c|)	*met(c|)	*met(c|)	*	*met(c|)	*met(c|)
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 !LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
-!LO:TX:a:i:t=Solo	!	!	!	!	!	!	!	!	!	!
-!LO:TX:a:t=Dies Irae. Canto solo.	!	!	!	!LO:TX:a:t=Dies irae Tacet	!LO:TX:a:t=Dies ire Tacet	!	!	!	!	!
-!LO:SIC:o:s:t:=:v:brak nazwy partii (na stronie tytułowej "Baſso pro Organo")	!	!LO:TX:a:t=Dies jrae Tacet	!LO:TX:a:t=Diesire CantiTacet	!LO:TX:a:t=problem&colon;brak nazwy partii (na stronie tytułowej "Baſso vocali")	!LO:TX:a:t=problem&colon;brak nazwy partii (na stronie tytułowej "Tenore")	!LO:TX:a:t=Dies irae TacetCanto Solo.	!LO:TX:a:i:t=Solo	!	!LO:TX:a:t=Dies jrae Tacet	!LO:TX:a:t=Dies irae Tacet
+!LO:TX:a:i:t=Solo	!	!	!	!	!	!	!LO:TX:t=P:problem=znaki b- ee-	!	!	!
+!LO:TX:b:rj:t=Dies Irae. Canto solo.:mod=	!	!LO:TX:a:t=Dies jrae Tacet:mod=	!LO:TX:a:t=Dies ire Canti \nTacet:mod=	!LO:TX:a:t=Dies Irae \nTacet:mod=	!LO:TX:a:t=Dies ire \nTacet:mod=	!LO:TX:a:t=Dies irae Tacet \nCanto Solo.:mod=	!LO:TX:a:i:t=Solo	!	!LO:TX:a:t=Dies jrae \nTacet:mod=	!LO:TX:a:t=Dies irae Tacet:mod=
 8C/L	.	1ryy	1ryy	1ryy	1ryy	1ryy	4.g/	Di-	1ryy	1ryy
 8c\	.	.	.	.	.	.	.	.	.	.
 8Bn\	6	.	.	.	.	.	.	.	.	.
 8G\J	.	.	.	.	.	.	8g/	-es	.	.
 !LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
-.	6	.	.	.	.	.	.	.	.	.
-8A-X\L	5	.	.	.	.	.	8cc\	i-	.	.
+8A-X\L	6	.	.	.	.	.	8cc\	i-	.	.
+.	5	.	.	.	.	.	.	.	.	.
 8F\	.	.	.	.	.	.	8cc\	-rae	.	.
 8G\	.	.	.	.	.	.	8dd\	di-	.	.
-.	4	.	.	.	.	.	.	.	.	.
-8GG/J	3	.	.	.	.	.	8dd\	-es	.	.
+8GG/J	4	.	.	.	.	.	8dd\	-es	.	.
+.	3	.	.	.	.	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
-8C/L	.	1ryy	1ryy	1ryy	1ryy	1ryy	16ee-\LL	il-	1ryy	1ryy
-.	.	.	.	.	.	.	(16dd\JJ	.	.	.
-8D/	.	.	.	.	.	.	8cc\)	-la	.	.
+!	!	!	!	!	!	!	!LO:SIC:o=16ee-\LL	!	!	!
+8C/L	.	1ryy	1ryy	1ryy	1ryy	1ryy	(16ee-LL	il-	1ryy	1ryy
+!	!	!	!	!	!	!	!LO:SIC:o=(16dd\JJ	!	!	!
+.	.	.	.	.	.	.	16ddJJ)	.	.	.
+!	!	!	!	!	!	!	!LO:SIC:o=8cc\)	!	!	!
+8D/	.	.	.	.	.	.	8cc	-la	.	.
 8E-/	.	.	.	.	.	.	4r	.	.	.
 8C/J	.	.	.	.	.	.	.	.	.	.
 8F\L	.	.	.	.	.	.	2r	.	.	.
@@ -66,61 +73,66 @@
 8G\L	.	1ryy	1ryy	1ryy	1ryy	1ryy	2r	.	1ryy	1ryy
 8F\	.	.	.	.	.	.	.	.	.	.
 8G\	.	.	.	.	.	.	.	.	.	.
-.	4	.	.	.	.	.	.	.	.	.
-8GG/J	3	.	.	.	.	.	.	.	.	.
-!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
+8GG/J	4	.	.	.	.	.	.	.	.	.
+.	3	.	.	.	.	.	.	.	.	.
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!LO:MO:null:mod=*null	!	!
 *	*	*	*	*	*	*	*	*ij	*	*
 8C/L	.	.	.	.	.	.	4.g/	Di-	.	.
 8c\	.	.	.	.	.	.	.	.	.	.
 8Bn\	6	.	.	.	.	.	.	.	.	.
 8G\J	.	.	.	.	.	.	8g/	-es	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-!!pagebreak:original
 !LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
-.	6	.	.	.	.	.	.	.	.	.
-8A-X\L	5	1ryy	1ryy	1ryy	1ryy	1ryy	8cc\	i-	1ryy	1ryy
+8A-X\L	6	1ryy	1ryy	1ryy	1ryy	1ryy	8cc\	i-	1ryy	1ryy
+.	5	.	.	.	.	.	.	.	.	.
 8F\	.	.	.	.	.	.	8cc\	-rae	.	.
 8G\	.	.	.	.	.	.	8dd\	di-	.	.
-.	4	.	.	.	.	.	.	.	.	.
-8GG/J	3	.	.	.	.	.	8dd\	-es	.	.
+8GG/J	4	.	.	.	.	.	8dd\	-es	.	.
+.	3	.	.	.	.	.	.	.	.	.
 8C/L	.	.	.	.	.	.	(16ee-\LL	il-	.	.
 .	.	.	.	.	.	.	16dd\JJ)	.	.	.
 8D/	.	.	.	.	.	.	8cc\	-la	.	.
 8E-/	.	.	.	.	.	.	4r	.	.	.
 8C/J	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:MO:null:mod=*null	!	!
 *	*	*	*	*	*	*	*	*Xij	*	*
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
-8Bn\L	6	1ryy	1ryy	1ryy	1ryy	1ryy	4.dd\	ſol-	1ryy	1ryy
+8Bn\L	6	1ryy	1ryy	1ryy	1ryy	1ryy	4.dd\	Sol-	1ryy	1ryy
 8A\	.	.	.	.	.	.	.	.	.	.
 8Bn\	.	.	.	.	.	.	.	.	.	.
-8G\J	6-	.	.	.	.	.	8ee-\	-vet	.	.
-8A-X\L	6	.	.	.	.	.	4cc\	ſaec-	.	.
+8G\J	6-r	.	.	.	.	.	8ee-\	-vet	.	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=saec-	!	!
+8A-X\L	6	.	.	.	.	.	4cc\	Saec-	.	.
 8G\	.	.	.	.	.	.	.	.	.	.
 8A-\	.	.	.	.	.	.	4cc\	-lum	.	.
 8F\J	.	.	.	.	.	.	.	.	.	.
 !LO:LB;g=original	!	!	!	!	!	!	!	!	!	!
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
+!	!	!	!	!	!	!	!	!LO:MO:null:mod=*null	!	!
 *	*	*	*	*	*	*	*	*ij	*	*
-8F\L	5	1ryy	1ryy	1ryy	1ryy	1ryy	4.cc\	ſol-	1ryy	1ryy
+!	!	!	!	!	!	!	!	!LO:MO:mod=sol-	!	!
+8F\L	5	1ryy	1ryy	1ryy	1ryy	1ryy	4.cc\	Sol-	1ryy	1ryy
 8C\	.	.	.	.	.	.	.	.	.	.
 8F#X\	6	.	.	.	.	.	.	.	.	.
-.	4	.	.	.	.	.	.	.	.	.
-8D\J	3	.	.	.	.	.	8dd\	-vet	.	.
-4GG/	.	.	.	.	.	.	8b-\	aec-	.	.
+8D\J	4	.	.	.	.	.	8dd\	-vet	.	.
+.	3	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!	!	!	!LO:MO:mod=saec-	!	!
+4GG/	.	.	.	.	.	.	8b-\	Saec-	.	.
 .	.	.	.	.	.	.	8b-\	-lum	.	.
+!	!	!	!	!	!	!	!	!LO:MO:null:mod=*null	!	!
 *	*	*	*	*	*	*	*	*Xij	*	*
 8C/L	5	.	.	.	.	.	8ee-\	in	.	.
 8BB-/J	6	.	.	.	.	.	8dd\	fa-	.	.
 =7	=7	=7	=7	=7	=7	=7	=7	=7	=7	=7
-!!pagebreak:original
-!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!
-8AA/L	6	1ryy	1ryy	1ryy	1ryy	1ryy	16cc\LL	-vil-	1ryy	1ryy
-.	.	.	.	.	.	.	(16dd\	.	.	.
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!LO:SIC:o=16cc\LL	!	!	!
+8AA/L	6	1ryy	1ryy	1ryy	1ryy	1ryy	(16ccLL	-vil-	1ryy	1ryy
+!	!	!	!	!	!	!	!LO:SIC:o=(16dd\	!	!	!
+.	.	.	.	.	.	.	16dd	.	.	.
 8GG/	6	.	.	.	.	.	16b-\	.	.	.
 .	.	.	.	.	.	.	16cc\JJ)	.	.	.
 8D\	.	.	.	.	.	.	4a\	.	.	.
-.	4	.	.	.	.	.	.	.	.	.
-8DD/J	3	.	.	.	.	.	.	.	.	.
+8DD/J	4	.	.	.	.	.	.	.	.	.
+.	3	.	.	.	.	.	.	.	.	.
 8GG/L	.	.	.	.	.	.	2g/	-la	.	.
 8AA/	.	.	.	.	.	.	.	.	.	.
 8BB-/	.	.	.	.	.	.	.	.	.	.
@@ -130,17 +142,17 @@
 8D\	.	.	.	.	.	.	.	.	.	.
 8En\	.	.	.	.	.	.	.	.	.	.
 8C\J	.	.	.	.	.	.	8cc\	-te	.	.
-8F\L	5	.	.	.	.	.	(8.a\L	da	.	.
+8F\L	5	.	.	.	.	.	(8.a\L	Da-	.	.
 8G\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16g\Jk)	.	.	.
-8A\	.	.	.	.	.	.	4f/	vid	.	.
+8A\	.	.	.	.	.	.	4f/	-vid	.	.
 8F\J	6	.	.	.	.	.	.	.	.	.
 =9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
 8F#X\L	6	1ryy	1ryy	1ryy	1ryy	1ryy	4a\	tes-	1ryy	1ryy
 8En\	6	.	.	.	.	.	.	.	.	.
 8F#\	.	.	.	.	.	.	4dd\	-te	.	.
 8D\J	.	.	.	.	.	.	.	.	.	.
-4G\	7	.	.	.	.	.	8bn\	da-	.	.
+4G\	7	.	.	.	.	.	8bn\	Da-	.	.
 .	.	.	.	.	.	.	8g\	-vid	.	.
 8C/L	.	.	.	.	.	.	[4cc\	cum	.	.
 8D/J	.	.	.	.	.	.	.	.	.	.
@@ -150,19 +162,18 @@
 8F\	.	.	.	.	.	.	16dd\LL	Sÿ-	.	.
 .	.	.	.	.	.	.	16ee-\JJ	.	.	.
 8G\	.	.	.	.	.	.	4bn\	-bil-	.	.
-.	4	.	.	.	.	.	.	.	.	.
-8GG/J	3	.	.	.	.	.	.	.	.	.
+8GG/J	4	.	.	.	.	.	.	.	.	.
+.	3	.	.	.	.	.	.	.	.	.
 8C/L	.	.	.	.	.	.	2cc\	-la	.	.
 8D/	.	.	.	.	.	.	.	.	.	.
 8E-/	.	.	.	.	.	.	.	.	.	.
 8C/J	.	.	.	.	.	.	.	.	.	.
 =11	=11	=11	=11	=11	=11	=11	=11	=11	=11	=11
-!!pagebreak:original
 8En\L	6	1ryy	1ryy	1ryy	1ryy	1ryy	4.g/	tes-	1ryy	1ryy
 8D\	.	.	.	.	.	.	.	.	.	.
 8E\	.	.	.	.	.	.	.	.	.	.
 8C\J	.	.	.	.	.	.	8cc\	-te	.	.
-8F\L	5	.	.	.	.	.	(8.a\L	da-	.	.
+8F\L	5	.	.	.	.	.	(8.a\L	Da-	.	.
 8G\	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	16g\Jk)	.	.	.
 8A\	.	.	.	.	.	.	4f/	-vid	.	.
@@ -183,8 +194,8 @@
 8F\	.	.	.	.	.	.	16dd\LL	Sÿ-	.	.
 .	.	.	.	.	.	.	16ee-\JJ	.	.	.
 8G\	.	.	.	.	.	.	4bn\	-bil-	.	.
-.	4	.	.	.	.	.	.	.	.	.
-8GG/J	3	.	.	.	.	.	.	.	.	.
+8GG/J	4	.	.	.	.	.	.	.	.	.
+.	3	.	.	.	.	.	.	.	.	.
 8C/L	.	.	.	.	.	.	4cc\	-la	.	.
 8D/	.	.	.	.	.	.	.	.	.	.
 8E-/	.	.	.	.	.	.	4r	.	.	.
@@ -198,16 +209,21 @@
 8G\L	.	.	.	.	.	.	.	.	.	.
 8F\	.	.	.	.	.	.	.	.	.	.
 8G\	.	.	.	.	.	.	.	.	.	.
-.	4	.	.	.	.	.	.	.	.	.
-8GG/J	3	.	.	.	.	.	.	.	.	.
+8GG/J	4	.	.	.	.	.	.	.	.	.
+.	3	.	.	.	.	.	.	.	.	.
 =15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15
 4C/	.	1ryy	1ryy	1ryy	1ryy	1ryy	4r	.	1ryy	1ryy
 4ryy	.	.	.	.	.	.	4ryy	.	.	.
 2ryy	.	.	.	.	.	.	2ryy	.	.	.
 =||	=||	=||	=||	=||	=||	=||	=||	=||	=||	=||
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [(s1,s2)][(s3,s4,s5,s6)][(s7,s8)]s9
-!!!EED: Leszek Kubiak
-!!!EEV: 2020-12-01
+!!!system-decoration: [(g1)][(g2)][(g3)]s9
 !!!ENC: Andrzej Borzym
 !!!END: 2020-04-28
+!!!ENC: Leszek Kubiak
+!!!END: 2020-12-01
+!!!ENC-2: Marta Lawrence
+!!!END-2: 2023-08-24
+!!!ENC-mod: Marta Lawrence
+!!!END-mod: 2023-08-24
+!!!filter-modern: sic -sq | tie -s | autostem -r | humtr -p | shed -e "s/yy//" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/:rj/:RJ/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/LO:N:/LO:n:$1/L" | modori -m
