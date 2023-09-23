@@ -29,12 +29,15 @@
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**kern	**kern	**kern	**kern	**dynam	**kern
 *part9	*	*	*part8	*	*part7	*	*part6	*part5	*part4	*part3	*part2	*	*part1
 *staff9	*	*	*staff8	*	*staff7	*	*staff6	*staff5	*staff4	*staff3	*staff2	*	*staff1
-*I"Fundamento	*	*	*I"Violino 2do:	*	*I"Violino Primo:	*	*I"Baſso	*I"Tenore	*I"Alto	*I"Canto	*I"Cornu 2do ex D.	*	*I"Cornu Primo ex D#
+*I"Fundamento	*	*	*I"Violino 2do:	*	*I"Violino Primo:	*	*I"Baſso	*I"Tenore.	*I"Alto	*I"Canto	*I"Cornu 2do ex D.	*	*I"Cornu Primo ex D#
+*mI"Organo	*	*	*mI"Violino II	*	*mI"Violino I 	*	*mI"Basso	*mI"Tenore	*	*mI"Soprano	*mI"Cornu II in D	*	*mI"Cornu I in D
 *I'b (=bc.fig)	*	*	*I'vn 2	*	*I'vn 1	*	*I'B	*I'T	*I'A	*I'S	*I'cor 2	*	*I'cor 1
+*I'org	*	*	*mI'vn II	*	*mI'vn I	*	*	*	*	*	*	*	*
 *Iorgan	*	*	*Ivioln	*	*Ivioln	*	*Ibass	*Itenor	*Ialto	*	*Icor	*	*Icor
 *ICklav	*	*	*ICstr	*	*ICstr	*	*ICvox	*ICvox	*ICvox	*	*ICbras	*	*ICbras
 *IGcont	*	*	*IGripn	*	*IGripn	*	*IGcoro	*IGcoro	*IGcoro	*	*IGripn	*	*IGripn
 *clefF4	*	*	*clefG2	*	*clefG2	*	*clefF4	*clefC4	*clefC3	*clefG2	*clefG2	*	*clefG2
+*	*	*	*	*	*	*	*	*mclefGv2	*mclefG2	*	*	*	*
 *	*	*	*	*	*	*	*	*	*	*	*ITrd-1c-2	*	*ITrd-1c-2
 *k[f#c#]	*	*	*k[f#c#]	*	*k[f#c#]	*	*k[f#c#]	*k[f#c#]	*k[f#c#]	*k[f#c#]	*k[f#c#]	*	*k[f#c#]
 *D:	*	*	*D:	*	*D:	*	*D:	*D:	*D:	*D:	*D:	*	*D:
@@ -42,7 +45,9 @@
 *met(c)	*	*	*met(c)	*	*met(c)	*	*met(c)	*met(c)	*met(c)	*met(c)	*met(c)	*	*met(c)
 *	*	*	*all\right	*	*all\right	*	*	*	*	*	*all\right	*	*all\right
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:a:t=Sinfonia allegro.	!	!	!LO:TX:a:t=Simfonia allo	!	!LO:TX:a:t=Simfonia allegro	!	!LO:TX:a:t=Tacet	!LO:TX:a:t=Tacet	!LO:TX:a:t=Tacet	!LO:TX:t=P:problem=brak partii Canto	!LO:TX:a:t=Sinfonia allo	!	!LO:TX:a:t=Sinfonia allo
+!!!OMD:
+!!!OMD-mod: Sinfonia \nAllegro
+!LO:TX:a:t=Sinfonia allegro.:mod=	!	!	!LO:TX:a:t=Simfonia allo:mod=	!	!LO:TX:a:t=Simfonia allegro:mod=	!	!LO:TX:a:t=Tacet	!LO:TX:a:t=Tacet	!LO:TX:a:t=Tacet	!LO:TX:t=P:problem=brak partii Canto	!LO:TX:a:t=Sinfonia allo:mod=	!	!LO:TX:a:t=Sinfonia allo:mod=
 4D\	.	.	4d/ 4ff# 4ddd	.	4d/ 4ff# 4ddd	.	1ryy	1ryy	1ryy	1ryy	4dd\	.	4ff#\
 4r	.	.	16aa\LL	.	16aa\LL	.	.	.	.	.	4r	.	16aa\LL
 .	.	.	16gg\	.	16gg\	.	.	.	.	.	.	.	16gg\
@@ -96,7 +101,7 @@
 8D\J	.	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
-!	!	!	!	!	!	!LO:DY:a:t=pia	!	!	!	!	!LO:TX:a:t=1	!	!LO:TX:a:t=1
+!	!	!	!	!	!	!LO:DY:a:t=pia	!	!	!	!	!LO:TX:a:t=1:mod=	!	!LO:TX:a:t=1:mod=
 8r	.	.	8r	.	(<16b/LL	p	1ryy	1ryy	1ryy	1ryy	1r	.	1r
 .	.	.	.	.	16g/JJ)	.	.	.	.	.	.	.	.
 .	.	.	.	.	(<8qqf#/	.	.	.	.	.	.	.	.
@@ -381,7 +386,9 @@
 8G\J	.	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original
 =24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24
+!	!	!	!LO:MO:mod=(16aaLL	!	!	!	!	!	!	!	!	!	!
 8F#\L	2	.	16aa\LL	.	(16aa\LL	.	1ryy	1ryy	1ryy	1ryy	8ff#\	.	8aa\
+!	!	!	!LO:MO:mod=16ff#JJ)	!	!	!	!	!	!	!	!	!	!
 .	.	.	16ff#\JJ	.	16ff#\JJ)	.	.	.	.	.	.	.	.
 .	.	.	8qqee/	.	8qqee/	.	.	.	.	.	.	.	.
 8F#\	6	.	4.dd\	.	4.dd\	.	.	.	.	.	8r	.	8r
@@ -410,9 +417,10 @@
 8F#\L	#	.	(>16aa#X\LL	.	(16aa#X\LL	.	1ryy	1ryy	1ryy	1ryy	4f#/	.	4f#/
 .	.	.	16ff#\	.	16ff#\	.	.	.	.	.	.	.	.
 8G#X\	.	.	16ee#X\	.	16ee#X\	.	.	.	.	.	.	.	.
+!	!	!	!	!	!LO:MO:mod=16ff#JJ	!	!	!	!	!	!	!	!
 .	.	.	16ff#\JJ	.	16ff#\JJ)	.	.	.	.	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
-=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-	=-
+!	!	!	!	!	!LO:MO:mod=16ee#LL	!	!	!	!	!	!	!	!
 8A#X\	.	.	16ee#\LL	.	(16ee#X\LL	.	.	.	.	.	4r	.	4r
 .	.	.	16ff#\	.	16ff#\	.	.	.	.	.	.	.	.
 8G#\J	.	.	16ee#\	.	16ee#\	.	.	.	.	.	.	.	.
@@ -461,7 +469,7 @@
 .	.	.	16cc#/	.	16ee\	.	.	.	.	.	.	.	.
 .	.	.	16cc#/JJ	.	16ee\JJ	.	.	.	.	.	.	.	.
 =29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
-!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=2	!	!LO:TX:a:t=2
+!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=2:mod=	!	!LO:TX:a:t=2:mod=
 8r	.	.	16e/LL	.	16e/LL	.	1ryy	1ryy	1ryy	1ryy	0r	.	0r
 .	.	.	16e/	.	16e/	.	.	.	.	.	.	.	.
 8G|>\L	.	.	16g/	.	16g/	.	.	.	.	.	.	.	.
@@ -558,7 +566,9 @@
 8F#\	.	.	8aa\	.	8aa\L	.	.	.	.	.	8r	.	8r
 8D\J	.	.	8ddd\J	.	8ddd\J	.	.	.	.	.	8dd\	.	8ff#\
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:MO:mod=(16ccc#LL	!	!	!	!	!	!	!	!
 8AA/L	.	.	(>16ccc#\LL	.	16ccc#\LL	.	.	.	.	.	8a/L	.	8ee\L
+!	!	!	!	!	!LO:MO:mod=16bbJJ)	!	!	!	!	!	!	!	!
 .	.	.	16bb\JJ)	.	16bb\JJ	.	.	.	.	.	.	.	.
 16A\L	.	.	4.aa\	.	4.aa\	.	.	.	.	.	16a/L	.	16ee\L
 16G\JJ	.	.	.	.	.	.	.	.	.	.	16a/JJ	.	16ee\JJ
@@ -566,13 +576,17 @@
 8C#\J	.	.	.	.	.	.	.	.	.	.	8ff#\J	.	8aa\J
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!
 =35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35
+!	!	!	!	!	!LO:MO:mod=(16bbLL	!	!	!	!	!	!	!	!
 8r	.	.	(>16bb\LL	.	16bb\LL	.	1ryy	1ryy	1ryy	1ryy	8gg\	.	8bb\
+!	!	!	!	!	!LO:MO:mod=16ggJJ)	!	!	!	!	!	!	!	!
 .	.	.	16gg\JJ)	.	16gg\JJ	.	.	.	.	.	.	.	.
 .	.	.	8qqff#/	.	(<8qqff#/	.	.	.	.	.	.	.	.
 8G\L	6	.	4.ee\	.	4.ee\)	.	.	.	.	.	8r	.	8r
 8G\	.	.	.	.	.	.	.	.	.	.	4r	.	4r
 8G\J	.	.	.	.	.	.	.	.	.	.	.	.	.
+!	!	!	!	!	!LO:MO:mod=(16aaLL	!	!	!	!	!	!	!	!
 8r	.	.	(>16aa\LL	.	16aa\LL	.	.	.	.	.	8ff#\	.	8aa\
+!	!	!	!	!	!LO:MO:mod=16ff#JJ)	!	!	!	!	!	!	!	!
 .	.	.	16ff#\JJ)	.	16ff#\JJ	.	.	.	.	.	.	.	.
 .	.	.	8qqff#/	.	8qqee/	.	.	.	.	.	.	.	.
 8F#\L	6	.	4.dd\	.	4.dd\	.	.	.	.	.	8r	.	8r
@@ -592,7 +606,7 @@
 8F#\	.	.	4r	.	4r	.	.	.	.	.	4r	.	4r
 8D\J	.	.	.	.	.	.	.	.	.	.	.	.	.
 =37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37
-!	!	!	!	!	!	!LO:DY:a:t=pia	!	!	!	!	!	!	!LO:TX:a:t=2
+!	!	!	!	!	!	!LO:DY:a:t=pia	!	!	!	!	!	!	!LO:TX:a:t=2:mod=
 8r	.	.	8r	.	(<16b/LL	p	1ryy	1ryy	1ryy	1ryy	0r	.	0r
 .	.	.	.	.	16g/JJ)	.	.	.	.	.	.	.	.
 .	.	.	.	.	8qqf#/	.	.	.	.	.	.	.	.
@@ -666,12 +680,16 @@
 =41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41
 8AA/L	3	.	(>16ee\LL	.	(>16ee\LL	.	1ryy	1ryy	1ryy	1ryy	8a/L	.	8ee\L
 .	.	.	16cc#\JJ)	.	16cc#\JJ)	.	.	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=(8qqb	!	!	!	!	!	!	!	!	!	!
 .	.	.	8qqb/	.	(<8qqb/	.	.	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=4.a)	!	!	!	!	!	!	!	!	!	!
 8BB/	.	.	4.a/	.	4.a/)	.	.	.	.	.	16a/L	.	16ee\L
 .	.	.	.	.	.	.	.	.	.	.	16a/JJ	.	16ee\JJ
 8C#/	.	.	.	.	.	.	.	.	.	.	8a/L	.	8ee\L
 8BB/J	.	.	.	.	.	.	.	.	.	.	8a/J	.	8ee\J
+!	!	!	!LO:MO:mod=(16eeLL	!	!	!	!	!	!	!	!	!	!
 8AA/L	3	.	16ee\LL	.	(>16ee\LL	.	.	.	.	.	2aM/	.	2eeM\
+!	!	!	!LO:MO:mod=16cc#JJ)	!	!	!	!	!	!	!	!	!	!
 .	.	.	16cc#\JJ	.	16cc#\JJ)	.	.	.	.	.	.	.	.
 .	.	.	(<8qqa/	.	8qqa/	.	.	.	.	.	.	.	.
 8BB/	.	.	4.g/)	.	4.g/	.	.	.	.	.	.	.	.
@@ -696,10 +714,12 @@
 .	.	.	16ccc#\JJ	.	16ccc#\JJ	.	.	.	.	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!LO:LB:g=original
 =43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43
+!	!	!	!LO:MO:mod=8ddd|>L	!	!	!	!	!	!	!	!	!	!
 4D\	.	.	8ddd\L	.	8ddd|>\L	.	1ryy	1ryy	1ryy	1ryy	4ff#\	.	4aa\
 .	.	.	(8ff#\	.	(8aa\	.	.	.	.	.	.	.	.
 8r	.	.	8ee\	.	8gg\	.	.	.	.	.	8r	.	8r
 8d\	.	.	8dd\J)	.	8ff#\J)	.	.	.	.	.	8ff#\	.	8aa\
+!	!	!	!LO:MO:mod=8ddd|>L	!	!	!	!	!	!	!	!	!	!
 4D/	.	.	8ddd\L	.	8ddd|>\L	.	.	.	.	.	4gg\	.	4bb\
 .	.	.	(8gg\	.	(8bb\	.	.	.	.	.	.	.	.
 8r	.	.	8ff#\	.	8aa\	.	.	.	.	.	8r	.	8r
@@ -757,6 +777,7 @@
 8d\	.	.	8ff#\	.	8ff#\	.	.	.	.	.	8dd/	.	8ff#\
 8G\J	.	.	8ee\J)	.	8ee\J)	.	.	.	.	.	8ee/J	.	8gg\J
 4A\	6 4:5	.	4dd\	.	4dd\	.	.	.	.	.	4dd\	.	4ff#\
+!	!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=4aM	!	!
 4AA/	.	.	4eeM\	.	4eeM\	.	.	.	.	.	4a/	.	4eeM\
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
 =48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48
@@ -789,7 +810,10 @@
 !!!RDF**kern: < = below
 !!!RDF**kern: > = above
 !!!RDF**kern: | = vertical stroke
+!!!filter-modern: sic -sq | autostem -r | tie -si | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | modori -m |
 !!!ENC: Berenika Jozajtis
 !!!END: 2020-12-28
 !!!ENC: Marta Chmielewska
 !!!END: 2022-01-10
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2023-08-29

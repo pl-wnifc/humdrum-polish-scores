@@ -2269,7 +2269,7 @@
 4r	.	.	4r	.	4r	.	4r	.	4r	.	4r	.	.	4r	.	4r	.
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!filter-: sic -sq | modori -m | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | tie -s |autostem -r | LO:DY:(a|b|rj) | humtr -p | LO:dy:$1/L" | tie -si | humtr -p
+!!!filter-modern: sic -sq | modori -m | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | tie -s |autostem -r | LO:DY:(a|b|rj) | humtr -p | LO:dy:$1/L" | tie -si | humtr -p
 !!!system-decoration: [(g1)][(g2)][(g3)]s9
 !!!RDF**kern: < = below
 !!!RDF**kern: | = vertical stroke

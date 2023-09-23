@@ -344,6 +344,6 @@
 !!!END: 2020-04-29
 !!!ENC: Anna Matuszewska
 !!!END: 2020-12-03
-!!!ENC-mod: Marta Lawrence
-!!!END-mod: 2023-08-29
+!!!ENC-modern: Marta Lawrence
+!!!END-modern: 2023-08-29
 !!!filter-modern: sic -sq | tie -s | autostem -r | shed -e "s/-//B" | humtr -p | shed -e "s/yy//" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/:rj/:RJ/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/r[a-gA-G]+/r/D" | shed -e "s/LO:N:/LO:n:$1/L" | shed -k -e "s/([#-])[X]/$1/g; s/[n]/$1/g;" | modori -m

@@ -30,21 +30,28 @@
 *part9	*	*part8	*part7	*part6	*	*part5	*	*part4	*	*part3	*part2	*part1
 *staff9	*	*staff8	*staff7	*staff6	*	*staff5	*	*staff4	*	*staff3	*staff2	*staff1
 *I"Fundamento	*	*I"Violino 2do:	*I"Violino Primo:	*I"Baſso	*	*I"Tenore.	*	*I"Alto	*	*I"Canto	*I"Cornu 2do Ex D:	*I"Cornu Primo. Ex D#
+*Organo	*	*mI"Violino II	*mI"Violino I	*mI"Basso	*	*mI"Tenore	*	*	*	*mI"Soprano	*mI"Corno II in D	*mI"Corno I in D
 *I'bc	*	*I'vl 2	*I'vl 1	*I'B	*	*I'T	*	*I'A	*	*I'S	*I'cor 2 in D	*I'cor 1 in D#
+*mI'org	*	*	*	*	*	*	*	*	*	*	*mI'cor	*I'cor I
 *Iorgan	*	*Ivioln	*Ivioln	*Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*Icor	*Icor
 *ICklav	*	*ICstr	*ICstr	*ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*ICbras	*ICbras
 *IGcont	*	*IGacmp	*IGacmp	*IGcoro	*	*IGcoro	*	*IGcoro	*	*IGcoro	*IGacmp	*IGacmp
 *clefF4	*	*clefG2	*clefG2	*clefF4	*	*clefC4	*	*clefC3	*	*	*clefG2	*clefG2
+*	*	*	*	*	*	*mclefGv2	*	*mclefG2	*	*	*	*
 *	*	*	*	*	*	*	*	*	*	*	*ITrd-1c-2	*ITrd-1c-2
 *k[f#c#]	*	*k[f#c#]	*k[f#c#]	*k[f#c#]	*	*k[c#f#]	*	*k[f#c#]	*	*	*k[f#c#]	*k[f#c#]
 *D:	*	*D:	*D:	*D:	*	*D:	*	*D:	*	*	*D:	*D:
 *M2/2	*	*M2/2	*M2/2	*M2/2	*	*M2/2	*	*M2/2	*	*	*M2/2	*M2/2
 *met(C|r)	*	*met(C|r)	*met(C|r)	*met(C|r)	*	*met(C|r)	*	*met(C|r)	*	*	*met(C|r)	*met(C|r)
+*mmet(c|)	*	*mmet(c|)	*mmet(c|)	*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*	*mmet(c|)	*mmet(c|)
 *all\right	*	*all\right	*all\right	*all\right	*	*all\right	*	*all\right	*	*	*all\right	*all\right
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *2\right	*	*	*2\right	*2\right	*	*2\right	*	*2\right	*	*	*2\right	*2\right
-!	!	!	!LO:TX:a:t=Dona nobis ut Kirie allabreve	!	!	!	!	!	!	!	!	!
-!	!	!LO:TX:a:t=Dona nobis ut [] allabreve kirie	!LO:TX:t=P:problem=przy kluczu ff# f# cc#	!	!	!	!	!	!	!LO:TX:t=P:problem=zgodnie z RISM "S part missing"	!LO:TX:a:i:t=allabre	!
+!!!OMD:
+!!!OMD-mod: Allabreve \nDona nobis
+!	!	!	!LO:TX:a:t=Dona nobis ut Kirie allabreve:mod=	!	!	!	!	!	!	!	!	!
+!	!	!LO:TX:a:t=Dona nobis ut [] allabreve kirie:mod=	!LO:TX:t=P:problem=przy kluczu ff# f# cc#	!	!	!	!	!	!	!LO:TX:t=P:problem=zgodnie z RISM "S part missing"	!LO:TX:a:i:t=allabre:mod=	!
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=Do-	!	!	!
 2d\	.	0ryy	2dd\yy	2d\	Do-	2d\	Do-	2a\	do-	1ryy	2dd\	2ff#\
 2c#\	6	.	2aa\yy	2c#\	-na	2e\	-na	2a\	-na	.	2a/	2ee\
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!
@@ -86,6 +93,7 @@
 .	.	4cc#\yy	.	.	.	.	.	.	.	.	4ee\	4ggn\
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
+!	!	!	!	!	!LO:MO:mod=Do-	!	!	!	!	!	!	!
 2D\	.	2.dd\yy	4ff#\yy	2D/	do-	0r	.	00r	.	1ryy	2dd\	2ff#\
 .	.	.	4a/yy	.	.	.	.	.	.	.	.	.
 2A\	.	.	2eeMy\yy	2A\	-na	.	.	.	.	.	2a/	2ee\
@@ -259,33 +267,44 @@
 =35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35
 4A\	.	2ee\yy	4ccc#\yy	4A\	.	2c#\	-cem	2a\	.	1ryy	2ee\	2aa\
 4AA/	.	.	4ee\yy	4AA/	-cem	.	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=[2ff#	!	!	!	!	!	!	!	!	!
 2A\	6	4ryy	[y2ff#my\yy	[<2A\	da	2e\	da	2a\	.	.	2r	2r
 .	.	4cc#\yy	.	.	.	.	.	.	.	.	.	.
 !	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!
 =36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36
+!	!	!	!LO:MO:null:mod=!null	!	!	!	!	!	!	!	!	!
 !	!	!	!LO:N:xstem:cue	!	!	!	!	!	!	!	!	!
 2A\	4 2	2.b/yy	4ff#\]yy	2A\]	.	2d#X\	pa-	1b	.	1ryy	00r	00r
 .	.	.	4dd#X\yy	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=[2ee	!	!	!	!	!	!	!	!	!
 [<2G#X\	6	.	[y<2ee\yy	[>2G#X\	pa-	2e\	.	.	.	.	.	.
 .	.	4e/yy	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!
 =37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37	=37
+!	!	!	!LO:MO:null:mod=!null	!	!	!	!	!	!	!	!	!
 !	!	!	!LO:N:xstem:cue	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:MO:mod=4ee]	!	!	!	!	!	!	!	!	!
 2G#\]	2	2.a/yy	4ee\]yy	2G#\]	.	2c#\	.	1a	.	1ryy	.	.
 .	.	.	4cc#\yy	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=[2ddn	!	!	!	!	!	!	!	!	!
 [<2F#\	6	.	[y<2ddn\yy	[<2F#\	.	2dn\	.	.	.	.	.	.
 .	.	4d/yy	.	.	.	.	.	.	.	.	.	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38
+!	!	!	!LO:MO:null:mod=!null	!	!	!	!	!	!	!	!	!
 !	!	!	!LO:N:xstem:cue	!	!	!	!	!	!	!	!	!
 !	!	!	!LO:TX:a:t=P:problem=brak zakończenia ligatury	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:MO:mod=]4dd	!	!	!	!	!	!	!	!	!
 2F#\]	#4 2	2.g#X/yy	4dd\]yy	2F#\]	.	2B\	.	1g#X	.	1ryy	.	.
 .	.	.	4b\yy	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=[2cc#	!	!	!	!	!	!	!	!	!
 [<2E\	6\	.	[y2cc#\yy	[<2E\	.	2c#\	.	.	.	.	.	.
 .	.	4c#/yy	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!
 =39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39
+!	!	!	!LO:MO:null:mod=!null	!	!	!	!	!	!	!	!	!
 !	!	!	!LO:N:xstem:cue	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:MO:mod=4cc#]	!	!	!	!	!	!	!	!	!
 2E\]	2	1f#yy	4cc#\]yy	2E\]	.	2A\	.	1f#	.	1ryy	.	.
 .	6	.	2b/yy	.	.	.	.	.	.	.	.	.
 2D#X\	6 5	.	.	2D#X\	.	2B\	.	.	.	.	.	.
@@ -335,7 +354,7 @@
 2r	.	2g#X/yy	2ee\yy	2r	.	2r	.	2g#\	.	.	2r	2r
 !	!	!LO:LB:g=original	!	!	!	!	!	!LO:LB:g=original	!	!	!	!
 =47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47
-!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=2	!LO:TX:a:t=2
+!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=2:mod=	!LO:TX:a:t=2:mod=
 0r	.	2a/yy	4cc#\yy	0r	.	00r	.	2a\	-cem	1ryy	0r	0r
 .	.	.	4a/yy	.	.	.	.	.	.	.	.	.
 .	.	2c#/yy	[y<2aa\yy	.	.	.	.	2c#/	da	.	.	.
@@ -412,7 +431,7 @@
 =58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58	=58
 4d\	4ryy	.	4d/yy	4ryy	4r	.	0r	.	4d\	.	1ryy	1r	1r
 !	!	!	!	!	!LO:N:vis=1	!	!	!	!	!	!	!	!
-!	!	!	!	!	!LO:TX:a:t=1	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:TX:a:t=1:mod=	!	!	!	!	!	!	!	!
 2b/	4B\	.	4B/yy	2b/yy	2.r	.	.	.	4B\	.	.	.	.
 .	4d\	.	4d/yy	.	.	.	.	.	(4d\	.	.	.	.
 4b/	4e\	.	4e/yy	4b/yy	.	.	.	.	4e\)	.	.	.	.
@@ -505,10 +524,11 @@
 .	.	4e/yy	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:N:vis=12	!	!	!	!
 .	.	.	.	.	.	.	.	6f#\J	.	.	.	.
-!	!	!	!	!	!	!	!	!LO:N:vis=12	!	!	!	!
+!	!	!LO:MO:mod=4cc#|	!	!	!	!	!	!LO:N:vis=12	!	!	!	!
 .	.	4cc#\yy	.	.	.	.	.	6e\L	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:N:vis=12	!	!	!	!
 .	.	.	.	.	.	.	.	6cc#\	.	.	.	.
+!	!	!LO:MO:mod=4b|	!	!	!	!	!	!	!	!	!	!
 .	.	4b\yy	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:N:vis=12	!	!	!	!
 .	.	.	.	.	.	.	.	6b\J	.	.	.	.
@@ -633,20 +653,26 @@
 4c#\	n5	8ee\yy	.	4c#\	.	.	.	.	.	.	.	.
 .	.	8a\Jyy	.	.	.	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!
+!!LO:MO:ori
 =85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85
 !	!	!	!LO:TX:t=P:problem=zbędne pauzy w tt. 85-86	!	!	!	!	!	!	!	!	!
-!LO:TX:t=P:problem=zbędne pauzy w vl 1	!	!LO:TX:t=P:problem=zbędne pauzy w vl 1	!LO:TX:a:t=2	!LO:TX:t=P:problem=zbędne pauzy w vl 1	!	!LO:TX:t=P:problem=zbędne pauzy w vl 1	!	!LO:TX:t=P:problem=zbędne pauzy w vl 1	!	!LO:TX:t=P:problem=zbędne pauzy w vl 1	!LO:TX:t=P:problem=zbędne pauzy w vl 1	!LO:TX:t=P:problem=zbędne pauzy w vl 1
+!LO:TX:t=P:problem=zbędne pauzy w vl 1	!	!LO:TX:t=P:problem=zbędne pauzy w vl 1	!LO:TX:a:t=2:mod=	!LO:TX:t=P:problem=zbędne pauzy w vl 1	!	!LO:TX:t=P:problem=zbędne pauzy w vl 1	!	!LO:TX:t=P:problem=zbędne pauzy w vl 1	!	!LO:TX:t=P:problem=zbędne pauzy w vl 1	!LO:TX:t=P:problem=zbędne pauzy w vl 1	!LO:TX:t=P:problem=zbędne pauzy w vl 1
 1ryy	.	1ryyyy	1ryy	1ryy	.	1ryy	.	1ryy	.	1ryy	1ryy	1ryy
 =86	=86	=86	=86	=86	=86	=86	=86	=86	=86	=86	=86	=86
 1ryy	.	1ryyyy	1ryy	1ryy	.	1ryy	.	1ryy	.	1ryy	1ryy	1ryy
+!!LO:MO:end
 =87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87	=87
+!LO:MO:mod=*clefG2	!	!	!	!	!	!	!	!	!	!	!	!
 *clefC4	*	*	*	*	*	*	*	*	*	*	*	*
+!	!	!	!	!	!	!	!	!	!LO:MO:mod=Do-	!	!	!
 2d\	.	2ff#\yy	2dd\yy	2d\	-cem	2d\	[da	2d\	do-	1ryy	0r	0r
 2c#\	6	2ee\yy	2aa\yy	2r	.	2c#\	pa-	2a\	-na	.	.	.
 =88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88	=88
 2d\	.	2ff#\yy	4ff#\yy	0r	.	2d\	-cem]	4f#\	no-	1ryy	.	.
 .	.	.	4dd\yy	.	.	.	.	4d\	-bis	.	.	.
 4r	.	4ryy	[y<2ddd\yy	.	.	4r	.	[<2dd\	pa-	.	.	.
+!LO:MO:null:mod=*clefF4	!	!	!	!	!	!	!	!	!	!	!	!
+!null	!	!	!	!	!	!	!	!	!	!	!	!
 4F#/	.	4a/yy	.	.	.	4F#/	pa-	.	.	.	.	.
 !	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89
@@ -658,6 +684,7 @@
 .	.	.	4gg\yy	.	.	.	.	4g\	.	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!
 =90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90	=90
+!LO:MO:mod=LO:CL:ed	!	!	!	!	!	!	!	!	!	!	!	!
 *clefF4	*	*	*	*	*	*	*	*	*	*	*	*
 2D\	.	2dd\yy	2ff#\yy	2D\	Do-	2A/	.	2f#\	.	1ryy	2dd\	2ff#\
 2A\	.	2cc#my\yy	2eeMy\yy	2A\	-na	2A/	.	2e\	.	.	2a/	2ee\
@@ -755,31 +782,42 @@
 =104	=104	=104	=104	=104	=104	=104	=104	=104	=104	=104	=104	=104
 2D\	.	2ff#\yy	4ryy	2D\	-cem	2d\	-cem	2a\	.	1ryy	2dd\	2ff#\
 .	.	.	4aa\yy	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=[2bb	!	!	!	!	!	!	!	!	!
 [<2d\	6	4ryy	[y2bb\yy	[<2d\	da	4r	.	[<2b\	.	.	2r	2r
 .	.	4ff#\yy	.	.	.	4f#\	da	.	.	.	.	.
 =105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105
+!	!	!	!LO:MO:null:mod=!null	!	!	!	!	!	!	!	!	!
 !	!	!	!LO:N:xstem:cue	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:MO:mod=4bb]	!	!	!	!	!	!	!	!	!
 2d\]	4 2	2.ee\yy	4bb\]yy	2d\]	.	2g#X\	no-	2b\]	.	1ryy	00r	00r
 .	.	.	4gg#X\yy	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=[2aa	!	!	!	!	!	!	!	!	!
 [<2c#\	.	.	[y<2aa\yy	[<2c#\	pa-	2a\	-bis	[<2a\	.	.	.	.
 .	.	4a/yy	.	.	.	.	.	.	.	.	.	.
 !	!	!	!LO:LB:g=original	!LO:LB:g=original	!	!	!	!	!	!	!	!
 =106	=106	=106	=106	=106	=106	=106	=106	=106	=106	=106	=106	=106
+!	!	!	!LO:MO:null:mod=!null	!	!	!	!	!	!	!	!	!
 !	!	!	!LO:N:xstem:cue	!LO:TX:a:t=P:problem=brak zakończenia ligatury	!	!	!	!	!	!	!	!
 !	!	!	!LO:TX:a:t=P:problem=brak zakończenia ligatury	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:MO:mod=4aa]	!	!	!	!	!	!	!	!	!
 2c#\]	4 2	2.dd\yy	4aa\]yy	2c#\]	.	2f#\	pa-	2a\]	.	1ryy	.	.
 .	.	.	4ff#\yy	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=[2ggn	!	!	!	!	!	!	!	!	!
 [<2B\	6	.	[y<2ggn\yy	[<2B\	.	2gn\	.	[<2g\	.	.	.	.
 .	.	4g/yy	.	.	.	.	.	.	.	.	.	.
 =107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107	=107
+!	!	!	!LO:MO:null:mod=!null	!	!	!	!	!	!	!	!	!
 !	!	!	!LO:N:xstem:cue	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:MO:mod=4gg]	!	!	!	!	!	!	!	!	!
 2B\]	4 2	2.cc#\yy	4gg\]yy	2B\]	.	2e\	.	2g\]	.	1ryy	.	.
 .	.	.	4ee\yy	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:MO:mod=[2ff#	!	!	!	!	!	!	!	!	!
 [2A\	6	.	[y<2ff#\yy	[<2A\	.	2f#\	.	[<2f#\	.	.	.	.
 .	.	4f#/yy	.	.	.	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!
 =108	=108	=108	=108	=108	=108	=108	=108	=108	=108	=108	=108	=108
 !LO:TX:a:t=P:problem=brak zakończenia ligatury	!	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:MO:mod=4ff#]	!	!	!	!	!	!	!	!	!
 2A\]	4 2	1byy	4ff#\]yy	2A\]	-cem	2d\	.	2f#\]	.	1ryy	.	.
 .	.	.	2ee\yy	.	.	.	.	.	.	.	.	.
 4G\	6	.	.	4G\	da	2B\	.	[>2e\	.	.	.	.
@@ -860,7 +898,10 @@
 !LO:TX:t=P:problem=zbędne powtórzenie w cor 2	!	!LO:TX:t=P:problem=zbędne powtórzenie w cor 2	!LO:TX:t=P:problem=zbędne powtórzenie w cor 2	!LO:TX:t=P:problem=zbędne powtórzenie w cor 2	!	!LO:TX:t=P:problem=zbędne powtórzenie w cor 2	!	!LO:TX:t=P:problem=zbędne powtórzenie w cor 2	!	!LO:TX:t=P:problem=zbędne powtórzenie w cor 2	!LO:TX:t=P:problem=zbędne powtórzenie taktu nr 121	!LO:TX:t=P:problem=zbędne powtórzenie w cor 2
 1ryy	.	1ryyyy	1ryyyy	1ryy	.	1ryy	.	1ryy	.	1ryy	1d	1ryy
 =123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123	=123
-!LO:TX:b:i:t=Finis Corona	!	!	!LO:N:vis=2	!	!	!LO:SIC:v:o=1c#;	!	!	!	!	!	!
+!!!OMD:
+!!!OMD-mod: Finis Corona
+!LO:TX:b:i:t=Finis Corona:mod=	!	!	!LO:MO:mod=!LO&colon;SIC&colon;v&colon;s&colon=1a;	!	!	!LO:MO:mod=!LO&colon;SIC&colon;v&colon;s&colon=1c#;;	!	!	!	!	!	!
+!LO:MO:mod=1D;	!	!	!LO:N:vis=2	!LO:MO:mod=1D;	!	!LO:SIC:v:o=1c#;	!	!	!	!	!	!LO:MO:mod=1d;
 1D;;	.	1f#;yy	1a;yy	1D;;	-cem	1d	-cem	1f#;	-cem	1ryy	1d;	1d;;
 ==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
@@ -870,7 +911,8 @@
 !!!RDF**kern: | = vertical stroke
 !!!RDF**dynam: f = "for"
 !!!RDF**dynam: p = "pia"
+!!!filter-modern: modori -m | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/yy//" | tie -si | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | autostem -r |
 !!!ENC: Andrzej Kubiczek
 !!!END: 2020-12-23
-!!!ENC: Andrzej Kubiczek
-!!!END: 2022-01-11
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2023-09-03

@@ -4572,7 +4572,7 @@
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2)][(s3,s4,s5,s6)][(s7,s8)]s9
-!!!filter-: sic -sq | modori -m | | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | tie -s | LO:DY:(a|b|rj) | humtr -p | LO:dy:$1/L" | tie -si | humtr -p
+!!!filter-modern: sic -sq | modori -m | | autostem -r | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/yy//" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | tie -s | LO:DY:(a|b|rj) | humtr -p | LO:dy:$1/L" | tie -si | humtr -p
 !!!ENC: Kamil Watkowski
 !!!END: 2021-01-08
 !!!ENC: Natalia Wrzos

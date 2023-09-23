@@ -458,6 +458,7 @@ sub buildReferenceTable {
 	$refInfo{"EED9"} =                  "IGNORE";
 	$refInfo{"EED-modern"} =            "Editor of modernization filter";
 	$refInfo{"EEV"} =                   "Digital score version";
+	$refInfo{"EEV-modern"} =            "Revision date for modernization filter";
 	$refInfo{"EEV2"} =                  "IGNORE";
 	$refInfo{"EEV3"} =                  "IGNORE";
 	$refInfo{"EEV4"} =                  "IGNORE";
@@ -498,7 +499,7 @@ sub buildReferenceTable {
 	$refInfo{"NIFC-rismChildID"} =      "RISM Online ID of the particular piece in source edition/manuscript";
 	$refInfo{"NIFC-rismSourceID"} =     "RISM Online ID for source edition/manuscript";
 	$refInfo{"ODT"} =                   "IGNORE";
-	$refInfo{"OMD"} =                   "Movement designation";
+	$refInfo{"OMD"} =                   "Movement designation (such as \"Allegro\"";
 	$refInfo{"OMD-mod"} =               "Modern movement designation";
 	$refInfo{"OMV"} =                   "Movement number";
 	$refInfo{"ONB"} =                   "General note";
