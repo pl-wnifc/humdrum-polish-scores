@@ -33,7 +33,7 @@ People and Sponsors
 | Andrzej Borzym | 375 | 615,957 | 439 | 361 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 73 |
 | Elżbieta Cabała |  |  |  |  | 59 |
-| Marta Chmielewska | 159 | 209,349 | 487 |  |  |
+| Marta Chmielewska | 159 | 209,349 | 489 |  |  |
 | Zuzanna Daniec |  |  |  |  | 46 |
 | Olaf Gawdzik |  |  |  |  | 34 |
 | Tomasz Grochalski | 558 | 819,933 | 7 |  |  |
@@ -41,7 +41,7 @@ People and Sponsors
 | Jacek Iwaszko | 2 | 587 | 3 | 1 | 3 |
 | Marcin Jachim | 563 | 869,527 | 9 |  |  |
 | Wojciech Jakubiak-Danek |  |  | 378 |  |  |
-| Berenika Jozajtis | 828 | 1,402,523 | 18 |  |  |
+| Berenika Jozajtis | 829 | 1,403,207 | 18 |  |  |
 | Marcin Konik | 6 | 242 | 1 |  |  |
 | Magdalena Agnieszka Krok |  |  |  |  | 15 |
 | Leszek Kubiak | 41 | 11,796 | 817 | 160 |  |
@@ -62,13 +62,13 @@ People and Sponsors
 | Krzysztof Stępień | 469 | 676,147 | 137 | 33 |  |
 | Antoni Szymański | 1 | 5,516 | 542 | 1 | 60 |
 | Konrad Tyszka |  |  |  |  | 75 |
-| Filip Voros | 504 | 756,759 | 7 |  |  |
+| Filip Voros | 505 | 757,657 | 7 |  |  |
 | Kamil Watkowski | 401 | 553,516 | 187 |  |  |
 | Natalia Wrzos | 2 | 3,590 | 303 |  | 77 |
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 79 |
 | Urszula Świątek | 3 | 3,016 | 206 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 73 |
-| TOTALS | 7,566 | 11,633,436 | 6,985 | 981 | 1,068 |
+| TOTALS | 7,568 | 11,635,018 | 6,987 | 981 | 1,068 |
 
 </details>
 
@@ -112,14 +112,14 @@ to visit its webpage.
 The `Scores` column lists the number of digital transcriptions within
 each archive directory, and the `Notes` column gives the number of
 musical notes contained within those scores.   Currently there are
-7,568 scores containing a total of 11,633,792 notes.
+7,570 scores containing a total of 11,635,374 notes.
 
 <details><summary>Archives represented in repository</summary>
 
 | Siglum | Library | Scores |    % | Notes |    % |
 | ------ | ------- | -----: | ---: | ----: | ---: |
 | <a target="_blank" href="https://polishscores.org?s=pl-cz"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-cz.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern)</span></span> | [Jasna Góra Monastery](https://jasnagora.pl/en/o-sanktuarium/biblioteki/biblioteka-jasnogorska) | 1,298 | 17.1 | 3,358,500 | 28.8 |
-| <a target="_blank" href="https://polishscores.org?s=pl-wtm"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wtm.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern)</span></span> | [Warsaw Music Society](http://warszawskietowarzystwomuzyczne.pl/biblioteka) | 1,247 | 16.4 | 2,327,029 | 20.0 |
+| <a target="_blank" href="https://polishscores.org?s=pl-wtm"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wtm.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern)</span></span> | [Warsaw Music Society](http://warszawskietowarzystwomuzyczne.pl/biblioteka) | 1,249 | 16.4 | 2,328,611 | 20.0 |
 | <a target="_blank" href="https://polishscores.org?s=pl-sa"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-sa.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-sa](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-sa/kern)</span></span> | [Diocesan Library, Sandomierz](https://bc.bdsandomierz.pl/dlibra?language=en) | 1,244 | 16.4 | 1,575,011 | 13.5 |
 | <a target="_blank" href="https://polishscores.org?s=pl-kk"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kk.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kk](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kk/kern)</span></span> | [Wawel Cathedral, Cracow](http://akkk.com.pl) | 1,721 | 22.7 | 1,320,703 | 11.3 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wn"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wn.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wn](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wn/kern)</span></span> | [Polish National Library](https://www.bn.org.pl/en) | 505 | 6.6 | 815,962 | 7.0 |
@@ -165,13 +165,13 @@ websites for the scanned source editions that are currently available:
 | (https://digitale-sammlungen.ulb.uni-bonn.de)[https://digitale-sammlungen.ulb.uni-bonn.de] | 1 | 0.0 |
 | (https://digitalisate.sub.uni-hamburg.de)[https://digitalisate.sub.uni-hamburg.de] | 29 | 0.4 |
 | (https://jbc.bj.uj.edu.pl)[https://jbc.bj.uj.edu.pl] | 17 | 0.2 |
-| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 4,662 | 71.9 |
+| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 4,664 | 71.9 |
 | <a target="_blank" href="http://polona.pl">Polona</a> (<a target="_blank" href="https://www.bn.org.pl/en">Polish National Library</a>) | 5 | 0.0 |
 | (https://polona2.pl)[https://polona2.pl] | 529 | 8.1 |
 | (https://stimmbuecher.digitale-sammlungen.de)[https://stimmbuecher.digitale-sammlungen.de] | 1 | 0.0 |
 | (https://www.bibliotekacyfrowa.pl)[https://www.bibliotekacyfrowa.pl] | 24 | 0.3 |
 | (https://www2.musik.uu.se)[https://www2.musik.uu.se] | 46 | 0.7 |
-| TOTAL | 6479 |     |
+| TOTAL | 6481 |     |
 
 </details>
 
@@ -204,7 +204,7 @@ Composers
 | Beyer, Ferdinand | 1 | 2,284 |
 | Biandrà, Giovanni Pietro | 2 | 1,140 |
 | Binder, Christlieb Siegmund | 6 | 9,216 |
-| Boczkowski, Jerzy | 1 | 1,511 |
+| Boczkowski, Jerzy | 3 | 3,093 |
 | Boczkowski, Kazimierz | 3 | 7,182 |
 | Bogoimski, Tadeusz | 5 | 13,603 |
 | Boguński, Baltazar | 7 | 39,063 |
@@ -780,6 +780,7 @@ Composers
 | Went, Johann Nepomuk | 4 | 3,658 |
 | Wroński, Adam | 4 | 9,232 |
 | Zajączkowski, Roman | 4 | 7,313 |
+| Boczkowski, Jerzy | 3 | 3,093 |
 | Boczkowski, Kazimierz | 3 | 7,182 |
 | Brzezińska, Filipina | 3 | 1,699 |
 | Gimeshoffer | 3 | 2,806 |
@@ -852,7 +853,6 @@ Composers
 | Beethoven, Ludwig van | 1 | 2,476 |
 | Bencini | 1 | 1,712 |
 | Beyer, Ferdinand | 1 | 2,284 |
-| Boczkowski, Jerzy | 1 | 1,511 |
 | Boieldieu, Adrien | 1 | 356 |
 | Borimius, Jan | 1 | 983 |
 | Bortnjanskij, Dmitrij Stepanovič | 1 | 251 |
@@ -1184,6 +1184,7 @@ Composers
 | Hepner | 10 | 3,205 |
 | Kamiński, P. | 1 | 3,165 |
 | Janisch | 1 | 3,154 |
+| Boczkowski, Jerzy | 3 | 3,093 |
 | Zangl, Johann Baptist | 6 | 3,045 |
 | Jeric | 5 | 2,986 |
 | Kamieński, Antoni | 5 | 2,921 |
@@ -1248,7 +1249,6 @@ Composers
 | Każyński, Wiktor | 1 | 1,651 |
 | Lampugnani, Giovanni Battista | 1 | 1,646 |
 | Laube, Antonín | 1 | 1,643 |
-| Boczkowski, Jerzy | 1 | 1,511 |
 | Bauer, Joseph Anton | 1 | 1,494 |
 | Krogulski, Władysław | 1 | 1,464 |
 | Rossini, Gioachino | 2 | 1,458 |
