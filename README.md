@@ -28,27 +28,27 @@ People and Sponsors
 
 | Name | Encoded scores | Encoded notes | Edited scores | Modern&nbsp;ed. | IIIF&nbsp;enc. |
 | ---- | -------------: | ------------: | ------------: | ---------: | ----------: |
-| Jan Barakat | 2 | 7,865 | 322 |  | 99 |
+| Jan Barakat | 2 | 7,865 | 325 |  | 99 |
 | Lidia Bialucha |  |  |  |  | 93 |
 | Andrzej Borzym | 375 | 615,957 | 439 | 361 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 73 |
 | Elżbieta Cabała |  |  |  |  | 59 |
-| Marta Chmielewska | 159 | 209,349 | 489 |  |  |
+| Marta Chmielewska | 159 | 209,349 | 500 |  |  |
 | Zuzanna Daniec |  |  |  |  | 46 |
 | Olaf Gawdzik |  |  |  |  | 34 |
 | Tomasz Grochalski | 558 | 819,933 | 7 |  |  |
-| Andrzej Gręziak | 925 | 1,566,342 | 10 |  |  |
+| Andrzej Gręziak | 926 | 1,567,887 | 10 |  |  |
 | Jacek Iwaszko | 2 | 587 | 3 | 1 | 3 |
 | Marcin Jachim | 563 | 869,527 | 9 |  |  |
 | Wojciech Jakubiak-Danek |  |  | 378 |  |  |
-| Berenika Jozajtis | 829 | 1,403,207 | 18 |  |  |
+| Berenika Jozajtis | 836 | 1,409,042 | 18 |  |  |
 | Marcin Konik | 6 | 242 | 1 |  |  |
 | Magdalena Agnieszka Krok |  |  |  |  | 15 |
 | Leszek Kubiak | 41 | 11,796 | 817 | 160 |  |
 | Andrzej Kubiczek | 550 | 882,659 | 789 | 235 |  |
 | Marta Lawrence | 119 | 59,796 | 1,085 | 113 |  |
 | Arkadiusz Malec | 61 | 114,735 | 3 |  |  |
-| Anastazja Marusiak | 608 | 899,757 | 22 |  |  |
+| Anastazja Marusiak | 614 | 904,912 | 22 |  |  |
 | Solarz Mateusz | 47 | 74,374 |  |  |  |
 | Anna Matuszewska | 191 | 315,271 | 198 |  |  |
 | Mateusz Mrugas | 1 | 2,963 | 237 |  | 80 |
@@ -68,7 +68,7 @@ People and Sponsors
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 79 |
 | Urszula Świątek | 3 | 3,016 | 206 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 73 |
-| TOTALS | 7,568 | 11,635,018 | 6,987 | 981 | 1,068 |
+| TOTALS | 7,582 | 11,647,553 | 7,001 | 981 | 1,068 |
 
 </details>
 
@@ -112,20 +112,20 @@ to visit its webpage.
 The `Scores` column lists the number of digital transcriptions within
 each archive directory, and the `Notes` column gives the number of
 musical notes contained within those scores.   Currently there are
-7,570 scores containing a total of 11,635,374 notes.
+7,584 scores containing a total of 11,647,909 notes.
 
 <details><summary>Archives represented in repository</summary>
 
 | Siglum | Library | Scores |    % | Notes |    % |
 | ------ | ------- | -----: | ---: | ----: | ---: |
 | <a target="_blank" href="https://polishscores.org?s=pl-cz"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-cz.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern)</span></span> | [Jasna Góra Monastery](https://jasnagora.pl/en/o-sanktuarium/biblioteki/biblioteka-jasnogorska) | 1,298 | 17.1 | 3,358,500 | 28.8 |
-| <a target="_blank" href="https://polishscores.org?s=pl-wtm"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wtm.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern)</span></span> | [Warsaw Music Society](http://warszawskietowarzystwomuzyczne.pl/biblioteka) | 1,249 | 16.4 | 2,328,611 | 20.0 |
+| <a target="_blank" href="https://polishscores.org?s=pl-wtm"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wtm.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern)</span></span> | [Warsaw Music Society](http://warszawskietowarzystwomuzyczne.pl/biblioteka) | 1,263 | 16.6 | 2,341,146 | 20.0 |
 | <a target="_blank" href="https://polishscores.org?s=pl-sa"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-sa.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-sa](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-sa/kern)</span></span> | [Diocesan Library, Sandomierz](https://bc.bdsandomierz.pl/dlibra?language=en) | 1,244 | 16.4 | 1,575,011 | 13.5 |
-| <a target="_blank" href="https://polishscores.org?s=pl-kk"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kk.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kk](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kk/kern)</span></span> | [Wawel Cathedral, Cracow](http://akkk.com.pl) | 1,721 | 22.7 | 1,320,703 | 11.3 |
+| <a target="_blank" href="https://polishscores.org?s=pl-kk"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kk.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kk](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kk/kern)</span></span> | [Wawel Cathedral, Cracow](http://akkk.com.pl) | 1,721 | 22.6 | 1,320,703 | 11.3 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wn"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wn.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wn](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wn/kern)</span></span> | [Polish National Library](https://www.bn.org.pl/en) | 505 | 6.6 | 815,962 | 7.0 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wumfc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wumfc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wumfc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wumfc/kern)</span></span> | [Chopin University of Music](http://www.biblioteka.chopin.edu.pl/pl) | 312 | 4.1 | 793,171 | 6.8 |
 | <a target="_blank" href="https://polishscores.org?s=pl-stab"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-stab.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-stab](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-stab/kern)</span></span> | [St. Adalbert Abbey, Staniątki](https://rism.info/library_collections/2017/09/28/music-in-the-convent-of-st-adalberts-abbey-in.html) | 154 | 2.0 | 379,880 | 3.2 |
-| <a target="_blank" href="https://polishscores.org?s=pl-wnifc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wnifc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wnifc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wnifc/kern)</span></span> | [Chopin Institute, Warsaw](https://nifc.pl/en) | 394 | 5.2 | 337,309 | 2.8 |
+| <a target="_blank" href="https://polishscores.org?s=pl-wnifc"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wnifc.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wnifc](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wnifc/kern)</span></span> | [Chopin Institute, Warsaw](https://nifc.pl/en) | 394 | 5.1 | 337,309 | 2.8 |
 | <a target="_blank" href="https://polishscores.org?s=pl-gd"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-gd.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-gd](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-gd/kern)</span></span> | [Gdańsk Library PAoS](https://bgpan.gda.pl/?lang=en) | 246 | 3.2 | 190,726 | 1.6 |
 | <a target="_blank" href="https://polishscores.org?s=s-uu"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/unknown.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[s-uu](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/s-uu/kern)</span></span> | [Uppsala University Library](https://www.ub.uu.se/?languageId=1) | 46 | 0.6 | 137,780 | 1.1 |
 | <a target="_blank" href="https://polishscores.org?s=pl-kj"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kj.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kj](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kj/kern)</span></span> | [Jagiellonian Library, Cracow](https://bj.uj.edu.pl/en_GB/start-en) | 32 | 0.4 | 83,739 | 0.7 |
@@ -165,13 +165,13 @@ websites for the scanned source editions that are currently available:
 | (https://digitale-sammlungen.ulb.uni-bonn.de)[https://digitale-sammlungen.ulb.uni-bonn.de] | 1 | 0.0 |
 | (https://digitalisate.sub.uni-hamburg.de)[https://digitalisate.sub.uni-hamburg.de] | 29 | 0.4 |
 | (https://jbc.bj.uj.edu.pl)[https://jbc.bj.uj.edu.pl] | 17 | 0.2 |
-| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 4,664 | 71.9 |
+| <a target="_blank" href="https://polish.musicsources.pl">Polish Music Sources</a> (<a target="_blank" href="https://nifc.pl">NIFC<a>) | 4,678 | 72.0 |
 | <a target="_blank" href="http://polona.pl">Polona</a> (<a target="_blank" href="https://www.bn.org.pl/en">Polish National Library</a>) | 5 | 0.0 |
 | (https://polona2.pl)[https://polona2.pl] | 529 | 8.1 |
 | (https://stimmbuecher.digitale-sammlungen.de)[https://stimmbuecher.digitale-sammlungen.de] | 1 | 0.0 |
 | (https://www.bibliotekacyfrowa.pl)[https://www.bibliotekacyfrowa.pl] | 24 | 0.3 |
 | (https://www2.musik.uu.se)[https://www2.musik.uu.se] | 46 | 0.7 |
-| TOTAL | 6481 |     |
+| TOTAL | 6495 |     |
 
 </details>
 
@@ -204,7 +204,7 @@ Composers
 | Beyer, Ferdinand | 1 | 2,284 |
 | Biandrà, Giovanni Pietro | 2 | 1,140 |
 | Binder, Christlieb Siegmund | 6 | 9,216 |
-| Boczkowski, Jerzy | 3 | 3,093 |
+| Boczkowski, Jerzy | 5 | 4,247 |
 | Boczkowski, Kazimierz | 3 | 7,182 |
 | Bogoimski, Tadeusz | 5 | 13,603 |
 | Boguński, Baltazar | 7 | 39,063 |
@@ -280,7 +280,7 @@ Composers
 | Gimeshoffer | 3 | 2,806 |
 | Giżycka-Zamoyska, Ludmiła | 3 | 2,234 |
 | Goetz-Gieczyński, Cyryl | 15 | 77,488 |
-| Gold, Artur | 3 | 2,315 |
+| Gold, Artur | 7 | 5,804 |
 | Gomółka, Mikołaj | 151 | 27,690 |
 | Gorczycki, Grzegorz Gerwazy | 65 | 41,501 |
 | Gostowski | 2 | 1,795 |
@@ -327,7 +327,7 @@ Composers
 | Jarzębski, Adam | 28 | 38,092 |
 | Jeric | 5 | 2,986 |
 | Just, Franciszek Kasper | 15 | 35,713 |
-| Kagan, Jakub | 3 | 2,276 |
+| Kagan, Jakub | 7 | 5,829 |
 | Kalous, Václav | 8 | 34,622 |
 | Kamieński, Antoni | 5 | 2,921 |
 | Kamiński, F. | 2 | 4,936 |
@@ -375,6 +375,7 @@ Composers
 | Lasso, Orlando di | 33 | 6,612 |
 | Lasso, Rudolph di | 4 | 606 |
 | Laube, Antonín | 1 | 1,643 |
+| Lawina-Świętochowski, Jerzy | 1 | 804 |
 | Lechleitner, Ferdinand Simon | 51 | 127,071 |
 | Lessel, Franciszek | 21 | 44,134 |
 | Leszczyński, Władysław | 5 | 5,885 |
@@ -451,7 +452,7 @@ Composers
 | Pergolesi, Giovanni Battista | 12 | 15,350 |
 | Pichl, Václav | 1 | 3,476 |
 | Pichler, Johann Melchior | 5 | 4,737 |
-| Piotrowski, Aleksander | 1 | 1,249 |
+| Piotrowski, Aleksander | 4 | 4,784 |
 | Piotrowski, Franciszek | 1 | 2,660 |
 | Pitoni, Giuseppe Ottavio | 2 | 1,213 |
 | Pleyel, Ignace | 14 | 24,142 |
@@ -706,6 +707,8 @@ Composers
 | Bauer | 7 | 18,876 |
 | Boguński, Baltazar | 7 | 39,063 |
 | Bądarzewska, Tekla | 7 | 8,600 |
+| Gold, Artur | 7 | 5,804 |
+| Kagan, Jakub | 7 | 5,829 |
 | Königsperger, Marianus | 7 | 10,654 |
 | Maxylewicz, Wincenty | 7 | 6,281 |
 | Pausch, Eugen | 7 | 11,803 |
@@ -729,6 +732,7 @@ Composers
 | Tymolski, Fabian | 6 | 3,262 |
 | Wygrzywalski, Józef | 6 | 13,743 |
 | Zangl, Johann Baptist | 6 | 3,045 |
+| Boczkowski, Jerzy | 5 | 4,247 |
 | Bogoimski, Tadeusz | 5 | 13,603 |
 | Brixi, František Xaver | 5 | 20,391 |
 | Brzowska, Jadwiga | 5 | 2,319 |
@@ -774,23 +778,21 @@ Composers
 | Naumann, Johann Gottlieb | 4 | 8,625 |
 | Neumann | 4 | 7,842 |
 | Osmański, Wojciech | 4 | 4,087 |
+| Piotrowski, Aleksander | 4 | 4,784 |
 | Samin, Vulfran | 4 | 2,758 |
 | Stolle | 4 | 4,935 |
 | Tarnowski, Adam | 4 | 1,282 |
 | Went, Johann Nepomuk | 4 | 3,658 |
 | Wroński, Adam | 4 | 9,232 |
 | Zajączkowski, Roman | 4 | 7,313 |
-| Boczkowski, Jerzy | 3 | 3,093 |
 | Boczkowski, Kazimierz | 3 | 7,182 |
 | Brzezińska, Filipina | 3 | 1,699 |
 | Gimeshoffer | 3 | 2,806 |
 | Giżycka-Zamoyska, Ludmiła | 3 | 2,234 |
-| Gold, Artur | 3 | 2,315 |
 | Guglielmi, Pietro Alessandro | 3 | 5,706 |
 | Habermann, Jan Piotr | 3 | 4,270 |
 | Hermanowski, A. | 3 | 7,222 |
 | Hérissant, Jehan | 3 | 2,768 |
-| Kagan, Jakub | 3 | 2,276 |
 | Klemczyński, Julian | 3 | 4,529 |
 | Królikiewicz, Napoleon | 3 | 1,181 |
 | Lachner, Ignaz | 3 | 2,218 |
@@ -905,6 +907,7 @@ Composers
 | Kędzierski, X. A. | 1 | 205 |
 | Lampugnani, Giovanni Battista | 1 | 1,646 |
 | Laube, Antonín | 1 | 1,643 |
+| Lawina-Świętochowski, Jerzy | 1 | 804 |
 | Lhéritier, Jean | 1 | 1,127 |
 | Lidauer, Władysław | 1 | 828 |
 | Linowski, Józef | 1 | 632 |
@@ -928,7 +931,6 @@ Composers
 | Orłowski, Antoni | 1 | 1,038 |
 | Pachulski, Henryk | 1 | 453 |
 | Pichl, Václav | 1 | 3,476 |
-| Piotrowski, Aleksander | 1 | 1,249 |
 | Piotrowski, Franciszek | 1 | 2,660 |
 | Pokorný, Franz Xaver | 1 | 2,500 |
 | Potocka, Emilia | 1 | 2,017 |
@@ -1133,6 +1135,8 @@ Composers
 | Haslinger | 8 | 6,007 |
 | Stefani, Jan | 5 | 5,891 |
 | Leszczyński, Władysław | 5 | 5,885 |
+| Kagan, Jakub | 7 | 5,829 |
+| Gold, Artur | 7 | 5,804 |
 | Jarecki, Józef | 8 | 5,777 |
 | Jachet de Mantua | 5 | 5,723 |
 | Guglielmi, Pietro Alessandro | 3 | 5,706 |
@@ -1150,6 +1154,7 @@ Composers
 | Richling | 16 | 4,807 |
 | Łukaszewicz, Maciej | 3 | 4,796 |
 | Holzbauer, Ignaz | 2 | 4,785 |
+| Piotrowski, Aleksander | 4 | 4,784 |
 | Nowicki, Ludwik | 2 | 4,766 |
 | Namysłowski, Karol | 6 | 4,753 |
 | Pichler, Johann Melchior | 5 | 4,737 |
@@ -1161,6 +1166,7 @@ Composers
 | Luython, Carl | 8 | 4,289 |
 | Habermann, Jan Piotr | 3 | 4,270 |
 | Zientarski, Romuald Teodor | 12 | 4,257 |
+| Boczkowski, Jerzy | 5 | 4,247 |
 | Osmański, Wojciech | 4 | 4,087 |
 | Krupiński, Wiktor | 8 | 4,025 |
 | Fils, Anton | 4 | 3,987 |
@@ -1184,7 +1190,6 @@ Composers
 | Hepner | 10 | 3,205 |
 | Kamiński, P. | 1 | 3,165 |
 | Janisch | 1 | 3,154 |
-| Boczkowski, Jerzy | 3 | 3,093 |
 | Zangl, Johann Baptist | 6 | 3,045 |
 | Jeric | 5 | 2,986 |
 | Kamieński, Antoni | 5 | 2,921 |
@@ -1212,10 +1217,8 @@ Composers
 | Szarzyński, Stanisław Sylwester | 1 | 2,363 |
 | M.M. | 4 | 2,322 |
 | Brzowska, Jadwiga | 5 | 2,319 |
-| Gold, Artur | 3 | 2,315 |
 | Kellerer, Christophorus | 1 | 2,292 |
 | Beyer, Ferdinand | 1 | 2,284 |
-| Kagan, Jakub | 3 | 2,276 |
 | Giżycka-Zamoyska, Ludmiła | 3 | 2,234 |
 | Figulenti | 1 | 2,221 |
 | Lachner, Ignaz | 3 | 2,218 |
@@ -1259,7 +1262,6 @@ Composers
 | Radziwiłł, Antoni Henryk | 3 | 1,269 |
 | Teichmann, Antoni | 1 | 1,269 |
 | Kraszewski, Józef Ignacy | 1 | 1,257 |
-| Piotrowski, Aleksander | 1 | 1,249 |
 | Chodkiewicz, Zofia | 2 | 1,227 |
 | Krysta, Józef | 1 | 1,217 |
 | Pitoni, Giuseppe Ottavio | 2 | 1,213 |
@@ -1287,6 +1289,7 @@ Composers
 | Stolpe, Alojzy | 1 | 845 |
 | Orgas, Annibale | 1 | 843 |
 | Lidauer, Władysław | 1 | 828 |
+| Lawina-Świętochowski, Jerzy | 1 | 804 |
 | Krener, Jan | 2 | 771 |
 | Hoffmeister, Franz Anton | 2 | 753 |
 | Sierosławski, Józef | 1 | 752 |
