@@ -865,10 +865,10 @@ People and Sponsors
 -------------------
 
 * **Lead**: Marcin Konik
-* **Technical Lead**: Craig Stuart Sapp (digital scores, transcription website)
+* **Technical Lead**: Craig Stuart Sapp (analytic tools, data-processing software, digital scores and website)
 * **Project Manager**: Jacek Iwaszko (digital scores, source edition scans)
-* **Metadata Manager**: Marcelina Chojecka
-* **Assistant Project Manager**: Emilia Ziętek
+* **Metadata Manager**: Marcelina Chojecka (RISM)
+* **Assistant Project Manager**: Emilia Ziętek (digital scores)
 
 {{encoder-table}}
 
@@ -973,5 +973,57 @@ Here is a list of reference records used in the Humdrum scores and
 their meanings:
 
 {{reference-table}}
+
+
+
+Diplomatic edition
+------------------
+
+Digital scores in this repository are encoded as diplomatic editions,
+striving to represent as accuratey as possible the semantic content
+of the printed edition or manuscript. This allows generating critical
+editions and automatic comparisons of differences between physical
+sources of the music.  When there are obvious errors in the source
+material, the encoded music will preserve the error but provide a
+"sic" correction in the digital score that can be applied for
+analysis or performance use of the data.
+
+To insert sic corrections into a score on the [Polish
+Scores](https://polishscores.org) website, click on the gear icon
+in the top toolbar and then check the "Apply sic corrections" box:
+
+<img width="770" alt="Screenshot 2023-10-16 at 12 15 11" src="https://github.com/pl-wnifc/humdrum-polish-scores/assets/3487289/5ec134c7-0a8f-4d49-8bd1-b2e1cc1a43e2">
+
+In [VHV](https://verovio.humdrum.org/?file=https%3A%2F%2Fhumdrum.nifc.pl%2F19xx%3A1.krn), you
+apply the sic corrections with the filter [sic -s](https://verovio.humdrum.org/?file=https%3A%2F%2Fhumdrum.nifc.pl%2F19xx%3A1.krn?filter=sic%20-s),
+
+<img width="1131" alt="Screenshot 2023-10-16 at 12 23 08" src="https://github.com/pl-wnifc/humdrum-polish-scores/assets/3487289/42eebd11-9989-4ede-bb8a-62c684f570aa">
+
+Here is meausure 13 of the music before the sic correction has been
+applied to the digital score:
+
+<img width="486" alt="Screenshot 2023-10-16 at 12 38 17" src="https://github.com/pl-wnifc/humdrum-polish-scores/assets/3487289/809a38bd-8b1a-453e-8f38-d24da9f48c9a">
+
+The cautionary accidental on `G3` is missing (but not on `G4`), and
+the `C4` notes are missing a sharp.
+
+In a bash terminal, you can use the `sic` tool from [humlib](https://github.com/craigsapp/humlib)
+to apply the sic corrections with this bash command:
+
+```bash
+for dir in */kern
+do
+	mkdir -p sic/$dir
+	for file in $dir/*.krn
+	do
+		echo "Processing file $file"
+		sic -s $file > sic/$file
+	done
+done
+```
+
+This will create a directory called `sic` that contains kern scores having the sic corrections
+applied to all of the scores.
+
 
 

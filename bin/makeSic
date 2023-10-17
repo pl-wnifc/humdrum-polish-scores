@@ -1,0 +1,62 @@
+#!/usr/bin/env perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Mon Oct 16 13:05:36 PDT 2023
+# Last Modified: Mon Oct 16 13:28:56 PDT 2023
+# Filename:      humdrum-polish-scores/bin/makeSic
+# Syntax:        perl 5
+#
+# Description:   Scores in this repository that are stored in [rismid]/kern/*.krn 
+#                are diplomatically encoded.  Obvious errors are left in the score
+#                but can be corrected by applying the humlib tool "sic -s"
+#                to the file (where option "s" means to apply sic substitutions).
+#
+#                Use the command "make sic" or "bin/makeSic" when you are in the
+#                base directory of the repository. This will create a directory called
+#                "sic" in each subdirectory that contains also contains a "kern"
+#                subdirectory.
+#
+#                You can also run the "sic -s" filter in Verovio Humdrum Viewer, or
+#                on the Polish Scores website (click on gear icon in notation toolbar
+#                on work pages, and select "Apply sic corrections").
+#
+#                In the scores, a note can be is identified by the editors as
+#                a sic error, by adding a !LO:SIC parameter before the note
+#                (chord, clef, key signature, etc.) which gives the corrected version
+#                of the data.  For example, to add a missing sharp, this can be
+#                expressed as:
+#                   !LO:SIC:s=4c#
+#                   4c
+#                or as
+#                   !LO:SIC:s=4c#y
+#                   4c
+#                which means encode as a c#, but do not show the sharp. "y" after
+#                a feature in the token means that it is interpreted by the editor,
+#                and the sharp will not be shown visually.
+#
+
+use strict;
+
+my $sic = `which sic`;
+chomp $sic;
+die "Cannot find sic tool, Install humlib tools first\n" if $sic =~ /^\s*$/;
+
+my @dirs = sort glob("*-*/kern");
+
+
+foreach my $dir (@dirs) {
+	my @files = sort glob("$dir/*.krn");
+	my $basedir = $dir;
+	$basedir =~ s/\/.*//;
+	`mkdir -p "$basedir/sic"`;
+	foreach my $file (@files) {
+		$file =~ s/.*\///;
+		my $newfile = $file;
+		$newfile =~ s/\.krn$/.sic/;
+		print "Processing $basedir :: $file\n";
+		`$sic -s "$basedir/kern/$file" > "$basedir/sic/$newfile"`;
+	}
+}
+
+
+

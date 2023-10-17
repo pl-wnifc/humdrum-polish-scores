@@ -13,6 +13,8 @@
 DIR1 = ../production-polish-scores/krn-diplomatic/out
 DIR2 = ../production-polish-scores/krn-final/out
 
+.PHONY: sic
+
 
 all:
 	@echo
@@ -167,7 +169,7 @@ reference-keys:
 ##
 ## Derivative files: Create variants of data in kern directories.
 ##
-## */desic     == Apply sic corrections to data.
+## */sic       == Apply sic corrections to data.
 ## */keyscapes == Generate keyscapes for scores.
 ## */modern    == Apply modernization filters to scores.
 ##
@@ -179,7 +181,7 @@ reference-keys:
 ##
 
 d: derivatives
-derivatives: desic keyscape modern
+derivatives: sic keyscape modern
 
 
 
@@ -188,31 +190,7 @@ derivatives: desic keyscape modern
 ## clean: Remove derived files.
 ##
 
-clean: clean-keyscape clean-desic clean-modern
-
-
-
-##############################
-##
-## desic: Data is encoded diplomatically, but in certain cases obvious
-##     errors in the source edition are fix using SIC layout parameters.
-##     The fully diplomatic scores can be reconstructed by running the
-##     humlib program "sic -o", where "-o" means restore the original 
-##     content to make the scores fully diplomatic.
-##
-
-desic:
-	bin/makeDesic
-
-
-
-##############################
-##
-## clean-desic: Delete [rismid]/desic directories.
-##
-
-clean-desic:
-	rm -rf *-*/desic
+clean: clean-keyscape clean-modern clean-sic
 
 
 
@@ -261,11 +239,34 @@ modern:
 
 ##############################
 ##
+## sic: Apply sic corrections to scores, saving output data in "sic"
+##     directory by rism source archive.
+##
+
+sic:
+	bin/makeSic
+
+
+
+##############################
+##
+## clean-sic: Delete sic directory if it exists.
+##
+
+sic-clean: clean-sic
+clean-sic:
+	-rm -rf *-*/sic
+
+
+
+##############################
+##
 ## clean-modern: Delete [rismid]/modern directories.
 ##
 
+modern-clean: clean-modern
 clean-modern:
-	rm -rf *-*/modern
+	-rm -rf *-*/modern
 
 
 

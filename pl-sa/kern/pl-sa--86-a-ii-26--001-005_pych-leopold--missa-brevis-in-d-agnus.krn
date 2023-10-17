@@ -23,16 +23,20 @@
 !!!URL-scan: https://bc.bdsandomierz.pl/dlibra/publication/1364/edition/1332/content @EN{Scan in the Sandomierz Diocese Digital Library} @PL{Skany w portalu Cyfrowa Biblioteka Diecezjalna w Sandomierzu}
 !!!IIIF:
 !!!ONB-nifc: UWAGA: części Mszy: Kyrie, Gloria, Credo, Sanctus, Agnus, Dona
-!!!AIN: 1 bass 2 empty 1 organ 2 violn 1 vox
-!!!key:
+!!!AIN: 1 bass 2 clrno 1 organ 2 violn 1 vox
+!!!key: d
 **kern	**fba	**kern	**kern	**kern	**text	**kern	**text	**kern	**kern
-*group4	*	*group3	*group3	*group2	*	*group2	*	*group1	*group1
+*group4	*group4	*group3	*group3	*group2	*	*group2	*	*group1	*group1
 *part7	*	*part6	*part5	*part4	*	*part3	*	*part2	*part1
 *staff7	*	*staff6	*staff5	*staff4	*	*staff3	*	*staff2	*staff1
-*Iorgan	*	*Ivioln	*Ivioln	*Ibass	*	*Ivox	*	*Iempty	*Iempty
+*ICklav	*	*ICstr	*ICstr	*ICvox	*	*ICvox	*	*ICbras	*ICbras
+*Iorgan	*	*Ivioln	*Ivioln	*Ibass	*	*Ivox	*	*Iclrno	*Iclrno
 *I"Organo	*	*I"Violino 2do	*I"Violino 1mo	*I"Basso	*	*I"Canto	*	*I"Clarino 2do ex D	*I"Clarino 1mo ex D
+*	*	*mI"Violino II	*mI"Violino I	*	*	*	*	*mI"Clarino II in D	*mI"Clarino I in D
 *I'Org.fig	*	*I'Vl 2	*I'Vl 1	*I'B	*	*I'S	*	*I'Clno 2	*I'Clno 1
+*Iorgan	*	*Ivioln	*Ivioln	*Ibass	*	*Isoprn	*	*	*
 *clefF4	*	*clefG2	*clefG2	*clefF4	*	*clefC1	*	*clefG2	*clefG2
+*	*	*	*	*	*	*mclefG2	*	*	*
 *	*	*	*	*	*	*	*	*ITrd-1c-2	*ITrd-1c-2
 *k[b-]	*	*k[b-]	*k[b-]	*k[b-]	*	*k[b-]	*	*k[b-]	*k[b-]
 *d:	*	*d:	*d:	*d:	*	*d:	*	*d:	*d:
@@ -40,10 +44,12 @@
 *met(c)	*	*met(c)	*met(c)	*met(c)	*	*met(c)	*	*met(c)	*met(c)
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *	*	*2\right	*2\right	*2\right	*	*2\right	*	*	*
+!!!OMD:
+!!!OMD-mod: Adagio \nAgnus Dei
 !	!	!	!	!LO:TX:a:t=P:problem= przy kluczu także 2 kasowniki c- f-&colon;global	!	!	!	!	!
 !	!	!LO:TX:a:t=P:problem= przy kluczu także 1 kasownik f-&colon;global	!	!LO:TX:a:t=ʃolo	!	!LO:TX:a:t=P:problem= przy kluczu także 2 kasowniki c- f-&colon;global	!	!	!
-!LO:TX:b:t=Agnus	!	!LO:TX:a:t=Ada	!LO:TX:a:t=Adagio	!LO:TX:a:t=Ada	!	!LO:TX:a:t=3	!	!	!
-!LO:TX:a:t=Ada	!	!LO:TX:b:t=Agnus	!LO:TX:b:t=Agnus	!LO:TX:b:t=Agnus	!	!LO:TX:b:t=Agnus	!	!LO:TX:a:t=Agnus Dei Tacett	!LO:TX:a:t=Agnus Dei Tacett
+!LO:TX:b:t=Agnus:mod=	!	!LO:TX:a:t=Ada:mod=	!LO:TX:a:t=Adagio:mod=	!LO:TX:a:t=Ada:mod=	!	!LO:TX:a:t=3:mod=	!	!	!
+!LO:TX:a:t=Ada:mod=	!	!LO:TX:b:t=Agnus:mod=	!LO:TX:b:t=Agnus:mod=	!LO:TX:b:t=Agnus:mod=	!	!LO:TX:b:t=Agnus:mod=	!	!LO:TX:a:t=Agnus Dei Tacett	!LO:TX:a:t=Agnus Dei Tacett
 8D\L	.	8f/L	8a/L	4.D\	Ag-	0r	.	1ryy	1ryy
 8D\	.	8f/	8a/	.	.	.	.	.	.
 8D\	.	8f/	8a/	.	.	.	.	.	.
@@ -204,10 +210,13 @@
 !	!	!LO:SIC:o=4cc#\:v	!	!	!	!	!	!	!
 4D\	#	4dd	4dd\	4D/	-di	4dd\	-di	.	.
 4r	.	4r	4r	4r	.	4r	.	.	.
-=||	=||	=||	=||	=||	=||	=||	=||	=||	=||
+==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(g1)][(g2)][(g3)][(g4)]
+!!!filter-modern: modori -m | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | tie -si | shed -k -e "s/r[a-gA-G]+/r/D" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" |  humtr -p | sic -sq | autostem -r
 !!!ENC: Anna Matuszewska
 !!!END: 2020-12-04
 !!!ENC: Marta Chmielewska
 !!!END: 2020-05-27
+!!!ENC-modern: Leszek Kubiak
+!!!END-modern: 2023-10-14
