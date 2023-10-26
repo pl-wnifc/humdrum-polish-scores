@@ -21,15 +21,15 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/druki-muzyczne/17401/2 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!IIIF:
 !!!ONB-nifc:
-!!!AIN: 2 forte
+!!!AIN: 2 piano
 !!!key: D
 **kern	**kern	**dynam
 *part2	*part1	*part1
 *staff2	*staff1	*
+*ICklav	*ICklav	*
+*Ipiano	*Ipiano	*
 *I"PIANO.	*I"PIANO.	*
 *I'pf	*I'pf	*
-*ICklav	*ICklav	*
-*Iforte	*Iforte	*
 *clefF4	*clefG2	*
 *k[b-]	*k[b-]	*
 *D:	*D:	*
@@ -113,11 +113,16 @@
 *	*v	*v	*
 =13	=13	=13
 2AAA/ 2AA/	16r	.
-.	16G/LL 16c/ 16e/ 16gn/	.
-.	16G/ 16c/ 16e/ 16g/	.
-.	16G/JJ 16c/ 16e/ 16g/	.
-.	8G/L 8c/ 8e/ 8g/	.
-.	8A/J 8c/ 8e/ 8a/	.
+!	!LO:SIC:o=16G/LL 16c/ 16e/ 16gn/	!
+.	16Gn/LL 16c#/ 16e/ 16gn/	.
+!	!LO:SIC:o=16G/ 16c/ 16e/ 16g/	!
+.	16G/ 16c#/ 16e/ 16g/	.
+!	!LO:SIC:o=16G/JJ 16c/ 16e/ 16g/	!
+.	16G/JJ 16c#/ 16e/ 16g/	.
+!	!LO:SIC:o=8G/L 8c/ 8e/ 8g/	!
+.	8G/L 8c#/ 8e/ 8g/	.
+!	!LO:SIC:o=8A/J 8c/ 8e/ 8a/	!
+.	8A/J 8c#/ 8e/ 8a/	.
 =14	=14	=14
 *	*^	*
 2DD/ 2D/	2F/ 2f/	8.r	.
@@ -380,8 +385,10 @@
 !!LO:LB:g=original
 =47	=47	=47	=47
 8.EEE/ 8.EE/	[<2f#/ [2ff#/	8.r	.
-16E\ 16G#X\ 16d\	.	16g\ 16b\ 16dd\	.
-8E\ 8G#\ 8d\	.	8g\ 8b\ 8dd\	.
+!	!	!LO:SIC:o=16g\ 16b\ 16dd\	!
+16E\ 16G#X\ 16d\	.	16g#\ 16b\ 16dd\	.
+!	!	!LO:SIC:o=8g\ 8b\ 8dd\	!
+8E\ 8G#\ 8d\	.	8g#\ 8b\ 8dd\	.
 8EEE/ 8EE/	.	8r	.
 *	*v	*v	*
 =48	=48	=48
@@ -412,3 +419,6 @@
 !!!END: 2023-09-09
 !!!ENC: Leszek Kubiak
 !!!END: 2023-09-30
+!!!ENC: Craig Stuart Sapp
+!!!ONB: added sic
+!!!END: 2023-10-16
