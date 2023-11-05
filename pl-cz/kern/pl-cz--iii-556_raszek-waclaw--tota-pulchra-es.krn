@@ -3080,6 +3080,6 @@
 !!!END: 2020-09-25
 !!!EED: Marta Lawrence
 !!!EEV: 2023-10-31
-!!!ENC-mod: Marta Lawrence
-!!!END-mod: 2023-10-31
+!!!ENC-modern: Marta Lawrence
+!!!END-modern: 2023-10-31
 !!!filter-modern: sic -sq | autostem -r | tie -s | shed -e "s/yy//" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/:rj/:RJ/L" | shed -e "s/^custos:/Xcustos:/I" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/LO:N:/LO:n:$1/L" | shed -k -e "s/([#-])[X]/$1/g; s/[n]/$1/g;" | modori -m

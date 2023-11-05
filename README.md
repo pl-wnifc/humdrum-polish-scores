@@ -37,8 +37,8 @@ People and Sponsors
 | Zuzanna Daniec |  |  |  |  | 46 |
 | Olaf Gawdzik |  |  |  |  | 34 |
 | Tomasz Grochalski | 558 | 819,933 | 7 |  |  |
-| z tego co wiem to Gręziak | 1 | 811 |  |  |  |
 | Andrzej Gręziak | 960 | 1,626,281 | 10 |  |  |
+| z tego co wiem to Gręziak | 1 | 811 |  |  |  |
 | Jacek Iwaszko | 2 | 587 | 3 | 1 | 3 |
 | Marcin Jachim | 563 | 869,527 | 9 |  |  |
 | Wojciech Jakubiak-Danek |  |  | 375 |  |  |
@@ -47,7 +47,7 @@ People and Sponsors
 | Magdalena Agnieszka Krok |  |  |  |  | 15 |
 | Leszek Kubiak | 41 | 11,796 | 837 | 166 |  |
 | Andrzej Kubiczek | 550 | 882,658 | 803 | 249 |  |
-| Marta Lawrence | 119 | 59,796 | 1,089 | 115 |  |
+| Marta Lawrence | 119 | 59,796 | 1,089 | 116 |  |
 | Arkadiusz Malec | 61 | 114,735 | 3 |  |  |
 | Anastazja Marusiak | 644 | 963,758 | 22 |  |  |
 | Solarz Mateusz | 47 | 74,374 |  |  |  |
@@ -69,7 +69,7 @@ People and Sponsors
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 79 |
 | Urszula Świątek | 2 | 2,382 | 207 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 73 |
-| TOTALS | 7,689 | 11,842,662 | 7,110 | 1,006 | 1,068 |
+| TOTALS | 7,689 | 11,842,662 | 7,110 | 1,007 | 1,068 |
 
 </details>
 
@@ -1454,11 +1454,9 @@ their meanings:
 | `EEV-modern` | Revision date for modernization filter |
 | `ENC` | Digital score encoder |
 | `ENC-iiif` | Encoder of IIIF bounding boxes |
-| `ENC-mod` | UNKNOWN |
 | `ENC-modern` | Encoder of modernization filter |
 | `END` | Encoding date |
 | `END-iiif` | Encoding date for IIIF bounding boxes |
-| `END-mod` | UNKNOWN |
 | `END-modern` | Encoding date for moderization filter |
 | `GTL` | Title of multiple works forming a group |
 | `IIIF` | IIIF manifest for source scan |
