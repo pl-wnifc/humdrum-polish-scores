@@ -2096,7 +2096,7 @@ N[1DD N[1D	.	(2b/	2g\	.	2D\	pp	2D\	.	1r	.	1r	.	2D\	grze-	pp	2d\	grze-	pp	2g\	grz
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!RDF**kern: N = linked
-!!!filter-: modori -m | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | autostem -r |
+!!!filter-modern: modori -m | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | sic -sq | autostem -r
 !!!system-decoration: [(s1,s2,s3,s4)][(s5)][(s6,s7,s8,s9)][(s10,s11,s12,s13)]{(s14,s15)}
 !!!ENC: Andrzej Borzym
 !!!END: 2020-10-25

@@ -591,7 +591,7 @@
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [(s1,s2,s3,s4)]
-!!!filter-: modori -m | shed -e "s/-//B" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -e "s/^custos:/Xcustos:/I" |  humtr -p  | tie -si | sic -sq | autostem -r |
+!!!filter-modern: modori -m | shed -e "s/-//B" | shed -k -e "s/([\(\)\[\]_])[><]/$1/g" | shed -e "s/^custos:/Xcustos:/I" |  humtr -p  | tie -si | sic -sq | autostem -r
 !!!ENC: Mateusz Solarz
 !!!END: 2022-06-30
 !!!ENC: Julita Ruszuk

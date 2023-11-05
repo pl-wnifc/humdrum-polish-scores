@@ -1008,7 +1008,7 @@
 ==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-
 !!!system-decoration: [g1][g2][g3]s7
-!!!filter-modern: modori -m | shed -e "s/tx(.*):t=P:/tx$1:t=P:/LG" | humtr -p | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | tie -si | autostem -r |
+!!!filter-modern: modori -m | shed -e "s/tx(.*):t=P:/tx$1:t=P:/LG" | humtr -p | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | tie -si | autostem -r
 !!!ENC: Zofia Niedbalska
 !!!END: 2020-12-04
 !!!ENC: Marcin Jachim
