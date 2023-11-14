@@ -975,6 +975,31 @@ their meanings:
 {{reference-table}}
 
 
+Converting to Standard MIDI Files
+---------------------------------
+
+(In progress).
+
+To convert the digital scores to MIDI files on the command-line,
+first install [verovio](https://github.com/rism-digital/verovio)
+and [humextra](https://github.com/craigsapp/humlib).
+
+
+Then type these two commands in a terminal (in
+the base directory of the repository):
+
+```bash
+make sic
+make midi
+```
+
+The `make sic` command will apply sic corrections to the diplomatic kern scores
+(see the Diplomatic section below).  Then `make midi` will use the
+`bin/makeMidi` script to generate MIDI files from the sic-corrected scores.
+MIDI files will be written to `midi` subdirectories in each source
+archive directory (in parallel to the `kern` and `sic` subdirectories).
+
+
 
 Diplomatic edition
 ------------------

@@ -37,8 +37,8 @@ People and Sponsors
 | Zuzanna Daniec |  |  |  |  | 46 |
 | Olaf Gawdzik |  |  |  |  | 34 |
 | Tomasz Grochalski | 558 | 819,933 | 7 |  |  |
-| Andrzej Gręziak | 960 | 1,626,281 | 10 |  |  |
 | z tego co wiem to Gręziak | 1 | 811 |  |  |  |
+| Andrzej Gręziak | 960 | 1,626,281 | 10 |  |  |
 | Jacek Iwaszko | 2 | 587 | 3 | 1 | 3 |
 | Marcin Jachim | 563 | 869,527 | 9 |  |  |
 | Wojciech Jakubiak-Danek |  |  | 375 |  |  |
@@ -1489,6 +1489,31 @@ their meanings:
 
 </details>
 
+
+
+Converting to Standard MIDI Files
+---------------------------------
+
+(In progress).
+
+To convert the digital scores to MIDI files on the command-line,
+first install [verovio](https://github.com/rism-digital/verovio)
+and [humextra](https://github.com/craigsapp/humlib).
+
+
+Then type these two commands in a terminal (in
+the base directory of the repository):
+
+```bash
+make sic
+make midi
+```
+
+The `make sic` command will apply sic corrections to the diplomatic kern scores
+(see the Diplomatic section below).  Then `make midi` will use the
+`bin/makeMidi` script to generate MIDI files from the sic-corrected scores.
+MIDI files will be written to `midi` subdirectories in each source
+archive directory (in parallel to the `kern` and `sic` subdirectories).
 
 
 

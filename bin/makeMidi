@@ -1,0 +1,37 @@
+#!/usr/bin/env perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Tue Nov 14 08:16:31 JST 2023
+# Last Modified: Tue Nov 14 08:16:34 JST 2023
+# Filename:      humdrum-polish-scores/bin/makeMidi
+# Syntax:        perl 5
+#
+# Description:   Convert corrected scores into MIDI using verovio.
+#
+
+use strict;
+
+my $verovio = `which verovio`;
+chomp $verovio;
+die "Cannot find verovio tool, Install first\n" if $verovio =~ /^\s*$/;
+
+my @dirs = sort glob("*-*/sic");
+die "Run 'make sic' first before 'make midi'." if !@dirs;
+
+
+foreach my $dir (@dirs) {
+	my @files = sort glob("$dir/*.sic");
+	my $basedir = $dir;
+	$basedir =~ s/\/.*//;
+	`mkdir -p "$basedir/midi"`;
+	foreach my $file (@files) {
+		$file =~ s/.*\///;
+		my $newfile = $file;
+		$newfile =~ s/\.sic$/.mid/;
+		print "Processing $basedir :: $file\n";
+		`$verovio "$basedir/sic/$file" -t midi -o "$basedir/midi/$newfile"`;
+	}
+}
+
+
+

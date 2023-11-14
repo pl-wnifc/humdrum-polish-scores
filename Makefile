@@ -172,16 +172,17 @@ reference-keys:
 ## */sic       == Apply sic corrections to data.
 ## */keyscapes == Generate keyscapes for scores.
 ## */modern    == Apply modernization filters to scores.
+## */midi      == Generate MIDI files from scores.
 ##
 ###########################################################################
 
 ##############################
 ##
-## derivatives -- Create sic and keyscape data.
+## derivatives -- Create sic and then derivatives
 ##
 
 d: derivatives
-derivatives: sic keyscape modern
+derivatives: sic keyscape modern midi
 
 
 
@@ -239,6 +240,39 @@ modern:
 
 ##############################
 ##
+## clean-modern: Delete [rismid]/modern directories.
+##
+
+modern-clean: clean-modern
+clean-modern:
+	-rm -rf *-*/modern
+
+
+
+##############################
+##
+## midi: Create MIDI files from sic files.
+##
+
+mid: midi
+midi:
+	bin/makeMidi
+
+
+
+##############################
+##
+## clean-midi: Delete [rismid]/midi directories.
+##
+
+midi-clean: clean-midi
+clean-midi:
+	-rm -rf *-*/midi
+
+
+
+##############################
+##
 ## sic: Apply sic corrections to scores, saving output data in "sic"
 ##     directory by rism source archive.
 ##
@@ -256,17 +290,6 @@ sic:
 sic-clean: clean-sic
 clean-sic:
 	-rm -rf *-*/sic
-
-
-
-##############################
-##
-## clean-modern: Delete [rismid]/modern directories.
-##
-
-modern-clean: clean-modern
-clean-modern:
-	-rm -rf *-*/modern
 
 
 
