@@ -21,12 +21,13 @@
 !!!URL-scan:
 !!!IIIF:
 !!!ONB-nifc:
-!!!AIN: 2 empty
-!!!key:
+!!!AIN: 1 piano 1 vox
+!!!key: e
 **kern	**kern	**dynam	**kern	**text	**text	**dynam
 *part2	*part2	*	*part1	*	*	*
 *staff3	*staff2	*	*staff1	*	*	*
-*Iempty	*Iempty	*	*Iempty	*	*	*
+*ICklav	*ICklav	*	*ICvox	*	*	*
+*Ipiano	*Ipiano	*	*Ivox	*	*	*
 *I"	*I"	*	*I"	*	*	*
 *>[A,B,B,C]	*>[A,B,B,C]	*	*>[A,B,B,C]	*	*	*
 *>A	*>A	*	*>A	*	*	*
@@ -39,9 +40,9 @@
 *^	*	*	*	*	*	*
 !	!	!LO:TX:a:i:t=un poco agitato.	!	!	!	!	!
 !LO:TX:t=P:problem=przy kluczu błędnie F# C# G#	!	!LO:TX:t=P:problem=przy kluczu f# cc# g# dd#	!	!LO:TX:t=P:problem=przy kluczu f# cc# g# dd#	!	!	!
-4.r	4.ryy	8B/L	p	1.r	.	.	.
+4r	4.ryy	8B/L	p	1.r	.	.	.
 .	.	8B/	.	.	.	.	.
-.	.	8B/J	.	.	.	.	.
+8r	.	8B/J	.	.	.	.	.
 (4.BB/	4.GGn\	8B/L	.	.	.	.	.
 .	.	8B/	.	.	.	.	.
 .	.	8B/J	.	.	.	.	.
@@ -57,10 +58,10 @@
 *2\right	*	*	*	*	*	*
 *tremolo	*tremolo	*	*	*	*	*
 8BB 8EE\L	8B< 8Gn< 8E</L	.	4.B/	Je-	Tak	.
-8BB 8EE\	8B< 8Gn< 8E</	.	.	.	.	.
-8BB 8EE\	8B< 8Gn< 8E</J	.	.	.	.	.
+8BB 8EE\	8B< 8G< 8E</	.	.	.	.	.
+8BB 8EE\	8B< 8G< 8E</J	.	.	.	.	.
 *	*Xtremolo	*	*	*	*	*
-8BB 8EE\	8A#X< 8G< 8E</L	.	4A#X/	-szcze	w_na-	.
+8BB 8EE\	8A#X< 8G< 8E</L	.	4A#X/	-szcze	w na-	.
 8BB 8EE\	8A#< 8G< 8E</	.	.	.	.	.
 8BB 8EE\J	8B< 8G< 8E</J	.	8B/	na	-szym	.
 *	*tremolo	*	*	*	*	*
@@ -72,47 +73,50 @@
 8BB 8EE\J	8e 8B< 8G< 8E</J	.	8e/	pół	-cie	.
 =3	=3	=3	=3	=3	=3	=3
 *	*	*	*^	*	*	*
-!LO:SIC:v:n=1:o=8D 8BB 8EE\L	!	!	!	!	!	!	!
-8D#	8f# 8B< 8A</L	.	4.f#/	4f#\	wio-	szczę-	.
-!LO:SIC:v:n=1:o=8D 8BB 8EE\	!	!	!	!	!	!	!
-8D#	8f# 8B< 8A</	.	.	.	.	.	.
-!LO:SIC:v:n=1:o=8D 8BB 8EE\J	!	!	!	!	!	!	!
-8D#	8f# 8B< 8A</J	.	.	8f#\	.	-śćia	.
+!LO:SIC:v:o=8D 8BB 8EE\L	!	!	!	!	!	!	!
+8D# 8BB 8EEL	8f# 8B< 8A</L	.	4.f#/	4f#\	wio-	szczę-	.
+!LO:SIC:v:o=8D 8BB 8EE\	!	!	!	!	!	!	!
+8D# 8BB 8EE	8f# 8B< 8A</	.	.	.	.	.	.
+!LO:SIC:v:o=8D 8BB 8EE\J	!	!	!	!	!	!	!
+8D# 8BB 8EEJ	8f# 8B< 8A</J	.	.	8f#\	.	-śćia	.
 *Xtremolo	*Xtremolo	*	*	*	*	*	*
 8C#L 8BB 8EE\	8eL 8B< 8A</	.	4e/	2.ryy	-sna	jesz-	.
 8C# 8BB 8EE\	8e 8B< 8A</	.	.	.	.	.	.
-!LO:SIC:v:n=1:o=8DJ 8BB 8EE\	!	!	!	!	!	!	!
-8D#J	8f#J 8B< 8A</	.	8f#/	.	pół	-cze	.
+!LO:SIC:v:o=8DJ 8BB 8EE\	!	!	!	!	!	!	!
+8D# 8BB 8EEJ	8f#J 8B< 8A</	.	8f#/	.	pół	-cze	.
 *tremolo	*tremolo	*	*	*	*	*	*
 8E 8BB 8EE\L	8gn 8e 8B< 8Gn</L	.	[4.gn/	.	zi-	nié	.
-8E 8BB 8EE\	8gn 8e 8B< 8Gn</	.	.	.	.	.	.
-8E 8BB 8EE\	8gn 8e 8B< 8Gn</	.	.	.	.	.	.
-8E 8BB 8EE\	8gn 8e 8B< 8Gn</	.	4g/]	4.ryy	.	.	.
-8E 8BB 8EE\	8gn 8e 8B< 8Gn</	.	.	.	.	.	.
-8E 8BB 8EE\J	8gn 8e 8B< 8Gn</J	.	8g/	.	-ma	ma	.
+8E 8BB 8EE\	8g 8e 8B< 8G</	.	.	.	.	.	.
+8E 8BB 8EE\	8g 8e 8B< 8G</	.	.	.	.	.	.
+8E 8BB 8EE\	8g 8e 8B< 8G</	.	4g/]	4.ryy	.	.	.
+8E 8BB 8EE\	8g 8e 8B< 8G</	.	.	.	.	.	.
+8E 8BB 8EE\J	8g 8e 8B< 8G</J	.	8g/	.	-ma	ma	.
 *	*	*	*v	*v	*	*	*
 !!LO:LB:g=original
 =4	=4	=4	=4	=4	=4	=4
 *k[f#c#g#d#]	*	*	*	*	*	*
 !LO:TX:t=P:problem=przy kluczu F# C# G# D#	!	!	!	!	!	!
-8C# 8CC#\L	8gn 8e 8cn 8Gn</L	.	4.gn/	jesz-	jesz-	.
-8C# 8CC#\	8gn 8e 8cn 8Gn</	.	.	.	.	.
-8C# 8CC#\	8gn 8e 8cn 8Gn</	<	.	.	.	.
-8C# 8CC#\	8gn 8e 8cn 8Gn</	.	4e/	-cze	-cze	.
-8C# 8CC#\	8gn 8e 8cn 8Gn</	.	.	.	.	.
-8C# 8CC#\J	8gn 8e 8cn 8Gn</J	.	8f#/	bez	dusz	.
+8Cn 8CCn\L	8gn 8e 8cn 8Gn</L	.	4.gn/	jesz-	jesz-	.
+8C 8CC\	8g 8e 8cn 8G</	<	.	.	.	.
+8C 8CC\	8g 8e 8cn 8G</	.	.	.	.	.
+8C 8CC\	8g 8e 8cn 8G</	.	4e/	-cze	-cze	.
+8C 8CC\	8g 8e 8cn 8G</	.	.	.	.	.
+8C 8CC\J	8g 8e 8cn 8G</J	.	8f#/	bez	dusz	.
 8BB 8BBB/L	8g 8dn 8G</L	.	[4.g/	liś-	na-	.
-8BB 8BBB/	8g 8dn 8G</	.	.	.	.	.
-8BB 8BBB/J	8g 8dn 8G</J	.	.	.	.	.
+8BB 8BBB/	8g 8d 8G</	.	.	.	.	.
+8BB 8BBB/J	8g 8d 8G</J	.	.	.	.	.
 8GGn 8GGGn/L	8g 8d 8B/L	.	4g/]	-ci	.	.
 8GGn 8GGGn/	8g 8d 8B/	.	.	.	.	.
 8GGn 8GGGn/J	8g 8d 8B/J	[	8g/	i	-szych	.
 .	.	>	.	.	.	.
 =5	=5	=5	=5	=5	=5	=5
 *	*Xtremolo	*	*	*	*	*
-8Dn 8AA 8DDn\L	8f#L 8c#< 8A</	.	(4f#/	drze-	świa-	.
-8Dn 8AA 8DDn\	8f# 8c#< 8A</	.	.	.	.	.
-8Dn 8AA 8DDn\	8eJ 8c#< 8A</	.	8e/)	.	-tło	.
+!	!LO:SIC:v:o=8f#L 8c#< 8A</	!	!	!	!	!
+8Dn 8AA 8DDn\L	8f#L 8c< 8A<	.	(4f#/	drze-	świa-	.
+!	!LO:SIC:v:o=8f# 8c#< 8A</	!	!	!	!	!
+8Dn 8AA 8DDn\	8f# 8c< 8A<	.	.	.	.	.
+!	!LO:SIC:v:o=8eJ 8c#< 8A</	!	!	!	!	!
+8Dn 8AA 8DDn\	8eJ 8c< 8A<	.	8e/)	.	-tło	.
 8Dn 8AA 8DDn\	8dnL 8A< 8F#</	.	4dn/	-wa	się	.
 8Dn 8AA 8DDn\	8d 8A< 8F#</	.	.	.	.	.
 8Dn 8AA 8DDn\J	8cnJ 8A< 8F#</	.	8cn/	i	o-	.
@@ -137,12 +141,12 @@
 8BB 8EE	8e 8B< 8G< 8E</	.	.	.	.	.
 8BB 8EE	8e 8B< 8G< 8E</	.	4e/]	.	bon	.
 8BB 8EE	8e 8B< 8G< 8E</	.	.	.	.	.
-8BB 8EEJ	8e 8B< 8G< 8E</J	.	8e/	-ży	w_swych	.
+8BB 8EEJ	8e 8B< 8G< 8E</J	.	8e/	-ży	w swych	.
 !!LO:LB:g=original
 =7	=7	=7	=7	=7	=7	=7
 *	*	*	*^	*	*	*
 8D# 8BB 8EE\L	8f# 8B< 8A</L	.	4f#/	4.f#\	jesz-	pę-	.
-!	!LO:TX:a:t=cres-cen-do.:problem=dynamics with extention lines	!LO:HP:t=cres-cen-do:ext=ud	!	!	!	!	!
+!	!LO:TX:b:i:t=cres-cen-do.:PROBLEM=dynamics with extention lines	!LO:HP:t=cres-cen-do:ext2=cd	!	!	!	!	!
 8D# 8BB 8EE\	8f# 8B< 8A</	<	.	.	.	.	.
 8D# 8BB 8EE\J	8f# 8B< 8A</J	.	8f#/	.	-cze	.	.
 *Xtremolo	*Xtremolo	*	*	*	*	*	*
@@ -150,53 +154,52 @@
 8C# 8BB 8EE\	8e 8B< 8A</	.	.	.	.	.	.
 8D#J 8BB 8EE\	8f#J 8B< 8A</	.	8f#/	.	-tów	nas	.
 *tremolo	*tremolo	*	*	*	*	*	*
-!	!LO:SIC:v:n=1:o=8g# 8e 8B< 8Gn</L	!	!	!	!	!	!
-8E 8BB 8EE\L	8gn	.	[4.gn/	.	nie-	trzy-	.
-!	!LO:SIC:v:n=1:o=8g# 8e 8B< 8Gn</	!	!	!	!	!	!
-8E 8BB 8EE\	8gn	.	.	.	.	.	.
-!	!LO:SIC:v:n=1:o=8g# 8e 8B< 8Gn</J	!	!	!	!	!	!
-8E 8BB 8EE\J	8gn	.	.	.	.	.	.
-!	!LO:SIC:v:n=1:o=8g# 8e 8G</L	!	!	!	!	!	!
-8Dn 8DDn\L	8gn	.	4g/]	4.ryy	.	.	.
-!	!LO:SIC:v:n=1:o=8g# 8e 8G</	!	!	!	!	!	!
-8Dn 8DDn\	8gn	.	.	.	.	.	.
-!	!LO:SIC:v:n=1:o=8g# 8e 8G</J	!	!	!	!	!	!
-8Dn 8DDn\J	8gn	.	8g/	.	-ma;	-ma,	.
+!	!LO:SIC:v:o=8g# 8e 8B< 8Gn</L	!	!	!	!	!	!
+8E 8BB 8EE\L	8gn 8e 8B< 8Gn<L	.	[4.gn/	.	nie-	trzy-	.
+!	!LO:SIC:v:o=8g# 8e 8B< 8G</	!	!	!	!	!	!
+8E 8BB 8EE\	8g 8e 8B< 8G<	.	.	.	.	.	.
+!	!LO:SIC:v:o=8g# 8e 8B< 8G</J	!	!	!	!	!	!
+8E 8BB 8EE\J	8g 8e 8B< 8G<	.	.	.	.	.	.
+!	!LO:SIC:v:o=8g# 8e 8G</L	!	!	!	!	!	!
+8Dn 8DDn\L	8g 8e 8B< 8G<	.	4g/]	4.ryy	.	.	.
+!	!LO:SIC:v:o=8g# 8e 8G</	!	!	!	!	!	!
+8D 8DD\	8g 8e 8B< 8G<	.	.	.	.	.	.
+!	!LO:SIC:v:o=8g# 8e 8G</J	!	!	!	!	!	!
+8D 8DD\J	8g 8e 8B< 8G<J	.	8g/	.	-ma;	-ma,	.
 *	*	*	*v	*v	*	*	*
 =8	=8	=8	=8	=8	=8	=8
 8Cn 8CCn/L	8a 8gn 8e 8A</L	.	4.a/	jesz-	jesz-	.
-8Cn 8CCn/	8a 8gn 8e 8A</	.	.	.	.	.
-8Cn 8CCn/	8a 8gn 8e 8A</	.	.	.	.	.
-8Cn 8CCn/	8a 8gn 8e 8A</	.	4gn/	-cze	-cze	.
-8Cn 8CCn/	8a 8gn 8e 8A</	.	.	.	.	.
-8Cn 8CCn/J	8a 8gn 8e 8A</J	.	8a/	z_wę-	się	.
+8C 8CC/	8a 8gn 8e 8A</	.	.	.	.	.
+8C 8CC/	8a 8gn 8e 8A</	.	.	.	.	.
+8C 8CC/	8a 8gn 8e 8A</	.	4gn/	-cze	-cze	.
+8C 8CC/	8a 8gn 8e 8A</	.	.	.	.	.
+8C 8CC/J	8a 8gn 8e 8A</J	.	8a/	z_wę-	się	.
 8Dn 8DDn\L	8b 8g 8dn 8B</L	.	[4.b\	-drów-	o-	.
-8Dn 8DDn\	8b 8g 8dn 8B</	.	.	.	.	.
-8Dn 8DDn\	8b 8g 8dn 8B</	.	.	.	.	.
-8Dn 8DDn\	8b 8g 8dn 8B</	.	4b\]	.	.	.
-8Dn 8DDn\	8b 8g 8dn 8B</	.	.	.	.	.
-8Dn 8DDn\J	8b 8g 8dn 8B</J	.	8b\	-ki	-ko	.
+8D 8DD\	8b 8g 8dn 8B</	.	.	.	.	.
+8D 8DD\	8b 8g 8dn 8B</	.	.	.	.	.
+8D 8DD\	8b 8g 8dn 8B</	.	4b\]	.	.	.
+8D 8DD\	8b 8g 8dn 8B</	.	.	.	.	.
+8D 8DD\J	8b 8g 8dn 8B</J	.	8b\	-ki	-ko	.
 =9	=9	=9	=9	=9	=9	=9
 8Dn 8DDn/L	8a 8e 8cn/L	.	4a\	nie	hoj-	.
-8Dn 8DDn/	8a 8e 8cn/	.	.	.	.	.
+8D 8DD/	8a 8e 8cn/	.	.	.	.	.
 *	*Xtremolo	*	*	*	*	*
-8Dn 8DDn/	8a 8e 8cn/J	.	8a\	wró-	-ną	.
-8Dn 8DDn/	8bL 8f# 8dn/	.	4b\	-ci-	łzą	.
-8Dn 8DDn/	8b 8f# 8d/	.	.	.	.	.
-8Dn 8DDn/J	8f#J 8d 8cn/	[	8f#/	-ły	za-	.
+8D 8DD/	8a 8e 8cn/J	.	8a\	wró-	-ną	.
+8D 8DD/	8bL 8f# 8dn/	.	4b\	-ci-	łzą	.
+8D 8DD/	8b 8f# 8d/	.	.	.	.	.
+8D 8DD/J	8f#J 8d 8cn/	[	8f#/	-ły	za-	.
 *	*tremolo	*	*	*	*	*
 8GGn/L	8gn 8d 8B/L	>	4.gn/	pta-	-le-	.
-8GGn/	8gn 8d 8B/	.	.	.	.	.
-8GGn/	8gn 8d 8B/	.	.	.	.	.
-8GGn/	8gn 8d 8B/	.	4g/	-ki.	-wa.	.
-8GGn/	8gn 8d 8B/	.	.	.	.	.
-8GGn/J	8gn 8d 8B/J	]	8r	.	.	.
+8GG/	8gn 8d 8B/	.	.	.	.	.
+8GG/	8gn 8d 8B/	.	.	.	.	.
+8GG/	8gn 8d 8B/	.	4g/	-ki.	-wa.	.
+8GG/	8gn 8d 8B/	.	.	.	.	.
+8GG/J	8gn 8d 8B/J	]]	8r	.	.	.
 !!LO:PB:g=original
 =10	=10	=10	=10	=10	=10	=10
-!	!	!LO:DY:t=pp.	!	!	!	!LO:DY:t=p.
+!	!	!LO:DY:t=pp.	!	!	!	!LO:DY:t=p. dolce.
 8A 8BBL	8f# 8d# 8B/L	pp	4.f#/	Lecz	Lecz	p
 8A 8BB	8f# 8d# 8B/	.	.	.	.	.
-!	!	!	!LO:TX:a:i:t=dolce.	!	!	!
 8A 8BB	8f# 8d# 8B/	.	.	.	.	.
 8A 8BB	8f# 8d# 8B/	.	4f#/	pa-	jas-	.
 8A 8BB	8f# 8d# 8B/	.	.	.	.	.
@@ -222,9 +225,9 @@
 8F# 8BB\J	8b 8f# 8d# 8B/J	.	16a/LL	-bie,	-bie,	.
 .	.	.	16g#/JJ	.	.	.
 =12	=12	=12	=12	=12	=12	=12
-8F# 8BB/L	8f# 8d# 8B/L	.	4.f#/	patrz	więc	.
+8F# 8BB/L	8f# 8d# 8B/L	<	4.f#/	patrz	więc	.
 8F# 8BB/	8f# 8d# 8B/	.	.	.	.	.
-8F# 8BB/	8f# 8d# 8B/	<	.	.	.	.
+8F# 8BB/	8f# 8d# 8B/	.	.	.	.	.
 8F# 8BB/	8f# 8d# 8B/	.	4d#/	jak	na	.
 8F# 8BB/	8f# 8d# 8B/	.	.	.	.	.
 8F# 8BB/J	8f# 8d# 8B/J	.	8f#/	wy-	mar-	<
@@ -233,13 +236,13 @@
 8F# 8BB 8AA/	8b 8f# 8d# 8B/	.	.	.	.	.
 8F# 8BB 8AA/	8b 8f# 8d# 8B/	.	4b\]	.	.	.
 8F# 8BB 8AA/	8b 8f# 8d# 8B/	.	.	.	.	[[
-8F# 8BB 8AA/J	8b 8f# 8d# 8B/J	[	8b\	-ko	-we	.
+8F# 8BB 8AA/J	8b 8f# 8d# 8B/J	[[	8b\	-ko	-we	.
 !!LO:LB:g=original
 =13	=13	=13	=13	=13	=13	=13
 !	!	!LO:DY:rj:t=f.	!LO:TX:a:i:t=ritard.	!	!	!
 8G# 8BB 8GG#/L	8b 8e 8B/L	f	4ee\	wzbi-	mniej	.
-8G# 8BB 8GG#/	8b 8e 8B/	.	.	.	.	.
-8G# 8BB 8GG#/J	8b 8e 8B/J	>	8b\	-ło	zwa-	.
+8G# 8BB 8GG#/	8b 8e 8B/	>	.	.	.	.
+8G# 8BB 8GG#/J	8b 8e 8B/J	.	8b\	-ło	zwa-	.
 *	*Xtremolo	*	*	*	*	*
 8E 8BB 8EE/L	8bL 8g# 8B/	.	8b/L	się	-ża-	>
 8E 8BB 8EE/	8a 8f# 8B/	.	8a/J	.	.	.
@@ -254,13 +257,13 @@
 8BB\J	8B< 8A< 8F#< 8D#</J	.	8B/	-ce	-dy	p
 =14	=14	=14	=14	=14	=14	=14
 *	*	*	*^	*	*	*
-8BB 8EE\L	8B< 8G#< 8E</L	.	4.B/	2.ryy	i	z_wia-	.
+8BB 8EE\L	8B< 8G#< 8E</L	.	4.B/	2.ryy	i	z wia-	.
 8BB 8EE\	8B< 8G#< 8E</	.	.	.	.	.	.
 8BB 8EE\	8B< 8G#< 8E</	.	.	.	.	.	.
 8BB 8EE\	8B< 8G#< 8E</	.	4A#X/	.	bia-	-rą	.
-!	!LO:TX:t=cresc. ed. accelerando.:problem=dynamics with extention lines	!LO:HP:t=cresc. ed. accelerando.:ext=s	!	!LO:TX:t=cresc&colon; ed accelerando.:problem=dynamics with extention lines	!	!	!LO:HP:t=cresc&colon; ed accelerando.:ext=s
+!	!LO:TX:b:i:t=cresc. ed. accelerando.:PROBLEM=dynamics with extention lines	!LO:HP:t=cresc. ed. accelerando.:ext2=s	!	!LO:TX:i:t=cresc&colon; ed accelerando.:PROBLEM=dynamics with extention lines	!	!	!LO:HP:t=cresc&colon; ed accelerando.:ext2=s
 8BB 8EE\	8B< 8G#< 8E</	<	.	.	.	.	<
-8BB 8EE\J	8B< 8G#< 8E</J	.	8B/	.	-łe	w_czas	.
+8BB 8EE\J	8B< 8G#< 8E</J	.	8B/	.	-łe	w czas	.
 8C# 8EE\L	8e 8A< 8E</L	.	[4.e/	4.ryy	chmur-	le-	.
 8C# 8EE\	8e 8A< 8E</	.	.	.	.	.	.
 8C# 8EE\	8e 8A< 8E</	.	.	.	.	.	.
@@ -283,7 +286,7 @@
 *	*	*	*v	*v	*	*	*
 !!LO:LB:g=original
 =16	=16	=16	=16	=16	=16	=16
-!	!LO:TX:t=cres_cen_do:problem=dynamics with extention lines	!LO:HP:t=cres_cen_do:ext=cd	!	!	!	!
+!	!LO:TX:b:i:t=cres_cen_do:PROBLEM=dynamics with extention lines	!LO:HP:t=cres_cen_do:ext2=ud	!	!	!	!
 8C# 8AA/L	8a 8e 8A/L	<	4.e/	bie-	jak	.
 8C# 8AA/	8a 8e 8A/	.	.	.	.	.
 8C# 8AA/	8a 8e 8A/	.	.	.	.	.
@@ -298,12 +301,18 @@
 8F# 8AA/J	8a 8d# 8A/J	.	8a/	-ry	zwias-	.
 =17	=17	=17	=17	=17	=17	=17
 *	*	*	*^	*	*	*
-8G# 8E 8AA/L	8b 8d#/L	.	4b/	4b.\	wi-	-tun-	.
-8G# 8E 8AA/	8b 8d#/	.	.	.	.	.	.
-8G# 8E 8AA/	8b 8d#/	.	8b/	.	-dno-	.	.
-8G# 8E 8AA/	8b 8d#/	.	4a/	4.ryy	-krę-	-ki	.
-8G# 8E 8AA/	8b 8d#/	.	.	.	.	.	.
-8G# 8E 8AA/J	8b 8d#/J	.	8b/	.	-gu	po-	.
+!	!LO:SIC:v:o=8b 8d#/L	!	!	!	!	!	!
+8G# 8E 8AA/L	8b 8dL	.	4b/	4b.\	wi-	-tun-	.
+!	!LO:SIC:v:o=8b 8d#/	!	!	!	!	!	!
+8G# 8E 8AA/	8b 8d	.	.	.	.	.	.
+!	!LO:SIC:v:o=8b 8d#/	!	!	!	!	!	!
+8G# 8E 8AA/	8b 8d	.	8b/	.	-dno-	.	.
+!	!LO:SIC:v:o=8b 8d#/	!	!	!	!	!	!
+8G# 8E 8AA/	8b 8d	.	4a/	4.ryy	-krę-	-ki	.
+!	!LO:SIC:v:o=8b 8d#/	!	!	!	!	!	!
+8G# 8E 8AA/	8b 8d	.	.	.	.	.	.
+!	!LO:SIC:v:o=8b 8d#/J	!	!	!	!	!	!
+8G# 8E 8AA/J	8b 8dJ	.	8b/	.	-gu	po-	.
 *	*Xtremolo	*	*	*	*	*	*
 8A 8AA/L	8cc#L 8c#/	.	[4.cc#\	2.ryy	koń-	-go-	.
 8A 8AA/	8cc# 8e/	.	.	.	.	.	.
@@ -315,19 +324,19 @@
 *	*	*	*v	*v	*	*	*
 =18	=18	=18	=18	=18	=18	=18
 !	!	!LO:DY:t=ff..	!	!	!	!
-8A 8F# 8BB/L	8dd# 8f# 8d#/L	ff	4.dd#^\	już	z_wia-	.
+8A 8F# 8BB/L	8dd# 8f# 8d#/L	ff	4.dd#^\	już	z wia-	.
 8A 8F# 8BB/	8dd# 8f# 8d#/	.	.	.	.	.
 8A 8F# 8BB/	8dd# 8f# 8d#/J	.	.	.	.	.
 *	*Xtremolo	*	*	*	*	*
 8A 8F# 8BB/	8cc#L 8f# 8d#/	.	4cc#\	bia-	-rą	.
 8A 8F# 8BB/	8cc# 8f# 8d#/	.	.	.	.	.
-8A 8F# 8BB/J	8bJ 8f# 8d#/	.	8b\	-łe	w_czas	.
+8A 8F# 8BB/J	8bJ 8f# 8d#/	.	8b\	-łe	w czas	.
 *	*tremolo	*	*	*	*	*
-8G# 8BB/L	8b 8e/L	.	[4.b\	chmur-	lep-	.
+8G# 8BB/L	8b 8e/L	.	[4.b\	chmur-	le-	.
 8G# 8BB/	8b 8e/	.	.	.	.	.
 8G# 8BB/	8b 8e/J	.	.	.	.	.
 *	*Xtremolo	*	*	*	*	*
-8G# 8BB/	8bL 8e/	.	4b\]	.	-szy	.
+8G# 8BB/	8bL 8e/	.	4b\]	.	-pszy	.
 8G# 8BB/	8b 8e/	.	.	.	.	.
 8G# 8BB/J	8eeJ 8b 8e/	.	8ee\	-ki	bieg-	.
 !!LO:LB:g=original
@@ -344,7 +353,7 @@
 8F# 8BB#X\	8a 8d#/J	.	.	.	.	.
 8F# 8BB#X\	8g# 8d#/L	.	4g#/	-bie,	-bie,	.
 8F# 8BB#X\	8g# 8d#/	.	.	.	.	.
-8F# 8BB#X\J	8g# 8d#/J	]	8r	.	.	.
+8F# 8BB#X\J	8g# 8d#/J	]]	8r	.	.	.
 =20	=20	=20	=20	=20	=20	=20
 8E 8C#\L	8a 8c#/L	.	4.g#/	bie-	jak	.
 8E 8C#\	8a 8c#/	.	.	.	.	.
@@ -371,25 +380,23 @@
 .	8f#J 8d# 8A/	.	8d#/	-gu	po-	.
 *	*tremolo	*	*	*	*	*
 !LO:TX:a:i:t=a tempo.	!	!	!	!	!	!
-8BB 8EE/L	8e 8G#/L	<	4.e/	koń-	-go-	.
+8BB 8EE/L	8e 8G#/L)	<	4.e/	koń-	-go-	.
 8BB 8EE/	8e 8G#/	.	.	.	.	.
 8BB 8EE/	8e 8G#/	.	.	.	.	.
 8BB 8EE/	8e 8G#/	.	4e/	-ce.	-dy.	.
 8BB 8EE/	8e 8G#/	.	.	.	.	.
-8BB 8EE/J	8e 8G#/)J	[[	8r	.	.	.
+8BB 8EE/J	8e 8G#/J	[[	8r	.	.	.
 !!LO:LB:g=original
 =22	=22	=22	=22	=22	=22	=22
 *	*^	*	*	*	*	*
 *	*Xtremolo	*tremolo	*	*	*	*	*
-*	*	*2\right	*	*	*	*	*
-*	*	*all\right	*	*	*	*	*
-!	!LO:TX:t=cres_cen_do:problem=dynamics with extention lines	!LO:HP:t=cres_cen_do:ext=cd	!	!	!	!	!
+!	!LO:TX:b:i:t=cres_cen_do:PROBLEM=dynamics with extention lines	!LO:HP:t=cres_cen_do:ext2=ud	!	!	!	!	!
 8Cn 8EE\L	(>(4.e/	8A< 8E</L	<	1.ryy	.	.	.
-8Cn 8EE\	.	8A< 8E</	.	.	.	.	.
-8Cn 8EE\	.	8A< 8E</	.	.	.	.	.
-8Cn 8EE\	4d#/	8A< 8E</	.	.	.	.	.
-8Cn 8EE\	.	8A< 8E</	.	.	.	.	.
-8Cn 8EE\J	8e/)	8A< 8E</J	.	.	.	.	.
+8C 8EE\	.	8A< 8E</	.	.	.	.	.
+8C 8EE\	.	8A< 8E</	.	.	.	.	.
+8C 8EE\	4d#/	8A< 8E</	.	.	.	.	.
+8C 8EE\	.	8A< 8E</	.	.	.	.	.
+8C 8EE\J	8e/)	8A< 8E</J	.	.	.	.	.
 8BB 8EE\L	2.g 2.e^/	8B< 8G</L	.	.	.	.	.
 8BB 8EE\	.	8B< 8G</	.	.	.	.	.
 8BB 8EE\	.	8B< 8G</	.	.	.	.	.
@@ -397,19 +404,20 @@
 8BB 8EE\	.	8B< 8G</	.	.	.	.	.
 8BB 8EE\J	.	8B< 8G</J	.	.	.	.	.
 =23	=23	=23	=23	=23	=23	=23	=23
+*	*	*2\right	*	*	*	*	*
 8Dn 8DDn/L	4.a 4.f#/	8dn 8cn\L	.	1.ryy	.	.	.
-8Dn 8DDn/	.	8dn 8cn\	.	.	.	.	.
-8Dn 8DDn/	.	8dn 8cn\	.	.	.	.	.
-8Dn 8DDn/	4gn 4e/	8dn 8cn\	.	.	.	.	.
-8Dn 8DDn/	.	8dn 8cn\	.	.	.	.	.
-8Dn 8DDn/J	8a 8f#/)	8dn 8cn\J	[	.	.	.	.
+8D 8DD/	.	8dn 8cn\	.	.	.	.	.
+8D 8DD/	.	8dn 8cn\	.	.	.	.	.
+8D 8DD/	4gn 4e/	8dn 8cn\	.	.	.	.	.
+8D 8DD/	.	8dn 8cn\	.	.	.	.	.
+8D 8DD/J	8a 8f#/)	8dn 8cn\J	[	.	.	.	.
 !	!	!	!LO:DY:t=f.	!	!	!	!
 8GGn/L	4b 4g/	8d 8B\L	f	.	.	.	.
-8GGn/	.	8d 8B\	.	.	.	.	.
-8GGn/J	8r	8d 8B\J	>	.	.	.	.
+8GG/	.	8d 8B\	.	.	.	.	.
+8GG/J	8r	8d 8B\J	>	.	.	.	.
 8BB 8BBB/L	4.b 4.f#X/	8d#X 8B\L	.	.	.	.	.
 8BB 8BBB/	.	8d#X 8B\	.	.	.	.	.
-8BB 8BBB/J	.	8d#X 8B\J	]	.	.	.	.
+8BB 8BBB/J	.	8d#X 8B\J	]]	.	.	.	.
 =24:|!	=24:|!	=24:|!	=24:|!	=24:|!	=24:|!	=24:|!	=24:|!
 *>C	*>C	*	*	*>C	*	*	*
 [>2.BB [2.EE\	1.gn	8e 8Gn<\L	.	1.ryy	.	.	.
@@ -422,22 +430,21 @@
 (8Cn\	.	8e 8G<\	.	.	.	.	.
 8BB\J	.	8e 8G<\	.	.	.	.	.
 8GGn/L)	.	8e 8G<\	.	.	.	.	.
-8EE|/	.	8e 8G<\	.	.	.	.	.
-8BBB|/J	.	8e 8G<\J	.	.	.	.	.
+8EE`/	.	8e 8G<\	.	.	.	.	.
+8BBB`/J	.	8e 8G<\J	.	.	.	.	.
 *	*	*Xtremolo	*	*	*	*	*
 *	*v	*v	*	*	*	*	*
 =25	=25	=25	=25	=25	=25	=25
-*8vb	*	*	*	*	*	*
-!LO:TX:t=P:problem=fermata na pięciolinii	!LO:SIC:v:n=3:o=1.e 1.B< 1.G#<;	!	!	!	!	!
-1.EE;	1.Gn	.	1.ryy	.	.	.
-*X8vb	*	*	*	*	*	*
+*8ba	*	*	*	*	*	*
+!LO:TX:t=P:problem=fermata na pięciolinii	!LO:SIC:v:o=1.e 1.B< 1.G#<;	!	!	!	!	!
+1.EEE;	1.e 1.B< 1.G<; 	.	1.ryy	.	.	.
+*X8ba	*	*	*	*	*	*
 ==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: {<p1>(p2)}
+!!!system-decoration: {<vox>(klav)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!RDF**kern: | = vertical stroke
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-04-15
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-03-29
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-04-15

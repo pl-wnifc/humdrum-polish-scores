@@ -21,18 +21,18 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/6133 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!IIIF:
 !!!ONB-nifc: UWAGA: C (skan 0006, s. 8), T (skan 0104-0105, s. 12-13), B (skan 0215-0216, s. 11-12) Następny utwór: Kyrie
-!!!AIN: 1 empty 1 tenor 1 vox
-!!!key:
+!!!AIN: 1 bass 2 tenor
+!!!key: d:dor
 **kern	**text	**kern	**text	**kern	**text
-*group1	*	*group1	*	*group1	*
-*part3	*	*part2	*	*part1	*
-*staff3	*	*staff2	*	*staff1	*
-*Iempty	*	*Itenor	*	*Ivox	*
+*part3	*part3	*part2	*part2	*part1	*part1
+*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*ICvox	*	*ICvox	*	*ICvox	*
+*Ibass	*	*Itenor	*	*Itenor	*
 *I"Baſsus.	*	*I"Tenor.	*	*I"Cantus.	*
 *I'B	*	*I'T	*	*I'S	*
 *clefF4	*	*clefC4	*	*clefC4	*
 *k[]	*	*k[]	*	*k[]	*
-*d:	*	*d:	*	*d:	*
+*d:dor	*	*d:dor	*	*d:dor	*
 *M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*
 =1-	=1-	=1-	=1-	=1-	=1-
@@ -45,10 +45,10 @@
 .	.	2f\	Pa-	.	.
 4GG/	.	.	.	.	.
 *	*	*	*	*Xlig	*
-!	!	!	!	!LO:TX:t=P:global:problem=rozdzielacz słów	!
+!	!	!	!	!LO:TX:t=P:global:problem=cezura	!
 1AA	.	1.e	-tri	1A,<	-a
 =3-	=3-	=3-	=3-	=3-	=3-
-!LO:TX:t=P:global:problem=rozdzielacz słów	!	!	!	!	!
+!LO:TX:t=P:global:problem=cezura	!	!	!	!	!
 2AA,</	-tri	.	.	1A	Pa-
 2AA/	et	2e\	et	.	.
 2D/	fi-	2f\	fi-	1A,<	-tri
@@ -57,15 +57,17 @@
 =4-	=4-	=4-	=4-	=4-	=4-
 2C/	.	2e\	.	1A,<	et
 2D/	-li-	1d	.	.	.
-*custos:D	*	*	*	*	*
 1AA	-o	.	.	1A	Fi-
-.	.	4c\	.	.	.
+!	!	!LO:SIC:v:o=4c\	!	!	!
+.	.	4c#i	.	.	.
 .	.	4B\	.	.	.
+*custos:D	*	*	*	*	*
 !LO:PB:g=original	!	!	!	!	!
 =5-	=5-	=5-	=5-	=5-	=5-
-2r	.	2c\	.	1A	-li-
+!	!	!LO:SIC:v:o=2c\	!	!	!
+2r	.	2c#i	.	1A	-li-
 1D	et	2d\	-li-	.	.
-!	!	!LO:TX:t=P:global:problem=rozdzielacz słów	!	!	!
+!	!	!LO:TX:t=P:global:problem=cezura	!	!	!
 .	.	1A,<	-o	1A,<	-o
 !LO:TX:t=P:problem=♯ below	!	!	!	!	!
 2C#X/	Spi-	.	.	.	.
@@ -73,11 +75,10 @@
 *lig	*	*	*	*	*
 1D	-ri-	1F	et	1A,<	et
 *col	*	*	*	*	*
-*	*	*custos:F	*	*	*
 2.AA/	.	1E	Spi-	1A	Spi-
 *Xlig	*	*	*	*	*
 4AA/	-tu-	.	.	.	.
-*Xcol	*	*	*	*	*
+*Xcol	*	*custos:F	*	*	*
 !	!	!LO:LB:g=original	!	!	!
 =7-	=7-	=7-	=7-	=7-	=7-
 *	*	*	*	*lig	*
@@ -101,11 +102,11 @@
 1D	.	.	.	1A	San-
 .	.	4d\	.	.	.
 .	.	1d	.	.	.
-*	*	*	*	*custos:G	*
 0E	.	.	.	1G	.
 !	!	!LO:TX:t=P:problem=♯ above	!	!	!
 .	.	4c#X\	.	.	.
 .	.	4B\	.	.	.
+*	*	*	*	*custos:G	*
 *	*	*	*	*Xlig	*
 !	!	!	!	!LO:LB:g=original	!
 =10-	=10-	=10-	=10-	=10-	=10-
@@ -118,8 +119,8 @@
 =11-	=11-	=11-	=11-	=11-	=11-
 *	*	*	*	*lig	*
 2GG,</	-cto	2B\	.	1G	Si-
-*custos:D	*	*	*	*	*
 2C/	Si-	2c\	.	.	.
+*custos:D	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!
 2D/	-cut	4A/	.	1F	.
 .	.	4G/	.	.	.
@@ -127,7 +128,6 @@
 .	.	4B\	.	.	.
 *	*	*	*	*Xlig	*
 =12-	=12-	=12-	=12-	=12-	=12-
-*	*	*custos:d	*	*	*
 *	*	*	*	*lig	*
 .	.	0c	-cto	1G	-cut
 8E\L	.	.	.	.	.
@@ -135,7 +135,7 @@
 2E\	.	.	.	.	.
 2.F\	.	.	.	1A,<	.
 4E\	.	.	.	.	.
-*	*	*	*	*Xlig	*
+*	*	*custos:d	*	*Xlig	*
 !	!	!LO:LB:g=original	!	!	!
 =13-	=13-	=13-	=13-	=13-	=13-
 *lig	*	*	*	*	*
@@ -164,17 +164,17 @@
 =16-	=16-	=16-	=16-	=16-	=16-
 .	.	4F/	.	1A,<	-o
 .	.	4E/	.	.	.
-*custos:D	*	*	*	*	*
 2D/	-pi-	4F/	.	.	.
 .	.	4G/	.	.	.
+*custos:D	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!
 2D,</	-o	2A/	.	1A,<	et
 1F\	et	2D/	-pi-	.	.
 =17-	=17-	=17-	=17-	=17-	=17-
 *	*	*	*	*lig	*
 .	.	2D/	-o	1A	nunc
-*	*	*custos:G	*	*	*
 2D/	Nunc	2F/	et	.	.
+*	*	*custos:G	*	*	*
 !	!	!LO:PB:g=original	!	!	!
 1C	et	2G/	nunc	1c	.
 .	.	2G/	et	.	.
@@ -187,13 +187,13 @@
 2C/	.	2E/	.	1A	Sem-
 2D/	.	2F/	.	.	.
 =19-	=19-	=19-	=19-	=19-	=19-
-*	*	*	*	*custos:G	*
 2.GG/	.	4G/	.	1G	.
 .	.	4A/	.	.	.
 .	.	4B\	.	.	.
 4AA/	.	4cny\	.	.	.
 *	*	*	*	*Xlig	*
 *	*	*	*	*lig	*
+*	*	*	*	*custos:G	*
 !	!	!	!	!LO:LB:g=original	!
 2BB/	.	2d\	.	1G	-per
 2C/	.	4c\	.	.	.
@@ -216,12 +216,11 @@
 *	*	*	*	*lig	*
 1C	.	1c	-per	1G	in
 =22-	=22-	=22-	=22-	=22-	=22-
-*custos:F	*	*	*	*	*
 2FF/	-per	2c\	et	1A,<	.
-*	*	*custos:c	*	*	*
+*custos:F	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!
 1F	et	2c\	in	.	.
-*	*	*	*	*Xlig	*
+*	*	*custos:c	*	*Xlig	*
 !	!	!LO:LB:g=original	!	!	!
 .	.	4c\	Sae-	1A	Sae-
 .	.	4A/	.	.	.
@@ -247,7 +246,7 @@
 !	!	!LO:TX:t=P:problem=♯ below	!	!	!
 .	.	8G#X/L	.	.	.
 !	!	!LO:SIC:v:o=8F/J	!	!	!
-.	.	8F#/J	.	.	.
+.	.	8F#J	.	.	.
 .	.	2G#/	.	.	.
 *	*	*	*	*Xlig	*
 *	*	*	*	*lig	*
@@ -272,11 +271,10 @@
 1Dl;;	-men.	1Al;;	-men.	1Dl;;	-men
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
-!!!system-decoration: [g1]
-!!!RDF**kern: > = above
+!!!system-decoration: [*]
 !!!RDF**kern: < = below
 !!!RDF**kern: l = terminal long
 !!!ENC: Andrzej Kubiczek
-!!!END: 2021-03-21
-!!!ENC: Andrzej Kubiczek
 !!!END: 2021-03-06
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-03-21

@@ -24,12 +24,13 @@
 !!!IIIF:
 !!!ONB-nifc:
 !!!OMD: Maestoso.
-!!!AIN: 1 empty
-!!!key:
+!!!AIN: 1 organ
+!!!key: c
 **kern	**kern	**dynam
-*part1	*part1	*
-*staff2	*staff1	*
-*Iempty	*Iempty	*
+*part1	*part1	*part1
+*staff2	*staff1	*staff1/2
+*ICklav	*ICklav	*
+*Iorgan	*Iorgan	*
 *I"51.	*I"51.	*
 *clefF4	*clefG2	*
 *k[b-e-a-]	*k[b-e-a-]	*
@@ -37,7 +38,7 @@
 *M6/4	*M6/4	*
 =1	=1	=1
 *	*	*^
-!LO:TX:b:i:t=Ped.	!	!	!LO:DY:b=2:rj
+!LO:TX:b:i:t=Ped.	!	!LO:DY:c	!LO:DY:b=2:rj
 8CL 8CC/	[2.cc [2.g [2.e-/	f <	f
 8DJ 8DD/	.	.	.
 4E- 4EE-/	.	.	.
@@ -100,7 +101,7 @@
 2.c 2.C\	2.cc/	2.g 2.e-\	]]
 *	*v	*v	*
 =9	=9	=9
-!	!LO:TX:b:i:t=più lento	!
+!	!	!LO:DY:t=p più lento
 8CL 8CC/	[2.cc [2.g [2.e-/	p
 8DJ 8DD/	.	.
 4E- 4EE-/	.	.
@@ -117,7 +118,7 @@
 4D 4DD/	.	.
 4C 4CC/	.	.
 =11	=11	=11
-!	!LO:TX:b:i:t=perdendosi	!
+!	!LO:TX:c:i:t=perdendosi	!
 8CL 8CC/	[2.cc [2.g [2.e-/	.
 8DJ 8DD/	.	.
 4E- 4EE-/	.	.
@@ -127,7 +128,7 @@
 4C 4CC/	.	.
 =12	=12	=12
 *	*^	*
-!	!LO:TX:b:i:t=molto rit.	!	!
+!	!	!	!LO:DY:t=ff molto rit.
 8FL 8FF^>/	2cc/	2.a- 2.f\	ff
 8GJ 8GG^>/	.	.	.
 4A- 4AA-^>\	.	.	.
@@ -137,10 +138,10 @@
 *	*v	*v	*
 ==	==	==
 *-	*-	*-
-!!!system-decoration: {(s1,s2)}
+!!!system-decoration: {(*)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-08-09
 !!!ENC: Andrzej Gręziak
 !!!END: 2021-07-28
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-08-09

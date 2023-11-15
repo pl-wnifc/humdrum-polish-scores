@@ -24,24 +24,23 @@
 !!!IIIF:
 !!!ONB-nifc: UWAGA: części Kwartetu: 1. Allegro, 2. Andante con variazioni, 3. Minuetto alla masovienne, 4. Finale
 !!!OMD: Andante con variazioni
-!!!AIN: 1 alto 3 cello
+!!!AIN: 1 cello 1 viola 2 violn
 !!!key: F
 **kern	**dynam	**kern	**dynam	**kern	**dynam	**kern	**dynam
-*part4	*	*part3	*	*part2	*	*part1	*
+*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
 *staff4	*	*staff3	*	*staff2	*	*staff1	*
-*Icello	*	*Ialto	*	*Icello	*	*Icello	*
-*I"Violoncelle	*	*I"Alto	*	*I"Violono [II]	*	*I"Violono [I]	*
-*I'vlc	*	*I'vla	*	*I'vl 2	*	*I'vl 2	*
-*Icello	*	*Iviola	*	*Ivioln	*	*Ivioln	*
 *ICstr	*	*ICstr	*	*ICstr	*	*ICstr	*
+*Icello	*	*Iviola	*	*Ivioln	*	*Ivioln	*
+*I"Violoncelle	*	*I"Alto	*	*I"Violono [II]	*	*I"Violono [I]	*
 *mI"Violoncello	*	*mI"Viola	*	*mI"Violino II	*	*mI"Violino I	*
-*clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
+*I'vlc	*	*I'vla	*	*I'vl 2	*	*I'vl 1	*
 *>[A,A,B,B,C,C1,C,C2,D,D1,D,D2,E,F,F,G,G1,G,G2,H]	*	*>[A,A,B,B,C,C1,C,C2,D,D1,D,D2,E,F,F,G,G1,G,G2,H]	*	*>[A,A,B,B,C,C1,C,C2,D,D1,D,D2,E,F,F,G,G1,G,G2,H]	*	*>[A,A,B,B,C,C1,C,C2,D,D1,D,D2,E,F,F,G,G1,G,G2,H]	*
+*>A	*	*>A	*	*>A	*	*>A	*
+*clefF4	*	*clefC3	*	*clefG2	*	*clefG2	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*
 *F:	*	*F:	*	*F:	*	*F:	*
 *M2/4	*	*M2/4	*	*M2/4	*	*M2/4	*
 =1	=1	=1	=1	=1	=1	=1	=1
-*>A	*	*>A	*	*>A	*	*>A	*
 4r	.	4r	.	4r	.	(16.aa\LL	p
 .	.	.	.	.	.	32gg\K	.
 .	.	.	.	.	.	16.ff\	.
@@ -1558,9 +1557,9 @@
 !!!RDF**kern: < = below
 !!!RDF**kern: | = vertical stroke
 !!!filter-modern: sic -sq | shed -e "s/yy//" | shed -ke "s/\(y(?!y)/(/" | shed -e "s/^(X?)rep$/$1REP/I" | shed -e "s/^(\d+[\/\\]right)/$1yy/I; s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/LO:HP:(a|b|rj)/LO:hp:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -k -e "s/[<>]//g" | modori -m | autostem -r | tie -s
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-04-15
-!!!EED: Berenika Jozajtis
-!!!EEV: 2021-04-06
+!!!ENC: Berenika Jozajtis
+!!!END: 2021-04-06
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-04-15
 !!!ENC-modern: Andrzej Borzym
 !!!END-modern: 2022-07-06

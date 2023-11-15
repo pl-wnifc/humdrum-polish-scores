@@ -28,8 +28,12 @@ foreach my $dir (@dirs) {
 		$file =~ s/.*\///;
 		my $newfile = $file;
 		$newfile =~ s/\.sic$/.mid/;
+		if (-r "$basedir/midi/$newfile") {
+			print "Skipping $basedir/midi/$newfile since it already exists\n";
+			next;
+		}
 		print "Processing $basedir :: $file\n";
-		`$verovio "$basedir/sic/$file" -t midi -o "$basedir/midi/$newfile"`;
+		`cat "$basedir/sic/$file" | shed -ke "s/yy//g" | $verovio  --stdin -t midi -o "$basedir/midi/$newfile"`;
 	}
 }
 

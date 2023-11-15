@@ -28,16 +28,16 @@
 !!!AIN: 1 cello 1 piano 1 violn
 !!!key: a
 **kern	**dynam	**kern	**dynam	**kern	**kern	**dynam
-*part3	*	*part2	*	*part1	*part1	*
-*staff4	*	*staff3	*	*staff2	*staff1	*
-*>[A,B,B1,B,B2,C]	*	*>[A,B,B1,B,B2,C]	*	*>[A,B,B1,B,B2,C]	*>[A,B,B1,B,B2,C]	*
-*>A	*	*>A	*	*>A	*>A	*
+*part3	*	*part2	*	*part1	*part1	*part1
+*staff4	*	*staff3	*	*staff2	*staff1	*staff1/2
+*ICstr	*	*ICstr	*	*ICklav	*ICklav	*
+*Icello	*	*Ivioln	*	*Ipiano	*Ipiano	*
 *I"Vcello	*	*I"Violino	*	*I"Piano Forte	*I"Piano Forte	*
 *mI"Violoncello	*	*	*	*mI"Pianoforte	*mI"Pianoforte	*
 *I'	*	*I'	*	*I'	*I'	*
 *mI'vlc	*	*mI'vl	*	*mI'pf	*mI'pf	*
-*Icello	*	*Ivioln	*	*Ipiano	*Ipiano	*
-*ICstr	*	*ICstr	*	*ICklav	*ICklav	*
+*>[A,B,B1,B,B2,C]	*	*>[A,B,B1,B,B2,C]	*	*>[A,B,B1,B,B2,C]	*>[A,B,B1,B,B2,C]	*
+*>A	*	*>A	*	*>A	*>A	*
 *clefF4	*	*clefG2	*	*clefF4	*clefG2	*
 *k[]	*	*k[]	*	*k[]	*k[]	*
 *a:	*	*a:	*	*a:	*a:	*
@@ -47,7 +47,7 @@
 =1	=1	=1	=1	=1	=1	=1
 !	!	!	!	!	!	!LO:MO:mod=!null:null
 !	!	!	!	!	!LO:TX:a:t=Trio:mod=	!LO:DY:b=2
-!	!	!	!	!	!LO:TX:t=P:problem=dopisane ołówkiem [quarter]=132	!
+!	!	!	!	!	!LO:TX:a:t=[quarter]=132:note=dopisane ołówkiem	!
 1r	.	1r	.	8AA/L	1r	p
 .	.	.	.	8EE/J	.	.
 !	!	!	!	!LO:SIC:o=(4.AA/	!	!LO:HP:b=2
@@ -5949,17 +5949,18 @@
 2r	.	2r	.	2r	2r	.
 ==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-
+!!!system-decoration: {(klav)}<(str)>
+!!!system-decoration-mod: [(str)]{(klav)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!LO:MO:ori
-!!!system-decoration: {(klav)}(str)
 !!!RDF**kern: N = linked
 !!!RDF**kern: | = vertical stroke
 !!LO:MO:mod
-!! !!!system-decoration: [(str)]{(klav)}
 !! !!!RDF**kern: @ = marked note, color=grey
 !!LO:MO:end
-!!!filter-modern: extract -k 3-4,1-2 | shed -e "s/LO:HP:(a|b)/LO:hp:$1/L" | shed -e "s/LO:DY:a/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(X?)rep$/$1REP/I" | sic -sq | modori -m | autostem -r | shed -e "s/yy//"
+!!!filter-modern: shed -e "s/LO:HP:(a|b)/LO:hp:$1/L" | shed -e "s/LO:DY:a/LO:dy:$1/L" | shed -k -e "s/([^a-gA-Gn#X-])[<>]/$1/g" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | shed -e "s/:rj/:RJ/L" | shed -e "s/^(X?)rep$/$1REP/I" | sic -sq | modori -m | autostem -r | shed -e "s/yy//"
+!!!filter-modern: extract -k 3-4,1-2
 !!!ENC: Marcin Jachim
 !!!END: 2021-04-06
 !!!EED: Andrzej Kubiczek

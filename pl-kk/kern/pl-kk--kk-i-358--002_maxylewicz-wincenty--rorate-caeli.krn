@@ -21,51 +21,53 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/7131/1 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!IIIF:
 !!!ONB-nifc: UWAGA: utwory w zbiorze: 1. Rorate caeli (od skanu 0001), 2. Rorate caeli (od skanu 0011)
-!!!AIN: 1 alto 2 empty 1 tenor 1 vox
-!!!key:
+!!!AIN: 1 alto 2 bass 1 soprn 1 tenor
+!!!key: C
 **kern	**text	**kern	**fba	**text	**kern	**text	**kern	**text	**dynam	**kern	**text
-*group2	*	*group1	*	*	*group1	*	*group1	*	*	*group1	*
-*part5	*	*part4	*	*	*part3	*	*part2	*	*	*part1	*
-*staff5	*	*staff4	*	*	*staff3	*	*staff2	*	*	*staff1	*
-*Iempty	*	*Iempty	*	*	*Itenor	*	*Ialto	*	*	*Ivox	*
+*	*	*group1	*	*	*group1	*	*group1	*	*	*group1	*
+*part5	*part5	*part4	*part4	*part4	*part3	*part3	*part2	*part2	*part2	*part1	*part1
+*staff5	*staff5	*staff4	*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*	*staff1	*staff1
+*ICvox	*	*ICvox	*	*	*ICvox	*	*ICvox	*	*	*ICvox	*
+*Ibass	*	*Ibass	*	*	*Itenor	*	*Ialto	*	*	*Isoprn	*
 *I"Baſso Ripieno.	*	*I"Basſo.	*	*	*I"Tenore	*	*I"Alto.	*	*	*I"Canto.	*
 *I'B rip	*	*I'B	*	*	*I'T	*	*I'A	*	*	*I'S	*
 *>[A,B,C,A]	*	*>[A,B,C,A]	*	*	*>[A,B,C,A]	*	*>[A,B,C,A]	*	*	*>[A,B,C,A]	*
 *>A	*	*>A	*	*	*>A	*	*>A	*	*	*>A	*
 *clefF4	*	*clefF4	*	*	*clefC4	*	*clefC3	*	*	*clefC1	*
+*	*	*	*	*	*mclefGv2	*	*mclefG2	*	*	*mclefG2	*
 *k[]	*	*k[]	*	*	*k[]	*	*k[]	*	*	*k[]	*
 *C:	*	*C:	*	*	*C:	*	*C:	*	*	*C:	*
 *M2/2	*	*M2/2	*	*	*M2/2	*	*M2/2	*	*	*M2/2	*
 *met(c|)	*	*met(c|)	*	*	*met(c|)	*	*met(c|)	*	*	*met(c|)	*
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
-!LO:TX:a:t=à Capella	!	!	!	!	!LO:TX:a:t=1	!	!	!	!	!LO:TX:a:t=5	!
-0r	.	0r	.	.	1rA	.	2r	.	.	00r	.
-!	!	!	!	!	!	!	!	!	!LO:DY:a:t=Forte	!	!
+!LO:TX:a:i:t=à Capella	!	!	!	!	!LO:TX:a:t=1	!	!	!	!	!LO:TX:a:t=5	!
+0r	.	0r	.	.	1r	.	2r	.	.	00r	.
+!	!	!	!	!	!	!	!	!	!LO:DY:t=Forte	!	!
 .	.	.	.	.	.	.	2c/	Ro-	f	.	.
 =2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2	=2
 *	*	*	*	*	*	*	*2\right	*	*	*	*
-.	.	.	.	.	2rF	.	2.g\	-ra-	.	.	.
+.	.	.	.	.	2r	.	2.g\	-ra-	.	.	.
 .	.	.	.	.	2G/	Ro-	.	.	.	.	.
 .	.	.	.	.	.	.	4f\	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3	=3
 *	*	*	*	*	*2\right	*	*	*	*	*	*
-!	!	!	!	!	!	!	!LO:TX:t=P:global:problem=rozdzielacz słów	!	!	!	!
-1r	.	1rD	.	.	2.c\	-ra-	2e,<\	-te	.	.	.
+!	!	!	!	!	!	!	!LO:TX:t=P:global:problem=cezura	!	!	!	!
+1r	.	1r	.	.	2.c\	-ra-	2e,<\	-te	.	.	.
 .	.	.	.	.	.	.	4g\	Cae-	.	.	.
 .	.	.	.	.	4B\	.	4g\	-li	.	.	.
 =4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4	=4
-!	!	!	!	!	!LO:TX:t=P:global:problem=rozdzielacz słów	!	!	!	!	!	!
-2rC	.	2rBB	.	.	2A,</	-te	2f\	de-	.	.	.
+!	!	!	!	!	!LO:TX:t=P:global:problem=cezura	!	!	!	!	!	!
+2r	.	2r	.	.	2A,</	-te	2f\	de-	.	.	.
 2C/	Ro-	2C/	.	Ro-	4c\	cae-	2e\	.	.	.	.
 .	.	.	.	.	4c\	-li	.	.	.	.	.
 =5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5	=5
 *2\right	*	*2\right	*	*	*	*	*	*	*	*	*
-2.G\	-ra-	(2.G\	.	-ra-	4.c\	de-	[1d	.	.	1rg	.
+2.G\	-ra-	(2.G\	.	-ra-	4.c\	de-	[1d	.	.	1r	.
 .	.	.	.	.	8c\	-su-	.	.	.	.	.
 .	.	.	.	.	2B\	-per	.	.	.	.	.
 4F\	.	4F\)	.	.	.	.	.	.	.	.	.
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6	=6
-!LO:TX:t=P:global:problem=kreska pionowa na różnych liniach [rozdzielacz słów / znak oddechu]	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:t=P:global:problem=kreska pionowa na różnych liniach [cezura / cezura]	!	!	!	!	!	!	!	!	!	!	!
 2E,<\	-te	2E\	.	-te	2.e\	ro-	2d\]	.	.	2g/	Ro-
 *	*	*	*	*	*	*	*	*	*	*2\right	*
 4A\	Cae-	4A\	.	Cae-	.	.	2c\	.	.	[<2cc\	-ra-
@@ -75,16 +77,16 @@
 .	.	.	.	.	2G/	-te	2d\	.	.	[<2b\	-te
 4GG/	-su-	4G\	.	-su-	.	.	.	.	.	.	.
 =8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8	=8
-!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:global:problem=rozdzielacz słów	!
+!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:global:problem=cezura	!
 2C/	-per	2C/	.	-per	2r	.	2.e\	.	.	2b,<\]	.
-2rBB	.	2rC	.	.	[<2c\	et	.	.	.	4a\	cae-
+2r	.	2r	.	.	[<2c\	et	.	.	.	4a\	cae-
 .	.	.	.	.	.	.	4e\	-ſu-	.	4g\	-li
 =9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9	=9
 !	!	!LO:TX:a:t=1.	!	!	!	!	!	!	!	!	!
-1rA	.	1rD	.	.	2c\]	.	1d	-per	.	2f#X/	de-
+1r	.	1r	.	.	2c\]	.	1d	-per	.	2f#X/	de-
 .	.	.	.	.	[<2B\	nu-	.	.	.	2g/	-[[su-
 =10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
-2rF	.	2r	.	.	2B\]	.	2r	.	.	2.e/	-per]]-
+2r	.	2r	.	.	2B\]	.	2r	.	.	2.e/	-per]]-
 1c	et	[<2c\	.	et	2A/	-bes	2c/	Ro-	.	.	.
 .	.	.	.	.	.	.	.	.	.	4f#X/	-su-
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!
@@ -93,7 +95,7 @@
 [<2B\	nu-	[<2B\	.	nu-	2G/	-ant	.	.	.	.	.
 .	.	.	.	.	.	.	4f\	-te	.	.	.
 =12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
-2B\]	.	2B\]	.	.	2C/	Ju-	1e	Cae-	.	2re	.
+2B\]	.	2B\]	.	.	2C/	Ju-	1e	Cae-	.	2r	.
 4A\	-bes	(4A\	.	-bes	2C/	-stum	.	.	.	[<2cc\	et
 4G,<\	.	4G\)	.	.	.	.	.	.	.	.	.
 =13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13
@@ -110,16 +112,16 @@
 4B\)	.	4B\)	.	.	.	.	.	.	.	4g\)	.
 !	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
 =15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15	=15
-2A\	Ju-	2A\	.	Ju-	2rF	.	2c/]	.	.	2f#X/	plu-
+2A\	Ju-	2A\	.	Ju-	2r	.	2c/]	.	.	2f#X/	plu-
 2G\	-stum	2G\	.	-stum	[2G/	plu-	2B/	.	.	2g/	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!
 =16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16	=16
-1r	.	1rD	.	.	2G/]	.	4c/	nu-	.	1a	-ant
+1r	.	1r	.	.	2G/]	.	4c/	nu-	.	1a	-ant
 .	.	.	.	.	.	.	4c/	-bes	.	.	.
 .	.	.	.	.	2F/	-ant	4d\	plu-	.	.	.
 .	.	.	.	.	.	.	4d\	-ant	.	.	.
-=17-	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
-2rBB	.	2rBB	.	.	2F/	Ju-	2G/	Ju-	.	2b\	Ju-
+=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17	=17
+2r	.	2r	.	.	2F/	Ju-	2G/	Ju-	.	2b\	Ju-
 2C/	a-	2C/	.	a-	2E,</	-ſtum	[2c/	.	.	2ee\	.
 =18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18	=18
 4G\	-pe-	4G\	.	-pe-	2G/	A-	2c/]	.	.	1dd	-stum
@@ -138,53 +140,52 @@
 .	.	.	.	.	.	.	.	.	.	4ff\	-tur
 =21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21	=21
 2C/	-ra	2C/	.	-ra	2e\	ter-	2r	.	.	1ee	ter-
-2rBB	.	2rBB	.	.	[<2c\	.	2c/	a-	.	.	.
+2r	.	2r	.	.	[<2c\	.	2c/	a-	.	.	.
 =22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22
-2rBB	.	2rBB	.	.	2c\]	.	4g\	-pe-	.	2dd,<\	-ra
+2r	.	2r	.	.	2c\]	.	4g\	-pe-	.	2dd,<\	-ra
 .	.	.	.	.	.	.	4g\	-ri-	.	.	.
 2GG/	a-	2GG/	.	a-	2B\	-ra	4g\	-a-	.	2dd\	et
 .	.	.	.	.	.	.	4f\	-tur	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!
 =23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23
 !	!	!	!	!	!LO:TX:a:t=1.	!	!	!	!	!	!
-4C/	-pe-	4C/	.	-pe-	1rA	.	4e\	ter-	.	2.ee\	ger-
+4C/	-pe-	4C/	.	-pe-	1r	.	4e\	ter-	.	2.ee\	ger-
 4C/	-ri-	4C/	.	-ri-	.	.	4e\	-ra	.	.	.
 4C/	-a-	4C/	.	-a-	.	.	[<2g\	et	.	.	.
 4BB/	-t(ur)	4BB/	.	-t(ur)	.	.	.	.	.	4dd\	-mi-
 =24-	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24
-1AA	ter-	1AA	.	ter-	2rF	.	2g\]	.	.	1cc	-net
+1AA	ter-	1AA	.	ter-	2r	.	2g\]	.	.	1cc	-net
 .	.	.	.	.	[<2c\	et	2f\	.	.	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!
 =25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25	=25
-*	*	*custos:G	*	*	*	*	*	*	*	*	*
 2GG,</	-ra	2GG/	.	-ra	2c\]	.	2e\	.	.	2r	.
+*	*ij	*custos:G	*	*	*	*	*	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
-*	*ij	*	*	*	*	*	*	*	*	*	*
 2G\	a-	2G\	.	a-	4.B\	ger-	2d\	.	.	[<2dd\	Sal-
 .	.	.	.	.	8B\	-mi-	.	.	.	.	.
 =26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26	=26
 4c\	-pe-	4c\	.	-pe-	2E/	-net	4.e\	ger-	.	2dd\]	.
 4c\	-ri-	4c\	.	-ri-	.	.	.	.	.	.	.
 .	.	.	.	.	.	.	8e\	-mi-	.	.	.
-4c\	-a-	4c\	.	-a-	2rF	.	2e\	-net	.	[2cc\	-va-
-4B\	-tur	4B\	.	-tur	.	.	.	.	.	.	.
+4c\	-a-	4c\	.	-a-	2r	.	2e\	-net	.	[2cc\	-va-
+4B\	-t(ur)	4B\	.	-tur	.	.	.	.	.	.	.
 =27-	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27
-2A\	ter-	2A\	.	ter-	2rF	.	2f#X\	Sal-	.	2cc\]	.
+2A\	ter-	2A\	.	ter-	2r	.	2f#X\	Sal-	.	2cc\]	.
 2G\	-ra	2G\	.	-ra	2G/	et	[<2g\	-va-	.	2b\	.
 *	*Xij	*	*	*	*	*	*	*	*	*	*
 !	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
 =28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28	=28
-1r	.	1rD	.	.	2.d\	ger-	2g\]	.	.	1a	-to-
+1r	.	1r	.	.	2.d\	ger-	2g\]	.	.	1a	-to-
 .	.	.	.	.	.	.	2f#X\	.	.	.	.
 .	.	.	.	.	4c\	-mi-	.	.	.	.	.
-=29-	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
-2r	.	2rBB	.	.	2B\	-net	2g\	-to-	.	2dd\	.
+=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
+2r	.	2r	.	.	2B\	-net	2g\	-to-	.	2dd\	.
 1G	et	[<2G\	.	et	4d\	Sal-	2b\	.	.	2b\	.
 .	.	.	.	.	4d\	-va-	.	.	.	.	.
 =30-	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30	=30
 .	.	2G\]	.	.	2c\	-to-	1a	.	.	2cc\	.
-*custos:G	*	*	*	*	*	*	*	*	*	*	*
 [<2Fn\	ger-	[<2F\	.	ger-	2d\	.	.	.	.	2a,<\	-rem
+*custos:G	*	*	*	*	*	*	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!
 =31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31	=31
 !LO:N:xstem:cue	!	!LO:N:xstem:cue	!	!	!	!	!	!	!	!	!
@@ -205,17 +206,17 @@
 .	.	.	.	.	.	.	4g\	.	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!
 =34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34	=34
-2rBB	.	2rBB	.	.	4d\	Sal-	2f#X\	.	.	2cc\]	.
+2r	.	2r	.	.	4d\	Sal-	2f#X\	.	.	2cc\]	.
 .	.	.	.	.	4d\	-va-	.	.	.	.	.
 2GG/	et	2GG/	.	et	2G/	-to-	[<2g\	.	.	2b\	.
 =35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35
 2.D/	ger-	2.D/	.	ger-	2A/	-rem	2g\]	.	.	[<1a	.
-.	.	.	.	.	2rF	.	2f#X\	.	.	.	.
+.	.	.	.	.	2r	.	2f#X\	.	.	.	.
 4C/	-mi-	4C/	.	-mi-	.	.	.	.	.	.	.
 !	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36
-!	!	!LO:TX:t=P:global:problem=rozdzielacz słów	!	!	!	!	!	!	!	!	!
-2BB,</	-net	2BB,</	.	-net	2rF	.	2b\	.	.	2a\]	.
+!	!	!LO:TX:t=P:global:problem=cezura	!	!	!	!	!	!	!	!	!
+2BB,</	-net	2BB,</	.	-net	2r	.	2b\	.	.	2a\]	.
 4E\	Sal-	4E\	.	Sal-	2G/	et	2e\	.	.	[2g/	.
 4E\	-va-	4E\	.	-va-	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!
@@ -225,7 +226,7 @@
 .	.	.	.	.	4c\	-mi-	.	.	.	.	.
 =38-	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38
 2GG,</	-rem	2GG/	.	-rem	2B\	-net	1g	-rem	.	2g/	-rem
-4G\	Sal-	4G\	.	Sal-	[<2d\	Sal-	.	.	.	2re	.
+4G\	Sal-	4G\	.	Sal-	[<2d\	Sal-	.	.	.	2r	.
 4F\	-va-	4F\	.	-va-	.	.	.	.	.	.	.
 =39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39	=39
 (2E\	-to-	2E\	.	-to-	2d\]	.	2r	.	.	2g/	et
@@ -237,15 +238,15 @@
 .	.	.	.	.	.	.	4f\	-mi-	.	.	.
 =41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41	=41
 2C/	-rem	2C/	.	-rem	2r	.	1e	-net	.	2b\]	.
-2rBB	.	2rBB	.	.	[<2c\	et	.	.	.	4a\	.
+2r	.	2r	.	.	[<2c\	et	.	.	.	4a\	.
 .	.	.	.	.	.	.	.	.	.	4g\	.
 =42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42	=42
 !LO:TX:t=1.	!	!	!	!	!	!	!	!	!	!	!
-1r	.	1rD	.	.	2c\]	.	2d\	Sal-	.	4.f#X/	.
+1r	.	1r	.	.	2c\]	.	2d\	Sal-	.	4.f#X/	.
 .	.	.	.	.	.	.	.	.	.	8f#/	-mi-
 .	.	.	.	.	[2B\	ger-	2g\	-va-	.	2d/	-net
-=43-	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43
-2r	.	2r	.	.	2B\]	.	2e\	-to-	.	2re	.
+=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43	=43
+2r	.	2r	.	.	2B\]	.	2e\	-to-	.	2r	.
 1c	et	[<2c\	.	et	2A/	.	2a\	.	.	2cc\	et
 =44-	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44	=44
 .	.	2c\]	.	.	2.G/	.	[<1d	.	.	2.gg\	ger-
@@ -258,7 +259,7 @@
 .	.	.	.	.	.	.	.	.	.	4cc\)	.
 2C/	et	2C/	.	et	.	.	[<2c\	.	.	[<2ee\	Sal-
 =46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46
-2.G\	ger-	2.G\	.	ger-	2rF	.	2c/]	.	.	2ee\]	.
+2.G\	ger-	2.G\	.	ger-	2r	.	2c/]	.	.	2ee\]	.
 .	.	.	.	.	[2G/	et	2B/	-rem	.	[<2dd\	-va-
 4F\	-mi-	4F\	.	-mi-	.	.	.	.	.	.	.
 =47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47
@@ -283,7 +284,7 @@
 =51-	=51	=51	=51	=51	=51	=51	=51	=51	=51	=51	=51
 2G\	.	1GG	.	.	1d	.	1g_<	.	.	2cc\]	.
 2GG/	.	.	.	.	.	.	.	.	.	2b\	.
-=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52
+=52-	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52	=52
 !LO:N:vis=0	!	!	!	!	!	!	!LO:N:vis=2	!	!	!	!
 1C;	-rem.	1C	.	-rem	1e;<	-rem.	1g]	-rem	.	1cc	-rem.
 !	!	!LO:LB:g=original	!	!	!	!	!LO:LB:g=original	!	!	!	!
@@ -291,10 +292,10 @@
 *>B	*	*>B	*	*	*>B	*	*>B	*	*	*>B	*
 *M2/2	*	*M2/2	*	*	*M2/2	*	*M2/2	*	*	*M2/2	*
 *met(c|)	*	*met(c|)	*	*	*met(c|)	*	*met(c|)	*	*	*met(c|)	*
-00r	.	00r	.	.	1rA	.	2r	.	.	00r	.
+00r	.	00r	.	.	1r	.	2r	.	.	00r	.
 .	.	.	.	.	.	.	2c/	Be-	.	.	.
 =54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54	=54
-.	.	.	.	.	2rF	.	2g\	-ne-	.	.	.
+.	.	.	.	.	2r	.	2g\	-ne-	.	.	.
 .	.	.	.	.	2G/	Be-	2g\	-di-	.	.	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!
 =55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55	=55
@@ -305,7 +306,7 @@
 .	.	.	.	.	.	.	8f\	-mi-	.	.	.
 .	.	.	.	.	[<2c\	-sti	2e\	-ne	.	.	.
 =57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57	=57
-0r	.	0rD	.	.	2c,<\]	.	2.d\	ter-	.	2re	.
+0r	.	0r	.	.	2c,<\]	.	2.d\	ter-	.	2r	.
 .	.	.	.	.	[<2B\	Do-	.	.	.	2g/	Be-
 .	.	.	.	.	.	.	8e\L	.	.	.	.
 .	.	.	.	.	.	.	8d\J	.	.	.	.
@@ -315,11 +316,11 @@
 .	.	.	.	.	2A/	.	4e\	.	.	2cc\	-di-
 .	.	.	.	.	.	.	4f\	.	.	.	.
 =59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59	=59
-1r	.	1rD	.	.	1G	.	2.g\	.	.	2cc\	-xi-
+1r	.	1r	.	.	1G	.	2.g\	.	.	2cc\	-xi-
 .	.	.	.	.	.	.	.	.	.	2b\	-sti
 .	.	.	.	.	.	.	4f\	-ram	.	.	.
 =60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60	=60
-2rBB	.	2rBB	.	.	[<1c	.	1e	tu-	.	4.cc\	Do-
+2r	.	2r	.	.	[<1c	.	1e	tu-	.	4.cc\	Do-
 .	.	.	.	.	.	.	.	.	.	8cc\	-mi-
 2C/	Be-	2C/	.	Be-	.	.	.	.	.	2cc\	-ne
 =61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61	=61
@@ -328,7 +329,7 @@
 2G\	-di-	2G\	.	-di-	2B\	-ne	.	.	.	2g/	be-
 !	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
 =62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62	=62
-2E\	-xi-	2E\	.	-xi-	2e\	ter-	2rA	.	.	2cc\	-ne-
+2E\	-xi-	2E\	.	-xi-	2e\	ter-	2r	.	.	2cc\	-ne-
 1G	-ſti	[<2G\	.	-sti	2d\	-ram	2G/	Be-	.	2b\	-di-
 =63-	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63	=63
 .	.	2G,<\]	.	.	2c\	tu-	2c/	-ne-	.	2a\	-xi-
@@ -370,29 +371,29 @@
 .	.	.	.	.	.	.	[2c/	-ram	.	4e/	-sti
 .	.	.	.	.	.	.	.	.	.	4f/	ca-
 =71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71	=71
-!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=kreska taktowa pojedyncza	!
-00r	.	00r	.	.	2rF	.	2c/]	.	.	2g/	-pti-
+!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=zbędna kreska taktowa	!
+00r	.	00r	.	.	2r	.	2c/]	.	.	2g/	-pti-
 .	.	.	.	.	4G/	a-	2B/	tu-	.	2g/	-vi-
 .	.	.	.	.	4G/	-ver-	.	.	.	.	.
-=72-	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72
+=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72	=72
 .	.	.	.	.	2E/	-ti-	2c/	-am	.	4c/	-ta-
 .	.	.	.	.	.	.	.	.	.	4c,</	-tem
 .	.	.	.	.	4E/	-ſti	2r	.	.	[<2cc\	Ja-
 .	.	.	.	.	4F/	ca-	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
-=73-	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73
+=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73	=73
 .	.	.	.	.	2G/	-pti-	2r	.	.	2cc\]	.
 .	.	.	.	.	2G/	-vi-	4g\	a-	.	2b\	.
 .	.	.	.	.	.	.	4g\	-ver-	.	.	.
-=74-	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74
+=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74	=74
 !	!	!	!	!	!LO:TX:t=P:problem=skreślony fragment	!	!	!	!	!	!
 .	.	.	.	.	4C/	-ta-	2e\	-ti-	.	1ee	.
 .	.	.	.	.	4C,</	-tem	.	.	.	.	.
 .	.	.	.	.	[<2c\	Ja-	4e\	-ſti	.	.	.
 .	.	.	.	.	.	.	4e\	ca-	.	.	.
 !	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
-=75-	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75
-2r	.	2rBB	.	.	2c\]	.	2f\	-pti-	.	1dd	.
+=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75	=75
+2r	.	2r	.	.	2c\]	.	2f\	-pti-	.	1dd	.
 4G\	a-	4G\	.	a-	[2B\	.	2g\	-vi-	.	.	.
 4G\	-ver-	4G\	.	-ver-	.	.	.	.	.	.	.
 =76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76	=76
@@ -414,28 +415,28 @@
 2G\	-vi-	2G\	.	-vi-	2B\	-vi-	.	.	.	.	.
 !	!	!	!	!	!LO:PB:g=original	!	!	!	!	!	!
 =80-	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80
-!	!	!	!	!	!	!	!LO:TX:t=P:global:problem=kreska pionowa na różnych liniach [rozdzielacz słów / znak oddechu]	!	!	!	!
-2A\	-ta-	2A\	.	-ta-	2c\	-ta-	2c,/	-tem	.	2r	.
+!	!	!	!	!	!	!	!LO:TX:t=P:global:problem=kreska pionowa na różnych liniach [cezura / cezura]	!	!	!	!
+2A\	-ta-	2A\	.	-ta-	2c\	-ta-	2c,</	-tem	.	2r	.
 2E,\	-tem	2E,<\	.	-tem	2e\	-tem	2g\	Ja-	.	2cc\	ca-
 *	*Xij	*	*	*	*	*	*	*	*	*	*
 =81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81
-2.F\	Ja-	(2.F\	.	Ja-	2A/	Ja-	1c	.	.	2.a\	-pti-
+(2.F\	Ja-	(2.F\	.	Ja-	2A/	Ja-	1c	.	.	2.a\	-pti-
 .	.	.	.	.	2F/	.	.	.	.	.	.
-4E\	.	4E\)	.	.	.	.	.	.	.	4g\	-vi-
+4E\)	.	4E\)	.	.	.	.	.	.	.	4g\	-vi-
 =82-	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82	=82
 2D/	.	2D/	.	.	2f\	.	2f\	.	.	4a\	-ta-
 .	.	.	.	.	.	.	.	.	.	4b\	-tem
 2C/	.	2C/	.	.	2e\	.	2g\	.	.	[<2cc\	Ja-
 =83-	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83	=83
-1G	.	1G	.	.	1d	.	1g	.	.	2cc\]	.
+1G	.	1G	.	.	1d	.	1g	-cob	.	2cc\]	.
 .	.	.	.	.	.	.	.	.	.	2b\	.
 =84-	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84	=84
-1C;	-cob.	1C	.	-cob.	1e	-cob.	1g;;	-cob	.	1cc	-cob.
+1C;	-cob.	1C	.	-cob.	1e	-cob.	1g;;	.	.	1cc	-cob.
 !LO:LB:g=original	!	!LO:PB:g=original	!	!	!	!	!	!	!	!LO:PB:g=original	!
 =85||	=85||	=85||	=85||	=85||	=85||	=85||	=85||	=85||	=85||	=85||	=85||
 *>C	*	*>C	*	*	*>C	*	*>C	*	*	*>C	*
 *M3/2	*	*M3/4	*	*	*M3/4	*	*M3/4	*	*	*M3/4	*
-*rscale:2	*	*	*	*	*	*	*	*	*	*	*
+*rscale:2	*	*	*	*	*	*	*	*	*	*met(3)	*
 !	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=brak 4 w oznaczeniu metrycznym	!
 4.F\	Glo-	4.F\	.	Glo-	4.c\	Glo-	4.f\	Glo-	.	4.a\	Glo-
 8F\	-ri-	8F\	.	-ri-	8c\	-ri-	8f\	-ri-	.	8a\	-ri-
@@ -486,12 +487,12 @@
 4G\	-o	4G\	.	-o	4d\	-o	4g\	-o	.	4b,<\	-o
 =95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95	=95
 4E,<\	et	4E\	6	et	4e\	et	4g\	et	.	4cc\	et
-4D,<\	nunc	4D\	6\	nunc	4Bn\	Nunc	4f\	nunc	.	4dd\	nunc
+4D,<\	nunc	4D\	#6|	nunc	4Bn\	Nunc	4f\	nunc	.	4dd\	nunc
 4C/	et	4C\	.	et	4c\	et	4g\	et	.	4een\	et
 =96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96	=96
 4G\	sem-	4G\	.	sem-	4B\	sem-	4g\	Sem-	.	4dd\	sem-
 4GG/	-per	4GG/	.	-per	4B\	-per	4g\	-per	.	4dd\	-per
-4rBB	.	4r	.	.	4r	.	4r	.	.	4r	.
+4r	.	4r	.	.	4r	.	4r	.	.	4r	.
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!
 =97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97	=97
 (4G#X\	et	(4G#X\	6	et	2B\	et	(4e\	et	.	2ee\	et
@@ -501,8 +502,8 @@
 =98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98
 4.A\	sae-	4.A\	.	sae-	4.A\	sae-	4.e\	Sae-	.	4.cc\	sae-
 8A\	-cu-	8A\	.	-cu-	8A\	-cu-	8e\	-cu-	.	8cc\	-cu-
-*	*	*	*	*	*	*	*	*	*	*custos:cc	*
 4Gn\	-la	4Gn\	.	-la	4A\	-la	4e\	-la	.	4cc\	-la
+*	*	*	*	*	*	*	*	*	*	*custos:cc	*
 !	!	!LO:LB:g=original	!	!	!	!	!LO:LB:g=original	!	!	!LO:LB:g=original	!
 =99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99
 4.F\	sae-	4.F\	.	sae-	4.A\	sae-	4.f\	Sae-	.	4.cc\	sae-
@@ -513,16 +514,15 @@
 2E\	A-	2E\	.	a-	(4A\	a-	2e\	a-	.	2b\	a-
 .	.	.	.	.	4G#X\)	.	.	.	.	.	.
 =101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101
-!LO:TX:b:t=Rorate\nDa Capo.	!	!LO:TX:b:t=Rorate ùt supra.	!	!	!LO:TX:b:t=Rorate ūt supra	!	!LO:TX:b:t=Rorate ut Supra.\nLaus Deo	!	!	!LO:TX:b:t=Rorate\nut supra	!
 2AA/	-men.	2AA/	#	-men	2A/	-men.	2e\	-men	.	2cc#X\	-men
 !LO:TX:t=P:problem=oznaczenie metryczne c| po kresce taktowej	!	!	!	!	!	!	!	!	!	!	!
 4r	.	4r	.	.	4r	.	4r;	.	.	4r	.
+!LO:TX:a:i:t=Rorate\nDa Capo.	!	!LO:TX:a:i:t=Rorate ùt supra.	!	!	!LO:TX:a:i:t=Rorate ūt supra	!	!LO:TX:a:i:t=Rorate ut Supra.\nLaus Deo	!	!	!LO:TX:a:i:t=Rorate\nut supra	!
 ==	==	==	==	==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [g1]g2
-!!!RDF**kern: > = above
+!!!system-decoration: [g1][s5]
 !!!RDF**kern: < = below
 !!!ENC: Andrzej Kubiczek
-!!!END: 2021-03-11
-!!!ENC: Andrzej Kubiczek
 !!!END: 2021-02-16
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-03-11

@@ -21,38 +21,39 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/6587 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!IIIF:
 !!!ONB-nifc: UWAGA: brak wpisanego tekstu słownego
-!!!AIN: 1 empty 1 vox
-!!!key:
+!!!AIN: 1 piano 1 vox
+!!!key: D
 **kern	**kern	**kern
 *part2	*part2	*part1
 *staff3	*staff2	*staff1
-*Iempty	*Iforte	*Ivox
-*	*I"fp.	*I"gł.
+*ICklav	*ICklav	*ICvox
+*Ipiano	*Ipiano	*Ivox
+*I"[Pianoforte]	*I"[Pianoforte]	*I"[Voce]
 *>[A,B,B,C]	*>[A,B,B,C]	*>[A,B,B,C]
 *>A	*>A	*>A
 *clefF4	*clefG2	*clefG2
 *k[f#c#]	*k[f#c#]	*k[f#c#]
 *D:	*D:	*D:
 *M6/8	*M6/8	*M6/8
-*all\right	*all\right	*all\right
 =1	=1	=1
+*all\right	*all\right	*all\right
 *	*	*^
 !	!LO:TUP:b:problem=klamra łukowa	!	!
-4D 4DD\	24A</LL	4r	2.rgg
+4D 4DD\	24A</LL	2.rgg	4r
 .	24A</	.	.
 .	24A</JJ	.	.
 !	!LO:TX:t=P:problem=mixed beam	!	!
 .	8A</L	.	.
-!	!	!LO:TX:t=P:problem=kreska przez środek taktu	!
-8A 8F# 8D\	8d\J	8r	.
-4A 4F# 4D\	4f#/	4r	.
-8A 8F# 8D\	8f#/	8r	.
+!	!	!	!LO:TX:t=P:problem=kreska przez środek taktu
+8A 8F# 8D\	8d\J	.	8r
+4A 4F# 4D\	4f#/	.	4r
+8A 8F# 8D\	8f#/	.	8r
 =2	=2	=2	=2
-4A 4G 4E 4C#\	4a/	4r	2.rgg
-8A 8G 8E 8C#\	8e/	8r	.
-4A 4F# 4D\	8.f#/L	4r	.
+4A 4G 4E 4C#\	4a/	2.rgg	4r
+8A 8G 8E 8C#\	8e/	.	8r
+4A 4F# 4D\	8.f#/L	.	4r
 .	16e/K	.	.
-8A 8F# 8D\	8d/J	8r	.
+8A 8F# 8D\	8d/J	.	8r
 *	*	*v	*v
 =3	=3	=3
 4B 4A 4F# 4D#X\	4b\	4r
@@ -103,14 +104,14 @@
 !!LO:LB:g=original
 =9||	=9||	=9||
 *>B	*>B	*>B
-!	!LO:TX:a:t=[segno]	!LO:TX:a:t=[segno]
+!	!LO:TX:a:t=[segno|small]	!LO:TX:a:t=[segno|small]
 4D 4DD/	4a 4f# 4d 4A/	8a/L
 .	.	8d/J
 8D 8DD/	8a 8f# 8d 8A/	8f#/
 4D 4DD/	4b 4g#X 4e#X 4d 4B/	4b\
 8D 8DD/	8b 8g# 8e# 8d 8B/	8g#X/
 =10	=10	=10
-4D 4DD/	4a 4f# 4d 4c# 4A/	8a/L
+4D 4DD/	4a 4f# 4d 4A/	8a/L
 .	.	8d/J
 8D 8DD/	8a 8f# 8d 8A/	8f#/
 4D 4DD/	4b 4g#X 4e#X 4d 4B/	4b/
@@ -164,7 +165,7 @@
 .	.	8e#X/
 .	.	8f#/
 =18	=18	=18
-[>4.BB [>4.BBB\	[4.e [4.B< [4.G</	[4.b\
+[>4.BB [>4.BBB\	[4.e [>4.B< [>4.G</	[4.b\
 4BB] 4BBB\]	4e] 4B<] 4G</]	8b\L]
 .	.	8a\J
 8C# 8CC#\	8e 8A< 8G</	8g/
@@ -215,28 +216,28 @@
 .	.	8cc#\
 =26	=26	=26
 !LO:TX:b:t=8	!	!
-4FF# 4FFF#/	4cc# 4a#X 4f# 4c#/	8a#X/
+4FF# 4FFF#yy/	4cc# 4a#X 4f# 4c#/	8a#X/
 .	.	8f#/
 !LO:TX:b:t=8	!	!
-4FF# 4FFF#/	4cc# 4g#X 4e#X 4c#/	8g#X/L
+4FF# 4FFF#yy/	4cc# 4g#X 4e#X 4c#/	8g#X/L
 .	.	8a#/J
 !LO:TX:b:t=8	!	!
-4FF# 4FFF#/	4cc# 4a# 4f# 4c#/	4f#/
+4FF# 4FFF#yy/	4cc# 4a# 4f# 4c#/	4f#/
 =27	=27	=27
 !LO:TX:b:t=8	!	!
-2.FF# 2.FFF#/	2.cc# 2.a#X 2.f# 2.c#/	8cc#\
+2.FF# 2.FFF#yy/	2.cc# 2.a#X 2.f# 2.c#/	8cc#\
 .	.	8cc#\
 .	.	4.ff#\
 .	.	8cc#\
 =28	=28	=28
 !LO:TX:b:t=8	!	!
-4FF# 4FFF#/	4cc# 4a#X 4f# 4c#/	8a#X/
+4FF# 4FFF#yy/	4cc# 4a#X 4f# 4c#/	8a#X/
 .	.	8f#/
 !LO:TX:b:t=8	!	!
-4FF# 4FFF#/	4cc# 4g#X 4e#X 4c#/	8g#X/L
+4FF# 4FFF#yy/	4cc# 4g#X 4e#X 4c#/	8g#X/L
 .	.	8cc#/J
 !LO:TX:b:t=8	!	!
-4FF# 4FFF#/	4cc# 4a# 4f# 4c#/	4f#/
+4FF# 4FFF#yy/	4cc# 4a# 4f# 4c#/	4f#/
 =29||	=29||	=29||
 *M6/8	*M6/8	*M6/8
 4G 4E 4C# 4AA/	8aM</L	4r
@@ -268,7 +269,7 @@
 8D 8DD\	16d<LL 16F#</	8r
 .	16d<JJ 16F#</	.
 4.D 4.DD\	4.d< 4.F#</	4r
-!	!LO:TX:a:t=[segno]	!LO:TX:a:t=[segno]
+!	!LO:TX:a:t=[segno|small]	!LO:TX:a:t=[segno|small]
 .	.	8r
 =33:!|	=33:!|	=33:!|
 *>C	*>C	*>C
@@ -336,10 +337,10 @@
 4.A 4.F# 4.D\	4.d/	.
 ==	==	==
 *-	*-	*-
-!!!system-decoration: s1{(s2,s3)}
+!!!system-decoration: <vox>{(klav)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-05-30
 !!!ENC: Berenika Jozajtis
 !!!END: 2021-05-10
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-05-30

@@ -24,17 +24,17 @@
 !!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-kk%3A1956/datastream/IIIF/view
 !!!ONB-nifc: UWAGA: C (skan 0049-0050, s.90-92), A (0133-0134, s.86-88), T (0209-0210, s.80-82), B(0297-0298, s.80-82). Części Mszy: 1. Kyrie, 2. Et in terra, 3. Sanctus, 4. Agnus Dei. "Agnus II" rozpisane na 5 głosów. Głos dodatkowy zapisany w księdze T na stronie 82
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
-!!!key:
+!!!key: F:ion
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*group1	*	*group1	*	*group1	*	*group1	*
-*part4	*	*part3	*	*part2	*	*part1	*
-*staff4	*	*staff3	*	*staff2	*	*staff1	*
+*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
+*ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*
 *Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
 *I"BASSVS.	*	*I"TENOR.	*	*I"ALTVS.	*	*I"CANTVS.	*
 *I'B	*	*I'T	*	*I'A	*	*I'S	*
 *clefF3	*	*clefC3	*	*clefC2	*	*clefC1	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*
-*F:	*	*F:	*	*F:	*	*F:	*
+*F:ion	*	*F:ion	*	*F:ion	*	*F:ion	*
 *M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*	*met(C|)	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
@@ -48,7 +48,7 @@
 .	.	2A/	e-	2c/	-ri-	1r	.
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 .	.	2F/	.	2d/	-e	.	.
-.	.	2G/	.	2e/	e-	2re	.
+.	.	2G/	.	2e/	e-	2r	.
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	2A/	.	2c/	.	2f/	Ky-
 =3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-
@@ -56,7 +56,7 @@
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 *	*	*	*	*	*	*2\right	*
 .	.	2G/	.	2e/	.	2g\	-e
-!	!	!LO:TX:t=P:global:problem=rozdzielacz słów / znak oddechu	!	!	!	!	!
+!	!	!LO:TX:t=P:global:problem=cezura	!	!	!	!	!
 .	.	2F,</	-son	2f/	.	2a\	.
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	1f\	Ky-	2d/	.	2f/	.
@@ -84,7 +84,8 @@
 *	*	*	*	*	*ij	*	*
 .	.	.	.	1a	Ky-	1cc	.
 2F\	-ri-	1d	-lei-	.	.	.	.
-2G\	-e	.	.	4g\	-ri-	2b-\	.
+!	!	!	!	!	!	!LO:SIC:v:o=2b-\	!
+2G\	-e	.	.	4g\	-ri-	2bi	.
 .	.	.	.	4f\	.	.	.
 =7-	=7-	=7-	=7-	=7-	=7-	=7-	=7-
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
@@ -92,7 +93,7 @@
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 *	*	*	*ij	*	*	*	*
 2F\	.	2f\	Ky-	2a\	e-	.	.
-2G\	.	2e\	-ri-	2g\	-lei-	1rdd	.
+2G\	.	2e\	-ri-	2g\	-lei-	1r	.
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
 2A\	-lei-	2c\	-e	1f\	.	.	.
 =8-	=8-	=8-	=8-	=8-	=8-	=8-	=8-
@@ -102,8 +103,8 @@
 *	*	*	*	*	*Xij	*	*
 8A\L	.	8c/L	.	.	.	.	.
 8G\J	.	8B-/J	.	.	.	.	.
-!LO:TX:t=P:global:problem=rozdzielacz słów / znak oddechu	!	!	!	!	!	!	!
-2F,</	-son	2A/	-lei-	2rc	.	2f/	-ri-
+!LO:TX:t=P:global:problem=cezura	!	!	!	!	!	!	!
+2F,</	-son	2A/	-lei-	2r	.	2f/	-ri-
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 2E/	Ky-	2G/	.	2c/	Ky-	2g/	-e
 =9-	=9-	=9-	=9-	=9-	=9-	=9-	=9-
@@ -112,7 +113,7 @@
 *	*	*	*Xij	*	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 2D/	-e	.	.	2d/	-e	2f/	.
-2C/	e-	2rF	.	2e/	e-	2g\	.
+2C/	e-	2r	.	2e/	e-	2g\	.
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 2F/	.	2F/	Ky-	2c/	.	2a\	.
 =10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-
@@ -141,7 +142,7 @@
 *met(C|)	*	*met(C|)	*	*met(C|)	*	*met(C|)	*
 *	*	*xywh-#209:1297,1644,5808,799	*	*xywh-#133:1152,1303,6207,700	*	*xywh-#49:984,3717,6081,820	*
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
-00r	.	0r	.	1B-	Chri-	1rdd	.
+00r	.	0r	.	1B-	Chri-	1r	.
 .	.	.	.	2.d/	-ste	1f	Chri-
 .	.	.	.	4e/	.	.	.
 =15-	=15-	=15-	=15-	=15-	=15-	=15-	=15-
@@ -205,14 +206,15 @@
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 1G	-lei-	.	.	.	.	1d	-son
 .	.	.	.	4g\	e-	.	.
-.	.	2B-/	.	1g	-lei-	.	.
+!	!	!LO:SIC:v:o=2B-/	!	!	!	!	!
+.	.	2Bi	.	1g	-lei-	.	.
 =22-	=22-	=22-	=22-	=22-	=22-	=22-	=22-
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
-1A	-son	0c	-son	.	.	2re	.
+1A	-son	0c	-son	.	.	2r	.
 *	*	*	*Xij	*	*	*	*ij
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
 .	.	.	.	2f\	.	2c/	Chri-
-2rD	.	.	.	1.g	.	2.e/	-ste
+2r	.	.	.	1.g	.	2.e/	-ste
 2C/	X-	.	.	.	.	.	.
 .	.	.	.	.	.	4f/	.
 =23-	=23-	=23-	=23-	=23-	=23-	=23-	=23-
@@ -237,12 +239,12 @@
 .	.	2F/	.	.	.	.	.
 *	*	*	*	*	*Xij	*Xlig	*
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
-.	.	2A/	.	2rA	.	1f	-son
+.	.	2A/	.	2r	.	1f	-son
 *	*	*	*	*	*	*	*Xij
 2D/	.	2B-y/	.	2F/	Chri-	.	.
 =26-	=26-	=26-	=26-	=26-	=26-	=26-	=26-
 !	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!
-2E/	.	1c	.	2G/	.	1rdd	.
+2E/	.	1c	.	2G/	.	1r	.
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 2F/	lei-	.	.	2A/	.	.	.
 !	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!
@@ -265,11 +267,13 @@
 .	.	.	.	.	.	4cc\	.
 2A\	.	2c\	e-	2f\	.	1cc	.
 1G	.	1d	-lei-	1g	.	.	.
-.	.	.	.	.	.	2b-\	.
+!	!	!	!	!	!	!LO:SIC:v:o=2b-\	!
+.	.	.	.	.	.	2bi	.
 !	!	!	!	!	!	!LO:LB:g=original	!
 =29-	=29-	=29-	=29-	=29-	=29-	=29-	=29-
+!	!	!	!	!	!	!LO:SIC:v:o=0ryy	!
 !	!	!	!	!	!	!LO:TX:t=P:problem=fragment nieczytelny [defekt źródła]	!
-0Cl;	-son	0cl;	-son	0el;	-son.	0ryy	.
+0Cl;	-son	0cl;	-son	0el;	-son.	0cc;@	.
 *	*	*	*Xij	*	*	*	*
 !	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!
 =30||	=30||	=30||	=30||	=30||	=30||	=30||	=30||
@@ -313,17 +317,17 @@
 *	*	*	*ij	*	*	*	*
 .	.	2c\	Ky-	.	.	.	.
 4G\	.	.	.	.	.	.	.
-4A\	-ri-	2c\	-ri-	1rcc	.	.	.
+4A\	-ri-	2c\	-ri-	1r	.	.	.
 4B-\	.	.	.	.	.	.	.
 4c\	-e	2c\	-e	.	.	.	.
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 4A\	.	.	.	.	.	.	.
 =35-	=35-	=35-	=35-	=35-	=35-	=35-	=35-
-2.B-\	e-	2.d\	e-	2rf	.	0r	.
+2.B-\	e-	2.d\	e-	2r	.	0r	.
 .	.	.	.	2f\	Ky-	.	.
-*custos:d	*	*	*	*	*	*	*
 !LO:TX:t=P:problem=kreska pseudotaktowa	!	!	!	!	!	!	!
 4c\	.	4c/	.	.	.	.	.
+*custos:d	*	*	*	*	*	*	*
 *xywh-#297:1315,3554,5904,824	*	*	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!	!	!
 2d\	-lei-	2B-/	.	2f\	-ri-	.	.
@@ -368,7 +372,7 @@
 !	!	!	!	!	!	!LO:TX:t=P:problem=kreska pseudotaktowa	!
 .	.	.	.	.	.	4e/	.
 =40-	=40-	=40-	=40-	=40-	=40-	=40-	=40-
-1.d	e-	.	.	2rc	.	2.f/	-lei-
+1.d	e-	.	.	2r	.	2.f/	-lei-
 .	.	.	.	4d/	Ky-	.	.
 .	.	.	.	4e/	.	4g/	.
 .	.	.	.	4f\	-ri-	4a\	.
@@ -414,13 +418,12 @@
 *	*Xij	*	*	*	*	*	*
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: [g1]
-!!!RDF**kern: > = above
+!!!system-decoration: [*]
 !!!RDF**kern: < = below
 !!!RDF**kern: l = terminal long
 !!!ENC: Andrzej Kubiczek
-!!!END: 2021-03-16
-!!!ENC: Andrzej Kubiczek
 !!!END: 2021-02-28
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-03-16
 !!!ENC-iiif: Bartosz Żurakowski
 !!!END-iiif: 2022-09-12

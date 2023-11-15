@@ -22,27 +22,27 @@
 !!!IIIF:
 !!!ONB-nifc:
 !!!OMD: Andantino.
-!!!AIN: 2 empty
-!!!key:
+!!!AIN: 1 piano 1 vox
+!!!key: G
 **kern	**kern	**dynam	**kern	**text	**text	**text
-*part2	*part2	*	*part1	*	*	*
-*staff3	*staff2	*	*staff1	*	*	*
-*Iempty	*Iempty	*	*Iempty	*	*	*
+*part2	*part2	*part2	*part1	*part1	*part1	*part1
+*staff3	*staff2	*staff2/3	*staff1	*staff1	*staff1	*staff1
+*	*	*	*	*verse1	*verse2	*verse3
+*ICklav	*ICklav	*	*ICvox	*	*	*
+*Ipiano	*Ipiano	*	*Ivox	*	*	*
 *I"	*I"	*	*I"	*	*	*
-*>[A,B,B1,B,B2,B,B3,C]	*>[A,B,B1,B,B2,B,B3,C]	*	*>[A,B,B1,B,B2,B,B3,C]	*	*	*
+*>[A,B,B1,B,B1,B,B2,C]	*>[A,B,B1,B,B1,B,B2,C]	*	*>[A,B,B1,B,B1,B,B2,C]	*	*	*
 *>A	*>A	*	*>A	*	*	*
 *clefF4	*clefG2	*	*clefG2	*	*	*
 *k[f#]	*k[f#]	*	*k[f#]	*	*	*
 *G:	*G:	*	*G:	*	*	*
 *M6/8	*M6/8	*	*M6/8	*	*	*
-*all\right	*all\right	*	*all\right	*	*	*
-*	*	*	*	*verse1	*verse2	*verse3
 =1	=1	=1	=1	=1	=1	=1
-!	!	!	!LO:TX:a:t=dla Elki.	!	!	!
-!	!	!LO:DY:t=p.	!LO:TX:a:t=E. Wasilewskiego	!	!	!
-!	!LO:TX:t=P:problem=przy kluczu f#	!	!LO:TX:t=P:problem=przy kluczu f#	!	!	!
-2.r	(8gg/L	p	2.r	.	.	.
-.	8b/	>	.	.	.	.
+*all\right	*all\right	*	*all\right	*	*	*
+!	!	!	!LO:TX:a:i:t=dla Elki.:note=podkreślone	!	!	!
+!	!LO:TX:t=P:problem=przy kluczu f#	!LO:DY:t=p.	!LO:TX:t=P:problem=przy kluczu f#	!	!	!
+2.r	(8gg/L	p >	2.r	.	.	.
+.	8b/	.	.	.	.	.
 .	8cc/J	.	.	.	.	.
 .	8dd/L	.	.	.	.	.
 .	8g/	.	.	.	.	.
@@ -50,8 +50,8 @@
 =2	=2	=2	=2	=2	=2	=2
 8r	[>2.b/	.	2.r	.	.	.
 8r	.	.	.	.	.	.
-8B 8G 8E|\	.	.	.	.	.	.
-8B 8F# 8BB|\	.	.	.	.	.	.
+8B 8G 8E`	.	.	.	.	.	.
+8B 8F# 8BB`	.	.	.	.	.	.
 8r	.	.	.	.	.	.
 8B 8G 8E\	.	.	.	.	.	.
 =3	=3	=3	=3	=3	=3	=3
@@ -59,6 +59,7 @@
 4.B/	4BB\	(8b/L]	4d#X\	.	2.r	.	.	.
 .	.	8f#/	.	.	.	.	.	.
 .	[>8E\	8g#X/J	8dn\	.	.	.	.	.
+!	!	!	!	!	!LO:TX:a:i:t=E. Wasilewskiego:note=podkreślone	!	!	!
 4.A/	4E] 4AA\	8a/L	4c#X\	.	.	.	.	.
 .	.	8e/	.	.	.	.	.	.
 .	[>8D\	8f#/J)	8cn\	.	.	.	.	.
@@ -74,15 +75,15 @@
 *	*v	*v	*	*	*	*	*
 !!LO:LB:g=original
 =5	=5	=5	=5	=5	=5	=5
-[2.GG/	4.d 4.B/	.	8.d/	-niel-	li-	z_té-
+[2.GG/	4.d 4.B/	.	8.d/	-niel-	li-	z té-
 !	!	!	!	!	!LO:MO:mod=-liję	!
 .	.	.	16e/	-ko	-lija,	-mi
 .	.	.	8f#/	a-	jej	kwia-
 .	4.g 4.d 4.B/	.	8g/	-nie-	kie-	-ta-
 .	.	.	8f#/	-le	-lich	-mi,
-.	.	.	8g/	w_ma	snie-	jak
+.	.	.	8g/	w ma-	snie-	jak
 =6	=6	=6	=6	=6	=6	=6
-2.GG/_	4.a 4.f# 4.d/	.	8.a/	rze-	-żyw-	z_wia-
+2.GG/_	4.a 4.f# 4.d/	.	8.a/	rze-	-żyw-	z wia-
 .	.	.	16g/	-nia	-tej	-rą,
 .	.	.	8a/	o-	bia-	na-
 .	4.b 4.g 4.d/	.	8b\	-gro-	-łoś-	-dzie-
@@ -90,7 +91,7 @@
 .	.	.	8dd\	zry-	i	prze-
 =7	=7	=7	=7	=7	=7	=7
 *	*^	*	*	*	*	*
-!LO:TX:t=P:problem=skreślony dźwięk 2C.	!	!	!	!	!	!	!
+!LO:TX:t=P:problem=skreślona nuta 2C.	!	!	!	!	!	!	!
 2.GG/_	8b/L	4.e 4.c\	.	8dd\	-wa-	bla-	-pły-
 .	8a/	.	.	8cc\	-ne	-sku	-niem
 .	8b/J	.	.	8b\	przy-	i	po
@@ -107,34 +108,36 @@
 .	8f#/	8cn\J	.	8d/	za-	dla-	ni
 *	*v	*v	*	*	*	*	*
 =9	=9	=9	=9	=9	=9	=9
+!	!LO:N:n=1:vis=4	!	!	!	!	!
 4.G\	4.d 4.B/	.	8.d/	-kwi-	-te-	la-
 .	.	.	16e/	-tły	-go	-to
-.	.	.	8f#/	w_mych	ją	u-
+.	.	.	8f#/	w mych	ją	u-
 4.E\	4.g 4.c#X 4.A/	.	8g/	u-	kwia-	-pa-
 .	.	.	8f#/	-czuć	-tem	-łem,
 .	.	.	8g/	i	na-	ni
 =10	=10	=10	=10	=10	=10	=10
+!	!LO:N:vis=4	!	!	!	!	!
 4.D\	4.a 4.f# 4.cn/	.	8.a/	my-	-zwa-	je-
 .	.	.	16g/	-śli	-no	-sień
 .	.	.	8a/	po-	czys-	za-
 8.G\L	8.bL 8.g 8.B/	.	8.b\	-go-	-toś-	-wie-
-16A\K	16cc/K	.	16cc\	-dnie	-ci,	-ją
+16A\K	16cc/K	.	16cc\	-dzie	-ci,	-ją
 8B\J	8dd/J	.	8dd\	tak	bądź	tych
 !!LO:LB:g=original
 =11	=11	=11	=11	=11	=11	=11
-*^	*	*	*	*	*	*
-8.E/L	4C\	4ee 4e/	.	8ee\	jas-	li-	kwia-
-.	.	.	.	8a/	-na	-lija,	-tów
-16F#/K	.	.	.	.	.	.	.
-8G#X/J	8BB\	8e 8d/	.	8b/	jak	a-	nie
-*v	*v	*^	*	*	*	*	*
-4A 4AA\	4cc/	4e 4c\	.	8cc\	ócz	-niel-	spa-
-.	.	.	.	8e/	twych	-ko	-li
-8A 8D\	8cc/	8f#\	.	8f#/	bła-	a-	nie
+*^	*^	*	*	*	*	*
+8.E/L	4C\	4ee 4e/	4.ryy	.	8ee\	jas-	li-	kwia-
+.	.	.	.	.	8a/	-na	-lija,	-tów
+16F#/K	.	.	.	.	.	.	.	.
+8G#X/J	8BB\	8e 8d/	.	.	8b/	jak	a-	nie
+4A 4AA\	4.ryy	4cc/	4e 4c\	.	8cc\	ócz	-niel-	spa-
+.	.	.	.	.	8e/	twych	-ko	-li
+8A 8D\	.	8cc/	8f#\	.	8f#/	bła-	a-	nie
+*v	*v	*	*	*	*	*	*	*
 *	*v	*v	*	*	*	*	*
 =12	=12	=12	=12	=12	=12	=12
 .	8qg/	.	.	.	.	.
-4G 4GG\	8.b/L	.	4.g/	-wa-	-nie-	zzię-
+4G 4GG\	8.b/L	.	4.g/	-wa-	-nie-	z zię-
 .	16B/K	.	.	.	.	.
 8r	8c/J	.	.	.	.	.
 !	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!
@@ -151,26 +154,27 @@
 .	.	.	.	8g/	roz-	na	roz-
 =14	=14	=14	=14	=14	=14	=14	=14
 *	*	*^	*	*	*	*	*
+*	*2\right	*	*2\right	*	*	*	*	*
 4.G/	2.E\	4.g/]	2.c\	.	8cc\	-kwi-	tra-	-sia-
-.	.	.	.	.	8b\	-ta	-wek	-nej
+.	.	.	.	.	8b\	-ta	-wek	-ne
 .	.	.	.	.	8a\	do	Ko-	zie-
 4.A/	.	[<4.f#/	.	.	8a/	słoń-	-bier-	-mi-
-.	.	.	.	.	8g/	-ca,	-ca	-cy
-!	!	!	!	!	!LO:TX:t=P:problem=skreślony dźwięk 8f#	!	!	!
+.	.	.	.	.	8g/	-ca,	-cu	-cy
+!	!	!	!	!	!LO:TX:t=P:problem=skreślona nuta 8f#	!	!	!
 .	.	.	.	.	8a/	wes-	lecz	tych
 !!LO:PB:g=original
 =15	=15	=15	=15	=15	=15	=15	=15	=15
 !	!	!LO:TX:a:t=P:problem=brak zakończenia łuku	!	!	!	!	!	!
 !LO:TX:a:t=P:problem=koniec łuku na górze	!	!LO:TX:a:t=P:problem=brak zakończenia ligatury	!	!	!	!	!	!
-(4B/	(>4D#X\)	4f#/])	4.d\	.	8.b/	-tchnie-	mal-	kwia-
+(4B/	(>4D#X\)	4f#/])	4.B\	.	8.b/	-tchnie-	mal-	kwia-
 .	.	.	.	.	16a/	-niem	-ca	-tów
 8G/)	8E\)	8g/	.	.	8g/	po-	wy-	cu-
-*	*	*v	*v	*	*	*	*	*
-4.A\	(4G/	8.aL 8.c/	.	8g/	-ran-	-naj-	-dow-
-.	.	.	.	8f#/	-nym	-dą	-nych
-.	.	16bK 16d/	.	.	.	.	.
-.	8AA\)	8cc#XJ 8e/	.	8e/	zbu-	po	na-
-*v	*v	*	*	*	*	*	*
+4.G/	(>4A\	8.aL 8.c/	4.ryy	.	8g/	-ran-	-naj-	-dow-
+.	.	.	.	.	8f#/	-ku	-dą	-nych
+.	.	16bK 16d/	.	.	.	.	.	.
+.	8AA\)	8cc#XJ 8e/	.	.	8e/	zbu-	po	na-
+*v	*v	*	*	*	*	*	*	*
+*	*v	*v	*	*	*	*	*
 =16	=16	=16	=16	=16	=16	=16
 8.F#\L	4dd 4d/	.	4.a/	-dzo-	wo-	-sio-
 16E\K	.	.	.	.	.	.
@@ -191,16 +195,15 @@
 4.D/	4.GG\]	8.a/L	4.f# 4.c\]	.	8a/	swie-	-cho-	mło-
 .	.	.	.	.	8g/	-ża,	-waj	-dej
 .	.	16g/K	.	.	.	.	.	.
-.	.	8a/J	.	.	8a/	kwit-	w_twym	dzie-
+.	.	8a/J	.	.	8a/	kwi-	w twym	dzie-
+8.GG/L	4.ryy	4b 4g/	4B\	.	8b\	-tną-	ser-	-wi-
+.	.	.	.	.	8a\	-ca,	-cu,	-cy
+16AA/K	.	.	.	.	.	.	.	.
+8BB/J	.	8g/	8g\	.	8g\	lecz	przed	niech
 *v	*v	*	*	*	*	*	*	*
-8.GG/L	4b 4g/	4B\	.	8b\	-ną-	ser-	-wi-
-.	.	.	.	8a\	-ca,	-cu,	-cy
-16AA/K	.	.	.	.	.	.	.
-8BB/J	8g/	8g\	.	8g\	lecz	przed	niech
 !!LO:LB:g=original
 =19	=19	=19	=19	=19	=19	=19	=19
 8qqCC/	.	.	.	.	.	.	.
-*2\right	*	*	*	*	*	*	*
 !	!	!	!LO:HP:t=crescendo.	!	!	!	!
 [<2.C\	8g/L	4e\	<	8g/	nie	bu-	pom-
 .	8a/	.	.	8a/	rań,	-rzą	-ni
@@ -222,19 +225,19 @@
 8d/	8BB\	.	8g#X\J	.	.	.	.	.
 =21	=21	=21	=21	=21	=21	=21	=21	=21
 8c/	8AA\	8ee/]	8a\	.	8.ee\]	.	.	.
-8r	8ryy	8r	8ryy	.	.	.	.	.
+8r	4ryy	8r	8ryy	.	.	.	.	.
 .	.	.	.	.	16a/	rań,	-rzą	-mni
-8r	8ryy	8r	8ryy	.	8b/	nie	cię	że
+8r	.	8r	8ryy	.	8b/	nie	cię	że
+!LO:TX:a:t=P:problem=dwa łuki na dole	!	!	!	!LO:DY:rj:t=p.	!	!	!	!
+(4.A (4.D\	4.ryy	(4e/	4.c\	p	8cc/	wię-	traw-	śród
+.	.	.	.	.	8e/	-dnij	-ka	nich
+.	.	8f#/)	.	.	8f#/	jak	za-	zro-
 *v	*v	*	*	*	*	*	*	*
-!LO:TX:a:t=P:problem=dwa łuki na dole	!	!	!LO:DY:rj:t=p.	!	!	!	!
-(4.A (4.D\	(4e/	4.c\	p	8cc/	wię-	traw-	śród
-.	.	.	.	8e/	-dnij	-ka	nich
-.	8f#/)	.	.	8f#/	jak	za-	zro-
 *	*v	*v	*	*	*	*	*
 !!LO:LB:g=original
 =22	=22	=22	=22	=22	=22	=22
+!LO:TX:t=1.ma e 2da	!	!	!	!	!	!
 *>B1	*>B1	*	*>B1	*	*	*
-*>B2	*>B2	*	*>B2	*	*	*
 .	8qg/	.	.	.	.	.
 !LO:TX:a:t=P:problem=brak zakończenia łuku	!	!LO:DY:t=pp.	!	!	!	!
 8B 8GG\))	(8.gg/L	pp	8g/	o-	-sło-	.
@@ -246,7 +249,6 @@
 8r	8a/J)	.	8r	.	.	.
 =23	=23	=23	=23	=23	=23	=23
 *	*^	*	*	*	*	*
-!	!	!	!	!LO:TX:a:t=1ma e 2da	!	!	!
 8r	([2.b/	4r	.	2.r	.	.	.
 8r	.	.	.	.	.	.	.
 8B 8G 8E\	.	8r	.	.	.	.	.
@@ -258,16 +260,17 @@
 (4.B/	(>4BB\	8b/L]	4d#X\	.	2.r	.	.	.
 .	.	8f#/	.	.	.	.	.	.
 .	[>8E\)	8g#X/J	8dn\	.	.	.	.	.
-4.A/	(>4AA 4E]\	8a/L	4c#X\	.	.	.	.	.
+4.A/	(>4E]\ 4AA	8a/L	4c#X\	.	.	.	.	.
 .	.	8e/	.	.	.	.	.	.
 .	8D\))	8f#/J)	8cn\	.	.	.	.	.
 *v	*v	*	*	*	*	*	*	*
 *	*v	*v	*	*	*	*	*
 =25:|!	=25:|!	=25:|!	=25:|!	=25:|!	=25:|!	=25:|!
-*>B3	*>B3	*	*>B3	*	*	*
+!LO:TX:t=3.tia.	!	!	!	!	!	!
+*>B2	*>B2	*	*>B2	*	*	*
 .	8qg/	.	.	.	.	.
 8B 8GG\	(8.gg/L	.	8a/	.	.	-dzo-
-!	!	!	!LO:TX:a:t=3.tia.	!	!	!
+!	!	!	!	!	!	!
 8r	.	.	8g/	.	.	-ne.
 .	16b/K	.	.	.	.	.
 8r	8cc/J	.	8r	.	.	.
@@ -298,12 +301,12 @@
 4A/]	4D#X\	4f#/	4.B\	.	8.b\	.	.	prze-
 .	.	.	.	.	16a\	.	.	-bacz
 8G/	8E\	8g/	.	.	8g\	.	.	A-
-*	*	*v	*v	*	*	*	*	*
-(4A\)	4.G/	8.aL 8.c#X/	.	8g/	.	.	-niel-
-.	.	.	.	8f#/	.	.	-ko,
-.	.	16bK 16d/	.	.	.	.	.
-8AA\)	.	8cc#XJ 8e/	.	8e/	.	.	A-
-*v	*v	*	*	*	*	*	*
+(4A\)	4.G/	8.aL 8.c#X/	4.ryy	.	8g/	.	.	-niel-
+.	.	.	.	.	8f#/	.	.	-ko,
+.	.	16bK 16d/	.	.	.	.	.	.
+8AA\)	.	8cc#XJ 8e/	.	.	8e/	.	.	A-
+*v	*v	*	*	*	*	*	*	*
+*	*v	*v	*	*	*	*	*
 =29	=29	=29	=29	=29	=29	=29
 (8.F#\L	4dd 4d/)	.	4.a/	.	.	-nie-
 16E\K	.	.	.	.	.	.
@@ -316,7 +319,7 @@
 *^	*^	*	*	*	*	*
 (<4G/	2.GG\	4.d/	[4.B\	.	8.d/	.	.	mat-
 .	.	.	.	.	16e/	.	.	-ka
-8F#/	.	.	.	.	8f#/	.	.	w_mo-
+8F#/	.	.	.	.	8f#/	.	.	w mo-
 8.E/L	.	4.b/	4B\]	.	8g/	.	.	-gi-
 .	.	.	.	.	8f#/	.	.	-le
 16F#/K	.	.	.	.	.	.	.	.
@@ -325,11 +328,11 @@
 4.D/	4.GG\	8.a/L	4.f# 4.c\]	.	8.a/	.	.	wszy-
 .	.	16g/K	.	.	16g/	.	.	-scy
 .	.	8a/J	.	.	8a/	.	.	tak
+8.GG/L	4.ryy	4b 4g/	4B\	.	8b/	.	.	smut-
+.	.	.	.	.	8g/	.	.	-ni,
+16AA/K	.	.	.	.	.	.	.	.
+8BB/J	.	8g/	8g\	.	8g/	.	.	i
 *v	*v	*	*	*	*	*	*	*
-8.GG/L	4b 4g/	4B\	.	8b/	.	.	smut-
-.	.	.	.	8g/	.	.	-ni,
-16AA/K	.	.	.	.	.	.	.
-8BB/J	8g/	8g\	.	8g/	.	.	i
 =32	=32	=32	=32	=32	=32	=32	=32
 8qCC/	.	.	.	.	.	.	.
 2.C\	8.g/L	4e\	.	8.g/	.	.	kwia-
@@ -349,17 +352,17 @@
 8B/J	.	8dd/J	.	.	8dd\	.	.	ach!
 4c/	4C\	4.ee/	8.e\L	>	[4.ee\	.	.	kwia-
 .	.	.	16f#X\K	.	.	.	.	.
-8d/	8BB\	.	8g#X\J	]]	.	.	.	.
+8d/	8BB^\	.	8g#X\J	]]	.	.	.	.
 !!LO:LB:g=original
 =34	=34	=34	=34	=34	=34	=34	=34	=34
 8c/	8AA\	8ee/	8a\	.	8ee\]	.	.	.
-8r	8ryy	8r	8ryy	.	8a\	.	.	-tów
-8r	8ryy	8r	8ryy	.	8b\	.	.	już
+8r	4ryy	8r	8ryy	.	8a\	.	.	-tów
+8r	.	8r	8ryy	.	8b\	.	.	już
+!	!	!	!	!LO:DY:rj	!	!	!	!
+(4.A 4.D\	4.ryy	(<4e/	4.c\	p	8cc\	.	.	dzi-
+.	.	.	.	.	8e/	.	.	-siaj
+.	.	8f#/)	.	.	8f#/	.	.	nie-
 *v	*v	*	*	*	*	*	*	*
-!	!	!	!LO:DY:rj	!	!	!	!
-(4.A 4.D\	(<4e/	4.c\	p	8cc\	.	.	dzi-
-.	.	.	.	8e/	.	.	-siaj
-.	8f#/)	.	.	8f#/	.	.	nie-
 *	*v	*v	*	*	*	*	*
 =35	=35	=35	=35	=35	=35	=35
 .	8qg/	.	.	.	.	.
@@ -378,7 +381,7 @@
 (<8c 8F#/	(>8AA 8DD\	.	.	.	.	.	.
 8B 8G/)	8GG\)	.	.	.	.	.	.
 8r	8r	.	.	.	.	.	.
-8c 8F#/	((8AA 8DD\	.	.	.	.	.	.
+8c 8F#/	(8AA (8DD\	.	.	.	.	.	.
 *v	*v	*	*	*	*	*	*
 =37	=37	=37	=37	=37	=37	=37
 8GG\))	8d 8B< 8G</	.	2.r	.	.	.
@@ -391,11 +394,10 @@
 2.D 2.GG;\	2.g 2.B;/	.	2.r;	.	.	.
 ==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: {<p1>(p2)}
+!!!system-decoration: {<vox>(klav)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!RDF**kern: | = vertical stroke
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-04-17
 !!!ENC: Kamil Watkowski
 !!!END: 2021-03-29
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-04-17

@@ -22,22 +22,23 @@
 !!!IIIF:
 !!!ONB-nifc: UWAGA: Maestoso + Polka razem
 !!!OMD: Maestoso
-!!!AIN: 1 forte
-!!!key:
+!!!AIN: 2 piano
+!!!key: C
 **kern	**fing	**kern	**fing	**dynam
-*part1	*	*part1	*	*
-*staff2	*	*staff1	*	*
-*Iforte	*	*Iforte	*	*
-*I"Fortepian	*	*I"Fortepian	*	*
+*staff2	*staff2	*staff1	*staff1	*staff1/2
+*ICklav	*	*ICklav	*	*
+*Ipiano	*	*Ipiano	*	*
+*I"	*	*I"	*	*
 *>[A,B,B,C,C,D,D,E,E,B,C]	*>[A,B,B,C,C,D,D,E,E,B,C]	*>[A,B,B,C,C,D,D,E,E,B,C]	*>[A,B,B,C,C,D,D,E,E,B,C]	*>[A,B,B,C,C,D,D,E,E,B,C]
 *>A	*>A	*>A	*>A	*>A
 *clefG2	*	*clefG2	*	*
 *k[]	*	*k[]	*	*
-*F:	*	*F:	*	*
+*C:	*	*C:	*	*
 *M3/4	*	*M3/4	*	*
 =1	=1	=1	=1	=1
+*all\right	*	*all\right	*	*
 !	!	!	!	!LO:DY:rj
-8e/	1	8ggg 8gg#\	2 5	f
+8e/	1	8eee 8gg#\	2 5	f
 8r	.	8r	.	.
 (16e/LL	.	4.bb 4.gg# 4.ee^<\	1 2 4	.
 16d#X/	.	.	.	.
@@ -57,7 +58,7 @@
 =3	=3	=3	=3	=3
 8d/	.	8ddd 8ff#X\	2 5	.
 8r	.	8r	.	.
-(16d/LL	1.	4.aa 4.ff# 4.dd^<\	1 2 4	.
+(16d/LL	1	4.aa 4.ff# 4.dd^<\	1 2 4	.
 16c#X/	.	.	.	.
 16d/	.	.	.	.
 16c#/JJ	.	.	.	.
@@ -74,9 +75,8 @@
 8g/)	.	.	.	.
 8r	.	8r	.	.
 =5	=5	=5	=5	=5
-!	!	!	!	!LO:DY:rj
-8G/L	5	8g'/L	1	p
-8f#X/	2	8a'/	.	<
+8G/L	5	8g'/L	1	p <
+8f#X/	2	8a'/	.	.
 8fn/	1	8b'/	.	.
 8e/	.	8cc'/	1	.
 8d/	.	8dd'/	.	.
@@ -95,15 +95,16 @@
 =8	=8	=8	=8	=8
 4g/	.	4gg 4dd 4b\	.	sf
 4r	.	4r	.	.
-!LO:TX:a:i:t=Attaca La Polka	!	!	!	!
 4r;	.	4r;	.	.
+!LO:TX:a:i:rj:t=Attaca La Polka	!	!	!	!
 !!LO:PB:g=original
 =9||	=9||	=9||	=9||	=9||
+!!!OMD: Polka
 *>B	*>B	*>B	*>B	*>B
 *M2/4	*	*M2/4	*	*
 *^	*^	*	*	*
 *	*2\right	*	*	*	*	*
-!	!	!	!	!LO:TX:a:i:t=Polka	!	!LO:DY:rj
+!	!	!	!	!	!	!LO:DY:rj
 (16g/LL	2c\	1	5	(16ee\LL	4	p
 16f#X/	.	.	.	16dd#X\	.	.
 16g/	.	.	.	16ee\	.	.
@@ -127,8 +128,8 @@
 8g/L	2	8ee\L	.	.
 8e/J	4	8cc'\J	.	.
 =12	=12	=12	=12	=12
-.	.	(8qee/	.	.
 *^	*	*	*	*
+.	.	.	(8qee/	.	.
 8B/L	4B\	5	8dd\L)	.	.
 8f 8d/	.	3 1	8g'\	.	.
 8eJ 8c/	4ryy	4 2	8cc'\J	.	.
@@ -162,11 +163,11 @@
 16a/LL	1	16cc'\LL	3	.
 16a/J	.	16cc'\J	.	.
 !LO:SIC:v:o=8f/J	!	!	!	!
-8f#	3	8dd'^<\J	.	.
+8f#J	3	8dd'^<\J	.	.
 16g/LL	2	16b'\LL	.	.
 16g/J	.	16b'\J	.	.
-!LO:SIC:v:n=1:o=8fJ 8d/	!	!	!	!
-8f#	5 3	8a'^<\J	.	.
+!LO:SIC:v:o=8fJ 8d/	!	!	!	!
+8f#J 8d	5 3	8a'^<\J	.	.
 !!LO:LB:g=original
 =17	=17	=17	=17	=17
 !	!	!	!	!LO:DY:rj
@@ -192,7 +193,7 @@
 *rep	*	*	*	*
 8F#/L	5	16cc'\LL	1	.
 .	.	16dd'\J	.	.
-8e-XJ 8A/	4 1	8ee-X'\J	.	[[
+8e-J 8A/	4 1	8ee-X'\J	.	[[
 *Xrep	*	*	*	*
 =20	=20	=20	=20	=20
 !	!	!	!	!LO:DY:rj
@@ -201,16 +202,15 @@
 8fJ 8B/	4 1	16ff\	.	.
 .	.	16dd\JJ)	.	.
 8e 8c/	3 1	8cc\	.	.
-!	!	!LO:TX:b:i:t=fine	!	!
-!	!	!LO:TX:t=P:problem=fermata nad kreską taktową	!	!
 8r	.	8r	.	.
-!!LO:LB:g=original
+!	!	!LO:TX:b:i:rj:t=fine	!	!
 *clefF4	*	*	*	*
-=21:|!|:	=21:|!|:	=21:|!|:	=21:|!|:	=21:|!|:
+!!LO:LB:g=original
+=21:|!|:	=21:|!|:	=21:|!|:;	=21:|!|:	=21:|!|:
 *>D	*>D	*>D	*>D	*>D
 *k[b-]	*	*k[b-]	*	*
-!	!	!LO:TX:t=P:problem=♭ dopisany ołówkiem przy kluczu	!	!
-!LO:TX:t=P:problem=♭ dopisany ołówkiem przy kluczu	!	!LO:TX:a:t=Trio	!	!LO:DY:rj
+!!LO:TX:t=P:problem=♭ dopisany ołówkiem przy kluczu
+!	!	!LO:TX:a:i:t=Trio	!	!LO:DY:rj
 8F\L	.	16ccLL 16a'/	3 5	p
 .	.	16ccJ 16a'/	.	.
 8cJ 8A\	.	8aJ 8f'/	.	.
@@ -238,13 +238,15 @@
 8cJ 8A\	.	8ff'\J	1	.
 *Xrep	*	*	*	*
 =24	=24	=24	=24	=24
-.	.	(8qaa/	4	.
-8C\L	.	16.gg\LL)	.	.
-.	.	32ff#X\K	.	.
-8cJ 8G 8E\	.	16.gg\	.	.
-.	.	32aa\JJk	.	.
-8C\L	.	8gg\L	.	.
-8cJ 8G 8E\	.	8cccJ 8gg 8ee\	.	sf
+*^	*	*	*	*
+.	.	.	(8qaa/	4	.
+8C\L	4ryy	.	16.gg\LL)	.	.
+.	.	.	32ff#X\K	.	.
+8cJ 8G 8E\	.	.	16.gg\	.	.
+.	.	.	32aa\JJk	.	.
+4C/	8C\L	.	8gg\L	.	.
+.	8cJ 8G 8E\	.	8cccJ 8gg 8ee\	.	sf
+*v	*v	*	*	*	*
 !!LO:LB:g=original
 =25	=25	=25	=25	=25
 8F\L	.	16ddLL 16b-'\	3 5	.
@@ -268,9 +270,9 @@
 *Xrep	*	*	*	*
 =27	=27	=27	=27	=27
 *^	*	*	*	*
-4rAyy	8F\L	.	16a'\LL	1	.
+8F\L	4ryy	.	16a'\LL	1	.
 .	.	.	16dd'\J	4	.
-.	8cJ 8A\	.	8cc'\J	1	.
+8cJ 8A\	.	.	8cc'\J	1	.
 4BBn/	8BBn\L	.	16dd'\LL	.	.
 .	.	.	16ee'\J	.	.
 .	8A-XJ 8F 8D\	.	8ff'\J	.	.
@@ -279,8 +281,8 @@
 .	.	.	16cc\	1	.
 .	8B-J 8E\	.	16aa\	5	.
 .	.	.	16gg\JJ	.	.
-4rcyy	8A 8F\	.	8ff\	.	.
-.	8r	.	8r	.	.
+8A 8F\	4ryy	.	8ff\	.	.
+8r	.	.	8r	.	.
 !!LO:PB:g=original
 =29:|!|:	=29:|!|:	=29:|!|:	=29:|!|:	=29:|!|:	=29:|!|:
 *>E	*>E	*>E	*>E	*>E	*>E
@@ -305,7 +307,7 @@
 .	.	.	16bb-X\	.	.
 .	8B-J 8E\	.	16aa\	.	.
 .	.	.	16gg\JJ	.	.
-8AL 8F 8D\	4rCCyy	.	16ff\LL	.	.
+8AL 8F 8D\	4ryy	.	16ff\LL	.	.
 .	.	.	16ee\	2	.
 8GJ 8D 8BB-\	.	.	16dd\	.	.
 .	.	.	16gg\JJ	.	.
@@ -339,7 +341,7 @@
 .	.	.	16bb-X\	.	.
 .	8B-J 8E\	.	16aa\	.	.
 .	.	.	16gg\JJ	.	.
-8AL 8F 8D\	4rEEyy	.	16ff\LL	.	.
+8AL 8F 8D\	4ryy	.	16ff\LL	.	.
 .	.	.	16ee\	.	.
 8GJ 8D 8BB-\	.	.	16dd\	.	.
 .	.	.	16gg\JJ	.	.
@@ -353,7 +355,6 @@
 .	8r	.	8r	.	.
 *v	*v	*	*	*	*
 =37	=37	=37	=37	=37
-!	!	!	!	!LO:DY:rj
 8F\L	.	16ccLL 16a'/	.	p
 .	.	16ccJ 16a'/	.	.
 8cJ 8A\	.	8aJ 8f'/	.	.
@@ -384,8 +385,8 @@
 *Xrep	*	*	*	*
 !!LO:LB:g=original
 =40	=40	=40	=40	=40
-.	.	(8qaa/	.	.
 *^	*	*	*	*
+.	.	.	(8qaa/	.	.
 4C/	8C\L	.	16.gg\LL)	.	.
 .	.	.	32ff#X\K	.	.
 .	8cJ 8G 8E\	.	16.gg\	.	.
@@ -395,8 +396,8 @@
 *v	*v	*	*	*	*
 =41	=41	=41	=41	=41
 8F\L	.	16ddLL 16b-'\	.	.
-.	.	16ddJ 16b-'\	.	.
-8cJ 8A\	.	8ccJ 8a'\	.	.
+.	.	16ccJ 16a'\	.	.
+8cJ 8A\	.	8aJ 8f'\	.	.
 .	.	(16qqff/LL	.	.
 .	.	16qqgg/JJ	.	.
 *rep	*	*	*	*
@@ -416,7 +417,7 @@
 !!LO:LB:g=original
 =43	=43	=43	=43	=43
 *^	*	*	*	*
-4rAyy	8F\L	.	16a'\LL	.	.
+4ryy	8F\L	.	16a'\LL	.	.
 .	.	.	16dd'\J	.	.
 .	8cJ 8A\	.	8cc'\J	.	.
 4BBn/	8BBn\L	.	16dd'\LL	.	.
@@ -427,17 +428,16 @@
 .	.	.	16cc\	.	.
 .	8B-J 8E\	.	16aa\	.	.
 .	.	.	16gg\JJ)	.	.
-4rcyy	8A 8F\	.	8ff\	.	.
-!	!	!	!LO:TX:b:i:t=da capo Polka\nal fine	!	!
-!	!	!	!LO:TX:t=P:problem=fermata nad kreską taktową	!	!
+4ryy	8A 8F\	.	8ff\	.	.
 .	8r	.	8r	.	.
+!	!	!	!LO:TX:b:i:t=da capo Polka\nal fine	!	!
 *v	*v	*	*	*	*
-==:|!	==:|!	==:|!	==:|!	==:|!
+==:|!	==:|!	==:|!;	==:|!	==:|!
 *-	*-	*-	*-	*-
-!!!system-decoration: {(p1)}
+!!!system-decoration: {(*)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-05-02
 !!!ENC: Marcin Jachim
 !!!END: 2021-04-09
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-05-02

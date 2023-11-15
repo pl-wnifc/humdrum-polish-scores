@@ -24,16 +24,17 @@
 !!!IIIF:
 !!!ONB-nifc:
 !!!OMD: Maestoso.
-!!!AIN: 1 empty
-!!!key:
+!!!AIN: 1 organ
+!!!key: d
 **kern	**kern	**dynam
-*part1	*part1	*
-*staff2	*staff1	*
-*Iempty	*Iempty	*
-*	*I"37.	*
+*part1	*part1	*part1
+*staff2	*staff1	*staff1/2
+*ICklav	*ICklav	*
+*Iorgan	*Iorgan	*
+*I"37.	*I"37.	*
 *clefF4	*clefG2	*
 *k[b-]	*k[b-]	*
-*D:	*D:	*
+*d:	*d:	*
 *M2/2	*M2/2	*
 *met(c|)	*met(c|)	*
 =1	=1	=1
@@ -47,7 +48,7 @@
 2AZ/	2A^\	2a^Z/	2a\	>
 !LO:TX:b:i:t=Ped.	!	!	!	!LO:DY:a:rj
 (4A/	(2D\	4f/	([2d\	] p
-8B-/L	.	8g/L	.	]
+8B-/L	.	8g/L	.	.
 8A/J	.	8f/J	.	.
 =3	=3	=3	=3	=3
 4B-/	4GG\	2e/	4.d\]	.
@@ -59,7 +60,7 @@
 8E/L	8E\L	8e/L	8e\L	.
 8F/J	8F\J	8f/J	8f\J	<
 4G/	4G\	4g/	4g\	.
-4E/	4E\	4e/	4e\	[
+4E/	4E\	4e/	4e\	[[
 =5	=5	=5	=5	=5
 2B-^Z/	2B-\	2b-^Z/	2b-^\	.
 !LO:TX:b:i:t=Ped.	!	!	!	!LO:DY:a:rj
@@ -69,18 +70,18 @@
 =6	=6	=6	=6	=6
 [2d/	4F 4FF\	4dd/	2a\]	.
 .	4F#X 4FF#X\	4ccn/	.	.
-2d/])	2G 2GG\)	2b-/	2g\	.
+2d/])	2G 2GG\)	2b-/)	2g\	.
 !!LO:LB:g=original
 =7	=7	=7	=7	=7
 *	*	*	*	*^
-!	!	!LO:TX:t=P:problem=brak zakończenia łuku	!	!LO:HP:a	!
-4G/	4G\	4g/)	4g\	<	f
+!	!	!	!	!LO:HP:a	!
+4G/	4G\	4g/	4g\	<	f
 8A/L	8A\L	8a/L	8a\L	.	.
 8B-/J	8B-\J	8b-/J	8b-\J	.	.
 .	.	.	.	[	.
 !	!	!	!	!LO:HP:a	!
 .	.	.	.	>	.
-4cZ/	4c\	4ccZ/	4cc\	.	.
+4AZ/	4A\	4aZ/	4a\	.	.
 .	.	.	.	]	.
 !	!	!	!	!LO:DY:a:rj	!LO:DY:b=2:rj
 4A/	4F#X\	4e-X^/	4c\	pp	pp
@@ -92,11 +93,11 @@
 .	8AA'\J	.	.	.
 8G/]	8GG;\	8d;/]	8B-\]	]
 !	!	!	!	!LO:DY:a
-8rAA	8rA	(8e/L	8r	p
-4rAA	4rA	8f/	4r	.
+8rA	8r	(8e/L	8r	p
+4rA	4r	8f/	4r	.
 .	.	8g/J)	.	.
 =9	=9	=9	=9	=9
-8rAA	8rA	(4.a/	8rc	.
+8rA	8r	(4.a/	8rc	.
 [4.A/	(8AA\L	.	(8c#X\L	.
 .	8BBn\	.	8d\	.
 .	8C#X\J	8g/	8e\J	.
@@ -104,7 +105,7 @@
 8G/L	.	8e/L	.	.
 8F/J	.	8d/J)	.	.
 =10	=10	=10	=10	=10
-!	!	!	!	!LO:DY:a:rj
+!	!	!	!	!LO:DY:a:cj
 !	!	!	!	!LO:HP:a
 (2B-/	(2GG\	1e	2.d\]	pp >
 4A/	2AA\)	.	.	.
@@ -119,14 +120,14 @@
 [4A/)	4AA\)	4e/	4c#X\	[
 =12	=12	=12	=12	=12
 !	!	!	!	!LO:HP:a
-1A]	1DD;	1f#X;	1d	> ]
+1A]	1DD;	1f#X;	1d	pp >]
 *v	*v	*	*	*
 *	*v	*v	*
 ==	==	==
 *-	*-	*-
-!!!system-decoration: {(s1,s2)}
+!!!system-decoration: {(*)}
 !!!RDF**kern: Z = caesura
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-08-09
 !!!ENC: Krzysztof Stępień
 !!!END: 2021-07-28
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-08-09

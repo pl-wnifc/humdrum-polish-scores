@@ -21,32 +21,33 @@
 !!!URL-scan: https://polish.musicsources.pl/pl/lokalizacje/galeria/rekopisy/6589 @EN{Scan on Polish Music Sources Website} @PL{Skany w portalu Dziedzictwo Muzyki Polskiej w otwartym dostępie}
 !!!IIIF:
 !!!ONB-nifc:
-!!!AIN: 1 empty
-!!!key:
+!!!AIN: 1 piano
+!!!key: g
 **kern	**kern	**dynam
-*part1	*part1	*
-*staff2	*staff1	*
-*Iempty	*Iforte	*
-*	*I"fp	*
+*part1	*part1	*part1
+*staff2	*staff1	*staff1/2
+*ICklav	*ICklav	*
+*Ipiano	*Ipiano	*
+*I"[Pianoforte]	*I"[Pianoforte]	*
 *>[A,A,B,B,C]	*>[A,A,B,B,C]	*>[A,A,B,B,C]
 *>A	*>A	*>A
 *clefF4	*clefG2	*
 *k[b-e-]	*k[b-e-]	*
 *g:	*g:	*
 *M2/4	*M2/4	*
-*all\right	*all\right	*
 =1	=1	=1
 *^	*	*
+*all\right	*	*all\right	*
 *2\right	*	*	*
-!	!LO:N:vis=2	!LO:TX:t=P:all\right:problem	!
-2FF#X/	8FF#\L	8a'\L	p
+!	!LO:N:vis=2	!	!
+2FF#X/	8FF#\L	8a`\L	p
 .	.	8qcc/	.
 .	8A 8D 8C\	8b-\J	.
 .	8A 8D 8C\	4a\	.
 .	8AJ 8D 8C\	.	.
 =2	=2	=2	=2
 !	!LO:N:vis=2	!	!
-2GG/	8GG\L	8g|\L	.
+2GG/	8GG\L	8g`\L	.
 .	.	8qb-/	.
 .	8B- 8D\	8a\J	.
 .	8B- 8D\	4g\	.
@@ -54,18 +55,18 @@
 *v	*v	*	*
 =3	=3	=3
 8DD/	(8f#X/L	.
-!LO:SIC:v:n=2:o=8cL 8F 8D\	!	!
-8F#	16a/L	.
-.	16g/JJ	.
-!LO:SIC:v:n=2:o=8c 8F 8D\	!	!
-8F#	8.dd\L	.
-!LO:SIC:v:n=2:o=8cJ 8F 8D\	!	!
-8F#	.	.
+!LO:SIC:v:o=8cL 8F 8D\	!	!
+8cL 8F# 8D	16a/L	.
+.	16a/JJ	.
+!LO:SIC:v:o=8c 8F 8D\	!	!
+8c 8F# 8D	8.dd\L	.
+!LO:SIC:v:o=8cJ 8F 8D\	!	!
+8cJ 8F# 8D	.	.
 .	16cc\Jk)	.
 =4	=4	=4
 *^	*	*
 !	!LO:N:vis=2	!	!
-2GG/	8GG\L	8b-|\	.
+2GG/	8GG\L	8b-`\	.
 .	.	8qb-/	.
 .	8B- 8D\	(4gg\	.
 .	8B- 8D\	.	.
@@ -74,13 +75,13 @@
 *v	*v	*	*
 !!LO:LB:g=original
 =5	=5	=5
-8CC/	8ee-|\L	.
+8CC/	8ee-`\L	.
 .	8qgg/	.
 8AL 8E- 8C\	8ff\J	.
 8A 8E- 8C\	4ee-\	.
 8AJ 8E- 8C\	.	.
 =6	=6	=6
-8B-L 8G 8D\	8dd|\L	.
+8B-L 8G 8D\	8dd`\L	.
 8B- 8G 8D\	(16cc#X\L	.
 .	16dd\JJ	.
 8B- 8G 8D\	16ee-\LL	.
@@ -89,7 +90,7 @@
 .	16g\JJ)	.
 =7	=7	=7
 *tremolo	*	*
-8cL 8A 8D\	8f#X|/L	.
+8cL 8A 8D\	8f#X`/L	.
 .	(<16qqf#\LL	.
 .	16qqg\JJ	.
 8c 8A 8D\	8f#/	.
@@ -108,35 +109,35 @@
 =9:|!	=9:|!	=9:|!
 *>B	*>B	*>B
 *tremolo	*	*
-!	!LO:TX:Bi:t=cres_:problem=dynamics with extention lines	!LO:HP:t=cres_
-8FL 8D 8BBn 8GG/	8g|/L	<
+!	!LO:TX:b:i:t=cres_:PROBLEM=dynamics with extention lines	!LO:HP:t=cres:ext2=ud
+8FL 8D 8BBn 8GG/	8g`/L	<
 .	8qb-/	.
 8F 8D 8BB 8GG/	8a-X/J	.
 8F 8D 8BB 8GG/	4g/	.
 8FJ 8D 8BB 8GG/	.	.
 =10	=10	=10
 .	8qg/	.
-8GL 8E- 8C\	8ff|\	.
+8GL 8E- 8C\	8ff`\	.
 8G 8E- 8C\	(4ee-^^\	.
 8G 8E- 8C\	.	.
 8GJ 8E- 8C\	16cc\LL	.
 .	16g\JJ)	.
 =11	=11	=11
-8GL 8En 8C#X 8AA\	8a|\L	.
+8GL 8En 8C#X 8AA\	8a`\L	.
 .	8qcc/	.
 8G 8E 8C# 8AA\	8b-\J	.
 8G 8E 8C# 8AA\	4a\	.
 8GJ 8E 8C# 8AA\	.	.
 =12	=12	=12
 .	8qa/	.
-8AL 8F#X 8D\	8gg|\	.
+8AL 8F#X 8D\	8gg`\	.
 8A 8F# 8D\	(4ff#X^^\	.
 8A 8F# 8D\	.	.
 8AJ 8F# 8D\	16dd\LL	.
 .	16a\JJ)	[[
 !!LO:LB:g=original
 =13	=13	=13
-8AL 8F#X 8D 8C\	8dd|\L	f
+8AL 8F#X 8D 8C\	8dd`\L	f
 .	8qff/	.
 8A 8F# 8D 8C\	8ee-\J	.
 8A 8F# 8D 8C\	4dd\	.
@@ -144,7 +145,7 @@
 *Xtremolo	*	*
 =14	=14	=14
 *^	*	*
-4G/	8GL 8D 8BB-\	8gg|\L	.
+4G/	8GL 8D 8BB-\	8gg`\L	.
 .	8GJ 8D 8BB-\	(16ff#X\L	>
 .	.	16gg\JJ	.
 4ryy	8AL 8E- 8C\	16aa\LL	.
@@ -170,7 +171,7 @@
 =17:|!	=17:|!	=17:|!	=17:|!
 *>C	*>C	*>C	*>C
 !	!LO:N:vis=2	!	!
-2FF#X/	8FF#\L	8a|\L	.
+2FF#X/	8FF#\L	8a`\L	.
 !	!	!	!LO:DY:rj
 .	.	8qcc/	p
 .	8A 8D 8C\	8b-\J	.
@@ -178,7 +179,7 @@
 .	8AJ 8D 8C\	.	.
 =18	=18	=18	=18
 !	!LO:N:vis=2	!	!
-2GG/	8GG\L	8g|L\	.
+2GG/	8GG\L	8gL`\	.
 .	.	8qb-/	.
 .	8B- 8D\	8a\J	.
 .	8B- 8D\	4g\	.
@@ -186,18 +187,18 @@
 *v	*v	*	*
 =19	=19	=19
 8DD/	(8f#X/L	.
-!LO:SIC:v:n=2:o=8cL 8F 8D\	!	!
-8F#	16a/L	.
+!LO:SIC:v:o=8cL 8F 8D\	!	!
+8cL 8F# 8D	16a/L	.
 .	16a/JJ	.
-!LO:SIC:v:n=2:o=8c 8F 8D\	!	!
-8F#	8.dd\L	.
-!LO:SIC:v:n=2:o=8cJ 8F 8D\	!	!
-8F#	.	.
+!LO:SIC:v:o=8c 8F 8D\	!	!
+8c 8F# 8D	8.dd\L	.
+!LO:SIC:v:o=8cJ 8F 8D\	!	!
+8cJ 8F# 8D	.	.
 .	16cc\Jk)	.
 =20	=20	=20
 *^	*	*
 !	!LO:N:vis=2	!	!
-2GG/	8GG\L	8b-|\	.
+2GG/	8GG\L	8b-`\	.
 .	.	8qb-/	.
 .	8B- 8D\	(4gg\	.
 .	8B- 8D\	.	.
@@ -207,7 +208,7 @@
 !!LO:PB:g=original
 =21	=21	=21
 *tremolo	*	*
-8AL 8E- 8C\	8ee-|\L	.
+8AL 8E- 8C\	8ee-`\L	.
 8A 8E- 8C\	(16dd\L	.
 .	16ee-\JJ	.
 8A 8E- 8C\	16ff\LL	.
@@ -215,7 +216,7 @@
 8AJ 8E- 8C\	16cc\	.
 .	16a\JJ)	.
 =22	=22	=22
-8B-L 8G 8D\	8dd|\L	.
+8B-L 8G 8D\	8dd`\L	.
 8B- 8G 8D\	(16cc#X\L	.
 .	16dd\JJ	.
 8B- 8G 8D\	16ee-\LL	.
@@ -236,7 +237,7 @@
 8B-J 8G 8E-\	.	.
 !!LO:LB:g=original
 =25	=25	=25
-8AL 8E- 8C\	8ee-|\L	.
+8AL 8E- 8C\	8ee-`\L	.
 8A 8E- 8C\	(16dd\L	.
 .	16ee-\JJ	.
 8A 8E- 8C\	16ff\LL	.
@@ -244,7 +245,7 @@
 8AJ 8E- 8C\	16dd\	.
 .	16a\JJ)	.
 =26	=26	=26
-8B-L 8G 8D\	8dd|\L	.
+8B-L 8G 8D\	8dd`\L	.
 8B- 8G 8D\	(16cc#X\L	.
 .	16dd\JJ	.
 8B- 8G 8D\	16ee-\LL	.
@@ -262,18 +263,16 @@
 *^	*	*
 !	!LO:N:vis=2	!	!
 2GG/	8GG\L	8a/	.
-!	!	!LO:TX:b:t=Fine	!
 .	8B-J 8D\	4.g/	.
-!LO:TX:b:t=NWysocki	!	!	!
 .	4B- 4D\	.	.
+!LO:TX:b:i:t=NWysocki	!	!LO:TX:b:i:t=Fine	!
 *v	*v	*	*
 ==	==	==
 *-	*-	*-
-!!!system-decoration: {(s1,s2)}
+!!!system-decoration: {(*)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!RDF**kern: | = vertical stroke
-!!!ENC: Andrzej Kubiczek
-!!!END: 2021-05-30
 !!!ENC: Krzysztof Stępień
 !!!END: 2021-05-10
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2021-05-30
