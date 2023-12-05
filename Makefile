@@ -191,7 +191,7 @@ derivatives: sic keyscape modern midi
 ## clean: Remove derived files.
 ##
 
-clean: clean-keyscape clean-modern clean-sic
+clean: clean-keyscape clean-modern clean-sic clean-midi
 
 
 

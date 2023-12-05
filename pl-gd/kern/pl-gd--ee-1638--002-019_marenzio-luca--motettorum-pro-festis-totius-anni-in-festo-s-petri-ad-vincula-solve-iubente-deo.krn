@@ -24,7 +24,7 @@
 !!!IIIF: https://repozytorium.nifc.pl/islandora/object/pl-gd%3A57883/datastream/IIIF/view
 !!!ONB-nifc: UWAGA: Cantus: s. 625 (prawa), Altus: s. 473 (prawa), Tenor: s. 321 (prawa), Bassus: s. 169 (prawa)
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
-!!!key: a phrygian
+!!!key: a:phr
 !!!filter-modern: sic -sq | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG"| shed -k -e "s/LO:N:vis/LO:n:vis:/L" | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/-//B" | shed -e "s/^custos:/Xcustos:/I" | shed -k -e "s/LO:N:acc/LO:n:acc:/L" | autostem -r |humtr -p | tie -s  | modori -m
 **kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text	**kern	**text	**mod-text
 *part4	*	*	*part3	*	*	*part2	*	*	*part1	*	*
@@ -37,7 +37,7 @@
 *clefF3	*	*	*clefC3	*	*	*clefC2	*	*	*clefG2	*	*
 *mclefF4	*	*	*mclefGv2	*	*	*mclefG2	*	*	*mclefG2	*	*
 *k[b-]	*	*	*k[b-]	*	*	*k[b-]	*	*	*k[b-]	*	*
-*C:	*	*	*C:	*	*	*C:	*	*	*C:	*	*
+*a:phr	*	*	*a:phr	*	*	*a:phr	*	*	*a:phr	*	*
 *M2/1	*	*	*M2/1	*	*	*M2/1	*	*	*M2/1	*	*
 *met(C)	*	*	*met(C)	*	*	*met(C)	*	*	*met(C)	*	*
 *mmet(c)	*	*	*mmet(c)	*	*	*mmet(c)	*	*	*mmet(c)	*	*
