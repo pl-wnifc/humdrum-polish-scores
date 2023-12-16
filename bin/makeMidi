@@ -2,11 +2,18 @@
 #
 # Programmer:    Craig Stuart Sapp <craig.stanford.edu>
 # Creation Date: Tue Nov 14 08:16:31 JST 2023
-# Last Modified: Tue Nov 14 08:16:34 JST 2023
+# Last Modified: Wed Dec  6 04:38:49 PST 2023
 # Filename:      humdrum-polish-scores/bin/makeMidi
 # Syntax:        perl 5
 #
 # Description:   Convert corrected scores into MIDI using verovio.
+#                First corrections to the diplomatic score are applied
+#                using the sic tool.  Then some adjustments are made:
+#                * Remove measure repetition information since MIDI is not
+#                  rendered from such elements with verovio (currently).
+#                * Remove tremolos since fingered tremolos are handled
+#                  by verovio (currently).
+#                * Remove invisible markers such as invisible notes.
 #
 
 use strict;
@@ -15,25 +22,38 @@ my $verovio = `which verovio`;
 chomp $verovio;
 die "Cannot find verovio tool, Install first\n" if $verovio =~ /^\s*$/;
 
-my @dirs = sort glob("*-*/sic");
-die "Run 'make sic' first before 'make midi'." if !@dirs;
+my $shed = `which shed`;
+chomp $shed;
+die "Cannot find shed tool, Install first\n" if $shed =~ /^\s*$/;
+
+my $sic = `which sic`;
+chomp $sic;
+die "Cannot find sic tool, Install first\n" if $sic =~ /^\s*$/;
+
+my @dirs = sort glob("*-*/kern");
+die "Strange problem: empty list of kern directories" if !@dirs;
 
 
 foreach my $dir (@dirs) {
-	my @files = sort glob("$dir/*.sic");
+	my @files = sort glob("$dir/*.krn");
 	my $basedir = $dir;
 	$basedir =~ s/\/.*//;
 	`mkdir -p "$basedir/midi"`;
 	foreach my $file (@files) {
 		$file =~ s/.*\///;
 		my $newfile = $file;
-		$newfile =~ s/\.sic$/.mid/;
+		$newfile =~ s/\.krn$/.mid/;
 		if (-r "$basedir/midi/$newfile") {
 			print "Skipping $basedir/midi/$newfile since it already exists\n";
 			next;
 		}
 		print "Processing $basedir :: $file\n";
-		`cat "$basedir/sic/$file" | shed -ke "s/yy//g" | $verovio  --stdin -t midi -o "$basedir/midi/$newfile"`;
+		my $command = "cat \"$basedir/kern/$file\"";
+		$command .= " | $sic -s";
+		$command .= " | $shed -ke \'s/^(rep|tremolo)\$//I; s/yy//g\'";
+		$command .= " | $verovio  --stdin -t midi -o \"$basedir/midi/$newfile\"";
+		print "$command\n";
+		`$command`;
 	}
 }
 

@@ -169,20 +169,21 @@ reference-keys:
 ##
 ## Derivative files: Create variants of data in kern directories.
 ##
-## */sic       == Apply sic corrections to data.
-## */keyscapes == Generate keyscapes for scores.
-## */modern    == Apply modernization filters to scores.
-## */midi      == Generate MIDI files from scores.
+## */sic       == Apply sic corrections to Humdrum scores.
+## */keyscapes == Generate keyscapes for Humdrum scores.
+## */modern    == Apply modernization filters to Humdrum scores.
+## */midi      == Generate MIDI files from Humdrum scores.
+## */mei       == Generate MEI files from Humdrum scores.
 ##
 ###########################################################################
 
 ##############################
 ##
-## derivatives -- Create sic and then derivatives
+## derivatives -- Create derivative files from original kern files.
 ##
 
 d: derivatives
-derivatives: sic keyscape modern midi
+derivatives: sic keyscape modern midi mei
 
 
 
@@ -191,7 +192,7 @@ derivatives: sic keyscape modern midi
 ## clean: Remove derived files.
 ##
 
-clean: clean-keyscape clean-modern clean-sic clean-midi
+clean: clean-keyscape clean-modern clean-sic clean-midi clean-mei
 
 
 
@@ -251,7 +252,7 @@ clean-modern:
 
 ##############################
 ##
-## midi: Create MIDI files from sic files.
+## midi: Create MIDI files from kern files (implicitly applying sic first).
 ##
 
 mid: midi
@@ -268,6 +269,27 @@ midi:
 midi-clean: clean-midi
 clean-midi:
 	-rm -rf *-*/midi
+
+
+
+##############################
+##
+## mei: Create MEI files.
+##
+
+mei:
+	bin/makeMei
+
+
+
+##############################
+##
+## clean-mei: Delete [rismid]/mei directories.
+##
+
+mei-clean: clean-mei
+clean-mei:
+	-rm -rf *-*/mei
 
 
 
