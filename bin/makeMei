@@ -1,0 +1,41 @@
+#!/usr/bin/env perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Wed Dec  6 02:29:36 PST 2023
+# Last Modified: Fri Dec  8 23:57:41 PST 2023
+# Filename:      humdrum-polish-scores/bin/makeMei
+# Syntax:        perl 5
+#
+# Description:   Convert Humdrum scores into MEI using verovio.
+#
+
+use strict;
+
+my $verovio = `which verovio`;
+chomp $verovio;
+die "Cannot find verovio tool, Install first\n" if $verovio =~ /^\s*$/;
+
+my @dirs = sort glob("*-*/kern");
+die "Cannot find Humdrum files to convert to MEI'." if !@dirs;
+
+
+foreach my $dir (@dirs) {
+	my @files = sort glob("$dir/*.krn");
+	my $basedir = $dir;
+	$basedir =~ s/\/.*//;
+	`mkdir -p "$basedir/mei"`;
+	foreach my $file (@files) {
+		$file =~ s/.*\///;
+		my $newfile = $file;
+		$newfile =~ s/\.krn$/.mei/;
+		if (-r "$basedir/mei/$newfile") {
+			print "Skipping $basedir/mei/$newfile since it already exists\n";
+			next;
+		}
+		print "Processing $basedir :: $file\n";
+		`cat "$basedir/kern/$file" | $verovio  --stdin -t mei -o "$basedir/mei/$newfile"`;
+	}
+}
+
+
+

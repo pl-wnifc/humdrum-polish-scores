@@ -1,0 +1,74 @@
+#!/usr/bin/env perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Wed Dec  6 02:37:05 PST 2023
+# Last Modified: Wed Dec  6 02:37:08 PST 2023
+# Filename:      humdrum-polish-scores/bin/fileCompare
+# Syntax:        perl 5
+#
+# Description:   Compare the number of files between two directories and list cases
+#                where there is a file in one directory but not the other, which may
+#                indicate a data processing bug for the given data output.  If the
+#                number of files in the two directories is the same, then matches 
+#                between the individual files will not be checked.
+#
+
+use strict;
+use Getopt::Long;
+
+my $inputDir  = "kern";
+my $outputDir = "sic";
+Getopt::Long::Configure("bundling");
+GetOptions (
+   'i|input=s' => \$inputDir,
+   'o|output=s' => \$outputDir
+);
+
+my @idirs = sort glob("*-*/$inputDir");
+
+die "No input directories '$inputDir' found.\n" if !@idirs;
+
+
+foreach my $dir (@idirs) {
+	processDir($dir);
+}
+
+exit(0);
+
+
+###########################################################################
+
+
+##############################
+##
+## processDir --
+##
+
+sub processDir {
+	my ($idir) = @_;
+	my $basedir = $idir;
+	$basedir =~ s/\/$inputDir$//;
+	my $odir = "$basedir/$outputDir";
+	if (!-d $odir) {
+		print "$basedir: no output directory $outputDir\n";
+		return;
+	}
+	my @ifiles = sort glob("$idir/*");
+	my @ofiles = sort glob("$odir/*");
+
+	if (@ifiles == @ofiles) {
+		my $count = @ifiles;
+		print "$basedir: input and output both have $count file";
+		print "s" if $count != 1;
+		print "\n";
+		return;
+	}
+
+	my $icount = @ifiles;
+	my $ocount = @ofiles;
+	print "$basedir: input has $icount and output has $ocount files\n";
+
+}
+
+
+
