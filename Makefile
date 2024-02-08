@@ -321,3 +321,22 @@ clean-sic:
 
 unicode:
 	@bin/listUnicodeCharacters
+
+#
+# list only UTF-8 characters in **text spines:
+#
+
+unicode-lyrics: unicode-text
+unicode-text:
+	@bin/listUnicodeCharacters --text
+
+#
+# list only UTF-8 characters in local comments:
+#
+
+unicode-local:
+	@bin/listUnicodeCharacters --local
+
+
+
+

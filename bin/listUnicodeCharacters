@@ -13,6 +13,16 @@
 #
 
 use strict;
+use Getopt::Long;
+
+# $COLUMNSPACE is the text which separates each column of parameters.
+my $textQ = 0;
+my $localQ = 0;
+Getopt::Long::Configure("bundling");
+GetOptions (
+   't|text' => \$textQ,
+   'l|local' => \$localQ
+);
 
 my $uniname = `which uniname`;
 chomp $uniname;
@@ -36,7 +46,14 @@ my @files = sort glob("*/kern/*.krn");
 my %output;
 foreach my $file (@files) {
 	#print STDERR "Processing $file\n";
-	my $results .= `LINES=24 $uniname -abc "$file"`;
+	my $results;
+	if ($textQ) {
+		$results .= `extractx -i text $file | ridx -H | LINES=24 $uniname -abc`;
+	} elsif ($localQ) {
+		$results .= `extractx -i text $file | ridx -G | grep "^!" | LINES=24 $uniname -abc`;
+	} else {
+		$results .= `LINES=24 $uniname -abc "$file"`;
+	}
 	my @lines = split(/\n/, $results);
 	foreach my $line (@lines) {
 		$output{$line}++;
