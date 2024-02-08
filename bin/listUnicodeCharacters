@@ -1,0 +1,55 @@
+#!/usr/bin/env perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Wed Feb  7 20:48:13 PST 2024
+# Last Modified: Wed Feb  7 20:48:18 PST 2024
+# Filename:      humdrum-polish-scores/bin/listUnicodeCharacters
+# Syntax:        perl 5
+#
+# Description:   List non-ASCII UTF-8 characters in all digital scores.
+#
+# Usage          make unicode
+#                (takes a while to run)
+#
+
+use strict;
+
+my $uniname = `which uniname`;
+chomp $uniname;
+
+die "Cannot find uniname program.  Install it first\n" if $uniname =~ /^\s*$/;
+
+# To install uniname on MacOS:
+#    brew install uniutils
+# Probably similar on linux:
+#    dnf install uniutils
+#    rpm install uniutils
+# or
+#    yum install uniutils
+
+# uniname -a :: do not process ASCII characters (UTF-7)
+# uniname -b :: do not list byte offsets in file.
+# uniname -c :: do not list character offsets in file.
+
+my @files = sort glob("*/kern/*.krn");
+
+my %output;
+foreach my $file (@files) {
+	#print STDERR "Processing $file\n";
+	my $results .= `LINES=24 $uniname -abc "$file"`;
+	my @lines = split(/\n/, $results);
+	foreach my $line (@lines) {
+		$output{$line}++;
+	}
+}
+
+my @keys = sort { $output{$b} <=> $output{$a} } keys %output;
+
+print "count		UTF-32   encoded as     glyph   name\n";
+foreach my $key (@keys) {
+	next if $key =~ /encoded as/i;
+	print "$output{$key}\t\t$key\n";
+}
+
+
+

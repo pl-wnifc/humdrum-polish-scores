@@ -314,4 +314,10 @@ clean-sic:
 	-rm -rf *-*/sic
 
 
+##############################
+##
+## unicode: List all UTF-8 characters in digital scores if not ASCII.
+##
 
+unicode:
+	@bin/listUnicodeCharacters
