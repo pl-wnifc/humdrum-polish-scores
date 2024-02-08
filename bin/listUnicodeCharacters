@@ -26,8 +26,18 @@ GetOptions (
 
 my $uniname = `which uniname`;
 chomp $uniname;
-
 die "Cannot find uniname program.  Install it first\n" if $uniname =~ /^\s*$/;
+
+my $extractx = `which extractx`;
+chomp $extractx;
+die "Cannot find extractx program. Install humlib first\n" if $extractx =~ /^\s*$/;
+
+my $ridx = `which ridx`;
+chomp $ridx;
+die "Cannot find ridx program. Install humlib first\n" if $ridx =~ /^\s*$/;
+
+
+
 
 # To install uniname on MacOS:
 #    brew install uniutils
@@ -48,9 +58,9 @@ foreach my $file (@files) {
 	#print STDERR "Processing $file\n";
 	my $results;
 	if ($textQ) {
-		$results .= `extractx -i text $file | ridx -H | LINES=24 $uniname -abc`;
+		$results .= `$extractx -i text $file | ridx -H | LINES=24 $uniname -abc`;
 	} elsif ($localQ) {
-		$results .= `extractx -i text $file | ridx -G | grep "^!" | LINES=24 $uniname -abc`;
+		$results .= `$extractx -i text $file | ridx -G | grep "^!" | LINES=24 $uniname -abc`;
 	} else {
 		$results .= `LINES=24 $uniname -abc "$file"`;
 	}
