@@ -58,9 +58,9 @@ foreach my $file (@files) {
 	#print STDERR "Processing $file\n";
 	my $results;
 	if ($textQ) {
-		$results .= `$extractx -i text $file | ridx -H | LINES=24 $uniname -abc`;
+		$results .= `$extractx -i text $file | $ridx -H | LINES=24 $uniname -abc`;
 	} elsif ($localQ) {
-		$results .= `$extractx -i text $file | ridx -G | grep "^!" | LINES=24 $uniname -abc`;
+		$results .= `$extractx -i text $file | $ridx -G | grep "^!" | LINES=24 $uniname -abc`;
 	} else {
 		$results .= `LINES=24 $uniname -abc "$file"`;
 	}
