@@ -1,0 +1,57 @@
+#!/usr/bin/env perl
+#
+# Programmer:    Craig Stuart Sapp <craig.stanford.edu>
+# Creation Date: Sat Feb 10 21:50:30 PST 2024
+# Last Modified: Sat Feb 10 21:50:33 PST 2024
+# Filename:      humdrum-polish-scores/bin/verseCheck
+# Syntax:        perl 5
+#
+# Description:   Check for (possible) verse numbers present in **text data.
+#                The verse numbers should precede the data in an interpretation such as
+#                    *v:1
+#                    We
+#                for verse 1, rather than before the syllable in the **text data:
+#                    1. We
+#
+
+use strict;
+
+my $extractx = `which extractx`;
+chomp $extractx;
+die "Cannot find extractx.  Install humextras first\n" if $extractx =~ /^\s*$/;
+
+my $serialize = `which serialize`;
+chomp $serialize;
+die "Cannot find serislize.  Install humextras first\n" if $serialize =~ /^\s*$/;
+
+my $ridx = `which ridx`;
+chomp $ridx;
+die "Cannot find ridx.  Install humextras first\n" if $ridx =~ /^\s*$/;
+
+my @files = sort glob("*/kern/*.krn");
+
+foreach my $file (@files) {
+
+	my $command = "$extractx -i text \"$file\" | $serialize | $ridx -H | grep \"[0-9].* \"";
+	my $result = `$command`;
+	if ($result) {
+		my @lines = split(/\n/, $result);
+		print "$file\tTEXT\n";
+		foreach my $line (@lines) {
+			print "\t$line\n";
+		}
+	}
+
+	$command = "$extractx -i mod-text \"$file\" | $serialize | $ridx -H | grep \"[0-9].* \"";
+	$result = `$command`;
+	if ($result) {
+		my @lines = split(/\n/, $result);
+		print "$file\tMOD-TEXT\n";
+		foreach my $line (@lines) {
+			print "\t$line\n";
+		}
+	}
+
+}
+
+

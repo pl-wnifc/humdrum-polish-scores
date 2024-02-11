@@ -339,4 +339,21 @@ unicode-local:
 
 
 
+##############################
+##
+## verse-check: Check for verse numbers embedded in data
+##     rather than in a tandem interpretation.
+##
+
+checkVerse: verse-check
+checkverse: verse-check
+check-verse: verse-check
+cv: verse-check
+vc: verse-check
+verse-check:
+	@bin/verseCheck
+
+
+
+
 
