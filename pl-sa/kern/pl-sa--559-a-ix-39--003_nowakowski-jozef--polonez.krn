@@ -257,8 +257,8 @@
 =19	=19	=19
 4F# 4FF#\	4dd 4a\	.
 4G 4GG\	4bb 4dd 4b\	.
-!LO:SIC:v:n=2:o=4F# 4GG\	!	!
-4FF#\	4aa 4dd 4a\	.
+!LO:SIC:v:n=2:s=4FF#\	!	!
+4F# 4GG\	4aa 4dd 4a\	.
 =20	=20	=20
 *	*^	*
 8BL 8BB\	8ryy	8gg 8dd\L	.
@@ -487,8 +487,8 @@
 8c#L 8A\	16g#X\LL	.
 .	16a\	.
 8E\J	16b\	.
-!	!LO:SIC:v:o=16cc#\JJ	!
-.	16ccn\JJ	.
+!	!LO:SIC:v:s=16ccn\JJ	!
+.	16cc#\JJ	.
 *Xrep	*	*
 !!LO:LB:g=original
 =34	=34	=34
@@ -641,12 +641,12 @@
 *rep	*	*
 16ELL 16C# 16AA\	16aa\LL	.
 16G\	16gg\	.
-!	!LO:SIC:v:o=16ff#\	!
+!	!LO:SIC:v:s=16ee\	!
 !	!LO:TX:t=e	!
-16E 16C# 16AA\	16ee\	.
-!	!LO:SIC:v:o=16ee\JJ	!
+16E 16C# 16AA\	16ff#\	.
+!	!LO:SIC:v:s=16cc#\JJ	!
 !	!LO:TX:t=c	!
-16G\JJ	16cc#\JJ	.
+16G\JJ	16ee\JJ	.
 *Xrep	*	*
 =46	=46	=46
 4E 4C# 4AA\	8a/L	.
@@ -844,8 +844,8 @@
 16F# 16BB\	8bbJ 8b\	.
 16B\JJ	.	.
 *Xrep	*	*
-!	!LO:SIC:v:o=8cccL 8cc\	!
-16A#XLL 16BB\	8ccc#L 8cc#\	.
+!	!LO:SIC:v:s=8ccc#L 8cc#\	!
+16A#XLL 16BB\	8cccL 8cc\	.
 16B\	.	.
 16AnX 16BB\	8ddd#XJ 8dd#X\	.
 16B\JJ	.	.
@@ -862,12 +862,12 @@
 16B\	.	.
 !	!LO:TX:t=P:problem=wykreślony takt	!
 16F# 16BB\	8fff#J 8ff#\	.
-!LO:SIC:v:o=16c\JJ	!	!
-16c#\JJ	.	.
+!LO:SIC:v:s=16c#\JJ	!	!
+16c\JJ	.	.
 !!LO:PB:g=original
 =64	=64	=64
-!	!LO:SIC:v:o=8dddL 8dd\	!
-16F#LL 16BB\	8ddd#L 8dd#\	.
+!	!LO:SIC:v:s=8ddd#L 8dd#\	!
+16F#LL 16BB\	8dddL 8dd\	.
 16B\	.	.
 16F# 16BB\	16bbL 16b\	.
 16B\JJ	16bbJJ 16b\	.
@@ -877,8 +877,8 @@
 16F# 16BB\	8bbJ 8b\	.
 16B\JJ	.	.
 *Xrep	*	*
-!	!LO:SIC:v:o=8cccL 8cc\	!
-16A#XLL 16BB\	8ccc#L 8cc#\	.
+!	!LO:SIC:v:s=8ccc#L 8cc#\	!
+16A#XLL 16BB\	8cccL 8cc\	.
 16B\	.	.
 16An 16BB\	8ddd#X\J	.
 16B\JJ	.	.
@@ -894,21 +894,21 @@
 16GLL 16BB\	8eeeL 8ee\	.
 16B\	.	.
 16F# 16BB\	8fff#J 8ff#\	.
-!LO:SIC:v:o=16c\JJ	!	!
-16c#\JJ	.	.
+!LO:SIC:v:s=16c#\JJ	!	!
+16c\JJ	.	.
 =66	=66	=66
-!	!LO:SIC:v:n=1:o=8dddL 8ff#\	!
-8B 8F# 8BB\	8ddd#L	.
+!	!LO:SIC:v:n=1:s=8ddd#L	!
+8B 8F# 8BB\	8dddL 8ff#\	.
 8r	16bb\L	.
-!	!LO:SIC:v:o=16ddd\JJ	!
-.	16ddd#\JJ	.
-!	!LO:SIC:v:o=8ddd\L	!
+!	!LO:SIC:v:s=16ddd#\JJ	!
+.	16ddd\JJ	.
+!	!LO:SIC:v:s=8ddd\L	!
 8r	8ddd\L	f
 8F#L 8FF#\	8fff#J 8aa#X 8ff#\	.
-!LO:SIC:v:o=8G 8GG\	!	!
-8G# 8GG#\	8fff#L 8bb 8ff#\	.
-!	!LO:SIC:v:n=2:o=8fff#J 8ccc 8ff#\	!
-8A#XJ 8AA#X\	8ccc#	.
+!LO:SIC:v:s=8G# 8GG#\	!	!
+8G 8GG\	8fff#L 8bb 8ff#\	.
+!	!LO:SIC:v:n=2:s=8ccc#	!
+8A#XJ 8AA#X\	8fff#J 8ccc 8ff#\	.
 =67	=67	=67
 8B 8BB\	16eee\LL	.
 .	16ddd#X\	.
@@ -916,69 +916,69 @@
 .	16ddd#\JJ	.
 8r	8fff#\L	.
 8F#L 8FF#\	8fff#J 8aa#X 8ff#\	.
-!LO:SIC:v:o=8G 8GG\	!	!
-8G# 8GG#\	8fff#L 8bb 8ff#\	.
-!	!LO:SIC:v:n=2:o=8fff#J 8ccc 8ff#\	!
-8A#XJ 8AA#X\	8ccc#	.
+!LO:SIC:v:s=8G# 8GG#\	!	!
+8G 8GG\	8fff#L 8bb 8ff#\	.
+!	!LO:SIC:v:n=2:s=8ccc#	!
+8A#XJ 8AA#X\	8fff#J 8ccc 8ff#\	.
 =68	=68	=68
 8BL 8BB\	8ddd#XL 8bb 8ff#\	.
 *	*Xtuplet	*
 !	!LO:TUP:a:problem=klamra łukowa	!
-!	!LO:SIC:v:n=1:o=24cccL 24ff#\	!
-8eJ 8A#X 8F#\	24ccc#L	.
+!	!LO:SIC:v:n=1:s=24ccc#L	!
+8eJ 8A#X 8F#\	24cccL 24ff#\	.
 .	24ddd#\	.
-!	!LO:SIC:v:o=24ccc\JJ	!
-.	24ccc#\JJ	.
+!	!LO:SIC:v:s=24ccc#\JJ	!
+.	24ccc\JJ	.
 8d#XL 8B\	8bbL 8ff#\	.
 !	!LO:TUP:a:problem=klamra łukowa	!
 8gJ 8e 8A#\	24ddd#L 24ff#\	.
 .	24ddd#\	.
-!	!LO:SIC:v:o=24ccc\JJ	!
-.	24ccc#\JJ	.
+!	!LO:SIC:v:s=24ccc#\JJ	!
+.	24ccc\JJ	.
 *rep	*	*
 8d#L 8B\	8bbL 8ff#\	.
 !	!LO:TUP:a:problem=klamra łukowa	!
-!	!LO:SIC:v:n=1:o=24cccL 24ff#\	!
-8gJ 8e 8A#\	24ccc#L	.
+!	!LO:SIC:v:n=1:s=24ccc#L	!
+8gJ 8e 8A#\	24cccL 24ff#\	.
 .	24ddd#\	.
-!	!LO:SIC:v:o=24ccc\JJ	!
-.	24ccc#\JJ	.
+!	!LO:SIC:v:s=24ccc#\JJ	!
+.	24ccc\JJ	.
 *Xrep	*	*
 !!LO:LB:g=original
 =69	=69	=69
 8BL 8BB\	8bbL 8ff#\	.
-!	!LO:SIC:v:n=2:o=24dddL 24ff#\	!
-8eJ 8A#X 8F#\	24ddd#L	.
-!	!LO:SIC:v:o=24cccX\	!
+!	!LO:SIC:v:n=2:s=24ddd#L	!
+8eJ 8A#X 8F#\	24dddL 24ff#\	.
+!	!LO:SIC:v:s=24ddd#\	!
 !	!LO:TX:t=d	!
-.	24ddd#\	.
-!	!LO:SIC:v:o=24ccc\JJ	!
-.	24ccc#\JJ	.
+.	24cccX\	.
+!	!LO:SIC:v:s=24ccc#\JJ	!
+.	24ccc\JJ	.
 8d#XL 8B\	8bbL 8ff#\	.
-!	!LO:SIC:v:n=1:o=24cccL 24ff#\	!
-8eJ 8A# 8F#\	24ccc#L	.
-!	!LO:SIC:v:o=24ddd\	!
-.	24ddd#\	.
-!	!LO:SIC:v:o=24ccc\JJ	!
-.	24ccc#\JJ	.
+!	!LO:SIC:v:n=1:s=24ccc#L	!
+8eJ 8A# 8F#\	24cccL 24ff#\	.
+!	!LO:SIC:v:s=24ddd#\	!
+.	24ddd\	.
+!	!LO:SIC:v:s=24ccc#\JJ	!
+.	24ccc\JJ	.
 *rep	*	*
 8d#L 8B\	8bbL 8ff#\	.
-!	!LO:SIC:v:n=1:o=24cccL 24ff#\	!
-8eJ 8A# 8F#\	24ccc#L	.
-!	!LO:SIC:v:o=24ddd\	!
-.	24ddd#\	.
-!	!LO:SIC:v:o=24ccc\JJ	!
-.	24ccc#\JJ	.
+!	!LO:SIC:v:n=1:s=24ccc#L	!
+8eJ 8A# 8F#\	24cccL 24ff#\	.
+!	!LO:SIC:v:s=24ddd#\	!
+.	24ddd\	.
+!	!LO:SIC:v:s=24ccc#\JJ	!
+.	24ccc\JJ	.
 *Xrep	*	*
 =70	=70	=70
-!LO:SIC:v:o=8dL 8B 8D\	!	!
-8d#L 8B 8D#\	8bbL 8ff#\	.
+!LO:SIC:v:s=8d#L 8B 8D#\	!	!
+8dL 8B 8D\	8bbL 8ff#\	.
 !LO:N:vis=8	!	!
-!LO:SIC:v:o=16d\L	!	!
-16d#\L	16bbL 16b\	.
+!LO:SIC:v:s=16d#\L	!	!
+16d\L	16bbL 16b\	.
 !LO:N:vis=8	!	!
-!LO:SIC:v:o=16dJJ 16D\	!	!
-16d#JJ 16D#\	16bbJJ 16b\	.
+!LO:SIC:v:s=16d#JJ 16D#\	!	!
+16dJJ 16D\	16bbJJ 16b\	.
 8BL 8BB\	8bbL 8b\	.
 16BL 16BB\	16bbL 16b\	.
 16BJJ 16BB\	16bbJJ 16b\	.

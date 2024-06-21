@@ -220,7 +220,8 @@ sub getNoteCountForComposer {
 sub buildLibraryTable {
 	my $macroid = "AKfycbyCYdG0G1mlr-EyN498pmM3w5OD967frNkdHN2JJaWe53LQEriPk79fZ0Ycc8iZq_DsVw";
 	my $url = "https://script.google.com/macros/s/$macroid/exec?format=aton";
-	my $command = "wget $url -O - 2> /dev/null";
+print STDERR "SIGNAME INDEX $url\n";
+	my $command = "wget --no-check-certificate $url -O - 2> /dev/null";
 	my @contents = `$command`;
 	chomp @contents;
 	my %sigurls;
@@ -303,7 +304,7 @@ sub buildLibraryTable {
 		my $signame = $signames{$siglow};
 
 		if ($signame =~ /^\s*$/) {
-			print STDERR "CANNOT FIND SIGNAME IN LIST:\n";
+			print STDERR "CANNOT FIND SIGNAME IN LIST: $siglow\n";
 			my @keys = sort keys %signames;
 			foreach my $key (@keys) {
 				print STDERR "\t$key\t$signames{$key}\n";

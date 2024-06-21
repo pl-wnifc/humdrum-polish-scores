@@ -28,9 +28,9 @@ GetOptions (
    't|threshold' => \$threshold
 );
 
-my $sic = `which sic`;
-chomp $sic;
-die "You need to have sic from humlib installed\n" if $sic =~ /^\s*$/;
+#my $sic = `which sic`;
+#chomp $sic;
+#die "You need to have sic from humlib installed\n" if $sic =~ /^\s*$/;
 
 my $srcdir = $ARGV[0];
 my $targdir = $ARGV[1];
@@ -116,11 +116,11 @@ sub copyFiles {
 		die "Strange problem" if !-d "$targdir/$siglum/kern";
 		if (!-r "$targdir/$siglum/kern/$base") {
 			print "Creating $targdir/$siglum/kern/$base\n";
-			#copy($file, "$targdir/$siglum/kern/$base") or die "Problem here";
-			`cat "$file" | sic -s > "$targdir/$siglum/kern/$base"`;
+			copy($file, "$targdir/$siglum/kern/$base") or die "Problem here";
+			#`cat "$file" | sic -s > "$targdir/$siglum/kern/$base"`;
 		} else {
-			#copy($file, "$targdir/$siglum/kern/$base") or die "Problem 2 here";
-			`cat "$file" | sic -s > "$targdir/$siglum/kern/$base"`;
+			copy($file, "$targdir/$siglum/kern/$base") or die "Problem 2 here";
+			#`cat "$file" | sic -s > "$targdir/$siglum/kern/$base"`;
 			$ExistingFiles{$base}++;
 		}
 	}

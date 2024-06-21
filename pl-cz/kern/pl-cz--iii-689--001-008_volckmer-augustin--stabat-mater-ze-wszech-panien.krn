@@ -103,8 +103,8 @@
 !	!	!LO:TX:t=P:problem:t. 5 zapisany jako repetycja	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:t. 5 zapisany jako repetycja	!LO:TX:t=P:problem:t. 5 zapisany jako repetycja	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
 8G\	.	16ryy	.	16r	.	16r	.	4G\	Pan-	4.G/	Pan-	4.f\	Pan-	4.dd\	Pan-	4G/yy	4g\yy	16GG/LL	.	4dd\	4ff\	1ryy	1ryy
 .	.	16g'\LLyy	.	16f/LL	.	16dd'\LL	.	.	.	.	.	.	.	.	.	.	.	16G\	.	.	.	.	.
-!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:o=16B-\	!	!	!	!	!
-8r	.	16g'\yy	.	16f/	.	16dd'\	.	.	.	.	.	.	.	.	.	.	.	Bn	.	.	.	.	.
+!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:s=Bn	!	!	!	!	!
+8r	.	16g'\yy	.	16f/	.	16dd'\	.	.	.	.	.	.	.	.	.	.	.	16B-\	.	.	.	.	.
 .	.	16g'\JJyy	.	16f/JJ	.	16dd'\JJ	.	.	.	.	.	.	.	.	.	.	.	16G\JJ	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
 8G\	.	16ryy	.	16r	.	16r	.	8Bn\	-no	.	.	.	.	.	.	8G/Lyy	8g\Lyy	16GG/LL	.	8dd\L	8ff\L	.	.
@@ -229,12 +229,12 @@
 =10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10	=10
 !LO:LB:g=original	!	!	!	!	!	!	!	!LO:TX:t=P:problem:korekty	!	!	!	!LO:TX:t=P:problem:pauza albo nuta? 	!	!LO:LB:g=original	!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
 8G\	.	16r	.	16r	.	16r	.	4G\	się	2G/	z so-	4d\	się	4bn\	się	4G/	4g\	16GG/LL	.	(4bn\	(4dd\	1ryy	1ryy
-!	!	!	!	!	!	!LO:SIC:v:o=16b-'\LL	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-.	.	16g'\LL	.	16d/LL	.	16bn'\LL	.	.	.	.	.	.	.	.	.	.	.	16G\	.	.	.	.	.
-!	!	!	!	!	!	!LO:SIC:v:o=16b-'\	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-8r	.	16g'\	.	16d/	.	16b'\	.	.	.	.	.	.	.	.	.	.	.	16Bn\	.	.	.	.	.
-!	!	!	!	!	!	!LO:SIC:v:o=16b-'\JJ	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-.	.	16g'\JJ	.	16d/JJ	.	16b'\JJ	.	.	.	.	.	.	.	.	.	.	.	16G\JJ	.	.	.	.	.
+!	!	!	!	!	!	!LO:SIC:v:s=16bn'\LL	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+.	.	16g'\LL	.	16d/LL	.	16b-'\LL	.	.	.	.	.	.	.	.	.	.	.	16G\	.	.	.	.	.
+!	!	!	!	!	!	!LO:SIC:v:s=16b'\	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+8r	.	16g'\	.	16d/	.	16b-'\	.	.	.	.	.	.	.	.	.	.	.	16Bn\	.	.	.	.	.
+!	!	!	!	!	!	!LO:SIC:v:s=16b'\JJ	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+.	.	16g'\JJ	.	16d/JJ	.	16b-'\JJ	.	.	.	.	.	.	.	.	.	.	.	16G\JJ	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem:mixed beam	!	!	!	!	!
 8E-\	.	16r	.	16r	.	16r	.	4E-\	z so-	.	.	4e-\	z so-	4cc\	z so-	4G/	4g\	16EE-/LL	.	4cc\	4ee-\	.	.
 .	.	16g'\LL	.	16e-/LL	.	16cc'\LL	.	.	.	.	.	.	.	.	.	.	.	16E-\	.	.	.	.	.
@@ -262,8 +262,8 @@
 .	.	16g'\LL	.	16e-/	.	16cc'\	.	.	.	.	.	.	.	.	.	.	.	16G\	.	.	.	.	.
 8r	.	16g'\	.	16e-/	.	16cc'\	.	.	.	.	.	.	.	.	.	.	.	16E-\	.	.	.	.	.
 .	.	16g'\JJ	.	16e-/JJ	.	16cc'\JJ	.	.	.	.	.	.	.	.	.	.	.	16C\JJ	.	.	.	.	.
-!	!	!	!	!	!	!LO:SIC:v:o=(16b-\LL	!	!LO:TX:t=P:problem:4/left	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-2GG/	.	4g\	.	4d/	.	(16bn\LL	.	4GG/	-kać	4G/	-kać	4d\	-kać	4bn\	-kać	4G/	4g\	2GG/	.	4bn\	4dd\	.	.
+!	!	!	!	!	!	!LO:SIC:v:s=(16bn\LL	!	!LO:TX:t=P:problem:4/left	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+2GG/	.	4g\	.	4d/	.	(16b-\LL	.	4GG/	-kać	4G/	-kać	4d\	-kać	4bn\	-kać	4G/	4g\	2GG/	.	4bn\	4dd\	.	.
 .	.	.	.	.	.	16gg\	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	16ff#X\)	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	16gg\JJ	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -273,8 +273,8 @@
 .	.	.	.	.	.	16gg\JJ)	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 =12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12	=12
 !	!	!	!	!LO:LB:g=original	!	!LO:TX:a:t=d	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
-!	!LO:HP:a:t=Diminuendo	!	!	!LO:SIC:v:o=4b-\	!	!LO:TX:t=P:problem:mixed beam	!	!LO:TX:a:t=2.	!	!LO:TX:a:t=2	!	!LO:TX:a:t=2	!	!LO:TX:a:t=2	!	!	!	!	!	!LO:TX:a:t=2.	!	!	!
-2GG/	>	8d\L	.	4bn\	.	16dd\LL	.	0r	.	0r	.	0r	.	0r	.	2r	2r	2GG/	.	0r	0r	1ryy	1ryy
+!	!LO:HP:a:t=Diminuendo	!	!	!LO:SIC:v:s=4bn\	!	!LO:TX:t=P:problem:mixed beam	!	!LO:TX:a:t=2.	!	!LO:TX:a:t=2	!	!LO:TX:a:t=2	!	!LO:TX:a:t=2	!	!	!	!	!	!LO:TX:a:t=2.	!	!	!
+2GG/	>	8d\L	.	4b-\	.	16dd\LL	.	0r	.	0r	.	0r	.	0r	.	2r	2r	2GG/	.	0r	0r	1ryy	1ryy
 .	.	.	.	.	.	(16g/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	8g\J	.	.	.	16f#X/	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 .	.	.	.	.	.	16g/JJ)	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
@@ -291,8 +291,8 @@
 !	!	!LO:TX:t=P:problem:8/left	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8GG/J	.	8G/J	.	8B/J	.	8d/J	.	.	.	.	.	.	.	.	.	8G/J	8g\J	8G\J	.	.	.	.	.
 =13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13	=13
-!	!	!LO:TX:t=P:problem:4/left	!	!LO:SIC:v:o=4B-/	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
-4GG/	.	4G/	.	4Bn/	.	4d/	.	.	.	.	.	.	.	.	.	4G/	4g\	4GG/	.	.	.	1ryy	1ryy
+!	!	!LO:TX:t=P:problem:4/left	!	!LO:SIC:v:s=4Bn/	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
+4GG/	.	4G/	.	4B-/	.	4d/	.	.	.	.	.	.	.	.	.	4G/	4g\	4GG/	.	.	.	1ryy	1ryy
 4r	.	4r	.	4r	.	4r	.	.	.	.	.	.	.	.	.	4r	4r	4r	.	.	.	.	.
 2r	.	2r	.	2r	.	2r	.	.	.	.	.	.	.	.	.	2r	2r	2r	.	.	.	.	.
 ==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==	==
