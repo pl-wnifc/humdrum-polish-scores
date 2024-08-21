@@ -22,7 +22,7 @@
 !!!URL-pdf-islandora:
 !!!URL-scan: https://bc.bdsandomierz.pl/dlibra/publication/1529/edition/1497/content @EN{Scan in the Sandomierz Diocese Digital Library} @PL{Skany w portalu Cyfrowa Biblioteka Diecezjalna w Sandomierzu}
 !!!IIIF:
-!!!ONB-nifc: UWAGA: części Mszy: Kyrie, Gloria, Credo, Sanctus, Benedictus,
+!!!ONB-nifc: UWAGA: części Mszy: Kyrie, Gloria, Credo, Sanctus, Benedictus, Agnus Dei, Dona.
 !!!AIN: 2 clars 3 empty 1 organ 2 violn 1 vox
 !!!key:
 **kern	**fba	**dynam	**kern	**dynam	**kern	**dynam	**kern	**text	**kern	**text	**kern	**kern	**kern	**kern
@@ -36,10 +36,10 @@
 *k[]	*	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*	*k[]	*k[]	*k[]	*k[]
 *C:	*	*	*C:	*	*C:	*	*C:	*	*C:	*	*C:	*C:	*C:	*C:
 *M3/4	*	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*	*M3/4	*M3/4	*M3/4	*M3/4
-=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
+=1	=1D	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *	*	*	*	*	*	*below	*	*	*	*	*	*	*	*
 !LO:TX:a:i:t=Allo&colon;	!	!	!LO:TX:a:i:t=Allo	!	!LO:TX:a:i:t=Allo&colon;	!LO:DY:rj	!LO:TX:b:t=P:problem="G" przed kluczem	!	!LO:TX:b:t=P:problem="G" przed kluczem	!	!LO:TX:a:t=P:problem=brak partii w źródle	!LO:TX:a:i:t=Allo&colon;	!LO:TX:a:i:t=Allo.	!LO:TX:a:i:t=Allo&colon;
-!LO:TX:a:t=P:problem=b.c. jest tak pomazane, że nie daję głowy za jego poprawność	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=partia organo mało czytelna, możliwe błędne interpretacje	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 4C/	.	f	4cc 4e 4G/	.	4cc 4e 4G/	f	8.c\	[G]lo-	8.cc\	[G]lo-	2.ryy	4cc\	4e/	4ee\
 .	.	.	.	.	.	.	16c\	-ri-	16cc\	-ri-	.	.	.	.
 4r	.	.	4r	.	4r	.	4c\	-a	4cc\	-a	.	4r	4r	4r
@@ -138,7 +138,7 @@
 8C/	.	.	4cc\	.	4ee\	.	.	.	.	.	.	.	.	.
 8C/	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 8C/	.	.	4g/	.	4cc\	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!	!	!	!LO:MO:mod=nae	!	!LO:MO:mod=nae	!	!	!	!
+!	!	!	!	!	!	!	!	!LO:SIC:v:s=-nae	!	!LO:SIC:v:s=-nae	!	!	!	!
 8C/	.	.	.	.	.	.	4C/	-ne	4gg\	-ne	.	.	.	.
 8C/J	.	.	8e/	.	8g/	.	.	.	.	.	.	.	.	.
 *Xtremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -226,39 +226,42 @@
 8F#X\	.	.	8d/	.	8dd\	.	4r	.	4r	.	.	4r	.	.
 8F#X\J	.	.	8d/J	.	8dd\J	.	.	.	.	.	.	.	.	.
 =22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22	=22
-!LO:SIC:s=2.F#:v	!	!	!	!	!	!	!LO:SIC:s=4.F#:v	!	!	!	!	!	!	!
+!LO:SIC:v:s=8f#\L	!	!	!	!	!	!	!LO:SIC:v:s=4.F#\	!	!	!	!	!	!	!
 8F\L	.	.	8d/L	.	(8ff#X\L	.	4.F\	gra-	4.dd\	gra-	2.ryy	4dd\	2.cc\	2.ff#X\
+!LO:SIC:v:s=8f#\	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\	.	.	8d/	.	8dd\	.	.	.	.	.	.	.	.	.
+!LO:SIC:v:s=8f#\	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\	.	.	8d/	.	8dd')\	.	.	.	.	.	.	8dd\L	.	.
-!	!	!	!	!	!	!	!LO:SIC:s=8F#:v	!	!	!	!	!	!	!
+!LO:SIC:v:s=8f#\	!	!	!	!	!	!	!LO:SIC:v:s=8F#\	!	!	!	!	!	!	!
 8F\	.	.	8d/J	.	8ff#'\	.	8F\	-ti-	8dd\	-ti-	.	8dd\J	.	.
 *	*	*	*Xtremolo	*	*	*	*	*	*	*	*	*	*	*
-!	!	!	!	!	!	!	!LO:SIC:s=4F#:v	!	!	!	!	!	!	!
+!LO:SIC:v:s=8f#\	!	!	!	!	!	!	!LO:SIC:v:s=4F#\	!	!	!	!	!	!	!
 8F\	.	.	8dd\L	.	8ff#'\	.	4F\	-as	4dd\	-as	.	4dd\	.	.
+!LO:SIC:v:s=8f#\J	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\J	.	.	8dd\J	.	8ff#'\J	.	.	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 =23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23	=23
-!	!	!	!	!	!	!	!LO:SIC:s=4.F#:v	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:SIC:v:s=4.F#\	!	!	!	!	!	!	!
 8F#X\L	.	.	8ff#X\L	.	(8aa\L	.	4.F\	a-	4.ff#X\	a-	2.ryy	4dd\	2.ff#X\	2.aa\
-!	!	!	!	!	!LO:SIC:s=8ff#:v	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:SIC:v:s=8ff#\	!	!	!	!	!	!	!	!	!
 8F#X\	.	.	8dd\J	.	8ff\	.	.	.	.	.	.	.	.	.
-!	!	!	!	!	!LO:SIC:s=8ff#:v	!	!	!	!	!	!	!	!	!
+!	!	!	!	!	!LO:SIC:v:s=8ff#')\	!	!	!	!	!	!	!	!	!
 8F#X\	.	.	8dd\L	.	8ff')\	.	.	.	.	.	.	8dd\L	.	.
-!	!	!	!	!	!	!	!LO:SIC:s=8F#:v	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:SIC:v:s=8F#\	!	!	!	!	!	!	!
 8F#X\	.	.	8ff#\	.	8aa'\	.	8F\	-gi-	8ff#\	-gi-	.	8dd\J	.	.
-!	!	!	!	!	!	!	!LO:SIC:s=4F#:v	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:SIC:v:s=4F#\	!	!	!	!	!	!	!
 8F#X\	.	.	8ff#\	.	8aa'\	.	4F\	-mus	4ff#\	-mus	.	4dd\	.	.
 8F#X\J	.	.	8ff#\J	.	8aa'\J	.	.	.	.	.	.	.	.	.
 =24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24	=24
-!	!	!	!LO:SIC:s=8ff#:v	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:SIC:v: s=8ff# 8a\	!	!	!	!	!	!	!	!	!	!	!
 8D\L	7	.	8ff 8a\	.	8cccn\	.	2.D\	ti-	2.aa\	ti-	2.ryy	4dd\	2.a/	2.cc\
-!	!	!	!LO:SIC:s=4ff#:v	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:SIC:v:s=4ff# 4a\	!	!	!	!	!	!	!	!	!	!	!
 8D\	.	.	4ff 4a\	.	4aa\	.	.	.	.	.	.	.	.	.
 8D\	.	.	.	.	.	.	.	.	.	.	.	4dd\	.	.
-!	!	!	!LO:SIC:s=4ff#:v	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:SIC:v:s=4ff# 4a\	!	!	!	!	!	!	!	!	!	!	!
 8D\	.	.	4ff 4a\	.	4ff#X\	.	.	.	.	.	.	.	.	.
 8D\	.	.	.	.	.	.	.	.	.	.	.	4dd\	.	.
-!	!	!	!LO:SIC:s=8ff#:v	!	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:SIC:v:s=8ff# 8a\	!	!	!	!	!	!	!	!	!	!	!
 8D\J	.	.	8ff 8a\	.	8dd\	.	.	.	.	.	.	.	.	.
 *Xtremolo	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 !	!	!	!LO:LB:g=original	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
@@ -275,11 +278,11 @@
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=1.	!	!
 8A\L	3	.	8cc\L	.	8dd\	.	8A\L	ma-	2dd\	ma-	2.ryy	2.r	8cc\L	2.dd\
 8G\	3	.	8b\	.	4dd\	.	8G\	.	.	.	.	.	8b\	.
-!LO:SIC:s=8F#:v	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:SIC:v:s=8F#\	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\	3	.	8a\	.	.	.	8F#X\	.	.	.	.	.	8a\	.
 8G\	3	.	8b\	.	4dd\	.	8G\	.	.	.	.	.	8b\	.
 8A\	3	.	8cc\	.	.	.	8A\	.	4dd\	-gna(m)	.	.	8cc\	.
-!LO:SIC:s=8F#:v	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:SIC:v:s=8F#\J	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\J	3	.	8a\J	.	8dd\	.	8F#\J	.	.	.	.	.	8a\J	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original
 =27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27	=27
@@ -287,7 +290,7 @@
 .	.	.	.	.	4dd\	.	.	.	.	.	.	.	.	.
 8r	.	.	8r	.	.	.	8r	.	.	.	.	4r	4dd\	8r
 8G\L	5 3	.	8b\L	.	4dd\	.	8G\	glo-	8dd\	-ri-	.	.	.	8bb\L
-!LO:SIC:s=8F#:v	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:SIC:v:s=8F#\	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\	6 5	.	8a\	.	.	.	8F#X\L	-ri-	4dd\	-am	.	4r	4dd\	8aa\
 8G\J	.	.	8b\J	.	8dd\	.	8G\J	-am	.	.	.	.	.	8bb\J
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!
@@ -295,11 +298,11 @@
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=1.	!	!
 8B\L	3_	.	8cc\L	.	8dd\	.	8A\L	tu-	2.dd\	tu-	2.ryy	2.r	2.dd\	8ccc\L
 8A\	.	.	8b\	.	4dd\	.	8G\	.	.	.	.	.	.	8bb\
-!	!	!	!	!	!	!	!LO:SIC:s=8F#:v	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:SIC:v:s=8F#\	!	!	!	!	!	!	!
 8F#X\	.	.	8a\	.	.	.	8F\	.	.	.	.	.	.	8aa\
 8G\	.	.	8b\	.	4dd\	.	8G\	.	.	.	.	.	.	8bb\
 8A\	.	.	8cc\	.	.	.	8A\	.	.	.	.	.	.	8ccc\
-!	!	!	!	!	!	!	!LO:SIC:s=8F#:v	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:SIC:v:s=8F#\J	!	!	!	!	!	!	!
 8F#\J	X	.	8a\J	.	8dd\	.	8F\J	.	.	.	.	.	.	8aa\J
 !	!	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29	=29
@@ -308,7 +311,7 @@
 .	.	.	.	.	4dd\	.	.	.	.	.	.	.	.	.
 8ryy	.	.	8r	.	.	.	8r	.	4dd\	Do-	.	4r	8r	4dd\
 8G\Lyy	5 3	.	8b\L	.	4dd\	.	8G\	Do-	.	.	.	.	8b\L	.
-!LO:SIC:s=8F#:v	!	!	!	!	!	!	!	!	!	!	!	!	!	!
+!LO:SIC:v:s=8F#\yy	!	!	!	!	!	!	!	!	!	!	!	!	!	!
 8F\yy	6 5	.	8a\	.	.	.	8F\	-mi-	8dd\	-mi-	.	4r	8a\	4dd\
 8G\Jyy	.	.	8b\J	.	8dd\	.	8G\	-ne	8dd\	-ne	.	.	8b\J	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
@@ -316,7 +319,7 @@
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=1.	!	!
 8B\Lyy	3_	.	8cc\L	.	8dd\	.	8A\L	De-	2dd\	De-	2.ryy	2.r	8cc\L	2.dd\
 8A\yy	.	.	8b\	.	4dd\	.	8G\	.	.	.	.	.	8b\	.
-!	!	!	!	!	!	!	!LO:SIC:s=8F#:v	!	!	!	!	!	!	!
+!	!	!	!	!	!	!	!LO:SIC:v:s=8F#\	!	!	!	!	!	!	!
 8F#X\yy	.	.	8a\	.	.	.	8F\	.	.	.	.	.	8a\	.
 8G\yy	.	.	8b\	.	4dd\	.	8G\	.	.	.	.	.	8b\	.
 8A\yy	.	.	8cc\	.	.	.	8A\	.	4dd\	-us	.	.	8cc\	.
@@ -459,11 +462,11 @@
 =46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46	=46
 *	*	*	*2\right	*	*2\right	*	*	*	*	*	*	*	*	*
 !	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=h	!
-!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:s=2b:v	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:s=2b\	!
 4r	.	.	2bb\	.	2ddd\	.	2B\	-re-	2dd\	-re-	2.ryy	.	2cc\	2ee\
 4r	.	.	.	.	.	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!	!	!	!LO:TX:a:t=g	!
-!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:s=4g:v	!
+!	!	!	!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:s=4g\	!
 4E\	#	.	4gg\	.	4ddd\	.	4G\	-re	4dd\	-re	.	.	4a\	4b\
 =47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47	=47
 !	!	!	!	!	!	!	!	!	!	!	!	!LO:N:vis=00	!	!
@@ -473,7 +476,7 @@
 !	!	!	!	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
 =48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48
 4r	.	.	4ee\	.	4ccc\	.	4E\	-re-	4cc\	-re	2.ryy	.	2e/	2cc\
-!	!	!	!	!	!	!	!	!	!	!LO:MO:mod=-re	!	!	!	!
+!	!	!	!	!	!	!	!	!	!	!LO:SIC:v:s=-re	!	!	!	!
 4r	.	.	4cc\	.	4aa\	.	4C\	-re	4a\	no-	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!LO:MO:mod=no-	!	!	!	!
 4D\	#	.	4a\	.	4ff#X\	.	4D\	no-	4f#X/	.	.	.	4f#X/	4a/

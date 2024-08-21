@@ -79,9 +79,9 @@
 8E/L	.	8ee\L	.	8gg\L	.	.	.	2r	2r
 8C/	.	16dd\L	.	16ff#\L	.	.	.	.	.
 .	.	16ee\JJ	.	16gg\JJ	.	.	.	.	.
-!LO:SIC:s=8AA	!	!	!	!	!	!	!	!	!
+!LO:SIC:v:s=8AA/	!	!	!	!	!	!	!	!	!
 8AA#X/	.	8cc#X\L	.	8ee\L	.	.	.	.	.
-!LO:SIC:s=8AA	!	!	!	!	!	!	!	!	!
+!LO:SIC:v:s=8AA/J	!	!	!	!	!	!	!	!	!
 8AA#/J	.	8cc#\J	.	8aa\J	.	.	.	.	.
 8D\L	.	8dd\L	.	8ff#\L	.	.	.	8d/L	8d/L
 8E\	.	8a/	.	16ee\L	.	.	.	16d/L	16d/L
@@ -103,13 +103,13 @@
 .	.	16ee\	.	16gg\	.	.	.	.	.
 8AA/	.	16ee\	.	16gg\	.	.	.	.	.
 .	.	16ee\JJ	.	16gg\JJ	.	.	.	.	.
-!LO:SIC:s=D	!	!	!	!	!	!	!	!	!
+!LO:SIC:v:s=8D\	!	!	!	!	!	!	!	!	!
 8E\	.	8dd\L	.	8ff#\L	.	.	.	.	.
 8F#\J	.	16ee\L	.	16gg\L	.	.	.	.	.
 .	.	16ff#\JJ	.	16aa\JJ	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =6	=6	=6	=6	=6	=6	=6	=6	=6	=6
-!	!	!LO:SIC:o:s:=:v:p=Piano:global	!	!LO:SIC:o:s:=:v:p=Piano:global (tu:piano)	!	!	!	!	!
+!	!	!	!LO:DY:t=piano	!	!LO:DY:t=piano	!	!	!	!
 8G\	.	16gg\LL	p	16bb\LL	p	.	.	.	.
 .	.	16gg\	.	16bb\	.	.	.	.	.
 8r	.	16gg\	.	16bb\	.	.	.	.	.
@@ -155,7 +155,7 @@
 8r	.	8b\J	.	8dd\J	.	.	.	.	8d/
 !	!	!	!	!	!	!	!	!	!LO:LB:g=original
 =9	=9	=9	=9	=9	=9	=9	=9	=9	=9
-!	!	!LO:SIC:o:s:=:v:p=piano	!	!	!	!	!	!	!
+!	!	!	!LO:DY:t=piano	!LO:DY:t=Piano	!	!	!	!	!
 0r	.	(16cc\LL	p	(16ee\LL	p	0r	.	0r	8d/'L
 .	.	16b\)	.	16dd\)	.	.	.	.	.
 .	.	(16b\	.	(16dd\	.	.	.	.	8d/'
@@ -242,7 +242,7 @@
 8F#\	.	8r	.	8r	.	8d/	-les	8r	8r
 8G\J	.	8dd\	.	8gg\	.	8r	.	8b\	8dd\
 =15	=15	=15	=15	=15	=15	=15	=15	=15	=15
-!	!	!LO:SIC:o:s:=:v:triole oznaczona adnotacją:global	!	!LO:SIC:o:s:=:v:triole oznaczona adnotacją:global	!	!	!	!	!
+!	!	!LO:SIC:o:s:=:v:triole oznaczona adnotacją:global	!	!LO:TX:a:t=P:problem=triole oznaczona adnotacją:global	!	!	!	!	!
 4G\	.	12b\L	.	12dd\L	f	00r	.	8g\	8b\
 .	.	12cc\	.	12ee\	.	.	.	.	.
 .	.	.	.	.	.	.	.	8r	4r
@@ -270,7 +270,7 @@
 8D/	.	8d/L	.	8f#/	.	.	.	4r	8r
 8r	.	8b/J	.	8dd\J	.	.	.	.	8d/
 =17	=17	=17	=17	=17	=17	=17	=17	=17	=17
-!	!	!LO:SIC:o:s:=:v:p=piano	!	!	!	!	!	!	!
+!	!	!	!LO:DY:t=piano	!LO:DY:t=Piano	!	!	!	!	!
 0r	.	(16cc\LL	p	(16ee\LL	p	.	.	0r	8d/L
 .	.	16b\)	.	16dd\)	.	.	.	.	.
 .	.	(16b\	.	(16dd\	.	.	.	.	8d/
@@ -351,7 +351,7 @@
 .	.	.	.	.	.	.	.	.	16cc\JJ
 !	!	!	!	!	!	!	!	!	!LO:LB:g=original
 =22	=22	=22-	=22	=22	=22	=22	=22	=22-	=22
-!	!	!	!	!	!	!	!	!	!LO:SIC:o:s:=:v:triole z adnotacją"global
+!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=triole z adnotacją:global
 8B\L	.	2r	.	2r	.	4dd\	-de-	2r	12dd\L
 .	.	.	.	.	.	.	.	.	12ee\
 8A\	.	.	.	.	.	.	.	.	.
@@ -440,7 +440,7 @@
 8D\J	.	.	.	8gg\	.	8b\	gau-	.	8d/'J
 !	!	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!	!
 =28	=28	=28	=28	=28	=28	=28	=28	=28	=28
-!	!	!	!	!	!	!	!	!LO:SIC:o:s:=:v:brak tych taktów	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=brak taktu	!
 0r	.	1r	.	(8aa\L	.	(8cc\L	-de-	1ryy	8d/'L
 .	.	.	.	8gg\)	.	8b\J)	.	.	8d/'
 .	.	.	.	(8ff#\	.	8a\	-te	.	8d/'
@@ -450,6 +450,7 @@
 .	.	.	.	(8ff#\	.	8a\	-te	.	8d/'
 .	.	.	.	8gg\J)	.	8b\	gau-	.	8d/'J
 =29	=29	=29-	=29	=29	=29	=29	=29	=29	=29
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=brak taktu	!
 .	.	2r	.	(8aa\L	.	(8cc\L	-de-	1ryy	8d/'L
 .	.	.	.	8gg\)	.	8b\J)	.	.	8d/'
 .	.	.	.	(8ff#\	.	8a\	-te	.	8d/'
@@ -460,7 +461,7 @@
 .	.	8b\	.	8dd\J)	.	8dd\	gau-	.	8d/J
 =30	=30	=30	=30	=30	=30	=30	=30	=30	=30
 *	*	*	*	*	*	*2\right	*	*	*
-!	!	!	!	!	!	!	!	!	!LO:SIC:o:s:=:v:brak tego taktu
+!	!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=brak tego taktu
 1r	.	(16cc\LL	p	16ee\LL	.	2dd\	-de-	1ryy	1ryy
 .	.	16b\)	.	16dd\	.	.	.	.	.
 .	.	(16b\	.	16dd\	.	.	.	.	.
@@ -568,7 +569,7 @@
 8c\L	.	8b/L	.	8b\L	.	.	.	4g\	4b\
 8A\	.	16a/L	.	16a/L	.	.	.	.	.
 .	.	16g/JJ	.	16g/JJ	.	.	.	.	.
-!LO:SIC:o:s=:v:d (wysokość poprawiana)	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=wysokość poprawiana	!	!	!	!	!	!	!	!	!
 8d\	.	8a/L	.	8a/L	.	.	.	16d/LL	16a\LL
 .	.	.	.	.	.	.	.	16B/JJ	16cc\
 8D/J	.	8f#/J	.	8f#/J	.	.	.	16G/LL	16b\
@@ -594,7 +595,7 @@
 8B\	.	.	.	.	.	8cc\	-mi-	.	.
 8G\J	.	.	.	.	.	8b\	-ne	.	.
 =39	=39	=39	=39	=39	=39	=39	=39	=39	=39
-!	!	!	!	!	!	!	!LO:MO:mod=ple	!	!
+!	!	!	!	!	!	!	!LO:SIC:v:s=ple-	!	!
 8D\L	.	.	.	.	.	4a\	plae-	.	.
 8E\	.	.	.	.	.	.	.	.	.
 8F#\	.	.	.	.	.	8dd\	-na	.	.
@@ -647,7 +648,7 @@
 8AA/J	.	8ff#\J	.	8aa\J	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!
 =43	=43	=43	=43	=43	=43	=43	=43	=43	=43
-!LO:SIC:o:s:=:v:nuta nieczytelna	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=nuta nieczytelna	!	!	!	!	!	!	!	!	!
 4ryy	.	16gg\LL	f	16bb\LL	f	.	.	.	.
 .	.	16gg\	.	16bb\	.	.	.	.	.
 .	.	16gg\	.	16bb\	.	.	.	.	.
@@ -666,7 +667,7 @@
 .	.	16ff#\JJ	.	16aa\JJ	.	.	.	.	.
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!
 =44	=44	=44	=44	=44	=44	=44	=44	=44	=44
-!	!	!	!	!LO:SIC:o:s:=:v:p=piano	!	!	!	!	!
+!	!	!	!	!	!LO:DY:t=Piano	!	!	!	!
 8G\	.	16gg\LL	p	16bb\LL	p	.	.	.	.
 .	.	16gg\	.	16bb\	.	.	.	.	.
 8r	.	16gg\	.	16bb\	.	.	.	.	.
@@ -691,7 +692,7 @@
 .	.	16dd\	.	16dd\	.	.	.	.	.
 8F#\J	.	16cc#\	.	16cc#X\	.	.	.	.	.
 .	.	16dd\JJ	.	16dd\JJ	.	.	.	.	.
-!	!	!	!	!LO:SIC:o:s:=:v:nieczytelna adnotacja	!	!	!	!	!
+!	!	!	!	!LO:TX:a:t=P:problem=nieczytelna adnotacja	!	!	!	!	!
 8A\L	.	8ee\L	.	8ee\L	.	.	.	.	.
 8B\	.	8a\	.	8a\	.	.	.	.	.
 8c#X\	.	8a\	.	8a\	.	.	.	.	.
@@ -799,7 +800,7 @@
 4c\	.	8ee\L	.	8ee\L	.	.	.	8b\L	8dd\L
 .	.	16ee\L	.	16ee\L	.	.	.	16cc\L	16ee\L
 .	.	16dd\JJ	.	16dd\JJ	.	.	.	16b\JJ	16dd\JJ
-!LO:SIC:o:s:=:v:miejsce nieczytelne	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=miejsce nieczytelne	!	!	!	!	!	!	!	!	!
 4ryy	.	16ee\LL	.	16cc\LL	.	.	.	8a\L	8cc\L
 .	.	16dd\	.	16b\	.	.	.	.	.
 .	.	16cc\	.	16a/	.	.	.	8g\J	8b\J
@@ -808,7 +809,7 @@
 =55	=55	=55	=55	=55	=55	=55	=55	=55	=55
 8D\L	.	8a/L	.	8a/L	.	.	.	4d/	4a\
 8E\	.	8d/	.	8d/	.	.	.	.	.
-!	!	!	!	!	!	!	!	!LO:SIC:o:s:=:v:skreślona pauza 2r (?)	!
+!	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=skreślona pauza 2r (?)	!
 8F#\	.	8d/	.	8d/	.	.	.	8r	8r
 8D\J	.	8g/J	.	8b\J	.	.	.	8d/	8d/
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!
@@ -843,12 +844,12 @@
 8F#\	.	4aa\	.	4aa\	.	.	.	.	.
 8D\J	.	.	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=mixed beam	!
-!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!LO:SIC:s=8cc	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!	!	!LO:SIC:v:s=8cc\L	!
 8G\L	.	8b\L	.	8b\L	.	.	.	8a\L	8b\L
 8B\	.	16a/L	.	16a/L	.	.	.	8A/J	8a\J
 .	.	16g/JJ	.	16g/JJ	.	.	.	.	.
 !	!	!	!	!	!	!	!	!LO:TX:a:t=P:problem=mixed beam	!
-!	!	!	!	!	!	!	!	!LO:SIC:s=16cc	!
+!	!	!	!	!	!	!	!	!LO:SIC:v:s=16cc\LL	!
 8d\	.	8a/L	.	8a/L	.	.	.	16a\LL	8b\L
 .	.	.	.	.	.	.	.	16d/	.
 8D/J	.	8f#/J	.	8f#/J	.	.	.	16B/	16a\L
@@ -874,7 +875,7 @@
 8r	.	.	.	.	.	8b\	-te	.	.
 !	!	!	!	!	!	!LO:LB:g=original	!	!	!
 8A\	.	.	.	.	.	8cc\	gau-	.	.
-!	!	!	!	!	!	!LO:SIC:o=4dd	!	!	!
+!	!	!	!	!	!	!LO:N:vis=4	!	!	!
 8B\L	.	.	.	.	.	8dd\	-de-	.	.
 8A\	.	.	.	.	.	(16ee\LL	-te	.	.
 .	.	.	.	.	.	16dd\JJ)	.	.	.
@@ -928,7 +929,7 @@
 .	.	16g/L	.	8cc\J	.	8cc\	mor-	.	8d/'J
 .	.	16g/JJ	.	.	.	.	.	.	.
 *	*	*	*	*	*	*Xtuplet	*	*	*
-!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!LO:SIC:o:s:=:v:brak adnotacji	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!	!	!	!LO:TX:a:t=P:problem=brak adnotacji	!	!	!
 8G\L	.	2r	.	2r	.	12b\L	-ta-	.	2r
 .	.	.	.	.	.	12a\	.	.	.
 8B\	.	.	.	.	.	.	.	.	.
@@ -1194,7 +1195,7 @@
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!
 8F#\L	.	4dd#X\	.	4b\	.	.	.	.	.
 8E\	.	.	.	.	.	.	.	.	.
-!	!	!LO:SIC:s=4dd#	!	!	!	!	!	!	!
+!	!	!LO:SIC:v:s=4dd#\	!	!	!	!	!	!	!
 8D\	.	4ee\	.	4aa\	.	.	.	.	.
 8F#\J	.	.	.	.	.	.	.	.	.
 =83	=83	=83	=83	=83	=83	=83-	=83	=83	=83
@@ -1203,7 +1204,7 @@
 8A\	.	8b/	.	16ff#\L	.	.	.	16B/L	16B/L
 .	.	.	.	16ee\JJ	.	.	.	16B/JJ	16B/JJ
 8B\	.	8b/	.	8b\L	.	.	.	8B/L	8B/L
-!LO:SIC:o:s:=:v:skreślone 2,5 taktu, na obrzeżach adnotacje "vi" i "de"	!	!	!	!	!	!	!	!	!
+!LO:TX:a:t=P:problem=skreślone 2,5 taktu, na obrzeżach adnotacje "vi" i "de"	!	!	!	!	!	!	!	!	!
 8BB/J	.	8b\J	.	8dd#X\J	.	.	.	8B/J	8B/J
 8E\L	.	4g#X/	.	4ee\	.	4r	.	4B/	4B/
 8F#\J	.	.	.	.	.	.	.	.	.
@@ -1287,7 +1288,7 @@
 8BB/J	.	8ff#\J	.	8aa\J	.	.	.	.	.
 8F#\L	.	4dd#X\	.	4b\	.	.	.	.	.
 8E\	.	.	.	.	.	.	.	.	.
-!	!	!LO:SIC:s=:v:4dd#	!	!	!	!	!	!	!
+!	!	!LO:SIC:v:s=4dd#\	!	!	!	!	!	!	!
 8D#\	.	4ee\	.	4aa\	.	.	.	.	.
 8F#\J	.	.	.	.	.	.	.	.	.
 !	!	!LO:LB:g=original	!	!	!	!	!	!LO:LB:g=original	!
@@ -1300,7 +1301,7 @@
 8BB/J	.	8b\J	.	8dd#X\J	.	.	.	8B/J	8B/J
 4E\	.	4g#X/	.	4ee\	.	4r	.	4B/	4B/
 4r	.	8r	.	8r	.	8r	.	4r	4r
-!	!	!LO:SIC:s=8gn	!	!	!	!	!	!	!
+!	!	!LO:SIC:v:s=8gn/	!	!	!	!	!	!	!
 .	.	8g-X/	.	8b\	.	8b\	di-	.	.
 =91	=91	=91	=91	=91	=91	=91	=91	=91	=91
 0r	.	16a/LL	.	16cc\LL	.	2cc\	-ca-	0r	0r
@@ -1385,7 +1386,7 @@
 8BB/J	.	8ff#\J	.	8aa\J	.	.	.	.	.
 8F#\L	.	4dd#X\	.	4b/	.	4r	.	.	.
 8E\	.	.	.	.	.	.	.	.	.
-!	!	!LO:SIC:s=4dd#	!	!	!	!	!	!	!
+!	!	!LO:SIC:v:s=4dd#\	!	!	!	!	!	!	!
 8D#X\	.	4ee\	.	4aa\	.	8r	.	.	.
 8F#\J	.	.	.	.	.	8dd#X\	di-	.	.
 !	!	!	!	!	!	!LO:LB:g=original	!	!	!

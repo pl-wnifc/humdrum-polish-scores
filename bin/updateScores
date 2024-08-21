@@ -86,7 +86,7 @@ exit(0);
 #	my @oldfiles = sort keys %ExistingFiles;
 #	foreach my $file (@oldfiles) {
 #		next if $ExistingFiles{$file};
-#		next if $file !~ /^((?:pl|a|ch|d|f|s)-[a-z]+)-/;
+#		next if $file !~ /^((?:pl|a|ch|d|f|s|gb)-[a-z]+)-/;
 #		my $siglum = $1;
 #		print STDERR "Deleting file: $targdir/$siglum/kern/$file\n";
 #		unlink("$targdir/$siglum/kern/$file");
@@ -111,7 +111,8 @@ sub copyFiles {
 		# d  = Germany
 		# f  = France
 		# s  = Sweden
-		next if $base !~ /^((?:pl|a|ch|d|f|s)-[a-z]+)-/;
+		# gb = Great Britain
+		next if $base !~ /^((?:pl|a|ch|d|f|s|gb)-[a-z]+)-/;
 		my $siglum = $1;
 		die "Strange problem" if !-d "$targdir/$siglum/kern";
 		if (!-r "$targdir/$siglum/kern/$base") {
@@ -167,7 +168,7 @@ sub getExistingFiles {
 sub prepareDirectories {
 	my %libraries = @_;
 	foreach my $library (sort keys %libraries) {
-		if ($library !~ /^(pl|a|ch|d|f|s)-/) {
+		if ($library !~ /^(pl|a|ch|d|f|s|gb)-/) {
 			print STDERR "WARNING: Poorly formatted siglum being ignored: $library\n";
 			next;
 		}
@@ -198,8 +199,8 @@ sub validateFilenames {
 		}
 		my $base = $file;
 		$base =~ s/.*\///;
-		if ($base !~ /^(?:pl|a|ch|d|f|s)-(?:[a-z]+)--/) {
-			print STDERR "ERROR: Filename must start siglum '(pl|a|ch|d|f|s)- in file base $base'\n";
+		if ($base !~ /^(?:pl|a|ch|d|f|s|gb)-(?:[a-z]+)--/) {
+			print STDERR "ERROR: Filename must start siglum '(pl|a|ch|d|f|s|gb)- in file base $base'\n";
 			$error++;
 		}
 	}
@@ -219,7 +220,7 @@ sub getLibraryInfo {
 	foreach my $file (@files) {
 		my $base = $file;
 		$base =~ s/.*\///;
-		if ($base =~ /^((?:pl|a|ch|d|f|s)-[a-z]+)-/) {
+		if ($base =~ /^((?:pl|a|ch|d|f|s|gb)-[a-z]+)-/) {
 			my $siglum = $1;
 			$output{$siglum}++;
 		} else {

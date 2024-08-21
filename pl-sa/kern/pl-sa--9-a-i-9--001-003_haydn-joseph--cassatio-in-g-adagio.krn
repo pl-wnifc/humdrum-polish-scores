@@ -65,15 +65,15 @@
 .	.	.	32ccc\JJk	.
 .	.	.	8qqgg/	.
 8d\	.	.	4ff\	.
-!LO:SIC:s=8B:v	!	!	!	!
+!LO:SIC:v:s=8B\J	!	!	!	!
 8A\J	8b\	.	.	.
-!LO:TX:a:t=P:problem=mixed beam	!	!LO:SIC:s=8.c:v	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!LO:N:vis=8.	!	!
 8c\L	8cc\	16.c/LL	4ee\	.
-!	!	!LO:SIC:s=16e:v	!	!
+!	!	!LO:N:vis=16	!	!
 .	.	32e/K	.	.
-!	!	!LO:SIC:s=8.g:v	!	!
+!	!	!LO:N:vis=8.	!	!
 8E\	4c/	16.g/	.	.
-!	!	!LO:SIC:s=16cc:v	!	!
+!	!	!LO:N:vis=16	!	!
 .	.	32cc/JJk	.	.
 .	.	8qqg/	.	.
 8D\	.	4fT/	4r	.
@@ -83,28 +83,27 @@
 .	.	.	8cc\L	.
 8r	8r	4r	8cc\	.
 8E\	8g\	.	8cc\J	.
-!	!	!	!LO:SIC:s=16.b:v	!
+!	!	!	!LO:N:vis=16.	!
 (8F\L	8g\	4r	16b\LL	.
 .	.	.	(32cc\L	.
 .	.	.	32dd\JJ	.
 8E\)	4g\	.	8cc\J)	.
-!	!	!LO:SIC:s=16.B:v	!	!
+!	!	!LO:N:vis=16.	!	!
 (8F\	.	16B/LL	4r	.
 .	.	(32c/L	.	.
 .	.	32d/JJ	.	.
-!	!	!LO:SIC:s=16c:v	!	!
+!	!	!LO:N:vis=16	!	!
 8E\J)	8g\	8c/J)	.	.
 =4	=4	=4	=4	=4
 (8BB/L	8g\	4r	32dd\LLL	.
 .	.	.	(32ee\J	.
 .	.	.	16ff\J)	.
 8C/)	4g\	.	8ee\J	.
-!	!	!LO:SIC:s=16.d:v	!	!
+!	!	!LO:N:vis=16.	!	!
 (8BB/	.	16d/LL	4r	.
 .	.	(32e/L	.	.
 .	.	32f/JJ	.	.
-!	!	!LO:SIC:s=8e:v	!	!
-!	!	!LO:SIC:s=16d:v	!	!
+!	!	!LO:SIC:v:s=8e/J)	!	!
 8C/J)	8g\	8d/J)	.	.
 8r	8r	2r	4gg\	.
 8E\L	8B/L	.	.	.
@@ -150,7 +149,7 @@
 8G\L	8c\L	8ee\L	2r	.
 16.GG/L	16.B\L	8dd\J	.	.
 32G\JJk	32g\JJk	.	.	.
-!LO:SIC:s=16D:v	!	!	!	!
+!LO:N:vis=16	!	!	!	!
 16.D/LL	16.d/LL	4r	.	.
 32C/K	32c/K	.	.	.
 16.BB/	16.B/	.	.	.
@@ -211,7 +210,7 @@
 .	.	32g#/	.	.
 .	.	32a/	.	.
 .	.	32b/JJJ)	.	.
-!	!	!LO:SIC:s=16gn:v	!	!
+!	!	!LO:SIC:v:s=16gn/LL	!	!
 8G\	8g\	16g#/LL	16dd\LL	.
 .	.	16d/J	32bb\L	.
 .	.	.	32aa#X\JJJ	.
@@ -220,13 +219,14 @@
 .	.	.	32bb\	.
 .	.	.	32aa#\JJJ	.
 8E\L	8e\L	16c/LL	16bb\LL	.
-!	!	!LO:SIC:s=16gn:v	!	!
+!	!	!LO:SIC:s=32gn/L	!	!
+!	!	!LO:N:vis=16	!	!
 .	.	32g#/L	16cc\J	.
 .	.	32f#X/JJJ	.	.
-!	!	!LO:SIC:s=32gn:v	!	!
+!	!	!LO:SIC:v:s=32gn/LLL	!	!
 8E\	8e\	32g#/LLL	8cc\J	.
 .	.	(32f#X/	.	.
-!	!	!LO:SIC:s=32gn:v	!	!
+!	!	!LO:SIC:v:s=32gn/	!	!
 .	.	32g#/	.	.
 .	.	32a/JJJ)	.	.
 8F#X\	8f#X\	16a/LL	16cc\LL	.
@@ -289,7 +289,7 @@
 .	.	.	32bb\	.
 .	.	.	32gg\JJJ	.
 8D\	8g\L	.	4aaT\	.
-!LO:SIC:s=4D:v	!	!	!	!
+!LO:N:vis=4D	!	!	!	!
 8D\	8f#X\J	.	.	.
 =13	=13	=13	=13	=13
 !LO:TX:a:t=P:problem=mixed beam	!LO:TX:a:t=P:problem=mixed beam	!	!	!
@@ -317,7 +317,7 @@
 8r	8r	1r	8dd\L	.
 8G\L	8b\L	.	8dd\J	.
 8F#X\	8a\	.	8dd\L	.
-!	!LO:LB:g=original	!	!LO:SIC:s=q8ff#:v	!
+!	!LO:LB:g=original	!	!LO:SIC:v:s=q8ff#/	!
 .	.	.	8qff/	.
 8D\J	8f#X\J	.	24ee\L	.
 .	.	.	24dd\	.
@@ -325,7 +325,7 @@
 8r	8r	.	4cc\	.
 !LO:TX:a:t=P:problem=mixed beam	!LO:TX:a:t=P:problem=mixed beam	!	!	!
 8G\L	8g\L	.	.	.
-!LO:SIC:s=8GG:v	!	!	!	!
+!LO:SIC:v:s=8GG/	!	!	!	!
 8AA/	8G/	.	8b\L	.
 !	!	!	!LO:TX:a:t=P:problem=klamra łukowa, kropka zamiast numeru	!
 .	.	.	8qdd/	.
@@ -344,7 +344,7 @@
 .	.	.	24ddd\JJ	.
 8AA/	.	.	8ddd\L	.
 8D/J	8f#X\	.	8cccT\J	.
-!LO:SIC:s=8GG:v	!	!LO:TX:b:t=P:problem=klamra łukowa, kropka zamiast numeru	!	!
+!LO:SIC:v:s=8GG/L	!	!LO:TX:b:t=P:problem=klamra łukowa, kropka zamiast numeru	!	!
 !LO:TX:a:t=P:problem=mixed beam	!	!LO:TX:a:t=P:problem=triole nieoznaczone&colon;global	!	!
 8AA/L	8g\	24G/LL	4bb\	.
 .	.	24B/	.	.
@@ -403,7 +403,7 @@
 8F\L	(32a\LLL	(32f/LLL	2ccc\]	.
 .	32g\	32e/	.	.
 .	32a\	32f/	.	.
-!	!LO:SIC:s=32b-:v	!	!	!
+!	!LO:SIC:v:s=32b-\JJ)	!	!	!
 .	32b\JJ)	32g/JJ)	.	.
 8FF/J	8cc`\J	8a/J	.	.
 8r	(32e\LLL	(32g/LLL	.	.
@@ -487,7 +487,7 @@
 16E-X\	16e-X\	.	.	.
 16.D/LL	16.d/LL	4r	.	.
 32C/K	32c/K	.	.	.
-!	!LO:SIC:s=16.B-:v	!	!	!
+!	!LO:SIC:v:s=16.B-/	!	!	!
 16.BB-X/	16.B/	.	.	.
 32AA/JJk	32A/JJk	.	.	.
 =24	=24	=24	=24	=24
@@ -507,7 +507,7 @@
 .	.	.	32aa\JJ)	.
 .	.	.	8bb-`\J	.
 32G\LLL	(32g\LLL	32g/LLL	4r	.
-!LO:SIC:s=32F#:v	!LO:SIC:s=32f#:v	!	!	!
+!LO:SIC:v:s=(32F#\	!LO:SIC:v:s=32f#\	!	!	!
 (32F\	32f\	(32f#/	.	.
 32E\	32e\	32g/	.	.
 32D\JJ)	32d\JJ)	32a/JJ)	.	.
@@ -543,7 +543,6 @@
 16D/	16d\	.	.	.
 16.C/LL	16.c/LL	4r	.	.
 32BB-X/K	32B-X/K	.	.	.
-!	!LO:SIC:s=16g:v	!	!	!
 16.AA/	16.A/	.	.	.
 32GG/JJk	32G/JJk	.	.	.
 !	!	!	!LO:LB:g=original	!
@@ -656,13 +655,13 @@
 .	.	.	8qqgg/	.
 8d\	.	4r	4ffT\	.
 8G\J	8b\	.	.	.
-!LO:TX:a:t=P:problem=mixed beam	!	!LO:SIC:s=8.c:v	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!LO:N:vis=8.	!	!
 8c\L	8cc\	16.c/LL	4ee\	.
-!	!	!LO:SIC:s=16e:v	!	!
+!	!	!LO:N:vis=16	!	!
 .	.	32e/K	.	.
-!	!	!LO:SIC:s=8.g:v	!	!
+!	!	!LO:N:vis=8.	!	!
 8E\	4c/	16.g/	.	.
-!	!	!LO:SIC:s=16cc:v	!	!
+!	!	!LO:N:vis=16	!	!
 .	.	32cc/JJk	.	.
 .	.	8qqg/	.	.
 8D\	.	4f/	4r	.
@@ -672,7 +671,7 @@
 .	8r	.	8cc\L	.
 8r	8r	4r	8cc\	.
 8E\	8g\	.	8cc\J	.
-!	!	!	!LO:SIC:s=16.b:v	!
+!	!	!	!LO:N:vis=16.	!
 (8F\L	8g\	4r	16b\LL	.
 .	.	.	(32cc\L	.
 .	.	.	32dd\JJ)	.
@@ -682,7 +681,7 @@
 .	.	64d/JJJJ	.	.
 8E\J)	8g\	8c/	.	.
 =34	=34	=34	=34	=34
-!	!	!	!LO:SIC:s=16.d:v	!
+!	!	!	!LO:N:vis=16.	!
 (8BB/L	8g\	4r	(16dd\LL	.
 .	.	.	32ee\L	.
 .	.	.	32ff\JJ)	.
@@ -748,7 +747,7 @@
 .	.	(32B/	.	.
 .	.	32c/)	.	.
 .	.	32d/JJ	.	.
-!	!	!LO:SIC:s=16e:v	!	!
+!	!	!LO:N:vis=16	!	!
 8c\J	8cc\J	8e/J	.	.
 8D\L	8d\L	4r	(32ff\LLL	.
 .	.	.	32ee\	.
@@ -810,10 +809,10 @@
 .	.	32cc\	.	.
 .	.	32ee\JJJ)	.	.
 8B\	8b\	16dd/LL	16f\LL	.
-!	!	!	!LO:SIC:s=32ddn:v	!
+!	!	!	!LO:SIC:v:s=(32ddn\L	!
 .	.	16f/	(32dd#\L	.
 .	.	.	32cc#X\JJJ)	.
-!	!	!	!LO:SIC:s=32ddn:v	!
+!	!	!	!LO:SIC:v:s=32ddn\LLL	!
 8B\J	8b\J	16f/	32dd#\LLL	.
 .	.	.	(32b\	.
 .	.	16d/JJ	32g\	.
@@ -851,9 +850,9 @@
 16E\	16g\	8r	.	.
 16A\JJ	16f\JJ)	.	.	.
 16G\LL	16e\LL	4r	.	.
-!	!LO:SIC:s=32a:v	!	!	!
+!	!LO:N:vis=32	!	!	!
 16F\	(16a\	.	.	.
-!	!LO:SIC:s=32g:v	!	!	!
+!	!LO:N:vis=32	!	!	!
 16E\	16g\	.	.	.
 16D\JJ	16f\JJ)	.	.	.
 !	!	!	!LO:PB:g=original	!
@@ -875,7 +874,7 @@
 .	.	.	32gg\	.
 .	.	.	32ee\	.
 .	.	.	32cc\JJJ	.
-!LO:TX:a:t=P:problem=mixed beam	!LO:SIC:s=4cc:v	!	!	!
+!LO:TX:a:t=P:problem=mixed beam	!	!	!LO:SIC:v:s=4ccT\	!
 8G\L	8cc\	.	4ddT\	.
 8GG/J	8b\	.	.	.
 =43	=43	=43	=43	=43
