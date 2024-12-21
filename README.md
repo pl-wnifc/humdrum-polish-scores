@@ -33,7 +33,7 @@ People and Sponsors
 | Andrzej Borzym | 377 | 650,608 | 446 | 367 |  |
 | Jolanta Bujas-Poniatowska |  |  |  |  | 73 |
 | Elżbieta Cabała |  |  |  |  | 59 |
-| Marta Chmielewska | 159 | 209,352 | 625 |  |  |
+| Marta Chmielewska | 159 | 209,352 | 625 |  | 13 |
 | Zuzanna Daniec |  |  |  |  | 46 |
 | Olaf Gawdzik |  |  |  |  | 34 |
 | Tomasz Grochalski | 558 | 827,695 | 7 |  |  |
@@ -44,7 +44,7 @@ People and Sponsors
 | Berenika Jozajtis | 959 | 1,549,133 | 17 |  |  |
 | Marcin Konik | 6 | 242 | 1 |  |  |
 | Magdalena Agnieszka Krok |  |  |  |  | 15 |
-| Leszek Kubiak | 42 | 12,069 | 962 | 166 |  |
+| Leszek Kubiak | 42 | 15,533 | 962 | 166 |  |
 | Andrzej Kubiczek | 546 | 878,376 | 807 | 249 |  |
 | Marta Lawrence | 119 | 59,795 | 1,090 | 116 |  |
 | Arkadiusz Malec | 62 | 121,582 | 3 |  |  |
@@ -57,18 +57,18 @@ People and Sponsors
 | Marta Opryszak | 172 | 283,092 | 2 |  | 51 |
 | Julita Ruszuk | 2 | 1,517 | 156 |  |  |
 | Craig Stuart Sapp |  |  | 3 |  | 151 |
-| Katarzyna Serwa | 349 | 566,854 | 355 | 79 |  |
+| Katarzyna Serwa | 349 | 566,854 | 355 | 79 | 12 |
 | Mateusz Solarz | 595 | 926,176 | 26 |  |  |
 | Krzysztof Stępień | 469 | 676,405 | 137 | 33 |  |
 | Antoni Szymański | 1 | 5,516 | 542 | 1 | 60 |
 | Konrad Tyszka |  |  |  |  | 75 |
 | Filip Voros | 602 | 895,969 | 7 |  |  |
-| Kamil Watkowski | 401 | 553,608 | 187 |  |  |
+| Kamil Watkowski | 401 | 553,632 | 187 |  |  |
 | Natalia Wrzos | 2 | 3,590 | 303 |  | 77 |
 | Emilia Ziętek | 12 | 2,142 | 1 |  | 79 |
 | Urszula Świątek | 2 | 2,382 | 207 |  |  |
 | Bartosz Żurakowski |  |  |  |  | 73 |
-| TOTALS | 8,017 | 12,211,780 | 7,439 | 1,012 | 1,068 |
+| TOTALS | 8,017 | 12,215,268 | 7,439 | 1,012 | 1,093 |
 
 </details>
 
@@ -112,13 +112,13 @@ to visit its webpage.
 The `Scores` column lists the number of digital transcriptions within
 each archive directory, and the `Notes` column gives the number of
 musical notes contained within those scores.   Currently there are
-8,020 scores containing a total of 12,214,328 notes.
+8,020 scores containing a total of 12,217,816 notes.
 
 <details><summary>Archives represented in repository</summary>
 
 | Siglum | Library | Scores |    % | Notes |    % |
 | ------ | ------- | -----: | ---: | ----: | ---: |
-| <a target="_blank" href="https://polishscores.org?s=pl-cz"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-cz.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern)</span></span> | [Jasna Góra Monastery](https://jasnagora.pl/en/o-sanktuarium/biblioteki/biblioteka-jasnogorska) | 1,298 | 16.1 | 3,366,379 | 27.5 |
+| <a target="_blank" href="https://polishscores.org?s=pl-cz"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-cz.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-cz](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-cz/kern)</span></span> | [Jasna Góra Monastery](https://jasnagora.pl/en/o-sanktuarium/biblioteki/biblioteka-jasnogorska) | 1,298 | 16.1 | 3,369,867 | 27.5 |
 | <a target="_blank" href="https://polishscores.org?s=pl-wtm"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-wtm.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-wtm](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-wtm/kern)</span></span> | [Warsaw Music Society](http://warszawskietowarzystwomuzyczne.pl/biblioteka) | 1,387 | 17.2 | 2,518,289 | 20.6 |
 | <a target="_blank" href="https://polishscores.org?s=pl-sa"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-sa.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-sa](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-sa/kern)</span></span> | [Diocesan Library, Sandomierz](https://bc.bdsandomierz.pl/dlibra?language=en) | 1,244 | 15.5 | 1,575,538 | 12.8 |
 | <a target="_blank" href="https://polishscores.org?s=pl-kk"><img src="https://raw.githubusercontent.com/craigsapp/website-polish-scores/main/img/siglum/pl-kk.svg"></a><br/><span style="white-space:pre; text-align:center;" class="nobr">[pl-kk](https://github.com/pl-wnifc/humdrum-polish-scores/tree/main/pl-kk/kern)</span></span> | [Wawel Cathedral, Cracow](http://akkk.com.pl) | 1,999 | 24.9 | 1,543,879 | 12.6 |
@@ -255,7 +255,7 @@ Composers
 | Dietrich, Moritz | 2 | 3,463 |
 | Dittersdorf, Carl Ditters von | 4 | 7,906 |
 | Dobrzyński, Ignacy Feliks | 56 | 223,208 |
-| Elsner, Józef | 142 | 557,523 |
+| Elsner, Józef | 142 | 561,011 |
 | Engel, Jan | 29 | 78,428 |
 | Ett, Caspar | 1 | 129 |
 | Fertner, Karol | 4 | 18,728 |
@@ -599,7 +599,7 @@ Composers
 | Żeleński, Władysław | 155 | 323,533 |
 | Gomółka, Mikołaj | 151 | 27,689 |
 | Dankowski, Adalbert | 149 | 418,969 |
-| Elsner, Józef | 142 | 557,523 |
+| Elsner, Józef | 142 | 561,011 |
 | Raszek, Wacław | 142 | 435,021 |
 | Paderewski, Ignacy Jan | 139 | 342,469 |
 | Volckmer, Augustin | 126 | 440,103 |
@@ -1001,7 +1001,7 @@ Composers
 | Anonymous | 2,147 | 1,252,583 |
 | Stefani, Józef | 457 | 869,364 |
 | Moniuszko, Stanisław | 413 | 827,719 |
-| Elsner, Józef | 142 | 557,523 |
+| Elsner, Józef | 142 | 561,011 |
 | Volckmer, Augustin | 126 | 440,103 |
 | Raszek, Wacław | 142 | 435,021 |
 | Dankowski, Adalbert | 149 | 418,969 |
