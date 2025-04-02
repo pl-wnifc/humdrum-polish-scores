@@ -33,6 +33,7 @@ my $output = join("", @data);
 my $siglaInfo     = buildLibraryTable();
 my $composerInfo  = buildComposerTable();
 my $referenceInfo = buildReferenceTable();
+my $exclusiveInfo = buildExclusiveInterpretationTable();
 my $encoderInfo   = buildEncoderTable();
 my $scanInfo      = buildScanTable();
 
@@ -41,6 +42,7 @@ my $scanInfo      = buildScanTable();
 $output =~ s/\{\{library-table\}\}/$siglaInfo/g;
 $output =~ s/\{\{composer-tables\}\}/$composerInfo/g;
 $output =~ s/\{\{reference-table\}\}/$referenceInfo/g;
+$output =~ s/\{\{exclusive-interpretation-table\}\}/$exclusiveInfo/g;
 $output =~ s/\{\{encoder-table\}\}/$encoderInfo/g;
 $output =~ s/\{\{scan-table\}\}/$scanInfo/g;
 $output =~ s/\{\{notecount\}\}/$commanotes/g;
@@ -119,7 +121,7 @@ sub buildComposerTable {
 	foreach my $line (@scoresort) {
 		$output .= $line;
 	}
-	
+
 	$output .= "\n</details>\n\n";
 
 	$output .= "<details markdown=\"1\">\n";
@@ -212,8 +214,8 @@ sub getNoteCountForComposer {
 #    @Name-short-EN:		Jagiellonian Library, Cracow
 #    @Website-PL:		https://bj.uj.edu.pl
 #    @Website-EN:		https://bj.uj.edu.pl/en_GB/start-en
-#    @NIFC-URL-PL:		
-#    @NIFC-URL-EN:		
+#    @NIFC-URL-PL:
+#    @NIFC-URL-EN:
 #    @@END: ENTRY
 ##
 
@@ -245,6 +247,9 @@ print STDERR "SIGNAME INDEX $url\n";
 			next;
 		}
 		if ($line =~ /^\@Siglum:\s*(.*?)\s*$/) { $siglum = $1; $siglow = lc($siglum); }
+		# Deal with accents in sigla:
+		$siglow = "pl-lzu" if $siglum eq "PL-LŹu";
+
 		if ($line =~ /^\@RISM-ID:\s*(\d+)\s*$/) { $rism = $1; }
 		if ($line =~ /^\@Name-short-EN:\s*(.*?)\s*$/) { $name = $1; }
 		if ($line =~ /^\@Website-PL:\s*(.*?)\s*$/) { $urlpl = $1; }
@@ -512,6 +517,7 @@ sub buildReferenceTable {
 	$refInfo{"PDT"} =                   "Publication date";
 	$refInfo{"RDF**dynam"} =            "Signifier definition for dynam spines";
 	$refInfo{"RDF**kern"} =             "Signifier definition for kern spines";
+	$refInfo{"RDF**kernyy"} =           "IGNORE";
 	$refInfo{"SMS"} =                   "IGNORE";
 	$refInfo{"SMS-altvar"} =            "IGNORE";
 	$refInfo{"SMS-shelfmark"} =         "Shelfmark of score";
@@ -536,6 +542,7 @@ sub buildReferenceTable {
 	$refInfo{"system-decoration-mod"} = "Modernized bracketing on left side of system";
 	$refInfo{"tempo-scaling"} =         "IGNORE";
 	$refInfo{"voices"} =                "IGNORE";
+	$refInfo{"verovio"} =               "Printing option for use with verovio";
 
 	my @reflist = `grep -rh "^!!![^\!:]*:" */kern | sed 's/:.*//; s/^!*//' | sort | uniq`;
 	chomp @reflist;
@@ -552,7 +559,56 @@ sub buildReferenceTable {
 	}
 
 	$output = "<details>\n<summary>List of reference records</summary>\n\n$output\n</details>\n";
-	
+
+	return $output;
+}
+
+
+
+##############################
+##
+## buildExclusiveInterpretationTable --
+##
+
+sub buildExclusiveInterpretationTable {
+
+	my %interpInfo;
+	$interpInfo{"**kern"}       = "musical content (notes/rests)";
+	$interpInfo{"**text"}       = "lyrical text";
+	$interpInfo{"**dynam"}      = "dynamics";
+	$interpInfo{"**fba"}        = "figured base (above staff)";
+	$interpInfo{"**mod-text"}   = "modern lyrical text (inactive)";
+	$interpInfo{"**fing"}       = "fingerings";
+	$interpInfo{"**mod-dynam"}  = "modern dynamics (inactive)";
+	$interpInfo{"**fb"}         = "figured bass";
+	$interpInfo{"**kernyy"}     = "hidden musical content";
+	$interpInfo{"**text-mod"}   = "modern lyrical text (active)";
+	$interpInfo{"**mxhm"}       = "MusicXML Harmony";
+	$interpInfo{"**blank"}      = "blank data";
+	$interpInfo{"**dynam-mod"}  = "modern dynamics (active)";
+	$interpInfo{"**mod-kern"}   = "modern musical content (inactive)";
+	$interpInfo{"**neume"}      = "neumes";
+	$interpInfo{"**kern-ori"}   = "original musical content (active)";
+
+	my @interplist = `grep -rh  "^\\*\\*" */kern  | tr "\\t" "\\n" | sortcount`;
+	chomp @interplist;
+
+	my $output = "";
+	$output .= "| Count | Interpretation | Meaning |\n";
+	$output .= "| ----- | -------------- | ------- |\n";
+
+	foreach my $line (@interplist) {
+		next if $line !~ /^\s*(\d+)\s+(.*)\s*$/;
+		my $count = $1;
+		my $key   = $2;
+		my $description = $interpInfo{$key};
+		next if $description eq "IGNORE";
+		$description = "UNKNOWN" if $description =~ /^\s*$/;
+		$output .= "| $count | `$key` | $description |\n";
+	}
+
+	$output = "<details>\n<summary>List of exclusive interpretations</summary>\n\n$output\n</details>\n";
+
 	return $output;
 }
 
@@ -824,14 +880,14 @@ sub getEncoderInformation {
 	}
 
 	if (($enc1date > 0) && ($enc2date > 0)) {
-		if ($enc1date > $enc2date) {	
+		if ($enc1date > $enc2date) {
 			my $temp = $enc1;
 			$enc1 = $enc2;
 			$enc2 = $temp;
 		}
 	}
 
-	if ($eed) {	
+	if ($eed) {
 		$enc2 = $eed;
 	}
 
@@ -975,6 +1031,13 @@ their meanings:
 
 {{reference-table}}
 
+Exclusive interpretations
+-------------------------
+
+Here is a list of exclusive interpretations (data spines) found in the scores,
+along with their meanings.
+
+{{exclusive-interpretation-table}}
 
 Converting to Standard MIDI Files
 ---------------------------------

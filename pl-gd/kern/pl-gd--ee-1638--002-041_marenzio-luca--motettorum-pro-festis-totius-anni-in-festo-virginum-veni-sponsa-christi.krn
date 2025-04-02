@@ -26,24 +26,30 @@
 !!!AIN: 1 alto 1 bass 1 soprn 1 tenor
 !!!key: d:aeo
 **kern	**text	**kern	**text	**kern	**text	**kern	**text
-*part4	*	*part3	*	*part2	*	*part1	*
-*staff4	*	*staff3	*	*staff2	*	*staff1	*
-*I"BASSO	*	*I"TENORE	*	*I"ALTO	*	*I"CANTO	*
-*I'B	*	*I'T	*	*I'A	*	*I'S	*
-*Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
+*part4	*part4	*part3	*part3	*part2	*part2	*part1	*part1
+*staff4	*staff4	*staff3	*staff3	*staff2	*staff2	*staff1	*staff1
 *ICvox	*	*ICvox	*	*ICvox	*	*ICvox	*
+*Ibass	*	*Itenor	*	*Ialto	*	*Isoprn	*
+*mI"Basso	*	*mI"Tenore	*	*mI"Alto	*	*mI"Soprano	*
+*I"BASSVS	*	*I"TENOR	*	*I"ALTVS	*	*I"CANTVS	*
+*I'B	*	*I'T	*	*I'A	*	*I'S	*
 *clefF4	*	*clefC4	*	*clefC3	*	*clefC1	*
+*	*	*mclefGv2	*	*mclefGv2	*	*mclefG2	*
 *k[b-]	*	*k[b-]	*	*k[b-]	*	*k[b-]	*
 *d:aeo	*	*d:aeo	*	*d:aeo	*	*d:aeo	*
 *M2/1	*	*M2/1	*	*M2/1	*	*M2/1	*
 *met(C|)	*	*met(C|)	*	*met(C|)	*	*met(C|)	*
+*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*	*mmet(c|)	*
 =1-	=1-	=1-	=1-	=1-	=1-	=1-	=1-
 *xywh-#180:4580,558,3520,864	*	*xywh-#332:4481,499,3526,829	*	*xywh-#484:4570,493,3456,862	*	*xywh-#636:4496,520,3501,822	*
-!LO:TX:a:i:t=In festo Virginum	!	!LO:TX:a:i:t=In festo Virginum	!	!LO:TX:a:i:t=In festo Virginum	!	!LO:TX:a:i:t=In festo Virginum	!
+!LO:TX:t=P:problem=przy kluczu BB- B-	!	!	!	!	!	!	!
+!LO:TX:a:i:mod= :t=In festo Virginum	!	!LO:TX:a:i:mod= :t=In festo Virginum	!	!LO:TX:a:i:mod= :t=In festo Virginum	!	!LO:TX:a:i:mod= :t=In festo Virginum	!LO:SIC:s=Ve-
 00r	.	00r	.	1r	.	1.d	VE-
+!	!	!	!	!	!LO:SIC:s=Ve-	!	!
 .	.	.	.	1.d	VE-	.	.
 .	.	.	.	.	.	2e/	-ni
 =2-	=2-	=2-	=2-	=2-	=2-	=2-	=2-
+!	!	!	!	!	!	!	!LO:SIC:s=spon-
 .	.	.	.	.	.	2f/	ſpo(n)-
 .	.	.	.	2e\	-ni	2g/	-ſa
 .	.	.	.	2f\	ſpon-	4a\	Chri-
@@ -51,6 +57,7 @@
 .	.	.	.	2c/	-ſa	4cc\	.
 .	.	.	.	.	.	4a\	.
 =3-	=3-	=3-	=3-	=3-	=3-	=3-	=3-
+!	!	!	!LO:SIC:s=Ve-	!	!	!	!
 00r	.	1.D	VE-	2.d\	Chri-	4b-\	.
 .	.	.	.	.	.	4a\	.
 .	.	.	.	.	.	1a	.
@@ -60,6 +67,7 @@
 =4-	=4-	=4-	=4-	=4-	=4-	=4-	=4-
 .	.	2F/	ſpon-	2A/	-ſti	2a\	-ſti
 *	*	*	*	*	*ij	*	*
+!	!	!	!	!	!LO:SIC:s=ve-	!	!
 .	.	2G/	-ſa	2d\	VE-	4g/	.
 .	.	.	.	.	.	4f/	.
 *	*	*	*	*	*	*lig	*
@@ -69,6 +77,7 @@
 .	.	4A\	.	.	.	.	.
 =5-	=5-	=5-	=5-	=5-	=5-	=5-	=5-
 *	*	*	*	*	*	*col	*
+!	!LO:SIC:s=Ve-	!	!	!	!	!	!
 1.D	VE-	4B-\	.	2.f\	ſpon-	2.d/	.
 .	.	4A\	.	.	.	.	.
 .	.	1A	.	.	.	.	.
@@ -82,28 +91,29 @@
 2F\	ſpon-	0A	-ſti	.	.	1c	.
 .	.	.	.	4d\	.	.	.
 2C/	-ſa	.	.	2e\	.	.	.
-2.D/	Chri-	.	.	2.f\	Chri-	2re	.
+2.D/	Chri-	.	.	2.f\	Chri-	2r	.
 *	*	*	*	*	*	*	*ij
+!	!	!	!	!	!	!	!LO:SIC:s=ve-
 .	.	.	.	.	.	1d/	VE-
 4C/	.	.	.	4e\	.	.	.
 =7-	=7-	=7-	=7-	=7-	=7-	=7-	=7-
 0BB-	.	1r	.	0d	.	.	.
 .	.	.	.	.	.	2e/	-ni
+*	*	*	*ij	*	*	*custos:f	*
 *	*	*	*	*	*	*xywh-#636:4480,1187,3524,667	*
-!	!	!	!	!	!	!LO:SIC:v:t=custos f	!
-!	!	!	!	!	!	!LO:LB:g=original	!
-*	*	*	*ij	*	*	*	*
+!	!	!	!LO:SIC:s=ve-	!	!	!LO:LB:g=original	!LO:SIC:s=spon-
 .	.	1D	VE-	.	.	2f/	ſpo(n)-
 .	.	.	.	.	.	2g/	-ſa
-*	*	*	*	*xywh-#484:4586,1191,3487,736	*	*	*
-!	!	!	!	!LO:SIC:v:t=custos c	!	!	!
+*	*	*	*	*custos:c	*	*	*
 !	!	!	!	!LO:LB:g=original	!	!	!
 =8-	=8-	=8-	=8-	=8-	=8-	=8-	=8-
-1AA	-ſti	1E	-ni	4c/	.	4a\	Chri-
+*	*	*	*	*xywh-#484:4586,1191,3487,736	*	*	*
+1AA	-ſti	1E	-ni	4c/	-ſti	4a\	Chri-
 .	.	.	.	4d\	.	4b-\	.
 .	.	.	.	4e\	.	4cc\	.
 .	.	.	.	4c/	.	4a\	.
 *	*ij	*	*	*	*	*	*
+!	!LO:SIC:s=ve-	!	!	!	!	!	!
 1.D	VE-	1.F	ſpon-	4d\	.	4b-\	.
 .	.	.	.	4e\	.	4a\	.
 .	.	.	.	1f\	.	1a\	.
@@ -111,20 +121,20 @@
 .	.	.	.	.	.	.	.
 2E\	-ni	2G/	-ſa	4e\	.	2g/	.
 .	.	.	.	4d\	.	.	.
-1F	ſpon-	4A/	Chri-	1c	-ſti	2.f/	.
+1F	ſpon-	4A/	Chri-	1c	.	2.f/	-ſti
 .	.	4B-\	.	.	.	.	.
 .	.	4c\	.	.	.	.	.
 .	.	4A/	.	.	.	4e/	.
-*	*	*xywh-#332:4473,1130,3442,745	*	*	*	*	*
-!	!	!LO:SIC:v:t=custos B-	!	!	!	!	!
+*	*	*custos:B	*	*	*	*	*Xij
 !	!	!LO:LB:g=original	!	!	!	!	!
 =10-	=10-	=10-	=10-	=10-	=10-	=10-	=10-
+*	*	*xywh-#332:4473,1130,3442,745	*	*	*	*	*
 1G	-ſa	4B-\	.	0r	.	2.d/	.
 .	.	4c\	.	.	.	.	.
 .	.	4d\	.	.	.	.	.
 .	.	4B-\	.	.	.	4e/	.
+*custos:A	*	*	*	*	*	*	*
 *xywh-#180:4557,1210,3473,730	*	*	*	*	*	*	*
-!LO:SIC:v:t=custos A	!	!	!	!	!	!	!
 !LO:LB:g=original	!	!	!	!	!	!	!
 4A\	Chri-	1c	.	.	.	4f/	.
 4B-\	.	.	.	.	.	8e/	.
@@ -132,12 +142,13 @@
 4c\	.	.	.	.	.	4e/	.
 4B-\	.	.	.	.	.	4f/	.
 =11-	=11-	=11-	=11-	=11-	=11-	=11-	=11-
-2.B-\	.	0d	-ſti	1.G	VE-	0.g	-ſti
-*	*	*	*	*	*	*	*Xij
+!	!	!	!	!	!LO:SIC:s=ve-	!	!
+2.B-\	.	0d	-ſti	1.G	VE-	0.g	.
 4A\	.	.	.	.	.	.	.
 2G\	.	.	.	.	.	.	.
 2F\	.	.	.	2A/	-ni	.	.
 =12-	=12-	=12-	=12-	=12-	=12-	=12-	=12-
+!	!	!	!LO:SIC:s=ve-	!	!	!	!
 1E-X	.	2G/	VE-	2B-/	ſpon-	.	.
 .	.	2A/	-ni	2c/	-ſa	.	.
 1D	-ſti	2B-\	ſpon-	4d\	Chri-	1r	.
@@ -153,28 +164,27 @@
 .	.	1E-X	.	.	.	.	.
 .	.	.	.	2c/	.	2g/	-ci-
 =14-	=14-	=14-	=14-	=14-	=14-	=14-	=14-
-2r	.	1D	-ſti	2.d\	.	1f	-pe
-*	*	*	*Xij	*	*	*	*
+2r	.	1D	-ſti	2.d\	-ſti	1f	-pe
+*	*	*	*Xij	*	*Xij	*	*
 1D	ac-	.	.	.	.	.	.
 .	.	.	.	4eny\	.	.	.
 .	.	1r	.	2.f\	.	2a\	co-
 2D/	-ci-	.	.	.	.	2.b-\	-ro-
 .	.	.	.	8e\	.	.	.
 .	.	.	.	8d\	.	.	.
-*	*	*	*	*xywh-#484:4578,1700,3417,775	*	*	*
-!	!	!	!	!LO:SIC:v:t=custos c	!	!	!
+*	*	*	*	*custos:c	*	*	*
 !	!	!	!	!LO:LB:g=original	!	!	!
 =15-	=15-	=15-	=15-	=15-	=15-	=15-	=15-
-1F	-pe	1r	.	0c	-ſti	.	.
-*	*	*	*	*	*Xij	*	*
+*	*	*	*	*xywh-#484:4578,1700,3417,775	*	*	*
+1F	-pe	1r	.	0c	.	.	.
 .	.	.	.	.	.	8a\	.
 .	.	.	.	.	.	8g\	.
 .	.	.	.	.	.	4a\	.
 .	.	.	.	.	.	4b-\	.
 2Eny\	co-	2r	.	.	.	4cc\	.
 .	.	.	.	.	.	4b-\	.
+*	*	*	*	*	*	*custos:a	*
 *	*	*	*	*	*	*xywh-#636:4480,1708,3501,690	*
-!	!	!	!	!	!	!LO:SIC:v:t=custos a	!
 !	!	!	!	!	!	!LO:LB:g=original	!
 2.F\	-ro-	1c\	ac-	.	.	2.a\	.
 =16-	=16-	=16-	=16-	=16-	=16-	=16-	=16-
@@ -195,10 +205,10 @@
 .	.	8G/	.	.	.	.	.
 .	.	4A/	.	.	.	4f/	.
 .	.	4B-\	.	.	.	4g/	.
-*	*	*xywh-#332:4497,1714,3480,714	*	*	*	*	*
-!	!	!LO:SIC:v:t=custos c	!	!	!	!	!
+*	*	*custos:c	*	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!	!	!
 =18-	=18-	=18-	=18-	=18-	=18-	=18-	=18-
+*	*	*xywh-#332:4497,1714,3480,714	*	*	*	*	*
 1r	.	4c\	.	2e\	co-	2.a\	.
 .	.	4A/	.	.	.	.	.
 .	.	2d\	.	2.f\	-ro-	.	.
@@ -210,12 +220,11 @@
 *	*ij	*	*	*	*	*	*
 1C/	ac-	.	.	4e\	.	.	.
 .	.	.	.	4f\	.	4f/	.
-*xywh-#180:4564,1721,3442,738	*	*	*	*	*	*	*
-!LO:SIC:v:t=custos C	!	!	!	!	!	!	!
-!LO:LB:g=original	!	!	!	!	!	!	!
 =19-	=19-	=19-	=19-	=19-	=19-	=19-	=19-
 .	.	2r	.	2g\	.	1e	.
-*	*	*	*ij	*	*	*	*
+*custos:C	*	*	*ij	*	*	*	*
+*xywh-#180:4564,1721,3442,738	*	*	*	*	*	*	*
+!LO:LB:g=original	!	!	!	!	!	!	!
 2C/	-ci-	1G	ac-	2c/	-nam	.	.
 1BB-	-pe	.	.	2r	.	1d	-nam
 .	.	2G/	-ci-	2d\	co-	.	.
@@ -238,10 +247,11 @@
 0.GG	-nam	1.G	.	2B-/	.	.	.
 *	*Xij	*	*	*	*	*	*
 .	.	.	.	2c/	.	2a\	-ni
-*	*	*	*	*xywh-#484:4586,2257,3362,768	*	*	*
-!	!	!	!	!LO:SIC:v:t=custos d	!	!	!
+*	*	*	*	*custos:d	*	*	*
 !	!	!	!	!LO:LB:g=original	!	!	!
 =22-	=22-	=22-	=22-	=22-	=22-	=22-	=22-
+*	*	*	*	*xywh-#484:4586,2257,3362,768	*	*	*
+!	!	!	!	!	!LO:SIC:s=-nam	!	!
 .	.	.	.	0d	-[nam]	2b-\	ſpon-
 .	.	2A/	.	.	.	2cc\	-ſa
 .	.	2.B-\	.	.	.	1dd	Chri-
@@ -252,10 +262,10 @@
 .	.	1G	-nam	1.d	ve-	.	.
 *	*	*	*Xij	*	*	*	*
 .	.	.	.	.	.	2e/	-ni
-*	*	*	*	*	*	*xywh-#636:4488,2282,3571,667	*
-!	!	!	!	!	!	!LO:SIC:v:t=custos f	!
+*	*	*	*	*	*	*custos:f	*
 !	!	!	!	!	!	!LO:LB:g=original	!
 =24-	=24-	=24-	=24-	=24-	=24-	=24-	=24-
+*	*	*	*	*	*	*xywh-#636:4488,2282,3571,667	*
 .	.	00r	.	.	.	2f/	ſpon-
 .	.	.	.	2e\	-ni	2g/	-ſa
 .	.	.	.	2f\	ſpon-	4a\	Chri-
@@ -280,8 +290,8 @@
 .	.	2F/	ſpon-	0r	.	.	.
 2E\	-ni	2G/	-ſa	.	.	4e/	.
 .	.	.	.	.	.	4d/	.
+*	*	*custos:A	*	*	*	*	*
 *	*	*xywh-#332:4512,2251,3380,691	*	*	*	*	*
-!	!	!LO:SIC:v:t=custos A	!	!	!	!	!
 !	!	!LO:LB:g=original	!	!	!	!	!
 2F\	ſpon-	4A/	Chri-	.	.	1c	.
 .	.	4B-\	.	.	.	.	.
@@ -311,29 +321,29 @@
 .	.	.	.	4c/	.	.	.
 .	.	.	.	1B-	.	.	.
 .	.	2e\	-ni	.	.	2g/	.
-*	*	*	*	*	*	*xywh-#636:4457,2810,3610,706	*
-!	!	!	!	!	!	!LO:SIC:v:t=custos a	!
+*	*	*	*	*	*	*custos:a	*
 !	!	!	!	!	!	!LO:LB:g=original	!
 =31-	=31-	=31-	=31-	=31-	=31-	=31-	=31-
+*	*	*	*	*	*	*xywh-#636:4457,2810,3610,706	*
 1r	.	2f\	ſpon-	1A	-ſti	0a	-ſti
 *	*	*	*	*	*Xij	*	*
 .	.	2c\	-ſa	.	.	.	.
 2r	.	2.d\	Chri-	2r	.	.	.
 1D\	ac-	.	.	1f\	ac-	.	.
 .	.	4c\	.	.	.	.	.
-*xywh-#180:4557,2279,3497,754	*	*	*	*	*	*	*
-!LO:SIC:v:t=custos D	!	!	!	!	!	!	!
-!LO:LB:g=original	!	!	!	!	!	!	!
 =32-	=32-	=32-	=32-	=32-	=32-	=32-	=32-
 .	.	1B-	.	.	.	2r	.
+*custos:D	*	*	*	*	*	*	*
+*xywh-#180:4557,2279,3497,754	*	*	*	*	*	*	*
+!LO:LB:g=original	!	!	!	!	!	!	!
 2D/	-ci-	.	.	2d\	-ci-	1f	ac-
 1F	-pe	1A	-ſti	1c	-pe	.	.
 *	*	*	*Xij	*	*	*	*
 .	.	.	.	.	.	2cc\	-ci-
 =33-	=33-	=33-	=33-	=33-	=33-	=33-	=33-
 2E\	co-	2r	.	2g\	co-	1cc	-pe
+*	*	*	*	*custos:a	*	*	*
 *	*	*	*	*xywh-#484:4594,2837,3385,689	*	*	*
-!	!	!	!	!LO:SIC:v:t=custos a	!	!	!
 !	!	!	!	!LO:LB:g=original	!	!	!
 2.F\	-ro-	1c	ac-	2.a\	-ro-	.	.
 .	.	.	.	.	.	2r	.
@@ -341,10 +351,10 @@
 8D\	.	.	.	8f\	.	.	.
 4E\	.	2c\	-ci-	2e\	.	1g\	ac-
 4F\	.	.	.	.	.	.	.
-*	*	*xywh-#332:4512,2789,3550,706	*	*	*	*	*
-!	!	!LO:SIC:v:t=custos B-	!	!	!	!	!
+*	*	*custos:B	*	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!	!	!
 =34-	=34-	=34-	=34-	=34-	=34-	=34-	=34-
+*	*	*xywh-#332:4512,2789,3550,706	*	*	*	*	*
 1G	.	1B-	-pe	1d	-nam	.	.
 .	.	.	.	.	.	2g/	-ci-
 0D	-nam	2A/	co-	2r	.	1f	-pe
@@ -363,6 +373,7 @@
 1C/	ac-	.	.	2g\	co-	4e/	.
 .	.	.	.	.	.	4f/	.
 =36-	=36-	=36-	=36-	=36-	=36-	=36-	=36-
+!	!	!	!LO:SIC:s=-nam	!	!	!	!
 .	.	2G/	-na(m)	2.e\	-ro-	2.g/	.
 *	*	*	*ij	*	*	*	*
 2C/	-ci-	1G	ac-	.	.	.	.
@@ -401,98 +412,125 @@
 .	.	.	.	8B-/	.	.	.
 2D/	quam	4F/	.	4A/	.	.	.
 .	.	4D/	.	4F/	.	.	.
+*custos:E	*	*custos:G	*	*custos:B	*	*custos:b	*
 *xywh-#180:4604,2837,3426,723	*	*xywh-#332:4489,3350,3511,714	*	*xywh-#484:4570,3338,3401,705	*	*xywh-#636:4504,3338,3447,714	*
-!LO:SIC:v:t=custos E-	!	!LO:SIC:v:t=custos G	!	!LO:SIC:v:t=custos B-	!	!LO:SIC:v:t=custos b-	!
 !LO:LB:g=original	!	!LO:LB:g=original	!	!LO:LB:g=original	!	!LO:LB:g=original	!
 2E-X\	ti-	4G/	.	4B-/	.	1r	.
 .	.	4A/	.	4c/	.	.	.
 2D/	-bi	2.B-\	.	2d\	.	.	.
-!	!	!	!	!	!	!	!
 =40-	=40-	=40-	=40-	=40-	=40-	=40-	=40-
+!	!LO:SIC:s=Do-	!	!	!	!	!	!
 2.F\	do-	.	.	1c	-nam	1r	.
 .	.	8A/	.	.	.	.	.
 .	.	8G/	.	.	.	.	.
 .	.	2A/	.	.	.	.	.
 4F\	-mi-	.	.	.	.	.	.
+!	!	!	!LO:SIC:s=-nam	!	!	!	!
 1BB-	-nus	1B-	-na(m)	2r	.	2r	.
 *	*	*	*Xij	*	*	*	*
+!	!	!	!	!	!LO:SIC:s=quam	!	!LO:SIC:s=quam
 .	.	.	.	2d\	qua(m)	2b-\	qua(m)
 =41-	=41-	=41-	=41-	=41-	=41-	=41-	=41-
-2F\	præ-	0r	.	2c/	ti-	2a\	ti-
+2F\	prae-	0r	.	2c/	ti-	2a\	ti-
 2G\	-pa-	.	.	2B-/	-bi	2b-\	-bi
+!	!	!	!	!	!LO:SIC:s=Do-	!	!LO:SIC:s=Do-
 1E-X	-ra-	.	.	2B-/	do-	2.g/	do-
 .	.	.	.	2c/	-mi-	.	.
 .	.	.	.	.	.	4g/	-mi-
 =42-	=42-	=42-	=42-	=42-	=42-	=42-	=42-
+!	!LO:SIC:s=-vit	!	!	!	!	!	!
 1D	-uit	2r	.	2d\	-nus	0dd	-nus
-.	.	2A/	qua(m)	1f	præ-	.	.
+!	!	!	!LO:SIC:s=quam	!	!	!	!
+.	.	2A/	qua(m)	1f	prae-	.	.
 2BB-/	in	2B-\	ti-	.	.	.	.
-2D/	æ-	2A/	-bi	2f\	-pa-	.	.
+!	!LO:SIC:s=ae-	!	!	!	!	!	!
+2D/	ę-	2A/	-bi	2f\	-pa-	.	.
 =43-	=43-	=43-	=43-	=43-	=43-	=43-	=43-
-1C	-ter-	2.c\	do-	1e-X	-ra-	2g/	præ-
+!	!	!	!LO:SIC:s=Do-	!	!	!	!
+1C	-ter-	2.c\	do-	1e-X	-ra-	2g/	prae-
 .	.	.	.	.	.	2a\	-pa-
 .	.	4c\	-mi-	.	.	.	.
+!	!	!	!	!	!LO:SIC:s=-vit	!	!
 1BB-	-num	1F	-nus	2d\	-it	2.b-\	-ra-
 *	*	*	*	*	*ij	*	*
+!	!	!	!	!	!LO:SIC:s=quam	!	!
 .	.	.	.	2f\	qua(m)	.	.
 .	.	.	.	.	.	4a\	.
 =44-	=44-	=44-	=44-	=44-	=44-	=44-	=44-
+!	!	!	!LO:SIC:s=prae-	!	!	!	!
 0r	.	2c\	prę-	2eny\	ti-	4g/	.
 .	.	.	.	.	.	4e/	.
 .	.	2d\	-pa-	2f\	-bi	1a	.
+!	!	!	!	!	!LO:SIC:s=Do-	!	!
 .	.	1B-	-ra-	2.d\	do-	.	.
+!	!	!	!	!	!	!	!LO:SIC:s=-vit
 .	.	.	.	.	.	2g/	-uit
 .	.	.	.	4d\	-mi-	.	.
 =45-	=45-	=45-	=45-	=45-	=45-	=45-	=45-
+!	!	!	!LO:SIC:s=-vit	!	!	!	!
 2r	.	1A	-uit	1c	-nus	2f/	in
-2AA/	qua(m)	.	.	.	.	2e/	æ-
-2BB-/	ti-	2F/	in	2f\	præ-	4d/	-ter-
+!	!LO:SIC:s=quam	!	!	!	!	!	!
+2AA/	qua(m)	.	.	.	.	2e/	ae-
+2BB-/	ti-	2F/	in	2f\	prae-	4d/	-ter-
 .	.	.	.	.	.	4e/	.
+!	!	!	!LO:SIC:s=ae-	!	!	!	!
 2AA/	-bi	2A/	ę-	2c/	-pa-	2.f/	.
 =46-	=46-	=46-	=46-	=46-	=46-	=46-	=46-
+!	!LO:SIC:s=Do-	!	!	!	!	!	!
 2.C/	do-	1G	-ter-	0c	-ra-	.	.
 .	.	.	.	.	.	8e/	.
 .	.	.	.	.	.	8d/	.
 .	.	.	.	.	.	2e/	.
 4C/	-mi-	.	.	.	.	.	.
+*custos:FF	*	*	*	*	*	*	*
 *xywh-#180:4564,3379,3497,754	*	*	*	*	*	*	*
-!LO:SIC:v:t=custos FF	!	!	!	!	!	!	!
 !LO:LB:g=original	!	!	!	!	!	!	!
 2FF/	-nus	2F/	-num	.	.	1f	-num
 *	*ij	*	*ij	*	*	*	*
+!	!LO:SIC:s=quam	!	!LO:SIC:s=quam	!	!	!	!
 2F\	qua(m)	2A/	qua(m)	.	.	.	.
-*	*	*	*	*xywh-#484:4563,3879,3440,744	*	*xywh-#636:4519,3920,3563,675	*
-!	!	!	!	!LO:SIC:v:t=custos c	!	!LO:SIC:v:t=custos a	!
+*	*	*	*	*custos:c	*	*custos:a	*
 !	!	!	!	!LO:LB:g=original	!	!LO:LB:g=original	!
 =47-	=47-	=47-	=47-	=47-	=47-	=47-	=47-
-2Eny\	ti	2G/	ti-	1c	-it	2r	.
+*	*	*	*	*xywh-#484:4563,3879,3440,744	*	*xywh-#636:4519,3920,3563,675	*
+!	!	!	!	!	!LO:SIC:s=-vit	!	!
+2Eny\	ti-	2G/	ti-	1c	-uit	2r	.
 *	*	*	*	*	*Xij	*	*
-2F\	bi	2A/	-bi	.	.	2a\	qua(m)
+!	!	!	!	!	!	!	!LO:SIC:s=quam
+2F\	-bi	2A/	-bi	.	.	2a\	qua(m)
+*	*	*custos:d	*	*	*	*	*
 *	*	*xywh-#332:4527,3888,3488,699	*	*	*	*	*
-!	!	!LO:SIC:v:t=custos d	!	!	!	!	!
-!	!	!LO:LB:g=original	!	!	!	!	!
+!	!LO:SIC:s=Do-	!LO:LB:g=original	!LO:SIC:s=Do-	!	!	!	!
 2.D/	do-	2.d\	do-	1r	.	2b-\	ti-
 .	.	.	.	.	.	2a\	-bi
 4D/	-mi-	4f\	-mi-	.	.	.	.
 =48-	=48-	=48-	=48-	=48-	=48-	=48-	=48-
+!	!	!	!	!	!	!	!LO:SIC:s=Do-
 1A	-nus	2e\	-nus	2r	.	2.cc\	do-
 *	*Xij	*	*	*	*	*	*
-.	.	1A	præ-	2e\	quam	.	.
+!	!	!	!LO:SIC:s=prae-	!	!	!	!
+.	.	1A	prę-	2e\	quam	.	.
 .	.	.	.	.	.	4cc\	-mi-
+!	!LO:SIC:s=prae-	!	!	!	!	!	!
 2D/	prę-	.	.	2f\	ti-	2.a\	-nus
 2C/	-pa-	1c\	-pa-	2e\	-bi	.	.
 .	.	.	.	.	.	8g/	.
 .	.	.	.	.	.	8f/	.
 =49-	=49-	=49-	=49-	=49-	=49-	=49-	=49-
+!	!	!	!	!	!LO:SIC:s=Do-	!	!
 1E	-ra-	.	.	2.g\	do-	1e	.
 .	.	2G/	-ra-	.	.	.	.
 .	.	.	.	4g\	-mi-	.	.
-1F	-uit	1A	-uit	2c/	-nus	2re	.
+!	!LO:SIC:s=-vit	!	!LO:SIC:s=-vit	!	!	!	!
+1F	-uit	1A	-uit	2c/	-nus	2r	.
 *	*	*	*	*	*	*	*ij
-.	.	.	.	1c\	præ-	2f/	qua(m)
+!	!	!	!	!	!LO:SIC:s=prae-	!	!LO:SIC:s=quam
+.	.	.	.	1c\	prę-	2f/	qua(m)
 =50-	=50-	=50-	=50-	=50-	=50-	=50-	=50-
 2A\	in	2c\	in	.	.	2e/	ti-
-2F\	ę-	2A/	æ-	2c/	-pa-	2f/	-bi
+!	!LO:SIC:s=ae-	!	!LO:SIC:s=ae-	!	!	!	!
+2F\	ę-	2A/	ę-	2c/	-pa-	2f/	-bi
+!	!	!	!	!	!	!	!LO:SIC:s=Do-
 1G	-ter-	4B-\	-ter-	2.g\	-ra-	2.d/	do-
 .	.	4c\	.	.	.	.	.
 .	.	4d\	.	.	.	.	.
@@ -501,80 +539,98 @@
 2A\	-num	4c\	.	4e\	.	1a	-nus
 *	*	*	*	*	*	*	*Xij
 .	.	4B-\	.	4d\	.	.	.
+!	!LO:SIC:s=quam	!	!	!	!	!	!
 2AA/	qua(m)	4A\	.	2c/	.	.	.
 .	.	4G/	.	.	.	.	.
+!	!	!	!	!	!LO:SIC:s=-vit	!	!LO:SIC:s=prae-
 2BB-/	ti-	4F/	.	2.f\	-uit	2d/	prę-
 .	.	4G/	.	.	.	.	.
 2AA/	-bi	2A/	.	.	.	2c/	-pa-
 .	.	.	.	8e\	.	.	.
 .	.	.	.	8d\	.	.	.
 =52-	=52-	=52-	=52-	=52-	=52-	=52-	=52-
+!	!LO:SIC:s=Do-	!	!	!	!	!	!
 2.C/	do-	1G	-num	1c	.	1e	-ra-
 *	*	*	*Xij	*	*	*	*
 4C/	-mi-	.	.	.	.	.	.
+*custos:BB	*	*	*	*	*	*	*
 *xywh-#180:4580,3945,3426,715	*	*	*	*	*	*	*
-!LO:SIC:v:t=custos BB-	!	!	!	!	!	!	!
-!LO:LB:g=original	!	!	!	!	!	!	!
+!LO:LB:g=original	!	!	!	!	!	!	!LO:SIC:s=-vit
 1BB-	-nus	2r	.	2r	.	1f	-uit
+!	!	!	!LO:SIC:s=quam	!	!LO:SIC:s=quam	!	!
 .	.	2B-\	qua(m)	2d\	qua(m)	.	.
 =53-	=53-	=53-	=53-	=53-	=53-	=53-	=53-
 0r	.	2A/	ti-	2c/	ti-	2a\	in
-.	.	2B-\	-bi	2d\	-bi	2f/	æ-
+.	.	2B-\	-bi	2d\	-bi	2f/	ae-
+!	!	!	!LO:SIC:s=Do-	!	!LO:SIC:s=Do-	!	!
 .	.	2.G/	do-	2.B-/	do-	1g	-ter-
 .	.	4G/	-mi-	4B-/	-mi-	.	.
-*	*	*	*	*xywh-#484:4586,4436,3472,838	*	*	*
-!	!	!	!	!LO:SIC:v:t=custos f	!	!	!
+*	*	*	*	*custos:f	*	*	*
 !	!	!	!	!LO:LB:g=original	!	!	!
 =54-	=54-	=54-	=54-	=54-	=54-	=54-	=54-
+*	*	*	*	*xywh-#484:4586,4436,3472,838	*	*	*
 1D	quam	2d\	-nus	1f	-nus	2a\	-num
 *	*	*	*	*	*	*xywh-#636:4511,4433,3517,737	*
-!	!	!	!	!	!	!LO:SIC:v:t=custos b-	!
-!	!	!	!	!	!	!LO:LB:g=original	!
-.	.	2d\	præ-	.	.	1b-	in
+*	*	*	*	*	*	*custos:b	*
+!	!	!	!LO:SIC:s=prae-	!	!	!LO:LB:g=original	!
+.	.	2d\	prę-	.	.	1b-	in
 *	*	*xywh-#332:4512,4449,3411,791	*	*	*	*	*
-!	!	!LO:SIC:v:t=custos G	!	!	!	!	!
+*	*	*custos:G	*	*	*	*	*
 !	!	!LO:LB:g=original	!	!	!	!	!
 2E-X\	ti-	2G/	-pa-	1r	.	.	.
-2D/	-bi	2.B-\	-ra-	.	.	2dd\	æ-
+2D/	-bi	2.B-\	-ra-	.	.	2dd\	ae-
 =55-	=55-	=55-	=55-	=55-	=55-	=55-	=55-
+!	!LO:SIC:s=Do-	!	!	!	!	!	!
 2.F\	do-	.	.	1r	.	1cc	-ter-
 .	.	8A/	.	.	.	.	.
 .	.	8G/	.	.	.	.	.
 .	.	2A/	.	.	.	.	.
 4F\	-mi-	.	.	.	.	.	.
+!	!	!	!LO:SIC:s=-vit	!	!	!	!
 1BB-	-nus	1B-	-uit	2r	.	2b-\	-num
-.	.	.	.	2B-/	qua(m)	2dd\	præ-
+!	!	!	!	!	!LO:SIC:s=quam	!	!
+.	.	.	.	2B-/	qua(m)	2dd\	prae-
 =56-	=56-	=56-	=56-	=56-	=56-	=56-	=56-
-2F\	præ-	2r	.	2A/	ti-	2cc\	-pa-
-2G\	-pa-	1d	præ-	2B-/	-bi-	1b-	-ra-
-1E-X	-ra-	.	.	2.G/	-do-	.	.
+!	!LO:SIC:s=prae-	!	!	!	!	!	!
+2F\	prę-	2r	.	2A/	ti-	2cc\	-pa-
+2G\	-pa-	1d	prae-	2B-/	-bi	1b-	-ra-
+!	!	!	!	!	!LO:SIC:s=Do-	!	!
+1E-X	-ra-	.	.	2.G/	do-	.	.
+!	!	!	!	!	!	!	!LO:SIC:s=-vit
 .	.	2c\	-pa-	.	.	2g/	-uit
 .	.	.	.	4G/	-mi-	.	.
 =57-	=57-	=57-	=57-	=57-	=57-	=57-	=57-
+!	!LO:SIC:s=-vit	!	!	!	!	!	!
 1D	-uit	2B-\	-ra-	2d\	-nus	2r	.
-.	.	2A/	-uit	2f\	præ-	2a\	qua(m)
+!	!	!	!LO:SIC:s=-vit	!	!LO:SIC:s=prae-	!	!LO:SIC:s=quam
+.	.	2A/	-uit	2f\	prę-	2a\	qua(m)
 2BB-/	in	2G/	in	1d	-pa-	2b-\	ti-
-2D/	æ-	2F/	æ-	.	.	2a\	-bi
+2D/	ae-	2F/	ae-	.	.	2a\	-bi
 =58-	=58-	=58-	=58-	=58-	=58-	=58-	=58-
+!	!	!	!	!	!	!	!LO:SIC:s=Do-
 1C	-ter-	2G/	-ter-	1e-X	-ra-	2.cc\	do-
 .	.	2A/	-num	.	.	.	.
 .	.	.	.	.	.	4cc\	-mi-
+!	!	!	!	!	!LO:SIC:s=-vit	!	!
 2BB-/	-num	2B-\	.	2d\	-uit	1f	-nus
-1F\	in	4A/	.	2c/	in-	.	.
+1F\	in	4A/	.	2c/	in	.	.
 .	.	4G/	.	.	.	.	.
 =59-	=59-	=59-	=59-	=59-	=59-	=59-	=59-
-.	.	1F	.	2A/	-æ-	2cc\	præ-
-2BB-/	æ-	.	.	4B-/	-ter-	2dd\	-pa-
+!	!	!	!	!	!	!	!LO:SIC:s=prae-
+.	.	1F	.	2A/	ae-	2cc\	prę-
+2BB-/	ae-	.	.	4B-/	-ter-	2dd\	-pa-
 .	.	.	.	4c/	.	.	.
 2.BB-/	-ter-	2F/	in	4d\	.	1b-	-ra-
 .	.	.	.	4eny\	.	.	.
-.	.	2D/	æ-	2.f\	.	.	.
+!	!	!	!LO:SIC:s=ae-	!	!	!	!
+.	.	2D/	ę-	2.f\	.	.	.
 4C/	.	.	.	.	.	.	.
-*xywh-#180:4580,4480,3481,770	*	*	*	*	*	*	*
-!LO:SIC:v:t=custos D	!	!	!	!	!	!	!
+*custos:D	*	*	*	*	*	*	*
 !LO:LB:g=original	!	!	!	!	!	!	!
 =60-	=60-	=60-	=60-	=60-	=60-	=60-	=60-
+*xywh-#180:4580,4480,3481,770	*	*	*	*	*	*	*
 *	*	*lig	*	*	*	*	*
+!	!	!	!	!	!	!	!LO:SIC:s=-vit
 1D	.	1F	-ter-	.	.	0a	-uit
 .	.	.	.	4e\	.	.	.
 .	.	.	.	1d	.	.	.
@@ -582,21 +638,30 @@
 .	.	.	.	2c#X/	.	.	.
 *	*	*Xlig	*	*	*	*	*
 =61-	=61-	=61-	=61-	=61-	=61-	=61-	=61-
-2r	.	2D/	-num	00.d	-num.	1f	in
+2r	.	2D/	-num	[0dl	-num.	1f	in
 1D	in	1A	in	.	.	.	.
-.	.	.	.	.	.	1a	æ-
-2D/	æ-	2F/	æ-	.	.	.	.
+!	!	!	!	!	!	!	!LO:SIC:s=ae-
+.	.	.	.	.	.	1a	ę-
+!	!LO:SIC:s=ae-	!	!LO:SIC:s=ae-	!	!	!	!
+2D/	ę-	2F/	ę-	.	.	.	.
 =62-	=62-	=62-	=62-	=62-	=62-	=62-	=62-
-0GG	-ter-	0B-	-ter-	.	.	0g	-ter-
+0GG	-ter-	0B-	-ter-	0d_	.	0g	-ter-
 =63-	=63-	=63-	=63-	=63-	=63-	=63-	=63-
-0Dl	-num.	0Al	-num.	.	.	0f#Xl	-num.
-=||	=||	=||	=||	=||	=||	=||	=||
+0Dl	-num.	0Al	-num.	0d]	.	0f#Xl	-num.
+==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
+!!!system-decoration: [*]
+!!LO:MO:ori
 !!!RDF**kern: l = terminal long
-!!!system-decoration: [(s1,s2,s3,s4)]
+!!LO:MO:mod
+!! !!!RDF**kern: i = editorial accidental
+!!LO:MO:end
+!!!filter-modern: shed -e "s/^custos:/Xcustos:/I" | shed -e "s/LO:N:/LO:n:$1/L" | shed -e "s/TX(.*):t=P:/tx$1:t=P:/LG" | sic -sq | modori -m | autostem -r | tie -s | humtr -p | shed -e "s/-//B" | autobeam
 !!!ENC: Mateusz Solarz
 !!!END: 2022-07-06
-!!!ENC: Urszula Świątek
-!!!END: 2022-07-28
+!!!EED: Andrzej Kubiczek
+!!!EEV: 2025-02-26
+!!!ENC-modern: Andrzej Kubiczek
+!!!END-modern: 2025-02-26
 !!!ENC-iiif: Lidia Bialucha
 !!!END-iiif: 2022-09-13
