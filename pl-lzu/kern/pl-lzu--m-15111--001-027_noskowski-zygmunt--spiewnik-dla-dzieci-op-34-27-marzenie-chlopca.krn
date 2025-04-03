@@ -28,12 +28,12 @@
 !!!OMD: Poco allegro.
 **kern	**kern	**dynam	**kern	**text	**text	**dynam
 *part2	*part2	*part2	*part1	*part1	*part1	*part1
-*staff3	*staff2	*staff2,3	*staff1	*staff1	*staff1	*staff1
+*staff3	*staff2	*staff2/3	*staff1	*staff1	*staff1	*staff1
 *I"[Piano]	*I"[Piano]	*	*I"[Voice]	*	*	*
 *I'pf	*I'pf	*	*I'V	*	*	*
 *Ipiano	*Ipiano	*	*Ivox	*	*	*
 *ICklav	*ICklav	*	*ICvox	*	*	*
-*IGacomp	*IGacomp	*	*IGsolo	*	*	*
+*IGacmp	*IGacmp	*	*IGsolo	*	*	*
 *>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]	*>[A,A]
 *>A	*>A	*>A	*>A	*>A	*>A	*>A
 *clefF4	*clefG2	*	*clefG2	*	*	*
@@ -59,13 +59,13 @@
 16G\J	16g/J	.	.	.	.	.
 8A-\J	8a-/J	.	.	.	.	.
 8G\L	8g/L	.	.	.	.	.
-8C^\J 8G	8B-^/J 8en	.	.	.	.	.
+8GJ 8C^\	8enJ 8B-^/	.	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4
 *	*	*	*	*v:1	*v:2	*
-8F^\L 8A-	8c^/L 8f	.	4r	.	.	.
-8F\J 8B-	(16d-/L	.	.	.	.	.
+8A-L 8F^\	8fL 8c^/	.	4r	.	.	.
+8B-J 8F\	(16d-/L	.	.	.	.	.
 .	16e-/JJ	.	.	.	.	.
-16F\ 16A-	16c/) 16f	.	8r;	.	.	.
+16A- 16F\	16f 16c/)	.	8r;	.	.	.
 16r;	16r;	.	.	.	.	.
 !	!	!LO:DY:rj	!	!	!	!LO:DY:rj
 8c\	8cc\	f	8cc\	A	A	f
@@ -91,72 +91,72 @@
 !!LO:LB:g=original
 =9	=9	=9	=9	=9	=9	=9
 *	*	*	*	*v:1	*v:2	*
-4D-^\ 4A- 4d-	4f^\ 4a- 4ff	.	8.ff^\	Bę-	Bę-	.
+4d- 4A- 4D-^\	4ff 4a- 4f^\	.	8.ff^\	Bę-	Bę-	.
 .	.	.	16ee-\	-dę	-dę	.
-4BB-\ 4B-	4e-/ 4g 4dd-	.	8dd-\	o-	ko-	.
+4B- 4BB-\	4dd- 4g 4e-/	.	8dd-\	o-	ko-	.
 .	.	.	8dd-\	-rał,	-sił	.
 =10	=10	=10	=10	=10	=10	=10
-4AA-\ 4A-	8.e-/L 8.a- 8.cc	.	8.cc\	za-	buj-	.
+4A- 4AA-\	8.ccL 8.a- 8.e-/	.	8.cc\	za-	buj-	.
 .	16b-/Jk	.	16b-\	-o-	-ną	.
 4r	8cc\L	.	8cc\	-ry-	ni-	.
 .	8ee-\J	.	8ee-\	-wał	-wę	.
 =11	=11	=11	=11	=11	=11	=11
-4D-\ 4A-	8f/L 8a-	.	8a-/	Tę	I	.
+4A- 4D-\	8a-L 8f/	.	8a-/	Tę	I	.
 .	16b-/L	.	(16b-\LL	psze-	śpie-	.
 .	16cc/JJ	.	16cc\JJ)	.	.	.
-8BB-\L 8A-	8f/L 8dd-	.	8dd-\	-ni-	-wał	.
-8E-\J 8G	8d-/J 8b-	.	8b-\	-czną	pio-	.
+8A-L 8BB-\	8dd-L 8f/	.	8dd-\	-ni-	-wał	.
+8GJ 8E-\	8b-J 8d-/	.	8b-\	-czną	pio-	.
 =12	=12	=12	=12	=12	=12	=12
-8AA-/L 8A-	8c/L 8a-	>	8a-/	ni-	-sen-	.
-8AA-/J 8E-	8c/J 8a-	.	8a-/	-wę.	-ki.	.
-8AA-/L 8E-	8c/L 8a-	.	4r	.	.	.
-8AA-/J 8E-	8c/J 8a-	]	.	.	.	.
+8A-L 8AA-/	8a-L 8c/	>	8a-/	ni-	-sen-	.
+8E-J 8AA-/	8a-J 8c/	.	8a-/	-wę.	-ki.	.
+8E-L 8AA-/	8a-L 8c/	.	4r	.	.	.
+8E-J 8AA-/	8a-J 8c/	]	.	.	.	.
 !!LO:LB:g=original
 =13	=13	=13	=13	=13	=13	=13
 *	*	*	*	*v:1	*v:2	*
 !	!	!LO:DY:rj	!	!	!	!LO:DY:rj
-8AA-/L 8E-	8d-/L 8b-	p	8b-/	A	Oj,	p
-8AA-/ 8E-	8d-/ 8e-	.	8e-/	jak	ty	.
-8AA-/ 8E-	8d-/ 8b-	.	8b-/	ja	buj-	.
-8AA-/J 8E-	8d-/J 8e-	.	8e-/	u-	-na	.
+8E-L 8AA-/	8b-L 8d-/	p	8b-/	A	Oj,	p
+8E- 8AA-/	8e- 8d-/	.	8e-/	jak	ty	.
+8E- 8AA-/	8b- 8d-/	.	8b-/	ja	buj-	.
+8E-J 8AA-/	8e-J 8d-/	.	8e-/	u-	-na	.
 =14	=14	=14	=14	=14	=14	=14
-8AA-/L 8E-	8c/L 8a-	.	(8a-/	-ro-	ni-	.
-8AA-^/ 8E-	8c^/ 8a-	.	4ee-^\)	.	.	.
-8AA-/ 8E-	8c/ 8a-	.	.	.	.	.
-8AA-/J 8E-	8c/J 8a-	.	8cc\	-snę,	-wo,	.
+8E-L 8AA-/	8a-L 8c/	.	(8a-/	-ro-	ni-	.
+8E- 8AA-^/	8a- 8c^/	.	4ee-^\)	.	.	.
+8E- 8AA-/	8a- 8c/	.	.	.	.	.
+8E-J 8AA-/	8a-J 8c/	.	8cc\	-snę,	-wo,	.
 =15	=15	=15	=15	=15	=15	=15
-8AA-/L 8E-	8d-/L 8b-	.	8b-/	We-	Ty	.
-8AA-/ 8E-	8d-/ 8e-	.	8e-/	-zmę	psze-	.
-8AA-/ 8E-	8d-/ 8b-	.	8b-/	zło-	-ni-	.
-8AA-/J 8E-	8d-/J 8e-	.	8e-/	-te	-czne	.
+8E-L 8AA-/	8b-L 8d-/	.	8b-/	We-	Ty	.
+8E- 8AA-/	8e- 8d-/	.	8e-/	-zmę	psze-	.
+8E- 8AA-/	8b- 8d-/	.	8b-/	zło-	-ni-	.
+8E-J 8AA-/	8e-J 8d-/	.	8e-/	-te	-czne	.
 =16	=16	=16	=16	=16	=16	=16
-8AA-/L 8E-	8c/L 8a-	.	(8a-/	ziar-	po-	.
-8AA-^/ 8E-	8c^/ 8f	.	4f^>/)	.	.	.
-8AA-/ 8E-	8c/ 8f	.	.	.	.	.
-8AA-/J 8E-	8c/J 8e-	.	8e-/	-no,	-le,	.
+8E-L 8AA-/	8a-L 8c/	.	(8a-/	ziar-	po-	.
+8E- 8AA-^/	8f 8c^/	.	4f^>/)	.	.	.
+8E- 8AA-/	8f 8c/	.	.	.	.	.
+8E-J 8AA-/	8e-J 8c/	.	8e-/	-no,	-le,	.
 !!LO:PB:g=original
 =17	=17	=17	=17	=17	=17	=17
 *	*	*	*	*v:1	*v:2	*
-4D-\	8.d-/L 8.f	<	8.f/	Bę-	Nie	<
+4D-\	8.fL 8.d-/	<	8.f/	Bę-	Nie	<
 .	16e-/Jk	.	16e-/	-dę	żal	.
-8D-\L	8d-/L 8f	.	8f/	sie-	to-	.
-8D-\J 8E-	8d-/J 8g	[	8g/	-wał	-bie	[
+8D-\L	8fL 8d-/	.	8f/	sie-	to-	.
+8E-J 8D-\	8gJ 8d-/	[	8g/	-wał	-bie	[
 =18	=18	=18	=18	=18	=18	=18
-8D-\ 8F	8d-/L 8a-	.	8a-/	wcze-	pra-	.
+8F 8D-\	8a-L 8d-/	.	8a-/	wcze-	pra-	.
 8r	8g/J	.	8g/	-sną	-cy	.
-8D-\L 8F	8d-/L 8a-	.	8a-/	wio-	na-	.
-8D-\J 8G	8f/J 8b-	.	8b-/	-sną,	-szej,	.
+8FL 8D-\	8a-L 8d-/	.	8a-/	wio-	na-	.
+8GJ 8D-\	8b-J 8f/	.	8b-/	-sną,	-szej,	.
 =19	=19	=19	=19	=19	=19	=19
-8C\ 8A-	8f/L 8cc	.	8cc\	Zie-	Ni	.
+8A- 8C\	8ccL 8f/	.	8cc\	Zie-	Ni	.
 8r	(16b-/L	>	(16b-/LL	-mię	po-	>
 .	16a-/JJ)	.	16a-/JJ)	.	.	.
-8C\ 8B-	8en/L 8g	.	8g/	na-	-tu	.
+8B- 8C\	8gL 8en/	.	8g/	na-	-tu	.
 8r	8e/J	]	8en/	-szą	na	]
 =20	=20	=20	=20	=20	=20	=20
 !	!LO:TX:c:i:t=riten.	!	!LO:TX:a:i:t=riten.	!	!	!LO:DY:rj
-(8F\L 8A-	(8c/L 8f	.	(8f/L	czar-	czo-	p
-8BB-\J 8F	8d-/J 8a-	.	8a-/J)	.	.	.
-8F\) 8A-	8c/) 8f	.	8f/	-ną.	-le!	.
+(8A-L 8F\	(8fL 8c/	.	(8f/L	czar-	czo-	p
+8FJ 8BB-\	8a-J 8d-/	.	8a-/J)	.	.	.
+8A- 8F\)	8f 8c/)	.	8f/	-ną.	-le!	.
 8r	8r	.	8r	.	.	.
 =:|!	=:|!	=:|!	=:|!	=:|!	=:|!	=:|!
 *-	*-	*-	*-	*-	*-	*-

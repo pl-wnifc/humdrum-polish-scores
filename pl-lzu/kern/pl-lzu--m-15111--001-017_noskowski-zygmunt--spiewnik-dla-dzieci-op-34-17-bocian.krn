@@ -28,12 +28,12 @@
 !!!OMD: Allegretto vivo e scherzando.
 **kern	**kern	**dynam	**kern	**text	**text	**dynam
 *part2	*part2	*part2	*part1	*part1	*part1	*part1
-*staff3	*staff2	*staff2,3	*staff1	*staff1	*staff1	*staff1
+*staff3	*staff2	*staff2/3	*staff1	*staff1	*staff1	*staff1
 *I"[Piano]	*I"[Piano]	*	*I"[Voice]	*	*	*
 *I'pf	*I'pf	*	*I'V	*	*	*
 *Ipiano	*Ipiano	*	*Ivox	*	*	*
 *ICklav	*ICklav	*	*ICvox	*	*	*
-*IGacomp	*IGacomp	*	*IGsolo	*	*	*
+*IGacmp	*IGacmp	*	*IGsolo	*	*	*
 *>[A,B,B,C]	*>[A,B,B,C]	*>[A,B,B,C]	*>[A,B,B,C]	*>[A,B,B,C]	*>[A,B,B,C]	*>[A,B,B,C]
 *>A	*>A	*>A	*>A	*>A	*>A	*>A
 *clefF4	*clefG2	*	*clefG2	*	*	*
@@ -61,96 +61,96 @@
 8cc'\J	8ccc'\J	[	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4
 8b-'\	8bb-'\L	.	2r	.	.	.
-8r	8aa-X'\J 8bb-	.	.	.	.	.
-4r	8cc'\L 8aa- 8bb-	.	.	.	.	.
-.	8dd'\J 8aa- 8bb-	.	.	.	.	.
+8r	8bb-J 8aa-X'\	.	.	.	.	.
+4r	8bb-L 8aa- 8cc'\	.	.	.	.	.
+.	8bb-J 8aa- 8dd'\	.	.	.	.	.
 !!LO:LB:g=original
 =5	=5	=5	=5	=5	=5	=5
 *	*	*	*	*v:1	*v:2	*
 !	!	!LO:DY:rj	!	!	!	!LO:DY:rj
-8e-'/L 8b-	8gg'\L 8bb-	mf	4b-\	Bo-	A	f
-8e-'/ 8b-	8gg'\ 8bb-	.	.	.	.	.
-8e-'/ 8b-	8gg'\ 8eee-	.	4ee-\	-ciek,	ty	.
-8e-'/J 8b-	8gg'\J 8eee-	.	.	.	.	.
+8b-L 8e-'/	8bb-L 8gg'\	mf	4b-\	Bo-	A	f
+8b- 8e-'/	8bb- 8gg'\	.	.	.	.	.
+8b- 8e-'/	8eee- 8gg'\	.	4ee-\	-ciek,	ty	.
+8b-J 8e-'/	8eee-J 8gg'\	.	.	.	.	.
 =6	=6	=6	=6	=6	=6	=6
-8e-'/L 8b-	8gg'\L 8ddd	.	4dd\	bo-	boć-	.
-8e-'/ 8b-	8gg'\ 8ddd	.	.	.	.	.
-8e-'/ 8b-	8gg'\ 8bb-	.	4b-\	-ciek	-ku	.
-8e-'/J 8b-	8gg'\J 8bb-	.	.	.	.	.
+8b-L 8e-'/	8dddL 8gg'\	.	4dd\	bo-	boć-	.
+8b- 8e-'/	8ddd 8gg'\	.	.	.	.	.
+8b- 8e-'/	8bb- 8gg'\	.	4b-\	-ciek	-ku	.
+8b-J 8e-'/	8bb-J 8gg'\	.	.	.	.	.
 =7	=7	=7	=7	=7	=7	=7
-8e-'/L 8a-	8ee-'\L 8ccc	.	(4cc\	le-	sta-	.
-8e-'/ 8a-	8ee-'\ 8ccc	.	.	.	.	.
-8e-'/ 8cc	8ee-'\ 8aa-	.	4a-/)	.	.	.
-8e-'/J 8cc	8ee-'\J 8aa-	.	.	.	.	.
+8a-L 8e-'/	8cccL 8ee-'\	.	(4cc\	le-	sta-	.
+8a- 8e-'/	8ccc 8ee-'\	.	.	.	.	.
+8cc 8e-'/	8aa- 8ee-'\	.	4a-/)	.	.	.
+8ccJ 8e-'/	8aa-J 8ee-'\	.	.	.	.	.
 =8	=8	=8	=8	=8	=8	=8
-8e-'/L 8a-	8ee-'\L 8ff	.	4f/	-ci!	-ry,	.
-8e-'/ 8a-	8ee-'\ 8ff	.	.	.	.	.
-8e-'/ 8a-	8ee-'\ 8ff	.	4r	.	.	.
-8e-'/J 8a-	8ee-'\J 8ff	.	.	.	.	.
+8a-L 8e-'/	8ffL 8ee-'\	.	4f/	-ci!	-ry,	.
+8a- 8e-'/	8ff 8ee-'\	.	.	.	.	.
+8a- 8e-'/	8ff 8ee-'\	.	4r	.	.	.
+8a-J 8e-'/	8ffJ 8ee-'\	.	.	.	.	.
 !!LO:PB:g=original
 =9	=9	=9	=9	=9	=9	=9
 *	*	*	*	*v:1	*v:2	*
-8e-'/L 8b-	8ee-'\L 8gg	.	4g/	Da-	Pió-	.
-8e-'/ 8b-	8ee-'\ 8gg	.	.	.	.	.
-8e-'/ 8g	8ee-'\ 8bb-	.	4b-/	-lej,	-rek	.
-8e-'/J 8g	8ee-'\J 8bb-	.	.	.	.	.
+8b-L 8e-'/	8ggL 8ee-'\	.	4g/	Da-	Pió-	.
+8b- 8e-'/	8gg 8ee-'\	.	.	.	.	.
+8g 8e-'/	8bb- 8ee-'\	.	4b-/	-lej,	-rek	.
+8gJ 8e-'/	8bb-J 8ee-'\	.	.	.	.	.
 =10	=10	=10	=10	=10	=10	=10
-8e-'/L 8f	8cc'\L 8aa-	.	4a-/	ży-	masz	.
-8e-'/ 8f	8cc'\ 8aa-	.	.	.	.	.
-8e-'/ 8a-	8dd'\ 8ff	.	4f/	-wo	do	.
-8e-'/J 8a-	8dd'\J 8ff	.	.	.	.	.
+8fL 8e-'/	8aa-L 8cc'\	.	4a-/	ży-	masz	.
+8f 8e-'/	8aa- 8cc'\	.	.	.	.	.
+8a- 8e-'/	8ff 8dd'\	.	4f/	-wo	do	.
+8a-J 8e-'/	8ffJ 8dd'\	.	.	.	.	.
 =11	=11	=11	=11	=11	=11	=11
-8e-'/L 8g	8ee-'\L 8bb-	.	(4b-/	dzie-	pa-	.
-8e-'/ 8g	8ee-'\ 8bb-	.	.	.	.	.
-8e-'/ 8b-	8ee-'\ 8gg	.	4g/)	.	.	.
-8e-'/J 8b-	8ee-'\J 8gg	.	.	.	.	.
+8gL 8e-'/	8bb-L 8ee-'\	.	(4b-/	dzie-	pa-	.
+8g 8e-'/	8bb- 8ee-'\	.	.	.	.	.
+8b- 8e-'/	8gg 8ee-'\	.	4g/)	.	.	.
+8b-J 8e-'/	8ggJ 8ee-'\	.	.	.	.	.
 =12	=12	=12	=12	=12	=12	=12
-8e-'/L 8g	8ee-'\L	.	4e-/	-ci!	-ry.	.
-8e-'/ 8g	8ee-'\	.	.	.	.	.
-8e-'/ 8g	8ee-'\	.	4r	.	.	.
-8e-'/J 8g	8ee-'\J	.	.	.	.	.
+8gL 8e-'/	8ee-'\L	.	4e-/	-ci!	-ry.	.
+8g 8e-'/	8ee-'\	.	.	.	.	.
+8g 8e-'/	8ee-'\	.	4r	.	.	.
+8gJ 8e-'/	8ee-'\J	.	.	.	.	.
 !!LO:LB:g=original
 =13	=13	=13	=13	=13	=13	=13
 *	*	*	*	*v:1	*v:2	*
 !	!	!LO:DY:rj	!	!	!	!LO:DY:rj
-8a-'/L 8b-	8dd'\L 8ff	p	8f/	Kto	Ża-	p
-8a-'/ 8b-	8dd'\ 8aa-	.	8a-/	bo-	-by	.
-8B-'/ 8a-	8dd'\ 8ccc	.	8cc\	-cia-	je	.
-8B-'/J 8a-	8dd'\J 8bb-	.	8b-\	-na	li-	.
+8b-L 8a-'/	8ffL 8dd'\	p	8f/	Kto	Ża-	p
+8b- 8a-'/	8aa- 8dd'\	.	8a-/	bo-	-by	.
+8a- 8B-'/	8ccc 8dd'\	.	8cc\	-cia-	je	.
+8a-J 8B-'/	8bb-J 8dd'\	.	8b-\	-na	li-	.
 =14	=14	=14	=14	=14	=14	=14
-8e-'/L 8b-	8ee-'\L 8gg	.	8g/	w lot	-czy-	.
-8e-'/ 8b-	8ee-'\ 8gg	.	8g/	wy-	-ły	.
-8g'/ 8b-	8ee-'\ 8ccc	.	8cc\	-ści-	w bło-	.
-8g'/J 8b-	8ee-'\J 8bb-	.	8b-\	-gnie,	-cie,	.
+8b-L 8e-'/	8ggL 8ee-'\	.	8g/	w lot	-czy-	.
+8b- 8e-'/	8gg 8ee-'\	.	8g/	wy-	-ły	.
+8b- 8g'/	8ccc 8ee-'\	.	8cc\	-ści-	w bło-	.
+8b-J 8g'/	8bb-J 8ee-'\	.	8b-\	-gnie,	-cie,	.
 =15	=15	=15	=15	=15	=15	=15
-8a-'/L 8b-	8dd'\L 8ff	<	8f/	Te-	Na-	.
-8a-'/ 8b-	8dd'\ 8aa-	.	8a-/	-mu	-li-	.
-8B-'/ 8a-	8dd'\ 8ccc	.	8cc\	ka-	-czy-	.
-8B-'/J 8a-	8dd'\J 8bb-	.	8b-\	-sza	-ły	.
+8b-L 8a-'/	8ffL 8dd'\	<	8f/	Te-	Na-	.
+8b- 8a-'/	8aa- 8dd'\	.	8a-/	-mu	-li-	.
+8a- 8B-'/	8ccc 8dd'\	.	8cc\	ka-	-czy-	.
+8a-J 8B-'/	8bb-J 8dd'\	.	8b-\	-sza	-ły	.
 =16	=16	=16	=16	=16	=16	=16
-8e-'/L 8b-	8ee-'\L 8gg	.	8g/	nie	czte-	.
-8e-'/ 8b-	8ee-'\ 8gg	.	8g/	o-	-ry	.
-8g'/ 8b-	8ee-'\ 8ccc	.	8cc\	-sty-	kro-	.
-8g'/J 8b-	8ee-'\J 8bb-	.	8b-\	-gnie	-cie.	.
+8b-L 8e-'/	8ggL 8ee-'\	.	8g/	nie	czte-	.
+8b- 8e-'/	8gg 8ee-'\	.	8g/	o-	-ry	.
+8b- 8g'/	8ccc 8ee-'\	.	8cc\	-sty-	kro-	.
+8b-J 8g'/	8bb-J 8ee-'\	.	8b-\	-gnie	-cie.	.
 !!LO:LB:g=original
 =17	=17	=17	=17	=17	=17	=17
 *	*	*	*	*v:1.2.	*	*
 !	!	!	!	!	!	!LO:DY:rj
-8f#X^/L 8cc	8dd'\L 8aan 8ddd	f	8dd\	Kle,	.	f
-8f#'/ 8cc	8dd'\ 8aa 8ddd	.	8dd\	kle,	.	.
-8f#'/ 8cc	8dd'\ 8aa 8ddd	.	8dd\	kle,	.	.
-8f#'/J 8cc	8dd'\J 8aa 8ddd	.	8dd\	kle,	.	.
+8ccL 8f#X^/	8dddL 8aan 8dd'\	f	8dd\	Kle,	.	f
+8cc 8f#'/	8ddd 8aa 8dd'\	.	8dd\	kle,	.	.
+8cc 8f#'/	8ddd 8aa 8dd'\	.	8dd\	kle,	.	.
+8ccJ 8f#'/	8dddJ 8aa 8dd'\	.	8dd\	kle,	.	.
 =18	=18	=18	=18	=18	=18	=18
-4g/ 4b-	4dd\ 4bb-	.	4b-/	kle...	.	.
+4b- 4g/	4bb- 4dd\	.	4b-/	kle...	.	.
 8b-'/L	8bb-'\L	.	4r	.	.	.
 8g'/J	8gg'\J	.	.	.	.	.
 =19	=19	=19	=19	=19	=19	=19
-8d'/L 8f#X	8cc'\L 8aan	.	8an/	Kle,	.	.
-8d'/ 8f#	8cc'\ 8aa	.	8a/	kle,	.	.
-8d'/ 8f#	8cc'\ 8aa	.	8a/	kle,	.	.
-8d'/J 8f#	8cc'\J 8aa	.	8a/	kle,	.	.
+8f#XL 8d'/	8aanL 8cc'\	.	8an/	Kle,	.	.
+8f# 8d'/	8aa 8cc'\	.	8a/	kle,	.	.
+8f# 8d'/	8aa 8cc'\	.	8a/	kle,	.	.
+8f#J 8d'/	8aaJ 8cc'\	.	8a/	kle,	.	.
 =20	=20	=20	=20	=20	=20	=20
-4G/ 4g	4b-\ 4gg	.	4g/	kle!	.	.
+4g 4G/	4gg 4b-\	.	4g/	kle!	.	.
 8en'/L	8een'\L	.	4r	.	.	.
 8f#X'/J	8ff#X'\J	.	.	.	.	.
 !!LO:PB:g=original
@@ -178,63 +178,63 @@
 =25	=25	=25	=25	=25	=25	=25
 *	*	*	*	*v:1	*v:2	*
 !	!	!LO:DY:rj	!	!	!	!
-8B-'/L 8f	8dd'\L 8bb-	p	4b-/	Bo-	Nim	mf
-8B-'/ 8f	8dd'\ 8bb-	.	.	.	.	.
-8B-'/ 8a-X	8dd'\ 8ff	.	4f/	-ciek	skoń-	.
-8B-'/J 8a-	8dd'\J 8ff	.	.	.	.	.
+8fL 8B-'/	8bb-L 8dd'\	p	4b-/	Bo-	Nim	mf
+8f 8B-'/	8bb- 8dd'\	.	.	.	.	.
+8a-X 8B-'/	8ff 8dd'\	.	4f/	-ciek	skoń-	.
+8a-J 8B-'/	8ffJ 8dd'\	.	.	.	.	.
 =26	=26	=26	=26	=26	=26	=26
-8B-'/L 8b-	8ee-'\L 8gg	.	4g/	dzio-	-czy-	.
-8B-'/ 8b-	8ee-'\ 8gg	.	.	.	.	.
-8B-'/ 8g	8ee-'\ 8ccc	.	4cc\	-bem	-ły	.
-8B-'/J 8g	8ee-'\J 8ccc	.	.	.	.	.
+8b-L 8B-'/	8ggL 8ee-'\	.	4g/	dzio-	-czy-	.
+8b- 8B-'/	8gg 8ee-'\	.	.	.	.	.
+8g 8B-'/	8ccc 8ee-'\	.	4cc\	-bem	-ły	.
+8gJ 8B-'/	8cccJ 8ee-'\	.	.	.	.	.
 =27	=27	=27	=27	=27	=27	=27
-8B-'/L 8a-	8dd'\L 8bb-	<	(4b-\	kla-	li-	<
-8B-'/ 8a-	8dd'\ 8bb-	.	.	.	.	.
-8d'/ 8b-	8aa-'\ 8fff	.	4ff\)	.	.	.
-8d'/J 8b-	8aa-'\J 8fff	[	.	.	.	[
+8a-L 8B-'/	8bb-L 8dd'\	<	(4b-\	kla-	li-	<
+8a- 8B-'/	8bb- 8dd'\	.	.	.	.	.
+8b- 8d'/	8fff 8aa-'\	.	4ff\)	.	.	.
+8b-J 8d'/	8fffJ 8aa-'\	[	.	.	.	[
 =28	=28	=28	=28	=28	=28	=28
-8e-'/ 8b-	8gg'\L 8eee-	.	4ee-\	-ska,	-czyć,	.
+8b- 8e-'/	8eee-L 8gg'\	.	4ee-\	-ska,	-czyć,	.
 8r	8bb-'\	>	.	.	.	.
 4r	8gg'\	.	4r	.	.	.
 .	8ee-'\J	]	.	.	.	.
 !!LO:LB:g=original
 =29	=29	=29	=29	=29	=29	=29
 *	*	*	*	*v:1	*v:2	*
-8G'/L 8e-	8ee-'\L 8bb- 8eee-	.	4ee-\	Wyjdź-	Już	.
-8G'/ 8e-	8ee-'\ 8bb- 8eee-	.	.	.	.	.
-8G'/ 8e-	8dd-X'\ 8ee- 8bb-	.	4b-\	-cież,	je	.
-8G'/J 8e-	8dd-'\J 8ee- 8bb-	.	.	.	.	.
+8e-L 8G'/	8eee-L 8bb- 8ee-'\	.	4ee-\	Wyjdź-	Już	.
+8e- 8G'/	8eee- 8bb- 8ee-'\	.	.	.	.	.
+8e- 8G'/	8bb- 8ee- 8dd-X'\	.	4b-\	-cież,	je	.
+8e-J 8G'/	8bb-J 8ee- 8dd-'\	.	.	.	.	.
 =30	=30	=30	=30	=30	=30	=30
-8A-'/L 8e-	8cc'\L 8ee- 8ccc	.	4cc\	je-	za-	.
-8A-'/ 8e-	8cc'\ 8ee- 8ccc	.	.	.	.	.
-8c'/ 8a-	8ee-'\ 8aa-	.	4a-/	-śli	-czął	.
-8c'/J 8a-	8ee-'\J 8aa-	.	.	.	.	.
+8e-L 8A-'/	8cccL 8ee- 8cc'\	.	4cc\	je-	za-	.
+8e- 8A-'/	8ccc 8ee- 8cc'\	.	.	.	.	.
+8a- 8c'/	8aa- 8ee-'\	.	4a-/	-śli	-czął	.
+8a-J 8c'/	8aa-J 8ee-'\	.	.	.	.	.
 =31	=31	=31	=31	=31	=31	=31
-8c'/L 8b-	8een'\L 8gg	.	(4g/	ła-	ćwi-	.
-8c'/ 8b-	8ee'\ 8gg	.	.	.	.	.
-8en'/ 8b-	8cc'\ 8ccc	.	4cc\)	.	.	.
-8e'/J 8b-	8cc'\J 8ccc	.	.	.	.	.
+8b-L 8c'/	8ggL 8een'\	.	(4g/	ła-	ćwi-	.
+8b- 8c'/	8gg 8ee'\	.	.	.	.	.
+8b- 8en'/	8ccc 8cc'\	.	4cc\)	.	.	.
+8b-J 8e'/	8cccJ 8cc'\	.	.	.	.	.
 =32	=32	=32	=32	=32	=32	=32
-8f'/ 8a-	8cc'\L 8aa-	.	4a-/	-ska!	-czyć.	.
+8a- 8f'/	8aa-L 8cc'\	.	4a-/	-ska!	-czyć.	.
 8r	8ff'\	.	.	.	.	.
 4r	8cc'\	.	4r	.	.	.
 .	8een'\J	.	.	.	.	.
 !!LO:PB:g=original
 =33	=33	=33	=33	=33	=33	=33
 *	*	*	*	*v:1	*v:2	*
-4B-/ 4a-	4dd\ 4ff	p	8f/	Niech	Oj	p
+4a- 4B-/	4ff 4dd\	p	8f/	Niech	Oj	p
 .	.	.	8f/	zo-	bo-	.
 4r	8gg'\L	.	8g/	-ba-	-cia-	.
 .	8aa-'\J	.	8a-/	-czę,	-nie,	.
 =34	=34	=34	=34	=34	=34	=34
 !	!LO:TX:b:i:t=rallentando	!	!LO:TX:a:i:t=rallentando	!	!	!
-4g/ 4b-	8ee-'\L 8bb-	.	8b-\	niech	mi-	.
+4b- 4g/	8bb-L 8ee-'\	.	8b-\	niech	mi-	.
 .	8ddd'\J	.	8dd\	po-	-ły	.
 4r	8ccc'\L	.	8cc\	-wi-	pa-	.
 .	8bb-'\J	.	8b-\	-tam,	-nie,	.
 =35	=35	=35	=35	=35	=35	=35
 !	!LO:TX:b:i:t=zwalniając:dur=3q:ext=cd:PROBLEM=text with extension lines	!	!LO:TX:a:i:t=zwalniając:dur=3q:ext=cd:PROBLEM=text with extension lines	!	!	!
-4c/ 4a-	4ee-\ 4aa-	.	8a-/	Niech	Miej-	.
+4a- 4c/	4aa- 4ee-\	.	8a-/	Niech	Miej-	.
 .	.	.	8a-/	o	-że	.
 !	!LO:TX:b:t=-	!	!LO:TX:a:t=-	!	!	!
 4r	8bb-'\L	.	8b-\	zdro-	dla	.
@@ -242,32 +242,32 @@
 .	8ccc'\J	.	8cc\	-wie	nas	.
 =36	=36	=36	=36	=36	=36	=36
 !	!LO:TX:b:t=-	!	!LO:TX:a:t=-	!	!	!
-8a-'/ 8b-	8ff'\L 8ddd	.	8dd\	się	zmi-	.
+8b- 8a-'/	8dddL 8ff'\	.	8dd\	się	zmi-	.
 !	!LO:TX:b:t=-	!	!LO:TX:a:t=-	!	!	!
 8r	8fff'\J	.	8ff\	za-	-ło-	.
-8g'/ 8b- 8ee-	8eee-'\L	.	8ee-\	-py-	-wa-	.
+8ee- 8b- 8g'/	8eee-'\L	.	8ee-\	-py-	-wa-	.
 8r	8ddd'\J	.	8dd\	-tam	-nie!	.
 !!LO:LB:g=original
 =37	=37	=37	=37	=37	=37	=37
 *	*	*	*	*v:1.2.	*	*
 !	!	!LO:DY:rj	!	!	!	!LO:DY:rj
-4a-\ 4cc 4ee-	8ccc'\L	f	8cc\	Kle,	.	f
+4ee- 4cc 4a-\	8ccc'\L	f	8cc\	Kle,	.	f
 !	!LO:TX:b:i:t=à tempo	!	!LO:TX:a:i:t=à tempo	!	!	!
 .	8ff'\	.	8f/	kle,	.	.
 4r	8gg'\	.	8g/	kle,	.	.
 .	8aa-'\J	.	8a-/	kle,	.	.
 =38	=38	=38	=38	=38	=38	=38
-8g'\L 8b- 8ee-	4bb-\	.	4b-\	kle...	.	.
+8ee-L 8b- 8g'\	4bb-\	.	4b-\	kle...	.	.
 8g'\	.	.	.	.	.	.
 8b-'\	4r	.	4r	.	.	.
 8ee-'\J	.	.	.	.	.	.
 =39	=39	=39	=39	=39	=39	=39
-8f'/ 8a-	8ddd'\L	.	8dd\	Kle,	.	.
+8a- 8f'/	8ddd'\L	.	8dd\	Kle,	.	.
 8r	8bb-'\	.	8b-\	kle,	.	.
 8B-'/	8ccc'\	.	8cc\	kle,	.	.
 8r	8ddd'\J	>	8dd\	kle,	.	.
 =40	=40	=40	=40	=40	=40	=40
-8e-'/L 8b-	8gg\ 8eee-	.	4ee-\	kle!	.	.
+8b-L 8e-'/	8eee- 8gg\	.	4ee-\	kle!	.	.
 8b-'/J	8r	.	.	.	.	.
 4r	8ee-'\L	.	4r	.	.	.
 .	8gg'\J	]	.	.	.	.
@@ -300,14 +300,14 @@
 .	8r	pp	.	.	.	.
 *clefF4	*	*	*	*	*	*
 !	!LO:TX:b:i:t=leggiero	!	!	!	!	!
-4EE-/ 4BB-	4G/ 4e-	.	.	.	.	.
+4BB- 4EE-/	4e- 4G/	.	.	.	.	.
 =46	=46	=46	=46	=46	=46	=46
-4E-\ 4B-	4g\ 4ee-	.	2r	.	.	.
+4B- 4E-\	4ee- 4g\	.	2r	.	.	.
 *clefG2	*	*	*	*	*	*
-4e-/ 4b-	4gg\ 4eee-	.	.	.	.	.
+4b- 4e-/	4eee- 4gg\	.	.	.	.	.
 =47	=47	=47	=47	=47	=47	=47
 *	*8va	*	*	*	*	*
-2ee-;\ 2bb-	2ggg;<\ 2eeee-	.	2r;	.	.	.
+2bb- 2ee-;\	2eeee- 2ggg;<\	.	2r;	.	.	.
 *Xped	*X8va	*	*	*	*	*
 ==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-

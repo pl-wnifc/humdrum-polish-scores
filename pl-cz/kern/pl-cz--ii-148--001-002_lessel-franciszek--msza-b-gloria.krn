@@ -877,6 +877,7 @@
 !!!RDF**dynam: f = fo
 !!LO:MO:end
 !!!filter-modern: sic -qs | shed -e "s/^(\d+[\/\\]right)/$1yy/I;s/^(\d+[\/\\]left)/$1yy/I" | shed -e "s/:rj/:RJ/L" | shed -k -e "s/[<>]//g"  | shed -e "s/LO:DY:(a|b|rj)/LO:dy:$1/L" | shed -e "s/-//B" | autostem -r | tie -s  | modori -m | humtr -p
+!!!URL-youtube: https://www.youtube.com/watch?v=ToiiYl-K_YY&t=271 Chopin University Chamber Choir
 !!!ENC: Berenika Jozajtis
 !!!END: 2020-03-12
 !!!EED: Leszek Kubiak

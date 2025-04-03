@@ -25,13 +25,15 @@
 !!!ONB-nifc:
 !!!AIN: 1 canto 1 piano
 !!!key: d
+!!!OMD: Allegretto moderato.
 **kern	**kern	**dynam	**kern	**text	**text	**text	**dynam
 *part2	*part2	*part2	*part1	*part1	*part1	*part1	*part1
 *staff3	*staff2	*staff2/3	*staff1	*staff1	*staff1	*staff1	*
-*IGacmp	*IGacmp	*	*	*	*	*	*
+*IGacmp	*IGacmp	*	*IGsolo	*	*	*	*
 *ICklav	*ICklav	*	*ICvox	*	*	*	*
+*I'pf	*I'pf	*	*I'V	*	*	*	*
 *Ipiano	*Ipiano	*	*Icanto	*	*	*	*
-*I"[Pianoforte]	*I"[Pianoforte]	*	*I"[Voce]	*	*	*	*
+*I"[Piano]	*I"[Piano]	*	*I"[Voice]	*	*	*	*
 *clefF4	*clefG2	*	*clefG2	*	*	*	*
 *k[b-]	*k[b-]	*	*k[b-]	*	*	*	*
 *d:	*d:	*	*d:	*	*	*	*
@@ -39,7 +41,7 @@
 *>[A,B,B1,B,B1,B,B2]	*>[A,B,B1,B,B1,B,B2]	*>[A,B,B1,B,B1,B,B2]	*>[A,B,B1,B,B1,B,B2]	*>[A,B,B1,B,B1,B,B2]	*>[A,B,B1,B,B1,B,B2]	*>[A,B,B1,B,B1,B,B2]	*>[A,B,B1,B,B1,B,B2]
 =1	=1	=1	=1	=1	=1	=1	=1
 *>A	*>A	*>A	*>A	*>A	*>A	*>A	*>A
-!	!LO:TX:a:i:t=Umiarkowanie żwawo.	!	!LO:TX:a:B:t=Allegretto moderato.	!	!	!	!
+!	!LO:TX:a:i:t=Umiarkowanie żwawo.	!	!	!	!	!	!
 2D 2DD/	(16fLL 16d/	p	2r	.	.	.	.
 .	16A/	.	.	.	.	.	.
 .	16a/	.	.	.	.	.	.
@@ -274,10 +276,9 @@
 2AA 2DD;/::	2d;\:: 2A 2F	pp	2r;	.	.	.	.
 ==	==	==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-	*-	*-
-!!!system-decoration: s1{s2,s3}
+!!!system-decoration: p1{p2}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!RDF**kern: N = linked
 !!!ENC: Andrzej Gręziak
 !!!EED: Katarzyna Serwa
 !!!END: 2025-03-07

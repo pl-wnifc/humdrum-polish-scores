@@ -25,18 +25,21 @@
 !!!ONB-nifc:
 !!!AIN: 1 canto 1 piano
 !!!key: a
+!!!OMD: Allegretto.
 **kern	**kern	**dynam	**kern	**text	**dynam
 *part2	*part2	*part2	*part1	*part1	*part1
 *staff3	*staff2	*staff2/3	*staff1	*staff1	*
+*IGacmp	*IGacmp	*	*IGsolo	*	*
 *ICklav	*ICklav	*	*ICvox	*	*
 *Ipiano	*Ipiano	*	*Icanto	*	*
-*I"[Pianoforte]	*I"[Pianoforte]	*	*I"[Voce]	*	*
+*I"[Piano]	*I"[Piano]	*	*I"[Voice]	*	*
+*I'pf	*I'pf	*	*I'V	*	*
 *clefF4	*clefG2	*	*clefG2	*	*
 *k[]	*k[]	*	*k[]	*	*
 *a:	*a:	*	*a:	*	*
 *M3/4	*M3/4	*	*M3/4	*	*
 =1	=1	=1	=1	=1	=1
-!	!LO:TX:a:i:t=Cokolwiek żwawo.	!LO:DY:rj	!LO:TX:a:B:t=Allegretto.	!	!
+!	!LO:TX:a:i:t=Cokolwiek żwawo.	!LO:DY:rj	!	!	!
 4E 4AA/	2.r	p	2.r	.	.
 4E 4AA/	.	.	.	.	.
 4E 4AA/	.	.	.	.	.
@@ -223,10 +226,9 @@
 4r	4r	.	4r	.	.
 ==	==	==	==	==	==
 *-	*-	*-	*-	*-	*-
-!!!system-decoration: s1{s2,s3}
+!!!system-decoration: p1{p2}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
-!!!RDF**kern: N = linked
 !!!ENC: Filip Voros
 !!!EED: Katarzyna Serwa
 !!!END: 2025-03-07
