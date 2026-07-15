@@ -246,7 +246,13 @@ print STDERR "SIGNAME INDEX $url\n";
 			$urlpl = "";
 			next;
 		}
-		if ($line =~ /^\@Siglum:\s*(.*?)\s*$/) { $siglum = $1; $siglow = lc($siglum); }
+		if ($line =~ /^\@Siglum:\s*(.*?)\s*$/) { 
+			$siglum = $1; 
+			$siglow = lc($siglum); 
+			$siglow =~ s/Ł/l/g;
+			$siglow =~ s/Ź/z/g;
+		}
+		
 		# Deal with accents in sigla:
 		$siglow = "pl-lzu" if $siglum eq "PL-LŹu";
 

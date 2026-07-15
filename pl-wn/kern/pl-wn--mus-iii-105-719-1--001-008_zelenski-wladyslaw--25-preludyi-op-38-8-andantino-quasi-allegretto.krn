@@ -23,14 +23,15 @@
 !!!URL-scan: https://polona2.pl/item/25-preludyi-2-3-i-4-glosowych-na-organ-lub-fisharmonike-do-uzytku-organistow-i,ODE1NjEwMzc/2 @EN{Scan on Polona} @PL{Skany w portalu Polona}
 !!!IIIF: https://polona2.pl/iiif/item/ODE1NjEwMzc/manifest.json
 !!!ONB-nifc:
-!!!AIN: 1 organ
+!!!OMD: 8. Andantino quasi Allegretto.
+!!!AIN: 1 organ 1 physh
 !!!key: g
 **kern	**fing	**kern	**fing	**dynam
-*part1	*	*part1	*	*
-*staff2	*	*staff1	*	*
-*I"[Organ]	*	*I"[Organ]	*	*
-*Iorgan	*	*Iorgan	*	*
+*part1	*part1	*part1	*part1	*part1
+*staff2	*staff2	*staff1	*staff1	*staff1/2
 *ICklav	*	*ICklav	*	*
+*Iorgan|Iphysh	*	*Iorgan|Iphysh	*	*
+*I"	*	*I"	*	*
 *clefF4	*	*clefG2	*	*
 *k[b-e-]	*	*k[b-e-]	*	*
 *g:	*	*g:	*	*
@@ -62,7 +63,7 @@
 4D\	.	(2B-/	.	.
 4G\)	.	.	.	.
 =5	=5	=5	=5	=5
-!	!	!	!	!LO:HP:b:t=poco cresc.
+!	!	!	!	!LO:HP:t=poco %s
 4r	.	[4b-\	.	<
 (4G\	4	12b-/L]	.	.
 .	.	12g/	3	.
@@ -94,8 +95,8 @@
 4A\)	.	4r	.	.
 =9	=9	=9	=9	=9
 ([4d\	.	12r	.	p
-.	.	(12dd/L	.	<
-.	.	12en/J	.	.
+.	.	(12dd/L	.	.
+.	.	12en/J	.	<
 12d\L]	.	12f#X/L	.	.
 12B-\	2	12g/	.	.
 12F#X\J	4	12a/J	1	.
@@ -147,7 +148,7 @@
 12G\L	1	12b-/L	.	.
 12F\	2	12a-X/	.	.
 12G\J	1	12b-/J	.	.
-[4A-X\	3	4cc\)	.	.
+[4A-X\	2	4cc\)	.	.
 12A-\L]	.	(4d/	.	.
 12G\	.	.	.	.
 12F\J	.	.	.	.
@@ -216,7 +217,7 @@
 .	.	12a/	.	.
 .	.	12b-/J	.	.
 =23	=23	=23	=23	=23
-(12BB-/L	1	12dd\L	.	.
+(12BB-/L	4	12dd\L	.	.
 12C/	.	12b-\	.	.
 12D/J	.	12a\J	.	.
 4E-'\)	1	12g/L	.	.
@@ -286,11 +287,11 @@
 .	.	12f/J	.	.
 !!LO:LB:g=original
 =31	=31	=31	=31	=31
-*xywh-#15:349,3090,5260,1504	*	*xywh-#15:349,3090,5260,1504	*	*
+*xywh-#15:416,3114,4928,851	*	*xywh-#15:416,3114,4928,851	*	*
 12E-\L	2	12g/L	5	.
 12D\	3	12f#X/	2	.
-12E-\J	2	12g/J	3	.
-4C/)	5	12b-/L	.	<
+12E-\J	2	12g/J	3	<
+4C/)	5	12b-/L	.	.
 .	.	12a/	.	.
 .	.	12g/J	.	.
 (4c\	.	12f#/L	.	.
@@ -341,7 +342,7 @@
 12D\	.	.	.	.
 12E-\J	.	.	.	.
 =37	=37	=37	=37	=37
-4G\	.	[4a-X/	.	.
+4F\	.	[4a-X/	.	.
 4D\	.	12a-/L])	.	.
 .	.	(>12f/	.	.
 .	.	12c/J	.	.
@@ -364,12 +365,12 @@
 4r	.	4r	.	.
 ==	==	==	==	==
 *-	*-	*-	*-	*-
-!!!system-decoration: {(s1,s2)}
+!!!system-decoration: {(*)}
 !!!RDF**kern: > = above
 !!!RDF**kern: < = below
 !!!ENC: Anastazja Marusiak
 !!!END: 2022-03-11
-!!!ENC: Kamil Watkowski
-!!!END: 2022-03-15
+!!!EED: Kamil Watkowski
+!!!EEV: 2022-03-15
 !!!ENC-iiif: Jan Barakat
 !!!END-iiif: 2022-08-31

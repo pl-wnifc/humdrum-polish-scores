@@ -42,7 +42,6 @@
 =1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1	=1
 *	*	*tremolo	*	*tremolo	*	*	*	*	*	*	*
 *2\right	*	*2\right	*	*2\right	*	*	*	*	*	*2\right	*2\right
-!!mixed beam:problem
 !LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!	!LO:TX:t=P:problem=all\right&colon; global	!	!	!	!LO:TX:t=P:problem=all\right&colon; global	!LO:TX:t=P:problem=all\right&colon; global
 !LO:TX:t=P:problem=mixed beam	!	!LO:TX:a:t=Quoniam	!	!LO:TX:a:t=Quoniam	!	!	!	!	!	!	!LO:TX:a:t=Quoniam
 !	!	!LO:TX:a:t=Moderato	!	!LO:TX:a:t=Moderato	!	!LO:TX:a:t=Mod&colon; Solo	!	!LO:TX:a:t=Quoniam Tacet	!LO:TX:a:t=Quoniam Tacett.	!	!LO:TX:a:t=Moderato.
@@ -55,7 +54,6 @@
 8E\J	.	16c/	.	16c/	.	.	.	.	.	8G/J	8g\J
 .	.	16c/JJ	.	16c/JJ	.	.	.	.	.	.	.
 =2	=2	=2	=2	=2	=2	=2-	=2	=2	=2	=2	=2
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8C/L	.	16c/LL	.	16e/LL	.	.	.	2ryy	2ryy	4.G/	4.g\
 .	.	16c/	.	16e/	.	.	.	.	.	.	.
@@ -75,7 +73,6 @@
 16A\	.	16a/	.	16a/	.	.	.	.	.	.	.
 16B\JJ	.	16b/JJ	.	16b/JJ	.	.	.	.	.	.	.
 =4	=4	=4	=4	=4	=4	=4-	=4	=4	=4	=4	=4
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8c\L	.	8cc\L	.	8cc\L	.	.	.	2ryy	2ryy	8r	8r
 8C/J	.	8c/J	.	8c/J	.	.	.	.	.	8G/	8g\L
@@ -88,7 +85,6 @@
 8GG/	.	8b\	.	8g\	.	.	.	.	.	.	.
 8GG/J	.	8b\J	.	8dd\J	.	.	.	.	.	.	.
 =6	=6	=6	=6	=6	=6	=6-	=6	=6	=6	=6	=6
-!!mixed beam:problem
 !	!	!	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8D\L	.	8a/L	.	8cc\L	.	.	.	2ryy	2ryy	2d/	2a\
 8D\	.	8a/	.	8a\	.	.	.	.	.	.	.
@@ -131,16 +127,14 @@
 8B\	.	8r	.	8r	.	.	.	.	.	4g\	4b\
 8G\J	.	8b\	.	8dd\	.	.	.	.	.	.	.
 =13	=13	=13	=13	=13	=13	=13-	=13	=13	=13	=13	=13
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 .	.	16qqdd/	.	16qqff/	.	.	.	.	.	.	.
 8c\L	.	8cc\L	.	8ee\L	.	0r	.	2ryy	2ryy	4r	4r
 8A\	.	16b\L	.	16dd\L	.	.	.	.	.	.	.
 .	.	16a\JJ	.	16cc\JJ	.	.	.	.	.	.	.
-!!mixed beam:problem
 !	!	!	!	!	!	!	!	!	!	!LO:TX:t=P:problem=mixed beam	!
 8d\	.	8g/L	.	8b/L	.	.	.	.	.	8g\L	8b\L
-!	!	!LO:SIC:s=8f#	!	!	!	!	!	!	!	!	!
+!	!	!LO:SIC:v:s=8f#T>/J	!	!	!	!	!	!	!	!	!
 8D/J	.	8fT>/J	.	8aT>/J	.	.	.	.	.	8d/J	8a\J
 =14	=14	=14	=14	=14	=14	=14-	=14	=14	=14	=14	=14
 8G\L	.	4g/	.	4g/	.	.	.	2ryy	2ryy	4B/	4g\
@@ -183,10 +177,13 @@
 8D\J	.	8a/J	8f#X\J	.	8ff#X\	.	.	.	.	.	.	.
 =20	=20	=20	=20	=20	=20	=20-	=20	=20	=20	=20	=20-	=20-
 *	*	*	*tremolo	*	*	*	*	*	*	*	*	*
-!	!	!LO:SIC:s=2f#	!	!	!	!	!	!	!	!	!	!
+!	!	!	!LO:SIC:v:s=8f#\L	!	!	!	!	!	!	!	!	!
 8D\L	.	8a/L	8f\L	.	4.aa\	.	.	.	2ryy	2ryy	.	.
+!	!	!	!LO:SIC:v:s=8f#\	!	!	!	!	!	!	!	!	!
 8D\	.	8a/	8f\	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:SIC:v:s=8f#\	!	!	!	!	!	!	!	!	!
 8D\	.	8a/	8f\	.	.	.	.	.	.	.	.	.
+!	!	!	!LO:SIC:v:s=8f#\J	!	!	!	!	!	!	!	!	!
 8D\J	.	8a/J	8f\J	.	8cc\	.	.	.	.	.	.	.
 *	*	*Xtremolo	*Xtremolo	*	*	*	*	*	*	*	*	*
 *	*	*v	*v	*	*	*	*	*	*	*	*	*
@@ -203,7 +200,6 @@
 8B\L	.	8r	.	8r	.	.	.	.	.	.	.
 8G\J	.	8e/	.	8g/	.	.	.	.	.	.	.
 =23	=23	=23	=23	=23	=23	=23-	=23	=23	=23	=23	=23
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8c\L	.	8e\L	.	8cc\L	.	.	.	2ryy	2ryy	[>2G/	2a\
 8C/	.	8cc\	.	8ee\	.	.	.	.	.	.	.
@@ -226,7 +222,6 @@
 8GG/	.	.	.	.	.	.	.	.	.	4r	4r
 8GG/J	.	8dd\	.	8ff\	.	.	.	.	.	.	.
 =27	=27	=27	=27	=27	=27	=27-	=27	=27	=27	=27	=27
-!!mixed beam:problem
 !	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!
 8C/L	.	8cc\L	.	8ee\L	.	.	.	2ryy	2ryy	[>2G/	2g\
 8C/	.	8e/	.	8cc\	.	.	.	.	.	.	.
@@ -259,7 +254,6 @@
 8F/J	.	16ee\	.	16gg\	.	.	.	.	.	.	.
 .	.	16dd\JJ	.	16ff\JJ	.	.	.	.	.	.	.
 =32	=32	=32	=32	=32	=32	=32-	=32	=32	=32	=32	=32
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8G\L	.	4cc\	.	4ee\	.	.	.	2ryy	2ryy	4g\	4cc\
 8G\	.	.	.	.	.	.	.	.	.	.	.
@@ -267,7 +261,6 @@
 8GG/J	.	.	.	.	.	.	.	.	.	.	.
 !LO:LB:g=original	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
 =33	=33	=33	=33	=33	=33	=33-	=33	=33	=33	=33	=33
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8C/L	.	4cc\	.	4cc\	.	1r	.	2ryy	2ryy	4G/	4g\
 8c\	.	.	.	.	.	.	.	.	.	.	.
@@ -280,7 +273,6 @@
 .	.	.	.	8G/	.	.	.	.	.	.	.
 =35:|!;>	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35	=35
 *	*	*tremolo	*	*tremolo	*	*	*	*	*	*	*
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!LO:TX:a:t=Solo.	!LO:DY:b:rj:t=p&colon;	!LO:TX:a:t=Solo	!LO:DY:b:rj:t=p&colon;	!	!	!	!	!	!
 8C/L	.	16c/LL	p	16c/LL	p	8.C/	Quo-	2ryy	2ryy	1r	1r
 .	.	16c/	.	16c/	.	.	.	.	.	.	.
@@ -291,7 +283,6 @@
 8E\J	.	16c/	.	16c/	.	8C/	tu	.	.	.	.
 .	.	16c/JJ	.	16c/JJ	.	.	.	.	.	.	.
 =36	=36	=36	=36	=36	=36	=36	=36	=36	=36	=36-	=36-
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8C/L	.	16c/LL	.	16e/LL	.	4.E\	So-	2ryy	2ryy	.	.
 .	.	16c/	.	16e/	.	.	.	.	.	.	.
@@ -311,7 +302,6 @@
 16A\	.	16a/	.	16a/	.	16A\	-lus	.	.	.	.
 16B\JJ	.	16b/JJ	.	16b/JJ	.	16B\JJ	.	.	.	.	.
 =38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38	=38
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8c\L	.	8cc\L	.	8cc\L	.	8c\	San-	2ryy	2ryy	8r	8r
 8C/J	.	8c/J	.	8c/J	.	8C/	-ctus	.	.	8g\L	8g\L
@@ -380,7 +370,6 @@
 8D/J	.	8A/J	.	8f#Xt>/J	.	8F#Xt>\J	.	.	.	.	.
 =48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48	=48
 *	*	*tremolo	*	*tremolo	*	*	*	*	*	*	*
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!LO:TX:a:t=Tut&colon;	!LO:DY:b:rj:t=for.	!LO:TX:a:t=Tut&colon;	!LO:DY:b:rj:t=for.	!	!	!	!	!	!
 8GG/L	.	16B/LL	f	16g/LL	f	4G\	-ste	2ryy	2ryy	8.B/L	8.g\L
 .	.	16B/	.	16g/	.	.	.	.	.	.	.
@@ -391,7 +380,6 @@
 8BB\J	.	16B/	.	16g/	.	.	.	.	.	8B/J	8g\J
 .	.	16B/JJ	.	16g/JJ	.	.	.	.	.	.	.
 =49	=49	=49	=49	=49	=49	=49	=49	=49	=49	=49	=49
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8GG/L	.	16g/LL	.	16b\LL	.	0r	.	2ryy	2ryy	4.g\	4.b\
 .	.	16g/	.	16b\	.	.	.	.	.	.	.
@@ -412,7 +400,6 @@
 16F#X/JJ	.	16ff#X\JJ	.	16ff#X\JJ	.	.	.	.	.	.	.
 !	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
 =51	=51	=51	=51	=51	=51	=51-	=51	=51	=51	=51	=51
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8G\L	.	8gg\L	.	8gg\L	.	.	.	2ryy	2ryy	8r	8r
 16GG/L	.	8g/J	.	8g/J	.	.	.	.	.	16g\LL	16b\LL
@@ -433,7 +420,7 @@
 8AA/J	.	8ee\J	.	8gg\J	.	.	.	.	.	.	.
 *Xtremolo	*	*Xtremolo	*	*	*	*	*	*	*	*	*
 =54	=54	=54	=54	=54	=54	=54-	=54	=54	=54	=54-	=54-
-!	!	!LO:SIC:s=16ff#	!	!LO:SIC:s=16ff#	!	!	!	!	!	!	!
+!	!	!LO:SIC:v:s=16ff#\LL	!	!LO:SIC:v:s=16ff#\LL	!	!	!	!	!	!	!
 16D\LL	.	16ff\LL	.	16ff\LL	.	.	.	2ryy	2ryy	.	.
 16d\	.	16dd\	.	16dd\	.	.	.	.	.	.	.
 16c#X\	.	16cc#X\	.	16cc#X\	.	.	.	.	.	.	.
@@ -498,7 +485,6 @@
 8D/	.	8B/L	.	8g/L	.	.	.	.	.	8g/L	8b\L
 8D/J	.	8A/J	.	8f#X/J	.	.	.	.	.	8d/J	8a\J
 =62	=62	=62	=62	=62	=62	=62-	=62	=62	=62	=62	=62
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8GG/L	.	4B/	.	4g/	.	.	.	2ryy	2ryy	4B/	4g\
 8G\	.	.	.	.	.	.	.	.	.	.	.
@@ -511,7 +497,6 @@
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
 =64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64	=64
 *	*	*tremolo	*	*tremolo	*	*	*	*	*	*	*
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!LO:TX:a:t=Solo	!LO:DY:b:rj:t=pia	!LO:TX:a:t=Solo	!LO:DY:b:B:t=pia	!	!	!	!	!LO:TX:a:t=3.	!
 8GG/L	.	16B/LL	p	16g/LL	p	8.GG/	Quo-	2ryy	2ryy	2r	1r
 .	.	16B/	.	16g/	.	.	.	.	.	.	.
@@ -522,7 +507,6 @@
 8BB\J	.	16B/	.	16g/	.	8GG/	tu	.	.	.	.
 .	.	16B/JJ	.	16g/JJ	.	.	.	.	.	.	.
 =65	=65	=65	=65	=65	=65	=65	=65	=65	=65	=65-	=65-
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8GG/L	.	16g/LL	.	16b\LL	.	4.BB/	So-	2ryy	2ryy	2r	.
 .	.	16g/	.	16b\	.	.	.	.	.	.	.
@@ -544,7 +528,6 @@
 16F#X\JJ	.	16ff#X\JJ	.	16ff#X\JJ	.	16F#X\JJ	.	.	.	.	.
 !LO:PB:g=original	!	!	!	!	!	!	!	!	!	!LO:LB:g=original	!
 =67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67	=67
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8G\L	.	8gg\L	.	8gg\L	.	8G\	San-	2ryy	2ryy	8r	8r
 16GG/L	.	8g/J	.	8g/J	.	8GG/	-ctus	.	.	16g\LL	16b\LL
@@ -641,10 +624,13 @@
 16GG/JJ	.	16G/JJ	.	16G/JJ	.	.	.	.	.	.	.
 =80	=80	=80	=80	=80	=80	=80	=80	=80	=80	=80-	=80-
 *	*	*tremolo	*	*tremolo	*	*	*	*	*	*	*
-!	!LO:DY:a:t=pia.	!LO:SIC:s=2a	!LO:DY:b:B:t=pia	!	!LO:DY:b:t=pia	!	!	!	!	!	!
+!	!LO:DY:a:t=pia.	!LO:SIC:v:s=8a/L	!LO:DY:b:B:t=pia	!	!LO:DY:b:t=pia	!	!	!	!	!	!
 8D\L	p	8g/L	p	8cc\L	p	8c\L	So-	2ryy	2ryy	0r	0r
+!	!	!LO:SIC:v:s=8a/	!	!	!	!	!	!	!	!	!
 8D\	.	8g/	.	8cc\	.	8A\	.	.	.	.	.
+!	!	!LO:SIC:v:s=8a/	!	!	!	!	!	!	!	!	!
 8D\	.	8g/	.	8cc\	.	8F#X\	.	.	.	.	.
+!	!	!LO:SIC:v:s=8a/J	!	!	!	!	!	!	!	!	!
 8D\J	.	8g/J	.	8cc\J	.	8A\J	-lus	.	.	.	.
 =81	=81	=81	=81	=81	=81	=81	=81	=81	=81	=81-	=81-
 8D\L	.	8a/L	.	8cc\L	.	8F#X\L	San-	2ryy	2ryy	.	.
@@ -670,7 +656,7 @@
 8D\J	.	8a/J	.	8cc\J	.	8A\	al-	.	.	.	.
 =85	=85	=85	=85	=85	=85	=85	=85	=85	=85	=85-	=85-
 8D\L	.	8a/L	.	8cc\L	.	8D\L	-tiſ-	2ryy	2ryy	.	.
-!	!	!	!	!	!	!LO:SIC:s=8F#	!	!	!	!	!
+!	!	!	!	!	!	!LO:SIC:v:s=8F#\J	!	!	!	!	!
 8D\	.	8a/	.	8cc\	.	8F\J	.	.	.	.	.
 8D\	.	8a/	.	8cc\	.	8A\	-si-	.	.	.	.
 8D\J	.	8a/J	.	8cc\J	.	8c\	-mus	.	.	.	.
@@ -693,7 +679,7 @@
 !	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
 =89	=89	=89	=89	=89	=89	=89	=89	=89	=89	=89-	=89-
 8D\L	.	8a/L	.	8cc\L	.	8D\L	-tiſ-	2ryy	2ryy	.	.
-!	!	!	!	!	!	!LO:SIC:s=8F#	!	!	!	!	!
+!	!	!	!	!	!	!LO:SIC:v:s=8F#\J	!	!	!	!	!
 8D\	.	8a/	.	8cc\	.	8F\J	.	.	.	.	.
 8D\	.	8a/	.	8cc\	.	8A\	-si-	.	.	.	.
 8D\J	.	8a/J	.	8cc\J	.	8c\	-mus	.	.	.	.
@@ -705,7 +691,6 @@
 8c\	.	8cc/J	.	8ee\J	.	8e\J	-su	.	.	.	.
 =91	=91	=91	=91	=91	=91	=91	=91	=91	=91	=91-	=91-
 *	*	*tremolo	*	*	*	*	*	*	*	*	*
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8d\L	.	16g/LL	.	16cc/LL	.	16c\LL	Chriſ-	2ryy	2ryy	.	.
 .	.	16g/	.	16b/	.	16B\	.	.	.	.	.
@@ -741,7 +726,6 @@
 !	!	!	!	!LO:LB:g=original	!	!	!	!	!	!	!
 =98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98	=98
 *	*	*tremolo	*	*tremolo	*	*	*	*	*	*	*
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!LO:DY:b:B:t=p&colon;	!	!	!	!	!	!	!	!	!	!
 8C/L	p	16c/LL	.	16c/LL	.	8.C/	Quo-	2ryy	2ryy	8.G/L	8.g\L
 .	.	16c/	.	16c/	.	.	.	.	.	.	.
@@ -752,7 +736,6 @@
 8E\J	.	16c/	.	16c/	.	8C/	tu	.	.	8G/J	8g\J
 .	.	16c/JJ	.	16c/JJ	.	.	.	.	.	.	.
 =99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99	=99
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8C/L	.	16c/LL	.	16e/LL	.	4.E\	So-	2ryy	2ryy	4.G/	4.g\
 .	.	16c/	.	16e/	.	.	.	.	.	.	.
@@ -774,7 +757,6 @@
 16B\JJ	.	16b/JJ	.	16b/JJ	.	16B\JJ	.	.	.	.	.
 !	!	!	!	!	!	!LO:LB:g=original	!	!	!	!	!
 =101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101	=101
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!
 8c\L	.	8cc\L	.	8cc\L	.	16.c\	Do-	2ryy	2ryy	8r	8r
 .	.	.	.	.	.	32C/	-mi-	.	.	.	.
@@ -791,10 +773,9 @@
 (>8F\L	.	8f/L	.	8f/L	.	8F\L	-tiſ-	2ryy	2ryy	.	.
 8G\)	.	8g/	.	8g/	.	8G\J	.	.	.	.	.
 (>8E\	.	8e/	.	8e/	.	8E\	-si-	.	.	.	.
-!LO:SIC:s=8F	!	!	!	!	!	!	!	!	!	!	!
+!LO:SIC:v:s=8F\J)	!	!	!	!	!	!	!	!	!	!	!
 8G\J)	.	8f/J	.	8f/J	.	8F\	-mus	.	.	.	.
 =104	=104	=104	=104	=104	=104	=104	=104	=104	=104	=104-	=104-
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!	!	!	!	!	!	!	!	!	!	!
 8E\L	.	16f/LL	.	16f/LL	.	16F\LL	Je-	2ryy	2ryy	.	.
 .	.	16e/	.	16e/	.	16E\	.	.	.	.	.
@@ -804,7 +785,6 @@
 8G\	.	8g/L	.	8g/L	.	8G\	Chri-	.	.	.	.
 8GG/J	.	8G/J	.	8G/J	.	8GG/	.	.	.	.	.
 =105	=105	=105	=105	=105	=105	=105	=105	=105	=105	=105-	=105-
-!!mixed beam:problem
 !LO:TX:t=P:problem=mixed beam	!LO:DY:b:B:t=for.	!	!	!	!	!	!	!	!	!	!
 8C/L	f	8c/	.	8c/	.	4C/	-ste	2ryy	2ryy	.	.
 16c\L	.	4cc\	.	4ee\	.	.	.	.	.	.	.
